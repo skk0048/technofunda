@@ -587,7 +587,7 @@ def calc_pct_from_52w_high(series_d) -> float:
 def build_dashboard_df(stock_df: pd.DataFrame,
                         sector_str_df: pd.DataFrame,
                         market: str,
-                        run_time: str) -> pd.DataFrame:
+                        run_time: str, primary_rs=55) -> pd.DataFrame:
     """
     Build 📋 Dashboard as a two-column DataFrame with:
     system info, signal counts, methodology, sector ranking, TV watchlist.
