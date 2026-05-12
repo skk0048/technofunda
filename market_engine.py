@@ -1,6 +1,6 @@
 """
 ╔══════════════════════════════════════════════════════════════════════════════╗
-║  UNIFIED MARKET ANALYSIS ENGINE  v5.2                                      ║
+║  UNIFIED MARKET ANALYSIS ENGINE  v5.5                                      ║
 ║  Shared core — India & US markets                                          ║
 ║                                                                            ║
 ║  v5.2 additions:                                                           ║
@@ -883,7 +883,7 @@ def build_market_snapshot(market):
 # ─────────────────────────────────────────────────────────────────────────────
 #  ❷ SECTOR STRENGTH
 # ─────────────────────────────────────────────────────────────────────────────
-def build_sector_strength(universe, price_data, index_prices, sector_prices):
+def build_sector_strength(universe, price_data, index_prices, sector_prices, primary_rs=55):
     rows=[]
     for sec,s_pr in sector_prices.items():
         if isinstance(s_pr,pd.Series) and len(s_pr)<22: continue
@@ -904,31 +904,49 @@ def build_sector_strength(universe, price_data, index_prices, sector_prices):
             if not np.isnan(c5): chg5v.append(c5)
         avg1=round(float(np.mean(chg1v)),2) if chg1v else np.nan
         avg5=round(float(np.mean(chg5v)),2) if chg5v else np.nan
-        vi=(rs22==rs22 and rs55==rs55)
+
+        # ── Signal: driven by primary_rs, confirmed by next shorter period ──
+        rs_val = {22: rs22, 55: rs55, 120: rs120}.get(primary_rs, rs55)
+        rs_confirm = {22: np.nan, 55: rs22, 120: rs55}.get(primary_rs, rs22)
+        vi = (rs_val == rs_val)  # True if not NaN
         if vi:
-            if rs22>0 and rs55>0: sig="Buy"
-            elif rs22<0 and rs55<0: sig="Sell"
-            else: sig="Neutral"
-        else: sig="Neutral"
+            if rs_val > 0 and (np.isnan(rs_confirm) or rs_confirm > 0): sig = "Buy"
+            elif rs_val < 0 and (np.isnan(rs_confirm) or rs_confirm < 0): sig = "Sell"
+            else: sig = "Neutral"
+        else:
+            sig = "Neutral"
+
         trend="Bullish" if sig=="Buy" else ("Bearish" if sig=="Sell" else "Mixed")
         rows.append({"Sector":sec,"Stocks":len(syms),"Adv":adv,"Dec":dec,"Adv/Dec":f"{adv}/{dec}",
                      "Avg_Chg_1D%":avg1,"Avg_Chg_5D%":avg5,"RS_22d%":rs22p,"RS_55d%":rs55p,
-                     "RS_120d%":rs120p,"RSI_14":round(rsi,1) if rsi==rsi else np.nan,"Signal":sig,"Trend":trend})
+                     "RS_120d%":rs120p,"RSI_14":round(rsi,1) if rsi==rsi else np.nan,
+                     "Signal":sig,"Trend":trend,"Primary_RS_Period":primary_rs})
     if not rows: return pd.DataFrame()
-    df=pd.DataFrame(rows).sort_values("RS_55d%",ascending=False,na_position="last").reset_index(drop=True)
-    df.insert(0,"Rank",df.index+1); return df
+
+    # ── Sort by chosen primary period ──
+    sort_col = {22:"RS_22d%", 55:"RS_55d%", 120:"RS_120d%"}.get(primary_rs, "RS_55d%")
+    df=pd.DataFrame(rows).sort_values(sort_col,ascending=False,na_position="last").reset_index(drop=True)
+    df.insert(0,"Rank",df.index+1)
+    return df
 
 # ─────────────────────────────────────────────────────────────────────────────
 #  ❸ SECTOR ROTATION (trimmed)
 # ─────────────────────────────────────────────────────────────────────────────
-def build_sector_rotation(universe, price_data, index_prices):
+def build_sector_rotation(universe, price_data, index_prices, primary_rs=55):
     rows=[]
     for sec in sorted(universe["Sector"].unique()):
         syms=universe[universe["Sector"]==sec]["Yahoo"].tolist()
         row=rotation_row(syms,price_data,index_prices,sec)
         if row: rows.append(row)
     if not rows: return pd.DataFrame()
-    df=pd.DataFrame(rows).sort_values("RS55%",ascending=False).reset_index(drop=True)
+
+    # ── Sort by chosen primary period (RS120/252 not in rotation_row, fallback to RS55) ──
+    sort_col = {22:"RS22%", 55:"RS55%"}.get(primary_rs, "RS55%")
+    all_cols = list(pd.DataFrame(rows).columns)
+    if sort_col not in all_cols:
+        sort_col = "RS55%"
+
+    df=pd.DataFrame(rows).sort_values(sort_col,ascending=False).reset_index(drop=True)
     df.insert(0,"Rank",df.index+1)
     keep=["Rank","Name","Stocks","Adv/Dec","RS22%","RS55%","RSI50%","AbvSMA20%","AbvSMA50%","AbvSMA100%",
           "1M_Score","1M_Zone","3M_Score","3M_Zone","6M_Score","6M_Zone"]
@@ -937,7 +955,7 @@ def build_sector_rotation(universe, price_data, index_prices):
 # ─────────────────────────────────────────────────────────────────────────────
 #  ❹ INDUSTRY ROTATION (trimmed)
 # ─────────────────────────────────────────────────────────────────────────────
-def build_industry_rotation(universe, price_data, index_prices):
+def build_industry_rotation(universe, price_data, index_prices, primary_rs=55):
     rows=[]
     for ind in sorted(universe["Industry"].unique()):
         syms=universe[universe["Industry"]==ind]["Yahoo"].tolist()
@@ -1017,29 +1035,40 @@ def build_sector_performance(sector_prices, index_prices):
 # ─────────────────────────────────────────────────────────────────────────────
 def build_stock_strength(universe, price_data, index_prices, sector_prices,
                           patterns_by_sym, ohlcv_dict=None,
-                          market="INDIA", fetch_financials=True):
+                          market="INDIA", fetch_financials=True, primary_rs=55):
     """
     Per-stock columns added in v5.2:
-    Supertrend (daily), Supertrend_W (weekly),
-    W_RS21%, W_RS30%, W_RSI, M_RS12%, M_RSI,
-    W_EMA10, W_EMA30, W_EMA10_gtEMA30,
-    EMA200_D, Abv_EMA200,
+    Supertrend (daily + weekly), W_RS21%, W_RS30%, W_RSI, M_RS12%, M_RSI,
+    W_EMA10, W_EMA30, W_EMA10_gtEMA30, EMA200_D, Abv_EMA200,
     Swing_High_20d, Swing_Low_20d, Breakout_Up,
     SL_Buy%, SL_Sell%, SL_Buy_Price, SL_Grade,
-    MST_Signal, LST_Signal, RS30_Signal,
+    MST_Signal, LST_Signal, RS30_Signal
 
-    SIGNAL LOGIC:
-    Buy:  RS_22d_Idx>0 AND RS_55d_Idx>0
-          AND (if sector) RS_22d_Sec>0 AND RS_55d_Sec>0
-    Sell: same conditions but all negative
-    Strong Buy: Buy + Beats_Sec + Beats_Ind + Sec_Beats + Ind_Beats
+    SIGNAL LOGIC (driven by primary_rs):
+    primary_rs=55 → uses RS_22d (confirm) + RS_55d (primary)
+    primary_rs=22 → uses RS_22d only (both index and sector)
+    primary_rs=120→ uses RS_55d (confirm) + RS_120d (primary)
     """
-    p1,p2=SIGNAL_PERIODS; total=len(universe)
-    sr,ir,srs,irs=peer_group_metrics(universe,price_data,index_prices)
+    # ── Determine which RS periods to use for signals ──────────────────────
+    # primary_col  : main RS period index (drives the signal)
+    # confirm_col  : shorter RS for confirmation (can be None)
+    rs_col_map = {22: 22, 55: 55, 120: 120, 252: 252}
+    rs_primary_period  = rs_col_map.get(primary_rs, 55)
+    rs_confirm_period  = {22: None, 55: 22, 120: 55, 252: 120}.get(primary_rs, 22)
+
+    p1 = rs_confirm_period if rs_confirm_period else rs_primary_period
+    p2 = rs_primary_period
+    # p1, p2 used for column naming: RS_{p1}d_Idx%, RS_{p2}d_Idx%
+    # If primary=22, p1=p2=22 so only one RS period is used
+
+    total=len(universe)
+    sr,ir,srs,irs=peer_group_metrics(universe,price_data,index_prices,
+                                      periods=[p for p in [p1,p2] if p])
     sec_idx_rs={}
     for sname,s_pr in sector_prices.items():
         if isinstance(s_pr,pd.Series) and len(s_pr)>=22:
-            sec_idx_rs[sname]={p:calc_rs(s_pr,index_prices,p) for p in SIGNAL_PERIODS}
+            periods_to_calc = list({p for p in [p1,p2] if p})
+            sec_idx_rs[sname]={p:calc_rs(s_pr,index_prices,p) for p in periods_to_calc}
     def _best_sec_rs(sname,p):
         v=sec_idx_rs.get(sname,{}).get(p,np.nan)
         return v if v==v else srs.get(sname,{}).get(p,np.nan)
@@ -1053,25 +1082,45 @@ def build_stock_strength(universe, price_data, index_prices, sector_prices,
         if len(prices)<22: continue
         cur=float(prices.iloc[-1])
         s_pr=sector_prices.get(sector); s_ok=isinstance(s_pr,pd.Series) and len(s_pr)>=22
-        rs_idx={p:calc_rs(prices,index_prices,p) for p in RS_PERIODS}
-        rs_sec={p:(calc_rs(prices,s_pr,p) if s_ok else np.nan) for p in SIGNAL_PERIODS}
-        r_i1,r_i2=rs_idx.get(p1,np.nan),rs_idx.get(p2,np.nan)
-        r_s1,r_s2=rs_sec.get(p1,np.nan),rs_sec.get(p2,np.nan)
-        vi=not np.isnan(r_i1) and not np.isnan(r_i2)
-        vs=not np.isnan(r_s1) and not np.isnan(r_s2)
-        # ── SIGNAL ──────────────────────────────────────────────────────────
-        if vi and vs:
-            if r_i1>0 and r_i2>0 and r_s1>0 and r_s2>0: sig="Buy"
-            elif r_i1<0 and r_i2<0 and r_s1<0 and r_s2<0: sig="Sell"
-            else: sig="Neutral"
-        elif vi:
-            if r_i1>0 and r_i2>0: sig="Buy"
-            elif r_i1<0 and r_i2<0: sig="Sell"
-            else: sig="Neutral"
-        else: sig="Neutral"
-        # ── PEER ────────────────────────────────────────────────────────────
-        ret_p2=pct_change_n(prices,p2)
-        sa=sr.get(sector,{}).get(p2,np.nan); ia=ir.get(industry,{}).get(p2,np.nan)
+
+        # ── Compute all RS periods for display columns (always all 4) ──────
+        rs_idx_all={p:calc_rs(prices,index_prices,p) for p in RS_PERIODS}
+
+        # ── RS for signal logic (primary + confirm periods only) ────────────
+        r_i_primary = calc_rs(prices, index_prices, p2)
+        r_i_confirm = calc_rs(prices, index_prices, p1) if p1 != p2 else r_i_primary
+        r_s_primary = calc_rs(prices, s_pr, p2) if s_ok else np.nan
+        r_s_confirm = calc_rs(prices, s_pr, p1) if (s_ok and p1 != p2) else r_s_primary
+
+        vi_primary = not np.isnan(r_i_primary)
+        vi_confirm = not np.isnan(r_i_confirm)
+        vs_primary = not np.isnan(r_s_primary)
+        vs_confirm = not np.isnan(r_s_confirm)
+
+        # ── SIGNAL: primary RS must be positive; confirm RS also if available
+        def _sig_check(primary_val, confirm_val):
+            if np.isnan(primary_val): return None
+            if p1 == p2:  # only one period (e.g. primary_rs=22)
+                return "pos" if primary_val > 0 else ("neg" if primary_val < 0 else "flat")
+            c_ok_pos = np.isnan(confirm_val) or confirm_val > 0
+            c_ok_neg = np.isnan(confirm_val) or confirm_val < 0
+            if primary_val > 0 and c_ok_pos: return "pos"
+            if primary_val < 0 and c_ok_neg: return "neg"
+            return "flat"
+
+        idx_chk = _sig_check(r_i_primary, r_i_confirm)
+        sec_chk = _sig_check(r_s_primary, r_s_confirm)
+
+        if idx_chk == "pos" and (sec_chk == "pos" or sec_chk is None):
+            sig = "Buy"
+        elif idx_chk == "neg" and (sec_chk == "neg" or sec_chk is None):
+            sig = "Sell"
+        else:
+            sig = "Neutral"
+
+        # ── PEER comparison (use p2 = primary period) ───────────────────────
+        ret_p2 = pct_change_n(prices, p2)
+        sa = sr.get(sector,{}).get(p2,np.nan); ia = ir.get(industry,{}).get(p2,np.nan)
         def _b(a,b_): return a>=b_ if (a==a and b_==b_) else None
         b_sec=_b(ret_p2,sa); b_ind=_b(ret_p2,ia)
         sec_rs_p2=_best_sec_rs(sector,p2)
@@ -1080,6 +1129,7 @@ def build_stock_strength(universe, price_data, index_prices, sector_prices,
         i_beats=(ind_rs_p2>0) if ind_rs_p2==ind_rs_p2 else None
         def _t(f): return "✓" if f is True else ("✗" if f is False else "—")
         enh="Strong Buy" if (sig=="Buy" and b_sec is True and b_ind is True and s_beats is True and i_beats is True) else sig
+
         # ── BASIC TECHNICALS ────────────────────────────────────────────────
         tech=get_technicals(prices)
         h_day=days_since_high(prices,HL_LOOKBACK)
@@ -1090,124 +1140,86 @@ def build_stock_strength(universe, price_data, index_prices, sector_prices,
         bep=[p.pattern for p in pats if p.direction=="BEARISH"]
         cp=("🟢 "+bp[0]) if bp else (("🔴 "+bep[0]) if bep else "")
         fin=fin_data.get(sym,{})
+
         # ── v5.2: OHLCV-BASED SIGNALS ───────────────────────────────────────
         ohlcv_df = ohlcv_dict.get(sym) if ohlcv_dict else None
         high_s = ohlcv_df["High"]  if ohlcv_df is not None and "High"  in ohlcv_df.columns else None
         low_s  = ohlcv_df["Low"]   if ohlcv_df is not None and "Low"   in ohlcv_df.columns else None
 
-        # Supertrend daily
         st_line_d, st_dir_s = calc_supertrend_from_df(ohlcv_df, MST_ST_PERIOD, MST_ST_FACTOR)
         st_line_w, st_dir_w_s = calc_supertrend_from_df(ohlcv_df, LST_ST_PERIOD, LST_ST_FACTOR, freq='W')
-
         st_dir = "Buy" if len(st_dir_s) and int(st_dir_s.iloc[-1]) == 1 else "Sell" if len(st_dir_s) and int(st_dir_s.iloc[-1]) == -1 else "N/A"
         st_dir_w = "Buy" if len(st_dir_w_s) and int(st_dir_w_s.iloc[-1]) == 1 else "Sell" if len(st_dir_w_s) and int(st_dir_w_s.iloc[-1]) == -1 else "N/A"
-
-        # Swing High/Low → SL
         swing_d = calc_swing_sl(prices, high_s, low_s, lookback=20)
-
-        # Multi-TF RS
-        w_rs21 = calc_rs_tf(prices, index_prices, MST_RS_HTF, 'W')   # Weekly RS(21)
-        w_rs30 = calc_rs_tf(prices, index_prices, RS30_RS_PERIOD, 'W') # Weekly RS(30)
-        m_rs12 = calc_rs_tf(prices, index_prices, LST_RS_HTF,  'M')   # Monthly RS(12)
-
-        # Multi-TF RSI
-        w_rsi  = calc_rsi_tf(prices, MST_RSI_LEN,  'W')   # Weekly RSI(14)
-        m_rsi  = calc_rsi_tf(prices, LST_RSI_LEN,  'M')   # Monthly RSI(12)
-
-        # Weekly EMA (for RS30 filter)
-        w_ema10 = calc_ema_tf(prices, RS30_EMA_S, 'W')   # Weekly EMA(10)
-        w_ema30 = calc_ema_tf(prices, RS30_EMA_L, 'W')   # Weekly EMA(30)
-
-        # Daily EMA(200) for MST/LST entry filter
+        w_rs21 = calc_rs_tf(prices, index_prices, MST_RS_HTF, 'W')
+        w_rs30 = calc_rs_tf(prices, index_prices, RS30_RS_PERIOD, 'W')
+        m_rs12 = calc_rs_tf(prices, index_prices, LST_RS_HTF,  'M')
+        w_rsi  = calc_rsi_tf(prices, MST_RSI_LEN,  'W')
+        m_rsi  = calc_rsi_tf(prices, LST_RSI_LEN,  'M')
+        w_ema10 = calc_ema_tf(prices, RS30_EMA_S, 'W')
+        w_ema30 = calc_ema_tf(prices, RS30_EMA_L, 'W')
         ema200_d = calc_ema_tf(prices, 200, 'D')
 
-        # ── MST SIGNAL ────────────────────────────────────────────────────────
-        mst_sig = calc_mst_signal(
-            prices,
-            index_prices,
-            st_dir,
-            swing_d,
-            r_i2,
-            tech["RSI_14"],
-            ema200_d,
-            w_rs21,
-            w_rsi,
-        )
-        # ── LST SIGNAL ────────────────────────────────────────────────────────
-        lst_sig = calc_lst_signal(
-            prices,        # daily close
-            index_prices,  # benchmark
-            st_dir_w,      # weekly Supertrend direction string
-            swing_d,       # swing SL dict
-            m_rs12,        # monthly RS(12) — HTF pre-condition
-            m_rsi,         # monthly RSI(12) — HTF pre-condition
-            fin,           # financial data for revenue/PAT check
-        )
-        # ── RS30 SIGNAL ───────────────────────────────────────────────────────
-        rs30_sig = calc_rs30_signal(
-            prices,        # daily close
-            index_prices,  # benchmark
-            swing_d,       # swing SL dict (has swing_high_break)
-            fin,           # financial data
-            w_rs30,        # weekly RS(30)
-            w_ema10,       # weekly EMA(10)
-            w_ema30,       # weekly EMA(30)
-            market,        # "INDIA" or "US" for MCap threshold
-        )
+        mst_sig = calc_mst_signal(prices, index_prices, st_dir, swing_d,
+                                   r_i_primary if p2==55 else calc_rs(prices,index_prices,55),
+                                   tech["RSI_14"], ema200_d, w_rs21, w_rsi)
+        lst_sig = calc_lst_signal(prices, index_prices, st_dir_w, swing_d,
+                                   m_rs12, m_rsi, fin)
+        rs30_sig = calc_rs30_signal(prices, index_prices, swing_d, fin,
+                                     w_rs30, w_ema10, w_ema30, market)
 
         sl_buy_pct  = swing_d.get("sl_buy_pct",  np.nan)
         sl_sell_pct = swing_d.get("sl_sell_pct", np.nan)
         active_sl   = sl_buy_pct if sig != "Sell" else sl_sell_pct
         grade       = sl_grade(active_sl)
 
+        # ── Column naming: always show primary RS period prominently ─────────
+        # We always store all 4 RS periods for display, but name the
+        # "signal" columns after the actual periods used
         row={
             "Symbol":orig,"TV_Symbol":_tv(orig,market),"Company":name,
             "Sector":sector,"Industry":industry,"Price":round(cur,2),
             "Chg_1D%":round(chg1,2) if chg1==chg1 else np.nan,
             "Chg_5D%":round(chg5,2) if chg5==chg5 else np.nan,
-            f"RS_{p1}d_Idx%":round(r_i1*100,2) if r_i1==r_i1 else np.nan,
-            f"RS_{p2}d_Idx%":round(r_i2*100,2) if r_i2==r_i2 else np.nan,
-            f"RS_{p1}d_Sec%":round(r_s1*100,2) if r_s1==r_s1 else np.nan,
-            f"RS_{p2}d_Sec%":round(r_s2*100,2) if r_s2==r_s2 else np.nan,
-            "RS_120d_Idx%": round(rs_idx.get(120,np.nan)*100,2) if rs_idx.get(120,np.nan)==rs_idx.get(120,np.nan) else np.nan,
-            "RS_252d_Idx%": round(rs_idx.get(252,np.nan)*100,2) if rs_idx.get(252,np.nan)==rs_idx.get(252,np.nan) else np.nan,
+            # Signal RS columns — named after actual periods used
+            f"RS_{p2}d_Idx%":round(r_i_primary*100,2) if r_i_primary==r_i_primary else np.nan,
+            f"RS_{p1}d_Idx%":round(r_i_confirm*100,2) if r_i_confirm==r_i_confirm else np.nan,
+            f"RS_{p2}d_Sec%":round(r_s_primary*100,2) if r_s_primary==r_s_primary else np.nan,
+            f"RS_{p1}d_Sec%":round(r_s_confirm*100,2) if r_s_confirm==r_s_confirm else np.nan,
+            # Always include all 4 RS periods for display / sleeve use
+            "RS_22d_Idx%":  round(rs_idx_all.get(22,np.nan)*100,2)  if rs_idx_all.get(22,np.nan)==rs_idx_all.get(22,np.nan)  else np.nan,
+            "RS_55d_Idx%":  round(rs_idx_all.get(55,np.nan)*100,2)  if rs_idx_all.get(55,np.nan)==rs_idx_all.get(55,np.nan)  else np.nan,
+            "RS_120d_Idx%": round(rs_idx_all.get(120,np.nan)*100,2) if rs_idx_all.get(120,np.nan)==rs_idx_all.get(120,np.nan) else np.nan,
+            "RS_252d_Idx%": round(rs_idx_all.get(252,np.nan)*100,2) if rs_idx_all.get(252,np.nan)==rs_idx_all.get(252,np.nan) else np.nan,
+            "Primary_RS_Period": primary_rs,
             "Signal":sig,"Enhanced":enh,
-            # Daily technicals
             "RSI_14":tech["RSI_14"],"Trend":tech["Trend"],"SMA_Score":tech["SMA_Score"],
             "Abv_SMA20":tech["Abv_SMA20"],"Abv_SMA50":tech["Abv_SMA50"],
             "Abv_SMA100":tech["Abv_SMA100"],"Abv_SMA200":tech["Abv_SMA200"],
             "EMA200_D":round(ema200_d,2) if ema200_d==ema200_d else np.nan,
             "Abv_EMA200":"✓" if (ema200_d==ema200_d and cur>ema200_d) else "✗",
             "H_Day":h_day,"From_52W_High%":round(from52,1) if from52==from52 else np.nan,
-            # v5.2: Supertrend
             "Supertrend":st_dir,"Supertrend_W":st_dir_w,
-            # v5.2: Multi-TF RS
             "W_RS21%":round(w_rs21*100,2) if w_rs21==w_rs21 else np.nan,
             "W_RS30%":round(w_rs30*100,2) if w_rs30==w_rs30 else np.nan,
             "M_RS12%":round(m_rs12*100,2) if m_rs12==m_rs12 else np.nan,
-            # v5.2: Multi-TF RSI
             "W_RSI":round(w_rsi,1) if w_rsi==w_rsi else np.nan,
             "M_RSI":round(m_rsi,1) if m_rsi==m_rsi else np.nan,
-            # v5.2: Weekly EMA for RS30
             "W_EMA10":round(w_ema10,2) if w_ema10==w_ema10 else np.nan,
             "W_EMA30":round(w_ema30,2) if w_ema30==w_ema30 else np.nan,
             "W_EMA10_gtEMA30":"✓" if (w_ema10==w_ema10 and w_ema30==w_ema30 and w_ema10>w_ema30) else "✗",
-            # v5.2: Swing HL + SL
             "Swing_High_20d":swing_d.get("swing_high",np.nan),
             "Swing_Low_20d": swing_d.get("swing_low", np.nan),
             "Breakout_Up":   "✓" if swing_d.get("is_breakout_up") else "✗",
-            "SL_Buy%":       sl_buy_pct,   # % from current to swing low (stop for buys)
-            "SL_Sell%":      sl_sell_pct,  # % from swing high to current (stop for sells)
+            "SL_Buy%":       sl_buy_pct,
+            "SL_Sell%":      sl_sell_pct,
             "SL_Buy_Price":  swing_d.get("sl_buy_price",  np.nan),
             "SL_Sell_Price": swing_d.get("sl_sell_price", np.nan),
             "SL_Grade":      grade,
-            # v5.2: Strategy signals
             "MST_Signal":mst_sig,"LST_Signal":lst_sig,"RS30_Signal":rs30_sig,
-            # Peer comparison
             "Chart_Pattern":cp,"Beats_Sec":_t(b_sec),"Beats_Ind":_t(b_ind),
             "Sec_Beats":_t(s_beats),"Ind_Beats":_t(i_beats),
             f"Ret_{p2}d%":round(ret_p2,2) if ret_p2==ret_p2 else np.nan,
-            # Financials
             "Sales_QoQ%":fin.get("SalesQoQ",np.nan),"Sales_YoY%":fin.get("SalesYoY",np.nan),
             "PAT_QoQ%":fin.get("PATQoQ",np.nan),"PAT_YoY%":fin.get("PATYoY",np.nan),
             "PAT_Curr_M":fin.get("PATCurr",np.nan),"Margin%":fin.get("Margin",np.nan),
@@ -1219,7 +1231,8 @@ def build_stock_strength(universe, price_data, index_prices, sector_prices,
         if (i+1)%100==0: print(f"    …{i+1}/{total}")
     df=pd.DataFrame(rows)
     if df.empty: return df
-    rs1c,rs2c=f"RS_{p1}d_Idx%",f"RS_{p2}d_Idx%"
+    # RS_Score always uses fixed weights on the 4 standard periods for comparability
+    rs1c,rs2c="RS_22d_Idx%","RS_55d_Idx%"
     sc=pd.Series(0.0,index=df.index); wt=pd.Series(0.0,index=df.index)
     for col,w in [(rs1c,0.35),(rs2c,0.30),("RS_120d_Idx%",0.20),("RS_252d_Idx%",0.15)]:
         m=df[col].notna(); sc[m]+=df.loc[m,col]*w; wt[m]+=w
@@ -1229,7 +1242,6 @@ def build_stock_strength(universe, price_data, index_prices, sector_prices,
         if col in df.columns: fs[df[col].notna()&(df[col]>=thresh)]+=pts
     if "D/E" in df.columns: fs[df["D/E"].notna()&(df["D/E"]<1)]+=1
     df["Fin_Score"]=fs.astype(int)
-    # Enhanced score with SL bonus
     active_sl_col = df["SL_Buy%"].where(df["Signal"]!="Sell", df["SL_Sell%"])
     df["SL_Bonus"] = active_sl_col.apply(lambda x: sl_bonus(x))
     df["Total_Score"]=(df["RS_Score"].fillna(0)*0.6+df["Fin_Score"]*2+df["SL_Bonus"]).round(2)
@@ -1242,18 +1254,24 @@ def build_stock_strength(universe, price_data, index_prices, sector_prices,
     print(f"  ✅ Stocks:{len(df)} | ⭐SB:{sb} | Buy:{b} | Sell:{s}")
     print(f"     MST Buy:{mst_b} | LST Buy:{lst_b} | RS30 Buy:{rs30_b}")
     return df
-
 # ─────────────────────────────────────────────────────────────────────────────
 #  ❽ TOP PICKS — BUY (strongest sector first, ≥5 stocks each)
 # ─────────────────────────────────────────────────────────────────────────────
-def build_top_picks_buy(stock_df, sector_str_df, market="INDIA", top_n=5):
+def build_top_picks_buy(stock_df, sector_str_df, market="INDIA", top_n=5, primary_rs=55):
     if stock_df.empty or sector_str_df.empty: return pd.DataFrame()
-    p2=SIGNAL_PERIODS[1]; prefix="NSE:" if market=="INDIA" else ""
+    prefix="NSE:" if market=="INDIA" else ""
+    # Use primary RS period column for sector sorting
+    rs_sort_col = {22:"RS_22d%", 55:"RS_55d%", 120:"RS_120d%"}.get(primary_rs, "RS_55d%")
+    if rs_sort_col not in sector_str_df.columns:
+        rs_sort_col = "RS_55d%"
     sec_meta={}
-    for _,r in sector_str_df.sort_values("RS_55d%",ascending=False,na_position="last").iterrows():
+    for _,r in sector_str_df.sort_values(rs_sort_col,ascending=False,na_position="last").iterrows():
         sec_meta[r["Sector"]]={"rank":int(r.get("Rank",99)),"signal":r.get("Signal","Neutral"),
-                                "rs55":r.get("RS_55d%",np.nan)}
+                                "rs_primary":r.get(rs_sort_col,np.nan)}
     rows=[]; rank=0
+    # Stock RS column for display — use primary period
+    stk_rs_col = {22:"RS_22d_Idx%", 55:"RS_55d_Idx%", 120:"RS_120d_Idx%"}.get(primary_rs,"RS_55d_Idx%")
+    stk_rs_col2 = "RS_22d_Idx%" if primary_rs != 22 else "RS_55d_Idx%"
     for sec in sorted(sec_meta.keys(),key=lambda s:sec_meta[s]["rank"]):
         m=sec_meta[sec]
         picks=stock_df[(stock_df["Sector"]==sec)&(stock_df["Signal"].isin(["Buy","Strong Buy"]))]
@@ -1264,12 +1282,12 @@ def build_top_picks_buy(stock_df, sector_str_df, market="INDIA", top_n=5):
             sl=r.get("SL_Buy%",np.nan); gr=r.get("SL_Grade","—")
             rows.append({
                 "Rank":rank,"Sec_Rank":m["rank"],"Sector":sec,
-                "Sec_Signal":m["signal"],"Sec_RS55%":m["rs55"],
+                "Sec_Signal":m["signal"],f"Sec_RS{primary_rs}d%":m["rs_primary"],
                 "Symbol":r.get("Symbol",""),"TV_Symbol":f"{prefix}{r.get('Symbol','')},",
                 "Company":r.get("Company",""),"Price":r.get("Price",np.nan),
                 "Chg_1D%":r.get("Chg_1D%",np.nan),
-                "RS_22d_Idx%":r.get(f"RS_{SIGNAL_PERIODS[0]}d_Idx%",np.nan),
-                "RS_55d_Idx%":r.get(f"RS_{p2}d_Idx%",np.nan),
+                f"RS_{primary_rs}d_Idx%":r.get(stk_rs_col,np.nan),
+                "RS_22d_Idx%":r.get("RS_22d_Idx%",np.nan),
                 "Signal":r.get("Signal",""),"Enhanced":r.get("Enhanced",""),
                 "MST_Signal":r.get("MST_Signal",""),"LST_Signal":r.get("LST_Signal",""),
                 "RS30_Signal":r.get("RS30_Signal",""),
@@ -1284,18 +1302,23 @@ def build_top_picks_buy(stock_df, sector_str_df, market="INDIA", top_n=5):
                 "ROE%":r.get("ROE%",np.nan),"D/E":r.get("D/E",np.nan),
             })
     return pd.DataFrame(rows) if rows else pd.DataFrame({"Message":["No Buy signals found."]})
-
 # ─────────────────────────────────────────────────────────────────────────────
 #  ❾ TOP PICKS — SELL (weakest sector first, ≥5 stocks each)
 # ─────────────────────────────────────────────────────────────────────────────
-def build_top_picks_sell(stock_df, sector_str_df, market="INDIA", top_n=5):
+def build_top_picks_sell(stock_df, sector_str_df, market="INDIA", top_n=5, primary_rs=55):
     if stock_df.empty or sector_str_df.empty: return pd.DataFrame()
     prefix="NSE:" if market=="INDIA" else ""
+    rs_sort_col = {22:"RS_22d%", 55:"RS_55d%", 120:"RS_120d%"}.get(primary_rs, "RS_55d%")
+    if rs_sort_col not in sector_str_df.columns:
+        rs_sort_col = "RS_55d%"
     sec_meta={}
-    for _,r in sector_str_df.sort_values("RS_55d%",ascending=True,na_position="last").iterrows():
+    for _,r in sector_str_df.sort_values(rs_sort_col,ascending=True,na_position="last").iterrows():
         sec_meta[r["Sector"]]={"rank":int(r.get("Rank",99)),"signal":r.get("Signal","Neutral"),
-                                "rs55":r.get("RS_55d%",np.nan)}
-    sorted_secs=sorted(sec_meta.keys(),key=lambda s:sec_meta[s]["rs55"] if not np.isnan(sec_meta[s]["rs55"]) else 999)
+                                "rs_primary":r.get(rs_sort_col,np.nan)}
+    sorted_secs=sorted(sec_meta.keys(),
+                        key=lambda s: sec_meta[s]["rs_primary"]
+                        if not np.isnan(sec_meta[s]["rs_primary"] if sec_meta[s]["rs_primary"]==sec_meta[s]["rs_primary"] else float('nan')) else 999)
+    stk_rs_col = {22:"RS_22d_Idx%", 55:"RS_55d_Idx%", 120:"RS_120d_Idx%"}.get(primary_rs,"RS_55d_Idx%")
     rows=[]; rank=0
     for sec in sorted_secs:
         m=sec_meta[sec]
@@ -1307,12 +1330,12 @@ def build_top_picks_sell(stock_df, sector_str_df, market="INDIA", top_n=5):
             sl=r.get("SL_Sell%",np.nan); gr=sl_grade(sl)
             rows.append({
                 "Rank":rank,"Sec_Rank":m["rank"],"Sector":sec,
-                "Sec_Signal":m["signal"],"Sec_RS55%":m["rs55"],
+                "Sec_Signal":m["signal"],f"Sec_RS{primary_rs}d%":m["rs_primary"],
                 "Symbol":r.get("Symbol",""),"TV_Symbol":f"{prefix}{r.get('Symbol','')},",
                 "Company":r.get("Company",""),"Price":r.get("Price",np.nan),
                 "Chg_1D%":r.get("Chg_1D%",np.nan),
-                "RS_22d_Idx%":r.get(f"RS_{SIGNAL_PERIODS[0]}d_Idx%",np.nan),
-                "RS_55d_Idx%":r.get(f"RS_{SIGNAL_PERIODS[1]}d_Idx%",np.nan),
+                f"RS_{primary_rs}d_Idx%":r.get(stk_rs_col,np.nan),
+                "RS_22d_Idx%":r.get("RS_22d_Idx%",np.nan),
                 "Signal":"Sell","Supertrend":r.get("Supertrend",""),
                 "W_RS21%":r.get("W_RS21%",np.nan),
                 "RSI_14":r.get("RSI_14",np.nan),"Trend":r.get("Trend",""),
@@ -1324,7 +1347,6 @@ def build_top_picks_sell(stock_df, sector_str_df, market="INDIA", top_n=5):
                 "ROE%":r.get("ROE%",np.nan),"D/E":r.get("D/E",np.nan),
             })
     return pd.DataFrame(rows) if rows else pd.DataFrame({"Message":["No Sell signals found."]})
-
 # ─────────────────────────────────────────────────────────────────────────────
 #  ❿ CHART PATTERNS  v5.3 — Daily + Weekly, Date fixed, Timeframe column
 # ─────────────────────────────────────────────────────────────────────────────
@@ -1398,7 +1420,7 @@ def build_chart_patterns_df(patterns_list, stock_df, market="INDIA"):
 # ─────────────────────────────────────────────────────────────────────────────
 #  ⓫ TRADE SETUPS  (v5.2: MST/LST/RS30 + SL + Targets + RR)
 # ─────────────────────────────────────────────────────────────────────────────
-def build_trade_setups(stock_df, sector_str_df, market="INDIA"):
+def build_trade_setups(stock_df, sector_str_df, market="INDIA", primary_rs=55):
     """
     Enhanced trade setups with:
     - Signal classification (RS30 > LST > MST > Strong Buy > RS Buy > Sell)
@@ -1410,7 +1432,8 @@ def build_trade_setups(stock_df, sector_str_df, market="INDIA"):
     if stock_df.empty: return pd.DataFrame()
     prefix="NSE:" if market=="INDIA" else ""
     sec_sig={r["Sector"]:r.get("Signal","Neutral") for _,r in sector_str_df.iterrows()} if not sector_str_df.empty else {}
-    sec_rs55={r["Sector"]:r.get("RS_55d%",np.nan) for _,r in sector_str_df.iterrows()} if not sector_str_df.empty else {}
+    rs_note_col = {22:"RS_22d%", 55:"RS_55d%", 120:"RS_120d%"}.get(primary_rs, "RS_55d%")
+    sec_rs55={r["Sector"]:r.get(rs_note_col,np.nan) for _,r in sector_str_df.iterrows()} if not sector_str_df.empty else {}
     rows=[]
     for _,r in stock_df.iterrows():
         sig=r.get("Signal","Neutral"); enh=r.get("Enhanced","Neutral"); sector=r.get("Sector","")
@@ -1587,6 +1610,21 @@ _INDIA_SLEEVE_CFGS = {
             "Short-heavy RS (22d×60%). Higher churn — satellite / high-conviction."
         ),
     },
+    "D": {
+        "name": "Global ETF (Country + Commodity)",
+        "tier": "Country ETFs + Commodity ETFs vs SPY",
+        "universe_csv": None,
+        "exclude_csv": None,
+        "top_n": 10,
+        "rebalance": "Monthly",
+        "stop_loss_pct": 15.0,
+        "rs_weights": {22: 0.40, 55: 0.30, 120: 0.20, 252: 0.10},
+        "description": (
+            "Global diversification — top 10 ETFs from Country + Commodity universe. "
+            "All RS vs SPY benchmark. Monthly rebalance. Bear buffer / diversifier sleeve."
+        ),
+        "sleeve_type": "ETF",   # ← special flag to trigger ETF path
+    },
 }
 
 _US_SLEEVE_CFGS = {
@@ -1628,6 +1666,20 @@ _US_SLEEVE_CFGS = {
             "US mid-cap momentum — top 20 from S&P rows 201-500. Weekly rebalance. "
             "Short-heavy RS for faster momentum capture."
         ),
+    },
+    "US_D": {
+        "name": "Global ETF (Country + Commodity)",
+        "tier": "Country ETFs + Commodity ETFs vs SPY",
+        "row_range": None,
+        "top_n": 10,
+        "rebalance": "Monthly",
+        "stop_loss_pct": 15.0,
+        "rs_weights": {22: 0.40, 55: 0.30, 120: 0.20, 252: 0.10},
+        "description": (
+            "Global diversification — top 10 ETFs from Country + Commodity universe. "
+            "All RS vs SPY benchmark. Monthly rebalance. Bear buffer / diversifier sleeve."
+        ),
+        "sleeve_type": "ETF",   # ← special flag to trigger ETF path
     },
 }
 
@@ -1762,22 +1814,26 @@ def _atr_weights(yahoo_syms, ohlcv_dict):
 
 # ── Core: build one sleeve ────────────────────────────────────────────────────
 def _build_one_sleeve(cfg_key, cfg, stock_df, universe_df, index_data_dir,
-                      market, price_data, ohlcv_dict, index_prices):
+                      market, price_data, ohlcv_dict, index_prices,
+                      primary_rs=55, period_days=420):
     """
-    Build one sleeve's ranked list with all rs_rebalance improvements:
-      ① Cap-tier filtering via CSV set subtraction (India) or row-range (US)
-      ② Sleeve-specific weighted RS score
-      ③ Strict 55d single-period peer filter:
-           stock_55d_ret > sector_55d_avg > index_55d_ret  (all positive)
-      ④ Minimum turnover filter (₹5 Cr / $5M 14-day avg)
-      ⑤ Sector concentration cap (25% of top_n)
-      ⑥ ATR inverse-vol position sizing
-    Returns: (top_df, n_candidates) where top_df has all output columns.
+    Build one sleeve's ranked list.
+    Sleeve type "ETF" (Sleeve D / US_D) uses COUNTRY_ETFS + COMMODITY_LIST
+    instead of stock universe — fetches fresh prices vs SPY benchmark.
+    All other sleeves unchanged except peer filter now uses primary_rs period.
     """
+
+    # ── SLEEVE D: ETF path ────────────────────────────────────────────────────
+    if cfg.get("sleeve_type") == "ETF":
+        return _build_etf_sleeve(cfg_key, cfg, index_prices,
+                                  primary_rs=primary_rs,
+                                  period_days=period_days)
+
+    # ── SLEEVES A/B/C: stock path (existing logic) ────────────────────────────
     if stock_df.empty:
         return pd.DataFrame(), 0
 
-    # ── ① Cap-tier filtering ───────────────────────────────────────────────
+    # ── ① Cap-tier filtering ──────────────────────────────────────────────────
     if market == "INDIA":
         uni_csv  = cfg.get("universe_csv")
         excl_csv = cfg.get("exclude_csv")
@@ -1792,7 +1848,6 @@ def _build_one_sleeve(cfg_key, cfg, stock_df, universe_df, index_data_dir,
                 tier_syms -= set(load_csv_constituents(path, is_nse=True))
         if not tier_syms:
             return pd.DataFrame(), 0
-        # Match via Yahoo column (has .NS suffix) or reconstruct
         if "Yahoo" in stock_df.columns:
             df = stock_df[stock_df["Yahoo"].isin(tier_syms)].copy()
         else:
@@ -1810,21 +1865,30 @@ def _build_one_sleeve(cfg_key, cfg, stock_df, universe_df, index_data_dir,
     if df.empty:
         return pd.DataFrame(), 0
 
-    # ── ② Sleeve-specific RS score ─────────────────────────────────────────
+    # ── ② Sleeve-specific RS score ────────────────────────────────────────────
     weights = cfg["rs_weights"]
     df["Sleeve_RS"] = df.apply(lambda r: _sleeve_rs_score(r, weights), axis=1)
     df = df[df["Sleeve_RS"].notna()].copy()
     if df.empty:
         return pd.DataFrame(), 0
 
-    # ── ③ Strict 55d peer filter ───────────────────────────────────────────
-    # Compute index 55d return at today
-    idx_s  = _normalize(index_prices.dropna())
-    idx_55d = (float(idx_s.iloc[-1]) / float(idx_s.iloc[-56]) - 1) * 100 \
-              if len(idx_s) >= 57 else np.nan
+    # ── ③ Strict peer filter — uses primary_rs period ─────────────────────────
+    # Use primary_rs to determine which RS column drives the peer filter
+    # This respects the global PRIMARY_RS_PERIOD setting
+    peer_period = primary_rs  # was hardcoded to 55 before
+    rs_idx_col  = f"RS_{peer_period}d_Idx%"
 
-    # Compute sector 55d avg returns from price_data for the stocks in df
-    sector_55d_avg = {}
+    # Fallback: if the primary_rs column doesn't exist, use RS_55d_Idx%
+    if rs_idx_col not in df.columns:
+        rs_idx_col = "RS_55d_Idx%"
+        peer_period = 55
+
+    idx_s   = _normalize(index_prices.dropna())
+    idx_nd  = (float(idx_s.iloc[-1]) / float(idx_s.iloc[-(peer_period+1)]) - 1) * 100 \
+              if len(idx_s) >= peer_period + 2 else np.nan
+
+    # Compute sector avg returns for peer_period
+    sector_nd_avg = {}
     if not price_data.empty:
         for sec in df["Sector"].unique():
             sec_syms = df[df["Sector"] == sec]["Yahoo"].tolist() \
@@ -1833,57 +1897,38 @@ def _build_one_sleeve(cfg_key, cfg, stock_df, universe_df, index_data_dir,
             for sym in sec_syms:
                 if sym in price_data.columns:
                     p = price_data[sym].dropna()
-                    if len(p) >= 57:
-                        ret = (float(p.iloc[-1]) / float(p.iloc[-56]) - 1) * 100
+                    if len(p) >= peer_period + 2:
+                        ret = (float(p.iloc[-1]) / float(p.iloc[-(peer_period+1)]) - 1) * 100
                         if not np.isnan(ret):
                             vals.append(ret)
-            sector_55d_avg[sec] = float(np.mean(vals)) if vals else np.nan
+            sector_nd_avg[sec] = float(np.mean(vals)) if vals else np.nan
 
-    # Filter: stock_55d > sector_55d > index_55d, all positive
     def _passes_peer(row):
-        sym = row.get("Yahoo", "")
-        sec = row.get("Sector", "")
-        # stock 55d return
-        stock_55 = row.get("RS_55d_Idx%", np.nan)  # already vs index; add index back
-        if isinstance(stock_55, float) and np.isnan(stock_55):
+        sec      = row.get("Sector", "")
+        stock_rs = row.get(rs_idx_col, np.nan)
+        if isinstance(stock_rs, float) and np.isnan(stock_rs):
             return False
-        if np.isnan(idx_55d):
-            # fall back to RS_55d_Idx% > 0 (already relative to index)
-            s55_vs_idx = float(stock_55)
-        else:
-            # reconstruct absolute 55d return: RS% + index_55d_ret
-            s55_abs = float(stock_55) + idx_55d
-            s55_vs_idx = float(stock_55)
-        sec_55 = sector_55d_avg.get(sec, np.nan)
-        if np.isnan(sec_55) or np.isnan(idx_55d):
-            # fallback: just require RS_55d_Idx% > 0
-            return float(stock_55) > 0
-        # Absolute 55d return of stock (approx):  RS_55d_Idx% is (stock/idx)-1 *100
-        # So stock_55d_abs ≈ RS_55d_Idx% + idx_55d  (both in %)
-        stock_55d_abs = float(stock_55) + idx_55d
-        # All three conditions: stock > sector > index, all positive
-        return (
-            stock_55d_abs > sec_55
-            and sec_55 > idx_55d
-            and stock_55d_abs > 0
-            and sec_55 > 0
-            and idx_55d is not np.nan
-        )
+        if np.isnan(idx_nd):
+            return float(stock_rs) > 0
+        stock_abs = float(stock_rs) + idx_nd
+        sec_avg   = sector_nd_avg.get(sec, np.nan)
+        if np.isnan(sec_avg):
+            return float(stock_rs) > 0
+        return (stock_abs > sec_avg and sec_avg > idx_nd
+                and stock_abs > 0 and sec_avg > 0)
 
     n_before_peer = len(df)
     df = df[df.apply(_passes_peer, axis=1)].copy()
-
     if df.empty:
         return pd.DataFrame(), n_before_peer
 
-    # ── ④ Turnover filter ──────────────────────────────────────────────────
+    # ── ④ Turnover filter ─────────────────────────────────────────────────────
     min_t = _MIN_TURNOVER_CR if market == "INDIA" else _MIN_TURNOVER_USD
     if ohlcv_dict:
         def _get_turnover(row):
             sym = row.get("Yahoo", "")
             return _compute_turnover(sym, ohlcv_dict, market)
         df["Avg_Turnover"] = df.apply(_get_turnover, axis=1)
-        # Keep stocks where turnover is >= min OR turnover is unknown (NaN → don't exclude)
         df = df[(df["Avg_Turnover"].isna()) | (df["Avg_Turnover"] >= min_t)].copy()
     else:
         df["Avg_Turnover"] = np.nan
@@ -1891,10 +1936,10 @@ def _build_one_sleeve(cfg_key, cfg, stock_df, universe_df, index_data_dir,
     if df.empty:
         return pd.DataFrame(), n_before_peer
 
-    # ── Sort by sleeve RS score ────────────────────────────────────────────
+    # ── Sort by sleeve RS score ───────────────────────────────────────────────
     df = df.sort_values("Sleeve_RS", ascending=False).reset_index(drop=True)
 
-    # ── ⑤ Sector concentration cap ─────────────────────────────────────────
+    # ── ⑤ Sector concentration cap ────────────────────────────────────────────
     top_n   = cfg["top_n"]
     sec_cap = max(1, int(top_n * _SLEEVE_SECTOR_CAP))
     sec_cnt = {}; top_rows = []
@@ -1912,7 +1957,7 @@ def _build_one_sleeve(cfg_key, cfg, stock_df, universe_df, index_data_dir,
     top = pd.DataFrame(top_rows).reset_index(drop=True)
     top.insert(0, "Rank", top.index + 1)
 
-    # ── ⑥ ATR inverse-vol position sizing ──────────────────────────────────
+    # ── ⑥ ATR inverse-vol position sizing ─────────────────────────────────────
     yahoo_list = top["Yahoo"].tolist() if "Yahoo" in top.columns else []
     if yahoo_list and ohlcv_dict:
         wt_map = _atr_weights(yahoo_list, ohlcv_dict)
@@ -1928,13 +1973,12 @@ def _build_one_sleeve(cfg_key, cfg, stock_df, universe_df, index_data_dir,
         top["Equal_Wt%"]  = eq
         top["ATR_Wt%"]    = eq
 
-    # ── Select and order output columns ───────────────────────────────────
+    # ── Select output columns ─────────────────────────────────────────────────
     out_cols = [
         "Rank", "Symbol", "Company", "Sector", "Industry",
         "Price", "Sleeve_RS",
         "RS_22d_Idx%", "RS_55d_Idx%", "RS_120d_Idx%", "RS_252d_Idx%",
-        "Avg_Turnover",
-        "Daily_Std%", "Equal_Wt%", "ATR_Wt%",
+        "Avg_Turnover", "Daily_Std%", "Equal_Wt%", "ATR_Wt%",
         "Signal", "Enhanced", "RSI_14", "Supertrend",
         "SL_Buy%", "SL_Grade", "SL_Buy_Price",
         "MST_Signal", "LST_Signal", "RS30_Signal",
@@ -1944,11 +1988,188 @@ def _build_one_sleeve(cfg_key, cfg, stock_df, universe_df, index_data_dir,
     out_cols = [c for c in out_cols if c in top.columns]
     return top[out_cols], n_before_peer
 
+def _build_etf_sleeve(cfg_key, cfg, index_prices, primary_rs=55, period_days=420):
+    """
+    Build Sleeve D — fetches Country ETFs + Commodity ETFs,
+    ranks all by RS vs SPY benchmark, applies ATR sizing.
+    No peer filter (ETFs are their own asset class).
+    No turnover filter (all are liquid US-listed ETFs).
+    Sector cap still applies to avoid over-concentration.
+    """
+    print(f"    Building Sleeve {cfg_key} ETF universe …")
+
+    # ── Build combined ETF list ───────────────────────────────────────────────
+    etf_rows = []
+    for c in COUNTRY_ETFS:
+        etf_rows.append({
+            "Symbol":   c["etf"],
+            "Company":  c["country"],
+            "Sector":   c["region"],    # Region as sector for cap purposes
+            "Industry": "Country ETF",
+            "Yahoo":    c["etf"],
+        })
+    for c in COMMODITY_LIST:
+        etf_rows.append({
+            "Symbol":   c["ticker"],
+            "Company":  c["commodity"],
+            "Sector":   c["group"],     # Group as sector for cap purposes
+            "Industry": "Commodity ETF",
+            "Yahoo":    c["ticker"],
+        })
+
+    # Deduplicate (GLD appears in both commodity and potentially country)
+    seen = set(); unique_rows = []
+    for r in etf_rows:
+        if r["Symbol"] not in seen:
+            seen.add(r["Symbol"]); unique_rows.append(r)
+    etf_universe = pd.DataFrame(unique_rows)
+
+    all_syms = etf_universe["Symbol"].tolist() + ["SPY"]
+    all_syms = list(set(all_syms))
+
+    # ── Fetch prices ──────────────────────────────────────────────────────────
+    end   = datetime.today() + timedelta(days=1)
+    start = end - timedelta(days=period_days + 5)
+    try:
+        raw = yf.download(
+            all_syms,
+            start=start.strftime("%Y-%m-%d"),
+            end=end.strftime("%Y-%m-%d"),
+            auto_adjust=True, progress=False, threads=True
+        )
+        if isinstance(raw.columns, pd.MultiIndex):
+            price_df = raw["Close"]
+        else:
+            price_df = raw[["Close"]]
+            if len(all_syms) == 1: price_df.columns = all_syms
+    except Exception as e:
+        print(f"    ❌ ETF sleeve fetch failed: {e}")
+        return pd.DataFrame(), 0
+
+    # SPY as benchmark
+    if "SPY" not in price_df.columns:
+        print("    ❌ SPY benchmark not available for Sleeve D")
+        return pd.DataFrame(), 0
+
+    bench = _normalize(price_df["SPY"].dropna())
+
+    # ── Compute RS + metrics for each ETF ────────────────────────────────────
+    weights = cfg["rs_weights"]
+    rows = []
+    for _, ur in etf_universe.iterrows():
+        sym = ur["Symbol"]
+        if sym not in price_df.columns:
+            continue
+        prices = _normalize(price_df[sym].dropna())
+        if len(prices) < 22:
+            continue
+        cur = float(prices.iloc[-1])
+
+        rs22  = calc_rs(prices, bench, 22)
+        rs55  = calc_rs(prices, bench, 55)
+        rs120 = calc_rs(prices, bench, 120)
+        rs252 = calc_rs(prices, bench, 252) if len(prices) >= 253 else np.nan
+
+        rs22p  = round(rs22  * 100, 2) if rs22  == rs22  else np.nan
+        rs55p  = round(rs55  * 100, 2) if rs55  == rs55  else np.nan
+        rs120p = round(rs120 * 100, 2) if rs120 == rs120 else np.nan
+        rs252p = round(rs252 * 100, 2) if rs252 == rs252 else np.nan
+
+        # Sleeve-specific weighted RS score
+        rs_vals = {
+            "RS_22d_Idx%":  rs22p,
+            "RS_55d_Idx%":  rs55p,
+            "RS_120d_Idx%": rs120p,
+            "RS_252d_Idx%": rs252p,
+        }
+        rs_row = pd.Series(rs_vals)
+        sleeve_rs = _sleeve_rs_score(rs_row, weights)
+
+        # Signal using primary_rs
+        rs_primary = {22: rs22, 55: rs55, 120: rs120, 252: rs252}.get(primary_rs, rs55)
+        rs_confirm = {22: np.nan, 55: rs22, 120: rs55, 252: rs120}.get(primary_rs, rs22)
+        if not np.isnan(rs_primary) if isinstance(rs_primary, float) else rs_primary == rs_primary:
+            c_ok_pos = (isinstance(rs_confirm, float) and np.isnan(rs_confirm)) or rs_confirm > 0
+            c_ok_neg = (isinstance(rs_confirm, float) and np.isnan(rs_confirm)) or rs_confirm < 0
+            if rs_primary > 0 and c_ok_pos:   sig = "Buy"
+            elif rs_primary < 0 and c_ok_neg: sig = "Sell"
+            else:                              sig = "Neutral"
+        else:
+            sig = "Neutral"
+
+        rsi    = calc_rsi(prices)
+        sma50  = calc_sma(prices, 50)
+        sma200 = calc_sma(prices, 200)
+        chg1   = pct_change_n(prices, 1)
+
+        rows.append({
+            "Symbol":       ur["Symbol"],
+            "Company":      ur["Company"],
+            "Sector":       ur["Sector"],
+            "Industry":     ur["Industry"],
+            "Yahoo":        ur["Symbol"],
+            "Price":        round(cur, 2),
+            "Chg_1D%":      round(chg1, 2) if chg1 == chg1 else np.nan,
+            "RS_22d_Idx%":  rs22p,
+            "RS_55d_Idx%":  rs55p,
+            "RS_120d_Idx%": rs120p,
+            "RS_252d_Idx%": rs252p,
+            "Sleeve_RS":    sleeve_rs,
+            "RSI_14":       round(rsi, 1) if rsi == rsi else np.nan,
+            "Abv_SMA50":    "✓" if (not np.isnan(sma50)  and cur > sma50)  else "✗",
+            "Abv_SMA200":   "✓" if (not np.isnan(sma200) and cur > sma200) else "✗",
+            "Signal":       sig,
+            "Benchmark":    "SPY",
+        })
+
+    if not rows:
+        return pd.DataFrame(), 0
+
+    df = pd.DataFrame(rows)
+    df = df[df["Sleeve_RS"].notna()].copy()
+    df = df.sort_values("Sleeve_RS", ascending=False).reset_index(drop=True)
+
+    # ── Sector concentration cap (by region/group) ────────────────────────────
+    top_n   = cfg["top_n"]
+    sec_cap = max(2, int(top_n * _SLEEVE_SECTOR_CAP))  # min 2 per group
+    sec_cnt = {}; top_rows = []
+    for _, r in df.iterrows():
+        sec = r.get("Sector", "Unknown")
+        if sec_cnt.get(sec, 0) < sec_cap:
+            top_rows.append(r)
+            sec_cnt[sec] = sec_cnt.get(sec, 0) + 1
+        if len(top_rows) >= top_n:
+            break
+
+    if not top_rows:
+        return pd.DataFrame(), len(df)
+
+    top = pd.DataFrame(top_rows).reset_index(drop=True)
+    top.insert(0, "Rank", top.index + 1)
+
+    # ── Equal weight (no OHLCV for ATR on ETFs — use equal weight) ───────────
+    eq = round(100 / len(top), 2)
+    top["Equal_Wt%"] = eq
+    top["ATR_Wt%"]   = eq   # equal weight for ETFs — no intraday vol data
+
+    # ── Select output columns ─────────────────────────────────────────────────
+    out_cols = [
+        "Rank", "Symbol", "Company", "Sector", "Industry",
+        "Price", "Chg_1D%", "Sleeve_RS",
+        "RS_22d_Idx%", "RS_55d_Idx%", "RS_120d_Idx%", "RS_252d_Idx%",
+        "Equal_Wt%", "ATR_Wt%",
+        "RSI_14", "Abv_SMA50", "Abv_SMA200",
+        "Signal", "Benchmark",
+    ]
+    out_cols = [c for c in out_cols if c in top.columns]
+    buy_count = (top["Signal"] == "Buy").sum()
+    print(f"    ✅ Sleeve {cfg_key}: {len(top)} ETFs | {buy_count} Buy | RS_{primary_rs}d vs SPY")
+    return top[out_cols], len(df)
 
 # ── Main builder ──────────────────────────────────────────────────────────────
 def build_rs_sleeve_list(stock_df, universe_df, index_data_dir, market="INDIA",
                           run_time="", index_prices=None,
-                          price_data=None, ohlcv_dict=None):
+                          price_data=None, ohlcv_dict=None, primary_rs=55):
     """
     Build the RS Sleeve / Smallcase Action List sheet (v2 — improved).
 
@@ -2010,6 +2231,7 @@ def build_rs_sleeve_list(stock_df, universe_df, index_data_dir, market="INDIA",
         top_df, n_cands = _build_one_sleeve(
             cfg_key, cfg, stock_df, universe_df, index_data_dir,
             market, price_data, ohlcv_dict, index_prices,
+            primary_rs=primary_rs, period_days=PERIOD_DAYS,
         )
         n_found = len(top_df) if not top_df.empty else 0
 
@@ -2055,54 +2277,96 @@ def build_rs_sleeve_list(stock_df, universe_df, index_data_dir, market="INDIA",
 
     # ── Methodology / legend footer ────────────────────────────────────────
     method_rows = [
-        {"Rank": "━━━ METHODOLOGY & LOGIC (v2) ━━━"},
-        {"Rank": "Benchmark",      "Symbol": idx_label},
-        {"Rank": "Regime",
-         "Symbol": "Index vs EMA100 (CAUTION line) and EMA200 (BULL/BEAR line)."
-                   " BULL=above both · CAUTION=above EMA100 only · BEAR=below both"},
-        {"Rank": "Peer Filter",
-         "Symbol": f"STRICT 55d: stock_55d_abs > sector_55d_avg > index_55d.  "
-                   f"All three must be positive. Single period ({_SLEEVE_PEER_PERIOD}d) "
-                   f"matches rs_rebalance_v2.py STRICT_PEER_FILTER."},
-        {"Rank": "Turnover Filter",
-         "Symbol": f"Min avg daily turnover ≥ {min_t_label} "
-                   f"({_SLEEVE_VOL_LOOKBACK}-day rolling close×volume). "
-                   f"Excludes illiquid stocks that look good on RS but can't be traded."},
-        {"Rank": "Sector Cap",
-         "Symbol": f"{int(_SLEEVE_SECTOR_CAP*100)}% of top_n per sector — diversification guard"},
-        {"Rank": "Sleeve_RS",
-         "Symbol": "Weighted RS: each period's RS_Nd_Idx% × sleeve weight ÷ sum(weights)"},
-        {"Rank": "ATR_Wt%",
-         "Symbol": f"Inverse-vol weight: 1/DailyStd, clipped [{_SLEEVE_VOL_MIN_MULT}×eq, "
-                   f"{_SLEEVE_VOL_MAX_MULT}×eq], renormalised to 100%. "
-                   f"Low-vol stocks get higher weight for equal risk contribution."},
-        {"Rank": "SL_Grade",
-         "Symbol": "A≤3%  B≤5%  C≤8%  D≤12%  F>12% — tighter = better entry quality"},
-        {"Rank": ""},
-        {"Rank": "━━━ REBALANCE SCHEDULE ━━━"},
-        {"Rank": "Sleeve A / US_A",
-         "Symbol": "Monthly — 1st trading day of month. Large cap, low churn (~2-3 changes/month)"},
-        {"Rank": "Sleeve B / US_B",
-         "Symbol": "Fortnightly — 1st & 3rd Friday. Mid-large cap, moderate churn (~4-6 changes)"},
-        {"Rank": "Sleeve C / US_C",
-         "Symbol": "Weekly — every Friday close. Small-mid cap, higher churn (~5-8 changes)"},
-        {"Rank": "Sleeve D",
-         "Symbol": "Liquid Bees / FD / Short-term debt. Bear-buffer — activate in BEAR regime"},
-        {"Rank": ""},
-        {"Rank": "━━━ HOW TO USE ━━━"},
-        {"Rank": "Step 1",
-         "Symbol": "Check regime banner above. In BEAR: deploy only 25% per sleeve, move rest to D"},
-        {"Rank": "Step 2",
-         "Symbol": "Choose sleeve for your risk profile: A=Conservative · B=Balanced · C=Aggressive"},
-        {"Rank": "Step 3",
-         "Symbol": "Enter ALL stocks in the sleeve. Weight by ATR_Wt% column (not equal weight)"},
-        {"Rank": "Step 4",
-         "Symbol": "On rebalance date: exit stocks no longer in list, add new entries, adjust weights"},
-        {"Rank": "Step 5",
-         "Symbol": "Use SL_Buy_Price as your hard stop. Grade A/B stops are ideal (≤5% risk per stock)"},
-        {"Rank": "Step 6",
-         "Symbol": "If a stock falls to its SL_Buy_Price intra-cycle, exit immediately — do not wait for rebalance"},
-        {"Rank": "Generated", "Symbol": run_time},
+    {"Rank": "━━━ METHODOLOGY & LOGIC (v2) ━━━"},
+
+    {"Rank": "Benchmark",
+     "Symbol": idx_label},
+
+    {"Rank": "Regime",
+     "Symbol": "Index vs EMA100 (CAUTION line) and EMA200 (BULL/BEAR line). "
+               "BULL=above both · CAUTION=above EMA100 only · BEAR=below both"},
+
+    {"Rank": "Peer Filter",
+     "Symbol": f"STRICT {primary_rs}d: "
+               f"stock_{primary_rs}d_abs > "
+               f"sector_{primary_rs}d_avg > "
+               f"index_{primary_rs}d. "
+               f"All three must be positive. "
+               f"Driven by PRIMARY_RS_PERIOD={primary_rs}. "
+               f"Matches rs_rebalance_v2.py STRICT_PEER_FILTER."},
+
+    {"Rank": "Turnover Filter",
+     "Symbol": f"Min avg daily turnover ≥ {min_t_label} "
+               f"({_SLEEVE_VOL_LOOKBACK}-day rolling close×volume). "
+               f"Excludes illiquid stocks that look good on RS but can't be traded."},
+
+    {"Rank": "Sector Cap",
+     "Symbol": f"{int(_SLEEVE_SECTOR_CAP * 100)}% of top_n per sector — diversification guard"},
+
+    {"Rank": "Sleeve_RS",
+     "Symbol": "Weighted RS: each period's RS_Nd_Idx% × sleeve weight ÷ sum(weights)"},
+
+    {"Rank": "ATR_Wt%",
+     "Symbol": f"Inverse-vol weight: 1/DailyStd, "
+               f"clipped [{_SLEEVE_VOL_MIN_MULT}×eq, "
+               f"{_SLEEVE_VOL_MAX_MULT}×eq], "
+               f"renormalised to 100%. "
+               f"Low-vol stocks get higher weight for equal risk contribution."},
+
+    {"Rank": "SL_Grade",
+     "Symbol": "A≤3%  B≤5%  C≤8%  D≤12%  F>12% — tighter = better entry quality"},
+
+    {"Rank": ""},
+
+    {"Rank": "━━━ REBALANCE SCHEDULE ━━━"},
+
+    {"Rank": "Sleeve A / US_A",
+     "Symbol": "Monthly — 1st trading day of month. "
+               "Large cap, low churn (~2-3 changes/month)"},
+
+    {"Rank": "Sleeve B / US_B",
+     "Symbol": "Fortnightly — 1st & 3rd Friday. "
+               "Mid-large cap, moderate churn (~4-6 changes)"},
+
+    {"Rank": "Sleeve C / US_C",
+     "Symbol": "Weekly — every Friday close. "
+               "Small-mid cap, higher churn (~5-8 changes)"},
+
+    {"Rank": "Sleeve D / US_D",
+     "Symbol": "Global ETF Sleeve — Top 10 Country + Commodity ETFs ranked by RS vs SPY. "
+               "Monthly rebalance. Diversifier + Bear buffer. "
+               "In BEAR regime: move stock sleeve capital here."},
+
+    {"Rank": ""},
+
+    {"Rank": "━━━ HOW TO USE ━━━"},
+
+    {"Rank": "Step 1",
+     "Symbol": "Check regime banner above. "
+               "In BEAR: deploy only 25% per sleeve, move rest to D"},
+
+    {"Rank": "Step 2",
+     "Symbol": "Choose sleeve for your risk profile: "
+               "A=Conservative · B=Balanced · C=Aggressive"},
+
+    {"Rank": "Step 3",
+     "Symbol": "Enter ALL stocks in the sleeve. "
+               "Weight by ATR_Wt% column (not equal weight)"},
+
+    {"Rank": "Step 4",
+     "Symbol": "On rebalance date: exit stocks no longer in list, "
+               "add new entries, adjust weights"},
+
+    {"Rank": "Step 5",
+     "Symbol": "Use SL_Buy_Price as your hard stop. "
+               "Grade A/B stops are ideal (≤5% risk per stock)"},
+
+    {"Rank": "Step 6",
+     "Symbol": "If a stock falls to its SL_Buy_Price intra-cycle, "
+               "exit immediately — do not wait for rebalance"},
+
+    {"Rank": "Generated",
+     "Symbol": run_time},
     ]
     all_sections.append(pd.DataFrame(method_rows))
 
@@ -2112,7 +2376,350 @@ def build_rs_sleeve_list(stock_df, universe_df, index_data_dir, market="INDIA",
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-def build_dashboard(stock_df, sector_str_df, market, run_time):
+#  🌍 COUNTRY ETF STRENGTH
+#  Ranks major country/region ETFs by RS vs SPY benchmark
+# ─────────────────────────────────────────────────────────────────────────────
+COUNTRY_ETFS = [
+    # ── Broad / Regional ─────────────────────────────────────────────────────
+    {"country": "USA",            "region": "Americas",  "etf": "SPY"},
+    {"country": "World (ex-US)",  "region": "Global",    "etf": "VEU"},
+    {"country": "Emerging Mkts",  "region": "Global",    "etf": "EEM"},
+    {"country": "Europe (broad)", "region": "Europe",    "etf": "VGK"},
+    {"country": "Asia-Pac (broad)","region":"Asia",      "etf": "VPL"},
+    {"country": "Frontier Mkts",  "region": "Global",    "etf": "FM"},
+    # ── Americas ─────────────────────────────────────────────────────────────
+    {"country": "Canada",         "region": "Americas",  "etf": "EWC"},
+    {"country": "Brazil",         "region": "Americas",  "etf": "EWZ"},
+    {"country": "Mexico",         "region": "Americas",  "etf": "EWW"},
+    {"country": "Chile",          "region": "Americas",  "etf": "ECH"},
+    {"country": "Colombia",       "region": "Americas",  "etf": "GXG"},
+    {"country": "Peru",           "region": "Americas",  "etf": "EPU"},
+    {"country": "Argentina",      "region": "Americas",  "etf": "ARGT"},
+    # ── Europe ───────────────────────────────────────────────────────────────
+    {"country": "UK",             "region": "Europe",    "etf": "EWU"},
+    {"country": "Germany",        "region": "Europe",    "etf": "EWG"},
+    {"country": "France",         "region": "Europe",    "etf": "EWQ"},
+    {"country": "Italy",          "region": "Europe",    "etf": "EWI"},
+    {"country": "Spain",          "region": "Europe",    "etf": "EWP"},
+    {"country": "Netherlands",    "region": "Europe",    "etf": "EWN"},
+    {"country": "Switzerland",    "region": "Europe",    "etf": "EWL"},
+    {"country": "Sweden",         "region": "Europe",    "etf": "EWD"},
+    {"country": "Poland",         "region": "Europe",    "etf": "EPOL"},
+    {"country": "Turkey",         "region": "Europe",    "etf": "TUR"},
+    {"country": "Greece",         "region": "Europe",    "etf": "GREK"},
+    # ── Middle East / Africa ─────────────────────────────────────────────────
+    {"country": "Saudi Arabia",   "region": "Mid East",  "etf": "KSA"},
+    {"country": "UAE",            "region": "Mid East",  "etf": "UAE"},
+    {"country": "Israel",         "region": "Mid East",  "etf": "EIS"},
+    {"country": "South Africa",   "region": "Africa",    "etf": "EZA"},
+    {"country": "Egypt",          "region": "Africa",    "etf": "EGPT"},
+    {"country": "Nigeria",        "region": "Africa",    "etf": "NGE"},
+    # ── Asia ─────────────────────────────────────────────────────────────────
+    {"country": "China",          "region": "Asia",      "etf": "MCHI"},
+    {"country": "India",          "region": "Asia",      "etf": "INDA"},
+    {"country": "Japan",          "region": "Asia",      "etf": "EWJ"},
+    {"country": "South Korea",    "region": "Asia",      "etf": "EWY"},
+    {"country": "Taiwan",         "region": "Asia",      "etf": "EWT"},
+    {"country": "Hong Kong",      "region": "Asia",      "etf": "EWH"},
+    {"country": "Singapore",      "region": "Asia",      "etf": "EWS"},
+    {"country": "Australia",      "region": "Asia",      "etf": "EWA"},
+    {"country": "Vietnam",        "region": "Asia",      "etf": "VNM"},
+    {"country": "Indonesia",      "region": "Asia",      "etf": "EIDO"},
+    {"country": "Thailand",       "region": "Asia",      "etf": "THD"},
+    {"country": "Malaysia",       "region": "Asia",      "etf": "EWM"},
+    {"country": "Philippines",    "region": "Asia",      "etf": "EPHE"},
+    {"country": "Pakistan",       "region": "Asia",      "etf": "PAK"},
+]
+
+def build_country_etf_df(benchmark_prices, period_days=420, primary_rs=55, end_date=None):
+    """
+    Fetch all country ETFs and rank by RS vs SPY benchmark.
+    benchmark_prices : pd.Series of SPY close prices (already fetched in main)
+    primary_rs       : RS period used for primary ranking (matches global setting)
+    Returns ranked DataFrame.
+    """
+    print(f"  Fetching {len(COUNTRY_ETFS)} country ETFs …")
+    syms = [c["etf"] for c in COUNTRY_ETFS]
+
+    # Fetch prices
+    end = (pd.Timestamp(end_date) + timedelta(days=1)) if end_date else (datetime.today() + timedelta(days=1))
+    start = end - timedelta(days=period_days + 5)
+    try:
+        raw = yf.download(
+            syms, start=start.strftime("%Y-%m-%d"),
+            end=end.strftime("%Y-%m-%d"),
+            auto_adjust=True, progress=False, threads=True
+        )
+        if isinstance(raw.columns, pd.MultiIndex):
+            price_df = raw["Close"]
+        else:
+            price_df = raw[["Close"]]
+            if len(syms) == 1: price_df.columns = syms
+    except Exception as e:
+        print(f"  ❌ Country ETF fetch failed: {e}")
+        return pd.DataFrame()
+
+    bench = _normalize(benchmark_prices.dropna())
+    rows = []
+    for cfg in COUNTRY_ETFS:
+        sym = cfg["etf"]
+        if sym not in price_df.columns:
+            print(f"    ✗ {sym} not available")
+            continue
+        prices = _normalize(price_df[sym].dropna())
+        if len(prices) < 22:
+            continue
+        cur = float(prices.iloc[-1])
+
+        # RS vs SPY for all periods
+        rs22  = calc_rs(prices, bench, 22)
+        rs55  = calc_rs(prices, bench, 55)
+        rs120 = calc_rs(prices, bench, 120)
+        rs252 = calc_rs(prices, bench, 252) if len(prices) >= 253 else np.nan
+
+        # Returns
+        r1m  = pct_change_n(prices, 22)
+        r3m  = pct_change_n(prices, 66)
+        r6m  = pct_change_n(prices, 132)
+        r12m = pct_change_n(prices, 252) if len(prices) >= 253 else np.nan
+
+        # RSI
+        rsi = calc_rsi(prices)
+
+        # SMAs
+        sma50  = calc_sma(prices, 50)
+        sma200 = calc_sma(prices, 200)
+
+        # Signal — driven by primary_rs + confirmation
+        rs_primary = {22: rs22, 55: rs55, 120: rs120, 252: rs252}.get(primary_rs, rs55)
+        rs_confirm = {22: np.nan, 55: rs22, 120: rs55, 252: rs120}.get(primary_rs, rs22)
+        if not np.isnan(rs_primary):
+            c_ok_pos = np.isnan(rs_confirm) or rs_confirm > 0
+            c_ok_neg = np.isnan(rs_confirm) or rs_confirm < 0
+            if rs_primary > 0 and c_ok_pos:   sig = "Buy"
+            elif rs_primary < 0 and c_ok_neg: sig = "Sell"
+            else:                              sig = "Neutral"
+        else:
+            sig = "Neutral"
+
+        trend = "Bullish" if sig == "Buy" else ("Bearish" if sig == "Sell" else "Mixed")
+
+        rows.append({
+            "Country":      cfg["country"],
+            "Region":       cfg["region"],
+            "ETF":          sym,
+            "TV_Symbol":    f"{sym},",
+            "Price":        round(cur, 2),
+            "Chg_1D%":      round(pct_change_n(prices, 1), 2) if not np.isnan(pct_change_n(prices, 1)) else np.nan,
+            "RS_22d%":      round(rs22  * 100, 2) if rs22  == rs22  else np.nan,
+            "RS_55d%":      round(rs55  * 100, 2) if rs55  == rs55  else np.nan,
+            "RS_120d%":     round(rs120 * 100, 2) if rs120 == rs120 else np.nan,
+            "RS_252d%":     round(rs252 * 100, 2) if rs252 == rs252 else np.nan,
+            "1M%":          round(r1m,  2) if r1m  == r1m  else np.nan,
+            "3M%":          round(r3m,  2) if r3m  == r3m  else np.nan,
+            "6M%":          round(r6m,  2) if r6m  == r6m  else np.nan,
+            "12M%":         round(r12m, 2) if r12m == r12m else np.nan,
+            "RSI_14":       round(rsi,  1) if rsi  == rsi  else np.nan,
+            "Abv_SMA50":    "✓" if (not np.isnan(sma50)  and cur > sma50)  else "✗",
+            "Abv_SMA200":   "✓" if (not np.isnan(sma200) and cur > sma200) else "✗",
+            "Signal":       sig,
+            "Trend":        trend,
+            "Benchmark":    "SPY",
+            "Primary_RS":   primary_rs,
+        })
+
+    if not rows:
+        return pd.DataFrame()
+
+    df = pd.DataFrame(rows)
+    # Sort by primary RS period
+    sort_col = {22: "RS_22d%", 55: "RS_55d%", 120: "RS_120d%", 252: "RS_252d%"}.get(primary_rs, "RS_55d%")
+    df = df.sort_values(sort_col, ascending=False, na_position="last").reset_index(drop=True)
+    df.insert(0, "Rank", df.index + 1)
+
+    buy  = (df["Signal"] == "Buy").sum()
+    sell = (df["Signal"] == "Sell").sum()
+    print(f"  ✅ Countries: {len(df)} | Buy:{buy} | Sell:{sell} | Ranked by RS_{primary_rs}d% vs SPY")
+    return df
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+#  🏅 COMMODITY STRENGTH
+#  Ranks major commodities by RS vs GLD benchmark
+# ─────────────────────────────────────────────────────────────────────────────
+COMMODITY_LIST = [
+    # ── Precious Metals ───────────────────────────────────────────────────────
+    {"commodity": "Gold",          "group": "Precious Metals", "ticker": "GLD",   "type": "ETF"},
+    {"commodity": "Silver",        "group": "Precious Metals", "ticker": "SLV",   "type": "ETF"},
+    {"commodity": "Platinum",      "group": "Precious Metals", "ticker": "PPLT",  "type": "ETF"},
+    {"commodity": "Palladium",     "group": "Precious Metals", "ticker": "PALL",  "type": "ETF"},
+    # ── Energy ────────────────────────────────────────────────────────────────
+    {"commodity": "Crude Oil WTI", "group": "Energy",          "ticker": "USO",   "type": "ETF"},
+    {"commodity": "Crude Oil Brent","group": "Energy",         "ticker": "BNO",   "type": "ETF"},
+    {"commodity": "Natural Gas",   "group": "Energy",          "ticker": "UNG",   "type": "ETF"},
+    {"commodity": "Gasoline",      "group": "Energy",          "ticker": "UGA",   "type": "ETF"},
+    {"commodity": "Heating Oil",   "group": "Energy",          "ticker": "DINO",  "type": "ETF"},
+    {"commodity": "Coal",          "group": "Energy",          "ticker": "ARCH",  "type": "ETF"},
+    {"commodity": "Uranium",       "group": "Energy",          "ticker": "URA",   "type": "ETF"},
+    # ── Base / Industrial Metals ──────────────────────────────────────────────
+    {"commodity": "Copper",        "group": "Base Metals",     "ticker": "CPER",  "type": "ETF"},
+    {"commodity": "Aluminum",      "group": "Base Metals",     "ticker": "ALUM",  "type": "ETF"},
+    {"commodity": "Nickel",        "group": "Base Metals",     "ticker": "NINI",  "type": "ETF"},
+    {"commodity": "Zinc",          "group": "Base Metals",     "ticker": "ZINC",  "type": "ETF"},
+    {"commodity": "Iron Ore",      "group": "Base Metals",     "ticker": "PICK",  "type": "ETF"},
+    {"commodity": "Steel",         "group": "Base Metals",     "ticker": "SLX",   "type": "ETF"},
+    {"commodity": "Lithium",       "group": "Base Metals",     "ticker": "LIT",   "type": "ETF"},
+    {"commodity": "Rare Earth",    "group": "Base Metals",     "ticker": "REMX",  "type": "ETF"},
+    # ── Agriculture ───────────────────────────────────────────────────────────
+    {"commodity": "Corn",          "group": "Agriculture",     "ticker": "CORN",  "type": "ETF"},
+    {"commodity": "Wheat",         "group": "Agriculture",     "ticker": "WEAT",  "type": "ETF"},
+    {"commodity": "Soybeans",      "group": "Agriculture",     "ticker": "SOYB",  "type": "ETF"},
+    {"commodity": "Sugar",         "group": "Agriculture",     "ticker": "CANE",  "type": "ETF"},
+    {"commodity": "Coffee",        "group": "Agriculture",     "ticker": "JO",    "type": "ETF"},
+    {"commodity": "Cotton",        "group": "Agriculture",     "ticker": "BAL",   "type": "ETF"},
+    {"commodity": "Lumber",        "group": "Agriculture",     "ticker": "CUT",   "type": "ETF"},
+    # ── Livestock ─────────────────────────────────────────────────────────────
+    {"commodity": "Live Cattle",   "group": "Livestock",       "ticker": "COW",   "type": "ETF"},
+    # ── Broad Commodity ───────────────────────────────────────────────────────
+    {"commodity": "Broad Commodities","group":"Broad",         "ticker": "PDBC",  "type": "ETF"},
+    {"commodity": "Agriculture Broad","group":"Broad",         "ticker": "DBA",   "type": "ETF"},
+    {"commodity": "Metals Broad",  "group": "Broad",           "ticker": "DBB",   "type": "ETF"},
+    {"commodity": "Energy Broad",  "group": "Broad",           "ticker": "DBE",   "type": "ETF"},
+]
+
+def build_commodity_df(period_days=420, primary_rs=55, end_date=None):
+    """
+    Fetch all commodity ETFs and rank by RS vs GLD (Gold ETF) benchmark.
+    primary_rs : RS period used for primary ranking (matches global setting)
+    Returns ranked DataFrame.
+    """
+    print(f"  Fetching {len(COMMODITY_LIST)} commodity ETFs …")
+    syms = list({c["ticker"] for c in COMMODITY_LIST})
+
+    # Always fetch GLD as benchmark even if already in list
+    fetch_syms = list(set(syms + ["GLD"]))
+    end = (pd.Timestamp(end_date) + timedelta(days=1)) if end_date else (datetime.today() + timedelta(days=1))
+    start = end - timedelta(days=period_days + 5)
+    try:
+        raw = yf.download(
+            fetch_syms, start=start.strftime("%Y-%m-%d"),
+            end=end.strftime("%Y-%m-%d"),
+            auto_adjust=True, progress=False, threads=True
+        )
+        if isinstance(raw.columns, pd.MultiIndex):
+            price_df = raw["Close"]
+        else:
+            price_df = raw[["Close"]]
+            if len(fetch_syms) == 1: price_df.columns = fetch_syms
+    except Exception as e:
+        print(f"  ❌ Commodity fetch failed: {e}")
+        return pd.DataFrame()
+
+    # GLD as benchmark
+    if "GLD" not in price_df.columns:
+        print("  ❌ GLD benchmark not available — falling back to SPY")
+        bench_sym = "SPY"
+    else:
+        bench_sym = "GLD"
+
+    bench = _normalize(price_df[bench_sym].dropna()) if bench_sym in price_df.columns else pd.Series()
+    if bench.empty:
+        print("  ❌ No benchmark data for commodities")
+        return pd.DataFrame()
+
+    rows = []
+    for cfg in COMMODITY_LIST:
+        sym = cfg["ticker"]
+        if sym not in price_df.columns:
+            print(f"    ✗ {sym} ({cfg['commodity']}) not available")
+            continue
+        prices = _normalize(price_df[sym].dropna())
+        if len(prices) < 22:
+            continue
+        cur = float(prices.iloc[-1])
+
+        # RS vs GLD for all periods
+        rs22  = calc_rs(prices, bench, 22)
+        rs55  = calc_rs(prices, bench, 55)
+        rs120 = calc_rs(prices, bench, 120)
+        rs252 = calc_rs(prices, bench, 252) if len(prices) >= 253 else np.nan
+
+        # Returns (absolute)
+        r1m  = pct_change_n(prices, 22)
+        r3m  = pct_change_n(prices, 66)
+        r6m  = pct_change_n(prices, 132)
+        r12m = pct_change_n(prices, 252) if len(prices) >= 253 else np.nan
+
+        # RSI
+        rsi = calc_rsi(prices)
+
+        # SMAs
+        sma50  = calc_sma(prices, 50)
+        sma200 = calc_sma(prices, 200)
+
+        # Signal — driven by primary_rs
+        rs_primary = {22: rs22, 55: rs55, 120: rs120, 252: rs252}.get(primary_rs, rs55)
+        rs_confirm = {22: np.nan, 55: rs22, 120: rs55, 252: rs120}.get(primary_rs, rs22)
+        if not np.isnan(rs_primary):
+            c_ok_pos = np.isnan(rs_confirm) or rs_confirm > 0
+            c_ok_neg = np.isnan(rs_confirm) or rs_confirm < 0
+            if rs_primary > 0 and c_ok_pos:   sig = "Buy"
+            elif rs_primary < 0 and c_ok_neg: sig = "Sell"
+            else:                              sig = "Neutral"
+        else:
+            sig = "Neutral"
+
+        # Gold itself is always Neutral vs itself
+        if sym == "GLD":
+            sig = "Benchmark"
+
+        trend = "Bullish" if sig == "Buy" else ("Bearish" if sig == "Sell" else ("—" if sig == "Benchmark" else "Mixed"))
+
+        rows.append({
+            "Commodity":    cfg["commodity"],
+            "Group":        cfg["group"],
+            "ETF":          sym,
+            "TV_Symbol":    f"{sym},",
+            "Price":        round(cur, 2),
+            "Chg_1D%":      round(pct_change_n(prices, 1), 2) if not np.isnan(pct_change_n(prices, 1)) else np.nan,
+            "RS_22d%":      round(rs22  * 100, 2) if rs22  == rs22  else np.nan,
+            "RS_55d%":      round(rs55  * 100, 2) if rs55  == rs55  else np.nan,
+            "RS_120d%":     round(rs120 * 100, 2) if rs120 == rs120 else np.nan,
+            "RS_252d%":     round(rs252 * 100, 2) if rs252 == rs252 else np.nan,
+            "1M%":          round(r1m,  2) if r1m  == r1m  else np.nan,
+            "3M%":          round(r3m,  2) if r3m  == r3m  else np.nan,
+            "6M%":          round(r6m,  2) if r6m  == r6m  else np.nan,
+            "12M%":         round(r12m, 2) if r12m == r12m else np.nan,
+            "RSI_14":       round(rsi,  1) if rsi  == rsi  else np.nan,
+            "Abv_SMA50":    "✓" if (not np.isnan(sma50)  and cur > sma50)  else "✗",
+            "Abv_SMA200":   "✓" if (not np.isnan(sma200) and cur > sma200) else "✗",
+            "Signal":       sig,
+            "Trend":        trend,
+            "Benchmark":    bench_sym,
+            "Primary_RS":   primary_rs,
+        })
+
+    if not rows:
+        return pd.DataFrame()
+
+    df = pd.DataFrame(rows)
+    sort_col = {22: "RS_22d%", 55: "RS_55d%", 120: "RS_120d%", 252: "RS_252d%"}.get(primary_rs, "RS_55d%")
+    # Put Benchmark (GLD) row always at top, then sort rest
+    bench_rows = df[df["Signal"] == "Benchmark"]
+    other_rows = df[df["Signal"] != "Benchmark"].sort_values(
+        sort_col, ascending=False, na_position="last")
+    df = pd.concat([bench_rows, other_rows]).reset_index(drop=True)
+    df.insert(0, "Rank", df.index + 1)
+    # Mark GLD row rank as "—"
+    df.loc[df["Signal"] == "Benchmark", "Rank"] = "★"
+
+    buy  = (df["Signal"] == "Buy").sum()
+    sell = (df["Signal"] == "Sell").sum()
+    print(f"  ✅ Commodities: {len(df)} | Buy:{buy} | Sell:{sell} | Benchmark: {bench_sym} | Ranked by RS_{primary_rs}d%")
+    return df
+
+# ─────────────────────────────────────────────────────────────────────────────
+def build_dashboard(stock_df, sector_str_df, market, run_time, primary_rs=55):
     """
     Key information sheet explaining:
     - How signals are generated (RS/MST/LST/RS30 logic)
@@ -2131,7 +2738,7 @@ def build_dashboard(stock_df, sector_str_df, market, run_time):
     _r(f"  MARKET ANALYSIS SYSTEM v5.2  [{market}]")
     _r(f"  Generated     : {run_time}")
     _r(f"  Benchmark     : {'Nifty 50 (^NSEI)' if market == 'INDIA' else 'S&P 500 (SPY)'}")
-    _r(f"  Signal Periods: RS({p1}d) + RS({p2}d) vs Index & Sector")
+    _r(f"  Signal Periods: RS({p1}d) + RS({p2}d) vs Index & Sector  [Primary RS = {primary_rs}d]")
     _r(f"═══════════════════════════════════════════════════════════════")
     _r("")
     _r("── UNIVERSE SUMMARY ──")
