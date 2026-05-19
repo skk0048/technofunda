@@ -41,7 +41,6 @@ Affle 3i Ltd.,Information Technology,AFFLE,EQ,INE00WC01027
 Ahluwalia Contracts (India) Ltd.,Construction,AHLUCONT,EQ,INE758C01029
 Ajanta Pharmaceuticals Ltd.,Healthcare,AJANTPHARM,EQ,INE031B01049
 Akums Drugs and Pharmaceuticals Ltd.,Healthcare,AKUMS,EQ,INE09XN01023
-Akzo Nobel India Ltd.,Consumer Durables,AKZOINDIA,EQ,INE133A01011
 Alembic Pharmaceuticals Ltd.,Healthcare,APLLTD,EQ,INE901L01018
 Alivus Life Sciences Ltd.,Healthcare,ALIVUS,EQ,INE03Q201024
 Alkem Laboratories Ltd.,Healthcare,ALKEM,EQ,INE540L01014
@@ -164,7 +163,6 @@ Chennai Petroleum Corporation Ltd.,Oil Gas & Consumable Fuels,CHENNPETRO,EQ,INE1
 Choice International Ltd.,Financial Services,CHOICEIN,EQ,INE102B01014
 Cholamandalam Financial Holdings Ltd.,Financial Services,CHOLAHLDNG,EQ,INE149A01033
 Cholamandalam Investment and Finance Company Ltd.,Financial Services,CHOLAFIN,EQ,INE121A01024
-Cigniti Technologies Ltd.,Information Technology,CIGNITITEC,EQ,INE675C01017
 Cipla Ltd.,Healthcare,CIPLA,EQ,INE059A01026
 City Union Bank Ltd.,Financial Services,CUB,EQ,INE491A01021
 Clean Science and Technology Ltd.,Chemicals,CLEAN,EQ,INE227W01023
@@ -204,6 +202,10 @@ Dr. Agarwal's Health Care Ltd.,Healthcare,AGARWALEYE,EQ,INE943P01029
 Dr. Lal Path Labs Ltd.,Healthcare,LALPATHLAB,EQ,INE600L01024
 Dr. Reddy's Laboratories Ltd.,Healthcare,DRREDDY,EQ,INE089A01031
 Dummy Allcargo Logistics Ltd.,Services,DUMMYALCAR,EQ,DUM418H01029
+Dummy Vedanta Ltd. 1,Metals & Mining,DUMMYVEDL1,EQ,DU1205A01025
+Dummy Vedanta Ltd. 2,Power,DUMMYVEDL2,EQ,DU2205A01025
+Dummy Vedanta Ltd. 3,Oil Gas & Consumable Fuels,DUMMYVEDL3,EQ,DU3205A01025
+Dummy Vedanta Ltd. 4,Metals & Mining,DUMMYVEDL4,EQ,DU4205A01025
 Dynamatic Technologies Ltd.,Capital Goods,DYNAMATECH,EQ,INE221B01012
 E.I.D. Parry (India) Ltd.,Fast Moving Consumer Goods,EIDPARRY,EQ,INE126A01031
 EIH Ltd.,Consumer Services,EIHOTEL,EQ,INE230A01023
@@ -216,7 +218,7 @@ Electrosteel Castings Ltd.,Capital Goods,ELECTCAST,EQ,INE086A01029
 Elgi Equipments Ltd.,Capital Goods,ELGIEQUIP,EQ,INE285A01027
 Ellenbarrie Industrial Gases Ltd.,Chemicals,ELLEN,EQ,INE236E01022
 Emami Ltd.,Fast Moving Consumer Goods,EMAMILTD,EQ,INE548C01032
-Embassy Developments Ltd.,Realty,EMBDL,BE,INE069I01010
+Embassy Developments Ltd.,Realty,EMBDL,EQ,INE069I01010
 Emcure Pharmaceuticals Ltd.,Healthcare,EMCURE,EQ,INE168P01015
 Emmvee Photovoltaic Power Ltd.,Capital Goods,EMMVEE,EQ,INE1C6T01020
 Endurance Technologies Ltd.,Automobile and Auto Components,ENDURANCE,EQ,INE913H01037
@@ -279,7 +281,6 @@ Gujarat Mineral Development Corporation Ltd.,Metals & Mining,GMDCLTD,EQ,INE131A0
 Gujarat Narmada Valley Fertilizers and Chemicals Ltd.,Chemicals,GNFC,EQ,INE113A01013
 Gujarat Pipavav Port Ltd.,Services,GPPL,EQ,INE517F01014
 Gujarat State Fertilizers & Chemicals Ltd.,Chemicals,GSFC,EQ,INE026A01025
-Gujarat State Petronet Ltd.,Oil Gas & Consumable Fuels,GSPL,EQ,INE246F01010
 H.E.G. Ltd.,Capital Goods,HEG,EQ,INE545A01024
 H.G. Infra Engineering Ltd.,Construction,HGINFRA,EQ,INE926X01010
 HBL Engineering Ltd.,Capital Goods,HBLENGINE,EQ,INE292B01021
@@ -351,7 +352,7 @@ Inox Green Energy Services Ltd.,Services,INOXGREEN,EQ,INE510W01014
 Inox Wind Ltd.,Capital Goods,INOXWIND,EQ,INE066P01011
 Intellect Design Arena Ltd.,Information Technology,INTELLECT,EQ,INE306R01017
 InterGlobe Aviation Ltd.,Services,INDIGO,EQ,INE646L01027
-International Gemmological Institute (India) Ltd.,Services,IGIL,EQ,INE0Q9301021
+International Gemological Institute Ltd.,Services,IGIL,EQ,INE0Q9301021
 Inventurus Knowledge Solutions Ltd.,Information Technology,IKS,EQ,INE115Q01022
 Ion Exchange (India) Ltd.,Utilities,IONEXCHANG,EQ,INE570A01022
 Ipca Laboratories Ltd.,Healthcare,IPCALAB,EQ,INE571A01038
@@ -363,6 +364,7 @@ JK Paper Ltd.,Forest Materials,JKPAPER,EQ,INE789E01012
 JK Tyre & Industries Ltd.,Automobile and Auto Components,JKTYRE,EQ,INE573A01042
 JM Financial Ltd.,Financial Services,JMFINANCIL,EQ,INE780C01023
 JSW Cement Ltd.,Construction Materials,JSWCEMENT,EQ,INE718I01012
+JSW Dulux Ltd.,Consumer Durables,JSWDULUX,EQ,INE133A01011
 JSW Energy Ltd.,Power,JSWENERGY,EQ,INE121E01018
 JSW Infrastructure Ltd.,Services,JSWINFRA,EQ,INE880J01026
 JSW Steel Ltd.,Metals & Mining,JSWSTEEL,EQ,INE019A01038
@@ -415,7 +417,7 @@ L&T Technology Services Ltd.,Information Technology,LTTS,EQ,INE010V01017
 LG Electronics India Ltd.,Consumer Durables,LGEINDIA,EQ,INE324D01010
 LIC Housing Finance Ltd.,Financial Services,LICHSGFIN,EQ,INE115A01026
 LT Foods Ltd.,Fast Moving Consumer Goods,LTFOODS,EQ,INE818H01020
-LTIMindtree Ltd.,Information Technology,LTM,EQ,INE214T01019
+LTM Ltd.,Information Technology,LTM,EQ,INE214T01019
 Larsen & Toubro Ltd.,Construction,LT,EQ,INE018A01030
 Latent View Analytics Ltd.,Information Technology,LATENTVIEW,EQ,INE0I7C01011
 Laurus Labs Ltd.,Healthcare,LAURUSLABS,EQ,INE947Q01028
@@ -539,7 +541,7 @@ Praj Industries Ltd.,Capital Goods,PRAJIND,EQ,INE074A01025
 Premier Energies Ltd.,Capital Goods,PREMIERENE,EQ,INE0BS701011
 Prestige Estates Projects Ltd.,Realty,PRESTIGE,EQ,INE811K01011
 Pricol Ltd.,Automobile and Auto Components,PRICOLLTD,EQ,INE726V01018
-Prime Focus Ltd,Media Entertainment & Publication,PFOCUS,EQ,INE367G01038
+Prime Focus Ltd.,Media Entertainment & Publication,PFOCUS,BE,INE367G01038
 Prism Johnson Ltd.,Construction Materials,PRSMJOHNSN,EQ,INE010A01011
 Privi Speciality Chemicals Ltd.,Chemicals,PRIVISCL,EQ,INE959A01019
 Prudent Corporate Advisory Services Ltd.,Financial Services,PRUDENT,EQ,INE00F201020
@@ -561,6 +563,7 @@ Rallis India Ltd.,Chemicals,RALLIS,EQ,INE613A01020
 Ramkrishna Forgings Ltd.,Automobile and Auto Components,RKFORGE,EQ,INE399G01023
 Rashtriya Chemicals & Fertilizers Ltd.,Chemicals,RCF,EQ,INE027A01015
 Rategain Travel Technologies Ltd.,Information Technology,RATEGAIN,EQ,INE0CLI01024
+Ratnamani Metals & Tubes Ltd.,Capital Goods,RATNAMANI,EQ,INE703B01027
 RattanIndia Enterprises Ltd.,Consumer Services,RTNINDIA,EQ,INE834M01019
 RattanIndia Power Ltd.,Power,RTNPOWER,EQ,INE399K01017
 Raymond Lifestyle Ltd.,Textiles,RAYMONDLSL,EQ,INE02ID01020
@@ -591,6 +594,7 @@ Samhi Hotels Ltd.,Consumer Services,SAMHI,EQ,INE08U801020
 Sammaan Capital Ltd.,Financial Services,SAMMAANCAP,EQ,INE148I01020
 Samvardhana Motherson International Ltd.,Automobile and Auto Components,MOTHERSON,EQ,INE775A01035
 Sandur Manganese & Iron Ores Ltd.,Oil Gas & Consumable Fuels,SANDUMA,EQ,INE149K01016
+Sanofi Consumer Healthcare India Ltd.,Healthcare,SANOFICONR,EQ,INE0UOS01011
 Sansera Engineering Ltd.,Automobile and Auto Components,SANSERA,EQ,INE953O01021
 Sapphire Foods India Ltd.,Consumer Services,SAPPHIRE,EQ,INE806T01020
 Sarda Energy and Minerals Ltd.,Metals & Mining,SARDAEN,EQ,INE385C01021
@@ -627,12 +631,12 @@ Star Health and Allied Insurance Company Ltd.,Financial Services,STARHEALTH,EQ,I
 State Bank of India,Financial Services,SBIN,EQ,INE062A01020
 Steel Authority of India Ltd.,Metals & Mining,SAIL,EQ,INE114A01011
 Sterling and Wilson Renewable Energy Ltd.,Construction,SWSOLAR,EQ,INE00M201021
-Sterlite Technologies Ltd.,Telecommunication,STLTECH,EQ,INE089C01029
+Sterlite Technologies Ltd.,Telecommunication,STLTECH,BE,INE089C01029
 Strides Pharma Science Ltd.,Healthcare,STAR,EQ,INE939A01011
 Styrenix Performance Materials Ltd.,Chemicals,STYRENIX,EQ,INE189B01011
 Subros Ltd.,Capital Goods,SUBROS,EQ,INE287B01021
 Sudarshan Chemical Industries Ltd.,Chemicals,SUDARSCHEM,EQ,INE659A01023
-Sudeep Pharma Ltd.,Healthcare,SUDEEPPHRM,EQ,INE0QPI01025
+Sudeep Pharma Ltd.,Chemicals,SUDEEPPHRM,EQ,INE0QPI01025
 Sumitomo Chemical India Ltd.,Chemicals,SUMICHEM,EQ,INE258G01013
 Sun Pharma Advanced Research Company Ltd.,Healthcare,SPARC,EQ,INE232I01014
 Sun Pharmaceutical Industries Ltd.,Healthcare,SUNPHARMA,EQ,INE044A01036
