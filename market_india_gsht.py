@@ -38,7 +38,7 @@
 """
 import os, sys, time, warnings
 import numpy as np, pandas as pd, yfinance as yf
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 import gspread
 from gspread_dataframe import set_with_dataframe
 from google.oauth2.service_account import Credentials
