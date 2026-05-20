@@ -59,7 +59,7 @@ STOCK_CSV      = os.path.join(INDEX_DATA_DIR, "ind_niftytotalmarket_list.csv")
 # ── Tunable constants ─────────────────────────────────────────────────────────
 MAX_STOCKS        = 500
 PERIOD_DAYS       = 420   # ↑ 300 → 420 calendar days (covers RS_252d & 12M%)
-ENABLE_PATTERNS   = True
+ENABLE_PATTERNS   = False
 PATTERN_MAX       = 400
 PRIMARY_RS_PERIOD = 22
 FETCH_FINANCIALS  = True   # always True in cloud — no cache
