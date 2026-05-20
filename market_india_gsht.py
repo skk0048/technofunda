@@ -661,7 +661,6 @@ def main():
             top_buy_df=top_buy_df, top_sell_df=top_sell_df,
             chart_pat_df=chart_df, trade_df=trade_df,
             dashboard_df=dashboard_df, sleeve_df=sleeve_df,
-            commodity_df=commodity_df,
             output_path=html_path, run_time=run_time, primary_rs=PRIMARY_RS_PERIOD,
         )
         print(f"  ✅ HTML generated successfully at: {html_path}")
