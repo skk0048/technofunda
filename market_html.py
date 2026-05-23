@@ -355,15 +355,32 @@ def _build_sleeve_tables(sleeve_df, market="INDIA"):
     default_capital = "1000000" if is_india else "50000"
 
     html = f"""<div class="sleeve-global-ctrl">
-  <label class="ctrl-label">Total Portfolio Capital ({currency})</label>
-  <input type="number" id="global-capital" class="cap-input"
-         value="{default_capital}" placeholder="{default_capital}"
-         oninput="recalcAll()">
-  <label class="ctrl-label" style="margin-left:16px">Risk per stock (%)</label>
-  <input type="number" id="global-risk" class="cap-input" style="width:80px"
-         value="1" min="0.1" max="5" step="0.1" oninput="recalcAll()">
-  <span class="ctrl-note">Qty uses ATR-weighted allocation.
-  Risk% is shown as reference only.</span>
+  <div class="ctrl-row">
+    <div class="ctrl-field">
+      <label class="ctrl-label">Portfolio Capital ({currency})</label>
+      <input type="number" id="global-capital" class="cap-input"
+             value="{default_capital}" placeholder="{default_capital}"
+             oninput="recalcAll()">
+    </div>
+    <div class="ctrl-field">
+      <label class="ctrl-label">Risk per stock (%&nbsp;of&nbsp;capital)</label>
+      <input type="number" id="global-risk" class="cap-input" style="width:90px"
+             value="1" min="0.1" max="5" step="0.1" oninput="recalcAll()">
+    </div>
+    <div class="ctrl-field">
+      <label class="ctrl-label">Max SL cap (%)</label>
+      <input type="number" id="global-sl-cap" class="cap-input" style="width:80px"
+             value="5" min="1" max="15" step="0.5" oninput="recalcAll()">
+    </div>
+  </div>
+  <div class="ctrl-formula">
+    <strong>Formula:</strong>
+    Qty&nbsp;=&nbsp;⌊ (Capital&nbsp;×&nbsp;Risk%) &nbsp;÷&nbsp; (Price&nbsp;×&nbsp;effective_SL%) ⌋
+    &nbsp;·&nbsp;
+    effective_SL&nbsp;=&nbsp;min(SL_Buy%,&nbsp;Max&nbsp;SL&nbsp;cap)
+    &nbsp;·&nbsp;
+    If SL_Buy% missing → uses Max SL cap as fallback
+  </div>
 </div>"""
 
     for key, rows in sections.items():
@@ -375,7 +392,13 @@ def _build_sleeve_tables(sleeve_df, market="INDIA"):
         n = len(df_sec)
 
         # Build table rows with data-* attributes for JS
-        thead_extra = "<th>Qty</th><th>Amount</th><th>SL Price</th><th>Risk ₹</th><th>P&amp;L</th>"
+        risk_currency = "₹" if is_india else "$"
+        thead_extra = (f"<th title='Risk-based quantity'>Qty</th>"
+                       f"<th title='Qty × Price'>Amount ({currency})</th>"
+                       f"<th title='Hard stop price'>SL Price</th>"
+                       f"<th title='Max loss if stopped out'>Risk ({risk_currency})</th>"
+                       f"<th title='Eff. SL% used'>eSL%</th>"
+                       f"<th title='P&amp;L vs tracked entry'>P&amp;L</th>")
         show_cols = [c for c in _SLEEVE_SHOW if c in df_sec.columns]
 
         ths = "".join(
@@ -403,8 +426,24 @@ def _build_sleeve_tables(sleeve_df, market="INDIA"):
                     '<td class="calc-cell amt-cell">—</td>'
                     '<td class="calc-cell slp-cell">—</td>'
                     '<td class="calc-cell rsk-cell">—</td>'
+                    '<td class="calc-cell esl-cell">—</td>'
                     '<td class="calc-cell pl-cell">—</td>')
             tbody += f'<tr {attrs}>{tds}</tr>'
+
+        # Broker buttons — Zerodha for India, IBKR for US (both shown for India as optional)
+        is_us_sleeve = key.startswith("US_")
+        if is_us_sleeve:
+            broker_btns = (
+                f'<button class="action-btn blue" onclick="downloadIBKR(\'{safe_key}\',\'False\')">'
+                f'📥 IBKR Basket CSV</button>'
+            )
+        else:
+            broker_btns = (
+                f'<button class="action-btn orange" onclick="downloadZerodha(\'{safe_key}\')">'
+                f'📥 Zerodha Basket JSON</button>'
+                f'<button class="action-btn blue" onclick="downloadIBKR(\'{safe_key}\',\'True\')">'
+                f'📥 IBKR Basket CSV</button>'
+            )
 
         html += f"""<div class="sleeve-block">
   <div class="sleeve-header">
@@ -416,7 +455,7 @@ def _build_sleeve_tables(sleeve_df, market="INDIA"):
 
   <div class="sleeve-actions">
     <button class="action-btn green" onclick="calcSleeve('{safe_key}')">⚡ Recalculate</button>
-    <button class="action-btn blue"  onclick="downloadZerodha('{safe_key}','{is_india}')">📥 Zerodha Basket CSV</button>
+    {broker_btns}
     <button class="action-btn amber" onclick="trackEntry('{safe_key}')">💾 Track Entry</button>
     <button class="action-btn grey"  onclick="clearTracking('{safe_key}')">🗑 Clear Tracking</button>
     <span class="track-msg" id="tmsg-{safe_key}"></span>
@@ -676,10 +715,13 @@ table.data-tbl{border-collapse:collapse;width:100%;font-size:12px;min-width:400p
 .neg{color:#e57373;}.neg-dim{color:#ef9a9a;}.dim{color:var(--text3);}
 /* Sleeve calculator */
 .sleeve-global-ctrl{background:var(--bg2);border:1px solid var(--accent);
-  border-radius:var(--radius);padding:14px 16px;margin-bottom:16px;
-  display:flex;align-items:center;flex-wrap:wrap;gap:12px;}
-.ctrl-label{font-size:12px;font-weight:600;color:var(--text2);}
-.ctrl-note{font-size:11px;color:var(--text3);}
+  border-radius:var(--radius);padding:14px 16px;margin-bottom:16px;}
+.ctrl-row{display:flex;align-items:flex-end;flex-wrap:wrap;gap:16px;margin-bottom:10px;}
+.ctrl-field{display:flex;flex-direction:column;gap:4px;}
+.ctrl-label{font-size:11px;font-weight:600;color:var(--text2);}
+.ctrl-formula{font-size:11px;color:var(--text3);line-height:1.6;padding-top:6px;
+  border-top:1px solid var(--border);}
+.ctrl-formula strong{color:var(--accent);}
 .cap-input{background:var(--bg3);border:1px solid var(--border);color:var(--text);
   padding:6px 10px;border-radius:6px;font-size:14px;width:150px;outline:none;}
 .cap-input:focus{border-color:var(--accent);}
@@ -698,6 +740,7 @@ table.data-tbl{border-collapse:collapse;width:100%;font-size:12px;min-width:400p
 .action-btn.green{background:#16a34a;color:#fff;}
 .action-btn.blue{background:#1d4ed8;color:#fff;}
 .action-btn.amber{background:#d97706;color:#fff;}
+.action-btn.orange{background:#c2410c;color:#fff;}
 .action-btn.grey{background:#374151;color:#9ca3af;}
 .track-msg{font-size:12px;color:var(--green);margin-left:4px;}
 .entry-date{font-size:11px;color:var(--text3);margin-left:8px;}
@@ -837,83 +880,247 @@ function toggleView(sid,mode){
   if(tv)tv.style.display=mode==='table'?'':'none';
 }
 
-/* ── SLEEVE CALCULATOR ─────────────────────────────────────────────────── */
-function fmtNum(n){
-  if(isNaN(n)||n===0)return '—';
-  if(n>=10000000)return '₹'+(n/10000000).toFixed(2)+'Cr';
-  if(n>=100000) return '₹'+(n/100000).toFixed(2)+'L';
-  return '₹'+Math.round(n).toLocaleString('en-IN');
+/* ── SLEEVE CALCULATOR ─────────────────────────────────────────────────────
+   Formula:  Qty = floor( (Capital × Risk%) / (Price × effective_SL%) )
+   effective_SL = min(SL_Buy% from engine, Max SL cap input)
+   If SL_Buy% is missing/zero → uses Max SL cap as fallback
+   This is pure risk-based sizing — ATR_Wt% is NOT used for qty.
+   ─────────────────────────────────────────────────────────────────────── */
+function fmtNum(n, currency){
+  const c = currency || '₹';
+  if(isNaN(n) || n === 0) return '—';
+  const abs = Math.abs(n);
+  const sign = n < 0 ? '-' : '';
+  if(abs >= 10000000) return sign + c + (abs/10000000).toFixed(2) + 'Cr';
+  if(abs >= 100000)   return sign + c + (abs/100000).toFixed(2) + 'L';
+  if(abs >= 1000)     return sign + c + Math.round(abs).toLocaleString('en-IN');
+  return sign + c + abs.toFixed(2);
+}
+
+function getCurrency(){
+  // Detect currency symbol from capital input label
+  const lbl = document.querySelector('.ctrl-label');
+  return (lbl && lbl.textContent.includes('$')) ? '$' : '₹';
 }
 
 function recalcAll(){
-  document.querySelectorAll('[id^="sleeve-"]').forEach(tbl=>{
-    calcSleeve(tbl.id.replace('sleeve-',''));
+  document.querySelectorAll('[id^="sleeve-"]').forEach(tbl => {
+    calcSleeve(tbl.id.replace('sleeve-', ''));
   });
 }
 
 function calcSleeve(key){
-  const capital = parseFloat(document.getElementById('global-capital')?.value)||0;
-  const riskPct = parseFloat(document.getElementById('global-risk')?.value)||1;
-  const tbl     = document.getElementById('sleeve-'+key);
-  if(!tbl||capital<=0)return;
+  const capital  = parseFloat(document.getElementById('global-capital')?.value) || 0;
+  const riskPct  = parseFloat(document.getElementById('global-risk')?.value)    || 1;
+  const slCap    = parseFloat(document.getElementById('global-sl-cap')?.value)  || 5;
+  const tbl      = document.getElementById('sleeve-' + key);
+  if(!tbl || capital <= 0) return;
 
-  let totalDeployed=0; let totalRisk=0; let n=0;
+  const cur      = getCurrency();
+  let totalDeployed = 0;
+  let totalRisk     = 0;
+  let n             = 0;
+
   for(const row of tbl.tBodies[0].rows){
-    const price  = parseFloat(row.dataset.price)||0;
-    const atrWt  = parseFloat(row.dataset.atrwt)||0;
-    const slPct  = parseFloat(row.dataset.sl)||0;
+    const price = parseFloat(row.dataset.price) || 0;
+    const slRaw = parseFloat(row.dataset.sl)    || 0;  // SL_Buy% from engine
 
-    if(price<=0){
-      row.querySelector('.qty-cell').textContent='—';
-      row.querySelector('.amt-cell').textContent='—';
-      row.querySelector('.slp-cell').textContent='—';
-      row.querySelector('.rsk-cell').textContent='—';
+    const qCell   = row.querySelector('.qty-cell');
+    const aCell   = row.querySelector('.amt-cell');
+    const slpCell = row.querySelector('.slp-cell');
+    const rCell   = row.querySelector('.rsk-cell');
+    const eslCell = row.querySelector('.esl-cell');
+
+    if(price <= 0){
+      if(qCell)   qCell.textContent   = '—';
+      if(aCell)   aCell.textContent   = '—';
+      if(slpCell) slpCell.textContent = '—';
+      if(rCell)   rCell.textContent   = '—';
+      if(eslCell) eslCell.textContent = '—';
       continue;
     }
 
-    // ATR-weighted allocation
-    const alloc   = capital * atrWt / 100;
-    const qty     = Math.floor(alloc / price);
-    const amount  = qty * price;
-    const slPrice = price * (1 - slPct/100);
-    const riskAmt = qty * price * slPct/100;
+    // effective SL: use engine value if available, cap at slCap, fallback to slCap
+    const effectiveSL = (slRaw > 0) ? Math.min(slRaw, slCap) : slCap;
 
-    row.querySelector('.qty-cell').textContent = qty>0 ? qty.toLocaleString() : '—';
-    row.querySelector('.amt-cell').textContent = qty>0 ? fmtNum(amount) : '—';
-    row.querySelector('.slp-cell').textContent = slPct>0 ? slPrice.toFixed(1) : '—';
-    row.querySelector('.rsk-cell').textContent = qty>0 ? fmtNum(riskAmt) : '—';
+    // Risk-based position sizing
+    const riskAmount = capital * riskPct / 100;          // e.g. 1% of 10L = ₹10,000
+    const riskPerShr = price   * effectiveSL / 100;      // e.g. ₹1000 × 5% = ₹50
+    const qty        = riskPerShr > 0 ? Math.floor(riskAmount / riskPerShr) : 0;
+    const amount     = qty * price;
+    const slPrice    = price * (1 - effectiveSL / 100);
+    const actualRisk = qty * riskPerShr;                  // should ≈ riskAmount
+
+    if(qCell)   qCell.textContent   = qty > 0 ? qty.toLocaleString('en-IN') : '—';
+    if(aCell)   aCell.textContent   = qty > 0 ? fmtNum(amount, cur) : '—';
+    if(slpCell) slpCell.textContent = qty > 0 ? slPrice.toFixed(2) : '—';
+    if(rCell)   rCell.textContent   = qty > 0 ? fmtNum(actualRisk, cur) : '—';
+    if(eslCell){
+      eslCell.textContent = effectiveSL.toFixed(1) + '%';
+      // Highlight if SL was capped (engine SL was wider than cap)
+      eslCell.style.color = (slRaw > slCap && slRaw > 0) ? '#f59e0b' : '';
+      eslCell.title = slRaw > 0
+        ? `Engine SL: ${slRaw.toFixed(1)}% → capped to ${effectiveSL.toFixed(1)}%`
+        : `No SL data → using fallback ${effectiveSL.toFixed(1)}%`;
+    }
 
     totalDeployed += amount;
-    totalRisk     += riskAmt;
-    if(qty>0) n++;
+    totalRisk     += actualRisk;
+    if(qty > 0) n++;
   }
 
-  const sumEl = document.getElementById('sum-'+key);
-  const totEl = document.getElementById('total-'+key);
+  const sumEl = document.getElementById('sum-'  + key);
+  const totEl = document.getElementById('total-' + key);
   if(sumEl) sumEl.textContent =
-    n+' stocks · Deployed '+fmtNum(totalDeployed)+' · Risk '+fmtNum(totalRisk);
-  if(totEl) totEl.textContent = fmtNum(totalDeployed);
+    n + ' stocks · Deployed ' + fmtNum(totalDeployed, cur) +
+    ' · Total Risk ' + fmtNum(totalRisk, cur) +
+    ' (' + (capital > 0 ? (totalRisk/capital*100).toFixed(1) : '0') + '% of capital)';
+  if(totEl) totEl.textContent = fmtNum(totalDeployed, cur);
 }
 
-/* ── ZERODHA BASKET CSV ─────────────────────────────────────────────────── */
-function downloadZerodha(key, isIndia){
+/* ── ZERODHA BASKET JSON ─────────────────────────────────────────────────
+   Format matches Zerodha's basket order import exactly.
+   Based on the official Zerodha basket JSON structure (array of order objects).
+   ⚠ instrumentToken is set to 0 — Zerodha resolves by tradingsymbol+exchange.
+   In Zerodha Kite: Orders → Basket Orders → Import from file
+   ─────────────────────────────────────────────────────────────────────── */
+function downloadZerodha(key){
   const tbl = document.getElementById('sleeve-'+key);
   if(!tbl) return;
-  let csv = 'TradingSymbol,Exchange,TransactionType,OrderType,Quantity,Price,TriggerPrice,Product\n';
-  let count = 0;
+
+  const basket = [];
+  let weight = 0;
+
   for(const row of tbl.tBodies[0].rows){
-    const sym = (row.dataset.sym||'').trim();
-    const qty = parseInt(row.querySelector('.qty-cell')?.textContent)||0;
+    const sym   = (row.dataset.sym||'').trim();
+    const price = parseFloat(row.dataset.price)||0;
+    const qty   = parseInt(row.querySelector('.qty-cell')?.textContent)||0;
     if(!sym||qty<=0) continue;
-    const exchange = (isIndia==='True') ? 'NSE' : 'NYSE';
-    csv += `${sym},${exchange},BUY,MARKET,${qty},0,0,CNC\n`;
+
+    // Limit price = current price + 0.5% buffer (rounded to nearest 0.05 tick)
+    const rawLimit   = price * 1.005;
+    const limitPrice = Math.round(rawLimit / 0.05) * 0.05;
+    const lp         = parseFloat(limitPrice.toFixed(2));
+
+    basket.push({
+      id: Date.now() + weight,
+      instrument: {
+        tradingsymbol:  sym,
+        scripCode:      "",
+        type:           "EQ",
+        symbol:         sym,
+        segment:        "NSE",
+        exchange:       "NSE",
+        tickSize:       0.05,
+        lotSize:        1,
+        company:        sym,
+        tradable:       true,
+        precision:      2,
+        fullName:       sym,
+        niceName:       sym,
+        niceNameHTML:   sym,
+        stockWidget:    true,
+        exchangeToken:  0,
+        instrumentToken:0,
+        isin:           "",
+        related:        [],
+        underlying:     null,
+        auctionNumber:  null,
+        isEquity:       true,
+        isWeekly:       false
+      },
+      weight: weight,
+      params: {
+        transactionType:  "BUY",
+        product:          "CNC",
+        orderType:        "LIMIT",
+        validity:         "DAY",
+        validityTTL:      1,
+        quantity:         qty,
+        price:            lp,
+        triggerPrice:     0,
+        disclosedQuantity:0,
+        lastPrice:        parseFloat(price.toFixed(2)),
+        variety:          "regular",
+        tags:             []
+      }
+    });
+    weight++;
+  }
+
+  if(basket.length===0){
+    alert('Calculate quantities first (click ⚡ Recalculate)');return;
+  }
+
+  const blob = new Blob([JSON.stringify(basket,null,2)],{type:'application/json'});
+  const a    = document.createElement('a');
+  a.href     = URL.createObjectURL(blob);
+  a.download = `sleeve_${key}_zerodha_basket.json`;
+  a.click();
+  URL.revokeObjectURL(a.href);
+}
+
+/* ── IBKR BASKET CSV ─────────────────────────────────────────────────────
+   Format: TWS BasketTrader CSV (all retail IBKR accounts support this).
+   How to use in TWS: File → Open → Basket Trader → Import from File
+   Or: Orders menu → Import from File
+   Fields per IBKR docs: Symbol,SecType,Exchange,Currency,Action,
+                          Quantity,OrderType,LmtPrice,TimeInForce
+   India stocks: Exchange=NSE, Currency=INR (for non-Indian residents on IBKR)
+   US stocks:    Exchange=SMART, Currency=USD
+   ─────────────────────────────────────────────────────────────────────── */
+function downloadIBKR(key, isIndia){
+  const tbl = document.getElementById('sleeve-'+key);
+  if(!tbl) return;
+
+  const isInd = (isIndia==='True');
+  const exchange = isInd ? 'NSE'   : 'SMART';
+  const currency = isInd ? 'INR'   : 'USD';
+
+  // IBKR basket file header — exact column names from IBKR documentation
+  const HEADER = [
+    'Symbol','SecType','Exchange','Currency',
+    'Action','Quantity','OrderType','LmtPrice',
+    'TimeInForce','OutsideRTH','Hidden','DiscretionaryAmt'
+  ];
+  let csv = HEADER.join(',') + '\n';
+  let count = 0;
+
+  for(const row of tbl.tBodies[0].rows){
+    const sym   = (row.dataset.sym||'').trim();
+    const price = parseFloat(row.dataset.price)||0;
+    const qty   = parseInt(row.querySelector('.qty-cell')?.textContent)||0;
+    if(!sym||qty<=0) continue;
+
+    // Limit price = current price + 0.5% buffer
+    const lmtPrice = parseFloat((price * 1.005).toFixed(isInd ? 2 : 2));
+
+    const fields = [
+      sym,          // Symbol
+      'STK',        // SecType
+      exchange,     // Exchange (SMART for US = IBKR smart routing)
+      currency,     // Currency
+      'BUY',        // Action
+      qty,          // Quantity
+      'LMT',        // OrderType
+      lmtPrice,     // LmtPrice
+      'DAY',        // TimeInForce
+      '0',          // OutsideRTH (0 = no after-hours)
+      '0',          // Hidden
+      '0'           // DiscretionaryAmt
+    ];
+    csv += fields.join(',') + '\n';
     count++;
   }
-  if(count===0){alert('Calculate quantities first (click ⚡ Recalculate)');return;}
+
+  if(count===0){
+    alert('Calculate quantities first (click ⚡ Recalculate)');return;
+  }
+
   const blob = new Blob([csv],{type:'text/csv'});
   const a    = document.createElement('a');
   a.href     = URL.createObjectURL(blob);
-  a.download = `sleeve_${key}_zerodha_basket.csv`;
+  a.download = `sleeve_${key}_ibkr_basket.csv`;
   a.click();
   URL.revokeObjectURL(a.href);
 }
@@ -978,6 +1185,7 @@ async function loadTracking(key){
   if(!tbl) return;
 
   let plTotal=0; let plCount=0;
+  const cur = getCurrency();
   for(const row of tbl.tBodies[0].rows){
     const sym   = (row.dataset.sym||'').trim();
     const entry = entryMap[sym];
@@ -986,7 +1194,7 @@ async function loadTracking(key){
     const cur   = parseFloat(row.dataset.price)||0;
     const plPct = ((cur-entry.entry_price)/entry.entry_price*100).toFixed(1);
     const plAmt = Math.round((cur-entry.entry_price)*entry.qty);
-    plCell.textContent = plPct+'% ('+fmtNum(Math.abs(plAmt))+')';
+    plCell.textContent = plPct+'% ('+fmtNum(Math.abs(plAmt), cur)+')';
     plCell.className   = 'calc-cell pl-cell '+(parseFloat(plPct)>0?'pos-strong':'neg-strong');
     plTotal += plAmt;
     plCount++;
@@ -996,7 +1204,7 @@ async function loadTracking(key){
   const plSumEl= document.getElementById('plsum-'+key);
   if(edEl)   edEl.textContent   = 'Entry: '+data.date;
   if(plSumEl){
-    plSumEl.textContent = plCount>0 ? fmtNum(Math.abs(plTotal)) : '—';
+    plSumEl.textContent = plCount>0 ? fmtNum(Math.abs(plTotal), cur) : '—';
     plSumEl.className   = plTotal>0 ? 'pos-strong' : 'neg-strong';
   }
 }
