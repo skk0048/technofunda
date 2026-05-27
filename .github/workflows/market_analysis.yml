@@ -1,5 +1,5 @@
 # ════════════════════════════════════════════════════════════════════════════
-#  FundaTechno Market Analysis — GitHub Actions v5.9
+#  FundaTechno Market Analysis — GitHub Actions v6.0
 #
 #  KEY FIX v5.8: git push race condition resolved.
 #  Both India and USA jobs used to push to main at overlapping times.
@@ -29,8 +29,8 @@ name: Market Analysis
 on:
   schedule:
     # ── INDIA ──────────────────────────────────────────────────────────────
-    - cron: "30 4 * * 1-5"    # India Run 1 → 04:30 UTC = 10:00 AM IST
-    - cron: "0 8 * * 1-5"     # India Run 2 → 08:00 UTC = 01:30 PM IST
+    - cron: "30 3 * * 1-5"    # India Run 1 → 03:30 UTC = 09:00 AM IST
+    - cron: "0 6 * * 1-5"     # India Run 2 → 06:00 UTC = 11:30 AM IST
     - cron: "30 11 * * 1-5"   # India Run 3 → 11:30 UTC = 05:00 PM IST
 
     # ── USA ────────────────────────────────────────────────────────────────
@@ -48,10 +48,6 @@ on:
         default: "all"
         type: choice
         options: [all, india, usa, scans]
-
-# ── Shared push helper (used by both India and USA jobs) ────────────────────
-# Defined here as a reusable shell snippet via env var rather than a
-# separate composite action, so the file stays self-contained.
 
 jobs:
 
@@ -73,7 +69,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          # Fetch full history so rebase has context
           fetch-depth: 0
 
       - uses: actions/setup-python@v5
@@ -102,7 +97,6 @@ jobs:
 
           git add -f India_Market_Analysis*.html 2>/dev/null || true
 
-          # Exit cleanly if there is nothing new to commit
           if git diff --staged --quiet; then
             echo "No HTML changes — nothing to commit."
             exit 0
@@ -110,7 +104,6 @@ jobs:
 
           git commit -m "📊 India HTML update $(date -u '+%Y-%m-%d %H:%M UTC')"
 
-          # Pull-rebase + push with up to 3 retries to handle concurrent job pushes
           for attempt in 1 2 3; do
             echo "Push attempt ${attempt}…"
             git pull --rebase origin main && git push && echo "Push succeeded." && break
@@ -225,12 +218,6 @@ jobs:
           GOOGLE_CREDENTIALS_PATH: /tmp/google_credentials.json
           GOOGLE_SHEET_URL_SCANS: ${{ secrets.GOOGLE_SHEET_URL_SCANS }}
         run: python FnO.py
-
-      # - name: Run Breakout scan
-      #   env:
-      #     GOOGLE_CREDENTIALS_PATH: /tmp/google_credentials.json
-      #     GOOGLE_SHEET_URL_SCANS: ${{ secrets.GOOGLE_SHEET_URL_SCANS }}
-      #   run: python Breakout.py
 
       - name: Remove credentials
         if: always()
