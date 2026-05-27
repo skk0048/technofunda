@@ -30,13 +30,13 @@ else:
 
 STOCK_CSV = os.path.join(INDEX_DATA_DIR, "ind_niftytotalmarket_list.csv")
 
-MAX_STOCKS        = 500
-PERIOD_DAYS       = 420
+MAX_STOCKS        = 1500
+PERIOD_DAYS       = 1520
 ENABLE_PATTERNS   = True
 PATTERN_MAX       = 400
 FETCH_FINANCIALS  = True
 ENABLE_SIGNALS    = True
-SIGNAL_MAX_STOCKS = 400
+SIGNAL_MAX_STOCKS = 1500
 PRIMARY_RS_PERIOD = 22   # ← change to 55 or 120 to test other RS periods
 
 CREDENTIALS_PATH = (
