@@ -29,9 +29,9 @@ name: Market Analysis
 on:
   schedule:
     # ── INDIA ──────────────────────────────────────────────────────────────
-    - cron: "30 3 * * 1-5"    # India Run 1 → 03:30 UTC = 09:00 AM IST
-    - cron: "0 6 * * 1-5"     # India Run 2 → 06:00 UTC = 11:30 AM IST
-    - cron: "30 11 * * 1-5"   # India Run 3 → 11:30 UTC = 05:00 PM IST
+    - cron: "30 1 * * 1-5"    # India Run 1 → 03:30 UTC = 09:00 AM IST
+    - cron: "0 4 * * 1-5"     # India Run 2 → 06:00 UTC = 11:30 AM IST
+    - cron: "30 9 * * 1-5"   # India Run 3 → 11:30 UTC = 05:00 PM IST
 
     # ── USA ────────────────────────────────────────────────────────────────
     - cron: "30 23 * * 1-5"   # USA Run 1 → 11:30 PM UTC = 05:00 AM IST next day
