@@ -1323,16 +1323,105 @@ def build_top_picks_sell(stock_df, sector_str_df, market="INDIA", top_n=None, pr
 # ─────────────────────────────────────────────────────────────────────────────
 #  ❿ CHART PATTERNS  v5.3 — Daily + Weekly, Date fixed, Timeframe column
 # ─────────────────────────────────────────────────────────────────────────────
-def build_chart_patterns_df(patterns_list, stock_df, market="INDIA"):
+def _pattern_quality(p, info):
     """
-    Build chart patterns DataFrame for Excel output.
-    - Daily patterns  : last 21 days
-    - Weekly patterns : last 90 days  (weekly patterns take longer to form)
-    Sorted: Weekly first (higher TF → higher historical win rate), then Bullish first.
+    Score a chart pattern 0-100 and decide whether it passes the quality gate.
+
+    Philosophy: a pattern is only tradeable if it agrees with the stock's
+    larger context. We combine three independent confirmations:
+      • TREND filter   — pattern direction must agree with Trend / Supertrend /
+                         EMA200 location (don't buy a bullish pattern in a
+                         downtrend, or short a bullish stock).
+      • MOMENTUM filter— relative strength direction + RSI in a healthy band
+                         (avoid weak laggards and blow-off extremes).
+      • PATTERN filter — the detector's own confidence and the R:R of the setup.
+
+    Returns (score:int, passed:bool, stars:str, tags:str).
+    """
+    direction = str(getattr(p, "direction", "") or "").upper()
+    bull = (direction == "BULLISH")
+
+    # ── pattern-intrinsic strength ──────────────────────────────────────────
+    try:
+        conf = float(p.confidence)
+        if conf <= 1:        # detector may report 0-1 instead of 0-100
+            conf *= 100
+    except Exception:
+        conf = np.nan
+    try:
+        rr = float(p.rr)
+    except Exception:
+        rr = np.nan
+
+    # ── context from the stock row ──────────────────────────────────────────
+    trend = str(info.get("Trend", "") or "").lower()
+    st    = str(info.get("Supertrend", "") or "")
+    abv   = str(info.get("Abv_EMA200", "") or "")
+    def _num(k):
+        try:    return float(info.get(k, np.nan))
+        except: return np.nan
+    rsi  = _num("RSI_14")
+    sma  = _num("SMA_Score")
+    rs22 = _num("RS_22d_Idx%")
+
+    trend_bull = ("bull" in trend)
+    trend_bear = ("bear" in trend)
+
+    # ── alignment votes (only count confirmations we actually have data for) ─
+    votes = 0; total = 0; tags = []
+    if trend:
+        total += 1
+        ok = (bull and trend_bull) or ((not bull) and trend_bear)
+        votes += ok; tags.append("Trend" + ("✓" if ok else "✗"))
+    if st in ("Buy", "Sell"):
+        total += 1
+        ok = (bull and st == "Buy") or ((not bull) and st == "Sell")
+        votes += ok; tags.append("ST" + ("✓" if ok else "✗"))
+    if abv in ("✓", "✗"):
+        total += 1
+        ok = (bull and abv == "✓") or ((not bull) and abv == "✗")
+        votes += ok; tags.append("EMA200" + ("✓" if ok else "✗"))
+    if rs22 == rs22:
+        total += 1
+        ok = (bull and rs22 > 0) or ((not bull) and rs22 < 0)
+        votes += ok; tags.append("RS" + ("✓" if ok else "✗"))
+
+    # ── momentum: RSI in a healthy band for the direction ───────────────────
+    rsi_ok = True
+    if rsi == rsi:
+        rsi_ok = (45 <= rsi <= 82) if bull else (18 <= rsi <= 55)
+
+    # ── composite score 0-100 ───────────────────────────────────────────────
+    align_pct = (votes / total * 100) if total > 0 else 50.0   # neutral if blind
+    conf_c    = conf if conf == conf else 50.0
+    rr_c      = (min(rr, 3.0) / 3.0 * 100) if rr == rr else 50.0
+    rsi_c     = 100.0 if rsi_ok else 30.0
+    score = int(round(0.35 * align_pct + 0.25 * conf_c + 0.20 * rr_c + 0.20 * rsi_c))
+
+    # ── quality GATE — must clear all of these to be shown ──────────────────
+    aligned = (votes >= max(1, round(total * 0.5))) if total > 0 else True
+    rr_pass = (rr >= 1.5) if rr == rr else True            # skip poor R:R
+    cf_pass = (conf >= 50) if conf == conf else True        # skip weak detections
+    passed  = bool(aligned and rsi_ok and rr_pass and cf_pass)
+
+    stars = "★" * min(5, max(1, round(score / 20)))
+    return score, passed, stars, " ".join(tags)
+
+
+def build_chart_patterns_df(patterns_list, stock_df, market="INDIA",
+                            daily_days=15, weekly_days=45, show_rejected=False):
+    """
+    Build chart patterns DataFrame for Excel / HTML output.
+    - Daily patterns  : last `daily_days`  days (default 15)
+    - Weekly patterns : last `weekly_days` days (default 45)
+    Each pattern is run through a TREND + MOMENTUM + R:R quality gate
+    (see _pattern_quality). By default only patterns that PASS are returned,
+    so the table shows fewer but higher-probability setups.
+    Sorted: Weekly → Bullish → Quality(high→low) → most recent first.
     """
     now = datetime.now()
-    daily_cutoff  = (now - timedelta(days=21)).strftime("%Y-%m-%d")
-    weekly_cutoff = (now - timedelta(days=90)).strftime("%Y-%m-%d")
+    daily_cutoff  = (now - timedelta(days=daily_days)).strftime("%Y-%m-%d")
+    weekly_cutoff = (now - timedelta(days=weekly_days)).strftime("%Y-%m-%d")
 
     recent = [p for p in patterns_list if
               (p.timeframe == 'W' and p.date >= weekly_cutoff) or
@@ -1343,15 +1432,28 @@ def build_chart_patterns_df(patterns_list, stock_df, market="INDIA"):
     if not stock_df.empty:
         for _, r in stock_df.iterrows():
             sym_info[r["Symbol"]] = {
-                "Sector":   r.get("Sector", ""),
-                "Signal":   r.get("Signal", "Neutral"),
-                "RS_Score": r.get("RS_Score", np.nan),
-                "SL_Buy%":  r.get("SL_Buy%",  np.nan),
+                "Sector":     r.get("Sector", ""),
+                "Signal":     r.get("Signal", "Neutral"),
+                "RS_Score":   r.get("RS_Score", np.nan),
+                "SL_Buy%":    r.get("SL_Buy%",  np.nan),
+                "RSI_14":     r.get("RSI_14", np.nan),
+                "Trend":      r.get("Trend", ""),
+                "SMA_Score":  r.get("SMA_Score", np.nan),
+                "Supertrend": r.get("Supertrend", ""),
+                "Abv_EMA200": r.get("Abv_EMA200", ""),
+                "RS_22d_Idx%":r.get("RS_22d_Idx%", np.nan),
+                "RS_55d_Idx%":r.get("RS_55d_Idx%", np.nan),
             }
     rows = []
+    n_seen = n_kept = 0
     for p in recent:
         orig     = p.symbol.replace(".NS","")
         info     = sym_info.get(orig, {})
+        n_seen  += 1
+        q_score, q_pass, q_stars, q_tags = _pattern_quality(p, info)
+        if not q_pass and not show_rejected:
+            continue
+        n_kept  += 1
         tf_label = "🗓 Weekly" if p.timeframe == 'W' else "📅 Daily"
         rows.append({
             "Symbol":     orig,
@@ -1359,6 +1461,9 @@ def build_chart_patterns_df(patterns_list, stock_df, market="INDIA"):
             "Timeframe":  tf_label,
             "Sector":     info.get("Sector", ""),
             "RS_Signal":  info.get("Signal", ""),
+            "Quality":    q_stars,
+            "Q_Score":    q_score,
+            "Confirm":    q_tags,
             "RS_Score":   info.get("RS_Score", np.nan),
             "SL_Buy%":    info.get("SL_Buy%",  np.nan),
             "Pattern":    p.pattern,
@@ -1375,19 +1480,24 @@ def build_chart_patterns_df(patterns_list, stock_df, market="INDIA"):
     if not rows:
         return pd.DataFrame({
             "Symbol":    ["—"], "TV_Symbol": ["—"], "Timeframe": ["—"],
-            "Pattern":   [f"No patterns found (daily cutoff: {daily_cutoff})"],
+            "Quality":   ["—"],
+            "Pattern":   [f"No high-quality patterns (daily ≤{daily_days}d, "
+                          f"weekly ≤{weekly_days}d, trend+momentum filtered)"],
             "Direction": ["—"], "Date": ["—"],
         })
 
     df = pd.DataFrame(rows)
     # Fix date format — handles both str "2025-04-10" and datetime objects
     df["Date"] = pd.to_datetime(df["Date"], errors="coerce").dt.strftime("%Y-%m-%d")
-    # Sort: Weekly → Daily, then Bullish → Bearish, then most recent first
+    # Sort: Weekly → Daily, then Bullish → Bearish, then best quality, then recent
     tf_ord  = df["Timeframe"].apply(lambda x: 0 if "Weekly" in str(x) else 1)
     dir_ord = df["Direction"].apply(lambda x: 0 if x == "BULLISH" else 1)
     df = df.assign(_tf=tf_ord, _dir=dir_ord)
-    df = df.sort_values(["_tf","_dir","Date"], ascending=[True,True,False])
+    df = df.sort_values(["_tf","_dir","Q_Score","Date"],
+                        ascending=[True, True, False, False])
     df = df.drop(columns=["_tf","_dir"]).reset_index(drop=True)
+    print(f"  📐 Chart patterns: {n_kept}/{n_seen} passed quality gate "
+          f"(daily ≤{daily_days}d, weekly ≤{weekly_days}d)")
     return df
 
 # ─────────────────────────────────────────────────────────────────────────────

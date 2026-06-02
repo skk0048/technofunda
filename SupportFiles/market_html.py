@@ -88,6 +88,21 @@ def _cell_class(col, val):
             if f <= 12: return "neg-dim"
             return "neg"
         except: pass
+    # ── Breadth / rotation % columns: 0-100 scale → ≥60 green, 40-60 orange,
+    #    <40 red. Matches the Excel breadth logic. MUST come before the generic
+    #    %-handler below (otherwise a 45% breadth would wrongly read as green).
+    breadth_cols = {
+        "rs22%","rs55%","rsi50%",
+        "abvsma20%","abvsma50%","abvsma100%","abvsma200%",
+        "1m_score","3m_score","6m_score",
+    }
+    if col in breadth_cols:
+        try:
+            f = float(val)
+            if f >= 60: return "bd-green"
+            if f >= 40: return "bd-amber"
+            return "bd-red"
+        except: pass
     pct_cols = {
         "chg_1d%","chg_5d%","rs_22d%","rs_55d%","rs_120d%","rs_252d%",
         "rs_22d_idx%","rs_55d_idx%","rs_120d_idx%","rs_252d_idx%",
@@ -169,11 +184,12 @@ def _build_table(df, table_id, searchable=True, max_rows=2000):
     if searchable:
         cfs = "".join(
             f'<th><input class="cf" data-col="{i}" '
+            f'title="Filter: &gt;15  &lt;40  &gt;=60  10-20  or text" '
             f'oninput="filterColumn(this,\'{table_id}\')" placeholder="🔍"></th>'
             for i in range(len(cols))
         )
         col_filter = f'<tr class="col-filter">{cfs}</tr>'
-    search = (f'<div class="tbl-search"><input type="text" placeholder="🔍 Filter all columns…"'
+    search = (f'<div class="tbl-search"><input type="text" placeholder="🔍 Filter all columns…  (per-column accepts &gt;15, &lt;40, 10-20)"'
               f' data-global-for="{table_id}" oninput="filterTable(this,\'{table_id}\')"></div>') if searchable else ""
     return (f'{search}<div class="tbl-wrap"><table id="{table_id}" class="data-tbl">'
             f'<thead><tr>{ths}</tr>{col_filter}</thead><tbody>{rows_html}</tbody></table></div>'
@@ -202,13 +218,18 @@ def _build_health_card(stock_df, sector_str_df, market):
     mood, mcls = (("Risk-On 🟢","mood-on") if buy_pct>=50
                   else (("Mixed ⚪","mood-mix") if buy_pct>=25
                   else ("Risk-Off 🔴","mood-off")))
-    top_secs = ""
+    top_secs = ""; worst_secs = ""
     if sector_str_df is not None and not sector_str_df.empty:
         for _, r in sector_str_df.head(3).iterrows():
             sig = r.get("Signal","")
             cls = "pos-strong" if sig=="Buy" else ("neg" if sig=="Sell" else "dim")
             rs  = r.get("RS_22d%", r.get("RS_55d%",0)) or 0
             top_secs += f'<span class="sec-pill {cls}">{r["Sector"]} {rs:+.1f}%</span>'
+        # Worst 3 sectors (weakest first) — always shown in red
+        worst = sector_str_df.tail(3).iloc[::-1]
+        for _, r in worst.iterrows():
+            rs = r.get("RS_22d%", r.get("RS_55d%",0)) or 0
+            worst_secs += f'<span class="sec-pill neg">{r["Sector"]} {rs:+.1f}%</span>'
     return f"""<div class="health-card">
   <div class="hc-grid">
     <div class="hc-block"><div class="hc-label">Market Mood</div><div class="hc-value {mcls}">{mood}</div></div>
@@ -220,7 +241,8 @@ def _build_health_card(stock_df, sector_str_df, market):
     <div class="hc-block"><div class="hc-label">👁 Watch</div><div class="hc-value sl-watch-inline">{watch}</div></div>
     <div class="hc-block"><div class="hc-label">🔴 Avoid</div><div class="hc-value sl-avoid-inline">{avoid}</div></div>
   </div>
-  <div class="hc-sectors"><span class="hc-label">Top Sectors: </span>{top_secs}</div>
+  <div class="hc-sectors"><span class="hc-label">🟢 Top Sectors: </span>{top_secs}</div>
+  <div class="hc-sectors"><span class="hc-label">🔴 Worst Sectors: </span>{worst_secs}</div>
 </div>"""
 
 
@@ -583,10 +605,14 @@ def _build_dashboard(df):
         if k.startswith("══") or k.startswith("──"):
             html += f'<div class="dash-section">{k}</div>'; continue
         is_tv = any(x in k.upper() for x in [
-            "TV", "TRADINGVIEW", "ALL BUY", 
-            "PRIME BUY", "CONFIRMED BUY", "RS BUY"
+            "TV", "TRADINGVIEW", "WATCHLIST", "ALL BUY", "STRONG BUY",
+            "PRIME BUY", "CONFIRMED BUY", "RS BUY", "MST", "LST", "RS30", "TOP-"
         ])
-        if is_tv and v and len(v)>10:
+        # Any value that looks like a comma-separated symbol list is copyable,
+        # so every watchlist row (Strong Buy / MST / LST / RS30 / All Buy /
+        # Top-20 …) gets its own Copy button — not just "All Buy".
+        looks_like_list = (v.count(",") >= 1)
+        if (is_tv or looks_like_list) and v and len(v) > 3:
             v_html = (f'<span class="tv-list">{v[:200]}{"…" if len(v)>200 else ""}</span>'
                       f'<button class="copy-btn sm" data-orig="📋"'
                       f' onclick="copyText(this,\'{v.replace(chr(39),"")}\')">Copy</button>')
@@ -719,7 +745,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
 .opp-card:hover{border-color:var(--accent);}
 .opp-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:4px;}
 .opp-sym{font-size:17px;font-weight:700;}
-.tv-link{color:var(--accent);text-decoration:none;border-bottom:1px dotted var(--accent);}
+.tv-link{color:var(--accent);text-decoration:none;font-weight:700;border-bottom:1px dotted var(--accent);}
 .tv-link:hover{text-decoration:none;border-bottom-style:solid;}
 .opp-sym .tv-link{color:inherit;border-bottom:none;}
 .opp-company{font-size:12px;color:var(--text3);margin-bottom:8px;}
@@ -757,6 +783,10 @@ table.data-tbl{border-collapse:collapse;width:100%;font-size:12px;min-width:400p
 .pos-strong{color:var(--green);font-weight:600;}.pos{color:#81c784;}
 .pos-dim{color:#a5d6a7;}.neg-strong{color:var(--red);font-weight:600;}
 .neg{color:#e57373;}.neg-dim{color:#ef9a9a;}.dim{color:var(--text3);}
+/* Breadth / rotation 0-100 columns: ≥60 green · 40-60 orange · <40 red */
+.data-tbl td.bd-green{background:rgba(34,197,94,.16)!important;color:#22c55e!important;font-weight:700;}
+.data-tbl td.bd-amber{background:rgba(245,158,11,.16)!important;color:#f59e0b!important;font-weight:700;}
+.data-tbl td.bd-red{background:rgba(239,68,68,.16)!important;color:#ef4444!important;font-weight:700;}
 /* Sleeve calculator */
 .sleeve-global-ctrl{background:var(--bg2);border:1px solid var(--accent);
   border-radius:var(--radius);padding:14px 16px;margin-bottom:16px;}
@@ -909,13 +939,50 @@ function _initThemeFont(){
   document.documentElement.style.zoom=parseFloat(localStorage.getItem('fontZoom')||'1');
 }
 
-/* ── TABLE FILTER — global box + per-column scanner inputs (#8) ─────────── */
+/* ── TABLE FILTER — global box + per-column scanner inputs (#8) ───────────
+   Per-column inputs accept logical/numeric operators in addition to text:
+     >15   <40   >=60   <=5   =12   !=0   10-20 (range)   10..20 (range)
+   Anything else is treated as a plain text (substring) match.            */
+function _cellNum(text){
+  const m = String(text).replace(/[,\s₹$%]/g,'').match(/-?\d+(?:\.\d+)?/);
+  return m ? parseFloat(m[0]) : NaN;
+}
+function matchFilter(text, qRaw){
+  const q = (qRaw||'').trim();
+  if(!q) return true;
+  // operator: >, <, >=, <=, =, ==, !=
+  const op = q.match(/^(>=|<=|!=|==|=|>|<)\s*(-?\d+(?:\.\d+)?)$/);
+  if(op){
+    const num = _cellNum(text);
+    if(isNaN(num)) return false;
+    const val = parseFloat(op[2]);
+    switch(op[1]){
+      case '>':  return num >  val;
+      case '<':  return num <  val;
+      case '>=': return num >= val;
+      case '<=': return num <= val;
+      case '=':
+      case '==': return num === val;
+      case '!=': return num !== val;
+    }
+  }
+  // range: a-b or a..b (both ends numeric)
+  const rng = q.match(/^(-?\d+(?:\.\d+)?)\s*(?:\.\.|-)\s*(-?\d+(?:\.\d+)?)$/);
+  if(rng){
+    const num = _cellNum(text);
+    if(isNaN(num)) return false;
+    const lo = parseFloat(rng[1]), hi = parseFloat(rng[2]);
+    return num >= Math.min(lo,hi) && num <= Math.max(lo,hi);
+  }
+  // fallback: plain text substring match
+  return String(text).toLowerCase().includes(q.toLowerCase());
+}
 function applyFilters(tableId){
   const table=document.getElementById(tableId); if(!table)return;
   const tb=table.tBodies[0]; if(!tb)return;
   const filters=[];
   table.querySelectorAll('thead tr.col-filter input').forEach(inp=>{
-    const v=inp.value.trim().toLowerCase();
+    const v=inp.value.trim();
     if(v)filters.push([parseInt(inp.dataset.col,10),v]);
   });
   const g=document.querySelector('[data-global-for="'+tableId+'"]');
@@ -927,7 +994,7 @@ function applyFilters(tableId){
     if(show){
       for(const f of filters){
         const cell=row.cells[f[0]];
-        if(!cell || !cell.textContent.toLowerCase().includes(f[1])){show=false;break;}
+        if(!cell || !matchFilter(cell.textContent, f[1])){show=false;break;}
       }
     }
     row.style.display=show?'':'none';
@@ -1433,8 +1500,9 @@ def build_html_report(
     patterns_content = (
         '<p style="font-size:12px;color:var(--text2);margin-bottom:12px;">'
         '🗓 Weekly patterns have higher win rates. '
-        'Daily cutoff: 21 days · Weekly cutoff: 90 days. '
-        'Sorted: Weekly → Bullish → Most recent.</p>' +
+        'Daily ≤ 15 days · Weekly ≤ 45 days. '
+        'Quality-filtered: only setups that pass a trend + momentum + R:R gate are shown '
+        '(★ = quality score). Sorted: Weekly → Bullish → Quality → Most recent.</p>' +
         _build_table(chart_pat_df, "tbl-patterns")
     )
 
@@ -1500,7 +1568,6 @@ def build_html_report(
         <option value="navy">🌊 Navy Trader</option>
       </select>
     </div>
-    <span class="regime-{regime}">{regime}</span>
   </div>
 </header>
 {stats_bar}

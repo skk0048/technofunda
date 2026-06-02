@@ -31,6 +31,7 @@ TAB_COLORS = {
     "🏭 Sectors":          "004D40",
     "📊 Stocks":           "0D47A1",
     "🌍 Global":           "1A3C5E",
+    "🌍 World Market":     "1A3C5E",
     "📋 RS Sleeves":       "1A3A5C",
     "📊 Breadth":          "1B5E20",
     "📸 Snapshot":         "0A1628",
@@ -769,19 +770,33 @@ def build_workbook(market, snapshot_df, sector_str_df, sector_rot_df,
     write_sheet(ws, snapshot_df, "📸 Market Snapshot",
                 f"📸  MARKET SNAPSHOT  [{market}]  —  {run_time}")
 
-    # ── 3. Market Global (Country ETFs + Commodities) ─────────────────────────
-    combined_global = _combine_global(country_etf_df, commodity_df)
-    ws = wb.create_sheet("🌍 Global")
-    write_sheet(ws, combined_global, "🌍 Country ETFs",
-                f"🌍  GLOBAL — Country ETFs (RS vs SPY) + Commodities (RS vs GLD)"
-                f"  |  Ranked by RS_{primary_rs}d%")
+    # ── 3. World Market — Country ETFs (split from Commodities so the ─────────
+    #       formatting of each stays clean) ──────────────────────────────────
+    ws = wb.create_sheet("🌍 World Market")
+    write_sheet(ws, country_etf_df, "🌍 Country ETFs",
+                f"🌍  WORLD MARKET — Country ETFs (RS vs SPY)  |  Ranked by RS_{primary_rs}d%")
 
-    # ── 4. Sector Rotation (ISOLATED — kept separate from Industry) ───────────
+    # ── 4. Commodities (own sheet) ────────────────────────────────────────────
+    ws = wb.create_sheet("🏅 Commodities")
+    write_sheet(ws, commodity_df, "🏅 Commodities",
+                "🏅  COMMODITIES — RS vs GLD  |  Metals · Energy · Agri")
+
+    # ── 5. Sector Strength (moved up — now before Patterns) ───────────────────
+    ws = wb.create_sheet("🏭 Sectors")
+    write_sheet(ws, sector_str_df, "🏭 Sector Strength",
+                f"🏭  SECTOR STRENGTH  —  Ranked by RS_{primary_rs}d% vs Benchmark")
+
+    # ── 6. Sector Performance (moved up — now before Patterns) ────────────────
+    ws = wb.create_sheet("📈 Sector Perf")
+    write_sheet(ws, sector_perf_df, "📈 Sector Performance",
+                "📈  SECTOR PERFORMANCE  —  1M / 3M / 6M / YTD Returns")
+
+    # ── 7. Sector Rotation (ISOLATED — kept separate from Industry) ───────────
     ws = wb.create_sheet("🔄 Sector Rotation")
     write_sheet(ws, sector_rot_df, "🔄 Sector Rotation",
                 "🔄  SECTOR ROTATION  —  Breadth, RS%, Zone Scores")
 
-    # ── 5. Industry Rotation (ISOLATED — separate sheet from Sector) ──────────
+    # ── 8. Industry Rotation (ISOLATED — separate sheet from Sector) ──────────
     ws = wb.create_sheet("🏭 Industry Rotation")
     write_sheet(ws, industry_rot_df, "🏭 Industry Rotation",
                 "🏭  INDUSTRY ROTATION  —  Breadth, RS%, Zone Scores")
@@ -823,18 +838,8 @@ def build_workbook(market, snapshot_df, sector_str_df, sector_rot_df,
         ws = wb.create_sheet("📋 RS Sleeves")
         write_rs_sleeve_sheet(ws, sleeve_df, market)
 
-    # ── APPENDIX — sheets kept from the prior workbook (not in the 12-sheet ────
-    #    target order). Non-destructive: data preserved. Move/remove on request.
-    # Sector Strength
-    ws = wb.create_sheet("🏭 Sectors")
-    write_sheet(ws, sector_str_df, "🏭 Sector Strength",
-                f"🏭  SECTOR STRENGTH  —  Ranked by RS_{primary_rs}d% vs Benchmark")
-
-    # Sector Performance
-    ws = wb.create_sheet("📈 Sector Perf")
-    write_sheet(ws, sector_perf_df, "📈 Sector Performance",
-                "📈  SECTOR PERFORMANCE  —  1M / 3M / 6M / YTD Returns")
-
+    # ── APPENDIX — full-detail tables (kept after the decision sheets) ────────
+    #    Sectors + Sector Perf were moved up to before Patterns.
     # Stocks (simplified main view)
     ws = wb.create_sheet("📊 Stocks")
     if not stock_str_df.empty:
