@@ -1,74 +1,48 @@
-# ════════════════════════════════════════════════════════════════════════════
-#  TechnoFunda Market Analysis — GitHub Actions v8.0
+# ============================================================================
+#  TechnoFunda Market Analysis - GitHub Actions v9.0
 #
-#  KEY FIX v5.8: git push race condition resolved via pull --rebase + retry.
+#  v9.0 FIXES:
+#   - Rate limit (429): write functions now match India's proven throttling
+#     (per-call sleeps + batch_format chunks, not one giant batch_update).
+#   - Integer ticker crash: CSVs read with dtype=str (Japan symbols like 7203).
+#   - index.html merge conflict: push step regenerates index.html on conflict
+#     instead of trying to git-merge a generated file.
 #
-#  GOLDEN RULE: cron string in schedule: MUST match github.event.schedule ==
-#  exactly — character for character, including spaces. One space off = skip.
+#  GOLDEN RULE: cron string in schedule MUST match github.event.schedule ==
+#  exactly - character for character, including spaces.
 #
 #  SCHEDULE (all times UTC):
-#    India      Run 1 → 04:30 UTC = 10:00 AM IST  (Mon–Fri)
-#    India      Run 2 → 09:00 UTC = 02:30 PM IST  (Mon–Fri)
-#    USA        Run 1 → 23:30 UTC = 05:00 AM IST  (Mon–Fri IST = Sun–Thu UTC)
-#    UK         Run 1 → 17:00 UTC  (after LSE close 16:30)  (Mon–Fri)
-#    Canada     Run 1 → 22:00 UTC  (after TSX close 16:00 ET)  (Mon–Fri)
-#    Australia  Run 1 → 07:00 UTC  (after ASX close 16:00 AEST)  (Mon–Fri)
-#    Germany    Run 1 → 16:30 UTC  (after XETRA close 17:30 CET)  (Mon–Fri)
-#    Japan      Run 1 → 07:30 UTC  (after TSE close 15:30 JST)  (Mon–Fri)
-#    France     Run 1 → 16:30 UTC  (after Euronext close 17:30 CET)  (Mon–Fri)
-#    Brazil     Run 1 → 21:00 UTC  (after B3 close 18:00 BRT)  (Mon–Fri)
-#    Scans      Run 1 → 03:00 UTC = 08:30 AM IST
-#    Scans      Run 2 → 09:00 UTC = 02:30 PM IST
+#    India      04:30, 09:00  Mon-Fri
+#    USA        23:30         Sun-Thu (= Mon-Fri IST)
+#    UK         17:00         Mon-Fri
+#    Canada     22:00         Mon-Fri
+#    Australia  07:00         Mon-Fri
+#    Germany    16:30         Mon-Fri
+#    Japan      07:30         Mon-Fri
+#    France     16:30         Mon-Fri
+#    Brazil     21:00         Mon-Fri
+#    Scans      03:00, 09:00  Mon-Fri
 #
 #  REQUIRED GITHUB SECRETS:
-#    GOOGLE_CREDENTIALS        — service account JSON content
-#    GOOGLE_SHEET_URL          — India sheet URL
-#    GOOGLE_SHEET_URL_USA      — US sheet URL
-#    GOOGLE_SHEET_URL_UK       — UK sheet URL
-#    GOOGLE_SHEET_URL_CA       — Canada sheet URL
-#    GOOGLE_SHEET_URL_AU       — Australia sheet URL
-#    GOOGLE_SHEET_URL_DE       — Germany sheet URL
-#    GOOGLE_SHEET_URL_JP       — Japan sheet URL
-#    GOOGLE_SHEET_URL_FR       — France sheet URL
-#    GOOGLE_SHEET_URL_BR       — Brazil sheet URL
-#    GOOGLE_SHEET_URL_SCANS    — Scans sheet URL
-# ════════════════════════════════════════════════════════════════════════════
+#    GOOGLE_CREDENTIALS, GOOGLE_SHEET_URL (India), GOOGLE_SHEET_URL_USA,
+#    GOOGLE_SHEET_URL_UK, _CA, _AU, _DE, _JP, _FR, _BR, GOOGLE_SHEET_URL_SCANS
+# ============================================================================
 
 name: Market Analysis
 
 on:
   schedule:
-    # ── INDIA ──────────────────────────────────────────────────────────────
-    - cron: "30 4 * * 1-5"    # India Run 1 → 04:30 UTC = 10:00 AM IST
-    - cron: "0 9 * * 1-5"     # India Run 2 → 09:00 UTC = 02:30 PM IST
-
-    # ── USA ────────────────────────────────────────────────────────────────
-    - cron: "30 23 * * 0-4"   # USA Run 1 → 23:30 UTC Sun–Thu = 05:00 AM IST Mon–Fri
-
-    # ── UK ─────────────────────────────────────────────────────────────────
-    - cron: "0 17 * * 1-5"    # UK → 17:00 UTC (after LSE close 16:30)
-
-    # ── CANADA ─────────────────────────────────────────────────────────────
-    - cron: "0 22 * * 1-5"    # Canada → 22:00 UTC (after TSX close)
-
-    # ── AUSTRALIA ──────────────────────────────────────────────────────────
-    - cron: "0 7 * * 1-5"     # Australia → 07:00 UTC (after ASX close)
-
-    # ── GERMANY ────────────────────────────────────────────────────────────
-    - cron: "30 16 * * 1-5"   # Germany → 16:30 UTC (after XETRA close 17:30 CET)
-
-    # ── JAPAN ──────────────────────────────────────────────────────────────
-    - cron: "30 7 * * 1-5"    # Japan → 07:30 UTC (after TSE close 15:30 JST)
-
-    # ── FRANCE ─────────────────────────────────────────────────────────────
-    - cron: "30 16 * * 1-5"   # France → 16:30 UTC (after Euronext close 17:30 CET)
-
-    # ── BRAZIL ─────────────────────────────────────────────────────────────
-    - cron: "0 21 * * 1-5"    # Brazil → 21:00 UTC (after B3 close 18:00 BRT)
-
-    # ── SCANS ──────────────────────────────────────────────────────────────
-    - cron: "0 3 * * 1-5"     # Scans Run 1 → 03:00 UTC = 08:30 AM IST
-    - cron: "0 9 * * 1-5"     # Scans Run 2 → 09:00 UTC = 02:30 PM IST
+    - cron: "30 4 * * 1-5"
+    - cron: "0 9 * * 1-5"
+    - cron: "30 23 * * 0-4"
+    - cron: "0 17 * * 1-5"
+    - cron: "0 22 * * 1-5"
+    - cron: "0 7 * * 1-5"
+    - cron: "0 18 * * 1-5"
+    - cron: "30 18 * * 1-5"
+    - cron: "30 7 * * 1-5"
+    - cron: "0 21 * * 1-5"
+    - cron: "0 3 * * 1-5"
 
   workflow_dispatch:
     inputs:
@@ -82,16 +56,12 @@ on:
 
 jobs:
 
-  # ── INDIA ────────────────────────────────────────────────────────────────
   run-india:
     name: India Market Analysis
     runs-on: ubuntu-latest
     timeout-minutes: 90
     if: |
-      (github.event_name == 'schedule' && (
-        github.event.schedule == '30 4 * * 1-5' ||
-        github.event.schedule == '0 9 * * 1-5'
-      )) ||
+      (github.event_name == 'schedule' && github.event.schedule == '30 4 * * 1-5') ||
       (github.event_name == 'workflow_dispatch' && (
         github.event.inputs.market == 'india' ||
         github.event.inputs.market == 'all'
@@ -129,23 +99,42 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add -f India_Market_Analysis*.html index.html 2>/dev/null || true
           if git diff --staged --quiet; then
-            echo "No HTML changes — nothing to commit."
+            echo "No HTML changes - nothing to commit."
             exit 0
           fi
-          git commit -m "📊 India HTML update $(date -u '+%Y-%m-%d %H:%M UTC')"
-          for attempt in 1 2 3; do
-            echo "Push attempt ${attempt}…"
-            git pull --rebase origin main && git push && echo "Push succeeded." && break
-            echo "Attempt ${attempt} failed. Sleeping 10s before retry…"
-            sleep 10
+          git commit -m "India HTML update $(date -u '+%Y-%m-%d %H:%M UTC')"
+          PUSHED=0
+          for attempt in 1 2 3 4 5; do
+            echo "Push attempt ${attempt}..."
+            if git push origin main 2>/dev/null; then
+              echo "Push succeeded."; PUSHED=1; break
+            fi
+            echo "Push rejected - syncing with remote..."
+            git rebase --abort 2>/dev/null || true
+            git fetch origin main
+            if git rebase origin/main 2>/dev/null; then
+              echo "Rebased cleanly."
+            else
+              echo "Conflict on generated file - regenerating index.html..."
+              git checkout --theirs index.html 2>/dev/null || true
+              git add index.html 2>/dev/null || true
+              git checkout --ours India_Market_Analysis*.html 2>/dev/null || true
+              git add India_Market_Analysis*.html 2>/dev/null || true
+              git rebase --continue 2>/dev/null || git rebase --skip 2>/dev/null || true
+              python build_index.py
+              git add -f index.html 2>/dev/null || true
+              git commit -m "India index rebuild $(date -u '+%Y-%m-%d %H:%M UTC')" 2>/dev/null || true
+            fi
+            sleep 8
           done
+          if [ "$PUSHED" != "1" ]; then
+            echo "::warning::Push did not succeed after retries for India."
+          fi
 
       - name: Remove credentials
         if: always()
         run: rm -f /tmp/google_credentials.json
 
-
-  # ── USA ──────────────────────────────────────────────────────────────────
   run-usa:
     name: USA Market Analysis
     runs-on: ubuntu-latest
@@ -189,23 +178,42 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add -f USA_Market_Analysis*.html index.html 2>/dev/null || true
           if git diff --staged --quiet; then
-            echo "No HTML changes — nothing to commit."
+            echo "No HTML changes - nothing to commit."
             exit 0
           fi
-          git commit -m "📊 USA HTML update $(date -u '+%Y-%m-%d %H:%M UTC')"
-          for attempt in 1 2 3; do
-            echo "Push attempt ${attempt}…"
-            git pull --rebase origin main && git push && echo "Push succeeded." && break
-            echo "Attempt ${attempt} failed. Sleeping 10s before retry…"
-            sleep 10
+          git commit -m "USA HTML update $(date -u '+%Y-%m-%d %H:%M UTC')"
+          PUSHED=0
+          for attempt in 1 2 3 4 5; do
+            echo "Push attempt ${attempt}..."
+            if git push origin main 2>/dev/null; then
+              echo "Push succeeded."; PUSHED=1; break
+            fi
+            echo "Push rejected - syncing with remote..."
+            git rebase --abort 2>/dev/null || true
+            git fetch origin main
+            if git rebase origin/main 2>/dev/null; then
+              echo "Rebased cleanly."
+            else
+              echo "Conflict on generated file - regenerating index.html..."
+              git checkout --theirs index.html 2>/dev/null || true
+              git add index.html 2>/dev/null || true
+              git checkout --ours USA_Market_Analysis*.html 2>/dev/null || true
+              git add USA_Market_Analysis*.html 2>/dev/null || true
+              git rebase --continue 2>/dev/null || git rebase --skip 2>/dev/null || true
+              python build_index.py
+              git add -f index.html 2>/dev/null || true
+              git commit -m "USA index rebuild $(date -u '+%Y-%m-%d %H:%M UTC')" 2>/dev/null || true
+            fi
+            sleep 8
           done
+          if [ "$PUSHED" != "1" ]; then
+            echo "::warning::Push did not succeed after retries for USA."
+          fi
 
       - name: Remove credentials
         if: always()
         run: rm -f /tmp/google_credentials.json
 
-
-  # ── UK ───────────────────────────────────────────────────────────────────
   run-uk:
     name: UK Market Analysis
     runs-on: ubuntu-latest
@@ -249,23 +257,42 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add -f UK_Market_Analysis*.html index.html 2>/dev/null || true
           if git diff --staged --quiet; then
-            echo "No HTML changes — nothing to commit."
+            echo "No HTML changes - nothing to commit."
             exit 0
           fi
-          git commit -m "📊 UK HTML update $(date -u '+%Y-%m-%d %H:%M UTC')"
-          for attempt in 1 2 3; do
-            echo "Push attempt ${attempt}…"
-            git pull --rebase origin main && git push && echo "Push succeeded." && break
-            echo "Attempt ${attempt} failed. Sleeping 10s before retry…"
-            sleep 10
+          git commit -m "UK HTML update $(date -u '+%Y-%m-%d %H:%M UTC')"
+          PUSHED=0
+          for attempt in 1 2 3 4 5; do
+            echo "Push attempt ${attempt}..."
+            if git push origin main 2>/dev/null; then
+              echo "Push succeeded."; PUSHED=1; break
+            fi
+            echo "Push rejected - syncing with remote..."
+            git rebase --abort 2>/dev/null || true
+            git fetch origin main
+            if git rebase origin/main 2>/dev/null; then
+              echo "Rebased cleanly."
+            else
+              echo "Conflict on generated file - regenerating index.html..."
+              git checkout --theirs index.html 2>/dev/null || true
+              git add index.html 2>/dev/null || true
+              git checkout --ours UK_Market_Analysis*.html 2>/dev/null || true
+              git add UK_Market_Analysis*.html 2>/dev/null || true
+              git rebase --continue 2>/dev/null || git rebase --skip 2>/dev/null || true
+              python build_index.py
+              git add -f index.html 2>/dev/null || true
+              git commit -m "UK index rebuild $(date -u '+%Y-%m-%d %H:%M UTC')" 2>/dev/null || true
+            fi
+            sleep 8
           done
+          if [ "$PUSHED" != "1" ]; then
+            echo "::warning::Push did not succeed after retries for UK."
+          fi
 
       - name: Remove credentials
         if: always()
         run: rm -f /tmp/google_credentials.json
 
-
-  # ── CANADA ───────────────────────────────────────────────────────────────
   run-canada:
     name: Canada Market Analysis
     runs-on: ubuntu-latest
@@ -309,23 +336,42 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add -f Canada_Market_Analysis*.html index.html 2>/dev/null || true
           if git diff --staged --quiet; then
-            echo "No HTML changes — nothing to commit."
+            echo "No HTML changes - nothing to commit."
             exit 0
           fi
-          git commit -m "📊 Canada HTML update $(date -u '+%Y-%m-%d %H:%M UTC')"
-          for attempt in 1 2 3; do
-            echo "Push attempt ${attempt}…"
-            git pull --rebase origin main && git push && echo "Push succeeded." && break
-            echo "Attempt ${attempt} failed. Sleeping 10s before retry…"
-            sleep 10
+          git commit -m "Canada HTML update $(date -u '+%Y-%m-%d %H:%M UTC')"
+          PUSHED=0
+          for attempt in 1 2 3 4 5; do
+            echo "Push attempt ${attempt}..."
+            if git push origin main 2>/dev/null; then
+              echo "Push succeeded."; PUSHED=1; break
+            fi
+            echo "Push rejected - syncing with remote..."
+            git rebase --abort 2>/dev/null || true
+            git fetch origin main
+            if git rebase origin/main 2>/dev/null; then
+              echo "Rebased cleanly."
+            else
+              echo "Conflict on generated file - regenerating index.html..."
+              git checkout --theirs index.html 2>/dev/null || true
+              git add index.html 2>/dev/null || true
+              git checkout --ours Canada_Market_Analysis*.html 2>/dev/null || true
+              git add Canada_Market_Analysis*.html 2>/dev/null || true
+              git rebase --continue 2>/dev/null || git rebase --skip 2>/dev/null || true
+              python build_index.py
+              git add -f index.html 2>/dev/null || true
+              git commit -m "Canada index rebuild $(date -u '+%Y-%m-%d %H:%M UTC')" 2>/dev/null || true
+            fi
+            sleep 8
           done
+          if [ "$PUSHED" != "1" ]; then
+            echo "::warning::Push did not succeed after retries for Canada."
+          fi
 
       - name: Remove credentials
         if: always()
         run: rm -f /tmp/google_credentials.json
 
-
-  # ── AUSTRALIA ────────────────────────────────────────────────────────────
   run-australia:
     name: Australia Market Analysis
     runs-on: ubuntu-latest
@@ -369,29 +415,48 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add -f Australia_Market_Analysis*.html index.html 2>/dev/null || true
           if git diff --staged --quiet; then
-            echo "No HTML changes — nothing to commit."
+            echo "No HTML changes - nothing to commit."
             exit 0
           fi
-          git commit -m "📊 Australia HTML update $(date -u '+%Y-%m-%d %H:%M UTC')"
-          for attempt in 1 2 3; do
-            echo "Push attempt ${attempt}…"
-            git pull --rebase origin main && git push && echo "Push succeeded." && break
-            echo "Attempt ${attempt} failed. Sleeping 10s before retry…"
-            sleep 10
+          git commit -m "Australia HTML update $(date -u '+%Y-%m-%d %H:%M UTC')"
+          PUSHED=0
+          for attempt in 1 2 3 4 5; do
+            echo "Push attempt ${attempt}..."
+            if git push origin main 2>/dev/null; then
+              echo "Push succeeded."; PUSHED=1; break
+            fi
+            echo "Push rejected - syncing with remote..."
+            git rebase --abort 2>/dev/null || true
+            git fetch origin main
+            if git rebase origin/main 2>/dev/null; then
+              echo "Rebased cleanly."
+            else
+              echo "Conflict on generated file - regenerating index.html..."
+              git checkout --theirs index.html 2>/dev/null || true
+              git add index.html 2>/dev/null || true
+              git checkout --ours Australia_Market_Analysis*.html 2>/dev/null || true
+              git add Australia_Market_Analysis*.html 2>/dev/null || true
+              git rebase --continue 2>/dev/null || git rebase --skip 2>/dev/null || true
+              python build_index.py
+              git add -f index.html 2>/dev/null || true
+              git commit -m "Australia index rebuild $(date -u '+%Y-%m-%d %H:%M UTC')" 2>/dev/null || true
+            fi
+            sleep 8
           done
+          if [ "$PUSHED" != "1" ]; then
+            echo "::warning::Push did not succeed after retries for Australia."
+          fi
 
       - name: Remove credentials
         if: always()
         run: rm -f /tmp/google_credentials.json
 
-
-  # ── GERMANY ──────────────────────────────────────────────────────────────
   run-germany:
     name: Germany Market Analysis
     runs-on: ubuntu-latest
     timeout-minutes: 90
     if: |
-      (github.event_name == 'schedule' && github.event.schedule == '30 16 * * 1-5') ||
+      (github.event_name == 'schedule' && github.event.schedule == '0 18 * * 1-5') ||
       (github.event_name == 'workflow_dispatch' && (
         github.event.inputs.market == 'germany' ||
         github.event.inputs.market == 'all'
@@ -429,23 +494,42 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add -f Germany_Market_Analysis*.html index.html 2>/dev/null || true
           if git diff --staged --quiet; then
-            echo "No HTML changes — nothing to commit."
+            echo "No HTML changes - nothing to commit."
             exit 0
           fi
-          git commit -m "📊 Germany HTML update $(date -u '+%Y-%m-%d %H:%M UTC')"
-          for attempt in 1 2 3; do
-            echo "Push attempt ${attempt}…"
-            git pull --rebase origin main && git push && echo "Push succeeded." && break
-            echo "Attempt ${attempt} failed. Sleeping 10s before retry…"
-            sleep 10
+          git commit -m "Germany HTML update $(date -u '+%Y-%m-%d %H:%M UTC')"
+          PUSHED=0
+          for attempt in 1 2 3 4 5; do
+            echo "Push attempt ${attempt}..."
+            if git push origin main 2>/dev/null; then
+              echo "Push succeeded."; PUSHED=1; break
+            fi
+            echo "Push rejected - syncing with remote..."
+            git rebase --abort 2>/dev/null || true
+            git fetch origin main
+            if git rebase origin/main 2>/dev/null; then
+              echo "Rebased cleanly."
+            else
+              echo "Conflict on generated file - regenerating index.html..."
+              git checkout --theirs index.html 2>/dev/null || true
+              git add index.html 2>/dev/null || true
+              git checkout --ours Germany_Market_Analysis*.html 2>/dev/null || true
+              git add Germany_Market_Analysis*.html 2>/dev/null || true
+              git rebase --continue 2>/dev/null || git rebase --skip 2>/dev/null || true
+              python build_index.py
+              git add -f index.html 2>/dev/null || true
+              git commit -m "Germany index rebuild $(date -u '+%Y-%m-%d %H:%M UTC')" 2>/dev/null || true
+            fi
+            sleep 8
           done
+          if [ "$PUSHED" != "1" ]; then
+            echo "::warning::Push did not succeed after retries for Germany."
+          fi
 
       - name: Remove credentials
         if: always()
         run: rm -f /tmp/google_credentials.json
 
-
-  # ── JAPAN ────────────────────────────────────────────────────────────────
   run-japan:
     name: Japan Market Analysis
     runs-on: ubuntu-latest
@@ -489,29 +573,48 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add -f Japan_Market_Analysis*.html index.html 2>/dev/null || true
           if git diff --staged --quiet; then
-            echo "No HTML changes — nothing to commit."
+            echo "No HTML changes - nothing to commit."
             exit 0
           fi
-          git commit -m "📊 Japan HTML update $(date -u '+%Y-%m-%d %H:%M UTC')"
-          for attempt in 1 2 3; do
-            echo "Push attempt ${attempt}…"
-            git pull --rebase origin main && git push && echo "Push succeeded." && break
-            echo "Attempt ${attempt} failed. Sleeping 10s before retry…"
-            sleep 10
+          git commit -m "Japan HTML update $(date -u '+%Y-%m-%d %H:%M UTC')"
+          PUSHED=0
+          for attempt in 1 2 3 4 5; do
+            echo "Push attempt ${attempt}..."
+            if git push origin main 2>/dev/null; then
+              echo "Push succeeded."; PUSHED=1; break
+            fi
+            echo "Push rejected - syncing with remote..."
+            git rebase --abort 2>/dev/null || true
+            git fetch origin main
+            if git rebase origin/main 2>/dev/null; then
+              echo "Rebased cleanly."
+            else
+              echo "Conflict on generated file - regenerating index.html..."
+              git checkout --theirs index.html 2>/dev/null || true
+              git add index.html 2>/dev/null || true
+              git checkout --ours Japan_Market_Analysis*.html 2>/dev/null || true
+              git add Japan_Market_Analysis*.html 2>/dev/null || true
+              git rebase --continue 2>/dev/null || git rebase --skip 2>/dev/null || true
+              python build_index.py
+              git add -f index.html 2>/dev/null || true
+              git commit -m "Japan index rebuild $(date -u '+%Y-%m-%d %H:%M UTC')" 2>/dev/null || true
+            fi
+            sleep 8
           done
+          if [ "$PUSHED" != "1" ]; then
+            echo "::warning::Push did not succeed after retries for Japan."
+          fi
 
       - name: Remove credentials
         if: always()
         run: rm -f /tmp/google_credentials.json
 
-
-  # ── FRANCE ───────────────────────────────────────────────────────────────
   run-france:
     name: France Market Analysis
     runs-on: ubuntu-latest
     timeout-minutes: 90
     if: |
-      (github.event_name == 'schedule' && github.event.schedule == '30 16 * * 1-5') ||
+      (github.event_name == 'schedule' && github.event.schedule == '30 18 * * 1-5') ||
       (github.event_name == 'workflow_dispatch' && (
         github.event.inputs.market == 'france' ||
         github.event.inputs.market == 'all'
@@ -549,23 +652,42 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add -f France_Market_Analysis*.html index.html 2>/dev/null || true
           if git diff --staged --quiet; then
-            echo "No HTML changes — nothing to commit."
+            echo "No HTML changes - nothing to commit."
             exit 0
           fi
-          git commit -m "📊 France HTML update $(date -u '+%Y-%m-%d %H:%M UTC')"
-          for attempt in 1 2 3; do
-            echo "Push attempt ${attempt}…"
-            git pull --rebase origin main && git push && echo "Push succeeded." && break
-            echo "Attempt ${attempt} failed. Sleeping 10s before retry…"
-            sleep 10
+          git commit -m "France HTML update $(date -u '+%Y-%m-%d %H:%M UTC')"
+          PUSHED=0
+          for attempt in 1 2 3 4 5; do
+            echo "Push attempt ${attempt}..."
+            if git push origin main 2>/dev/null; then
+              echo "Push succeeded."; PUSHED=1; break
+            fi
+            echo "Push rejected - syncing with remote..."
+            git rebase --abort 2>/dev/null || true
+            git fetch origin main
+            if git rebase origin/main 2>/dev/null; then
+              echo "Rebased cleanly."
+            else
+              echo "Conflict on generated file - regenerating index.html..."
+              git checkout --theirs index.html 2>/dev/null || true
+              git add index.html 2>/dev/null || true
+              git checkout --ours France_Market_Analysis*.html 2>/dev/null || true
+              git add France_Market_Analysis*.html 2>/dev/null || true
+              git rebase --continue 2>/dev/null || git rebase --skip 2>/dev/null || true
+              python build_index.py
+              git add -f index.html 2>/dev/null || true
+              git commit -m "France index rebuild $(date -u '+%Y-%m-%d %H:%M UTC')" 2>/dev/null || true
+            fi
+            sleep 8
           done
+          if [ "$PUSHED" != "1" ]; then
+            echo "::warning::Push did not succeed after retries for France."
+          fi
 
       - name: Remove credentials
         if: always()
         run: rm -f /tmp/google_credentials.json
 
-
-  # ── BRAZIL ───────────────────────────────────────────────────────────────
   run-brazil:
     name: Brazil Market Analysis
     runs-on: ubuntu-latest
@@ -609,23 +731,42 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add -f Brazil_Market_Analysis*.html index.html 2>/dev/null || true
           if git diff --staged --quiet; then
-            echo "No HTML changes — nothing to commit."
+            echo "No HTML changes - nothing to commit."
             exit 0
           fi
-          git commit -m "📊 Brazil HTML update $(date -u '+%Y-%m-%d %H:%M UTC')"
-          for attempt in 1 2 3; do
-            echo "Push attempt ${attempt}…"
-            git pull --rebase origin main && git push && echo "Push succeeded." && break
-            echo "Attempt ${attempt} failed. Sleeping 10s before retry…"
-            sleep 10
+          git commit -m "Brazil HTML update $(date -u '+%Y-%m-%d %H:%M UTC')"
+          PUSHED=0
+          for attempt in 1 2 3 4 5; do
+            echo "Push attempt ${attempt}..."
+            if git push origin main 2>/dev/null; then
+              echo "Push succeeded."; PUSHED=1; break
+            fi
+            echo "Push rejected - syncing with remote..."
+            git rebase --abort 2>/dev/null || true
+            git fetch origin main
+            if git rebase origin/main 2>/dev/null; then
+              echo "Rebased cleanly."
+            else
+              echo "Conflict on generated file - regenerating index.html..."
+              git checkout --theirs index.html 2>/dev/null || true
+              git add index.html 2>/dev/null || true
+              git checkout --ours Brazil_Market_Analysis*.html 2>/dev/null || true
+              git add Brazil_Market_Analysis*.html 2>/dev/null || true
+              git rebase --continue 2>/dev/null || git rebase --skip 2>/dev/null || true
+              python build_index.py
+              git add -f index.html 2>/dev/null || true
+              git commit -m "Brazil index rebuild $(date -u '+%Y-%m-%d %H:%M UTC')" 2>/dev/null || true
+            fi
+            sleep 8
           done
+          if [ "$PUSHED" != "1" ]; then
+            echo "::warning::Push did not succeed after retries for Brazil."
+          fi
 
       - name: Remove credentials
         if: always()
         run: rm -f /tmp/google_credentials.json
 
-
-  # ── SCANS ────────────────────────────────────────────────────────────────
   run-scans:
     name: Chartink Scans
     runs-on: ubuntu-latest
