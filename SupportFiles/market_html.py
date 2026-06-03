@@ -1429,7 +1429,7 @@ def build_html_report(
                  "Signal_Label","Sec_Gated","RS_22d_Idx%","RS_55d_Idx%",
                  "RSI_14","Trend","SMA_Score","Total_Score","Fin_Score",
                  "SL_Buy%","SL_Grade","SL_Buy_Price",
-                 "Sales_YoY%","PAT_YoY%","ROE%","D/E","Mkt_Cap_B","Chart_Pattern"]
+                 "Sales_YoY%","PAT_YoY%","ROE%","D/E","EPS","Mkt_Cap_B","Chart_Pattern"]
     if stock_str_df is not None and not stock_str_df.empty:
         stock_main = stock_str_df[[c for c in MAIN_COLS if c in stock_str_df.columns]]
     else:
