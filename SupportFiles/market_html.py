@@ -1566,6 +1566,14 @@ def build_html_report(
         "JP":        ("Japan",         "🇯🇵", "Japan_Market_Analysis.html"),
         "FR":        ("France",        "🇫🇷", "France_Market_Analysis.html"),
         "BR":        ("Brazil",        "🇧🇷", "Brazil_Market_Analysis.html"),
+        "CN":        ("China",         "🇨🇳", "China_Market_Analysis.html"),
+        "KR":        ("South Korea",   "🇰🇷", "SouthKorea_Market_Analysis.html"),
+        "TW":        ("Taiwan",        "🇹🇼", "Taiwan_Market_Analysis.html"),
+        "CH":        ("Switzerland",   "🇨🇭", "Switzerland_Market_Analysis.html"),
+        "SA":        ("Saudi Arabia",  "🇸🇦", "SaudiArabia_Market_Analysis.html"),
+        "NL":        ("Netherlands",   "🇳🇱", "Netherlands_Market_Analysis.html"),
+        "ES":        ("Spain",         "🇪🇸", "Spain_Market_Analysis.html"),
+        "SE":        ("Sweden",        "🇸🇪", "Sweden_Market_Analysis.html"),
     }
     _cur = str(market).upper()
     _opts = ['<option value="" disabled selected>🌍 Switch market…</option>']
