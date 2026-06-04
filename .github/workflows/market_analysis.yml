@@ -57,6 +57,12 @@
 
 name: Market Analysis
 
+# Grant the GITHUB_TOKEN write access so jobs can commit & push the
+# generated HTML + index.html back to the repo. Without this, the default
+# token is often read-only and `git push` silently fails.
+permissions:
+  contents: write
+
 on:
   schedule:
     # ── Original 9 ──────────────────────────────────────────
@@ -174,29 +180,21 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          # ignore pycache noise
+          echo "__pycache__/" >> .gitignore 2>/dev/null || true
+          git rm -r --cached SupportFiles/__pycache__ 2>/dev/null || true
           git add -f India_Market_Analysis*.html index.html 2>/dev/null || true
-          if git diff --staged --quiet; then echo "No changes."; exit 0; fi
+          if git diff --staged --quiet; then echo "No changes to commit."; exit 0; fi
           git commit -m "India HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
           PUSHED=0
           for attempt in 1 2 3 4 5; do
+            # pull remote changes and replay our commit cleanly on top
+            git pull --rebase -X ours origin main 2>/dev/null || git rebase --abort 2>/dev/null || true
             if git push origin main 2>/dev/null; then PUSHED=1; break; fi
-            git rebase --abort 2>/dev/null || true
-            git fetch origin main
-            if git rebase origin/main 2>/dev/null; then
-              echo "Rebased."
-            else
-              git checkout --theirs index.html 2>/dev/null || true
-              git add index.html 2>/dev/null || true
-              git checkout --ours India_Market_Analysis*.html 2>/dev/null || true
-              git add India_Market_Analysis*.html 2>/dev/null || true
-              git rebase --continue 2>/dev/null || git rebase --skip 2>/dev/null || true
-              python build_index.py
-              git add -f index.html 2>/dev/null || true
-              git commit -m "India index rebuild $(date -u '+%Y-%m-%d %H:%M UTC')" 2>/dev/null || true
-            fi
-            sleep 8
+            echo "Push attempt $attempt failed, retrying ..."
+            sleep 6
           done
-          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed — India."; fi
+          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed after retries — India."; fi
       - name: Remove credentials
         if: always()
         run: rm -f /tmp/google_credentials.json
@@ -232,29 +230,21 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          # ignore pycache noise
+          echo "__pycache__/" >> .gitignore 2>/dev/null || true
+          git rm -r --cached SupportFiles/__pycache__ 2>/dev/null || true
           git add -f USA_Market_Analysis*.html index.html 2>/dev/null || true
-          if git diff --staged --quiet; then echo "No changes."; exit 0; fi
+          if git diff --staged --quiet; then echo "No changes to commit."; exit 0; fi
           git commit -m "USA HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
           PUSHED=0
           for attempt in 1 2 3 4 5; do
+            # pull remote changes and replay our commit cleanly on top
+            git pull --rebase -X ours origin main 2>/dev/null || git rebase --abort 2>/dev/null || true
             if git push origin main 2>/dev/null; then PUSHED=1; break; fi
-            git rebase --abort 2>/dev/null || true
-            git fetch origin main
-            if git rebase origin/main 2>/dev/null; then
-              echo "Rebased."
-            else
-              git checkout --theirs index.html 2>/dev/null || true
-              git add index.html 2>/dev/null || true
-              git checkout --ours USA_Market_Analysis*.html 2>/dev/null || true
-              git add USA_Market_Analysis*.html 2>/dev/null || true
-              git rebase --continue 2>/dev/null || git rebase --skip 2>/dev/null || true
-              python build_index.py
-              git add -f index.html 2>/dev/null || true
-              git commit -m "USA index rebuild $(date -u '+%Y-%m-%d %H:%M UTC')" 2>/dev/null || true
-            fi
-            sleep 8
+            echo "Push attempt $attempt failed, retrying ..."
+            sleep 6
           done
-          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed — USA."; fi
+          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed after retries — USA."; fi
       - name: Remove credentials
         if: always()
         run: rm -f /tmp/google_credentials.json
@@ -290,29 +280,21 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          # ignore pycache noise
+          echo "__pycache__/" >> .gitignore 2>/dev/null || true
+          git rm -r --cached SupportFiles/__pycache__ 2>/dev/null || true
           git add -f UK.html index.html 2>/dev/null || true
-          if git diff --staged --quiet; then echo "No changes."; exit 0; fi
+          if git diff --staged --quiet; then echo "No changes to commit."; exit 0; fi
           git commit -m "UK HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
           PUSHED=0
           for attempt in 1 2 3 4 5; do
+            # pull remote changes and replay our commit cleanly on top
+            git pull --rebase -X ours origin main 2>/dev/null || git rebase --abort 2>/dev/null || true
             if git push origin main 2>/dev/null; then PUSHED=1; break; fi
-            git rebase --abort 2>/dev/null || true
-            git fetch origin main
-            if git rebase origin/main 2>/dev/null; then
-              echo "Rebased."
-            else
-              git checkout --theirs index.html 2>/dev/null || true
-              git add index.html 2>/dev/null || true
-              git checkout --ours UK.html 2>/dev/null || true
-              git add UK.html 2>/dev/null || true
-              git rebase --continue 2>/dev/null || git rebase --skip 2>/dev/null || true
-              python build_index.py
-              git add -f index.html 2>/dev/null || true
-              git commit -m "UK index rebuild $(date -u '+%Y-%m-%d %H:%M UTC')" 2>/dev/null || true
-            fi
-            sleep 8
+            echo "Push attempt $attempt failed, retrying ..."
+            sleep 6
           done
-          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed — UK."; fi
+          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed after retries — UK."; fi
       - name: Remove credentials
         if: always()
         run: rm -f /tmp/google_credentials.json
@@ -348,29 +330,21 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          # ignore pycache noise
+          echo "__pycache__/" >> .gitignore 2>/dev/null || true
+          git rm -r --cached SupportFiles/__pycache__ 2>/dev/null || true
           git add -f CA.html index.html 2>/dev/null || true
-          if git diff --staged --quiet; then echo "No changes."; exit 0; fi
+          if git diff --staged --quiet; then echo "No changes to commit."; exit 0; fi
           git commit -m "Canada HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
           PUSHED=0
           for attempt in 1 2 3 4 5; do
+            # pull remote changes and replay our commit cleanly on top
+            git pull --rebase -X ours origin main 2>/dev/null || git rebase --abort 2>/dev/null || true
             if git push origin main 2>/dev/null; then PUSHED=1; break; fi
-            git rebase --abort 2>/dev/null || true
-            git fetch origin main
-            if git rebase origin/main 2>/dev/null; then
-              echo "Rebased."
-            else
-              git checkout --theirs index.html 2>/dev/null || true
-              git add index.html 2>/dev/null || true
-              git checkout --ours CA.html 2>/dev/null || true
-              git add CA.html 2>/dev/null || true
-              git rebase --continue 2>/dev/null || git rebase --skip 2>/dev/null || true
-              python build_index.py
-              git add -f index.html 2>/dev/null || true
-              git commit -m "Canada index rebuild $(date -u '+%Y-%m-%d %H:%M UTC')" 2>/dev/null || true
-            fi
-            sleep 8
+            echo "Push attempt $attempt failed, retrying ..."
+            sleep 6
           done
-          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed — Canada."; fi
+          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed after retries — Canada."; fi
       - name: Remove credentials
         if: always()
         run: rm -f /tmp/google_credentials.json
@@ -406,29 +380,21 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          # ignore pycache noise
+          echo "__pycache__/" >> .gitignore 2>/dev/null || true
+          git rm -r --cached SupportFiles/__pycache__ 2>/dev/null || true
           git add -f AU.html index.html 2>/dev/null || true
-          if git diff --staged --quiet; then echo "No changes."; exit 0; fi
+          if git diff --staged --quiet; then echo "No changes to commit."; exit 0; fi
           git commit -m "Australia HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
           PUSHED=0
           for attempt in 1 2 3 4 5; do
+            # pull remote changes and replay our commit cleanly on top
+            git pull --rebase -X ours origin main 2>/dev/null || git rebase --abort 2>/dev/null || true
             if git push origin main 2>/dev/null; then PUSHED=1; break; fi
-            git rebase --abort 2>/dev/null || true
-            git fetch origin main
-            if git rebase origin/main 2>/dev/null; then
-              echo "Rebased."
-            else
-              git checkout --theirs index.html 2>/dev/null || true
-              git add index.html 2>/dev/null || true
-              git checkout --ours AU.html 2>/dev/null || true
-              git add AU.html 2>/dev/null || true
-              git rebase --continue 2>/dev/null || git rebase --skip 2>/dev/null || true
-              python build_index.py
-              git add -f index.html 2>/dev/null || true
-              git commit -m "Australia index rebuild $(date -u '+%Y-%m-%d %H:%M UTC')" 2>/dev/null || true
-            fi
-            sleep 8
+            echo "Push attempt $attempt failed, retrying ..."
+            sleep 6
           done
-          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed — Australia."; fi
+          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed after retries — Australia."; fi
       - name: Remove credentials
         if: always()
         run: rm -f /tmp/google_credentials.json
@@ -464,29 +430,21 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          # ignore pycache noise
+          echo "__pycache__/" >> .gitignore 2>/dev/null || true
+          git rm -r --cached SupportFiles/__pycache__ 2>/dev/null || true
           git add -f DE.html index.html 2>/dev/null || true
-          if git diff --staged --quiet; then echo "No changes."; exit 0; fi
+          if git diff --staged --quiet; then echo "No changes to commit."; exit 0; fi
           git commit -m "Germany HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
           PUSHED=0
           for attempt in 1 2 3 4 5; do
+            # pull remote changes and replay our commit cleanly on top
+            git pull --rebase -X ours origin main 2>/dev/null || git rebase --abort 2>/dev/null || true
             if git push origin main 2>/dev/null; then PUSHED=1; break; fi
-            git rebase --abort 2>/dev/null || true
-            git fetch origin main
-            if git rebase origin/main 2>/dev/null; then
-              echo "Rebased."
-            else
-              git checkout --theirs index.html 2>/dev/null || true
-              git add index.html 2>/dev/null || true
-              git checkout --ours DE.html 2>/dev/null || true
-              git add DE.html 2>/dev/null || true
-              git rebase --continue 2>/dev/null || git rebase --skip 2>/dev/null || true
-              python build_index.py
-              git add -f index.html 2>/dev/null || true
-              git commit -m "Germany index rebuild $(date -u '+%Y-%m-%d %H:%M UTC')" 2>/dev/null || true
-            fi
-            sleep 8
+            echo "Push attempt $attempt failed, retrying ..."
+            sleep 6
           done
-          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed — Germany."; fi
+          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed after retries — Germany."; fi
       - name: Remove credentials
         if: always()
         run: rm -f /tmp/google_credentials.json
@@ -522,29 +480,21 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          # ignore pycache noise
+          echo "__pycache__/" >> .gitignore 2>/dev/null || true
+          git rm -r --cached SupportFiles/__pycache__ 2>/dev/null || true
           git add -f JP.html index.html 2>/dev/null || true
-          if git diff --staged --quiet; then echo "No changes."; exit 0; fi
+          if git diff --staged --quiet; then echo "No changes to commit."; exit 0; fi
           git commit -m "Japan HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
           PUSHED=0
           for attempt in 1 2 3 4 5; do
+            # pull remote changes and replay our commit cleanly on top
+            git pull --rebase -X ours origin main 2>/dev/null || git rebase --abort 2>/dev/null || true
             if git push origin main 2>/dev/null; then PUSHED=1; break; fi
-            git rebase --abort 2>/dev/null || true
-            git fetch origin main
-            if git rebase origin/main 2>/dev/null; then
-              echo "Rebased."
-            else
-              git checkout --theirs index.html 2>/dev/null || true
-              git add index.html 2>/dev/null || true
-              git checkout --ours JP.html 2>/dev/null || true
-              git add JP.html 2>/dev/null || true
-              git rebase --continue 2>/dev/null || git rebase --skip 2>/dev/null || true
-              python build_index.py
-              git add -f index.html 2>/dev/null || true
-              git commit -m "Japan index rebuild $(date -u '+%Y-%m-%d %H:%M UTC')" 2>/dev/null || true
-            fi
-            sleep 8
+            echo "Push attempt $attempt failed, retrying ..."
+            sleep 6
           done
-          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed — Japan."; fi
+          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed after retries — Japan."; fi
       - name: Remove credentials
         if: always()
         run: rm -f /tmp/google_credentials.json
@@ -580,29 +530,21 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          # ignore pycache noise
+          echo "__pycache__/" >> .gitignore 2>/dev/null || true
+          git rm -r --cached SupportFiles/__pycache__ 2>/dev/null || true
           git add -f FR.html index.html 2>/dev/null || true
-          if git diff --staged --quiet; then echo "No changes."; exit 0; fi
+          if git diff --staged --quiet; then echo "No changes to commit."; exit 0; fi
           git commit -m "France HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
           PUSHED=0
           for attempt in 1 2 3 4 5; do
+            # pull remote changes and replay our commit cleanly on top
+            git pull --rebase -X ours origin main 2>/dev/null || git rebase --abort 2>/dev/null || true
             if git push origin main 2>/dev/null; then PUSHED=1; break; fi
-            git rebase --abort 2>/dev/null || true
-            git fetch origin main
-            if git rebase origin/main 2>/dev/null; then
-              echo "Rebased."
-            else
-              git checkout --theirs index.html 2>/dev/null || true
-              git add index.html 2>/dev/null || true
-              git checkout --ours FR.html 2>/dev/null || true
-              git add FR.html 2>/dev/null || true
-              git rebase --continue 2>/dev/null || git rebase --skip 2>/dev/null || true
-              python build_index.py
-              git add -f index.html 2>/dev/null || true
-              git commit -m "France index rebuild $(date -u '+%Y-%m-%d %H:%M UTC')" 2>/dev/null || true
-            fi
-            sleep 8
+            echo "Push attempt $attempt failed, retrying ..."
+            sleep 6
           done
-          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed — France."; fi
+          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed after retries — France."; fi
       - name: Remove credentials
         if: always()
         run: rm -f /tmp/google_credentials.json
@@ -638,29 +580,21 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          # ignore pycache noise
+          echo "__pycache__/" >> .gitignore 2>/dev/null || true
+          git rm -r --cached SupportFiles/__pycache__ 2>/dev/null || true
           git add -f BR.html index.html 2>/dev/null || true
-          if git diff --staged --quiet; then echo "No changes."; exit 0; fi
+          if git diff --staged --quiet; then echo "No changes to commit."; exit 0; fi
           git commit -m "Brazil HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
           PUSHED=0
           for attempt in 1 2 3 4 5; do
+            # pull remote changes and replay our commit cleanly on top
+            git pull --rebase -X ours origin main 2>/dev/null || git rebase --abort 2>/dev/null || true
             if git push origin main 2>/dev/null; then PUSHED=1; break; fi
-            git rebase --abort 2>/dev/null || true
-            git fetch origin main
-            if git rebase origin/main 2>/dev/null; then
-              echo "Rebased."
-            else
-              git checkout --theirs index.html 2>/dev/null || true
-              git add index.html 2>/dev/null || true
-              git checkout --ours BR.html 2>/dev/null || true
-              git add BR.html 2>/dev/null || true
-              git rebase --continue 2>/dev/null || git rebase --skip 2>/dev/null || true
-              python build_index.py
-              git add -f index.html 2>/dev/null || true
-              git commit -m "Brazil index rebuild $(date -u '+%Y-%m-%d %H:%M UTC')" 2>/dev/null || true
-            fi
-            sleep 8
+            echo "Push attempt $attempt failed, retrying ..."
+            sleep 6
           done
-          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed — Brazil."; fi
+          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed after retries — Brazil."; fi
       - name: Remove credentials
         if: always()
         run: rm -f /tmp/google_credentials.json
@@ -700,29 +634,21 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          # ignore pycache noise
+          echo "__pycache__/" >> .gitignore 2>/dev/null || true
+          git rm -r --cached SupportFiles/__pycache__ 2>/dev/null || true
           git add -f CN.html index.html 2>/dev/null || true
-          if git diff --staged --quiet; then echo "No changes."; exit 0; fi
+          if git diff --staged --quiet; then echo "No changes to commit."; exit 0; fi
           git commit -m "China HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
           PUSHED=0
           for attempt in 1 2 3 4 5; do
+            # pull remote changes and replay our commit cleanly on top
+            git pull --rebase -X ours origin main 2>/dev/null || git rebase --abort 2>/dev/null || true
             if git push origin main 2>/dev/null; then PUSHED=1; break; fi
-            git rebase --abort 2>/dev/null || true
-            git fetch origin main
-            if git rebase origin/main 2>/dev/null; then
-              echo "Rebased."
-            else
-              git checkout --theirs index.html 2>/dev/null || true
-              git add index.html 2>/dev/null || true
-              git checkout --ours CN.html 2>/dev/null || true
-              git add CN.html 2>/dev/null || true
-              git rebase --continue 2>/dev/null || git rebase --skip 2>/dev/null || true
-              python build_index.py
-              git add -f index.html 2>/dev/null || true
-              git commit -m "China index rebuild $(date -u '+%Y-%m-%d %H:%M UTC')" 2>/dev/null || true
-            fi
-            sleep 8
+            echo "Push attempt $attempt failed, retrying ..."
+            sleep 6
           done
-          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed — China."; fi
+          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed after retries — China."; fi
       - name: Remove credentials
         if: always()
         run: rm -f /tmp/google_credentials.json
@@ -758,29 +684,21 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          # ignore pycache noise
+          echo "__pycache__/" >> .gitignore 2>/dev/null || true
+          git rm -r --cached SupportFiles/__pycache__ 2>/dev/null || true
           git add -f KR.html index.html 2>/dev/null || true
-          if git diff --staged --quiet; then echo "No changes."; exit 0; fi
+          if git diff --staged --quiet; then echo "No changes to commit."; exit 0; fi
           git commit -m "SouthKorea HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
           PUSHED=0
           for attempt in 1 2 3 4 5; do
+            # pull remote changes and replay our commit cleanly on top
+            git pull --rebase -X ours origin main 2>/dev/null || git rebase --abort 2>/dev/null || true
             if git push origin main 2>/dev/null; then PUSHED=1; break; fi
-            git rebase --abort 2>/dev/null || true
-            git fetch origin main
-            if git rebase origin/main 2>/dev/null; then
-              echo "Rebased."
-            else
-              git checkout --theirs index.html 2>/dev/null || true
-              git add index.html 2>/dev/null || true
-              git checkout --ours KR.html 2>/dev/null || true
-              git add KR.html 2>/dev/null || true
-              git rebase --continue 2>/dev/null || git rebase --skip 2>/dev/null || true
-              python build_index.py
-              git add -f index.html 2>/dev/null || true
-              git commit -m "SouthKorea index rebuild $(date -u '+%Y-%m-%d %H:%M UTC')" 2>/dev/null || true
-            fi
-            sleep 8
+            echo "Push attempt $attempt failed, retrying ..."
+            sleep 6
           done
-          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed — South Korea."; fi
+          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed after retries — SouthKorea."; fi
       - name: Remove credentials
         if: always()
         run: rm -f /tmp/google_credentials.json
@@ -816,29 +734,21 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          # ignore pycache noise
+          echo "__pycache__/" >> .gitignore 2>/dev/null || true
+          git rm -r --cached SupportFiles/__pycache__ 2>/dev/null || true
           git add -f TW.html index.html 2>/dev/null || true
-          if git diff --staged --quiet; then echo "No changes."; exit 0; fi
+          if git diff --staged --quiet; then echo "No changes to commit."; exit 0; fi
           git commit -m "Taiwan HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
           PUSHED=0
           for attempt in 1 2 3 4 5; do
+            # pull remote changes and replay our commit cleanly on top
+            git pull --rebase -X ours origin main 2>/dev/null || git rebase --abort 2>/dev/null || true
             if git push origin main 2>/dev/null; then PUSHED=1; break; fi
-            git rebase --abort 2>/dev/null || true
-            git fetch origin main
-            if git rebase origin/main 2>/dev/null; then
-              echo "Rebased."
-            else
-              git checkout --theirs index.html 2>/dev/null || true
-              git add index.html 2>/dev/null || true
-              git checkout --ours TW.html 2>/dev/null || true
-              git add TW.html 2>/dev/null || true
-              git rebase --continue 2>/dev/null || git rebase --skip 2>/dev/null || true
-              python build_index.py
-              git add -f index.html 2>/dev/null || true
-              git commit -m "Taiwan index rebuild $(date -u '+%Y-%m-%d %H:%M UTC')" 2>/dev/null || true
-            fi
-            sleep 8
+            echo "Push attempt $attempt failed, retrying ..."
+            sleep 6
           done
-          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed — Taiwan."; fi
+          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed after retries — Taiwan."; fi
       - name: Remove credentials
         if: always()
         run: rm -f /tmp/google_credentials.json
@@ -874,29 +784,21 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          # ignore pycache noise
+          echo "__pycache__/" >> .gitignore 2>/dev/null || true
+          git rm -r --cached SupportFiles/__pycache__ 2>/dev/null || true
           git add -f CH.html index.html 2>/dev/null || true
-          if git diff --staged --quiet; then echo "No changes."; exit 0; fi
+          if git diff --staged --quiet; then echo "No changes to commit."; exit 0; fi
           git commit -m "Switzerland HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
           PUSHED=0
           for attempt in 1 2 3 4 5; do
+            # pull remote changes and replay our commit cleanly on top
+            git pull --rebase -X ours origin main 2>/dev/null || git rebase --abort 2>/dev/null || true
             if git push origin main 2>/dev/null; then PUSHED=1; break; fi
-            git rebase --abort 2>/dev/null || true
-            git fetch origin main
-            if git rebase origin/main 2>/dev/null; then
-              echo "Rebased."
-            else
-              git checkout --theirs index.html 2>/dev/null || true
-              git add index.html 2>/dev/null || true
-              git checkout --ours CH.html 2>/dev/null || true
-              git add CH.html 2>/dev/null || true
-              git rebase --continue 2>/dev/null || git rebase --skip 2>/dev/null || true
-              python build_index.py
-              git add -f index.html 2>/dev/null || true
-              git commit -m "Switzerland index rebuild $(date -u '+%Y-%m-%d %H:%M UTC')" 2>/dev/null || true
-            fi
-            sleep 8
+            echo "Push attempt $attempt failed, retrying ..."
+            sleep 6
           done
-          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed — Switzerland."; fi
+          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed after retries — Switzerland."; fi
       - name: Remove credentials
         if: always()
         run: rm -f /tmp/google_credentials.json
@@ -932,29 +834,21 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          # ignore pycache noise
+          echo "__pycache__/" >> .gitignore 2>/dev/null || true
+          git rm -r --cached SupportFiles/__pycache__ 2>/dev/null || true
           git add -f SA.html index.html 2>/dev/null || true
-          if git diff --staged --quiet; then echo "No changes."; exit 0; fi
+          if git diff --staged --quiet; then echo "No changes to commit."; exit 0; fi
           git commit -m "SaudiArabia HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
           PUSHED=0
           for attempt in 1 2 3 4 5; do
+            # pull remote changes and replay our commit cleanly on top
+            git pull --rebase -X ours origin main 2>/dev/null || git rebase --abort 2>/dev/null || true
             if git push origin main 2>/dev/null; then PUSHED=1; break; fi
-            git rebase --abort 2>/dev/null || true
-            git fetch origin main
-            if git rebase origin/main 2>/dev/null; then
-              echo "Rebased."
-            else
-              git checkout --theirs index.html 2>/dev/null || true
-              git add index.html 2>/dev/null || true
-              git checkout --ours SA.html 2>/dev/null || true
-              git add SA.html 2>/dev/null || true
-              git rebase --continue 2>/dev/null || git rebase --skip 2>/dev/null || true
-              python build_index.py
-              git add -f index.html 2>/dev/null || true
-              git commit -m "SaudiArabia index rebuild $(date -u '+%Y-%m-%d %H:%M UTC')" 2>/dev/null || true
-            fi
-            sleep 8
+            echo "Push attempt $attempt failed, retrying ..."
+            sleep 6
           done
-          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed — Saudi Arabia."; fi
+          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed after retries — SaudiArabia."; fi
       - name: Remove credentials
         if: always()
         run: rm -f /tmp/google_credentials.json
@@ -990,29 +884,21 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          # ignore pycache noise
+          echo "__pycache__/" >> .gitignore 2>/dev/null || true
+          git rm -r --cached SupportFiles/__pycache__ 2>/dev/null || true
           git add -f NL.html index.html 2>/dev/null || true
-          if git diff --staged --quiet; then echo "No changes."; exit 0; fi
+          if git diff --staged --quiet; then echo "No changes to commit."; exit 0; fi
           git commit -m "Netherlands HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
           PUSHED=0
           for attempt in 1 2 3 4 5; do
+            # pull remote changes and replay our commit cleanly on top
+            git pull --rebase -X ours origin main 2>/dev/null || git rebase --abort 2>/dev/null || true
             if git push origin main 2>/dev/null; then PUSHED=1; break; fi
-            git rebase --abort 2>/dev/null || true
-            git fetch origin main
-            if git rebase origin/main 2>/dev/null; then
-              echo "Rebased."
-            else
-              git checkout --theirs index.html 2>/dev/null || true
-              git add index.html 2>/dev/null || true
-              git checkout --ours NL.html 2>/dev/null || true
-              git add NL.html 2>/dev/null || true
-              git rebase --continue 2>/dev/null || git rebase --skip 2>/dev/null || true
-              python build_index.py
-              git add -f index.html 2>/dev/null || true
-              git commit -m "Netherlands index rebuild $(date -u '+%Y-%m-%d %H:%M UTC')" 2>/dev/null || true
-            fi
-            sleep 8
+            echo "Push attempt $attempt failed, retrying ..."
+            sleep 6
           done
-          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed — Netherlands."; fi
+          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed after retries — Netherlands."; fi
       - name: Remove credentials
         if: always()
         run: rm -f /tmp/google_credentials.json
@@ -1048,29 +934,21 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          # ignore pycache noise
+          echo "__pycache__/" >> .gitignore 2>/dev/null || true
+          git rm -r --cached SupportFiles/__pycache__ 2>/dev/null || true
           git add -f ES.html index.html 2>/dev/null || true
-          if git diff --staged --quiet; then echo "No changes."; exit 0; fi
+          if git diff --staged --quiet; then echo "No changes to commit."; exit 0; fi
           git commit -m "Spain HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
           PUSHED=0
           for attempt in 1 2 3 4 5; do
+            # pull remote changes and replay our commit cleanly on top
+            git pull --rebase -X ours origin main 2>/dev/null || git rebase --abort 2>/dev/null || true
             if git push origin main 2>/dev/null; then PUSHED=1; break; fi
-            git rebase --abort 2>/dev/null || true
-            git fetch origin main
-            if git rebase origin/main 2>/dev/null; then
-              echo "Rebased."
-            else
-              git checkout --theirs index.html 2>/dev/null || true
-              git add index.html 2>/dev/null || true
-              git checkout --ours ES.html 2>/dev/null || true
-              git add ES.html 2>/dev/null || true
-              git rebase --continue 2>/dev/null || git rebase --skip 2>/dev/null || true
-              python build_index.py
-              git add -f index.html 2>/dev/null || true
-              git commit -m "Spain index rebuild $(date -u '+%Y-%m-%d %H:%M UTC')" 2>/dev/null || true
-            fi
-            sleep 8
+            echo "Push attempt $attempt failed, retrying ..."
+            sleep 6
           done
-          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed — Spain."; fi
+          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed after retries — Spain."; fi
       - name: Remove credentials
         if: always()
         run: rm -f /tmp/google_credentials.json
@@ -1106,29 +984,21 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          # ignore pycache noise
+          echo "__pycache__/" >> .gitignore 2>/dev/null || true
+          git rm -r --cached SupportFiles/__pycache__ 2>/dev/null || true
           git add -f SE.html index.html 2>/dev/null || true
-          if git diff --staged --quiet; then echo "No changes."; exit 0; fi
+          if git diff --staged --quiet; then echo "No changes to commit."; exit 0; fi
           git commit -m "Sweden HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
           PUSHED=0
           for attempt in 1 2 3 4 5; do
+            # pull remote changes and replay our commit cleanly on top
+            git pull --rebase -X ours origin main 2>/dev/null || git rebase --abort 2>/dev/null || true
             if git push origin main 2>/dev/null; then PUSHED=1; break; fi
-            git rebase --abort 2>/dev/null || true
-            git fetch origin main
-            if git rebase origin/main 2>/dev/null; then
-              echo "Rebased."
-            else
-              git checkout --theirs index.html 2>/dev/null || true
-              git add index.html 2>/dev/null || true
-              git checkout --ours SE.html 2>/dev/null || true
-              git add SE.html 2>/dev/null || true
-              git rebase --continue 2>/dev/null || git rebase --skip 2>/dev/null || true
-              python build_index.py
-              git add -f index.html 2>/dev/null || true
-              git commit -m "Sweden index rebuild $(date -u '+%Y-%m-%d %H:%M UTC')" 2>/dev/null || true
-            fi
-            sleep 8
+            echo "Push attempt $attempt failed, retrying ..."
+            sleep 6
           done
-          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed — Sweden."; fi
+          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed after retries — Sweden."; fi
       - name: Remove credentials
         if: always()
         run: rm -f /tmp/google_credentials.json
@@ -1162,29 +1032,21 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          # ignore pycache noise
+          echo "__pycache__/" >> .gitignore 2>/dev/null || true
+          git rm -r --cached SupportFiles/__pycache__ 2>/dev/null || true
           git add -f HK.html index.html 2>/dev/null || true
-          if git diff --staged --quiet; then echo "No changes."; exit 0; fi
+          if git diff --staged --quiet; then echo "No changes to commit."; exit 0; fi
           git commit -m "Hong Kong HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
           PUSHED=0
           for attempt in 1 2 3 4 5; do
+            # pull remote changes and replay our commit cleanly on top
+            git pull --rebase -X ours origin main 2>/dev/null || git rebase --abort 2>/dev/null || true
             if git push origin main 2>/dev/null; then PUSHED=1; break; fi
-            git rebase --abort 2>/dev/null || true
-            git fetch origin main
-            if git rebase origin/main 2>/dev/null; then
-              echo "Rebased."
-            else
-              git checkout --theirs index.html 2>/dev/null || true
-              git add index.html 2>/dev/null || true
-              git checkout --ours HK.html 2>/dev/null || true
-              git add HK.html 2>/dev/null || true
-              git rebase --continue 2>/dev/null || git rebase --skip 2>/dev/null || true
-              python build_index.py
-              git add -f index.html 2>/dev/null || true
-              git commit -m "Hong Kong index rebuild $(date -u '+%Y-%m-%d %H:%M UTC')" 2>/dev/null || true
-            fi
-            sleep 8
+            echo "Push attempt $attempt failed, retrying ..."
+            sleep 6
           done
-          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed — Hong Kong."; fi
+          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed after retries — Hong Kong."; fi
 
   run-it:
     name: "🇮🇹 Italy  16:45 UTC (HTML)"
@@ -1211,29 +1073,21 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          # ignore pycache noise
+          echo "__pycache__/" >> .gitignore 2>/dev/null || true
+          git rm -r --cached SupportFiles/__pycache__ 2>/dev/null || true
           git add -f IT.html index.html 2>/dev/null || true
-          if git diff --staged --quiet; then echo "No changes."; exit 0; fi
+          if git diff --staged --quiet; then echo "No changes to commit."; exit 0; fi
           git commit -m "Italy HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
           PUSHED=0
           for attempt in 1 2 3 4 5; do
+            # pull remote changes and replay our commit cleanly on top
+            git pull --rebase -X ours origin main 2>/dev/null || git rebase --abort 2>/dev/null || true
             if git push origin main 2>/dev/null; then PUSHED=1; break; fi
-            git rebase --abort 2>/dev/null || true
-            git fetch origin main
-            if git rebase origin/main 2>/dev/null; then
-              echo "Rebased."
-            else
-              git checkout --theirs index.html 2>/dev/null || true
-              git add index.html 2>/dev/null || true
-              git checkout --ours IT.html 2>/dev/null || true
-              git add IT.html 2>/dev/null || true
-              git rebase --continue 2>/dev/null || git rebase --skip 2>/dev/null || true
-              python build_index.py
-              git add -f index.html 2>/dev/null || true
-              git commit -m "Italy index rebuild $(date -u '+%Y-%m-%d %H:%M UTC')" 2>/dev/null || true
-            fi
-            sleep 8
+            echo "Push attempt $attempt failed, retrying ..."
+            sleep 6
           done
-          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed — Italy."; fi
+          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed after retries — Italy."; fi
 
   run-sg:
     name: "🇸🇬 Singapore  10:45 UTC (HTML)"
@@ -1260,29 +1114,21 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          # ignore pycache noise
+          echo "__pycache__/" >> .gitignore 2>/dev/null || true
+          git rm -r --cached SupportFiles/__pycache__ 2>/dev/null || true
           git add -f SG.html index.html 2>/dev/null || true
-          if git diff --staged --quiet; then echo "No changes."; exit 0; fi
+          if git diff --staged --quiet; then echo "No changes to commit."; exit 0; fi
           git commit -m "Singapore HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
           PUSHED=0
           for attempt in 1 2 3 4 5; do
+            # pull remote changes and replay our commit cleanly on top
+            git pull --rebase -X ours origin main 2>/dev/null || git rebase --abort 2>/dev/null || true
             if git push origin main 2>/dev/null; then PUSHED=1; break; fi
-            git rebase --abort 2>/dev/null || true
-            git fetch origin main
-            if git rebase origin/main 2>/dev/null; then
-              echo "Rebased."
-            else
-              git checkout --theirs index.html 2>/dev/null || true
-              git add index.html 2>/dev/null || true
-              git checkout --ours SG.html 2>/dev/null || true
-              git add SG.html 2>/dev/null || true
-              git rebase --continue 2>/dev/null || git rebase --skip 2>/dev/null || true
-              python build_index.py
-              git add -f index.html 2>/dev/null || true
-              git commit -m "Singapore index rebuild $(date -u '+%Y-%m-%d %H:%M UTC')" 2>/dev/null || true
-            fi
-            sleep 8
+            echo "Push attempt $attempt failed, retrying ..."
+            sleep 6
           done
-          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed — Singapore."; fi
+          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed after retries — Singapore."; fi
 
   run-id:
     name: "🇮🇩 Indonesia  10:15 UTC (HTML)"
@@ -1309,29 +1155,21 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          # ignore pycache noise
+          echo "__pycache__/" >> .gitignore 2>/dev/null || true
+          git rm -r --cached SupportFiles/__pycache__ 2>/dev/null || true
           git add -f ID.html index.html 2>/dev/null || true
-          if git diff --staged --quiet; then echo "No changes."; exit 0; fi
+          if git diff --staged --quiet; then echo "No changes to commit."; exit 0; fi
           git commit -m "Indonesia HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
           PUSHED=0
           for attempt in 1 2 3 4 5; do
+            # pull remote changes and replay our commit cleanly on top
+            git pull --rebase -X ours origin main 2>/dev/null || git rebase --abort 2>/dev/null || true
             if git push origin main 2>/dev/null; then PUSHED=1; break; fi
-            git rebase --abort 2>/dev/null || true
-            git fetch origin main
-            if git rebase origin/main 2>/dev/null; then
-              echo "Rebased."
-            else
-              git checkout --theirs index.html 2>/dev/null || true
-              git add index.html 2>/dev/null || true
-              git checkout --ours ID.html 2>/dev/null || true
-              git add ID.html 2>/dev/null || true
-              git rebase --continue 2>/dev/null || git rebase --skip 2>/dev/null || true
-              python build_index.py
-              git add -f index.html 2>/dev/null || true
-              git commit -m "Indonesia index rebuild $(date -u '+%Y-%m-%d %H:%M UTC')" 2>/dev/null || true
-            fi
-            sleep 8
+            echo "Push attempt $attempt failed, retrying ..."
+            sleep 6
           done
-          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed — Indonesia."; fi
+          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed after retries — Indonesia."; fi
 
   run-za:
     name: "🇿🇦 South Africa  16:00 UTC (HTML)"
@@ -1358,29 +1196,21 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          # ignore pycache noise
+          echo "__pycache__/" >> .gitignore 2>/dev/null || true
+          git rm -r --cached SupportFiles/__pycache__ 2>/dev/null || true
           git add -f ZA.html index.html 2>/dev/null || true
-          if git diff --staged --quiet; then echo "No changes."; exit 0; fi
+          if git diff --staged --quiet; then echo "No changes to commit."; exit 0; fi
           git commit -m "South Africa HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
           PUSHED=0
           for attempt in 1 2 3 4 5; do
+            # pull remote changes and replay our commit cleanly on top
+            git pull --rebase -X ours origin main 2>/dev/null || git rebase --abort 2>/dev/null || true
             if git push origin main 2>/dev/null; then PUSHED=1; break; fi
-            git rebase --abort 2>/dev/null || true
-            git fetch origin main
-            if git rebase origin/main 2>/dev/null; then
-              echo "Rebased."
-            else
-              git checkout --theirs index.html 2>/dev/null || true
-              git add index.html 2>/dev/null || true
-              git checkout --ours ZA.html 2>/dev/null || true
-              git add ZA.html 2>/dev/null || true
-              git rebase --continue 2>/dev/null || git rebase --skip 2>/dev/null || true
-              python build_index.py
-              git add -f index.html 2>/dev/null || true
-              git commit -m "South Africa index rebuild $(date -u '+%Y-%m-%d %H:%M UTC')" 2>/dev/null || true
-            fi
-            sleep 8
+            echo "Push attempt $attempt failed, retrying ..."
+            sleep 6
           done
-          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed — South Africa."; fi
+          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed after retries — South Africa."; fi
 
   run-mx:
     name: "🇲🇽 Mexico  21:30 UTC (HTML)"
@@ -1407,29 +1237,21 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          # ignore pycache noise
+          echo "__pycache__/" >> .gitignore 2>/dev/null || true
+          git rm -r --cached SupportFiles/__pycache__ 2>/dev/null || true
           git add -f MX.html index.html 2>/dev/null || true
-          if git diff --staged --quiet; then echo "No changes."; exit 0; fi
+          if git diff --staged --quiet; then echo "No changes to commit."; exit 0; fi
           git commit -m "Mexico HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
           PUSHED=0
           for attempt in 1 2 3 4 5; do
+            # pull remote changes and replay our commit cleanly on top
+            git pull --rebase -X ours origin main 2>/dev/null || git rebase --abort 2>/dev/null || true
             if git push origin main 2>/dev/null; then PUSHED=1; break; fi
-            git rebase --abort 2>/dev/null || true
-            git fetch origin main
-            if git rebase origin/main 2>/dev/null; then
-              echo "Rebased."
-            else
-              git checkout --theirs index.html 2>/dev/null || true
-              git add index.html 2>/dev/null || true
-              git checkout --ours MX.html 2>/dev/null || true
-              git add MX.html 2>/dev/null || true
-              git rebase --continue 2>/dev/null || git rebase --skip 2>/dev/null || true
-              python build_index.py
-              git add -f index.html 2>/dev/null || true
-              git commit -m "Mexico index rebuild $(date -u '+%Y-%m-%d %H:%M UTC')" 2>/dev/null || true
-            fi
-            sleep 8
+            echo "Push attempt $attempt failed, retrying ..."
+            sleep 6
           done
-          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed — Mexico."; fi
+          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed after retries — Mexico."; fi
 
   run-th:
     name: "🇹🇭 Thailand  11:00 UTC (HTML)"
@@ -1456,29 +1278,21 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          # ignore pycache noise
+          echo "__pycache__/" >> .gitignore 2>/dev/null || true
+          git rm -r --cached SupportFiles/__pycache__ 2>/dev/null || true
           git add -f TH.html index.html 2>/dev/null || true
-          if git diff --staged --quiet; then echo "No changes."; exit 0; fi
+          if git diff --staged --quiet; then echo "No changes to commit."; exit 0; fi
           git commit -m "Thailand HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
           PUSHED=0
           for attempt in 1 2 3 4 5; do
+            # pull remote changes and replay our commit cleanly on top
+            git pull --rebase -X ours origin main 2>/dev/null || git rebase --abort 2>/dev/null || true
             if git push origin main 2>/dev/null; then PUSHED=1; break; fi
-            git rebase --abort 2>/dev/null || true
-            git fetch origin main
-            if git rebase origin/main 2>/dev/null; then
-              echo "Rebased."
-            else
-              git checkout --theirs index.html 2>/dev/null || true
-              git add index.html 2>/dev/null || true
-              git checkout --ours TH.html 2>/dev/null || true
-              git add TH.html 2>/dev/null || true
-              git rebase --continue 2>/dev/null || git rebase --skip 2>/dev/null || true
-              python build_index.py
-              git add -f index.html 2>/dev/null || true
-              git commit -m "Thailand index rebuild $(date -u '+%Y-%m-%d %H:%M UTC')" 2>/dev/null || true
-            fi
-            sleep 8
+            echo "Push attempt $attempt failed, retrying ..."
+            sleep 6
           done
-          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed — Thailand."; fi
+          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed after retries — Thailand."; fi
 
   run-my:
     name: "🇲🇾 Malaysia  10:30 UTC (HTML)"
@@ -1505,29 +1319,21 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          # ignore pycache noise
+          echo "__pycache__/" >> .gitignore 2>/dev/null || true
+          git rm -r --cached SupportFiles/__pycache__ 2>/dev/null || true
           git add -f MY.html index.html 2>/dev/null || true
-          if git diff --staged --quiet; then echo "No changes."; exit 0; fi
+          if git diff --staged --quiet; then echo "No changes to commit."; exit 0; fi
           git commit -m "Malaysia HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
           PUSHED=0
           for attempt in 1 2 3 4 5; do
+            # pull remote changes and replay our commit cleanly on top
+            git pull --rebase -X ours origin main 2>/dev/null || git rebase --abort 2>/dev/null || true
             if git push origin main 2>/dev/null; then PUSHED=1; break; fi
-            git rebase --abort 2>/dev/null || true
-            git fetch origin main
-            if git rebase origin/main 2>/dev/null; then
-              echo "Rebased."
-            else
-              git checkout --theirs index.html 2>/dev/null || true
-              git add index.html 2>/dev/null || true
-              git checkout --ours MY.html 2>/dev/null || true
-              git add MY.html 2>/dev/null || true
-              git rebase --continue 2>/dev/null || git rebase --skip 2>/dev/null || true
-              python build_index.py
-              git add -f index.html 2>/dev/null || true
-              git commit -m "Malaysia index rebuild $(date -u '+%Y-%m-%d %H:%M UTC')" 2>/dev/null || true
-            fi
-            sleep 8
+            echo "Push attempt $attempt failed, retrying ..."
+            sleep 6
           done
-          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed — Malaysia."; fi
+          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed after retries — Malaysia."; fi
 
   run-uae:
     name: "🇦🇪 UAE  11:30 UTC (HTML)"
@@ -1554,29 +1360,21 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          # ignore pycache noise
+          echo "__pycache__/" >> .gitignore 2>/dev/null || true
+          git rm -r --cached SupportFiles/__pycache__ 2>/dev/null || true
           git add -f UAE.html index.html 2>/dev/null || true
-          if git diff --staged --quiet; then echo "No changes."; exit 0; fi
+          if git diff --staged --quiet; then echo "No changes to commit."; exit 0; fi
           git commit -m "UAE HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
           PUSHED=0
           for attempt in 1 2 3 4 5; do
+            # pull remote changes and replay our commit cleanly on top
+            git pull --rebase -X ours origin main 2>/dev/null || git rebase --abort 2>/dev/null || true
             if git push origin main 2>/dev/null; then PUSHED=1; break; fi
-            git rebase --abort 2>/dev/null || true
-            git fetch origin main
-            if git rebase origin/main 2>/dev/null; then
-              echo "Rebased."
-            else
-              git checkout --theirs index.html 2>/dev/null || true
-              git add index.html 2>/dev/null || true
-              git checkout --ours UAE.html 2>/dev/null || true
-              git add UAE.html 2>/dev/null || true
-              git rebase --continue 2>/dev/null || git rebase --skip 2>/dev/null || true
-              python build_index.py
-              git add -f index.html 2>/dev/null || true
-              git commit -m "UAE index rebuild $(date -u '+%Y-%m-%d %H:%M UTC')" 2>/dev/null || true
-            fi
-            sleep 8
+            echo "Push attempt $attempt failed, retrying ..."
+            sleep 6
           done
-          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed — UAE."; fi
+          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed after retries — UAE."; fi
 
   run-pl:
     name: "🇵🇱 Poland  16:15 UTC (HTML)"
@@ -1603,29 +1401,21 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          # ignore pycache noise
+          echo "__pycache__/" >> .gitignore 2>/dev/null || true
+          git rm -r --cached SupportFiles/__pycache__ 2>/dev/null || true
           git add -f PL.html index.html 2>/dev/null || true
-          if git diff --staged --quiet; then echo "No changes."; exit 0; fi
+          if git diff --staged --quiet; then echo "No changes to commit."; exit 0; fi
           git commit -m "Poland HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
           PUSHED=0
           for attempt in 1 2 3 4 5; do
+            # pull remote changes and replay our commit cleanly on top
+            git pull --rebase -X ours origin main 2>/dev/null || git rebase --abort 2>/dev/null || true
             if git push origin main 2>/dev/null; then PUSHED=1; break; fi
-            git rebase --abort 2>/dev/null || true
-            git fetch origin main
-            if git rebase origin/main 2>/dev/null; then
-              echo "Rebased."
-            else
-              git checkout --theirs index.html 2>/dev/null || true
-              git add index.html 2>/dev/null || true
-              git checkout --ours PL.html 2>/dev/null || true
-              git add PL.html 2>/dev/null || true
-              git rebase --continue 2>/dev/null || git rebase --skip 2>/dev/null || true
-              python build_index.py
-              git add -f index.html 2>/dev/null || true
-              git commit -m "Poland index rebuild $(date -u '+%Y-%m-%d %H:%M UTC')" 2>/dev/null || true
-            fi
-            sleep 8
+            echo "Push attempt $attempt failed, retrying ..."
+            sleep 6
           done
-          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed — Poland."; fi
+          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed after retries — Poland."; fi
 
   run-tr:
     name: "🇹🇷 Turkey  16:30 UTC (HTML)"
@@ -1652,29 +1442,21 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          # ignore pycache noise
+          echo "__pycache__/" >> .gitignore 2>/dev/null || true
+          git rm -r --cached SupportFiles/__pycache__ 2>/dev/null || true
           git add -f TR.html index.html 2>/dev/null || true
-          if git diff --staged --quiet; then echo "No changes."; exit 0; fi
+          if git diff --staged --quiet; then echo "No changes to commit."; exit 0; fi
           git commit -m "Turkey HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
           PUSHED=0
           for attempt in 1 2 3 4 5; do
+            # pull remote changes and replay our commit cleanly on top
+            git pull --rebase -X ours origin main 2>/dev/null || git rebase --abort 2>/dev/null || true
             if git push origin main 2>/dev/null; then PUSHED=1; break; fi
-            git rebase --abort 2>/dev/null || true
-            git fetch origin main
-            if git rebase origin/main 2>/dev/null; then
-              echo "Rebased."
-            else
-              git checkout --theirs index.html 2>/dev/null || true
-              git add index.html 2>/dev/null || true
-              git checkout --ours TR.html 2>/dev/null || true
-              git add TR.html 2>/dev/null || true
-              git rebase --continue 2>/dev/null || git rebase --skip 2>/dev/null || true
-              python build_index.py
-              git add -f index.html 2>/dev/null || true
-              git commit -m "Turkey index rebuild $(date -u '+%Y-%m-%d %H:%M UTC')" 2>/dev/null || true
-            fi
-            sleep 8
+            echo "Push attempt $attempt failed, retrying ..."
+            sleep 6
           done
-          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed — Turkey."; fi
+          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed after retries — Turkey."; fi
 
   run-scans:
     name: "📊 Chartink Scans  03:00 / 09:00 UTC"
