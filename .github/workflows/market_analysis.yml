@@ -67,6 +67,8 @@ on:
   schedule:
     # ── Original 9 ──────────────────────────────────────────
     - cron: "30 4 * * 1-5"    # India morning
+    - cron: "0 5 * * 1-5"     # India HTML-only (IN.html)
+    - cron: "0 0 * * 1-5"     # USA HTML-only (US.html)
     - cron: "0 9 * * 1-5"     # India scan / Scans second run
     - cron: "30 23 * * 0-4"   # USA (Sun–Thu UTC = Mon–Fri ET)
     - cron: "0 17 * * 1-5"    # UK
@@ -135,6 +137,8 @@ on:
           - uae
           - pl
           - tr
+          - india-html
+          - usa-html
           - scans
 
 
@@ -1457,6 +1461,84 @@ jobs:
             sleep 6
           done
           if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed after retries — Turkey."; fi
+
+  run-india-html:
+    name: "🇮🇳 India HTML  05:00 UTC"
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    if: |
+      (github.event_name == 'schedule' && github.event.schedule == '0 5 * * 1-5') ||
+      (github.event_name == 'workflow_dispatch' && (
+        github.event.inputs.market == 'india-html' ||
+        github.event.inputs.market == 'all'
+      ))
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11", cache: "pip" }
+      - name: Install dependencies
+        run: pip install --upgrade pip && pip install -r requirements.txt
+      - name: Run India analysis (HTML-only)
+        run: python market_india_html.py
+      - name: Rebuild homepage
+        run: python build_index.py
+      - name: Commit and push
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          echo "__pycache__/" >> .gitignore 2>/dev/null || true
+          git rm -r --cached SupportFiles/__pycache__ 2>/dev/null || true
+          git add -f IN.html index.html 2>/dev/null || true
+          if git diff --staged --quiet; then echo "No changes to commit."; exit 0; fi
+          git commit -m "India IN HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
+          PUSHED=0
+          for attempt in 1 2 3 4 5; do
+            git pull --rebase -X ours origin main 2>/dev/null || git rebase --abort 2>/dev/null || true
+            if git push origin main 2>/dev/null; then PUSHED=1; break; fi
+            echo "Push attempt $attempt failed, retrying ..."
+            sleep 6
+          done
+          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed after retries — India IN."; fi
+
+  run-usa-html:
+    name: "🇺🇸 USA HTML  00:00 UTC"
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    if: |
+      (github.event_name == 'schedule' && github.event.schedule == '0 0 * * 1-5') ||
+      (github.event_name == 'workflow_dispatch' && (
+        github.event.inputs.market == 'usa-html' ||
+        github.event.inputs.market == 'all'
+      ))
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11", cache: "pip" }
+      - name: Install dependencies
+        run: pip install --upgrade pip && pip install -r requirements.txt
+      - name: Run USA analysis (HTML-only)
+        run: python market_usa_html.py
+      - name: Rebuild homepage
+        run: python build_index.py
+      - name: Commit and push
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          echo "__pycache__/" >> .gitignore 2>/dev/null || true
+          git rm -r --cached SupportFiles/__pycache__ 2>/dev/null || true
+          git add -f US.html index.html 2>/dev/null || true
+          if git diff --staged --quiet; then echo "No changes to commit."; exit 0; fi
+          git commit -m "USA US HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
+          PUSHED=0
+          for attempt in 1 2 3 4 5; do
+            git pull --rebase -X ours origin main 2>/dev/null || git rebase --abort 2>/dev/null || true
+            if git push origin main 2>/dev/null; then PUSHED=1; break; fi
+            echo "Push attempt $attempt failed, retrying ..."
+            sleep 6
+          done
+          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed after retries — USA US."; fi
 
   run-scans:
     name: "📊 Chartink Scans  03:00 / 09:00 UTC"
