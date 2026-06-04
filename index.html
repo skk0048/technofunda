@@ -174,9 +174,9 @@ body::after{content:'';position:fixed;inset:0;background-image:linear-gradient(r
     <div class="hero-stats animate-in delay-3">
       <div class="hs-item"><span class="hs-num gold">28</span><span class="hs-label">Markets</span></div>
       <div class="hs-sep"></div>
-      <div class="hs-item"><span class="hs-num">1,003+</span><span class="hs-label">Stocks Tracked</span></div>
+      <div class="hs-item"><span class="hs-num">3,707+</span><span class="hs-label">Stocks Tracked</span></div>
       <div class="hs-sep"></div>
-      <div class="hs-item"><span class="hs-num green">38</span><span class="hs-label">Prime Setups Today</span></div>
+      <div class="hs-item"><span class="hs-num green">56</span><span class="hs-label">Prime Setups Today</span></div>
       <div class="hs-sep"></div>
       <div class="hs-item"><span class="hs-num">Daily</span><span class="hs-label">Updated</span></div>
     </div>
@@ -192,7 +192,7 @@ body::after{content:'';position:fixed;inset:0;background-image:linear-gradient(r
         <span class="sec-label">Live Reports</span>
         <h2 class="sec-title">Choose Your Market</h2>
       </div>
-      <span class="sec-updated">Generated: 03 Jun 2026 07:43 UTC</span>
+      <span class="sec-updated">Generated: 04 Jun 2026 09:05 UTC</span>
     </div>
     <div class="countries-grid" id="countries-grid"></div>
   </section>
@@ -271,13 +271,13 @@ const MARKETS = [
     exchange:   "NYSE / NASDAQ",
     url:        "USA_Market_Analysis.html",
     status:     "live",
-    mood:       "mixed",
-    updated:    "02 Jun 2026 · 13:19 ET",
+    mood:       "bull",
+    updated:    "04 Jun 2026 · 02:06 ET",
     index_name: "S&P 500",
-    index_price:"7,600",
-    index_chg:  "+0.26",
+    index_price:"7,554",
+    index_chg:  "-0.74",
     universe:   503,
-    signals:    {prime:20,conf:25,rs:70,avoid:220},
+    signals:    {prime:27,conf:30,rs:63,avoid:221},
     top_sectors:[
       {name:"Technology",pct:"-2.9",dir:"neg"}
     ]
@@ -290,14 +290,14 @@ const MARKETS = [
     url:        "India_Market_Analysis.html",
     status:     "live",
     mood:       "bull",
-    updated:    "02 June 2026 · 18:51 IST",
+    updated:    "04 June 2026 · 10:45 IST",
     index_name: "NIFTY 50",
-    index_price:"23,484",
-    index_chg:  "+0.43",
+    index_price:"23,416",
+    index_chg:  "+0.05",
     universe:   500,
-    signals:    {prime:18,conf:100,rs:124,avoid:147},
+    signals:    {prime:28,conf:77,rs:142,avoid:151},
     top_sectors:[
-      {name:"IT",pct:"-0.2",dir:"neg"}
+      {name:"Healthcare",pct:"-0.2",dir:"neg"}
     ]
   },
   {
@@ -422,7 +422,9 @@ const MARKETS = [
     index_chg:  "—",
     universe:   0,
     signals:    {prime:0,conf:0,rs:0,avoid:0},
-    top_sectors:[]
+    top_sectors:[
+
+    ]
   },
   {
     id:         "china",
@@ -438,7 +440,9 @@ const MARKETS = [
     index_chg:  "—",
     universe:   0,
     signals:    {prime:0,conf:0,rs:0,avoid:0},
-    top_sectors:[]
+    top_sectors:[
+
+    ]
   },
   {
     id:         "southkorea",
@@ -454,7 +458,9 @@ const MARKETS = [
     index_chg:  "—",
     universe:   0,
     signals:    {prime:0,conf:0,rs:0,avoid:0},
-    top_sectors:[]
+    top_sectors:[
+
+    ]
   },
   {
     id:         "taiwan",
@@ -470,7 +476,9 @@ const MARKETS = [
     index_chg:  "—",
     universe:   0,
     signals:    {prime:0,conf:0,rs:0,avoid:0},
-    top_sectors:[]
+    top_sectors:[
+
+    ]
   },
   {
     id:         "switzerland",
@@ -486,7 +494,9 @@ const MARKETS = [
     index_chg:  "—",
     universe:   0,
     signals:    {prime:0,conf:0,rs:0,avoid:0},
-    top_sectors:[]
+    top_sectors:[
+
+    ]
   },
   {
     id:         "saudiarabia",
@@ -497,12 +507,14 @@ const MARKETS = [
     status:     "coming",
     mood:       "coming",
     updated:    "Not yet configured",
-    index_name: "TASI",
+    index_name: "TASI (Tadawul)",
     index_price:"—",
     index_chg:  "—",
     universe:   0,
     signals:    {prime:0,conf:0,rs:0,avoid:0},
-    top_sectors:[]
+    top_sectors:[
+
+    ]
   },
   {
     id:         "netherlands",
@@ -518,7 +530,9 @@ const MARKETS = [
     index_chg:  "—",
     universe:   0,
     signals:    {prime:0,conf:0,rs:0,avoid:0},
-    top_sectors:[]
+    top_sectors:[
+
+    ]
   },
   {
     id:         "spain",
@@ -534,7 +548,9 @@ const MARKETS = [
     index_chg:  "—",
     universe:   0,
     signals:    {prime:0,conf:0,rs:0,avoid:0},
-    top_sectors:[]
+    top_sectors:[
+
+    ]
   },
   {
     id:         "sweden",
@@ -550,7 +566,9 @@ const MARKETS = [
     index_chg:  "—",
     universe:   0,
     signals:    {prime:0,conf:0,rs:0,avoid:0},
-    top_sectors:[]
+    top_sectors:[
+
+    ]
   },
   {
     id:         "hk",
@@ -558,15 +576,17 @@ const MARKETS = [
     name:       "Hong Kong",
     exchange:   "Hong Kong Stock Exchange",
     url:        "HK.html",
-    status:     "coming",
-    mood:       "coming",
-    updated:    "Not yet configured",
+    status:     "live",
+    mood:       "bear",
+    updated:    "04 Jun 2026",
     index_name: "Hang Seng",
     index_price:"—",
     index_chg:  "—",
-    universe:   0,
+    universe:   500,
     signals:    {prime:0,conf:0,rs:0,avoid:0},
-    top_sectors:[]
+    top_sectors:[
+
+    ]
   },
   {
     id:         "it",
@@ -574,15 +594,17 @@ const MARKETS = [
     name:       "Italy",
     exchange:   "Borsa Italiana",
     url:        "IT.html",
-    status:     "coming",
-    mood:       "coming",
-    updated:    "Not yet configured",
+    status:     "live",
+    mood:       "bear",
+    updated:    "04 Jun 2026",
     index_name: "FTSE MIB",
     index_price:"—",
     index_chg:  "—",
-    universe:   0,
+    universe:   500,
     signals:    {prime:0,conf:0,rs:0,avoid:0},
-    top_sectors:[]
+    top_sectors:[
+
+    ]
   },
   {
     id:         "sg",
@@ -590,15 +612,17 @@ const MARKETS = [
     name:       "Singapore",
     exchange:   "Singapore Exchange",
     url:        "SG.html",
-    status:     "coming",
-    mood:       "coming",
-    updated:    "Not yet configured",
+    status:     "live",
+    mood:       "mixed",
+    updated:    "04 June 2026 · 14:13 SGT",
     index_name: "STI",
-    index_price:"—",
-    index_chg:  "—",
-    universe:   0,
-    signals:    {prime:0,conf:0,rs:0,avoid:0},
-    top_sectors:[]
+    index_price:"5,077",
+    index_chg:  "-1.20",
+    universe:   34,
+    signals:    {prime:0,conf:5,rs:5,avoid:22},
+    top_sectors:[
+
+    ]
   },
   {
     id:         "id",
@@ -606,15 +630,17 @@ const MARKETS = [
     name:       "Indonesia",
     exchange:   "Indonesia Stock Exchange",
     url:        "ID.html",
-    status:     "coming",
-    mood:       "coming",
-    updated:    "Not yet configured",
+    status:     "live",
+    mood:       "bull",
+    updated:    "04 June 2026 · 13:11 WIB",
     index_name: "IDX Composite",
-    index_price:"—",
-    index_chg:  "—",
-    universe:   0,
-    signals:    {prime:0,conf:0,rs:0,avoid:0},
-    top_sectors:[]
+    index_price:"5,734",
+    index_chg:  "-3.48",
+    universe:   35,
+    signals:    {prime:0,conf:11,rs:14,avoid:10},
+    top_sectors:[
+
+    ]
   },
   {
     id:         "za",
@@ -622,15 +648,17 @@ const MARKETS = [
     name:       "South Africa",
     exchange:   "Johannesburg Stock Exchange",
     url:        "ZA.html",
-    status:     "coming",
-    mood:       "coming",
-    updated:    "Not yet configured",
+    status:     "live",
+    mood:       "bear",
+    updated:    "04 Jun 2026",
     index_name: "JSE Top 40",
     index_price:"—",
     index_chg:  "—",
-    universe:   0,
+    universe:   500,
     signals:    {prime:0,conf:0,rs:0,avoid:0},
-    top_sectors:[]
+    top_sectors:[
+
+    ]
   },
   {
     id:         "mx",
@@ -638,15 +666,17 @@ const MARKETS = [
     name:       "Mexico",
     exchange:   "Bolsa Mexicana de Valores",
     url:        "MX.html",
-    status:     "coming",
-    mood:       "coming",
-    updated:    "Not yet configured",
+    status:     "live",
+    mood:       "bull",
+    updated:    "03 June 2026 · 23:58 CST",
     index_name: "IPC Mexico",
-    index_price:"—",
-    index_chg:  "—",
-    universe:   0,
-    signals:    {prime:0,conf:0,rs:0,avoid:0},
-    top_sectors:[]
+    index_price:"68,286",
+    index_chg:  "-0.88",
+    universe:   32,
+    signals:    {prime:0,conf:3,rs:13,avoid:12},
+    top_sectors:[
+
+    ]
   },
   {
     id:         "th",
@@ -654,15 +684,17 @@ const MARKETS = [
     name:       "Thailand",
     exchange:   "Stock Exchange of Thailand",
     url:        "TH.html",
-    status:     "coming",
-    mood:       "coming",
-    updated:    "Not yet configured",
+    status:     "live",
+    mood:       "mixed",
+    updated:    "04 June 2026 · 14:00 ICT",
     index_name: "SET Index",
-    index_price:"—",
-    index_chg:  "—",
-    universe:   0,
-    signals:    {prime:0,conf:0,rs:0,avoid:0},
-    top_sectors:[]
+    index_price:"1,601",
+    index_chg:  "+0.79",
+    universe:   34,
+    signals:    {prime:1,conf:2,rs:3,avoid:22},
+    top_sectors:[
+
+    ]
   },
   {
     id:         "my",
@@ -670,15 +702,17 @@ const MARKETS = [
     name:       "Malaysia",
     exchange:   "Bursa Malaysia",
     url:        "MY.html",
-    status:     "coming",
-    mood:       "coming",
-    updated:    "Not yet configured",
+    status:     "live",
+    mood:       "bull",
+    updated:    "04 June 2026 · 15:07 MYT",
     index_name: "KLCI",
-    index_price:"—",
-    index_chg:  "—",
-    universe:   0,
-    signals:    {prime:0,conf:0,rs:0,avoid:0},
-    top_sectors:[]
+    index_price:"1,688",
+    index_chg:  "+0.91",
+    universe:   35,
+    signals:    {prime:0,conf:9,rs:7,avoid:17},
+    top_sectors:[
+
+    ]
   },
   {
     id:         "uae",
@@ -686,15 +720,17 @@ const MARKETS = [
     name:       "UAE",
     exchange:   "Dubai / Abu Dhabi Exchange",
     url:        "UAE.html",
-    status:     "coming",
-    mood:       "coming",
-    updated:    "Not yet configured",
+    status:     "live",
+    mood:       "bear",
+    updated:    "04 Jun 2026",
     index_name: "DFM / ADX",
     index_price:"—",
     index_chg:  "—",
-    universe:   0,
+    universe:   500,
     signals:    {prime:0,conf:0,rs:0,avoid:0},
-    top_sectors:[]
+    top_sectors:[
+
+    ]
   },
   {
     id:         "pl",
@@ -702,15 +738,17 @@ const MARKETS = [
     name:       "Poland",
     exchange:   "Warsaw Stock Exchange",
     url:        "PL.html",
-    status:     "coming",
-    mood:       "coming",
-    updated:    "Not yet configured",
+    status:     "live",
+    mood:       "bear",
+    updated:    "04 Jun 2026",
     index_name: "WIG20",
     index_price:"—",
     index_chg:  "—",
-    universe:   0,
+    universe:   500,
     signals:    {prime:0,conf:0,rs:0,avoid:0},
-    top_sectors:[]
+    top_sectors:[
+
+    ]
   },
   {
     id:         "tr",
@@ -718,15 +756,17 @@ const MARKETS = [
     name:       "Turkey",
     exchange:   "Borsa Istanbul",
     url:        "TR.html",
-    status:     "coming",
-    mood:       "coming",
-    updated:    "Not yet configured",
+    status:     "live",
+    mood:       "bull",
+    updated:    "04 June 2026 · 09:00 TRT",
     index_name: "BIST 100",
-    index_price:"—",
-    index_chg:  "—",
-    universe:   0,
-    signals:    {prime:0,conf:0,rs:0,avoid:0},
-    top_sectors:[]
+    index_price:"13,966",
+    index_chg:  "-1.65",
+    universe:   34,
+    signals:    {prime:0,conf:8,rs:5,avoid:20},
+    top_sectors:[
+
+    ]
   }
 ];
 const TICKERS = [
@@ -758,13 +798,11 @@ function buildTicker(){
 }
 function buildSectors(s){
   if(!s||!s.length) return '';
-  const bull=s.filter(x=>x.dir==='pos');
-  const bear=s.filter(x=>x.dir==='neg');
-  function row(x){const w=Math.min(Math.abs(parseFloat(x.pct))*4,100);return `<div class="cc-sec-row"><span class="cc-sec-name">${x.name}</span><div class="cc-sec-bar-track"><div class="cc-sec-bar-fill ${x.dir==='pos'?'bar-pos':'bar-neg'}" style="width:${w}%"></div></div><span class="cc-sec-pct ${x.dir==='pos'?'pos':'neg'}">${x.pct}%</span></div>`;}
-  let html='';
-  if(bull.length){html+=`<div class="cc-sectors-label">🟢 Top Bullish Sectors</div><div class="cc-sector-rows">${bull.map(row).join('')}</div>`;}
-  if(bear.length){html+=`<div class="cc-sectors-label" style="margin-top:8px">🔴 Top Bearish Sectors</div><div class="cc-sector-rows">${bear.map(row).join('')}</div>`;}
-  return html;
+  const rows=s.map(x=>{
+    const w=Math.min(Math.abs(parseFloat(x.pct))*4,100);
+    return `<div class="cc-sec-row"><span class="cc-sec-name">${x.name}</span><div class="cc-sec-bar-track"><div class="cc-sec-bar-fill ${x.dir==='pos'?'bar-pos':'bar-neg'}" style="width:${w}%"></div></div><span class="cc-sec-pct ${x.dir==='pos'?'pos':'neg'}">${x.pct}%</span></div>`;
+  }).join('');
+  return `<div class="cc-sectors-label">Top / Bottom Sectors</div><div class="cc-sector-rows">${rows}</div>`;
 }
 function buildSignals(s){
   const p=[];
