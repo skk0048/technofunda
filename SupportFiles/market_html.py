@@ -1565,9 +1565,9 @@ def build_html_report(
     # ── Country navigation: home link + dropdown to switch markets ──────────
     # Maps internal market code → (display name, flag, html filename)
     _COUNTRY_MAP = {
-        # ── Original 9 (full-name HTML files) ──
-        "USA":       ("United States", "🇺🇸", "USA_Market_Analysis.html"),
-        "INDIA":     ("India",         "🇮🇳", "India_Market_Analysis.html"),
+        # ── Original 9 ──
+        "USA":       ("United States", "🇺🇸", "US.html"),
+        "INDIA":     ("India",         "🇮🇳", "IN.html"),
         "UK":        ("United Kingdom","🇬🇧", "UK.html"),
         "CA":        ("Canada",        "🇨🇦", "CA.html"),
         "AU":        ("Australia",     "🇦🇺", "AU.html"),
