@@ -28,7 +28,7 @@ if os.path.exists(os.path.join(SCRIPT_DIR, "IndexData")):
 else:
     INDEX_DATA_DIR = r"C:\Users\sudhi\Documents\Trading\SectorRotation\IndexData"
 
-STOCK_CSV = os.path.join(INDEX_DATA_DIR, "ind_niftytotalmarket_list.csv")
+STOCK_CSV = os.path.join(INDEX_DATA_DIR, "ind_nsefull_list.csv")
 
 MAX_STOCKS        = 500
 PERIOD_DAYS       = 420
