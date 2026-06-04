@@ -80,6 +80,17 @@ on:
     - cron: "0 19 * * 1-5"    # Netherlands
     - cron: "30 19 * * 1-5"   # Spain
     - cron: "0 20 * * 1-5"    # Sweden
+    - cron: "0 10 * * 1-5"   # Hong Kong (HTML-only)
+    - cron: "45 16 * * 1-5"   # Italy (HTML-only)
+    - cron: "45 10 * * 1-5"   # Singapore (HTML-only)
+    - cron: "15 10 * * 1-5"   # Indonesia (HTML-only)
+    - cron: "0 16 * * 1-5"   # South Africa (HTML-only)
+    - cron: "30 21 * * 1-5"   # Mexico (HTML-only)
+    - cron: "0 11 * * 1-5"   # Thailand (HTML-only)
+    - cron: "30 10 * * 1-5"   # Malaysia (HTML-only)
+    - cron: "30 11 * * 0-4"   # UAE (HTML-only)
+    - cron: "15 16 * * 1-5"   # Poland (HTML-only)
+    - cron: "30 16 * * 1-5"   # Turkey (HTML-only)
 
   workflow_dispatch:
     inputs:
@@ -107,6 +118,17 @@ on:
           - netherlands
           - spain
           - sweden
+          - hk
+          - it
+          - sg
+          - id
+          - za
+          - mx
+          - th
+          - my
+          - uae
+          - pl
+          - tr
           - scans
 
 
@@ -1114,6 +1136,545 @@ jobs:
   # ──────────────────────────────────────────────────────────────────────────
   #  SCANS (India chartink + FnO)
   # ──────────────────────────────────────────────────────────────────────────
+
+  run-hk:
+    name: "🇭🇰 Hong Kong  10:00 UTC (HTML)"
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    if: |
+      (github.event_name == 'schedule' && github.event.schedule == '0 10 * * 1-5') ||
+      (github.event_name == 'workflow_dispatch' && (
+        github.event.inputs.market == 'hk' ||
+        github.event.inputs.market == 'all'
+      ))
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11", cache: "pip" }
+      - name: Install dependencies
+        run: pip install --upgrade pip && pip install -r requirements.txt
+      - name: Run Hong Kong analysis (HTML-only)
+        run: python market_hk_gsht.py
+      - name: Rebuild homepage
+        run: python build_index.py
+      - name: Commit and push
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -f HK.html index.html 2>/dev/null || true
+          if git diff --staged --quiet; then echo "No changes."; exit 0; fi
+          git commit -m "Hong Kong HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
+          PUSHED=0
+          for attempt in 1 2 3 4 5; do
+            if git push origin main 2>/dev/null; then PUSHED=1; break; fi
+            git rebase --abort 2>/dev/null || true
+            git fetch origin main
+            if git rebase origin/main 2>/dev/null; then
+              echo "Rebased."
+            else
+              git checkout --theirs index.html 2>/dev/null || true
+              git add index.html 2>/dev/null || true
+              git checkout --ours HK.html 2>/dev/null || true
+              git add HK.html 2>/dev/null || true
+              git rebase --continue 2>/dev/null || git rebase --skip 2>/dev/null || true
+              python build_index.py
+              git add -f index.html 2>/dev/null || true
+              git commit -m "Hong Kong index rebuild $(date -u '+%Y-%m-%d %H:%M UTC')" 2>/dev/null || true
+            fi
+            sleep 8
+          done
+          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed — Hong Kong."; fi
+
+  run-it:
+    name: "🇮🇹 Italy  16:45 UTC (HTML)"
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    if: |
+      (github.event_name == 'schedule' && github.event.schedule == '45 16 * * 1-5') ||
+      (github.event_name == 'workflow_dispatch' && (
+        github.event.inputs.market == 'it' ||
+        github.event.inputs.market == 'all'
+      ))
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11", cache: "pip" }
+      - name: Install dependencies
+        run: pip install --upgrade pip && pip install -r requirements.txt
+      - name: Run Italy analysis (HTML-only)
+        run: python market_it_gsht.py
+      - name: Rebuild homepage
+        run: python build_index.py
+      - name: Commit and push
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -f IT.html index.html 2>/dev/null || true
+          if git diff --staged --quiet; then echo "No changes."; exit 0; fi
+          git commit -m "Italy HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
+          PUSHED=0
+          for attempt in 1 2 3 4 5; do
+            if git push origin main 2>/dev/null; then PUSHED=1; break; fi
+            git rebase --abort 2>/dev/null || true
+            git fetch origin main
+            if git rebase origin/main 2>/dev/null; then
+              echo "Rebased."
+            else
+              git checkout --theirs index.html 2>/dev/null || true
+              git add index.html 2>/dev/null || true
+              git checkout --ours IT.html 2>/dev/null || true
+              git add IT.html 2>/dev/null || true
+              git rebase --continue 2>/dev/null || git rebase --skip 2>/dev/null || true
+              python build_index.py
+              git add -f index.html 2>/dev/null || true
+              git commit -m "Italy index rebuild $(date -u '+%Y-%m-%d %H:%M UTC')" 2>/dev/null || true
+            fi
+            sleep 8
+          done
+          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed — Italy."; fi
+
+  run-sg:
+    name: "🇸🇬 Singapore  10:45 UTC (HTML)"
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    if: |
+      (github.event_name == 'schedule' && github.event.schedule == '45 10 * * 1-5') ||
+      (github.event_name == 'workflow_dispatch' && (
+        github.event.inputs.market == 'sg' ||
+        github.event.inputs.market == 'all'
+      ))
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11", cache: "pip" }
+      - name: Install dependencies
+        run: pip install --upgrade pip && pip install -r requirements.txt
+      - name: Run Singapore analysis (HTML-only)
+        run: python market_sg_gsht.py
+      - name: Rebuild homepage
+        run: python build_index.py
+      - name: Commit and push
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -f SG.html index.html 2>/dev/null || true
+          if git diff --staged --quiet; then echo "No changes."; exit 0; fi
+          git commit -m "Singapore HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
+          PUSHED=0
+          for attempt in 1 2 3 4 5; do
+            if git push origin main 2>/dev/null; then PUSHED=1; break; fi
+            git rebase --abort 2>/dev/null || true
+            git fetch origin main
+            if git rebase origin/main 2>/dev/null; then
+              echo "Rebased."
+            else
+              git checkout --theirs index.html 2>/dev/null || true
+              git add index.html 2>/dev/null || true
+              git checkout --ours SG.html 2>/dev/null || true
+              git add SG.html 2>/dev/null || true
+              git rebase --continue 2>/dev/null || git rebase --skip 2>/dev/null || true
+              python build_index.py
+              git add -f index.html 2>/dev/null || true
+              git commit -m "Singapore index rebuild $(date -u '+%Y-%m-%d %H:%M UTC')" 2>/dev/null || true
+            fi
+            sleep 8
+          done
+          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed — Singapore."; fi
+
+  run-id:
+    name: "🇮🇩 Indonesia  10:15 UTC (HTML)"
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    if: |
+      (github.event_name == 'schedule' && github.event.schedule == '15 10 * * 1-5') ||
+      (github.event_name == 'workflow_dispatch' && (
+        github.event.inputs.market == 'id' ||
+        github.event.inputs.market == 'all'
+      ))
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11", cache: "pip" }
+      - name: Install dependencies
+        run: pip install --upgrade pip && pip install -r requirements.txt
+      - name: Run Indonesia analysis (HTML-only)
+        run: python market_id_gsht.py
+      - name: Rebuild homepage
+        run: python build_index.py
+      - name: Commit and push
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -f ID.html index.html 2>/dev/null || true
+          if git diff --staged --quiet; then echo "No changes."; exit 0; fi
+          git commit -m "Indonesia HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
+          PUSHED=0
+          for attempt in 1 2 3 4 5; do
+            if git push origin main 2>/dev/null; then PUSHED=1; break; fi
+            git rebase --abort 2>/dev/null || true
+            git fetch origin main
+            if git rebase origin/main 2>/dev/null; then
+              echo "Rebased."
+            else
+              git checkout --theirs index.html 2>/dev/null || true
+              git add index.html 2>/dev/null || true
+              git checkout --ours ID.html 2>/dev/null || true
+              git add ID.html 2>/dev/null || true
+              git rebase --continue 2>/dev/null || git rebase --skip 2>/dev/null || true
+              python build_index.py
+              git add -f index.html 2>/dev/null || true
+              git commit -m "Indonesia index rebuild $(date -u '+%Y-%m-%d %H:%M UTC')" 2>/dev/null || true
+            fi
+            sleep 8
+          done
+          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed — Indonesia."; fi
+
+  run-za:
+    name: "🇿🇦 South Africa  16:00 UTC (HTML)"
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    if: |
+      (github.event_name == 'schedule' && github.event.schedule == '0 16 * * 1-5') ||
+      (github.event_name == 'workflow_dispatch' && (
+        github.event.inputs.market == 'za' ||
+        github.event.inputs.market == 'all'
+      ))
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11", cache: "pip" }
+      - name: Install dependencies
+        run: pip install --upgrade pip && pip install -r requirements.txt
+      - name: Run South Africa analysis (HTML-only)
+        run: python market_za_gsht.py
+      - name: Rebuild homepage
+        run: python build_index.py
+      - name: Commit and push
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -f ZA.html index.html 2>/dev/null || true
+          if git diff --staged --quiet; then echo "No changes."; exit 0; fi
+          git commit -m "South Africa HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
+          PUSHED=0
+          for attempt in 1 2 3 4 5; do
+            if git push origin main 2>/dev/null; then PUSHED=1; break; fi
+            git rebase --abort 2>/dev/null || true
+            git fetch origin main
+            if git rebase origin/main 2>/dev/null; then
+              echo "Rebased."
+            else
+              git checkout --theirs index.html 2>/dev/null || true
+              git add index.html 2>/dev/null || true
+              git checkout --ours ZA.html 2>/dev/null || true
+              git add ZA.html 2>/dev/null || true
+              git rebase --continue 2>/dev/null || git rebase --skip 2>/dev/null || true
+              python build_index.py
+              git add -f index.html 2>/dev/null || true
+              git commit -m "South Africa index rebuild $(date -u '+%Y-%m-%d %H:%M UTC')" 2>/dev/null || true
+            fi
+            sleep 8
+          done
+          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed — South Africa."; fi
+
+  run-mx:
+    name: "🇲🇽 Mexico  21:30 UTC (HTML)"
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    if: |
+      (github.event_name == 'schedule' && github.event.schedule == '30 21 * * 1-5') ||
+      (github.event_name == 'workflow_dispatch' && (
+        github.event.inputs.market == 'mx' ||
+        github.event.inputs.market == 'all'
+      ))
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11", cache: "pip" }
+      - name: Install dependencies
+        run: pip install --upgrade pip && pip install -r requirements.txt
+      - name: Run Mexico analysis (HTML-only)
+        run: python market_mx_gsht.py
+      - name: Rebuild homepage
+        run: python build_index.py
+      - name: Commit and push
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -f MX.html index.html 2>/dev/null || true
+          if git diff --staged --quiet; then echo "No changes."; exit 0; fi
+          git commit -m "Mexico HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
+          PUSHED=0
+          for attempt in 1 2 3 4 5; do
+            if git push origin main 2>/dev/null; then PUSHED=1; break; fi
+            git rebase --abort 2>/dev/null || true
+            git fetch origin main
+            if git rebase origin/main 2>/dev/null; then
+              echo "Rebased."
+            else
+              git checkout --theirs index.html 2>/dev/null || true
+              git add index.html 2>/dev/null || true
+              git checkout --ours MX.html 2>/dev/null || true
+              git add MX.html 2>/dev/null || true
+              git rebase --continue 2>/dev/null || git rebase --skip 2>/dev/null || true
+              python build_index.py
+              git add -f index.html 2>/dev/null || true
+              git commit -m "Mexico index rebuild $(date -u '+%Y-%m-%d %H:%M UTC')" 2>/dev/null || true
+            fi
+            sleep 8
+          done
+          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed — Mexico."; fi
+
+  run-th:
+    name: "🇹🇭 Thailand  11:00 UTC (HTML)"
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    if: |
+      (github.event_name == 'schedule' && github.event.schedule == '0 11 * * 1-5') ||
+      (github.event_name == 'workflow_dispatch' && (
+        github.event.inputs.market == 'th' ||
+        github.event.inputs.market == 'all'
+      ))
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11", cache: "pip" }
+      - name: Install dependencies
+        run: pip install --upgrade pip && pip install -r requirements.txt
+      - name: Run Thailand analysis (HTML-only)
+        run: python market_th_gsht.py
+      - name: Rebuild homepage
+        run: python build_index.py
+      - name: Commit and push
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -f TH.html index.html 2>/dev/null || true
+          if git diff --staged --quiet; then echo "No changes."; exit 0; fi
+          git commit -m "Thailand HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
+          PUSHED=0
+          for attempt in 1 2 3 4 5; do
+            if git push origin main 2>/dev/null; then PUSHED=1; break; fi
+            git rebase --abort 2>/dev/null || true
+            git fetch origin main
+            if git rebase origin/main 2>/dev/null; then
+              echo "Rebased."
+            else
+              git checkout --theirs index.html 2>/dev/null || true
+              git add index.html 2>/dev/null || true
+              git checkout --ours TH.html 2>/dev/null || true
+              git add TH.html 2>/dev/null || true
+              git rebase --continue 2>/dev/null || git rebase --skip 2>/dev/null || true
+              python build_index.py
+              git add -f index.html 2>/dev/null || true
+              git commit -m "Thailand index rebuild $(date -u '+%Y-%m-%d %H:%M UTC')" 2>/dev/null || true
+            fi
+            sleep 8
+          done
+          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed — Thailand."; fi
+
+  run-my:
+    name: "🇲🇾 Malaysia  10:30 UTC (HTML)"
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    if: |
+      (github.event_name == 'schedule' && github.event.schedule == '30 10 * * 1-5') ||
+      (github.event_name == 'workflow_dispatch' && (
+        github.event.inputs.market == 'my' ||
+        github.event.inputs.market == 'all'
+      ))
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11", cache: "pip" }
+      - name: Install dependencies
+        run: pip install --upgrade pip && pip install -r requirements.txt
+      - name: Run Malaysia analysis (HTML-only)
+        run: python market_my_gsht.py
+      - name: Rebuild homepage
+        run: python build_index.py
+      - name: Commit and push
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -f MY.html index.html 2>/dev/null || true
+          if git diff --staged --quiet; then echo "No changes."; exit 0; fi
+          git commit -m "Malaysia HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
+          PUSHED=0
+          for attempt in 1 2 3 4 5; do
+            if git push origin main 2>/dev/null; then PUSHED=1; break; fi
+            git rebase --abort 2>/dev/null || true
+            git fetch origin main
+            if git rebase origin/main 2>/dev/null; then
+              echo "Rebased."
+            else
+              git checkout --theirs index.html 2>/dev/null || true
+              git add index.html 2>/dev/null || true
+              git checkout --ours MY.html 2>/dev/null || true
+              git add MY.html 2>/dev/null || true
+              git rebase --continue 2>/dev/null || git rebase --skip 2>/dev/null || true
+              python build_index.py
+              git add -f index.html 2>/dev/null || true
+              git commit -m "Malaysia index rebuild $(date -u '+%Y-%m-%d %H:%M UTC')" 2>/dev/null || true
+            fi
+            sleep 8
+          done
+          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed — Malaysia."; fi
+
+  run-uae:
+    name: "🇦🇪 UAE  11:30 UTC (HTML)"
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    if: |
+      (github.event_name == 'schedule' && github.event.schedule == '30 11 * * 0-4') ||
+      (github.event_name == 'workflow_dispatch' && (
+        github.event.inputs.market == 'uae' ||
+        github.event.inputs.market == 'all'
+      ))
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11", cache: "pip" }
+      - name: Install dependencies
+        run: pip install --upgrade pip && pip install -r requirements.txt
+      - name: Run UAE analysis (HTML-only)
+        run: python market_uae_gsht.py
+      - name: Rebuild homepage
+        run: python build_index.py
+      - name: Commit and push
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -f UAE.html index.html 2>/dev/null || true
+          if git diff --staged --quiet; then echo "No changes."; exit 0; fi
+          git commit -m "UAE HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
+          PUSHED=0
+          for attempt in 1 2 3 4 5; do
+            if git push origin main 2>/dev/null; then PUSHED=1; break; fi
+            git rebase --abort 2>/dev/null || true
+            git fetch origin main
+            if git rebase origin/main 2>/dev/null; then
+              echo "Rebased."
+            else
+              git checkout --theirs index.html 2>/dev/null || true
+              git add index.html 2>/dev/null || true
+              git checkout --ours UAE.html 2>/dev/null || true
+              git add UAE.html 2>/dev/null || true
+              git rebase --continue 2>/dev/null || git rebase --skip 2>/dev/null || true
+              python build_index.py
+              git add -f index.html 2>/dev/null || true
+              git commit -m "UAE index rebuild $(date -u '+%Y-%m-%d %H:%M UTC')" 2>/dev/null || true
+            fi
+            sleep 8
+          done
+          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed — UAE."; fi
+
+  run-pl:
+    name: "🇵🇱 Poland  16:15 UTC (HTML)"
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    if: |
+      (github.event_name == 'schedule' && github.event.schedule == '15 16 * * 1-5') ||
+      (github.event_name == 'workflow_dispatch' && (
+        github.event.inputs.market == 'pl' ||
+        github.event.inputs.market == 'all'
+      ))
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11", cache: "pip" }
+      - name: Install dependencies
+        run: pip install --upgrade pip && pip install -r requirements.txt
+      - name: Run Poland analysis (HTML-only)
+        run: python market_pl_gsht.py
+      - name: Rebuild homepage
+        run: python build_index.py
+      - name: Commit and push
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -f PL.html index.html 2>/dev/null || true
+          if git diff --staged --quiet; then echo "No changes."; exit 0; fi
+          git commit -m "Poland HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
+          PUSHED=0
+          for attempt in 1 2 3 4 5; do
+            if git push origin main 2>/dev/null; then PUSHED=1; break; fi
+            git rebase --abort 2>/dev/null || true
+            git fetch origin main
+            if git rebase origin/main 2>/dev/null; then
+              echo "Rebased."
+            else
+              git checkout --theirs index.html 2>/dev/null || true
+              git add index.html 2>/dev/null || true
+              git checkout --ours PL.html 2>/dev/null || true
+              git add PL.html 2>/dev/null || true
+              git rebase --continue 2>/dev/null || git rebase --skip 2>/dev/null || true
+              python build_index.py
+              git add -f index.html 2>/dev/null || true
+              git commit -m "Poland index rebuild $(date -u '+%Y-%m-%d %H:%M UTC')" 2>/dev/null || true
+            fi
+            sleep 8
+          done
+          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed — Poland."; fi
+
+  run-tr:
+    name: "🇹🇷 Turkey  16:30 UTC (HTML)"
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    if: |
+      (github.event_name == 'schedule' && github.event.schedule == '30 16 * * 1-5') ||
+      (github.event_name == 'workflow_dispatch' && (
+        github.event.inputs.market == 'tr' ||
+        github.event.inputs.market == 'all'
+      ))
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11", cache: "pip" }
+      - name: Install dependencies
+        run: pip install --upgrade pip && pip install -r requirements.txt
+      - name: Run Turkey analysis (HTML-only)
+        run: python market_tr_gsht.py
+      - name: Rebuild homepage
+        run: python build_index.py
+      - name: Commit and push
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -f TR.html index.html 2>/dev/null || true
+          if git diff --staged --quiet; then echo "No changes."; exit 0; fi
+          git commit -m "Turkey HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
+          PUSHED=0
+          for attempt in 1 2 3 4 5; do
+            if git push origin main 2>/dev/null; then PUSHED=1; break; fi
+            git rebase --abort 2>/dev/null || true
+            git fetch origin main
+            if git rebase origin/main 2>/dev/null; then
+              echo "Rebased."
+            else
+              git checkout --theirs index.html 2>/dev/null || true
+              git add index.html 2>/dev/null || true
+              git checkout --ours TR.html 2>/dev/null || true
+              git add TR.html 2>/dev/null || true
+              git rebase --continue 2>/dev/null || git rebase --skip 2>/dev/null || true
+              python build_index.py
+              git add -f index.html 2>/dev/null || true
+              git commit -m "Turkey index rebuild $(date -u '+%Y-%m-%d %H:%M UTC')" 2>/dev/null || true
+            fi
+            sleep 8
+          done
+          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed — Turkey."; fi
 
   run-scans:
     name: "📊 Chartink Scans  03:00 / 09:00 UTC"
