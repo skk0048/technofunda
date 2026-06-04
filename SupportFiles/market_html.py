@@ -15,7 +15,12 @@
 import numpy as np
 import pandas as pd
 import os
-from datetime import datetime
+import re
+from datetime import datetime, timedelta
+
+# Chart-pattern recency cap (days). Patterns older than this are hidden in the
+# Patterns tab regardless of timeframe. See request #8.
+PATTERN_RECENT_DAYS = 15
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -56,7 +61,58 @@ def _signal_class(val):
     return _SL_CLASS.get(v) or _AT_CLASS.get(v) or ""
 
 
-def _cell_class(col, val):
+# Normalised lookup key: lowercase, strip spaces / underscores / '>' so that
+# headers like "RS_22%", "% > SMA50", "AbvSMA50%", "1M_Score" all collapse to
+# the same canonical token. Fixes breadth/rotation colours not firing (#6/#7).
+def _norm_key(col):
+    return re.sub(r"[\s_>]", "", str(col).lower().strip())
+
+# 0-100 breadth / score columns → ≥60 green · 40-60 orange · <40 red.
+_BREADTH_KEYS = {_norm_key(c) for c in (
+    "rs22%", "rs55%", "rsi50%", "rsi>50%",
+    "abvsma20%", "abvsma50%", "abvsma100%", "abvsma200%",
+    "%>sma20", "%>sma50", "%>sma100", "%>sma200",
+    "1m_score", "3m_score", "6m_score", "12m_score",
+    "breadth%", "breadth_score", "momentum_score",
+)}
+# Return / change columns stay on the diverging (pos/neg) scale even inside a
+# breadth-mode table — these are NOT 0-100 figures.
+_RETURN_KEYS = {_norm_key(c) for c in (
+    "chg1d%", "chg5d%",
+    "rs22d%", "rs55d%", "rs120d%", "rs252d%",
+    "rs22didx%", "rs55didx%", "rs120didx%", "rs252didx%",
+    "rs22dsec%", "rs55dsec%",
+    "1m%", "3m%", "6m%", "12m%", "ytd%",
+    "salesyoy%", "patyoy%", "salesqoq%", "patqoq%",
+    "roe%", "margin%", "wrs21%", "wrs30%", "mrs12%", "sleevers",
+)}
+
+
+def _is_breadth_col(col, pct_mode=None):
+    """Should this column use the 60/40 green/amber/red breadth scale?"""
+    k = _norm_key(col)
+    if k in _RETURN_KEYS:
+        return False
+    if k in _BREADTH_KEYS:
+        return True
+    # score / breadth columns wherever they appear (sector & industry rotation)
+    if ("score" in k or "breadth" in k or "percentile" in k) and "scorecard" not in k:
+        return True
+    # In a dedicated breadth table, treat every remaining percent column as 0-100
+    if pct_mode == "breadth" and k.endswith("%"):
+        return True
+    return False
+
+
+def _cell_class(col, val, pct_mode=None):
+    # Breadth / rotation 0-100 colouring takes priority for the columns it owns.
+    if _is_breadth_col(col, pct_mode):
+        try:
+            f = float(val)
+            if f >= 60: return "bd-green"
+            if f >= 40: return "bd-amber"
+            return "bd-red"
+        except: pass
     col = str(col).lower().strip()
     if col == "signal_label":  return _signal_class(val)
     if col == "action_tier":   return _signal_class(val)
@@ -88,21 +144,7 @@ def _cell_class(col, val):
             if f <= 12: return "neg-dim"
             return "neg"
         except: pass
-    # ── Breadth / rotation % columns: 0-100 scale → ≥60 green, 40-60 orange,
-    #    <40 red. Matches the Excel breadth logic. MUST come before the generic
-    #    %-handler below (otherwise a 45% breadth would wrongly read as green).
-    breadth_cols = {
-        "rs22%","rs55%","rsi50%",
-        "abvsma20%","abvsma50%","abvsma100%","abvsma200%",
-        "1m_score","3m_score","6m_score",
-    }
-    if col in breadth_cols:
-        try:
-            f = float(val)
-            if f >= 60: return "bd-green"
-            if f >= 40: return "bd-amber"
-            return "bd-red"
-        except: pass
+    # (Breadth / rotation 0-100 colouring handled at the top of _cell_class.)
     # EPS: positive = green, negative = red (raw currency value, not %)
     if col == "eps":
         try:
@@ -140,17 +182,127 @@ def _fmt(val):
 
 _CUR_MKT = "INDIA"   # set per-report by build_html_report; used for TradingView links
 
+# ── yfinance suffix  →  TradingView exchange prefix ──────────────────────────
+# Sorted longest-first so ".TWO" is checked before ".T", ".KL" before ".L", etc.
+_SUFFIX_MAP = {
+    # India
+    ".NS": "NSE",  ".BO": "BSE",
+    # Saudi Arabia
+    ".SR": "TADAWUL",
+    # China
+    ".SS": "SSE",  ".SH": "SSE",          # Shanghai (.SS = yfinance, .SH = other)
+    ".SZ": "SZSE",                          # Shenzhen
+    # Hong Kong
+    ".HK": "HKEX",
+    # Japan
+    ".T":  "TSE",
+    # South Korea
+    ".KS": "KRX",  ".KQ": "KOSDAQ",
+    # Taiwan
+    ".TWO": "TPEX",  ".TW": "TWSE",
+    # Australia
+    ".AX": "ASX",
+    # UK
+    ".L":  "LSE",
+    # Germany
+    ".DE": "XETRA",  ".F": "FWB",
+    # France / Netherlands (Euronext)
+    ".PA": "EURONEXT",  ".AS": "EURONEXT",
+    # Spain
+    ".MC": "BME",
+    # Italy
+    ".MI": "MIL",
+    # Sweden / Nordics
+    ".ST": "OMX",
+    # Switzerland
+    ".SW": "SWX",
+    # Canada
+    ".TO": "TSX",  ".V": "TSXV",
+    # Brazil
+    ".SA": "BMFBOVESPA",
+    # Singapore
+    ".SI": "SGX",
+    # Thailand
+    ".BK": "SET",
+    # Malaysia
+    ".KL": "KLSE",
+    # South Africa
+    ".JO": "JSE",
+    # Poland
+    ".WA": "GPW",
+    # Turkey  (yfinance uses .IS)
+    ".IS": "BIST",
+    # UAE
+    ".DU": "DFM",  ".AD": "ADX",
+    # Indonesia
+    ".JK": "IDX",
+    # Mexico
+    ".MX": "BMV",
+}
+# Pre-sort by length descending once so the loop is always correct.
+_SUFFIX_ITEMS = sorted(_SUFFIX_MAP.items(), key=lambda x: len(x[0]), reverse=True)
+
+# When a symbol has NO file-extension suffix, fall back to the market code.
+_MARKET_EXCHANGE = {
+    "INDIA": "NSE",
+    "USA":   "",            # US: bare symbol; TV resolves it natively
+    "UK":    "LSE",
+    "DE":    "XETRA",
+    "JP":    "TSE",
+    "CN":    "SSE",
+    "HK":    "HKEX",
+    "KR":    "KRX",
+    "TW":    "TWSE",
+    "AU":    "ASX",
+    "CA":    "TSX",
+    "SA":    "TADAWUL",     # market code SA = Saudi Arabia
+    "BR":    "BMFBOVESPA",
+    "SG":    "SGX",
+    "TH":    "SET",
+    "MY":    "KLSE",
+    "ZA":    "JSE",
+    "PL":    "GPW",
+    "TR":    "BIST",
+    "AE":    "DFM",         # UAE default → Dubai Financial Market
+    "ID":    "IDX",
+    "MX":    "BMV",
+    "CH":    "SWX",
+    "FR":    "EURONEXT",
+    "ES":    "BME",
+    "IT":    "MIL",
+    "NL":    "EURONEXT",
+    "SE":    "OMX",
+}
+
+
 def _tv_link(sym, market=None):
     """Wrap a ticker in a TradingView chart hyperlink.
-    India → NSE:/BSE: prefix; US → bare symbol (TradingView resolves it)."""
-    market = market or _CUR_MKT
+
+    Strips yfinance-style country suffixes (e.g. .SR, .SS, .SZ, .HK, .KS, .T …)
+    and builds a correctly prefixed TradingView URL so Saudi, China, HK, Korea,
+    Japan, etc. all resolve instead of showing a broken symbol page.
+    Falls back to the market-code exchange when the symbol carries no suffix.
+    """
+    market = (market or _CUR_MKT).upper()
     s = str(sym).strip()
     if not s or s in ("—", "nan", "None"):
         return _fmt(sym)
-    base, exch, su = s, "", s.upper()
-    if su.endswith(".NS"):   base, exch = s[:-3], "NSE"
-    elif su.endswith(".BO"): base, exch = s[:-3], "BSE"
-    elif market == "INDIA":  exch = "NSE"
+
+    base = s
+    exch = ""
+    su   = s.upper()
+
+    # 1. Try every known suffix (longest first avoids partial matches).
+    for suf, tv_exch in _SUFFIX_ITEMS:
+        if su.endswith(suf.upper()):
+            base = s[: -len(suf)]
+            exch = tv_exch
+            break
+
+    # 2. No suffix found — use market-level default.
+    if exch == "" and base == s:
+        exch = _MARKET_EXCHANGE.get(market, "")
+
     tv  = (exch + "%3A" + base) if exch else base
     url = "https://www.tradingview.com/chart/?symbol=" + tv
     return (f'<a href="{url}" target="_blank" rel="noopener" '
@@ -167,7 +319,7 @@ _LEFT_COLS = {"symbol","company","name","sector","industry","country","region",
               "signal_type","trend","signal_label","etf"}
 
 
-def _build_table(df, table_id, searchable=True, max_rows=2000):
+def _build_table(df, table_id, searchable=True, max_rows=2000, pct_mode=None):
     if df is None or df.empty:
         return '<p class="empty">No data available.</p>'
     df = df.head(max_rows).copy()
@@ -181,7 +333,7 @@ def _build_table(df, table_id, searchable=True, max_rows=2000):
     for _, row in df.iterrows():
         tds = ""
         for c in cols:
-            val = row[c]; cls = _cell_class(c, val)
+            val = row[c]; cls = _cell_class(c, val, pct_mode)
             display = _tv_link(val) if c.lower().strip() == "symbol" else _fmt(val)
             align = "left" if c.lower() in _LEFT_COLS else "center"
             ca = f' class="{cls}"' if cls else ""
@@ -653,6 +805,8 @@ CSS = """
   --sl-watch-bg:#2d1b0d; --sl-watch-fg:#fde68a;
   --sl-neutral-bg:#374151;--sl-neutral-fg:#9ca3af;
   --sl-avoid-bg:#2d0d0d; --sl-avoid-fg:#fca5a5;
+  /* Inline signal-count text colours — bright enough to read on dark/navy. */
+  --ink-green:#34d399;--ink-amber:#fbbf24;--ink-red:#f87171;
 }
 html[data-theme="light"]{
   --bg:#f8fafc;--bg2:#fff;--bg3:#f1f5f9;
@@ -662,6 +816,8 @@ html[data-theme="light"]{
   --sl-watch-bg:#fefce8; --sl-watch-fg:#92400e;
   --sl-avoid-bg:#fef2f2; --sl-avoid-fg:#991b1b;
   --sl-neutral-bg:#f3f4f6;--sl-neutral-fg:#6b7280;
+  /* Darker ink on the light theme so counts stay legible on white. */
+  --ink-green:#15803d;--ink-amber:#b45309;--ink-red:#dc2626;
 }
 /* Navy / Blue Trader theme — overrides structural palette; signal colours
    inherit the dark defaults which read well on a deep-navy background. */
@@ -696,9 +852,6 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
 .disclaimer-footer strong{color:var(--text2);}
 .disclaimer-footer .df-brand{color:var(--accent);font-weight:700;}
 .disclaimer-footer a{color:var(--text2);text-decoration:underline;}
-.regime-BULL{background:#166534;color:#fff;padding:4px 10px;border-radius:20px;font-size:12px;font-weight:600;}
-.regime-CAUTION{background:#92400e;color:#fff;padding:4px 10px;border-radius:20px;font-size:12px;font-weight:600;}
-.regime-BEAR{background:#7f1d1d;color:#fff;padding:4px 10px;border-radius:20px;font-size:12px;font-weight:600;}
 .sl-badge{display:inline-block;padding:3px 9px;border-radius:10px;font-size:11px;font-weight:600;white-space:nowrap;}
 .sl-triple{background:var(--sl-triple-bg);color:var(--sl-triple-fg);}
 .sl-prime{background:var(--sl-prime-bg);color:var(--sl-prime-fg);}
@@ -707,11 +860,11 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
 .sl-watch{background:var(--sl-watch-bg);color:var(--sl-watch-fg);}
 .sl-neutral{background:var(--sl-neutral-bg);color:var(--sl-neutral-fg);}
 .sl-avoid{background:var(--sl-avoid-bg);color:var(--sl-avoid-fg);}
-.sl-triple-inline{color:var(--sl-triple-fg);font-weight:700;}
-.sl-confirmed-inline{color:#16a34a;font-weight:600;}
-.sl-rsbuy-inline{color:#33691e;font-weight:600;}
-.sl-watch-inline{color:var(--amber);}
-.sl-avoid-inline{color:var(--red);}
+.sl-triple-inline{color:var(--ink-green);font-weight:700;}
+.sl-confirmed-inline{color:var(--ink-green);font-weight:600;}
+.sl-rsbuy-inline{color:var(--ink-green);font-weight:600;}
+.sl-watch-inline{color:var(--ink-amber);font-weight:600;}
+.sl-avoid-inline{color:var(--ink-red);font-weight:600;}
 .stats-bar{display:flex;gap:8px;padding:8px 12px;background:var(--bg2);
   border-bottom:1px solid var(--border);overflow-x:auto;scrollbar-width:none;}
 .stats-bar::-webkit-scrollbar{display:none;}
@@ -1426,16 +1579,6 @@ def build_html_report(
     global _CUR_MKT
     _CUR_MKT = market
 
-    # Regime
-    regime = "BULL"
-    if dashboard_df is not None and not dashboard_df.empty:
-        for _, r in dashboard_df.iterrows():
-            k = str(r.get("Key",""))
-            if "MARKET REGIME" in k.upper():
-                if "BEAR" in k.upper(): regime="BEAR"
-                elif "CAUTION" in k.upper(): regime="CAUTION"
-                break
-
     # Signal counts
     sl_col = "Signal_Label" if (stock_str_df is not None and not stock_str_df.empty
                                   and "Signal_Label" in stock_str_df.columns) else None
@@ -1495,7 +1638,7 @@ def build_html_report(
         '<h2 class="sec-title">Market Snapshot</h2>' +
         _build_snap_cards(snapshot_df) +
         '<h2 class="sec-title">Market Breadth</h2>' +
-        _build_table(breadth_df, "tbl-breadth", searchable=False)
+        _build_table(breadth_df, "tbl-breadth", searchable=False, pct_mode="breadth")
     )
 
     sector_content = (
@@ -1504,9 +1647,9 @@ def build_html_report(
         '<h2 class="sec-title">Sector Performance</h2>' +
         _build_table(sector_perf_df, "tbl-secperf", searchable=False) +
         '<h2 class="sec-title">Sector Rotation</h2>' +
-        _build_table(sector_rot_df, "tbl-secrot") +
+        _build_table(sector_rot_df, "tbl-secrot", pct_mode="breadth") +
         '<h2 class="sec-title">Industry Rotation</h2>' +
-        _build_table(industry_rot_df, "tbl-indrot")
+        _build_table(industry_rot_df, "tbl-indrot", pct_mode="breadth")
     )
 
     opp_cards  = _build_opportunity_cards(top_buy_df)
@@ -1521,13 +1664,22 @@ def build_html_report(
 
     stock_content = _build_table(stock_main, "tbl-stocks", max_rows=500)
 
+    # ── Patterns: enforce a hard recency cap (request #8). Keep only setups
+    #    whose Date is within the last PATTERN_RECENT_DAYS days. Rows without a
+    #    parseable date (e.g. the "no patterns" placeholder) are kept.
+    chart_pat_recent = chart_pat_df
+    if (chart_pat_df is not None and not chart_pat_df.empty
+            and "Date" in chart_pat_df.columns):
+        _d = pd.to_datetime(chart_pat_df["Date"], errors="coerce")
+        _cutoff = pd.Timestamp(datetime.now().date()) - timedelta(days=PATTERN_RECENT_DAYS)
+        chart_pat_recent = chart_pat_df[_d.isna() | (_d >= _cutoff)]
+
     patterns_content = (
         '<p style="font-size:12px;color:var(--text2);margin-bottom:12px;">'
-        '🗓 Weekly patterns have higher win rates. '
-        'Daily ≤ 15 days · Weekly ≤ 45 days. '
+        f'🗓 Showing only setups from the last {PATTERN_RECENT_DAYS} days. '
         'Quality-filtered: only setups that pass a trend + momentum + R:R gate are shown '
         '(★ = quality score). Sorted: Weekly → Bullish → Quality → Most recent.</p>' +
-        _build_table(chart_pat_df, "tbl-patterns")
+        _build_table(chart_pat_recent, "tbl-patterns")
     )
 
     global_content = (
