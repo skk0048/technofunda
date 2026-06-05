@@ -1,21 +1,18 @@
 """
 ╔══════════════════════════════════════════════════════════════════════════════╗
-║  HTML REPORT GENERATOR  v6.2  —  market_html.py                           ║
+║  HTML REPORT GENERATOR  v6.3  —  market_html.py                           ║
 ║                                                                            ║
-║  v6.2 additions:                                                           ║
-║   • TradingView hover-preview on every Symbol link                         ║
-║     – Fast: single pre-warmed hidden iframe, src-swap on hover             ║
-║     – On/Off toggle button in the header controls bar                      ║
-║     – Size config: TV_PREVIEW_W / TV_PREVIEW_H JS constants                ║
-║     – Auto-detects theme (dark/light) to match report theme                ║
-║                                                                            ║
-║  v6.1 additions:                                                           ║
-║   • Fix NameError: _sec/_toggle restored inside build_html_report          ║
-║   • Sleeves tab: capital input + ATR-weighted qty + amount calculator      ║
-║   • Sleeves tab: Zerodha basket CSV download (NSE/BSE, CNC, MARKET)        ║
-║   • Sleeves tab: Entry tracking via window.storage (P&L on next run)       ║
-║   • Chart Patterns: own dedicated tab, not buried in Global                ║
-║   • 4 separate sleeve tables (A/B/C/D) with interactive calculator         ║
+║  v6.3 changes:                                                             ║
+║   • Signal vocabulary: Buy→Bullish, Strong Buy→Very Strong, Sell→Bearish  ║
+║     Neutral→Neutral — display-only remap; engine logic unchanged           ║
+║   • Sec_Signal in opportunity cards also remapped                          ║
+║   • Cell BG color removed for Opportunities/Stocks/Global/Patterns/ETF    ║
+║     tabs; Market + Sectors retain full colour                              ║
+║   • Font zoom: range widened 0.6→2.0 (was 0.8→1.6)                       ║
+║   • Stats bar hidden on individual market pages;                           ║
+║     build_html_report returns it so index.html can embed it                ║
+║   • TV hover preview (v6.2): iframe pre-warm, daily chart, 720×500        ║
+║   • On/Off toggle in header; size constants TV_PREVIEW_W/H                ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 """
 
@@ -68,6 +65,46 @@ def _signal_class(val):
     return _SL_CLASS.get(v) or _AT_CLASS.get(v) or ""
 
 
+# ── Signal vocabulary display remap (v6.3) ───────────────────────────────────
+# The engine uses "Buy"/"Strong Buy"/"Sell"/"Neutral" internally.
+# We remap these to plain-English market sentiment words for display only.
+# Signal_Label (emoji labels) are kept unchanged — they are already good.
+_SIG_DISPLAY = {
+    # Signal column
+    "Buy":        "Bullish",
+    "Sell":       "Bearish",
+    "Neutral":    "Neutral",
+    # Enhanced column
+    "Strong Buy": "Very Strong",
+    # Sec_Signal / sector Signal
+    "Strong Buy": "Very Strong",
+}
+_ENH_DISPLAY = {
+    "Strong Buy": "Very Strong",
+    "Buy":        "Strong",
+    "Neutral":    "Neutral",
+    "Sell":       "Weak",
+}
+# Sector-level signal (Build: Buy/Sell/Neutral → Bullish/Bearish/Neutral)
+_SEC_SIG_DISPLAY = {
+    "Buy":     "Bullish",
+    "Sell":    "Bearish",
+    "Neutral": "Neutral",
+}
+# MST / LST / RS30 sub-signals
+_SUB_SIG_DISPLAY = {
+    "Buy":     "Active",
+    "Watch":   "Building",
+    "Neutral": "—",
+    "Sell":    "Exit",
+}
+
+def _remap_signal(val, mapping):
+    """Return remapped display string, falling back to original if not in map."""
+    v = str(val or "")
+    return mapping.get(v, v)
+
+
 # Normalised lookup key: lowercase, strip spaces / underscores / '>' so that
 # headers like "RS_22%", "% > SMA50", "AbvSMA50%", "1M_Score" all collapse to
 # the same canonical token. Fixes breadth/rotation colours not firing (#6/#7).
@@ -111,9 +148,10 @@ def _is_breadth_col(col, pct_mode=None):
     return False
 
 
-def _cell_class(col, val, pct_mode=None):
+def _cell_class(col, val, pct_mode=None, no_bg=False):
     # Breadth / rotation 0-100 colouring takes priority for the columns it owns.
     if _is_breadth_col(col, pct_mode):
+        if no_bg: return ""
         try:
             f = float(val)
             if f >= 60: return "bd-green"
@@ -124,12 +162,25 @@ def _cell_class(col, val, pct_mode=None):
     if col == "signal_label":  return _signal_class(val)
     if col == "action_tier":   return _signal_class(val)
     if col in ("signal","enhanced","sec_signal"):
-        return {"Strong Buy":"sig-strongbuy","Buy":"sig-buy",
-                "Sell":"sig-sell","Neutral":"sig-neutral"}.get(str(val),"")
+        # Map both original and remapped values to CSS classes
+        raw = str(val)
+        # Map display names back to class logic
+        cls_map = {
+            # original engine values
+            "Strong Buy":"sig-strongbuy","Buy":"sig-buy",
+            "Sell":"sig-sell","Neutral":"sig-neutral",
+            # remapped display values
+            "Very Strong":"sig-strongbuy","Bullish":"sig-buy",
+            "Strong":"sig-buy","Bearish":"sig-sell","Weak":"sig-sell",
+        }
+        return cls_map.get(raw, "")
     if col == "action":
         return {"BUY":"sig-buy","SELL":"sig-sell","WAIT":"sig-neutral"}.get(str(val),"")
     if col in ("mst_signal","lst_signal","rs30_signal"):
-        return {"Buy":"sig-buy","Watch":"sig-neutral","Neutral":""}.get(str(val),"")
+        raw = str(val)
+        cls_map = {"Buy":"sig-buy","Active":"sig-buy",
+                   "Watch":"sig-neutral","Building":"sig-neutral","Neutral":""}
+        return cls_map.get(raw, "")
     if col == "supertrend":
         return {"Buy":"pos","Sell":"neg"}.get(str(val),"")
     if col == "trend":
@@ -151,14 +202,14 @@ def _cell_class(col, val, pct_mode=None):
             if f <= 12: return "neg-dim"
             return "neg"
         except: pass
-    # (Breadth / rotation 0-100 colouring handled at the top of _cell_class.)
-    # EPS: positive = green, negative = red (raw currency value, not %)
     if col == "eps":
         try:
             f = float(val)
             if f > 0:  return "pos"
             if f < 0:  return "neg-strong"
         except: pass
+    if no_bg:
+        return ""   # skip background colouring for percent cols in no-bg tabs
     pct_cols = {
         "chg_1d%","chg_5d%","rs_22d%","rs_55d%","rs_120d%","rs_252d%",
         "rs_22d_idx%","rs_55d_idx%","rs_120d_idx%","rs_252d_idx%",
@@ -326,10 +377,24 @@ _LEFT_COLS = {"symbol","company","name","sector","industry","country","region",
               "signal_type","trend","signal_label","etf"}
 
 
-def _build_table(df, table_id, searchable=True, max_rows=2000, pct_mode=None):
+def _build_table(df, table_id, searchable=True, max_rows=2000, pct_mode=None, no_bg=False):
     if df is None or df.empty:
         return '<p class="empty">No data available.</p>'
     df = df.head(max_rows).copy()
+
+    # ── Signal vocabulary remap (v6.3) ─────────────────────────────────────
+    # Remap display values in a copy so engine logic is never touched.
+    for col in df.columns:
+        cl = col.lower().strip()
+        if cl == "signal":
+            df[col] = df[col].map(lambda v: _remap_signal(v, _SEC_SIG_DISPLAY))
+        elif cl == "enhanced":
+            df[col] = df[col].map(lambda v: _remap_signal(v, _ENH_DISPLAY))
+        elif cl == "sec_signal":
+            df[col] = df[col].map(lambda v: _remap_signal(v, _SEC_SIG_DISPLAY))
+        elif cl in ("mst_signal","lst_signal","rs30_signal"):
+            df[col] = df[col].map(lambda v: _remap_signal(v, _SUB_SIG_DISPLAY))
+
     cols = [c for c in df.columns if c.lower().strip() not in _SKIP_COLS]
     ths = "".join(
         f'<th style="text-align:{"left" if c.lower() in _LEFT_COLS else "center"}" '
@@ -340,7 +405,7 @@ def _build_table(df, table_id, searchable=True, max_rows=2000, pct_mode=None):
     for _, row in df.iterrows():
         tds = ""
         for c in cols:
-            val = row[c]; cls = _cell_class(c, val, pct_mode)
+            val = row[c]; cls = _cell_class(c, val, pct_mode, no_bg=no_bg)
             display = _tv_link(val) if c.lower().strip() == "symbol" else _fmt(val)
             align = "left" if c.lower() in _LEFT_COLS else "center"
             ca = f' class="{cls}"' if cls else ""
@@ -475,12 +540,13 @@ def _build_opportunity_cards(df):
         if not sym: continue
         if sec != prev_sec:
             sec_sig=_fmt(row.get("Sec_Signal",""))
+            sec_sig_display = _remap_signal(sec_sig, _SEC_SIG_DISPLAY)
             sec_rs=row.get("Sec_RS22d%",row.get("Sec_RS55d%",""))
             try: rs_s=f"{float(sec_rs):+.1f}%"
             except: rs_s=_fmt(sec_rs)
             sc="sig-buy" if sec_sig=="Buy" else ("sig-sell" if sec_sig=="Sell" else "sig-neutral")
             html += (f'<div class="opp-sec-hdr"><span>{sec}</span>'
-                     f'<span class="{sc}">{sec_sig} {rs_s}</span></div>')
+                     f'<span class="{sc}">{sec_sig_display} {rs_s}</span></div>')
             prev_sec=sec
         sl=_fmt(row.get("Signal_Label",row.get("Action_Tier",""))); sl_c=_signal_class(sl)
         company=_fmt(row.get("Company","")); price=_fmt(row.get("Price",""))
@@ -1081,7 +1147,6 @@ table.data-tbl{border-collapse:collapse;width:100%;font-size:12px;min-width:400p
 }
 
 /* ── TradingView Hover Preview (v6.2) ──────────────────────────────────── */
-/* The preview box — always in DOM, shown/hidden by JS                      */
 #tv-preview-box {
   position: fixed;
   display: none;
@@ -1091,7 +1156,7 @@ table.data-tbl{border-collapse:collapse;width:100%;font-size:12px;min-width:400p
   border-radius: 12px;
   box-shadow: 0 12px 40px rgba(0,0,0,0.45);
   overflow: hidden;
-  pointer-events: none;   /* lets mouse pass through so hover doesn't flicker */
+  pointer-events: none;
 }
 #tv-preview-header {
   height: 30px;
@@ -1111,7 +1176,6 @@ table.data-tbl{border-collapse:collapse;width:100%;font-size:12px;min-width:400p
   border: none;
   display: block;
 }
-/* The toggle button reuses the existing ctrl-group style */
 #tv-preview-toggle {
   padding: 4px 10px;
   border-radius: 6px;
@@ -1134,6 +1198,8 @@ table.data-tbl{border-collapse:collapse;width:100%;font-size:12px;min-width:400p
 
 JS = r"""
 /* ── TAB SWITCHING ─────────────────────────────────────────────────────── */
+// showTab is defined here AND redefined later (after TV code) to add
+// _tvAttachHovers on every tab switch. The second definition wins in JS.
 function showTab(id){
   document.querySelectorAll('.tab-content').forEach(e=>e.classList.remove('active'));
   document.querySelectorAll('.tab-btn').forEach(e=>e.classList.remove('active'));
@@ -1150,7 +1216,7 @@ function setTheme(t){
 }
 function setFont(delta){
   let z=parseFloat(localStorage.getItem('fontZoom')||'1');
-  z=Math.min(1.6,Math.max(0.8,z+delta*0.1));
+  z=Math.min(2.0,Math.max(0.6,z+delta*0.1));
   document.documentElement.style.zoom=z;
   try{localStorage.setItem('fontZoom',String(z));}catch(e){}
 }
@@ -1605,58 +1671,50 @@ async function clearTracking(key){
   if(tmEl)tmEl.textContent='🗑 Cleared';
 }
 
-/* ── TRADINGVIEW HOVER PREVIEW  (v6.2) ─────────────────────────────────────
-   Strategy: one hidden <iframe> is created on page load and kept alive.
-   On hover we just swap its src — no script injection, no DOM thrashing.
-   The iframe stays warm between hovers so subsequent loads are much faster.
+/* ── TRADINGVIEW HOVER PREVIEW  (v6.2/v6.3) ────────────────────────────────
+   One hidden <iframe> created on page load — just swap src on hover.
+   Fast: iframe stays warm, no script injection, no DOM thrashing.
 
    ┌─ SIZE CONFIG ──────────────────────────────────────────────────────────┐
-   │  Change TV_PREVIEW_W and TV_PREVIEW_H to resize the floating window.  │
-   │  TV_PREVIEW_HEADER_H is the title-bar height (usually leave at 30).   │
+   │  TV_PREVIEW_W  — total width of the floating window (px)              │
+   │  TV_PREVIEW_H  — total height including header bar (px)               │
+   │  TV_PREVIEW_HEADER_H — title bar height, usually leave at 30          │
    └────────────────────────────────────────────────────────────────────────┘ */
-const TV_PREVIEW_W        = 420;   // px — preview box total width
-const TV_PREVIEW_H        = 300;   // px — preview box total height (incl. header)
+const TV_PREVIEW_W        = 720;   // px — preview box total width
+const TV_PREVIEW_H        = 500;   // px — preview box total height (incl. header)
 const TV_PREVIEW_HEADER_H = 30;    // px — header bar height
 const TV_PREVIEW_OFFSET_X = 18;    // px — gap right of cursor
 const TV_PREVIEW_OFFSET_Y = 10;    // px — gap below cursor
-const TV_HIDE_DELAY_MS    = 120;   // ms — debounce before hiding (avoids flicker)
+const TV_HIDE_DELAY_MS    = 120;   // ms — debounce before hiding
 
-let _tvEnabled = true;             // toggled by the header button
+let _tvEnabled = true;
 let _tvHideTimer = null;
 let _tvBox = null;
 let _tvIframe = null;
 let _tvHeader = null;
-let _tvLastSym = '';               // avoid redundant src swaps
+let _tvLastSym = '';
 
 function _tvGetTheme(){
-  // Match the report's current theme so the chart looks consistent
   const t = document.documentElement.getAttribute('data-theme') || 'dark';
   return (t === 'light') ? 'light' : 'dark';
 }
 
 function _tvBuildSrc(tvSymbol){
-  // TradingView advanced chart mini embed — loads fast, no JS injection needed
   const theme = _tvGetTheme();
-  const params = new URLSearchParams({
-    symbol:      tvSymbol.replace('%3A', ':'),
-    interval:    'D',
-    range:       '6M',
-    theme:       theme,
-    style:       '1',
-    locale:      'en',
-    hide_top_toolbar: '0',
-    hide_legend:      '1',
-    hide_side_toolbar:'1',
-    allow_symbol_change: '0',
-    save_image:  '0',
-    calendar:    '0',
-    hide_volume: '0',
-  });
-  return 'https://s.tradingview.com/widgetembed/?' + params.toString();
+  // data-tv stores the symbol as "EXCH%3ASYM" (percent-encoded colon).
+  // Decode it to "EXCH:SYM" — widgetembed expects a raw colon, not %3A.
+  // Do NOT re-encode with encodeURIComponent; that would double-encode the
+  // colon back to %253A and TradingView would fail to resolve the symbol.
+  const sym = tvSymbol.replace('%3A', ':');
+  return ('https://www.tradingview.com/widgetembed/?frameElementId=tv_chart'
+    + '&symbol=' + sym
+    + '&interval=D&range=12M'
+    + '&theme=' + theme
+    + '&style=1&locale=en'
+    + '&hide_side_toolbar=1&allow_symbol_change=0&save_image=0');
 }
 
 function _tvInit(){
-  // Build the preview box once and keep it in the DOM forever
   _tvBox = document.createElement('div');
   _tvBox.id = 'tv-preview-box';
   _tvBox.style.width  = TV_PREVIEW_W + 'px';
@@ -1677,31 +1735,25 @@ function _tvInit(){
   _tvBox.appendChild(_tvIframe);
   document.body.appendChild(_tvBox);
 
-  // Warm the iframe immediately with a neutral page so the TradingView
-  // domain connection is established before the first real hover.
-  _tvIframe.src = 'https://s.tradingview.com/widgetembed/?symbol=NSE%3ANIFTY&interval=D&theme=dark&style=1&locale=en&hide_top_toolbar=0&hide_volume=1';
+  // Warm the connection — load a generic symbol so TV domain is already open
+  const warmSym = (document.documentElement.getAttribute('data-market')||'') === 'INDIA'
+    ? 'NSE:NIFTY' : 'NASDAQ:AAPL';
+  _tvIframe.src = _tvBuildSrc(warmSym);
 }
 
 function _tvShow(tvSymbol, displayName, mouseX, mouseY){
   if(!_tvEnabled || !_tvBox) return;
   clearTimeout(_tvHideTimer);
-
-  // Swap src only when symbol actually changes
   if(tvSymbol !== _tvLastSym){
     _tvIframe.src = _tvBuildSrc(tvSymbol);
     _tvLastSym = tvSymbol;
   }
-
-  // Update header label (decode %3A → : for display)
-  _tvHeader.textContent = '📈 ' + displayName + ' — TradingView';
-
-  // Position: keep box fully inside viewport
+  _tvHeader.textContent = '📈 ' + displayName + ' — Daily · 12M';
   const vw = window.innerWidth, vh = window.innerHeight;
   let left = mouseX + TV_PREVIEW_OFFSET_X;
   let top  = mouseY + TV_PREVIEW_OFFSET_Y;
   if(left + TV_PREVIEW_W > vw - 8) left = mouseX - TV_PREVIEW_W - 8;
   if(top  + TV_PREVIEW_H > vh - 8) top  = mouseY - TV_PREVIEW_H - 8;
-
   _tvBox.style.left    = Math.max(4, left) + 'px';
   _tvBox.style.top     = Math.max(4, top)  + 'px';
   _tvBox.style.display = 'block';
@@ -1728,7 +1780,7 @@ function _tvToggle(){
   _tvEnabled = !_tvEnabled;
   const btn = document.getElementById('tv-preview-toggle');
   if(btn){
-    btn.textContent = _tvEnabled ? '📈 Chart Preview ON' : '📈 Chart Preview OFF';
+    btn.textContent = _tvEnabled ? '📈 Chart ON' : '📈 Chart OFF';
     btn.className   = _tvEnabled ? 'tv-on' : 'tv-off';
   }
   if(!_tvEnabled && _tvBox) _tvBox.style.display = 'none';
@@ -1736,12 +1788,9 @@ function _tvToggle(){
 }
 
 function _tvAttachHovers(){
-  // Attach to every .tv-link that has a data-tv attribute
   document.querySelectorAll('a.tv-link[data-tv]').forEach(el => {
-    // Avoid double-binding if tabs re-use the same DOM
     if(el.dataset.tvBound) return;
     el.dataset.tvBound = '1';
-
     el.addEventListener('mouseenter', e => {
       clearTimeout(_tvHideTimer);
       _tvShow(el.dataset.tv, el.textContent.trim(), e.clientX, e.clientY);
@@ -1751,7 +1800,17 @@ function _tvAttachHovers(){
   });
 }
 
-// Initialise on DOM ready
+// Redefine showTab to also re-attach hovers after tab switch
+function showTab(id){
+  document.querySelectorAll('.tab-content').forEach(e=>e.classList.remove('active'));
+  document.querySelectorAll('.tab-btn').forEach(e=>e.classList.remove('active'));
+  document.getElementById('tab-'+id).classList.add('active');
+  document.querySelector('[data-tab="'+id+'"]').classList.add('active');
+  localStorage.setItem('activeTab',id);
+  setTimeout(_tvAttachHovers, 50);
+}
+
+// Single DOMContentLoaded — handles theme, sleeves, TV init
 document.addEventListener('DOMContentLoaded', ()=>{
   _initThemeFont();
   const saved = localStorage.getItem('activeTab') || 'market';
@@ -1761,33 +1820,18 @@ document.addEventListener('DOMContentLoaded', ()=>{
     calcSleeve(key);
     loadTracking(key);
   });
-
-  // TV preview init
+  // TV preview
   _tvInit();
-  // Restore user preference
   const tvPref = localStorage.getItem('tvPreviewOn');
   if(tvPref === '0'){ _tvEnabled = false; }
   const btn = document.getElementById('tv-preview-toggle');
   if(btn){
-    btn.textContent = _tvEnabled ? '📈 Chart Preview ON' : '📈 Chart Preview OFF';
+    btn.textContent = _tvEnabled ? '📈 Chart ON' : '📈 Chart OFF';
     btn.className   = _tvEnabled ? 'tv-on' : 'tv-off';
   }
   _tvAttachHovers();
 });
 
-// Re-attach after tab switch (content is already in DOM, just need to bind)
-// showTab is redefined here to add _tvAttachHovers call after switching tabs.
-function showTab(id){
-  document.querySelectorAll('.tab-content').forEach(e=>e.classList.remove('active'));
-  document.querySelectorAll('.tab-btn').forEach(e=>e.classList.remove('active'));
-  document.getElementById('tab-'+id).classList.add('active');
-  document.querySelector('[data-tab="'+id+'"]').classList.add('active');
-  localStorage.setItem('activeTab',id);
-  // Re-bind any newly visible tv-link elements
-  setTimeout(_tvAttachHovers, 50);
-}
-
-// Hide on scroll/resize
 window.addEventListener('scroll', _tvHide, {passive:true});
 window.addEventListener('resize', _tvHide, {passive:true});
 """
@@ -1803,6 +1847,7 @@ def build_html_report(
     chart_pat_df, trade_df, dashboard_df, sleeve_df,
     country_etf_df, commodity_df,
     output_path, run_time="", primary_rs=55,
+    show_stats_bar=False,   # v6.3: False for individual market pages; True for index
 ):
     run_time = run_time or datetime.now().strftime("%d %b %Y  %H:%M")
     global _CUR_MKT
@@ -1882,8 +1927,8 @@ def build_html_report(
     )
 
     opp_cards  = _build_opportunity_cards(top_buy_df)
-    opp_table  = _build_table(top_buy_df, "tbl-opp-table")
-    sell_table = _build_table(top_sell_df, "tbl-sell")
+    opp_table  = _build_table(top_buy_df,  "tbl-opp-table", no_bg=True)
+    sell_table = _build_table(top_sell_df, "tbl-sell",      no_bg=True)
     opp_content = (
         _toggle("vt-opp", "table") +
         f'<div id="vt-opp-cards" style="display:none">{opp_cards}</div>' +
@@ -1891,7 +1936,7 @@ def build_html_report(
         '<h2 class="sec-title">🔴 Sell Alerts</h2>' + sell_table
     )
 
-    stock_content = _build_table(stock_main, "tbl-stocks", max_rows=500)
+    stock_content = _build_table(stock_main, "tbl-stocks", max_rows=500, no_bg=True)
 
     # ── Patterns: enforce a hard recency cap (request #8). Keep only setups
     #    whose Date is within the last PATTERN_RECENT_DAYS days. Rows without a
@@ -1908,14 +1953,14 @@ def build_html_report(
         f'🗓 Showing only setups from the last {PATTERN_RECENT_DAYS} days. '
         'Quality-filtered: only setups that pass a trend + momentum + R:R gate are shown '
         '(★ = quality score). Sorted: Weekly → Bullish → Quality → Most recent.</p>' +
-        _build_table(chart_pat_recent, "tbl-patterns")
+        _build_table(chart_pat_recent, "tbl-patterns", no_bg=True)
     )
 
     global_content = (
         '<h2 class="sec-title">🌍 Country ETFs (RS vs SPY)</h2>' +
-        _build_table(country_etf_df, "tbl-etfs") +
+        _build_table(country_etf_df, "tbl-etfs", no_bg=True) +
         '<h2 class="sec-title">🏅 Commodities (RS vs GLD)</h2>' +
-        _build_table(commodity_df, "tbl-commod")
+        _build_table(commodity_df, "tbl-commod", no_bg=True)
     )
 
     sleeves_content = _build_sleeve_tables(sleeve_df, market)
@@ -1934,7 +1979,8 @@ def build_html_report(
         _sec("dashboard",     "📋 Run Summary & Methodology",  dash_content)
     )
 
-    stats_bar = (
+    # ── Stats bar — built always (returned for index.html), shown conditionally ─
+    stats_bar_html = (
         f'<div class="stats-bar">'
         f'<span class="sl-badge sl-triple">🌟 Prime {prime}</span>'
         f'<span class="sl-badge sl-confirmed">✅ Conf {conf}</span>'
@@ -1942,6 +1988,9 @@ def build_html_report(
         f'<span class="sl-badge sl-avoid">🔴 Avoid {avoid}</span>'
         f'</div>'
     )
+    # Individual market pages: hide the stats bar (clutters the header).
+    # Pass show_stats_bar=True when building an index/overview page.
+    stats_bar_embed = stats_bar_html if show_stats_bar else ""
 
     # ── Country navigation: home link + dropdown to switch markets ──────────
     # Maps internal market code → (display name, flag, html filename)
@@ -2046,7 +2095,7 @@ def build_html_report(
   <div class="hdr-controls">
     <button id="tv-preview-toggle" class="tv-on" onclick="_tvToggle()"
             title="Toggle TradingView chart preview on symbol hover">
-      📈 Chart Preview ON
+      📈 Chart ON
     </button>
     <div class="ctrl-group">
       <label>Text</label>
@@ -2063,7 +2112,7 @@ def build_html_report(
     </div>
   </div>
 </header>
-{stats_bar}
+{stats_bar_embed}
 <nav class="tab-bar">{tab_btns}</nav>
 <main>{sections_html}</main>
 {disclaimer_html}
@@ -2075,4 +2124,5 @@ def build_html_report(
         f.write(html)
     size_kb = os.path.getsize(output_path) // 1024
     print(f"  💾 HTML saved: {output_path}  ({size_kb} KB)")
-    return output_path
+    # Return stats_bar_html so the index builder can embed it per-market
+    return output_path, stats_bar_html
