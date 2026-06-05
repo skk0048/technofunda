@@ -124,7 +124,10 @@ def load_fr_universe():
         df = df[df["Series"].astype(str).str.strip().str.upper().isin(["EQ", ""])]
     df = df.head(MAX_STOCKS).copy()
     df["Symbol"]   = df["Symbol"].astype(str).str.strip()
-    df["Yahoo"]    = df["Symbol"] + ".PA"
+    # df["Yahoo"]    = df["Symbol"] + ".PA"
+    # ✅ REPLACE with these two lines:
+    from ticker_fixer import ensure_yahoo_suffix
+    df["Yahoo"] = df["Symbol"].apply(lambda s: ensure_yahoo_suffix(s, "FR"))
     df["Company"]  = df.get("Company Name", df["Symbol"])
     df["Industry"] = df.get("Industry", "").astype(str).fillna("").str.strip()
     df["Sector"]   = df["Industry"].map(FR_INDUSTRY_TO_SECTOR).fillna("Other")
