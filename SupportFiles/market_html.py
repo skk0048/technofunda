@@ -1,6 +1,13 @@
 """
 ╔══════════════════════════════════════════════════════════════════════════════╗
-║  HTML REPORT GENERATOR  v6.1  —  market_html.py                           ║
+║  HTML REPORT GENERATOR  v6.2  —  market_html.py                           ║
+║                                                                            ║
+║  v6.2 additions:                                                           ║
+║   • TradingView hover-preview on every Symbol link                         ║
+║     – Fast: single pre-warmed hidden iframe, src-swap on hover             ║
+║     – On/Off toggle button in the header controls bar                      ║
+║     – Size config: TV_PREVIEW_W / TV_PREVIEW_H JS constants                ║
+║     – Auto-detects theme (dark/light) to match report theme                ║
 ║                                                                            ║
 ║  v6.1 additions:                                                           ║
 ║   • Fix NameError: _sec/_toggle restored inside build_html_report          ║
@@ -306,7 +313,7 @@ def _tv_link(sym, market=None):
     tv  = (exch + "%3A" + base) if exch else base
     url = "https://www.tradingview.com/chart/?symbol=" + tv
     return (f'<a href="{url}" target="_blank" rel="noopener" '
-            f'class="tv-link" title="Open {base} in TradingView">{base}</a>')
+            f'class="tv-link" data-tv="{tv}" title="Open {base} in TradingView">{base}</a>')
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -1072,6 +1079,53 @@ table.data-tbl{border-collapse:collapse;width:100%;font-size:12px;min-width:400p
   .ctrl-group label{display:none;}
   table.data-tbl{font-size:11px;}
 }
+
+/* ── TradingView Hover Preview (v6.2) ──────────────────────────────────── */
+/* The preview box — always in DOM, shown/hidden by JS                      */
+#tv-preview-box {
+  position: fixed;
+  display: none;
+  z-index: 9999;
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.45);
+  overflow: hidden;
+  pointer-events: none;   /* lets mouse pass through so hover doesn't flicker */
+}
+#tv-preview-header {
+  height: 30px;
+  line-height: 30px;
+  padding: 0 12px;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--accent);
+  background: var(--bg3);
+  border-bottom: 1px solid var(--border);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#tv-preview-iframe {
+  width: 100%;
+  border: none;
+  display: block;
+}
+/* The toggle button reuses the existing ctrl-group style */
+#tv-preview-toggle {
+  padding: 4px 10px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: var(--bg3);
+  color: var(--text2);
+  font-size: 11px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all .15s;
+  white-space: nowrap;
+}
+#tv-preview-toggle.tv-on  { background: var(--accent); color: #fff; border-color: var(--accent); }
+#tv-preview-toggle.tv-off { background: var(--bg3);    color: var(--text3); }
 """
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -1087,17 +1141,6 @@ function showTab(id){
   document.querySelector('[data-tab="'+id+'"]').classList.add('active');
   localStorage.setItem('activeTab',id);
 }
-document.addEventListener('DOMContentLoaded',()=>{
-  _initThemeFont();
-  const saved=localStorage.getItem('activeTab')||'market';
-  showTab(saved);
-  // Auto-calc all sleeves and load any stored tracking
-  document.querySelectorAll('[id^="sleeve-"]').forEach(tbl=>{
-    const key=tbl.id.replace('sleeve-','');
-    calcSleeve(key);
-    loadTracking(key);
-  });
-});
 
 /* ── THEME + FONT SCALING (#8) ─────────────────────────────────────────── */
 function setTheme(t){
@@ -1561,6 +1604,192 @@ async function clearTracking(key){
   if(edEl)edEl.textContent='';
   if(tmEl)tmEl.textContent='🗑 Cleared';
 }
+
+/* ── TRADINGVIEW HOVER PREVIEW  (v6.2) ─────────────────────────────────────
+   Strategy: one hidden <iframe> is created on page load and kept alive.
+   On hover we just swap its src — no script injection, no DOM thrashing.
+   The iframe stays warm between hovers so subsequent loads are much faster.
+
+   ┌─ SIZE CONFIG ──────────────────────────────────────────────────────────┐
+   │  Change TV_PREVIEW_W and TV_PREVIEW_H to resize the floating window.  │
+   │  TV_PREVIEW_HEADER_H is the title-bar height (usually leave at 30).   │
+   └────────────────────────────────────────────────────────────────────────┘ */
+const TV_PREVIEW_W        = 420;   // px — preview box total width
+const TV_PREVIEW_H        = 300;   // px — preview box total height (incl. header)
+const TV_PREVIEW_HEADER_H = 30;    // px — header bar height
+const TV_PREVIEW_OFFSET_X = 18;    // px — gap right of cursor
+const TV_PREVIEW_OFFSET_Y = 10;    // px — gap below cursor
+const TV_HIDE_DELAY_MS    = 120;   // ms — debounce before hiding (avoids flicker)
+
+let _tvEnabled = true;             // toggled by the header button
+let _tvHideTimer = null;
+let _tvBox = null;
+let _tvIframe = null;
+let _tvHeader = null;
+let _tvLastSym = '';               // avoid redundant src swaps
+
+function _tvGetTheme(){
+  // Match the report's current theme so the chart looks consistent
+  const t = document.documentElement.getAttribute('data-theme') || 'dark';
+  return (t === 'light') ? 'light' : 'dark';
+}
+
+function _tvBuildSrc(tvSymbol){
+  // TradingView advanced chart mini embed — loads fast, no JS injection needed
+  const theme = _tvGetTheme();
+  const params = new URLSearchParams({
+    symbol:      tvSymbol.replace('%3A', ':'),
+    interval:    'D',
+    range:       '6M',
+    theme:       theme,
+    style:       '1',
+    locale:      'en',
+    hide_top_toolbar: '0',
+    hide_legend:      '1',
+    hide_side_toolbar:'1',
+    allow_symbol_change: '0',
+    save_image:  '0',
+    calendar:    '0',
+    hide_volume: '1',
+  });
+  return 'https://s.tradingview.com/widgetembed/?' + params.toString();
+}
+
+function _tvInit(){
+  // Build the preview box once and keep it in the DOM forever
+  _tvBox = document.createElement('div');
+  _tvBox.id = 'tv-preview-box';
+  _tvBox.style.width  = TV_PREVIEW_W + 'px';
+  _tvBox.style.height = TV_PREVIEW_H + 'px';
+
+  _tvHeader = document.createElement('div');
+  _tvHeader.id = 'tv-preview-header';
+  _tvHeader.textContent = 'TradingView';
+
+  _tvIframe = document.createElement('iframe');
+  _tvIframe.id = 'tv-preview-iframe';
+  _tvIframe.height = (TV_PREVIEW_H - TV_PREVIEW_HEADER_H) + 'px';
+  _tvIframe.setAttribute('loading', 'lazy');
+  _tvIframe.setAttribute('sandbox',
+    'allow-scripts allow-same-origin allow-popups allow-forms');
+
+  _tvBox.appendChild(_tvHeader);
+  _tvBox.appendChild(_tvIframe);
+  document.body.appendChild(_tvBox);
+
+  // Warm the iframe immediately with a neutral page so the TradingView
+  // domain connection is established before the first real hover.
+  _tvIframe.src = 'https://s.tradingview.com/widgetembed/?symbol=NSE%3ANIFTY&interval=D&theme=dark&style=1&locale=en&hide_top_toolbar=0&hide_volume=1';
+}
+
+function _tvShow(tvSymbol, displayName, mouseX, mouseY){
+  if(!_tvEnabled || !_tvBox) return;
+  clearTimeout(_tvHideTimer);
+
+  // Swap src only when symbol actually changes
+  if(tvSymbol !== _tvLastSym){
+    _tvIframe.src = _tvBuildSrc(tvSymbol);
+    _tvLastSym = tvSymbol;
+  }
+
+  // Update header label (decode %3A → : for display)
+  _tvHeader.textContent = '📈 ' + displayName + ' — TradingView';
+
+  // Position: keep box fully inside viewport
+  const vw = window.innerWidth, vh = window.innerHeight;
+  let left = mouseX + TV_PREVIEW_OFFSET_X;
+  let top  = mouseY + TV_PREVIEW_OFFSET_Y;
+  if(left + TV_PREVIEW_W > vw - 8) left = mouseX - TV_PREVIEW_W - 8;
+  if(top  + TV_PREVIEW_H > vh - 8) top  = mouseY - TV_PREVIEW_H - 8;
+
+  _tvBox.style.left    = Math.max(4, left) + 'px';
+  _tvBox.style.top     = Math.max(4, top)  + 'px';
+  _tvBox.style.display = 'block';
+}
+
+function _tvHide(){
+  _tvHideTimer = setTimeout(()=>{
+    if(_tvBox) _tvBox.style.display = 'none';
+  }, TV_HIDE_DELAY_MS);
+}
+
+function _tvMove(mouseX, mouseY){
+  if(!_tvBox || _tvBox.style.display === 'none') return;
+  const vw = window.innerWidth, vh = window.innerHeight;
+  let left = mouseX + TV_PREVIEW_OFFSET_X;
+  let top  = mouseY + TV_PREVIEW_OFFSET_Y;
+  if(left + TV_PREVIEW_W > vw - 8) left = mouseX - TV_PREVIEW_W - 8;
+  if(top  + TV_PREVIEW_H > vh - 8) top  = mouseY - TV_PREVIEW_H - 8;
+  _tvBox.style.left = Math.max(4, left) + 'px';
+  _tvBox.style.top  = Math.max(4, top)  + 'px';
+}
+
+function _tvToggle(){
+  _tvEnabled = !_tvEnabled;
+  const btn = document.getElementById('tv-preview-toggle');
+  if(btn){
+    btn.textContent = _tvEnabled ? '📈 Chart Preview ON' : '📈 Chart Preview OFF';
+    btn.className   = _tvEnabled ? 'tv-on' : 'tv-off';
+  }
+  if(!_tvEnabled && _tvBox) _tvBox.style.display = 'none';
+  try{ localStorage.setItem('tvPreviewOn', _tvEnabled ? '1' : '0'); }catch(e){}
+}
+
+function _tvAttachHovers(){
+  // Attach to every .tv-link that has a data-tv attribute
+  document.querySelectorAll('a.tv-link[data-tv]').forEach(el => {
+    // Avoid double-binding if tabs re-use the same DOM
+    if(el.dataset.tvBound) return;
+    el.dataset.tvBound = '1';
+
+    el.addEventListener('mouseenter', e => {
+      clearTimeout(_tvHideTimer);
+      _tvShow(el.dataset.tv, el.textContent.trim(), e.clientX, e.clientY);
+    });
+    el.addEventListener('mousemove', e => _tvMove(e.clientX, e.clientY));
+    el.addEventListener('mouseleave', _tvHide);
+  });
+}
+
+// Initialise on DOM ready
+document.addEventListener('DOMContentLoaded', ()=>{
+  _initThemeFont();
+  const saved = localStorage.getItem('activeTab') || 'market';
+  showTab(saved);
+  document.querySelectorAll('[id^="sleeve-"]').forEach(tbl=>{
+    const key = tbl.id.replace('sleeve-','');
+    calcSleeve(key);
+    loadTracking(key);
+  });
+
+  // TV preview init
+  _tvInit();
+  // Restore user preference
+  const tvPref = localStorage.getItem('tvPreviewOn');
+  if(tvPref === '0'){ _tvEnabled = false; }
+  const btn = document.getElementById('tv-preview-toggle');
+  if(btn){
+    btn.textContent = _tvEnabled ? '📈 Chart Preview ON' : '📈 Chart Preview OFF';
+    btn.className   = _tvEnabled ? 'tv-on' : 'tv-off';
+  }
+  _tvAttachHovers();
+});
+
+// Re-attach after tab switch (content is already in DOM, just need to bind)
+// showTab is redefined here to add _tvAttachHovers call after switching tabs.
+function showTab(id){
+  document.querySelectorAll('.tab-content').forEach(e=>e.classList.remove('active'));
+  document.querySelectorAll('.tab-btn').forEach(e=>e.classList.remove('active'));
+  document.getElementById('tab-'+id).classList.add('active');
+  document.querySelector('[data-tab="'+id+'"]').classList.add('active');
+  localStorage.setItem('activeTab',id);
+  // Re-bind any newly visible tv-link elements
+  setTimeout(_tvAttachHovers, 50);
+}
+
+// Hide on scroll/resize
+window.addEventListener('scroll', _tvHide, {passive:true});
+window.addEventListener('resize', _tvHide, {passive:true});
 """
 
 
@@ -1815,6 +2044,10 @@ def build_html_report(
     {country_nav}
   </div>
   <div class="hdr-controls">
+    <button id="tv-preview-toggle" class="tv-on" onclick="_tvToggle()"
+            title="Toggle TradingView chart preview on symbol hover">
+      📈 Chart Preview ON
+    </button>
     <div class="ctrl-group">
       <label>Text</label>
       <button class="fs-btn" onclick="setFont(-1)" title="Smaller text">&minus;</button>
