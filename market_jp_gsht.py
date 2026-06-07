@@ -24,15 +24,15 @@ if os.path.exists(os.path.join(SCRIPT_DIR, "IndexData")):
 else:
     INDEX_DATA_DIR = os.path.join(SCRIPT_DIR, "SupportFiles", "IndexData")
 
-STOCK_CSV = os.path.join(INDEX_DATA_DIR, "jp_tselist.csv")
+STOCK_CSV = os.path.join(INDEX_DATA_DIR, "jp_jpx400list.csv")
 
-MAX_STOCKS        = 200
-PERIOD_DAYS       = 420
+MAX_STOCKS        = 1200
+PERIOD_DAYS       = 1420
 ENABLE_PATTERNS   = True
 PATTERN_MAX       = 150
 FETCH_FINANCIALS  = True
 ENABLE_SIGNALS    = True
-SIGNAL_MAX_STOCKS = 150
+SIGNAL_MAX_STOCKS = 1150
 PRIMARY_RS_PERIOD = 22
 
 
@@ -143,7 +143,9 @@ def load_jp_universe():
         df = df[df["Series"].astype(str).str.strip().str.upper().isin(["EQ",""])]
     df = df.head(MAX_STOCKS).copy()
     df["Symbol"]   = df["Symbol"].astype(str).str.strip()
-    df["Yahoo"]    = df["Symbol"] + ".T"     # Yahoo Finance ticker suffix
+    #df["Yahoo"]    = df["Symbol"] + ".T"     # Yahoo Finance ticker suffix
+    from ticker_fixer import ensure_yahoo_suffix
+    df["Yahoo"] = df["Symbol"].apply(lambda s: ensure_yahoo_suffix(s, "JP"))
     df["Company"]  = df.get("Company Name", df["Symbol"])
     df["Industry"] = df.get("Industry", "").astype(str).fillna("").str.strip()
     df["Sector"]   = df["Industry"].map(JP_INDUSTRY_TO_SECTOR).fillna("Other")
