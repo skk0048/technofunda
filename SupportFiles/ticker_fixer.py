@@ -12,18 +12,29 @@ Usage in any market scanner:
     # etc.
 
 Market Config:
-    UK = .L suffix
-    CA = .TO suffix  
-    AU = .AX suffix
-    FR = .PA suffix
-    IT = .MI suffix
-    DE = .DE suffix
-    SG = .SI suffix
-    HK = .HK suffix
-    TH = .BK suffix
-    NL = .AS suffix
-    PL = .WA suffix
+    UK  = .L  suffix
+    CA  = .TO suffix
+    AU  = .AX suffix
+    JP  = .T  suffix
+    FR  = .PA suffix
+    IT  = .MI suffix
+    DE  = .DE suffix
+    SG  = .SI suffix
+    HK  = .HK suffix
+    TH  = .BK suffix
+    NL  = .AS suffix
+    PL  = .WA suffix
+    SE  = .ST suffix
+    TR  = .IS suffix
+    MX  = .MX suffix
+    BR  = .SA suffix
+    ZA  = .JO suffix
+    KR  = .KS suffix
+    TW  = .TW suffix
+    MY  = .KL suffix
+    ID  = .JK suffix
     USA = NO suffix (pass "USA")
+    IND = .NS suffix
 """
 
 import re
@@ -32,6 +43,7 @@ MARKET_SUFFIXES = {
     "UK":   ".L",
     "CA":   ".TO",
     "AU":   ".AX",
+    "JP":   ".T",    # Tokyo Stock Exchange
     "FR":   ".PA",
     "IT":   ".MI",
     "DE":   ".DE",
@@ -40,8 +52,17 @@ MARKET_SUFFIXES = {
     "TH":   ".BK",
     "NL":   ".AS",
     "PL":   ".WA",
-    "USA":  None,  # No suffix for USA
-    "IND":  ".NS",
+    "SE":   ".ST",   # Stockholm OMX
+    "TR":   ".IS",   # Istanbul BIST
+    "MX":   ".MX",   # Mexico BMV
+    "BR":   ".SA",   # Brazil B3
+    "ZA":   ".JO",   # Johannesburg JSE
+    "KR":   ".KS",   # Korea KRX
+    "TW":   ".TW",   # Taiwan TWSE
+    "MY":   ".KL",   # Malaysia Bursa
+    "ID":   ".JK",   # Indonesia IDX
+    "USA":  None,    # No suffix for USA
+    "IND":  ".NS",   # India NSE
 }
 
 def ensure_yahoo_suffix(symbol, market):

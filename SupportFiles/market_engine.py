@@ -1061,6 +1061,16 @@ def build_stock_strength(universe, price_data, index_prices, sector_prices,
         cp=("🟢 "+bp[0]) if bp else (("🔴 "+bep[0]) if bep else "")
         fin=fin_data.get(sym,{})
 
+        # ── Relative Volume (today vs 20-day avg) ───────────────────────────
+        rel_vol = np.nan
+        _ov_pre = ohlcv_dict.get(sym) if ohlcv_dict else None
+        if _ov_pre is not None and "Volume" in _ov_pre.columns:
+            _vol = _ov_pre["Volume"].dropna()
+            if len(_vol) >= 21:
+                _avg20 = _vol.iloc[-21:-1].mean()
+                if _avg20 > 0:
+                    rel_vol = round(float(_vol.iloc[-1]) / _avg20, 2)
+
         # ── v5.2: OHLCV-BASED SIGNALS ───────────────────────────────────────
         ohlcv_df = ohlcv_dict.get(sym) if ohlcv_dict else None
         high_s = ohlcv_df["High"]  if ohlcv_df is not None and "High"  in ohlcv_df.columns else None
@@ -1140,7 +1150,7 @@ def build_stock_strength(universe, price_data, index_prices, sector_prices,
             "Sec_Gated":     sec_gated,
             # ── Legacy signals (kept for Signal Detail sheet) ───────────────
             "Signal":sig,"Enhanced":enh,
-            "RSI_14":tech["RSI_14"],"Trend":tech["Trend"],"SMA_Score":tech["SMA_Score"],
+            "RSI_14":tech["RSI_14"],"Trend":tech["Trend"],"SMA_Score":tech["SMA_Score"],"Rel_Vol":rel_vol,
             "Abv_SMA20":tech["Abv_SMA20"],"Abv_SMA50":tech["Abv_SMA50"],
             "Abv_SMA100":tech["Abv_SMA100"],"Abv_SMA200":tech["Abv_SMA200"],
             "EMA200_D":round(ema200_d,2) if ema200_d==ema200_d else np.nan,
@@ -3045,18 +3055,17 @@ def save_fin_cache(cache: dict):
         print(f"  ⚠ Financial cache write failed: {e}")
 
 
+
 def _fin_is_fresh(entry: dict) -> bool:
     """Return True if the cached financial entry is not expired."""
     try:
-        ts  = pd.Timestamp(entry.get("_ts", "2000-01-01"))
-        age = (pd.Timestamp.today() - ts).days
-        return age <= FIN_CACHE_DAYS
+        import time
+        ts = entry.get("_ts", 0)
+        return (time.time() - ts) < 86400 * 7   # 7-day TTL
     except Exception:
         return False
 
 
-
-# Alias — fetch_financials_with_cache delegates to the existing cached batch fetcher
-def fetch_financials_with_cache(symbols, market="INDIA", force_refresh=False):
+def fetch_financials_with_cache(symbols, force_refresh=False):
     """Wrapper around get_financials_batch (which already caches to JSON)."""
-    return get_financials_batch(symbols, force=force_refresh)
+    return get_financials_batch(symbols, force_refresh=force_refresh)

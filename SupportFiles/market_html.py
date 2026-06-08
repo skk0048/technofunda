@@ -146,6 +146,9 @@ _COL_TIPS = {
     "sl_buy%":       "Suggested entry level expressed as % above the last close, based on the strategy signal price.",
     "sl_buy_price":  "Absolute suggested entry price based on the strategy signal.",
     "sl_grade":      "Fundamental quality grade (A to F). A = strong fundamentals. F = weak or missing data.",
+    "from_52w_high%":"% below the 52-week high. 0% = at all-time high. -5% = 5% below 52W high. Closer to 0 = stronger momentum.",
+    "rel_vol":       "Relative Volume — today\'s volume as a multiple of the 20-day average. >1.5 = above-average interest. >2 = high volume.",
+    "p/e":           "Price-to-Earnings ratio. Lower = cheaper relative to earnings. Context-dependent by sector.",
     "sales_yoy%":    "Revenue (Sales) growth year-over-year % — latest annual report vs prior year.",
     "pat_yoy%":      "Profit After Tax growth year-over-year % — measures earnings growth.",
     "sales_qoq%":    "Revenue growth quarter-over-quarter % — most recent quarter vs prior quarter.",
@@ -326,7 +329,27 @@ def _cell_class(col, val, pct_mode=None, no_bg=False):
             if f < 0:  return "neg-strong"
         except: pass
 
-    # ── Percent columns — text-only colour (no background) on all tabs ───────
+    # ── Percent columns — suppressed entirely in no-bg tabs ───────────────────
+    if no_bg:
+        return ""
+    if col == "from_52w_high%":
+        try:
+            f = float(val)
+            if f >= -3:   return "pos-strong"
+            if f >= -8:   return "pos"
+            if f >= -15:  return "pos-dim"
+            if f >= -25:  return "neg-dim"
+            if f >= -40:  return "neg"
+            return "neg-strong"
+        except: pass
+    if col == "rel_vol":
+        try:
+            f = float(val)
+            if f >= 3:   return "pos-strong"
+            if f >= 1.5: return "pos"
+            if f >= 1.0: return "pos-dim"
+            return "neg-dim"
+        except: pass
     pct_cols = {
         "chg_1d%", "chg_5d%", "rs_22d%", "rs_55d%", "rs_120d%", "rs_252d%",
         "rs_22d_idx%", "rs_55d_idx%", "rs_120d_idx%", "rs_252d_idx%",
@@ -337,13 +360,10 @@ def _cell_class(col, val, pct_mode=None, no_bg=False):
     if col in pct_cols or col.endswith("%"):
         try:
             f = float(val)
-            # 6-level gradient: strong / mid / dim for both positive and negative
-            if f > 10:  return "pos-strong"   # > +10 %  — dark green, bold
-            if f > 2:   return "pos"           # +2 – +10 % — medium green
-            if f > 0:   return "pos-dim"       # 0 – +2 %  — light green
-            if f < -10: return "neg-strong"    # < −10 %  — dark red, bold
-            if f < -2:  return "neg"           # −2 – −10 % — medium red
-            if f < 0:   return "neg-dim"       # 0 – −2 %  — light red
+            if f > 5:  return "pos-strong"
+            if f > 0:  return "pos"
+            if f < -5: return "neg-strong"
+            if f < 0:  return "neg"
         except: pass
     return ""
 
@@ -526,10 +546,7 @@ def _build_table(df, table_id, searchable=True, max_rows=2000, pct_mode=None, no
         tds = ""
         for c in cols:
             val = row[c]; cls = _cell_class(c, val, pct_mode, no_bg=no_bg)
-            cl = c.lower().strip()
-            if cl == "symbol":      display = _tv_link(val)
-            elif cl == "etf":       display = _tv_link(val, market="USA")  # Global tab ETFs are US-listed
-            else:                   display = _fmt(val)
+            display = _tv_link(val) if c.lower().strip() == "symbol" else _fmt(val)
             align = "left" if c.lower() in _LEFT_COLS else "center"
             ca = f' class="{cls}"' if cls else ""
             tds += f'<td{ca} style="text-align:{align}">{display}</td>'
@@ -1211,6 +1228,20 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
 .tbl-search input{width:100%;padding:8px 12px;border-radius:8px;
   border:1px solid var(--border);background:var(--bg2);color:var(--text);font-size:14px;outline:none;}
 .tbl-search input:focus{border-color:var(--accent);}
+.stock-toolbar{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin-bottom:10px;}
+.stock-toolbar-left{display:flex;gap:8px;flex-wrap:wrap;}
+.stock-toolbar-right{display:flex;gap:6px;flex-wrap:wrap;}
+.sector-sel{background:var(--bg3);border:1px solid var(--border);color:var(--text);font-size:12px;font-weight:500;padding:5px 8px;border-radius:8px;cursor:pointer;outline:none;}
+.sector-sel:focus{border-color:var(--accent);}
+.scr-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px;margin-bottom:14px;}
+.scr-card{background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius);padding:14px 16px;cursor:pointer;transition:border-color .2s,transform .1s;}
+.scr-card:hover{border-color:var(--accent);transform:translateY(-1px);}
+.scr-card.active{border-color:var(--accent);background:rgba(91,141,239,.08);}
+.scr-icon{font-size:22px;margin-bottom:6px;}
+.scr-name{font-size:14px;font-weight:700;margin-bottom:4px;}
+.scr-desc{font-size:11px;color:var(--text2);line-height:1.5;}
+.scr-status{display:flex;align-items:center;gap:6px;font-size:13px;color:var(--text2);padding:8px 12px;background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius);margin-bottom:10px;}
+@media(max-width:600px){.stock-toolbar{flex-direction:column;align-items:flex-start;}}
 .tbl-wrap{overflow-x:auto;border-radius:var(--radius);border:1px solid var(--border);margin-bottom:6px;}
 table.data-tbl{border-collapse:collapse;width:100%;font-size:12px;min-width:400px;}
 .data-tbl thead th{background:#0d1730;color:#90caf9;padding:8px 10px;
@@ -1469,34 +1500,196 @@ function matchFilter(text, qRaw){
   // fallback: plain text substring match
   return String(text).toLowerCase().includes(q.toLowerCase());
 }
+const _extraFilters={};
+function filterBySector(val,tableId){_extraFilters[tableId]=_extraFilters[tableId]||{};_extraFilters[tableId].sector=val.toLowerCase();applyFilters(tableId);}
+function filterBySignal(val,tableId){_extraFilters[tableId]=_extraFilters[tableId]||{};_extraFilters[tableId].signal=val.toLowerCase();applyFilters(tableId);}
 function applyFilters(tableId){
   const table=document.getElementById(tableId); if(!table)return;
   const tb=table.tBodies[0]; if(!tb)return;
   const filters=[];
   table.querySelectorAll('thead tr.col-filter input').forEach(inp=>{
-    const v=inp.value.trim();
-    if(v)filters.push([parseInt(inp.dataset.col,10),v]);
+    const v=inp.value.trim(); if(v)filters.push([parseInt(inp.dataset.col,10),v]);
   });
   const g=document.querySelector('[data-global-for="'+tableId+'"]');
   const gq=g?g.value.trim().toLowerCase():'';
+  const extra=_extraFilters[tableId]||{};
+  let secCol=-1,sigCol=-1;
+  table.querySelectorAll('thead tr:first-child th').forEach((th,i)=>{
+    const t=th.textContent.replace(/[\u2195\u2191\u2193]/g,'').trim().toLowerCase();
+    if(t==='sector')secCol=i; if(t==='signal_label')sigCol=i;
+  });
   let vis=0;
   for(const row of tb.rows){
+    if(row.classList.contains('col-filter')){row.style.display='';continue;}
     let show=true;
-    if(gq && !row.textContent.toLowerCase().includes(gq))show=false;
-    if(show){
-      for(const f of filters){
-        const cell=row.cells[f[0]];
-        if(!cell || !matchFilter(cell.textContent, f[1])){show=false;break;}
-      }
-    }
-    row.style.display=show?'':'none';
-    if(show)vis++;
+    if(gq&&!row.textContent.toLowerCase().includes(gq))show=false;
+    if(show&&extra.sector&&secCol>=0){const c=row.cells[secCol];if(!c||!c.textContent.toLowerCase().includes(extra.sector))show=false;}
+    if(show&&extra.signal&&sigCol>=0){const c=row.cells[sigCol];if(!c||!c.textContent.toLowerCase().includes(extra.signal))show=false;}
+    if(show){for(const f of filters){const c=row.cells[f[0]];if(!c||!matchFilter(c.textContent,f[1])){show=false;break;}}}
+    row.style.display=show?'':'none'; if(show)vis++;
   }
-  const cnt=document.getElementById(tableId+'-count');
-  if(cnt)cnt.textContent=vis+' rows';
+  const cnt=document.getElementById(tableId+'-count'); if(cnt)cnt.textContent=vis+' rows';
 }
 function filterTable(input,tableId){applyFilters(tableId);}
 function filterColumn(input,tableId){applyFilters(tableId);}
+function exportStocksTV(tableId){
+  const table=document.getElementById(tableId); if(!table)return;
+  const tb=table.tBodies[0]; if(!tb)return;
+  let symCol=-1;
+  table.querySelectorAll('thead th').forEach((th,i)=>{if(th.textContent.trim().toLowerCase()==='symbol')symCol=i;});
+  if(symCol<0)return;
+  const syms=[];
+  for(const row of tb.rows){
+    if(row.style.display==='none')continue;
+    const cell=row.cells[symCol]; if(!cell)continue;
+    const sym=cell.textContent.trim().split('\n')[0].trim(); if(sym)syms.push(sym);
+  }
+  if(!syms.length)return;
+  const text=syms.join(',');
+  navigator.clipboard.writeText(text).then(()=>{
+    const btn=document.querySelector('[onclick*="exportStocksTV"]');
+    if(btn){const o=btn.textContent;btn.textContent='\u2705 Copied '+syms.length+' symbols!';
+      btn.classList.add('copied');setTimeout(()=>{btn.textContent=o;btn.classList.remove('copied');},3000);}
+  }).catch(()=>{const el=document.createElement('textarea');el.value=text;document.body.appendChild(el);el.select();document.execCommand('copy');document.body.removeChild(el);});
+}
+function exportTableCSV(tableId){
+  const table=document.getElementById(tableId); if(!table)return;
+  const rows=[];
+  const ths=table.querySelectorAll('thead tr:first-child th');
+  rows.push(Array.from(ths).map(th=>'"'+th.textContent.replace(/[\u2195\u2191\u2193]/g,'').trim()+'"').join(','));
+  for(const row of table.tBodies[0].rows){
+    if(row.style.display==='none'||row.classList.contains('col-filter'))continue;
+    rows.push(Array.from(row.cells).map(td=>'"'+td.textContent.trim().replace(/"/g,'""')+'"').join(','));
+  }
+  const blob=new Blob([rows.join('\n')],{type:'text/csv'});
+  const a=document.createElement('a');a.href=URL.createObjectURL(blob);
+  a.download=(tableId||'stocks')+'_export.csv';a.click();URL.revokeObjectURL(a.href);
+}
+const SCREEN_DEFS={
+  rs30_buy:{cat:'signal',name:'🟢 RS30 Buy',
+    test(row,h){const r30=_sv(row,_ci(h,'RS30_Signal'));const rs=_n(_sv(row,_ci(h,'RS_22d_Idx%')));const sq=_n(_sv(row,_ci(h,'Sales_QoQ%')));const pq=_n(_sv(row,_ci(h,'PAT_QoQ%')));
+    return r30==='Buy'&&rs!==null&&rs>0&&sq!==null&&sq>15&&pq!==null&&pq>15;}},
+  mst_buy:{cat:'signal',name:'📈 MST Swing Buy',
+    test(row,h){const mst=_sv(row,_ci(h,'MST_Signal'));const tr=_sv(row,_ci(h,'Trend')).toLowerCase();const rsi=_n(_sv(row,_ci(h,'RSI_14')));
+    return mst==='Buy'&&tr.includes('bull')&&rsi!==null&&rsi>50;}},
+  lst_buy:{cat:'signal',name:'🚀 LST Long Buy',
+    test(row,h){const lst=_sv(row,_ci(h,'LST_Signal'));const sma=_n(_sv(row,_ci(h,'SMA_Score')));const rs55=_n(_sv(row,_ci(h,'RS_55d_Idx%')));
+    return lst==='Buy'&&sma!==null&&sma>=3&&rs55!==null&&rs55>0;}},
+  prime:{cat:'signal',name:'🌟 Prime Setups',
+    test(row,h){const sig=_sv(row,_ci(h,'Signal_Label')).toLowerCase();const gate=_sv(row,_ci(h,'Sec_Gated'));const sma=_n(_sv(row,_ci(h,'SMA_Score')));
+    return (sig.includes('prime')||sig.includes('triple'))&&gate==='✓'&&sma===4;}},
+  enhanced_buy:{cat:'signal',name:'✅ Enhanced Buy',
+    test(row,h){const sig=_sv(row,_ci(h,'Signal_Label')).toLowerCase();const fin=_n(_sv(row,_ci(h,'Fin_Score')));const sma=_n(_sv(row,_ci(h,'SMA_Score')));
+    return (sig.includes('prime')||sig.includes('confirmed'))&&fin!==null&&fin>=4&&sma!==null&&sma>=3;}},
+  chart_vcp:{cat:'signal',name:'📐 VCP Pattern',
+    test(row,h){const cp=_sv(row,_ci(h,'Chart_Pattern')).toLowerCase();return cp.includes('vcp');}},
+  chart_pennant:{cat:'signal',name:'🏳 Pennant / Flag',
+    test(row,h){const cp=_sv(row,_ci(h,'Chart_Pattern')).toLowerCase();return cp.includes('pennant')||cp.includes('flag');}},
+  chart_hs:{cat:'signal',name:'🔄 Inv H&S Pattern',
+    test(row,h){const cp=_sv(row,_ci(h,'Chart_Pattern')).toLowerCase();return cp.includes('inv')&&cp.includes('head');}},
+  low_pe:{cat:'fundamental',name:'💲 Low P/E',
+    test(row,h){const pe=_n(_sv(row,_ci(h,'P/E')));const py=_n(_sv(row,_ci(h,'PAT_YoY%')));
+    return pe!==null&&pe>1&&pe<15&&py!==null&&py>0;}},
+  low_de:{cat:'fundamental',name:'🛡 Low Debt (D/E)',
+    test(row,h){const de=_n(_sv(row,_ci(h,'D/E')));const roe=_n(_sv(row,_ci(h,'ROE%')));
+    return de!==null&&de<0.3&&roe!==null&&roe>10;}},
+  high_roe:{cat:'fundamental',name:'🏆 High ROE',
+    test(row,h){const roe=_n(_sv(row,_ci(h,'ROE%')));const de=_n(_sv(row,_ci(h,'D/E')));const py=_n(_sv(row,_ci(h,'PAT_YoY%')));
+    return roe!==null&&roe>20&&de!==null&&de<1&&py!==null&&py>10;}},
+  profit_jump:{cat:'fundamental',name:'💥 Profit Jump 200%',
+    test(row,h){const pq=_n(_sv(row,_ci(h,'PAT_QoQ%')));const py=_n(_sv(row,_ci(h,'PAT_YoY%')));
+    return (pq!==null&&pq>=200)||(py!==null&&py>=200);}},
+  sales_jump:{cat:'fundamental',name:'📦 Sales Jump 200%',
+    test(row,h){const sq=_n(_sv(row,_ci(h,'Sales_QoQ%')));const sy=_n(_sv(row,_ci(h,'Sales_YoY%')));
+    return (sq!==null&&sq>=200)||(sy!==null&&sy>=200);}},
+  high_eps:{cat:'fundamental',name:'💰 High EPS',
+    test(row,h){const eps=_n(_sv(row,_ci(h,'EPS')));const sma=_n(_sv(row,_ci(h,'SMA_Score')));
+    return eps!==null&&eps>10&&sma!==null&&sma>=2;}},
+  quality_growth:{cat:'fundamental',name:'💎 Quality + Growth',
+    test(row,h){const roe=_n(_sv(row,_ci(h,'ROE%')));const py=_n(_sv(row,_ci(h,'PAT_YoY%')));const sy=_n(_sv(row,_ci(h,'Sales_YoY%')));const de=_n(_sv(row,_ci(h,'D/E')));
+    return roe!==null&&roe>15&&py!==null&&py>15&&sy!==null&&sy>10&&de!==null&&de<1;}},
+  near52high:{cat:'trend',name:'📈 Near 52-Week High',
+    test(row,h){const f52=_n(_sv(row,_ci(h,'From_52W_High%')));const rs=_n(_sv(row,_ci(h,'RS_22d_Idx%')));
+    return f52!==null&&f52>=-8&&rs!==null&&rs>0;}},
+  above200sma:{cat:'trend',name:'🟢 Above 200 SMA',
+    test(row,h){const sma=_n(_sv(row,_ci(h,'SMA_Score')));return sma===4;}},
+  golden_cross:{cat:'trend',name:'✨ Golden Cross Zone',
+    test(row,h){const tr=_sv(row,_ci(h,'Trend')).toLowerCase();const sma=_n(_sv(row,_ci(h,'SMA_Score')));const rs=_n(_sv(row,_ci(h,'RS_22d_Idx%')));
+    return tr.includes('bull')&&sma===4&&rs!==null&&rs>5;}},
+  vol_spike:{cat:'trend',name:'🔥 Volume Spike',
+    test(row,h){const rv=_n(_sv(row,_ci(h,'Rel_Vol')));const sig=_sv(row,_ci(h,'Signal_Label')).toLowerCase();
+    return rv!==null&&rv>=3&&!sig.includes('avoid');}},
+  rsi_pullback:{cat:'trend',name:'📉 RSI Pullback Buy',
+    test(row,h){const rsi=_n(_sv(row,_ci(h,'RSI_14')));const rs=_n(_sv(row,_ci(h,'RS_22d_Idx%')));const tr=_sv(row,_ci(h,'Trend')).toLowerCase();
+    return rsi!==null&&rsi>=35&&rsi<=50&&rs!==null&&rs>0&&tr.includes('bull');}},
+  momentum:{cat:'trend',name:'🏁 Momentum Leaders',
+    test(row,h){const sig=_sv(row,_ci(h,'Signal_Label')).toLowerCase();const rs=_n(_sv(row,_ci(h,'RS_22d_Idx%')));const sma=_n(_sv(row,_ci(h,'SMA_Score')));const rsi=_n(_sv(row,_ci(h,'RSI_14')));
+    return (sig.includes('prime')||sig.includes('confirmed'))&&rs!==null&&rs>5&&sma!==null&&sma>=3&&rsi!==null&&rsi>55;}},
+  sector_leader:{cat:'sector',name:'🎯 Sector Leaders',
+    test(row,h){const gate=_sv(row,_ci(h,'Sec_Gated'));const rs22=_n(_sv(row,_ci(h,'RS_22d_Idx%')));const rs55=_n(_sv(row,_ci(h,'RS_55d_Idx%')));const sma=_n(_sv(row,_ci(h,'SMA_Score')));
+    return gate==='✓'&&rs22!==null&&rs22>8&&rs55!==null&&rs55>5&&sma!==null&&sma>=3;}},
+  rs_breakout:{cat:'sector',name:'⚡ RS Breakout',
+    test(row,h){const rs22=_n(_sv(row,_ci(h,'RS_22d_Idx%')));const rs55=_n(_sv(row,_ci(h,'RS_55d_Idx%')));const rv=_n(_sv(row,_ci(h,'Rel_Vol')));const tr=_sv(row,_ci(h,'Trend')).toLowerCase();
+    return rs22!==null&&rs22>10&&rs55!==null&&rs55>5&&rv!==null&&rv>1.5&&tr.includes('bull');}},
+  dividend:{cat:'sector',name:'💵 Dividend + Stability',
+    test(row,h){const roe=_n(_sv(row,_ci(h,'ROE%')));const de=_n(_sv(row,_ci(h,'D/E')));const py=_n(_sv(row,_ci(h,'PAT_YoY%')));const sma=_n(_sv(row,_ci(h,'SMA_Score')));
+    return roe!==null&&roe>12&&de!==null&&de<0.5&&py!==null&&py>5&&sma!==null&&sma>=2;}}
+};
+function _ci(headers,name){const n=name.toLowerCase();for(let i=0;i<headers.length;i++){if(headers[i].textContent.replace(/[\u2195\u2191\u2193]/g,'').trim().toLowerCase()===n)return i;}return -1;}
+function _sv(row,idx){return idx>=0&&row.cells[idx]?row.cells[idx].textContent.trim():'';}
+function _n(v){const f=parseFloat(v);return isNaN(f)?null:f;}
+let _activeScreen=null;
+function runScreen(cardEl,screenKey){
+  const def=SCREEN_DEFS[screenKey];if(!def)return;
+  if(_activeScreen===screenKey){resetScreen();return;}
+  _activeScreen=screenKey;
+  document.querySelectorAll('.scr-card').forEach(c=>c.classList.remove('active'));
+  cardEl.classList.add('active');
+  const src=document.getElementById('tbl-stocks');if(!src)return;
+  const headers=Array.from(src.querySelectorAll('thead tr:first-child th'));
+  const matched=[];
+  for(const row of src.tBodies[0].rows){if(def.test(row,headers))matched.push(row.cloneNode(true));}
+  const thead=src.querySelector('thead').cloneNode(true);
+  thead.querySelectorAll('tr.col-filter').forEach(r=>r.remove());
+  const tbody=document.createElement('tbody');matched.forEach(r=>tbody.appendChild(r));
+  const tbl=document.createElement('table');tbl.id='scr-result-tbl';tbl.className='data-tbl';
+  tbl.appendChild(thead);tbl.appendChild(tbody);
+  const wrap=document.createElement('div');wrap.className='tbl-wrap';wrap.appendChild(tbl);
+  const rw=document.getElementById('scr-result-wrap');rw.innerHTML='';rw.appendChild(wrap);rw.style.display='';
+  const st=document.getElementById('scr-status');st.style.display='flex';
+  document.getElementById('scr-status-text').textContent=def.name+' — '+matched.length+' stocks matched';
+}
+function resetScreen(){
+  _activeScreen=null;
+  document.querySelectorAll('.scr-card').forEach(c=>c.classList.remove('active'));
+  document.getElementById('scr-result-wrap').style.display='none';
+  document.getElementById('scr-status').style.display='none';
+}
+
+/* ── HIDE INTERNAL SCREENER COLUMNS ──────────────────────────── */
+function _hideInternalCols(){
+  const tbl=document.getElementById('tbl-stocks');if(!tbl)return;
+  const HIDDEN=['mst_signal','lst_signal','rs30_signal'];
+  const ths=Array.from(tbl.querySelectorAll('thead tr:first-child th'));
+  ths.forEach((th,i)=>{
+    const nm=th.textContent.replace(/[↕↑↓]/g,'').trim().toLowerCase();
+    if(HIDDEN.includes(nm)){
+      tbl.querySelectorAll('tr').forEach(r=>{if(r.cells[i])r.cells[i].style.display='none';});
+    }
+  });
+}
+document.addEventListener('DOMContentLoaded',_hideInternalCols);
+
+function filterScreenCat(btn,cat){
+  document.querySelectorAll('.scr-cat-btn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  document.querySelectorAll('.scr-card').forEach(c=>{
+    c.style.display=(cat==='all'||c.dataset.cat===cat)?'':'none';
+  });
+  document.querySelectorAll('.scr-cat-label').forEach(l=>{
+    l.style.display=(cat==='all'||l.dataset.label===cat)?'':'none';
+  });
+}
 
 /* ── TABLE SORT ────────────────────────────────────────────────────────── */
 function sortTable(th){
@@ -1898,7 +2091,19 @@ let _tvHideTimer = null;
 let _tvBox = null;
 let _tvIframe = null;
 let _tvHeader = null;
+let _tvFallback = null;
 let _tvLastSym = '';
+function _showTvFallback(tvSymbol){
+  if(!_tvFallback)return;
+  _tvIframe.style.display='none';
+  _tvFallback.style.display='flex';
+  const sym=tvSymbol.replace('%3A',':');
+  const url='https://www.tradingview.com/chart/?symbol='+tvSymbol;
+  const msg=document.getElementById('tv-fb-msg');
+  const lnk=document.getElementById('tv-fb-link');
+  if(msg)msg.textContent=sym+' — preview not available';
+  if(lnk){lnk.href=url;lnk.textContent='Open '+sym+' in TradingView ↗';}
+}
 
 function _tvGetTheme(){
   const t = document.documentElement.getAttribute('data-theme') || 'dark';
@@ -1906,18 +2111,17 @@ function _tvGetTheme(){
 }
 
 function _tvBuildSrc(tvSymbol){
-  const theme = _tvGetTheme();
-  // data-tv stores the symbol as "EXCH%3ASYM" (percent-encoded colon).
-  // Decode it to "EXCH:SYM" — widgetembed expects a raw colon, not %3A.
-  // Do NOT re-encode with encodeURIComponent; that would double-encode the
-  // colon back to %253A and TradingView would fail to resolve the symbol.
-  const sym = tvSymbol.replace('%3A', ':');
-  return ('https://www.tradingview.com/widgetembed/?frameElementId=tv_chart'
-    + '&symbol=' + sym
-    + '&interval=D&range=12M'
-    + '&theme=' + theme
-    + '&style=1&locale=en'
-    + '&hide_side_toolbar=1&allow_symbol_change=0&save_image=0');
+  const theme=_tvGetTheme();
+  const sym=tvSymbol.replace('%3A',':');
+  // Use advanced-chart widget — broader exchange support than widgetembed.
+  // Config is JSON-encoded in the URL fragment (#).
+  const cfg=encodeURIComponent(JSON.stringify({
+    symbol:sym, interval:'D', range:'12M', theme:theme,
+    style:'1', locale:'en', hide_side_toolbar:true,
+    allow_symbol_change:false, save_image:false,
+    support_host:'https://www.tradingview.com'
+  }));
+  return 'https://s.tradingview.com/embed-widget/advanced-chart/?locale=en#'+cfg;
 }
 
 function _tvInit(){
@@ -1937,9 +2141,25 @@ function _tvInit(){
   _tvIframe.setAttribute('sandbox',
     'allow-scripts allow-same-origin allow-popups allow-forms');
 
+  _tvFallback=document.createElement('div');
+  _tvFallback.id='tv-preview-fallback';
+  _tvFallback.style.cssText='display:none;width:100%;height:100%;flex-direction:column;'
+    +'align-items:center;justify-content:center;gap:10px;'
+    +'font-size:13px;color:#8b90a8;text-align:center;padding:20px;';
+  _tvFallback.innerHTML='<div style="font-size:22px">\U0001f4ca</div>'
+    +'<div id="tv-fb-msg">Preview not available</div>'
+    +'<a id="tv-fb-link" href="#" target="_blank" rel="noopener" '
+    +'style="color:#5b8def;font-weight:600;padding:6px 14px;border:1px solid #5b8def;border-radius:8px;">Open in TradingView \u2197</a>';
   _tvBox.appendChild(_tvHeader);
   _tvBox.appendChild(_tvIframe);
+  _tvBox.appendChild(_tvFallback);
   document.body.appendChild(_tvBox);
+  // postMessage listener: catch TV symbol-not-found events
+  window.addEventListener('message',(e)=>{
+    if(!e.origin.includes('tradingview.com'))return;
+    const d=e.data;
+    if(d&&(d.name==='symbol-not-found'||d.type==='symbolNotFound')){_showTvFallback(_tvLastSym);}
+  },false);
 
   // Warm the connection — load a generic symbol so TV domain is already open
   const warmSym = (document.documentElement.getAttribute('data-market')||'') === 'INDIA'
@@ -1951,6 +2171,8 @@ function _tvShow(tvSymbol, displayName, mouseX, mouseY){
   if(!_tvEnabled || !_tvBox) return;
   clearTimeout(_tvHideTimer);
   if(tvSymbol !== _tvLastSym){
+    _tvIframe.style.display='';
+    if(_tvFallback)_tvFallback.style.display='none';
     _tvIframe.src = _tvBuildSrc(tvSymbol);
     _tvLastSym = tvSymbol;
   }
@@ -2047,6 +2269,85 @@ window.addEventListener('resize', _tvHide, {passive:true});
 #  MAIN BUILD FUNCTION
 # ─────────────────────────────────────────────────────────────────────────────
 
+def _build_screener_tab():
+    """Screener tab — 23 screens in 4 categories, all JS-side against tbl-stocks."""
+    q = "'"
+    def card(key, icon, name, desc, cat):
+        return (
+            f'<div class="scr-card" onclick="runScreen(this,{q}{key}{q})" data-cat="{cat}">'
+            f'<div class="scr-icon">{icon}</div>'
+            f'<div class="scr-name">{name}</div>'
+            f'<div class="scr-desc">{desc}</div></div>'
+        )
+
+    cat_btns = (
+        "<button class=\"scr-cat-btn active\" onclick=\"filterScreenCat(this,'all')\">All</button>"
+        "<button class=\"scr-cat-btn\" onclick=\"filterScreenCat(this,'signal')\">🎯 Signal</button>"
+        "<button class=\"scr-cat-btn\" onclick=\"filterScreenCat(this,'fundamental')\">💰 Fundamental</button>"
+        "<button class=\"scr-cat-btn\" onclick=\"filterScreenCat(this,'trend')\">📊 Trend &amp; Chart</button>"
+        "<button class=\"scr-cat-btn\" onclick=\"filterScreenCat(this,'sector')\">🏭 Sector</button>"
+    )
+
+    sig = (
+        card("rs30_buy",     "🟢", "RS30 Buy",          "RS30=Buy · RS_22d&gt;0 · Sales_QoQ&gt;15 · PAT_QoQ&gt;15", "signal") +
+        card("mst_buy",      "📈", "MST Swing Buy",     "MST_Signal=Buy · Trend Bullish · RSI&gt;50", "signal") +
+        card("lst_buy",      "🚀", "LST Long Buy",      "LST_Signal=Buy · SMA≥3 · RS_55d&gt;0", "signal") +
+        card("prime",        "🌟", "Prime Setups",      "Signal=Prime/Triple · Sector-gated ✓ · SMA=4", "signal") +
+        card("enhanced_buy", "✅",     "Enhanced Buy",      "Signal=Confirmed/Prime · Fin_Score≥4 · SMA≥3", "signal") +
+        card("chart_vcp",    "📐", "VCP Pattern",       "Chart_Pattern contains VCP", "signal") +
+        card("chart_pennant","🏳", "Pennant / Flag",    "Chart_Pattern: Pennant or Bull Flag", "signal") +
+        card("chart_hs",     "🔄", "Inv H&amp;S",       "Chart_Pattern: Inverse Head &amp; Shoulders", "signal")
+    )
+    fund = (
+        card("low_pe",        "💲", "Low P/E",           "P/E between 1–15 · PAT_YoY&gt;0", "fundamental") +
+        card("low_de",        "🛡", "Low Debt (D/E)",    "D/E &lt; 0.3 · ROE &gt; 10", "fundamental") +
+        card("high_roe",      "🏆", "High ROE",          "ROE &gt; 20 · D/E &lt; 1 · PAT_YoY &gt; 10", "fundamental") +
+        card("profit_jump",   "💥", "Profit Jump 200%",  "PAT_QoQ &gt; 200% OR PAT_YoY &gt; 200%", "fundamental") +
+        card("sales_jump",    "📦", "Sales Jump 200%",   "Sales_QoQ &gt; 200% OR Sales_YoY &gt; 200%", "fundamental") +
+        card("high_eps",      "💰", "High EPS",          "EPS &gt; 10 · SMA≥2", "fundamental") +
+        card("quality_growth","💎", "Quality + Growth",  "ROE&gt;15 · PAT_YoY&gt;15 · Sales_YoY&gt;10 · D/E&lt;1", "fundamental")
+    )
+    trend = (
+        card("near52high",  "📈", "Near 52-Week High",  "Within 8% of 52W high · RS_22d&gt;0", "trend") +
+        card("above200sma", "🟢", "Above 200 SMA",      "SMA_Score=4 (above all 4 SMAs)", "trend") +
+        card("golden_cross","✨",     "Golden Cross Zone",  "Trend=Bullish · SMA=4 · RS_22d&gt;5", "trend") +
+        card("vol_spike",   "🔥", "Volume Spike",       "Rel_Vol ≥ 3 · Signal not Avoid", "trend") +
+        card("rsi_pullback","📉", "RSI Pullback Buy",   "RSI 35–50 · RS_22d&gt;0 · Trend Bullish", "trend") +
+        card("momentum",    "🏁", "Momentum Leaders",   "Prime/Confirmed · RS_22d&gt;5 · SMA≥3 · RSI&gt;55", "trend")
+    )
+    sec = (
+        card("sector_leader", "🎯", "Sector Leaders",      "Sec_Gated=✓ · RS_22d&gt;8 · RS_55d&gt;5 · SMA≥3", "sector") +
+        card("rs_breakout",   "⚡",     "RS Breakout",         "RS_22d&gt;10 · RS_55d&gt;5 · Rel_Vol&gt;1.5 · Bullish", "sector") +
+        card("dividend",      "💵", "Dividend + Stability","ROE&gt;12 · D/E&lt;0.5 · PAT_YoY&gt;5 · SMA≥2", "sector")
+    )
+
+    return (
+        '<style>' +
+        '.scr-cats{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px;}' +
+        '.scr-cat-btn{padding:5px 14px;border-radius:20px;border:1px solid var(--border);background:var(--bg2);color:var(--text2);cursor:pointer;font-size:12px;font-weight:600;}' +
+        '.scr-cat-btn.active,.scr-cat-btn:hover{background:var(--accent);color:#fff;border-color:var(--accent);}' +
+        '.scr-cat-label{font-size:11px;font-weight:700;color:var(--text3);text-transform:uppercase;letter-spacing:.06em;margin:14px 0 8px;border-left:3px solid var(--accent);padding-left:8px;}' +
+        '</style>' +
+        f'<p style="font-size:13px;color:var(--text2);margin-bottom:14px;">Click any screen to filter the <strong>All Stocks</strong> table. Click again to reset.</p>' +
+        f'<div class="scr-cats">{cat_btns}</div>' +
+        f'<div class="scr-cat-label" data-label="signal">🎯 Signal-Based</div>' +
+        f'<div class="scr-grid">{sig}</div>' +
+        f'<div class="scr-cat-label" data-label="fundamental">💰 Financial &amp; Value</div>' +
+        f'<div class="scr-grid">{fund}</div>' +
+        f'<div class="scr-cat-label" data-label="trend">📊 Trend &amp; Chart</div>' +
+        f'<div class="scr-grid">{trend}</div>' +
+        f'<div class="scr-cat-label" data-label="sector">🏭 Sector &amp; Composite</div>' +
+        f'<div class="scr-grid">{sec}</div>' +
+        '<div class="scr-status" id="scr-status" style="display:none">' +
+        '  <span id="scr-status-text"></span>' +
+        '  <button class="copy-btn sm" onclick="resetScreen()" style="margin-left:10px">✖ Reset</button>' +
+        '  <button class="copy-btn sm" onclick="exportStocksTV(\'scr-result-tbl\')" style="margin-left:6px">📋 Copy TV</button>' +
+        '  <button class="copy-btn sm" onclick="exportTableCSV(\'scr-result-tbl\')" style="margin-left:6px">⬇ CSV</button>' +
+        '</div>' +
+        '<div id="scr-result-wrap" style="display:none;margin-top:14px"></div>'
+    )
+
+
 def build_html_report(
     market, snapshot_df, sector_str_df, sector_rot_df, industry_rot_df,
     breadth_df, sector_perf_df, stock_str_df, top_buy_df, top_sell_df,
@@ -2075,8 +2376,11 @@ def build_html_report(
     MAIN_COLS = ["Symbol","Company","Sector","Price","Chg_1D%",
                  "Signal_Label","Sec_Gated","RS_22d_Idx%","RS_55d_Idx%",
                  "RSI_14","Trend","SMA_Score","Total_Score","Fin_Score",
+                 "From_52W_High%","Rel_Vol",
                  "SL_Buy%","SL_Grade","SL_Buy_Price",
-                 "Sales_YoY%","PAT_YoY%","ROE%","D/E","EPS","Mkt_Cap_B","Chart_Pattern"]
+                 "Sales_QoQ%","Sales_YoY%","PAT_QoQ%","PAT_YoY%",
+                 "ROE%","D/E","P/E","EPS","Mkt_Cap_B","Chart_Pattern",
+                 "MST_Signal","LST_Signal","RS30_Signal"]
     if stock_str_df is not None and not stock_str_df.empty:
         stock_main = stock_str_df[[c for c in MAIN_COLS if c in stock_str_df.columns]]
     else:
@@ -2088,6 +2392,7 @@ def build_html_report(
         ("sectors",       "🏭 Sectors"),
         ("opportunities", "🎯 Opportunities"),
         ("stocks",        "📊 Stocks"),
+        ("screener",      "🔎 Screener"),
         ("patterns",      "📐 Patterns"),
         ("global",        "🌍 Global"),
         ("sleeves",       "📋 Sleeves"),
@@ -2121,18 +2426,15 @@ def build_html_report(
         _build_table(breadth_df, "tbl-breadth", searchable=False, pct_mode="breadth")
     )
 
-    def _sec_block(title, content):
-        """Only render a heading + content block when the table isn't empty."""
-        if not content or content.strip() == '<p class="empty">No data available.</p>':
-            return ""
-        return f'<h2 class="sec-title">{title}</h2>' + content
-
     sector_content = (
         '<h2 class="sec-title">Sector Strength</h2>' +
         _build_sector_bars(sector_str_df) +
-        _sec_block("Sector Performance",  _build_table(sector_perf_df, "tbl-secperf", searchable=False)) +
-        _sec_block("Sector Rotation",     _build_table(sector_rot_df,  "tbl-secrot",  pct_mode="breadth")) +
-        _sec_block("Industry Rotation",   _build_table(industry_rot_df,"tbl-indrot",  pct_mode="breadth"))
+        '<h2 class="sec-title">Sector Performance</h2>' +
+        _build_table(sector_perf_df, "tbl-secperf", searchable=False) +
+        '<h2 class="sec-title">Sector Rotation</h2>' +
+        _build_table(sector_rot_df, "tbl-secrot", pct_mode="breadth") +
+        '<h2 class="sec-title">Industry Rotation</h2>' +
+        _build_table(industry_rot_df, "tbl-indrot", pct_mode="breadth")
     )
 
     opp_cards  = _build_opportunity_cards(top_buy_df)
@@ -2146,7 +2448,32 @@ def build_html_report(
         '<h2 class="sec-title">🔴 Sell Alerts</h2>' + sell_table
     )
 
-    stock_content = _STOCK_PANEL + _build_table(stock_main, "tbl-stocks", max_rows=500, no_bg=True)
+    _sector_opts = ""
+    if stock_main is not None and not stock_main.empty and "Sector" in stock_main.columns:
+        _sectors = sorted(stock_main["Sector"].dropna().unique().tolist())
+        _sector_opts = "".join(f'<option value="{s}">{s}</option>' for s in _sectors)
+    _stock_toolbar = f'''
+<div class="stock-toolbar">
+  <div class="stock-toolbar-left">
+    <select id="sector-filter" class="sector-sel" onchange="filterBySector(this.value,'tbl-stocks')" title="Filter by sector">
+      <option value="">All Sectors</option>
+      {_sector_opts}
+    </select>
+    <select id="signal-filter" class="sector-sel" onchange="filterBySignal(this.value,'tbl-stocks')" title="Filter by signal">
+      <option value="">All Signals</option>
+      <option value="Prime">🌟 Prime</option>
+      <option value="Confirmed">✅ Confirmed</option>
+      <option value="RS Leader">📈 RS Leader</option>
+      <option value="Watch">👁 Watch</option>
+      <option value="Avoid">🔴 Avoid</option>
+    </select>
+  </div>
+  <div class="stock-toolbar-right">
+    <button class="copy-btn sm" onclick="exportStocksTV('tbl-stocks')" title="Copy symbols for TradingView">📋 Copy for TradingView</button>
+    <button class="copy-btn sm" onclick="exportTableCSV('tbl-stocks')" title="Download CSV">⬇ Export CSV</button>
+  </div>
+</div>'''
+    stock_content = _STOCK_PANEL + _stock_toolbar + _build_table(stock_main, "tbl-stocks", max_rows=500, no_bg=True)
 
     # ── Patterns: enforce a hard recency cap (request #8). Keep only setups
     #    whose Date is within the last PATTERN_RECENT_DAYS days. Rows without a
@@ -2182,6 +2509,7 @@ def build_html_report(
         _sec("sectors",       "🏭 Sector Analysis",            sector_content) +
         _sec("opportunities", "🎯 Opportunities",              opp_content) +
         _sec("stocks",        "📊 All Stocks",                 stock_content) +
+        _sec("screener",      "🔎 Screener",                   _build_screener_tab()) +
         _sec("patterns",      "📐 Chart Patterns",             patterns_content) +
         _sec("global",        "🌍 Global Markets",             global_content) +
         _sec("sleeves",       "📋 RS Momentum Portfolios",     sleeves_content) +
