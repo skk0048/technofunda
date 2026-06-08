@@ -1,19 +1,68 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-ENGIE Brasil Energia SA,Utilities,EGIE3.SA,EQ,
-CTEEP - Cia de Transmissao de Energia Eletrica Paulista,Utilities,TRPL4.SA,EQ,
-Cemig Geracao e Transmissao SA PN,Utilities,CMIG4.SA,EQ,
-Energisa SA,Utilities,ENGI11.SA,EQ,
-CPFL Energia SA,Utilities,CPFE3.SA,EQ,
-Eletrobras SA,Utilities,ELET3.SA,EQ,
-Sabesp (Cia de Saneamento Basico do Estado de SP),Utilities,SBSP3.SA,EQ,
-Sanepar SA,Utilities,SAPR11.SA,EQ,
-Taesa - Transmissora Alianca de Energia Eletrica SA,Utilities,TAEE11.SA,EQ,
-Equatorial Energia SA,Utilities,EQTL3.SA,EQ,
-AES Brasil Energia SA,Utilities,AESB3.SA,EQ,
-CESP Cia Energetica de Sao Paulo,Utilities,CESP6.SA,EQ,
-Cia Paranaense de Energia PN,Utilities,CPLE6.SA,EQ,
-Cia Paranaense de Energia ON,Utilities,CPLE3.SA,EQ,
-Copasa MG,Utilities,CSMG3.SA,EQ,
-Copel ON,Utilities,CPLE11.SA,EQ,
-CPFL Renovaveis SA,Utilities,CPRE3.SA,EQ,
-Light SA,Utilities,LIGT3.SA,EQ,
+NextEra Energy Inc. Unsponsored Brazilian Depositary Receipt Repr 0.25 Sh,Utilities,NEXT34.SA,EQ,BRNEXTBDR006
+Duke Energy Corp Shs Unsponsored Brazilian Depository Receipt Repr 1 Sh,Utilities,DUKB34.SA,EQ,BRDUKBBDR008
+National Grid PLC Unsponsored Brazilian Depositary Receipt Repr 0.1666 ADR,Utilities,N1GG34.SA,EQ,BRN1GGBDR002
+American Electric Power Company Inc. Shs Unsponsored Brazilian Depositary Receipt Repr 1/2 Sh,Utilities,A1EP34.SA,EQ,BRA1EPBDR003
+Sempra Shs Unsponsored Brazilian Depositary Receipt Repr 0.25 Sh,Utilities,S1RE34.SA,EQ,BRS1REBDR009
+Dominion Energy Inc Unsponsored Brazilian Depositary Receipt Repr 1/2 Sh,Utilities,D1OM34.SA,EQ,BRD1OMBDR006
+Entergy Corporation Shs Unsponsored Brazilian Depositary Receipt Repr 1/2 Sh,Utilities,E1TR34.SA,EQ,BRE1TRBDR003
+Vistra Corp Shs Unsponsored Brazilian Depositary Receipt Repr 0.071428571 Sh,Utilities,V1ST34.SA,EQ,BRV1STBDR000
+Exelon Corporation Unsponsored Brazilian Depositary Receipt Repr 1 Sh,Utilities,E1XC34.SA,EQ,BRE1XCBDR007
+Consolidated Edison Inc. Shs Unsponsored Brazilian Depository Receipt Repr 1/2 Sh,Utilities,E1DI34.SA,EQ,BRE1DIBDR006
+Ameren Corporation Shs Unsponsored Brazilian Depositary Receipt Repr 1/2 Sh,Utilities,A1EE34.SA,EQ,BRA1EEBDR007
+NRG Energy Inc. Shs Unsponsored Brazilian Depositary Receipt Repr 1 Sh,Utilities,N1RG34.SA,EQ,BRN1RGBDR009
+Eversource Energy Shs Unsponsored Brazilian Depositary Receipt Repr 0.5 Sh,Utilities,E1SE34.SA,EQ,BRE1SEBDR003
+American Water Works Co Inc Shs Unsponsored Brazilian Depositary Receipt Repr 0.25 Sh,Utilities,A1WK34.SA,EQ,BRA1WKBDR006
+AXIA Energia SA,Utilities,AXIA3.SA,EQ,BRAXIAACNOR0
+AXIA Energia SA Non-Cum Perp Pfd Registered Shs,Utilities,AXIA5.SA,EQ,BRAXIAACNPA3
+AXIA Energia SA Non-Cum Perp Pfd Registered Shs,Utilities,AXIA6.SA,EQ,BRAXIAACNPB1
+AXIA Energia SA Non-Cum Perp Pfd Registered Shs C,Utilities,AXIA7.SA,EQ,BRAXIAACNPC9
+Nisource Inc Unsponsored Brazilian Depositary Receipt Repr 1 Sh,Utilities,N1IS34.SA,EQ,BRN1ISBDR003
+Companhia de Saneamento Basico do Estado de Sao Paulo SABESP,Utilities,SBSP3.SA,EQ,BRSBSPACNOR5
+AES Corporation Shs Unsponsored Brazilian Depository Receipt Repr 1 Sh,Utilities,A1ES34.SA,EQ,BRA1ESBDR007
+CPFL Energia S.A.,Utilities,CPFE3.SA,EQ,BRCPFEACNOR0
+Equatorial S.A.,Utilities,EQTL3.SA,EQ,BREQTLACNOR0
+Eneva S.A.,Utilities,ENEV3.SA,EQ,BRENEVACNOR8
+Companhia Paranaense de Energia,Utilities,CPLE3.SA,EQ,BRCPLEACNOR8
+ENGIE Brasil Energia S.A.,Utilities,EGIE3.SA,EQ,BREGIEACNOR9
+Companhia Energetica de Minas Gerais SA,Utilities,CMIG3.SA,EQ,BRCMIGACNOR6
+Companhia Energetica de Minas Gerais SA Pfd,Utilities,CMIG4.SA,EQ,BRCMIGACNPR3
+Companhia de Saneamento de Minas Gerais,Utilities,CSMG3.SA,EQ,BRCSMGACNOR5
+Isa Energia Brasil SA Non-Cum Perp Pfd Registered Shs,Utilities,ISAE4.SA,EQ,BRISAEACNPR9
+Isa Energia Brasil SA,Utilities,ISAE3.SA,EQ,BRISAEACNOR2
+Compass Gas e Energia SA,Utilities,PASS3.SA,EQ,BRPASSACNOR7
+Energisa SA,Utilities,ENGI3.SA,EQ,BRENGIACNOR0
+Energisa SA Pfd Shs Non-Voting,Utilities,ENGI4.SA,EQ,BRENGIACNPR7
+Companhia de Gas de Sao Paulo - COMGAS Pfd Registered A,Utilities,CGAS5.SA,EQ,BRCGASACNPA3
+Companhia de Gas de Sao Paulo - COMGAS,Utilities,CGAS3.SA,EQ,BRCGASACNOR0
+Rede Energia S.A.,Utilities,REDE3.SA,EQ,BRREDEACNOR7
+Cosan S.A.,Utilities,CSAN3.SA,EQ,BRCSANACNOR6
+Equatorial Para Distribuidora de Energia SA,Utilities,EQPA3.SA,EQ,BREQPAACNOR1
+Auren Energia SA,Utilities,AURE3.SA,EQ,BRAUREACNOR9
+Companhia de Saneamento do Parana - Sanepar,Utilities,SAPR3.SA,EQ,BRSAPRACNOR9
+Companhia de Saneamento do Parana - Sanepar Non-Cum Perp Pfd Registered Shs,Utilities,SAPR4.SA,EQ,BRSAPRACNPR6
+Alupar Investimento SA,Utilities,ALUP3.SA,EQ,BRALUPACNOR8
+Alupar Investimento SA Pfd Shs,Utilities,ALUP4.SA,EQ,BRALUPACNPR5
+Companhia Distribuidora de Gas do Rio de Janeiro,Utilities,CEGR3.SA,EQ,BRCEGRACNOR4
+Energisa Mato Grosso - Distribuidora de Energia Sa Pfd Shs,Utilities,ENMT4.SA,EQ,BRENMTACNPR2
+Energisa Mato Grosso - Distribuidora de Energia Sa,Utilities,ENMT3.SA,EQ,BRENMTACNOR5
+Companhia de Electricidade do Estado da Bahia - COELBA,Utilities,CEEB3.SA,EQ,BRCEEBACNOR3
+Companhia de Electricidade do Estado da Bahia - COELBA Pfd A,Utilities,CEEB5.SA,EQ,BRCEEBACNPA6
+Orizon Valorizacao de Residuos SA,Utilities,ORVR3.SA,EQ,BRORVRACNOR0
+Ampla Energia e Servicos SA,Utilities,CBEE3.SA,EQ,BRCBEEACNOR3
+Elektro Redes S.A. Pfd Shs,Utilities,EKTR4.SA,EQ,BREKTRACNPR7
+Centrais Eletricas de Santa Catarina SA Pfd,Utilities,CLSC4.SA,EQ,BRCLSCACNPR3
+Centrais Eletricas de Santa Catarina S.A.,Utilities,CLSC3.SA,EQ,BRCLSCACNOR6
+Equatorial Maranhao Distribuidora de Energia SA,Utilities,EQMA3BF.SA,EQ,BREQMAACNOR8
+Equatorial Maranhao Distribuidora de Energia SA,Utilities,EQMA3B.SA,EQ,BREQMAACNOR8
+Rio Paranapanema Energia SA Pfd Registered,Utilities,GEPA4.SA,EQ,BRGEPAACNPR9
+Rio Paranapanema Energia SA,Utilities,GEPA3.SA,EQ,BRGEPAACNOR2
+EMAE-Empresa Metropolitana de Aguas e Energia SA Pfd Registered,Utilities,EMAE4.SA,EQ,BREMAEACNPR1
+Companhia Energetica do Ceara-COELCE Pfd A,Utilities,COCE5.SA,EQ,BRCOCEACNPA3
+Companhia Energetica de Brasilia - CEB Pfd A,Utilities,CEBR5.SA,EQ,BRCEBRACNPA8
+Companhia Energetica de Brasilia - CEB,Utilities,CEBR3.SA,EQ,BRCEBRACNOR5
+Companhia Energetica de Brasilia - CEB Pfd B,Utilities,CEBR6.SA,EQ,BRCEBRACNPB6
+Light S.A.,Utilities,LIGT3.SA,EQ,BRLIGTACNOR2
+Afluente Transmissao De Energia Eletrica SA,Utilities,AFLT3.SA,EQ,BRAFLTACNOR1
+Renova Energia S.A. Pfd,Utilities,RNEW4.SA,EQ,BRRNEWACNPR5
+Renova Energia S.A.,Utilities,RNEW3.SA,EQ,BRRNEWACNOR8

@@ -1,15 +1,87 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-Vale SA,Materials,VALE3.SA,EQ,
-Gerdau SA PN,Materials,GGBR4.SA,EQ,
-Metalurgica Gerdau SA PN,Materials,GOAU4.SA,EQ,
-Braskem SA PN,Materials,BRKM5.SA,EQ,
-Suzano SA,Materials,SUZB3.SA,EQ,
-Klabin SA,Materials,KLBN11.SA,EQ,
-Dexco SA,Materials,DXCO3.SA,EQ,
-Usinas Siderurgicas de Minas Gerais SA PN,Materials,USIM5.SA,EQ,
-Companhia Siderurgica Nacional SA,Materials,CSNA3.SA,EQ,
-CBA - Companhia Brasileira de Aluminio,Materials,CBAV3.SA,EQ,
-Bradespar SA PN,Materials,BRAP4.SA,EQ,
-Gerdau Metalurgica SA ON,Materials,GOAU3.SA,EQ,
-Irani Papel e Embalagem SA,Materials,RANI3.SA,EQ,
-Tronox Holdings plc,Materials,TROX3.SA,EQ,
+Rio Tinto PLC ADR Unsponsored Brazilian Depository Receipt Repr 1 ADR,Materials,RIOT34.SA,EQ,BRRIOTBDR007
+Newmont Corporation Shs Unsponsored Brazilian Depositary Receipt Repr 1 Sh,Materials,N1EM34.SA,EQ,BRN1EMBDR005
+Freeport-McMoRan Inc. Shs Unsponsored Brazilian Depositary Receipt Repr 0.3333333 Sh,Materials,FCXO34.SA,EQ,BRFCXOBDR007
+Sherwin-Williams Company Shs Unsponsored Brazilian Depositary Receipt Repr 0.1 Sh,Materials,S1HW34.SA,EQ,BRS1HWBDR002
+Ecolab Inc. Shs Unsponsored Brazilian Depositary Receipt Repr 0.25 Sh,Materials,E1CL34.SA,EQ,BRE1CLBDR002
+CRH public limited company Shs Unsponsored Brazilian Depositary Receipt Repr 0.166666667 Sh,Materials,C1RH34.SA,EQ,BRC1RHBDR000
+Vale S.A.,Materials,VALE3.SA,EQ,BRVALEACNOR0
+Nucor Corporation Shs Unsponsored Brazilian Depositary Receipt Repr 0.08333333 Sh,Materials,N1UE34.SA,EQ,BRN1UEBDR008
+Corteva Inc Shs Unsponsored Brazilian Depository Receipt Repr 0.25 Sh,Materials,C1TV34.SA,EQ,BRC1TVBDR007
+ArcelorMittal SA Shs Unsponsored Brazilian Depository Receipts Repr 1/2 Sh,Materials,ARMT34.SA,EQ,BRARMTBDR008
+Cameco Corporation Shs Unsponsored Brazilian Depositary Receipt Repr 0.2 Sh,Materials,C1CJ34.SA,EQ,BRC1CJBDR008
+Franco-Nevada Corporation Shs Unsponsored Brazilian Depositary Receipt Repr 0.0055556 Sh,Materials,F2NV34.SA,EQ,BRF2NVBDR005
+Archer-Daniels-Midland Company Shs Unsponsored Brazilian Depository Receipt Repr 1 Sh,Materials,A1DM34.SA,EQ,BRA1DMBDR002
+Vulcan Materials Company Shs Unsponsored Brazilian Depositary Receipt Repr 0.0166667 Sh,Materials,V1MC34.SA,EQ,BRV1MCBDR009
+Martin Marietta Materials Inc. Shs Unsponsored Brazilian Depositary Receipt Repr 0.2 Sh,Materials,M1LM34.SA,EQ,BRM1LMBDR001
+Tenaris S.A. Unsponsored Brazilian Depositary Receipt Repr 0.5 ADR,Materials,T1SS34.SA,EQ,BRT1SSBDR006
+Gold Fields Limited Unsponsored Brazilian Depositary Receipt Repr 0.5 ADR,Materials,G1FI34.SA,EQ,BRG1FIBDR009
+PPG Industries Inc. Shs Unsponsored Brazilian Depositary Receipt Repr 1/2 Sh,Materials,P1PG34.SA,EQ,BRP1PGBDR001
+Dow Inc. Shs Unsponsored Brazilian Depositary Receipt Repr 0.25 Sh,Materials,D1OW34.SA,EQ,BRD1OWBDR005
+Sociedad Quimica y Minera de Chile SA SOQUIMICH ADR Unsponsored Brazilian Depositary Receipt Repr 0.166666 ADR,Materials,S2CH34.SA,EQ,BRS2CHBDR002
+LyondellBasell Industries NV Shs Unsponsored Brazilian Depositary Receipt Repr 1/2 Sh,Materials,L1YB34.SA,EQ,BRL1YBBDR008
+Packaging Corporation of America Shs Unsponsored Brazilian Depositary Receipt Repr 0.5 Sh,Materials,P1KG34.SA,EQ,BRP1KGBDR002
+DuPont de Nemours Inc. Shs Unsponsored Brazilian Depository Receipt Repr 1 Sh,Materials,DDNB34.SA,EQ,BRDDNBBDR008
+POSCO Holdings Inc. ADR Unsponsored Brazilian Depositary Receipt Repr 0.25 ADR,Materials,P1KX34.SA,EQ,BRP1KXBDR007
+Albemarle Corporation Shs Unsponsored Brazilian Depositary Receipt Repr 0.04166667 Sh,Materials,A1LB34.SA,EQ,BRA1LBBDR008
+International Paper Company Shs Unsponsored Brazilian Depositary Receipt Repr 1 Sh,Materials,I1PC34.SA,EQ,BRI1PCBDR009
+Amcor PLC Shs Unsponsored Brazilian Depositary Receipt Repr 1 Sh,Materials,A1CR34.SA,EQ,BRA1CRBDR003
+Avery Dennison Corp Shs Unsponsored Brazilian Depositary Receipt Repr 0.5 Sh,Materials,A1VY34.SA,EQ,BRA1VYBDR009
+MP Materials Corp Shs A Unsponsored Brazilian Depositary Receipt Repr 0.2 Sh A,Materials,M2PM34.SA,EQ,BRM2PMBDR000
+Suzano S.A.,Materials,SUZB3.SA,EQ,BRSUZBACNOR0
+Ternium S.A. ADR Unsponsored Brazilian Depository Receipt Repr 1 ADR,Materials,TXSA34.SA,EQ,BRTXSABDR003
+Gerdau S.A. Pfd,Materials,GGBR4.SA,EQ,BRGGBRACNPR8
+Gerdau S.A.,Materials,GGBR3.SA,EQ,BRGGBRACNOR1
+Sibanye Stillwater Limited Unsponsored Brazilian Depositary Receipt Repr 0.5 ADR,Materials,S1BS34.SA,EQ,BRS1BSBDR003
+Mosaic Co Shs Unsponsored Brazilian Depository Receipt Repr 0.1666667 Sh,Materials,MOSC34.SA,EQ,BRMOSCBDR003
+EAGLE MATERIALS INC Shs Unsponsored Brazilian Depositary Receipt Repr 0.0625 Shs,Materials,E2AG34.SA,EQ,BRE2AGBDR004
+Celanese Corporation Shs Unsponsored Brazilian Depositary Receipt Repr 0.5 Sh,Materials,C1NS34.SA,EQ,BRC1NSBDR006
+Aura Minerals Inc Shs Unsponsored Brazilian Depositary Receipt Repr 1 Sh,Materials,AURA33.SA,EQ,BRAURABDR001
+CSN Mineracao SA,Materials,CMIN3.SA,EQ,BRCMINACNOR2
+Klabin SA,Materials,KLBN3.SA,EQ,BRKLBNACNOR2
+Klabin SA Non-Cum Perp Pfd Registered Shs,Materials,KLBN4.SA,EQ,BRKLBNACNPR9
+Metalurgica Gerdau SA Pfd,Materials,GOAU4.SA,EQ,BRGOAUACNPR8
+Metalurgica Gerdau S.A.,Materials,GOAU3.SA,EQ,BRGOAUACNOR1
+Usinas Siderurgicas de Minas Gerais SA-Usiminas,Materials,USIM3.SA,EQ,BRUSIMACNOR3
+Usinas Siderurgicas de Minas Gerais SA-Usiminas Conv Pfd B,Materials,USIM6.SA,EQ,BRUSIMACNPB4
+Usinas Siderurgicas de Minas Gerais SA-Usiminas Pfd A,Materials,USIM5.SA,EQ,BRUSIMACNPA6
+Companhia Siderurgica Nacional,Materials,CSNA3.SA,EQ,BRCSNAACNOR6
+Sigma Lithium Corporation Unsponsored GDR,Materials,S2GM34.SA,EQ,BRS2GMBDR003
+FMC Corp Unsponsored Brazilian Depositary Receipt Repr 0.5 Sh,Materials,F1MC34.SA,EQ,BRF1MCBDR009
+SLC Agricola S.A.,Materials,SLCE3.SA,EQ,BRSLCEACNOR2
+Companhia Brasileira de Aluminio,Materials,CBAV3.SA,EQ,BRCBAVACNOR5
+Unipar Carbocloro SA Pfd Class A,Materials,UNIP5.SA,EQ,BRUNIPACNPA0
+Unipar Carbocloro SA Pfd Class B,Materials,UNIP6.SA,EQ,BRUNIPACNPB8
+Unipar Carbocloro SA,Materials,UNIP3.SA,EQ,BRUNIPACNOR7
+Braskem S.A. Pfd A,Materials,BRKM5.SA,EQ,BRBRKMACNPA4
+Braskem S.A.,Materials,BRKM3.SA,EQ,BRBRKMACNOR1
+Sao Martinho S.A.,Materials,SMTO3.SA,EQ,BRSMTOACNOR3
+Cia de Ferro Ligas da Bahia-Ferbasa Pfd,Materials,FESA4.SA,EQ,BRFESAACNPR5
+Cia de Ferro Ligas da Bahia,Materials,FESA3.SA,EQ,BRFESAACNOR8
+Uniao Pet Participacoes SA,Materials,AUAU3.SA,EQ,BRAUAUACNOR1
+Eucatex S.A. Industria e Comercio,Materials,EUCA3.SA,EQ,BREUCAACNOR1
+Eucatex S.A. Industria E Comercio Non-Cum Perp Pfd Registered Shs,Materials,EUCA4.SA,EQ,BREUCAACNPR8
+Irani Papel e Embalagem SA,Materials,RANI3.SA,EQ,BRRANIACNOR5
+Camil Alimentos SA,Materials,CAML3.SA,EQ,BRCAMLACNOR3
+Boa Safra Sementes SA,Materials,SOJA3.SA,EQ,BRSOJAACNOR9
+Dexxos Participacoes SA Pref,Materials,DEXP4.SA,EQ,BRDEXPACNPR8
+Dexxos Participacoes SA,Materials,DEXP3.SA,EQ,BRDEXPACNOR1
+Jalles Machado SA,Materials,JALL3.SA,EQ,BRJALLACNOR0
+Brazil Potash Corp Shs Sponsored Brazilian Depositary Receipt Repr 1 Sh,Materials,GROP31.SA,EQ,BRGROPBDR009
+Vittia S.A.,Materials,VITT3.SA,EQ,BRVITTACNOR4
+Paranapanema S.A.,Materials,PMAM3.SA,EQ,BRPMAMACNOR3
+Tronox Pigmentos do Brasil SA,Materials,CRPG3.SA,EQ,BRCRPGACNOR0
+Tronox Pigmentos do Brasil SA Pfd Registered Shs B,Materials,CRPG6.SA,EQ,BRCRPGACNPB1
+Tronox Pigmentos do Brasil SA Pfd Registered Shs A,Materials,CRPG5.SA,EQ,BRCRPGACNPA3
+Dohler SA Comercio e Industria Pfd,Materials,DOHL4.SA,EQ,BRDOHLACNPR9
+Pettenati S.A. Industria Textil,Materials,PTNT3.SA,EQ,BRPTNTACNOR6
+Pettenati SA Industria Textil Pfd,Materials,PTNT4.SA,EQ,BRPTNTACNPR3
+Cia Melhoramentos de Sao Paulo,Materials,MSPA3.SA,EQ,BRMSPAACNOR0
+Minupar Participacoes S.A.,Materials,MNPR3.SA,EQ,BRMNPRACNOR5
+Karsten S.A.Non-Cum Perp Pfd Registered Shs,Materials,CTKA4.SA,EQ,BRCTKAACNPR7
+Eternit S.A.,Materials,ETER3.SA,EQ,BRETERACNOR3
+Fertilizantes Heringer S.A.,Materials,FHER3.SA,EQ,BRFHERACNOR5
+Josapar Joaquim Oliveira SA Participacoes,Materials,JOPA3.SA,EQ,BRJOPAACNOR5
+Cia. de Fiacao e Tecidos Cedro e Cachoeira Pfd,Materials,CEDO4.SA,EQ,BRCEDOACNPR5
+Nutriplant Industria E Comercio S.A.,Materials,NUTR3.SA,EQ,BRNUTRACNOR0
+Textil Renauxview SA Pfd,Materials,TXRX4.SA,EQ,BRTXRXACNPR0

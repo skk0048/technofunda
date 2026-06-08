@@ -35,16 +35,16 @@ if os.path.exists(os.path.join(SCRIPT_DIR, "IndexData")):
 else:
     INDEX_DATA_DIR = os.path.join(SCRIPT_DIR, "SupportFiles", "IndexData")
 
-STOCK_CSV = os.path.join(INDEX_DATA_DIR, "uk_ftse350list.csv")
+STOCK_CSV = os.path.join(INDEX_DATA_DIR, "uk_all_stocks_master.csv")
 
 # ── Tunable constants ─────────────────────────────────────────────────────────
 MAX_STOCKS        = 500
-PERIOD_DAYS       = 420
+PERIOD_DAYS       = 504
 ENABLE_PATTERNS   = True
 PATTERN_MAX       = 300
 FETCH_FINANCIALS  = True
 ENABLE_SIGNALS    = True
-SIGNAL_MAX_STOCKS = 300
+SIGNAL_MAX_STOCKS = 500
 PRIMARY_RS_PERIOD = 22   # ← 22 / 55 / 120
 
 # ── Google Sheets auth ────────────────────────────────────────────────────────

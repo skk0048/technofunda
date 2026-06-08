@@ -1,18 +1,685 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-WEG SA,Industrials,WEGE3.SA,EQ,
-EMBRAER SA,Industrials,EMBR3.SA,EQ,
-Rumo SA,Industrials,RAIL3.SA,EQ,
-CCR SA,Industrials,CCRO3.SA,EQ,
-Azul SA,Industrials,AZUL4.SA,EQ,
-GOL Linhas Aereas Inteligentes SA,Industrials,GOLL4.SA,EQ,
-Localfrio SA,Industrials,LCAM3.SA,EQ,
-Randoncorp Participacoes SA,Industrials,RAPT4.SA,EQ,
-Marcopolo SA,Industrials,POMO4.SA,EQ,
-Tegma Gestao Logistica SA,Industrials,TGMA3.SA,EQ,
-Hidrovias do Brasil SA,Industrials,HBSA3.SA,EQ,
-JSL SA,Industrials,JSLG3.SA,EQ,
-Mahle-Metal Leve SA,Industrials,LEVE3.SA,EQ,
-Mills Estruturas e Servicos de Engenharia,Industrials,MILS3.SA,EQ,
-Santos Brasil Participacoes SA,Industrials,STBP3.SA,EQ,
-Simpar SA,Industrials,SIMH3.SA,EQ,
-Tupy SA,Industrials,TUPY3.SA,EQ,
+Caterpillar Inc Shs Unsponsored Brazilian Depositary Receipt Repr 0.0625 Sh,Industrials,CATP34.SA,EQ,BRCATPBDR003
+Lam Research Corporation Shs Unsponsored Brazilian Depositary Receipt Repr 0.02272727 S,Industrials,L1RC34.SA,EQ,BRL1RCBDR000
+Applied Materials Inc. Shs Unsponsored Brazilian Depositary Receipt Repr 0.1 Sh,Industrials,A1MT34.SA,EQ,BRA1MTBDR008
+GE Vernova Inc Shs Unsponsored Brazilian Depositary Receipt Repr 0.05 Sh,Industrials,G2EV34.SA,EQ,BRG2EVBDR003
+Deere & Co Shs Unsponsored Brazilian Depository Receipt Repr 0.03333333 Sh,Industrials,DEEC34.SA,EQ,BRDEECBDR003
+Eaton Corp. PlcShs Unsponsored Brazilian Depositary Receipt Repr 0.0714286 Sh,Industrials,E1TN34.SA,EQ,BRE1TNBDR002
+Uber Technologies Inc. Shs Unsponsored Brazilian Depositary Receipt Repr 0.25 Sh,Industrials,U1BE34.SA,EQ,BRU1BEBDR009
+Shopify Inc. Shs A Unsponsored Brazilian Depositary Receipt Repr 0.00833 Sh A,Industrials,S2HO34.SA,EQ,BRS2HOBDR007
+S&P Global Inc Shs Unsponsored Brazilian Depository Receipt Repr 0.0277778 Sh,Industrials,SPGI34.SA,EQ,BRSPGIBDR009
+Parker-Hannifin Corporation Shs Unsponsored Brazilian Depositary Receipt Repr 0.25 Sh,Industrials,P1HC34.SA,EQ,BRP1HCBDR007
+Quanta Services Inc. Shs Unsponsored Brazilian Depositary Receipt Repr 0.08333333 Sh,Industrials,Q1UA34.SA,EQ,BRQ1UABDR003
+Trane Technologies plc Shs Unsponsored Brazilian Depositary Receipt Repr 1/2 Sh,Industrials,I1RP34.SA,EQ,BRI1RPBDR007
+McKesson Corporation Shs Unsponsored Brazilian Depositary Receipt Repr 0.25 Sh,Industrials,M1CK34.SA,EQ,BRM1CKBDR004
+United Parcel Service Inc Shs Unsponsored Brazilian Depository Receipts Repr 0.0625 Sh,Industrials,UPSS34.SA,EQ,BRUPSSBDR009
+Cummins Inc. (Ex. Cummins Engine Inc) Shs Unsponsored Brazilian Depositary Receipt Repr 0.25 Sh,Industrials,C1MI34.SA,EQ,BRC1MIBDR009
+Waste Management Inc. Unsponsored Brazilian Depositary Receipt Repr 1/2 Sh,Industrials,W1MC34.SA,EQ,BRW1MCBDR008
+Williams Companies Inc. Shs Unsponsored Brazilian Depositary Receipt Repr 1 Sh,Industrials,W1MB34.SA,EQ,BRW1MBBDR000
+Johnson Controls International PLC Unsponsored Brazilian Depositary Receipt Repr 1 Sh,Industrials,J1CI34.SA,EQ,BRJ1CIBDR003
+SLB Limited Shs Unsponsored Brazilian Depositary Receipt Repr 0.5 Sh,Industrials,SLBG34.SA,EQ,BRSLBGBDR003
+3M Company Shs Unsponsored Brazilian Depository Receipts Repr 1/4 Sh,Industrials,MMMC34.SA,EQ,BRMMMCBDR000
+Canadian Pacific Kansas City Limited Shs Unsponsored Brazilian Depository Receipt Repr 1/4 Sh,Industrials,CPRL34.SA,EQ,BRCPRLBDR004
+FedEx Corporation Shs Unsponsored Brazilian Depository Receipts Repr 1 Sh,Industrials,FDXB34.SA,EQ,BRFDXBBDR002
+Moody's Corporation Shs Unsponsored Brazilian Depository Receipt Repr 1 Sh,Industrials,MCOR34.SA,EQ,BRMCORBDR005
+Canadian National Railway Co Shs Unsponsored Brazilian Depository Receipt Repr 0.04166667 Sh,Industrials,CNIC34.SA,EQ,BRCNICBDR007
+Illinois Tool Works Inc Unsponsored Brazilian Depositary Receipt Repr 0.25 Sh,Industrials,I1TW34.SA,EQ,BRI1TWBDR009
+Cintas Corporation Shs Unsponsored Brazilian Depositary Receipt Repr 0.2 Sh,Industrials,C1TA34.SA,EQ,BRC1TABDR001
+Kinder Morgan Inc Shs Unsponsored Brazilian Depository Receipt Repr 1 Sh P,Industrials,KMIC34.SA,EQ,BRKMICBDR002
+DoorDash Inc. Unsponsored ADR Class A,Industrials,D2AS34.SA,EQ,BRD2ASBDR000
+Republic Services Inc. Shs Unsponsored Brazilian Depositary Receipt Repr 0.5 Sh,Industrials,R1SG34.SA,EQ,BRR1SGBDR003
+Baker Hughes Company Class A Unsponsored Brazilian Depositary Receipt Repr 1 Sh,Industrials,B1KR34.SA,EQ,BRB1KRBDR005
+RELX PLC Unsponsored Brazilian Depositary Receipt Repr 0.25 ADR,Industrials,R1EL34.SA,EQ,BRR1ELBDR003
+PACCAR Inc Unsponsored Brazilian Depositary Receipt Repr 0.5 Sh,Industrials,P1AC34.SA,EQ,BRP1ACBDR002
+W.W. Grainger Inc. Shs Unsponsored Brazilian Depositary Receipt Repr 0.025 Sh,Industrials,G1WW34.SA,EQ,BRG1WWBDR005
+Carrier Global Corp. Shs Unsponsored Brazilian Depository Receipt Repr 0.25 Sh,Industrials,C1RR34.SA,EQ,BRC1RRBDR009
+ONEOK Inc. Shs Unsponsored Brazilian Depositary Receipt Repr 1/2 Sh,Industrials,O1KE34.SA,EQ,BRO1KEBDR008
+Fastenal Company Unsponsored Brazilian Depository Receipt Repr 1 Sh,Industrials,FASL34.SA,EQ,BRFASLBDR007
+Cencora Inc. Shs Unsponsored Brazilian Depositary Receipt Repr 0.5 Sh,Industrials,C1CO34.SA,EQ,BRC1COBDR008
+Delta Air Lines Inc. Unsponsored Brazilian Depository Receipt Repr 1/1 Sh,Industrials,DEAI34.SA,EQ,BRDEAIBDR008
+AMETEK Inc. Shs Unsponsored Brazilian Depositary Receipt Repr 0.04166667 S,Industrials,A1ME34.SA,EQ,BRA1MEBDR000
+Rockwell Automation Inc. Shs Unsponsored Brazilian Depositary Receipt Repr 0.25 Sh,Industrials,R1OK34.SA,EQ,BRR1OKBDR004
+Cardinal Health Inc. Unsponsored Brazilian Depositary Receipt Repr 1 Sh,Industrials,C1AH34.SA,EQ,BRC1AHBDR006
+MSCI Inc. Shs A Unsponsored Brazilian Depositary Receipt Repr 0.02272727 Sh,Industrials,M1SC34.SA,EQ,BRM1SCBDR007
+Block Inc. Shs A Unsponsored Brazilian Depositary Receipt Repr 0.04 Sh A,Industrials,X1YZ34.SA,EQ,BRX1YZBDR003
+Jabil Inc. Unsponsored Brazilian Depositary Receipt Repr 0.125 Sh,Industrials,J2BL34.SA,EQ,BRJ2BLBDR007
+Sysco Corporation Unsponsored Brazilian Depositary Receipt Repr 1/2 Sh,Industrials,S1YY34.SA,EQ,BRS1YYBDR003
+PayPal Holdings Inc. Shs Unsponsored Brazilian Depository Receipts Repr 0.05 Sh,Industrials,PYPL34.SA,EQ,BRPYPLBDR002
+WEG SA,Industrials,WEGE3.SA,EQ,BRWEGEACNOR0
+United Airlines Holdings Inc. Shs Unsponsored Brazilian Depositary Receipt Repr 1/2 Sh,Industrials,U1AL34.SA,EQ,BRU1ALBDR006
+Halliburton Company Shs,Industrials,HALI34.SA,EQ,BRHALIBDR004
+Fiserv Inc. Unsponsored Brazilian Depositary Receipt Repr 1/2 Sh,Industrials,F1IS34.SA,EQ,BRF1ISBDR003
+Ryanair Holdings PLC Unsponsored Brazilian Depositary Receipt Repr 0.125 ADR,Industrials,R1YA34.SA,EQ,BRR1YABDR004
+Otis Worldwide Corporation Shs Unsponsored Brazilian Depositary Receipt Repr 0.5 Sh,Industrials,O1TI34.SA,EQ,BRO1TIBDR000
+TechnipFMC PLC Shs Unsponsored Brazilian Depositary Receipt Repr 1 Sh,Industrials,T1EC34.SA,EQ,BRT1ECBDR000
+Fair Isaac Corporation Shs Unsponsored Brazilian Depositary Receipt Repr 0.022222 Sh,Industrials,F2IC34.SA,EQ,BRF2ICBDR005
+Xylem Inc. Shs Unsponsored Brazilian Depositary Receipt Repr 0.5 Sh,Industrials,X1YL34.SA,EQ,BRX1YLBDR003
+Rollins Inc Shs Unsponsored Brazilian Depositary Receipt Repr 1 Sh,Industrials,R1OL34.SA,EQ,BRR1OLBDR002
+Omnicom Group Inc Shs Unsponsored Brazilian Depositary Receipt Repr 0.5 Sh,Industrials,O1MC34.SA,EQ,BRO1MCBDR008
+MKS Inc Shs Unsponsored Brazilian Depositary Receipt Repr 0.055555 Sh,Industrials,M2KS34.SA,EQ,BRM2KSBDR008
+Southwest Airlines Co. Shs Unsponsored Brazilian Depositary Receipt Repr 1 Sh,Industrials,S1OU34.SA,EQ,BRS1OUBDR002
+ZTO Express (Cayman) Inc. ADR A Unsponsored Brazilian Depositary Receipt Repr 0.25 ADR A,Industrials,Z1TO34.SA,EQ,BRZ1TOBDR005
+IDEX Corporation Shs Unsponsored Brazilian Depositary Receipt Repr 0.05 Sh,Industrials,I1EX34.SA,EQ,BRI1EXBDR009
+Warner Music Group Corp. Unsponsored Brazilian Depository Receipt Repr 0.25 Sh A,Industrials,W1MG34.SA,EQ,BRW1MGBDR009
+Watsco Inc Unsponsored Brazilian Depositary Receipt Repr 0.04 Sh,Industrials,W1SO34.SA,EQ,BRW1SOBDR000
+BorgWarner Inc. Shs Unsponsored Brazilian Depositary Receipt Repr 1 Sh,Industrials,B1WA34.SA,EQ,BRB1WABDR006
+Aptiv PLC Shs Unsponsored Brazilian Depository Receipt Repr 1/2 Sh,Industrials,APTV34.SA,EQ,BRAPTVBDR003
+Regal Rexnord Corporation Shs Unsponsored Brazilian Depositary Receipt Repr 0.0555555 Sh,Industrials,R2RX34.SA,EQ,BRR2RXBDR008
+Genuine Parts Company Shs Unsponsored Brazilian Depositary Receipt Repr 0.5 Sh,Industrials,G1PC34.SA,EQ,BRG1PCBDR001
+Grupo Aeroportuario del Pacifico SAB de CV Shs -B- Unsponsored Brazilian Depositary Receipt Repr 0.0069444 Sh,Industrials,P2CF34.SA,EQ,BRP2CFBDR009
+Icon PLC Shs Unsponsored Brazilian Depositary Receipt Repr 0.05 Shs,Industrials,ICLR34.SA,EQ,BRICLRBDR009
+Booz Allen Hamilton Holding Corp Class A Unsponsored Brazilian Depositary Receipt Repr 0.1,Industrials,B2AH34.SA,EQ,BRB2AHBDR005
+American Airlines Group Inc. Shs Unsponsored Brazilian Depository Receipt Repr 1 Sh,Industrials,AALL34.SA,EQ,BRAALLBDR003
+Grupo Aeroportuario del Sureste SAB de CV Unsponsored Brazilian Depositary Receipt Repr 0.05 Sh,Industrials,S2RE34.SA,EQ,BRS2REBDR007
+A. O. Smith Corporation Unsponsored Brazilian Depositary Receipt Repr 1 Sh,Industrials,A1OS34.SA,EQ,BRA1OSBDR006
+Enphase Energy Inc. Shs Unsponsored Brazilian Depositary Receipt Repr 0.04 Sh,Industrials,E2NP34.SA,EQ,BRE2NPBDR008
+NOV Inc. Shs Unsponsored Brazilian Depositary Receipt Repr 1 Sh,Industrials,N1OV34.SA,EQ,BRN1OVBDR005
+Transocean Ltd. Shs Unsponsored Brazilian Depository Receipts Repr 1Sh,Industrials,RIGG34.SA,EQ,BRRIGGBDR000
+Mohawk Industries Inc. Shs Unsponsored Brazilian Depositary Receipt Repr 0.0384615 Sh,Industrials,M1HK34.SA,EQ,BRM1HKBDR003
+TAL Education Group ADR A Unsponsored BDR,Industrials,T1AL34.SA,EQ,BRT1ALBDR009
+Motiva Infraestrutura de Mobilidade SA,Industrials,MOTV3.SA,EQ,BRMOTVACNOR7
+WEX Inc Shs Unsponsored Brazilian Depositary Receipt Repr 0.066666 Sh,Industrials,W2EX34.SA,EQ,BRW2EXBDR009
+Rumo SA,Industrials,RAIL3.SA,EQ,BRRAILACNOR9
+Alaska Air Group Inc. Shs Unsponsored Brazilian Depositary Receipt Repr 1 Sh,Industrials,A1LK34.SA,EQ,BRA1LKBDR009
+QuantumScape Corporation Shs A Unsponsored Brazilian Depositary Receipt Repr 0.3333 Sh A,Industrials,Q2SC34.SA,EQ,BRQ2SCBDR001
+SolarEdge Technologies Inc. Shs Unsponsored Brazilian Depositary Receipt Repr 0.0285714 Sh,Industrials,S2ED34.SA,EQ,BRS2EDBDR007
+WPP Plc Unsponsored Brazilian Depositary Receipt Repr 0.2 ADR,Industrials,W1PP34.SA,EQ,BRW1PPBDR003
+Robert Half Inc. Shs Unsponsored Brazilian Depositary Receipt Repr 1 Sh,Industrials,R1HI34.SA,EQ,BRR1HIBDR002
+MRS Logistica SA Pfd Class B,Industrials,MRSA6BF.SA,EQ,BRMRSAACNPB7
+MRS Logistica S.A.,Industrials,MRSA3BF.SA,EQ,BRMRSAACNOR6
+MRS Logistica SA Pfd Shs A,Industrials,MRSA5BF.SA,EQ,BRMRSAACNPA9
+MRS Logistica S.A.,Industrials,MRSA3B.SA,EQ,BRMRSAACNOR6
+Transmissora Alianca De Energia Eletrica S.A.,Industrials,TAEE3.SA,EQ,BRTAEEACNOR9
+Transmissora Alianca De Energia Eletrica S.A. Pfd,Industrials,TAEE4.SA,EQ,BRTAEEACNPR6
+Euronet Worldwide Inc Shs Unsponsored Brazilian Depositary Receipt Repr 0.00666667 Sh,Industrials,E2EF34.SA,EQ,BRE2EFBDR008
+StoneCo Ltd. Unsponsored Brazilian Depositary Receipt Repr 1 Sh,Industrials,STOC34.SA,EQ,BRSTOCBDR024
+PagSeguro Digital Ltd. Shs A Unsponsored Brazilian Depositary Receipt Repr 0.2 Sh A,Industrials,PAGS34.SA,EQ,BRPAGSBDR006
+GPS Participacoes e Empreendimentos SA,Industrials,GGPS3.SA,EQ,BRGGPSACNOR9
+Newell Brands Inc Unsponsored Brazilian Depositary Receipt Repr 1 Sh,Industrials,N1WL34.SA,EQ,BRN1WLBDR009
+Azul S.A.,Industrials,AZUL98.SA,EQ,BRAZULCDAM13
+Azul S.A.,Industrials,AZUL3.SA,EQ,BRAZULACNOR7
+Azul S.A.,Industrials,AZUL97.SA,EQ,BRAZULCDAXX7
+Azul S.A.,Industrials,AZUL99.SA,EQ,BRAZULCDAYY3
+EVERTEC Inc. Shs Sponsored Brazilian Depositary Receipt Repr 1 Sh,Industrials,EVTC31.SA,EQ,BREVTCBDR003
+Tres Tentos Agroindustrial SA,Industrials,TTEN3.SA,EQ,BRTTENACNOR0
+Marcopolo SA,Industrials,POMO3.SA,EQ,BRPOMOACNOR0
+Marcopolo SA Pfd,Industrials,POMO4.SA,EQ,BRPOMOACNPR7
+Fras-Le S.A.,Industrials,FRAS3.SA,EQ,BRFRASACNOR0
+Upwork Inc. Unsponsored Brazilian Depositary Receipt Repr 0.2 Sh,Industrials,U2PW34.SA,EQ,BRU2PWBDR009
+Schulz S.A.Non-Cum Perp Pfd Registered Shs,Industrials,SHUL4.SA,EQ,BRSHULACNPR4
+EcoRodovias Infraestrutura e Logistica S.A.,Industrials,ECOR3.SA,EQ,BRECORACNOR8
+Cogna Educacao S.A.,Industrials,COGN3.SA,EQ,BRCOGNACNOR2
+Simpar SA,Industrials,SIMH3.SA,EQ,BRSIMHACNOR0
+Mahle-Metal Leve S.A.,Industrials,LEVE3.SA,EQ,BRLEVEACNOR2
+RIACHUELO,Industrials,RIAA3.SA,EQ,BRRIAAACNOR2
+Dexco SA,Industrials,DXCO3.SA,EQ,BRDXCOACNOR8
+Hidrovias do Brasil SA,Industrials,HBSA3.SA,EQ,BRHBSAACNOR0
+Minerva S.A.,Industrials,BEEF3.SA,EQ,BRBEEFACNOR6
+Log-In Logistica Intermodal SA,Industrials,LOGN3.SA,EQ,BRLOGNACNOR3
+Log Commercial Properties e Participacoes SA,Industrials,LOGG3.SA,EQ,BRLOGGACNOR7
+YDUQS Participacoes SA,Industrials,YDUQ3.SA,EQ,BRYDUQACNOR3
+OceanPact Servicos Maritimos SA,Industrials,OPCT3.SA,EQ,BROPCTACNOR0
+Tegma Gestao Logistica S.A.,Industrials,TGMA3.SA,EQ,BRTGMAACNOR7
+Vitru Brasil Empreendimentos Participacoes e Comercio S.A.,Industrials,VTRU3.SA,EQ,BRVTRUACNOR3
+JSL S.A.,Industrials,JSLG3.SA,EQ,BRJSLGACNOR2
+Tupy S.A.,Industrials,TUPY3.SA,EQ,BRTUPYACNOR1
+Randoncorp S.A.,Industrials,RAPT3.SA,EQ,BRRAPTACNOR7
+Randoncorp S.A.,Industrials,RAPT4.SA,EQ,BRRAPTACNPR4
+Valid Solucoes SA,Industrials,VLID3.SA,EQ,BRVLIDACNOR5
+Iochpe Maxion S.A.,Industrials,MYPK3.SA,EQ,BRMYPKACNOR7
+Metalfrio Solutions S.A.,Industrials,FRIO3.SA,EQ,BRFRIOACNOR2
+Kepler Weber SA,Industrials,KEPL3.SA,EQ,BRKEPLACNOR1
+Priner Servicos Industriais SA,Industrials,PRNR3.SA,EQ,BRPRNRACNOR4
+ChargePoint Holdings Inc. Unsponsored Brazilian Depositary Receipt Repr 0.3333 Sh A,Industrials,C2HP34.SA,EQ,BRC2HPBDR002
+Profarma Distribuidora de Produtos Farmaceuticos SA,Industrials,PFRM3.SA,EQ,BRPFRMACNOR1
+Panatlantica S.A. Pfd,Industrials,PATI4.SA,EQ,BRPATIACNPR3
+Panatlantica S.A.,Industrials,PATI3.SA,EQ,BRPATIACNOR6
+WLM Participacoes e Comercio de Maquinas e Veiculos SA Pfd,Industrials,WLMM4.SA,EQ,BRWLMMACNPR3
+WLM Participacoes e Comercio de Maquinas e Veiculos SA,Industrials,WLMM3.SA,EQ,BRWLMMACNOR6
+CSU Digital SA,Industrials,CSUD3.SA,EQ,BRCSUDACNOR5
+Melnick Desenvolvimento Imobiliario SA,Industrials,MELK3.SA,EQ,BRMELKACNOR8
+Romi SA,Industrials,ROMI3.SA,EQ,BRROMIACNOR8
+Sequoia Logistica e Transportes SA,Industrials,SEQL3.SA,EQ,BRSEQLACNOR2
+Meliuz SA,Industrials,CASH3.SA,EQ,BRCASHACNOR8
+CM Hospitalar SA,Industrials,VVEO3.SA,EQ,BRVVEOACNOR0
+TPI - Triunfo Participacoes e Investimentos SA,Industrials,TPIS3.SA,EQ,BRTPISACNOR8
+D1000 Varejo Farma Participacoes SA,Industrials,DMVF3.SA,EQ,BRDMVFACNOR9
+Metisa Metalurgica Timboense SA Pfd,Industrials,MTSA4.SA,EQ,BRMTSAACNPR9
+Electro Aco Altona SA Pfd,Industrials,EALT4.SA,EQ,BREALTACNPR1
+Electro Aco Altona SA,Industrials,EALT3.SA,EQ,BREALTACNOR4
+Ambipar Participacoes e Empreendimentos SA,Industrials,AMBP3.SA,EQ,BRAMBPACNOR6
+PBG S.A.Registered Shs,Industrials,PTBL3.SA,EQ,BRPTBLACNOR8
+Excelsior Alimentos SA Pfd,Industrials,BAUH4.SA,EQ,BRBAUHACNPR3
+LPS Brasil-Consultoria de Imoveis SA,Industrials,LPSB3.SA,EQ,BRLPSBACNOR0
+Sao Paulo Turismo SA,Industrials,AHEB3.SA,EQ,BRAHEBACNOR0
+Construtora Adolpho Lindenberg SA,Industrials,CALI3.SA,EQ,BRCALIACNOR1
+Mangels Industrial SA Pfd Shs,Industrials,MGEL4.SA,EQ,BRMGELACNPR3
+Livetech da Bahia Industria e Comercio SA,Industrials,WDCN3.SA,EQ,BRWDCNACNOR2
+Sondotecnica Engenharia de Solos S.A. Pfd Shs B,Industrials,SOND6.SA,EQ,BRSONDACNPB6
+Sondotecnica Engenharia de Solos S.A. Pfd Shs A,Industrials,SOND5.SA,EQ,BRSONDACNPA8
+Metalurgica Riosulense SA Pfd,Industrials,RSUL4.SA,EQ,BRRSULACNPR3
+Aeris Industria e Comercio de Equipamentos para Geracao deEnergia S.A.,Industrials,AERI3.SA,EQ,BRAERIACNOR4
+Inepar SA Industria e Construcoes,Industrials,INEP3.SA,EQ,BRINEPACNOR1
+Inepar SA Industria e Construcoes Pfd,Industrials,INEP4.SA,EQ,BRINEPACNPR8
+Arandu Investimentos S.A,Industrials,ARND3.SA,EQ,BRARNDACNOR6
+Trevisa Investimentos SA Pfd,Industrials,LUXM4.SA,EQ,BRLUXMACNPR4
+Infracommerce CXAAS SA,Industrials,IFCM3.SA,EQ,BRIFCMACNOR8
+Azevedo & Travassos SA,Industrials,AZEV3.SA,EQ,BRAZEVACNOR0
+Azevedo & Travassos SA Pfd,Industrials,AZEV4.SA,EQ,BRAZEVACNPR7
+Recrusul SA,Industrials,RCSL3.SA,EQ,BRRCSLACNOR4
+Recrusul SA Pfd,Industrials,RCSL4.SA,EQ,BRRCSLACNPR1
+Sansuy SA Industria de Plasticos,Industrials,SNSY3.SA,EQ,BRSNSYACNOR2
+Sansuy SA Industria de Plasticos Pfd A,Industrials,SNSY5.SA,EQ,BRSNSYACNPA5
+Plascar Participacoes Industriais S.A.,Industrials,PLAS3.SA,EQ,BRPLASACNOR2
+Lupatech S.A.,Industrials,LUPA3.SA,EQ,BRLUPAACNOR8
+Agrogalaxy Participacoes SA,Industrials,AGXY3.SA,EQ,BRAGXYACNOR4
+Embpar Participacoes SA,Industrials,EPAR3.SA,EQ,BREPARACNOR9
+Wetzel S.A. Non-Cum Perp Pfd Registered Shs,Industrials,MWET4.SA,EQ,BRMWETACNPR3
+Contax Participacoes SA,Industrials,CTAX3.SA,EQ,BRCTAXACNOR3
+Nordon Industrias Metalurgicas S.A.,Industrials,NORD3.SA,EQ,BRNORDACNOR7
+Revee SA,Industrials,RVEE3.SA,EQ,BRRVEEACNOR9
+Fictor Alimentos SA,Industrials,FICT3.SA,EQ,BRFICTACNOR3
+Bardella SA Industrias Mecanicas,Industrials,BDLL3.SA,EQ,BRBDLLACNOR1
+Bardella SA Industrias Mecanicas Pfd,Industrials,BDLL4.SA,EQ,BRBDLLACNPR8
+OSX Brasil S.A.,Industrials,OSXB3.SA,EQ,BROSXBACNOR8
+Cemepe Investimentos SA Pfd,Industrials,MAPT4.SA,EQ,BRMAPTACNPR5
+Porto Sudeste VM SA,Industrials,PSVM11.SA,EQ,BRPSVMTRV004
+iShares Currency Hedged MSCI EAFE ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.25 Sh,Industrials,BHEF39.SA,EQ,BRBHEFBDR003
+Fundo de Investimento Imobiliario Riviera Residencial Responsabilidade Limitada,Industrials,RRES11.SA,EQ,BRRRESCTF000
+General Shopping Ativo e Renda Fundo de Investimento Imobiliario Cotas,Industrials,FIGS11.SA,EQ,BRFIGSCTF009
+iShares MSCI ACWI ex US ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.16666666 Sh,Industrials,ACWX39.SA,EQ,BRACWXBDR001
+Galapagos Desenvolvimento Logistico Fundo de Investimento Imobiliario Responsabilidade Limitada,Industrials,GCDL11.SA,EQ,BRGCDLCTF002
+Patria Log - Fundo de Investimento Imobiliario - Responsabilidade Limitada Cotas,Industrials,HGLG11.SA,EQ,BRHGLGCTF004
+Global X MLP & Energy Infrastructure ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.125 Sh,Industrials,BLPX39.SA,EQ,BRBLPXBDR004
+Maxi Renda Fundo de Investimento Imobiliario Cotas,Industrials,MXRF11.SA,EQ,BRMXRFCTF008
+iShares 1-3 Year Treasury Bond ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.125 Sh,Industrials,BSHY39.SA,EQ,BRBSHYBDR004
+Kinea Rendimentos Imobiliarios Fundo de Investimento Imobiliario - FII Cotas,Industrials,KNCR11.SA,EQ,BRKNCRCTF000
+iShares MSCI United Kingdom ETF Unsponsored Brazilian Depository Receipt Repr 0.333333 Sh,Industrials,BEWU39.SA,EQ,BRBEWUBDR001
+MMVE Oportunidades Imobiliarias Fundo de Investimento Imobiliario,Industrials,MMVE11.SA,EQ,BRMMVECTF006
+Global X Superdividend ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.5 Sh,Industrials,BSDV39.SA,EQ,BRBSDVBDR009
+Vectis Datagro Credito Agronegocio - Fundo de Investimento nas Cadeias Produtivas Agroindustriais - Imobiliario,Industrials,VCRA11.SA,EQ,BRVCRACTF004
+BTG Pactual Logistica Fundo de Investimento Imobiliario Responsabilidade Limitada,Industrials,BTLG11.SA,EQ,BRBTLGCTF000
+Prisma Proton Energia Fundo de Investimento em Participacoes em Infraestrutura A,Industrials,PPEI11.SA,EQ,BRPPEICTF009
+Midway Mall Fundo de Investimento Imobiliario Responsabilidade Limitada,Industrials,MIDW11.SA,EQ,BRMIDWCTF004
+iShares Semiconductor ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.025 Sh,Industrials,BSOX39.SA,EQ,BRBSOXBDR002
+Vinci Imoveis Urbanos Fundo de Investimento Imobiliario,Industrials,VIUR11.SA,EQ,BRVIURCTF009
+Patria Plus Multiestrategia Real Estate FII,Industrials,RBRX11.SA,EQ,BRRBRXCTF006
+Zavit Credito Imobiliario - Fundo De Investimento Imobiliario,Industrials,ZAVC11.SA,EQ,BRZAVCCTF007
+Hedge Desenvolvimento Logistico Fundo de Investimento Imobiliario,Industrials,HDEL11.SA,EQ,BRHDELCTF006
+iShares MSCI Japan Value ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.25 Sh,Industrials,EWJV39.SA,EQ,BREWJVBDR002
+iShares MBS ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.1 Sh,Industrials,BMBB39.SA,EQ,BRBMBBBDR008
+iShares MSCI India Small Cap Index Fund Shs Unsponsored Brazilian Depositary Receipt Repr 0.125 Sh,Industrials,SMIN39.SA,EQ,BRSMINBDR002
+Ad Shopping Fundo de Investimento Imobiliario Responsabilidade Limitada,Industrials,ADSH11.SA,EQ,BRADSHCTF009
+iShares US Energy ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.333333333 Sh,Industrials,BIYE39.SA,EQ,BRBIYEBDR002
+Global X FinTech ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.2 Sh,Industrials,BFNX39.SA,EQ,BRBFNXBDR001
+XP Selection Fundo de Fundos de Investimento Imobiliario - FII,Industrials,XPSF11.SA,EQ,BRXPSFCTF009
+iShares U.S. Consumer Discretionary ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.2 Sh,Industrials,BIYC39.SA,EQ,BRBIYCBDR006
+Capitania Infra FIC FI Infra RF CP,Industrials,CPTI11.SA,EQ,BRCPTICTF005
+JCCJ FOF JHSF Capital Fundo de Investimento Imobiliario,Industrials,JCCJ11.SA,EQ,BRJCCJCTF002
+Fundo de Investimentos Imobiliario Bamerindus - Via Parque Shopping Cotas,Industrials,FVPQ11.SA,EQ,BRFVPQCTF015
+Global X NASDAQ 100 Covered Call ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.33333333 Sh,Industrials,BQYL39.SA,EQ,BRBQYLBDR000
+First Trust NASDAQ-100 Technology Sector Index Fund Shs Unsponsored Brazilian Depositary Receipt Repr 0.066666667 Sh,Industrials,BQTC39.SA,EQ,BRBQTCBDR009
+iShares Future Exponential Technologies ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.166666667 Sh,Industrials,BXTC39.SA,EQ,BRBXTCBDR005
+Suno Multiestrategia Fundo de Investimento Imobiliario,Industrials,SNME11.SA,EQ,BRSNMECTF000
+V2 Edificios Corporativos Fundode Investimento Imobiliario,Industrials,VVCO11.SA,EQ,BRVVCOCTF007
+iShares MSCI Taiwan ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.1666 Sh,Industrials,BEWT39.SA,EQ,BRBEWTBDR003
+Galapagos Recebiveis Imobiliarios Fundo de Investimento Imobiliario,Industrials,GCRI11.SA,EQ,BRGCRICTF008
+iShares MSCI ACWI ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.1 Sh,Industrials,BACW39.SA,EQ,BRBACWBDR007
+iShares MSCI UAE ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.5 Sh,Industrials,BUAE39.SA,EQ,BRBUAEBDR007
+Fundo de Investimento Imobiliario Rio Negro - FII Cotas,Industrials,RNGO11.SA,EQ,BRRNGOCTF003
+JPMorgan BetaBuilders Japan Fund Shs Unsponsored Brazilian Depositary Receipt Repr 0.2 Sh,Industrials,BBJP39.SA,EQ,BRBBJPBDR004
+V2 Recebiveis Imobiliarios Fundo de Investimento Imobiliario,Industrials,VVCR11.SA,EQ,BRVVCRCTF000
+iShares U.S. Basic Materials ETF Unsponsored Brazilian Depositary Receipt Repr 0.083333333 Sh,Industrials,BIYM39.SA,EQ,BRBIYMBDR005
+iShares MSCI Saudi Arabia ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.25 Sh,Industrials,BKSA39.SA,EQ,BRBKSABDR008
+iShares 3-7 Year Treasury Bond ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.083333 Sh,Industrials,BIEI39.SA,EQ,BRBIEIBDR005
+iShares MSCI USA Momentum Factor ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.05 Sh,Industrials,BMTU39.SA,EQ,BRBMTUBDR000
+Navi Credito Imobiliario Fundo de Investimento Imobiliario,Industrials,NCRI11.SA,EQ,BRNCRICTF004
+iShares MSCI Germany ETF Unsponsored Brazilian Depository Receipt Repr 0.333333 Sh,Industrials,BEWG39.SA,EQ,BRBEWGBDR000
+Brazilian Graveyard and Death Care Services Fundo de Investimento Imobiliario- FII Cotas,Industrials,CARE11.SA,EQ,BRCARECTF000
+Itau Credito Imobiliario IPCA Fundo De Investimento Imobiliario,Industrials,ICRI11.SA,EQ,BRICRICTF004
+Hedge Top Fofii 3 Fundo Investimento Imobiliario,Industrials,HFOF11.SA,EQ,BRHFOFCTF002
+Fundo de Investimento BM Brascan Lages Corporativas - FII Cotas,Industrials,BMLC11.SA,EQ,BRBMLCCTF004
+Itau Isento Julho 28 FIC de Fundos Incentivados de Inv Financeiro em Infra RF Resp Limitada,Industrials,ISNN11.SA,EQ,BRISNNCTF009
+Brio Real Estate III Fundo de Iinvestimento Imobiliario,Industrials,BRIP11.SA,EQ,BRBRIPCTF001
+21Shares Ltd ETP Unsponsored Brazilian Depositary Receipt Repr 0.1 ETP,Industrials,SOLN39.SA,EQ,BRSOLNBDR002
+Kinea Securities Fundo de Investimento Imobiliario,Industrials,KNSC11.SA,EQ,BRKNSCCTF008
+Dama Fundo de Investimento Imobiliario Responsabilidade Limitada,Industrials,DAMA11.SA,EQ,BRDAMACTF007
+iShares GSCI Commodity Dynamic Roll Strategy ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.333333333 Sh,Industrials,BCOM39.SA,EQ,BRBCOMBDR009
+iShares TIPS Bond ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.1 Sh,Industrials,BTIP39.SA,EQ,BRBTIPBDR008
+XP Hoteis - Fundo de Investimento Imobiliario - FII Shs,Industrials,BTHI11.SA,EQ,BRBTHICTF004
+Global X Robotics & Artificial Intelligence ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.25 Sh,Industrials,BOTZ39.SA,EQ,BRBOTZBDR005
+iShares Genomics Immunology and Healthcare ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.5 Sh,Industrials,BIDN39.SA,EQ,BRBIDNBDR007
+iShares S&P 500 Growth ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.125 Sh,Industrials,BIVW39.SA,EQ,BRBIVWBDR000
+Zagros Renda Imobiliaria Fundo de Investimento Imobiliario - Responsabilidade Limitada,Industrials,GGRC11.SA,EQ,BRGGRCCTF002
+iShares MSCI South Korea Capped ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.125 Sh,Industrials,BEWY39.SA,EQ,BRBEWYBDR003
+iShares MSCI USA Minimum Volatility ETF Unsponsored Brazilian Depository Receipt Repr 0.125 Sh,Industrials,BUSM39.SA,EQ,BRBUSMBDR002
+iShares US Technology ETF Unsponsored Brazilian Depositary Receipt Repr 0.02857 Sh,Industrials,BIYW39.SA,EQ,BRBIYWBDR004
+Fundo de Investimento Imobiliario Devant Fundo de Fundos Imobiliarios,Industrials,DVFF11.SA,EQ,BRDVFFCTF006
+Fundo De Investimento Imobiliario Multi Renda Urbana,Industrials,VVMR11.SA,EQ,BRVVMRCTF009
+Fundo de Investimento Imobiliario Edificio Ourinvest Cotas,Industrials,EDFO11.SA,EQ,BREDFOCTF004
+Devant Properties Fundo de Investimento Imobiliario,Industrials,DPRO11.SA,EQ,BRDPROCTF005
+Global X Defense Tech ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.125 Sh,Industrials,SHLD39.SA,EQ,BRSHLDBDR007
+iShares 0-3 Month Treasury Bond ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.1 Sh,Industrials,DOLL39.SA,EQ,BRDOLLBDR008
+Caixa Rio Bravo Fundo De Fundos De Investimento Imobiliario II,Industrials,CRFF11.SA,EQ,BRCRFFCTF006
+Global X MLP Shs Unsponsored Brazilian Depositary Receipt Repr 0.125 Sh,Industrials,BLPA39.SA,EQ,BRBLPABDR002
+Inter Logistico Fundo De Investimento Imobiliario FII,Industrials,INLG11.SA,EQ,BRINLGCTF008
+Fundo De Investimento Imobiliario - FII Edificio Galeria Responsabilidade Limitada Cotas,Industrials,EDGA11.SA,EQ,BREDGACTF001
+Canuma Capital Multiestrategia Fundo de Investimento Imobiliario,Industrials,CCME11.SA,EQ,BRCCMECTF007
+Rio Bravo For You Fundo de Investimento Imobiliario de Responsabilidade Limitada,Industrials,RBFY11.SA,EQ,BRRBFYCTF009
+Lago da Pedra Fundo Investimento Imobiliario,Industrials,LPLP11.SA,EQ,BRLPLPCTF008
+21Shares Ltd ETP Unsponsored Brazilian Depositary Receipt Repr 1 ETP,Industrials,AADA39.SA,EQ,BRAADABDR003
+iShares Mortgage Real Estate ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.5 Sh,Industrials,BMRE39.SA,EQ,BRBMREBDR008
+Kinea Infra Fundo Investimento Cotas Fundos Investimento Direitos Creditorios Infraestrutura,Industrials,KDIF11.SA,EQ,BRKDIFCTF003
+iShares 7-10 Year Treasury Bond ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.1 Sh,Industrials,BIYT39.SA,EQ,BRBIYTBDR000
+Itau Fundo de Investimento em Cotas de Fundos Incentivados de Investimento Financeiro em Infraestrutura CDI Renda Fixa,Industrials,IFRI11.SA,EQ,BRIFRICTF007
+RIO Bravo Renda Residencial Fundo de Investimentos Imobiliario,Industrials,RBRS11.SA,EQ,BRRBRSCTF006
+Patria Properties,Industrials,RBRP11.SA,EQ,BRRBRPCTF002
+Inter Residence Fundo de Investimento Imobiliario FII,Industrials,INRD11.SA,EQ,BRINRDCTF002
+iShares Russell 2000 ETF Unsponsored Brazilian Depository Receipt Repr 0.05 Sh,Industrials,BIWM39.SA,EQ,BRBIWMBDR009
+iShares MSCI South Africa ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.16666666 Sh,Industrials,BEZA39.SA,EQ,BRBEZABDR006
+iShares MSCI Austria ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.33333333 Sh,Industrials,BEWO39.SA,EQ,BRBEWOBDR004
+First Trust US Equity Opportunities ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.066666667 Sh,Industrials,BFPX39.SA,EQ,BRBFPXBDR006
+Capitania Office FII Fundo de Investimento Imobiliario Responsabilidade Limitada,Industrials,CPOF11.SA,EQ,BRCPOFCTF002
+Suno Infra Debentures Fundo de Investimento em Cotas de Fundos Incentivados de Investimento em Infraestr Renda Fixa,Industrials,SNID11.SA,EQ,BRSNIDCTF018
+Kinea Creditas Fundo de Investimento Imobiliario,Industrials,KCRE11.SA,EQ,BRKCRECTF009
+Fundo de Investimeno Imobiliario FII Anhanguera Educacional Responsabilidade Limitada,Industrials,FAED11.SA,EQ,BRFAEDCTF003
+First Trust NASDAQ Clean Edge Smart Grid Infrastructure Index Fd Shs Unsponsored Brazilian Depositary Receipt Repr 0.08333333 Shs,Industrials,BGRI39.SA,EQ,BRBGRIBDR001
+VALORA CRI INFRA II FUNDO DE INVESTIMENTO IMOBILIARIO DE RESPONSABILIDADE LIMITADA,Industrials,VGII11.SA,EQ,BRVGIICTF007
+Jasc Renda Varejo Essencial Fundo de Investimento Imobiliario FII,Industrials,JASC11.SA,EQ,BRJASCCTF007
+iShares Core Moderate Allocation ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.25 Sh,Industrials,BAOM39.SA,EQ,BRBAOMBDR003
+iShares MSCI EAFE ETF Unsponsored Brazilian Depository Receipt Repr 0.125 Sh,Industrials,BEFA39.SA,EQ,BRBEFABDR008
+Rio Bravo Credito Imobiliario High Grade Fundo de Investimento Imobiliario,Industrials,RBHG11.SA,EQ,BRRBHGCTF002
+Patria Credito Imobiliario Indice de Precos Fundo de Investimento Imobiliario Responsabilidade Limitada,Industrials,PCIP11.SA,EQ,BRPCIPCTF003
+Greenwich Agro Fundo de Investimento nas Cadeias Produtivas Agroindustriais Fiagro Imobiliario,Industrials,GRWA11.SA,EQ,BRGRWACTF003
+Patria Malls Fundo de Investimento Imobiliario Responsabilidade Limitada,Industrials,PMLL11.SA,EQ,BRPMLLCTF005
+Performa Real Estate Fundo de Investimento Imobiliario,Industrials,PEMA11.SA,EQ,BRPEMACTF003
+Kilima Volkano Recebiveis Imobiliarios Fundo de Investimento Imobiliario,Industrials,KIVO11.SA,EQ,BRKIVOCTF007
+iShares US Medical Devices ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.0285714 Sh,Industrials,BIHI39.SA,EQ,BRBIHIBDR008
+Patria Infraestrutura Energia Core Fundo de Investimento em Participacoes em Infraestrutura,Industrials,PICE11.SA,EQ,BRPICECTF007
+First Trust NASDAQ Cybersecurity ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.2 Sh,Industrials,BCIR39.SA,EQ,BRBCIRBDR000
+Suno Fazendas Fiagro - Imobiliario,Industrials,SNFZ11.SA,EQ,BRSNFZCTF009
+iShares MSCI Eurozone ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.25 Sh,Industrials,BEZU39.SA,EQ,BRBEZUBDR004
+iShares MSCI EAFE Value ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.1666667 Sh,Industrials,BEFV39.SA,EQ,BRBEFVBDR004
+Bocaina Infra CDI FIC de Fundos Incetivados de Investimento em INFRA Renda Fixa Resp Limitada,Industrials,BODI11.SA,EQ,BRBODICTF004
+High Fundo de Investimento Agro Fiagro Imobiliario,Industrials,HGAG11.SA,EQ,BRHGAGCTF007
+Fundo Desenvolvimento Espirito Santo- FUNDES Cotas,Industrials,FDES11.SA,EQ,BRFDESCTF005
+JPMorgan BetaBuilders Europe Fund Shs Unsponsored Brazilian Depositary Receipt Repr 0.2 Sh,Industrials,BBER39.SA,EQ,BRBBERBDR001
+Suno Agro Fiagro Imobiliario,Industrials,SNAG11.SA,EQ,BRSNAGCTF000
+Fundo de Investimento Imobiliario TRX Caixa Logistica Renda Cotas,Industrials,CXTL11.SA,EQ,BRCXTLCTF003
+iShares Global REIT ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.33333333 Sh,Industrials,BGRT39.SA,EQ,BRBGRTBDR008
+Oxigenio 2 Fundo de Investimento Imobiliario Responsabilidade Limitada,Industrials,OXRL11.SA,EQ,BROXRLCTF002
+Fundo de Investimento Imobiliario - FII BTG Pactual Corporate Office Fund Cotas,Industrials,BRCR11.SA,EQ,BRBRCRCTF000
+Capitania Securities II Fundo de Investimento Imobiliario Cotas,Industrials,CPTS11.SA,EQ,BRCPTSCTF004
+iShares Biotechnology ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.066666667 Sh,Industrials,BIBB39.SA,EQ,BRBIBBBDR006
+Fundo de Investimento Imobiliario Caixa Carteira Imobiliaria,Industrials,CXCI11.SA,EQ,BRCXCICTF005
+Fundo de Investimento Imobiliario RB Capital Renda I Cotas,Industrials,FIIP11.SA,EQ,BRFIIPCTF001
+Fundo de Investimento Imobiliario BTG Pactual Shoppings,Industrials,BPML11.SA,EQ,BRBPMLCTF006
+iShares 25+ Year Treasury STRIPS Bond ETF Shs Unsponsored Brazilian Depositary Receipt Repr 1 Sh,Industrials,BGOZ39.SA,EQ,BRBGOZBDR002
+Merito Cemiterios FII Fundo de Investimento Imobiliario,Industrials,MCEM11.SA,EQ,BRMCEMCTF006
+Fundo de Investimento Imobiliario FII Hospital da Nossa Senhora de Lourdes Responsabilidade Limitada Fund,Industrials,NSLU11.SA,EQ,BRNSLUCTF008
+VanEck Fallen Angel High Yield Bond ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.333333333 Sh,Industrials,ANGV39.SA,EQ,BRANGVBDR005
+OIAG Ourinvest Innovation Fiagro Imobiliario,Industrials,OIAG11.SA,EQ,BROIAGCTF009
+AZ Quest Sole Fundo de Investimento Nas Cadeias Produtivas do Agronegocio - Fiagro - Imobiliario,Industrials,AAZQ11.SA,EQ,BRAAZQCTF001
+Onda Invest Multiestrategia Fundo de Investimento Imobiliario Responsabilidade Limitada,Industrials,ONDA11.SA,EQ,BRONDACTF006
+First Trust Natural Gas ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.5 Sh,Industrials,BFCG39.SA,EQ,BRBFCGBDR009
+iShares China Large-Cap ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.2 Sh,Industrials,BFXI39.SA,EQ,BRBFXIBDR001
+Fundo de Investimento Imobiliario Vida Nova - FII Cotas,Industrials,FIVN11.SA,EQ,BRFIVNCTF009
+iShares US Financial Services ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.05 Sh,Industrials,BIYG39.SA,EQ,BRBIYGBDR007
+Valora Renda Imobiliaria Fundo De Investimento Imobiliario - Responsabilidade Limitada,Industrials,VGRI11.SA,EQ,BRVGRICTF008
+Inter Desenvolvimento Fundo de Investimento Imobiliario,Industrials,INDE11.SA,EQ,BRINDECTF000
+Kinea Credito Agro Fiagro Imobiliario,Industrials,KNCA11.SA,EQ,BRKNCACTF006
+Vinci Shopping Centers Fundo de Investimento Imobiliario - FII Cotas,Industrials,VISC11.SA,EQ,BRVISCCTF005
+RB Capital Renda II Fundo de Investimento Imobiliario - FII Cotas,Industrials,RBRD11.SA,EQ,BRRBRDCTF008
+Devant Fundo de Investimento nas Cadeias Produtivas Agroindustriais Fiagro Imobiliario,Industrials,DCRA11.SA,EQ,BRDCRACTF002
+Tane Fzda Fundo de Investimento em Cadeias Produtivas Agroindustriais,Industrials,FZDA11.SA,EQ,BRFZDACTF008
+FII BTG Pactual Credito Imobiliario,Industrials,BTCI11.SA,EQ,BRBTCICTF005
+Shoppings AAA Fundo de Investimento Imobiliario,Industrials,CPSH11.SA,EQ,BRCPSHCTF017
+Rio Bravo Multiestrategia Fundo de Investimento Imobiliario de Responsabilidade Limitada,Industrials,RBFM11.SA,EQ,BRRBFMCTF004
+Fundo de Investimento Imobiliario Rio Bravo de Renda Corporativa,Industrials,RCRB11.SA,EQ,BRRCRBCTF000
+Hedge Recebiveis Fundo de Investimento Imobiliario,Industrials,HREC11.SA,EQ,BRHRECCTF005
+iShares Global 100 ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.125 Sh,Industrials,BGLC39.SA,EQ,BRBGLCBDR007
+iShares US Pharmaceuticals ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.05555555 Sh,Industrials,BIHE39.SA,EQ,BRBIHEBDR007
+Even II Kinea Fundo de Investimento Imobiliario,Industrials,KEVE11.SA,EQ,BRKEVECTF007
+Inter Teva Indice de Papel Fundo de Investimento Imobiliario,Industrials,ITIP11.SA,EQ,BRITIPCTF002
+Alianza Credito Imobiliario Fundo de Investimento Imobiliario Responsabilidade Limitada,Industrials,ALZC11.SA,EQ,BRALZCCTF016
+SFI Investimentos do Agronegocio Fiagro Imobiliario,Industrials,IAGR11.SA,EQ,BRIAGRCTF002
+Itau Tempus Fundo de Investimento Imobiliario,Industrials,TMPS11.SA,EQ,BRTMPSCTF003
+JS Recebiveis Imobiliarios Fundo De Investimento Imobiliario,Industrials,JSCR11.SA,EQ,BRJSCRCTF001
+Cauris Fundo de Investimento em Cotas de Fundo de Investimento em Direitos Creditorios,Industrials,CAUT11.SA,EQ,BRCAUTCTF002
+Asa Metropolis Fundo de Investimento Imobiliario,Industrials,DAYM11.SA,EQ,BRDAYMCTF007
+Fundo de Investimento Imobiliario - FII Campus Faria Lima Responsabilidade Limitada Cotas,Industrials,FCFL11.SA,EQ,BRFCFLCTF009
+iShares MSCI Emerging Markets Min Vol Factor ETF Shs Unsponsored Brazilian Depository Receipt Repr 0.1666 Sh,Industrials,BEMV39.SA,EQ,BRBEMVBDR000
+Merito Recebiveis Imobiliarios FII-Fundo de Investimento,Industrials,MFII11.SA,EQ,BRMFIICTF008
+Zavit Real Estate Fund Fundo de Investimento Imobiliario,Industrials,ZAVI11.SA,EQ,BRZAVICTF004
+Sparta Infra Fundo de Investimento em Cotas de Fundos Incentivados de Investimento em Infraestrut Renda Fixa Cred Priv,Industrials,JURO11.SA,EQ,BRJUROCTF002
+Galapagos Credito Estruturado Prazo Determinado Fundo De Investimento Imobiliario Responsabilidade Limitada,Industrials,GLCR11.SA,EQ,BRGLCRCTF002
+Rio Bravo Credito Imobiliario High Yield Fundo de Investimento Imobiliario,Industrials,RBHY11.SA,EQ,BRRBHYCTF005
+Global X MSCI China Consumer Discretionary ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.25 Sh,Industrials,BCHQ39.SA,EQ,BRBCHQBDR004
+iShares Global Infrastructure ETF Unsponsored Brazilian Depository Receipt Repr 0.25 Sh,Industrials,BIGF39.SA,EQ,BRBIGFBDR006
+JPMorgan U.S. Quality Factor ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.25 Sh,Industrials,BJQU39.SA,EQ,BRBJQUBDR002
+Navi Imobiliario Total Return Fundos de Investimento Imobiliario,Industrials,NAVT11.SA,EQ,BRNAVTCTF015
+iShares Core US REIT ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.166666667 Sh,Industrials,BUSR39.SA,EQ,BRBUSRBDR001
+iShares Global Energy ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.25 Sh,Industrials,BIXC39.SA,EQ,BRBIXCBDR008
+Fundo de Investimento Imobiliario Habitat II,Industrials,HABT11.SA,EQ,BRHABTCTF001
+Patria Logistica II,Industrials,RBRL11.SA,EQ,BRRBRLCTF001
+iShares U.S. Aerospace & Defense ETF Unsponsored Brazilian Depositary Receipt Repr 0.05 Sh,Industrials,BAER39.SA,EQ,BRBAERBDR003
+BRPR Corporate Offices Fundo de Investimento Imobiliario,Industrials,BROF11.SA,EQ,BRBROFCTF000
+Octo Fundo de Investimento Imobiliario,Industrials,OCRE11.SA,EQ,BROCRECTF001
+AZ Quest Panorama Logistica Fundo De Investimento Imobiliario Renda,Industrials,AZPL11.SA,EQ,BRAZPLCTF000
+iShares 0-5 Year TIPS Bond ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.1 Sh,Industrials,BSTI39.SA,EQ,BRBSTIBDR002
+Global X SuperDividend REIT ETF Unsponsored Brazilian Depositary Receipt Repr 0.3333333 Sh,Industrials,BSRE39.SA,EQ,BRBSREBDR005
+Fundo de Investimento Imobiliario FII REC Renda Imobiliaria,Industrials,RECT11.SA,EQ,BRRECTCTF000
+iShares MSCI Switzerland ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.2 Sh,Industrials,BEWL39.SA,EQ,BRBEWLBDR000
+IShares Bitcoin Trust Shs Unsponsored Brazilian Depositary Receipt Repr 0.333333333 Sh,Industrials,IBIT39.SA,EQ,BRIBITBDR003
+PIMCO Equity Series Shs Unsponsored Brazilian Depositary Receipt Repr 0.5 Sh,Industrials,BMFE39.SA,EQ,BRBMFEBDR003
+Life Capital Partners Fundo de Investimentos Imobiliarios 1,Industrials,LIFE11.SA,EQ,BRLIFECTF017
+Endurance Debt Fundo de Investimento em Participacoes em Infraestrutura,Industrials,ENDD11.SA,EQ,BRENDDCTF001
+Sparta Fiagro Fundo de Investimento nas Cadeias Produtivas Agroindustriais Imobiliario,Industrials,CRAA11.SA,EQ,BRCRAACTF008
+Vectis Renda Residencial Fundo de Investimento Imobiliario,Industrials,VCRR11.SA,EQ,BRVCRRCTF008
+iShares iBoxx USD Investment Grade Corporate Bond ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.1 Sh,Industrials,BLQD39.SA,EQ,BRBLQDBDR004
+iShares Core S&P Total U.S. Stock Market ETF Unsponsored Brazilian Depositary Receipt Repr 0.1 Sh,Industrials,BITO39.SA,EQ,BRBITOBDR001
+Polo FII - FII Recebiveis Imobiliarios I Cotas,Industrials,PLRI11.SA,EQ,BRPLRICTF000
+iShares Core MSCI Emerging Markets ETF Unsponsored Brazilian Depositary Receipt Repr 0.166666667 Sh,Industrials,BIEM39.SA,EQ,BRBIEMBDR007
+Global X Blockchain ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.083333 Sh,Industrials,BKCH39.SA,EQ,BRBKCHBDR007
+Fundo de Investimento Imobiliario Apex Malls FII,Industrials,APXM11.SA,EQ,BRAPXMCTF003
+RB Capital Desenvolvimento Residencial III Fundo de Investimento Imobiliario - FII,Industrials,RSPD11.SA,EQ,BRRSPDCTF006
+iShares Global Clean Energy ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.5 Sh,Industrials,BICL39.SA,EQ,BRBICLBDR003
+BRC Renda Corporativa Fundo de Investimento Imobiliario,Industrials,FATN11.SA,EQ,BRFATNCTF000
+Bresco - Fundo de Investimento Imobiliario,Industrials,BRCO11.SA,EQ,BRBRCOCTF007
+iShares Core Aggressive Allocation ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.166666667 Sh,Industrials,BAOA39.SA,EQ,BRBAOABDR008
+Capitania Agro Strategies Fiagro Imobiliario,Industrials,CPTR11.SA,EQ,BRCPTRCTF006
+iShares MSCI Global Metals & Mining Producers ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.25 Sh,Industrials,BPIC39.SA,EQ,BRBPICBDR004
+iShares Latin America 40 ETF Unsponsored Brazilian Depository Receipt Repr 0.33 Sh,Industrials,BILF39.SA,EQ,BRBILFBDR006
+Autonomy Edificios Corporativos Fundo de Investimento Imobiliario,Industrials,AIEC11.SA,EQ,BRAIECCTF009
+Cenesp Fundo de Investimento Imobiliario Responsabilidade Limitada Cotas,Industrials,CNES11.SA,EQ,BRCNESCTF001
+Panorama Desenvolvimento Logistico Fundo de Investimento Imobiliario,Industrials,PNDL11.SA,EQ,BRPNDLCTF000
+Fundo de Investimento Imobiliario - FII Max Retail Cotas,Industrials,MAXR11.SA,EQ,BRMAXRCTF009
+Apex Urb Fundo de Investimento Imobiliario Responsabilidade Limitada,Industrials,APXU11.SA,EQ,BRAPXUCTF006
+iShares MSCI All Country Asia ex Japan ETF Unsponsored Brazilian Depository Receipt Repr 0.1 Sh,Industrials,BAAX39.SA,EQ,BRBAAXBDR009
+Itau Total Return Fundo De Investimento Imobiliario,Industrials,ITRI11.SA,EQ,BRITRICTF008
+iShares MSCI France ETF Shs Unsponsored Brazilian Depository Receipt Repr 0.25 Sh,Industrials,BEWQ39.SA,EQ,BRBEWQBDR009
+iShares Short Treasury Bond ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.1 Sh,Industrials,BSHV39.SA,EQ,BRBSHVBDR000
+RB Capital Desenvolvimento Residencial II Fundo Invest,Industrials,RBDS11.SA,EQ,BRRBDSCTF006
+iShares Core MSCI Europe ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.16667 Sh,Industrials,BIEU39.SA,EQ,BRBIEUBDR000
+Hedge Paladin Design Offices Fundo de Investimento Imobiliario,Industrials,HDOF11.SA,EQ,BRHDOFCTF007
+Brio Multiestrategia Fundo de Investimento Imobiliario,Industrials,BIME11.SA,EQ,BRBIMECTF006
+Fundo de Investimento Imobiliario REC Logistica,Industrials,RELG11.SA,EQ,BRRELGCTF008
+FII RBRK PAX,Industrials,RBRK11.SA,EQ,BRRBRKCTF003
+iShares Low Carbon Optimized MSCI ACWI ETF Unsponsored Brazilian Depositary Receipt,Industrials,BCRB39.SA,EQ,BRBCRBBDR005
+iShares MSCI Australia ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.3333333 Sh,Industrials,BEWA39.SA,EQ,BRBEWABDR003
+Kinea Renda Imobiliaria Fundo de Investimento Imobiliario - FII Cotas,Industrials,KNRI11.SA,EQ,BRKNRICTF007
+XP Malls Fundo Investimento Imobiliario Investor,Industrials,XPML11.SA,EQ,BRXPMLCTF000
+Global X Autonomous & Electric Vehicles ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.333333 Sh,Industrials,BDRI39.SA,EQ,BRBDRIBDR008
+Patria Edificios Corporativos Fundo Investimento Imobiliario FII,Industrials,PATC11.SA,EQ,BRPATCCTF002
+Alianza Trust Renda Imobiliaria Fundo Investimento Imobiliario Investor,Industrials,ALZR11.SA,EQ,BRALZRCTF006
+HSI Logistica Fundo de Investimento Imobiliario,Industrials,HSLG11.SA,EQ,BRHSLGCTF009
+iShares Core U.S. Aggregate Bond ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.1 Sh,Industrials,BAGG39.SA,EQ,BRBAGGBDR001
+iShares Trust iShares USD Green Bond ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.2 Sh,Industrials,BBGR39.SA,EQ,BRBBGRBDR006
+Global X Genomics & Biotechnology ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.16666667 Sh,Industrials,BGNO39.SA,EQ,BRBGNOBDR008
+Fator Verita Fundo de Investimento Imobiliario - FII Cotas,Industrials,VRTA11.SA,EQ,BRVRTACTF008
+Sequoia III Renda Imobiliaria Fundo de Investimento Imobiliario,Industrials,SEQR11.SA,EQ,BRSEQRCTF002
+BFC Fundo de Investimento Imobiliario,Industrials,BFCC11.SA,EQ,BRBFCCCTF007
+Fundo de Investimento Imobiliario FII Hospital da Crianca Responsabilidade Limitada,Industrials,HCRI11.SA,EQ,BRHCRICTF006
+First Trust NASDAQ Clean Edge Green Energy Index Fund Unsponsored Brazilian Depositary Receipt Repr 0.125 Sh,Industrials,BQCL39.SA,EQ,BRBQCLBDR006
+Global X S&P 500 Catholic Values Custom ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.1 Sh,Industrials,BCAT39.SA,EQ,BRBCATBDR003
+VanEck Emerging Markets High Yield Bond ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.333333333 Sh,Industrials,HYEM39.SA,EQ,BRHYEMBDR001
+Vinland Infraestrutura Fundo de Investimento em Cotas de FIF em Infraestrutura RF Resp Limitada,Industrials,VINF11.SA,EQ,BRVINFCTF017
+iShares Emerging Markets Dividend ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.333333333 Sh,Industrials,BDVE39.SA,EQ,BRBDVEBDR009
+AF Invest CRI Fundo de Investimento Imobiliario Recebiveis Imobiliarios,Industrials,AFHI11.SA,EQ,BRAFHICTF005
+Genial Logistica Fundo de Investimento Imobiliario,Industrials,GLOG11.SA,EQ,BRGLOGCTF000
+Exes Fundo de Investimento Imobiliario,Industrials,EXES11.SA,EQ,BREXESCTF006
+Fundo de Investimento Imobiliario Caixa Agencias,Industrials,CXAG11.SA,EQ,BRCXAGCTF003
+Global X RUSSELL 2000 ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.1 Sh,Industrials,RSSL39.SA,EQ,BRRSSLBDR004
+Global X Uranium ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.16666667 Sh,Industrials,BURA39.SA,EQ,BRBURABDR009
+Navi Residencial Fundo de Investimento Imobiliario,Industrials,APTO11.SA,EQ,BRAPTOCTF007
+Real Investor Fundo de Investimento Imobiliario,Industrials,RINV11.SA,EQ,BRRINVCTF004
+iShares 1-5 Year Investment Grade Corporate BondETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.2 Sh,Industrials,BIGS39.SA,EQ,BRBIGSBDR009
+KraneShares CSI China Internet ETF Unsponsored Brazilian Depositary Receipt Repr 1 Sh,Industrials,BKWB39.SA,EQ,BRBKWBBDR008
+Fundo de Investimento Imobiliario Suno Energias Limpas,Industrials,SNEL11.SA,EQ,BRSNELCTF010
+iShares US Infrastructure ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.333333333 Sh,Industrials,BIFR39.SA,EQ,BRBIFRBDR003
+iShares International Select Dividend ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.333333333 Sh,Industrials,BIDV39.SA,EQ,BRBIDVBDR000
+Global X US Infrastructure Development ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.16666667 Sh,Industrials,BPVE39.SA,EQ,BRBPVEBDR003
+Valora Re III Fundo De Investimento Imobiliario,Industrials,VGIR11.SA,EQ,BRVGIRCTF008
+Capitania Logistica Fundo de Investimento Imobiliario,Industrials,CPLG11.SA,EQ,BRCPLGCTF006
+Nikos Fundo De Investimento Em Cotas De Fundos Incentivados De Investimento Em Infraestrutura Renda Fixa,Industrials,OGIN11.SA,EQ,BROGINCTF010
+iShares MSCI China A ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.33333333 Sh,Industrials,BCNY39.SA,EQ,BRBCNYBDR006
+iShares MSCI Malaysia ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.33333333 Sh,Industrials,BEWM39.SA,EQ,BRBEWMBDR008
+CSHG Recebiveis Imobiliarios - Fundo de Investimento Imobiliario - FII Cotas,Industrials,HGCR11.SA,EQ,BRHGCRCTF000
+Hedge Realty Development Fundo de Investimento Imobiliario,Industrials,HRDF11.SA,EQ,BRHRDFCTF000
+First Trust Water ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.1 Shs,Industrials,BFIW39.SA,EQ,BRBFIWBDR003
+iShares US Treasury Bond ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.333333 Sh,Industrials,BGOV39.SA,EQ,BRBGOVBDR001
+Valora CRA Fundo de Investimento nas Cadeias Produtivas Agroindustriais Fiagro Imobiliario,Industrials,VGIA11.SA,EQ,BRVGIACTF004
+iShares Russell 1000 Value ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.05 Sh,Industrials,BIWD39.SA,EQ,BRBIWDBDR008
+Bradesco Isento 2031 Fundo de Investimento em Cotas de Fundos Incentivados de Investimento em Infraestrutura Renda Fixa,Industrials,BISE11.SA,EQ,BRBISECTF003
+Fundo de Investimento Imobiliario Europar Cotas,Industrials,EURO11.SA,EQ,BREUROCTF011
+Fundo de Investimento Imobiliario de CRI Integral Brei,Industrials,IBCR11.SA,EQ,BRIBCRCTF009
+VanEck Gold Miners ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.333333 Sh,Industrials,GDXB39.SA,EQ,BRGDXBBDR000
+PIMCO 25+ Year Zero Coupon US Treasury Index Exchange-Traded Fund Shs Unsponsored Brazilian Depositary Receipt Repr 0.083333333 Sh,Industrials,BZRO39.SA,EQ,BRBZROBDR009
+XP Corporate Macae Fundo de Investimento Imobiliario FII Cotas,Industrials,XPCM11.SA,EQ,BRXPCMCTF009
+BTG Pactual Credito Agricola Fundo de Investimento em Cotas Fiagro - Direitos Creditorios,Industrials,BTAG11.SA,EQ,BRBTAGCTF003
+iShares Ethereum Trust Shs Unsponsored Brazilian Depositary Receipt Repr 0.33333333 Sh,Industrials,ETHA39.SA,EQ,BRETHABDR006
+iShares Core Growth Allocation ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.2 Sh,Industrials,BAOR39.SA,EQ,BRBAORBDR002
+Fundo de Investimento Imobiliario Caixa Cedae Cotas,Industrials,CXCE11.SA,EQ,BRCXCECTF004
+Fundo de Investimento nas Cadeias Produtivas Agroindustriais Exes Araguaia Fiagro Imobiliario,Industrials,AGRX11.SA,EQ,BRAGRXCTF001
+Tivio Renda Imobiliaria Fundo de Investimento Imobiliario,Industrials,TVRI11.SA,EQ,BRTVRICTF001
+iShares Select Dividend ETF Unsponsored Brazilian Depository Receipt Repr 0.1 Sh,Industrials,BDVY39.SA,EQ,BRBDVYBDR007
+iShares MSCI Canada ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.25 Sh,Industrials,BEWC39.SA,EQ,BRBEWCBDR009
+WHG Real Estate Fundo de Investimento Imobiliario,Industrials,WHGR11.SA,EQ,BRWHGRCTF008
+BTSP II Fundo de Investimento Imobiliario FII,Industrials,BTSI11.SA,EQ,BRBTSICTF001
+SULAMERICA INFRA CDI Fundo de Investimento em Cotas de Fundo de Investimento Financeiro em Infraestrutura Renda Fixa,Industrials,SUIN11.SA,EQ,BRSUINCTF004
+Fundo de Investimento Imobiliario Tellus Rio Bravo Renda Logidtica FII,Industrials,TRBL11.SA,EQ,BRTRBLCTF007
+V2 Renda Imobiliaria Fundo de Investimento Imobiliario FII,Industrials,VVRI11.SA,EQ,BRVVRICTF007
+AZ Quest Infra Yield II Fundo de Investimento em Participacoes em Infraestrutura,Industrials,AZIN11.SA,EQ,BRAZINCTF019
+iShares US Oil & Gas Exploration & Production ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.1 Sh,Industrials,BIEO39.SA,EQ,BRBIEOBDR003
+iShares MSCI Indonesia ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.5 Sh,Industrials,EIDO39.SA,EQ,BREIDOBDR009
+Patagonia Capital Multiestrategia Fundo de Investimento Imobiliario,Industrials,PATA11.SA,EQ,BRPATACTF006
+Banrisul Novas Fronteiras Fundo de Investimento Imobiliario - FII Cotas,Industrials,BNFS11.SA,EQ,BRBNFSCTF000
+Cyrela Credito - Fundo de Investimento Imobiliario,Industrials,CYCR11.SA,EQ,BRCYCRCTF004
+Global X Cybersecurity ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.333333 Sh,Industrials,BBUG39.SA,EQ,BRBBUGBDR000
+EQI Recebiveis Imobiliarios Fundo de Investimento Imobiliario,Industrials,EQIR11.SA,EQ,BREQIRCTF003
+Polo Fundo de Investimento Imobiliario - Recebiveis Imobiliarios II - FII Cotas,Industrials,PORD11.SA,EQ,BRPORDCTF005
+21Shares Ltd ETP Unsponsored Brazilian Depositary Receipt Repr 0.5 ETP,Industrials,BASK39.SA,EQ,BRBASKBDR008
+iShares MSCI Japan ETF Unsponsored Brazilian Depositary Receipt Repr 0.125 Sh,Industrials,BEWJ39.SA,EQ,BRBEWJBDR004
+RBR Premium Recebiveis Imobioliarios Fundo de Investimento Imobiliario,Industrials,RPRI11.SA,EQ,BRRPRICTF007
+URCA Prime Renda Fundo de Investimento Imobiliario,Industrials,URPR11.SA,EQ,BRURPRCTF002
+JS Real Estate Multigestao-FII Cotas,Industrials,JSRE11.SA,EQ,BRJSRECTF007
+Global X MSCI Argentina ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.1 Shs,Industrials,ARGT39.SA,EQ,BRARGTBDR000
+Patria Credito Agro Fundo de Investimento nas Cadeias Produtivas do Agronegocio Fiagro Responsabilidade Limitada,Industrials,PLCA11.SA,EQ,BRPLCACTF009
+Tordesilhas EI Fundo De Investimento Imobiliario,Industrials,TORD11.SA,EQ,BRTORDCTF015
+iShares MSCI Pacific ex Japan ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.25 Sh,Industrials,BEPP39.SA,EQ,BRBEPPBDR005
+Hedge Logistica Fundo de Investimento Imobiliario,Industrials,HLOG11.SA,EQ,BRHLOGCTF008
+iShares Global Financials ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.125 Sh,Industrials,BIXG39.SA,EQ,BRBIXGBDR009
+Global X 1-3 Month T-Bill ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.1 Sh,Industrials,TBIL39.SA,EQ,BRTBILBDR007
+Inter Teva Indice de Tijolo Fundo de Investimento Imobiliario,Industrials,ITIT11.SA,EQ,BRITITCTF004
+Fundo De Investimento Imobiliario Memorial Office,Industrials,FMOF11.SA,EQ,BRFMOFCTF010
+iShares Global Tech ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.0333 Sh,Industrials,BIXN39.SA,EQ,BRBIXNBDR005
+Global X Artificial Intelligence & Technology ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.1666666 Sh,Industrials,BAIQ39.SA,EQ,BRBAIQBDR006
+Galapagos Recebiveis do Agronegocio - Fiagro-Imobiliario,Industrials,GCRA11.SA,EQ,BRGCRACTF005
+iShares Core S&P Mid-Cap ETF Unsponsored Brazilian Depositary Receipt Repr 0.05 Sh,Industrials,BIJH39.SA,EQ,BRBIJHBDR006
+iShares MSCI USA Quality Factor ETF Shs Unsponsored Brazilian Depository Receipt Repr 0.0666 Sh,Industrials,BQUA39.SA,EQ,BRBQUABDR001
+Artemis Fundo de Investimento Imobiliario Responsabilidade Limitada,Industrials,ARTE11.SA,EQ,BRARTECTF004
+iShares MSCI USA Value Factor ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.1 Sh,Industrials,BVLU39.SA,EQ,BRBVLUBDR008
+Maua Capital Real Estate Fundo de Investimento Imobiliario,Industrials,MCRE11.SA,EQ,BRMCRECTF013
+Kinea High Yield CRI Fundo De Investimento Imobiliario - FII,Industrials,KNHY11.SA,EQ,BRKNHYCTF005
+iShares MSCI EAFE Small-Cap ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.125 Sh,Industrials,BSCZ39.SA,EQ,BRBSCZBDR002
+Patria Prime Offices Fundo de Investimento Imobiliario Responsabilidade Limitada,Industrials,HGPO11.SA,EQ,BRHGPOCTF009
+abrdn Silver ETF Trust Shs Unsponsored Brazilian Depositary Receipt Repr 0.333333 Sh,Industrials,SIVR39.SA,EQ,BRSIVRBDR004
+iShares Core MSCI Total International Stock ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.1666667 Sh,Industrials,BIXU39.SA,EQ,BRBIXUBDR000
+RBR Desenvolvimento Comercial Feeder FOF Fundo de Investimento Imobiliario,Industrials,RCFF11.SA,EQ,BRRCFFCTF006
+Fundo de Investimento Imobiliario FII REC Recebiveis Imobiliarios,Industrials,RECR11.SA,EQ,BRRECRCTF004
+Global X Superdividend U.S. ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.5 Sh,Industrials,BDVD39.SA,EQ,BRBDVDBDR001
+BTG Pactual Infraestrutura Dividendos Fundo de Investimento em Participacoes em Infraestrutura,Industrials,BDIV11.SA,EQ,BRBDIVCTF009
+Fundo De Investimento Imobiliario Projeto Agua Branca,Industrials,FPAB11.SA,EQ,BRFPABCTF011
+iShares US Financials ETF Unsponsored Brazilian Depositary Receipt Repr 0.067 Sh,Industrials,BIYF39.SA,EQ,BRBIYFBDR009
+BB Renda Corporativa Fundo de Investimento Imobiliario Cotas,Industrials,BBRC11.SA,EQ,BRBBRCCTF004
+iShares U.S. Consumer Staples ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.055555555 Sh,Industrials,BIYK39.SA,EQ,BRBIYKBDR009
+Fundo de Investimento Imobiliario Hotel Maxinvest Cotas,Industrials,HTMX11.SA,EQ,BRHTMXCTF000
+iShares S&P 100 ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.05 Sh,Industrials,BOEF39.SA,EQ,BRBOEFBDR009
+Sparta Infra Inflacao Longa Infraestrutura Fundo de Investimento em Cotas De Fundos de Investimento em Infraestrutura RF,Industrials,DIVS11.SA,EQ,BRDIVSCTF003
+Hedge Floripa Shopping Fundo de Investimento Imobiliario,Industrials,FLRP11.SA,EQ,BRFLRPCTF006
+iShares MSCI Singapore ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.33333333 Sh,Industrials,BEWS39.SA,EQ,BRBEWSBDR005
+iShares MSCI World ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.066666667 Sh,Industrials,BURT39.SA,EQ,BRBURTBDR009
+Fundo de Investimentos Imobilairios de Permuta Financeira Lote5 Senior Responsabilidade Limitada,Industrials,BSLT11.SA,EQ,BRBSLTCTF005
+CSHG Atrium Shopping Santo Andre Fundo de Investimento Imobiliario-FII Cotas,Industrials,ATSA11.SA,EQ,BRATSACTF000
+LABINA Multi Ativos Imobiliarios - Fundo de Investimento Imobiliario Responsabilidade Limitada,Industrials,LMAI11.SA,EQ,BRLMAICTF003
+VanEck Morningstar Wide Moat ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.125 Sh,Industrials,MOTB39.SA,EQ,BRMOTBBDR003
+Cyrela Desenvolvimento Logistico Fundo de Investimento Imobiliario,Industrials,CYLD11.SA,EQ,BRCYLDCTF005
+JS Ativos Financeiros Fundo de Investimento Imobiliario,Industrials,JSAF11.SA,EQ,BRJSAFCTF000
+Sparta Infra CDI Fundo de Investimento em Cotas de Fundos Incentivados de Investimento em Infraestrutura RF Cred Priv,Industrials,CDII11.SA,EQ,BRCDIICTF012
+Fundo de Investimento Imobiliario BTG Pactual Terras Agricolas,Industrials,BTRA11.SA,EQ,BRBTRACTF000
+iShares MSCI Chile ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.3333333 Sh,Industrials,BECH39.SA,EQ,BRBECHBDR000
+Fundo Investimento Imobiliario Green Towers,Industrials,GTWR11.SA,EQ,BRGTWRCTF003
+iShares Expanded Tech-Software Sector ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.035714285 Sh,Industrials,BIET39.SA,EQ,BRBIETBDR002
+Knox Debt Fundo de Investimento em Participacoes em Infraestrutura,Industrials,KNOX11.SA,EQ,BRKNOXCTF003
+21Shares Ltd ETP Unsponsored Brazilian Depositary Receipt Repr 0.33333333 ETP,Industrials,CBTC39.SA,EQ,BRCBTCBDR009
+Fiset Fl Ref Pfd,Industrials,FSRF11.SA,EQ,BRFSRFCTF010
+Ourinvest JPP Fundo de Investimento Imobiliario - FII,Industrials,OUJP11.SA,EQ,BROUJPCTF006
+iShares MSCI India ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.25 Sh,Industrials,BNDA39.SA,EQ,BRBNDABDR004
+iShares MSCI Global Min Vol Factor ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.1 Sh,Industrials,BCWV39.SA,EQ,BRBCWVBDR003
+iShares Top 20 US Stocks ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.33333333 Sh,Industrials,TOPB39.SA,EQ,BRTOPBBDR006
+Gazit Malls Fundo De Investimento Imobiliario,Industrials,GZIT11.SA,EQ,BRGZITCTF005
+iShares Europe ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.2 Sh,Industrials,BIEV39.SA,EQ,BRBIEVBDR008
+Devant Recebiveis Imobiliarios Fundo de Investimento Imobiliario,Industrials,DEVA11.SA,EQ,BRDEVACTF000
+TRX Real Estate II Fundo de Investimento Imobiliario,Industrials,TRXB11.SA,EQ,BRTRXBCTF002
+Brakes Express Inc Com,Industrials,BRAX.SA,EQ,US1050371053
+GLOBAL X MSCI COLOMBIA ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.2 Sh,Industrials,COLO39.SA,EQ,BRCOLOBDR004
+Inter Amerra Fiagro Imobiliario,Industrials,IAAG11.SA,EQ,BRIAAGCTF008
+iShares MSCI USA Quality GARP ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.166666667 Sh,Industrials,BGAR39.SA,EQ,BRBGARBDR008
+Fundo de Investimento Imobiliario - SPX SYN Multiestrategia,Industrials,SPXS11.SA,EQ,BRSPXSCTF002
+iShares MSCI Poland ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.33333333 Sh,Industrials,EPOL39.SA,EQ,BREPOLBDR007
+Riza Arctium Real Estate Fundo de Investimento Imobiliario,Industrials,RZAT11.SA,EQ,BRRZATCTF009
+iShares MSCI USA Equal Weighted ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.125 Sh,Industrials,BEUW39.SA,EQ,BRBEUWBDR001
+BTG Pactual Divida Infra FI em Cotas de Fundos Incentivados de Investimento em Infra Rend Fix Cred Priv,Industrials,BDIF11.SA,EQ,BRBDIFCTF002
+SCP Fundo de Investimento Imobiliario Cotas,Industrials,SCPF11.SA,EQ,BRSCPFCTF003
+SJ AU Logistica Fundo de Investimento Imobiliario,Industrials,SJAU11.SA,EQ,BRSJAUCTF009
+iShares MSCI EAFE Min Vol Factor ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.125 Sh,Industrials,BFAV39.SA,EQ,BRBFAVBDR002
+Patria Rendimento High Grade,Industrials,RBRR11.SA,EQ,BRRBRRCTF008
+First Trust NYSE Arca Biotechnology Index Fund Shs Unsponsored Brazilian Depositary Receipt Repr 0.05 Sh,Industrials,BFBI39.SA,EQ,BRBFBIBDR007
+FII XLPR RI CI,Industrials,XLPR11.SA,EQ,BRXLPRCTF009
+Terras Paulistas Fundo de Investimento Imobiliario de Permutas Responsabilidade Limitada,Industrials,TRPL11.SA,EQ,BRTRPLCTF015
+iShares Core S&P 500 ETF Unsponsored Brazilian Depositary Receipt Repr 0.025 Sh,Industrials,BIVB39.SA,EQ,BRBIVBBDR004
+Leste Fundo de Investimento nas Cadeias Produtivas Agroindustriais Fiagro Imobiliario,Industrials,LSAG11.SA,EQ,BRLSAGCTF004
+JPMorgan Equity Premium Income Fund Shs Unsponsored Brazilian Depositary Receipt Repr 0.166666667 Sh,Industrials,JEPI39.SA,EQ,BRJEPIBDR003
+Alianza Urban Hub Renda Fundo de Investimento Imobiliario,Industrials,AURB11.SA,EQ,BRAURBCTF008
+Fundo de Investimento Imobiliario True Multiestrategia - Responsabilidade Limitada,Industrials,TRUE11.SA,EQ,BRTRUECTF002
+Fundo de Investimento nas Cadeias Produtivas Agroindustriais JGP Credito Fiagro Imobiliario,Industrials,JGPX11.SA,EQ,BRJGPXCTF006
+Ecoagro I Fundo de Investimento nas Cadeias Produtivas Agroindustriais Fiagro Imobiliario,Industrials,EGAF11.SA,EQ,BREGAFCTF006
+Global X Gold Explorers ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.1 Sh,Industrials,GOEX39.SA,EQ,BRGOEXBDR001
+ARX Dover Recebiveis Fundo de Investimento Imobiliario,Industrials,ARXD11.SA,EQ,BRARXDCTF008
+Bradesco Farmtech Fundo de Investimento nas Cadeias Produtivas Agroindustrais Fiagro DC Shs,Industrials,BRFT11.SA,EQ,BRBRFTCTF009
+Fundo de Investimento Imobiliario Riza Terrax,Industrials,RZTR11.SA,EQ,BRRZTRCTF003
+Fundo de Investimento Imobiliario Rio Bravo Oportunidades Imobiliarias FII,Industrials,RBOP11.SA,EQ,BRRBOPCTF009
+Fundo de Investimento Imobiliario Centro Textil Internacional Cotas,Industrials,CTXT11.SA,EQ,BRCTXTCTF014
+Kinea Unique HY CDI Fundo de Investimento Imobiliario,Industrials,KNUQ11.SA,EQ,BRKNUQCTF004
+Clave Indices de Precos Fundo de Investimento Imobiliario,Industrials,CLIN11.SA,EQ,BRCLINCTF007
+Kinea Hedge Fund Fundo de Investimento Imobiliario,Industrials,KNHF11.SA,EQ,BRKNHFCTF004
+iShares MSCI Israel ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.1 Sh,Industrials,BEIS39.SA,EQ,BRBEISBDR004
+Tellus Properties - Fundo de Investimento Imobiliario,Industrials,TEPP11.SA,EQ,BRTEPPCTF006
+iShares S&P 500 Value ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.166666667 Sh,Industrials,BIVE39.SA,EQ,BRBIVEBDR008
+iShares MSCI Emerging Markets ex China ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.2 Sh,Industrials,BEMC39.SA,EQ,BRBEMCBDR000
+Caixa Rio Bravo Fundo de Fundos de Investimentos Imobiliario - FII Cotas,Industrials,CXRI11.SA,EQ,BRCXRICTF003
+Klima Fundo de Investimento em Cotas de Fundos Imobiliarios Suno 30,Industrials,KISU11.SA,EQ,BRKISUCTF000
+iShares 20+ Year Treasury Bond ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.066666 Sh,Industrials,BTLT39.SA,EQ,BRBTLTBDR004
+Fundo de Investimento Imobiliario Shopping West Plaza Cotas,Industrials,WPLZ11.SA,EQ,BRWPLZCTF004
+Patria - VBI Asset Management Ltda,Industrials,LVBI11.SA,EQ,BRLVBICTF002
+Suno Fundo de Fundos de Investimento Imobiliario,Industrials,SNFF11.SA,EQ,BRSNFFCTF001
+Brio Real Estate II Fundo de Investimento Imobiliario,Industrials,BRIM11.SA,EQ,BRBRIMCTF008
+Global X Silver Miners ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.1 Sh,Industrials,BSIL39.SA,EQ,BRBSILBDR009
+Fundo de Investimento Imobiliario Presidente Vargas,Industrials,PRSV11.SA,EQ,BRPRSVCTF008
+Fundo de Investimento Imobiliario Mogno Hoteis,Industrials,MGHT11.SA,EQ,BRMGHTCTF005
+Fundo Invest Imobiliario Continental Square Faria Lima,Industrials,FLMA11.SA,EQ,BRFLMACTF009
+Drys Fundo de Investimento em Cotas de Fundos Incentivados de Investimento em Infraestrutura Renda Fixa,Industrials,INFB11.SA,EQ,BRINFBCTF001
+iShares US Utilities ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.125 Sh,Industrials,BUTL39.SA,EQ,BRBUTLBDR002
+iShares MSCI Turkey ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.25 Sh,Industrials,TURK39.SA,EQ,BRTURKBDR000
+XP Fundo de Investimento em Cotas de Fundos Incentivados de Investimento em Infraestrutura Renda Fixa,Industrials,XPID11.SA,EQ,BRXPIDCTF005
+Fundo de Investimento Imobiliario - FII CEO Cyrela Comercial Properties Responsabilidade Limitada Cotas,Industrials,CEOC11.SA,EQ,BRCEOCCTF003
+Fundo de Investimento Imobiliario Guardian Multiestrategia Imobiliaria I,Industrials,GAME11.SA,EQ,BRGAMECTF002
+iShares US Industrials ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.1 Sh,Industrials,BIYJ39.SA,EQ,BRBIYJBDR001
+SP Downtown Fundo de Investimento Imobiliario - FII Cotas,Industrials,SPTW11.SA,EQ,BRSPTWCTF002
+Bocaina Infra Fundo de Investimento em Cotas de Fundos Incentivados de Investimento em Infraestrutura Renda Fix Cr Priv,Industrials,BODB11.SA,EQ,BRBODBCTF009
+BB Fundo de Investimento de Credito Fiagro Imobiliario,Industrials,BBGO11.SA,EQ,BRBBGOCTF002
+Patria Escritorios - Fundo de Investimento Imobi liario - Responsabilidade Limitada,Industrials,HGRE11.SA,EQ,BRHGRECTF006
+Fundo de Investimento em Direitos Creditorios BB Votorantim Highland Infraestrutura Cotas A Subord Mezanino,Industrials,BBVH12.SA,EQ,BRBBVHCTF013
+iShares MSCI Emerging Markets ETF Unsponsored Brazilian Depository Receipt Repr 0.166667 Sh,Industrials,BEEM39.SA,EQ,BRBEEMBDR006
+Fundo de Investimento Imobiliario Edificio Almirante Barroso Cotas,Industrials,FAMB11.SA,EQ,BRFAMBCTF018
+JPMorgan Diversified Return U.S. Small Cap Equity ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.25 Sh,Industrials,BDRE39.SA,EQ,BRBDREBDR007
+Cidade Jardim Continental Tower Fundo de Investimento Imobiliario,Industrials,CJCT11.SA,EQ,BRCJCTCTF001
+Fundo de Investimento Imobiliario - Ourinvest RE I,Industrials,WTSP11.SA,EQ,BRWTSPCTF002
+PMXF Diversified Return Intl Ex-North America Equity Shs Unsponsored Brazilian Depositary Receipt Repr 0.2 Sh,Industrials,BJPI39.SA,EQ,BRBJPIBDR009
+Patria - VBI Asset Management Ltda,Industrials,BLCA11.SA,EQ,BRBLCACTF009
+Nex Credito Agro Fundo de Investimento nas Cadeias Produtivas do Agronegocio Fiagro Imobiliario,Industrials,NEXG11.SA,EQ,BRNEXGCTF002
+Fundo de Investimento Imobiliario FII Parque Dom Pedro Shopping Center Responsabilidade Limitada,Industrials,PQDP11.SA,EQ,BRPQDPCTF004
+iShares Trust iShares ESG Aware MSCI USA ETF Unsponsored Brazilian Depositary Receipt Repr 0.1 Sh,Industrials,BEGU39.SA,EQ,BRBEGUBDR004
+iShares MSCI EAFE Growth ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.1 Sh,Industrials,BEFG39.SA,EQ,BRBEFGBDR005
+BB Fundos de Fundos Fundo de Investimento Imobiliario,Industrials,BBFO11.SA,EQ,BRBBFOCTF004
+CF3 Fundo De Investimento Imobiliario,Industrials,CFII11.SA,EQ,BRCFIICTF009
+Fundo de Investimento Imobiliario TG Ativo Real Cotas,Industrials,TGAR11.SA,EQ,BRTGARCTF009
+iShares S&P Small-Cap 600 Value ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.125 Sh,Industrials,BIJS39.SA,EQ,BRBIJSBDR003
+Inter Infra Fundo de Investimento em Cotas de Fundos Incentivados de Investimento em Infraestrutura Ren Fix Cred Priv,Industrials,BIDB11.SA,EQ,BRBIDBCTF001
+Global X CleanTech ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.125 Sh,Industrials,BCTE39.SA,EQ,BRBCTEBDR005
+Fundo de Investimento Imobiliario Torre Almirante Cotas,Industrials,ALMI11.SA,EQ,BRALMICTF003
+iShares MSCI China ETF Unsponsored Brazilian Depositary Receipt Repr 0.125 Sh,Industrials,BCHI39.SA,EQ,BRBCHIBDR001
+Vinci Credit Securities Fundo de Investimento Imobiliario,Industrials,VCRI11.SA,EQ,BRVCRICTF007
+Fundo de Investimento Imobiliario Hospital Unimed Campina Grande,Industrials,HUCG11.SA,EQ,BRHUCGCTF004
+iShares MSCI Hong Kong ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.33333 Sh,Industrials,BEWH39.SA,EQ,BRBEWHBDR008
+Global X Data Center REITs & Digital Infrastructure ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.5 Sh,Industrials,DTCR39.SA,EQ,BRDTCRBDR003
+iShares Treasury Floating Rate Bond ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.2 Sh,Industrials,BTFL39.SA,EQ,BRBTFLBDR003
+Itau Asset Rural Figaro Imobiliario,Industrials,RURA11.SA,EQ,BRRURACTF004
+Fundo de Investimento Imobiliario Hectare CE,Industrials,HCTR11.SA,EQ,BRHCTRCTF003
+iShares iBoxx USD High Yield Corporate Bond ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.125 Sh,Industrials,BHYG39.SA,EQ,BRBHYGBDR009
+Patria - VBI Asset Management Ltda,Industrials,PVBI11.SA,EQ,BRPVBICTF003
+Global X Millennial Consumer ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.25 Sh,Industrials,BMIL39.SA,EQ,BRBMILBDR002
+Rec Multiestrategia Fundo De Investimento Imobiliario - Responsabilidade Limitada,Industrials,RECM11.SA,EQ,BRRECMCTF005
+iShares Silver Trust Unsponsored Brazilian Depositary Receipt Repr 0.33333 Sh,Industrials,BSLV39.SA,EQ,BRBSLVBDR002
+TRX Real Estate Fundo Investimento Imobiliario,Industrials,TRXF11.SA,EQ,BRTRXFCTF003
+abrdn Gold ETF Trust Shs Unsponsored Brazilian Depositary Receipt Repr 0.5 Sh,Industrials,ABGD39.SA,EQ,BRABGDBDR008
+JPP Allocation Mogno - Fundo de Investimento Imobiliario,Industrials,JPPA11.SA,EQ,BRJPPACTF005
+Legatus Shoppings Fundo de Investimento Imobiliario,Industrials,LASC11.SA,EQ,BRLASCCTF003
+Kinea Oportunidades Agro I Figaro Imobiliario,Industrials,KOPA11.SA,EQ,BRKOPACTF006
+Global X Copper Miners ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.1 Sh,Industrials,BCPX39.SA,EQ,BRBCPXBDR003
+Fundo de Investimento da Amazonia Cotas,Industrials,FNAM11.SA,EQ,BRFNAMCTF013
+Cartesia Recebiveis Imobiliarios Fundo de Investimento Imobiliario,Industrials,CACR11.SA,EQ,BRCACRCTF004
+Hedge Shopping Parque Dom Pedro Fundo de Investimento Imobiliario,Industrials,HPDP11.SA,EQ,BRHPDPCTF003
+Fundo de Investimento Imobiliario - FII Torre Norte Cotas,Industrials,TRNT11.SA,EQ,BRTRNTCTF013
+Global X Lithium & Battery Tech ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.125 Sh,Industrials,BLBT39.SA,EQ,BRBLBTBDR002
+iShares Core S&P Small-Cap ETF Unsponsored Brazilian Depository Receipt Repr 0.125 Sh,Industrials,BIJR39.SA,EQ,BRBIJRBDR005
+JPMorgan BetaBuilders International Equity ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.2 Sh,Industrials,BBIL39.SA,EQ,BRBBILBDR005
+Santander Papeis Imobiliarios Fundo de Investimento Imobiliario,Industrials,SAPI11.SA,EQ,BRSAPICTF001
+General Shopping e Outlets do Brasil Fundo de Investimento Imobiliario,Industrials,GSFI11.SA,EQ,BRGSFICTF009
+iShares Global Healthcare ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.125 Sh,Industrials,BIXJ39.SA,EQ,BRBIXJBDR003
+Fundo de Investimento Imobiliario Rio Bravo Renda Varejo - FII,Industrials,RBVA11.SA,EQ,BRRBVACTF006
+Fundo de Investimento Industrial do Brasil Cotas,Industrials,FIIB11.SA,EQ,BRFIIBCTF001
+iShares Core High Dividend ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.1 Sh,Industrials,BHDV39.SA,EQ,BRBHDVBDR002
+Global X Video Games & Esports ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.25 Sh,Industrials,BHER39.SA,EQ,BRBHERBDR008
+Fundo de Investimento Imobiliario Guardian Real Estate,Industrials,GARE11.SA,EQ,BRGARECTF001
+iShares Gold Trust Shs Unsponsored Brazilian Depository Receipt Repr 0.25 Sh,Industrials,BIAU39.SA,EQ,BRBIAUBDR008
+iShares MSCI Mexico ETF Unsponsored Brazilian Depository Receipt Repr 0.25 Sh,Industrials,BEWW39.SA,EQ,BRBEWWBDR007
+Newport Renda Urbana Fundo de Investimento Imobiliario,Industrials,NEWU11.SA,EQ,BRNEWUCTF005
+Banestes Recebiveis Imobiliarios Fundo de Investimento Imobiliario- FII Cotas,Industrials,BCRI11.SA,EQ,BRBCRICTF009
+Fundo de Investimento nas Cadeias Produtivas Agroindustriais Riza Agro Fiagro Imobiliario,Industrials,RZAG11.SA,EQ,BRRZAGCTF006
+Global X Cloud Computing ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.33333333 Sh,Industrials,BCLO39.SA,EQ,BRBCLOBDR001
+Fator Verita Multiestrategia Fundo De Investimento Imobiliario,Industrials,VRTM11.SA,EQ,BRVRTMCTF003
+iShares Russell 1000 Growth ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.04 Sh,Industrials,BIWF39.SA,EQ,BRBIWFBDR003
+HSI Ativos Financeiros Fundos Investimentos Imobiliarios,Industrials,HSAF11.SA,EQ,BRHSAFCTF004
+Patria Credito Imobiliario Estruturado,Industrials,RBRY11.SA,EQ,BRRBRYCTF004
+iShares US Home Construction ETF Unsponsored Brazilian Depositary Receipt Repr 0.166666667 Sh,Industrials,BITB39.SA,EQ,BRBITBBDR008
+XP Log Fundo Investimento Imobiliario FII,Industrials,XPLG11.SA,EQ,BRXPLGCTF002
+HSI Malls Fundo de Investimento Imobiliario,Industrials,HSML11.SA,EQ,BRHSMLCTF007
+FG/AGRO Fundo de Investimento nas Cadeias Produtivas Agroindustriais Fiagro Imobiliario,Industrials,FGAA11.SA,EQ,BRFGAACTF004
+iShares Core Dividend Growth ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.2 Sh,Industrials,BGWH39.SA,EQ,BRBGWHBDR003
+iShares MSCI Brazil ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.33333 Sh,Industrials,BEWZ39.SA,EQ,BRBEWZBDR000
+RBR Desenvolvimento Logistico I Fundo de Investimento Imobiliario Responsabilidade Limitada,Industrials,RDLI11.SA,EQ,BRRDLICTF006
+XP Credito Agricola Fundo de Investimento nas Cadeias Produtivas Fiagro Imobiliario,Industrials,XPCA11.SA,EQ,BRXPCACTF004
+CSHG Brasil Shopping Fundo de Investimento Imobiliario Cotas,Industrials,HGBS11.SA,EQ,BRHGBSCTF000
+Bradesco Carteira Imobiliatia Ative- Fundo de Fundos de Investimento Imobiliario- FII Cotas,Industrials,BCIA11.SA,EQ,BRBCIACTF005
+Itau Fundo de Investimento em Cotas de Fundos de Investimento em Direitos Creditorios de Infraestrutura,Industrials,IFRA11.SA,EQ,BRIFRACTF004
+iShares MSCI Italy ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.2 Sh,Industrials,BEWI39.SA,EQ,BRBEWIBDR006
+Kinea Oportunidades Real Estate Fundo de Investimento Imobiliario,Industrials,KORE11.SA,EQ,BRKORECTF012
+GALAPAGOS SP SURF FUNDO DE INVESTIMENTO IMOBILIARIO RESPONSABILIDADE LIMITADA,Industrials,GSRF11.SA,EQ,BRGSRFCTF000
+Versalhes Recebiveis Imobiliarios Fundo de Investimento Imobiliario,Industrials,VSLH11.SA,EQ,BRVSLHCTF008
+iShares Core MSCI EAFE ETF Unsponsored Brazilian Depository Receipt Repr 0.125 Sh,Industrials,BIEF39.SA,EQ,BRBIEFBDR001
+Fundo de Investimento Imobiliario Shopping Patio Higienopolis Cotas,Industrials,SHPH11.SA,EQ,BRSHPHCTF008
+Icone Fundo de Investimento Imobiliario Responsabilidade Limitada,Industrials,ICNE11.SA,EQ,BRICNECTF002
+Hectare Recebiveis High Grade Fundo de Investimento Imobiliario FII,Industrials,HCHG11.SA,EQ,BRHCHGCTF001
+AROEIRA 333 RENDA LOGISTICA FUNDO DE INVESTIMENTO IMOBILIARIO,Industrials,AROA11.SA,EQ,BRAROACTF003
+iShares Nasdaq Top 30 Stocks ETF Shs Unsponsored Brazilian Depositary Receipt Repr 0.33333333 Sh,Industrials,QTOP39.SA,EQ,BRQTOPBDR004

@@ -1,82 +1,171 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-KT & G Corporation,Consumer Staples,033780.KS,EQ,
-APR Co.Ltd.,Consumer Staples,278470.KS,EQ,
-Samyang Foods Co. Ltd,Consumer Staples,003230.KS,EQ,
-Amorepacific Corp.,Consumer Staples,090430.KS,EQ,
-CJ Corporation,Consumer Staples,001040.KS,EQ,
-ORION CORP.,Consumer Staples,271560.KS,EQ,
-LG H&H Co. Ltd.,Consumer Staples,051900.KS,EQ,
-Youngone Corp.,Consumer Staples,111770.KS,EQ,
-F&F Co. Ltd.,Consumer Staples,383220.KS,EQ,
-Dongsuh Companies Inc.,Consumer Staples,026960.KS,EQ,
-Dalba Global Co. Ltd.,Consumer Staples,483650.KS,EQ,
-Nongshim Co. Ltd.,Consumer Staples,004370.KS,EQ,
-Misto Holdings Corporation,Consumer Staples,081660.KS,EQ,
-Youngone Holdings Co. Ltd.,Consumer Staples,009970.KS,EQ,
-KOLMAR KOREA CO. LTD,Consumer Staples,161890.KS,EQ,
-COSMAX Inc.,Consumer Staples,192820.KS,EQ,
-Lotte Corp,Consumer Staples,004990.KS,EQ,
-AMOREPACIFIC Holdings Corp.,Consumer Staples,002790.KS,EQ,
-ORION Holdings Corporation,Consumer Staples,001800.KS,EQ,
-OTOKI Corporation,Consumer Staples,007310.KS,EQ,
-HITEJINRO CO LTD,Consumer Staples,000080.KS,EQ,
-Lotte Chilsung Beverage Co. Ltd,Consumer Staples,005300.KS,EQ,
-Lotte Wellfood Co.Ltd,Consumer Staples,280360.KS,EQ,
-Daesang Corporation,Consumer Staples,001680.KS,EQ,
-F&F Holdings Co. Ltd.,Consumer Staples,007700.KS,EQ,
-LF Corp.,Consumer Staples,093050.KS,EQ,
-Binggrae Co. Ltd,Consumer Staples,005180.KS,EQ,
-Handsome Corp,Consumer Staples,020000.KS,EQ,
-Samyang Corporation,Consumer Staples,145990.KS,EQ,
-Nongshim Holdings Co. Ltd.,Consumer Staples,072710.KS,EQ,
-Pulmuone Corporate,Consumer Staples,017810.KS,EQ,
-Daesang Holdings Co. Ltd,Consumer Staples,084690.KS,EQ,
-Hansae Co. Ltd,Consumer Staples,105630.KS,EQ,
-SAMLIP,Consumer Staples,005610.KS,EQ,
-Namyang Dairy Products Co. Ltd,Consumer Staples,003920.KS,EQ,
-Hyundai Futurenet Co. Ltd,Consumer Staples,126560.KS,EQ,
-JS Corporation,Consumer Staples,194370.KS,EQ,
-Aekyung Industrial Co. Ltd.,Consumer Staples,018250.KS,EQ,
-Able C&C Co Ltd,Consumer Staples,078520.KS,EQ,
-KOLMAR HOLDINGS CO. LTD.,Consumer Staples,024720.KS,EQ,
-BYC Co. Ltd,Consumer Staples,001460.KS,EQ,
-Hannong Chemicals Inc.,Consumer Staples,011500.KS,EQ,
-HWASEUNG ENTERPRISE Co. Ltd.,Consumer Staples,241590.KS,EQ,
-TS Corporation,Consumer Staples,001790.KS,EQ,
-Sajodaerim Corporation,Consumer Staples,003960.KS,EQ,
-Muhak Co. Ltd.,Consumer Staples,033920.KS,EQ,
-HITEJINRO HOLDINGS CO. LTD,Consumer Staples,000140.KS,EQ,
-Hankook Cosmetics Manufacturing Co. Ltd,Consumer Staples,003350.KS,EQ,
-IT'S HANBUL CO. LTD.,Consumer Staples,226320.KS,EQ,
-Hansae Yes24 Holdings Co. Ltd,Consumer Staples,016450.KS,EQ,
-Haitai Confectionery & Foods Co. Ltd.,Consumer Staples,101530.KS,EQ,
-TONYMOLY Co. Ltd.,Consumer Staples,214420.KS,EQ,
-SYTS Corp.,Consumer Staples,002170.KS,EQ,
-Sajo Seafood Co. Ltd.,Consumer Staples,014710.KS,EQ,
-Shinyoung Wacoal Inc.,Consumer Staples,005800.KS,EQ,
-Hankook Cosmetics Co. Ltd,Consumer Staples,123690.KS,EQ,
-Sempio Foods Co.,Consumer Staples,248170.KS,EQ,
-CROWN CONFECTIONERY CO.LTD,Consumer Staples,264900.KS,EQ,
-Shinwon Corporation,Consumer Staples,009270.KS,EQ,
-Dongnam Chemical Co. Ltd.,Consumer Staples,023450.KS,EQ,
-CROWNHAITAI Holdings,Consumer Staples,005740.KS,EQ,
-SEMPIO COMPANY,Consumer Staples,007540.KS,EQ,
-Choheung Corporation,Consumer Staples,002600.KS,EQ,
-CJ Seafood Corporation,Consumer Staples,011150.KS,EQ,
-Daehyun Co. Ltd,Consumer Staples,016090.KS,EQ,
-HOJEON LTD,Consumer Staples,111110.KS,EQ,
-SG Corporation,Consumer Staples,004060.KS,EQ,
-WOOSUNG CO. LTD.,Consumer Staples,006980.KS,EQ,
-Seoul Foods Industrial Co. Ltd.,Consumer Staples,004410.KS,EQ,
-Hyungji Elite Inc.,Consumer Staples,093240.KS,EQ,
-TBH GLOBAL CO. LTD.,Consumer Staples,084870.KS,EQ,
-Bohae Brewery Co. Ltd.,Consumer Staples,000890.KS,EQ,
-ONTIDE Corp.,Consumer Staples,005320.KS,EQ,
-In the F CO.LTD.,Consumer Staples,014990.KS,EQ,
-Maniker Co. Ltd,Consumer Staples,027740.KS,EQ,
-Jindo Co. Ltd,Consumer Staples,088790.KS,EQ,
-MetaLabs Co. Ltd.,Consumer Staples,090370.KS,EQ,
-MH Ethanol Co. Ltd.,Consumer Staples,023150.KS,EQ,
-HANSAEMK CO. LTD.,Consumer Staples,069640.KS,EQ,
-VIVIEN CORPORATION,Consumer Staples,002070.KS,EQ,
-Willbes & Co. Ltd,Consumer Staples,008600.KS,EQ,
+KT & G Corporation,Consumer Staples,033780.KS,EQ,KR7033780008
+APR Co. Ltd.,Consumer Staples,278470.KS,EQ,KR7278470000
+Samyang Foods Co. Ltd,Consumer Staples,003230.KS,EQ,KR7003230000
+Amorepacific Corp.Pfd Registered Non-Voting,Consumer Staples,090435.KS,EQ,KR7090431008
+Amorepacific Corp.,Consumer Staples,090430.KS,EQ,KR7090430000
+CJ Corporation Pfd Shs Non-Voting,Consumer Staples,001045.KS,EQ,KR7001041003
+CJ Corporation,Consumer Staples,001040.KS,EQ,KR7001040005
+ORION CORP.,Consumer Staples,271560.KS,EQ,KR7271560005
+LG H&H Co. Ltd. Pfd Registered Shs Non-Voting,Consumer Staples,051905.KS,EQ,KR7051901007
+LG H&H Co. Ltd.,Consumer Staples,051900.KS,EQ,KR7051900009
+Youngone Corp.,Consumer Staples,111770.KS,EQ,KR7111770004
+F&F Co. Ltd.,Consumer Staples,383220.KS,EQ,KR7383220001
+Dalba Global Co. Ltd.,Consumer Staples,483650.KS,EQ,KR7483650008
+Dongsuh Companies Inc.,Consumer Staples,026960.KS,EQ,KR7026960005
+NATURECELL Co. Ltd.,Consumer Staples,007390.KS,EQ,KR7007390008
+Nongshim Co. Ltd.,Consumer Staples,004370.KS,EQ,KR7004370003
+Youngone Holdings Co. Ltd.,Consumer Staples,009970.KS,EQ,KR7009970005
+Misto Holdings Corporation,Consumer Staples,081660.KS,EQ,KR7081660003
+KOLMAR KOREA CO. LTD,Consumer Staples,161890.KS,EQ,KR7161890009
+COSMAX Inc.,Consumer Staples,192820.KS,EQ,KR7192820009
+Lotte Corp,Consumer Staples,004990.KS,EQ,KR7004990008
+AMOREPACIFIC Holdings Corp.,Consumer Staples,002790.KS,EQ,KR7002790004
+AMOREPACIFIC Holdings Corp. Pfd Registered 1 Non-Voting,Consumer Staples,002795.KS,EQ,KR7002791002
+ORION Holdings Corporation,Consumer Staples,001800.KS,EQ,KR7001800002
+OTOKI Corporation,Consumer Staples,007310.KS,EQ,KR7007310006
+HITEJINRO CO LTD,Consumer Staples,000080.KS,EQ,KR7000080002
+HITEJINRO CO LTD Pfd Registered Shs Non-Voting No.2,Consumer Staples,000087.KS,EQ,KR7000082008
+Lotte Chilsung Beverage Co. Ltd,Consumer Staples,005300.KS,EQ,KR7005300009
+Lotte Chilsung Beverage Co Ltd Pfd Non-Voting,Consumer Staples,005305.KS,EQ,KR7005301007
+Lotte Wellfood Co. Ltd,Consumer Staples,280360.KS,EQ,KR7280360009
+COSMECCA KOREA CO. LTD,Consumer Staples,241710.KS,EQ,KR7241710003
+Daesang Corporation,Consumer Staples,001680.KS,EQ,KR7001680008
+Daesang Corporation Pfd Registered Shs Non-Voting,Consumer Staples,001685.KS,EQ,KR7001681006
+F&F Holdings Co. Ltd.,Consumer Staples,007700.KS,EQ,KR7007700008
+LF Corp.,Consumer Staples,093050.KS,EQ,KR7093050003
+Binggrae Co. Ltd,Consumer Staples,005180.KS,EQ,KR7005180005
+YEST Co. Ltd.,Consumer Staples,122640.KS,EQ,KR7122640006
+VT Co. Ltd.,Consumer Staples,018290.KS,EQ,KR7018290007
+Samyang Corp Pfd Non-Voting,Consumer Staples,145995.KS,EQ,KR7145991006
+Samyang Corporation,Consumer Staples,145990.KS,EQ,KR7145990008
+Handsome Corp,Consumer Staples,020000.KS,EQ,KR7020000006
+Nongshim Holdings Co. Ltd.,Consumer Staples,072710.KS,EQ,KR7072710007
+Pulmuone Corporate,Consumer Staples,017810.KS,EQ,KR7017810003
+Hansae Co. Ltd,Consumer Staples,105630.KS,EQ,KR7105630008
+SAMLIP,Consumer Staples,005610.KS,EQ,KR7005610001
+Namyang Dairy Products Co Ltd Pfd Non-Voting,Consumer Staples,003925.KS,EQ,KR7003921004
+Namyang Dairy Products Co. Ltd,Consumer Staples,003920.KS,EQ,KR7003920006
+Hyundai Futurenet Co. Ltd,Consumer Staples,126560.KS,EQ,KR7126560002
+Daesang Holdings Co Ltd Pfd Registered Shs I Non-voting,Consumer Staples,084695.KS,EQ,KR7084691005
+Daesang Holdings Co. Ltd,Consumer Staples,084690.KS,EQ,KR7084690007
+JS Corporation,Consumer Staples,194370.KS,EQ,KR7194370003
+Harim Co. Ltd.,Consumer Staples,136480.KS,EQ,KR7136480001
+Aekyung Industrial Co. Ltd.,Consumer Staples,018250.KS,EQ,KR7018250001
+KOLMAR HOLDINGS CO. LTD.,Consumer Staples,024720.KS,EQ,KR7024720005
+Able C&C Co Ltd,Consumer Staples,078520.KS,EQ,KR7078520004
+BYC Co. Ltd Non-Cum Pfd Registered Shs Non-Voting,Consumer Staples,001465.KS,EQ,KR7001461003
+BYC Co. Ltd,Consumer Staples,001460.KS,EQ,KR7001460005
+C&C International Co. Ltd.,Consumer Staples,352480.KS,EQ,KR7352480008
+NeoPharm Co. Ltd.,Consumer Staples,092730.KS,EQ,KR7092730001
+Hannong Chemicals Inc.,Consumer Staples,011500.KS,EQ,KR7011500006
+Pond Group Co. Ltd.,Consumer Staples,472850.KS,EQ,KR7472850007
+Maeil Dairies Co. Ltd.,Consumer Staples,267980.KS,EQ,KR7267980001
+TS Corporation,Consumer Staples,001790.KS,EQ,KR7001790005
+TS Corporation Pfd Non-Voting,Consumer Staples,001795.KS,EQ,KR7001791003
+HWASEUNG ENTERPRISE Co. Ltd.,Consumer Staples,241590.KS,EQ,KR7241590009
+Muhak Co. Ltd.,Consumer Staples,033920.KS,EQ,KR7033920000
+Sajodaerim Corporation,Consumer Staples,003960.KS,EQ,KR7003960002
+N Robotics Co. Ltd.,Consumer Staples,138360.KS,EQ,KR7138360003
+CLIO Cosmetics co. Ltd,Consumer Staples,237880.KS,EQ,KR7237880000
+Englewood Lab Inc.,Consumer Staples,950140.KS,EQ,KR8840110108
+HITEJINRO HOLDINGS CO. LTD Pfd 1 Non-Voting,Consumer Staples,000145.KS,EQ,KR7000141002
+HITEJINRO HOLDINGS CO. LTD,Consumer Staples,000140.KS,EQ,KR7000140004
+Hankook Cosmetics Manufacturing Co. Ltd,Consumer Staples,003350.KS,EQ,KR7003350006
+IT'S HANBUL CO. LTD.,Consumer Staples,226320.KS,EQ,KR7226320000
+Hansae Yes24 Holdings Co. Ltd,Consumer Staples,016450.KS,EQ,KR7016450009
+Haitai Confectionery & Foods Co. Ltd.,Consumer Staples,101530.KS,EQ,KR7101530004
+S&D Co. Ltd.,Consumer Staples,260970.KS,EQ,KR7260970009
+Maeil Holdings Co. Ltd.,Consumer Staples,005990.KS,EQ,KR7005990007
+SYTS Corp.,Consumer Staples,002170.KS,EQ,KR7002170009
+TONYMOLY Co. Ltd.,Consumer Staples,214420.KS,EQ,KR7214420002
+Sajo Seafood Co. Ltd.,Consumer Staples,014710.KS,EQ,KR7014710008
+Shinyoung Wacoal Inc.,Consumer Staples,005800.KS,EQ,KR7005800008
+Codes Combine Co. Ltd,Consumer Staples,047770.KS,EQ,KR7047770003
+09women Co. Ltd.,Consumer Staples,366030.KS,EQ,KR7366030005
+Jinro Distillers Co. Ltd.,Consumer Staples,018120.KS,EQ,KR7018120006
+Agabang & Company,Consumer Staples,013990.KS,EQ,KR7013990007
+MSC Co. Ltd,Consumer Staples,009780.KS,EQ,KR7009780008
+Hankook Cosmetics Co. Ltd,Consumer Staples,123690.KS,EQ,KR7123690000
+CROWN CONFECTIONERY CO. LTD,Consumer Staples,264900.KS,EQ,KR7264900002
+Sempio Foods Co.,Consumer Staples,248170.KS,EQ,KR7248170003
+BioBijou Co. Ltd.,Consumer Staples,489460.KS,EQ,KR7489460006
+Shinwon Corporation,Consumer Staples,009270.KS,EQ,KR7009270000
+Dongnam Chemical Co. Ltd.,Consumer Staples,023450.KS,EQ,KR7023450000
+NFC Corporation,Consumer Staples,265740.KS,EQ,KR7265740001
+GOOD PEOPLE Co. Ltd.,Consumer Staples,033340.KS,EQ,KR7033340001
+FOODNAMOO. INC.,Consumer Staples,290720.KS,EQ,KR7290720002
+SEMPIO COMPANY,Consumer Staples,007540.KS,EQ,KR7007540008
+CROWNHAITAI Holdings,Consumer Staples,005740.KS,EQ,KR7005740006
+CROWNHAITAI Holdings Pfd Registered Shs,Consumer Staples,005745.KS,EQ,KR7005741004
+Nature Holdings Co. Ltd.,Consumer Staples,298540.KS,EQ,KR7298540006
+Choheung Corporation,Consumer Staples,002600.KS,EQ,KR7002600005
+CJ Seafood Corporation,Consumer Staples,011150.KS,EQ,KR7011150000
+CJ Seafood Corporation Pfd Registered Shs Non-Voting,Consumer Staples,011155.KS,EQ,KR7011151008
+Creas F&C Co. Ltd.,Consumer Staples,110790.KS,EQ,KR7110790003
+Changhae Ethanol Co. Ltd.,Consumer Staples,004650.KS,EQ,KR7004650008
+BLACK YAK I&C Co. Ltd.,Consumer Staples,478560.KS,EQ,KR7478560006
+Daehyun Co. Ltd,Consumer Staples,016090.KS,EQ,KR7016090003
+BBIA Co. Ltd.,Consumer Staples,451250.KS,EQ,KR7451250005
+ASTech Co. Ltd.,Consumer Staples,453860.KS,EQ,KR7453860009
+Nobland International Inc.,Consumer Staples,145170.KS,EQ,KR7145170007
+JINCOSTECH CO. LTD.,Consumer Staples,250030.KS,EQ,KR7250030004
+HOJEON LTD,Consumer Staples,111110.KS,EQ,KR7111110003
+DYD Co. LTD.,Consumer Staples,219550.KS,EQ,KR7219550001
+Kook Soon Dang Co. Ltd.,Consumer Staples,043650.KS,EQ,KR7043650001
+Foodwell Corp.,Consumer Staples,005670.KS,EQ,KR7005670005
+ERCOHS Agricultural Corporation Co. Ltd.,Consumer Staples,435570.KS,EQ,KR7435570007
+Zero to Seven Inc.,Consumer Staples,159580.KS,EQ,KR7159580000
+CTK Co. Ltd,Consumer Staples,260930.KS,EQ,KR7260930003
+SG Corporation,Consumer Staples,004060.KS,EQ,KR7004060000
+WOOSUNG CO. LTD.,Consumer Staples,006980.KS,EQ,KR7006980007
+HYUNGKUK F&B Co. Ltd,Consumer Staples,189980.KS,EQ,KR7189980006
+Cell Bio Human Tech Co. Ltd,Consumer Staples,318160.KS,EQ,KR7318160009
+Hyungji Elite Inc.,Consumer Staples,093240.KS,EQ,KR7093240000
+Seoul Foods Industrial Co. Ltd.,Consumer Staples,004410.KS,EQ,KR7004410007
+Seoul Foods Industrial Co. Ltd. Non-Cum Pfd Registered Shs Non-Voting,Consumer Staples,004415.KS,EQ,KR7004411005
+Coreana Cosmetics Co. Ltd,Consumer Staples,027050.KS,EQ,KR7027050004
+BORATR Co. Ltd.,Consumer Staples,250000.KS,EQ,KR7250000007
+Neo Cremar Co. Ltd.,Consumer Staples,311390.KS,EQ,KR7311390009
+GRITEE Inc.,Consumer Staples,204020.KS,EQ,KR7204020002
+ONTIDE Corp.,Consumer Staples,005320.KS,EQ,KR7005320007
+TBH GLOBAL CO. LTD.,Consumer Staples,084870.KS,EQ,KR7084870005
+Bohae Brewery Co. Ltd.,Consumer Staples,000890.KS,EQ,KR7000890004
+In the F CO. LTD.,Consumer Staples,014990.KS,EQ,KR7014990006
+WOOYANG Co. Ltd.,Consumer Staples,103840.KS,EQ,KR7103840005
+INSAN Inc.,Consumer Staples,277410.KS,EQ,KR7277410007
+Jindo Co. Ltd,Consumer Staples,088790.KS,EQ,KR7088790001
+Maniker Co. Ltd,Consumer Staples,027740.KS,EQ,KR7027740000
+MANIKER F&G CO. LTD,Consumer Staples,195500.KS,EQ,KR7195500004
+HanWool & Jeju Inc.,Consumer Staples,276730.KS,EQ,KR7276730009
+HuM&C Co. Ltd.,Consumer Staples,263920.KS,EQ,KR7263920001
+MetaLabs Co. Ltd.,Consumer Staples,090370.KS,EQ,KR7090370008
+New Kids On Co. Ltd.,Consumer Staples,462310.KS,EQ,KR7462310004
+KODI CO. LTD.,Consumer Staples,080530.KS,EQ,KR7080530009
+JILGYUNGYI Co. Ltd.,Consumer Staples,233990.KS,EQ,KR7233990001
+TS Trillion Co. Ltd.,Consumer Staples,317240.KS,EQ,KR7317240000
+AUTO& Inc.,Consumer Staples,353590.KS,EQ,KR7353590003
+MH Ethanol Co. Ltd.,Consumer Staples,023150.KS,EQ,KR7023150006
+Leaders Cosmetics Co. Ltd,Consumer Staples,016100.KS,EQ,KR7016100000
+WING'S FOOT INC.,Consumer Staples,335870.KS,EQ,KR7335870002
+BARREL Co. Ltd.,Consumer Staples,267790.KS,EQ,KR7267790004
+Wing Yip Food Holdings Group Limited,Consumer Staples,900340.KS,EQ,HK0000449303
+SR Biotek Inc.,Consumer Staples,270210.KS,EQ,KR7270210008
+SJ Group Co. Ltd.,Consumer Staples,306040.KS,EQ,KR7306040007
+Great New Wave Coming Co. Ltd.,Consumer Staples,065060.KS,EQ,KR7065060006
+Korea Miracle People Co. Ltd.,Consumer Staples,331660.KS,EQ,KR7331660001
+Mcnulty Korea Co. Ltd.,Consumer Staples,222980.KS,EQ,KR7222980005
+HANSAEMK CO. LTD.,Consumer Staples,069640.KS,EQ,KR7069640001
+Kwangdong Healthbio Co. Ltd.,Consumer Staples,086220.KS,EQ,KR7086220001
+VIVIEN CORPORATION,Consumer Staples,002070.KS,EQ,KR7002070001
+STO Co. Ltd.,Consumer Staples,098660.KS,EQ,KR7098660004
+Fashion Platform Co. Ltd.,Consumer Staples,225590.KS,EQ,KR7225590009
+HYUNGJI Innovation & Creative Co. Ltd.,Consumer Staples,011080.KS,EQ,KR7011080009
+Medience Co. Ltd.,Consumer Staples,014100.KS,EQ,KR7014100002
+Hyungji Global Co. Ltd.,Consumer Staples,308100.KS,EQ,KR7308100007
+OSP Co. Ltd,Consumer Staples,368970.KS,EQ,KR7368970000
+KMPHARMACEUTICAL Co. Ltd.,Consumer Staples,225430.KS,EQ,KR7225430008
+Next Eye Co. Ltd.,Consumer Staples,137940.KS,EQ,KR7137940003
+Silla SG Co . Ltd.,Consumer Staples,025870.KS,EQ,KR7025870007
+Wonpung Mulsan Co. Ltd.,Consumer Staples,008290.KS,EQ,KR7008290009
+Ssial Food Inc.,Consumer Staples,236030.KS,EQ,KR7236030003

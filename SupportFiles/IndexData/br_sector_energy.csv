@@ -1,7 +1,20 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-Petroleo Brasileiro SA (Petrobras) ON,Energy,PETR3.SA,EQ,
-Petroleo Brasileiro SA (Petrobras) PN,Energy,PETR4.SA,EQ,
-Cosan SA,Energy,CSAN3.SA,EQ,
-Raizen Energia SA PN,Energy,RAIZ4.SA,EQ,
-Ultrapar Participacoes SA,Energy,UGPA3.SA,EQ,
-Petro Rio SA,Energy,PRIO3.SA,EQ,
+Exxon Mobil Corp Shs Unsponsored Brazilian Depository Receipts Repr 0.125 Sh,Energy,EXXO34.SA,EQ,BREXXOBDR006
+Chevron Corporation Shs Unsponsored Brazilian Depositary Receipt Repr 0.1 Sh,Energy,CHVX34.SA,EQ,BRCHVXBDR008
+ConocoPhillips Shs Unsponsored Brazilian Depositary Receipt Repr 0.083333333 Sh,Energy,COPH34.SA,EQ,BRCOPHBDR009
+BP PLC Unsponsored Brazilian Depositary Receipt Repr 0.25 ADR,Energy,B1PP34.SA,EQ,BRB1PPBDR008
+Petroleo Brasileiro SA,Energy,PETR3.SA,EQ,BRPETRACNOR9
+Petroleo Brasileiro SA Pfd,Energy,PETR4.SA,EQ,BRPETRACNPR6
+Equinor ASA ADR Unsponsored Brazilian Depositary Receipt Repr 0.5 ADR,Energy,E1QN34.SA,EQ,BRE1QNBDR008
+Valero Energy Corp Shs Unsponsored Brazilian Depository Receipts Repr 1/2 Sh,Energy,VLOE34.SA,EQ,BRVLOEBDR005
+Occidental Petroleum Corp Shs Unsponsored Brazilian Depository Receipt Repr 0.1666667 Sh,Energy,OXYP34.SA,EQ,BROXYPBDR000
+Devon Energy Corporation Unsponsored Brazilian Depositary Receipt Repr 1 Sh,Energy,D1VN34.SA,EQ,BRD1VNBDR009
+Ecopetrol SA ADR Unsponsored Brazilian Depositary Receipt Repr 0.5 ADR,Energy,E1CO34.SA,EQ,BRE1COBDR006
+YPF SA Unsponsored BDR,Energy,Y2PF34.SA,EQ,BRY2PFBDR000
+APA Corporation Shs Unsponsored Brazilian Depositary Receipt Repr 1 Sh,Energy,A1PA34.SA,EQ,BRA1PABDR001
+Prio SA,Energy,PRIO3.SA,EQ,BRPRIOACNOR1
+Brava Energia SA,Energy,BRAV3.SA,EQ,BRBRAVACNOR3
+GeoPark Ltd Shs Unsponsored Brazilian Depository Receipt Repr 1 Sh,Energy,GPRK34.SA,EQ,BRGPRKBDR007
+Petroreconcavo SA,Energy,RECV3.SA,EQ,BRRECVACNOR3
+Refinaria de Petroleos Manguinhos S.A.,Energy,RPMG3.SA,EQ,BRRPMGACNOR9
+Azevedo & Travassos Energia S.A,Energy,AZTE3.SA,EQ,BRAZTEACNOR4

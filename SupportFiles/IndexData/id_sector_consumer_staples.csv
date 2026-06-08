@@ -1,12 +1,67 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-Unilever Indonesia,Consumer Staples,UNVR.JK,EQ,
-Indofood CBP,Consumer Staples,ICBP.JK,EQ,
-Indofood Sukses,Consumer Staples,INDF.JK,EQ,
-Gudang Garam,Consumer Staples,GGRM.JK,EQ,
-HM Sampoerna,Consumer Staples,HMSP.JK,EQ,
-Charoen Pokphand,Consumer Staples,CPIN.JK,EQ,
-Sumber Alfaria,Consumer Staples,AMRT.JK,EQ,
-Astra Agro Lestari,Consumer Staples,AALI.JK,EQ,
-PP London Sumatra,Consumer Staples,LSIP.JK,EQ,
-Mayora Indah,Consumer Staples,MYOR.JK,EQ,
-Cisarua Mountain Dairy,Consumer Staples,CMRY.JK,EQ,
+PT Pantai Indah Kapuk Dua Tbk,Consumer Staples,PANI.JK,EQ,ID1000145303
+PT Indofood CBP Sukses Makmur Tbk,Consumer Staples,ICBP.JK,EQ,ID1000116700
+PT Hanjaya Mandala Sampoerna Tbk,Consumer Staples,HMSP.JK,EQ,ID1000074008
+PT Unilever Indonesia Tbk,Consumer Staples,UNVR.JK,EQ,ID1000095706
+PT Indofood Sukses Makmur Tbk,Consumer Staples,INDF.JK,EQ,ID1000057003
+PT Mayora Indah Tbk,Consumer Staples,MYOR.JK,EQ,ID1000060007
+PT Gudang Garam Tbk,Consumer Staples,GGRM.JK,EQ,ID1000068604
+PT FAP Agri Tbk,Consumer Staples,FAPA.JK,EQ,ID1000158405
+PT Ultrajaya Milk Industry & Trading Co. Tbk,Consumer Staples,ULTJ.JK,EQ,ID1000063100
+PT Akasha Wira International Tbk,Consumer Staples,ADES.JK,EQ,ID1000067606
+PT Siantar Top Tbk,Consumer Staples,STTP.JK,EQ,ID1000079502
+PT Multi Bintang Indonesia Tbk,Consumer Staples,MLBI.JK,EQ,ID1000132806
+PT Garudafood Putra Putri Jaya Tbk,Consumer Staples,GOOD.JK,EQ,ID1000145907
+Pt Yupi Indo Jelly Gum Tbk,Consumer Staples,YUPI.JK,EQ,ID1000209802
+PT Sariguna Primatirta Tbk,Consumer Staples,CLEO.JK,EQ,ID1000138605
+PT Salim Ivomas Pratama Tbk,Consumer Staples,SIMP.JK,EQ,ID1000119100
+PT Golden Flower Tbk,Consumer Staples,POLU.JK,EQ,ID1000149206
+PT Diamond Food Indonesia Tbk,Consumer Staples,DMND.JK,EQ,ID1000153802
+PT Unggul Indah Cahaya Tbk,Consumer Staples,UNIC.JK,EQ,ID1000058704
+PT Palma Serasih Tbk.,Consumer Staples,PSGO.JK,EQ,ID1000152408
+PT Victoria Care Indonesia Tbk,Consumer Staples,VICI.JK,EQ,ID1000158207
+PT Mulia Boga Raya Tbk,Consumer Staples,KEJU.JK,EQ,ID1000152309
+PT Nippon Indosari Corpindo Tbk,Consumer Staples,ROTI.JK,EQ,ID1000129703
+PT Estee Gold Feet Tbk,Consumer Staples,EURO.JK,EQ,ID1000170707
+PT FKS Multi Agro Tbk,Consumer Staples,FISH.JK,EQ,ID1000080104
+PT Wismilak Inti Makmur Tbk,Consumer Staples,WIIM.JK,EQ,ID1000126006
+PT Citra Borneo Utama Tbk,Consumer Staples,CBUT.JK,EQ,ID1000176100
+PT Kino Indonesia Tbk,Consumer Staples,KINO.JK,EQ,ID1000136500
+PT Uni-Charm Indonesia Tbk,Consumer Staples,UCID.JK,EQ,ID1000152903
+PT Delta Djakarta Tbk,Consumer Staples,DLTA.JK,EQ,ID1000136005
+PT Wilmar Cahaya Indonesia Tbk,Consumer Staples,CEKA.JK,EQ,ID1000135007
+PT Sekar Laut Tbk,Consumer Staples,SKLT.JK,EQ,ID1000059702
+PT Estika Tata Tiara Tbk,Consumer Staples,BEEF.JK,EQ,ID1000147705
+PT Mandom Indonesia Tbk,Consumer Staples,TCID.JK,EQ,ID1000053002
+PT Campina Ice Cream Industry Tbk,Consumer Staples,CAMP.JK,EQ,ID1000141500
+PT FKS Food Sejahtera Tbk Class A,Consumer Staples,AISA.JK,EQ,ID1000087901
+PT Sekar Bumi Tbk,Consumer Staples,SKBM.JK,EQ,ID1000124407
+PT Trisula Textile Industries Tbk,Consumer Staples,BELL.JK,EQ,ID1000140502
+PT Wahana Interfood Nusantara Tbk,Consumer Staples,COCO.JK,EQ,ID1000148208
+PT Maxindo Karya Anugerah Tbk,Consumer Staples,MAXI.JK,EQ,ID1000189905
+PT Trisula International Tbk,Consumer Staples,TRIS.JK,EQ,ID1000123102
+PT Toba Surimi Industries Tbk,Consumer Staples,CRAB.JK,EQ,ID1000171408
+PT Maja Agung Latexindo Tbk,Consumer Staples,SURI.JK,EQ,ID1000200207
+PT Indo Acidatama Tbk,Consumer Staples,SRSN.JK,EQ,ID1000102601
+PT Gunanusa Eramandiri Tbk,Consumer Staples,GUNA.JK,EQ,ID1000205008
+PT Hatten Bali Tbk,Consumer Staples,WINE.JK,EQ,ID1000182207
+PT Jobubu Jarum Minahasa Tbk,Consumer Staples,BEER.JK,EQ,ID1000181605
+PT Mega Perintis Tbk,Consumer Staples,ZONE.JK,EQ,ID1000147408
+PT Indonesian Tobacco Tbk,Consumer Staples,ITIC.JK,EQ,ID1000149404
+PT Wahana Pronatural Tbk,Consumer Staples,WAPO.JK,EQ,ID1000070204
+PT Morenzo Abadi Perkasa Tbk,Consumer Staples,ENZO.JK,EQ,ID1000157803
+PT Dharma Samudera Fishing Industries Tbk,Consumer Staples,DSFI.JK,EQ,ID1000065808
+PT Martina Berto Tbk,Consumer Staples,MBTO.JK,EQ,ID1000118102
+PT Wahana Inti Makmur Tbk,Consumer Staples,NASI.JK,EQ,ID1000165301
+PT Sepatu Bata Tbk,Consumer Staples,BATA.JK,EQ,ID1000129109
+PT Indo American Seafoods Tbk,Consumer Staples,ISEA.JK,EQ,ID1000204803
+PT Era Mandiri Cemerlang Tbk,Consumer Staples,IKAN.JK,EQ,ID1000154305
+PT Jaya Swarasa Agung Tbk,Consumer Staples,TAYS.JK,EQ,ID1000164601
+PT Ricky Putra Globalindo Tbk,Consumer Staples,RICY.JK,EQ,ID1000059801
+PT Prima Cakrawala Abadi Tbk,Consumer Staples,PCAR.JK,EQ,ID1000141807
+PT Raja Roti Cemerlang Tbk,Consumer Staples,BRRC.JK,EQ,ID1000208606
+PT Mitra Tirta Buwana Tbk,Consumer Staples,SOUL.JK,EQ,ID1000181308
+PT Formosa Ingredient Factory Tbk,Consumer Staples,BOBA.JK,EQ,ID1000163900
+PT Hassana Boga Sejahtera Tbk,Consumer Staples,NAYZ.JK,EQ,ID1000184500
+PT Lovina Beach Brewery Tbk,Consumer Staples,STRK.JK,EQ,ID1000198708
+PT Klinko Karya Imaji Tbk,Consumer Staples,KLIN.JK,EQ,ID1000171002

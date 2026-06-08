@@ -28,13 +28,13 @@ else:
 
 STOCK_CSV = os.path.join(INDEX_DATA_DIR, "it_all_stocks_master.csv")
 
-MAX_STOCKS        = 1500
-PERIOD_DAYS       = 600
+MAX_STOCKS        = 500
+PERIOD_DAYS       = 504
 ENABLE_PATTERNS   = True
-PATTERN_MAX       = 200
+PATTERN_MAX       = 300
 FETCH_FINANCIALS  = True
 ENABLE_SIGNALS    = True
-SIGNAL_MAX_STOCKS = 1500
+SIGNAL_MAX_STOCKS = 500
 PRIMARY_RS_PERIOD = 22
 
 sys.path.insert(0, SCRIPT_DIR)
@@ -367,49 +367,4 @@ def main():
     print("═"*68)
 
 if __name__ == "__main__":
-    main()
-ime=run_time,index_prices=index_prices, price_data=price_data,ohlcv_dict=ohlcv_dict, primary_rs=PRIMARY_RS_PERIOD)
-    print("🌍 Country ETF Strength …")
-    country_etf_df = build_country_etf_df(index_prices, period_days=PERIOD_DAYS,
-                                           primary_rs=PRIMARY_RS_PERIOD)
-    print("🏅 Commodity Strength …")
-    commodity_df   = build_commodity_df(period_days=PERIOD_DAYS, primary_rs=PRIMARY_RS_PERIOD)
-    dashboard_df   = build_dashboard_df(stock_df, sec_str_df, "IT", run_time,
-                                        primary_rs=PRIMARY_RS_PERIOD)
-
-    print("\n🌐 Building Italy HTML report …")
-    try:
-        from market_html import build_html_report
-        html_path = os.path.join(SCRIPT_DIR, "IT.html")
-        build_html_report(
-            market="IT", snapshot_df=snap_df, sector_str_df=sec_str_df,
-            sector_rot_df=sec_rot_df, industry_rot_df=ind_rot_df,
-            breadth_df=breadth_df, sector_perf_df=sec_perf_df, stock_str_df=stock_df,
-            top_buy_df=top_buy_df, top_sell_df=top_sell_df,
-            chart_pat_df=chart_df, trade_df=trade_df,
-            dashboard_df=dashboard_df, sleeve_df=sleeve_df,
-            country_etf_df=country_etf_df, commodity_df=commodity_df,
-            output_path=html_path, run_time=run_time, primary_rs=PRIMARY_RS_PERIOD)
-        print(f"  ✅ HTML: {html_path}")
-    except Exception as e: print(f"  ⚠ HTML skipped: {e}")
-
-    elapsed = time.time() - t0
-    print(f"\n{'═'*68}")
-    print(f"  ✅  COMPLETE!  |  ⏱ {elapsed:.0f}s  |  📄 IT.html")
-    if not stock_df.empty:
-        sl_col = "Signal_Label" if "Signal_Label" in stock_df.columns else None
-        if sl_col:
-            prime = int(stock_df[sl_col].astype(str).str.startswith("🌟").sum())
-            conf  = int(stock_df[sl_col].astype(str).str.startswith("✅").sum())
-            rsbuy = int(stock_df[sl_col].astype(str).str.startswith("📈").sum())
-            watch = int(stock_df[sl_col].astype(str).str.startswith("👁").sum())
-            avoid = int(stock_df[sl_col].astype(str).str.startswith("🔴").sum())
-            print(f"  🌟 Prime:{prime} | ✅ Conf:{conf} | 📈 RS Buy:{rsbuy} | 👁 Watch:{watch} | 🔴 Avoid:{avoid}")
-    if not trade_df.empty:
-        buys  = (trade_df["Action"] == "BUY").sum()
-        sells = (trade_df["Action"] == "SELL").sum()
-        print(f"  🎯 Trade Setups: {buys} BUY | {sells} SELL | {len(trade_df)-buys-sells} WAIT")
-    print("═"*68)
-
-if __name__ == "__main__":
-    main()
+    m

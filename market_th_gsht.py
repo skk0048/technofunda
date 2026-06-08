@@ -28,13 +28,13 @@ else:
 
 STOCK_CSV = os.path.join(INDEX_DATA_DIR, "th_all_stocks_master.csv")
 
-MAX_STOCKS        = 1500
-PERIOD_DAYS       = 600
+MAX_STOCKS        = 500
+PERIOD_DAYS       = 504
 ENABLE_PATTERNS   = True
-PATTERN_MAX       = 200
+PATTERN_MAX       = 300
 FETCH_FINANCIALS  = True
 ENABLE_SIGNALS    = True
-SIGNAL_MAX_STOCKS = 1500
+SIGNAL_MAX_STOCKS = 500
 PRIMARY_RS_PERIOD = 22
 
 sys.path.insert(0, SCRIPT_DIR)
@@ -365,4 +365,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-    main()
+ 

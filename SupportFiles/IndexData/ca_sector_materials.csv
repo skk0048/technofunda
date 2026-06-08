@@ -1,58 +1,1051 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-5N Plus Inc.,Materials,VNP.TO,EQ,
-AbraSilver Resource Corp.,Materials,ABRA.TO,EQ,
-Agnico Eagle Mines Limited,Materials,AEM.TO,EQ,
-Alamos Gold Inc.,Materials,AGI.TO,EQ,
-Allied Gold Corporation,Materials,AAUC.TO,EQ,
-Americas Gold And Silver Corporation,Materials,USA.TO,EQ,
-Aris Mining Corporation,Materials,ARIS.TO,EQ,
-Avino Silver & Gold Mines Ltd.,Materials,ASM.TO,EQ,
-Aya Gold & Silver Inc.,Materials,AYA.TO,EQ,
-B2Gold Corp.,Materials,BTO.TO,EQ,
-Barrick Gold Corporation,Materials,ABX.TO,EQ,
-Capstone Copper Corp.,Materials,CS.TO,EQ,
-Centerra Gold Inc.,Materials,CG.TO,EQ,
-Discovery Silver Corp.,Materials,DSV.TO,EQ,
-Dundee Precious Metals Inc.,Materials,DPM.TO,EQ,
-Eldorado Gold Corporation,Materials,ELD.TO,EQ,
-Endeavour Silver Corp.,Materials,EDR.TO,EQ,
-Equinox Gold Corp.,Materials,EQX.TO,EQ,
-Ero Copper Corp.,Materials,ERO.TO,EQ,
-First Majestic Silver Corp.,Materials,AG.TO,EQ,
-First Quantum Minerals Ltd.,Materials,FM.TO,EQ,
-Fortuna Mining Corp.,Materials,FVI.TO,EQ,
-Franco-Nevada Corporation,Materials,FNV.TO,EQ,
-G Mining Ventures Corp.,Materials,GMIN.TO,EQ,
-Hudbay Minerals Inc.,Materials,HBM.TO,EQ,
-I-80 Gold Corp.,Materials,IAU.TO,EQ,
-Iamgold Corporation,Materials,IMG.TO,EQ,
-Ivanhoe Mines Ltd.,Materials,IVN.TO,EQ,
-K92 Mining Inc.,Materials,KNT.TO,EQ,
-Kinross Gold Corporation,Materials,K.TO,EQ,
-Labrador Iron Ore Royalty Corporation,Materials,LIF.TO,EQ,
-Lithium Americas Corp.,Materials,LAC.TO,EQ,
-Lundin Gold Inc.,Materials,LUG.TO,EQ,
-Lundin Mining Corporation,Materials,LUN.TO,EQ,
-Methanex Corporation,Materials,MX.TO,EQ,
-Montage Gold Corp.,Materials,MAU.TO,EQ,
-NGEx Minerals Ltd.,Materials,NGEX.TO,EQ,
-NovaGold Resources Inc.,Materials,NG.TO,EQ,
-Nutrien Ltd.,Materials,NTR.TO,EQ,
-OceanaGold Corporation,Materials,OGC.TO,EQ,
-Orla Mining Ltd.,Materials,OLA.TO,EQ,
-Osisko Gold Royalties Ltd.,Materials,OR.TO,EQ,
-Pan American Silver Corp.,Materials,PAAS.TO,EQ,
-Perpetua Resources Corp.,Materials,PPTA.TO,EQ,
-SSR Mining Inc.,Materials,SSRM.TO,EQ,
-Seabridge Gold Inc.,Materials,SEA.TO,EQ,
-Silvercorp Metals Inc.,Materials,SVM.TO,EQ,
-Skeena Resources Limited,Materials,SKE.TO,EQ,
-Stella-Jones Inc.,Materials,SJ.TO,EQ,
-Taseko Mines Limited,Materials,TKO.TO,EQ,
-Teck Resources Limited,Materials,TECK-B.TO,EQ,
-Torex Gold Resources Inc.,Materials,TXG.TO,EQ,
-Triple Flag Precious Metals Corp.,Materials,TFPM.TO,EQ,
-Vizsla Silver Corp.,Materials,VZLA.TO,EQ,
-Wesdome Gold Mines Ltd.,Materials,WDO.TO,EQ,
-West Fraser Timber Co. Ltd.,Materials,WFG.TO,EQ,
-Wheaton Precious Metals Corp.,Materials,WPM.TO,EQ,
+Agnico Eagle Mines Limited,Materials,AEM.TO,EQ,CA0084741085
+Barrick Mining Corporation,Materials,ABX.TO,EQ,CA06849F1080
+Wheaton Precious Metals Corp,Materials,WPM.TO,EQ,CA9628791027
+Cameco Corporation,Materials,CCO.TO,EQ,CA13321L1085
+Franco-Nevada Corporation,Materials,FNV.TO,EQ,CA3518581051
+Nutrien Ltd.,Materials,NTR.TO,EQ,CA67077M1086
+Kinross Gold Corporation,Materials,K.TO,EQ,CA4969024047
+Teck Resources Limited Class A,Materials,TECK-A.TO,EQ,CA8787423034
+Teck Resources Limited Class B,Materials,TECK-B.TO,EQ,CA8787422044
+First Quantum Minerals Ltd.,Materials,FM.TO,EQ,CA3359341052
+Lundin Mining Corporation,Materials,LUN.TO,EQ,CA5503721063
+Pan American Silver Corp.,Materials,PAAS.TO,EQ,CA6979001089
+Alamos Gold Inc.,Materials,AGI.TO,EQ,CA0115321089
+Lundin Gold Inc.,Materials,LUG.TO,EQ,CA5503711080
+Ivanhoe Mines Ltd. Class A,Materials,IVN.TO,EQ,CA46579R1047
+CCL Industries Inc. Class B,Materials,CCL-B.TO,EQ,CA1249003098
+CCL Industries Inc. Class A,Materials,CCL-A.TO,EQ,CA1249002009
+Hudbay Minerals Inc,Materials,HBM.TO,EQ,CA4436281022
+IAMGOLD Corporation,Materials,IMG.TO,EQ,CA4509131088
+Equinox Gold Corp.,Materials,EQX.TO,EQ,CA29446Y5020
+First Majestic Silver Corp.,Materials,AG.TO,EQ,CA32076V1031
+Eldorado Gold Corporation,Materials,ELD.TO,EQ,CA2849025093
+Capstone Copper Corp.,Materials,CS.TO,EQ,CA14071L1085
+DPM Metals Inc.,Materials,DPM.TO,EQ,CA26139R1091
+China Gold International Resources Corp. Ltd.,Materials,CGG.TO,EQ,CA16890P1036
+NexGen Energy Ltd.,Materials,NXE.TO,EQ,CA65340P1062
+OR Royalties Inc.,Materials,OR.TO,EQ,CA68390D1069
+G Mining Ventures Corp,Materials,GMIN.TO,EQ,CA36270K1021
+Triple Flag Precious Metals Corp.,Materials,TFPM.TO,EQ,CA89679M1041
+OceanaGold Corporation,Materials,OGC.TO,EQ,CA6752224007
+B2Gold Corp.,Materials,BTO.TO,EQ,CA11777Q2099
+SSR Mining Inc,Materials,SSRM.TO,EQ,CA7847301032
+West Fraser Timber Co. Ltd.,Materials,WFG.TO,EQ,CA9528451052
+Artemis Gold Inc,Materials,ARTG.V,EQ,CA04302L1004
+Perseus Mining Limited,Materials,PRU.TO,EQ,AU000000PRU3
+Almonty Industries Inc.,Materials,AII.TO,EQ,CA0203987072
+Methanex Corporation,Materials,MX.TO,EQ,CA59151K1084
+Discovery Silver Corp,Materials,DSV.TO,EQ,CA2546771072
+K92 Mining Inc.,Materials,KNT.TO,EQ,CA4991131083
+NGEx Minerals Ltd.,Materials,NGEX.TO,EQ,CA62930A1021
+Montage Gold Corp.,Materials,MAU.TO,EQ,CA61178L1013
+Energy Fuels Inc.,Materials,EFR.TO,EQ,CA2926717083
+Torex Gold Resources Inc.,Materials,TXG.TO,EQ,CA8910546032
+Orla Mining Ltd.,Materials,OLA.TO,EQ,CA68634K1066
+Paladin Energy Ltd,Materials,PDN.TO,EQ,AU000000PDN8
+Westgold Resources Ltd,Materials,WGX.TO,EQ,AU000000WGX6
+Novagold Resources Inc,Materials,NG.TO,EQ,CA66987E2069
+Allied Gold Corporation,Materials,AAUC.TO,EQ,CA01921D2041
+Stella-Jones Inc.,Materials,SJ.TO,EQ,CA85853F1053
+Skeena Resources Limited,Materials,SKE.TO,EQ,CA83056P7157
+SEABRIDGE GOLD INC,Materials,SEA.TO,EQ,CA8119271028
+Aris Mining Corp,Materials,ARIS.TO,EQ,CA04040Y1097
+CURALEAF HOLDINGS INC,Materials,CURA.TO,EQ,CA23126M3003
+Centerra Gold Inc.,Materials,CG.TO,EQ,CA1520061021
+Perpetua Resources Corp.,Materials,PPTA.TO,EQ,CA7142661031
+Denison Mines Corp.,Materials,DML.TO,EQ,CA2483561072
+Ero Copper Corp.,Materials,ERO.TO,EQ,CA2960061091
+Predictive Discovery Limited,Materials,PDI.TO,EQ,AU000000PDI8
+5N Plus Inc.,Materials,VNP.TO,EQ,CA33833X1015
+Fortuna Mining Corp.,Materials,FVI.TO,EQ,CA3499421020
+Wesdome Gold Mines Ltd.,Materials,WDO.TO,EQ,CA95083R1001
+CES Energy Solutions Corp,Materials,CEU.TO,EQ,CA15713J1049
+Aya Gold & Silver Inc.,Materials,AYA.TO,EQ,CA05466C1095
+Taseko Mines Limited,Materials,TKO.TO,EQ,CA8765111064
+Endeavour Silver Corp.,Materials,EDR.TO,EQ,CA29258Y1034
+Silvercorp Metals Inc.,Materials,SVM.TO,EQ,CA82835P1036
+Altius Minerals Corporation,Materials,ALS.TO,EQ,CA0209361009
+Southern Cross Gold Consolidated Ltd.,Materials,SXGC.TO,EQ,CA8426851090
+Winpak Ltd.,Materials,WPK.TO,EQ,CA97535P1045
+AbraSilver Resource Corp.,Materials,ABRA.TO,EQ,CA00379L3048
+Champion Iron Ltd.,Materials,CIA.TO,EQ,AU000000CIA2
+Snowline Gold Corp.,Materials,SGD.TO,EQ,CA83342V1040
+Americas Gold and Silver Corporation,Materials,USA.TO,EQ,CA03062D8035
+Lithium Americas Corp.,Materials,LAC.TO,EQ,CA53681J1030
+Rupert Resources Ltd.,Materials,RUP.TO,EQ,CA78165J1057
+G2 Goldfields Inc.,Materials,GTWO.TO,EQ,CA36256R1055
+Sigma Lithium Corporation,Materials,SGML.V,EQ,CA8265991023
+Solaris Resources Inc,Materials,SLS.TO,EQ,CA83419D2014
+Alkane Resources Ltd,Materials,ALK.TO,EQ,AU000000ALK9
+Hemlo Mining Corp,Materials,HMMC.V,EQ,CA42366G1046
+Chemtrade Logistics Income Fund,Materials,CHE-UN.TO,EQ,CA16387P1036
+Arizona Sonoran Copper Co. Inc.,Materials,ASCU.TO,EQ,CA04058Q1054
+Labrador Iron Ore Royalty Corporation,Materials,LIF.TO,EQ,CA5054401073
+Alphamin Resources Corp.,Materials,AFM.V,EQ,MU0456S00006
+i-80 Gold Corp,Materials,IAU.TO,EQ,CA44955L1067
+Collective Mining Ltd,Materials,CNL.TO,EQ,CA19425C1005
+Vizsla Silver Corp.,Materials,VZLA.TO,EQ,CA92859G6085
+Canfor Corporation,Materials,CFP.TO,EQ,CA1375761048
+Orezone Gold Corporation,Materials,ORE.TO,EQ,CA68616T1093
+Omai Gold Mines Corp.,Materials,OMG.V,EQ,CA6820431048
+Faraday Copper Corp,Materials,FDY.TO,EQ,CA3073571034
+FireFly Metals Ltd,Materials,FFM.TO,EQ,AU0000313769
+Northern Dynasty Minerals Ltd.,Materials,NDM.TO,EQ,CA66510M2040
+Avino Silver & Gold Mines Ltd.,Materials,ASM.TO,EQ,CA0539061030
+Elemental Royalty Corporation,Materials,ELE.TO,EQ,CA28620K1066
+Gogold Resources Inc.,Materials,GGD.TO,EQ,CA38045Y1025
+Neo Performance Materials Inc.,Materials,NEO.TO,EQ,CA64046G1063
+Highlander Silver Corp,Materials,HSLV.TO,EQ,CA43087N2041
+PMET Resources Inc.,Materials,PMET.TO,EQ,CA73015G1046
+Osisko Metals Incorporated,Materials,OM.TO,EQ,CA6882741094
+Standard Lithium Ltd.,Materials,SLI.V,EQ,CA8536061010
+RIO2 Limited,Materials,RIO.TO,EQ,CA7672171021
+Imperial Metals Corporation,Materials,III.TO,EQ,CA4528921022
+Cascades Inc.,Materials,CAS.TO,EQ,CA1469001053
+New Pacific Metals Corp,Materials,NUAG.TO,EQ,CA64782A1075
+Osisko Development Corp,Materials,ODV.V,EQ,CA68828E8099
+Gold Reserve Ltd.,Materials,GRZ.V,EQ,BMG4R86G1074
+Amerigo Resources Ltd,Materials,ARG.TO,EQ,CA03074G1090
+ATEX Resources Inc.,Materials,ATX.TO,EQ,CA04681A1057
+Marimaca Copper Corp.,Materials,MARI.TO,EQ,CA56783M1068
+Talon Metals Corp.,Materials,TLO.TO,EQ,VGG866592014
+Trilogy Metals Inc.,Materials,TMQ.TO,EQ,CA89621C1059
+Troilus Mining Corp,Materials,TLG.TO,EQ,CA89688V1031
+Aclara Resources Inc.,Materials,ARA.TO,EQ,CA00461M1032
+NorthIsle Copper and Gold Inc.,Materials,NCX.V,EQ,CA66644R1038
+Fuerte Metals Corporation,Materials,FMT.V,EQ,CA35958L1013
+Ur-Energy Inc.,Materials,URE.TO,EQ,CA91688R1082
+Mako Mining Corp.,Materials,MKO.V,EQ,CA56089A4000
+Thesis Gold & Silver Inc.,Materials,TAU.V,EQ,CA8839221063
+Rogers Sugar Inc.,Materials,RSI.TO,EQ,CA77519R1029
+IsoEnergy Ltd.,Materials,ISO.TO,EQ,CA46500E8678
+Gold X2 Mining Inc.,Materials,AUXX.V,EQ,CA38076G1037
+Andean Precious Metals Corp,Materials,APM.TO,EQ,CA03349X1015
+Santacruz Silver Mining Ltd.,Materials,SCZ.V,EQ,CA80280U2056
+Liberty Gold Corp,Materials,LGD.TO,EQ,CA53056H1047
+Mattr Corp,Materials,MATR.TO,EQ,CA57722Y1025
+New Found Gold Corp,Materials,NFG.V,EQ,CA64440N1033
+Fireweed Metals Corp.,Materials,FWZ.V,EQ,CA31833F1045
+Western Copper and Gold Corporation,Materials,WRN.TO,EQ,CA95805V1085
+Thor Explorations Ltd.,Materials,THX.V,EQ,CA8851491040
+Asante Gold Corporation,Materials,ASE.V,EQ,CA04341X1078
+International Tower Hill Mines Ltd.,Materials,ITH.TO,EQ,CA46050R1029
+Blue Moon Metals Inc,Materials,MOON.V,EQ,CA09570Q5095
+Galiano Gold Inc.,Materials,GAU.TO,EQ,CA36352H1001
+Rusoro Mining Ltd.,Materials,RML.V,EQ,CA7822271028
+Nouveau Monde Graphite Inc,Materials,NOU.TO,EQ,CA66979W8429
+Interfor Corporation,Materials,IFP.TO,EQ,CA45868C1095
+Integra Resources Corp,Materials,ITR.V,EQ,CA45826T5098
+Aduro Clean Technologies Inc,Materials,ACT.TO,EQ,CA0074082060
+Doubleview Gold Corp.,Materials,DBG.V,EQ,CA25862T1003
+Canopy Growth Corporation,Materials,WEED.TO,EQ,CA1380357048
+Uranium Royalty Corp,Materials,URC.TO,EQ,CA91702V1013
+Ucore Rare Metals Inc.,Materials,UCU.V,EQ,CA90348V3011
+First Mining Gold Corp.,Materials,FF.TO,EQ,CA3208901064
+Goldsky Resources Corp.,Materials,GSKR.V,EQ,CA3814951008
+Amex Exploration Inc.,Materials,AMX.V,EQ,CA03114B1022
+Minera Alamos Inc.,Materials,MAI.V,EQ,CA60283L8087
+Q2 Metals Corp,Materials,QTWO.V,EQ,CA74739G1072
+Belo Sun Mining Corp.,Materials,BSX.TO,EQ,CA0805581091
+Freegold Ventures Limited,Materials,FVL.TO,EQ,CA3564552048
+Benz Mining Corp.,Materials,BZ.V,EQ,CA08345Q2080
+North American Construction Group Ltd.,Materials,NOA.TO,EQ,CA6568111067
+Aldebaran Resources Inc,Materials,ALDE.V,EQ,CA01408J1049
+Banyan Gold Corp.,Materials,BYN.V,EQ,CA06683K1066
+Magna Mining Inc,Materials,NICU.V,EQ,CA55925F1027
+Regulus Resources Inc,Materials,REG.V,EQ,CA75915M1077
+Founders Metals Inc.,Materials,FDR.V,EQ,CA3505901056
+Entree Resources Ltd,Materials,ETG.TO,EQ,CA29384J1030
+Jaguar Mining Inc.,Materials,JAG.TO,EQ,CA47009M8896
+Heliostar Metals Ltd,Materials,HSTR.V,EQ,CA42328Y1025
+Goldgroup Mining Inc.,Materials,GGA.V,EQ,CA38141A4046
+San Lorenzo Gold Corp,Materials,SLG.V,EQ,CA79849L1022
+Cambria Gold Mines Inc.,Materials,CAMB.V,EQ,CA1320631080
+Vista Gold Corp.,Materials,VGZ.TO,EQ,CA9279263037
+TRX Gold Corporation,Materials,TRX.TO,EQ,CA87283P1099
+Radisson Mining Resources Inc.,Materials,RDS.V,EQ,CA76125W5054
+Aurion Resources Ltd.,Materials,AU.V,EQ,CA05156F1071
+Bravo Mining Corp.,Materials,BRVO.V,EQ,CA10566M1068
+Sitka Gold Corp.,Materials,SIG.V,EQ,CA8606471065
+Li-FT Power Ltd.,Materials,LIFT.V,EQ,CA53000A1066
+White Gold Corp.,Materials,WGO.V,EQ,CA9638101068
+Goldquest Mining Corp.,Materials,GQC.V,EQ,CA38144C1005
+Koryx Copper S.A.,Materials,KRY.V,EQ,LU3306723589
+Nevgold Corp,Materials,NAU.V,EQ,CA6415361071
+Hot Chili Limited,Materials,HCH.V,EQ,AU0000HCHAX9
+TerrAscend Corp.,Materials,TSND.TO,EQ,CA88105E1088
+Los Andes Copper Ltd.,Materials,LA.V,EQ,CA5443122000
+Tidewater Renewables Ltd.,Materials,LCFS.TO,EQ,CA88646L1085
+Silver Storm Mining Ltd.,Materials,SVRS.V,EQ,CA82825J1093
+Silver Tiger Metals Inc.,Materials,SLVR.TO,EQ,CA82831T1093
+Copper Fox Metals Inc.,Materials,CUU.V,EQ,CA21749Q1046
+enCore Energy Corp.,Materials,EU.V,EQ,CA29259W7008
+Blackrock Silver Corp,Materials,BRC.V,EQ,CA09261Q1072
+Panoro Minerals Ltd.,Materials,PML.V,EQ,CA69863Q1037
+Erdene Resource Development Corporation,Materials,ERD.TO,EQ,CA29480N4049
+Canada Nickel Company Inc,Materials,CNC.V,EQ,CA13515Q1037
+Guanajuato Silver Company Ltd.,Materials,GSVR.V,EQ,CA40066W1068
+Tudor Gold Corp.,Materials,TUD.V,EQ,CA89901T1093
+Tiernan Gold Corp,Materials,TNGD.V,EQ,CA88650A1057
+Andina Copper Corporation.,Materials,ANDC.V,EQ,CA03421C1086
+Cerro de Pasco Resources Inc.,Materials,CDPR.V,EQ,CA1568281051
+Sailfish Royalty Corp.,Materials,FISH.V,EQ,VGG7777C1023
+Acadian Timber Corp.,Materials,ADN.TO,EQ,CA0042721005
+Global Atomic Corporation,Materials,GLO.TO,EQ,CA37957M1068
+Sierra Madre Gold & Silver Ltd.,Materials,SM.V,EQ,CA8263XP1041
+King Copper Discovery Corp.,Materials,KCP.V,EQ,CA4947261026
+Richards Group Inc.,Materials,RIC.TO,EQ,CA7629131011
+Patagonia Gold Corp,Materials,PGDC.V,EQ,CA70289T1012
+Luca Mining Corp,Materials,LUCA.V,EQ,CA54929M1068
+Monument Mining Limited,Materials,MMY.V,EQ,CA61531Y1051
+CVW Sustainable Royalties Inc.,Materials,CVW.V,EQ,CA23249L1067
+Nexgold Mining Corp.,Materials,NEXG.V,EQ,CA65345V1085
+Atha Energy Corp.,Materials,SASK.V,EQ,CA0468241082
+Surge Copper Corp.,Materials,SURG.V,EQ,CA86881M1041
+Steppe Gold Ltd.,Materials,STGO.TO,EQ,CA85913R2063
+Mkango Resources Ltd.,Materials,MKA.V,EQ,CA60686A4090
+Titan Mining Corp.,Materials,TI.TO,EQ,CA88831L2021
+GoldMining Inc.,Materials,GOLD.TO,EQ,CA38149E1016
+Tintina Mines Limited,Materials,TTS.V,EQ,CA8876742088
+Power Metallic Mines Inc.,Materials,PNPN.V,EQ,CA73929R1055
+Dynacor Group Inc,Materials,DNG.TO,EQ,CA26780B1067
+St. Augustine Gold & Copper Ltd.,Materials,SAU.TO,EQ,VGG8448A1030
+Aurora Cannabis Inc.,Materials,ACB.TO,EQ,CA05156X8504
+Lara Exploration Ltd.,Materials,LRA.V,EQ,CA5166831092
+West Red Lake Gold Mines Ltd,Materials,WRLG.V,EQ,CA95556L1013
+Element 29 Resources Inc.,Materials,ECU.V,EQ,CA28619M1059
+Group Eleven Resources Corp.,Materials,ZNG.V,EQ,CA39944P1018
+Mayfair Gold Corp.,Materials,MFG.V,EQ,CA57808L3056
+Capitan Silver Corp,Materials,CAPT.V,EQ,CA14055C1086
+Mogotes Metals Inc.,Materials,MOG.V,EQ,CA6080111025
+Lucara Diamond Corp.,Materials,LUC.TO,EQ,CA54928Q1081
+Platinum Group Metals Ltd.,Materials,PTM.TO,EQ,CA72765Q8829
+Talisker Resources Ltd.,Materials,TSK.TO,EQ,CA87425A8876
+Goliath Resources Limited,Materials,GOT.V,EQ,CA38171A2092
+Gladiator Metals Corp,Materials,GLAD.V,EQ,CA37653W1014
+Cabral Gold Inc.,Materials,CBR.V,EQ,CA1271061022
+Helius Minerals Limited,Materials,HHH.V,EQ,CA42329R1064
+Roxmore Resources Inc.,Materials,RM.TO,EQ,CA7800171091
+Cerrado Gold Inc,Materials,CERT.V,EQ,CA1567881018
+Greenheart Gold Inc.,Materials,GHRT.V,EQ,CA39526E1025
+Orvana Minerals Corp.,Materials,ORV.TO,EQ,CA68759M1014
+Millennial Potash Corp,Materials,MLP.V,EQ,CA60041F1018
+Maple Gold Mines Ltd,Materials,MGM.V,EQ,CA5651276027
+Graphite One Inc.,Materials,GPH.V,EQ,CA38871F1027
+Aftermath Silver Ltd.,Materials,AAG.V,EQ,CA00831V2057
+Chesapeake Gold Corp.,Materials,CKG.V,EQ,CA1651841027
+Auxly Cannabis Group Inc.,Materials,XLY.TO,EQ,CA05335P1099
+American Eagle Gold Corp,Materials,AE.V,EQ,CA02553R1073
+Mega Uranium Ltd.,Materials,MGA.TO,EQ,CA58516W1041
+Silver Mountain Resources Inc. Class A,Materials,AGMR.TO,EQ,CA8280425072
+1911 Gold Corp.,Materials,AUMB.V,EQ,CA65442J1075
+Eloro Resources Ltd.,Materials,ELO.TO,EQ,CA2899003008
+Prospector Metals Corp,Materials,PPP.V,EQ,CA74359L2049
+Sandfire Resources America Inc.,Materials,SFR.V,EQ,CA8000281029
+Amarc Resources Ltd.,Materials,AHR.V,EQ,CA0229121094
+Tectonic Metals Inc.,Materials,TECT.V,EQ,CA87877T6088
+Gunnison Copper Corp.,Materials,GCU.TO,EQ,CA4028801088
+Organigram Global Inc.,Materials,OGI.TO,EQ,CA68617J1003
+Revival Gold Inc,Materials,RVG.V,EQ,CA76151P1018
+Oceanic Iron Ore Corp.,Materials,FEO.V,EQ,CA67524Q1321
+LibertyStream Infrastructure Partners Inc.,Materials,LIB.V,EQ,CA53155T1084
+First Atlantic Nickel & Cobalt Corp.,Materials,FAN.V,EQ,CA3186401095
+STLLR Gold Inc.,Materials,STLR.TO,EQ,CA86101P1018
+Greenland Resources Inc.,Materials,MOLY.TO,EQ,CA3953251038
+Source Energy Services Ltd.,Materials,SHLE.TO,EQ,CA83615X4075
+EcoSynthetix Inc.,Materials,ECO.TO,EQ,CA27923D1087
+Surge Battery Metals Inc,Materials,NILI.V,EQ,CA86882X1096
+Generation Mining Ltd.,Materials,GENM.TO,EQ,CA37149B1094
+Mackay Gold & Silver Corp.,Materials,MACK.V,EQ,CA5545151063
+Southern Silver Exploration Corp.,Materials,SSV.V,EQ,CA8438142033
+P2 Gold Inc.,Materials,PGLD.V,EQ,CA7446571076
+Northcliff Resources Ltd.,Materials,NCF.TO,EQ,CA66401Q1081
+Hercules Metals Corp,Materials,BIG.V,EQ,CA4270861038
+Lithium Ionic Corp,Materials,LTH.V,EQ,CA53680V1076
+Silver X Mining Corp,Materials,AGX.V,EQ,CA8283411079
+Midnight Sun Mining Corp.,Materials,MMA.V,EQ,CA5980151057
+Laramide Resources Ltd.,Materials,LAM.TO,EQ,CA51669T1012
+Apollo Silver Corp,Materials,APGO.V,EQ,CA03770A3073
+Nicola Mining Inc.,Materials,NIM.V,EQ,CA65405R2037
+Western Forest Products Inc.,Materials,WEF.TO,EQ,CA9582117086
+Selkirk Copper Mines Inc.,Materials,SCMI.V,EQ,CA81640B1013
+PPX Mining Corp.,Materials,PPX.V,EQ,CA69354U1003
+Galantas Gold Corporation,Materials,GAL.V,EQ,CA36315W3012
+GR Silver Mining Ltd.,Materials,GRSL.V,EQ,CA36258E1025
+Falco Resources Ltd.,Materials,FPC.V,EQ,CA30606C1086
+Golconda Gold Ltd,Materials,GG.V,EQ,CA38047D1069
+Spanish Mountain Gold Ltd.,Materials,SPA.V,EQ,CA8464811097
+Cannara Biotech Inc.,Materials,LOVE.TO,EQ,CA13765U2002
+K2 Gold Corporation,Materials,KTO.V,EQ,CA50117M1068
+Kenorland Minerals Ltd.,Materials,KLD.V,EQ,CA48978L1004
+West Point Gold Corp.,Materials,WPG.V,EQ,CA95538Q1037
+Scottie Resources Corp.,Materials,SCOT.V,EQ,CA81012R5024
+Cygnus Metals Limited,Materials,CYG.V,EQ,AU000000CY57
+Excellon Resources Inc.,Materials,EXN.V,EQ,CA30069C8016
+Minaurum Silver Inc.,Materials,MGG.V,EQ,CA60253E1079
+Lahontan Gold Corp.,Materials,LG.V,EQ,CA50732M1014
+Kootenay Silver Inc.,Materials,KTN.V,EQ,CA5005838365
+Lithium Chile Inc,Materials,LITH.V,EQ,CA53681G1090
+Kingfisher Metals Corp,Materials,KFR.V,EQ,CA49571M5037
+Silver One Resources Inc.,Materials,SVE.V,EQ,CA8280621092
+Newcore Gold Ltd.,Materials,NCAU.V,EQ,CA65118M1032
+Orosur Mining Inc.,Materials,OMI.V,EQ,CA6871961059
+Galleon Gold Corp,Materials,GGO.V,EQ,CA36381N4093
+Black Mammoth Metals Corporation,Materials,BMM.V,EQ,CA09215W1014
+FPX Nickel Corp,Materials,FPX.V,EQ,CA3025911023
+Copper Giant Resources Corp,Materials,CGNT.V,EQ,CA21750C1014
+Outcrop Silver & Gold Corporation,Materials,OCG.TO,EQ,CA69002Q1054
+Argenta Silver Corp,Materials,AGAG.V,EQ,CA0399441033
+American Lithium Corp.,Materials,LI.V,EQ,CA0272592092
+Geodrill Limited,Materials,GEO.TO,EQ,IM00B3RLCZ58
+Fury Gold Mines Limited,Materials,FURY.TO,EQ,CA36117T1003
+Borealis Mining Company Limited,Materials,BOGO.V,EQ,CA09972D1069
+Nexmetals Mining Corp.,Materials,NEXM.V,EQ,CA65346E2042
+Atlas Salt Inc,Materials,SALT.V,EQ,CA04943J1003
+Falcon Energy Materials PLC,Materials,FLCN.V,EQ,AE000A40HL14
+Rua Gold Inc,Materials,RUA.TO,EQ,CA78109M2067
+Sirios Resources Inc.,Materials,SOI.V,EQ,CA8299085081
+American Tungsten Corp.,Materials,TUNG.V,EQ,CA0303381077
+Honey Badger Silver Inc.,Materials,TUF.V,EQ,CA4383402001
+CanAlaska Uranium Ltd,Materials,CVV.V,EQ,CA13709C1005
+District Metals Corp.,Materials,DMX.V,EQ,CA2548481043
+Oroco Resources Corp.,Materials,OCO.V,EQ,CA6870331007
+Majestic Gold Corp.,Materials,MJS.V,EQ,CA5609121077
+Xtra-Gold Resources Corp.,Materials,XTG.TO,EQ,VGG9829R1038
+Fitzroy Minerals Inc,Materials,FTZ.V,EQ,CA33827E1016
+Frontier Lithium Inc.,Materials,FL.V,EQ,CA35910P1099
+Wallbridge Mining Co. Ltd.,Materials,WM.TO,EQ,CA9323971023
+Cartier Resources Inc.,Materials,ECR.V,EQ,CA1467721082
+Fortune Minerals Limited,Materials,FT.TO,EQ,CA34967D1015
+Canagold Resources Ltd,Materials,CCM.TO,EQ,CA1368421014
+Highland Copper Co. Inc.,Materials,HI.V,EQ,CA43004Y1016
+Globex Mining Enterprises Inc.,Materials,GMX.TO,EQ,CA3799005093
+Arras Minerals Corp,Materials,ARK.V,EQ,CA04271V1058
+Onyx Gold Corp.,Materials,ONYX.V,EQ,CA68339G1037
+Big Ridge Gold Corp,Materials,BRAU.V,EQ,CA08949R1073
+Organto Foods Inc.,Materials,OGO.V,EQ,CA68621J4019
+Anfield Energy Inc,Materials,AEC.V,EQ,CA03464C2058
+Nickel 28 Capital Corp,Materials,NKL.V,EQ,CA65401N1078
+Soma Gold Corp.,Materials,SOMA.V,EQ,CA83445W1086
+Valhalla Metals Inc.,Materials,VMXX.V,EQ,CA91914U1075
+IMPACT Silver Corp.,Materials,IPT.V,EQ,CA45257A1021
+Intrepid Metals Corp.,Materials,INTR.V,EQ,CA46123W2031
+Pirate Gold Corp,Materials,YARR.V,EQ,CA7242551041
+Electra Battery Materials Corp,Materials,ELBM.V,EQ,CA28474P7065
+Emerita Resources Corp.,Materials,EMO.V,EQ,CA29102L4064
+Vizsla Copper Corp,Materials,VCU.V,EQ,CA92858X7018
+Power Metals Corp.,Materials,PWM.V,EQ,CA73929Q1072
+E3 Lithium Ltd,Materials,ETL.V,EQ,CA26925V1085
+Teuton Resources Corp.,Materials,TUO.V,EQ,CA88162H2000
+Largo Inc.,Materials,LGO.TO,EQ,CA5170971017
+Rock Tech Lithium Inc.,Materials,RCK.V,EQ,CA77273P2017
+Adyton Resources Corporation,Materials,ADY.V,EQ,CA00784W1014
+NVRO Metals Limited,Materials,NVRO.V,EQ,CA62958A1093
+Adex Mining Inc.,Materials,ADE.V,EQ,CA0069032070
+F3 Uranium Corp,Materials,FUU.V,EQ,CA30336Y1079
+West Vault Mining Inc,Materials,WVM.V,EQ,CA95640X1033
+Scorpio Gold Corporation,Materials,SGN.V,EQ,CA80918M3021
+Scandium Canada Ltd Class A,Materials,SCD.V,EQ,CA80600A1030
+Freeman Gold Corp.,Materials,FMAN.V,EQ,CA35658P1053
+Summit Royalties Ltd,Materials,SUM.V,EQ,CA8662511010
+Charlotte's Web Holdings Inc.,Materials,CWEB.TO,EQ,CA16106R1091
+Minsud Resources Corp.,Materials,MSR.V,EQ,CA60447F1018
+NextSource Materials Inc,Materials,NEXT.TO,EQ,CA65343M2094
+NorthWest Copper Corp.,Materials,NWST.V,EQ,CA66744H1047
+Arianne Phosphate Inc.,Materials,DAN.V,EQ,CA04035D1024
+Abcourt Mines Inc. Class B,Materials,ABI.V,EQ,CA00288E3005
+Awale Resources Limited,Materials,ARIC.V,EQ,CA05455R2081
+Gold Terra Resource Corp.,Materials,YGT.V,EQ,CA38076F1053
+Skyharbour Resources Ltd.,Materials,SYH.V,EQ,CA8308166096
+Nevada King Gold Corp,Materials,NKG.V,EQ,CA64135V2049
+Endurance Gold Corporation,Materials,EDG.V,EQ,CA29267M1086
+Critical Elements Lithium Corporation,Materials,CRE.V,EQ,CA22675W1077
+Sonoro Gold Corp,Materials,SGO.V,EQ,CA83571A1021
+Stillwater Critical Minerals Corp,Materials,PGE.V,EQ,CA86074L1031
+HPQ Silicon Inc,Materials,HPQ.V,EQ,CA40444L1031
+C3 Metals Inc.,Materials,CCCM.V,EQ,CA22945L4029
+Euro Sun Mining Inc.,Materials,ESM.TO,EQ,CA29872L2066
+Eskay Mining Corp,Materials,ESK.V,EQ,CA2964371066
+Unigold Inc.,Materials,UGD.V,EQ,CA90476X5091
+BeWhere Holdings Inc.,Materials,BEW.V,EQ,CA08825T1021
+Kodiak Copper Corp.,Materials,KDK.V,EQ,CA50012K1066
+REV Exploration Corp.,Materials,REVX.V,EQ,CA7613251098
+RosCan Gold Corporation,Materials,ROS.V,EQ,CA77683B1076
+Cassiar Gold Corp,Materials,GLDC.V,EQ,CA1482391069
+RTG Mining Inc.,Materials,RTG.TO,EQ,VGG7707W1529
+Great Pacific Gold Corp.,Materials,GPAC.V,EQ,CA39115B1058
+Homeland Nickel Inc,Materials,SHL.V,EQ,CA43740Q1072
+Forsys Metals Corp.,Materials,FSY.TO,EQ,CA34660G1046
+Hannan Metals Ltd.,Materials,HAN.V,EQ,CA4105841064
+Zentek Ltd.,Materials,ZEN.V,EQ,CA98942X1024
+Barksdale Resources Corp.,Materials,BRO.V,EQ,CA06766T1075
+BCM Resources Corporation,Materials,B.V,EQ,CA07329N1087
+Cematrix Corporation,Materials,CEMX.TO,EQ,CA15120R1038
+Silver Viper Minerals Corp.,Materials,VIPR.V,EQ,CA8283344098
+RPX Gold Inc.,Materials,RPX.V,EQ,CA74984K1003
+Pan Global Resources Inc.,Materials,PGZ.V,EQ,CA69806A1084
+A2 Gold Corp.,Materials,AUAU.V,EQ,CA0500591049
+Westhaven Gold Corp,Materials,WHN.V,EQ,CA9603501060
+Austral Gold Limited,Materials,AGLD.V,EQ,AU000000AGD4
+Leviathan Metals Corp.,Materials,LVX.V,EQ,CA5273691025
+Defense Metals Corp.,Materials,DEFN.V,EQ,CA2446331035
+Edge Copper Corporation,Materials,EDCU.V,EQ,CA2798521076
+Coppernico Metals Inc.,Materials,COPR.TO,EQ,CA2176611077
+NOA Lithium Brines Inc,Materials,NOAL.V,EQ,CA6293521051
+Angkor Resources Corp.,Materials,ANK.V,EQ,CA03476T1057
+Nuvau Minerals Inc.,Materials,NMC.V,EQ,CA67120R1047
+Tactical Resources Corp.,Materials,RARE.V,EQ,CA87357T3001
+Cascadia Minerals Ltd,Materials,CAM.V,EQ,CA1469261004
+Azimut Exploration Inc.,Materials,AZM.V,EQ,CA3019501012
+Salazar Resources Limited,Materials,SRL.V,EQ,CA7940071045
+Dryden Gold Corp,Materials,DRY.V,EQ,CA26245V1013
+TriStar Gold Inc.,Materials,TSG.V,EQ,CA89678B1094
+NEO Battery Materials Ltd,Materials,NBM.V,EQ,CA62908A1003
+Defiance Silver Corp.,Materials,DEF.V,EQ,CA2447672080
+Eastern Platinum Limited,Materials,ELR.TO,EQ,CA2768555096
+Cosa Resources Corp.,Materials,COSA.V,EQ,CA22113C1014
+NexLiving Communities Inc,Materials,NXLV.V,EQ,CA65344P2017
+Rockhaven Resources Ltd.,Materials,RK.V,EQ,CA77340P1018
+Equity Metals Corporation,Materials,EQTY.V,EQ,CA29472E1079
+Tajiri Resources Corp.,Materials,TAJ.V,EQ,CA87405Y2024
+Gensource Potash Corp.,Materials,GSP.V,EQ,CA37252X1042
+Inventus Mining Corp.,Materials,IVS.V,EQ,CA4612172003
+Arizona Gold & Silver Inc.,Materials,AZS.V,EQ,CA04051N1096
+TVI Pacific Inc.,Materials,TVI.V,EQ,CA8729171097
+Phenom Resources Corp,Materials,PHNM.V,EQ,CA71743P1071
+Whitemud Resources Inc. Class A,Materials,WMK.V,EQ,CA9654241046
+Kutcho Copper Corp,Materials,KC.V,EQ,CA5013771053
+GFG Resources Inc.,Materials,GFG.V,EQ,CA36165F1018
+Royal Road Minerals Limited,Materials,RYR.V,EQ,JE00BWH5YF45
+Alaska Silver Corp,Materials,WAM.V,EQ,CA01176C2085
+Tinka Resources Limited,Materials,TK.V,EQ,CA8875228030
+Sun Peak Metals Corp.,Materials,PEAK.V,EQ,CA86687M1005
+Sherritt International Corporation,Materials,S.TO,EQ,CA8239011031
+Galway Metals Inc.,Materials,GWM.V,EQ,CA3645856046
+Kirkland Lake Discoveries Corp.,Materials,KLDC.V,EQ,CA49740R1029
+Sterling Metals Corp.,Materials,SAG.V,EQ,CA85941M8806
+Tiger Gold Corp,Materials,TIGR.V,EQ,CA88673A1084
+Lion One Metals Limited,Materials,LIO.V,EQ,CA5362161047
+Getty Copper Inc.,Materials,GTC.V,EQ,CA3742711045
+Euromax Resources Ltd.,Materials,EOX.V,EQ,CA29873T3073
+Laurion Mineral Exploration Inc.,Materials,LME.V,EQ,CA5193221010
+Canterra Minerals Corporation,Materials,CTM.V,EQ,CA1381342007
+Metallic Minerals Corp.,Materials,MMG.V,EQ,CA59126M1068
+Avalon Advanced Materials Inc.,Materials,AVL.TO,EQ,CA05337L3048
+Swiss Water Decaffeinated Coffee Inc.,Materials,SWP.TO,EQ,CA8710031094
+Century Lithium Corp,Materials,LCE.V,EQ,CA1566151066
+Saga Metals Corp.,Materials,SAGA.V,EQ,CA78660A1049
+Goldbank Mining Corporation,Materials,GLB.V,EQ,CA38076A2056
+Arizona Eagle Mining Corp.,Materials,AZEM.V,EQ,CA04050H1038
+Aton Resources Inc.,Materials,AAN.V,EQ,CA0496AP2026
+Miata Metals Corp.,Materials,MMET.V,EQ,CA59403F1053
+Relevant Gold Corp.,Materials,RGC.V,EQ,CA75941G1081
+Gabriel Resources Ltd.,Materials,GBU.V,EQ,CA3619705021
+Precipitate Gold Corp.,Materials,PRG.V,EQ,CA74019D1050
+Lake Victoria Gold Ltd,Materials,LVG.V,EQ,CA5109151012
+Mithril Silver and Gold Limited,Materials,MSG.V,EQ,AU000000MTH3
+Altamira Gold Corp,Materials,ALTA.V,EQ,CA02139L1031
+CANEX Metals Inc,Materials,CANX.V,EQ,CA13751X1015
+Zodiac Gold Inc,Materials,ZAU.V,EQ,CA98980T1049
+XXIX Metal Corp.,Materials,XXIX.V,EQ,CA9013201012
+Fortune Bay Corp.,Materials,FOR.V,EQ,CA34964F1099
+Roland Mineral Enterprises Corp.,Materials,RME.V,EQ,CA77546D1006
+Desert Gold Ventures Inc.,Materials,DAU.V,EQ,CA25039N4084
+Grande Portage Resources Ltd.,Materials,GPG.V,EQ,CA38655P2017
+GreenFirst Forest Products Inc,Materials,GFP.TO,EQ,CA39526C1068
+Battery Mineral Resources Corp,Materials,BMR.V,EQ,CA07133G1090
+Seva Mining Corp.,Materials,SEVA.V,EQ,CA81783A1003
+Brixton Metals Corporation,Materials,BBB.V,EQ,CA11120Q7084
+Gunpoint Exploration Ltd.,Materials,GUN.V,EQ,CA4030691071
+Midland Exploration Inc.,Materials,MD.V,EQ,CA59751U1003
+Ongwe Minerals Inc.,Materials,OGW.V,EQ,CA6829501007
+TNR Gold Corp.,Materials,TNR.V,EQ,CA87262G1046
+Scandium International Mining Corp.,Materials,SCY.V,EQ,CA80600L1094
+Stallion Uranium Corp.,Materials,STUD.V,EQ,CA8529192087
+Sun Summit Minerals Corp.,Materials,SMN.V,EQ,CA86687V7043
+Armor Minerals Inc.,Materials,A-H.V,EQ,CA04226J1084
+Vior Gold Corporation Inc.,Materials,VIO.V,EQ,CA9279541077
+Klondike Gold Corp.,Materials,KG.V,EQ,CA4989033010
+Atico Mining Corporation,Materials,ATY.V,EQ,CA0475591099
+Geomega Resources Inc.,Materials,GMA.V,EQ,CA37252J1057
+Focus Graphite Inc.,Materials,FMS.V,EQ,CA34416E8743
+Starcore International Mines Ltd.,Materials,SAM.TO,EQ,CA85525T2020
+North Peak Resources Ltd,Materials,NPR.V,EQ,CA6614441096
+AuMega Metals Ltd,Materials,AUM.V,EQ,AU0000338311
+Q-Gold Resources Ltd,Materials,QGR.V,EQ,CA7472695047
+Premier American Uranium Inc,Materials,PUR.V,EQ,CA74048R1091
+BP Silver Corp.,Materials,BPAG.V,EQ,CA0556901019
+Atlas Engineered Products Ltd.,Materials,AEP.V,EQ,CA0493041085
+Cantex Mine Development Corp.,Materials,CD.V,EQ,CA1381173048
+Eminent Gold Corp.,Materials,EMNT.V,EQ,CA2913411054
+Mundoro Capital Inc.,Materials,MUN.V,EQ,CA6261351077
+Brunswick Exploration Inc.,Materials,BRW.V,EQ,CA1170881041
+Mont Royal Resources Ltd.,Materials,MRZL.V,EQ,AU0000041758
+Vulcan Minerals Inc.,Materials,VUL.V,EQ,CA9289451044
+Fox Tungsten Ltd.,Materials,FOXT.V,EQ,CA35158M1077
+International Battery Metals Ltd,Materials,IBAT.V,EQ,CA4591211095
+Kincora Copper Limited,Materials,KCC.V,EQ,CA49451A7024
+Velocity Minerals Ltd.,Materials,VLC.V,EQ,CA92258F3007
+Quartz Mountain Resources Ltd.,Materials,QZM.V,EQ,CA74773L3011
+Canadian Goldfields Discovery Corp,Materials,CGM.V,EQ,CA1358711010
+Vitreous Glass Inc.,Materials,VCI.V,EQ,CA92852B1013
+Namibia Critical Metals Inc.,Materials,NMI.V,EQ,CA62988F1027
+Thunder Gold Corp.,Materials,TGOL.V,EQ,CA88605F1009
+Riley Gold Corp.,Materials,RLYG.V,EQ,CA76666D1069
+Metal Energy Corp,Materials,MERG.V,EQ,CA5910882086
+Xali Gold Corp.,Materials,XGC.V,EQ,CA98387F1036
+Star Royalties Ltd,Materials,STRR.V,EQ,CA8551691089
+Manhattan Uranium Discovery Corporation,Materials,MANU.V,EQ,CA5629131031
+Pacific Booker Minerals Inc.,Materials,BKM.V,EQ,CA69403R1082
+Stakeholder Gold Corp.,Materials,SRC.V,EQ,CA85255R3018
+Almaden Minerals Ltd.,Materials,AMM.V,EQ,CA0202833053
+Progressive Planet Solutions Inc.,Materials,PLAN.V,EQ,CA74337Q2009
+Char Technologies Ltd.,Materials,YES.V,EQ,CA15957L1040
+Bonterra Resources Inc.,Materials,BTR.V,EQ,CA09852X7018
+Strategic Metals Ltd.,Materials,SMD.V,EQ,CA8627591073
+Future Fuels Inc,Materials,FTUR.V,EQ,CA36118K1084
+West High Yield (W.H.Y.) Resources Ltd.,Materials,WHY.V,EQ,CA9532641086
+Kingsmen Resources Limited,Materials,KNG.V,EQ,CA49639T3001
+Fancamp Exploration Ltd.,Materials,FNC.V,EQ,CA30710P1027
+Juggernaut Exploration Ltd,Materials,JUGR.V,EQ,CA48132D3094
+Sendero Resources Corp.,Materials,SEND.V,EQ,CA81688C3003
+Black Iron Inc.,Materials,BKI.TO,EQ,CA09214V1040
+Camino Minerals Corporation,Materials,COR.V,EQ,CA1380503070
+Spartan Metals Corp.,Materials,W.V,EQ,CA8468111072
+EDM Resources Inc,Materials,EDM.V,EQ,CA2683331011
+Canadian North Resources Inc.,Materials,CNRI.V,EQ,CA1364271017
+Culico Metals Inc.,Materials,CLCO.V,EQ,CA22989Q1019
+Triumph Gold Corp.,Materials,TIG.V,EQ,CA8968122033
+Western Exploration Inc,Materials,WEX.V,EQ,CA95816A2002
+Blue Star Gold Corp.,Materials,BAU.V,EQ,CA09607B2021
+Latin Metals Inc,Materials,LMS.V,EQ,CA51830P1036
+Pelangio Exploration Inc.,Materials,PX.V,EQ,CA7056465031
+Purepoint Uranium Group Inc.,Materials,PTU.V,EQ,CA7462347070
+Nevada Lithium Resources Inc.,Materials,NVLH.V,EQ,CA64134L1085
+ORECAP Invest Corp,Materials,OCI.V,EQ,CA6857881016
+Novo Resources Corp.,Materials,NVO.TO,EQ,CA67010B1022
+Almadex Minerals Ltd.,Materials,DEX.V,EQ,CA02028L1076
+Resouro Strategic Metals Inc,Materials,RSM.V,EQ,CA76134C1023
+Optimus Gold Corp.,Materials,OTS-H.V,EQ,CA6838941095
+Giyani Metals Corp,Materials,EMM.V,EQ,CA37637H1055
+Mirasol Resources Ltd,Materials,MRZ.V,EQ,CA6046801081
+DLP Resources Inc.,Materials,DLP.V,EQ,CA23291X1078
+Minnova Corp.,Materials,MCI.V,EQ,CA6042501008
+MediPharm Labs Corp.,Materials,LABS.TO,EQ,CA58504D1006
+Lion Rock Resources Inc,Materials,ROAR.V,EQ,CA5362502026
+Aztec Minerals Corp.,Materials,AZT.V,EQ,CA0548271000
+Japan Gold Corp,Materials,JG.V,EQ,CA4710821071
+Riverside Resources Inc,Materials,RRI.V,EQ,CA76927E1097
+MustGrow Biologics Corp.,Materials,MGRO.V,EQ,CA62822A1030
+Algo Grande Copper Corp.,Materials,ALGR.V,EQ,CA0156071049
+Peruvian Metals Corp.,Materials,PER.V,EQ,CA7156971086
+Volt Carbon Technologies Inc,Materials,VCT.V,EQ,CA92873M1023
+Terra Rossa Gold Ltd.,Materials,TRR.V,EQ,CA88104W1095
+Grid Metals Corp.,Materials,GRDM.V,EQ,CA39814L1076
+Tower Resources Ltd.,Materials,TWR.V,EQ,CA89185T1066
+South Pacific Metals Corp.,Materials,SPMC.V,EQ,CA83914U1049
+Yorbeau Resources Inc. Class A,Materials,YRB.TO,EQ,CA9861913023
+Condor Resources Inc.,Materials,CN.V,EQ,CA20676U1049
+Compass Gold Corporation,Materials,CVB.V,EQ,CA20451T4054
+Cordoba Minerals Corp.,Materials,CDB.V,EQ,CA21852Q6022
+Syntholene Energy Corp,Materials,ESAF.V,EQ,CA87170K1066
+East Africa Metals Inc.,Materials,EAM.V,EQ,CA2704101039
+Manganese X Energy Corp.,Materials,MN.V,EQ,CA5626783008
+Minco Silver Corporation,Materials,MSV.TO,EQ,CA60254C1005
+Starr Peak Mining Ltd,Materials,STE.V,EQ,CA85562P1053
+PTX Metals Inc,Materials,PTX.V,EQ,CA69380V2057
+Freeport Resources Inc.,Materials,FRI.V,EQ,CA3567773005
+Delta Resources Limited,Materials,DLTA.V,EQ,CA24780P1009
+Nio Strategic Metals Inc,Materials,NIO.V,EQ,CA65445T1021
+Puma Exploration Inc.,Materials,PUMA.V,EQ,CA74588S2029
+Arizona Metals Corp,Materials,AMC.TO,EQ,CA0405181029
+Alpha Exploration Ltd.,Materials,ALEX.V,EQ,VGG3198S1074
+T2 Metals Corp,Materials,TWO.V,EQ,CA8732491060
+Northern Graphite Corporation,Materials,NGC.V,EQ,CA66516A1057
+ReGen III Corp,Materials,GIII.V,EQ,CA75888V1004
+Burcon NutraScience Corporation,Materials,BU.TO,EQ,CA1208313009
+Aurania Resources Ltd.,Materials,ARU.V,EQ,BMG069741020
+US Copper Corp,Materials,USCU.V,EQ,CA91735T1075
+Wealth Minerals Ltd.,Materials,WML.V,EQ,CA9468852095
+Ridgeline Minerals Corp,Materials,RDG.V,EQ,CA7660871004
+Tribeca Resources Corporation,Materials,TRBC.V,EQ,CA89602G1090
+Gold Springs Resource Corp.,Materials,GRC.TO,EQ,CA3807211006
+Core Critical Metals Corp.,Materials,CCMC.V,EQ,CA21873W1095
+Independence Gold Corp.,Materials,IGO.V,EQ,CA45344A1075
+PJX Resources Inc.,Materials,PJX.V,EQ,CA72585A1093
+Rackla Metals Inc.,Materials,RAK.V,EQ,CA7500802029
+Tier One Silver Inc.,Materials,TSLV.V,EQ,CA88651M1086
+Silver North Resources Ltd.,Materials,SNAG.V,EQ,CA8280611010
+Viva Gold Corp,Materials,VAU.V,EQ,CA92852M1077
+Eagle Plains Resources Ltd.,Materials,EPL.V,EQ,CA2699062022
+Visionary Copper and Gold Mines Inc.,Materials,VCG.V,EQ,CA9279521012
+Val-d'Or Mining Corporation,Materials,VZZ.V,EQ,CA91881B1085
+Inter-Rock Minerals Inc,Materials,IRO.V,EQ,CA4583541079
+Benton Resources Inc.,Materials,BEX.V,EQ,CA0832971018
+New Age Metals Inc,Materials,NAM.V,EQ,CA64157G2009
+Kalo Gold Corp,Materials,KALO.V,EQ,CA48344L3056
+Blue Sky Uranium Corp.,Materials,BSK.V,EQ,CA0960495079
+Bravada Gold Corporation,Materials,BVA.V,EQ,CA10567D3031
+Gold Strike Resources Corp.,Materials,GSR.V,EQ,CA38074C1041
+GPM Metals Inc.,Materials,GPM.V,EQ,CA36198C3075
+Nord Precious Metals Mining Inc.,Materials,NTH.V,EQ,CA65558V2093
+FireFox Gold Corp.,Materials,FFOX.V,EQ,CA31816R8369
+Sage Potash Corp.,Materials,SAGE.V,EQ,CA78667T1066
+IBC Advanced Alloys Corp.,Materials,IB.V,EQ,CA44923T8683
+Morocco Strategic Minerals Corporation,Materials,MCC.V,EQ,CA6179311007
+Consolidated Lithium Metals Inc,Materials,CLM.V,EQ,CA2094161064
+Valkea Resources Corp,Materials,OZ.V,EQ,CA91916W1014
+SPC Nickel Corp.,Materials,SPC.V,EQ,CA78472R1055
+Silver Bullet Mines Corp,Materials,SBMI.V,EQ,CA8274591087
+EV Nickel Inc.,Materials,EVNI.V,EQ,CA26928V1058
+Petrolympic Ltd.,Materials,PCQ.V,EQ,CA7167251064
+Chibougamau Independent Mines Inc.,Materials,CBG.V,EQ,CA1671012039
+Daura Gold Corp.,Materials,DGC.V,EQ,CA23833F1018
+Torrent Capital Ltd,Materials,TORR.V,EQ,CA89141P1071
+RecycLiCo Battery Materials Inc,Materials,AMY.V,EQ,CA75629Y1088
+Grizzly Discoveries Inc,Materials,GZD.V,EQ,CA3986921037
+Star Diamond Corporation,Materials,DIAM.TO,EQ,CA85511Y1088
+ValOre Metals Corp.,Materials,VO.V,EQ,CA92025V1094
+Omineca Mining and Metals Ltd.,Materials,OMM.V,EQ,CA68216T1030
+Argentina Lithium & Energy Corp.,Materials,LIT.V,EQ,CA04016E2024
+JZR Gold Inc.,Materials,JZR.V,EQ,CA4822311078
+Enduro Metals Corporation,Materials,ENDR.V,EQ,CA29279W3003
+Highway 50 Gold Corp.,Materials,HWY.V,EQ,CA4312482025
+Rio Silver Inc.,Materials,RYO.V,EQ,CA76721A1131
+Trailbreaker Resources Ltd,Materials,TBK.V,EQ,CA89279P1018
+Blende Silver Corp.,Materials,BAG.V,EQ,CA09352R1055
+Niobay Metals Inc.,Materials,NBY.V,EQ,CA6544541072
+Nickel Creek Platinum Corp.,Materials,NCP.V,EQ,CA65389F4078
+Garibaldi Resources Corp.,Materials,GGI.V,EQ,CA3660441054
+Coast Copper Corp,Materials,COCO.V,EQ,CA1903401091
+Walker River Resources Corp.,Materials,WRR.V,EQ,CA9317782030
+Renegade Gold Inc.,Materials,RAGE.V,EQ,CA75974M2040
+Baru Gold Corp,Materials,BARU.V,EQ,CA06968L1004
+Stuve Gold Corp.,Materials,STUV.V,EQ,CA86419L2066
+Oreterra Metals Corp.,Materials,OTMC.V,EQ,CA68616A1003
+Voyageur Pharmaceuticals Ltd,Materials,VM.V,EQ,CA92918C1014
+Zacatecas Silver Corp.,Materials,ZAC.V,EQ,CA9888161044
+CopAur Minerals Inc.,Materials,CPAU.V,EQ,CA2172051039
+GMV Minerals Inc,Materials,GMV.V,EQ,CA3620M15016
+Karnalyte Resources Inc.,Materials,KRN.TO,EQ,CA4856722083
+Lode Gold Resources Inc,Materials,LOD.V,EQ,CA54019J1049
+Western Resources Corp,Materials,WRX.TO,EQ,CA95942C1041
+Magna Terra Minerals Inc,Materials,MTT.V,EQ,CA5592712007
+Sarama Resources Ltd.,Materials,SWA.V,EQ,CA8031604074
+Bayhorse Silver Inc.,Materials,BHS.V,EQ,CA07278W1095
+Finlay Minerals Ltd.,Materials,FYL.V,EQ,CA3178891030
+Rhyolite Resources Ltd.,Materials,RYE.V,EQ,CA76243H1091
+Sable Resources Ltd.,Materials,SAE.V,EQ,CA7857133069
+Strategic Resources Inc.,Materials,SR.V,EQ,CA86277X4093
+Carlin Gold Corporation,Materials,CGD.V,EQ,CA1422402091
+Domestic Metals Corp.,Materials,DMCU.V,EQ,CA2569191018
+Sama Resources Inc.,Materials,SME.V,EQ,CA79588X1015
+Pinnacle Silver and Gold Corp,Materials,PINN.V,EQ,CA72350R1055
+Total Metals Corp,Materials,TT.V,EQ,CA8919571023
+Golden Arrow Resources Corp.,Materials,GRG.V,EQ,CA38080W1023
+Skeleton Coast Uranium Corp.,Materials,SKEL.V,EQ,CA83058E1060
+KORE Mining Ltd.,Materials,KORE.V,EQ,CA50067K3082
+Wolfden Resources Corp.,Materials,WLF.V,EQ,CA9777501086
+Electric Royalties Ltd.,Materials,ELEC.V,EQ,CA28500L1094
+ZincX Resources Corp.,Materials,ZNX.V,EQ,CA98959V1067
+Bedford Metals Corp,Materials,BFM.V,EQ,CA0762301012
+Euro Manganese Inc.,Materials,EMN.V,EQ,CA29872T2092
+Auriginal Mining Corp.,Materials,AUME.V,EQ,CA05157N1096
+Lux Metals Corp,Materials,LXM.V,EQ,CA55067G1081
+Opus One Gold Corporation,Materials,OOR.V,EQ,CA6838811066
+Decade Resources Ltd.,Materials,DEC.V,EQ,CA2427793047
+BeMetals Corp.,Materials,BMET.V,EQ,CA0813793076
+Pacific Empire Minerals Corp.,Materials,PEMC.V,EQ,CA6942131096
+PharmaCielo Ltd.,Materials,PCLO.V,EQ,CA71716K1012
+Noble Mineral Exploration Incorporation,Materials,NOB.V,EQ,CA65506N2005
+AnorTech Inc,Materials,ANOR.V,EQ,CA03634T1049
+Taranis Resources Inc.,Materials,TRO.V,EQ,CA87609B1076
+Radius Gold Inc.,Materials,RDU.V,EQ,CA7504681007
+Solstice Gold Corp.,Materials,SGC.V,EQ,CA83438X1050
+Standard Uranium Ltd,Materials,STND.V,EQ,CA85422Q8487
+Metallis Resources Inc.,Materials,MTS.V,EQ,CA59125R1064
+MAX Resource Corp,Materials,MAX.V,EQ,CA57772U4063
+Search Minerals Inc.,Materials,SMY.V,EQ,CA8122182048
+Silver Range Resources Ltd.,Materials,SNG.V,EQ,CA82809P1053
+Wescan Goldfields Inc.,Materials,WGF.V,EQ,CA95081V2021
+Clean Air Metals Inc.,Materials,AIR.V,EQ,CA18452Y1007
+Palamina Corp.,Materials,PA.V,EQ,CA6960732049
+Alaska Energy Metals Corporation,Materials,AEMC.V,EQ,CA01169F1018
+TomaGold Corporation Class A,Materials,LOT.V,EQ,CA8897331010
+Golden Pursuit Resources Ltd.,Materials,GDP.V,EQ,CA38117L2021
+Aston Bay Holdings Ltd.,Materials,BAY.V,EQ,CA04624P1027
+South Atlantic Gold Inc.,Materials,SAO.V,EQ,CA83636L1013
+Metals Creek Resources Corp.,Materials,MEK.V,EQ,CA59131Q2099
+Boron One Holdings Inc,Materials,BONE.V,EQ,CA10002E1060
+Abasca Resources Inc.,Materials,ABA.V,EQ,CA00258D1006
+Newport Exploration Ltd,Materials,NWX.V,EQ,CA6518531034
+Golden Cross Resources Inc.,Materials,AUX.V,EQ,CA3808871097
+Pacific Ridge Exploration Ltd.,Materials,PEX.V,EQ,CA6947986049
+North Arrow Minerals Inc.,Materials,NAR.V,EQ,CA6572805092
+Arbor Metals Corp.,Materials,ABR.V,EQ,CA03880B1040
+Azarga Metals Corp.,Materials,AZR.V,EQ,CA05478A2083
+Iconic Minerals Ltd,Materials,ICM.V,EQ,CA4509591018
+Canadian Critical Minerals Inc,Materials,CCMI.V,EQ,CA13561D1050
+GT Resources Inc,Materials,GT.V,EQ,CA36254S1056
+Lincoln Gold Mining Inc,Materials,LMG.V,EQ,CA53359R2054
+Noram Lithium Corp,Materials,NRM.V,EQ,CA65542K1030
+Bell Copper Corporation,Materials,BCU.V,EQ,CA0778862080
+Halcones Precious Metals Corp,Materials,HPM.V,EQ,CA40539W1059
+Batero Gold Corp.,Materials,BAT.V,EQ,CA0705051021
+Visionary Metals Corp,Materials,VIZ.V,EQ,CA92838G1090
+Evergold Corp.,Materials,EVER.V,EQ,CA3001447067
+Conquest Resources Limited,Materials,CQR.V,EQ,CA2082872011
+NV Gold Corporation,Materials,NVX.V,EQ,CA67090W3075
+Giga Metals Corporation,Materials,GIGA.V,EQ,CA37518K1021
+Nican Ltd.,Materials,NICN.V,EQ,CA65366M1023
+Geiger Energy Corporation,Materials,BEEP.V,EQ,CA3751301019
+Labrador Gold Corp,Materials,LAB.V,EQ,CA50543R1091
+Magma Silver Corp.,Materials,MGMA.V,EQ,CA5589221004
+Millennium Silver Corp,Materials,MSC.V,EQ,CA60041D1069
+ExGen Resources Inc.,Materials,EXG.V,EQ,CA30204R2000
+Rochester Resources Ltd,Materials,RCT.V,EQ,CA77174P3007
+First Canadian Graphite Inc.,Materials,FCI.V,EQ,CA3194101067
+Sego Resources Inc.,Materials,SGZ.V,EQ,CA8158021037
+Orestone Mining Corp.,Materials,ORS.V,EQ,CA6861543032
+Tsodilo Resources Limited,Materials,TSD.V,EQ,CA8985301008
+Olive Resource Capital Inc.,Materials,OC.V,EQ,CA6807671004
+Torr Metals Inc,Materials,TMET.V,EQ,CA8913371073
+KAPA Gold Inc,Materials,KAPA.V,EQ,CA48555K1030
+Carolina Rush Corporation,Materials,RUSH.V,EQ,CA14416W1086
+Granada Gold Mine Inc.,Materials,GGM.V,EQ,CA38503H2037
+Torq Resources Inc.,Materials,TORQ.V,EQ,CA89131L1085
+AuQ Gold Mining Inc.,Materials,AUQ.V,EQ,CA05153F1009
+URZ3 Energy Corp.,Materials,URZ.V,EQ,CA91733V1040
+Transoceanic Investments Inc.,Materials,OCEN.V,EQ,CA8939761000
+DFR Gold inc,Materials,DFR.V,EQ,CA25241H1082
+Dynasty Gold Corp.,Materials,DYG.V,EQ,CA2681322061
+SLAM Exploration Ltd.,Materials,SXL.V,EQ,CA8310043044
+Pure Energy Minerals Ltd.,Materials,PE.V,EQ,CA74624B7007
+Green Shift Commodities Ltd,Materials,GCOM.V,EQ,CA3933801001
+Signature Resources Ltd.,Materials,SGU.V,EQ,CA82670U3082
+Record Resources Inc,Materials,REC.V,EQ,CA7562501063
+Lupaka Gold Corp.,Materials,LPK.V,EQ,CA5504353098
+Comet Lithium Corp,Materials,CLIC.V,EQ,CA20036Y1016
+InZinc Mining Ltd.,Materials,IZN.V,EQ,CA46187R1082
+Bullion Gold Resources Corp.,Materials,BGD.V,EQ,CA1202272029
+Ramp Metals Inc,Materials,RAMP.V,EQ,CA75157B1085
+Trifecta Gold Ltd.,Materials,TG.V,EQ,CA89615V2003
+StrikePoint Gold Inc.,Materials,SKP.V,EQ,CA86332K4000
+TRU Precious Metals Corp.,Materials,TRU.V,EQ,CA89778V1040
+Avant Brands Inc,Materials,AVNT.TO,EQ,CA05353D2023
+EraNova Metals Inc.,Materials,NOVA.V,EQ,CA29478G1063
+Fidelity Minerals Corp.,Materials,FMN.V,EQ,CA31622P3051
+Fairchild Gold Corp.,Materials,FAIR.V,EQ,CA30371L1013
+BTU Metals Corp,Materials,BTU.V,EQ,CA05605B1031
+Green Rise Foods Inc,Materials,GRF.V,EQ,CA39328G1072
+Carlton Precious Inc,Materials,CPI.V,EQ,CA14306B1076
+First Andes Silver Ltd,Materials,FAS.V,EQ,CA31866G1028
+Americore Resources Corp,Materials,AMCO.V,EQ,CA03090L1085
+Grit Metals Corp.,Materials,FIN.V,EQ,CA39868L1022
+Zonte Metals Inc.,Materials,ZON.V,EQ,CA98978R1029
+Storm Exploration Inc,Materials,STRM.V,EQ,CA86218J3038
+Canadian Premium Sand Inc.,Materials,CPS.V,EQ,CA13648X1087
+Bold Ventures Inc.,Materials,BOL.V,EQ,CA09752Q2027
+Arcus Development Group Inc.,Materials,ADG.V,EQ,CA03968J2011
+Masivo Silver Corp.,Materials,MASS.V,EQ,CA57480R2081
+Winshear Metals Corp.,Materials,WINS.V,EQ,CA9749101015
+Nickel North Exploration Corp.,Materials,NNX.V,EQ,CA65389P1080
+WildSky Resources Inc.,Materials,WSK.V,EQ,CA96813P1099
+Canasil Resources Inc.,Materials,CLZ.V,EQ,CA13723D1006
+Mustang Minerals Limited,Materials,MMX.V,EQ,CA62819M1023
+MetalQuest Mining Inc,Materials,MQM.V,EQ,CA59131A1057
+Stroud Resources Ltd.,Materials,SDR.V,EQ,CA8634433053
+GFM Resources Limited,Materials,GFM-H.V,EQ,CA3619731001
+Thunderstruck Resources Ltd.,Materials,AWE.V,EQ,CA88606V2030
+Au Gold Corp,Materials,AUGC.V,EQ,CA0022261089
+Silver Wolf Exploration Ltd.,Materials,SWLF.V,EQ,CA8283391016
+TGX Energy & Resources Inc,Materials,TGX.V,EQ,CA8829282034
+Orex Minerals Inc.,Materials,REX.V,EQ,CA68616X2095
+Noble Plains Uranium Corp,Materials,NOBL.V,EQ,CA65510H1082
+Silver Elephant Mining Corp,Materials,ELEF.TO,EQ,CA82770L3074
+Cosigo Resources Limited,Materials,CSG.V,EQ,CA22122T1030
+Central Iron Ore Limited,Materials,CIO.V,EQ,AU0000224743
+Velox Energy Materials Inc,Materials,VLX.V,EQ,CA92261D2014
+Copper Road Resources Inc,Materials,CRD.V,EQ,CA2175731041
+Rokmaster Resources Corp.,Materials,RKR.V,EQ,CA77543A2083
+Beauce Gold Fields Inc.,Materials,BGF.V,EQ,CA0743041067
+Golden Harp Resources Inc.,Materials,GHR-H.V,EQ,CA3810663078
+Plato Gold Corp.,Materials,PGC.V,EQ,CA72766E1025
+Rathdowney Resources Ltd.,Materials,RTH.V,EQ,CA75410A1030
+Northern Shield Resources Inc.,Materials,NRN.V,EQ,CA6657203064
+NeoTerrex Minerals Inc,Materials,NTX.V,EQ,CA6409801082
+Chakana Copper Corp.,Materials,PERU.V,EQ,CA15748D2059
+Capella Minerals Limited,Materials,CMIL.V,EQ,CA13960M2013
+Lomiko Metals Inc.,Materials,LMR.V,EQ,CA54163Q8056
+ArcWest Exploration Inc.,Materials,AWX.V,EQ,CA03969H1055
+AIS Resources Ltd,Materials,AIS.V,EQ,CA0014313039
+Stellar AfricaGold Inc.,Materials,SPX.V,EQ,CA85855B2012
+Canstar Resources Inc.,Materials,ROX.V,EQ,CA1380813024
+1844 Resources Inc,Materials,EFF.V,EQ,CA68288L1031
+Azincourt Energy Corp,Materials,AAZ.V,EQ,CA05478T3064
+Aeonian Resources Corp,Materials,ALTN.V,EQ,CA00792R1029
+Melkior Resources Inc.,Materials,MKR.V,EQ,CA58549W3030
+Norse Gold Corp,Materials,VKG.V,EQ,CA65653T1093
+Nobel Resources Corp,Materials,NBLC.V,EQ,CA65501C1005
+Monumental Energy Corp.,Materials,MNRG.V,EQ,CA61534D1087
+Vertical Exploration Inc.,Materials,VERT.V,EQ,CA92536L1031
+Golden Sky Minerals Corp.,Materials,AUEN.V,EQ,CA3811861051
+Zena Mining Corp.,Materials,ZCC-H.V,EQ,CA98935W1032
+Big Bear Gold Corp.,Materials,BEAR.V,EQ,CA0889361097
+Mazarin Inc,Materials,MAZ-H.V,EQ,CA5789011007
+Champion Bear Resources Ltd.,Materials,CBA.V,EQ,CA15849E1025
+Trinity One Metals Ltd.,Materials,TOM.V,EQ,CA8965501007
+Gungnir Resources Inc,Materials,GUG.V,EQ,CA40281L1094
+Silver Grail Resources Ltd.,Materials,SVG.V,EQ,CA82772U1075
+Visible Gold Mines Inc.,Materials,VGD.V,EQ,CA92834E3068
+Metalero Mining Corp,Materials,MLO.V,EQ,CA59117L1094
+Hayasa Metals Inc.,Materials,HAY.V,EQ,CA4206341071
+Ximen Mining Corp.,Materials,XIM.V,EQ,CA98420B3092
+Transition Metals Corp.,Materials,XTM.V,EQ,CA8937051032
+Smooth Rock Ventures Corp,Materials,SMRV.V,EQ,CA83268K3064
+Golden Goliath Resources Ltd.,Materials,GNG.V,EQ,CA3810592038
+Transatlantic Mining Corp.,Materials,TCO.V,EQ,CA89355R2037
+QcX Gold Corp,Materials,QCX.V,EQ,CA74738M3030
+Eastfield Resources Ltd.,Materials,ETF.V,EQ,CA27724D1096
+Harvest Gold Corporation,Materials,HVG.V,EQ,CA4175323068
+ILC Critical Minerals Limited,Materials,ILC.V,EQ,CA44967J1075
+Adamera Minerals Corp.,Materials,ADZ.V,EQ,CA00547Y2042
+Mountain Province Diamonds Inc.,Materials,MPVD.TO,EQ,CA62426E4022
+Tuktu Resources Ltd,Materials,TUK.V,EQ,CA8990501089
+Great Atlantic Resources Corp.,Materials,GR.V,EQ,CA3900873025
+Belmont Resources Inc.,Materials,BEA.V,EQ,CA0804995029
+Klondike Silver Corp.,Materials,KS.V,EQ,CA4987223050
+Southern Empire Resources Corp,Materials,SMP.V,EQ,CA84281U1075
+GGL Resources Corp.,Materials,GGL.V,EQ,CA36171B3002
+Murchison Minerals Ltd,Materials,MUR.V,EQ,CA6264264079
+Chatham Rock Phosphate Limited,Materials,NZP.V,EQ,CA1621631094
+KGL Resources Ltd,Materials,KLT-H.V,EQ,CA4824512004
+Mexican Gold Mining Corp.,Materials,MEX.V,EQ,CA5928192056
+Gold Finder Resources Ltd.,Materials,GLD.V,EQ,CA38059A1075
+Playfair Mining Ltd.,Materials,PLY.V,EQ,CA72811X3031
+Imagine Lithium Inc,Materials,ILI.V,EQ,CA45250Q1046
+Conifex Timber Inc.,Materials,CFF.TO,EQ,CA2073241044
+Montero Mining and Exploration Ltd.,Materials,MON.V,EQ,CA6126484022
+Bitterroot Resources Ltd.,Materials,BTT.V,EQ,CA0919012074
+Volcanic Gold Mines Inc.,Materials,VG.V,EQ,CA92863W2013
+AsiaBaseMetals Inc.,Materials,ABZ.V,EQ,CA04521E5074
+Primary Hydrogen Corp.,Materials,HDRO.V,EQ,CA74167W2022
+BC Moly Ltd.,Materials,BM.V,EQ,CA05543Q1054
+VR Resources Ltd.,Materials,VRR.V,EQ,CA91831M2040
+Aben Gold Corp,Materials,ABM.V,EQ,CA00289A1093
+Quantum Critical Metals Corp,Materials,LEAP.V,EQ,CA74766V1004
+Sienna Resources Inc,Materials,SIEN.V,EQ,CA82621E2050
+Vortex Metals Inc,Materials,VMS.V,EQ,CA92905U1066
+CopperCorp Resources Inc.,Materials,CPER.V,EQ,CA2176371078
+Emergent Metals Corp,Materials,EMR.V,EQ,CA29103R1055
+Opawica Explorations Inc.,Materials,OPW.V,EQ,CA6834768088
+Superior Mining International Corporation,Materials,SUI.V,EQ,CA8682112021
+Abacus Mining & Exploration Corp.,Materials,AME.V,EQ,CA0025555065
+GSP Resource Corp.,Materials,GSPR.V,EQ,CA36249G1090
+Zephyr Minerals Ltd.,Materials,ZFR.V,EQ,CA98943Y1097
+Lodestar Metals Corp.,Materials,LSTR.V,EQ,CA54020J2002
+Usha Resources Ltd,Materials,USHA.V,EQ,CA91735H1038
+Cascadero Copper Corp.,Materials,CCD.V,EQ,CA14738X1078
+Searchlight Resources Inc.,Materials,SCLT.V,EQ,CA81222L2049
+Nexus Gold Corp.,Materials,NXS.V,EQ,CA65345J3038
+Altiplano Metals Inc.,Materials,APN.V,EQ,CA02156R1082
+Dios Exploration Inc.,Materials,DOS.V,EQ,CA25455U1003
+Nevada Sunrise Metals Corporation,Materials,NEV.V,EQ,CA6414921032
+Mega Copper Ltd.,Materials,MCU-H.V,EQ,CA58516K2092
+Harfang Exploration Inc.,Materials,HAR.V,EQ,CA4123792083
+Vision Lithium Inc.,Materials,VLI.V,EQ,CA92837C1095
+Archon Minerals Limited,Materials,ACS.V,EQ,CA03958A1030
+Richmond Minerals Inc.,Materials,RMD.V,EQ,CA7651873076
+Angel Wing Metals Inc,Materials,AWM.V,EQ,CA03464G2062
+Canoe Mining Ventures Corp.,Materials,CLV.V,EQ,CA13780T2048
+Generation Uranium Inc Class A,Materials,GEN.V,EQ,CA37150L1031
+Matachewan Consolidated Mines Limited,Materials,MCM-A.V,EQ,CA5764711068
+QMC Quantum Minerals Corp.,Materials,QMC.V,EQ,CA74734C1014
+Apex Resources Inc.,Materials,APX.V,EQ,CA03765Q1019
+Metalex Ventures Ltd.,Materials,MTX.V,EQ,CA5909152038
+Century Global Commodities Corporation,Materials,CNT.TO,EQ,KYG2029R1065
+Terreno Resources Corp.,Materials,TNO-H.V,EQ,CA88145Y2050
+Olivut Resources Ltd.,Materials,OLV.V,EQ,CA6811031070
+Tombill Mines Ltd.,Materials,TBLL.V,EQ,CA88986P1071
+Gamma Resources Ltd.,Materials,GAMA.V,EQ,CA36467U1030
+Kiplin Metals Inc.,Materials,KIP.V,EQ,CA4972522052
+Grid Battery Metals Inc,Materials,CELL.V,EQ,CA3980841033
+Canadian Gold Resources Ltd.,Materials,CAN.V,EQ,CA13585U1093
+CBLT Inc,Materials,CBLT.V,EQ,CA12507V1040
+Vault Strategic Mining Corp.,Materials,KNOX.V,EQ,CA92243U1075
+Engineer Gold Mines Ltd.,Materials,EAU.V,EQ,CA29286E2024
+Delivra Health Brands Inc,Materials,DHB.V,EQ,CA24703H2019
+Mammoth Resources Corp.,Materials,MTH.V,EQ,CA5616073006
+Brasnova Energy Materials Inc.,Materials,BEM.V,EQ,CA10553N1096
+Odyssey Resources Limited,Materials,ODX-H.V,EQ,CA67612V1004
+Grounded Lithium Corp,Materials,GRD.V,EQ,CA39943R1082
+Canada One Mining Corp,Materials,CONE.V,EQ,CA1351641016
+Sparton Resources Inc.,Materials,SRI.V,EQ,CA8472431029
+iMetal Resources Inc.,Materials,IMR.V,EQ,CA45250A4063
+Silver Spruce Resources Inc.,Materials,SSE.V,EQ,CA8282293023
+Sylla Gold Corp,Materials,SYG.V,EQ,CA87132R1082
+Sky Gold Corp.,Materials,SKYG.V,EQ,CA83085J3001
+Providence Gold Mines Inc,Materials,PHD.V,EQ,CA7437541039
+Silver Predator Corp,Materials,SPD.V,EQ,CA82808Q2036
+Bathurst Metals Corp,Materials,BMV.V,EQ,CA0712052079
+Colibri Resource Corporation,Materials,CBI.V,EQ,CA1941684070
+Atomic Minerals Corporation,Materials,ATOM.V,EQ,CA04965P3079
+Nortec Minerals Corp,Materials,NVT.V,EQ,CA65655Q3017
+Kiboko Gold Inc.,Materials,KIB.V,EQ,CA4937342067
+District Copper Corp.,Materials,DCOP.V,EQ,CA25484L2049
+Silver Valley Metals Corp,Materials,SILV.V,EQ,CA8283302096
+AC/DC Battery Metals Inc.,Materials,ACDC.V,EQ,CA0008011003
+Global Battery Metals Ltd.,Materials,GBML.V,EQ,CA37958K2083
+Kestrel Gold Inc.,Materials,KGC.V,EQ,CA5008612080
+Copper Lake Resources Ltd.,Materials,CPL.V,EQ,CA21750Y2024
+Goldcliff Resource Corporation,Materials,GCN.V,EQ,CA38076H2000
+BULGOLD Inc,Materials,ZLTO.V,EQ,CA12016C1005
+St. James Gold Corp,Materials,LORD.V,EQ,CA7900141044
+Candelaria Mining Corp.,Materials,CAND-H.V,EQ,CA13740R2072
+Ophir Metals Corp,Materials,OPHR.V,EQ,CA68390C1086
+Northern Lion Gold Corp.,Materials,NL.V,EQ,CA6653783036
+Infield Minerals Corp,Materials,IN.V,EQ,CA45674H2019
+International Prospect Ventures Ltd,Materials,IZZ.V,EQ,CA4601961085
+Cariboo Rose Resources Ltd.,Materials,CRB.V,EQ,CA1420241087
+Prism Resources Inc.,Materials,PRS-H.V,EQ,CA74264L2084
+M3 Metals Corp.,Materials,MT.V,EQ,CA55379R2063
+Ridgestone Mining Inc.,Materials,RMI.V,EQ,CA76611L2030
+Antler Gold Inc.,Materials,ANTL.V,EQ,CA03718X1042
+Grosvenor Resource Corporation,Materials,GVR.V,EQ,CA39928H1091
+Galore Resources Inc.,Materials,GRI.V,EQ,CA3640961072
+InsuraGuest Technologies Inc,Materials,ISGI.V,EQ,CA4578001006
+Canadian Silver Hunter Inc.,Materials,AGH-H.V,EQ,CA13662P1062
+Prosper Gold Corp.,Materials,PGX.V,EQ,CA74359T2074
+International Metals Mining Corp,Materials,IMM.V,EQ,CA45986N2014
+RJK Explorations Ltd. Class A,Materials,RJX-A.V,EQ,CA74960G4043
+Edison Lithium Corp.,Materials,EDDY.V,EQ,CA28103Q2080
+Graphano Energy Ltd.,Materials,GEL.V,EQ,CA38867G2053
+Full Metal Minerals Ltd. Class A,Materials,FMM.V,EQ,CA35968C6045
+Rainy Mountain Royalty Corp,Materials,RMO.V,EQ,CA75101U4000
+Kingman Minerals Ltd.,Materials,KGS.V,EQ,CA4957802073
+Akwaaba Mining Ltd,Materials,AML.V,EQ,CA01021L2057
+Alliance Mining Corp.,Materials,ALM.V,EQ,CA01863P2070
+Engold Mines Ltd.,Materials,EGM.V,EQ,CA29330R3080
+Patterson Metals Corp.,Materials,PAT.V,EQ,CA70344Q1000
+Firestone Ventures Inc.,Materials,FV-H.V,EQ,CA3183182011
+Alturas Minerals Corp.,Materials,ALT.V,EQ,CA0221431012
+Xplore Resources Corp.,Materials,XPLR.V,EQ,CA98421G2080
+Falcon Gold Corp.,Materials,FG.V,EQ,CA3060443064
+Pacific Bay Minerals Ltd.,Materials,PBM.V,EQ,CA69403X1134
+CopperEx Resources Corporation,Materials,CUEX.V,EQ,CA2176411098
+Comstock Metals Ltd.,Materials,CSL-H.V,EQ,CA2057193054
+IEMR Resources Inc.,Materials,IRI.V,EQ,CA44951G1019
+Gold Strategy Inc.,Materials,GST.V,EQ,CA38077F2035
+Vanadiumcorp Resource Inc,Materials,VRB.V,EQ,CA9214283066
+Avidian Gold Corp.,Materials,AVG.V,EQ,CA05369E5092
+Coniagas Battery Metals Inc.,Materials,COS.V,EQ,CA2073081077
+Black Spruce Exploration Inc.,Materials,BARK.V,EQ,CA09225Q1028
+Big Tree Carbon Inc,Materials,BIGT.V,EQ,CA08969W1014
+Paradigm Gold Corporation,Materials,PDQ.V,EQ,CA69902F1009
+Jayden Resources Inc,Materials,JDN.V,EQ,CA47208P1053
+Global Energy Metals Corp,Materials,GEMC.V,EQ,CA37890Y3086
+Gossan Resources Limited,Materials,GSS.V,EQ,CA3834151068
+Badlands Resources Inc,Materials,BLDS.V,EQ,CA0566002089
+Route 109 Resources Inc.,Materials,RTE.V,EQ,CA7792911033
+Fjordland Exploration Inc.,Materials,FEX.V,EQ,CA33833E2024
+BWR Exploration Inc.,Materials,BWR.V,EQ,CA05606A1049
+Vinland Lithium Inc,Materials,VLD.V,EQ,CA9274481006
+Tres-Or Resources Ltd.,Materials,TRS.V,EQ,CA8952982061
+Bronco Resources Corp.,Materials,BRON.V,EQ,CA1119111039
+Quadro Resources Ltd.,Materials,QRO.V,EQ,CA74733P3016
+Southern Arc Minerals Inc. Class A,Materials,SA-H.V,EQ,CA8422004041
+Goldhills Holding Ltd.,Materials,GHL.V,EQ,CA38150G1028
+Bonanza Mining Corporation,Materials,BNZ.V,EQ,CA09790B2093
+GGX Gold Corp.,Materials,GGX.V,EQ,CA36171K2011
+Clean Energy Transition Inc.,Materials,TRAN.V,EQ,CA1849161049
+D2 Lithium Corp,Materials,DTWO.V,EQ,CA23346F1018
+Centurion Minerals Ltd.,Materials,CTN.V,EQ,CA15643T7015
+Stockworks Gold Inc.,Materials,STW.V,EQ,CA8609151078
+Lake Winn Resources Corp.,Materials,LWR.V,EQ,CA5113052032
+Pacific Imperial Mines Inc.,Materials,PPM.V,EQ,CA69440T1093
+New Energy Metals Corp.,Materials,ENRG.V,EQ,CA6438443013
+Encanto Potash Corp.,Materials,EPO-H.V,EQ,CA29251N4012
+Fort St. James Nickel Corp.,Materials,FTJ.V,EQ,CA3485823056
+Troubadour Resources Inc.,Materials,TR.V,EQ,CA89712R3009
+Dixie Gold Inc.,Materials,DG.V,EQ,CA25552L2012
+Vanadian Energy Corp.,Materials,VEC-H.V,EQ,CA9214132099
+LatAm Lithium Corp,Materials,LALI.V,EQ,CA5179531051
+Global Copper Corp,Materials,CUCU.V,EQ,CA37964Y1016
+Nulegacy Gold Corporation,Materials,NUG.V,EQ,CA67053L7025
+Jade Leader Corp.,Materials,JADE.V,EQ,CA46989B1031
+Goldflare Exploration Inc,Materials,GOFL.V,EQ,CA38150E2069
+Bessor Minerals Inc.,Materials,BST.V,EQ,CA08650L1094
+EGR Exploration Ltd,Materials,EGR.V,EQ,CA2684931033
+Kaymus Resources Inc.,Materials,KYS-H.V,EQ,CA4866032028
+Power One Resources Corp,Materials,PWRO.V,EQ,CA73930V1031
+Aurora Royalties Inc.,Materials,AUR-H.V,EQ,CA05206Y1060
+Absolutely Critical Resources Corp.,Materials,ABC.V,EQ,CA00401X1024
+Highcliff Metals Corp,Materials,HCM-H.V,EQ,CA42984P2052
+Auscan Resources Inc.,Materials,ACR-H.V,EQ,CA0521041065
+Keon Capital Inc,Materials,KEON-H.V,EQ,CA4918951084
+Hanstone Gold Corp.,Materials,HANS.V,EQ,CA4113511097
+Aloro Mining Corp.,Materials,AORO.V,EQ,CA02053E1016
+Infinico Metals Corp.,Materials,INFM.V,EQ,CA45675L2012
+Discovery Harbour Resources Corp.,Materials,DHR-H.V,EQ,CA25470W3057
+New Destiny Mining Corp.,Materials,NED.V,EQ,CA64374A2002
+Vantex Resources Ltd.,Materials,VAX.V,EQ,CA9219456063
+International Iconic Gold Exploration Corp,Materials,ICON.V,EQ,CA45968V2057
+Bravern Ventures Ltd.,Materials,BAV-H.V,EQ,CA10567N1033
+RT Minerals Corp.,Materials,RTM.V,EQ,CA74976W7089
+O2Gold Inc,Materials,OTGO-H.V,EQ,CA67113W2013
+MX Gold Corp.,Materials,MXL-H.V,EQ,CA62848A2020
+Lightspeed Discoveries Inc.,Materials,LSD-H.V,EQ,CA53228K1003
+Sennen Potash Corp.,Materials,SN-H.V,EQ,CA81723C3075
+Hawkeye Gold & Diamond Inc.,Materials,HAWK.V,EQ,CA42016R4017
+Monitor Ventures Inc,Materials,MVI-H.V,EQ,CA6094421089
+Nevado Resources Corporation Class A,Materials,VDO-H.V,EQ,CA64151V2030
+Zinc One Resources Inc.,Materials,Z-H.V,EQ,CA98959W2031
+New Tymbal Resources Ltd,Materials,NTB.V,EQ,CA6490171007
+Ross River Minerals Inc.,Materials,RRM-H.V,EQ,CA77829P2008
+Colossus Resources Corp.,Materials,CLUS.V,EQ,CA19682J1030
+Silver47 Exploration Corp,Materials,AGA.V,EQ,CA8277191059
+Blossom Gold Inc.,Materials,BGAU.TO,EQ,CA09511B1085
+VALOR GOLD CORP,Materials,VGC.TO,EQ,CA9199211066
+Crossroads Gold Corp.,Materials,CRG.V,EQ,CA2279211031
+Luxor Metals Ltd.,Materials,LUXR.V,EQ,CA5509161009
+Errington Metals Corp.,Materials,EM.V,EQ,CA29602L1040
+Thistle Resources Inc.,Materials,TRCG.V,EQ,CA88433P1062
+GreenLight Metals Inc,Materials,GRL.V,EQ,CA39536J1093
+Kirkstone Metals Corp,Materials,KSM.V,EQ,CA49752E1060
+Titiminas Silver Inc.,Materials,TITI.V,EQ,CA88834X1042
+New Target Mining Corp.,Materials,NEW-H.V,EQ,CA64885M1077
+Kootenay Resources Inc.,Materials,KTRI.V,EQ,CA50058V1076
+Dinero Ventures Ltd,Materials,DNO.V,EQ,CA25442M1041
+Toogood Gold Corp.,Materials,TGC.V,EQ,CA8903671052
+Tincorp Metals Inc,Materials,TIN.V,EQ,CA88749D1024
+Ongold Resources Ltd,Materials,ONAU.V,EQ,CA68277V1040
+CleanTech Vanadium Mining Corp,Materials,CTV.V,EQ,CA18453A1012
+Buffalo Potash Corporation,Materials,BUFF.V,EQ,CA1197941059
+Chilean Metals Inc.,Materials,CMCG.V,EQ,CA1688821083
+Perseverance Metals Inc.,Materials,PMI.V,EQ,CA7149121443
+Auranova Resources Inc,Materials,AURA.V,EQ,CA05157P2035
+River Road Resources Ltd.,Materials,RRRL.V,EQ,CA7683631039
+Lavras Gold Corp,Materials,LGC.V,EQ,CA51949L2093
+Lumina Metals Corp.,Materials,LMCU.TO,EQ,CA55025J1030
+Goldstorm Metals Corp.,Materials,GSTM.V,EQ,CA38154G1081
+Blue Jay Gold Corp.,Materials,JAY.V,EQ,CA0959251038
+FinEx Metals Ltd.,Materials,FINX.V,EQ,CA31787K1093
+Gemdale Gold Inc,Materials,GEMG.V,EQ,CA3686431022
+Excalibur Metals Corp.,Materials,EXCL.V,EQ,CA30064W1095
+Kairos Gold Inc.,Materials,KIRO.V,EQ,CA48301P1099
+Quri-Mayu Developments Ltd.,Materials,QURI.V,EQ,CA74915N1087
+Lithium Africa Corp.,Materials,LAF.V,EQ,KYG6003G1010
+Axo Metals Corp.,Materials,AXO.V,EQ,CA05465W1068
+Homeland Uranium Corp.,Materials,HLU.V,EQ,CA43741D1050
+Ventra Metals Corp.,Materials,VENT.V,EQ,CA92281A1049
+Thunderbird Minerals Corp.,Materials,BIRD.V,EQ,CA88605R1047
+Regency Silver Corp,Materials,RSMX.V,EQ,CA75889D2086
+U92 Energy Corp.,Materials,UTWO.V,EQ,CA90317P1036
+Nations Royalty Corp.,Materials,NRC.V,EQ,CA63861X1033
+Kubera Gold Corp,Materials,KBRA.V,EQ,CA50116K1012
+Bullfrog Gold Corporation,Materials,FROG.V,EQ,CA12022T1057
+Eastport Critical Metals Corp.,Materials,EVI.V,EQ,CA27778Y1088
+F4 Uranium Corp.,Materials,FFU.V,EQ,CA30336V1031
+Silverco Mining Ltd.,Materials,SICO.V,EQ,CA8279241019
+SRQ Resources Inc.,Materials,SRQ.V,EQ,CA85224M1023

@@ -28,8 +28,8 @@ else:
 
 STOCK_CSV = os.path.join(INDEX_DATA_DIR, "ind_niftytotalmarket_list.csv")
 
-MAX_STOCKS        = 2500
-PERIOD_DAYS       = 1420
+MAX_STOCKS        = 500
+PERIOD_DAYS       = 600
 ENABLE_PATTERNS   = True
 PATTERN_MAX       = 400
 FETCH_FINANCIALS  = True

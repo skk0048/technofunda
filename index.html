@@ -130,24 +130,6 @@ body::after{content:'';position:fixed;inset:0;background-image:linear-gradient(r
 .legend-badge{flex-shrink:0;font-size:11px;font-weight:700;padding:4px 8px;border-radius:6px;letter-spacing:.3px;white-space:nowrap}
 .legend-text{font-size:13px;color:var(--text2);line-height:1.5}
 .legend-text strong{color:var(--text);font-size:14px}
-.feedback-section-home{border-top:1px solid var(--border);padding:64px 0}
-.fh-sub{font-size:14px;color:var(--text2);margin:0 0 20px;}
-.feedback-form-home{display:flex;flex-direction:column;gap:12px;max-width:640px}
-.fb-row-home{display:grid;grid-template-columns:1fr 1fr;gap:12px}
-.fb-input-home,.fb-textarea-home{background:var(--bg2);border:1px solid var(--border);
-  color:var(--text);border-radius:var(--radius-sm);padding:10px 14px;font-size:13px;
-  font-family:inherit;outline:none;transition:border-color .15s;}
-.fb-input-home:focus,.fb-textarea-home:focus{border-color:var(--gold);}
-.fb-textarea-home{min-height:100px;resize:vertical;}
-.fb-btn-home{align-self:flex-start;background:var(--gold);color:#000;border:none;
-  border-radius:var(--radius-sm);padding:10px 22px;font-size:13px;font-weight:700;
-  cursor:pointer;transition:opacity .15s;}
-.fb-btn-home:hover{opacity:.85;}
-.fb-float-home{position:fixed;bottom:24px;right:20px;z-index:200;background:var(--gold);
-  color:#000;border-radius:20px;padding:9px 18px;font-size:12px;font-weight:700;
-  text-decoration:none;box-shadow:0 3px 12px rgba(0,0,0,.25);
-  display:flex;align-items:center;gap:5px;transition:opacity .15s;}
-.fb-float-home:hover{opacity:.85;}
 .footer{border-top:1px solid var(--border);padding:32px 0 48px}
 .footer-inner{display:flex;align-items:flex-start;justify-content:space-between;gap:24px;flex-wrap:wrap}
 .footer-brand{display:flex;flex-direction:column;gap:10px;max-width:360px}
@@ -179,10 +161,7 @@ body::after{content:'';position:fixed;inset:0;background-image:linear-gradient(r
       <div class="logo-icon">📊</div>
       <span class="logo-text">Techno<span>Funda</span></span>
     </div>
-    <div style="display:flex;align-items:center;gap:20px">
-      <a href="about.html" style="font-size:13px;color:var(--text2);text-decoration:none;font-weight:500;transition:color .15s" onmouseover="this.style.color='var(--gold)'" onmouseout="this.style.color='var(--text2)'">About</a>
-      <span class="nav-tag">Global Market Intelligence</span>
-    </div>
+    <span class="nav-tag">Global Market Intelligence</span>
     <div class="nav-live"><div class="live-dot"></div>Daily Updated</div>
   </nav>
 </div>
@@ -195,9 +174,9 @@ body::after{content:'';position:fixed;inset:0;background-image:linear-gradient(r
     <div class="hero-stats animate-in delay-3">
       <div class="hs-item"><span class="hs-num gold">28</span><span class="hs-label">Markets</span></div>
       <div class="hs-sep"></div>
-      <div class="hs-item"><span class="hs-num">3,579+</span><span class="hs-label">Stocks Tracked</span></div>
+      <div class="hs-item"><span class="hs-num">3,061+</span><span class="hs-label">Stocks Tracked</span></div>
       <div class="hs-sep"></div>
-      <div class="hs-item"><span class="hs-num green">61</span><span class="hs-label">Prime Setups Today</span></div>
+      <div class="hs-item"><span class="hs-num green">62</span><span class="hs-label">Prime Setups Today</span></div>
       <div class="hs-sep"></div>
       <div class="hs-item"><span class="hs-num">Daily</span><span class="hs-label">Updated</span></div>
     </div>
@@ -213,7 +192,7 @@ body::after{content:'';position:fixed;inset:0;background-image:linear-gradient(r
         <span class="sec-label">Live Reports</span>
         <h2 class="sec-title">Choose Your Market</h2>
       </div>
-      <span class="sec-updated">Generated: 08 Jun 2026 04:20 UTC</span>
+      <span class="sec-updated">Generated: 06 Jun 2026 04:11 UTC</span>
     </div>
     <div class="countries-grid" id="countries-grid"></div>
   </section>
@@ -223,7 +202,7 @@ body::after{content:'';position:fixed;inset:0;background-image:linear-gradient(r
     <div class="how-grid">
       <div class="how-item"><div class="how-icon">📡</div><div class="how-title">Daily Data Collection</div><div class="how-desc">Every day after market close, our engine automatically downloads end-of-day price data for every stock in each country.</div></div>
       <div class="how-item"><div class="how-icon">⚙️</div><div class="how-title">RS Momentum Scoring</div><div class="how-desc">Each stock is scored on Relative Strength — how well it performs compared to its own sector and the overall market index.</div></div>
-      <div class="how-item"><div class="how-icon">🏆</div><div class="how-title">Signal Classification</div><div class="how-desc">Stocks are classified from 🌟 Prime (Very Strong Bullish) through Confirmed and RS Bullish signals, down to 🔴 Bearish (breaking down vs market).</div></div>
+      <div class="how-item"><div class="how-icon">🏆</div><div class="how-title">Signal Classification</div><div class="how-desc">Stocks are ranked from 🌟 Prime (strongest momentum + fundamentals) down to 🔴 Avoid (breaking down vs market).</div></div>
       <div class="how-item"><div class="how-icon">📊</div><div class="how-title">Report Generation</div><div class="how-desc">Full interactive reports are built with sector rankings, top opportunities, chart patterns, and trade setups — all in one place.</div></div>
       <div class="how-item"><div class="how-icon">🌐</div><div class="how-title">Published Here</div><div class="how-desc">This page and all country reports are automatically published to the web every trading day — free, with no signup needed.</div></div>
     </div>
@@ -232,26 +211,13 @@ body::after{content:'';position:fixed;inset:0;background-image:linear-gradient(r
   <section class="legend-section animate-in">
     <div class="sec-head"><div class="sec-title-wrap"><span class="sec-label">Understanding the Labels</span><h2 class="sec-title">What do the signals mean?</h2></div></div>
     <div class="legend-grid">
-      <div class="legend-item"><span class="legend-badge sig-prime">🌟 Prime</span><div class="legend-text"><strong>Very Strong Bullish</strong><br>Strongest signal. Stock is outperforming on multiple timeframes with strong fundamentals. The best setups.</div></div>
-      <div class="legend-item"><span class="legend-badge sig-conf">✅ Confirmed</span><div class="legend-text"><strong>Strong Bullish</strong><br>Stock is outperforming the market and sector consistently. Good momentum, consider for watchlist.</div></div>
-      <div class="legend-item"><span class="legend-badge sig-rs">📈 RS Leader</span><div class="legend-text"><strong>Bullish Relative Strength</strong><br>Stock is showing positive RS vs market and sector. Early stage bullish momentum — watch for breakout.</div></div>
-      <div class="legend-item"><span class="legend-badge" style="background:rgba(156,163,175,.1);color:#9ca3af;border:1px solid rgba(156,163,175,.15)">👁 Watch</span><div class="legend-text"><strong>Neutral — Setup Building</strong><br>Pre-conditions met but not yet confirmed. Stock is setting up — check back daily for progression.</div></div>
-      <div class="legend-item"><span class="legend-badge" style="background:rgba(107,114,128,.1);color:#6b7280;border:1px solid rgba(107,114,128,.15)">⬜ Neutral</span><div class="legend-text"><strong>Neutral — No Signal</strong><br>Mixed signals — stock is neither a clear leader nor laggard vs the market right now.</div></div>
-      <div class="legend-item"><span class="legend-badge sig-avoid">🔴 RS Breakdown</span><div class="legend-text"><strong>Bearish Relative Strength</strong><br>Stock is significantly underperforming both its sector and the market. Caution advised.</div></div>
+      <div class="legend-item"><span class="legend-badge sig-prime">🌟 Prime</span><div class="legend-text"><strong>Triple Confirmed / Long Momentum</strong><br>Strongest signal. Stock is outperforming on multiple timeframes with strong fundamentals. The best setups.</div></div>
+      <div class="legend-item"><span class="legend-badge sig-conf">✅ Confirmed</span><div class="legend-text"><strong>Strong RS / Long Momentum</strong><br>Stock is outperforming the market and sector consistently. Good momentum, consider for watchlist.</div></div>
+      <div class="legend-item"><span class="legend-badge sig-rs">📈 RS Leader</span><div class="legend-text"><strong>Relative Strength Buy</strong><br>Stock is showing positive RS vs market and sector. Early stage momentum — watch for breakout.</div></div>
+      <div class="legend-item"><span class="legend-badge" style="background:rgba(156,163,175,.1);color:#9ca3af;border:1px solid rgba(156,163,175,.15)">👁 Watch</span><div class="legend-text"><strong>Setup Building</strong><br>Pre-conditions met but not yet confirmed. Stock is setting up — check back daily for progression.</div></div>
+      <div class="legend-item"><span class="legend-badge" style="background:rgba(107,114,128,.1);color:#6b7280;border:1px solid rgba(107,114,128,.15)">⬜ Neutral</span><div class="legend-text"><strong>No Signal</strong><br>Mixed signals — stock is neither a clear leader nor laggard vs the market right now.</div></div>
+      <div class="legend-item"><span class="legend-badge sig-avoid">🔴 RS Breakdown</span><div class="legend-text"><strong>Relative Strength Sell</strong><br>Stock is significantly underperforming both its sector and the market. Caution advised.</div></div>
     </div>
-  </section>
-
-  <section class="feedback-section-home animate-in" id="feedback">
-    <div class="sec-head"><div class="sec-title-wrap"><span class="sec-label">We want to hear from you</span><h2 class="sec-title">💬 Share Your Feedback</h2></div></div>
-    <p class="fh-sub">Found a bug? Have a suggestion? Tell us what would make TechnoFunda more useful.</p>
-    <form class="feedback-form-home" action="https://formspree.io/f/xpqeqokw" method="POST">
-      <div class="fb-row-home">
-        <input type="text" name="name" placeholder="Your name (optional)" class="fb-input-home">
-        <input type="email" name="email" placeholder="Email (optional — for reply)" class="fb-input-home">
-      </div>
-      <textarea name="message" placeholder="Your feedback, idea, or question…" class="fb-textarea-home" required></textarea>
-      <button type="submit" class="fb-btn-home">Send Feedback →</button>
-    </form>
   </section>
 
   <footer class="footer">
@@ -291,17 +257,10 @@ body::after{content:'';position:fixed;inset:0;background-image:linear-gradient(r
         <a href="PL.html">🇵🇱 Poland Report</a>
         <a href="TR.html">🇹🇷 Turkey Report</a>
       </div>
-      <div class="footer-links">
-        <div class="footer-link-title">Info</div>
-        <a href="about.html">ℹ️ About</a>
-        <a href="#feedback">💬 Feedback</a>
-      </div>
     </div>
     <p class="footer-copy">© 2026 TechnoFunda · Automated daily RS Momentum analysis · Data is delayed end-of-day · Not financial advice</p>
   </footer>
 </div>
-
-<a href="#feedback" class="fb-float-home" title="Share feedback or suggestions">💬 Feedback</a>
 
 <script>
 const MARKETS = [
@@ -313,12 +272,12 @@ const MARKETS = [
     url:        "US.html",
     status:     "live",
     mood:       "bull",
-    updated:    "08 Jun 2026 · 07:35 ET",
+    updated:    "06 Jun 2026 · 04:06 ET",
     index_name: "S&P 500",
     index_price:"7,384",
     index_chg:  "-2.64",
-    universe:   487,
-    signals:    {prime:11,conf:58,rs:115,avoid:167},
+    universe:   503,
+    signals:    {prime:0,conf:0,rs:22,avoid:0},
     top_sectors:[
       {name:"Technology",pct:"-0.5",dir:"neg"}
     ]
@@ -331,14 +290,14 @@ const MARKETS = [
     url:        "IN.html",
     status:     "live",
     mood:       "bull",
-    updated:    "08 June 2026 · 09:41 IST",
+    updated:    "05 June 2026 · 21:45 IST",
     index_name: "NIFTY 50",
-    index_price:"23,161",
-    index_chg:  "-0.88",
+    index_price:"23,367",
+    index_chg:  "-0.21",
     universe:   749,
-    signals:    {prime:19,conf:132,rs:203,avoid:254},
+    signals:    {prime:45,conf:131,rs:200,avoid:234},
     top_sectors:[
-      {name:"Media",pct:"-1.0",dir:"neg"}
+      {name:"Media",pct:"-1.3",dir:"neg"}
     ]
   },
   {
@@ -349,14 +308,14 @@ const MARKETS = [
     url:        "UK.html",
     status:     "live",
     mood:       "bull",
-    updated:    "08 June 2026 · 03:56 GMT",
+    updated:    "05 June 2026 · 18:58 GMT",
     index_name: "FTSE 100",
     index_price:"10,368",
-    index_chg:  "+0.08",
-    universe:   350,
-    signals:    {prime:4,conf:43,rs:130,avoid:123},
+    index_chg:  "+0.07",
+    universe:   175,
+    signals:    {prime:0,conf:0,rs:22,avoid:0},
     top_sectors:[
-      {name:"Technology",pct:"-0.0",dir:"neg"}
+      {name:"Technology",pct:"-2.9",dir:"neg"}
     ]
   },
   {
@@ -367,14 +326,14 @@ const MARKETS = [
     url:        "CA.html",
     status:     "live",
     mood:       "bull",
-    updated:    "08 June 2026 · 00:26 ET",
+    updated:    "05 June 2026 · 23:17 ET",
     index_name: "S&P/TSX",
     index_price:"—",
     index_chg:  "—",
-    universe:   219,
-    signals:    {prime:6,conf:26,rs:47,avoid:82},
+    universe:   88,
+    signals:    {prime:0,conf:0,rs:22,avoid:0},
     top_sectors:[
-      {name:"Communication Services",pct:"-1.3",dir:"neg"}
+      {name:"Technology",pct:"-1.3",dir:"neg"}
     ]
   },
   {
@@ -385,14 +344,14 @@ const MARKETS = [
     url:        "AU.html",
     status:     "live",
     mood:       "bull",
-    updated:    "08 June 2026 · 06:27 AEST",
+    updated:    "05 June 2026 · 20:52 AEST",
     index_name: "S&P/ASX 200",
     index_price:"8,625",
-    index_chg:  "N/A",
-    universe:   497,
-    signals:    {prime:13,conf:123,rs:93,avoid:160},
+    index_chg:  "-0.70",
+    universe:   136,
+    signals:    {prime:3,conf:27,rs:34,avoid:53},
     top_sectors:[
-      {name:"Technology",pct:"-1.8",dir:"neg"}
+      {name:"Materials",pct:"-0.4",dir:"neg"}
     ]
   },
   {
@@ -402,15 +361,15 @@ const MARKETS = [
     exchange:   "XETRA / Frankfurt",
     url:        "DE.html",
     status:     "live",
-    mood:       "bull",
-    updated:    "07 June 2026 · 21:25 CET",
+    mood:       "bear",
+    updated:    "05 June 2026 · 20:57 CET",
     index_name: "DAX 40",
     index_price:"24,759",
     index_chg:  "-0.75",
     universe:   36,
-    signals:    {prime:0,conf:7,rs:7,avoid:13},
+    signals:    {prime:0,conf:0,rs:0,avoid:0},
     top_sectors:[
-      {name:"Health Care",pct:"-0.4",dir:"neg"}
+
     ]
   },
   {
@@ -421,14 +380,14 @@ const MARKETS = [
     url:        "JP.html",
     status:     "live",
     mood:       "bull",
-    updated:    "08 June 2026 · 03:57 JST",
+    updated:    "05 June 2026 · 19:57 JST",
     index_name: "Nikkei 225",
     index_price:"66,588",
     index_chg:  "-1.31",
-    universe:   225,
-    signals:    {prime:6,conf:45,rs:40,avoid:79},
+    universe:   123,
+    signals:    {prime:5,conf:14,rs:22,avoid:70},
     top_sectors:[
-      {name:"Communication Services",pct:"-2.2",dir:"neg"}
+
     ]
   },
   {
@@ -438,15 +397,15 @@ const MARKETS = [
     exchange:   "Euronext Paris",
     url:        "FR.html",
     status:     "live",
-    mood:       "bull",
-    updated:    "07 June 2026 · 21:29 CET",
+    mood:       "bear",
+    updated:    "05 June 2026 · 21:22 CET",
     index_name: "CAC 40",
     index_price:"8,218",
     index_chg:  "-0.32",
-    universe:   25,
-    signals:    {prime:0,conf:1,rs:8,avoid:10},
+    universe:   37,
+    signals:    {prime:0,conf:0,rs:0,avoid:0},
     top_sectors:[
-      {name:"Financials",pct:"-0.6",dir:"neg"}
+
     ]
   },
   {
@@ -456,15 +415,15 @@ const MARKETS = [
     exchange:   "B3 - Bolsa Brasil",
     url:        "BR.html",
     status:     "live",
-    mood:       "mixed",
-    updated:    "07 June 2026 · 17:28 BRT",
+    mood:       "bear",
+    updated:    "05 June 2026 · 19:08 BRT",
     index_name: "Ibovespa",
     index_price:"169,019",
     index_chg:  "-0.77",
-    universe:   4,
-    signals:    {prime:0,conf:0,rs:1,avoid:2},
+    universe:   70,
+    signals:    {prime:0,conf:0,rs:0,avoid:0},
     top_sectors:[
-      {name:"Financials",pct:"-3.2",dir:"neg"}
+
     ]
   },
   {
@@ -475,14 +434,14 @@ const MARKETS = [
     url:        "CN.html",
     status:     "live",
     mood:       "mixed",
-    updated:    "08 June 2026 · 04:26 CST",
+    updated:    "05 June 2026 · 19:30 CST",
     index_name: "CSI 300",
     index_price:"4,817",
     index_chg:  "-1.79",
     universe:   92,
-    signals:    {prime:0,conf:5,rs:15,avoid:42},
+    signals:    {prime:1,conf:4,rs:17,avoid:66},
     top_sectors:[
-      {name:"Utilities",pct:"-5.2",dir:"neg"}
+
     ]
   },
   {
@@ -493,14 +452,14 @@ const MARKETS = [
     url:        "KR.html",
     status:     "live",
     mood:       "mixed",
-    updated:    "08 June 2026 · 05:26 KST",
+    updated:    "05 June 2026 · 20:43 KST",
     index_name: "KOSPI",
     index_price:"8,161",
     index_chg:  "-5.54",
     universe:   77,
-    signals:    {prime:1,conf:5,rs:8,avoid:51},
+    signals:    {prime:3,conf:3,rs:9,avoid:62},
     top_sectors:[
-      {name:"Technology",pct:"-1.3",dir:"neg"}
+
     ]
   },
   {
@@ -511,14 +470,14 @@ const MARKETS = [
     url:        "TW.html",
     status:     "live",
     mood:       "bull",
-    updated:    "08 June 2026 · 11:32 CST",
+    updated:    "05 June 2026 · 20:22 CST",
     index_name: "TAIEX",
-    index_price:"43,497",
-    index_chg:  "-3.49",
+    index_price:"45,071",
+    index_chg:  "-1.33",
     universe:   69,
-    signals:    {prime:0,conf:10,rs:25,avoid:25},
+    signals:    {prime:1,conf:19,rs:16,avoid:29},
     top_sectors:[
-      {name:"Industrials",pct:"-2.8",dir:"neg"}
+
     ]
   },
   {
@@ -528,15 +487,15 @@ const MARKETS = [
     exchange:   "SIX Swiss Exchange",
     url:        "CH.html",
     status:     "live",
-    mood:       "bull",
-    updated:    "07 June 2026 · 21:26 CET",
+    mood:       "bear",
+    updated:    "05 June 2026 · 20:17 CET",
     index_name: "SMI",
     index_price:"13,388",
     index_chg:  "+0.35",
     universe:   58,
-    signals:    {prime:1,conf:11,rs:10,avoid:23},
+    signals:    {prime:0,conf:0,rs:0,avoid:0},
     top_sectors:[
-      {name:"Technology",pct:"-0.5",dir:"neg"}
+
     ]
   },
   {
@@ -547,14 +506,14 @@ const MARKETS = [
     url:        "SA.html",
     status:     "live",
     mood:       "bull",
-    updated:    "08 June 2026 · 07:06 AST",
+    updated:    "04 June 2026 · 18:58 AST",
     index_name: "TASI (Tadawul)",
     index_price:"—",
     index_chg:  "—",
     universe:   74,
-    signals:    {prime:0,conf:7,rs:17,avoid:36},
+    signals:    {prime:1,conf:13,rs:15,avoid:37},
     top_sectors:[
-      {name:"Technology",pct:"-1.6",dir:"neg"}
+
     ]
   },
   {
@@ -565,11 +524,11 @@ const MARKETS = [
     url:        "NL.html",
     status:     "live",
     mood:       "bear",
-    updated:    "07 June 2026 · 21:29 CET",
+    updated:    "05 June 2026 · 21:48 CET",
     index_name: "AEX",
     index_price:"1,041",
     index_chg:  "-0.55",
-    universe:   6,
+    universe:   51,
     signals:    {prime:0,conf:0,rs:0,avoid:0},
     top_sectors:[
 
@@ -582,13 +541,13 @@ const MARKETS = [
     exchange:   "Bolsas y Mercados Espanoles",
     url:        "ES.html",
     status:     "live",
-    mood:       "bull",
-    updated:    "07 June 2026 · 21:29 CET",
+    mood:       "bear",
+    updated:    "05 June 2026 · 22:01 CET",
     index_name: "IBEX 35",
     index_price:"18,345",
     index_chg:  "+0.38",
-    universe:   4,
-    signals:    {prime:0,conf:1,rs:2,avoid:0},
+    universe:   51,
+    signals:    {prime:0,conf:0,rs:0,avoid:0},
     top_sectors:[
 
     ]
@@ -600,15 +559,15 @@ const MARKETS = [
     exchange:   "Nasdaq Stockholm",
     url:        "SE.html",
     status:     "live",
-    mood:       "bull",
-    updated:    "07 June 2026 · 21:29 CET",
+    mood:       "bear",
+    updated:    "05 June 2026 · 22:18 CET",
     index_name: "OMX Stockholm 30",
     index_price:"3,116",
     index_chg:  "-0.60",
-    universe:   18,
-    signals:    {prime:0,conf:3,rs:7,avoid:5},
+    universe:   55,
+    signals:    {prime:0,conf:0,rs:0,avoid:0},
     top_sectors:[
-      {name:"Materials",pct:"-0.6",dir:"neg"}
+
     ]
   },
   {
@@ -619,14 +578,14 @@ const MARKETS = [
     url:        "HK.html",
     status:     "live",
     mood:       "bull",
-    updated:    "08 June 2026 · 04:26 HKT",
+    updated:    "05 June 2026 · 20:33 HKT",
     index_name: "Hang Seng",
     index_price:"24,962",
     index_chg:  "-1.15",
     universe:   80,
-    signals:    {prime:0,conf:10,rs:19,avoid:40},
+    signals:    {prime:0,conf:10,rs:23,avoid:43},
     top_sectors:[
-      {name:"Industrials",pct:"-2.1",dir:"neg"}
+
     ]
   },
   {
@@ -636,13 +595,13 @@ const MARKETS = [
     exchange:   "Borsa Italiana",
     url:        "IT.html",
     status:     "live",
-    mood:       "bull",
+    mood:       "bear",
     updated:    "05 June 2026 · 19:44 CET",
     index_name: "FTSE MIB",
     index_price:"49,893",
     index_chg:  "-0.56",
     universe:   54,
-    signals:    {prime:0,conf:15,rs:10,avoid:24},
+    signals:    {prime:0,conf:0,rs:0,avoid:0},
     top_sectors:[
 
     ]
@@ -654,15 +613,15 @@ const MARKETS = [
     exchange:   "Singapore Exchange",
     url:        "SG.html",
     status:     "live",
-    mood:       "bull",
-    updated:    "08 June 2026 · 04:27 SGT",
+    mood:       "mixed",
+    updated:    "05 June 2026 · 21:45 SGT",
     index_name: "STI",
     index_price:"5,050",
     index_chg:  "-0.35",
-    universe:   32,
-    signals:    {prime:0,conf:3,rs:5,avoid:14},
+    universe:   57,
+    signals:    {prime:0,conf:4,rs:9,avoid:37},
     top_sectors:[
-      {name:"Financials",pct:"-1.2",dir:"neg"}
+
     ]
   },
   {
@@ -673,14 +632,14 @@ const MARKETS = [
     url:        "ID.html",
     status:     "live",
     mood:       "bull",
-    updated:    "08 June 2026 · 03:26 WIB",
+    updated:    "05 June 2026 · 20:26 WIB",
     index_name: "IDX Composite",
     index_price:"5,595",
     index_chg:  "-4.20",
     universe:   62,
-    signals:    {prime:0,conf:19,rs:12,avoid:17},
+    signals:    {prime:0,conf:20,rs:20,avoid:22},
     top_sectors:[
-      {name:"Financials",pct:"-8.3",dir:"neg"}
+
     ]
   },
   {
@@ -691,14 +650,14 @@ const MARKETS = [
     url:        "ZA.html",
     status:     "live",
     mood:       "bull",
-    updated:    "08 June 2026 · 05:33 SAST",
+    updated:    "05 June 2026 · 20:02 SAST",
     index_name: "JSE Top 40",
     index_price:"103,420",
     index_chg:  "-1.15",
-    universe:   73,
-    signals:    {prime:0,conf:29,rs:12,avoid:18},
+    universe:   76,
+    signals:    {prime:0,conf:31,rs:23,avoid:22},
     top_sectors:[
-      {name:"Energy",pct:"-4.2",dir:"neg"}
+
     ]
   },
   {
@@ -708,15 +667,15 @@ const MARKETS = [
     exchange:   "Bolsa Mexicana de Valores",
     url:        "MX.html",
     status:     "live",
-    mood:       "bull",
-    updated:    "07 June 2026 · 21:27 CST",
+    mood:       "bear",
+    updated:    "05 June 2026 · 16:44 CST",
     index_name: "IPC Mexico",
     index_price:"66,141",
     index_chg:  "-1.86",
     universe:   43,
-    signals:    {prime:0,conf:13,rs:11,avoid:14},
+    signals:    {prime:0,conf:0,rs:0,avoid:0},
     top_sectors:[
-      {name:"Financials",pct:"-0.7",dir:"neg"}
+
     ]
   },
   {
@@ -727,14 +686,14 @@ const MARKETS = [
     url:        "TH.html",
     status:     "live",
     mood:       "bull",
-    updated:    "08 June 2026 · 10:49 ICT",
+    updated:    "05 June 2026 · 20:52 ICT",
     index_name: "SET Index",
-    index_price:"1,566",
-    index_chg:  "-1.05",
+    index_price:"1,583",
+    index_chg:  "-0.76",
     universe:   63,
-    signals:    {prime:0,conf:12,rs:10,avoid:28},
+    signals:    {prime:3,conf:10,rs:9,avoid:34},
     top_sectors:[
-      {name:"Materials",pct:"-2.1",dir:"neg"}
+
     ]
   },
   {
@@ -745,14 +704,14 @@ const MARKETS = [
     url:        "MY.html",
     status:     "live",
     mood:       "bull",
-    updated:    "08 June 2026 · 11:27 MYT",
+    updated:    "05 June 2026 · 21:31 MYT",
     index_name: "KLCI",
-    index_price:"1,683",
-    index_chg:  "-0.60",
+    index_price:"1,693",
+    index_chg:  "+0.60",
     universe:   65,
-    signals:    {prime:0,conf:13,rs:13,avoid:24},
+    signals:    {prime:0,conf:16,rs:16,avoid:28},
     top_sectors:[
-      {name:"Technology",pct:"-2.9",dir:"neg"}
+
     ]
   },
   {
@@ -781,10 +740,10 @@ const MARKETS = [
     url:        "PL.html",
     status:     "live",
     mood:       "bear",
-    updated:    "07 June 2026 · 21:27 CET",
+    updated:    "05 June 2026 · 19:13 CET",
     index_name: "WIG20",
     index_price:"—",
-    index_chg:  "N/A",
+    index_chg:  "—",
     universe:   46,
     signals:    {prime:0,conf:0,rs:0,avoid:0},
     top_sectors:[
@@ -799,14 +758,14 @@ const MARKETS = [
     url:        "TR.html",
     status:     "live",
     mood:       "bull",
-    updated:    "08 June 2026 · 06:31 TRT",
+    updated:    "05 June 2026 · 21:23 TRT",
     index_name: "BIST 100",
     index_price:"13,694",
     index_chg:  "-1.28",
     universe:   63,
-    signals:    {prime:0,conf:12,rs:15,avoid:28},
+    signals:    {prime:0,conf:14,rs:18,avoid:30},
     top_sectors:[
-      {name:"Technology",pct:"-0.1",dir:"neg"}
+
     ]
   }
 ];
@@ -849,7 +808,8 @@ function buildSignals(s){
   const p=[];
   if(s.prime>0)p.push(`<div class="sig-pill sig-prime">🌟 ${s.prime} Prime</div>`);
   if(s.conf>0) p.push(`<div class="sig-pill sig-conf">✅ ${s.conf} Confirmed</div>`);
-  if(s.rs>0)   p.push(`<div class="sig-pill sig-rs">📈 ${s.rs} RS Bullish</div>`);
+  if(s.rs>0)   p.push(`<div class="sig-pill sig-rs">📈 ${s.rs} RS Buy</div>`);
+  if(s.avoid>0)p.push(`<div class="sig-pill sig-avoid">🔴 ${s.avoid} Avoid</div>`);
   return p.join('');
 }
 function buildCards(){

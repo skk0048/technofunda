@@ -1,17 +1,199 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-Itau Unibanco Holding SA PN,Financials,ITUB4.SA,EQ,
-Banco Bradesco SA PN,Financials,BBDC4.SA,EQ,
-Banco do Brasil SA,Financials,BBAS3.SA,EQ,
-Banco Santander Brasil SA,Financials,SANB11.SA,EQ,
-XP Inc. Class A,Financials,XPBR31.SA,EQ,
-B3 SA - Brasil Bolsa Balcao,Financials,B3SA3.SA,EQ,
-BTG Pactual SA,Financials,BPAC11.SA,EQ,
-Porto Seguro SA,Financials,PSSA3.SA,EQ,
-BB Seguridade Participacoes SA,Financials,BBSE3.SA,EQ,
-Cielo SA,Financials,CIEL3.SA,EQ,
-SulAmerica SA,Financials,SULA11.SA,EQ,
-Banco Inter SA,Financials,INBR32.SA,EQ,
-Banco Pan SA,Financials,BPAN4.SA,EQ,
-Banrisul SA PN,Financials,BRSR6.SA,EQ,
-IRB Brasil Resseguros SA,Financials,IRBR3.SA,EQ,
-Itausa SA PN,Financials,ITSA4.SA,EQ,
+Berkshire Hathaway Inc. B Unsponsored Brazilian Depository Receipt Repr 0.05 Sh B,Financials,BERK34.SA,EQ,BRBERKBDR002
+JPMorgan Chase & Co. Shs Unsponsored Brazilian Depository Receipts Repr 0.1 Sh,Financials,JPMC34.SA,EQ,BRJPMCBDR009
+Visa Inc. Shs A Unsponsored Brazilian Depository Receipt Repr 0.05 Sh A,Financials,VISA34.SA,EQ,BRVISABDR000
+Mastercard Inc Shs A Unsponsored Brazilian Depositary Receipt Repr 0.032258065 Sh,Financials,MSCD34.SA,EQ,BRMSCDBDR006
+Bank of America Corp Shs Unsponsored Brazilian Depository Receipts Repr 0.25 Sh,Financials,BOAC34.SA,EQ,BRBOACBDR004
+Morgan Stanley Shs Unsponsored Brazilian Depository Receipts Repr 0.2 Sh,Financials,MSBR34.SA,EQ,BRMSBRBDR008
+HSBC Holdings Plc Unsponsored Brazilian Depositary Receipt Repr 0.25 ADR,Financials,H1SB34.SA,EQ,BRH1SBBDR006
+Goldman Sachs Group Inc. Shs Unsponsored Brazilian Depository Receipts Repr 0.03333333 Sh,Financials,GSGI34.SA,EQ,BRGSGIBDR008
+Wells Fargo & Company Shs Unsponsored Brazilian Depository Receipt Repr 0.25 Sh,Financials,WFCO34.SA,EQ,BRWFCOBDR009
+Citigroup Inc. Shs Unsponsored Brazilian Depository Receipt Repr 0.1667 Sh,Financials,CTGP34.SA,EQ,BRCTGPBDR000
+Mitsubishi UFJ Financial Group Inc. Unsponsored Brazilian Depositary Receipt Repr 1 ADR,Financials,M1UF34.SA,EQ,BRM1UFBDR006
+American Express Co Shs Unsponsored Brazilian Depository Receipt Repr 0.1 Sh,Financials,AXPB34.SA,EQ,BRAXPBBDR007
+Banco Santander SA ADR Unsponsored Brazilian Depository Receipt Repr 1 ADR,Financials,BCSA34.SA,EQ,BRBCSABDR005
+BlackRock Inc. Shs Unsponsored Brazilian Depositary Receipt Repr 0.01515152 Sh,Financials,BLAK34.SA,EQ,BRBLAKBDR003
+Charles Schwab Corp Shs Unsponsored Brazilian Depository Receipt Repr 0.125 Sh,Financials,SCHW34.SA,EQ,BRSCHWBDR006
+Sumitomo Mitsui Financial Group Inc. Unsponsored Brazilian Depositary Receipt Repr 1 ADR,Financials,S1MF34.SA,EQ,BRS1MFBDR007
+Welltower Inc. Shs Unsponsored Brazilian Depositary Receipt Repr 0.5 Sh,Financials,W1EL34.SA,EQ,BRW1ELBDR006
+Interactive Brokers Group Inc. Unsponsored Brazilian Depositary Receipt Repr 0.0625 Sh,Financials,IBKR34.SA,EQ,BRIBKRBDR003
+UBS Group AG Shs Unsponsored Brazilian Depository Receipts Repr 1Sh,Financials,UBSG34.SA,EQ,BRUBSGBDR004
+Prologis Inc. Shs Unsponsored Brazilian Depositary Receipt Repr 0.0833333 Sh,Financials,P1LD34.SA,EQ,BRP1LDBDR007
+Chubb Limited Shs Unsponsored Brazilian Depositary Receipt Repr 1/4 Sh,Financials,C1BL34.SA,EQ,BRC1BLBDR006
+Banco Bilbao Vizcaya Argentaria S.A. ADR Unsponsored Brazilian Depository Receipt Repr 1 ADR,Financials,BILB34.SA,EQ,BRBILBBDR005
+HDFC Bank Limited Unsponsored Brazilian Depositary Receipt Repr 0.2 ADR,Financials,H1DB34.SA,EQ,BRH1DBBDR008
+Progressive Corporation Shs Unsponsored Brazilian Depositary Receipt Repr 1/2 Sh,Financials,P1GR34.SA,EQ,BRP1GRBDR007
+Capital One Financial Corp Shs Unsponsored Brazilian Depository Receipt Repr 1/2 Sh,Financials,CAON34.SA,EQ,BRCAONBDR009
+Equinix Inc Shs Unsponsored Brazilian Depository Receipt Repr 0.0125 Sh,Financials,EQIX34.SA,EQ,BREQIXBDR002
+Brookfield Corporation Shs A Unsponsored Brazilian Depository Receipt Repr 0.25 Sh A,Financials,B1AM34.SA,EQ,BRB1AMBDR007
+Bank of New York Mellon Corp Shs Unsponsored Brazilian Depository Receipt Repr 1 Sh,Financials,BONY34.SA,EQ,BRBONYBDR001
+CME Group Inc Shs A Unsponsored Brazilian Depository Receipt Repr 1/4 Sh A,Financials,CHME34.SA,EQ,BRCHMEBDR007
+PNC Financial Services Group Inc. Shs Unsponsored Brazilian Depository Receipt Repr 1/2 Sh,Financials,PNCS34.SA,EQ,BRPNCSBDR008
+American Tower Corporation Shs Unsponsored Brazilian Depositary Receipt Repr 0.0416667 Sh,Financials,T1OW34.SA,EQ,BRT1OWBDR007
+U.S. Bancorp Shs Unsponsored Brazilian Depositary Receipt Repr 0.25 Sh,Financials,USBC34.SA,EQ,BRUSBCBDR003
+ING Groep N.V. Unsponsored Brazilian Depository Receipt Repr 1 ADR,Financials,INGG34.SA,EQ,BRINGGBDR009
+Itau Unibanco Holding S.A.,Financials,ITUB3.SA,EQ,BRITUBACNOR4
+Itau Unibanco Holding SA Pfd,Financials,ITUB4.SA,EQ,BRITUBACNPR1
+Barclays PLC ADR Unsponsored Brazilian Depositary Receipt Repr 1 ADR,Financials,B1CS34.SA,EQ,BRB1CSBDR000
+Intercontinental Exchange Inc Shs Unsponsored Brazilian Depositary Receipt Repr 1/2 Sh,Financials,I1CE34.SA,EQ,BRI1CEBDR003
+Marsh & McLennan Companies Inc. Shs Unsponsored Brazilian Depositary Receipt Repr 1/2 Sh,Financials,M1MC34.SA,EQ,BRM1MCBDR000
+Lloyds Banking Group PLC Unsponsored Brazilian Depositary Receipt Repr 1 ADR,Financials,L1YG34.SA,EQ,BRL1YGBDR007
+Apollo Global Management Inc Shs Unsponsored Brazilian Depositary Receipt Repr 0.06666667 Shs,Financials,A1PO34.SA,EQ,BRA1POBDR002
+Aon PLC Shs Unsponsored Brazilian Depositary Receipt Repr 0.25 Sh,Financials,A1ON34.SA,EQ,BRA1ONBDR007
+Simon Property Group Inc. Shs Unsponsored Brazilian Depositary Receipt Repr 0.25 Sh,Financials,SIMN34.SA,EQ,BRSIMNBDR002
+United Rentals Inc. Shs Unsponsored Brazilian Depositary Receipt Repr 0.03571428 S,Financials,U1RI34.SA,EQ,BRU1RIBDR006
+Digital Realty Trust Inc. Shs Unsponsored Brazilian Depositary Receipt Repr 0.25 Sh,Financials,D1LR34.SA,EQ,BRD1LRBDR001
+Travelers Companies Inc Shs Unsponsored Brazilian Depository Receipt Repr 0.03125 Sh,Financials,TRVC34.SA,EQ,BRTRVCBDR005
+NatWest Group Plc Unsponsored Brazilian Depositary Receipt Repr 1 ADR,Financials,N1WG34.SA,EQ,BRN1WGBDR009
+Deutsche Bank Aktiengesellschaft Shs Unsponsored Brazilian Depository Receipt Repr 1 Sh,Financials,DBAG34.SA,EQ,BRDBAGBDR008
+Nu Holdings Ltd. Shs -A- Sponsored Brazilian Depositary Receipt Repr 0.16667 Sh -A-,Financials,ROXO34.SA,EQ,BRROXOBDR007
+Allstate Corporation Shs Unsponsored Brazilian Depositary Receipt Repr 0.04166667 Sh,Financials,A1TT34.SA,EQ,BRA1TTBDR003
+Realty Income Corporation Shs Unsponsored BDR Repr 1/2 Sh,Financials,R1IN34.SA,EQ,BRR1INBDR000
+MetLife Inc. Shs Unsponsored Brazilian Depository Receipt Repr 1 Sh,Financials,METB34.SA,EQ,BRMETBBDR004
+Public Storage Shs Unsponsored Brazilian Depositary Receipt Repr 0.2 Sh,Financials,P1SA34.SA,EQ,BRP1SABDR008
+Nasdaq Inc. Shs Unsponsored Brazilian Depositary Receipt Repr 0.5 Sh,Financials,N1DA34.SA,EQ,BRN1DABDR002
+Crown Castle Inc. Shs Unsponsored Brazilian Depositary Receipt Repr 1/4 Sh,Financials,C1CI34.SA,EQ,BRC1CIBDR000
+Ameriprise Financial Inc. Shs Unsponsored Brazilian Depositary Receipt Repr 0.25 Sh,Financials,A1MP34.SA,EQ,BRA1MPBDR006
+Ventas Inc. Shs Unsponsored Brazilian Depositary Receipt Repr 1/2 Sh,Financials,V1TA34.SA,EQ,BRV1TABDR008
+American International Group Inc. Shs Unsponsored Brazilian Depository Receipt Repr 1 Sh,Financials,AIGB34.SA,EQ,BRAIGBBDR007
+ORIX Corporation ADR Unsponsored Brazilian Depositary Receipt Repr 0.125 ADR,Financials,I1XC34.SA,EQ,BRI1XCBDR003
+KB Financial Group Inc. Unsponsored Brazilian Depositary Receipt Repr 0.25 ADR,Financials,K1BF34.SA,EQ,BRK1BFBDR008
+CBRE Group Inc. Shs A Unsponsored Brazilian Depositary Receipt Repr 1 Sh A,Financials,C1BR34.SA,EQ,BRC1BRBDR003
+Iron Mountain REIT Inc Shs Unsponsored Brazilian Depositary Receipt Repr 1 Sh,Financials,I1RM34.SA,EQ,BRI1RMBDR004
+Prudential Financial Inc. Shs Unsponsored Brazilian Depositary Receipt Repr 1/2 Sh,Financials,P1DT34.SA,EQ,BRP1DTBDR000
+Coinbase Global Inc. Shs A Unsponsored Brazilian Depositary Receipt Repr 0.04 Sh A,Financials,C2OI34.SA,EQ,BRC2OIBDR003
+Banco BTG Pactual SA,Financials,BPAC3.SA,EQ,BRBPACACNOR7
+Banco BTG Pactual SA Pfd A,Financials,BPAC5.SA,EQ,BRBPACACNPA0
+Banco Bradesco SA,Financials,BBDC3.SA,EQ,BRBBDCACNOR1
+Banco Bradesco SA Pfd,Financials,BBDC4.SA,EQ,BRBBDCACNPR8
+Prudential PLC ADR Unsponsored Brazilian Depositary Receipt Repr 0.25 ADR,Financials,P1UK34.SA,EQ,BRP1UKBDR003
+Northern Trust Corp Unsponsored Brazilian Depositary Receipt Repr 0.5 Sh,Financials,N1TR34.SA,EQ,BRN1TRBDR002
+Extra Space Storage Inc. Shs Unsponsored Brazilian Depositary Receipt Repr 0.25 Sh,Financials,E1XR34.SA,EQ,BRE1XRBDR005
+Cboe Global Markets Inc Shs Unsponsored Brazilian Depositary Receipt Repr 0.5 Sh,Financials,C1BO34.SA,EQ,BRC1BOBDR000
+Ares Management Corporation Shs Unsponsored Brazilian Depositary Receipt Repr 0.1 Sh,Financials,A2RE34.SA,EQ,BRA2REBDR007
+Itausa SA,Financials,ITSA3.SA,EQ,BRITSAACNOR0
+Itausa SA Non-Cum Perp Pfd Registered Shs,Financials,ITSA4.SA,EQ,BRITSAACNPR7
+Citizens Financial Group Inc. Shs Unsponsored Brazilian Depositary Receipt Repr 1 Sh,Financials,C1FG34.SA,EQ,BRC1FGBDR007
+AvalonBay Communities Inc. Unsponsored Brazilian Depositary Receipt Repr 0.25 Sh,Financials,A1VB34.SA,EQ,BRA1VBBDR007
+Credicorp Ltd. Shs Unsponsored Brazilian Depositary Receipt Repr 0.0833333 Sh,Financials,B2AP34.SA,EQ,BRB2APBDR008
+Equity Residential Shs Unsponsored Brazilian Depositary Receipt Repr 0.5 Sh,Financials,E1QR34.SA,EQ,BRE1QRBDR009
+W. R. Berkley Corporation Unsponsored Brazilian Depository Receipt Repr 0.1 Sh,Financials,W1RB34.SA,EQ,BRW1RBBDR009
+Nomura Holdings Inc. ADR Unsponsored Brazilian Depository Receipt Repr 1 ADR,Financials,NMRH34.SA,EQ,BRNMRHBDR006
+Regions Financial Corporation Unsponsored Brazilian Depositary Receipt Repr 1 Sh,Financials,R1FC34.SA,EQ,BRR1FCBDR009
+LPL Financial Holdings Inc Shs Unsponsored Brazilian Depositary Receipt Repr 0.055555 Sh,Financials,L2PL34.SA,EQ,BRL2PLBDR003
+Markel Group Inc. Shs Unsponsored Brazilian Depositary Receipt Repr 0.5 Sh,Financials,MKLC34.SA,EQ,BRMKLCBDR006
+T. Rowe Price Group Inc. Shs Unsponsored Brazilian Depositary Receipt Repr 0.5 Sh,Financials,T1RO34.SA,EQ,BRT1ROBDR007
+Banco do Brasil S.A.,Financials,BBAS3.SA,EQ,BRBBASACNOR3
+Banco Santander (Brasil) S.A.,Financials,SANB3.SA,EQ,BRSANBACNOR8
+Banco Santander (Brasil) SA Pfd,Financials,SANB4.SA,EQ,BRSANBACNPR5
+Grupo Cibest S.A. ADR Unsponsored Brazilian Depositary Receipt Repr 0.25 ADR,Financials,C2OL34.SA,EQ,BRC2OLBDR007
+Invitation Homes Inc. Shs Unsponsored Brazilian Depositary Receipt Repr 0.2 Sh,Financials,I2NV34.SA,EQ,BRI2NVBDR002
+Franklin Resources Inc. Shs Unsponsored Brazilian Depositary Receipt Repr 1 Sh,Financials,F1RA34.SA,EQ,BRF1RABDR002
+Annaly Capital Management Inc. Shs Unsponsored BDR,Financials,N2LY34.SA,EQ,BRN2LYBDR003
+Sun Communities Inc. Shs Unsponsored Brazilian Depositary Receipt Repr 0.05 Sh,Financials,S2UI34.SA,EQ,BRS2UIBDR002
+Camden Property Trust Shs Unsponsored Brazilian Depositary Receipt Repr 0.066666667 Sh,Financials,C2PT34.SA,EQ,BRC2PTBDR007
+B3 SA - Brasil Bolsa Balcao,Financials,B3SA3.SA,EQ,BRB3SAACNOR6
+B3 SA - Brasil Bolsa Balcao,Financials,B3SA3F.SA,EQ,BRB3SAACNOR6
+Banco Santander-Chile ADR Unsponsored Brazilian Depositary Receipt Repr 0.5 ADR,Financials,B1SA34.SA,EQ,BRB1SABDR004
+Regency Centers Corporation Shs Unsponsored Brazilian Depositary Receipt Repr 0.5 Sh,Financials,R1EG34.SA,EQ,BRR1EGBDR003
+Healthpeak Properties Inc. Shs Unsponsored Brazilian Depositary Receipt Repr 1 Sh,Financials,P1EA34.SA,EQ,BRP1EABDR008
+Omega Healthcare Investors Inc Unsponsored BDR,Financials,O2HI34.SA,EQ,BRO2HIBDR003
+BB Seguridade Participacoes SA,Financials,BBSE3.SA,EQ,BRBBSEACNOR5
+Assurant Inc. Unsponsored Brazilian Depositary Receipt Repr 0.25 Sh,Financials,A1SU34.SA,EQ,BRA1SUBDR003
+Aegon Ltd. ADR Unsponsored Brazilian Depositary Receipt Repr 0.25 ADR,Financials,A1EG34.SA,EQ,BRA1EGBDR002
+Invesco Ltd. Shs Unsponsored Brazilian Depositary Receipt Repr 1 Sh,Financials,I1VZ34.SA,EQ,BRI1VZBDR008
+Jefferies Financial Group Inc. Shs Unsponsored Brazilian Depositary Receipt Repr 1 Sh,Financials,J1EF34.SA,EQ,BRJ1EFBDR005
+SEI Investments Company Shs Unsponsored Brazilian Depositary Receipt Repr 0.166666 Sh,Financials,S2EI34.SA,EQ,BRS2EIBDR006
+Caixa Seguridade Participacoes SA,Financials,CXSE3.SA,EQ,BRCXSEACNOR7
+BXP Inc Shs Unsponsored Brazilian Depositary Receipt Repr 0.1 Sh,Financials,BOXP34.SA,EQ,BRBOXPBDR008
+Lineage Inc Shs Unsponsored Brazilian Depositary Receipt Repr 0.125 Sh,Financials,L1NE34.SA,EQ,BRL1NEBDR005
+Alexandria Real Estate Equities Inc Shs Unsponsored Brazilian Depositary Receipt Repr 0.25 Sh,Financials,A1RE34.SA,EQ,BRA1REBDR009
+Agree Realty Corp Shs Unsponsored Brazilian Depositary Receipt Repr 0.125 Sh,Financials,A1DC34.SA,EQ,BRA1DCBDR003
+First Industrial Realty Trust Inc. Shs Unsponsored Brazilian Depositary Receipt Repr 0.125 Sh,Financials,F2RT34.SA,EQ,BRF2RTBDR000
+Localiza Rent A Car SA,Financials,RENT3.SA,EQ,BRRENTACNOR4
+Localiza Rent A Car SA Non-Cum Perp Pfd Registered Shs,Financials,RENT4.SA,EQ,BRRENTACNPR1
+XP Inc. Shs A Unsponsored Brazilian Depositary Receipt Repr 1 Sh A,Financials,XPBR31.SA,EQ,BRXPBRBDR001
+STAG Industrial Inc. Shs Unsponsored BDR,Financials,S2TA34.SA,EQ,BRS2TABDR001
+Healthcare Realty Trust Incorporated Shs A Unsponsored Brazilian Depositary Receipt Repr 0.25 Sh A,Financials,H2TA34.SA,EQ,BRH2TABDR004
+Lincoln National Corp Unsponsored Brazilian Depositary Receipt Repr 1 Sh,Financials,L1NC34.SA,EQ,BRL1NCBDR009
+Starwood Property Trust Inc. Shs Unsponsored BDR,Financials,S2TW34.SA,EQ,BRS2TWBDR005
+Porto Seguro S.A.,Financials,PSSA3.SA,EQ,BRPSSAACNOR7
+National Storage Affiliates Trust Shs Unsponsored Brazilian Depositary Receipt Repr 0.25 Sh,Financials,NSAT34.SA,EQ,BRNSATBDR004
+Kilroy Realty Corporation Shs Unsponsored Brazilian Depositary Receipt Repr 0.125 Sh,Financials,K2RC34.SA,EQ,BRK2RCBDR009
+Howard Hughes Holdings Inc Shs Unsponsored Brazilian Depositary Receipt Repr 0.125 Sh,Financials,H1HH34.SA,EQ,BRH1HHBDR006
+SL Green Realty Corp. Shs Unsponsored Brazilian Depositary Receipt Repr 0.5 Sh,Financials,S1LG34.SA,EQ,BRS1LGBDR007
+Bread Financial Holdings Inc. Shs Unsponsored Brazilian Depositary Receipt Repr 0.25 Sh,Financials,A1LL34.SA,EQ,BRA1LLBDR007
+Medical Properties Trust Inc. Shs Unsponsored Brazilian Depositary Receipt Repr 0.5 Sh,Financials,M2PT34.SA,EQ,BRM2PTBDR005
+Upstart Holdings Inc. Shs Unsponsored Brazilian Depositary Receipt Repr 0.05 Sh,Financials,U2PS34.SA,EQ,BRU2PSBDR007
+Multiplan Empreendimentos Imobiliarios SA,Financials,MULT3.SA,EQ,BRMULTACNOR5
+Allos S.A.,Financials,ALOS3.SA,EQ,BRALOSACNOR5
+Inter & Co. Inc. Shs Unsponsored Brazilian Depositary Receipt Repr 1 Sh,Financials,INBR32.SA,EQ,BRINBRBDR007
+Western Union Company Shs Unsponsored Brazilian Depository Receipt Repr 1 Sh,Financials,WUNI34.SA,EQ,BRWUNIBDR007
+Banco do Nordeste do Brasil S.A.,Financials,BNBR3.SA,EQ,BRBNBRACNOR8
+Clover Health Investments Corp. Shs A Unsponsored Brazilian Depositary Receipt Repr 1 Sh A,Financials,CLOV34.SA,EQ,BRCLOVBDR009
+Patria Investments Ltd. Unsponsored GDR,Financials,P2AX34.SA,EQ,BRP2AXBDR006
+Cury Construtora e Incorporadora SA,Financials,CURY3.SA,EQ,BRCURYACNOR3
+Cyrela Brazil Realty SA Empreendimentos e Participacoes,Financials,CYRE3.SA,EQ,BRCYREACNOR7
+Cyrela Brazil Realty SA Empreendimentos e Participacoes Pfd shs,Financials,CYRE4.SA,EQ,BRCYREACNPR4
+Bradespar SA Pfd,Financials,BRAP4.SA,EQ,BRBRAPACNPR2
+Bradespar S.A.,Financials,BRAP3.SA,EQ,BRBRAPACNOR5
+BCO Mercantil do Brasil SA Non-Cum Perp Pfd Registered Shs,Financials,BMEB4.SA,EQ,BRBMEBACNPR5
+BCO Mercantil do Brasil SA,Financials,BMEB3.SA,EQ,BRBMEBACNOR8
+JHSF Participacoes S.A.,Financials,JHSF3.SA,EQ,BRJHSFACNOR2
+Iguatemi SA Perp Pfd Registered Shs,Financials,IGTI4.SA,EQ,BRIGTIACNPR5
+Iguatemi SA,Financials,IGTI3.SA,EQ,BRIGTIACNOR8
+Direcional Engenharia S.A.,Financials,DIRR3.SA,EQ,BRDIRRACNOR0
+Banco do Estado do Rio Grande do Sul SA Pfd Series B,Financials,BRSR6.SA,EQ,BRBRSRACNPB4
+Banco do Estado do Rio Grande do Sul SA,Financials,BRSR3.SA,EQ,BRBRSRACNOR3
+Banco ABC Brasil SA Conv Pfd,Financials,ABCB4.SA,EQ,BRABCBACNPR4
+IRB Brasil Resseguros SA,Financials,IRBR3.SA,EQ,BRIRBRACNOR4
+Banco da Amazonia S.A.,Financials,BAZA3.SA,EQ,BRBAZAACNOR0
+Movida Participacoes SA,Financials,MOVI3.SA,EQ,BRMOVIACNOR0
+Vamos Locacao de Caminhoes Maquinas e Equipamentos SA,Financials,VAMO3.SA,EQ,BRVAMOACNOR7
+Mills Locacao Servicos e Logistica S.A.,Financials,MILS3.SA,EQ,BRMILSACNOR2
+EZ TEC Empreendimentos e Participacoes SA,Financials,EZTC3.SA,EQ,BREZTCACNOR0
+Construtora Tenda SA,Financials,TEND3.SA,EQ,BRTENDACNOR4
+Banco PINE S.A. Pfd,Financials,PINE4.SA,EQ,BRPINEACNPR8
+Banco PINE S.A.,Financials,PINE3.SA,EQ,BRPINEACNOR1
+Banestes SA Banco do Estado do Espirito Santo Pfd,Financials,BEES4.SA,EQ,BRBEESACNPR6
+Banestes S.A. - Banco do Estado do Espirito Santo,Financials,BEES3.SA,EQ,BRBEESACNOR9
+Moura Dubeux Engenharia SA,Financials,MDNE3.SA,EQ,BRMDNEACNOR9
+Apartment Investment and Management Company -A- Unsponsored BDR,Financials,A1IV34.SA,EQ,BRA1IVBDR002
+LAVVI Empreendimentos Imobiliarios SA,Financials,LAVV3.SA,EQ,BRLAVVACNOR4
+BrasilAgro Cia Brasileira de Propriedades Agricolas,Financials,AGRO3.SA,EQ,BRAGROACNOR7
+Plano & Plano Desenvolvimento Imobiliario Ltda,Financials,PLPL3.SA,EQ,BRPLPLACNOR5
+BRB Banco de Brasilia SA,Financials,BSLI3.SA,EQ,BRBSLIACNOR5
+BRB Banco de Brasilia SA Pfd,Financials,BSLI4.SA,EQ,BRBSLIACNPR2
+WIZ Co Participacoes e Corretagem de Seguros SA,Financials,WIZC3.SA,EQ,BRWIZCACNOR5
+Banco Bmg SA BMG Pfd Registered Shs -144A- Reg S,Financials,BMGB4.SA,EQ,BRBMGBACNPR0
+Armac Locacao Logistica e Servicos SA,Financials,ARML3.SA,EQ,BRARMLACNOR1
+Even Construtora E Incorporadora S.A.,Financials,EVEN3.SA,EQ,BREVENACNOR8
+Banco do Estado de Sergipe SA - Banese Non-Cum Perp Pfd Registered Shs,Financials,BGIP4.SA,EQ,BRBGIPACNPR8
+Banco do Estado de Sergipe SA - Banese,Financials,BGIP3.SA,EQ,BRBGIPACNOR1
+Terra Santa Propriedades Agricolas SA,Financials,LAND3.SA,EQ,BRLANDACNOR9
+Sao Carlos Empreendimentos e Participacoes SA,Financials,SCAR3.SA,EQ,BRSCARACNOR7
+Cia de Participacoes Alianca da Bahia Non-Cum Perp Pfd Registered Shs,Financials,PEAB4.SA,EQ,BRPEABACNPR0
+Cia de Participacoes Alianca da Bahia Registered,Financials,PEAB3.SA,EQ,BRPEABACNOR3
+Alfa Holdings SA Pfd B,Financials,RPAD6.SA,EQ,BRRPADACNPB2
+Alfa Holdings SA Pfd A,Financials,RPAD5.SA,EQ,BRRPADACNPA4
+Syn Prop e Tech SA,Financials,SYNE3.SA,EQ,BRSYNEACNOR2
+Mitre Realty Empreendimentos e Participacoes SA,Financials,MTRE3.SA,EQ,BRMTREACNOR6
+HBR Realty Empreendimentos Imobiliarios SA,Financials,HBRE3.SA,EQ,BRHBREACNOR4
+Gafisa S.A.,Financials,GFSA3.SA,EQ,BRGFSAACNOR3
+Cia Habitasul de Participacoes Pfd A,Financials,HBTS5.SA,EQ,BRHBTSACNPA3
+Alphaville SA,Financials,AVLL3.SA,EQ,BRAVLLACNOR5
+B100 S.A.,Financials,B1003F.SA,EQ,BRB100ACNOR0
+Banco Mercantil de Investimentos SA Pfd,Financials,BMIN4.SA,EQ,BRBMINACNPR1
+Banco Mercantil de Investimentos S.A.,Financials,BMIN3.SA,EQ,BRBMINACNOR4
+Tecnisa S.A.,Financials,TCSA3.SA,EQ,BRTCSAACNOR3
+G2D Investments Ltd. Shs Unsponsored Brazilian Depository Receipt Repr 1 Sh,Financials,G2DI33.SA,EQ,BRG2DIBDR002
+Fica Empreendimentos Imobiliarios SA,Financials,FIEI3.SA,EQ,BRFIEIACNOR2
+General Shopping e Outlets do Brasil S.A.,Financials,GSHP3.SA,EQ,BRGSHPACNOR7
+Nexpe Participacoes SA,Financials,NEXP3.SA,EQ,BRNEXPACNOR0
+PDG Realty SA Empreendimentos e Participacoes,Financials,PDGR3.SA,EQ,BRPDGRACNOR8
+CPV Energia Fundo De Investimento Imobiliario Responsabilidade Limitada,Financials,RENV11.SA,EQ,BRRENVCTF003
+Suno Recebiveis Imobiliarios Fundo de Investimento Imobiliario,Financials,SNCI11.SA,EQ,BRSNCICTF002
+DeFi Technologies Inc Shs Unsponsored Brazilian Depositary Receipt Repr 1 Sh,Financials,DEFT31.SA,EQ,BRDEFTBDR004
+Iridium Fundo de Investimento Imobiliario,Financials,IRIM11.SA,EQ,BRIRIMCTF003
+Fiset Pesca FISET FSPE Pfd,Financials,FSPE11.SA,EQ,BRFSPECTF017
+Rio Bravo ESG Fundo de Investimento em Cotas de Fundos Incentivados de Investimento em Infraestr Renda Fixa Cred Priv,Financials,RBIF11.SA,EQ,BRRBIFCTF002

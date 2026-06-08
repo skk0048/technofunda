@@ -1,10 +1,136 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-BlackBerry Limited,Technology,BB.TO,EQ,
-CGI Inc.,Technology,GIB-A.TO,EQ,
-Celestica Inc.,Technology,CLS.TO,EQ,
-Constellation Software Inc.,Technology,CSU.TO,EQ,
-Descartes Systems Group Inc.,Technology,DSG.TO,EQ,
-Kinaxis Inc.,Technology,KXS.TO,EQ,
-Lightspeed Commerce Inc.,Technology,LSPD.TO,EQ,
-Open Text Corporation,Technology,OTEX.TO,EQ,
-Shopify Inc.,Technology,SHOP.TO,EQ,
+RTX Corporation Shs,Technology,RTX.TO,EQ,CA74983J1049
+ServiceNow Inc.,Technology,NOWS.TO,EQ,CA81762A1057
+Adobe Inc. Depository Receipt,Technology,ADBE.TO,EQ,CA00723H1082
+Constellation Software Inc.,Technology,CSU.TO,EQ,CA21037X1006
+Celestica Inc.,Technology,CLS.TO,EQ,CA15101Q2071
+Thomson Reuters Corporation,Technology,TRI.TO,EQ,CA8849038812
+Thomson Reuters Corporation Floating Rate Pfd Shs Series -II-,Technology,TRI-PR-B.TO,EQ,CA8849033037
+Bombardier Inc Cum Red Pfd Registered Shs Series 3,Technology,BBD-PR-D.TO,EQ,CA0977516065
+Bombardier Inc. Class B,Technology,BBD-B.TO,EQ,CA0977518616
+Bombardier Inc. Class A,Technology,BBD-A.TO,EQ,CA0977518798
+Bombardier Inc Cum Red Pfd Shs Series 2 Fltg Rt,Technology,BBD-PR-B.TO,EQ,CA0977515075
+Bombardier Inc 6.25 % Conv Cum Red Pfd Registered Shs Series 4,Technology,BBD-PR-C.TO,EQ,CA0977517055
+RB Global Inc.,Technology,RBA.TO,EQ,CA74935Q1072
+CGI Inc. Class A,Technology,GIB-A.TO,EQ,CA12532H1047
+Descartes Systems Group Inc.,Technology,DSG.TO,EQ,CA2499061083
+Topicus.com Inc.,Technology,TOI.V,EQ,CA89072T1021
+Open Text Corporation,Technology,OTEX.TO,EQ,CA6837151068
+BlackBerry Limited,Technology,BB.TO,EQ,CA09228F1036
+MDA Space Ltd,Technology,MDA.TO,EQ,CA55293N1096
+Lumine Group Inc.,Technology,LMN.V,EQ,CA55027C1068
+Xanadu Quantum Technologies Limited Class B,Technology,XNDU.TO,EQ,CA98390R1029
+Kinaxis Inc.,Technology,KXS.TO,EQ,CA49448Q1090
+Kraken Robotics Inc,Technology,PNG.V,EQ,CA50077N1024
+Magellan Aerospace Corporation,Technology,MAL.TO,EQ,CA5589122004
+Lightspeed Commerce Inc,Technology,LSPD.TO,EQ,CA53229C1077
+Abaxx Technologies Inc,Technology,ABXX.TO,EQ,CA00258V3083
+HIVE Digital Technologies Ltd,Technology,HIVE.TO,EQ,CA4339211035
+Evertz Technologies Limited,Technology,ET.TO,EQ,CA30041N1078
+Pason Systems Inc.,Technology,PSI.TO,EQ,CA7029251088
+Enghouse Systems Limited,Technology,ENGH.TO,EQ,CA2929491041
+Quantum eMotion Corp.,Technology,QNC.V,EQ,CA74767K1030
+Propel Holdings Inc.,Technology,PRL.TO,EQ,CA74349D1069
+Blackline Safety Corp.,Technology,BLN.TO,EQ,CA0923821007
+Docebo Inc.,Technology,DCBO.TO,EQ,CA25609L1058
+Firan Technology Group Corporation,Technology,FTG.TO,EQ,CA3180931014
+kneat.com Inc.,Technology,KSI.TO,EQ,CA4988241010
+D2L Inc.,Technology,DTOL.TO,EQ,CA23344V1085
+Volatus Aerospace Inc.,Technology,FLT.TO,EQ,CA92865M1023
+Vitalhub Corp.,Technology,VHI.TO,EQ,CA92847V5018
+Coveo Solutions Inc.,Technology,CVO.TO,EQ,CA22289D1078
+Computer Modelling Group Ltd.,Technology,CMG.TO,EQ,CA2052491057
+Enablence Technologies Inc.,Technology,ENA.V,EQ,CA2924833023
+Beyond Oil Ltd,Technology,BOIL.TO,EQ,CA0886691066
+AirBoss of America Corporation,Technology,BOS.TO,EQ,CA00927V2003
+Yellow Pages Ltd.,Technology,Y.TO,EQ,CA9855721069
+Sangoma Technologies Corporation,Technology,STC.TO,EQ,CA80100R4089
+Haivision Systems Inc.,Technology,HAI.TO,EQ,CA40531F1009
+Dye & Durham Ltd.,Technology,DND.TO,EQ,CA2674881040
+SPARQ Systems Inc,Technology,SPRQ.V,EQ,CA84657W1095
+Tiny Ltd. Class A,Technology,TINY.TO,EQ,CA88770A3082
+Gatekeeper Systems Inc.,Technology,GSI.V,EQ,CA36734X1042
+Xtract One Technologies Inc,Technology,XTRA.TO,EQ,CA98422Q1063
+Alithya Group Inc. Class A,Technology,ALYA.TO,EQ,CA01643B1067
+DMG Blockchain Solutions Inc.,Technology,DMGI.V,EQ,CA23345B2003
+Sylogist Ltd.,Technology,SYZ.TO,EQ,CA87132P1027
+Thinkific Labs Inc.,Technology,THNC.TO,EQ,CA8841213025
+NetraMark Holdings Inc,Technology,AIAI.TO,EQ,CA64119M1059
+Argo Corporation,Technology,ARGH.V,EQ,CA03990E1051
+Intermap Technologies Corporation Class A,Technology,IMP.TO,EQ,CA4589774021
+Minehub Technologies Inc.,Technology,MHUB.V,EQ,CA60273M2040
+01 Quantum Inc.,Technology,ONE.V,EQ,CA98956J1066
+EQ Inc.,Technology,EQ.V,EQ,CA26884V1076
+VerticalScope Holdings Inc.,Technology,FORA.TO,EQ,CA92537Y1043
+Bragg Gaming Group Inc.,Technology,BRAG.TO,EQ,CA1048333068
+Elevate Service Group Inc,Technology,SERV.V,EQ,CA28624N1069
+EarthLabs Inc,Technology,SPOT.V,EQ,CA27034B1085
+Zoomd Technologies Ltd.,Technology,ZOMD.V,EQ,CA98981L1004
+Resaas Services Inc.,Technology,RSS.V,EQ,CA76083V1013
+C-COM Satellite Systems Inc.,Technology,CMI.V,EQ,CA1250091008
+MetaVista3D Inc.,Technology,DDD.V,EQ,CA59142H1073
+illumin Holdings Inc.,Technology,ILLM.TO,EQ,CA45232V1067
+Pivotree Inc.,Technology,PVT.V,EQ,CA72583H1064
+Next Hydrogen Solutions Inc,Technology,NXH.V,EQ,CA65345D1087
+NTG Clarity Networks Inc.,Technology,NCI.V,EQ,CA62940V2030
+Avante Corp,Technology,XX.V,EQ,CA05352F1099
+NamSys Inc.,Technology,CTZ.V,EQ,CA6300001071
+Liberty Defense Holdings Ltd.,Technology,SCAN.V,EQ,CA53044R8672
+Prospect Prediction Markets Inc.,Technology,MKT.V,EQ,CA74358V1040
+CyberCatch Holdings Inc,Technology,CYBE.V,EQ,CA23250C2013
+Kidoz Inc,Technology,KDOZ.V,EQ,CA4939471054
+ProStar Holdings Inc,Technology,MAPS.V,EQ,CA74365J1021
+DIAGNOS inc.,Technology,ADK.V,EQ,CA2524423068
+BIGG Digital Assets Inc.,Technology,BIGG.V,EQ,CA0898041086
+Ionik Corporation,Technology,INIK.V,EQ,CA4622211023
+Ynvisible Interactive Inc. Class A,Technology,YNV.V,EQ,CA9858441095
+Jackpot Digital Inc.,Technology,JJ.V,EQ,CA4663913073
+NowVertical Group Inc,Technology,NOW.V,EQ,CA67013H1064
+AirIQ Inc.,Technology,IQ.V,EQ,CA0091204036
+Titan Logix Corp.,Technology,TLA.V,EQ,CA88831E1097
+Adcore Inc,Technology,ADCO.TO,EQ,CA00654B1040
+Enthusiast Gaming Holdings Inc,Technology,EGLX.TO,EQ,CA29385B1094
+Total Telcom Inc.,Technology,TTZ.V,EQ,CA89151N1096
+Turnium Technology Group Inc Class A,Technology,TTGI.V,EQ,CA90043C1032
+Edgewater Wireless Systems Inc.,Technology,YFI.V,EQ,CA2803591007
+Nubeva Technologies Ltd.,Technology,NBVA.V,EQ,CA67021Y1097
+Tribe Property Technologies Inc,Technology,TRBE.V,EQ,CA89602T1012
+Comprehensive Healthcare Systems Inc,Technology,CHS.V,EQ,CA2046632071
+Reklaim Ltd,Technology,MYID.V,EQ,CA7594021007
+Intouch Insight Ltd.,Technology,INX.V,EQ,CA46118C1059
+Plurilock Security Inc,Technology,PLUR.V,EQ,CA72942L4001
+RenoWorks Software Inc.,Technology,RW.V,EQ,CA7598871027
+Eddy Smart Home Solutions Ltd.,Technology,EDY.V,EQ,CA2793692013
+Wishpond Technologies Ltd.,Technology,WISH.V,EQ,CA97730P2061
+Wi2Wi Corp.,Technology,YTY.V,EQ,CA9774861095
+RIWI Corp.,Technology,RIWI.V,EQ,CA7496011007
+JasperX Technologies Inc.,Technology,JSPX.V,EQ,CA4719261055
+SATO Technologies Corp,Technology,SATO.V,EQ,CA78435J1093
+Agereh Technologies Inc.,Technology,AUTO.V,EQ,CA00848B1013
+VIQ Solutions Inc.,Technology,VQS.V,EQ,CA91825V4001
+Route1 Inc.,Technology,ROI.V,EQ,CA77929Q4051
+Secure Blockchain Development Corp.,Technology,ID.V,EQ,CA81373W1086
+Blok Digital Ltd.,Technology,BLOK-H.V,EQ,CA0555031065
+Novra Technologies Inc.,Technology,NVI.V,EQ,CA67010X1042
+East Side Games Group Inc,Technology,EAGR.TO,EQ,CA2752551077
+Zonetail Inc.,Technology,ZONE.V,EQ,CA98979N1006
+Clear Blue Technologies International Inc.,Technology,CBLU.V,EQ,CA18453C4048
+Boardwalktech Software Corp.,Technology,BWLK.V,EQ,CA0966391090
+Clear Gold Resources Inc.,Technology,CFA-H.V,EQ,CA1845634015
+Kovo+ Holdings Inc,Technology,KOVO.V,EQ,CA5007421012
+Mobio Technologies Inc.,Technology,MBO.V,EQ,CA60743K4081
+Alset AI Ventures Inc,Technology,GPUS.V,EQ,CA0211552058
+Aisix Solutions Inc,Technology,AISX.V,EQ,CA00956C1077
+Labrador Resources Inc,Technology,LTX.V,EQ,CA50490A2083
+BlockchainK2 Corp.,Technology,BITK.V,EQ,CA09369M1077
+Backstageplay Inc.,Technology,BP-H.V,EQ,CA0563622053
+Northern Uranium Corp.,Technology,UNO-H.V,EQ,CA6658702007
+BlockMint Technologies Inc. Class A,Technology,BKMT.V,EQ,CA09370A1003
+CANPR Technology Inc.,Technology,WPR.V,EQ,CA13805R1001
+Composite Alliance Group Inc. Class A,Technology,CAG.V,EQ,CA20459W1032
+Pioneering Technology Corp.,Technology,PTE.V,EQ,CA72403R1029
+Santa Rosa Resources Corp.,Technology,STR-H.V,EQ,CA8027642096
+Good Gamer Entertainment Inc.,Technology,GOOD.V,EQ,CA3821132071
+Carrier Connect Data Solutions Inc.,Technology,CCDS.V,EQ,CA14446B1085
+Paragon Advanced Labs Inc.,Technology,PALS.V,EQ,CA6991301004
+XTAO Inc.,Technology,XTAO-U.V,EQ,KYG9T27M1036

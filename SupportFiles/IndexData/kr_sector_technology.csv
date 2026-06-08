@@ -1,83 +1,670 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-Samsung Electronics Co. Ltd.,Technology,005930.KS,EQ,
-SK hynix Inc.,Technology,000660.KS,EQ,
-Samsung Electro-Mechanics Co. Ltd,Technology,009150.KS,EQ,
-Hanwha Aerospace Co. Ltd.,Technology,012450.KS,EQ,
-NAVER Corp.,Technology,035420.KS,EQ,
-LG Innotek Co. Ltd,Technology,011070.KS,EQ,
-Hyundai Autoever Corp.,Technology,307950.KS,EQ,
-SAMSUNG SDS CO. LTD.,Technology,018260.KS,EQ,
-POSCO FUTURE M CO. LTD.,Technology,003670.KS,EQ,
-Kakao Corp.,Technology,035720.KS,EQ,
-Hanwha Systems Co. Ltd.,Technology,272210.KS,EQ,
-LIG Defense&Aerospace,Technology,079550.KS,EQ,
-Korea Aerospace Industries Ltd.,Technology,047810.KS,EQ,
-LG CNS Co. Ltd.,Technology,064400.KS,EQ,
-Krafton Inc.,Technology,259960.KS,EQ,
-ISU Petasys Co. Ltd.,Technology,007660.KS,EQ,
-LG Display Co. Ltd,Technology,034220.KS,EQ,
-Daeduck Electronics Co. Ltd.,Technology,353200.KS,EQ,
-HANWHA SOLUTIONS CORPORATION,Technology,009830.KS,EQ,
-DB HiTek Co. LTD,Technology,000990.KS,EQ,
-NC Corporation,Technology,036570.KS,EQ,
-L & F Co. Ltd.,Technology,066970.KS,EQ,
-Doosan Fuel Cell Co. Ltd.,Technology,336260.KS,EQ,
-POSCO DX COMPANY LTD.,Technology,022100.KS,EQ,
-Netmarble Corp.,Technology,251270.KS,EQ,
-Hanwha Vision Co. Ltd.,Technology,489790.KS,EQ,
-DOUZONE BIZON CO.LTD,Technology,012510.KS,EQ,
-Korea Circuit Co. Ltd.,Technology,007810.KS,EQ,
-HD HYUNDAI ENERGY SOLUTIONS CO. LTD.,Technology,322000.KS,EQ,
-SHIFT UP Corp,Technology,462870.KS,EQ,
-NHN Corporation,Technology,181710.KS,EQ,
-Cosmo AM&T Co. Ltd.,Technology,005070.KS,EQ,
-DoubleUGames Co. Ltd.,Technology,192080.KS,EQ,
-KCTECH CO. LTD.,Technology,281820.KS,EQ,
-SAMWHA CAPACITOR CO. LTD.,Technology,001820.KS,EQ,
-Young Poong Corporation,Technology,000670.KS,EQ,
-BH Co. Ltd.,Technology,090460.KS,EQ,
-SD Biosensor Inc.,Technology,137310.KS,EQ,
-LX Semicon Co. Ltd.,Technology,108320.KS,EQ,
-Jahwa Electronics Co. Ltd,Technology,033240.KS,EQ,
-Korea Electric Terminal Co. Ltd.,Technology,025540.KS,EQ,
-DAEDUCK Co. Ltd.,Technology,008060.KS,EQ,
-Dongwon Systems Corporation,Technology,014820.KS,EQ,
-DI Corporation,Technology,003160.KS,EQ,
-AUK CORP.,Technology,017900.KS,EQ,
-Korea Electric Power Industrial Development Co. Ltd.,Technology,130660.KS,EQ,
-Socar Inc.,Technology,403550.KS,EQ,
-Firstec Co. Ltd,Technology,010820.KS,EQ,
-DB Inc.,Technology,012030.KS,EQ,
-Woojin Inc.,Technology,105840.KS,EQ,
-Hansol Technics Co. Ltd,Technology,004710.KS,EQ,
-Sindoh Co. Ltd.,Technology,029530.KS,EQ,
-MCNEX Co. Ltd.,Technology,097520.KS,EQ,
-Dreamtech Co. Ltd.,Technology,192650.KS,EQ,
-SAMYOUNG ELECTRONICS Co. Ltd.,Technology,005680.KS,EQ,
-Samwha Electric Co. Ltd,Technology,009470.KS,EQ,
-Shinsegae I&C Inc.,Technology,035510.KS,EQ,
-HDC LABS Co. Ltd.,Technology,039570.KS,EQ,
-KEC Corporation,Technology,092220.KS,EQ,
-Y2 Solution CO. LTD,Technology,011690.KS,EQ,
-Woongjin Co. Ltd.,Technology,016880.KS,EQ,
-KidariStudio Inc.,Technology,020120.KS,EQ,
-Asiana IDT Inc.,Technology,267850.KS,EQ,
-Huneed Technologies Co. Ltd.,Technology,005870.KS,EQ,
-ITCENCTS,Technology,031820.KS,EQ,
-INBIOGEN CO. Ltd.,Technology,101140.KS,EQ,
-Telcoware Co. Ltd,Technology,078000.KS,EQ,
-TY Holdings Co. Ltd.,Technology,363280.KS,EQ,
-SUNGMOON Electronics Co. Ltd.,Technology,014910.KS,EQ,
-Sunny Electronics Corporation,Technology,004770.KS,EQ,
-Samwha Electronics Co. Ltd.,Technology,011230.KS,EQ,
-Iljin Display Co. Ltd,Technology,020760.KS,EQ,
-AJIN ELECTRONIC COMPONENTS CO. LTD,Technology,009320.KS,EQ,
-EXICURE HITRON,Technology,019490.KS,EQ,
-MiraeING Co. Ltd.,Technology,007120.KS,EQ,
-Kumho Electric Inc.,Technology,001210.KS,EQ,
-Kyung In Electronics Co. Ltd.,Technology,009140.KS,EQ,
-WISCOM Co. Ltd.,Technology,024070.KS,EQ,
-Automobile & PCB Inc.,Technology,015260.KS,EQ,
-Namsung Corporation,Technology,004270.KS,EQ,
-Jooyontech Co. Ltd,Technology,044380.KS,EQ,
-KEC Holdings Co. Ltd.,Technology,006200.KS,EQ,
+Samsung Electronics Co. Ltd.,Technology,005930.KS,EQ,KR7005930003
+Samsung Electronics Co Ltd Pfd Non-Voting,Technology,005935.KS,EQ,KR7005931001
+SK hynix Inc.,Technology,000660.KS,EQ,KR7000660001
+Samsung Electro-Mechanics Co. Ltd,Technology,009150.KS,EQ,KR7009150004
+Samsung Electro-Mechanics Co Ltd Pfd Registered Shs Non-Voting,Technology,009155.KS,EQ,KR7009151002
+Hanwha Aerospace Co. Ltd.,Technology,012450.KS,EQ,KR7012450003
+NAVER Corp.,Technology,035420.KS,EQ,KR7035420009
+LG Innotek Co. Ltd,Technology,011070.KS,EQ,KR7011070000
+Hyundai Autoever Corp.,Technology,307950.KS,EQ,KR7307950006
+SAMSUNG SDS CO. LTD.,Technology,018260.KS,EQ,KR7018260000
+POSCO FUTURE M CO. LTD.,Technology,003670.KS,EQ,KR7003670007
+Hanwha Systems Co. Ltd.,Technology,272210.KS,EQ,KR7272210006
+Kakao Corp.,Technology,035720.KS,EQ,KR7035720002
+LIG Defense&Aerospace,Technology,079550.KS,EQ,KR7079550000
+Korea Aerospace Industries Ltd.,Technology,047810.KS,EQ,KR7047810007
+LG CNS Co. Ltd.,Technology,064400.KS,EQ,KR7064400005
+Krafton Inc.,Technology,259960.KS,EQ,KR7259960003
+ISU Petasys Co. Ltd.,Technology,007660.KS,EQ,KR7007660004
+LG Display Co. Ltd,Technology,034220.KS,EQ,KR7034220004
+Daeduck Electronics Co. Ltd.,Technology,353200.KS,EQ,KR7353200009
+Leeno Industrial Inc.,Technology,058470.KS,EQ,KR7058470006
+DB HiTek Co. LTD,Technology,000990.KS,EQ,KR7000990002
+HANWHA SOLUTIONS CORPORATION,Technology,009830.KS,EQ,KR7009830001
+HANWHA SOLUTIONS CORPORATION Pfd Registered Shs Non-Voting,Technology,009835.KS,EQ,KR7009831009
+Doosan Fuel Cell Co. Ltd.,Technology,336260.KS,EQ,KR7336260005
+FADU Inc.,Technology,440110.KS,EQ,KR7440110005
+NC Corporation,Technology,036570.KS,EQ,KR7036570000
+L & F Co. Ltd.,Technology,066970.KS,EQ,KR7066970005
+SEOJIN SYSTEM CO. LTD,Technology,178320.KS,EQ,KR7178320008
+POSCO DX COMPANY LTD.,Technology,022100.KS,EQ,KR7022100002
+ISC Co. Ltd.,Technology,095340.KS,EQ,KR7095340006
+HPSP Co. Ltd.,Technology,403870.KS,EQ,KR7403870009
+Simmtech Co. Ltd.,Technology,222800.KS,EQ,KR7222800005
+Hanwha Vision Co. Ltd.,Technology,489790.KS,EQ,KR7489790006
+Sungho Electronics Corp.,Technology,043260.KS,EQ,KR7043260009
+Netmarble Corp.,Technology,251270.KS,EQ,KR7251270005
+DOUZONE BIZON CO.LTD,Technology,012510.KS,EQ,KR7012510004
+Jeju Semiconductor Corp.,Technology,080220.KS,EQ,KR7080220007
+Korea Circuit Co Ltd Pfd Non-Voting,Technology,007815.KS,EQ,KR7007811003
+Korea Circuit Co. Ltd.,Technology,007810.KS,EQ,KR7007810005
+Dongjin Semichem Co. Ltd,Technology,005290.KS,EQ,KR7005290002
+Hana Micron Inc.,Technology,067310.KS,EQ,KR7067310003
+PSK HOLDINGS INC.,Technology,031980.KS,EQ,KR7031980006
+PearlAbyss Corp.,Technology,263750.KS,EQ,KR7263750002
+TES Co. Ltd.,Technology,095610.KS,EQ,KR7095610002
+TSE Co. Ltd,Technology,131290.KS,EQ,KR7131290009
+KoMiCo Ltd.,Technology,183300.KS,EQ,KR7183300003
+RFHIC Corp.,Technology,218410.KS,EQ,KR7218410009
+Koh Young Technology Inc.,Technology,098460.KS,EQ,KR7098460009
+Park Systems Corp.,Technology,140860.KS,EQ,KR7140860008
+WONIK HOLDINGS CO. LTD.,Technology,030530.KS,EQ,KR7030530000
+GigaVis Co. Ltd.,Technology,420770.KS,EQ,KR7420770000
+HD HYUNDAI ENERGY SOLUTIONS CO. LTD.,Technology,322000.KS,EQ,KR7322000001
+SHIFT UP Corp,Technology,462870.KS,EQ,KR7462870007
+SAMT Co. Ltd.,Technology,031330.KS,EQ,KR7031330004
+NHN Corporation,Technology,181710.KS,EQ,KR7181710005
+Curiox Biosystems Co. Ltd.,Technology,445680.KS,EQ,KR7445680002
+Cosmo AM&T Co. Ltd.,Technology,005070.KS,EQ,KR7005070008
+Sphere Corp.,Technology,347700.KS,EQ,KR7347700007
+DoubleUGames Co. Ltd.,Technology,192080.KS,EQ,KR7192080000
+KMW Inc.,Technology,032500.KS,EQ,KR7032500001
+Satrec Initiative Co. Ltd.,Technology,099320.KS,EQ,KR7099320004
+KCTECH CO. LTD.,Technology,281820.KS,EQ,KR7281820001
+S & S Tech Corporation,Technology,101490.KS,EQ,KR7101490001
+TLB Co. Ltd.,Technology,356860.KS,EQ,KR7356860007
+Hana Materials Inc.,Technology,166090.KS,EQ,KR7166090001
+LS Materials Co. Ltd.,Technology,417200.KS,EQ,KR7417200003
+YC Corporation,Technology,232140.KS,EQ,KR7232140004
+SFA Semicon Co. Ltd.,Technology,036540.KS,EQ,KR7036540003
+Intellian Technologies Inc.,Technology,189300.KS,EQ,KR7189300007
+SAMWHA CAPACITOR CO. LTD.,Technology,001820.KS,EQ,KR7001820000
+CHA Biotech Co. Ltd.,Technology,085660.KS,EQ,KR7085660009
+Shinsung Delta Tech Co. Ltd.,Technology,065350.KS,EQ,KR7065350001
+Lunit Inc.,Technology,328130.KS,EQ,KR7328130000
+Lake Materials Co. Ltd.,Technology,281740.KS,EQ,KR7281740001
+JNTC Co. Ltd.,Technology,204270.KS,EQ,KR7204270003
+BH Co. Ltd.,Technology,090460.KS,EQ,KR7090460007
+Young Poong Corporation,Technology,000670.KS,EQ,KR7000670000
+FINO INC.,Technology,033790.KS,EQ,KR7033790007
+SD Biosensor Inc.,Technology,137310.KS,EQ,KR7137310009
+VINATECH CO . LTD.,Technology,126340.KS,EQ,KR7126340009
+LX Semicon Co. Ltd.,Technology,108320.KS,EQ,KR7108320003
+Kakao Games Corp.,Technology,293490.KS,EQ,KR7293490009
+SOLiD Inc.,Technology,050890.KS,EQ,KR7050890003
+Nepes Corporation,Technology,033640.KS,EQ,KR7033640004
+DONGWOON ANATECH CO.LTD.,Technology,094170.KS,EQ,KR7094170008
+Korea Electric Terminal Co. Ltd.,Technology,025540.KS,EQ,KR7025540006
+Jahwa Electronics Co. Ltd,Technology,033240.KS,EQ,KR7033240003
+Seoul Semiconductor Co. Ltd,Technology,046890.KS,EQ,KR7046890000
+SFA Engineering Corp.,Technology,056190.KS,EQ,KR7056190002
+Enchem Co. Ltd.,Technology,348370.KS,EQ,KR7348370008
+KONA I CO. LTD.,Technology,052400.KS,EQ,KR7052400009
+NEXTIN Inc.,Technology,348210.KS,EQ,KR7348210006
+MiCo Ltd.,Technology,059090.KS,EQ,KR7059090001
+NEXON Games Co. Ltd.,Technology,225570.KS,EQ,KR7225570001
+Wemade Co. Ltd.,Technology,112040.KS,EQ,KR7112040001
+DAEDUCK Co. Ltd.,Technology,008060.KS,EQ,KR7008060006
+DI Corporation,Technology,003160.KS,EQ,KR7003160009
+Dongwon Systems Corp Pfd Registered Shs Non-Voting,Technology,014825.KS,EQ,KR7014821003
+Dongwon Systems Corporation,Technology,014820.KS,EQ,KR7014820005
+GAONCHIPS Co. Ltd.,Technology,399720.KS,EQ,KR7399720002
+NEOSEM Inc.,Technology,253590.KS,EQ,KR7253590004
+AhnLab Inc.,Technology,053800.KS,EQ,KR7053800009
+TFE Co. Ltd.,Technology,425420.KS,EQ,KR7425420007
+DEAR U Co. Ltd.,Technology,376300.KS,EQ,KR7376300000
+INNOX Advanced Materials Co. Ltd.,Technology,272290.KS,EQ,KR7272290008
+Soop Co. Ltd.,Technology,067160.KS,EQ,KR7067160002
+AXGATE Co. Ltd.,Technology,356680.KS,EQ,KR7356680009
+INTEKPLUS Co. Ltd.,Technology,064290.KS,EQ,KR7064290000
+Hansol Technics Co. Ltd,Technology,004710.KS,EQ,KR7004710000
+Hanyang ENG Co. Ltd.,Technology,045100.KS,EQ,KR7045100005
+Hancom Inc.,Technology,030520.KS,EQ,KR7030520001
+Cafe24 Corp.,Technology,042000.KS,EQ,KR7042000000
+DK Tech Co. Ltd.,Technology,290550.KS,EQ,KR7290550003
+GAMSUNG Corporation Co. Ltd.,Technology,036620.KS,EQ,KR7036620003
+Seoul Viosys Co. Ltd.,Technology,092190.KS,EQ,KR7092190008
+Socar Inc.,Technology,403550.KS,EQ,KR7403550007
+Pentastone Electronics Inc.,Technology,332570.KS,EQ,KR7332570001
+AUK CORP.,Technology,017900.KS,EQ,KR7017900002
+Korea Electric Power Industrial Development Co. Ltd.,Technology,130660.KS,EQ,KR7130660004
+Synopex Inc.,Technology,025320.KS,EQ,KR7025320003
+OE Solutions Co. Ltd.,Technology,138080.KS,EQ,KR7138080007
+Angel Robotics Co. Ltd.,Technology,455900.KS,EQ,KR7455900001
+Systems Technology Inc.,Technology,039440.KS,EQ,KR7039440003
+Danal Co. Ltd,Technology,064260.KS,EQ,KR7064260003
+Firstec Co. Ltd,Technology,010820.KS,EQ,KR7010820009
+DIT Corp.,Technology,110990.KS,EQ,KR7110990009
+LIGHTRON FIBER-OPTIC DEVICES INC.,Technology,069540.KS,EQ,KR7069540003
+Hanyang Digitech Co. Ltd,Technology,078350.KS,EQ,KR7078350006
+Innospace Co. Ltd.,Technology,462350.KS,EQ,KR7462350000
+HFR Inc.,Technology,230240.KS,EQ,KR7230240004
+NEOWIZ,Technology,095660.KS,EQ,KR7095660007
+OPENEDGES Technology Inc.,Technology,394280.KS,EQ,KR7394280002
+ICTK Co. Ltd.,Technology,456010.KS,EQ,KR7456010008
+DB Inc.,Technology,012030.KS,EQ,KR7012030003
+Woojin Inc.,Technology,105840.KS,EQ,KR7105840003
+OKins Electronics Co. Ltd.,Technology,080580.KS,EQ,KR7080580004
+Mirai Semiconductors Co. Ltd.,Technology,254490.KS,EQ,KR7254490006
+Amotech Co. Ltd,Technology,052710.KS,EQ,KR7052710001
+New Power Plasma Co. Ltd.,Technology,144960.KS,EQ,KR7144960002
+Sapien Semiconductors Inc.,Technology,452430.KS,EQ,KR7452430002
+Sindoh Co. Ltd.,Technology,029530.KS,EQ,KR7029530003
+TigerElec Co. Ltd.,Technology,219130.KS,EQ,KR7219130002
+Zeus Co. Ltd.,Technology,079370.KS,EQ,KR7079370003
+Uju Electronics Co. Ltd.,Technology,065680.KS,EQ,KR7065680001
+Advanced Process Systems Corp.,Technology,265520.KS,EQ,KR7265520007
+MCNEX Co. Ltd.,Technology,097520.KS,EQ,KR7097520001
+Samyang Comtech Co. Ltd.,Technology,484590.KS,EQ,KR7484590005
+Duksan Techopia Co. Ltd.,Technology,317330.KS,EQ,KR7317330009
+Exicon Co. Ltd.,Technology,092870.KS,EQ,KR7092870005
+Dreamtech Co. Ltd.,Technology,192650.KS,EQ,KR7192650000
+ASICLAND Co. Ltd.,Technology,445090.KS,EQ,KR7445090004
+Wemade Max Co. Ltd.,Technology,101730.KS,EQ,KR7101730000
+Dream Security Co. Ltd.,Technology,203650.KS,EQ,KR7203650007
+HMNEX Co. Ltd.,Technology,036170.KS,EQ,KR7036170009
+KENCOA AEROSPACE CORPORATION,Technology,274090.KS,EQ,KR7274090000
+Chips & Media Inc.,Technology,094360.KS,EQ,KR7094360005
+Sang-A Frontec Co Ltd,Technology,089980.KS,EQ,KR7089980007
+Suprema Inc.,Technology,236200.KS,EQ,KR7236200002
+Intops Co. Ltd,Technology,049070.KS,EQ,KR7049070006
+Suresofttech Inc.,Technology,298830.KS,EQ,KR7298830001
+UniTest Inc.,Technology,086390.KS,EQ,KR7086390002
+WOORIRO CO. LTD.,Technology,046970.KS,EQ,KR7046970000
+NamuTech Co. Ltd.,Technology,242040.KS,EQ,KR7242040004
+Com2us Corporation,Technology,078340.KS,EQ,KR7078340007
+FnGuide Inc.,Technology,064850.KS,EQ,KR7064850001
+LIG Accuver Co.Ltd.,Technology,073490.KS,EQ,KR7073490005
+KOSTECSYS. CO. LTD.,Technology,355150.KS,EQ,KR7355150004
+LB Semicon Inc.,Technology,061970.KS,EQ,KR7061970000
+Webzen Inc.,Technology,069080.KS,EQ,KR7069080000
+SELVAS AI Inc,Technology,108860.KS,EQ,KR7108860008
+Shinsung ST Co. Ltd.,Technology,416180.KS,EQ,KR7416180008
+Orbitech Co. Ltd.,Technology,046120.KS,EQ,KR7046120002
+SAMYOUNG ELECTRONICS Co. Ltd.,Technology,005680.KS,EQ,KR7005680004
+ITM Semiconductor Co. Ltd.,Technology,084850.KS,EQ,KR7084850007
+SKAI worldwide Co. Ltd.,Technology,357880.KS,EQ,KR7357880004
+SIMMTECH Holdings Co. Ltd.,Technology,036710.KS,EQ,KR7036710002
+Tovis Co. Ltd.,Technology,051360.KS,EQ,KR7051360006
+Bumhan Fuel Cell Co. Ltd.,Technology,382900.KS,EQ,KR7382900009
+AeroSpace Technology of Korea Inc.,Technology,067390.KS,EQ,KR7067390005
+Lincsolution Co. Ltd.,Technology,474650.KS,EQ,KR7474650009
+Namuga Co. Ltd.,Technology,190510.KS,EQ,KR7190510008
+Micro Contact Solution Co. Ltd.,Technology,098120.KS,EQ,KR7098120009
+ACE TECHNOLOGIES Corporation,Technology,088800.KS,EQ,KR7088800008
+JAEYOUNG SOLUTEC CO LTD,Technology,049630.KS,EQ,KR7049630007
+coocon Corporation,Technology,294570.KS,EQ,KR7294570007
+Zaram Technology Inc.,Technology,389020.KS,EQ,KR7389020009
+Interflex Co. Ltd,Technology,051370.KS,EQ,KR7051370005
+i-Scream Media Co. Ltd.,Technology,461300.KS,EQ,KR7461300006
+Samwha Electric Co. Ltd,Technology,009470.KS,EQ,KR7009470006
+Saltlux Inc.,Technology,304100.KS,EQ,KR7304100001
+KEC Corporation,Technology,092220.KS,EQ,KR7092220003
+Konan Technology Inc.,Technology,402030.KS,EQ,KR7402030001
+Shinsegae I&C Inc.,Technology,035510.KS,EQ,KR7035510007
+MNtech Co. Ltd.,Technology,095500.KS,EQ,KR7095500005
+Anapass Inc.,Technology,123860.KS,EQ,KR7123860009
+SOSLAB Co. Ltd.,Technology,464080.KS,EQ,KR7464080001
+Hecto Innovation Co. Ltd.,Technology,214180.KS,EQ,KR7214180002
+Qualitas Semiconductor Co. Ltd.,Technology,432720.KS,EQ,KR7432720001
+Megatouch Co. Ltd.,Technology,446540.KS,EQ,KR7446540007
+Korchip Corp.,Technology,126730.KS,EQ,KR7126730001
+HDC LABS Co. Ltd.,Technology,039570.KS,EQ,KR7039570007
+Lumir Inc.,Technology,474170.KS,EQ,KR7474170008
+Telechips Inc.,Technology,054450.KS,EQ,KR7054450002
+SPIGEN KOREA CO.LTD.,Technology,192440.KS,EQ,KR7192440006
+Polaris Office Corp.,Technology,041020.KS,EQ,KR7041020009
+Asia Pacific Satellite Inc.,Technology,211270.KS,EQ,KR7211270004
+KNR Systems Inc.,Technology,199430.KS,EQ,KR7199430000
+QRT Inc.,Technology,405100.KS,EQ,KR7405100009
+Fidelix Co. Ltd,Technology,032580.KS,EQ,KR7032580003
+Seronics Co. Ltd,Technology,042600.KS,EQ,KR7042600007
+VIVOZON PHARMACEUTICAL CO. LTD.,Technology,082800.KS,EQ,KR7082800004
+WiSoL Co. Ltd.,Technology,122990.KS,EQ,KR7122990005
+AVACO Co. Ltd.,Technology,083930.KS,EQ,KR7083930008
+RAONTECH Inc.,Technology,418420.KS,EQ,KR7418420006
+Ubiquoss Holdings Inc.,Technology,078070.KS,EQ,KR7078070000
+Genohco Inc.,Technology,361390.KS,EQ,KR7361390008
+MAKUS Inc.,Technology,093520.KS,EQ,KR7093520005
+Ubiquoss Inc.,Technology,264450.KS,EQ,KR7264450008
+LOT Vacuum Co. Ltd.,Technology,083310.KS,EQ,KR7083310003
+BCnC Co. Ltd.,Technology,146320.KS,EQ,KR7146320007
+ABOV Semiconductor Co. Ltd.,Technology,102120.KS,EQ,KR7102120003
+Y2 Solution CO. LTD,Technology,011690.KS,EQ,KR7011690005
+POONGWON PRECISION Co. Ltd.,Technology,371950.KS,EQ,KR7371950007
+Dongyang E&P Inc.,Technology,079960.KS,EQ,KR7079960001
+MDEVICE Co. Ltd,Technology,226590.KS,EQ,KR7226590008
+DEVSISTERS CORP.,Technology,194480.KS,EQ,KR7194480000
+Woongjin Co. Ltd.,Technology,016880.KS,EQ,KR7016880007
+GC MediAI Corporation,Technology,032620.KS,EQ,KR7032620007
+Saramin Co. Ltd.,Technology,143240.KS,EQ,KR7143240000
+Korea Computer & Systems Inc.,Technology,115500.KS,EQ,KR7115500001
+Redcap Tour Co. Ltd.,Technology,038390.KS,EQ,KR7038390001
+Neurophet Inc.,Technology,380550.KS,EQ,KR7380550004
+Intelligent Digital Integrated Security Co. Ltd.,Technology,143160.KS,EQ,KR7143160000
+Powernet Technologies Corp.,Technology,037030.KS,EQ,KR7037030004
+HyVISION System Inc.,Technology,126700.KS,EQ,KR7126700004
+DSK Co. Ltd,Technology,109740.KS,EQ,KR7109740001
+JOONGANG ADVANCED MATERIALS Co. Ltd,Technology,051980.KS,EQ,KR7051980001
+CreoSG Co. Ltd.,Technology,040350.KS,EQ,KR7040350001
+Power Logics Co. Ltd.,Technology,047310.KS,EQ,KR7047310008
+Cheryong Industrial Co. Ltd,Technology,147830.KS,EQ,KR7147830004
+Wavice Inc.,Technology,289930.KS,EQ,KR7289930000
+Dasan Networks Inc.,Technology,039560.KS,EQ,KR7039560008
+KOREA ADVANCED MATERIALS Co. Ltd.,Technology,062970.KS,EQ,KR7062970009
+Kortek Corporation,Technology,052330.KS,EQ,KR7052330008
+NOVATECH CO. LTD.,Technology,285490.KS,EQ,KR7285490009
+Celemics Inc.,Technology,331920.KS,EQ,KR7331920009
+ABCO Electronics Co. Ltd.,Technology,036010.KS,EQ,KR7036010007
+Flitto Inc.,Technology,300080.KS,EQ,KR7300080009
+SeA Mechanics Co. Ltd,Technology,396300.KS,EQ,KR7396300006
+HANA Technology Co. Ltd.,Technology,299030.KS,EQ,KR7299030007
+Unitrontech Co. Ltd.,Technology,142210.KS,EQ,KR7142210004
+SENSORVIEW Co. Ltd.,Technology,321370.KS,EQ,KR7321370009
+HB SOLUTION CO. LTD.,Technology,297890.KS,EQ,KR7297890006
+C&G HI Tech Co. Ltd.,Technology,264660.KS,EQ,KR7264660002
+RF Systems Co. Ltd.,Technology,474610.KS,EQ,KR7474610003
+Finger Inc.,Technology,163730.KS,EQ,KR7163730005
+Neptune Co,Technology,217270.KS,EQ,KR7217270008
+NEXUS Co. Ltd.,Technology,205500.KS,EQ,KR7205500002
+ATON Inc.,Technology,158430.KS,EQ,KR7158430009
+AJINEXTEK Co. Ltd.,Technology,059120.KS,EQ,KR7059120006
+Keeps Biopharma Inc.,Technology,256940.KS,EQ,KR7256940008
+GENIANS INC.,Technology,263860.KS,EQ,KR7263860009
+LS THiRA-UTECH CO. LTD,Technology,322180.KS,EQ,KR7322180001
+T3 Entertainment Co. Ltd.,Technology,204610.KS,EQ,KR7204610000
+Nextchip Co. Ltd.,Technology,396270.KS,EQ,KR7396270001
+ONEUL E&M co.Ltd.,Technology,192410.KS,EQ,KR7192410009
+GIS Co. Ltd.,Technology,306620.KS,EQ,KR7306620006
+HBL Corporation,Technology,452190.KS,EQ,KR7452190002
+EXEM Co. Ltd.,Technology,205100.KS,EQ,KR7205100001
+IDIS Holdings Co. Ltd.,Technology,054800.KS,EQ,KR7054800008
+Sambo Motors Co. Ltd.,Technology,053700.KS,EQ,KR7053700001
+Se Gyung Hi Tech Co. Ltd.,Technology,148150.KS,EQ,KR7148150006
+Neowiz Holdings Corporation,Technology,042420.KS,EQ,KR7042420000
+NuriFlex Co.Ltd.,Technology,040160.KS,EQ,KR7040160004
+KidariStudio Inc.,Technology,020120.KS,EQ,KR7020120002
+Amosense Co. Ltd.,Technology,357580.KS,EQ,KR7357580000
+Korea Robot Manufacturing Co. Ltd.,Technology,093640.KS,EQ,KR7093640001
+DMS CO Ltd,Technology,068790.KS,EQ,KR7068790005
+VUNO Inc.,Technology,338220.KS,EQ,KR7338220007
+Hyundai Ezwel Co. Ltd.,Technology,090850.KS,EQ,KR7090850009
+Dong A Eltek Co. Ltd.,Technology,088130.KS,EQ,KR7088130000
+INFOvine Co. Ltd.,Technology,115310.KS,EQ,KR7115310005
+MDS Tech Inc.,Technology,086960.KS,EQ,KR7086960002
+ESTsoft Corp.,Technology,047560.KS,EQ,KR7047560008
+KX HITECH CO. LTD,Technology,052900.KS,EQ,KR7052900008
+WINS Technet Co. Ltd,Technology,136540.KS,EQ,KR7136540002
+GHOST STUDIO CO. LTD. Shs Korean Deposit Receipt Repr 1 Sh,Technology,950190.KS,EQ,KR8344390008
+D&C Media Co. Ltd.,Technology,263720.KS,EQ,KR7263720005
+Asiana IDT Inc.,Technology,267850.KS,EQ,KR7267850006
+Sangsangin Co. Ltd.,Technology,038540.KS,EQ,KR7038540001
+UIL Co. LTD.,Technology,049520.KS,EQ,KR7049520000
+ALT Co. Ltd.,Technology,172670.KS,EQ,KR7172670002
+Synic Solution Co. Ltd,Technology,234030.KS,EQ,KR7234030005
+WOT Co. Ltd.,Technology,396470.KS,EQ,KR7396470007
+Bixolon Co. Ltd.,Technology,093190.KS,EQ,KR7093190007
+JLK Inc.,Technology,322510.KS,EQ,KR7322510009
+KAON Group Co. Ltd.,Technology,078890.KS,EQ,KR7078890001
+Mobiis Co. Ltd.,Technology,250060.KS,EQ,KR7250060001
+WooriNet Inc.,Technology,115440.KS,EQ,KR7115440000
+ELC Co. Ltd.,Technology,041520.KS,EQ,KR7041520008
+Victek Co. Ltd,Technology,065450.KS,EQ,KR7065450009
+Rorze Systems Corporation,Technology,071280.KS,EQ,KR7071280002
+NewFlex Technology Co. Ltd.,Technology,085670.KS,EQ,KR7085670008
+Autocrypt Co. Ltd.,Technology,331740.KS,EQ,KR7331740001
+WISEnut Inc.,Technology,096250.KS,EQ,KR7096250006
+Xperix Inc.,Technology,317770.KS,EQ,KR7317770006
+Ji Tech Co. Ltd.,Technology,417500.KS,EQ,KR7417500006
+YAS Co. Ltd,Technology,255440.KS,EQ,KR7255440000
+Protec Mems Technology Inc.,Technology,147760.KS,EQ,KR7147760003
+RaonSecure Co. Ltd.,Technology,042510.KS,EQ,KR7042510008
+4by4 Inc.,Technology,389140.KS,EQ,KR7389140005
+Com2uS Holdings Corporation,Technology,063080.KS,EQ,KR7063080006
+GigaLane Co. Ltd.,Technology,049080.KS,EQ,KR7049080005
+PS Tec. Co. Ltd.,Technology,002230.KS,EQ,KR7002230001
+SPSoft Inc.,Technology,443670.KS,EQ,KR7443670005
+I & C Technology Co. Ltd.,Technology,052860.KS,EQ,KR7052860004
+CoAsia Corp.,Technology,045970.KS,EQ,KR7045970001
+HANSUNG CLEANTECH CO. LTD.,Technology,066980.KS,EQ,KR7066980004
+Polaris AI Corp.,Technology,039980.KS,EQ,KR7039980008
+QSI Co. Ltd.,Technology,066310.KS,EQ,KR7066310004
+RNT-X CO. LTD.,Technology,123010.KS,EQ,KR7123010001
+JAS Robotics Inc.,Technology,090470.KS,EQ,KR7090470006
+JoyCity Corp.,Technology,067000.KS,EQ,KR7067000000
+MERCURY CORPORATION,Technology,100590.KS,EQ,KR7100590009
+RSUPPORT Co. Ltd.,Technology,131370.KS,EQ,KR7131370009
+EV ADVANCED MATERIAL CO. LTD.,Technology,131400.KS,EQ,KR7131400004
+Xiilab Co. Ltd.,Technology,189330.KS,EQ,KR7189330004
+GO Element Co. Ltd.,Technology,311320.KS,EQ,KR7311320006
+ezCaretech Co. LTD,Technology,099750.KS,EQ,KR7099750002
+kt millie seojae Co.Ltd,Technology,418470.KS,EQ,KR7418470001
+H&S HighTech Corp.,Technology,044990.KS,EQ,KR7044990000
+SEOWONINTECH Co. Ltd.,Technology,093920.KS,EQ,KR7093920007
+KT GENIE MUSIC CORPORATION,Technology,043610.KS,EQ,KR7043610005
+Solborn Inc.,Technology,035610.KS,EQ,KR7035610005
+Alphachips Inc.,Technology,117670.KS,EQ,KR7117670000
+ITCENENTEC CO. LTD.,Technology,010280.KS,EQ,KR7010280006
+Vissem Electronics Co. Ltd.,Technology,072950.KS,EQ,KR7072950009
+JLS Co. Ltd.,Technology,040420.KS,EQ,KR7040420002
+withtech Inc.,Technology,348350.KS,EQ,KR7348350000
+SANDS LAB Inc.,Technology,411080.KS,EQ,KR7411080005
+OPASnet Co. Ltd.,Technology,173130.KS,EQ,KR7173130006
+LOGEN Co. Ltd.,Technology,033290.KS,EQ,KR7033290008
+MX On CORPORATION,Technology,347890.KS,EQ,KR7347890006
+Haesung Optics Co. Ltd.,Technology,076610.KS,EQ,KR7076610005
+WebCash Corp.,Technology,053580.KS,EQ,KR7053580007
+Mgame Corp.,Technology,058630.KS,EQ,KR7058630005
+Mobase Co. Ltd.,Technology,101330.KS,EQ,KR7101330009
+G.I. Tech Co. Ltd.,Technology,382480.KS,EQ,KR7382480002
+Smart Radar System Inc.,Technology,424960.KS,EQ,KR7424960003
+Innometry Co. Ltd.,Technology,302430.KS,EQ,KR7302430004
+Gradiant Corporation,Technology,035080.KS,EQ,KR7035080001
+APS Innovation Co. Ltd.,Technology,079810.KS,EQ,KR7079810008
+PJ Electronics Co. Ltd.,Technology,006140.KS,EQ,KR7006140008
+HYUNDAI HT CO LTD.,Technology,039010.KS,EQ,KR7039010004
+E&M Co. Ltd.,Technology,089230.KS,EQ,KR7089230007
+ME2ON CO. LTD,Technology,201490.KS,EQ,KR7201490000
+NEWEN AI,Technology,463020.KS,EQ,KR7463020008
+INBIOGEN CO. Ltd.,Technology,101140.KS,EQ,KR7101140002
+Datasolution Inc.,Technology,263800.KS,EQ,KR7263800005
+EM-Tech. Co. Ltd.,Technology,091120.KS,EQ,KR7091120006
+Huneed Technologies Co. Ltd.,Technology,005870.KS,EQ,KR7005870001
+ITCENCTS,Technology,031820.KS,EQ,KR7031820004
+Daejoo Inc.,Technology,003310.KS,EQ,KR7003310000
+Korea Economic Broadcasting CO. LTD.,Technology,039340.KS,EQ,KR7039340005
+HanWool Materials Science Inc.,Technology,091440.KS,EQ,KR7091440008
+Thinkware Systems Corporation,Technology,084730.KS,EQ,KR7084730001
+Davolink Inc.,Technology,340360.KS,EQ,KR7340360007
+Telcoware Co. Ltd,Technology,078000.KS,EQ,KR7078000007
+ICD Co. Ltd.,Technology,040910.KS,EQ,KR7040910002
+WOOREE BIO Co. Ltd.,Technology,082850.KS,EQ,KR7082850009
+DIGITAL CHOSUN Inc.,Technology,033130.KS,EQ,KR7033130006
+Biosmart Co. Ltd.,Technology,038460.KS,EQ,KR7038460002
+TY Holdings Co. Ltd.,Technology,363280.KS,EQ,KR7363280009
+NEORIGIN Co. Ltd.,Technology,094860.KS,EQ,KR7094860004
+DEEP NOID Inc.,Technology,315640.KS,EQ,KR7315640003
+3S KOREA Co. Ltd.,Technology,060310.KS,EQ,KR7060310000
+SEC Co. Ltd.,Technology,081180.KS,EQ,KR7081180002
+DERKWOO ELECTRONICS Co. Ltd.,Technology,263600.KS,EQ,KR7263600009
+Kornic Automation Co.Ltd.,Technology,391710.KS,EQ,KR7391710001
+HUMAN TECHNOLOGY Co. Ltd,Technology,175140.KS,EQ,KR7175140003
+Cots Technology Co. Ltd.,Technology,448710.KS,EQ,KR7448710004
+Motive Link Co. Ltd.,Technology,463480.KS,EQ,KR7463480004
+RevuCorporation Inc,Technology,443250.KS,EQ,KR7443250006
+Senko Co. Ltd. (South Korea),Technology,347000.KS,EQ,KR7347000002
+Hyunwoo Industrial Co. LTD,Technology,092300.KS,EQ,KR7092300003
+APS Inc.,Technology,054620.KS,EQ,KR7054620000
+BIT Computer Co. Ltd.,Technology,032850.KS,EQ,KR7032850000
+Coweaver Co. Ltd.,Technology,056360.KS,EQ,KR7056360001
+Insung Information Co. Ltd,Technology,033230.KS,EQ,KR7033230004
+V-ONE TECH Co. Ltd.,Technology,251630.KS,EQ,KR7251630000
+Atec Co. Ltd,Technology,045660.KS,EQ,KR7045660008
+SEKONIX Co. Ltd.,Technology,053450.KS,EQ,KR7053450003
+TRUEN Co. Ltd.,Technology,417790.KS,EQ,KR7417790003
+CJ Bioscience. Inc.,Technology,311690.KS,EQ,KR7311690002
+Korea Computer Inc.,Technology,054040.KS,EQ,KR7054040001
+ELUON Corporation,Technology,065440.KS,EQ,KR7065440000
+Bubang Co. Ltd.,Technology,014470.KS,EQ,KR7014470009
+FOCUS AI Co. Ltd.,Technology,331380.KS,EQ,KR7331380006
+Dreamus Company,Technology,060570.KS,EQ,KR7060570009
+SAWNICS INC.,Technology,088280.KS,EQ,KR7088280003
+UbiVelox Inc,Technology,089850.KS,EQ,KR7089850002
+PULOON Robotics Inc.,Technology,094940.KS,EQ,KR7094940004
+CAP Co. Ltd.,Technology,198080.KS,EQ,KR7198080004
+IDP Corp. Ltd.,Technology,332370.KS,EQ,KR7332370006
+Openbase Inc.,Technology,049480.KS,EQ,KR7049480007
+Woowon Development Co. Ltd,Technology,046940.KS,EQ,KR7046940003
+KSIGN Co. Ltd.,Technology,192250.KS,EQ,KR7192250009
+Wemade Play Co. Ltd.,Technology,123420.KS,EQ,KR7123420002
+Nsys Co. Ltd.,Technology,333620.KS,EQ,KR7333620003
+InkTec Co. Ltd.,Technology,049550.KS,EQ,KR7049550007
+SDN Company Ltd.,Technology,099220.KS,EQ,KR7099220006
+QuantaMatrix Inc.,Technology,317690.KS,EQ,KR7317690006
+Korea Electronic Certification Authority Inc.,Technology,041460.KS,EQ,KR7041460007
+Homecast Co. Ltd.,Technology,064240.KS,EQ,KR7064240005
+Topco Media Co.Ltd.,Technology,134580.KS,EQ,KR7134580000
+S-Prism Co. Ltd.,Technology,288620.KS,EQ,KR7288620008
+Obigo Inc.,Technology,352910.KS,EQ,KR7352910004
+Coreline Soft Co. Ltd.,Technology,384470.KS,EQ,KR7384470001
+Bluecom Co. Ltd,Technology,033560.KS,EQ,KR7033560004
+Topsun Co. Ltd.,Technology,180060.KS,EQ,KR7180060006
+YMC Co. Ltd. (Korea),Technology,155650.KS,EQ,KR7155650005
+Sunny Electronics Corporation,Technology,004770.KS,EQ,KR7004770004
+Total Soft Bank Ltd.,Technology,045340.KS,EQ,KR7045340007
+Wizit Co. Ltd,Technology,036090.KS,EQ,KR7036090009
+MICRO2NANO INC.,Technology,424980.KS,EQ,KR7424980001
+RFTech Co. Ltd.,Technology,061040.KS,EQ,KR7061040002
+OSUNG ADVANCED MATERIALS Co. Ltd.,Technology,052420.KS,EQ,KR7052420007
+SUNGMOON Electronics Co. Ltd.,Technology,014910.KS,EQ,KR7014910004
+SUNGMOON Electronics Co. Ltd. Pfd Non-Voting,Technology,014915.KS,EQ,KR7014911002
+S-Energy Co. Ltd.,Technology,095910.KS,EQ,KR7095910006
+Lemon Company Limited,Technology,294140.KS,EQ,KR7294140009
+Simplatform Co. Ltd.,Technology,444530.KS,EQ,KR7444530000
+IGLOO Corporation,Technology,067920.KS,EQ,KR7067920009
+SG & G Corporation,Technology,040610.KS,EQ,KR7040610008
+SOOSAN INT Co. Ltd.,Technology,050960.KS,EQ,KR7050960004
+Wave Electronics Co. Ltd.,Technology,095270.KS,EQ,KR7095270005
+Winpac Inc.,Technology,097800.KS,EQ,KR7097800007
+Day1 Company Inc.,Technology,373160.KS,EQ,KR7373160001
+KL-Net Corp,Technology,039420.KS,EQ,KR7039420005
+Mr. Blue Corp.,Technology,207760.KS,EQ,KR7207760000
+Piolink Inc.,Technology,170790.KS,EQ,KR7170790000
+3ALogics Inc.,Technology,177900.KS,EQ,KR7177900008
+Finecircuit CO. LTD.,Technology,127980.KS,EQ,KR7127980001
+OPTRONTEC Inc.,Technology,082210.KS,EQ,KR7082210006
+SYNTEKABIO INC.,Technology,226330.KS,EQ,KR7226330009
+Obzen Inc.,Technology,417860.KS,EQ,KR7417860004
+BI MATRIX Co. Ltd.,Technology,413640.KS,EQ,KR7413640004
+Samwha Electronics Co. Ltd.,Technology,011230.KS,EQ,KR7011230000
+Artist Company Inc.,Technology,321820.KS,EQ,KR7321820003
+CoAsia CM Co.Ltd,Technology,196450.KS,EQ,KR7196450001
+Signetics Corporation,Technology,033170.KS,EQ,KR7033170002
+ForCS Co. Ltd.,Technology,189690.KS,EQ,KR7189690001
+TOMATOSYSTEM Co. Ltd.,Technology,393210.KS,EQ,KR7393210000
+Linkgenesis Co. Ltd.,Technology,219420.KS,EQ,KR7219420007
+SGA Solutions Co. Ltd.,Technology,184230.KS,EQ,KR7184230001
+Lumens Co. Ltd.,Technology,038060.KS,EQ,KR7038060000
+YoungWoo DSP Co. Ltd.,Technology,143540.KS,EQ,KR7143540003
+INITECH Co. Ltd,Technology,053350.KS,EQ,KR7053350005
+ITCENPS Co. Ltd.,Technology,232830.KS,EQ,KR7232830000
+Synapsoft Corp.,Technology,466410.KS,EQ,KR7466410008
+JMT Co. Ltd.,Technology,094970.KS,EQ,KR7094970001
+AJIN ELECTRONIC COMPONENTS CO. LTD,Technology,009320.KS,EQ,KR7009320003
+Nable Inc.,Technology,153460.KS,EQ,KR7153460001
+Xcure Corp.,Technology,070300.KS,EQ,KR7070300009
+INSPIEN Inc.,Technology,465480.KS,EQ,KR7465480002
+CrowdWorks Inc.,Technology,355390.KS,EQ,KR7355390006
+Inzisoft Co. Ltd.,Technology,100030.KS,EQ,KR7100030006
+LMS Co. Ltd,Technology,073110.KS,EQ,KR7073110009
+Actoz Soft Co. Ltd,Technology,052790.KS,EQ,KR7052790003
+POSBANK Co. Ltd.,Technology,105760.KS,EQ,KR7105760003
+NHN BUGS Corp,Technology,104200.KS,EQ,KR7104200001
+Elcomtec Co. Ltd,Technology,037950.KS,EQ,KR7037950003
+Younglimwon Soft Lab Co. Ltd.,Technology,060850.KS,EQ,KR7060850005
+RAM TECHNOLOGY Co. Ltd.,Technology,171010.KS,EQ,KR7171010002
+Noul Co Ltd.,Technology,376930.KS,EQ,KR7376930004
+Sandoll Inc.,Technology,419120.KS,EQ,KR7419120001
+Kisan Telecom Co. Ltd,Technology,035460.KS,EQ,KR7035460005
+JT Corporation.,Technology,089790.KS,EQ,KR7089790000
+FASOO AI Co.Ltd.,Technology,150900.KS,EQ,KR7150900009
+HIZEAERO Co. Ltd.,Technology,221840.KS,EQ,KR7221840002
+SECERN AI Co. Ltd.,Technology,340810.KS,EQ,KR7340810001
+ATUM CO. LTD,Technology,355690.KS,EQ,KR7355690009
+Sangshin Electronics Co. Ltd.,Technology,263810.KS,EQ,KR7263810004
+jnb Co. Ltd.,Technology,452160.KS,EQ,KR7452160005
+nTels Co. Ltd.,Technology,069410.KS,EQ,KR7069410009
+HANBIT SOFT Inc.,Technology,047080.KS,EQ,KR7047080007
+DTC Co. Ltd.,Technology,066670.KS,EQ,KR7066670001
+BITPLANET Co. Ltd.,Technology,049470.KS,EQ,KR7049470008
+SolDefense Co. Ltd.,Technology,215090.KS,EQ,KR7215090002
+Korea Computer Terminal Inc.,Technology,089150.KS,EQ,KR7089150007
+PHOTON CO. LTD,Technology,208710.KS,EQ,KR7208710004
+HandySoft Inc.,Technology,220180.KS,EQ,KR7220180004
+Daishin Information & Communication Co. Ltd.,Technology,020180.KS,EQ,KR7020180006
+RN2 Technologies Co. Ltd.,Technology,148250.KS,EQ,KR7148250004
+P&H Tech Co. Ltd.,Technology,239890.KS,EQ,KR7239890007
+Moadata Co. Ltd,Technology,288980.KS,EQ,KR7288980006
+Bridgetec Corp.,Technology,064480.KS,EQ,KR7064480007
+Bankware Global Co. Ltd.,Technology,199480.KS,EQ,KR7199480005
+Carelabs Co. Ltd.,Technology,263700.KS,EQ,KR7263700007
+DHAUTOWARE Co. LTD,Technology,025440.KS,EQ,KR7025440009
+BENO TNR Inc.,Technology,206400.KS,EQ,KR7206400004
+Sigetronics Inc.,Technology,429270.KS,EQ,KR7429270002
+Dongil Technology Ltd.,Technology,032960.KS,EQ,KR7032960007
+TWIM Corp,Technology,290090.KS,EQ,KR7290090000
+HiDeep Inc.,Technology,365590.KS,EQ,KR7365590009
+Omnisystem Co. Ltd.,Technology,057540.KS,EQ,KR7057540007
+TechL Co. LTD.,Technology,064520.KS,EQ,KR7064520000
+Nexa Dynamics Co. Ltd.,Technology,351320.KS,EQ,KR7351320007
+MeatBox Global Inc.,Technology,475460.KS,EQ,KR7475460002
+Hanssak Co. Ltd.,Technology,430690.KS,EQ,KR7430690008
+Uracle Co. Ltd.,Technology,088340.KS,EQ,KR7088340005
+Sungwoo Electronics Co. Ltd.,Technology,081580.KS,EQ,KR7081580003
+ATEC MOBILITY Co. Ltd,Technology,224110.KS,EQ,KR7224110007
+BG T&A Co.,Technology,046310.KS,EQ,KR7046310009
+WOOREE E&L Haroutine Co. LTD.,Technology,153490.KS,EQ,KR7153490008
+Kyung In Electronics Co. Ltd.,Technology,009140.KS,EQ,KR7009140005
+MONITORAPP CO. LTD.,Technology,434480.KS,EQ,KR7434480000
+iCRAFT Co. Ltd.,Technology,052460.KS,EQ,KR7052460003
+YW COMPANY LIMITED,Technology,051390.KS,EQ,KR7051390003
+MGEN SOLUTIONS CO. LTD.,Technology,032790.KS,EQ,KR7032790008
+Inswave Co. Ltd.,Technology,450520.KS,EQ,KR7450520002
+Iron Device Corporation,Technology,464500.KS,EQ,KR7464500008
+MiraeING Co. Ltd.,Technology,007120.KS,EQ,KR7007120009
+DASAN DMC Co. Ltd.,Technology,208860.KS,EQ,KR7208860007
+System and Application Technologies Inc,Technology,060540.KS,EQ,KR7060540002
+MICUBE SOLUTION Inc.,Technology,373170.KS,EQ,KR7373170000
+Eyesvision Corporation,Technology,031310.KS,EQ,KR7031310006
+Kumho Electric Inc.,Technology,001210.KS,EQ,KR7001210004
+Mobidays Inc.,Technology,363260.KS,EQ,KR7363260001
+Fine Technix Co. Ltd,Technology,106240.KS,EQ,KR7106240005
+UNION biometrics Co. Ltd.,Technology,203450.KS,EQ,KR7203450002
+Pixelplus Co. Ltd.,Technology,087600.KS,EQ,KR7087600003
+LAONPEOPLE INC,Technology,300120.KS,EQ,KR7300120003
+CyberOne Co. Ltd.,Technology,356890.KS,EQ,KR7356890004
+Shin Hwa Contech Co.Ltd.,Technology,187270.KS,EQ,KR7187270004
+Seoul Electronics & Telecom Co. Ltd.,Technology,027040.KS,EQ,KR7027040005
+FRTEK Co. Ltd.,Technology,073540.KS,EQ,KR7073540007
+Plantynet Co. Ltd.,Technology,075130.KS,EQ,KR7075130005
+INNOAX CO. LTD,Technology,296640.KS,EQ,KR7296640006
+LUKEN Technologies Co. Ltd.,Technology,162120.KS,EQ,KR7162120000
+UXN Co. Ltd.,Technology,337840.KS,EQ,KR7337840003
+IQUEST Co. Ltd.,Technology,262840.KS,EQ,KR7262840002
+Point Mobile Co. Ltd.,Technology,318020.KS,EQ,KR7318020005
+PIMS Inc.,Technology,347770.KS,EQ,KR7347770000
+Sungwoo Techron Co. Ltd,Technology,045300.KS,EQ,KR7045300001
+DAP Co. Ltd.,Technology,066900.KS,EQ,KR7066900002
+Brainzcompany Co. Ltd.,Technology,099390.KS,EQ,KR7099390007
+WISCOM Co. Ltd.,Technology,024070.KS,EQ,KR7024070005
+Automobile & PCB Inc.,Technology,015260.KS,EQ,KR7015260003
+Aiji net Inc.,Technology,462980.KS,EQ,KR7462980004
+Secuve Co. Ltd,Technology,131090.KS,EQ,KR7131090003
+VIRNECT Co. Ltd.,Technology,438700.KS,EQ,KR7438700007
+ODTech Co. Ltd.,Technology,080520.KS,EQ,KR7080520000
+RAPEECH Co. Ltd,Technology,403360.KS,EQ,KR7403360001
+Hunesion Co. Ltd.,Technology,290270.KS,EQ,KR7290270008
+InfoBank Corp.,Technology,039290.KS,EQ,KR7039290002
+SD System Co. Ltd.,Technology,121890.KS,EQ,KR7121890008
+RANIX Inc.,Technology,317120.KS,EQ,KR7317120004
+Lithium-for-earth Inc,Technology,073570.KS,EQ,KR7073570004
+BLUETOP CO. LTD.,Technology,191600.KS,EQ,KR7191600006
+JEONGMOON INFORMATION Co. Ltd.,Technology,033050.KS,EQ,KR7033050006
+INNOSIMULATION Co. Ltd.,Technology,274400.KS,EQ,KR7274400001
+WISEiTech Co. Ltd.,Technology,065370.KS,EQ,KR7065370009
+PNC Technologies Co. Ltd.,Technology,237750.KS,EQ,KR7237750005
+ZUNGWON EN-SYS Inc,Technology,045510.KS,EQ,KR7045510005
+ITCENCORE CO. LTD.,Technology,243870.KS,EQ,KR7243870003
+MOBIRIX Corp.,Technology,348030.KS,EQ,KR7348030008
+FINEDIGITAL INC.,Technology,038950.KS,EQ,KR7038950002
+PLATEER Co. Ltd.,Technology,367000.KS,EQ,KR7367000007
+Parataxis Ethereum. Inc.,Technology,290560.KS,EQ,KR7290560002
+VECT Co. Ltd.,Technology,457600.KS,EQ,KR7457600005
+Bellock Inc.,Technology,424760.KS,EQ,KR7424760007
+Apex Intec Co. Ltd.,Technology,207490.KS,EQ,KR7207490004
+E8 Co. Ltd.,Technology,418620.KS,EQ,KR7418620001
+EGTRONICS Co. Ltd.,Technology,377330.KS,EQ,KR7377330006
+INNODEP INC.,Technology,303530.KS,EQ,KR7303530000
+IOKENM CO. LTD.,Technology,078860.KS,EQ,KR7078860004
+FINETEK CO. LTD.,Technology,131760.KS,EQ,KR7131760001
+Ocean In W Co.Ltd.,Technology,052300.KS,EQ,KR7052300001
+Humax Co. Ltd,Technology,115160.KS,EQ,KR7115160004
+Aroot Co. Ltd.,Technology,096690.KS,EQ,KR7096690003
+VAIV Co. Inc.,Technology,301300.KS,EQ,KR7301300000
+Inticube Co. Ltd.,Technology,070590.KS,EQ,KR7070590005
+WIZ CORP Inc.,Technology,038620.KS,EQ,KR7038620001
+KineMaster Corporation,Technology,139670.KS,EQ,KR7139670004
+CATIS INC.,Technology,140430.KS,EQ,KR7140430000
+LOGISYS INC.,Technology,067730.KS,EQ,KR7067730002
+Namsung Corporation,Technology,004270.KS,EQ,KR7004270005
+SAMHWA NETWORKS Co. Ltd.,Technology,046390.KS,EQ,KR7046390001
+DigiCAP Co. Ltd.,Technology,197140.KS,EQ,KR7197140007
+ECS Telecom Co. Ltd.,Technology,067010.KS,EQ,KR7067010009
+JiranSecurity Co. Ltd.,Technology,208350.KS,EQ,KR7208350009
+K3I Co. Ltd.,Technology,431190.KS,EQ,KR7431190008
+NBT Inc.,Technology,236810.KS,EQ,KR7236810008
+MOBILE APPLIANCE INC.,Technology,087260.KS,EQ,KR7087260006
+BECU AI Inc.,Technology,148780.KS,EQ,KR7148780000
+WantedLab Inc.,Technology,376980.KS,EQ,KR7376980009
+N CITRON INC.,Technology,101400.KS,EQ,KR7101400000
+iA Inc.,Technology,038880.KS,EQ,KR7038880001
+Sejoong Co. Ltd.,Technology,039310.KS,EQ,KR7039310008
+Cas Corporation,Technology,016920.KS,EQ,KR7016920001
+Imagis Co. Ltd.,Technology,115610.KS,EQ,KR7115610008
+EMB Co. Ltd.,Technology,278990.KS,EQ,KR7278990007
+MediaZen Inc.,Technology,279600.KS,EQ,KR7279600001
+SOFTCAMP CO. LTD,Technology,258790.KS,EQ,KR7258790005
+ITEYES Inc.,Technology,372800.KS,EQ,KR7372800003
+Alticast Corp.,Technology,085810.KS,EQ,KR7085810000
+VALOFE Co. Ltd.,Technology,331520.KS,EQ,KR7331520007
+ThumbAge Co. Ltd.,Technology,208640.KS,EQ,KR7208640003
+Jooyontech Co. Ltd,Technology,044380.KS,EQ,KR7044380004
+Saltware Co. Ltd.,Technology,328380.KS,EQ,KR7328380001
+dhSteel,Technology,021040.KS,EQ,KR7021040001
+dhSteel Pfd Registered Shs Non-Voting,Technology,021045.KS,EQ,KR7021041009
+Linked Inc.,Technology,193250.KS,EQ,KR7193250008
+Zinitix Co. Ltd.,Technology,303030.KS,EQ,KR7303030001
+BITMAX CO. LTD,Technology,377030.KS,EQ,KR7377030002
+Softcen Co. Ltd.,Technology,032680.KS,EQ,KR7032680001
+Softcen Co. Ltd. Pfd Registered Shs -1- Non-voting,Technology,032685.KS,EQ,KR7032681009
+Codi Co. Ltd.,Technology,224060.KS,EQ,KR7224060004
+Bonne Co. Ltd.,Technology,226340.KS,EQ,KR7226340008
+UDMTEK Co. Ltd.,Technology,389680.KS,EQ,KR7389680000
+ICH Co. Ltd.,Technology,368600.KS,EQ,KR7368600003
+CS Corporation,Technology,065770.KS,EQ,KR7065770000
+KEC Holdings Co. Ltd.,Technology,006200.KS,EQ,KR7006200000
+Innotena Inc.,Technology,333050.KS,EQ,KR7333050003
+JK Synapse Co. Ltd.,Technology,060230.KS,EQ,KR7060230000
+CNPLUS Co. Ltd.,Technology,115530.KS,EQ,KR7115530008
+Pintel Co. Ltd.,Technology,291810.KS,EQ,KR7291810000
+Sejin T.S Co. Ltd.,Technology,067770.KS,EQ,KR7067770008
+RYUK-IL C&S. Ltd.,Technology,191410.KS,EQ,KR7191410000
+Pakers Co. Ltd.,Technology,065690.KS,EQ,KR7065690000
+LDT Inc.,Technology,096870.KS,EQ,KR7096870001
+A.F.W Co. Ltd.,Technology,312610.KS,EQ,KR7312610009
+Samyoung S&C Co. Ltd.,Technology,361670.KS,EQ,KR7361670003
+KESPION Co. Ltd.,Technology,079190.KS,EQ,KR7079190005
+IHSUNGCNI Co. Ltd.,Technology,379390.KS,EQ,KR7379390008
+Moatech Co. Ltd,Technology,033200.KS,EQ,KR7033200007
+WELKEEPS HITECH CO. LTD,Technology,043590.KS,EQ,KR7043590009
+IK Semicon Co. Ltd.,Technology,149010.KS,EQ,KR7149010001
+NC& Co. Ltd.,Technology,092600.KS,EQ,KR7092600006
+TILON Co. Ltd.,Technology,217880.KS,EQ,KR7217880004
+Humax Holdings Co. Ltd,Technology,028080.KS,EQ,KR7028080000
+EB TECH CO. LTD.,Technology,208850.KS,EQ,KR7208850008
+Exion Group Company Limited,Technology,069920.KS,EQ,KR7069920007
+CIAAT Co. Ltd.,Technology,103660.KS,EQ,KR7103660007
+Interroid Co. Ltd.,Technology,311960.KS,EQ,KR7311960009
+Luxpia Co. Ltd.,Technology,092590.KS,EQ,KR7092590009
+UNIPOINT Corp.,Technology,121060.KS,EQ,KR7121060008
+QMC Co. Ltd.,Technology,136660.KS,EQ,KR7136660008
+Logis Mon Inc.,Technology,223220.KS,EQ,KR7223220005
+CNSLINK Co . Ltd,Technology,245450.KS,EQ,KR7245450002
+EGIS Co. Ltd,Technology,261520.KS,EQ,KR7261520001
+ALT Co. Ltd.,Technology,459550.KS,EQ,KR7459550000
+CMTX Co. Ltd.,Technology,388210.KS,EQ,KR7388210007
+Pinkfong Company Inc.,Technology,403850.KS,EQ,KR7403850001
+Elivision Co. Ltd.,Technology,276240.KS,EQ,KR7276240009
+Nara Space Technology Inc.,Technology,478340.KS,EQ,KR7478340003
+TIME Technical Support. ltd,Technology,318660.KS,EQ,KR7318660008
+S2W Inc.,Technology,488280.KS,EQ,KR7488280009
+KP Aero Industries Co. Ltd.,Technology,288180.KS,EQ,KR7288180003
+Hanpass Co. Ltd.,Technology,408470.KS,EQ,KR7408470003
+Nota Inc.,Technology,486990.KS,EQ,KR7486990005
+Sena Technologies Co. Ltd.,Technology,061090.KS,EQ,KR7061090007
+MakinaRocks Co. Ltd.,Technology,477850.KS,EQ,KR7477850002
+OceansBio Co. Ltd.,Technology,332190.KS,EQ,KR7332190008
+Wiworld Co. Ltd.,Technology,140660.KS,EQ,KR7140660002
+SemiFive Inc.,Technology,490470.KS,EQ,KR7490470002
+iL Robotics Co. Ltd.,Technology,403810.KS,EQ,KR7403810005
