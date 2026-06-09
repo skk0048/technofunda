@@ -444,6 +444,7 @@ _SUFFIX_ITEMS = sorted(_SUFFIX_MAP.items(), key=lambda x: len(x[0]), reverse=Tru
 _MARKET_EXCHANGE = {
     "INDIA": "NSE",
     "USA":   "",            # US: bare symbol; TV resolves it natively
+    "US":    "",            # market_usa_html passes "US" — same as USA
     "UK":    "LSE",
     "DE":    "XETRA",
     "JP":    "TSE",
@@ -1038,7 +1039,7 @@ CSS = """
 :root{
   --bg:#0f1117;--bg2:#151820;--bg3:#1c1f2e;
   --border:rgba(255,255,255,0.07);
-  --text:#e2e4ec;--text2:#8b90a8;--text3:#4d5268;
+  --text:#e2e4ec;--text2:#8b90a8;--text3:#7b82a0;
   --accent:#5b8def;--green:#22c55e;--red:#ef4444;--amber:#f59e0b;
   --radius:10px;--shadow:0 2px 14px rgba(0,0,0,.4);
   --sl-triple-bg:#0d2b1a;--sl-triple-fg:#4ade80;
@@ -1067,7 +1068,7 @@ html[data-theme="light"]{
 html[data-theme="navy"]{
   --bg:#0a1929;--bg2:#102a43;--bg3:#173a5e;
   --border:rgba(130,180,255,.14);
-  --text:#e8f0fc;--text2:#a3bcd9;--text3:#5e7d9e;
+  --text:#e8f0fc;--text2:#a3bcd9;--text3:#7daac8;
   --accent:#4d9fff;--shadow:0 2px 16px rgba(0,18,46,.55);
 }
 *{box-sizing:border-box;margin:0;padding:0;}
@@ -1233,13 +1234,13 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
 .stock-toolbar-right{display:flex;gap:6px;flex-wrap:wrap;}
 .sector-sel{background:var(--bg3);border:1px solid var(--border);color:var(--text);font-size:12px;font-weight:500;padding:5px 8px;border-radius:8px;cursor:pointer;outline:none;}
 .sector-sel:focus{border-color:var(--accent);}
-.scr-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px;margin-bottom:14px;}
-.scr-card{background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius);padding:14px 16px;cursor:pointer;transition:border-color .2s,transform .1s;}
+.scr-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:6px;margin-bottom:10px;}
+.scr-card{background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius);padding:7px 10px;cursor:pointer;transition:border-color .2s,transform .1s;}
 .scr-card:hover{border-color:var(--accent);transform:translateY(-1px);}
 .scr-card.active{border-color:var(--accent);background:rgba(91,141,239,.08);}
-.scr-icon{font-size:22px;margin-bottom:6px;}
-.scr-name{font-size:14px;font-weight:700;margin-bottom:4px;}
-.scr-desc{font-size:11px;color:var(--text2);line-height:1.5;}
+.scr-icon{font-size:16px;margin-bottom:2px;}
+.scr-name{font-size:12px;font-weight:700;margin-bottom:2px;}
+.scr-desc{font-size:10px;color:var(--text2);line-height:1.4;}
 .scr-status{display:flex;align-items:center;gap:6px;font-size:13px;color:var(--text2);padding:8px 12px;background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius);margin-bottom:10px;}
 @media(max-width:600px){.stock-toolbar{flex-direction:column;align-items:flex-start;}}
 .tbl-wrap{overflow-x:auto;border-radius:var(--radius);border:1px solid var(--border);margin-bottom:6px;}
@@ -1596,12 +1597,14 @@ const SCREEN_DEFS={
   high_roe:{cat:'fundamental',name:'🏆 High ROE',
     test(row,h){const roe=_n(_sv(row,_ci(h,'ROE%')));const de=_n(_sv(row,_ci(h,'D/E')));const py=_n(_sv(row,_ci(h,'PAT_YoY%')));
     return roe!==null&&roe>20&&de!==null&&de<1&&py!==null&&py>10;}},
-  profit_jump:{cat:'fundamental',name:'💥 Profit Jump 200%',
-    test(row,h){const pq=_n(_sv(row,_ci(h,'PAT_QoQ%')));const py=_n(_sv(row,_ci(h,'PAT_YoY%')));
-    return (pq!==null&&pq>=200)||(py!==null&&py>=200);}},
-  sales_jump:{cat:'fundamental',name:'📦 Sales Jump 200%',
-    test(row,h){const sq=_n(_sv(row,_ci(h,'Sales_QoQ%')));const sy=_n(_sv(row,_ci(h,'Sales_YoY%')));
-    return (sq!==null&&sq>=200)||(sy!==null&&sy>=200);}},
+  pat_qoq200:{cat:'fundamental',name:'💥 PAT QoQ 200%',
+    test(row,h){const pq=_n(_sv(row,_ci(h,'PAT_QoQ%')));return pq!==null&&pq>=200;}},
+  pat_yoy200:{cat:'fundamental',name:'💥 PAT YoY 200%',
+    test(row,h){const py=_n(_sv(row,_ci(h,'PAT_YoY%')));return py!==null&&py>=200;}},
+  sales_qoq200:{cat:'fundamental',name:'📦 Sales QoQ 200%',
+    test(row,h){const sq=_n(_sv(row,_ci(h,'Sales_QoQ%')));return sq!==null&&sq>=200;}},
+  sales_yoy200:{cat:'fundamental',name:'📦 Sales YoY 200%',
+    test(row,h){const sy=_n(_sv(row,_ci(h,'Sales_YoY%')));return sy!==null&&sy>=200;}},
   high_eps:{cat:'fundamental',name:'💰 High EPS',
     test(row,h){const eps=_n(_sv(row,_ci(h,'EPS')));const sma=_n(_sv(row,_ci(h,'SMA_Score')));
     return eps!==null&&eps>10&&sma!==null&&sma>=2;}},
@@ -2111,17 +2114,29 @@ function _tvGetTheme(){
 }
 
 function _tvBuildSrc(tvSymbol){
-  const theme=_tvGetTheme();
-  const sym=tvSymbol.replace('%3A',':');
-  // Use advanced-chart widget — broader exchange support than widgetembed.
-  // Config is JSON-encoded in the URL fragment (#).
-  const cfg=encodeURIComponent(JSON.stringify({
-    symbol:sym, interval:'D', range:'12M', theme:theme,
-    style:'1', locale:'en', hide_side_toolbar:true,
-    allow_symbol_change:false, save_image:false,
-    support_host:'https://www.tradingview.com'
-  }));
-  return 'https://s.tradingview.com/embed-widget/advanced-chart/?locale=en#'+cfg;
+  // widgetembed = correct FREE embed URL for all exchanges globally.
+  // advanced-chart is a paid/whitelisted widget that shows "only available at
+  // TradingView" for non-partner sites — do NOT use it.
+  // widgetembed also correctly re-loads when a new src is set via iframe swap.
+  const sym = tvSymbol.replace('%3A',':');
+  const theme = _tvGetTheme();
+  return 'https://www.tradingview.com/widgetembed/?symbol=' + encodeURIComponent(sym)
+    + '&interval=D&range=12M&theme=' + theme
+    + '&style=1&locale=en&hide_side_toolbar=1&allow_symbol_change=0'
+    + '&save_image=0&withdateranges=1';
+}
+
+function _tvMakeIframe(){
+  // Create a FRESH iframe per symbol.
+  // Reusing the same iframe + reassigning src does NOT reliably reload
+  // TradingView's widgetembed — remove+recreate is the only reliable way.
+  const h = TV_PREVIEW_H - TV_PREVIEW_HEADER_H;
+  const fr = document.createElement('iframe');
+  fr.id = 'tv-preview-iframe';
+  fr.style.cssText = 'border:none;display:block;width:100%;height:' + h + 'px;';
+  fr.setAttribute('sandbox',
+    'allow-scripts allow-same-origin allow-popups allow-forms allow-top-navigation-by-user-activation');
+  return fr;
 }
 
 function _tvInit(){
@@ -2134,49 +2149,52 @@ function _tvInit(){
   _tvHeader.id = 'tv-preview-header';
   _tvHeader.textContent = 'TradingView';
 
-  _tvIframe = document.createElement('iframe');
-  _tvIframe.id = 'tv-preview-iframe';
-  _tvIframe.height = (TV_PREVIEW_H - TV_PREVIEW_HEADER_H) + 'px';
-  _tvIframe.setAttribute('loading', 'lazy');
-  _tvIframe.setAttribute('sandbox',
-    'allow-scripts allow-same-origin allow-popups allow-forms');
+  // _tvIframe starts null — created fresh on first hover
+  _tvIframe = null;
 
-  _tvFallback=document.createElement('div');
-  _tvFallback.id='tv-preview-fallback';
-  _tvFallback.style.cssText='display:none;width:100%;height:100%;flex-direction:column;'
+  _tvFallback = document.createElement('div');
+  _tvFallback.id = 'tv-preview-fallback';
+  _tvFallback.style.cssText = 'display:none;width:100%;height:100%;flex-direction:column;'
     +'align-items:center;justify-content:center;gap:10px;'
     +'font-size:13px;color:#8b90a8;text-align:center;padding:20px;';
-  _tvFallback.innerHTML='<div style="font-size:22px">\U0001f4ca</div>'
+  _tvFallback.innerHTML = '<div style="font-size:22px">\U0001f4ca</div>'
     +'<div id="tv-fb-msg">Preview not available</div>'
     +'<a id="tv-fb-link" href="#" target="_blank" rel="noopener" '
-    +'style="color:#5b8def;font-weight:600;padding:6px 14px;border:1px solid #5b8def;border-radius:8px;">Open in TradingView \u2197</a>';
+    +'style="color:#5b8def;font-weight:600;padding:6px 14px;border:1px solid #5b8def;border-radius:8px;">Open in TradingView ↗</a>';
   _tvBox.appendChild(_tvHeader);
-  _tvBox.appendChild(_tvIframe);
   _tvBox.appendChild(_tvFallback);
   document.body.appendChild(_tvBox);
+
   // postMessage listener: catch TV symbol-not-found events
   window.addEventListener('message',(e)=>{
-    if(!e.origin.includes('tradingview.com'))return;
-    const d=e.data;
-    if(d&&(d.name==='symbol-not-found'||d.type==='symbolNotFound')){_showTvFallback(_tvLastSym);}
-  },false);
-
-  // Warm the connection — load a generic symbol so TV domain is already open
-  const warmSym = (document.documentElement.getAttribute('data-market')||'') === 'INDIA'
-    ? 'NSE:NIFTY' : 'NASDAQ:AAPL';
-  _tvIframe.src = _tvBuildSrc(warmSym);
+    if(!e.origin.includes('tradingview.com')) return;
+    const d = e.data;
+    if(d && (d.name==='symbol-not-found' || d.type==='symbolNotFound')){
+      _showTvFallback(_tvLastSym);
+    }
+  }, false);
+  // No warm-load — pre-loading a different symbol causes the first real hover
+  // to show the wrong chart until the iframe reloads.
 }
 
 function _tvShow(tvSymbol, displayName, mouseX, mouseY){
   if(!_tvEnabled || !_tvBox) return;
   clearTimeout(_tvHideTimer);
+
   if(tvSymbol !== _tvLastSym){
-    _tvIframe.style.display='';
-    if(_tvFallback)_tvFallback.style.display='none';
+    // Remove old iframe entirely — src reassignment doesn't re-render TV
+    if(_tvIframe && _tvIframe.parentNode){
+      _tvIframe.parentNode.removeChild(_tvIframe);
+    }
+    if(_tvFallback) _tvFallback.style.display = 'none';
+    // Insert fresh iframe before the fallback div
+    _tvIframe = _tvMakeIframe();
+    _tvBox.insertBefore(_tvIframe, _tvFallback);
     _tvIframe.src = _tvBuildSrc(tvSymbol);
     _tvLastSym = tvSymbol;
   }
-  _tvHeader.textContent = '📈 ' + displayName + ' — Daily · 12M';
+
+  _tvHeader.textContent = '\U0001f4c8 ' + displayName + ' — Daily · 12M';
   const vw = window.innerWidth, vh = window.innerHeight;
   let left = mouseX + TV_PREVIEW_OFFSET_X;
   let top  = mouseY + TV_PREVIEW_OFFSET_Y;
@@ -2237,6 +2255,28 @@ function showTab(id){
   localStorage.setItem('activeTab',id);
   setTimeout(_tvAttachHovers, 50);
 }
+
+// Local-time append: show visitor's timezone alongside UTC run time
+(function(){
+  const el = document.getElementById('run-meta');
+  if(!el) return;
+  try {
+    const utcStr = el.dataset.utc; // e.g. "09 Jun 2026  14:35"
+    // Parse the UTC string into a Date object
+    const cleaned = utcStr.replace(/\s+/g,' ').trim();
+    const d = new Date(cleaned + ' UTC');
+    if(isNaN(d)) return;
+    const tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
+    const local = d.toLocaleString(undefined,{
+      day:'2-digit', month:'short', year:'numeric',
+      hour:'2-digit', minute:'2-digit', timeZoneName:'short'
+    });
+    // Only append if local TZ differs meaningfully from UTC
+    const offsetMins = -d.getTimezoneOffset();
+    if(offsetMins === 0) return; // same as UTC, no need to show twice
+    el.innerHTML += ` <span style="opacity:.7;font-size:10px;">(${local})</span>`;
+  } catch(e){}
+})();
 
 // Single DOMContentLoaded — handles theme, sleeves, TV init
 document.addEventListener('DOMContentLoaded', ()=>{
@@ -2302,8 +2342,10 @@ def _build_screener_tab():
         card("low_pe",        "💲", "Low P/E",           "P/E between 1–15 · PAT_YoY&gt;0", "fundamental") +
         card("low_de",        "🛡", "Low Debt (D/E)",    "D/E &lt; 0.3 · ROE &gt; 10", "fundamental") +
         card("high_roe",      "🏆", "High ROE",          "ROE &gt; 20 · D/E &lt; 1 · PAT_YoY &gt; 10", "fundamental") +
-        card("profit_jump",   "💥", "Profit Jump 200%",  "PAT_QoQ &gt; 200% OR PAT_YoY &gt; 200%", "fundamental") +
-        card("sales_jump",    "📦", "Sales Jump 200%",   "Sales_QoQ &gt; 200% OR Sales_YoY &gt; 200%", "fundamental") +
+        card("pat_qoq200",    "💥", "PAT QoQ 200%",      "PAT_QoQ &gt; 200%", "fundamental") +
+        card("pat_yoy200",    "💥", "PAT YoY 200%",      "PAT_YoY &gt; 200%", "fundamental") +
+        card("sales_qoq200",  "📦", "Sales QoQ 200%",    "Sales_QoQ &gt; 200%", "fundamental") +
+        card("sales_yoy200",  "📦", "Sales YoY 200%",    "Sales_YoY &gt; 200%", "fundamental") +
         card("high_eps",      "💰", "High EPS",          "EPS &gt; 10 · SMA≥2", "fundamental") +
         card("quality_growth","💎", "Quality + Growth",  "ROE&gt;15 · PAT_YoY&gt;15 · Sales_YoY&gt;10 · D/E&lt;1", "fundamental")
     )
@@ -2469,8 +2511,9 @@ def build_html_report(
     </select>
   </div>
   <div class="stock-toolbar-right">
-    <button class="copy-btn sm" onclick="exportStocksTV('tbl-stocks')" title="Copy symbols for TradingView">📋 Copy for TradingView</button>
-    <button class="copy-btn sm" onclick="exportTableCSV('tbl-stocks')" title="Download CSV">⬇ Export CSV</button>
+    <!-- Export CSV and Copy for TradingView buttons hidden -->
+    <!-- <button class="copy-btn sm" onclick="exportStocksTV('tbl-stocks')" title="Copy symbols for TradingView">📋 Copy for TradingView</button> -->
+    <!-- <button class="copy-btn sm" onclick="exportTableCSV('tbl-stocks')" title="Download CSV">⬇ Export CSV</button> -->
   </div>
 </div>'''
     stock_content = _STOCK_PANEL + _stock_toolbar + _build_table(stock_main, "tbl-stocks", max_rows=500, no_bg=True)
@@ -2646,7 +2689,7 @@ def build_html_report(
   <div class="app-brand-row">
     <div>
       <div class="app-title">TechnoFunda [{market}]</div>
-      <div class="app-meta">{run_time} · RS{primary_rs}d</div>
+      <div class="app-meta" id="run-meta" data-utc="{run_time}">{run_time} · RS{primary_rs}d</div>
     </div>
     {country_nav}
   </div>
@@ -2670,19 +2713,17 @@ def build_html_report(
     </div>
   </div>
 </header>
-{stats_bar_embed}
+
 <nav class="tab-bar">{tab_btns}</nav>
 <main>{sections_html}</main>
 {feedback_html}
-{disclaimer_html}
+{stats_bar_embed}
 <a href="#feedback" class="fb-float" title="Share feedback or suggestions">💬 Feedback</a>
 <script>{JS}</script>
 </body>
 </html>"""
 
-    with open(output_path, "w", encoding="utf-8") as f:
-        f.write(html)
+    with open(output_path, "w", encoding="utf-8") as fh:
+        fh.write(html)
     size_kb = os.path.getsize(output_path) // 1024
     print(f"  💾 HTML saved: {output_path}  ({size_kb} KB)")
-    # Return stats_bar_html so the index builder can embed it per-market
-    return output_path, stats_bar_html
