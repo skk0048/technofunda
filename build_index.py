@@ -500,7 +500,7 @@ def render_homepage(markets: list, output_path: str):
   --bg:#080c14;--bg2:#0d1220;--bg3:#111827;
   --border:rgba(255,255,255,.07);--border2:rgba(255,255,255,.12);
   --gold:#f0b429;--gold2:#ffd666;
-  --text:#f0f4ff;--text2:#8896b0;--text3:#4a5568;
+  --text:#f0f4ff;--text2:#8896b0;--text3:#7b87a8;
   --green:#10b981;--green-dim:rgba(16,185,129,.12);--green-glow:rgba(16,185,129,.25);
   --red:#ef4444;--red-dim:rgba(239,68,68,.12);
   --amber:#f59e0b;--amber-dim:rgba(245,158,11,.12);
@@ -699,7 +699,7 @@ body::after{{content:'';position:fixed;inset:0;background-image:linear-gradient(
         <span class="sec-label">Live Reports</span>
         <h2 class="sec-title">Choose Your Market</h2>
       </div>
-      <span class="sec-updated">Generated: {gen_time}</span>
+      <span class="sec-updated" id="gen-time-label" data-utc="{gen_time}">Generated: {gen_time}</span>
     </div>
     <div class="countries-grid" id="countries-grid"></div>
   </section>
@@ -824,6 +824,23 @@ function buildCards(){{
 document.addEventListener('DOMContentLoaded',()=>{{
   document.getElementById('ticker').innerHTML=buildTicker();
   document.getElementById('countries-grid').innerHTML=buildCards();
+  // Append visitor local time next to UTC generated time
+  (function(){{
+    const el=document.getElementById('gen-time-label');
+    if(!el)return;
+    try{{
+      const utcStr=el.dataset.utc.replace(/\s+/g,' ').trim();
+      const d=new Date(utcStr+' UTC');
+      if(isNaN(d))return;
+      const offsetMins=-d.getTimezoneOffset();
+      if(offsetMins===0)return;
+      const local=d.toLocaleString(undefined,{{
+        day:'2-digit',month:'short',year:'numeric',
+        hour:'2-digit',minute:'2-digit',timeZoneName:'short'
+      }});
+      el.innerHTML+=' <span style="opacity:.65;font-size:11px;">('+local+')</span>';
+    }}catch(e){{}}
+  }})();
 }});
 </script>
 </body>

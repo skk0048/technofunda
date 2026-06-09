@@ -367,4 +367,4 @@ def main():
     print("═"*68)
 
 if __name__ == "__main__":
-    m
+    main()
