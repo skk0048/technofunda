@@ -191,14 +191,27 @@ jobs:
           if git diff --staged --quiet; then echo "No changes to commit."; exit 0; fi
           git commit -m "India HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
           PUSHED=0
-          for attempt in 1 2 3 4 5; do
-            # pull remote changes and replay our commit cleanly on top
-            git pull --rebase -X ours origin main 2>/dev/null || git rebase --abort 2>/dev/null || true
-            if git push origin main 2>/dev/null; then PUSHED=1; break; fi
-            echo "Push attempt $attempt failed, retrying ..."
-            sleep 6
+          for attempt in 1 2 3 4 5 6 7; do
+            echo "--- Push attempt $attempt of 7 ---"
+            git fetch origin main 2>&1
+            git merge -X ours origin/main --no-edit -m "ci: sync before push attempt $attempt" 2>&1 || {
+              echo "Merge failed on attempt $attempt — aborting and retrying"
+              git merge --abort 2>/dev/null || true
+              sleep $((attempt * 10))
+              continue
+            }
+            PUSH_OUT=$(git push origin main 2>&1)
+            PUSH_RC=$?
+            echo "$PUSH_OUT"
+            if [ "$PUSH_RC" -eq 0 ]; then
+              echo "Push succeeded on attempt $attempt"
+              PUSHED=1
+              break
+            fi
+            echo "Push failed (exit $PUSH_RC) — waiting $((attempt * 10))s before retry..."
+            sleep $((attempt * 10))
           done
-          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed after retries — India."; fi
+          if [ "$PUSHED" != "1" ]; then echo "::error::Push failed after 7 attempts — India."; exit 1; fi
       - name: Remove credentials
         if: always()
         run: rm -f /tmp/google_credentials.json
@@ -241,14 +254,27 @@ jobs:
           if git diff --staged --quiet; then echo "No changes to commit."; exit 0; fi
           git commit -m "USA HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
           PUSHED=0
-          for attempt in 1 2 3 4 5; do
-            # pull remote changes and replay our commit cleanly on top
-            git pull --rebase -X ours origin main 2>/dev/null || git rebase --abort 2>/dev/null || true
-            if git push origin main 2>/dev/null; then PUSHED=1; break; fi
-            echo "Push attempt $attempt failed, retrying ..."
-            sleep 6
+          for attempt in 1 2 3 4 5 6 7; do
+            echo "--- Push attempt $attempt of 7 ---"
+            git fetch origin main 2>&1
+            git merge -X ours origin/main --no-edit -m "ci: sync before push attempt $attempt" 2>&1 || {
+              echo "Merge failed on attempt $attempt — aborting and retrying"
+              git merge --abort 2>/dev/null || true
+              sleep $((attempt * 10))
+              continue
+            }
+            PUSH_OUT=$(git push origin main 2>&1)
+            PUSH_RC=$?
+            echo "$PUSH_OUT"
+            if [ "$PUSH_RC" -eq 0 ]; then
+              echo "Push succeeded on attempt $attempt"
+              PUSHED=1
+              break
+            fi
+            echo "Push failed (exit $PUSH_RC) — waiting $((attempt * 10))s before retry..."
+            sleep $((attempt * 10))
           done
-          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed after retries — USA."; fi
+          if [ "$PUSHED" != "1" ]; then echo "::error::Push failed after 7 attempts — USA."; exit 1; fi
       - name: Remove credentials
         if: always()
         run: rm -f /tmp/google_credentials.json
@@ -291,14 +317,27 @@ jobs:
           if git diff --staged --quiet; then echo "No changes to commit."; exit 0; fi
           git commit -m "UK HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
           PUSHED=0
-          for attempt in 1 2 3 4 5; do
-            # pull remote changes and replay our commit cleanly on top
-            git pull --rebase -X ours origin main 2>/dev/null || git rebase --abort 2>/dev/null || true
-            if git push origin main 2>/dev/null; then PUSHED=1; break; fi
-            echo "Push attempt $attempt failed, retrying ..."
-            sleep 6
+          for attempt in 1 2 3 4 5 6 7; do
+            echo "--- Push attempt $attempt of 7 ---"
+            git fetch origin main 2>&1
+            git merge -X ours origin/main --no-edit -m "ci: sync before push attempt $attempt" 2>&1 || {
+              echo "Merge failed on attempt $attempt — aborting and retrying"
+              git merge --abort 2>/dev/null || true
+              sleep $((attempt * 10))
+              continue
+            }
+            PUSH_OUT=$(git push origin main 2>&1)
+            PUSH_RC=$?
+            echo "$PUSH_OUT"
+            if [ "$PUSH_RC" -eq 0 ]; then
+              echo "Push succeeded on attempt $attempt"
+              PUSHED=1
+              break
+            fi
+            echo "Push failed (exit $PUSH_RC) — waiting $((attempt * 10))s before retry..."
+            sleep $((attempt * 10))
           done
-          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed after retries — UK."; fi
+          if [ "$PUSHED" != "1" ]; then echo "::error::Push failed after 7 attempts — UK."; exit 1; fi
       - name: Remove credentials
         if: always()
         run: rm -f /tmp/google_credentials.json
@@ -341,14 +380,27 @@ jobs:
           if git diff --staged --quiet; then echo "No changes to commit."; exit 0; fi
           git commit -m "Canada HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
           PUSHED=0
-          for attempt in 1 2 3 4 5; do
-            # pull remote changes and replay our commit cleanly on top
-            git pull --rebase -X ours origin main 2>/dev/null || git rebase --abort 2>/dev/null || true
-            if git push origin main 2>/dev/null; then PUSHED=1; break; fi
-            echo "Push attempt $attempt failed, retrying ..."
-            sleep 6
+          for attempt in 1 2 3 4 5 6 7; do
+            echo "--- Push attempt $attempt of 7 ---"
+            git fetch origin main 2>&1
+            git merge -X ours origin/main --no-edit -m "ci: sync before push attempt $attempt" 2>&1 || {
+              echo "Merge failed on attempt $attempt — aborting and retrying"
+              git merge --abort 2>/dev/null || true
+              sleep $((attempt * 10))
+              continue
+            }
+            PUSH_OUT=$(git push origin main 2>&1)
+            PUSH_RC=$?
+            echo "$PUSH_OUT"
+            if [ "$PUSH_RC" -eq 0 ]; then
+              echo "Push succeeded on attempt $attempt"
+              PUSHED=1
+              break
+            fi
+            echo "Push failed (exit $PUSH_RC) — waiting $((attempt * 10))s before retry..."
+            sleep $((attempt * 10))
           done
-          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed after retries — Canada."; fi
+          if [ "$PUSHED" != "1" ]; then echo "::error::Push failed after 7 attempts — Canada."; exit 1; fi
       - name: Remove credentials
         if: always()
         run: rm -f /tmp/google_credentials.json
@@ -391,14 +443,27 @@ jobs:
           if git diff --staged --quiet; then echo "No changes to commit."; exit 0; fi
           git commit -m "Australia HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
           PUSHED=0
-          for attempt in 1 2 3 4 5; do
-            # pull remote changes and replay our commit cleanly on top
-            git pull --rebase -X ours origin main 2>/dev/null || git rebase --abort 2>/dev/null || true
-            if git push origin main 2>/dev/null; then PUSHED=1; break; fi
-            echo "Push attempt $attempt failed, retrying ..."
-            sleep 6
+          for attempt in 1 2 3 4 5 6 7; do
+            echo "--- Push attempt $attempt of 7 ---"
+            git fetch origin main 2>&1
+            git merge -X ours origin/main --no-edit -m "ci: sync before push attempt $attempt" 2>&1 || {
+              echo "Merge failed on attempt $attempt — aborting and retrying"
+              git merge --abort 2>/dev/null || true
+              sleep $((attempt * 10))
+              continue
+            }
+            PUSH_OUT=$(git push origin main 2>&1)
+            PUSH_RC=$?
+            echo "$PUSH_OUT"
+            if [ "$PUSH_RC" -eq 0 ]; then
+              echo "Push succeeded on attempt $attempt"
+              PUSHED=1
+              break
+            fi
+            echo "Push failed (exit $PUSH_RC) — waiting $((attempt * 10))s before retry..."
+            sleep $((attempt * 10))
           done
-          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed after retries — Australia."; fi
+          if [ "$PUSHED" != "1" ]; then echo "::error::Push failed after 7 attempts — Australia."; exit 1; fi
       - name: Remove credentials
         if: always()
         run: rm -f /tmp/google_credentials.json
@@ -441,14 +506,27 @@ jobs:
           if git diff --staged --quiet; then echo "No changes to commit."; exit 0; fi
           git commit -m "Germany HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
           PUSHED=0
-          for attempt in 1 2 3 4 5; do
-            # pull remote changes and replay our commit cleanly on top
-            git pull --rebase -X ours origin main 2>/dev/null || git rebase --abort 2>/dev/null || true
-            if git push origin main 2>/dev/null; then PUSHED=1; break; fi
-            echo "Push attempt $attempt failed, retrying ..."
-            sleep 6
+          for attempt in 1 2 3 4 5 6 7; do
+            echo "--- Push attempt $attempt of 7 ---"
+            git fetch origin main 2>&1
+            git merge -X ours origin/main --no-edit -m "ci: sync before push attempt $attempt" 2>&1 || {
+              echo "Merge failed on attempt $attempt — aborting and retrying"
+              git merge --abort 2>/dev/null || true
+              sleep $((attempt * 10))
+              continue
+            }
+            PUSH_OUT=$(git push origin main 2>&1)
+            PUSH_RC=$?
+            echo "$PUSH_OUT"
+            if [ "$PUSH_RC" -eq 0 ]; then
+              echo "Push succeeded on attempt $attempt"
+              PUSHED=1
+              break
+            fi
+            echo "Push failed (exit $PUSH_RC) — waiting $((attempt * 10))s before retry..."
+            sleep $((attempt * 10))
           done
-          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed after retries — Germany."; fi
+          if [ "$PUSHED" != "1" ]; then echo "::error::Push failed after 7 attempts — Germany."; exit 1; fi
       - name: Remove credentials
         if: always()
         run: rm -f /tmp/google_credentials.json
@@ -491,14 +569,27 @@ jobs:
           if git diff --staged --quiet; then echo "No changes to commit."; exit 0; fi
           git commit -m "Japan HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
           PUSHED=0
-          for attempt in 1 2 3 4 5; do
-            # pull remote changes and replay our commit cleanly on top
-            git pull --rebase -X ours origin main 2>/dev/null || git rebase --abort 2>/dev/null || true
-            if git push origin main 2>/dev/null; then PUSHED=1; break; fi
-            echo "Push attempt $attempt failed, retrying ..."
-            sleep 6
+          for attempt in 1 2 3 4 5 6 7; do
+            echo "--- Push attempt $attempt of 7 ---"
+            git fetch origin main 2>&1
+            git merge -X ours origin/main --no-edit -m "ci: sync before push attempt $attempt" 2>&1 || {
+              echo "Merge failed on attempt $attempt — aborting and retrying"
+              git merge --abort 2>/dev/null || true
+              sleep $((attempt * 10))
+              continue
+            }
+            PUSH_OUT=$(git push origin main 2>&1)
+            PUSH_RC=$?
+            echo "$PUSH_OUT"
+            if [ "$PUSH_RC" -eq 0 ]; then
+              echo "Push succeeded on attempt $attempt"
+              PUSHED=1
+              break
+            fi
+            echo "Push failed (exit $PUSH_RC) — waiting $((attempt * 10))s before retry..."
+            sleep $((attempt * 10))
           done
-          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed after retries — Japan."; fi
+          if [ "$PUSHED" != "1" ]; then echo "::error::Push failed after 7 attempts — Japan."; exit 1; fi
       - name: Remove credentials
         if: always()
         run: rm -f /tmp/google_credentials.json
@@ -541,14 +632,27 @@ jobs:
           if git diff --staged --quiet; then echo "No changes to commit."; exit 0; fi
           git commit -m "France HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
           PUSHED=0
-          for attempt in 1 2 3 4 5; do
-            # pull remote changes and replay our commit cleanly on top
-            git pull --rebase -X ours origin main 2>/dev/null || git rebase --abort 2>/dev/null || true
-            if git push origin main 2>/dev/null; then PUSHED=1; break; fi
-            echo "Push attempt $attempt failed, retrying ..."
-            sleep 6
+          for attempt in 1 2 3 4 5 6 7; do
+            echo "--- Push attempt $attempt of 7 ---"
+            git fetch origin main 2>&1
+            git merge -X ours origin/main --no-edit -m "ci: sync before push attempt $attempt" 2>&1 || {
+              echo "Merge failed on attempt $attempt — aborting and retrying"
+              git merge --abort 2>/dev/null || true
+              sleep $((attempt * 10))
+              continue
+            }
+            PUSH_OUT=$(git push origin main 2>&1)
+            PUSH_RC=$?
+            echo "$PUSH_OUT"
+            if [ "$PUSH_RC" -eq 0 ]; then
+              echo "Push succeeded on attempt $attempt"
+              PUSHED=1
+              break
+            fi
+            echo "Push failed (exit $PUSH_RC) — waiting $((attempt * 10))s before retry..."
+            sleep $((attempt * 10))
           done
-          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed after retries — France."; fi
+          if [ "$PUSHED" != "1" ]; then echo "::error::Push failed after 7 attempts — France."; exit 1; fi
       - name: Remove credentials
         if: always()
         run: rm -f /tmp/google_credentials.json
@@ -591,14 +695,27 @@ jobs:
           if git diff --staged --quiet; then echo "No changes to commit."; exit 0; fi
           git commit -m "Brazil HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
           PUSHED=0
-          for attempt in 1 2 3 4 5; do
-            # pull remote changes and replay our commit cleanly on top
-            git pull --rebase -X ours origin main 2>/dev/null || git rebase --abort 2>/dev/null || true
-            if git push origin main 2>/dev/null; then PUSHED=1; break; fi
-            echo "Push attempt $attempt failed, retrying ..."
-            sleep 6
+          for attempt in 1 2 3 4 5 6 7; do
+            echo "--- Push attempt $attempt of 7 ---"
+            git fetch origin main 2>&1
+            git merge -X ours origin/main --no-edit -m "ci: sync before push attempt $attempt" 2>&1 || {
+              echo "Merge failed on attempt $attempt — aborting and retrying"
+              git merge --abort 2>/dev/null || true
+              sleep $((attempt * 10))
+              continue
+            }
+            PUSH_OUT=$(git push origin main 2>&1)
+            PUSH_RC=$?
+            echo "$PUSH_OUT"
+            if [ "$PUSH_RC" -eq 0 ]; then
+              echo "Push succeeded on attempt $attempt"
+              PUSHED=1
+              break
+            fi
+            echo "Push failed (exit $PUSH_RC) — waiting $((attempt * 10))s before retry..."
+            sleep $((attempt * 10))
           done
-          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed after retries — Brazil."; fi
+          if [ "$PUSHED" != "1" ]; then echo "::error::Push failed after 7 attempts — Brazil."; exit 1; fi
       - name: Remove credentials
         if: always()
         run: rm -f /tmp/google_credentials.json
@@ -645,14 +762,27 @@ jobs:
           if git diff --staged --quiet; then echo "No changes to commit."; exit 0; fi
           git commit -m "China HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
           PUSHED=0
-          for attempt in 1 2 3 4 5; do
-            # pull remote changes and replay our commit cleanly on top
-            git pull --rebase -X ours origin main 2>/dev/null || git rebase --abort 2>/dev/null || true
-            if git push origin main 2>/dev/null; then PUSHED=1; break; fi
-            echo "Push attempt $attempt failed, retrying ..."
-            sleep 6
+          for attempt in 1 2 3 4 5 6 7; do
+            echo "--- Push attempt $attempt of 7 ---"
+            git fetch origin main 2>&1
+            git merge -X ours origin/main --no-edit -m "ci: sync before push attempt $attempt" 2>&1 || {
+              echo "Merge failed on attempt $attempt — aborting and retrying"
+              git merge --abort 2>/dev/null || true
+              sleep $((attempt * 10))
+              continue
+            }
+            PUSH_OUT=$(git push origin main 2>&1)
+            PUSH_RC=$?
+            echo "$PUSH_OUT"
+            if [ "$PUSH_RC" -eq 0 ]; then
+              echo "Push succeeded on attempt $attempt"
+              PUSHED=1
+              break
+            fi
+            echo "Push failed (exit $PUSH_RC) — waiting $((attempt * 10))s before retry..."
+            sleep $((attempt * 10))
           done
-          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed after retries — China."; fi
+          if [ "$PUSHED" != "1" ]; then echo "::error::Push failed after 7 attempts — China."; exit 1; fi
       - name: Remove credentials
         if: always()
         run: rm -f /tmp/google_credentials.json
@@ -695,14 +825,27 @@ jobs:
           if git diff --staged --quiet; then echo "No changes to commit."; exit 0; fi
           git commit -m "SouthKorea HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
           PUSHED=0
-          for attempt in 1 2 3 4 5; do
-            # pull remote changes and replay our commit cleanly on top
-            git pull --rebase -X ours origin main 2>/dev/null || git rebase --abort 2>/dev/null || true
-            if git push origin main 2>/dev/null; then PUSHED=1; break; fi
-            echo "Push attempt $attempt failed, retrying ..."
-            sleep 6
+          for attempt in 1 2 3 4 5 6 7; do
+            echo "--- Push attempt $attempt of 7 ---"
+            git fetch origin main 2>&1
+            git merge -X ours origin/main --no-edit -m "ci: sync before push attempt $attempt" 2>&1 || {
+              echo "Merge failed on attempt $attempt — aborting and retrying"
+              git merge --abort 2>/dev/null || true
+              sleep $((attempt * 10))
+              continue
+            }
+            PUSH_OUT=$(git push origin main 2>&1)
+            PUSH_RC=$?
+            echo "$PUSH_OUT"
+            if [ "$PUSH_RC" -eq 0 ]; then
+              echo "Push succeeded on attempt $attempt"
+              PUSHED=1
+              break
+            fi
+            echo "Push failed (exit $PUSH_RC) — waiting $((attempt * 10))s before retry..."
+            sleep $((attempt * 10))
           done
-          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed after retries — SouthKorea."; fi
+          if [ "$PUSHED" != "1" ]; then echo "::error::Push failed after 7 attempts — SouthKorea."; exit 1; fi
       - name: Remove credentials
         if: always()
         run: rm -f /tmp/google_credentials.json
@@ -745,14 +888,27 @@ jobs:
           if git diff --staged --quiet; then echo "No changes to commit."; exit 0; fi
           git commit -m "Taiwan HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
           PUSHED=0
-          for attempt in 1 2 3 4 5; do
-            # pull remote changes and replay our commit cleanly on top
-            git pull --rebase -X ours origin main 2>/dev/null || git rebase --abort 2>/dev/null || true
-            if git push origin main 2>/dev/null; then PUSHED=1; break; fi
-            echo "Push attempt $attempt failed, retrying ..."
-            sleep 6
+          for attempt in 1 2 3 4 5 6 7; do
+            echo "--- Push attempt $attempt of 7 ---"
+            git fetch origin main 2>&1
+            git merge -X ours origin/main --no-edit -m "ci: sync before push attempt $attempt" 2>&1 || {
+              echo "Merge failed on attempt $attempt — aborting and retrying"
+              git merge --abort 2>/dev/null || true
+              sleep $((attempt * 10))
+              continue
+            }
+            PUSH_OUT=$(git push origin main 2>&1)
+            PUSH_RC=$?
+            echo "$PUSH_OUT"
+            if [ "$PUSH_RC" -eq 0 ]; then
+              echo "Push succeeded on attempt $attempt"
+              PUSHED=1
+              break
+            fi
+            echo "Push failed (exit $PUSH_RC) — waiting $((attempt * 10))s before retry..."
+            sleep $((attempt * 10))
           done
-          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed after retries — Taiwan."; fi
+          if [ "$PUSHED" != "1" ]; then echo "::error::Push failed after 7 attempts — Taiwan."; exit 1; fi
       - name: Remove credentials
         if: always()
         run: rm -f /tmp/google_credentials.json
@@ -795,14 +951,27 @@ jobs:
           if git diff --staged --quiet; then echo "No changes to commit."; exit 0; fi
           git commit -m "Switzerland HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
           PUSHED=0
-          for attempt in 1 2 3 4 5; do
-            # pull remote changes and replay our commit cleanly on top
-            git pull --rebase -X ours origin main 2>/dev/null || git rebase --abort 2>/dev/null || true
-            if git push origin main 2>/dev/null; then PUSHED=1; break; fi
-            echo "Push attempt $attempt failed, retrying ..."
-            sleep 6
+          for attempt in 1 2 3 4 5 6 7; do
+            echo "--- Push attempt $attempt of 7 ---"
+            git fetch origin main 2>&1
+            git merge -X ours origin/main --no-edit -m "ci: sync before push attempt $attempt" 2>&1 || {
+              echo "Merge failed on attempt $attempt — aborting and retrying"
+              git merge --abort 2>/dev/null || true
+              sleep $((attempt * 10))
+              continue
+            }
+            PUSH_OUT=$(git push origin main 2>&1)
+            PUSH_RC=$?
+            echo "$PUSH_OUT"
+            if [ "$PUSH_RC" -eq 0 ]; then
+              echo "Push succeeded on attempt $attempt"
+              PUSHED=1
+              break
+            fi
+            echo "Push failed (exit $PUSH_RC) — waiting $((attempt * 10))s before retry..."
+            sleep $((attempt * 10))
           done
-          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed after retries — Switzerland."; fi
+          if [ "$PUSHED" != "1" ]; then echo "::error::Push failed after 7 attempts — Switzerland."; exit 1; fi
       - name: Remove credentials
         if: always()
         run: rm -f /tmp/google_credentials.json
@@ -845,14 +1014,27 @@ jobs:
           if git diff --staged --quiet; then echo "No changes to commit."; exit 0; fi
           git commit -m "SaudiArabia HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
           PUSHED=0
-          for attempt in 1 2 3 4 5; do
-            # pull remote changes and replay our commit cleanly on top
-            git pull --rebase -X ours origin main 2>/dev/null || git rebase --abort 2>/dev/null || true
-            if git push origin main 2>/dev/null; then PUSHED=1; break; fi
-            echo "Push attempt $attempt failed, retrying ..."
-            sleep 6
+          for attempt in 1 2 3 4 5 6 7; do
+            echo "--- Push attempt $attempt of 7 ---"
+            git fetch origin main 2>&1
+            git merge -X ours origin/main --no-edit -m "ci: sync before push attempt $attempt" 2>&1 || {
+              echo "Merge failed on attempt $attempt — aborting and retrying"
+              git merge --abort 2>/dev/null || true
+              sleep $((attempt * 10))
+              continue
+            }
+            PUSH_OUT=$(git push origin main 2>&1)
+            PUSH_RC=$?
+            echo "$PUSH_OUT"
+            if [ "$PUSH_RC" -eq 0 ]; then
+              echo "Push succeeded on attempt $attempt"
+              PUSHED=1
+              break
+            fi
+            echo "Push failed (exit $PUSH_RC) — waiting $((attempt * 10))s before retry..."
+            sleep $((attempt * 10))
           done
-          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed after retries — SaudiArabia."; fi
+          if [ "$PUSHED" != "1" ]; then echo "::error::Push failed after 7 attempts — SaudiArabia."; exit 1; fi
       - name: Remove credentials
         if: always()
         run: rm -f /tmp/google_credentials.json
@@ -895,14 +1077,27 @@ jobs:
           if git diff --staged --quiet; then echo "No changes to commit."; exit 0; fi
           git commit -m "Netherlands HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
           PUSHED=0
-          for attempt in 1 2 3 4 5; do
-            # pull remote changes and replay our commit cleanly on top
-            git pull --rebase -X ours origin main 2>/dev/null || git rebase --abort 2>/dev/null || true
-            if git push origin main 2>/dev/null; then PUSHED=1; break; fi
-            echo "Push attempt $attempt failed, retrying ..."
-            sleep 6
+          for attempt in 1 2 3 4 5 6 7; do
+            echo "--- Push attempt $attempt of 7 ---"
+            git fetch origin main 2>&1
+            git merge -X ours origin/main --no-edit -m "ci: sync before push attempt $attempt" 2>&1 || {
+              echo "Merge failed on attempt $attempt — aborting and retrying"
+              git merge --abort 2>/dev/null || true
+              sleep $((attempt * 10))
+              continue
+            }
+            PUSH_OUT=$(git push origin main 2>&1)
+            PUSH_RC=$?
+            echo "$PUSH_OUT"
+            if [ "$PUSH_RC" -eq 0 ]; then
+              echo "Push succeeded on attempt $attempt"
+              PUSHED=1
+              break
+            fi
+            echo "Push failed (exit $PUSH_RC) — waiting $((attempt * 10))s before retry..."
+            sleep $((attempt * 10))
           done
-          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed after retries — Netherlands."; fi
+          if [ "$PUSHED" != "1" ]; then echo "::error::Push failed after 7 attempts — Netherlands."; exit 1; fi
       - name: Remove credentials
         if: always()
         run: rm -f /tmp/google_credentials.json
@@ -945,14 +1140,27 @@ jobs:
           if git diff --staged --quiet; then echo "No changes to commit."; exit 0; fi
           git commit -m "Spain HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
           PUSHED=0
-          for attempt in 1 2 3 4 5; do
-            # pull remote changes and replay our commit cleanly on top
-            git pull --rebase -X ours origin main 2>/dev/null || git rebase --abort 2>/dev/null || true
-            if git push origin main 2>/dev/null; then PUSHED=1; break; fi
-            echo "Push attempt $attempt failed, retrying ..."
-            sleep 6
+          for attempt in 1 2 3 4 5 6 7; do
+            echo "--- Push attempt $attempt of 7 ---"
+            git fetch origin main 2>&1
+            git merge -X ours origin/main --no-edit -m "ci: sync before push attempt $attempt" 2>&1 || {
+              echo "Merge failed on attempt $attempt — aborting and retrying"
+              git merge --abort 2>/dev/null || true
+              sleep $((attempt * 10))
+              continue
+            }
+            PUSH_OUT=$(git push origin main 2>&1)
+            PUSH_RC=$?
+            echo "$PUSH_OUT"
+            if [ "$PUSH_RC" -eq 0 ]; then
+              echo "Push succeeded on attempt $attempt"
+              PUSHED=1
+              break
+            fi
+            echo "Push failed (exit $PUSH_RC) — waiting $((attempt * 10))s before retry..."
+            sleep $((attempt * 10))
           done
-          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed after retries — Spain."; fi
+          if [ "$PUSHED" != "1" ]; then echo "::error::Push failed after 7 attempts — Spain."; exit 1; fi
       - name: Remove credentials
         if: always()
         run: rm -f /tmp/google_credentials.json
@@ -995,14 +1203,27 @@ jobs:
           if git diff --staged --quiet; then echo "No changes to commit."; exit 0; fi
           git commit -m "Sweden HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
           PUSHED=0
-          for attempt in 1 2 3 4 5; do
-            # pull remote changes and replay our commit cleanly on top
-            git pull --rebase -X ours origin main 2>/dev/null || git rebase --abort 2>/dev/null || true
-            if git push origin main 2>/dev/null; then PUSHED=1; break; fi
-            echo "Push attempt $attempt failed, retrying ..."
-            sleep 6
+          for attempt in 1 2 3 4 5 6 7; do
+            echo "--- Push attempt $attempt of 7 ---"
+            git fetch origin main 2>&1
+            git merge -X ours origin/main --no-edit -m "ci: sync before push attempt $attempt" 2>&1 || {
+              echo "Merge failed on attempt $attempt — aborting and retrying"
+              git merge --abort 2>/dev/null || true
+              sleep $((attempt * 10))
+              continue
+            }
+            PUSH_OUT=$(git push origin main 2>&1)
+            PUSH_RC=$?
+            echo "$PUSH_OUT"
+            if [ "$PUSH_RC" -eq 0 ]; then
+              echo "Push succeeded on attempt $attempt"
+              PUSHED=1
+              break
+            fi
+            echo "Push failed (exit $PUSH_RC) — waiting $((attempt * 10))s before retry..."
+            sleep $((attempt * 10))
           done
-          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed after retries — Sweden."; fi
+          if [ "$PUSHED" != "1" ]; then echo "::error::Push failed after 7 attempts — Sweden."; exit 1; fi
       - name: Remove credentials
         if: always()
         run: rm -f /tmp/google_credentials.json
@@ -1043,14 +1264,27 @@ jobs:
           if git diff --staged --quiet; then echo "No changes to commit."; exit 0; fi
           git commit -m "Hong Kong HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
           PUSHED=0
-          for attempt in 1 2 3 4 5; do
-            # pull remote changes and replay our commit cleanly on top
-            git pull --rebase -X ours origin main 2>/dev/null || git rebase --abort 2>/dev/null || true
-            if git push origin main 2>/dev/null; then PUSHED=1; break; fi
-            echo "Push attempt $attempt failed, retrying ..."
-            sleep 6
+          for attempt in 1 2 3 4 5 6 7; do
+            echo "--- Push attempt $attempt of 7 ---"
+            git fetch origin main 2>&1
+            git merge -X ours origin/main --no-edit -m "ci: sync before push attempt $attempt" 2>&1 || {
+              echo "Merge failed on attempt $attempt — aborting and retrying"
+              git merge --abort 2>/dev/null || true
+              sleep $((attempt * 10))
+              continue
+            }
+            PUSH_OUT=$(git push origin main 2>&1)
+            PUSH_RC=$?
+            echo "$PUSH_OUT"
+            if [ "$PUSH_RC" -eq 0 ]; then
+              echo "Push succeeded on attempt $attempt"
+              PUSHED=1
+              break
+            fi
+            echo "Push failed (exit $PUSH_RC) — waiting $((attempt * 10))s before retry..."
+            sleep $((attempt * 10))
           done
-          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed after retries — Hong Kong."; fi
+          if [ "$PUSHED" != "1" ]; then echo "::error::Push failed after 7 attempts — Hong Kong."; exit 1; fi
 
   run-it:
     name: "🇮🇹 Italy  16:45 UTC (HTML)"
@@ -1084,14 +1318,27 @@ jobs:
           if git diff --staged --quiet; then echo "No changes to commit."; exit 0; fi
           git commit -m "Italy HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
           PUSHED=0
-          for attempt in 1 2 3 4 5; do
-            # pull remote changes and replay our commit cleanly on top
-            git pull --rebase -X ours origin main 2>/dev/null || git rebase --abort 2>/dev/null || true
-            if git push origin main 2>/dev/null; then PUSHED=1; break; fi
-            echo "Push attempt $attempt failed, retrying ..."
-            sleep 6
+          for attempt in 1 2 3 4 5 6 7; do
+            echo "--- Push attempt $attempt of 7 ---"
+            git fetch origin main 2>&1
+            git merge -X ours origin/main --no-edit -m "ci: sync before push attempt $attempt" 2>&1 || {
+              echo "Merge failed on attempt $attempt — aborting and retrying"
+              git merge --abort 2>/dev/null || true
+              sleep $((attempt * 10))
+              continue
+            }
+            PUSH_OUT=$(git push origin main 2>&1)
+            PUSH_RC=$?
+            echo "$PUSH_OUT"
+            if [ "$PUSH_RC" -eq 0 ]; then
+              echo "Push succeeded on attempt $attempt"
+              PUSHED=1
+              break
+            fi
+            echo "Push failed (exit $PUSH_RC) — waiting $((attempt * 10))s before retry..."
+            sleep $((attempt * 10))
           done
-          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed after retries — Italy."; fi
+          if [ "$PUSHED" != "1" ]; then echo "::error::Push failed after 7 attempts — Italy."; exit 1; fi
 
   run-sg:
     name: "🇸🇬 Singapore  10:45 UTC (HTML)"
@@ -1125,14 +1372,27 @@ jobs:
           if git diff --staged --quiet; then echo "No changes to commit."; exit 0; fi
           git commit -m "Singapore HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
           PUSHED=0
-          for attempt in 1 2 3 4 5; do
-            # pull remote changes and replay our commit cleanly on top
-            git pull --rebase -X ours origin main 2>/dev/null || git rebase --abort 2>/dev/null || true
-            if git push origin main 2>/dev/null; then PUSHED=1; break; fi
-            echo "Push attempt $attempt failed, retrying ..."
-            sleep 6
+          for attempt in 1 2 3 4 5 6 7; do
+            echo "--- Push attempt $attempt of 7 ---"
+            git fetch origin main 2>&1
+            git merge -X ours origin/main --no-edit -m "ci: sync before push attempt $attempt" 2>&1 || {
+              echo "Merge failed on attempt $attempt — aborting and retrying"
+              git merge --abort 2>/dev/null || true
+              sleep $((attempt * 10))
+              continue
+            }
+            PUSH_OUT=$(git push origin main 2>&1)
+            PUSH_RC=$?
+            echo "$PUSH_OUT"
+            if [ "$PUSH_RC" -eq 0 ]; then
+              echo "Push succeeded on attempt $attempt"
+              PUSHED=1
+              break
+            fi
+            echo "Push failed (exit $PUSH_RC) — waiting $((attempt * 10))s before retry..."
+            sleep $((attempt * 10))
           done
-          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed after retries — Singapore."; fi
+          if [ "$PUSHED" != "1" ]; then echo "::error::Push failed after 7 attempts — Singapore."; exit 1; fi
 
   run-id:
     name: "🇮🇩 Indonesia  10:15 UTC (HTML)"
@@ -1166,14 +1426,27 @@ jobs:
           if git diff --staged --quiet; then echo "No changes to commit."; exit 0; fi
           git commit -m "Indonesia HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
           PUSHED=0
-          for attempt in 1 2 3 4 5; do
-            # pull remote changes and replay our commit cleanly on top
-            git pull --rebase -X ours origin main 2>/dev/null || git rebase --abort 2>/dev/null || true
-            if git push origin main 2>/dev/null; then PUSHED=1; break; fi
-            echo "Push attempt $attempt failed, retrying ..."
-            sleep 6
+          for attempt in 1 2 3 4 5 6 7; do
+            echo "--- Push attempt $attempt of 7 ---"
+            git fetch origin main 2>&1
+            git merge -X ours origin/main --no-edit -m "ci: sync before push attempt $attempt" 2>&1 || {
+              echo "Merge failed on attempt $attempt — aborting and retrying"
+              git merge --abort 2>/dev/null || true
+              sleep $((attempt * 10))
+              continue
+            }
+            PUSH_OUT=$(git push origin main 2>&1)
+            PUSH_RC=$?
+            echo "$PUSH_OUT"
+            if [ "$PUSH_RC" -eq 0 ]; then
+              echo "Push succeeded on attempt $attempt"
+              PUSHED=1
+              break
+            fi
+            echo "Push failed (exit $PUSH_RC) — waiting $((attempt * 10))s before retry..."
+            sleep $((attempt * 10))
           done
-          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed after retries — Indonesia."; fi
+          if [ "$PUSHED" != "1" ]; then echo "::error::Push failed after 7 attempts — Indonesia."; exit 1; fi
 
   run-za:
     name: "🇿🇦 South Africa  16:00 UTC (HTML)"
@@ -1207,14 +1480,27 @@ jobs:
           if git diff --staged --quiet; then echo "No changes to commit."; exit 0; fi
           git commit -m "South Africa HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
           PUSHED=0
-          for attempt in 1 2 3 4 5; do
-            # pull remote changes and replay our commit cleanly on top
-            git pull --rebase -X ours origin main 2>/dev/null || git rebase --abort 2>/dev/null || true
-            if git push origin main 2>/dev/null; then PUSHED=1; break; fi
-            echo "Push attempt $attempt failed, retrying ..."
-            sleep 6
+          for attempt in 1 2 3 4 5 6 7; do
+            echo "--- Push attempt $attempt of 7 ---"
+            git fetch origin main 2>&1
+            git merge -X ours origin/main --no-edit -m "ci: sync before push attempt $attempt" 2>&1 || {
+              echo "Merge failed on attempt $attempt — aborting and retrying"
+              git merge --abort 2>/dev/null || true
+              sleep $((attempt * 10))
+              continue
+            }
+            PUSH_OUT=$(git push origin main 2>&1)
+            PUSH_RC=$?
+            echo "$PUSH_OUT"
+            if [ "$PUSH_RC" -eq 0 ]; then
+              echo "Push succeeded on attempt $attempt"
+              PUSHED=1
+              break
+            fi
+            echo "Push failed (exit $PUSH_RC) — waiting $((attempt * 10))s before retry..."
+            sleep $((attempt * 10))
           done
-          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed after retries — South Africa."; fi
+          if [ "$PUSHED" != "1" ]; then echo "::error::Push failed after 7 attempts — South Africa."; exit 1; fi
 
   run-mx:
     name: "🇲🇽 Mexico  21:30 UTC (HTML)"
@@ -1248,14 +1534,27 @@ jobs:
           if git diff --staged --quiet; then echo "No changes to commit."; exit 0; fi
           git commit -m "Mexico HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
           PUSHED=0
-          for attempt in 1 2 3 4 5; do
-            # pull remote changes and replay our commit cleanly on top
-            git pull --rebase -X ours origin main 2>/dev/null || git rebase --abort 2>/dev/null || true
-            if git push origin main 2>/dev/null; then PUSHED=1; break; fi
-            echo "Push attempt $attempt failed, retrying ..."
-            sleep 6
+          for attempt in 1 2 3 4 5 6 7; do
+            echo "--- Push attempt $attempt of 7 ---"
+            git fetch origin main 2>&1
+            git merge -X ours origin/main --no-edit -m "ci: sync before push attempt $attempt" 2>&1 || {
+              echo "Merge failed on attempt $attempt — aborting and retrying"
+              git merge --abort 2>/dev/null || true
+              sleep $((attempt * 10))
+              continue
+            }
+            PUSH_OUT=$(git push origin main 2>&1)
+            PUSH_RC=$?
+            echo "$PUSH_OUT"
+            if [ "$PUSH_RC" -eq 0 ]; then
+              echo "Push succeeded on attempt $attempt"
+              PUSHED=1
+              break
+            fi
+            echo "Push failed (exit $PUSH_RC) — waiting $((attempt * 10))s before retry..."
+            sleep $((attempt * 10))
           done
-          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed after retries — Mexico."; fi
+          if [ "$PUSHED" != "1" ]; then echo "::error::Push failed after 7 attempts — Mexico."; exit 1; fi
 
   run-th:
     name: "🇹🇭 Thailand  11:00 UTC (HTML)"
@@ -1289,14 +1588,27 @@ jobs:
           if git diff --staged --quiet; then echo "No changes to commit."; exit 0; fi
           git commit -m "Thailand HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
           PUSHED=0
-          for attempt in 1 2 3 4 5; do
-            # pull remote changes and replay our commit cleanly on top
-            git pull --rebase -X ours origin main 2>/dev/null || git rebase --abort 2>/dev/null || true
-            if git push origin main 2>/dev/null; then PUSHED=1; break; fi
-            echo "Push attempt $attempt failed, retrying ..."
-            sleep 6
+          for attempt in 1 2 3 4 5 6 7; do
+            echo "--- Push attempt $attempt of 7 ---"
+            git fetch origin main 2>&1
+            git merge -X ours origin/main --no-edit -m "ci: sync before push attempt $attempt" 2>&1 || {
+              echo "Merge failed on attempt $attempt — aborting and retrying"
+              git merge --abort 2>/dev/null || true
+              sleep $((attempt * 10))
+              continue
+            }
+            PUSH_OUT=$(git push origin main 2>&1)
+            PUSH_RC=$?
+            echo "$PUSH_OUT"
+            if [ "$PUSH_RC" -eq 0 ]; then
+              echo "Push succeeded on attempt $attempt"
+              PUSHED=1
+              break
+            fi
+            echo "Push failed (exit $PUSH_RC) — waiting $((attempt * 10))s before retry..."
+            sleep $((attempt * 10))
           done
-          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed after retries — Thailand."; fi
+          if [ "$PUSHED" != "1" ]; then echo "::error::Push failed after 7 attempts — Thailand."; exit 1; fi
 
   run-my:
     name: "🇲🇾 Malaysia  10:30 UTC (HTML)"
@@ -1330,14 +1642,27 @@ jobs:
           if git diff --staged --quiet; then echo "No changes to commit."; exit 0; fi
           git commit -m "Malaysia HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
           PUSHED=0
-          for attempt in 1 2 3 4 5; do
-            # pull remote changes and replay our commit cleanly on top
-            git pull --rebase -X ours origin main 2>/dev/null || git rebase --abort 2>/dev/null || true
-            if git push origin main 2>/dev/null; then PUSHED=1; break; fi
-            echo "Push attempt $attempt failed, retrying ..."
-            sleep 6
+          for attempt in 1 2 3 4 5 6 7; do
+            echo "--- Push attempt $attempt of 7 ---"
+            git fetch origin main 2>&1
+            git merge -X ours origin/main --no-edit -m "ci: sync before push attempt $attempt" 2>&1 || {
+              echo "Merge failed on attempt $attempt — aborting and retrying"
+              git merge --abort 2>/dev/null || true
+              sleep $((attempt * 10))
+              continue
+            }
+            PUSH_OUT=$(git push origin main 2>&1)
+            PUSH_RC=$?
+            echo "$PUSH_OUT"
+            if [ "$PUSH_RC" -eq 0 ]; then
+              echo "Push succeeded on attempt $attempt"
+              PUSHED=1
+              break
+            fi
+            echo "Push failed (exit $PUSH_RC) — waiting $((attempt * 10))s before retry..."
+            sleep $((attempt * 10))
           done
-          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed after retries — Malaysia."; fi
+          if [ "$PUSHED" != "1" ]; then echo "::error::Push failed after 7 attempts — Malaysia."; exit 1; fi
 
   run-uae:
     name: "🇦🇪 UAE  11:30 UTC (HTML)"
@@ -1371,14 +1696,27 @@ jobs:
           if git diff --staged --quiet; then echo "No changes to commit."; exit 0; fi
           git commit -m "UAE HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
           PUSHED=0
-          for attempt in 1 2 3 4 5; do
-            # pull remote changes and replay our commit cleanly on top
-            git pull --rebase -X ours origin main 2>/dev/null || git rebase --abort 2>/dev/null || true
-            if git push origin main 2>/dev/null; then PUSHED=1; break; fi
-            echo "Push attempt $attempt failed, retrying ..."
-            sleep 6
+          for attempt in 1 2 3 4 5 6 7; do
+            echo "--- Push attempt $attempt of 7 ---"
+            git fetch origin main 2>&1
+            git merge -X ours origin/main --no-edit -m "ci: sync before push attempt $attempt" 2>&1 || {
+              echo "Merge failed on attempt $attempt — aborting and retrying"
+              git merge --abort 2>/dev/null || true
+              sleep $((attempt * 10))
+              continue
+            }
+            PUSH_OUT=$(git push origin main 2>&1)
+            PUSH_RC=$?
+            echo "$PUSH_OUT"
+            if [ "$PUSH_RC" -eq 0 ]; then
+              echo "Push succeeded on attempt $attempt"
+              PUSHED=1
+              break
+            fi
+            echo "Push failed (exit $PUSH_RC) — waiting $((attempt * 10))s before retry..."
+            sleep $((attempt * 10))
           done
-          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed after retries — UAE."; fi
+          if [ "$PUSHED" != "1" ]; then echo "::error::Push failed after 7 attempts — UAE."; exit 1; fi
 
   run-pl:
     name: "🇵🇱 Poland  16:15 UTC (HTML)"
@@ -1412,14 +1750,27 @@ jobs:
           if git diff --staged --quiet; then echo "No changes to commit."; exit 0; fi
           git commit -m "Poland HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
           PUSHED=0
-          for attempt in 1 2 3 4 5; do
-            # pull remote changes and replay our commit cleanly on top
-            git pull --rebase -X ours origin main 2>/dev/null || git rebase --abort 2>/dev/null || true
-            if git push origin main 2>/dev/null; then PUSHED=1; break; fi
-            echo "Push attempt $attempt failed, retrying ..."
-            sleep 6
+          for attempt in 1 2 3 4 5 6 7; do
+            echo "--- Push attempt $attempt of 7 ---"
+            git fetch origin main 2>&1
+            git merge -X ours origin/main --no-edit -m "ci: sync before push attempt $attempt" 2>&1 || {
+              echo "Merge failed on attempt $attempt — aborting and retrying"
+              git merge --abort 2>/dev/null || true
+              sleep $((attempt * 10))
+              continue
+            }
+            PUSH_OUT=$(git push origin main 2>&1)
+            PUSH_RC=$?
+            echo "$PUSH_OUT"
+            if [ "$PUSH_RC" -eq 0 ]; then
+              echo "Push succeeded on attempt $attempt"
+              PUSHED=1
+              break
+            fi
+            echo "Push failed (exit $PUSH_RC) — waiting $((attempt * 10))s before retry..."
+            sleep $((attempt * 10))
           done
-          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed after retries — Poland."; fi
+          if [ "$PUSHED" != "1" ]; then echo "::error::Push failed after 7 attempts — Poland."; exit 1; fi
 
   run-tr:
     name: "🇹🇷 Turkey  16:30 UTC (HTML)"
@@ -1453,14 +1804,27 @@ jobs:
           if git diff --staged --quiet; then echo "No changes to commit."; exit 0; fi
           git commit -m "Turkey HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
           PUSHED=0
-          for attempt in 1 2 3 4 5; do
-            # pull remote changes and replay our commit cleanly on top
-            git pull --rebase -X ours origin main 2>/dev/null || git rebase --abort 2>/dev/null || true
-            if git push origin main 2>/dev/null; then PUSHED=1; break; fi
-            echo "Push attempt $attempt failed, retrying ..."
-            sleep 6
+          for attempt in 1 2 3 4 5 6 7; do
+            echo "--- Push attempt $attempt of 7 ---"
+            git fetch origin main 2>&1
+            git merge -X ours origin/main --no-edit -m "ci: sync before push attempt $attempt" 2>&1 || {
+              echo "Merge failed on attempt $attempt — aborting and retrying"
+              git merge --abort 2>/dev/null || true
+              sleep $((attempt * 10))
+              continue
+            }
+            PUSH_OUT=$(git push origin main 2>&1)
+            PUSH_RC=$?
+            echo "$PUSH_OUT"
+            if [ "$PUSH_RC" -eq 0 ]; then
+              echo "Push succeeded on attempt $attempt"
+              PUSHED=1
+              break
+            fi
+            echo "Push failed (exit $PUSH_RC) — waiting $((attempt * 10))s before retry..."
+            sleep $((attempt * 10))
           done
-          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed after retries — Turkey."; fi
+          if [ "$PUSHED" != "1" ]; then echo "::error::Push failed after 7 attempts — Turkey."; exit 1; fi
 
   run-india-html:
     name: "🇮🇳 India HTML  05:00 UTC"
@@ -1493,13 +1857,27 @@ jobs:
           if git diff --staged --quiet; then echo "No changes to commit."; exit 0; fi
           git commit -m "India IN HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
           PUSHED=0
-          for attempt in 1 2 3 4 5; do
-            git pull --rebase -X ours origin main 2>/dev/null || git rebase --abort 2>/dev/null || true
-            if git push origin main 2>/dev/null; then PUSHED=1; break; fi
-            echo "Push attempt $attempt failed, retrying ..."
-            sleep 6
+          for attempt in 1 2 3 4 5 6 7; do
+            echo "--- Push attempt $attempt of 7 ---"
+            git fetch origin main 2>&1
+            git merge -X ours origin/main --no-edit -m "ci: sync before push attempt $attempt" 2>&1 || {
+              echo "Merge failed on attempt $attempt — aborting and retrying"
+              git merge --abort 2>/dev/null || true
+              sleep $((attempt * 10))
+              continue
+            }
+            PUSH_OUT=$(git push origin main 2>&1)
+            PUSH_RC=$?
+            echo "$PUSH_OUT"
+            if [ "$PUSH_RC" -eq 0 ]; then
+              echo "Push succeeded on attempt $attempt"
+              PUSHED=1
+              break
+            fi
+            echo "Push failed (exit $PUSH_RC) — waiting $((attempt * 10))s before retry..."
+            sleep $((attempt * 10))
           done
-          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed after retries — India IN."; fi
+          if [ "$PUSHED" != "1" ]; then echo "::error::Push failed after 7 attempts — India IN."; exit 1; fi
 
   run-usa-html:
     name: "🇺🇸 USA HTML  00:00 UTC"
@@ -1532,13 +1910,27 @@ jobs:
           if git diff --staged --quiet; then echo "No changes to commit."; exit 0; fi
           git commit -m "USA US HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
           PUSHED=0
-          for attempt in 1 2 3 4 5; do
-            git pull --rebase -X ours origin main 2>/dev/null || git rebase --abort 2>/dev/null || true
-            if git push origin main 2>/dev/null; then PUSHED=1; break; fi
-            echo "Push attempt $attempt failed, retrying ..."
-            sleep 6
+          for attempt in 1 2 3 4 5 6 7; do
+            echo "--- Push attempt $attempt of 7 ---"
+            git fetch origin main 2>&1
+            git merge -X ours origin/main --no-edit -m "ci: sync before push attempt $attempt" 2>&1 || {
+              echo "Merge failed on attempt $attempt — aborting and retrying"
+              git merge --abort 2>/dev/null || true
+              sleep $((attempt * 10))
+              continue
+            }
+            PUSH_OUT=$(git push origin main 2>&1)
+            PUSH_RC=$?
+            echo "$PUSH_OUT"
+            if [ "$PUSH_RC" -eq 0 ]; then
+              echo "Push succeeded on attempt $attempt"
+              PUSHED=1
+              break
+            fi
+            echo "Push failed (exit $PUSH_RC) — waiting $((attempt * 10))s before retry..."
+            sleep $((attempt * 10))
           done
-          if [ "$PUSHED" != "1" ]; then echo "::warning::Push failed after retries — USA US."; fi
+          if [ "$PUSHED" != "1" ]; then echo "::error::Push failed after 7 attempts — USA US."; exit 1; fi
 
   run-scans:
     name: "📊 Chartink Scans  03:00 / 09:00 UTC"
