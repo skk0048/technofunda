@@ -254,11 +254,14 @@ def main():
         print(f"  \u26a0 {AE_INDEX} empty, trying {AE_INDEX_FALLBACK} …")
         raw = yf.download(AE_INDEX_FALLBACK, start=start_dt.strftime("%Y-%m-%d"),
                           end=end_dt.strftime("%Y-%m-%d"), auto_adjust=True, progress=False)
-    if raw.empty: print(f"  \u274c Cannot fetch UAE index"); return
-    cl = raw["Close"]
-    if isinstance(cl, pd.DataFrame): cl = cl.squeeze()
-    index_prices = _normalize(cl.dropna())
-    print(f"  \u2705 Index: {len(index_prices)} days")
+    if raw.empty:
+        print(f"  \u26a0 Both index tickers failed \u2014 will build synthetic index from stocks after price fetch")
+        index_prices = None
+    else:
+        cl = raw["Close"]
+        if isinstance(cl, pd.DataFrame): cl = cl.squeeze()
+        index_prices = _normalize(cl.dropna())
+        print(f"  \u2705 Index: {len(index_prices)} days")
 
     print(f"\n\U0001F4E1 UAE Sector ETFs …"); sector_prices = fetch_ae_sector_prices()
 
@@ -266,6 +269,14 @@ def main():
     print(f"\n\U0001F4E1 Fetching {len(stock_syms)} stock closes …")
     price_data = fetch_close_batch(stock_syms, PERIOD_DAYS)
     print(f"  \u2705 Stocks: {len(price_data.columns)} loaded")
+    # Build synthetic index from equal-weight of all stocks if both index tickers failed
+    if index_prices is None:
+        if not price_data.empty:
+            synthetic = price_data.dropna(how="all").mean(axis=1).dropna()
+            index_prices = _normalize(synthetic)
+            print(f"  \u2705 Synthetic index built from {len(price_data.columns)} stocks ({len(index_prices)} days)")
+        else:
+            print("  \u274c Cannot build synthetic index \u2014 no stock price data either; aborting."); return
     # Fill any sector missing an ETF with equal-weight stock composite
     print("📡 Filling missing sector prices from stock composites …")
     sector_prices = fill_missing_sector_prices(universe, price_data, sector_prices, AE_SECTORS)
