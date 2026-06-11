@@ -162,58 +162,58 @@ jobs:
   #   runs-on: ubuntu-latest
   #   timeout-minutes: 90
   #   if: false
-    steps:
-      - uses: actions/checkout@v4
-        with: { fetch-depth: 0 }
-      - uses: actions/setup-python@v5
-        with: { python-version: "3.11", cache: "pip" }
-      - name: Install dependencies
-        run: pip install --upgrade pip && pip install -r requirements.txt
-      - name: Write Google credentials
-        env: { GOOGLE_CREDENTIALS: "${{ secrets.GOOGLE_CREDENTIALS }}" }
-        run: echo "$GOOGLE_CREDENTIALS" > /tmp/google_credentials.json
-      - name: Run India analysis
-        env:
-          GOOGLE_CREDENTIALS_PATH: /tmp/google_credentials.json
-          GOOGLE_SHEET_URL: ${{ secrets.GOOGLE_SHEET_URL }}
-        run: python market_india_gsht.py
-      - name: Rebuild homepage
-        run: python build_index.py
-      - name: Commit and push
-        run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          # ignore pycache noise
-          echo "__pycache__/" >> .gitignore 2>/dev/null || true
-          git rm -r --cached SupportFiles/__pycache__ 2>/dev/null || true
-          git add -f India_Market_Analysis*.html index.html 2>/dev/null || true
-          if git diff --staged --quiet; then echo "No changes to commit."; exit 0; fi
-          git commit -m "India HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
-          PUSHED=0
-          for attempt in 1 2 3 4 5 6 7; do
-            echo "--- Push attempt $attempt of 7 ---"
-            git fetch origin main 2>&1
-            git merge -X ours origin/main --no-edit -m "ci: sync before push attempt $attempt" 2>&1 || {
-              echo "Merge failed on attempt $attempt — aborting and retrying"
-              git merge --abort 2>/dev/null || true
-              sleep $((attempt * 10))
-              continue
-            }
-            PUSH_OUT=$(git push origin main 2>&1)
-            PUSH_RC=$?
-            echo "$PUSH_OUT"
-            if [ "$PUSH_RC" -eq 0 ]; then
-              echo "Push succeeded on attempt $attempt"
-              PUSHED=1
-              break
-            fi
-            echo "Push failed (exit $PUSH_RC) — waiting $((attempt * 10))s before retry..."
-            sleep $((attempt * 10))
-          done
-          if [ "$PUSHED" != "1" ]; then echo "::error::Push failed after 7 attempts — India."; exit 1; fi
-      - name: Remove credentials
-        if: always()
-        run: rm -f /tmp/google_credentials.json
+  #   steps:
+  #     - uses: actions/checkout@v4
+  #       with: { fetch-depth: 0 }
+  #     - uses: actions/setup-python@v5
+  #       with: { python-version: "3.11", cache: "pip" }
+  #     - name: Install dependencies
+  #       run: pip install --upgrade pip && pip install -r requirements.txt
+  #     - name: Write Google credentials
+  #       env: { GOOGLE_CREDENTIALS: "${{ secrets.GOOGLE_CREDENTIALS }}" }
+  #       run: echo "$GOOGLE_CREDENTIALS" > /tmp/google_credentials.json
+  #     - name: Run India analysis
+  #       env:
+  #         GOOGLE_CREDENTIALS_PATH: /tmp/google_credentials.json
+  #         GOOGLE_SHEET_URL: ${{ secrets.GOOGLE_SHEET_URL }}
+  #       run: python market_india_gsht.py
+  #     - name: Rebuild homepage
+  #       run: python build_index.py
+  #     - name: Commit and push
+  #       run: |
+  #         git config user.name  "github-actions[bot]"
+  #         git config user.email "github-actions[bot]@users.noreply.github.com"
+  #         # ignore pycache noise
+  #         echo "__pycache__/" >> .gitignore 2>/dev/null || true
+  #         git rm -r --cached SupportFiles/__pycache__ 2>/dev/null || true
+  #         git add -f India_Market_Analysis*.html index.html 2>/dev/null || true
+  #         if git diff --staged --quiet; then echo "No changes to commit."; exit 0; fi
+  #         git commit -m "India HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
+  #         PUSHED=0
+  #         for attempt in 1 2 3 4 5 6 7; do
+  #           echo "--- Push attempt $attempt of 7 ---"
+  #           git fetch origin main 2>&1
+  #           git merge -X ours origin/main --no-edit -m "ci: sync before push attempt $attempt" 2>&1 || {
+  #             echo "Merge failed on attempt $attempt — aborting and retrying"
+  #             git merge --abort 2>/dev/null || true
+  #             sleep $((attempt * 10))
+  #             continue
+  #           }
+  #           PUSH_OUT=$(git push origin main 2>&1)
+  #           PUSH_RC=$?
+  #           echo "$PUSH_OUT"
+  #           if [ "$PUSH_RC" -eq 0 ]; then
+  #             echo "Push succeeded on attempt $attempt"
+  #             PUSHED=1
+  #             break
+  #           fi
+  #           echo "Push failed (exit $PUSH_RC) — waiting $((attempt * 10))s before retry..."
+  #           sleep $((attempt * 10))
+  #         done
+  #         if [ "$PUSHED" != "1" ]; then echo "::error::Push failed after 7 attempts — India."; exit 1; fi
+  #     - name: Remove credentials
+  #       if: always()
+  #       run: rm -f /tmp/google_credentials.json
 
   # DISABLED: Use run-usa-html instead for 2 daily HTML-only runs
   # run-usa:
@@ -221,58 +221,58 @@ jobs:
   #   runs-on: ubuntu-latest
   #   timeout-minutes: 90
   #   if: false
-    steps:
-      - uses: actions/checkout@v4
-        with: { fetch-depth: 0 }
-      - uses: actions/setup-python@v5
-        with: { python-version: "3.11", cache: "pip" }
-      - name: Install dependencies
-        run: pip install --upgrade pip && pip install -r requirements.txt
-      - name: Write Google credentials
-        env: { GOOGLE_CREDENTIALS: "${{ secrets.GOOGLE_CREDENTIALS }}" }
-        run: echo "$GOOGLE_CREDENTIALS" > /tmp/google_credentials.json
-      - name: Run USA analysis
-        env:
-          GOOGLE_CREDENTIALS_PATH: /tmp/google_credentials.json
-          GOOGLE_SHEET_URL_US: ${{ secrets.GOOGLE_SHEET_URL_USA }}
-        run: python market_usa_gsht.py
-      - name: Rebuild homepage
-        run: python build_index.py
-      - name: Commit and push
-        run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          # ignore pycache noise
-          echo "__pycache__/" >> .gitignore 2>/dev/null || true
-          git rm -r --cached SupportFiles/__pycache__ 2>/dev/null || true
-          git add -f USA_Market_Analysis*.html index.html 2>/dev/null || true
-          if git diff --staged --quiet; then echo "No changes to commit."; exit 0; fi
-          git commit -m "USA HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
-          PUSHED=0
-          for attempt in 1 2 3 4 5 6 7; do
-            echo "--- Push attempt $attempt of 7 ---"
-            git fetch origin main 2>&1
-            git merge -X ours origin/main --no-edit -m "ci: sync before push attempt $attempt" 2>&1 || {
-              echo "Merge failed on attempt $attempt — aborting and retrying"
-              git merge --abort 2>/dev/null || true
-              sleep $((attempt * 10))
-              continue
-            }
-            PUSH_OUT=$(git push origin main 2>&1)
-            PUSH_RC=$?
-            echo "$PUSH_OUT"
-            if [ "$PUSH_RC" -eq 0 ]; then
-              echo "Push succeeded on attempt $attempt"
-              PUSHED=1
-              break
-            fi
-            echo "Push failed (exit $PUSH_RC) — waiting $((attempt * 10))s before retry..."
-            sleep $((attempt * 10))
-          done
-          if [ "$PUSHED" != "1" ]; then echo "::error::Push failed after 7 attempts — USA."; exit 1; fi
-      - name: Remove credentials
-        if: always()
-        run: rm -f /tmp/google_credentials.json
+  #   steps:
+  #     - uses: actions/checkout@v4
+  #       with: { fetch-depth: 0 }
+  #     - uses: actions/setup-python@v5
+  #       with: { python-version: "3.11", cache: "pip" }
+  #     - name: Install dependencies
+  #       run: pip install --upgrade pip && pip install -r requirements.txt
+  #     - name: Write Google credentials
+  #       env: { GOOGLE_CREDENTIALS: "${{ secrets.GOOGLE_CREDENTIALS }}" }
+  #       run: echo "$GOOGLE_CREDENTIALS" > /tmp/google_credentials.json
+  #     - name: Run USA analysis
+  #       env:
+  #         GOOGLE_CREDENTIALS_PATH: /tmp/google_credentials.json
+  #         GOOGLE_SHEET_URL_US: ${{ secrets.GOOGLE_SHEET_URL_USA }}
+  #       run: python market_usa_gsht.py
+  #     - name: Rebuild homepage
+  #       run: python build_index.py
+  #     - name: Commit and push
+  #       run: |
+  #         git config user.name  "github-actions[bot]"
+  #         git config user.email "github-actions[bot]@users.noreply.github.com"
+  #         # ignore pycache noise
+  #         echo "__pycache__/" >> .gitignore 2>/dev/null || true
+  #         git rm -r --cached SupportFiles/__pycache__ 2>/dev/null || true
+  #         git add -f USA_Market_Analysis*.html index.html 2>/dev/null || true
+  #         if git diff --staged --quiet; then echo "No changes to commit."; exit 0; fi
+  #         git commit -m "USA HTML $(date -u '+%Y-%m-%d %H:%M UTC')"
+  #         PUSHED=0
+  #         for attempt in 1 2 3 4 5 6 7; do
+  #           echo "--- Push attempt $attempt of 7 ---"
+  #           git fetch origin main 2>&1
+  #           git merge -X ours origin/main --no-edit -m "ci: sync before push attempt $attempt" 2>&1 || {
+  #             echo "Merge failed on attempt $attempt — aborting and retrying"
+  #             git merge --abort 2>/dev/null || true
+  #             sleep $((attempt * 10))
+  #             continue
+  #           }
+  #           PUSH_OUT=$(git push origin main 2>&1)
+  #           PUSH_RC=$?
+  #           echo "$PUSH_OUT"
+  #           if [ "$PUSH_RC" -eq 0 ]; then
+  #             echo "Push succeeded on attempt $attempt"
+  #             PUSHED=1
+  #             break
+  #           fi
+  #           echo "Push failed (exit $PUSH_RC) — waiting $((attempt * 10))s before retry..."
+  #           sleep $((attempt * 10))
+  #         done
+  #         if [ "$PUSHED" != "1" ]; then echo "::error::Push failed after 7 attempts — USA."; exit 1; fi
+  #     - name: Remove credentials
+  #       if: always()
+  #       run: rm -f /tmp/google_credentials.json
 
   run-uk:
     name: "🇬🇧 UK  17:00 UTC"
@@ -1940,26 +1940,26 @@ jobs:
   #   runs-on: ubuntu-latest
   #   timeout-minutes: 60
   #   if: false
-    steps:
-      - uses: actions/checkout@v4
-        with: { fetch-depth: 0 }
-      - uses: actions/setup-python@v5
-        with: { python-version: "3.11", cache: "pip" }
-      - name: Install dependencies
-        run: pip install --upgrade pip && pip install -r requirements.txt
-      - name: Write Google credentials
-        env: { GOOGLE_CREDENTIALS: "${{ secrets.GOOGLE_CREDENTIALS }}" }
-        run: echo "$GOOGLE_CREDENTIALS" > /tmp/google_credentials.json
-      - name: Run LongTerm scan
-        env:
-          GOOGLE_CREDENTIALS_PATH: /tmp/google_credentials.json
-          GOOGLE_SHEET_URL_SCANS: ${{ secrets.GOOGLE_SHEET_URL_SCANS }}
-        run: python LongTerm.py
-      - name: Run FnO scan
-        env:
-          GOOGLE_CREDENTIALS_PATH: /tmp/google_credentials.json
-          GOOGLE_SHEET_URL_SCANS: ${{ secrets.GOOGLE_SHEET_URL_SCANS }}
-        run: python FnO.py
-      - name: Remove credentials
-        if: always()
-        run: rm -f /tmp/google_credentials.json
+  #   steps:
+  #     - uses: actions/checkout@v4
+  #       with: { fetch-depth: 0 }
+  #     - uses: actions/setup-python@v5
+  #       with: { python-version: "3.11", cache: "pip" }
+  #     - name: Install dependencies
+  #       run: pip install --upgrade pip && pip install -r requirements.txt
+  #     - name: Write Google credentials
+  #       env: { GOOGLE_CREDENTIALS: "${{ secrets.GOOGLE_CREDENTIALS }}" }
+  #       run: echo "$GOOGLE_CREDENTIALS" > /tmp/google_credentials.json
+  #     - name: Run LongTerm scan
+  #       env:
+  #         GOOGLE_CREDENTIALS_PATH: /tmp/google_credentials.json
+  #         GOOGLE_SHEET_URL_SCANS: ${{ secrets.GOOGLE_SHEET_URL_SCANS }}
+  #       run: python LongTerm.py
+  #     - name: Run FnO scan
+  #       env:
+  #         GOOGLE_CREDENTIALS_PATH: /tmp/google_credentials.json
+  #         GOOGLE_SHEET_URL_SCANS: ${{ secrets.GOOGLE_SHEET_URL_SCANS }}
+  #       run: python FnO.py
+  #     - name: Remove credentials
+  #       if: always()
+  #       run: rm -f /tmp/google_credentials.json
