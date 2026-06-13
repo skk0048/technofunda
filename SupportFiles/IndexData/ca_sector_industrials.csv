@@ -1,337 +1,235 @@
 Company Name,Industry,Symbol,Series,ISIN Code
+Lam Research Corp Shs Sponsored Canadian Depository Receipt Hedged Reg S,Industrials,LRCX.TO,EQ,CA51281U1066
+Applied Materials  Inc. Shs Sponsored Canadian Depository Receipt Hedged Reg,Industrials,AMAT.TO,EQ,CA03822G1046
 Caterpillar Inc. Shs,Industrials,CATR.TO,EQ,CA14913M1086
-Shopify Inc. Class A,Industrials,SHOP.TO,EQ,CA82509L1076
-Enbridge Inc. Cum Red Floating Rate Pref Registered Shs Series I,Industrials,ENB-PR-I.TO,EQ,CA29250N8329
-Enbridge Inc. Cum Conv Red Pref Registered Shs Series R,Industrials,ENB-PR-T.TO,EQ,CA29250N7339
-Enbridge Inc. Cum Red Floating Rate Pref Registered Shs Series G,Industrials,ENB-PR-G.TO,EQ,CA29250N8576
-Enbridge Inc. Cum Red Pref Registered Shs Series 9,Industrials,ENB-PF-A.TO,EQ,CA29250N6265
-Enbridge Inc. Cum Red Pref Registered Shs Series 3,Industrials,ENB-PR-Y.TO,EQ,CA29250N6836
-Enbridge Inc. Cum Red Pfd Registered Shs Series P,Industrials,ENB-PR-P.TO,EQ,CA29250N7586
-Enbridge Inc. Cum Red Pref Registered Shs Series B,Industrials,ENB-PR-B.TO,EQ,CA29250N7099
-Enbridge Inc. Cum Red Pref Registered Shs Series 15,Industrials,ENB-PF-G.TO,EQ,CA29250N5507
-Enbridge Inc. Cum Red Pref Registered Shs Series 13,Industrials,ENB-PF-E.TO,EQ,CA29250N5762
-Enbridge Inc. 5.5 % Cum Red Pfd Registered Shs Series A,Industrials,ENB-PR-A.TO,EQ,CA29250N2041
-Enbridge Inc. Cum Red Pref Registered Shs Series H,Industrials,ENB-PR-H.TO,EQ,CA29250N8402
-Enbridge Inc. Cum Conv Red Pref Registered Shs Series D,Industrials,ENB-PR-D.TO,EQ,CA29250N8816
-Enbridge Inc. Cum Conv Red Perp Pfd Registered Shs Series -19-,Industrials,ENB-PF-K.TO,EQ,CA29250N5192
-Enbridge Inc. Cum Conv Red Pref Registered Shs Series N,Industrials,ENB-PR-N.TO,EQ,CA29250N7743
-Enbridge Inc. 4.4 % Cum Red Pfd Registered Shs Series -7-,Industrials,ENB-PR-J.TO,EQ,CA29250N6422
-Enbridge Inc.,Industrials,ENB.TO,EQ,CA29250N1050
-Enbridge Inc. Cum Red Pref Registered Shs Series 11,Industrials,ENB-PF-C.TO,EQ,CA29250N5929
-Enbridge Inc. Cum Conv Red Pref Registered Shs Series F,Industrials,ENB-PR-F.TO,EQ,CA29250N8659
-Enbridge Inc. Cum Red Floating Rate Pref Registered Shs Series 4,Industrials,ENB-PR-Z.TO,EQ,CA29250N6752
-Enbridge Inc. Cum Red Pref Registered Shs Series L,Industrials,ENB-PF-U.TO,EQ,CA29250N7909
-Enbridge Inc. Cum Red Pref Registered Shs Series 5,Industrials,ENB-PF-V.TO,EQ,CA29250N6679
-Enbridge Inc. Cum Red Pref Registered Shs Series 1,Industrials,ENB-PR-V.TO,EQ,CA29250N7172
+GE Vernova Inc. Shs UnSponsored Canadian Depository Receipt Hedged Reg S,Industrials,GEV.TO,EQ,CA36173K1003
+Siemens AG CAD Hedged CIBC CDR,Industrials,SMNS.TO,EQ,CA82620L1013
+Siemens Aktiengesellschaft Shs Sponsored Canadian Depository Receipt Hedged Reg S,Industrials,SIEM.NE,EQ,CA82619D1024
+ABB Ltd. Shs Sponsored Canadian Depository Receipt Hedged Reg S,Industrials,ABB.NE,EQ,CA0029471095
+Schneider Electric SE Shs Unsponsored Canadian Depository Receipt Hedged Reg S,Industrials,SCHN.TO,EQ,CA80687R1029
+Union Pacific Corporation Shs Unsponsored Canadian Depository Receipt Hedged Reg S,Industrials,UNP.TO,EQ,CA90782V1067
+Deere & Company CAD hedged- Canadian Depositary Receipt Repr Reg S,Industrials,DEER.TO,EQ,CA24420T1084
+Uber Technologies  Inc. Shs -CAD hedged- Canadian Depositary Receipt Repr Shs Reg S,Industrials,UBER.TO,EQ,CA90355T1084
+Uber Technologies  Inc. Shs Unsponsored Canadian Depository Receipt Hedged Reg S,Industrials,ZUBE.NE,EQ,CA90356P1053
+Hitachi  Ltd. Sponsored Canadian Depository Receipt Hedged Reg S,Industrials,HTCI.NE,EQ,CA43358C1014
+S&P Global  Inc. Shs Unsponsored Canadian Depository Receipt Hedged Reg S,Industrials,SPGI.TO,EQ,CA78525L1058
+Enbridge Inc. Cum Red Pref Registered Shs Series B,Industrials,ENB.PR.B.TO,EQ,CA29250N7099
+Enbridge Inc. 4.4 % Cum Red Pfd Registered Shs Series -7-,Industrials,ENB.PR.J.TO,EQ,CA29250N6422
+Enbridge Inc. Cum Red Pref Registered Shs Series 15,Industrials,ENB.PF.G.TO,EQ,CA29250N5507
+Enbridge Inc. Cum Conv Red Pref Registered Shs Series N,Industrials,ENB.PR.N.TO,EQ,CA29250N7743
+Enbridge Inc. Cum Red Pref Registered Shs Series 3,Industrials,ENB.PR.Y.TO,EQ,CA29250N6836
+Enbridge Inc. Cum Red Pref Registered Shs Series H,Industrials,ENB.PR.H.TO,EQ,CA29250N8402
+Enbridge Inc. Cum Red Floating Rate Pref Registered Shs Series G,Industrials,ENB.PR.G.TO,EQ,CA29250N8576
+Enbridge Inc. Cum Conv Red Pref Registered Shs Series F,Industrials,ENB.PR.F.TO,EQ,CA29250N8659
+Enbridge Inc. Cum Red Pfd Registered Shs Series P,Industrials,ENB.PR.P.TO,EQ,CA29250N7586
+Enbridge Inc. Cum Conv Red Pref Registered Shs Series R,Industrials,ENB.PR.T.TO,EQ,CA29250N7339
+Enbridge Inc. Cum Conv Red Pref Registered Shs Series D,Industrials,ENB.PR.D.TO,EQ,CA29250N8816
+Enbridge Inc. Cum Red Floating Rate Pref Registered Shs Series I,Industrials,ENB.PR.I.TO,EQ,CA29250N8329
+Enbridge Inc. Cum Red Pref Registered Shs Series 11,Industrials,ENB.PF.C.TO,EQ,CA29250N5929
+Enbridge Inc. Cum Red Pref Registered Shs Series 13,Industrials,ENB.PF.E.TO,EQ,CA29250N5762
+Enbridge Inc. Cum Red Pref Registered Shs Series 9,Industrials,ENB.PF.A.TO,EQ,CA29250N6265
+Enbridge Inc. 5.5 % Cum Red Pfd Registered Shs Series A,Industrials,ENB.PR.A.TO,EQ,CA29250N2041
+Enbridge Inc. Cum Conv Red Perp Pfd Registered Shs Series -19-,Industrials,ENB.PF.K.TO,EQ,CA29250N5192
+Enbridge Inc. Cum Red Floating Rate Pref Registered Shs Series 4,Industrials,ENB.PR.Z.TO,EQ,CA29250N6752
+Enbridge Inc. Cum Red Pref Registered Shs Series 1,Industrials,ENB.PR.V.TO,EQ,CA29250N7172
+Enbridge Inc. Cum Red Pref Registered Shs Series L,Industrials,ENB.PF.U.TO,EQ,CA29250N7909
+Enbridge Inc. Cum Red Pref Registered Shs Series 5,Industrials,ENB.PF.V.TO,EQ,CA29250N6679
+Quanta Services  Inc. Shs Sponsored Canadian Depository Receipt Hedged Reg S,Industrials,PWRS.TO,EQ,CA7479691031
+Mitsubishi Corporation Sponsored Canadian Depository Receipt Hedged Reg S,Industrials,MTSU.NE,EQ,CA6067671017
+United Parcel Service  Inc. Shs Sponsored Canadian Depositary Receipt Repr Sh,Industrials,UPS.TO,EQ,CA9113141027
+Waste Management  Inc. (CAD Hedged),Industrials,WAST.TO,EQ,CA94107V1067
+3M Company shs Canadian Depoitary Receipt Hedged Reg S,Industrials,MMMM.TO,EQ,CA8856201048
 Canadian Pacific Kansas City Limited,Industrials,CP.TO,EQ,CA13646K1084
 Canadian National Railway Company,Industrials,CNR.TO,EQ,CA1363751027
-TC Energy Corporation Cum Red 1st Pfd Registered Shs Series 5,Industrials,TRP-PR-C.TO,EQ,CA87807B6026
-TC Energy Corporation Cum Red 1st Pfd Registered Shs Series -10-,Industrials,TRP-PR-L.TO,EQ,CA87807B8675
-TC Energy Corporation Cum Red 1st Pfd Registered Shs Series 9,Industrials,TRP-PR-E.TO,EQ,CA87807B8758
-TC Energy Corporation,Industrials,TRP.TO,EQ,CA87807B1076
-TC Energy Corporation Cum Conv Red 1st Pfd Registered Shs Series 7,Industrials,TRP-PR-D.TO,EQ,CA87807B8006
-TC Energy Corporation Cum Red 1st Pfd Registered Shs Series 2,Industrials,TRP-PR-F.TO,EQ,CA87807B3056
-TC Energy Corporation Cum Red 1st Pfd Registered Shs Series 1,Industrials,TRP-PR-A.TO,EQ,CA87807B2066
-TC Energy Corporation Cum Red 1st Pfd Registered Shs Series 4,Industrials,TRP-PR-H.TO,EQ,CA87807B5036
-TC Energy Corporation Cum Red 1st Pfd Registered Shs Series 3,Industrials,TRP-PR-B.TO,EQ,CA87807B4047
+TC Energy Corporation Cum Red 1st Pfd Registered Shs Series 1,Industrials,TRP.PR.A.TO,EQ,CA87807B2066
+TC Energy Corporation Cum Red 1st Pfd Registered Shs Series 9,Industrials,TRP.PR.E.TO,EQ,CA87807B8758
+TC Energy Corporation Cum Red 1st Pfd Registered Shs Series 2,Industrials,TRP.PR.F.TO,EQ,CA87807B3056
+TC Energy Corporation Cum Conv Red 1st Pfd Registered Shs Series 7,Industrials,TRP.PR.D.TO,EQ,CA87807B8006
+TC Energy Corporation Cum Red 1st Pfd Registered Shs Series 5,Industrials,TRP.PR.C.TO,EQ,CA87807B6026
+TC Energy Corporation Cum Red 1st Pfd Registered Shs Series 4,Industrials,TRP.PR.H.TO,EQ,CA87807B5036
+TC Energy Corporation Cum Red 1st Pfd Registered Shs Series 3,Industrials,TRP.PR.B.TO,EQ,CA87807B4047
+TC Energy Corporation Cum Red 1st Pfd Registered Shs Series -10-,Industrials,TRP.PR.L.TO,EQ,CA87807B8675
+Deutsche Post AG Shs Sponsored Canadian Depository Receipt Hedged Reg S,Industrials,DHL.NE,EQ,CA25161B1076
 Waste Connections Inc.,Industrials,WCN.TO,EQ,CA94106B1013
-Pembina Pipeline Corp Cum Red Pfd Registered Shs A Series 3,Industrials,PPL-PR-C.TO,EQ,CA7063274004
-Pembina Pipeline Corporation,Industrials,PPL.TO,EQ,CA7063271034
-Pembina Pipeline Corp Cum Red Pfd Registered Shs A Series 7,Industrials,PPL-PR-G.TO,EQ,CA7063276082
-Pembina Pipeline Corp Cum Conv Red Perp Pfd Registered Shs A Series -17-,Industrials,PPL-PR-Q.TO,EQ,CA7063278146
-Pembina Pipeline Corp Cum Conv Red Perp Pfd Registered Shs A Series -25-,Industrials,PPL-PF-E.TO,EQ,CA7063277239
-Pembina Pipeline Corp Cum Red Pfd Registered Shs A Series 5,Industrials,PPL-PR-E.TO,EQ,CA7063271117
-Pembina Pipeline Corp Cum Red Pfd Shs A Series 1,Industrials,PPL-PR-A.TO,EQ,CA7063272024
-Pembina Pipeline Corp Cum Conv Red Perp Pfd Registered Shs A Series -21-,Industrials,PPL-PF-A.TO,EQ,CA7063277643
-Pembina Pipeline Corp Cum Conv Red Perp Pfd Registered Shs A Series -15- Fltg Rt,Industrials,PPL-PR-O.TO,EQ,CA7063278302
-Magna International Inc.,Industrials,MG.TO,EQ,CA5592224011
-WSP Global Inc,Industrials,WSP.TO,EQ,CA92938W2022
+PayPal Holdings  Inc. Unsponsored Canadian Depository Receipt Hedged Reg S,Industrials,ZPYP.NE,EQ,CA70452E1051
+PayPal Holdings  Inc. Shs -CAD hedged- Canadian Depositary Receipt Repr Shs Reg S,Industrials,PYPL.TO,EQ,CA70452C1095
+Thomson Reuters Corporation,Industrials,TRI.TO,EQ,CA8849038812
+Fiserv  Inc. Shs Unsponsored Canadian Depository Receipt Hedged Reg S,Industrials,FISV.TO,EQ,CA33773P1009
+Pembina Pipeline Corp Cum Red Pfd Registered Shs A Series 7,Industrials,PPL.PR.G.TO,EQ,CA7063276082
+Pembina Pipeline Corp Cum Conv Red Perp Pfd Registered Shs A Series -17-,Industrials,PPL.PR.Q.TO,EQ,CA7063278146
+Pembina Pipeline Corp Cum Red Pfd Registered Shs A Series 3,Industrials,PPL.PR.C.TO,EQ,CA7063274004
+Pembina Pipeline Corp Cum Red Pfd Registered Shs A Series 5,Industrials,PPL.PR.E.TO,EQ,CA7063271117
+Pembina Pipeline Corp Cum Conv Red Perp Pfd Registered Shs A Series -15- Fltg Rt,Industrials,PPL.PR.O.TO,EQ,CA7063278302
+Pembina Pipeline Corp Cum Conv Red Perp Pfd Registered Shs A Series -21-,Industrials,PPL.PF.A.TO,EQ,CA7063277643
+Pembina Pipeline Corp Cum Conv Red Perp Pfd Registered Shs A Series -25-,Industrials,PPL.PF.E.TO,EQ,CA7063277239
+Pembina Pipeline Corp Cum Red Pfd Shs A Series 1,Industrials,PPL.PR.A.TO,EQ,CA7063272024
+"RB Global, Inc.",Industrials,RBA.TO,EQ,CA74935Q1072
+WSP Global Inc.,Industrials,WSP.TO,EQ,CA92938W2022
 TFI International Inc.,Industrials,TFII.TO,EQ,CA87241L1094
+GFL Environmental Inc.,Industrials,GFL.TO,EQ,CA36168Q1046
 Toromont Industries Ltd.,Industrials,TIH.TO,EQ,CA8911021050
-GFL Environmental Inc,Industrials,GFL.TO,EQ,CA36168Q1046
-Keyera Corp.,Industrials,KEY.TO,EQ,CA4932711001
+AtkinsRéalis Group Inc.,Industrials,ATRL.TO,EQ,CA04764T1049
 Finning International Inc.,Industrials,FTT.TO,EQ,CA3180714048
-Atkinsrealis Group Inc.,Industrials,ATRL.TO,EQ,CA04764T1049
-Stantec Inc,Industrials,STN.TO,EQ,CA85472N1096
+Stantec Inc.,Industrials,STN.TO,EQ,CA85472N1096
 CAE Inc.,Industrials,CAE.TO,EQ,CA1247651088
-South Bow Corp,Industrials,SOBO.TO,EQ,CA83671M1059
+Element Fleet Management Corp.,Industrials,EFN.TO,EQ,CA2861812014
+Brookfield Business Corporation,Industrials,BBUC.TO,EQ,CA1130061007
 Groupe Dynamite Inc.,Industrials,GRGD.TO,EQ,CA39944C1005
-PrairieSky Royalty Ltd,Industrials,PSK.TO,EQ,CA7397211086
 Exchange Income Corporation,Industrials,EIF.TO,EQ,CA3012831077
-BRP Inc.,Industrials,DOO.TO,EQ,CA05577W2004
-Linamar Corporation,Industrials,LNR.TO,EQ,CA53278L1076
+MDA Space Ltd.,Industrials,MDA.TO,EQ,CA55293N1096
 Air Canada,Industrials,AC.TO,EQ,CA0089118776
-Gibson Energy Inc.,Industrials,GEI.TO,EQ,CA3748252069
-Secure Waste Infrastructure Corp.,Industrials,SES.TO,EQ,CA8139211038
-Premium Brands Holdings Corporation,Industrials,PBH.TO,EQ,CA74061A1084
-Enerflex Ltd.,Industrials,EFX.TO,EQ,CA29269R1055
-Maple Leaf Foods Inc.,Industrials,MFI.TO,EQ,CA5649051078
+Secure Energy Services Inc.,Industrials,SES.TO,EQ,CA8139211038
+Equifax Inc.,Industrials,EFX.TO,EQ,CA29269R1055
 ATS Corporation,Industrials,ATS.TO,EQ,CA00217Y1043
-Hammond Power Solutions Inc. Class A,Industrials,HPS-A.TO,EQ,CA4085491039
+Hammond Power Solutions Inc. Class A,Industrials,HPS.A.TO,EQ,CA4085491039
 Russel Metals Inc.,Industrials,RUS.TO,EQ,CA7819036046
 Bird Construction Inc.,Industrials,BDT.TO,EQ,CA09076P1045
+Badger Infrastructure Solutions Ltd.,Industrials,BDGI.TO,EQ,CA0565331026
 Aecon Group Inc.,Industrials,ARE.TO,EQ,CA00762V1094
-Badger Infrastructure Solutions Ltd,Industrials,BDGI.TO,EQ,CA0565331026
-Freehold Royalties Ltd.,Industrials,FRU.TO,EQ,CA3565001086
-NFI Group Inc.,Industrials,NFI.TO,EQ,CA62910L1022
 Westshore Terminals Investment Corporation,Industrials,WTE.TO,EQ,CA96145A2002
-TerraVest Industries Inc.,Industrials,TVK.TO,EQ,CA88105G1037
+Hydrograph Clean Power Inc,Industrials,HG.NE,EQ,CA44888L1085
 Mullen Group Ltd.,Industrials,MTL.TO,EQ,CA6252841045
-Richelieu Hardware Ltd,Industrials,RCH.TO,EQ,CA76329W1032
 Ballard Power Systems Inc.,Industrials,BLDP.TO,EQ,CA0585861085
-Cymbria Corporation Class A,Industrials,CYB.TO,EQ,CA23257X1096
-Superior Plus Corp,Industrials,SPB.TO,EQ,CA86828P1036
-Precision Drilling Corporation,Industrials,PD.TO,EQ,CA74022D4075
 StorageVault Canada Inc.,Industrials,SVI.TO,EQ,CA86212H1055
+Precision Drilling Corporation,Industrials,PD.TO,EQ,CA74022D4075
 Trican Well Service Ltd.,Industrials,TCW.TO,EQ,CA8959451037
 Major Drilling Group International Inc.,Industrials,MDI.TO,EQ,CA5609091031
 Cargojet Inc.,Industrials,CJT.TO,EQ,CA14179V5036
-DRI Healthcare Trust,Industrials,DHT-UN.TO,EQ,CA23344H1091
-DRI Healthcare Trust,Industrials,DHT-U.TO,EQ,CA23344H1091
+Doman Building Materials Group Ltd,Industrials,DBM.TO,EQ,CA25703L1004
 Calian Group Ltd.,Industrials,CGY.TO,EQ,CA12989J1084
 Information Services Corp. Class A,Industrials,ISC.TO,EQ,CA45676A1057
-Doman Building Materials Group Ltd,Industrials,DBM.TO,EQ,CA25703L1004
-Total Energy Services Inc.,Industrials,TOT.TO,EQ,CA89154B1022
 Algoma Central Corporation,Industrials,ALC.TO,EQ,CA0156441077
-Versamet Royalties Corp.,Industrials,VMET.TO,EQ,CA92528V2003
+Total Energy Services Inc.,Industrials,TOT.TO,EQ,CA89154B1022
 ADENTRA Inc,Industrials,ADEN.TO,EQ,CA00686A1084
 Diversified Royalty Corp.,Industrials,DIV.TO,EQ,CA2553311002
 Martinrea International Inc.,Industrials,MRE.TO,EQ,CA5734591046
-Queen's Road Capital Investment Ltd.,Industrials,QRC.TO,EQ,KYG7315B1297
-Ensign Energy Services Inc.,Industrials,ESI.TO,EQ,CA2935701078
 Algoma Steel Group Inc.,Industrials,ASTL.TO,EQ,CA0156581070
+Ensign Energy Services Inc.,Industrials,ESI.TO,EQ,CA2935701078
+Calfrac Well Services Ltd.,Industrials,CFW.TO,EQ,CA1295844056
 Electrovaya Inc.,Industrials,ELVA.TO,EQ,CA28617B6061
 Wajax Corporation,Industrials,WJX.TO,EQ,CA9307831052
-Calfrac Well Services Ltd.,Industrials,CFW.TO,EQ,CA1295844056
 Chorus Aviation Inc.,Industrials,CHR.TO,EQ,CA17040T8885
 K-Bro Linen Inc.,Industrials,KBL.TO,EQ,CA48243M1077
 TECSYS Inc.,Industrials,TCS.TO,EQ,CA8789501043
 PHX Energy Services Corp.,Industrials,PHX.TO,EQ,CA69338U1012
-Anaergia Inc.,Industrials,ANRG.TO,EQ,CA03253E2069
-Ag Growth International Inc.,Industrials,AFN.TO,EQ,CA0011811068
+Anaergia  Inc.,Industrials,ANRG.TO,EQ,CA03253E2069
+ADF Group Inc.,Industrials,DRX.TO,EQ,CA00089N1033
 Taiga Building Products Ltd.,Industrials,TBL.TO,EQ,CA87402A1084
 Tidewater Midstream & Infrastructure Ltd.,Industrials,TWM.TO,EQ,CA8864535056
+Ag Growth International Inc.,Industrials,AFN.TO,EQ,CA0011811068
 Velan Inc.,Industrials,VLN.TO,EQ,CA9229321083
-NanoXplore Inc.,Industrials,GRA.TO,EQ,CA63010G1000
-Tantalus Systems Holding Inc,Industrials,GRID.TO,EQ,CA87601F1062
-Graphene Manufacturing Group Ltd,Industrials,GMG.V,EQ,AU0000139990
-ADF Group Inc.,Industrials,DRX.TO,EQ,CA00089N1033
+NanoXplore  Inc.,Industrials,GRA.TO,EQ,CA63010G1000
 Exco Technologies Limited,Industrials,XTC.TO,EQ,CA30150P1099
+Tantalus Systems Holding Inc,Industrials,GRID.TO,EQ,CA87601F1062
 ACT Energy Technologies Ltd.,Industrials,ACX.TO,EQ,CA0049591021
 Vizsla Royalties Corp,Industrials,VROY.V,EQ,CA92859L2012
 Quarterhill Inc,Industrials,QTRH.TO,EQ,CA7477131055
-Hammond Manufacturing Co. Ltd. Class A,Industrials,HMM-A.TO,EQ,CA40851T1021
 Decisive Dividend Corp.,Industrials,DE.V,EQ,CA24345T1003
+Hammond Manufacturing Co. Ltd. Class A,Industrials,HMM.A.TO,EQ,CA40851T1021
 Pulse Seismic Inc.,Industrials,PSD.TO,EQ,CA74586Q1090
-Akita Drilling Ltd. Class A,Industrials,AKT-A.TO,EQ,CA0099051009
-Akita Drilling Ltd. Class B,Industrials,AKT-B.TO,EQ,CA0099052098
-Dirtt Environmental Solutions Ltd,Industrials,DRT.TO,EQ,CA25490H1064
+Akita Drilling Ltd. Class B,Industrials,AKT.B.TO,EQ,CA0099052098
+Akita Drilling Ltd. Class A,Industrials,AKT.A.TO,EQ,CA0099051009
 TDG Gold Corp,Industrials,TDG.V,EQ,CA87190J1057
-Bridgemarq Real Estate Services Inc.,Industrials,BRE.TO,EQ,CA10808B1085
+Dirtt Environmental Solutions Ltd,Industrials,DRT.TO,EQ,CA25490H1064
 Western Energy Services Corp.,Industrials,WRG.TO,EQ,CA9581596009
 Neptune Digital Assets Corp,Industrials,NDA.V,EQ,CA64073L1013
-Nano One Materials Corp,Industrials,NANO.TO,EQ,CA63010A1030
 Goodfellow Inc.,Industrials,GDL.TO,EQ,CA38216R1001
-Infrastructure Dividend Split Corp Cum Red Pfd Registered Shs,Industrials,IS-PR-A.TO,EQ,CA45686H2072
-Infrastructure Dividend Split Corp Class A,Industrials,IS.TO,EQ,CA45686H1082
+Nano One Materials Corp,Industrials,NANO.TO,EQ,CA63010A1030
 DATA Communications Management Corp.,Industrials,DCM.TO,EQ,CA23761M1023
 BQE Water Inc,Industrials,BQE.V,EQ,CA0556402059
 Highwood Asset Management Ltd,Industrials,HAM.V,EQ,CA43127Q1000
 SSC Security Services Corp.,Industrials,SECU.V,EQ,CA85236T1030
-dynaCERT Inc.,Industrials,DYA.TO,EQ,CA26780A1084
 Leading Edge Materials Corp.,Industrials,LEM.V,EQ,CA52171T1003
 Atlas Energy Corp.,Industrials,ATLE.V,EQ,CA0489241046
-Homerun Resources Inc.,Industrials,HMR.V,EQ,CA43758P1080
-Tree Island Steel Ltd.,Industrials,TSL.TO,EQ,CA89467Q2009
+dynaCERT Inc.,Industrials,DYA.TO,EQ,CA26780A1084
 McCoy Global Inc.,Industrials,MCB.TO,EQ,CA57980Q1063
+Tree Island Steel Ltd.,Industrials,TSL.TO,EQ,CA89467Q2009
 Orbit Garant Drilling Inc.,Industrials,OGD.TO,EQ,CA68556N1042
-Viscount Mining Corp.,Industrials,VML.V,EQ,CA92834X1069
-Black Swan Graphene Inc,Industrials,SWAN.V,EQ,CA09226M2094
-PyroGenesis Inc.,Industrials,PYR.TO,EQ,CA74739V1040
-Biorem Inc.,Industrials,BRM.V,EQ,CA09068G1046
-Westport Fuel Systems Inc.,Industrials,WPRT.TO,EQ,CA9609085076
-Stampede Drilling Inc.,Industrials,SDI.V,EQ,CA8528131045
-NXT Energy Solutions Inc.,Industrials,SFD.TO,EQ,CA62948Q1072
 BluMetric Environmental Inc.,Industrials,BLM.V,EQ,CA0964271096
+Homerun Resources Inc.,Industrials,HMR.V,EQ,CA43758P1080
+PyroGenesis Inc.,Industrials,PYR.TO,EQ,CA74739V1040
+NXT Energy Solutions Inc.,Industrials,SFD.TO,EQ,CA62948Q1072
+Black Swan Graphene Inc,Industrials,SWAN.V,EQ,CA09226M2094
+Biorem Inc.,Industrials,BRM.V,EQ,CA09068G1046
+Westport Fuel Systems  Inc.,Industrials,WPRT.TO,EQ,CA9609085076
 Glacier Media Inc.,Industrials,GVC.TO,EQ,CA3763941026
+Stampede Drilling Inc.,Industrials,SDI.V,EQ,CA8528131045
 Full Circle Lithium Corp,Industrials,FCLI.V,EQ,CA3599171012
 Everyday People Financial Inc,Industrials,EPF.V,EQ,CA30042D1087
+Northstar Clean Technologies  Inc.,Industrials,ROOF.V,EQ,CA66706T1049
 LithiumBank Resources Corp.,Industrials,LBNK.V,EQ,CA53681T1012
 First Hydrogen Corp,Industrials,FHYD.V,EQ,CA32057N1042
-Wilmington Capital Management Inc. Class A,Industrials,WCM-A.TO,EQ,CA9715581018
-Wilmington Capital Management Inc. Class B,Industrials,WCM-B.TO,EQ,CA9715583097
-Northstar Clean Technologies Inc.,Industrials,ROOF.V,EQ,CA66706T1049
-Dream Impact Trust,Industrials,MPCT-UN.TO,EQ,CA26154L1287
 NexgenRx Inc.,Industrials,NXG.V,EQ,CA65337X1042
-EnWave Corporation,Industrials,ENW.V,EQ,CA29410K1084
-Canso Select Opportunities Corp. Class B,Industrials,CSOC-B.V,EQ,CA13809N2041
-Canso Select Opportunities Corp. Class A,Industrials,CSOC-A.V,EQ,CA13809N1050
 LQWD Technologies Corp,Industrials,LQWD.V,EQ,CA5021541076
-Caldwell Partners International Inc.,Industrials,CWL.TO,EQ,CA12913L2030
-Big Banc Split Corp. 8.4 % Cum Red Pfd Registered Shs 2020-30.11.23,Industrials,BNK-PR-A.TO,EQ,CA0888932013
-Big Banc Split Corp. Class A,Industrials,BNK.TO,EQ,CA0888931023
-Thermal Energy International Inc.,Industrials,TMG.V,EQ,CA88346B1031
+EnWave Corporation,Industrials,ENW.V,EQ,CA29410K1084
 Omni-Lite Industries Canada Inc.,Industrials,OML.V,EQ,CA6819761066
+Sharc International Systems Inc,Industrials,SHRC.CN,EQ,CA81948A1021
+Caldwell Partners International Inc.,Industrials,CWL.TO,EQ,CA12913L2030
+Thermal Energy International Inc.,Industrials,TMG.V,EQ,CA88346B1031
 Reko Manufacturing Group Inc.,Industrials,REKO.V,EQ,CA75941H1064
-High Arctic Overseas Holdings Corp.,Industrials,HOH.V,EQ,CA42964K1012
-Vertex Resource Group Ltd.,Industrials,VTX.V,EQ,CA92536G1046
 Greenbriar Sustainable Living Inc,Industrials,GRB.V,EQ,CA3936521028
-Cleantek Industries Inc.,Industrials,CTEK.V,EQ,CA18453K2083
-Legend Power Systems Inc.,Industrials,LPS.V,EQ,CA5249372080
-Safi Silver Corp.,Industrials,SF.V,EQ,CA78657T1084
+High Arctic Overseas Holdings Corp.,Industrials,HOH.V,EQ,CA42964K1012
 Clip Money Inc.,Industrials,CLIP.V,EQ,CA1888341056
-Ironman International Ltd.,Industrials,IMI.V,EQ,CA4629231032
+Vertex Resource Group Ltd.,Industrials,VTX.V,EQ,CA92536G1046
 South Star Battery Metals Corp,Industrials,STS.V,EQ,CA8404352004
-Cielo Waste Solutions Corp.,Industrials,CMC.V,EQ,CA17178G3026
-NEXE Innovations Inc,Industrials,NEXE.V,EQ,CA65344W1077
-Principal Technologies Inc.,Industrials,PTEC.V,EQ,CA74260Q1028
-Western Gold Exploration Ltd.,Industrials,WGLD.V,EQ,CA95827R2000
+Legend Power Systems Inc.,Industrials,LPS.V,EQ,CA5249372080
+Cleantek Industries Inc.,Industrials,CTEK.V,EQ,CA18453K2083
+Ironman International Ltd.,Industrials,IMI.V,EQ,CA4629231032
 Keek Social Inc.,Industrials,KEEK.V,EQ,CA48730E1051
-Snipp Interactive Inc.,Industrials,SPN.V,EQ,CA83306Y1025
-Sabio Holdings Inc.,Industrials,SBIO.V,EQ,CA78570Q1081
-Bri-Chem Corp.,Industrials,BRY.TO,EQ,CA10778T1057
-High Arctic Energy Services Inc,Industrials,HWO.TO,EQ,CA42964L1094
-EverGen Infrastructure Corp.,Industrials,EVGN.V,EQ,CA30008P3016
-DEFSEC Technologies Inc.,Industrials,DFSC.V,EQ,CA2447781063
+NEXE Innovations Inc,Industrials,NEXE.V,EQ,CA65344W1077
+Cielo Waste Solutions Corp.,Industrials,CMC.V,EQ,CA17178G3026
+Gelum Resources Ltd.,Industrials,GMR.NE,EQ,CA36854R2000
 Acceleware Ltd.,Industrials,AXE.V,EQ,CA00433V1085
-Elcora Advanced Materials Corp.,Industrials,ERA.V,EQ,CA2844452029
-Clydesdale Resources Inc.,Industrials,CEO-H.V,EQ,CA18972D1078
+Sabio Holdings  Inc.,Industrials,SBIO.V,EQ,CA78570Q1081
+Snipp Interactive Inc.,Industrials,SPN.V,EQ,CA83306Y1025
+DEFSEC Technologies Inc.,Industrials,DFSC.V,EQ,CA2447781063
+High Arctic Energy Services Inc,Industrials,HWO.TO,EQ,CA42964L1094
+Western Gold Exploration Ltd.,Industrials,WGLD.V,EQ,CA95827R2000
+Bri-Chem Corp.,Industrials,BRY.TO,EQ,CA10778T1057
+EverGen Infrastructure Corp.,Industrials,EVGN.V,EQ,CA30008P3016
+BacTech Environmental Corp.,Industrials,BAC.NE,EQ,CA0704902067
+Clean Seed Capital Group Ltd.,Industrials,CSX.V,EQ,CA18451F1027
 Fab-Form Industries Ltd,Industrials,FBF.V,EQ,CA3027351053
 Kelso Technologies Inc.,Industrials,KLS.TO,EQ,CA48826D2014
-Prime Dividend Corp Cum Pfd Shs A 2005-1.12.18,Industrials,PDV-PR-A.TO,EQ,CA74161F2052
-Prime Dividend Corp A 2018-01.12.23,Industrials,PDV.TO,EQ,CA74161F4033
-FutureGen Industries Corp.,Industrials,LITT.V,EQ,CA36118G1072
-Ostrom Climate Solutions Inc,Industrials,COO.V,EQ,CA6886041079
-Questor Technology Inc.,Industrials,QST.V,EQ,CA7479461013
-Blockmate Ventures Inc,Industrials,MATE.V,EQ,CA09370U1066
 Cymat Technologies Ltd,Industrials,CYM.V,EQ,CA23257A2083
-Argentum Silver Corp.,Industrials,ASL.V,EQ,CA04014D2068
-Kane Biotech Inc.,Industrials,KNE.V,EQ,CA4838092084
+PUDO  Inc.,Industrials,PDO.CN,EQ,CA7446801093
+Questor Technology Inc.,Industrials,QST.V,EQ,CA7479461013
 Quest PharmaTech Inc.,Industrials,QPT.V,EQ,CA74836M1068
 Earthworks Industries Inc,Industrials,EWK.V,EQ,CA27032K1003
-Inomin Mines Inc,Industrials,MINE.V,EQ,CA45782J1075
+Ostrom Climate Solutions Inc,Industrials,COO.V,EQ,CA6886041079
+Kane Biotech Inc.,Industrials,KNE.V,EQ,CA4838092084
 Geekco Technologies Corporation Class A,Industrials,GKO.V,EQ,CA36847L1040
-Braille Energy Systems Inc.,Industrials,BES.V,EQ,CA10489B1040
-INEO TECH CORP,Industrials,INEO.V,EQ,CA45674Q4097
-Fintech Select Ltd,Industrials,FTEC.V,EQ,CA31810H1073
-Avrupa Minerals Ltd.,Industrials,AVU.V,EQ,CA05453A2074
+Metasphere Labs Inc.,Industrials,LABZ.CN,EQ,CA59140M2076
+Darelle Online Solutions Inc.,Industrials,DAR.V,EQ,CA2372052084
+Anonymous Intelligence Company,Industrials,ANON.CN,EQ,CA03634K2020
+BrandPilot AI Inc,Industrials,BPAI.CN,EQ,CA1053241073
+Republic Technologies Inc.,Industrials,DOCT.CN,EQ,CA7608011002
+Mustang Energy Corp,Industrials,MEC.CN,EQ,CA6279311089
 Inventronics Limited,Industrials,IVX.V,EQ,CA4612082095
-Golden Ridge Resources Ltd.,Industrials,GLDN.V,EQ,CA38116T2065
-Appulse Corporation,Industrials,APL.V,EQ,CA03833A1049
-YANGAROO Inc.,Industrials,YOO.V,EQ,CA9847472045
-Pool Safe Inc.,Industrials,POOL.V,EQ,CA73278C2040
+INEO Tech Corp.,Industrials,INEO.V,EQ,CA45674Q4097
+Fintech Select Ltd,Industrials,FTEC.V,EQ,CA31810H1073
 JEMTEC Inc.,Industrials,JTC.V,EQ,CA4759012038
-Mackenzie Master Limited Partnership,Industrials,MKZ-UN.TO,EQ,CA5549051095
+Appulse Corporation,Industrials,APL.V,EQ,CA03833A1049
 Spectra Products Inc.,Industrials,SSA.V,EQ,CA84757D2095
-Greencastle Resources Ltd.,Industrials,VGN.V,EQ,CA3941631093
-Alaska Hydro Corp.,Industrials,AKH-H.V,EQ,CA01170T1084
-Regent Pacific Properties Inc.,Industrials,RPP.V,EQ,CA75900R1038
+YANGAROO Inc.,Industrials,YOO.V,EQ,CA9847472045
+Abound Energy Inc,Industrials,ABND.NE,EQ,CA0037352063
+Reflex Advanced Materials Corp.,Industrials,RFLX.CN,EQ,CA75865D2068
+Mary Agrotechnologies  Inc.,Industrials,MARY.CN,EQ,CA5738651028
+Lexston Mining Corporation,Industrials,LEXT.NE,EQ,CA52978C2013
 Premier Health of America Inc,Industrials,PHA.V,EQ,CA74052G1063
-DGTL Holdings Inc.,Industrials,DGTL-H.V,EQ,CA23343T2039
-FluroTech Ltd.,Industrials,TEST-H.V,EQ,CA34388D2014
-Canoe EIT Income Fund 4.8 % Cum Red Perp Pfd Units Series 2 Reg S,Industrials,EIT-PR-B.TO,EQ,CA13780R1331
-Sprott Physical Uranium Trust,Industrials,U-UN.TO,EQ,CA85210A1049
-Starlight U.S. Residential Fund (Multi-Family) Investment LP Class A,Industrials,SURF-UN.V,EQ,CA85555K2048
-Brookfield Renewable Power Preferred Equity Inc Cum Red Pfd Registered Shs A Series 3,Industrials,BRF-PR-C.TO,EQ,CA11283Q4043
-Partners Value Split Corp. Preference Shs Class AA Series -16-,Industrials,PVS-PR-U.TO,EQ,CA70214J8142
-Sentry Select Primary Metals Corp. Class A,Industrials,PME.TO,EQ,CA81733D1050
-Partners Value Split Corp. 4.45 % Cum Red Pfd Registered Shs -AA- 2021-31.05.29 Series -13- Reg S,Industrials,PVS-PR-K.TO,EQ,CA70214J8480
-Dividend 15 Split Corp II -A- 2006-1.12.19 Ext to 01.12.24,Industrials,DF.TO,EQ,CA25537W1086
-Boston Pizza Royalties Income Fund,Industrials,BPF-UN.TO,EQ,CA1010841015
-Bitcoin Fund Trust Units A,Industrials,QBTC-U.TO,EQ,CA09175G1046
-Ether Fund Trust Units A,Industrials,QETH-UN.TO,EQ,CA29764L1085
-Global Dividend Growth Split Corp. Class A,Industrials,GDV.TO,EQ,CA3794441020
-Partners Value Split Corp. 5.5 % Cum Red Pfd Registered Shs -AA- 2024-30.06.30 Class AA Series 14,Industrials,PVS-PR-L.TO,EQ,CA70214J8308
-RZOLV Technologies Inc.,Industrials,RZL.V,EQ,CA76091C1032
-Sustainable Innovation & Health Dividend Fund,Industrials,SIH-UN.TO,EQ,CA86934T1066
-Ravensource Fund Trust Units,Industrials,RAV-UN.TO,EQ,CA7544021057
-Life & Banc Split Corp A 2006-29.11.18 Ext to 30.10.23 Further Ext to 30.10.28,Industrials,LBS.TO,EQ,CA53184C1005
-US Financial 15 Split Corp A 2018-01.12.24,Industrials,FTU.TO,EQ,CA90341H5078
-M-Split Corp Pfd Shs -II- 2010-1.12.14,Industrials,XMF-PR-C.TO,EQ,CA55376A8005
-North American Financial 15 Split Corp A 2019-01.12.24,Industrials,FFN.TO,EQ,CA65685J3010
-Brookfield Renewable Power Preferred Equity Inc Floating Rate Pref Registered A Series 2 Fltg Rt,Industrials,BRF-PR-B.TO,EQ,CA11283Q3052
-Sprott Physical Platinum and Palladium Trust Trust Units,Industrials,SPPP.TO,EQ,CA85207Q1046
-Precious Metals and Mining Trust Units,Industrials,MMP-UN.TO,EQ,CA7401731095
-Sprott Physical Silver Trust,Industrials,PSLV.TO,EQ,CA85207K1075
-JFT Strategies Fund Trust Units A,Industrials,JFS-UN.TO,EQ,CA4661351003
-Premium Global Income Split Fund Cum Red Pfd Registered Shs -A-,Industrials,PGIC-PR-A.TO,EQ,CA74061R2000
-E Split Corp. Class A,Industrials,ENS.TO,EQ,CA26916F1045
-Sprott Physical Silver Trust,Industrials,PSLV-U.TO,EQ,CA85207K1075
-Sucro Limited,Industrials,SUGR.V,EQ,KYG8544S1075
-Sprott Physical Gold Trust Units,Industrials,PHYS-U.TO,EQ,CA85207H1047
-M Split Corp,Industrials,XMF-A.TO,EQ,CA55376A8757
-Partners Value Split Corp. Non-Cum Pfd Registered Shs Series 17,Industrials,PVS-PR-V.TO,EQ,CA70214J7987
-Sprott Physical Platinum and Palladium Trust Trust Units,Industrials,SPPP-U.TO,EQ,CA85207Q1046
-Brookfield Renewable Power Preferred Equity Inc Cum Pref A Series 6,Industrials,BRF-PR-F.TO,EQ,CA11283Q7012
-Bitcoin Treasury Corporation,Industrials,BTCT.V,EQ,CA09175U1030
-Brompton Lifeco Split Corp A 2007-29.04.24,Industrials,LCS.TO,EQ,CA1122161062
-Life & Banc Split Corp 7.25 % Cum Pfd Registered Shs 2006-29.11.18 Ext to 30.10.28,Industrials,LBS-PR-A.TO,EQ,CA53184C1187
-Dividend Growth Split Corp. 6.75 % Cum Red Pfd Registered Shs -A- 2007-30.08.29,Industrials,DGS-PR-A.TO,EQ,CA25537Y2033
-Ether Fund Trust Units A,Industrials,QETH-U.TO,EQ,CA29764L1085
-North American Financial 15 Split Corp 7.5 % Pfd Registered Shs 2004-1.12.19 Ext to 01.12.2029,Industrials,FFN-PR-A.TO,EQ,CA65685J1030
-Sprott Physical Uranium Trust,Industrials,U-U.TO,EQ,CA85210A1049
-IDEX Metals Corp.,Industrials,IDEX.V,EQ,CA45167E1034
-PIMCO Monthly Enhanced Income Fund Trust Units A,Industrials,PMEI-UN.TO,EQ,CA72203W1032
-Premium Income Corp Pfd Registered Shs 1996-1.11.10 Ext to 01.11.24,Industrials,PIC-PR-A.TO,EQ,CA7409102034
-SIR Royalty Income Fund,Industrials,SRV-UN.TO,EQ,CA8296361097
-Dividend 15 Split Corp II 7 % Pfd Shs 2006-1.12.29,Industrials,DF-PR-A.TO,EQ,CA25537W2076
-Brookfield Renewable Power Preferred Equity Inc Cum Red Pref Registered Shs A Series 5,Industrials,BRF-PR-E.TO,EQ,CA11283Q6022
-Canso Credit Income Fund Trust Units A,Industrials,PBY-UN.TO,EQ,CA1380801060
-Global Dividend Growth Split Corp. 5 % Cum Red Pfd Registered Shs 2018-30.06.21 Ext to 30.06.26 Reg S,Industrials,GDV-PR-A.TO,EQ,CA3794442010
-Sprott Physical Gold and Silver Trust Units,Industrials,CEF.TO,EQ,CA85208R1010
-TDb Split Corp. Shs A 2007-1.12.19,Industrials,XTD.TO,EQ,CA87234Y3086
-Premium Income Corporation Class A,Industrials,PIC-A.TO,EQ,CA7409107819
-TDb Split Corp. Priority Equity Shs 2007-1.12.19,Industrials,XTD-PR-A.TO,EQ,CA87234Y1007
-Financial 15 Split Corp. Class A,Industrials,FTN.TO,EQ,CA3175043064
-MINT Income Fund Trust Units,Industrials,MID-UN.TO,EQ,CA60446Q1081
-Brompton Energy Split Corp,Industrials,ESP.TO,EQ,CA11222U1021
-Healthcare Special Opportunities Fund Trust Units A,Industrials,MDS-UN.TO,EQ,CA42226J1084
-Commerce Split Corp Pfd Shs I 2010-1.12.19,Industrials,YCM-PR-A.TO,EQ,CA2007015068
-Brompton Energy Split Corp 8.25 % Cum Pfd,Industrials,ESP-PR-A.TO,EQ,CA11222U2011
-Big Pharma Split Corp. Class A,Industrials,PRM.TO,EQ,CA08934P1080
-Global Real Assets Trust 6.85 % Cum Red Pfd Registered Shs,Industrials,GLRA-PR-A.TO,EQ,CA37966R2037
-Canadian Life Companies Split Corp. Class A,Industrials,LFE.TO,EQ,CA1362904007
-Canadian Banc Corp Class A,Industrials,BK.TO,EQ,CA13536V1076
-United Corporations Ltd 5 % Cum First Pfd Shs,Industrials,UNC-PR-A.TO,EQ,CA9101441041
-Commerce Split Corp Pfd Shs -II- 2010-1.12.19,Industrials,YCM-PR-B.TO,EQ,CA2007016058
-Dividend 15 Split Corp. 7 % (Ex 5.5 %) Pfd Registered Shs 2004-1.12.19 Ext 01.12.29,Industrials,DFN-PR-A.TO,EQ,CA25537R2081
-Brompton Split Banc Corp 6.25 % Cum Pfd Registered Shs 2005-30.11.12 Ext to 29.11.27,Industrials,SBC-PR-A.TO,EQ,CA11221E2087
-Brompton Split Banc Corp. Class A,Industrials,SBC.TO,EQ,CA11221E1097
-Financial 15 Split Corp 7.25 % Pfd Registered Shs 2003-1.12.20 Ext to 01.12.25,Industrials,FTN-PR-A.TO,EQ,CA3175041084
-Economic Investment Trust Limited,Industrials,EVT.TO,EQ,CA2788931020
-Canoe EIT Income Fund 4.8 % Cum Red Perp Pfd Units Series 1,Industrials,EIT-PR-A.TO,EQ,CA13780R2081
-Partners Value Split Corp. 4.40 % Cum Red Pfd Registered Shs -AA- 2021-29.02.28 Series -12- Reg S,Industrials,PVS-PR-J.TO,EQ,CA70214J8555
-Partners Value Investments L.P. Pfd Registered Shs Series 1,Industrials,PVF-PR-V.V,EQ,CA70214W2031
-United Corporations Ltd 5 % 2nd Pfd Shs Series -1963-,Industrials,UNC-PR-C.TO,EQ,CA9101444011
-Metatek-Group Ltd.,Industrials,MTEK.TO,EQ,CA59140H1091
-Blue Ribbon Income Fund Trust units,Industrials,RBN-UN.TO,EQ,CA0958191086
-Canadian Banc Corp Pfd Shs 2005-1.12.18 Fltg Rt,Industrials,BK-PR-A.TO,EQ,CA13536V2066
-Premium Global Income Split Fund Class A,Industrials,PGIC.TO,EQ,CA74061R1010
-Energy Income Fund Trust Units,Industrials,ENI-UN.TO,EQ,CA29270B2066
-Dividend 15 Split Corp. Class A,Industrials,DFN.TO,EQ,CA25537R1091
-M Split Corp Pfd I 2010-1.12.19,Industrials,XMF-PR-B.TO,EQ,CA55376A5035
-LunR Royalties Corp,Industrials,LUNR.V,EQ,CA5504281067
-Sprott Physical Gold and Silver Trust Units,Industrials,CEF-U.TO,EQ,CA85208R1010
-Brookfield Global Infrastructure Securities Income Fund,Industrials,BGI-UN.TO,EQ,CA1127201079
-United Corporations Limited,Industrials,UNC.TO,EQ,CA9101442031
-Citadel Income Fund Trust Units,Industrials,CTF-UN.TO,EQ,CA17286A1066
-Dividend Select 15 Corp. Equity Shs,Industrials,DS.TO,EQ,CA2553801077
-Canadian Life Companies Split Corp. 6.25 % Cum Pfd Registered Shs,Industrials,LFE-PR-B.TO,EQ,CA1362903017
-Sprott Physical Gold Trust Units,Industrials,PHYS.TO,EQ,CA85207H1047
-Big Pharma Split Corp 5 % Cum Pfd Registered 2017-31.12.22,Industrials,PRM-PR-A.TO,EQ,CA08934P2070
-United Corporations Ltd 5 % 2nd Pfd Shs Series -1959-,Industrials,UNC-PR-B.TO,EQ,CA9101443021
-Canadian General Investments Ltd,Industrials,CGI.TO,EQ,CA1358251074
-Bitcoin Fund Trust Units A,Industrials,QBTC.TO,EQ,CA09175G1046
+Cult Food Science Corp.,Industrials,CULT.CN,EQ,CA2302664057
+Planet Based Foods Global  Inc.,Industrials,PBF.CN,EQ,CA72703G2027
+DGTL Holdings  Inc.,Industrials,DGTL.H.V,EQ,CA23343T2039
 TenX Protocols Inc,Industrials,TNX.V,EQ,CA8809451005
-Canoe EIT Income Fund,Industrials,EIT-UN.TO,EQ,CA13780R1091
-Income Financial Trust 1999-1.1.19 Trust Units,Industrials,INC-UN.TO,EQ,CA4532991094
-Rockpoint Gas Storage Inc. Class A,Industrials,RGSI.TO,EQ,CA7739151032
-Commerce Split Corp Capital 2010-1.12.19,Industrials,YCM.TO,EQ,CA2007018039
-US Financial 15 Split Corp 5 1/4% Cum Pfd Shs 2012-1.12.18,Industrials,FTU-PR-B.TO,EQ,CA90341H3099
-Brookfield Renewable Power Preferred Equity Inc Pref Shs A Series 1,Industrials,BRF-PR-A.TO,EQ,CA11283Q2062
-Brompton Lifeco Split Corp 7 % Pfd Shs A 2007-29.4.29,Industrials,LCS-PR-A.TO,EQ,CA1122162052
-E Split Corp. 7.0 % Cum Pfd 2018-30.06.23,Industrials,ENS-PR-A.TO,EQ,CA26916F2035
-PIMCO Global Income Opportunities Fund Trust Units,Industrials,PGI-UN.TO,EQ,CA72202T1012
-Dividend Growth Split Corp. Class A,Industrials,DGS.TO,EQ,CA25537Y1043
-Partners Value Split Corp. 4.7 % Cum Red Pfd Registered Shs -AA- 2020-28.02.27 Series -10- Reg S,Industrials,PVS-PR-H.TO,EQ,CA70214J8712
-Partners Value Split Corp. Cum Red Pfd Registered Shs -AA- 2025- Class AA Series 15,Industrials,PVS-PR-M.TO,EQ,CA70214J8225
+Hybrid Power Solutions  Inc.,Industrials,HPSS.NE,EQ,CA44861U4063
+Zefiro Methane Corp.,Industrials,ZEFI.NE,EQ,CA98926D1069
+Bitcoin Treasury Corporation,Industrials,BTCT.V,EQ,CA09175U1030
+Rockpoint Gas Storage  Inc. Class A,Industrials,RGSI.TO,EQ,CA7739151032
+Maximus Metals  Inc.,Industrials,MM.CN,EQ,CA57779G1037
+TempraMed Technologies Ltd.,Industrials,VIVI.NE,EQ,CA88024B1022
+Kleen HY-DRO-GEN Inc.,Industrials,KLN.NE,EQ,CA49848M1041
+Base Carbon  Inc.,Industrials,BCBN.NE,EQ,CA06975E1079
+Railtown AI Technologies Inc,Industrials,RAIL.NE,EQ,CA7507631041
+RZOLV Technologies Inc.,Industrials,RZL.V,EQ,CA76091C1032
+Metatek-Group Ltd.,Industrials,MTEK.TO,EQ,CA59140H1091
+Makenita Resources  Inc.,Industrials,KENY.NE,EQ,CA5609251098

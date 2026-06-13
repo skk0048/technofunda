@@ -1,11 +1,15 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-Telstra Group Limited,Communication Services,TLS.AX,EQ,
-TPG Telecom Limited,Communication Services,TPG.AX,EQ,
-Chorus Limited,Communication Services,CNU.AX,EQ,
-Spark New Zealand Limited,Communication Services,SPK.AX,EQ,
-Macquarie Technology Group Limited,Communication Services,MAQ.AX,EQ,
-Aussie Broadband Ltd.,Communication Services,ABB.AX,EQ,
-Tuas Ltd.,Communication Services,TUA.AX,EQ,
-Infotrust Ltd,Communication Services,ITS.AX,EQ,
-FlexiRoam Ltd,Communication Services,FRX.AX,EQ,
-Hubify Ltd.,Communication Services,HFY.AX,EQ,
+Telstra,Communication Services,TLS.AX,EQ,AU000000TLS2
+News Corp Class B,Communication Services,NWS.AX,EQ,AU000000NWS2
+REA Group,Communication Services,REA.AX,EQ,AU000000REA9
+CAR Group,Communication Services,CAR.AX,EQ,AU000000CAR3
+TPG Telecom,Communication Services,TPG.AX,EQ,AU0000090128
+Seek,Communication Services,SEK.AX,EQ,AU000000SEK6
+EVT,Communication Services,EVT.AX,EQ,AU000000EVT1
+Macquarie Technology Group Limited,Communication Services,MAQ.AX,EQ,AU000000MAQ4
+Aussie Broadband Ltd.,Communication Services,ABB.AX,EQ,AU0000106643
+Tuas,Communication Services,TUA.AX,EQ,AU0000089724
+Nine Entertainment,Communication Services,NEC.AX,EQ,AU000000NEC4
+Infotrust Ltd,Communication Services,ITS.AX,EQ,AU0000431462
+FlexiRoam Ltd,Communication Services,FRX.AX,EQ,AU000000FRX8
+Hubify Ltd.,Communication Services,HFY.AX,EQ,AU0000114852

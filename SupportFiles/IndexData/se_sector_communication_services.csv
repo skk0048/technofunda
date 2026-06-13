@@ -1,10 +1,11 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-Telenor ASA,Communication Services,TELO.ST,EQ,
-Telia Company AB,Communication Services,TELIA.ST,EQ,
-Tele2 AB Class B,Communication Services,TEL2-B.ST,EQ,
-Tele2 AB Class A,Communication Services,TEL2-A.ST,EQ,
-Ovzon AB,Communication Services,OVZON.ST,EQ,
-Bahnhof AB Class B,Communication Services,BAHN-B.ST,EQ,
-Generic Sweden AB,Communication Services,GENI.ST,EQ,
-Sonetel AB,Communication Services,SONE.ST,EQ,
-C100 AB,Communication Services,C100.ST,EQ,
+Telia Company,Communication Services,TELIA.ST,EQ,SE0000667925
+Tele2 AB Class A,Communication Services,TEL2_A.ST,EQ,SE0005190220
+Tele2 AB Class B,Communication Services,TEL2_B.ST,EQ,SE0005190238
+Ovzon AB,Communication Services,OVZON.ST,EQ,SE0010948711
+Bahnhof AB Class B,Communication Services,BAHN_B.ST,EQ,SE0010442418
+Generic Sweden AB,Communication Services,GENI.ST,EQ,SE0001790791
+Sonetel AB,Communication Services,SONE.ST,EQ,SE0009580517
+C100 AB,Communication Services,C100.ST,EQ,SE0017616006
+Tele2,Communication Services,TEL2-B.ST,EQ,
+Millicom International,Communication Services,TIGO-SDB.ST,EQ,

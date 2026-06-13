@@ -1,8 +1,103 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-Siam Cement,Materials,SCC.BK,EQ,
-PTT Global Chemical,Materials,PTTGC.BK,EQ,
-Indorama Ventures,Materials,IVL.BK,EQ,
-Global Green Chemicals,Materials,GGC.BK,EQ,
-Siam Cement Packaging,Materials,SCGP.BK,EQ,
-Eastern Polymer Group,Materials,EPG.BK,EQ,
-Sri Trang Agro-Industry,Materials,STA.BK,EQ,
+Siam Cement,Materials,SCC.BK,EQ,TH0003010Z04
+PTT Global Chemical,Materials,PTTGC.BK,EQ,TH1074010006
+Indorama Ventures,Materials,IVL.BK,EQ,TH1027010004
+Siam Cement Packaging,Materials,SCGP.BK,EQ,TH0098010Y05
+Siam City Cement Public Company Limited,Materials,SCCC.BK,EQ,TH0021010Z06
+Sri Trang Gloves (Thailand) Public Company Limited,Materials,STGT.BK,EQ,TH9829010Z03
+Sri Trang Agro-Industry,Materials,STA.BK,EQ,TH0254A10Z06
+TOA Paint (Thailand) Public Company Limited,Materials,TOA.BK,EQ,TH8193010007
+Tipco Asphalt Public Company Limited,Materials,TASCO.BK,EQ,TH0219010Z06
+Eastern Polymer Group,Materials,EPG.BK,EQ,TH6128010001
+Birla Carbon (Thailand) Public Company Limited,Materials,BCT.BK,EQ,TH0200010Y07
+TPI Polene Public Company Limited,Materials,TPIPL.BK,EQ,TH0212A10Z07
+Alucon Public Company Limited,Materials,ALUCON.BK,EQ,TH0164010009
+Polyplex (Thailand) Public Company Limited,Materials,PTL.BK,EQ,TH0815010002
+P.S.P. Specialties Public Company Limited,Materials,PSP.BK,EQ,THB425010006
+SCGD_SCG DECOR,Materials,SCGD.BK,EQ,THB722010006
+North East Rubber Public Company Limited,Materials,NER.BK,EQ,TH8798010006
+Tata Steel (Thailand) Public Company Limited,Materials,TSTH.BK,EQ,TH0692010000
+BBGI Public Company Limited,Materials,BBGI.BK,EQ,THA307010001
+United Paper Public Company Limited,Materials,UTP.BK,EQ,TH0818010Z05
+S.Kijchai Enterprise Public Company Limited,Materials,SKN.BK,EQ,TH8177010007
+Global Green Chemicals,Materials,GGC.BK,EQ,TH7920010Z02
+Siam Pan Group Public Company Limited,Materials,SPG.BK,EQ,TH0613010Z00
+M.C.S. Steel Public Company Limited,Materials,MCS.BK,EQ,TH0851010007
+G J Steel Public Company Limited,Materials,GJS.BK,EQ,TH0585D10Z03
+Thai Eastern Group Holdings Public Company Limited,Materials,TEGH.BK,EQ,THA998010005
+POSCO-Thainox Public Company Limited,Materials,INOX.BK,EQ,TH0814A10Z09
+Vanachai Group Public Company Limited,Materials,VNG.BK,EQ,TH0533010Z00
+TMT Steel Public Company Limited,Materials,TMT.BK,EQ,TH0826010Y09
+Chememan Public Company Limited,Materials,CMAN.BK,EQ,TH8472010009
+Quality Construction Products Public Co. Ltd.,Materials,Q-CON.BK,EQ,TH0760010007
+Southern Concrete Pile Public Company Limited,Materials,SCP.BK,EQ,TH0240010Z02
+Thai Mitsuwa Public Company Limited,Materials,TMW.BK,EQ,TH0740010002
+Sherwood Corporation (Thailand) Public Company Limited,Materials,SWC.BK,EQ,TH0801A10Z04
+Global Connections Public Company Limited,Materials,GC.BK,EQ,TH0873010Z00
+Selic Corp Public Company Limited,Materials,SELIC.BK,EQ,TH7533010008
+Sahamit Machinery Public Company Limited,Materials,SMIT.BK,EQ,TH0843010008
+UAC Global Public Company Limited,Materials,UAC.BK,EQ,TH1040010Y06
+2S Metal Public Co. Ltd.,Materials,2S.BK,EQ,TH1008B10Y03
+Pacific Pipe Public Company Limited,Materials,PAP.BK,EQ,TH0805A10Z00
+Thai Agro Energy Public Company Limited,Materials,TAE.BK,EQ,TH3548010000
+Siam Steel Service Center Public Company Limited,Materials,SSSC.BK,EQ,TH0547010Z00
+Lohakit Metal Public Company Limited,Materials,LHK.BK,EQ,TH0964010001
+Chow Bright Ventures Holdings Public Company,Materials,CHOW.BK,EQ,TH1081010007
+Sahathai Printing & Packaging Public Company Limited,Materials,STP.BK,EQ,THA815010006
+Dcon Products Public Company Limited,Materials,DCON.BK,EQ,TH0794010Z08
+Asia Metal Public Company Limited,Materials,AMC.BK,EQ,TH0783010000
+Tycoons Worldwide Group (Thailand) Public Company Limited,Materials,TYCN.BK,EQ,TH0754A10Z01
+Union Petrochemical Public Company Limited,Materials,UKEM.BK,EQ,TH0927010Z04
+Golden Lime Public Company Limited,Materials,SUTHA.BK,EQ,TH5047010001
+PM Thoresen Asia Holdings Public Company Limited,Materials,PMTA.BK,EQ,TH6252010009
+Thai Rubber Latex Group Public Company Limited,Materials,TRUBB.BK,EQ,TH0249010Y04
+The Steel Public Company Limited,Materials,THE.BK,EQ,TH0949B10Z06
+Pato Chemical Industry Public Company Limited,Materials,PATO.BK,EQ,TH0532010Z02
+Nutrition SC Public Company Limited,Materials,NTSC.BK,EQ,THB221010002
+Salee Industry Public Company Limited,Materials,SALEE.BK,EQ,TH0836010Z07
+Bio Green Energy Tech Public Company Limited,Materials,BIOTEC.BK,EQ,TH0174A10Z03
+Siam Technic Concrete Public Company Limited,Materials,STECH.BK,EQ,THA396010003
+Porn Prom Metal Public Co. Ltd.,Materials,PPM.BK,EQ,TH0806010Z00
+Chonburi Concrete Product Public Co. Ltd.,Materials,CCP.BK,EQ,TH0745A10Z03
+Megachem (Thailand) Public Company Limited,Materials,MGT.BK,EQ,TH7735010004
+ASIAN PALM OIL PUBLIC COMPANY LIMITED,Materials,APO.BK,EQ,THB886010008
+Thai Future Inc Pub Co Ltd.,Materials,TFI.BK,EQ,TH0175A10Y03
+Bangsaphan Barmill Public Co. Ltd.,Materials,BSBM.BK,EQ,TH0824010001
+Ziga Innovation Public Co. Ltd.,Materials,ZIGA.BK,EQ,TH8102010007
+Eason & Co. Public Co. Ltd.,Materials,EASON.BK,EQ,TH0861010Z05
+Smart Concrete Public Company Ltd,Materials,SMART.BK,EQ,TH5850010Z03
+Applied DB Public Company Limited,Materials,ADB.BK,EQ,TH8295010004
+Yong Concrete Public Company Limited,Materials,YONG.BK,EQ,THA888010008
+Chai Watana Tannery Group Public Co. Ltd.,Materials,CWT.BK,EQ,TH0225A10Z02
+Chuwit Farm (2019) Public Company Limited,Materials,CFARM.BK,EQ,THC125010007
+Thai Packaging & Printing Public Co. Ltd.,Materials,TPP.BK,EQ,TH0205010000
+Capital Engineering Network Public Co. Ltd.,Materials,CEN.BK,EQ,TH0230A10Z05
+Madame Bioscience Public Company Limited,Materials,MADAME.BK,EQ,TH0404B10Z04
+Multibax Public Co. Ltd.,Materials,MBAX.BK,EQ,TH0938010004
+City Steel Public Co. Ltd.,Materials,CITY.BK,EQ,TH0898010002
+Asia Biomass Public Co. Ltd.,Materials,ABM.BK,EQ,TH8422010000
+Thai Poly Acrylic Public Co. Ltd.,Materials,TPA.BK,EQ,TH0457010Z02
+STC Concrete Product PCL,Materials,STC.BK,EQ,TH9519010002
+UBIS (Asia) PCL,Materials,UBIS.BK,EQ,TH0943010007
+Thai Plastic Industrial (1994) Public Co. Ltd.,Materials,TPLAS.BK,EQ,TH8709010004
+CPL Group Public Company Ltd,Materials,CPL.BK,EQ,TH0459010Z08
+Thai Coating Industrial Public Co Ltd,Materials,TCOAT.BK,EQ,TH0401010002
+General Engineering Public Co. Ltd.,Materials,GEL.BK,EQ,TH0224E10Z09
+CSP Steel Center Public Co. Ltd.,Materials,CSP.BK,EQ,TH0881010Z03
+Sirakorn Public Co Limited,Materials,SK.BK,EQ,TH9953010005
+CPanel Public Company Limited,Materials,CPANEL.BK,EQ,THA476010006
+Thai Ha Public Co. Ltd.,Materials,KASET.BK,EQ,TH0879010005
+Ocean Glass Public Co. Ltd.,Materials,OGC.BK,EQ,TH0360010001
+Millcon Steel Public Co. Ltd.,Materials,MILL.BK,EQ,TH0957010Y02
+Permsin Steel Works Public Co. Ltd.,Materials,PERM.BK,EQ,TH0849010002
+Asia Fiber Public Co. Ltd.,Materials,AFC.BK,EQ,TH0011010004
+PP PRIME Public Co. Ltd.,Materials,PPPM.BK,EQ,TH0435B10Z07
+Union Pioneer Public Co. Ltd.,Materials,UPF.BK,EQ,TH0031010000
+Dimet (Siam) Public Co. Ltd.,Materials,DIMET.BK,EQ,TH0966010009
+Rayong Wire Industries PCL,Materials,RWI.BK,EQ,TH5359010003
+Thai-German Products Public Co. Ltd.,Materials,TGPRO.BK,EQ,TH0466B10Z09
+Samchai Steel Industries Public Co. Ltd.,Materials,SAM.BK,EQ,TH0786010Z04
+S.A.F. Special Steel Public Company Limited,Materials,SAF.BK,EQ,THB099010001
+Delta Paint Public Co. Ltd.,Materials,DPAINT.BK,EQ,THA534010006
+PMC Label Materials Public Co. Ltd.,Materials,PMC.BK,EQ,THC302010002
+Stone One Public Company Limited,Materials,STX.BK,EQ,THC065010009

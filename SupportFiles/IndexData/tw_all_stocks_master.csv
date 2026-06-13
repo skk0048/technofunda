@@ -1,96 +1,2256 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-Taiwan Semiconductor,Technology,2330.TW,EQ,
-MediaTek,Technology,2454.TW,EQ,
-Hon Hai Precision,Technology,2317.TW,EQ,
-Delta Electronics,Technology,2308.TW,EQ,
-Largan Precision,Technology,3008.TW,EQ,
-ASE Technology,Technology,3711.TW,EQ,
-Novatek Microelectronics,Technology,3034.TW,EQ,
-Realtek Semiconductor,Technology,2379.TW,EQ,
-United Microelectronics,Technology,2303.TW,EQ,
-eMemory Technology,Technology,3529.TW,EQ,
-Wiwynn,Technology,6669.TW,EQ,
-Inventec,Technology,2356.TW,EQ,
-Quanta Computer,Technology,2382.TW,EQ,
-Compal Electronics,Technology,2324.TW,EQ,
-Pegatron,Technology,4938.TW,EQ,
-Chunghwa Telecom,Communication Services,2412.TW,EQ,
-Far EasTone Telecom,Communication Services,4904.TW,EQ,
-Taiwan Mobile,Communication Services,3045.TW,EQ,
-Cathay Financial,Financials,2882.TW,EQ,
-Fubon Financial,Financials,2881.TW,EQ,
-Mega Financial,Financials,2886.TW,EQ,
-CTBC Financial,Financials,2891.TW,EQ,
-E.SUN Financial,Financials,2884.TW,EQ,
-China Steel,Materials,2002.TW,EQ,
-Formosa Plastics,Materials,1301.TW,EQ,
-Formosa Petrochemical,Energy,6505.TW,EQ,
-Formosa Chemicals,Materials,1326.TW,EQ,
-Nan Ya Plastics,Materials,1303.TW,EQ,
-Taiwan Cement,Materials,1101.TW,EQ,
-Asia Cement,Materials,1102.TW,EQ,
-Uni-President Enterprises,Consumer Staples,1216.TW,EQ,
-President Chain Store,Consumer Staples,2912.TW,EQ,
-Taiwan Tobacco & Liquor,Consumer Staples,1062.TW,EQ,
-Catcher Technology,Industrials,2474.TW,EQ,
-Yageo,Industrials,2327.TW,EQ,
-Wistron,Industrials,3231.TW,EQ,
-Acer,Industrials,2353.TW,EQ,
-ASUS (Asustek),Industrials,2357.TW,EQ,
-Cheng Shin Rubber,Consumer Discretionary,2105.TW,EQ,
-Giant Manufacturing,Consumer Discretionary,9921.TW,EQ,
-Merida Industry,Consumer Discretionary,9914.TW,EQ,
-Nanya Technology,Technology,2408.TW,EQ,
-Powerchip Semiconductor,Technology,6770.TW,EQ,
-Vanguard International Semiconductor,Technology,5347.TWO,EQ,
-Global Unichip,Technology,3443.TW,EQ,
-Parade Technologies,Technology,4966.TWO,EQ,
-Alchip Technologies,Technology,3661.TW,EQ,
-King Yuan Electronics,Technology,2449.TW,EQ,
-Lite-On Technology,Technology,2301.TW,EQ,
-Advantech,Technology,2395.TW,EQ,
-Synnex Technology,Technology,2347.TW,EQ,
-Gigabyte Technology,Technology,2376.TW,EQ,
-Micro-Star International,Technology,2377.TW,EQ,
-First Financial Holding,Financials,2892.TW,EQ,
-Hua Nan Financial,Financials,2880.TW,EQ,
-Taishin Financial,Financials,2887.TW,EQ,
-SinoPac Financial,Financials,2890.TW,EQ,
-Yuanta Financial,Financials,2885.TW,EQ,
-Shin Kong Financial,Financials,2888.TW,EQ,
-Chang Hwa Bank,Financials,2801.TW,EQ,
-Evergreen Marine,Industrials,2603.TW,EQ,
-Yang Ming Marine,Industrials,2609.TW,EQ,
-Wan Hai Lines,Industrials,2615.TW,EQ,
-China Airlines,Industrials,2610.TW,EQ,
-EVA Airways,Industrials,2618.TW,EQ,
-Eclat Textile,Consumer Discretionary,1476.TW,EQ,
-Pou Chen,Consumer Discretionary,9904.TW,EQ,
-Feng TAY Enterprise,Consumer Discretionary,9910.TW,EQ,
-Ruentex Development,Real Estate,9945.TW,EQ,
-Far Eastern New Century,Materials,1402.TW,EQ,
-Fortune Electric,Industrials,1519.TW,EQ,
-Chailease Holding,Financials,5871.TW,EQ,
-China Development Financial Holding,Financials,2883.TW,EQ,
-Innolux Corporation,Technology,3481.TW,EQ,
-Walsin Lihwa Corporation,Materials,1605.TW,EQ,
-PX Mart Co Ltd,Consumer Staples,8277.TW,EQ,
-Pchome Online Inc,Consumer Discretionary,8044.TW,EQ,
-momo.com Inc,Consumer Discretionary,8454.TW,EQ,
-Makalot Industrial Co Ltd,Consumer Discretionary,1477.TW,EQ,
-Elan Microelectronics Corp,Technology,2458.TW,EQ,
-WPG Holdings Ltd,Technology,3702.TW,EQ,
-Primax Electronics Ltd,Technology,4915.TW,EQ,
-AUO Corporation,Technology,2409.TW,EQ,
-Himax Technologies Inc,Technology,3036.TW,EQ,
-Silergy Corp,Technology,6415.TW,EQ,
-Phison Electronics Corp,Technology,8299.TW,EQ,
-Silicon Motion Technology Corp,Technology,8150.TW,EQ,
-China Petroleum Corp (Taiwan),Energy,1312.TW,EQ,
-Hotai Motor Co Ltd,Consumer Discretionary,2207.TW,EQ,
-Yulon Motor Co Ltd,Consumer Discretionary,2201.TW,EQ,
-Kenda Rubber Industrial Co Ltd,Consumer Discretionary,2106.TW,EQ,
-Genius Electronic Optical Co Ltd,Technology,3406.TW,EQ,
-Taiwan High Speed Rail Corp,Industrials,2633.TW,EQ,
-Taoyuan International Airport,Industrials,2601.TW,EQ,
-Taiwan Power Company,Utilities,9901.TW,EQ,
+Taiwan Semiconductor,Technology,2330.TW,EQ,TW0002330008
+MediaTek,Technology,2454.TW,EQ,TW0002454006
+Delta Electronics,Technology,2308.TW,EQ,TW0002308004
+Hon Hai Precision,Technology,2317.TW,EQ,TW0002317005
+ASE Technology,Technology,3711.TW,EQ,TW0003711008
+Yageo,Industrials,2327.TW,EQ,TW0002327004
+Elite Material Co.  Ltd.,Technology,2383.TW,EQ,TW0002383007
+Fubon Financial,Financials,2881.TW,EQ,TW0002881000
+United Microelectronics,Technology,2303.TW,EQ,TW0002303005
+Cathay Financial,Financials,2882.TW,EQ,TW0002882008
+Quanta Computer,Technology,2382.TW,EQ,TW0002382009
+Unimicron Technology Corp.,Technology,3037.TW,EQ,TW0003037008
+CTBC Financial,Financials,2891.TW,EQ,TW0002891009
+Accton Technology Corporation,Technology,2345.TW,EQ,TW0002345006
+Hon. Precision  Inc.,Technology,7769.TW,EQ,TW0007769002
+Nanya Technology,Technology,2408.TW,EQ,TW0002408002
+Chunghwa Telecom,Communication Services,2412.TW,EQ,TW0002412004
+Chroma ATE Inc.,Technology,2360.TW,EQ,TW0002360005
+Asia Vital Components Co.  Ltd.,Technology,3017.TW,EQ,TW0003017000
+Wiwynn,Technology,6669.TW,EQ,TW0006669005
+Yuanta Financial,Financials,2885.TW,EQ,TW0002885001
+Nan Ya Plastics,Materials,1303.TW,EQ,TW0001303006
+Winbond Electronics Corporation,Technology,2344.TW,EQ,TW0002344009
+Taishin Financial,Financials,2887.TW,EQ,TW0002887007
+ASPEED Technology Inc.,Technology,5274.TWO,EQ,TW0005274005
+Gold Circuit Electronics Ltd.,Technology,2368.TW,EQ,TW0002368008
+King Slide Works Co.  Ltd.,Consumer Discretionary,2059.TW,EQ,TW0002059003
+Mega Financial,Financials,2886.TW,EQ,TW0002886009
+MPI Corporation,Technology,6223.TWO,EQ,TW0006223001
+Global Unichip,Technology,3443.TW,EQ,TW0003443008
+ASUS (Asustek),Industrials,2357.TW,EQ,TW0002357001
+E.SUN Financial,Financials,2884.TW,EQ,TW0002884004
+Jentech Precision Industrial Co.  Ltd,Technology,3653.TW,EQ,TW0003653002
+Nan Ya Printed Circuit Board Corporation,Technology,8046.TW,EQ,TW0008046004
+Largan Precision,Technology,3008.TW,EQ,TW0003008009
+Phison Electronics Corp.,Technology,8299.TWO,EQ,TW0008299009
+Formosa Petrochemical,Energy,6505.TW,EQ,TW0006505001
+Hua Nan Financial,Financials,2880.TW,EQ,TW0002880002
+SinoPac Financial,Financials,2890.TW,EQ,TW0002890001
+Evergreen Marine,Industrials,2603.TW,EQ,TW0002603008
+Lite-On Technology,Technology,2301.TW,EQ,TW0002301009
+Wistron,Industrials,3231.TW,EQ,TW0003231007
+China Development Financial Holding,Financials,2883.TW,EQ,TW0002883006
+First Financial Holding,Financials,2892.TW,EQ,TW0002892007
+Uni-President Enterprises,Consumer Staples,1216.TW,EQ,TW0001216000
+Taiwan Union Technology Corporation,Technology,6274.TWO,EQ,TW0006274004
+GlobalWafers Co.  Ltd.,Technology,6488.TWO,EQ,TW0006488000
+Advantech,Technology,2395.TW,EQ,TW0002395001
+Far EasTone Telecom,Communication Services,4904.TW,EQ,TW0004904008
+Innolux Corporation,Technology,3481.TW,EQ,TW0003481008
+Taiwan Cooperative Financial Holding Co.  Ltd.,Financials,5880.TW,EQ,TW0005880009
+Taiwan Mobile,Communication Services,3045.TW,EQ,TW0003045001
+PharmaEssentia Corporation,Health Care,6446.TW,EQ,TW0006446008
+WinWay Technology Co.  Ltd.,Technology,6515.TW,EQ,TW0006515000
+King Yuan Electronics,Technology,2449.TW,EQ,TW0002449006
+Kinsus Interconnect Technology Corp.,Technology,3189.TW,EQ,TW0003189007
+Realtek Semiconductor,Technology,2379.TW,EQ,TW0002379005
+Vanguard International Semiconductor,Technology,5347.TWO,EQ,TW0005347009
+Compeq Manufacturing Co.  Ltd.,Technology,2313.TW,EQ,TW0002313004
+Novatek Microelectronics,Technology,3034.TW,EQ,TW0003034005
+China Steel,Materials,2002.TW,EQ,TW0002002003
+China Steel Corporation,Materials,2002A.TW,EQ,TW0002002A04
+Himax Technologies Inc,Technology,3036.TW,EQ,TW0003036000
+Macronix International Co.  Ltd.,Technology,2337.TW,EQ,TW0002337003
+Formosa Plastics,Materials,1301.TW,EQ,TW0001301000
+Formosa Chemicals,Materials,1326.TW,EQ,TW0001326007
+Powerchip Semiconductor,Technology,6770.TW,EQ,TW0006770001
+Chang Hwa Bank,Financials,2801.TW,EQ,TW0002801008
+Tripod Technology Corporation,Technology,3044.TW,EQ,TW0003044004
+Powertech Technology Inc.,Technology,6239.TW,EQ,TW0006239007
+Hotai Motor Co Ltd,Consumer Discretionary,2207.TW,EQ,TW0002207008
+Lotes Co.  Ltd.,Technology,3533.TW,EQ,TW0003533006
+Fortune Electric,Industrials,1519.TW,EQ,TW0001519007
+United Integrated Services Co.  Ltd.,Industrials,2404.TW,EQ,TW0002404001
+Pegatron,Technology,4938.TW,EQ,TW0004938006
+Tingyi (Cayman Islands) Holding Corp.,Consumer Staples,910322.TW,EQ,TW0009103226
+President Chain Store,Consumer Staples,2912.TW,EQ,TW0002912003
+Wan Hai Lines,Industrials,2615.TW,EQ,TW0002615002
+Inventec,Technology,2356.TW,EQ,TW0002356003
+Gigabyte Technology,Technology,2376.TW,EQ,TW0002376001
+eMemory Technology Inc.,Technology,3529.TWO,EQ,TW0003529004
+E Ink Holdings Inc.,Technology,8069.TWO,EQ,TW0008069006
+WIN Semiconductors Corp.,Technology,3105.TWO,EQ,TW0003105003
+International Games System Co. Ltd.,Communication Services,3293.TWO,EQ,TW0003293007
+EVA Airways,Industrials,2618.TW,EQ,TW0002618006
+The Shanghai Commercial & Savings Bank  Ltd.,Financials,5876.TW,EQ,TW0005876007
+LandMark Optoelectronics Corporation,Technology,3081.TWO,EQ,TW0003081006
+Walsin Technology Corporation,Technology,2492.TW,EQ,TW0002492006
+L&K Engineering Co.  Ltd.,Industrials,6139.TW,EQ,TW0006139009
+Taiwan Glass Ind. Corp.,Materials,1802.TW,EQ,TW0001802007
+Taiwan Cement,Materials,1101.TW,EQ,TW0001101004
+Chenbro Micom Co.  Ltd.,Technology,8210.TW,EQ,TW0008210006
+Yang Ming Marine,Industrials,2609.TW,EQ,TW0002609005
+WPG Holdings Ltd,Technology,3702.TW,EQ,TW0003702007
+AUO Corporation,Technology,2409.TW,EQ,TW0002409000
+Innodisk Corporation,Technology,5289.TWO,EQ,TW0005289003
+Taiwan Business Bank  Ltd.,Financials,2834.TW,EQ,TW0002834009
+Walsin Lihwa Corporation,Materials,1605.TW,EQ,TW0001605004
+Chipbond Technology Corporation,Technology,6147.TWO,EQ,TW0006147002
+TECO Electric & Machinery Co.  Ltd.,Industrials,1504.TW,EQ,TW0001504009
+Syntec Technology Co.  Ltd.,Industrials,7750.TW,EQ,TW0007750002
+Compal Electronics,Technology,2324.TW,EQ,TW0002324001
+VisEra Technologies Company Ltd.,Technology,6789.TW,EQ,TW0006789001
+AP Memory Technology Corporation,Technology,6531.TW,EQ,TW0006531007
+Synnex Technology,Technology,2347.TW,EQ,TW0002347002
+Acter Group Corporation Limited,Industrials,5536.TWO,EQ,TW0005536007
+Far Eastern New Century,Materials,1402.TW,EQ,TW0001402006
+CALIWAY BIOPHARMACEUTICALS CO L,Health Care,6919.TW,EQ,TW0006919004
+Taiwan High Speed Rail Corp,Industrials,2633.TW,EQ,TW0002633005
+Co-Tech Development Corporation,Technology,8358.TWO,EQ,TW0008358003
+EZconn Corporation,Technology,6442.TW,EQ,TW0006442007
+ADATA Technology Co.  Ltd.,Technology,3260.TWO,EQ,TW0003260006
+Transcend Information  Inc.,Technology,2451.TW,EQ,TW0002451002
+WNC Corporation,Technology,6285.TW,EQ,TW0006285000
+Holy Stone Enterprise Co. Ltd.,Technology,3026.TW,EQ,TW0003026001
+Formosa Sumco Technology Corporation,Technology,3532.TW,EQ,TW0003532008
+Fositek Corp.,Technology,6805.TW,EQ,TW0006805005
+Asia Cement,Materials,1102.TW,EQ,TW0001102002
+China Airlines,Industrials,2610.TW,EQ,TW0002610003
+Marketech International Corp.,Technology,6196.TW,EQ,TW0006196009
+Chunghwa Precision Test Tech. Co.  Ltd.,Technology,6510.TWO,EQ,TW0006510001
+Taichung Commercial Bank Co.  Ltd.,Financials,2812.TW,EQ,TW0002812005
+Universal Microwave Technology  Inc.,Technology,3491.TWO,EQ,TW0003491007
+Catcher Technology,Industrials,2474.TW,EQ,TW0002474004
+Micro-Star International,Technology,2377.TW,EQ,TW0002377009
+Shihlin Electric & Engineering Corp.,Industrials,1503.TW,EQ,TW0001503001
+Hiwin Technologies Corporation,Industrials,2049.TW,EQ,TW0002049004
+MiTAC Holdings Corporation,Technology,3706.TW,EQ,TW0003706008
+Cheng Shin Rubber,Consumer Discretionary,2105.TW,EQ,TW0002105004
+Acer,Industrials,2353.TW,EQ,TW0002353000
+Ta Chen Stainless Pipe Co.  Ltd.,Materials,2027.TW,EQ,TW0002027000
+Ardentec Corporation,Technology,3264.TWO,EQ,TW0003264008
+Sigurd Microelectronics Corporation,Technology,6257.TW,EQ,TW0006257009
+Kaori Heat Treatment Co.  Ltd.,Industrials,8996.TW,EQ,TW0008996000
+Airoha Technology Corp.,Technology,6526.TW,EQ,TW0006526007
+All Ring Tech Co.  Ltd.,Industrials,6187.TWO,EQ,TW0006187008
+Nien Made Enterprise Co.  LTD.,Consumer Discretionary,8464.TW,EQ,TW0008464009
+ASMedia Technology Inc.,Technology,5269.TW,EQ,TW0005269005
+Sino-American Silicon Products Inc.,Technology,5483.TWO,EQ,TW0005483002
+Chicony Electronics Co.  Ltd.,Technology,2385.TW,EQ,TW0002385002
+Kinik Company,Industrials,1560.TW,EQ,TW0001560001
+Cal-Comp Electronics (Thailand) Public Company Limited,Technology,9105.TW,EQ,TW0009105007
+Highwealth Construction Corp.,Real Estate,2542.TW,EQ,TW0002542008
+Auras Technology Co.  Ltd.,Technology,3324.TWO,EQ,TW0003324000
+Eclat Textile,Consumer Discretionary,1476.TW,EQ,TW0001476000
+momo.com Inc,Consumer Discretionary,8454.TW,EQ,TW0008454000
+Union Bank of Taiwan,Financials,2838.TW,EQ,TW0002838000
+Grand Process Technology Corporation,Technology,3131.TWO,EQ,TW0003131009
+ITEQ Corporation,Technology,6213.TW,EQ,TW0006213002
+Feng TAY Enterprise,Consumer Discretionary,9910.TW,EQ,TW0009910000
+Topco Scientific Co. Ltd.,Technology,5434.TW,EQ,TW0005434005
+Advanced Echem Materials Company Limited,Technology,4749.TWO,EQ,TW0004749007
+C Sun Mfg Ltd.,Industrials,2467.TW,EQ,TW0002467008
+Capital Securities Corporation,Financials,6005.TW,EQ,TW0006005002
+Solar Applied Materials Technology Corporation,Industrials,1785.TWO,EQ,TW0001785004
+FOCI Fiber Optic Communications  Inc.,Technology,3363.TWO,EQ,TW0003363008
+Yankey Engineering Co.  Ltd.,Industrials,6691.TW,EQ,TW0006691009
+Chang Wah Technology Co.  Ltd.,Technology,6548.TWO,EQ,TW0006548001
+Eternal Materials Co.  Ltd.,Materials,1717.TW,EQ,TW0001717007
+Chung-Hsin Electric and Machinery Manufacturing Corp.,Industrials,1513.TW,EQ,TW0001513000
+Voltronic Power Technology Corp.,Industrials,6409.TW,EQ,TW0006409006
+President Securities Corporation,Financials,2855.TW,EQ,TW0002855004
+Foxconn Technology Co.  Ltd.,Technology,2354.TW,EQ,TW0002354008
+Pou Chen,Consumer Discretionary,9904.TW,EQ,TW0009904003
+APT,Consumer Discretionary,7734.TWO,EQ,TW0007734006
+TXC Corporation,Technology,3042.TW,EQ,TW0003042008
+Test Research  Inc.,Technology,3030.TW,EQ,TW0003030003
+Simplo Technology Co.  Ltd.,Industrials,6121.TWO,EQ,TW0006121007
+Ruentex Development,Real Estate,9945.TW,EQ,TW0009945006
+Mega Union Technology Inc.,Industrials,6944.TW,EQ,TW0006944002
+Topoint Technology Co.  Ltd.,Industrials,8021.TW,EQ,TW0008021007
+SINBON Electronics Co.  Ltd.,Technology,3023.TW,EQ,TW0003023008
+Genius Electronic Optical Co Ltd,Technology,3406.TW,EQ,TW0003406005
+Lien Hwa Industrial Holdings Corporation,Industrials,1229.TW,EQ,TW0001229003
+Nuvoton Technology Corporation,Technology,4919.TW,EQ,TW0004919006
+Nichidenbo Corporation,Technology,3090.TW,EQ,TW0003090007
+Ta Liang Technology Co.  Ltd.,Industrials,3167.TW,EQ,TW0003167003
+LuxNet Corporation,Technology,4979.TWO,EQ,TW0004979000
+Greatek Electronics Inc.,Technology,2441.TW,EQ,TW0002441003
+Alliance Material Co.  Ltd.,Technology,3595.TWO,EQ,TW0003595005
+POYA International Co.  Ltd.,Consumer Discretionary,5904.TWO,EQ,TW0005904007
+Silicon Motion Technology Corp,Technology,8150.TW,EQ,TW0008150004
+Elite Advanced Laser Corporation,Technology,3450.TW,EQ,TW0003450003
+Getac Holdings Corporation,Technology,3005.TW,EQ,TW0003005005
+Visual Photonics Epitaxy Co.  Ltd.,Technology,2455.TW,EQ,TW0002455003
+Browave Corporation,Technology,3163.TWO,EQ,TW0003163002
+Dynapack International Technology Corporation,Industrials,3211.TWO,EQ,TW0003211009
+Scientech Corporation,Technology,3583.TW,EQ,TW0003583001
+Xintec Inc.,Technology,3374.TWO,EQ,TW0003374005
+Far Eastern International Bank Ltd.,Financials,2845.TW,EQ,TW0002845005
+Farglory Land Development Co.  Ltd.,Real Estate,5522.TW,EQ,TW0005522007
+Evergreen Aviation Technologies Corporation,Industrials,2645.TW,EQ,TW0002645009
+STARLUX Airlines Co.  Ltd.,Industrials,2646.TW,EQ,TW0002646007
+Taiwan Surface Mounting Technology Corp.,Technology,6278.TW,EQ,TW0006278005
+Elite Semiconductor Microelectronics Technology Inc.,Technology,3006.TW,EQ,TW0003006003
+Lelon Electronics Corp.,Technology,2472.TW,EQ,TW0002472008
+Tatung Co.  Ltd.,Industrials,2371.TW,EQ,TW0002371002
+Taiwan Cogeneration Corporation,Industrials,8926.TW,EQ,TW0008926007
+Ruentex Engineering & Construction Co.  Ltd.,Industrials,2597.TW,EQ,TW0002597002
+Tong Yang Industry Co.  Ltd.,Consumer Discretionary,1319.TW,EQ,TW0001319002
+I-Chiun Precision Industry Co.  Ltd.,Technology,2486.TW,EQ,TW0002486008
+U-Ming Marine Transport Corporation,Industrials,2606.TW,EQ,TW0002606001
+Fulltech Fiber Glass Corp.,Technology,1815.TWO,EQ,TW0001815009
+PANJIT International Inc.,Technology,2481.TW,EQ,TW0002481009
+Makalot Industrial Co Ltd,Consumer Discretionary,1477.TW,EQ,TW0001477008
+Phoenix Silicon International Corporation,Technology,8028.TW,EQ,TW0008028002
+Ennoconn Corporation,Technology,6414.TW,EQ,TW0006414006
+Heron Neutron Medical Corp.,Health Care,7799.TW,EQ,TW0007799009
+Ruentex Industries Ltd.,Consumer Discretionary,2915.TW,EQ,TW0002915006
+IBF Financial Holdings Co.  Ltd.,Financials,2889.TW,EQ,TW0002889003
+Shiny Chemical Industrial Co.  Ltd.,Materials,1773.TW,EQ,TW0001773000
+Taiwan Secom Co.  Ltd.,Industrials,9917.TW,EQ,TW0009917005
+FOXTRON VEHICLE TECHS CO LTD,Consumer Discretionary,2258.TW,EQ,TW0002258001
+Wafer Works Corporation,Technology,6182.TWO,EQ,TW0006182009
+Supreme Electronics Co.  Ltd.,Technology,8112.TW,EQ,TW0008112004
+Lotus Pharmaceutical Co.  Ltd.,Health Care,1795.TW,EQ,TW0001795003
+Kinpo Electronics  Inc.,Technology,2312.TW,EQ,TW0002312006
+Longwell Company,Industrials,6290.TWO,EQ,TW0006290000
+JSL Construction & Development Co.  Ltd.,Real Estate,2540.TW,EQ,TW0002540002
+Tung Ho Steel Enterprise Corporation,Materials,2006.TW,EQ,TW0002006004
+Bora Pharmaceuticals Co.  Ltd.,Health Care,6472.TW,EQ,TW0006472004
+Tong Hsing Electronic Industries  Ltd.,Technology,6271.TW,EQ,TW0006271000
+AcBel Polytech Inc.,Industrials,6282.TW,EQ,TW0006282007
+Apex Dynamics  Inc.,Industrials,4583.TW,EQ,TW0004583000
+Taiwan Microloops Corp.,Industrials,6831.TW,EQ,TW0006831001
+Qisda Corporation,Technology,2352.TW,EQ,TW0002352002
+Sanyang Motor Co.  Ltd.,Consumer Discretionary,2206.TW,EQ,TW0002206000
+Mercuries Life Insurance Company Ltd.,Financials,2867.TW,EQ,TW0002867009
+Taiwan Acceptance Corporation,Financials,9941.TW,EQ,TW0009941005
+Gudeng Precision Industrial Co.  Ltd.,Technology,3680.TWO,EQ,TW0003680005
+Faraday Technology Corporation,Technology,3035.TW,EQ,TW0003035002
+Taiwan Fertilizer Co.  Ltd.,Materials,1722.TW,EQ,TW0001722007
+ENNOSTAR Inc.,Technology,3714.TW,EQ,TW0003714002
+Dynamic Holding Co.  Ltd.,Technology,3715.TW,EQ,TW0003715009
+Prosperity Dielectrics Co.  Ltd.,Technology,6173.TWO,EQ,TW0006173008
+Pell Bio-Med Technology Co.  Ltd.,Health Care,6949.TW,EQ,TW0006949001
+Shinkong Insurance Co.  Ltd.,Financials,2850.TW,EQ,TW0002850005
+Great Wall Enterprise Co.  Ltd.,Consumer Staples,1210.TW,EQ,TW0001210003
+Global Brands Manufacture Ltd.,Technology,6191.TW,EQ,TW0006191000
+Taiwan Puritic Corp.,Technology,6826.TWO,EQ,TW0006826001
+Sakura Development Co. Ltd,Real Estate,2539.TW,EQ,TW0002539004
+Machvision Inc.,Technology,3563.TW,EQ,TW0003563003
+Nan Pao Resins Chemical Co.  Ltd.,Materials,4766.TW,EQ,TW0004766001
+Aerospace Industrial Development Corporation,Industrials,2634.TW,EQ,TW0002634003
+Unitech Printed Circuit Board Corp.,Technology,2367.TW,EQ,TW0002367000
+Goldsun Building Materials Co.  Ltd.,Materials,2504.TW,EQ,TW0002504008
+HannStar Display Corporation,Technology,6116.TW,EQ,TW0006116007
+YFY Inc.,Materials,1907.TW,EQ,TW0001907004
+Radiant Opto-Electronics Corporation,Technology,6176.TW,EQ,TW0006176001
+Taiwan FamilyMart Co.  Ltd.,Consumer Discretionary,5903.TWO,EQ,TW0005903009
+Elan Microelectronics Corp,Technology,2458.TW,EQ,TW0002458007
+Chang Wah Electromaterials Inc.,Technology,8070.TW,EQ,TW0008070004
+Sunonwealth Electric Machine Industry Co.  Ltd.,Industrials,2421.TW,EQ,TW0002421005
+Shinkong Synthetic Fibers Corporation,Consumer Discretionary,1409.TW,EQ,TW0001409001
+Nan Juen International Co.  Ltd.,Consumer Discretionary,6584.TWO,EQ,TW0006584006
+HannStar Board Corporation,Technology,5469.TW,EQ,TW0005469001
+Hotai Finance Co.  Ltd.,Financials,6592.TW,EQ,TW0006592009
+Asia Optical Co.  Inc.,Technology,3019.TW,EQ,TW0003019006
+Taiwan Speciality Chemicals Corporation,Materials,4772.TWO,EQ,TW0004772009
+Daxin Materials Corporation,Materials,5234.TW,EQ,TW0005234009
+Jess-link Products Co.  Ltd.,Technology,6197.TW,EQ,TW0006197007
+Keystone Microtech Corporation,Technology,6683.TWO,EQ,TW0006683006
+Arcadyan Technology Corporation,Technology,3596.TW,EQ,TW0003596003
+FuSheng Precision Co.  Ltd.,Consumer Discretionary,6670.TW,EQ,TW0006670003
+Taiwan Hon Chuan Enterprise Co.  Ltd.,Consumer Discretionary,9939.TW,EQ,TW0009939009
+Taiflex Scientific Co.  Ltd.,Technology,8039.TW,EQ,TW0008039009
+Cleanaway Company Limited,Industrials,8422.TW,EQ,TW0008422007
+Shin Zu Shing Co.  Ltd.,Industrials,3376.TW,EQ,TW0003376000
+Evergreen Steel Corp.,Materials,2211.TW,EQ,TW0002211000
+Apaq Technology Co.  Ltd.,Technology,6449.TW,EQ,TW0006449002
+Wiselink Co.  Ltd.,Consumer Discretionary,8932.TWO,EQ,TW0008932005
+Thinking Electronic Industrial Co.  Ltd.,Technology,2428.TW,EQ,TW0002428000
+HORNG TERNG,Technology,7751.TWO,EQ,TW0007751000
+CTCI Corporation,Industrials,9933.TW,EQ,TW0009933002
+Feng Hsin Steel Co.  Ltd.,Materials,2015.TW,EQ,TW0002015005
+Chicony Power Technology Co.  Ltd.,Industrials,6412.TW,EQ,TW0006412000
+VIA Technologies  Inc.,Technology,2388.TW,EQ,TW0002388006
+Brighton-Best International (Taiwan) Inc.,Industrials,8415.TWO,EQ,TW0008415001
+Systex Corporation,Technology,6214.TW,EQ,TW0006214000
+HTC Corporation,Technology,2498.TW,EQ,TW0002498003
+Primax Electronics Ltd,Technology,4915.TW,EQ,TW0004915004
+Orient Semiconductor Electronics  Limited,Technology,2329.TW,EQ,TW0002329000
+Johnson Health Tech .Co.  Ltd.,Consumer Discretionary,1736.TW,EQ,TW0001736007
+Charoen Pokphand Enterprise (Taiwan) Co.  Ltd.,Consumer Staples,1215.TW,EQ,TW0001215002
+Century Wind Power Co.  Ltd.,Industrials,2072.TW,EQ,TW0002072006
+Sitronix Technology Corporation,Technology,8016.TW,EQ,TW0008016007
+Wah Lee Industrial Corporation,Technology,3010.TW,EQ,TW0003010005
+Foxsemicon Integrated Technology Inc.,Technology,3413.TW,EQ,TW0003413001
+Huaku Development Co.  Ltd.,Real Estate,2548.TW,EQ,TW0002548005
+Far Eastern Department Stores  Ltd.,Consumer Discretionary,2903.TW,EQ,TW0002903002
+SDI Corporation,Technology,2351.TW,EQ,TW0002351004
+Episil-Precision Inc.,Technology,3016.TW,EQ,TW0003016002
+PixArt Imaging Inc.,Technology,3227.TWO,EQ,TW0003227005
+TAI-TECH Advanced Electronics Co.  Ltd.,Technology,3357.TWO,EQ,TW0003357000
+Allis Electric Co. Ltd.,Industrials,1514.TW,EQ,TW0001514008
+Lin BioScience  Inc.,Health Care,6696.TWO,EQ,TW0006696008
+United Renewable Energy Co.  Ltd.,Technology,3576.TW,EQ,TW0003576005
+Formosa Advanced Technologies Co.  Ltd.,Technology,8131.TW,EQ,TW0008131004
+Yuanta Futures Co.  Ltd.,Financials,6023.TWO,EQ,TW0006023005
+Everlight Electronics Co.  Ltd.,Technology,2393.TW,EQ,TW0002393006
+China Motor Corporation,Consumer Discretionary,2204.TW,EQ,TW0002204005
+ASROCK Incorporation,Technology,3515.TW,EQ,TW0003515003
+Mirle Automation Corporation,Industrials,2464.TW,EQ,TW0002464005
+Cathay Real Estate Development Co.  Ltd.,Real Estate,2501.TW,EQ,TW0002501004
+Episil Technologies Inc.,Technology,3707.TWO,EQ,TW0003707006
+Glotech Industrial Corp.,Consumer Discretionary,5475.TWO,EQ,TW0005475008
+First Hi-tec Enterprise Co.  Ltd.,Technology,5439.TWO,EQ,TW0005439004
+Silicon Integrated Systems Corp.,Technology,2363.TW,EQ,TW0002363009
+Central Reinsurance Corporation,Financials,2851.TW,EQ,TW0002851003
+Advanced Wireless Semiconductor Company,Technology,8086.TWO,EQ,TW0008086000
+China Petrochemical Development Corporation,Materials,1314.TW,EQ,TW0001314003
+Giant Manufacturing,Consumer Discretionary,9921.TW,EQ,TW0009921007
+Yulon Motor Co Ltd,Consumer Discretionary,2201.TW,EQ,TW0002201001
+O-Bank Co.  Ltd.,Financials,2897.TW,EQ,TW0002897006
+Ta Ya Electric Wire & Cable Co.  Ltd.,Industrials,1609.TW,EQ,TW0001609006
+Etron Technology  Inc.,Technology,5351.TWO,EQ,TW0005351001
+Gallant Micro. Machining Co.  LTD.,Technology,6640.TWO,EQ,TW0006640006
+Run Long Construction Co.  Ltd.,Real Estate,1808.TW,EQ,TW0001808004
+Center Laboratories  Inc.,Health Care,4123.TWO,EQ,TW0004123005
+WUS Printed Circuit Co.  Ltd.,Technology,2316.TW,EQ,TW0002316007
+Formosa Taffeta Co.  Ltd.,Consumer Discretionary,1434.TW,EQ,TW0001434009
+Adlink Technology Inc.,Technology,6166.TW,EQ,TW0006166002
+EnTie Commercial Bank Co.  Ltd.,Financials,2849.TW,EQ,TW0002849007
+Walton Advanced Engineering  Inc.,Technology,8110.TW,EQ,TW0008110008
+Century Iron and Steel Industrial Co. Ltd.,Industrials,9958.TW,EQ,TW0009958009
+C.C.P. Contact Probes Co.  Ltd.,Technology,6217.TWO,EQ,TW0006217003
+AAEON Technology Inc.,Technology,6579.TW,EQ,TW0006579006
+Clevo Co.,Technology,2362.TW,EQ,TW0002362001
+Grade Upon Technology Corp,Technology,6739.TWO,EQ,TW0006739006
+G-SHANK Enterprise Co.  Ltd.,Industrials,2476.TW,EQ,TW0002476009
+Pan-International Industrial Corp.,Technology,2328.TW,EQ,TW0002328002
+Lian Hwa Foods Corporation,Consumer Staples,1231.TW,EQ,TW0001231009
+Coretronic Corporation,Technology,5371.TWO,EQ,TW0005371009
+Msscorps Co.  Ltd.,Technology,6830.TW,EQ,TW0006830003
+Evergreen International Storage & Transport Corporation,Industrials,2607.TW,EQ,TW0002607009
+Jiu Han System Technology Co.  Ltd.,Industrials,6903.TWO,EQ,TW0006903008
+Standard Foods Corporation,Consumer Staples,1227.TW,EQ,TW0001227007
+Chief Telecom Inc.,Communication Services,6561.TWO,EQ,TW0006561004
+Ton Yi Industrial Corp.,Consumer Discretionary,9907.TW,EQ,TW0009907006
+Ampoc Far-East Co.  Ltd.,Technology,2493.TW,EQ,TW0002493004
+Apacer Technology Inc.,Technology,8271.TW,EQ,TW0008271008
+Lintes Technology Co.  Ltd.,Technology,6715.TW,EQ,TW0006715006
+Tigerair Taiwan Co.  Ltd.,Industrials,6757.TW,EQ,TW0006757008
+Chung Hung Steel Corporation,Materials,2014.TW,EQ,TW0002014008
+Sercomm Corporation,Technology,5388.TW,EQ,TW0005388003
+Chong Hong Construction Co.  Ltd.,Real Estate,5534.TW,EQ,TW0005534002
+ASRock Rack Incorporation,Technology,7711.TW,EQ,TW0007711004
+Yieh Phui Enterprise Co.  Ltd.,Materials,2023.TW,EQ,TW0002023009
+AmTRAN Technology Co. Ltd,Technology,2489.TW,EQ,TW0002489002
+ITE Tech. Inc,Technology,3014.TW,EQ,TW0003014007
+Cheng Loong Corporation,Materials,1904.TW,EQ,TW0001904001
+E&R Engineering Corporation,Industrials,8027.TWO,EQ,TW0008027004
+Taiwan Semiconductor Co.  Ltd.,Technology,5425.TWO,EQ,TW0005425003
+Contrel Technology Co.  Ltd.,Technology,8064.TWO,EQ,TW0008064007
+Pegavision Corporation,Health Care,6491.TW,EQ,TW0006491004
+Hwang Chang General Contractor Co.  Ltd,Industrials,2543.TW,EQ,TW0002543006
+TA-I Technology Co.  Ltd.,Technology,2478.TW,EQ,TW0002478005
+Chin-Poon Industrial Co.  Ltd.,Technology,2355.TW,EQ,TW0002355005
+Nankang Rubber Tire Corp. Ltd.,Consumer Discretionary,2101.TW,EQ,TW0002101003
+Winstek Semiconductor Co.  Ltd.,Technology,3265.TWO,EQ,TW0003265005
+Ability Enterprise Co.  Ltd.,Technology,2374.TW,EQ,TW0002374006
+Global Mixed-Mode Technology Inc.,Technology,8081.TW,EQ,TW0008081001
+Nova Technology Corporation,Industrials,6613.TWO,EQ,TW0006613003
+Hiwin Mikrosystem Corporation,Industrials,4576.TW,EQ,TW0004576004
+TTET Union Corporation,Consumer Staples,1232.TW,EQ,TW0001232007
+Weikeng Industrial Co.  Ltd.,Technology,3033.TW,EQ,TW0003033007
+China Bills Finance Corporation,Financials,2820.TW,EQ,TW0002820008
+Everlight Chemical Industrial Corporation,Materials,1711.TW,EQ,TW0001711000
+Ability Opto-Electronics Technology Co. Ltd.,Technology,3362.TWO,EQ,TW0003362000
+Da-Cin Construction Co. Ltd.,Industrials,2535.TW,EQ,TW0002535002
+Depo Auto Parts Industrial Co.  Ltd.,Consumer Discretionary,6605.TW,EQ,TW0006605009
+Qualipoly Chemical Corp.,Materials,4722.TW,EQ,TW0004722004
+QNAP,Technology,7805.TWO,EQ,TW0007805004
+Oneness Biotech Co.  Ltd.,Health Care,4743.TWO,EQ,TW0004743000
+Anpec Electronics Corporation,Technology,6138.TWO,EQ,TW0006138001
+Merry Electronics Co.  Ltd.,Technology,2439.TW,EQ,TW0002439007
+Millerful No 1 Real Estate Investment Trust,Financials,01010T.TW,EQ,TW00001010T9
+uPI Semiconductor Corp.,Technology,6719.TW,EQ,TW0006719008
+Solomon Technology Corporation,Technology,2359.TW,EQ,TW0002359007
+Formosa International Hotels Corporation,Consumer Discretionary,2707.TW,EQ,TW0002707007
+CSBC Corporation,Industrials,2208.TW,EQ,TW0002208006
+Flexium Interconnect  Inc.,Technology,6269.TW,EQ,TW0006269004
+LINE Pay Taiwan Limited,Technology,7722.TW,EQ,TW0007722001
+Quanta Storage Inc.,Technology,6188.TWO,EQ,TW0006188006
+Team Group Inc.,Technology,4967.TW,EQ,TW0004967005
+Bank of Kaohsiung Co.  Ltd.,Financials,2836.TW,EQ,TW0002836004
+Double Bond Chemical Ind. Co.  Ltd.,Materials,4764.TW,EQ,TW0004764006
+TSEC Corporation,Technology,6443.TW,EQ,TW0006443005
+Group Up Industrial Co.  Ltd.,Industrials,6664.TWO,EQ,TW0006664006
+Da-Li Development Co. Ltd.,Real Estate,6177.TW,EQ,TW0006177009
+Taiwan Chinsan Electronic Industrial Co.  Ltd.,Technology,8042.TWO,EQ,TW0008042003
+Chenming Electronic Tech. Corp.,Technology,3013.TW,EQ,TW0003013009
+Merida Industry,Consumer Discretionary,9914.TW,EQ,TW0009914002
+Tainan Spinning Co.  Ltd.,Consumer Discretionary,1440.TW,EQ,TW0001440006
+AIC Inc.,Technology,3693.TWO,EQ,TW0003693008
+Concord International Securities Co.  Ltd,Financials,5864.TWO,EQ,TW0005864003
+Allied Circuit Co.  Ltd.,Technology,8155.TWO,EQ,TW0008155003
+Alltop Technology Co.  Ltd.,Technology,3526.TWO,EQ,TW0003526000
+Gloria Material Technology Corp.,Materials,5009.TWO,EQ,TW0005009005
+Thunder Tiger Corp.,Consumer Discretionary,8033.TW,EQ,TW0008033002
+Kindom Development Co.  Ltd.,Industrials,2520.TW,EQ,TW0002520004
+GFC. LTD.,Industrials,4506.TWO,EQ,TW0004506001
+Lungyen Life Service Corporation,Consumer Discretionary,5530.TWO,EQ,TW0005530000
+BES Engineering Corporation,Industrials,2515.TW,EQ,TW0002515004
+Advanced Power Electronics Co.  Ltd.,Technology,8261.TW,EQ,TW0008261009
+Shenmao Technology Inc,Technology,3305.TW,EQ,TW0003305009
+Zinwell Corporation,Technology,2485.TW,EQ,TW0002485000
+Cyber Power Systems  Inc.,Industrials,3617.TW,EQ,TW0003617007
+ECOVE Environment Corp.,Industrials,6803.TWO,EQ,TW0006803000
+Sunmax Biotechnology Co.  Ltd.,Health Care,4728.TWO,EQ,TW0004728001
+Tyntek Corporation,Technology,2426.TW,EQ,TW0002426004
+Materials Analysis Technology Inc.,Technology,3587.TWO,EQ,TW0003587002
+Raydium Semiconductor Corporation,Technology,3592.TW,EQ,TW0003592002
+China Steel Chemical Corporation,Materials,1723.TW,EQ,TW0001723005
+Farglory Life Insurance Co.  Ltd.,Financials,5859.TWO,EQ,TW0005859003
+Universal Cement Corporation,Materials,1104.TW,EQ,TW0001104008
+Sporton International Inc.,Industrials,6146.TWO,EQ,TW0006146004
+Fitipower Integrated Technology Inc.,Technology,4961.TW,EQ,TW0004961008
+Wowprime Corp.,Consumer Discretionary,2727.TW,EQ,TW0002727005
+Yieh United Steel Corp.,Materials,9957.TWO,EQ,TW0009957001
+Ichia Technologies  Inc.,Technology,2402.TW,EQ,TW0002402005
+CoAsia Electronics Corp.,Technology,8096.TWO,EQ,TW0008096009
+M31 Technology Corporation,Technology,6643.TWO,EQ,TW0006643000
+EDOM Technology Co.  Ltd.,Technology,3048.TW,EQ,TW0003048005
+Cathay No. 1 Real Estate Investment Trust,Financials,01002T.TW,EQ,TW00001002T6
+Concord Securities Co.  Ltd.,Financials,6016.TWO,EQ,TW0006016009
+Farglory Free Trade Zone Investment Holding Co.  Ltd.,Industrials,5607.TW,EQ,TW0005607006
+Shinkong Textile Co.  Ltd.,Consumer Discretionary,1419.TW,EQ,TW0001419000
+Gemtek Technology Co.  Ltd.,Technology,4906.TW,EQ,TW0004906003
+Cheng Uei Precision Industry Co.  Ltd.,Technology,2392.TW,EQ,TW0002392008
+Pan German Universal Motors Ltd.,Consumer Discretionary,2247.TW,EQ,TW0002247004
+G-TECH Optoelectronics Corporation,Technology,3149.TW,EQ,TW0003149001
+Kaimei Electronic Corp.,Technology,2375.TW,EQ,TW0002375003
+Flytech Technology Co.  Ltd.,Technology,6206.TW,EQ,TW0006206006
+Skytech Inc.,Technology,6937.TW,EQ,TW0006937006
+Taiwan Sakura Corporation,Consumer Discretionary,9911.TW,EQ,TW0009911008
+Sincere Navigation Corporation,Industrials,2605.TW,EQ,TW0002605003
+Zyxel Group Corporation,Technology,3704.TW,EQ,TW0003704003
+TTY Biopharm Company Limited,Health Care,4105.TWO,EQ,TW0004105002
+Alpha Networks Inc.,Technology,3380.TW,EQ,TW0003380002
+Ingentec Corporation,Materials,4768.TWO,EQ,TW0004768007
+TSRC Corporation,Materials,2103.TW,EQ,TW0002103009
+Continental Holdings Corporation,Industrials,3703.TW,EQ,TW0003703005
+Lumosa Therapeutics Co.  Ltd.,Health Care,6535.TWO,EQ,TW0006535008
+Zenitron Corporation,Technology,3028.TW,EQ,TW0003028007
+Albatron Technology Co.  Ltd,Technology,5386.TWO,EQ,TW0005386007
+Global PMX Co.  Ltd.,Consumer Discretionary,4551.TW,EQ,TW0004551007
+TURVO International Co.  Ltd.,Industrials,2233.TW,EQ,TW0002233004
+Baotek Industrial Materials Ltd.,Consumer Discretionary,5340.TWO,EQ,TW0005340004
+CHC Resources Corporation,Materials,9930.TW,EQ,TW0009930008
+Goldkey Technology Corporation,Technology,3135.TW,EQ,TW0003135000
+Kenda Rubber Industrial Co Ltd,Consumer Discretionary,2106.TW,EQ,TW0002106002
+Zero One Technology Co.  Ltd.,Technology,3029.TW,EQ,TW0003029005
+Gmt Global Inc.,Technology,4573.TWO,EQ,TW0004573001
+National Petroleum Co.  Ltd.,Consumer Discretionary,9937.TW,EQ,TW0009937003
+Actron Technology Corporation,Consumer Discretionary,8255.TWO,EQ,TW0008255001
+Allied Supreme Corp.,Materials,4770.TW,EQ,TW0004770003
+Myson Century  Inc.,Technology,5314.TWO,EQ,TW0005314009
+Sunplus Technology Company Limited,Technology,2401.TW,EQ,TW0002401007
+Delpha Construction Co. Ltd.,Industrials,2530.TW,EQ,TW0002530003
+YeaShin International Development Co.  Ltd.,Real Estate,5213.TWO,EQ,TW0005213003
+Sinon Corporation,Materials,1712.TW,EQ,TW0001712008
+San Shing Fastech Corp.,Industrials,5007.TW,EQ,TW0005007009
+Gallant Precision Machining Co.  Ltd.,Technology,5443.TWO,EQ,TW0005443006
+Stark Technology Inc.,Technology,2480.TW,EQ,TW0002480001
+Eris Technology Corporation,Technology,3675.TWO,EQ,TW0003675005
+Cheng Mei Materials Technology Corporation,Technology,4960.TW,EQ,TW0004960000
+Brillian Network & Automation Integrated System Co. Ltd.,Industrials,6788.TWO,EQ,TW0006788003
+Posiflex Technology  Inc.,Industrials,8114.TW,EQ,TW0008114000
+Analog Integrations Corporation,Technology,6291.TWO,EQ,TW0006291008
+The Ambassador Hotel Ltd.,Consumer Discretionary,2704.TW,EQ,TW0002704004
+Chun Yuan Steel Industry Co.  Ltd.,Materials,2010.TW,EQ,TW0002010006
+Sysgration Ltd.,Technology,5309.TWO,EQ,TW0005309009
+Mercuries & Associates Holding  Ltd.,Financials,2905.TW,EQ,TW0002905007
+Taiwan Mask Corporation,Technology,2338.TW,EQ,TW0002338001
+ScinoPharm Taiwan  Ltd.,Health Care,1789.TW,EQ,TW0001789006
+Kenmec Mechanical Engineering Co.  Ltd.,Industrials,6125.TWO,EQ,TW0006125008
+Taiwan Shin Kong Security Co.  Ltd.,Industrials,9925.TW,EQ,TW0009925008
+TaiMed Biologics Inc.,Health Care,4147.TWO,EQ,TW0004147004
+APAC Opto Electronics Inc.,Technology,4908.TWO,EQ,TW0004908009
+STL Technology Co.  Ltd.,Industrials,4931.TWO,EQ,TW0004931001
+Ju Teng International Holdings Limited,Technology,9136.TW,EQ,TW0009136002
+Grape King Bio Ltd,Health Care,1707.TW,EQ,TW0001707008
+IEI Integration Corp.,Technology,3022.TW,EQ,TW0003022000
+Capital Futures Corporation,Financials,6024.TW,EQ,TW0006024003
+Soft-World International Corporation,Communication Services,5478.TWO,EQ,TW0005478002
+Axiomtek Co.  Ltd.,Technology,3088.TWO,EQ,TW0003088001
+Argosy Research Inc.,Technology,3217.TWO,EQ,TW0003217006
+Advanced Ceramic X Corporation,Technology,3152.TWO,EQ,TW0003152005
+YungShin Global Holding Corporation,Health Care,3705.TW,EQ,TW0003705000
+Synmosa Biopharma Corporation,Health Care,4114.TWO,EQ,TW0004114004
+Medigen Vaccine Biologics Corporation,Health Care,6547.TWO,EQ,TW0006547003
+Taiwan-Asia Semiconductor Corporation,Technology,2340.TW,EQ,TW0002340007
+Topkey Corporation,Consumer Discretionary,4536.TW,EQ,TW0004536008
+Yulon Nissan Motor Co.  Ltd,Consumer Discretionary,2227.TW,EQ,TW0002227006
+NANTEX Industry Co.  Ltd.,Materials,2108.TW,EQ,TW0002108008
+Ho Tung Chemical Corp.,Materials,1714.TW,EQ,TW0001714004
+Coremax Corporation,Materials,4739.TW,EQ,TW0004739008
+Liton Technology Corp.,Materials,6175.TWO,EQ,TW0006175003
+Jetwell Computer Co.  Ltd.,Technology,3147.TWO,EQ,TW0003147005
+The Great Taipei Gas Corporation,Utilities,9908.TW,EQ,TW0009908004
+INPAQ Technology Co.  Ltd.,Technology,6284.TWO,EQ,TW0006284003
+Huang Hsiang Construction Corporation,Real Estate,2545.TW,EQ,TW0002545001
+Zilltek Technology Corp.,Technology,6679.TWO,EQ,TW0006679004
+San Fang Chemical Industry Co.  Ltd.,Consumer Discretionary,1307.TW,EQ,TW0001307007
+Honey Hope Honesty Enterprise Co. Ltd,Technology,8043.TWO,EQ,TW0008043001
+Hua Eng Wire & Cable Co.  Ltd.,Industrials,1608.TW,EQ,TW0001608008
+Sinyi Realty Inc.,Real Estate,9940.TW,EQ,TW0009940007
+UPC Technology Corporation,Materials,1313.TW,EQ,TW0001313005
+Kinko Optical Co.  Ltd.,Technology,6209.TW,EQ,TW0006209000
+Giga Solar Materials Corp.,Technology,3691.TWO,EQ,TW0003691002
+Alltek Technology Corporation,Technology,3209.TW,EQ,TW0003209003
+First Copper Technology Co.  Ltd.,Materials,2009.TW,EQ,TW0002009008
+Hu Lane Associate Inc.,Consumer Discretionary,6279.TWO,EQ,TW0006279003
+Grand Pacific Petrochemical Corporation,Materials,1312A.TW,EQ,TW0001312A01
+China Petroleum Corp (Taiwan),Energy,1312.TW,EQ,TW0001312007
+CHO Pharma  Inc.,Health Care,6586.TWO,EQ,TW0006586001
+Promate Electronic Co. Ltd.,Technology,6189.TW,EQ,TW0006189004
+Wonderful Hi-tech Co.  Ltd.,Technology,6190.TWO,EQ,TW0006190002
+Alexander Marine Co.  Ltd.,Consumer Discretionary,8478.TW,EQ,TW0008478009
+Lion Travel Service Co.  Ltd.,Consumer Discretionary,2731.TW,EQ,TW0002731007
+Career Technology (Mfg.) Co.  Ltd.,Technology,6153.TW,EQ,TW0006153000
+Hey Song Corporation,Consumer Staples,1234.TW,EQ,TW0001234003
+Kerry TJ Logistics Company Limited,Industrials,2608.TW,EQ,TW0002608007
+San Fu Chemical Co.  Ltd.,Materials,4755.TW,EQ,TW0004755004
+Lungteh Shipbuilding Co.  Ltd.,Industrials,6753.TW,EQ,TW0006753007
+Chung Hwa Pulp Corporation,Materials,1905.TW,EQ,TW0001905008
+Winmate Inc.,Technology,3416.TW,EQ,TW0003416004
+TCI Co.  Ltd.,Consumer Staples,8436.TWO,EQ,TW0008436007
+Taiwan Fire & Marine Insurance Co.  Ltd.,Financials,2832.TW,EQ,TW0002832003
+Kuo Toong International Co.  Ltd.,Industrials,8936.TWO,EQ,TW0008936006
+Ever Supreme Bio Technology Co.  Ltd,Health Care,6712.TWO,EQ,TW0006712003
+Shuz Tung Machinery Industrial Co.  Ltd.,Industrials,4537.TWO,EQ,TW0004537006
+Viking Tech Corporation,Technology,3624.TWO,EQ,TW0003624003
+Diamond Biofund Inc.,Financials,6901.TW,EQ,TW0006901002
+Infortrend Technology  Inc.,Technology,2495.TW,EQ,TW0002495009
+Digital China Holdings Limited,Industrials,910861.TW,EQ,TW0009108613
+EirGenix Inc.,Health Care,6589.TW,EQ,TW0006589005
+Syncmold Enterprise Corp.,Technology,1582.TW,EQ,TW0001582005
+Gigastorage Corporation,Technology,2406.TW,EQ,TW0002406006
+Holtek Semiconductor Inc.,Technology,6202.TW,EQ,TW0006202005
+Hota Industrial Mfg. Co.  Ltd.,Consumer Discretionary,1536.TW,EQ,TW0001536001
+USI Corporation,Materials,1304.TW,EQ,TW0001304004
+Altek Corporation,Technology,3059.TW,EQ,TW0003059002
+Taiwan Paiho Limited,Consumer Discretionary,9938.TW,EQ,TW0009938001
+Weltrend Semiconductor  Inc.,Technology,2436.TW,EQ,TW0002436003
+King's Town Construction Co.  Ltd.,Real Estate,2524.TW,EQ,TW0002524006
+Trade-Van Information Services Co.,Industrials,6183.TW,EQ,TW0006183007
+Key Ware Electronics Co.  Ltd.,Industrials,5498.TWO,EQ,TW0005498000
+Hsin Kuang Steel Company Limited,Materials,2031.TW,EQ,TW0002031002
+Chieftek Precision Co.  Ltd.,Industrials,1597.TW,EQ,TW0001597003
+SuperAlloy Industrial Co.  Ltd.,Consumer Discretionary,1563.TW,EQ,TW0001563005
+Prince Housing & Development Corp.,Real Estate,2511.TW,EQ,TW0002511003
+Trusval Technology Co.  Ltd.,Industrials,6667.TWO,EQ,TW0006667009
+ShinHsiung Natural Gas Inc.,Utilities,8908.TWO,EQ,TW0008908005
+Integrated Service Technology Inc.,Technology,3289.TWO,EQ,TW0003289005
+Great Giant Fibre Garment Co.  Ltd.,Consumer Discretionary,4441.TW,EQ,TW0004441001
+Parpro Corporation,Technology,4916.TW,EQ,TW0004916002
+ACES Electronics Co.  Ltd.,Technology,3605.TW,EQ,TW0003605002
+Excelsior Medical Co.  Ltd.,Health Care,4104.TW,EQ,TW0004104005
+Fittech Co.  Ltd.,Industrials,6706.TW,EQ,TW0006706005
+Longchen Paper & Packaging Co.  Ltd.,Materials,1909.TW,EQ,TW0001909000
+Aurora Corporation,Industrials,2373.TW,EQ,TW0002373008
+Phihong Technology Co.  Ltd.,Industrials,2457.TW,EQ,TW0002457009
+Feedback Technology Corp.,Technology,8091.TWO,EQ,TW0008091000
+Bafang Yunji International Company Limited,Consumer Discretionary,2753.TW,EQ,TW0002753001
+Kedge Construction Co.  Ltd.,Industrials,2546.TW,EQ,TW0002546009
+InnoCare Optoelectronics Corporation,Health Care,6861.TW,EQ,TW0006861008
+Yung Chi Paint & Varnish Mfg.Co. Ltd,Materials,1726.TW,EQ,TW0001726008
+Utechzone Co.  Ltd.,Technology,3455.TWO,EQ,TW0003455002
+Good Finance Securities Co.  Ltd.,Financials,6021.TWO,EQ,TW0006021009
+Shihlin Paper Corporation,Consumer Staples,1903.TW,EQ,TW0001903003
+United Alloy-Tech Company,Industrials,3162.TWO,EQ,TW0003162004
+Cub Elecparts Inc.,Consumer Discretionary,2231.TW,EQ,TW0002231008
+Taiwan Navigation Co.  Ltd.,Industrials,2617.TW,EQ,TW0002617008
+Youngtek Electronics Corporation,Technology,6261.TWO,EQ,TW0006261001
+Silicon Power Computer & Communications Inc.,Technology,4973.TWO,EQ,TW0004973003
+Foresee Pharmaceuticals Co.  Ltd.,Health Care,6576.TWO,EQ,TW0006576002
+TrueLight Corporation,Technology,3234.TWO,EQ,TW0003234001
+Lingsen Precision Industries  Ltd.,Technology,2369.TW,EQ,TW0002369006
+Channel Well Technology Co. Ltd.,Industrials,3078.TWO,EQ,TW0003078002
+Yungshin Construction & Development Co. Ltd.,Real Estate,5508.TWO,EQ,TW0005508006
+Taimide Tech. Inc.,Technology,3645.TW,EQ,TW0003645008
+China Man-Made Fiber Corporation,Financials,1718.TW,EQ,TW0001718005
+Symtek Automation Asia Co.  Ltd.,Industrials,6438.TW,EQ,TW0006438005
+Visco Vision Inc.,Health Care,6782.TW,EQ,TW0006782006
+Insyde Software Corp.,Technology,6231.TWO,EQ,TW0006231004
+CMC Magnetics Corporation,Technology,2323.TW,EQ,TW0002323003
+Taiwan Steel Union Co.  Ltd.,Industrials,6581.TW,EQ,TW0006581002
+Motech Industries Inc.,Technology,6244.TWO,EQ,TW0006244007
+Shih Her Technologies Inc.,Technology,3551.TWO,EQ,TW0003551008
+Darfon Electronics Corp.,Technology,8163.TW,EQ,TW0008163007
+Rechi Precision Co.  Ltd.,Industrials,4532.TW,EQ,TW0004532007
+Sesoda Corporation,Materials,1708.TW,EQ,TW0001708006
+FocalTech Systems Co.  Ltd.,Technology,3545.TW,EQ,TW0003545000
+Hong Tai Electric Industrial Co.  Ltd.,Industrials,1612.TW,EQ,TW0001612000
+TaiDoc Technology Corporation,Health Care,4736.TW,EQ,TW0004736004
+Elitegroup Computer Systems Co. Ltd.,Technology,2331.TW,EQ,TW0002331006
+Dimerco Express Corporation,Industrials,5609.TWO,EQ,TW0005609002
+Oriental Union Chemical Corporation,Materials,1710.TW,EQ,TW0001710002
+Lanner Electronics Inc.,Technology,6245.TWO,EQ,TW0006245004
+Power Wind Health Industry Incorporated,Consumer Discretionary,8462.TW,EQ,TW0008462003
+HD Renewable Energy Co.  Ltd.,Industrials,6873.TW,EQ,TW0006873003
+Asia Neo Tech Industrial Co. Ltd.,Industrials,4542.TWO,EQ,TW0004542006
+Handa Pharmaceuticals  Inc.,Health Care,6620.TWO,EQ,TW0006620008
+Radium Life Tech. Co.  Ltd.,Industrials,2547.TW,EQ,TW0002547007
+Nidec Chaun-Choung Technology Corporation,Technology,6230.TW,EQ,TW0006230006
+Great Tree Pharmacy Co.  Ltd.,Health Care,6469.TWO,EQ,TW0006469000
+RDC Semiconductor Co.  Ltd.,Technology,3228.TWO,EQ,TW0003228003
+Universal Vision Biotechnology Co.  Ltd.,Health Care,3218.TWO,EQ,TW0003218004
+Ample Electronic Technology Co. Ltd.,Technology,4760.TWO,EQ,TW0004760004
+FSP Technology Inc.,Industrials,3015.TW,EQ,TW0003015004
+FIC Global  Inc.,Technology,3701.TW,EQ,TW0003701009
+IBASE Technology Inc.,Technology,8050.TWO,EQ,TW0008050006
+Lumax International Corp.  Ltd.,Industrials,6192.TW,EQ,TW0006192008
+Standard Chemical & Pharmaceutical Co.  Ltd.,Health Care,1720.TW,EQ,TW0001720001
+KMC (Kuei Meng) International Inc.,Consumer Discretionary,5306.TW,EQ,TW0005306005
+Vizionfocus Inc.,Health Care,4771.TW,EQ,TW0004771001
+HannsTouch Holdings Company,Technology,3049.TW,EQ,TW0003049003
+Hi-Yes International Co.  Ltd.,Real Estate,2348.TW,EQ,TW0002348000
+LCY Technology Corp.,Materials,4989.TW,EQ,TW0004989009
+J&V Energy Technology Co.  Ltd.,Utilities,6869.TW,EQ,TW0006869001
+Chinese Maritime Transport Ltd.,Industrials,2612.TW,EQ,TW0002612009
+Chung Hwa Chemical Industrial Works  Ltd.,Materials,1727.TW,EQ,TW0001727006
+Good Will Instrument Co.  Ltd.,Technology,2423.TW,EQ,TW0002423001
+Asia Metal Industries  Inc.,Industrials,6727.TWO,EQ,TW0006727001
+YC Inox Co. Ltd,Materials,2034.TW,EQ,TW0002034006
+Jiin Yeeh Ding Enterprises Corp.,Industrials,8390.TWO,EQ,TW0008390006
+Swancor Holding Co.  LTD.,Materials,3708.TW,EQ,TW0003708004
+Siward Crystal Technology Co.  Ltd,Technology,2484.TW,EQ,TW0002484003
+Eclat Forever Machinery Co.  Ltd.,Industrials,3485.TWO,EQ,TW0003485009
+JMicron Technology Corp.,Technology,4925.TWO,EQ,TW0004925003
+Yem Chio Co.  Ltd.,Materials,4306.TW,EQ,TW0004306006
+Yuen Foong Yu Consumer Products Co.  Ltd.,Consumer Staples,6790.TW,EQ,TW0006790009
+Alcor Micro Corp.,Technology,8054.TWO,EQ,TW0008054008
+Sunny Friend Environmental Technology Co.  Ltd.,Industrials,8341.TW,EQ,TW0008341009
+GMI Technology Inc.,Technology,3312.TW,EQ,TW0003312005
+Test-Rite International Co.  Ltd.,Consumer Discretionary,2908.TW,EQ,TW0002908001
+Kung Long Batteries Industrial Co. Ltd,Industrials,1537.TW,EQ,TW0001537009
+Trigold Holdings Limited,Technology,3709.TWO,EQ,TW0003709002
+Wholetech System Hitech Limited,Industrials,3402.TWO,EQ,TW0003402004
+U.D. Electronic Corp.,Technology,3689.TWO,EQ,TW0003689006
+Her Chee Industrial Co.  Ltd.,Consumer Discretionary,8937.TWO,EQ,TW0008937004
+Sinopower Semiconductor  Inc.,Technology,6435.TWO,EQ,TW0006435001
+Transcom  Inc.,Technology,5222.TW,EQ,TW0005222004
+Advancetek Enterprise Co. Ltd.,Real Estate,1442.TW,EQ,TW0001442002
+Formosan Union Chemical Corp.,Materials,1709.TW,EQ,TW0001709004
+Andes Technology Corporation,Technology,6533.TW,EQ,TW0006533003
+Ve Wong Corporation,Consumer Staples,1203.TW,EQ,TW0001203008
+Wayi International Digital Entertainment Co.  Ltd.,Communication Services,3086.TWO,EQ,TW0003086005
+Ace Pillar Co.  Ltd.,Industrials,8374.TW,EQ,TW0008374000
+TCM Biotech International Corp.,Health Care,4169.TW,EQ,TW0004169008
+International CSRC Investment Holdings Co.  Ltd.,Materials,2104.TW,EQ,TW0002104007
+Taiwan Optical Platform Co.  Ltd.,Communication Services,6464.TW,EQ,TW0006464001
+Tehmag Foods Corporation,Consumer Staples,1264.TWO,EQ,TW0001264000
+K.S. Terminals Inc.,Industrials,3003.TW,EQ,TW0003003000
+Favite  Inc.,Technology,3535.TW,EQ,TW0003535001
+Egis Technology Inc.,Technology,6462.TWO,EQ,TW0006462005
+Giantplus Technology Co.  Ltd.,Technology,8105.TW,EQ,TW0008105008
+Planet Technology Corporation,Technology,6263.TWO,EQ,TW0006263007
+Unitech Computer Co.  Ltd.,Technology,2414.TW,EQ,TW0002414000
+NAK Sealing Technologies Corporation,Consumer Discretionary,9942.TW,EQ,TW0009942003
+Enli Technology Co. Ltd,Technology,7728.TWO,EQ,TW0007728008
+China Metal Products Co.  Ltd.,Industrials,1532.TW,EQ,TW0001532000
+Tongtai Machine & Tool Co.  Ltd.,Industrials,4526.TW,EQ,TW0004526009
+Laser Tek Taiwan Co. Ltd.,Technology,6207.TWO,EQ,TW0006207004
+RichWave Technology Corporation,Technology,4968.TW,EQ,TW0004968003
+WITS Corp.,Technology,4953.TWO,EQ,TW0004953005
+DingZing Advanced Materials Inc.,Materials,6585.TW,EQ,TW0006585003
+Crowell Development Corp.,Real Estate,2528.TW,EQ,TW0002528007
+T3EX Global Holdings Corp.,Industrials,2636.TW,EQ,TW0002636008
+TYC Brother Industrial Co.  Ltd.,Consumer Discretionary,1522.TW,EQ,TW0001522001
+P-Duke Technology Co. Ltd.,Industrials,8109.TWO,EQ,TW0008109000
+Tang Eng Iron Works Co.  Ltd.,Materials,2035.TWO,EQ,TW0002035003
+Macnica Galaxy Inc.,Technology,6227.TWO,EQ,TW0006227002
+Avalue Technology Incorporation,Technology,3479.TWO,EQ,TW0003479002
+Hung Ching Development & Construction Co. Ltd,Real Estate,2527.TW,EQ,TW0002527009
+Amazing Microelectronic Corp.,Technology,6411.TWO,EQ,TW0006411002
+Acer E-Enabling Service Business Inc.,Technology,6811.TWO,EQ,TW0006811003
+Acme Electronics Corporation,Technology,8121.TWO,EQ,TW0008121005
+PSS Co. Ltd.,Industrials,6914.TW,EQ,TW0006914005
+Taiwan Printed Circuit Board Techvest Co. Ltd.,Technology,8213.TW,EQ,TW0008213000
+Hua Hsu Advanced Technology Co.  Ltd.,Technology,6682.TWO,EQ,TW0006682008
+Forest Water Environmental Engineering Co.  Ltd.,Industrials,8473.TW,EQ,TW0008473000
+Taiwan Taxi Co. Ltd.,Industrials,2640.TWO,EQ,TW0002640000
+D-Link Corporation,Technology,2332.TW,EQ,TW0002332004
+Compucase Enterprise Co.  Ltd.,Technology,3032.TW,EQ,TW0003032009
+AzureWave Technologies  Inc.,Technology,3694.TW,EQ,TW0003694006
+Hitron Technologies Inc.,Technology,2419.TW,EQ,TW0002419009
+Keding Enterprises Co.  Ltd.,Materials,6655.TW,EQ,TW0006655004
+RITEK Corporation,Technology,2349.TW,EQ,TW0002349008
+Sunplus Innovation Technology Inc.,Technology,5236.TWO,EQ,TW0005236004
+TSC Auto ID Technology Co.  Ltd.,Technology,3611.TWO,EQ,TW0003611000
+BenQ Materials Corporation,Technology,8215.TW,EQ,TW0008215005
+IC Plus Corp.,Technology,8040.TWO,EQ,TW0008040007
+Cathay Consolidated  Inc.,Consumer Discretionary,1342.TW,EQ,TW0001342004
+Jih Lin Technology Co.  Ltd.,Technology,5285.TW,EQ,TW0005285001
+I-Sheng Electric Wire & Cable Co.  Ltd.,Industrials,6115.TW,EQ,TW0006115009
+Cathay No. 2 Real Estate Investment Trust,Financials,01007T.TW,EQ,TW00001007T5
+Sonix Technology Co. Ltd.,Technology,5471.TW,EQ,TW0005471007
+Taiwan Hopax Chemicals Manufacturing Co.  Ltd.,Materials,6509.TWO,EQ,TW0006509003
+NEXCOM International Co.  Ltd.,Technology,8234.TWO,EQ,TW0008234006
+Forcecon Technology Co.  Ltd.,Technology,3483.TWO,EQ,TW0003483004
+Desiccant Technology Corporation,Industrials,5292.TW,EQ,TW0005292007
+Hua Yu Lien Development Co.  Ltd,Real Estate,1436.TW,EQ,TW0001436004
+Zippy Technology Corp.,Industrials,2420.TW,EQ,TW0002420007
+Genesys Logic  Inc.,Technology,6104.TWO,EQ,TW0006104003
+Seetel New Energy Co.  Ltd.,Utilities,7740.TW,EQ,TW0007740003
+Chia Hsin Cement Corporation,Materials,1103.TW,EQ,TW0001103000
+Aten International Co.  Ltd,Technology,6277.TW,EQ,TW0006277007
+Cashbox Partyworld Co.  Ltd.,Consumer Discretionary,8359.TWO,EQ,TW0008359001
+Green World Fintech Service Co.  Ltd.,Technology,6763.TWO,EQ,TW0006763006
+Chien Kuo Construction Co.  Ltd.,Industrials,5515.TW,EQ,TW0005515001
+Shin Hai Gas Corporation,Utilities,9926.TW,EQ,TW0009926006
+Aurotek Corporation,Industrials,6215.TW,EQ,TW0006215007
+Dah San Electric Wire & Cable Corp.,Industrials,1615.TW,EQ,TW0001615003
+Taiwan Tea Corporation,Consumer Staples,2913.TW,EQ,TW0002913001
+ADDCN Technology Co.  Ltd,Communication Services,5287.TWO,EQ,TW0005287007
+Metaage Corporation,Technology,6112.TW,EQ,TW0006112006
+Techzone Technology Materials Co.  Ltd.,Industrials,6947.TWO,EQ,TW0006947005
+Southeast Cement Co.  Ltd.,Materials,1110.TW,EQ,TW0001110005
+Hung Sheng Construction Co.  Ltd.,Real Estate,2534.TW,EQ,TW0002534005
+North-Star International Co.  LTD.,Consumer Discretionary,8927.TWO,EQ,TW0008927005
+QST International Corp.,Industrials,8349.TWO,EQ,TW0008349002
+Taiwan Kong King Co. Ltd,Technology,3093.TWO,EQ,TW0003093001
+Taisun Enterprise Co.  Ltd.,Consumer Staples,1218.TW,EQ,TW0001218006
+CH Biotech R&D Co.  Ltd.,Materials,6534.TW,EQ,TW0006534001
+Microbio Co.  Ltd.,Consumer Staples,4128.TWO,EQ,TW0004128004
+United Orthopedic Corporation,Health Care,4129.TWO,EQ,TW0004129002
+Te Chang Construction Co.  Ltd.,Industrials,5511.TWO,EQ,TW0005511000
+Spirox Corporation,Technology,3055.TW,EQ,TW0003055000
+China Steel Structure Co.  Ltd.,Materials,2013.TW,EQ,TW0002013000
+National Aerospace Fasteners Corporation,Industrials,3004.TW,EQ,TW0003004008
+AP Biosciences  Inc.,Health Care,6945.TWO,EQ,TW0006945009
+Sampo Corporation,Consumer Discretionary,1604.TW,EQ,TW0001604007
+Young Optics Inc.,Industrials,3504.TW,EQ,TW0003504007
+Biostar Microtech International Corp.,Technology,2399.TW,EQ,TW0002399003
+TacBright Optronics Corporation,Materials,6434.TWO,EQ,TW0006434004
+CyberTAN Technology Inc.,Technology,3062.TW,EQ,TW0003062006
+Hsin Tai Gas Co.  Ltd.,Utilities,8917.TWO,EQ,TW0008917006
+Federal Corporation,Consumer Discretionary,2102.TW,EQ,TW0002102001
+E-Lead Electronic Co.  Ltd.,Consumer Discretionary,2497.TW,EQ,TW0002497005
+The First Insurance Co.  Ltd.,Financials,2852.TW,EQ,TW0002852001
+Young Fast Optoelectronics Co.  Ltd.,Technology,3622.TW,EQ,TW0003622007
+Advanced International Multitech Co.  Ltd.,Consumer Discretionary,8938.TWO,EQ,TW0008938002
+Thye Ming Industrial Co.  Ltd.,Materials,9927.TW,EQ,TW0009927004
+Senao Networks  Inc.,Technology,3558.TWO,EQ,TW0003558003
+forcelead,Technology,6996.TWO,EQ,TW0006996002
+Xxentria Technology Materials Co.  Ltd.,Materials,8942.TWO,EQ,TW0008942004
+Taiwan Sanyo Electric Co. Ltd.,Consumer Discretionary,1614.TW,EQ,TW0001614006
+PharmaEngine  Inc.,Health Care,4162.TWO,EQ,TW0004162003
+Highlight Tech Corp.,Industrials,6208.TWO,EQ,TW0006208002
+LEATEC Fine Ceramics Co.  Ltd.,Technology,6127.TWO,EQ,TW0006127004
+Waffer Technology Corporation,Industrials,6235.TW,EQ,TW0006235005
+Bioteque Corporation,Health Care,4107.TWO,EQ,TW0004107008
+Darwin Precisions Corporation,Technology,6120.TW,EQ,TW0006120009
+Air Asia Co.  Ltd.,Industrials,2630.TW,EQ,TW0002630001
+Cosmo Electronics Corporation,Technology,2466.TW,EQ,TW0002466000
+Mildef Crete Inc.,Technology,3213.TWO,EQ,TW0003213005
+Asia Polymer Corporation,Materials,1308.TW,EQ,TW0001308005
+Hold-Key Electric Wire & Cable Co.  Ltd,Technology,1618.TW,EQ,TW0001618007
+Pan Asia Chemical Co.,Materials,4707.TWO,EQ,TW0004707005
+Formosan Rubber Group Inc.,Materials,2107.TW,EQ,TW0002107000
+China Glaze Co. Ltd.,Industrials,1809.TW,EQ,TW0001809002
+Shin Ruenn development Co.  LTD,Real Estate,6186.TWO,EQ,TW0006186000
+Shining Building Business Co. Ltd.,Industrials,5531.TW,EQ,TW0005531008
+Answer Technology Co.  Ltd.,Technology,3528.TW,EQ,TW0003528006
+BaaS Innovation Co.  Ltd.,Technology,3555.TWO,EQ,TW0003555009
+Senao International Co. Ltd.,Technology,2450.TW,EQ,TW0002450004
+Alar Pharmaceuticals Inc.,Health Care,6785.TWO,EQ,TW0006785009
+ICP Das Co.  Ltd.,Technology,3577.TWO,EQ,TW0003577003
+King House CO.  Ltd.,Consumer Discretionary,4419.TWO,EQ,TW0004419007
+Namchow Holdings Co.  Ltd.,Consumer Staples,1702.TW,EQ,TW0001702009
+Gamania Digital Entertainment Co.  Ltd.,Communication Services,6180.TWO,EQ,TW0006180003
+Universal Microelectronics Co.  Ltd.,Technology,2413.TW,EQ,TW0002413002
+Inergy Technology Inc.,Technology,6693.TWO,EQ,TW0006693005
+Shin Shin Natural Gas Company Limited,Utilities,9918.TW,EQ,TW0009918003
+Sunrex Technology Corporation,Technology,2387.TW,EQ,TW0002387008
+Netronix  Inc.,Technology,6143.TWO,EQ,TW0006143001
+Fubon No.2 Real Estate Investment Trust,Financials,01004T.TW,EQ,TW00001004T2
+CviLux Corporation,Technology,8103.TW,EQ,TW0008103003
+CHWE,Utilities,7752.TWO,EQ,TW0007752008
+Adimmune Corporation,Health Care,4142.TW,EQ,TW0004142005
+Cathay Chemical Works Inc.,Materials,1713.TW,EQ,TW0001713006
+LongDa Construction & Development Corporation,Industrials,5519.TW,EQ,TW0005519003
+Formosa Oilseed Processing Co.  Ltd.,Consumer Staples,1225.TW,EQ,TW0001225001
+Brogent Technologies Inc.,Consumer Discretionary,5263.TWO,EQ,TW0005263008
+Firich Enterprises Co.  Ltd.,Technology,8076.TWO,EQ,TW0008076001
+Gus Technology Co.  Ltd.,Industrials,6940.TWO,EQ,TW0006940000
+Sensortek Technology Corp.,Technology,6732.TWO,EQ,TW0006732001
+Yeedex Electronic Corporation,Technology,7556.TWO,EQ,TW0007556B10
+Advance Materials Corporation,Technology,3585.TWO,EQ,TW0003585006
+Apogee Optocom Co.  Ltd.,Technology,6426.TW,EQ,TW0006426000
+Ever Ohms Technology Co. Ltd.,Technology,6834.TW,EQ,TW0006834005
+104 Corporation,Industrials,3130.TW,EQ,TW0003130001
+KYE Systems Corp.,Technology,2365.TW,EQ,TW0002365004
+Union Insurance Co.  Ltd.,Financials,2816.TW,EQ,TW0002816006
+Abico AVY Co.  Ltd.,Technology,5392.TWO,EQ,TW0005392005
+ThinTech Materials Technology Co.  Ltd.,Industrials,3663.TWO,EQ,TW0003663001
+Dimerco Data System Corporation,Technology,5403.TWO,EQ,TW0005403000
+Auden Techno Corp.,Technology,3138.TW,EQ,TW0003138004
+China General Plastics Corporation,Materials,1305.TW,EQ,TW0001305001
+HwaCom Systems Inc.,Communication Services,6163.TWO,EQ,TW0006163009
+Hua Jung Components Co. Ltd.,Technology,5328.TWO,EQ,TW0005328009
+Hong Pu Real Estate Development Co.  Ltd.,Real Estate,2536.TW,EQ,TW0002536000
+Sunfun Info Co.  Ltd.,Communication Services,5278.TWO,EQ,TW0005278006
+Audix Corporation,Technology,2459.TW,EQ,TW0002459005
+Horizon Securities Co.  Ltd.,Financials,6015.TWO,EQ,TW0006015001
+Fu Hua Innovation Co.  Ltd.,Real Estate,3056.TW,EQ,TW0003056008
+King Core Electronics Inc.,Technology,6155.TW,EQ,TW0006155005
+Zen Voce Corporation,Technology,3581.TWO,EQ,TW0003581005
+Medeon Biodesign  Inc.,Health Care,6499.TWO,EQ,TW0006499007
+Hong-Wei Electrical Industry & Co.  Ltd.,Industrials,4565.TWO,EQ,TW0004565007
+Leadtek Research Inc.,Technology,2465.TW,EQ,TW0002465002
+Holiday Entertainment Co. Ltd,Consumer Discretionary,9943.TW,EQ,TW0009943001
+Nishoku Technology Inc.,Technology,3679.TW,EQ,TW0003679007
+Usun Technology Co.  Ltd.,Industrials,3498.TWO,EQ,TW0003498002
+Kuo Yang Construction Co.  Ltd.,Real Estate,2505.TW,EQ,TW0002505005
+CHUNGTAI RESOURCE Technology CORP.,Industrials,6923.TW,EQ,TW0006923006
+Lealea Enterprise Co.  Ltd.,Consumer Discretionary,1444.TW,EQ,TW0001444008
+Chung Hwa Food Industrial Co.  Ltd.,Consumer Staples,4205.TWO,EQ,TW0004205000
+Chant Sincere Co.  Ltd.,Technology,6205.TW,EQ,TW0006205008
+DFI Inc.,Technology,2397.TW,EQ,TW0002397007
+Tbi Motion Technology Co.  Ltd.,Industrials,4540.TW,EQ,TW0004540000
+Niko Semiconductor Co.  Ltd.,Technology,3317.TWO,EQ,TW0003317004
+In Win Development Inc.,Technology,6117.TW,EQ,TW0006117005
+Progate Group Corporation,Technology,8227.TWO,EQ,TW0008227000
+Tian Zheng International Precision Machinery Co.  Ltd.,Industrials,6654.TWO,EQ,TW0006654007
+Hsin Yung Chien Co.  Ltd.,Consumer Discretionary,2114.TW,EQ,TW0002114006
+Hi-Lai Foods Co.  Ltd,Consumer Discretionary,1268.TWO,EQ,TW0001268001
+Ocean Plastics Co.  Ltd.,Materials,1321.TW,EQ,TW0001321008
+Bin Chuan Enterprise Co.  Ltd.,Industrials,1569.TWO,EQ,TW0001569002
+Dafeng TV Ltd.,Communication Services,6184.TW,EQ,TW0006184005
+Kuen Chaang Uppertech Corp.,Technology,6265.TWO,EQ,TW0006265002
+Quang Viet Enterprise Co.  Ltd.,Consumer Discretionary,4438.TW,EQ,TW0004438007
+Speed Tech Corp.,Technology,5457.TWO,EQ,TW0005457006
+Topco Technologies Corp.,Materials,3388.TWO,EQ,TW0003388005
+Infinite Finance Co.  Ltd.,Financials,6958.TW,EQ,TW0006958002
+GLOBAL TEK FABRICATION CO.  Ltd.,Industrials,4566.TW,EQ,TW0004566005
+TTFB Company Limited,Consumer Discretionary,2729.TWO,EQ,TW0002729001
+Mechema Chemicals International Corp.,Materials,4721.TWO,EQ,TW0004721006
+Sweeten Real Estate Development Co. Ltd.,Real Estate,5525.TW,EQ,TW0005525000
+Wendell Industrial Co.  Ltd,Technology,6761.TWO,EQ,TW0006761000
+Grand Fortune Securities Co. Ltd,Financials,6026.TWO,EQ,TW0006026008
+Yuan High-Tech Development Co.  Ltd.,Technology,5474.TWO,EQ,TW0005474001
+Sheng Yu Steel Co.  Ltd.,Materials,2029.TW,EQ,TW0002029006
+Iron Force Industrial Co.  Ltd.,Consumer Discretionary,2228.TW,EQ,TW0002228004
+Fubon No.1 Real Estate Investment Trust,Financials,01001T.TW,EQ,TW00001001T8
+ASIX Electronics Corporation,Technology,3169.TWO,EQ,TW0003169009
+Kwong Lung Enterprise Co.  Ltd.,Consumer Discretionary,8916.TWO,EQ,TW0008916008
+VIA Labs  Inc.,Technology,6756.TW,EQ,TW0006756000
+Chen Full International Co.  Ltd.,Industrials,8383.TWO,EQ,TW0008383001
+ABC Taiwan Electronics Corp.,Technology,3236.TWO,EQ,TW0003236006
+Creative Sensor Inc.,Industrials,8249.TW,EQ,TW0008249004
+Polytronics Technology Corp.,Technology,6224.TW,EQ,TW0006224009
+TaiSol Electronics Co.  Ltd.,Technology,3338.TW,EQ,TW0003338000
+Asia Electronic Material Co.  Ltd.,Technology,4939.TWO,EQ,TW0004939004
+Mosel Vitelic Inc.,Technology,2342.TW,EQ,TW0002342003
+Jean Co. Ltd,Real Estate,2442.TW,EQ,TW0002442001
+Delta Asia International Corporation,Health Care,6762.TWO,EQ,TW0006762008
+Huxen Corporation,Industrials,2433.TW,EQ,TW0002433000
+Great China Metal Ind. Co.  Ltd.,Consumer Discretionary,9905.TW,EQ,TW0009905000
+Shuttle Inc.,Technology,2405.TW,EQ,TW0002405008
+Taiyen Biotech Co.  Ltd.,Consumer Staples,1737.TW,EQ,TW0001737005
+Wei Chuan Foods Corporation,Consumer Staples,1201.TW,EQ,TW0001201002
+AVerMedia Technologies  Inc.,Technology,2417.TW,EQ,TW0002417003
+Eastern Media International Corporation,Industrials,2614.TW,EQ,TW0002614005
+Tai-Saw Technology Co. Ltd.,Technology,3221.TWO,EQ,TW0003221008
+Taho Pharmaceuticals Ltd.,Health Care,6467.TWO,EQ,TW0006467004
+Orient Pharma Co.  Ltd.,Health Care,4166.TWO,EQ,TW0004166004
+SynPower Co.  Ltd.,Technology,6658.TW,EQ,TW0006658008
+China Ecotek Corporation,Industrials,1535.TW,EQ,TW0001535003
+Franbo Lines Corp.,Industrials,2641.TWO,EQ,TW0002641008
+Jarllytec Co.   Ltd.,Technology,3548.TWO,EQ,TW0003548004
+Formosa Laboratories  Inc.,Health Care,4746.TW,EQ,TW0004746003
+Hocheng Corporation,Consumer Discretionary,1810.TW,EQ,TW0001810000
+Savior Lifetec Corporation,Health Care,4167.TWO,EQ,TW0004167002
+Taiwan Fu Hsing Industrial Co. Ltd.,Industrials,9924.TW,EQ,TW0009924001
+FineTek Co.  Ltd.,Technology,4549.TWO,EQ,TW0004549001
+Sinmag Equipment Corporation,Industrials,1580.TWO,EQ,TW0001580009
+First Hotel Company Ltd.,Real Estate,2706.TW,EQ,TW0002706009
+CASwell  Inc.,Technology,6416.TW,EQ,TW0006416001
+Pro-Hawk Corporation,Consumer Discretionary,8083.TWO,EQ,TW0008083007
+Tatung System Technologies Inc.,Technology,8099.TWO,EQ,TW0008099003
+Ligitek Electronics Co. Ltd,Technology,8111.TWO,EQ,TW0008111006
+Hye Technology Co. Ltd,Technology,6877.TWO,EQ,TW0006877004
+Win Win Precision Technology Co.  Ltd.,Technology,4949.TW,EQ,TW0004949003
+PChome Online Inc.,Consumer Discretionary,8044.TWO,EQ,TW0008044009
+CHC Healthcare Group,Health Care,4164.TW,EQ,TW0004164009
+Hi-Clearance Inc.,Health Care,1788.TWO,EQ,TW0001788008
+Rich Development Co.  Ltd.,Real Estate,5512.TWO,EQ,TW0005512008
+Nextronics Engineering Corp.,Technology,8147.TWO,EQ,TW0008147000
+Sinphar Pharmaceutical Co. Ltd.,Health Care,1734.TW,EQ,TW0001734002
+GTM Holdings Corporation,Real Estate,1437.TW,EQ,TW0001437002
+Taita Chemical Company  Limited,Materials,1309.TW,EQ,TW0001309003
+TienPin United Enterprise CO.  LTD.,Technology,6199.TWO,EQ,TW0006199003
+Newmax Technology Co.  Ltd.,Technology,3630.TWO,EQ,TW0003630000
+Tahsin Industrial Corporation,Consumer Discretionary,1315.TW,EQ,TW0001315000
+Acon Optics Communications Inc.,Technology,6820.TWO,EQ,TW0006820004
+TWOWAY Communications  Inc.,Technology,8045.TW,EQ,TW0008045006
+Yuan Jen Enterprises Co. Ltd.,Materials,1725.TW,EQ,TW0001725000
+Shih Wei Navigation Co.  Ltd.,Industrials,5608.TW,EQ,TW0005608004
+San Far Property Limited,Real Estate,9946.TW,EQ,TW0009946004
+Drewloong Precision  Inc.,Industrials,4572.TW,EQ,TW0004572003
+Generalplus Technology Inc.,Technology,4952.TW,EQ,TW0004952007
+Zeng Hsing Industrial Co.  Ltd.,Consumer Discretionary,1558.TW,EQ,TW0001558005
+Spectrum Electrics Corporation,Technology,5381.TWO,EQ,TW0005381008
+Pacific Hospital Supply Co.  Ltd,Health Care,4126.TWO,EQ,TW0004126008
+Ever Fortune.AI Co.  Ltd.,Health Care,6841.TWO,EQ,TW0006841000
+X-Legend Entertainment Co.  Ltd.,Communication Services,4994.TW,EQ,TW0004994009
+Formosa Optical Technology Co. Ltd.,Health Care,5312.TWO,EQ,TW0005312003
+Aurona Industries  Inc.,Technology,8074.TWO,EQ,TW0008074006
+Rectron Limited,Technology,2302.TW,EQ,TW0002302007
+Tachan Securities Co.  Ltd.,Financials,6020.TWO,EQ,TW0006020001
+Harmony Electronics Co. Ltd,Technology,8182.TWO,EQ,TW0008182007
+Kao Hsing Chang Iron & Steel Corp.,Materials,2008.TW,EQ,TW0002008000
+INTAI Technology Corporation,Industrials,4163.TWO,EQ,TW0004163001
+Mayer Steel Pipe Corporation,Materials,2020.TW,EQ,TW0002020005
+Syscom Computer Engineering Co.,Technology,2453.TW,EQ,TW0002453008
+Securitag Assembly Group Co.  Ltd.,Technology,6417.TWO,EQ,TW0006417009
+Lucky Cement Co.,Materials,1108.TW,EQ,TW0001108009
+Ubright Optronics Corporation,Technology,4933.TWO,EQ,TW0004933007
+Wave Power Technology Inc.,Industrials,6895.TWO,EQ,TW0006895006
+Wah Hong Industrial Corp.,Technology,8240.TWO,EQ,TW0008240003
+Donpon Precision Inc.,Industrials,3290.TWO,EQ,TW0003290003
+TWi Biotechnology  Inc.,Health Care,6610.TWO,EQ,TW0006610009
+Goodway Machine Corp.,Industrials,1583.TW,EQ,TW0001583003
+Sea Sonic Electronics Co.  Ltd.,Technology,6203.TWO,EQ,TW0006203003
+Yeh Chiang Technology Corporation,Technology,6124.TWO,EQ,TW0006124001
+Asia Tech Image Inc.,Technology,4974.TWO,EQ,TW0004974001
+Hushan Autoparts Inc.,Consumer Discretionary,7736.TW,EQ,TW0007736001
+Castles Technology Co.  Ltd.,Industrials,5258.TW,EQ,TW0005258008
+Amia Co. Ltd,Materials,8438.TW,EQ,TW0008438003
+VSO Electronics Co.  Ltd.,Industrials,6913.TWO,EQ,TW0006913007
+Univacco Technology Inc.,Industrials,3303.TWO,EQ,TW0003303004
+CyberLink Corp.,Technology,5203.TW,EQ,TW0005203004
+Wei Chih Steel Industrial Co.  Ltd.,Materials,2028.TW,EQ,TW0002028008
+Aethertek technology co.  Ltd.,Industrials,3219.TWO,EQ,TW0003219002
+Excelliance MOS Corporation,Technology,5299.TWO,EQ,TW0005299002
+LIWANLI Innovation Co.  Ltd.,Health Care,3054.TW,EQ,TW0003054003
+iCatch Technology  Inc.,Technology,6695.TW,EQ,TW0006695000
+Harvatek Corporation,Technology,6168.TW,EQ,TW0006168008
+Chia Chang Co.  Ltd,Technology,4942.TW,EQ,TW0004942008
+Zig Sheng Industrial Co.  Ltd.,Consumer Discretionary,1455.TW,EQ,TW0001455004
+Weblink International Inc.,Technology,6776.TW,EQ,TW0006776008
+Ultra Chip  Inc.,Technology,3141.TWO,EQ,TW0003141008
+Mycenax Biotech Inc.,Health Care,4726.TWO,EQ,TW0004726005
+Acer Cyber Security Inc.,Technology,6690.TWO,EQ,TW0006690001
+GEM Terminal Industry Co. Ltd.,Technology,2460.TW,EQ,TW0002460003
+Rafael Microelectronics  Inc.,Technology,6568.TWO,EQ,TW0006568009
+Singatron Enterprise Co. Ltd,Technology,6126.TWO,EQ,TW0006126006
+Ta-Yuan Cogeneration Company Ltd.,Utilities,8931.TWO,EQ,TW0008931007
+Best Precision Industrial Co.  Ltd.,Industrials,6859.TWO,EQ,TW0006859002
+Kung Sing Engineering Corporation,Industrials,5521.TW,EQ,TW0005521009
+Froch Enterprise Co.  Ltd.,Materials,2030.TW,EQ,TW0002030004
+Cenra Inc.,Health Care,3716.TW,EQ,TW0003716007
+Li Peng Enterprise Co.  Ltd.,Consumer Discretionary,1447.TW,EQ,TW0001447001
+Panion & Bf Biotech Inc.,Health Care,1760.TW,EQ,TW0001760007
+Solidwizard Technology Co.  Ltd.,Technology,8416.TWO,EQ,TW0008416009
+E-Life Corporation,Consumer Discretionary,6281.TW,EQ,TW0006281009
+Lin Horn Technology Co.  Ltd.,Technology,5464.TWO,EQ,TW0005464002
+UnicoCell Biomed Co.  Ltd.,Health Care,6794.TW,EQ,TW0006794001
+Microtek International  Inc.,Technology,2305.TW,EQ,TW0002305000
+YFC-Boneagle Electric Co.  Ltd.,Technology,6220.TWO,EQ,TW0006220007
+YoungQin International Co.  Ltd.,Consumer Discretionary,2755.TWO,EQ,TW0002755006
+Chialin Precision Industrial Co.  Ltd.,Technology,3310.TWO,EQ,TW0003310009
+China Wire & Cable Co.  Ltd.,Technology,1603.TW,EQ,TW0001603009
+Hsing Ta Cement Co. Ltd,Materials,1109.TW,EQ,TW0001109007
+Well Shin Technology Co.  Ltd.,Industrials,3501.TW,EQ,TW0003501003
+CTCI Advanced Systems Inc.,Technology,5209.TWO,EQ,TW0005209001
+SCI Pharmtech  Inc.,Health Care,4119.TW,EQ,TW0004119003
+Welldone Company,Communication Services,6170.TWO,EQ,TW0006170004
+AMPAK Technology Inc.,Technology,6546.TWO,EQ,TW0006546005
+Long Bon International Co. Ltd,Industrials,2514.TW,EQ,TW0002514007
+Gordon Auto Body Parts Co.  Ltd.,Consumer Discretionary,1524.TW,EQ,TW0001524007
+Lih Tai Construction Enterprise Co.  Ltd.,Materials,5520.TWO,EQ,TW0005520001
+Star Fusion Group Co.  Ltd.,Communication Services,6111.TWO,EQ,TW0006111008
+AGV Products Corporation,Consumer Staples,1217.TW,EQ,TW0001217008
+Shieh Yih Machinery Industry Co.  Ltd.,Industrials,4533.TWO,EQ,TW0004533005
+Tung Thih Electronic Co.  Ltd.,Consumer Discretionary,3552.TWO,EQ,TW0003552006
+Tofu Restaurant Co.  Ltd.,Consumer Discretionary,2752.TWO,EQ,TW0002752003
+Silicon Optronics  Inc.,Technology,3530.TW,EQ,TW0003530002
+Promate Solutions Corporation,Technology,6577.TWO,EQ,TW0006577000
+USERJOY Technology Co. Ltd.,Communication Services,3546.TWO,EQ,TW0003546008
+UNIC Technology Corp.,Materials,5452.TWO,EQ,TW0005452007
+Kian Shen Corporation,Consumer Discretionary,1525.TW,EQ,TW0001525004
+Kao Fong Machinery Co.  Ltd,Industrials,4510.TWO,EQ,TW0004510003
+Everest Textile Co.  Ltd.,Consumer Discretionary,1460.TW,EQ,TW0001460004
+Excellence Optoelectronics Holding Co.  Inc.,Technology,3717.TW,EQ,TW0003717005
+Triocean Industrial Corporation Co.  Ltd.,Industrials,1472.TW,EQ,TW0001472009
+St.Shine Optical Co. Ltd.,Health Care,1565.TWO,EQ,TW0001565000
+Megaforce Company Limited,Technology,3294.TWO,EQ,TW0003294005
+Gogolook Co.  Ltd.,Technology,6902.TW,EQ,TW0006902000
+Wan Hwa Enterprise Company Ltd.,Real Estate,2701.TW,EQ,TW0002701000
+Fong-Chien Construction Co. LTD.,Real Estate,5523.TWO,EQ,TW0005523005
+O-TA Precision Industry Co.  Ltd.,Consumer Discretionary,8924.TWO,EQ,TW0008924002
+HIM International Music Inc.,Communication Services,8446.TWO,EQ,TW0008446006
+Taoyuan International Airport,Industrials,2601.TW,EQ,TW0002601002
+Cheng Fwa Industrial Co.  Ltd.,Industrials,5426.TWO,EQ,TW0005426001
+Sunty Development Co.  LTD,Real Estate,3266.TW,EQ,TW0003266003
+Medigen Biotechnology Corp.,Health Care,3176.TWO,EQ,TW0003176004
+Taitien Electronics Co.  Ltd.,Technology,8289.TWO,EQ,TW0008289000
+RAC Electric Vehicles Inc.,Consumer Discretionary,2237.TWO,EQ,TW0002237005
+Powertip Image Corp,Technology,6498.TWO,EQ,TW0006498009
+Anderson Industrial Corporation,Industrials,1528.TW,EQ,TW0001528008
+Heran Co.  Ltd.,Technology,5283.TW,EQ,TW0005283006
+Golden Long Teng Development Co.  Ltd.,Real Estate,3188.TWO,EQ,TW0003188009
+Fu Yu Property Co.  Ltd.,Real Estate,4907.TWO,EQ,TW0004907001
+Basso Industry Corp.,Industrials,1527.TW,EQ,TW0001527000
+Cystech Electronics Corp.,Technology,6651.TWO,EQ,TW0006651003
+Micro Silicon Electronics Co.  Ltd.,Technology,8162.TW,EQ,TW0008162009
+New Era Electronics Co.  Ltd,Technology,4909.TWO,EQ,TW0004909007
+Bright LED Electronics Corp.,Technology,3031.TW,EQ,TW0003031001
+eCloudvalley Digital Technology Co.  Ltd.,Technology,6689.TW,EQ,TW0006689003
+S-Tech Corp.,Industrials,1584.TWO,EQ,TW0001584001
+Onano Industrial Corp.,Technology,6405.TW,EQ,TW0006405004
+Microprogram Information Co. Ltd,Technology,7721.TW,EQ,TW0007721003
+Pharmosa Biopharm Inc.,Health Care,6875.TWO,EQ,TW0006875008
+GeoVision Inc.,Industrials,3356.TW,EQ,TW0003356002
+Yao Sheng Electronic Co.  Ltd.,Technology,3207.TWO,EQ,TW0003207007
+Amulaire Thermal Technology  Inc.,Technology,2241.TW,EQ,TW0002241007
+Taiwan Styrene Monomer Corporation,Materials,1310.TW,EQ,TW0001310001
+Major-Power Technology Co.  Ltd.,Technology,6720.TWO,EQ,TW0006720006
+Calin Technology Co.  Ltd.,Technology,4976.TW,EQ,TW0004976006
+Kee Tai Properties Co.  Ltd.,Real Estate,2538.TW,EQ,TW0002538006
+Reward Wool Industry Corporation,Consumer Discretionary,1423.TW,EQ,TW0001423002
+Mercuries Data Systems Ltd.,Industrials,2427.TW,EQ,TW0002427002
+Optimax Technology Corporation,Technology,3051.TW,EQ,TW0003051009
+Phoenix Tours International  Inc.,Consumer Discretionary,5706.TW,EQ,TW0005706006
+Honor Seiki Co. Ltd.,Industrials,7709.TWO,EQ,TW0007709008
+Entire Technology Co Ltd,Technology,6775.TWO,EQ,TW0006775000
+Dr. Wu Skincare Co.  Ltd.,Consumer Staples,6523.TWO,EQ,TW0006523004
+Kwan's International Co.  Ltd.,Technology,6101.TWO,EQ,TW0006101009
+AOPEN Incorporated,Technology,3046.TW,EQ,TW0003046009
+eGalax_eMPIA Technology Inc.,Technology,3556.TWO,EQ,TW0003556007
+De Licacy Industrial Co.  Ltd.,Consumer Discretionary,1464.TW,EQ,TW0001464006
+B'in Live Co.  Ltd.,Communication Services,6625.TW,EQ,TW0006625007
+HsinLi Chemical Industrial Corp.,Consumer Discretionary,4303.TWO,EQ,TW0004303003
+Onyx Healthcare  Inc.,Technology,6569.TWO,EQ,TW0006569007
+Champion Microelectronic Corporation,Technology,3257.TW,EQ,TW0003257002
+China Electric MFG Corp.,Industrials,1611.TW,EQ,TW0001611002
+Tera Autotech Corporation,Industrials,6234.TWO,EQ,TW0006234008
+AMPACS Corporation,Technology,6743.TW,EQ,TW0006743008
+ARBOR Technology Corp.,Technology,3594.TWO,EQ,TW0003594008
+Globe Union Industrial Corp.,Industrials,9934.TW,EQ,TW0009934000
+Min Aik Technology Co.  Ltd.,Technology,3060.TW,EQ,TW0003060000
+Fwusow Industry Co.  Ltd.,Consumer Staples,1219.TW,EQ,TW0001219004
+Hanpin Electron Co.  Ltd.,Technology,2488.TW,EQ,TW0002488004
+Podak Co.  Ltd,Industrials,3537.TWO,EQ,TW0003537007
+FDC International Hotels Corporation,Consumer Discretionary,2748.TW,EQ,TW0002748001
+AMIDA Technology  Inc.,Technology,6735.TWO,EQ,TW0006735004
+Rexon Industrial Corp. Ltd,Consumer Discretionary,1515.TW,EQ,TW0001515005
+FIT Holding Co.  Ltd.,Technology,3712.TW,EQ,TW0003712006
+SciVision Biotech Inc.,Industrials,1786.TW,EQ,TW0001786002
+Evertop Wire Cable Corporation,Industrials,1616.TW,EQ,TW0001616001
+Leo Systems  Inc.,Industrials,5410.TWO,EQ,TW0005410005
+Ya Horng Electronic Co.  Ltd.,Consumer Discretionary,6201.TW,EQ,TW0006201007
+Chitec Technology Co.  Ltd.,Materials,3430.TWO,EQ,TW0003430005
+Foxwell Power Co.  Ltd.,Utilities,6994.TW,EQ,TW0006994007
+Allmind Holdings Corporation,Financials,2718.TWO,EQ,TW0002718004
+Hsin Kao Gas Co. Ltd.,Utilities,9931.TW,EQ,TW0009931006
+Niching Industrial Corporation,Technology,3444.TWO,EQ,TW0003444006
+Quintain Steel Co.  Ltd,Industrials,2017.TW,EQ,TW0002017001
+Sunko Ink Co.  Ltd.,Materials,1721.TW,EQ,TW0001721009
+Interactive Digital Technologies Inc.,Technology,6486.TWO,EQ,TW0006486004
+ANJI Technology Co.  Ltd.,Technology,6477.TW,EQ,TW0006477003
+Epoch Chemtronics Corp.,Technology,3633.TWO,EQ,TW0003633004
+Bionime Corporation,Health Care,4737.TW,EQ,TW0004737002
+ASolid Technology Co.  Ltd.,Technology,6485.TWO,EQ,TW0006485006
+Excel Cell Electronic Co.  Ltd.,Technology,2483.TW,EQ,TW0002483005
+United Fiber Optic Communication Inc.,Technology,4903.TWO,EQ,TW0004903000
+Zhong Yang Technology Co. Ltd,Technology,6668.TW,EQ,TW0006668007
+Sanlien Technology Corp.,Technology,5493.TWO,EQ,TW0005493001
+Tsang Yow Industrial Co.  Ltd.,Industrials,1568.TW,EQ,TW0001568004
+Founding Construction Development Co.  Ltd.,Industrials,5533.TW,EQ,TW0005533004
+Loop Telecommunication International  Inc.,Technology,3025.TW,EQ,TW0003025003
+Hwa Fong Rubber Ind. Co.  Ltd.,Consumer Discretionary,2109.TW,EQ,TW0002109006
+Orient Europharma Co.  Ltd.,Health Care,4120.TWO,EQ,TW0004120001
+Hsin Ba Ba Corporation,Materials,9906.TW,EQ,TW0009906008
+Kunyue Development Co.  Ltd.,Financials,5206.TWO,EQ,TW0005206007
+Dynacolor  Inc.,Technology,5489.TWO,EQ,TW0005489009
+Chun Yu Works & Co.  Ltd.,Materials,2012.TW,EQ,TW0002012002
+Tainergy Tech Co.  Ltd.,Technology,4934.TW,EQ,TW0004934005
+Senhwa Biosciences Inc,Industrials,6492.TWO,EQ,TW0006492002
+Genesis Technology  Inc. (Taiwan),Technology,6221.TWO,EQ,TW0006221005
+Chime Ball Technology Co. Ltd.,Industrials,1595.TWO,EQ,TW0001595007
+RiTdisplay Corp,Technology,8104.TW,EQ,TW0008104001
+ATE Energy International Co.  Ltd.,Industrials,6179.TWO,EQ,TW0006179005
+Sinew Pharma Inc.,Health Care,6634.TWO,EQ,TW0006634009
+Yieh Hsing Enterprise Co.  Ltd.,Materials,2007.TW,EQ,TW0002007002
+Top Union Electronics Corp.,Technology,6266.TWO,EQ,TW0006266000
+Taiwan Fructose Co.  Ltd.,Consumer Staples,4207.TWO,EQ,TW0004207006
+King Chou Marine Technology Co.  Ltd,Materials,4417.TWO,EQ,TW0004417001
+Macauto Industrial Co.  Ltd,Industrials,9951.TWO,EQ,TW0009951004
+We&Win Diversification Co.  Ltd.,Financials,4113.TWO,EQ,TW0004113006
+Ruby Tech Corporation,Technology,8048.TWO,EQ,TW0008048000
+Loyalty Founder Enterprise Co.  Ltd.,Industrials,5465.TWO,EQ,TW0005465009
+Sun Yad Construction Co.  Ltd.,Materials,1316.TW,EQ,TW0001316008
+Chaheng Precision Co.  Ltd.,Technology,4546.TWO,EQ,TW0004546007
+Sunspring Metal Corporation,Materials,2062.TW,EQ,TW0002062007
+Tonlin Department Store Co.  Ltd.,Consumer Discretionary,2910.TW,EQ,TW0002910007
+Easy Field Corporation,Technology,6425.TWO,EQ,TW0006425002
+Lang  Inc.,Technology,6165.TW,EQ,TW0006165004
+ATW Technology Incorporated,Technology,8097.TWO,EQ,TW0008097007
+Coplus Inc.,Industrials,2254.TW,EQ,TW0002254000
+Easywell Biomedicals  Inc.,Health Care,1799.TWO,EQ,TW0001799005
+Value Valves Co.  Ltd.,Industrials,4580.TWO,EQ,TW0004580006
+Mobiletron Electronics Co.  Ltd.,Industrials,1533.TW,EQ,TW0001533008
+Ubiqconn Technology  Inc.,Industrials,6928.TW,EQ,TW0006928005
+Info-Tek Corporation,Technology,8183.TWO,EQ,TW0008183005
+Yen Sun Technology Corp.,Consumer Discretionary,6275.TWO,EQ,TW0006275001
+Epileds Technologies  Inc.,Technology,4956.TW,EQ,TW0004956008
+Silitech Technology Corporation,Industrials,3311.TW,EQ,TW0003311007
+TAIWAN LINE TEK ELECTRONIC CO.  LTD.,Industrials,2462.TW,EQ,TW0002462009
+Lan Fa Textile Co.  Ltd.,Materials,1459.TW,EQ,TW0001459006
+Formosa Pharmaceuticals  Inc.,Health Care,6838.TW,EQ,TW0006838006
+Panram International Corp.,Technology,8088.TWO,EQ,TW0008088006
+Vactronics technologies inc.,Technology,6742.TW,EQ,TW0006742000
+Chien Shing Harbour Service Co. Ltd.,Industrials,8367.TW,EQ,TW0008367004
+Galaxy Software Services Corporation,Technology,6752.TWO,EQ,TW0006752009
+OBI Pharma  Inc.,Health Care,4174.TWO,EQ,TW0004174008
+Data Image Corporation,Technology,3168.TW,EQ,TW0003168001
+Shiny Brands Group Co.  Ltd.,Consumer Staples,6703.TWO,EQ,TW0006703002
+M3 Technology Inc.,Technology,6799.TW,EQ,TW0006799000
+New Best Wire Industrial Co.  Ltd.,Industrials,5013.TWO,EQ,TW0005013007
+Chin Hsin Environ Engineering Co. Ltd.,Industrials,6951.TW,EQ,TW0006951007
+Fu Chun Shin Machinery Manufacture Co.  Ltd.,Industrials,6603.TWO,EQ,TW0006603004
+K LASER Technology  Inc.,Materials,2461.TW,EQ,TW0002461001
+Sagittarius Life Science Corp.,Health Care,3205.TWO,EQ,TW0003205001
+ADDA Corp.,Technology,3071.TWO,EQ,TW0003071007
+Plotech Co. Ltd.,Technology,6141.TW,EQ,TW0006141005
+UVAT Technology Co.  Ltd.,Industrials,3580.TWO,EQ,TW0003580007
+Brave C&H Supply Co. Ltd.,Technology,6538.TWO,EQ,TW0006538002
+King Polytechnic Engineering Co.  Ltd.,Industrials,6122.TWO,EQ,TW0006122005
+Twinhead International Corp.,Technology,2364.TW,EQ,TW0002364007
+Solteam Incorporation,Industrials,3484.TWO,EQ,TW0003484002
+Lily Textile Co. Ltd.,Industrials,1443.TW,EQ,TW0001443000
+Mosa Industrial Corp.,Technology,4564.TW,EQ,TW0004564000
+Kuang Hong Arts Management  Inc.,Consumer Discretionary,6596.TWO,EQ,TW0006596000
+Luxe Green Energy Technology Co.  Ltd,Utilities,1529.TW,EQ,TW0001529006
+Rich Circle Development Co Ltd,Technology,6198.TWO,EQ,TW0006198005
+TAIPEI STAR BANK,Financials,5863.TWO,EQ,TW0005863005
+Life Travel & Tourist Service Co. Ltd.,Consumer Discretionary,2745.TWO,EQ,TW0002745007
+Leadtrend Technology Corporation,Technology,3588.TW,EQ,TW0003588000
+East Tender Optoelectronics Corporation,Technology,6588.TWO,EQ,TW0006588007
+Edimax Technology Co.  Ltd.,Technology,3047.TW,EQ,TW0003047007
+Optivision Technology Inc.,Consumer Discretionary,3666.TWO,EQ,TW0003666004
+CastleNet Technology  Inc.,Technology,8059.TWO,EQ,TW0008059007
+Shun On Electronic Co.  Ltd.,Technology,6283.TW,EQ,TW0006283005
+Maxigen Biotech Inc.,Health Care,1783.TW,EQ,TW0001783009
+Meiloon Industrial Co.  Ltd.,Consumer Discretionary,2477.TW,EQ,TW0002477007
+Dyaco International Inc.,Consumer Discretionary,1598.TW,EQ,TW0001598001
+C-Media Electronics Inc.,Technology,6237.TWO,EQ,TW0006237001
+JOCHU Technology Co. Ltd.,Industrials,3543.TW,EQ,TW0003543005
+Yi Jinn Industrial Co. Ltd,Materials,1457.TW,EQ,TW0001457000
+ICARES Medicus Inc,Health Care,6612.TWO,EQ,TW0006612005
+Taiwan Ic Packaging Corporation,Technology,3372.TWO,EQ,TW0003372009
+Eagle Cold Storage Enterprise Co.  Ltd.,Consumer Staples,8905.TWO,EQ,TW0008905001
+Emerging Display Technologies Corp,Technology,3038.TW,EQ,TW0003038006
+Action Electronics Co.  Ltd.,Technology,3024.TW,EQ,TW0003024006
+ALi Corporation,Technology,3041.TW,EQ,TW0003041000
+BioGend Therapeutics Co.  Ltd.,Industrials,6733.TWO,EQ,TW0006733009
+Tait Marketing & Distribution Co.  Ltd.,Industrials,5902.TWO,EQ,TW0005902001
+We & Win Development Co.  Ltd,Technology,2537.TW,EQ,TW0002537008
+Ching Feng Home Fashions Co.  Ltd.,Consumer Discretionary,9935.TW,EQ,TW0009935007
+Bonraybio Co. Ltd.,Health Care,6955.TW,EQ,TW0006955008
+Feature Integration Technology Inc.,Technology,4951.TWO,EQ,TW0004951009
+AimCore Technology Co.  Ltd.,Materials,3615.TWO,EQ,TW0003615001
+Celxpert Energy Corporation,Technology,3323.TWO,EQ,TW0003323002
+Chung Lien Co.  Ltd,Industrials,5604.TWO,EQ,TW0005604003
+Bionet Corp.,Health Care,1784.TWO,EQ,TW0001784007
+Genovate Biotechnology Co.  Ltd.,Health Care,4130.TWO,EQ,TW0004130000
+Ruentex Materials Co Ltd,Materials,8463.TW,EQ,TW0008463001
+Shin Foong Specialty & Applied Materials Co.  Ltd.,Materials,6582.TW,EQ,TW0006582000
+Farcent Enterprise Co.  Ltd.,Consumer Staples,1730.TW,EQ,TW0001730000
+CALITECH CO LTD,Technology,6532.TWO,EQ,TW0006532005
+Nang Kuang Pharmaceutical Co.  Ltd.,Health Care,1752.TW,EQ,TW0001752004
+Aver Information Inc.,Technology,3669.TW,EQ,TW0003669008
+Tung Ho Textile Co.  Ltd.,Materials,1414.TW,EQ,TW0001414001
+Y.C.C. Parts Mfg. Co.  Ltd.,Industrials,1339.TW,EQ,TW0001339000
+Up Young Cornerstone Corp.,Industrials,6728.TWO,EQ,TW0006728009
+Abonmax Co.  Ltd,Technology,2429.TW,EQ,TW0002429008
+EverFocus Electronics Co. Ltd.,Technology,5484.TW,EQ,TW0005484000
+Nien Hsing Textile Co.  Ltd.,Materials,1451.TW,EQ,TW0001451003
+Chateau International Development Co. Ltd.,Consumer Discretionary,2722.TW,EQ,TW0002722006
+Chaintech Technology Corp.,Technology,2425.TW,EQ,TW0002425006
+Axcen Photonics Corp,Technology,6530.TWO,EQ,TW0006530009
+My Humble House Hospitality Management Consulting Co Ltd,Consumer Discretionary,2739.TW,EQ,TW0002739000
+Pacific Construction Co.  Ltd.,Industrials,2506.TW,EQ,TW0002506003
+Yuen Chang Stainless Steel Co.  Ltd.,Materials,2069.TW,EQ,TW0002069002
+Edison Opto Corporation,Technology,3591.TW,EQ,TW0003591004
+Taiwan Environment Scientific Co.  Ltd.,Industrials,8476.TW,EQ,TW0008476003
+Chip Hope Co.  Ltd.,Technology,8084.TWO,EQ,TW0008084005
+Advanced Analog Technology  Inc.,Technology,3438.TWO,EQ,TW0003438008
+Unictron Technologies Corporation,Technology,6792.TW,EQ,TW0006792005
+Magnate Technology Co.  Ltd.,Technology,4541.TWO,EQ,TW0004541008
+SYN-TECH Chemical & Pharmaceutical Co. Ltd.,Health Care,1777.TWO,EQ,TW0001777001
+Ablerex Electronics Co.  Ltd.,Industrials,3628.TWO,EQ,TW0003628004
+Sunfon Construction Co.  Ltd.,Industrials,5514.TWO,EQ,TW0005514004
+Champion Building Materials Co.  Ltd.,Industrials,1806.TW,EQ,TW0001806008
+Kura Sushi Asia Co.  Ltd.,Consumer Discretionary,2754.TWO,EQ,TW0002754009
+Taiwan Chelic Corp. Ltd.,Industrials,4555.TW,EQ,TW0004555008
+Kuen Ling Machinery Refrigerating Co. Ltd.,Industrials,4527.TWO,EQ,TW0004527007
+Kingwaytek Technology Co Ltd,Technology,6516.TWO,EQ,TW0006516008
+LFA Co Ltd,Industrials,3226.TWO,EQ,TW0003226007
+Ying Han Technology Co.  Ltd.,Industrials,4562.TW,EQ,TW0004562004
+Copartner Technology Corporation,Industrials,3550.TW,EQ,TW0003550000
+Right Way Industrial Co.  Ltd.,Industrials,1506.TW,EQ,TW0001506004
+Mortech Corporation,Technology,7419.TWO,EQ,TW0007419004
+Tien Liang Biotech Co.  Ltd.,Health Care,4127.TWO,EQ,TW0004127006
+Ampire Co.  Ltd.,Technology,8049.TWO,EQ,TW0008049008
+Brinno Inc.,Technology,7402.TWO,EQ,TW0007402000
+Fuzetec Technology Co.  Ltd.,Technology,6642.TWO,EQ,TW0006642002
+Richmond International Travel & Tours Co Ltd,Consumer Discretionary,2743.TWO,EQ,TW0002743002
+Cincon Electronics Co.  Ltd.,Technology,3332.TWO,EQ,TW0003332003
+Chainqui Construction Development Co.  Ltd.,Industrials,2509.TW,EQ,TW0002509007
+Tul Corporation,Technology,6150.TWO,EQ,TW0006150006
+Groundhog  Inc.,Technology,6906.TW,EQ,TW0006906001
+Realy Development & Construction Corp.,Financials,2596.TWO,EQ,TW0002596004
+Hotron Precision Electronic Industrial Co. Ltd.,Industrials,3092.TW,EQ,TW0003092003
+Otsuka Information Technology Corp.,Technology,3570.TWO,EQ,TW0003570008
+BRIM Biotechnology  Inc.,Health Care,6885.TW,EQ,TW0006885007
+Energenesis Biomedical Co.  Ltd.,Health Care,6657.TW,EQ,TW0006657000
+Advanced Optoelectronic Technology  Inc.,Technology,3437.TW,EQ,TW0003437000
+New Asia Construction & Development Corp.,Industrials,2516.TW,EQ,TW0002516002
+Xavi Technologies Corporation,Technology,3447.TW,EQ,TW0003447009
+I JANG INDUSTRIAL CO.  LTD.,Industrials,8342.TWO,EQ,TW0008342007
+Taiwan Takisawa Technology Co.  Ltd.,Technology,6609.TWO,EQ,TW0006609001
+Jason Co.  Ltd. (Taiwan),Industrials,4570.TWO,EQ,TW0004570007
+La Kaffa International Co.  Ltd.,Consumer Discretionary,2732.TWO,EQ,TW0002732005
+China Container Terminal Corp,Industrials,2613.TW,EQ,TW0002613007
+Jetway Information Co.  Ltd.,Technology,6161.TWO,EQ,TW0006161003
+GlycoNex  Inc.,Health Care,4168.TWO,EQ,TW0004168000
+Mitake Information Corp.,Technology,8284.TWO,EQ,TW0008284001
+LEOFOO DEVELOPMENT CO.  LTD.,Consumer Discretionary,2705.TW,EQ,TW0002705001
+Tricorntech Corporation,Technology,6909.TW,EQ,TW0006909005
+Tainan Enterprises Co.  Ltd.,Consumer Staples,1473.TW,EQ,TW0001473007
+Tai Tung Communication Co.  Ltd.,Industrials,8011.TW,EQ,TW0008011008
+Gold Rain Enterprises Corp.,Industrials,4503.TWO,EQ,TW0004503008
+Rich Honour International Designs Co.  Ltd.,Industrials,6754.TW,EQ,TW0006754005
+CS Group Investment Holding Limited,Materials,1463.TW,EQ,TW0001463008
+Apex Biotechnology Corp.,Health Care,1733.TW,EQ,TW0001733004
+Bon Fame Co.  Ltd.,Consumer Staples,8433.TWO,EQ,TW0008433004
+APCB Inc.,Technology,6108.TW,EQ,TW0006108004
+Metatech (Ap) Inc.,Industrials,3224.TWO,EQ,TW0003224002
+MARX Biotech Co.  Ltd.,Consumer Discretionary,7731.TWO,EQ,TW0007731002
+Wanshih Electronic Co.  Ltd,Industrials,6134.TWO,EQ,TW0006134000
+Fullerton Technology Co.  Ltd.,Communication Services,6136.TW,EQ,TW0006136005
+Gongin Precision Industrial Co.  Ltd.,Technology,3178.TWO,EQ,TW0003178000
+Young Shine Electric Co.  Ltd.,Industrials,2249.TWO,EQ,TW0002249000
+Awea Mechantronic Co. Ltd.,Industrials,1530.TW,EQ,TW0001530004
+Li Ming Development Construction Co.  Ltd.,Technology,6212.TWO,EQ,TW0006212004
+Maywufa Co.  Ltd.,Consumer Staples,1731.TW,EQ,TW0001731008
+Kent Industrial Co.  Ltd.,Industrials,6606.TW,EQ,TW0006606007
+Sirtec International Co.  Ltd.,Materials,5356.TWO,EQ,TW0005356000
+Wieson Technologies Co.  Ltd.,Technology,6272.TW,EQ,TW0006272008
+Sanitar Co.  Ltd.,Industrials,1817.TW,EQ,TW0001817005
+SYNergy ScienTech Corp.,Industrials,6558.TW,EQ,TW0006558000
+Simple Mart Retail Co.  Ltd.,Consumer Discretionary,2945.TW,EQ,TW0002945003
+Laster Tech Co.  Ltd.,Technology,3346.TW,EQ,TW0003346003
+Tech-Top Engineering CO. LTD.,Industrials,6750.TWO,EQ,TW0006750003
+Allied Biotech Corp,Consumer Staples,1780.TWO,EQ,TW0001780005
+Taiwan Television Enterprise Co. Ltd.,Consumer Discretionary,8329.TWO,EQ,TW0008329004
+Bright Sheland International Co Ltd,Industrials,4556.TWO,EQ,TW0004556006
+ATrack Technology Inc,Technology,6465.TWO,EQ,TW0006465008
+Intech Biopharm Ltd,Health Care,6461.TWO,EQ,TW0006461007
+Welltend Technology Corporation,Technology,3021.TW,EQ,TW0003021002
+Unique Opto-Electronics Co. Ltd,Technology,3441.TWO,EQ,TW0003441002
+AXIS Corporation,Technology,6292.TWO,EQ,TW0006292006
+Super Dragon Technology Co.  Ltd,Industrials,9955.TW,EQ,TW0009955005
+GrandTech C.G. Systems  Inc.,Industrials,6123.TWO,EQ,TW0006123003
+Solomon Data International Corporation,Technology,5432.TWO,EQ,TW0005432009
+Transart Graphics Co.  Ltd. (Taiwan),Industrials,8481.TW,EQ,TW0008481003
+AEWIN Technologies Co.  Ltd.,Industrials,3564.TWO,EQ,TW0003564001
+Cameo Communications  Inc.,Technology,6142.TW,EQ,TW0006142003
+Golden Bridge Electech Inc.,Industrials,6133.TW,EQ,TW0006133002
+Trinity Precision Technology Co.  Ltd.,Industrials,4534.TWO,EQ,TW0004534003
+Paragon Technologies Co.  Ltd.,Technology,3518.TW,EQ,TW0003518007
+Jung Shing Wire Co.  Ltd.,Industrials,1617.TW,EQ,TW0001617009
+Chernan Metal Industrial Corp.,Industrials,3631.TWO,EQ,TW0003631008
+Princeton Technology Corporation,Technology,6129.TWO,EQ,TW0006129000
+KNH Enterprise Co.  Ltd.,Materials,9919.TW,EQ,TW0009919001
+PADAUK Technology Co.  Ltd.,Technology,6716.TWO,EQ,TW0006716004
+Fortune Information System Corp.,Industrials,2468.TW,EQ,TW0002468006
+Shihlin Development Co.  Ltd.,Consumer Discretionary,5324.TWO,EQ,TW0005324008
+XAC Automation Corporation,Technology,5490.TWO,EQ,TW0005490007
+iSTART-TEK INC.,Technology,6786.TWO,EQ,TW0006786007
+Qingsong Health Co.  Ltd.,Health Care,6931.TW,EQ,TW0006931009
+Munsin Garment Corporation,Materials,2916.TWO,EQ,TW0002916004
+Tex Year Industries  Inc.,Materials,4720.TW,EQ,TW0004720008
+Jetbest Corporation,Materials,4741.TWO,EQ,TW0004741004
+Uniforce Technology Corp.,Industrials,7714.TWO,EQ,TW0007714008
+Billion Electric Co.  Ltd.,Technology,3027.TW,EQ,TW0003027009
+Neo-Neon Holdings Ltd Units Taiwan Depositary Recepits,Industrials,911868.TW,EQ,TW0009118687
+Collins Co.  Ltd.,Industrials,2906.TW,EQ,TW0002906005
+Cheer Time Enterprise Co.  Ltd.,Technology,3229.TW,EQ,TW0003229001
+ShareHope Medicine Co.  Ltd.,Industrials,8403.TWO,EQ,TW0008403007
+Min Aik Precision Industrial Co.  Ltd.,Industrials,4545.TW,EQ,TW0004545009
+Shin Tai Industry Co. Ltd.,Consumer Staples,1235.TW,EQ,TW0001235000
+SanDi Properties Co. Ltd.,Financials,1438.TW,EQ,TW0001438000
+3s Silicon Tech.  Inc.,Technology,5297.TWO,EQ,TW0005297006
+Howteh Technology Co.  Ltd.,Industrials,3114.TWO,EQ,TW0003114005
+Unitech Electronic Co.  Ltd.,Technology,3652.TW,EQ,TW0003652004
+Chunghwa Chemical Synthesis & Biotech Co.  Ltd. Class A,Health Care,1762.TW,EQ,TW0001762003
+Tekcore Co.  Ltd,Technology,3339.TWO,EQ,TW0003339008
+Sumeeko Industries Co.  Ltd.,Industrials,2066.TWO,EQ,TW0002066008
+General Plastic Industrial Co.  Ltd.,Consumer Discretionary,6128.TW,EQ,TW0006128002
+Hai Kwang Enterprise Corporation,Materials,2038.TW,EQ,TW0002038007
+Macroblock  Inc.,Technology,3527.TWO,EQ,TW0003527008
+Max Echo Technology Corp,Technology,5228.TWO,EQ,TW0005228001
+Tycoons Group Enterprise Co.  Ltd.,Industrials,2022.TW,EQ,TW0002022001
+Syngen Biotech Co.  Ltd.,Health Care,8279.TWO,EQ,TW0008279001
+Feei Cherng Enterprise Co.  Ltd,Technology,3313.TWO,EQ,TW0003313003
+Ching Chan Optical Technology Co.  Ltd.,Industrials,2070.TWO,EQ,TW0002070000
+Tze Shin International Co.  Ltd.,Industrials,2611.TW,EQ,TW0002611001
+SIM Technology Group Limited,Technology,912000.TW,EQ,TW0009120006
+EISO Enterprise Co.  Ltd.,Technology,5291.TWO,EQ,TW0005291009
+Morn Sun Feed Mill Corp.,Materials,1240.TWO,EQ,TW0001240000
+Nan Liu Enterprise Co.  Ltd,Materials,6504.TW,EQ,TW0006504004
+MIKOBEAUTE INTERNATIONAL CO.  LTD.,Consumer Discretionary,6574.TWO,EQ,TW0006574007
+FORTUNE ORIENTAL CO.  LTD.,Technology,2491.TW,EQ,TW0002491008
+Formosa Electronic Industries Inc.,Industrials,8171.TWO,EQ,TW0008171000
+SysJust Co.  Ltd.,Technology,3158.TWO,EQ,TW0003158002
+Changs Ascending Enterprise Co.  Ltd.,Industrials,8038.TWO,EQ,TW0008038001
+FineMat Applied Materials Co.  Ltd.,Technology,6698.TW,EQ,TW0006698004
+Brightek Optoelectronic Co.  Ltd.,Technology,5244.TW,EQ,TW0005244008
+A Plus Biotechnology Co Ltd,Health Care,6918.TW,EQ,TW0006918006
+Davicom Semiconductor  Inc.,Technology,3094.TW,EQ,TW0003094009
+Taiwan Alpha Electronic Co.  Ltd.,Technology,6204.TWO,EQ,TW0006204001
+GENII IDEAS Co.  Ltd.,Industrials,7631.TW,EQ,TW0007631B19
+Ten Ren Tea Co.  Ltd.,Consumer Staples,1233.TW,EQ,TW0001233005
+Prime Electronics & Satellitics Inc.,Technology,6152.TW,EQ,TW0006152002
+AKER Technology Co.  Ltd.,Technology,6174.TWO,EQ,TW0006174006
+Global View Co.  Ltd.,Financials,3040.TW,EQ,TW0003040002
+Wellpool Co.  Ltd,Industrials,8424.TWO,EQ,TW0008424003
+Chinese Gamer International Corporation,Consumer Discretionary,3083.TWO,EQ,TW0003083002
+Arch Meter Corporation,Technology,4588.TW,EQ,TW0004588009
+Tah Kong Chemical Industrial Corp.,Materials,4706.TWO,EQ,TW0004706007
+Ares International Corp.,Technology,2471.TW,EQ,TW0002471000
+CX Technology Corporation,Industrials,2415.TW,EQ,TW0002415007
+Yield Microelectronics Corporation,Technology,6423.TWO,EQ,TW0006423007
+JMC Electronics Co.  Ltd.,Technology,6552.TW,EQ,TW0006552003
+Pontex Polyblend Co. Ltd.,Industrials,8935.TWO,EQ,TW0008935008
+Professional Computer Technology Limited,Technology,6270.TWO,EQ,TW0006270002
+Jiin Ming Industry Co.  Ltd.,Industrials,3230.TWO,EQ,TW0003230009
+Apex International Financial Engineering Res & Tech Co.  Ltd.,Technology,5210.TWO,EQ,TW0005210009
+Mega International Development Co.  Ltd.,Consumer Discretionary,5529.TWO,EQ,TW0005529002
+Kenturn Nano Tec Co.  Ltd.,Industrials,4561.TWO,EQ,TW0004561006
+Johnson Chemical Pharmaceutical Works Co.  Ltd.,Health Care,4747.TWO,EQ,TW0004747001
+Tailyn Technologies  Inc.,Technology,5353.TWO,EQ,TW0005353007
+Phytohealth Corporation,Health Care,4108.TW,EQ,TW0004108006
+Vetnostrum Animal Health Co.  Ltd.,Health Care,6936.TW,EQ,TW0006936008
+Tradetool Auto Co. Ltd.,Industrials,3685.TWO,EQ,TW0003685004
+Powertech Industrial Co.  Ltd.,Industrials,3296.TW,EQ,TW0003296000
+Chien Shing Stainless Steel Co.  Ltd.,Materials,2025.TW,EQ,TW0002025004
+MAYO Human Capital  Inc.,Technology,6738.TWO,EQ,TW0006738008
+Dawushan Farm Technology Co Ltd,Materials,6952.TW,EQ,TW0006952005
+Space Shuttle Hi-Tech Co. Ltd.,Industrials,2440.TW,EQ,TW0002440005
+Shih-Kuen Plastics Co.  Ltd.,Materials,4305.TWO,EQ,TW0004305008
+Gigastone Corp.,Technology,5262.TWO,EQ,TW0005262000
+U-Best Innovative Technology Co. Ltd,Consumer Discretionary,4714.TWO,EQ,TW0004714001
+Complex Micro Interconnection Co.  Ltd.,Technology,6835.TW,EQ,TW0006835002
+Arlitech Electronic Corp,Technology,6432.TWO,EQ,TW0006432008
+Everspring Industry Co.  Ltd.,Technology,2390.TW,EQ,TW0002390002
+Tacheng Real Estate Co. Ltd.,Consumer Discretionary,6171.TWO,EQ,TW0006171002
+Flavor Full Foods  Inc.,Materials,1260.TWO,EQ,TW0001260008
+Walrus Pump Co Ltd,Industrials,6982.TWO,EQ,TW0006982002
+MacroWell OMG Digital Entertainment Co.  Ltd.,Industrials,3687.TWO,EQ,TW0003687000
+Hantech Bio-Technology Co.  Ltd.,Health Care,1294.TWO,EQ,TW0001294007
+Skardin Industrial Corporation,Technology,3466.TWO,EQ,TW0003466009
+Superior Plating Technology Co.  Ltd.,Industrials,8431.TWO,EQ,TW0008431008
+Nan Ren Lake Leisure Amusement Co. Ltd.,Consumer Discretionary,5905.TWO,EQ,TW0005905004
+RoyalTek Co. Ltd.,Technology,3306.TWO,EQ,TW0003306007
+Aero Win Technology Corp.,Technology,8222.TW,EQ,TW0008222001
+Medimaging Integrated Solution Inc.,Health Care,6796.TW,EQ,TW0006796006
+United Radiant Technology Corporation,Technology,5315.TWO,EQ,TW0005315006
+Ascent Development Co Ltd,Materials,1439.TW,EQ,TW0001439008
+Huang Long Development Co.  Ltd.,Consumer Discretionary,3512.TWO,EQ,TW0003512000
+Wellell Inc.,Health Care,4106.TW,EQ,TW0004106000
+TSG Development Co.  Ltd.,Technology,3521.TWO,EQ,TW0003521001
+Kaulin Manufacturing Co. Ltd.,Industrials,1531.TW,EQ,TW0001531002
+Ginar Technology Co.  Ltd.,Industrials,6151.TWO,EQ,TW0006151004
+Long Time Technology Co.  Ltd.,Materials,6555.TWO,EQ,TW0006555006
+Soonest Express Co Ltd,Industrials,2643.TWO,EQ,TW0002643004
+Quaser Machine Tools  Inc.,Industrials,4563.TWO,EQ,TW0004563002
+Hong Ho Precision Textile Co.  Ltd.,Materials,1446.TW,EQ,TW0001446003
+Sinkang Industries Co.  Ltd.,Industrials,2032.TW,EQ,TW0002032000
+Evermore Chemical Industry Co.  Ltd.,Materials,1735.TW,EQ,TW0001735009
+AV Tech Corporation,Technology,8072.TW,EQ,TW0008072000
+Sunflex Technology Corp.,Technology,3390.TWO,EQ,TW0003390001
+Enrestec  Inc.,Industrials,7507.TWO,EQ,TW0007507B10
+King Shing Industrial Co Ltd,Industrials,7732.TW,EQ,TW0007732000
+Jia Wei Lifestyle  Inc. Class A,Technology,3557.TW,EQ,TW0003557005
+MedFirst Healthcare Services  Inc. (TW),Industrials,4175.TWO,EQ,TW0004175005
+Jing-Jan Retail Business Co.  Ltd.,Consumer Discretionary,2942.TWO,EQ,TW0002942000
+Koryo Electronics Co.  Ltd.,Technology,8032.TWO,EQ,TW0008032004
+Kingstate Electronics Corp.,Consumer Discretionary,3206.TWO,EQ,TW0003206009
+Falcon Machine Tools Co.  Ltd.,Industrials,4513.TWO,EQ,TW0004513007
+Universal Incorporation,Consumer Staples,1325.TW,EQ,TW0001325009
+CKM Applied Materials Corp.,Industrials,8930.TWO,EQ,TW0008930009
+Champ-Ray Industrial Co.  Ltd.,Consumer Discretionary,7642.TWO,EQ,TW0007642B16
+Lee Chi Enterprises Co.  Ltd.,Consumer Discretionary,1517.TW,EQ,TW0001517001
+Hunya Foods Co. Ltd.,Consumer Staples,1236.TW,EQ,TW0001236008
+Roo Hsing Co.  Ltd.,Consumer Staples,4414.TW,EQ,TW0004414008
+Cryomax Cooling System Corp.,Industrials,1587.TW,EQ,TW0001587004
+Song Shang Electronics Co.  Ltd.,Technology,6156.TWO,EQ,TW0006156003
+Algoltek  Inc.,Technology,6684.TWO,EQ,TW0006684004
+DrayTek Corporation,Technology,6216.TW,EQ,TW0006216005
+Sheh Fung Screws Co.  Ltd.,Industrials,2065.TWO,EQ,TW0002065000
+Apex Science & Engineering Corp.,Industrials,3052.TW,EQ,TW0003052007
+Man Zai Industrial Co.  Ltd.,Industrials,4543.TWO,EQ,TW0004543004
+De Poan Pneumatic Corp.,Consumer Discretionary,1570.TWO,EQ,TW0001570000
+Ok Biotech Co.  Ltd.,Health Care,4155.TW,EQ,TW0004155007
+China Fineblanking Technology Co.  Ltd.,Industrials,1586.TWO,EQ,TW0001586006
+Great Computer Corp.,Technology,8047.TWO,EQ,TW0008047002
+Tsann Kuen Enterprise Co. Ltd,Consumer Discretionary,2430.TW,EQ,TW0002430006
+Taiwan Auto-Design Co.,Technology,6791.TWO,EQ,TW0006791007
+Mutual-Tek Industries Co.  Ltd.,Technology,6407.TWO,EQ,TW0006407000
+Aplex Technology Inc.,Technology,6570.TWO,EQ,TW0006570005
+Enjoy Warmth Co.  Ltd.,Consumer Discretionary,7760.TW,EQ,TW0007760001
+Top High Image Corp.,Industrials,3284.TWO,EQ,TW0003284006
+ELTA Technology Co.  Ltd.,Technology,8487.TW,EQ,TW0008487000
+Teco Image Systems Co.  Ltd.,Industrials,5438.TWO,EQ,TW0005438006
+Gseven Co.  Ltd.,Consumer Discretionary,2937.TWO,EQ,TW0002937000
+Plastron Presicion Co.  Ltd.,Technology,6185.TWO,EQ,TW0006185002
+Ecocera Optronics Co.  Ltd.,Industrials,6597.TWO,EQ,TW0006597008
+Mercuries F&B Co Ltd,Consumer Discretionary,7705.TW,EQ,TW0007705006
+Taiwan Allied Container Terminal Corp.,Industrials,5601.TWO,EQ,TW0005601009
+Topview Optronics Corp.,Technology,6556.TWO,EQ,TW0006556004
+Feng Ching Metal Corporation,Materials,2061.TWO,EQ,TW0002061009
+Hotel Holiday Garden,Consumer Discretionary,2702.TW,EQ,TW0002702008
+Fine Blanking & Tool Co.  Ltd.,Consumer Discretionary,4535.TWO,EQ,TW0004535000
+Tainet Communication System Corp.,Technology,4905.TWO,EQ,TW0004905005
+Tai Roun Products Co. Ltd.,Materials,1220.TW,EQ,TW0001220002
+Joinsoon Electronics Manufacturing Co.  Ltd.,Technology,3322.TWO,EQ,TW0003322004
+Sun Brothers Development Co.  Ltd.,Technology,3489.TWO,EQ,TW0003489001
+Taiwan Pelican Express Co.  Ltd.,Industrials,2642.TW,EQ,TW0002642006
+Kwong Fong Industries Corporation,Technology,1416.TW,EQ,TW0001416006
+Hauman Technologies Corp.,Technology,6218.TWO,EQ,TW0006218001
+Dynamic Medical Technologies Inc.,Health Care,4138.TWO,EQ,TW0004138003
+Baso Precision Optics Ltd.,Industrials,6517.TWO,EQ,TW0006517006
+Thermaltake Technology Co.  Ltd.,Technology,3540.TWO,EQ,TW0003540001
+Yem Chio Distribution Co.  Ltd.,Technology,3171.TWO,EQ,TW0003171005
+Chain Chon Industrial Co.  Ltd.,Materials,5014.TWO,EQ,TW0005014005
+Forcera Materials Co Ltd,Technology,3467.TWO,EQ,TW0003467007
+Huikwang Corporation,Materials,6508.TWO,EQ,TW0006508005
+AFASTOR Corporation,Industrials,6707.TWO,EQ,TW0006707003
+U-Tech Media Corporation,Technology,3050.TW,EQ,TW0003050001
+WFE Technology Corp.,Industrials,6474.TWO,EQ,TW0006474000
+Zimmite Taiwan Ltd.,Utilities,8435.TWO,EQ,TW0008435009
+G&E Herbal Biotechnology Co.  Ltd.,Health Care,4911.TWO,EQ,TW0004911003
+Li Hsuan Development & Construction Co.  Ltd.,Industrials,6222.TWO,EQ,TW0006222003
+Greenfiltec Ltd.,Technology,6823.TWO,EQ,TW0006823008
+Gamesparcs Co.  Ltd.,Technology,6542.TWO,EQ,TW0006542004
+Golden Insurance Brokers Co.  Ltd.,Financials,6028.TWO,EQ,TW0006028004
+Ta Yih Industrial Co.  Ltd.,Industrials,1521.TW,EQ,TW0001521003
+3D Global Biotech Inc.,Health Care,6808.TWO,EQ,TW0006808009
+Partner Tech Corp.,Technology,3097.TWO,EQ,TW0003097002
+TSH Biopharm Corp. Ltd.,Health Care,8432.TWO,EQ,TW0008432006
+Litemax Electronics Inc.,Technology,4995.TWO,EQ,TW0004995006
+Evertex Fabrinology Ltd.,Materials,1470.TW,EQ,TW0001470003
+Coxon Precise Industrial Co.  Ltd Class A,Materials,3607.TW,EQ,TW0003607008
+Jorjin Technologies Inc.,Technology,4980.TWO,EQ,TW0004980008
+Forward Science Corp.,Industrials,7530.TWO,EQ,TW0007530B11
+An-Shin Food Services Co.  Ltd.,Consumer Discretionary,1259.TWO,EQ,TW0001259000
+Microcosm Technology Co.  Ltd.,Industrials,3354.TWO,EQ,TW0003354007
+United Recommend International Co.  Ltd.,Consumer Discretionary,5321.TWO,EQ,TW0005321004
+Everbrite Technology Co.  Ltd.,Industrials,4523.TWO,EQ,TW0004523006
+Chang-Ho Fibre Corp.,Materials,1468.TW,EQ,TW0001468007
+Nuuo  Inc.,Technology,6419.TWO,EQ,TW0006419005
+Ahoku Electronic Co.,Technology,3002.TW,EQ,TW0003002002
+Prolific Technology Inc.,Technology,6233.TWO,EQ,TW0006233000
+UHT Unitech Co.  Ltd.,Industrials,6618.TWO,EQ,TW0006618002
+Ways Technical Corp.  Ltd,Materials,3508.TWO,EQ,TW0003508008
+Simula Technology  Inc.,Technology,3511.TWO,EQ,TW0003511002
+Shan-Loong Transportation Co.  Ltd.,Consumer Discretionary,2616.TW,EQ,TW0002616000
+TerraLink Enterprise Co Ltd,Technology,8080.TWO,EQ,TW0008080003
+Anti-Microbial Savior BioteQ Co.  Ltd.,Industrials,6864.TWO,EQ,TW0006864002
+Ji-Haw Industrial Co.  Ltd.,Technology,3011.TW,EQ,TW0003011003
+Grand-Tek Technology Co.  Ltd.,Technology,3684.TWO,EQ,TW0003684007
+Nam Liong Global Corporation,Technology,5450.TWO,EQ,TW0005450001
+Reliance Securities Co.  Ltd.,Financials,6027.TWO,EQ,TW0006027006
+Roundtop Machinery Industries Co.  Ltd,Industrials,1540.TW,EQ,TW0001540003
+C.T.I. Traffic Industries Co.  Ltd.,Industrials,2230.TWO,EQ,TW0002230000
+TRK Corporation,Financials,1432.TW,EQ,TW0001432003
+Shinih Enterprise Co.  Ltd.,Materials,9944.TW,EQ,TW0009944009
+Revivegen Environmental Technology Co.  Ltd.,Industrials,7578.TWO,EQ,TW0007578B14
+Nyquest Technology Co Ltd,Technology,6494.TWO,EQ,TW0006494008
+Tachia Yung Ho Machine Industry Co.  Ltd.,Materials,2221.TWO,EQ,TW0002221009
+TMP Steel Corporation,Technology,6248.TWO,EQ,TW0006248008
+Chia Her Industrial Co.  Ltd.,Materials,1449.TW,EQ,TW0001449007
+U-MEDIA Communications Inc,Technology,6470.TWO,EQ,TW0006470008
+ACON Holding Inc.,Technology,3710.TWO,EQ,TW0003710000
+CUBTEK Inc.,Industrials,2252.TWO,EQ,TW0002252004
+Leader Electronics  Inc.,Technology,3058.TW,EQ,TW0003058004
+Eminent Luggage Corporation,Consumer Discretionary,9950.TWO,EQ,TW0009950006
+OFCO Industrial Corporation,Industrials,5011.TWO,EQ,TW0005011001
+Yonyu Plastics Co.  Ltd,Materials,1323.TW,EQ,TW0001323004
+Big Sun Shine Co.  Ltd.,Materials,1475.TW,EQ,TW0001475002
+Chi Sheng Pharma & Biotech Co.  Ltd.,Health Care,4111.TWO,EQ,TW0004111000
+Crystalvue Medical Co Ltd,Health Care,6527.TWO,EQ,TW0006527005
+Argo Yachts Development Co. Ltd.,Industrials,7566.TWO,EQ,TW0007566B18
+Forward Electronics Co.  Ltd.,Technology,8085.TWO,EQ,TW0008085002
+Syntek Semiconductor Co.  Ltd.,Technology,5302.TWO,EQ,TW0005302004
+Single Well Industrial Co. Ltd.,Industrials,3490.TWO,EQ,TW0003490009
+Microtips Technology Inc.,Technology,3285.TWO,EQ,TW0003285003
+Sheng Yi Development Co. Ltd,Financials,5455.TWO,EQ,TW0005455000
+Uniflex Technology  Inc.,Technology,3321.TW,EQ,TW0003321006
+Tex-Ray Industrial Co.  Ltd.,Materials,1467.TW,EQ,TW0001467009
+Mildex Optical Inc.,Technology,4729.TWO,EQ,TW0004729009
+Trans-Sun Materials Technology Co.  Ltd.,Materials,6967.TWO,EQ,TW0006967003
+Solidyear Co. Ltd.,Technology,6737.TWO,EQ,TW0006737000
+Wha Yu Industrial Co.  Ltd.,Technology,3419.TW,EQ,TW0003419008
+Acer Gadget Inc,Technology,2432.TW,EQ,TW0002432002
+Hengs Technology Co. Ltd.,Technology,4582.TW,EQ,TW0004582002
+Toung Loong Textile Mfg. Co.  Ltd.,Materials,4401.TWO,EQ,TW0004401005
+Shin Shin Co. Ltd.,Consumer Discretionary,2901.TW,EQ,TW0002901006
+O-Bank No.1 Real Estate Investment Trust,Financials,01009T.TW,EQ,TW00001009T1
+TSG Star Travel Corp,Consumer Discretionary,2719.TWO,EQ,TW0002719002
+Advagene Biopharma Co.  Ltd.,Health Care,6709.TWO,EQ,TW0006709009
+Powertip Tech Corp.,Technology,6167.TWO,EQ,TW0006167000
+Baolong International Co.  Ltd.,Materials,1906.TW,EQ,TW0001906006
+Medical Imaging Corp.,Industrials,6637.TWO,EQ,TW0006637002
+Martas Precision Slide Co. Ltd.,Industrials,6705.TWO,EQ,TW0006705007
+BenQ Medical Technology Corp.,Health Care,4116.TWO,EQ,TW0004116009
+Diva Laboratories  Ltd.,Technology,4153.TWO,EQ,TW0004153002
+Taiwan Oasis Technology Co.  Ltd.,Technology,3066.TWO,EQ,TW0003066007
+Provision Information Co.  Ltd.,Technology,6590.TWO,EQ,TW0006590003
+Goldtek Technology Co.  Ltd.,Technology,6638.TWO,EQ,TW0006638000
+Aeontek Co Ltd,Industrials,1599.TWO,EQ,TW0001599009
+C-Tech United Corp.,Industrials,3625.TWO,EQ,TW0003625000
+Eslite Spectrum Corporation,Financials,2926.TWO,EQ,TW0002926003
+CVC Technologies  Inc.,Industrials,4744.TWO,EQ,TW0004744008
+Medtecs International Corporation Ltd Units Taiwan Depository receipts,Health Care,9103.TW,EQ,TW0009103002
+Acelon Chemicals & Fiber Corporation.,Materials,1466.TW,EQ,TW0001466001
+Chang Type Industrial Co.  Ltd.,Industrials,1541.TW,EQ,TW0001541001
+Full Wang International Development Co. Ltd.,Financials,6219.TWO,EQ,TW0006219009
+Hyweb Technology Co.  Ltd.,Technology,5212.TWO,EQ,TW0005212005
+Taiwan Biomaterial Co.  Ltd.,Technology,6649.TWO,EQ,TW0006649007
+TaiRx  Inc.,Health Care,6580.TWO,EQ,TW0006580004
+Microelectronics Technology Inc.,Technology,2314.TW,EQ,TW0002314002
+Sea & Land Integrated Corp.,Industrials,5603.TWO,EQ,TW0005603005
+Bai Sha Technology Co.  Ltd.,Industrials,8401.TWO,EQ,TW0008401001
+Carnival Industrial Corporation,Consumer Staples,1417.TW,EQ,TW0001417004
+Solytech Enterprise Corporation,Technology,1471.TW,EQ,TW0001471001
+GOMAJI Corp Ltd,Industrials,8472.TWO,EQ,TW0008472002
+Taiwan Taffeta Fabric Co.  Ltd,Materials,1454.TW,EQ,TW0001454007
+Far Glory Hotel Co.  Ltd.,Consumer Discretionary,2712.TW,EQ,TW0002712007
+Force-MOS Technology Co.  Ltd.,Technology,4923.TWO,EQ,TW0004923008
+Enlight Corporation,Technology,2438.TW,EQ,TW0002438009
+Azion Corporation,Technology,6148.TWO,EQ,TW0006148000
+Yufo Electronics Co.  Ltd.,Technology,6194.TWO,EQ,TW0006194004
+Qbic Technology Co.  Ltd.,Technology,6825.TWO,EQ,TW0006825003
+Sunvic Technology Co.  Ltd.,Materials,4304.TWO,EQ,TW0004304001
+Xander International Corp.,Industrials,6118.TWO,EQ,TW0006118003
+Shuang-Bang Industrial Corp.,Materials,6506.TWO,EQ,TW0006506009
+Nan Yang Dyeing & Finishing Co. Ltd.,Technology,1410.TW,EQ,TW0001410009
+Kwang Ming Silk Mill Co.  Ltd.,Materials,4420.TWO,EQ,TW0004420005
+Sinher Technology Inc.,Consumer Discretionary,4999.TW,EQ,TW0004999008
+Chander Electronics Corp.,Industrials,8068.TWO,EQ,TW0008068008
+KWorld Computer Co.  Ltd.,Technology,3287.TWO,EQ,TW0003287009
+Juliens International Entertainment Group,Technology,6595.TWO,EQ,TW0006595002
+Grand Hall Enterprise Co.  Ltd.,Consumer Discretionary,8941.TWO,EQ,TW0008941006
+NeoCore Technology Co.  Ltd,Health Care,4131.TWO,EQ,TW0004131008
+Daily Polymer Corp.,Materials,4716.TWO,EQ,TW0004716006
+Acmepoint Energy Services Co.  Ltd,Industrials,6692.TWO,EQ,TW0006692007
+ABICO NetCom Co.  Ltd.,Industrials,8071.TWO,EQ,TW0008071002
+ADO Optronic Corp.,Industrials,3516.TWO,EQ,TW0003516001
+Luminescence Technology Corp.,Materials,6729.TWO,EQ,TW0006729007
+Ideal Bike Corporation,Consumer Discretionary,8933.TWO,EQ,TW0008933003
+Universal Textile Co.  Ltd.,Consumer Staples,1445.TW,EQ,TW0001445005
+Kanpai Co. Ltd.,Consumer Discretionary,1269.TWO,EQ,TW0001269009
+Hong Yi Fiber Industry Co.  Ltd.,Materials,1452.TW,EQ,TW0001452001
+Jia Jie Biomedical Co.  Ltd.,Health Care,4109.TWO,EQ,TW0004109004
+ENE Technology  Inc.,Technology,6243.TW,EQ,TW0006243009
+Rodex Fasteners Corp.,Industrials,5015.TWO,EQ,TW0005015002
+GeneFerm Biotechnology Co. Ltd.,Health Care,1796.TWO,EQ,TW0001796001
+Asec International Corporation,Industrials,6113.TWO,EQ,TW0006113004
+Hsinjing Holding Co.  Ltd.,Technology,3713.TWO,EQ,TW0003713004
+Taiwan Wax Co.  Ltd.,Energy,1742.TWO,EQ,TW0001742005
+Chen Nan Iron Wire Co. Ltd.,Industrials,2071.TWO,EQ,TW0002071008
+GenMont Biotech  Inc.,Health Care,3164.TW,EQ,TW0003164000
+Avision Inc.,Technology,2380.TW,EQ,TW0002380003
+Better Life Group Co.  Ltd.,Financials,1805.TW,EQ,TW0001805000
+Star Comgistic Capital Co.  Ltd.,Consumer Discretionary,4930.TW,EQ,TW0004930003
+Chih Lien Industrial Co.  Ltd.,Industrials,2024.TW,EQ,TW0002024007
+Li-Cheng Enterprise Co.  Ltd,Materials,4426.TW,EQ,TW0004426002
+Scan-D Corporation,Consumer Discretionary,6195.TWO,EQ,TW0006195001
+Comtrend Corp,Technology,8089.TWO,EQ,TW0008089004
+Casing Macron Technology Co.  Ltd.,Technology,3325.TWO,EQ,TW0003325007
+Shian Yih Electronic Industry Co.  Ltd,Technology,3531.TWO,EQ,TW0003531000
+Sino Tactful Co.  Ltd.,Industrials,5481.TWO,EQ,TW0005481006
+Taiwan Benefit Co.,Industrials,3379.TWO,EQ,TW0003379004
+Ushine Photonics Corporation,Consumer Discretionary,3678.TWO,EQ,TW0003678009
+Ancang Construction Co.  Ltd,Industrials,5548.TWO,EQ,TW0005548002
+Arich Enterprise Co.  Ltd.,Industrials,4173.TWO,EQ,TW0004173000
+Chian Hsing Forging Industrial Co.  Ltd.,Industrials,4528.TWO,EQ,TW0004528005
+U-Neuron Biomedical Inc,Industrials,6973.TWO,EQ,TW0006973001
+Bio Preventive Medicine Corp.,Industrials,6810.TWO,EQ,TW0006810005
+Lung Pien Vacuum Industry Co.  Ltd.,Industrials,5267.TWO,EQ,TW0005267009
+Para Light Electronics Co.  Ltd.,Technology,6226.TW,EQ,TW0006226004
+Tidehold Development Co.  Ltd.,Industrials,9902.TW,EQ,TW0009902007
+NewSoft Technology Corporation,Technology,5202.TWO,EQ,TW0005202006
+Sincere Security Corp. Ltd.,Industrials,6721.TWO,EQ,TW0006721004
+InnoPharmax  Inc.,Health Care,4172.TWO,EQ,TW0004172002
+I-HWA Industrial Co.  Ltd.,Financials,1456.TW,EQ,TW0001456002
+Honmyue Enterprise Co.  Ltd.,Materials,1474.TW,EQ,TW0001474005
+Danen Technology Corporation,Technology,3686.TW,EQ,TW0003686002
+Winstar Display Co Ltd,Technology,6916.TW,EQ,TW0006916000
+Genie Networks Ltd.,Technology,8298.TWO,EQ,TW0008298001
+Opnet Technologies Co.  Ltd.,Technology,8034.TWO,EQ,TW0008034000
+Ta Jiang Co.  Ltd.,Financials,1453.TW,EQ,TW0001453009
+JUIC INTERNATIONAL CORPORATION,Technology,6114.TWO,EQ,TW0006114002
+Ping Ho Environmental.Technology Co. Ltd.,Industrials,6771.TW,EQ,TW0006771009
+Leadsun Greentech Corporation,Technology,8087.TWO,EQ,TW0008087008
+Lagis Enterprise Co.  Ltd.,Health Care,6730.TWO,EQ,TW0006730005
+Samebest Co.  Ltd.,Technology,8489.TWO,EQ,TW0008489006
+Koan Hao Technology Co.  Ltd.,Materials,8354.TWO,EQ,TW0008354002
+Uniform Industrial Corp.,Technology,2482.TW,EQ,TW0002482007
+SINTRONES Technology Corp.,Technology,6680.TWO,EQ,TW0006680002
+Eland Information Co.  Ltd,Technology,6925.TWO,EQ,TW0006925001
+Wisher Industrial Co.  Ltd.,Materials,1465.TW,EQ,TW0001465003
+Promise Technology  Inc.,Technology,3057.TW,EQ,TW0003057006
+Avita Corporation,Health Care,4735.TWO,EQ,TW0004735006
+Koge Micro Tech Co.  Ltd.,Industrials,4568.TWO,EQ,TW0004568001
+Chia Ta World Co.  Ltd.,Industrials,2033.TW,EQ,TW0002033008
+China Television Co.  Ltd.,Consumer Discretionary,9928.TW,EQ,TW0009928002
+HUNG CHOU FIBER IND. CO.  LTD.,Materials,1413.TW,EQ,TW0001413003
+AboCom Systems  Inc.,Technology,2444.TW,EQ,TW0002444007
+ZEITEC Semiconductor Co. Ltd.,Technology,7770.TWO,EQ,TW0007770000
+Chi Hua Fitness Co.  Ltd.,Consumer Discretionary,1593.TWO,EQ,TW0001593002
+Singtex Industrial Co.  Ltd.,Materials,4433.TWO,EQ,TW0004433008
+Vate Technology Co.  Ltd.,Technology,5344.TWO,EQ,TW0005344006
+Hotel Royal Chihpen,Consumer Discretionary,5704.TWO,EQ,TW0005704001
+Fullhome Development Co.  Ltd.,Technology,5345.TWO,EQ,TW0005345003
+Song Ho Industrial Co.  Ltd.,Materials,5016.TWO,EQ,TW0005016000
+Enimmune corporation,Health Care,6564.TWO,EQ,TW0006564008
+Abnova Taiwan Corp.,Health Care,4133.TW,EQ,TW0004133004
+Sentien Printing Factory Co.  Ltd.,Materials,8410.TWO,EQ,TW0008410002
+Ibase Solution Co.  Ltd,Industrials,6441.TWO,EQ,TW0006441009
+Bestec Power Electronics Co.  Ltd,Industrials,3308.TW,EQ,TW0003308003
+Diamond Biotechnology Co.  Ltd.,Health Care,6815.TWO,EQ,TW0006815004
+Success Prime Corporation,Industrials,2496.TW,EQ,TW0002496007
+Solid State System Co.  Ltd.,Technology,3259.TWO,EQ,TW0003259008
+Cypress Technology Co. Ltd.,Technology,3541.TWO,EQ,TW0003541009
+Dimension Computer Technology Co.  Ltd.,Industrials,6140.TWO,EQ,TW0006140007
+Jufan Industrial Co.  Ltd.,Industrials,4584.TWO,EQ,TW0004584008
+LI KANG BIOMEDICAL Co. Ltd.,Consumer Discretionary,6242.TWO,EQ,TW0006242001
+Megawin Technology Co.  Ltd.,Technology,3122.TWO,EQ,TW0003122008
+Sheh Kai Precision Co.  Ltd.,Industrials,2063.TWO,EQ,TW0002063005
+Mospec Semiconductor Corp.,Technology,2434.TW,EQ,TW0002434008
+APPRO Photoelectron  Inc.,Technology,6560.TWO,EQ,TW0006560006
+Lien Chang Electronic Enterprise Co.  Ltd,Technology,2431.TW,EQ,TW0002431004
+Dabomb Protein Biotech Corporation,Consumer Staples,6578.TWO,EQ,TW0006578008
+Toplus Global Co.  Ltd.,Consumer Discretionary,3522.TWO,EQ,TW0003522009
+Transcene Co.  Ltd.,Consumer Discretionary,6969.TW,EQ,TW0006969009
+International Carbide Technology Co. Ltd.,Materials,4754.TWO,EQ,TW0004754007
+Genomics BioSci & Tech. Co.  Ltd.,Health Care,4195.TW,EQ,TW0004195003
+Compal Broadband Networks  Inc.,Industrials,6674.TW,EQ,TW0006674005
+Oriental System Technology Inc,Technology,6819.TWO,EQ,TW0006819006
+Jhen Vei Electronic Co.  Ltd.,Technology,3520.TWO,EQ,TW0003520003
+Bison Electronics Inc.,Technology,3659.TWO,EQ,TW0003659009
+NaviFUS Corporation,Health Care,6872.TWO,EQ,TW0006872005
+Perfect Medical Industry Co.  Ltd.,Health Care,6543.TWO,EQ,TW0006543002
+MicroBase Technology Corp.,Health Care,3184.TWO,EQ,TW0003184008
+Forward Graphic Enterprise Co.  Ltd.,Industrials,8906.TWO,EQ,TW0008906009
+Yi Shin Textile Industrial Co.  Ltd.,Materials,4440.TW,EQ,TW0004440003
+TM Technology Inc.,Technology,5468.TWO,EQ,TW0005468003
+Excelsior Biopharma Inc,Health Care,6496.TWO,EQ,TW0006496003
+Choice Development  Inc.,Consumer Discretionary,9929.TW,EQ,TW0009929000
+Sunnic Technology & Merchandise Inc.,Technology,3360.TWO,EQ,TW0003360004
+Shangya Technology Co Ltd,Health Care,6130.TWO,EQ,TW0006130008
+Information Technology Total Services Co.  Ltd.,Technology,6697.TWO,EQ,TW0006697006
+AMICCOM Electronics Corp.,Technology,5272.TWO,EQ,TW0005272009
+Gia Tzoong Enterprise Co. Ltd.,Technology,5355.TWO,EQ,TW0005355002
+Power Win Taiwan Co.  Ltd.,Industrials,7761.TWO,EQ,TW0007761009
+Taihan Precision Technology Co.  Ltd.,Industrials,1336.TWO,EQ,TW0001336006
+CipherLab Co.  Ltd.,Technology,6160.TWO,EQ,TW0006160005
+Jhu Jian Catering Co Ltd,Consumer Discretionary,7723.TWO,EQ,TW0007723009
+Bioptic Inc.,Health Care,6850.TWO,EQ,TW0006850001
+New Advanced Electronics Technologies Co.  Ltd.,Technology,3465.TWO,EQ,TW0003465001
+Lukas biomedical Inc.,Health Care,6814.TWO,EQ,TW0006814007
+Wisechip Semiconductor Inc.,Technology,5245.TWO,EQ,TW0005245005
+New Palace International Co.  Ltd.,Consumer Discretionary,8940.TW,EQ,TW0008940008
+JG Environmental Technology Co.  Ltd.,Industrials,6723.TWO,EQ,TW0006723000
+Hi Sharp Electronics Co.  Ltd.,Technology,3128.TWO,EQ,TW0003128005
+Rossmax International Ltd.,Industrials,4121.TWO,EQ,TW0004121009
+Mars Semiconductor Corp.,Technology,6708.TWO,EQ,TW0006708001
+Sunfar Computer Co.  Ltd.,Industrials,6154.TWO,EQ,TW0006154008
+Mao Bao Inc.,Materials,1732.TW,EQ,TW0001732006
+E&E Recycling  Inc.,Industrials,8440.TWO,EQ,TW0008440009
+J.D Development Co. Ltd.,Materials,4402.TWO,EQ,TW0004402003
+K Way Information Corporation,Technology,5201.TWO,EQ,TW0005201008
+Sunf Pu Technology Co. Ltd.,Technology,5488.TWO,EQ,TW0005488001
+Bioptik Technology  Inc.,Health Care,4161.TWO,EQ,TW0004161005
+Jet Optoelectronics Co.  Ltd.,Industrials,2255.TWO,EQ,TW0002255007
+Shinfox Energy Co.  Ltd.,Industrials,6806.TW,EQ,TW0006806003
+Y-S Electronic Co.  Ltd.,Technology,6418.TWO,EQ,TW0006418007
+WINSON Machinery Co.  Ltd.,Materials,4538.TWO,EQ,TW0004538004
+Prime Oil Chemical Service Corporation,Energy,2904.TW,EQ,TW0002904000
+Taiwan Name Plate Co.  Ltd.,Technology,6593.TWO,EQ,TW0006593007
+Hunt Electronic Co.  Ltd.,Technology,3297.TWO,EQ,TW0003297008
+Acula Technology Corp.,Technology,3434.TWO,EQ,TW0003434007
+Sentronic International Corp.,Industrials,3232.TWO,EQ,TW0003232005
+Acer Synergy Tech Corp.,Technology,6751.TWO,EQ,TW0006751001
+Headway Advanced Materials Inc.,Materials,1776.TW,EQ,TW0001776003
+Power Master II Holdings.Co. Ltd,Technology,6839.TWO,EQ,TW0006839004
+Xxtechec Co.  Ltd.,Consumer Discretionary,8477.TWO,EQ,TW0008477001
+I Yuan Precision Industrial Co. Ltd.,Consumer Discretionary,2235.TWO,EQ,TW0002235009
+Green World Hotels Co.  Ltd.,Consumer Discretionary,8077.TWO,EQ,TW0008077009
+Dacome International Ltd.,Consumer Discretionary,9960.TWO,EQ,TW0009960005
+Avertronics Inc.,Technology,3597.TWO,EQ,TW0003597001
+Dynamic Precision Industry Corp.,Consumer Discretionary,8928.TWO,EQ,TW0008928003
+Chumpower Machinery Corp.,Industrials,4575.TWO,EQ,TW0004575006
+Genetics Generation Advancement Corp.,Health Care,4160.TWO,EQ,TW0004160007
+Tittot Co.  Ltd.,Consumer Discretionary,9949.TWO,EQ,TW0009949008
+V-TAC Technology co.  Ltd.,Technology,6229.TWO,EQ,TW0006229008
+Hep Tech Co.  Ltd.,Technology,3609.TWO,EQ,TW0003609004
+Enermax Technology Corporation,Technology,8093.TWO,EQ,TW0008093006
+T-Flex Techvest PCB Co.  Ltd.,Technology,3276.TWO,EQ,TW0003276002
+Holy Stone Healthcare Co.  Ltd.,Health Care,4194.TWO,EQ,TW0004194006
+Kingza International Co Ltd,Consumer Discretionary,2751.TWO,EQ,TW0002751005
+Chiu Ting Machinery Co.  Ltd.,Industrials,1539.TW,EQ,TW0001539005
+Logah Technology Co.  Ltd.,Industrials,3593.TW,EQ,TW0003593000
+Yong Shun Chemical Co. Ltd,Materials,4711.TWO,EQ,TW0004711007
+Kuei Tien Cultural & Creative Entertainment,Consumer Discretionary,4806.TWO,EQ,TW0004806005
+EFUN Technology Co.  Ltd.,Technology,3523.TWO,EQ,TW0003523007
+Level Biotechnology Inc.,Industrials,3118.TWO,EQ,TW0003118006
+GeneReach Biotechnology Corp.,Health Care,4171.TWO,EQ,TW0004171004
+Good Way Technology Co.  Ltd.,Technology,3272.TWO,EQ,TW0003272001
+TongHwa Corporation,Materials,1418.TW,EQ,TW0001418002
+Concord Medical Co Ltd,Industrials,6518.TWO,EQ,TW0006518004
+Wiltrom Co. Ltd.,Health Care,6767.TWO,EQ,TW0006767007
+Jioushun Construction Co.  Ltd.,Consumer Discretionary,5547.TWO,EQ,TW0005547004
+Yao I Fabric Co.  Ltd.,Materials,4430.TWO,EQ,TW0004430004
+Landis Taipei Hotel Co.  Ltd,Consumer Discretionary,5703.TWO,EQ,TW0005703003
+Taiming Assurance Broker Co.  Ltd.,Financials,5878.TWO,EQ,TW0005878003
+Horng Tong Enterprise Co.  Ltd.,Technology,5271.TWO,EQ,TW0005271001
+Ledlink Optics  Inc.,Technology,5230.TWO,EQ,TW0005230007
+Camellia Metal Co.  Ltd.,Materials,2064.TWO,EQ,TW0002064003
+Vietnam Manufacturing and Export Processing (Holdings) Ltd Units Taiwan Depository Receipts,Consumer Discretionary,9110.TW,EQ,TW0009110007
+DV Biomed Co.  Ltd.,Health Care,6539.TWO,EQ,TW0006539000
+Ever-Clear Environmental Eng. Corp.,Industrials,6624.TWO,EQ,TW0006624000
+Anxo Pharmaceutical Co.  Ltd.,Health Care,6677.TWO,EQ,TW0006677008
+Chang Jia M&E Engineering Corp.,Industrials,4550.TWO,EQ,TW0004550009
+JSW Pacific Corporation,Technology,5251.TWO,EQ,TW0005251003
+Tycoons Worldwide Group (Thailand) Public Co Ltd Shs Taiwan Depositary Receipts,Materials,911622.TW,EQ,TW0009116228
+P-Two Industries Inc.,Technology,6158.TWO,EQ,TW0006158009
+Golden Win International CORP,Consumer Discretionary,4950.TWO,EQ,TW0004950001
+Meribank Biotech Co Ltd,Health Care,4724.TWO,EQ,TW0004724000
+HOYA Resort Hotel Group,Consumer Discretionary,2736.TWO,EQ,TW0002736006
+Cen Link Co.  Ltd.,Technology,5254.TWO,EQ,TW0005254007
+Ant Precision Industry Co.  Ltd,Industrials,3646.TWO,EQ,TW0003646006
+Atech OEM Inc.,Technology,6109.TWO,EQ,TW0006109002
+Poindus Systems Corp.,Technology,6599.TWO,EQ,TW0006599004
+Alformer Industrial Co Ltd,Materials,4558.TWO,EQ,TW0004558002
+Cayenne Entertainment Technology Co.  Ltd.,Technology,4946.TWO,EQ,TW0004946009
+Unifosa Corp.,Technology,8277.TWO,EQ,TW0008277005
+Tons Lightology Inc.,Industrials,4972.TWO,EQ,TW0004972005
+Etrend Hightech Corp.,Industrials,3567.TWO,EQ,TW0003567004
+Taiwan Advance Bio-Pharmaceutical  Inc.,Health Care,4186.TWO,EQ,TW0004186002
+Ledtech Electronics Corp.,Technology,6164.TW,EQ,TW0006164007
+Honyi Precision Industry Co.  Ltd.,Industrials,4530.TWO,EQ,TW0004530001
+Tayih Kenmos Auto Parts Co.  Ltd.,Industrials,8107.TWO,EQ,TW0008107004
+Nww Manufacturing Co. Ltd.,Industrials,2245.TWO,EQ,TW0002245008
+Yuh Shan Environmental Engineering Co.  Ltd.,Industrials,7715.TWO,EQ,TW0007715005
+Jian Sin Industrial Co.  Ltd.,Industrials,4502.TWO,EQ,TW0004502000
+Lung Ming Green Energy Technology Engineering Co Ltd.,Technology,3018.TW,EQ,TW0003018008
+Naturewise Biotech & Medicals Corporation,Health Care,4732.TWO,EQ,TW0004732003
+Powercom Co.  Ltd.,Industrials,3043.TW,EQ,TW0003043006
+Haiwan International Development Co.  Ltd.,Consumer Discretionary,3252.TWO,EQ,TW0003252003
+S&S Healthcare Holding Ltd.,Health Care,4198.TWO,EQ,TW0004198007
+Pixon Technologies Corporation,Technology,5248.TWO,EQ,TW0005248009
+Yeou Yih Steel Co.  Ltd.,Materials,9962.TWO,EQ,TW0009962001
+Les Enphants Co. Ltd.,Consumer Staples,2911.TW,EQ,TW0002911005
+Chun Zu Machinery Industry Co.  Ltd.,Industrials,4544.TWO,EQ,TW0004544002
+Art Emperor Co.  Ltd.,Technology,6650.TWO,EQ,TW0006650005
+Ezfly International Travel Agent Co.  Ltd.,Consumer Discretionary,2734.TWO,EQ,TW0002734001
+Mustang Industrial Corp.,Industrials,5460.TWO,EQ,TW0005460000
+Healthconn Corp.,Health Care,6665.TWO,EQ,TW0006665003
+Sun Race Sturmey-Archer Inc.,Consumer Discretionary,1526.TW,EQ,TW0001526002
+Cherng Tay Technology Co.  Ltd.,Materials,4767.TWO,EQ,TW0004767009
+Newretail Co Ltd,Industrials,3085.TWO,EQ,TW0003085007
+Inalways Corporation,Health Care,5398.TWO,EQ,TW0005398002
+Kim Forest Enterprise Co.  Ltd.,Health Care,6645.TW,EQ,TW0006645005
+Falcon Power Co.  Ltd.,Energy,1516.TW,EQ,TW0001516003
+YJN CO. LTD.,Consumer Discretionary,3191.TWO,EQ,TW0003191003
+Das Technology Co.  Ltd.,Technology,6648.TWO,EQ,TW0006648009
+Shen's Art Printing Co.  Ltd.,Industrials,8921.TWO,EQ,TW0008921008
+Fun Yours Technology Co.  Ltd.,Technology,6482.TWO,EQ,TW0006482003
+DEXIN Corporation,Technology,3349.TWO,EQ,TW0003349007
+Original Biomedicals Co Ltd,Health Care,6483.TWO,EQ,TW0006483001
+HIGGSTEC Inc,Technology,5220.TWO,EQ,TW0005220008
+Chien Wei Precise Technology Co.  Ltd.,Technology,8092.TWO,EQ,TW0008092008
+Hakers Enterprise Co.  Ltd.,Consumer Staples,4432.TWO,EQ,TW0004432000
+KINGLAND PROPERTY CORPORATION LTD,Financials,6264.TWO,EQ,TW0006264005
+Inventec Besta Co.  Ltd.,Technology,8201.TW,EQ,TW0008201005
+Pili International Multimedia Co.  Ltd.,Consumer Discretionary,8450.TWO,EQ,TW0008450008
+Syncomm Technology Corp.,Technology,3150.TW,EQ,TW0003150009
+Radiant Innovation Inc.,Technology,3373.TWO,EQ,TW0003373007
+Advanced Connection Technology Inc.,Technology,3492.TWO,EQ,TW0003492005
+Globalsat Worldcom Corp.,Technology,3499.TWO,EQ,TW0003499000
+Teamphon Energy Co.  Ltd.,Utilities,3073.TWO,EQ,TW0003073003
+Yung Zip Chemical Ind. Co.  Ltd.,Health Care,4102.TWO,EQ,TW0004102009
+TTBIO CORP.,Health Care,6493.TWO,EQ,TW0006493000
+Globe Industries Corp. Ltd.,Materials,1324.TW,EQ,TW0001324002
+Neith Corporation,Technology,6236.TWO,EQ,TW0006236003
+Tai Twun Enterprise Co. Ltd.,Technology,3432.TW,EQ,TW0003432001
+Orange Electronic Co Ltd,Technology,4554.TWO,EQ,TW0004554001
+Arima Communications Corp.,Technology,8101.TW,EQ,TW0008101007
+Bull Will Co.  Ltd.,Technology,6259.TWO,EQ,TW0006259005
+Axman Enterprise Co.  Ltd.,Consumer Discretionary,6804.TWO,EQ,TW0006804008
+BioLASCO Taiwan Co. Ltd.,Industrials,6662.TWO,EQ,TW0006662000
+HiTi Digital Inc.,Technology,3494.TW,EQ,TW0003494001
+Sofiva Genomics Co.  Ltd.,Health Care,6615.TWO,EQ,TW0006615008
+SHUI-MU International Co.  Ltd.,Industrials,8443.TW,EQ,TW0008443003
+PlexBio Co.  Ltd.,Health Care,6572.TWO,EQ,TW0006572001
+Unicon Optical Co.  Ltd.,Health Care,4150.TWO,EQ,TW0004150008
+ShineMore Technology Materials Co.  Ltd.,Technology,8291.TWO,EQ,TW0008291006
+Iscom Online International Information Inc.,Technology,6868.TWO,EQ,TW0006868003
+Tekom Technologies  Inc.,Consumer Discretionary,6294.TWO,EQ,TW0006294002
+Shanyuan Co.  Ltd.,Industrials,4416.TWO,EQ,TW0004416003
+Kintech Electronics Co.  Ltd.,Technology,6210.TWO,EQ,TW0006210008
+Allied Industrial Corp.  Ltd.,Materials,4702.TWO,EQ,TW0004702006
+SynCore Biotechnology Co.  Ltd.,Health Care,4192.TWO,EQ,TW0004192000
+Fu Burg Industrial Co.  Ltd.,Materials,8929.TWO,EQ,TW0008929001
+Xu Yuan Packaging Technology Co.  Ltd.,Materials,8421.TWO,EQ,TW0008421009
+O'Pay Electronic Payment Co Ltd,Industrials,6878.TWO,EQ,TW0006878002
+Mytrex Health Technologies  Inc.,Industrials,4431.TWO,EQ,TW0004431002
+Z-Com  Inc.,Technology,8176.TWO,EQ,TW0008176009
+Tecstar Technology Co.  Ltd.,Technology,3117.TWO,EQ,TW0003117008
+Higher Way Electronic Co.  Ltd.,Technology,3268.TWO,EQ,TW0003268009
+Amigo Technology  Inc.,Technology,6241.TWO,EQ,TW0006241003
+CGS International  Inc.,Technology,5310.TWO,EQ,TW0005310007
+Jui Li Enterprise Co.  Ltd.,Industrials,1512.TW,EQ,TW0001512002
+Transtouch Technology Inc.,Technology,3623.TWO,EQ,TW0003623005
+AmCad BioMed Corporation,Technology,4188.TWO,EQ,TW0004188008
+Wellysun Inc.,Technology,6988.TW,EQ,TW0006988009
+Tontek Design Technology Ltd.,Technology,5487.TWO,EQ,TW0005487003
+Tah Tong Textile Co.  Ltd.,Materials,1441.TW,EQ,TW0001441004
+Lian Hong Art Company Limited,Technology,6755.TWO,EQ,TW0006755002
+Trust-Search Corp. Ltd.,Technology,3115.TWO,EQ,TW0003115002
+Clientron Corp.,Technology,8119.TWO,EQ,TW0008119009
+aiPlex Corporation,Consumer Discretionary,6225.TW,EQ,TW0006225006
+ACTI Corporation,Technology,5240.TWO,EQ,TW0005240006
+BH Global Corporation Ltd Shs Taiwan Depositary Receipts,Industrials,911608.TW,EQ,TW0009116087
+Penpower Technology Ltd.,Technology,5211.TWO,EQ,TW0005211007
+Associated Industries China  Inc.,Technology,9912.TW,EQ,TW0009912006
+EBM Technologies Incorporated,Technology,8409.TWO,EQ,TW0008409004
+Tatung Fine Chemicals Co.  Ltd.,Materials,4738.TWO,EQ,TW0004738000
+1 Production Film Co.,Consumer Discretionary,8458.TWO,EQ,TW0008458001
+TaiwanJ Pharmaceuticals Co.  Ltd.,Health Care,6549.TWO,EQ,TW0006549009
+China Times Co Ltd,Consumer Discretionary,8923.TWO,EQ,TW0008923004
+Lung Hwa Electronics Co.  Ltd.,Technology,2424.TW,EQ,TW0002424009
+Taiwan Thick-Film Ind. Corp.,Technology,6246.TWO,EQ,TW0006246002
+Deltamac (Taiwan) Co.  Ltd.,Consumer Discretionary,6144.TWO,EQ,TW0006144009
+Sun-Sea Construction Corporation,Industrials,5516.TWO,EQ,TW0005516009
+Health & Life Co.  Ltd.,Health Care,1781.TWO,EQ,TW0001781003
+ThroughTek Co.  Ltd.,Technology,6565.TWO,EQ,TW0006565005
+Pacific Image Electronics Co.  Ltd.,Technology,6228.TWO,EQ,TW0006228000
+ALFOT Technologies Co.  Ltd.,Industrials,4553.TWO,EQ,TW0004553003
+Lealea Hotels & Resorts Co. Ltd.,Technology,5364.TWO,EQ,TW0005364004
+Antec Inc,Industrials,6276.TWO,EQ,TW0006276009
+Polylite Taiwan Co.  Ltd.,Materials,1813.TWO,EQ,TW0001813004
+Vectorite Biomedical  Inc.,Industrials,4170.TWO,EQ,TW0004170006
+Alpha Microelectronics Corp.,Technology,8024.TWO,EQ,TW0008024001
+Lifestyle Global Enterprise Inc.,Technology,8066.TWO,EQ,TW0008066002
+Tiga Gaming Inc.,Technology,6536.TWO,EQ,TW0006536006
+PANCOLOUR INK CO.  LTD.,Industrials,4765.TWO,EQ,TW0004765003
+EST GLOBAL APPAREL Co.  Ltd.,Materials,4413.TWO,EQ,TW0004413000
+Gravitytai Co. Ltd.,Technology,3629.TWO,EQ,TW0003629002
+Hsin Sin Textile Co.  Ltd.,Materials,4406.TWO,EQ,TW0004406004
+Avid Electronics Corp.,Technology,6103.TWO,EQ,TW0006103005
+GoMax Electronics  Inc.,Consumer Discretionary,6512.TWO,EQ,TW0006512007
+Joy Industrial Co.  Ltd.,Consumer Discretionary,4559.TWO,EQ,TW0004559000
+High Power Lighting Corp.,Technology,6559.TWO,EQ,TW0006559008
+Oceanic Beverages Co.  Inc.,Consumer Staples,1213.TW,EQ,TW0001213007
+Connection Technology Systems  Inc.,Technology,3672.TWO,EQ,TW0003672002
+Hua Hsuan Real Estate Co Ltd.,Consumer Discretionary,2740.TWO,EQ,TW0002740008
+Renjie Oldsichuan Catering Management Consultant Co.  Ltd.,Consumer Discretionary,2741.TWO,EQ,TW0002741006
+Sunder Biomedical Tech. Co.  Ltd.,Health Care,4115.TWO,EQ,TW0004115001
+Bedding World Co.  Ltd.,Consumer Discretionary,2938.TWO,EQ,TW0002938008
+CJW International Co. Ltd.,Technology,5301.TWO,EQ,TW0005301006
+Meimaii Technology Co Ltd,Technology,6473.TWO,EQ,TW0006473002
+Taiwan Advanced Nanotech  Inc.,Health Care,6797.TWO,EQ,TW0006797004
+Unipharma Co.  Ltd.,Industrials,6621.TWO,EQ,TW0006621006
+Innovision FlexTech Corp.,Consumer Discretionary,6673.TWO,EQ,TW0006673007
+Electric Power Technology Limited,Industrials,4529.TWO,EQ,TW0004529003
+Sung Gang Corp.Limited,Financials,6240.TWO,EQ,TW0006240005
+Tecom Co.  Ltd.,Technology,2321.TW,EQ,TW0002321007
+A-SPINE Asia Co.  Ltd.,Health Care,6758.TWO,EQ,TW0006758006
+Taiwan Chi Cheng Enterprise Co.  Ltd.,Industrials,3095.TWO,EQ,TW0003095006
+Bryton  Inc.,Technology,7558.TWO,EQ,TW0007558B18
+Grand Green Energy Corp.,Utilities,6639.TWO,EQ,TW0006639008
+PNC International Inc,Consumer Discretionary,3067.TWO,EQ,TW0003067005
+Jenn Feng Industrial Tools Co.  Ltd.,Consumer Discretionary,1538.TW,EQ,TW0001538007
+Tien Li Offshore Wind Technology Co.  Ltd.,Industrials,6793.TWO,EQ,TW0006793003
+iXensor Co.  Ltd.,Health Care,6734.TWO,EQ,TW0006734007
+Welgene Biotech Co.  Ltd.,Health Care,6661.TWO,EQ,TW0006661002
+Silicon Touch Technology Inc.,Technology,3288.TWO,EQ,TW0003288007
+InterServ International  Inc.,Consumer Discretionary,6169.TWO,EQ,TW0006169006
+ACpay Co.  Ltd.,Technology,6984.TWO,EQ,TW0006984008
+PAPAGO Inc.,Technology,3632.TWO,EQ,TW0003632006
+Taiwan Green Environment Technology Inc.,Technology,5205.TWO,EQ,TW0005205009
+EPS Bio Technology Corp.,Health Care,4183.TWO,EQ,TW0004183009
+Chia Yi Steel Co.  Ltd.,Materials,2067.TWO,EQ,TW0002067006
+Ju-Kao Engineering Co.  Ltd.,Consumer Discretionary,1594.TWO,EQ,TW0001594000
+Janfusun Fancyworld Corp,Consumer Discretionary,5701.TWO,EQ,TW0005701007
+Vigor Kobo Co.  Ltd.,Consumer Staples,2733.TWO,EQ,TW0002733003
+Airlux Electrical Co. Ltd.,Consumer Discretionary,4609.TWO,EQ,TW0004609003
+Visgeneer  Inc.,Health Care,4197.TWO,EQ,TW0004197009
+Gish International Co.  Ltd.,Industrials,8067.TWO,EQ,TW0008067000
+Taiwan Taomee Co.  Ltd.,Technology,6428.TWO,EQ,TW0006428006
+Empower Technology Corporation,Technology,5348.TWO,EQ,TW0005348007
+Bossdom Digiinnovation Co. Ltd.,Consumer Discretionary,6622.TWO,EQ,TW0006622004
+Astro Corp.,Industrials,3064.TWO,EQ,TW0003064002
+Feng Chi Biotech Corp.,Health Care,6744.TWO,EQ,TW0006744006
+Fluxtek International Corp.,Industrials,7443.TWO,EQ,TW0007443004
+YOOSONN Entertainment Co.  Ltd.,Consumer Discretionary,6583.TWO,EQ,TW0006583008
+UC&GN International Corp.,Consumer Discretionary,3603.TWO,EQ,TW0003603007
+Sea Mild Biotechnology Co.  Ltd.,Consumer Staples,7516.TWO,EQ,TW0007516B19
+Flashaim  Inc.,Industrials,7551.TWO,EQ,TW0007551B15
+Speeding Rocket Co.  Ltd.,Consumer Staples,7782.TWO,EQ,TW0007782005
+Greenyn Biotechnology Co.  Ltd.,Health Care,6846.TWO,EQ,TW0006846009
+Accordance Systems  Inc.,Technology,7870.TWO,EQ,TW0007870008
+Sunhawk Vision Biotech  Inc.,Health Care,7759.TWO,EQ,TW0007759003
+RAYZHER,Industrials,7703.TWO,EQ,TW0007703001
+Apollo power,Technology,7911.TWO,EQ,TW0007911000
+EUI,Financials,7738.TWO,EQ,TW0007738007
+ACRO Biomedical Co.  Ltd.,Health Care,6748.TWO,EQ,TW0006748007
+DuoGenic StemCells Corporation,Health Care,7607.TWO,EQ,TW0007607004
+TSKY Co.  Ltd.,Technology,6784.TWO,EQ,TW0006784002
+Jin Lian Cheng Resources Co.  Ltd.,Industrials,7865.TWO,EQ,TW0007865008
+BTL  Inc.,Industrials,6840.TWO,EQ,TW0006840002
+Chyunn Environment Corporation,Industrials,6911.TWO,EQ,TW0006911001
+Tan De Tech Co.  Ltd.,Industrials,6867.TWO,EQ,TW0006867005
+Test Rite Retail Co.  Ltd.,Industrials,7867.TWO,EQ,TW0007867004
+Certain Micro Application Technology Inc,Industrials,7899.TWO,EQ,TW0007899007
+ChenFull Precision Co.  Ltd.,Industrials,6829.TWO,EQ,TW0006829005
+Neweb Information Co. Ltd.,Technology,6938.TWO,EQ,TW0006938004
+Liying EPTech,Industrials,7820.TWO,EQ,TW0007820003
+Radbon Electronics Co.  Ltd.,Industrials,7893.TWO,EQ,TW0007893000
+ITI International Transportation  Inc.,Industrials,7716.TWO,EQ,TW0007716003
+E-Chem Enterprise Corp,Materials,7858.TWO,EQ,TW0007858003
+Steminent Biotherapeutics Inc.,Health Care,7729.TWO,EQ,TW0007729006
+Nice Garden Industrial Co.  Ltd.,Materials,7840.TWO,EQ,TW0007840001
+Whole Sun Green Power Co.  Ltd.,Utilities,7897.TWO,EQ,TW0007897001
+Rapidtek Technologies Inc.,Technology,6980.TWO,EQ,TW0006980006
+Andros Pharmaceuticals Co.  Ltd.,Health Care,6917.TWO,EQ,TW0006917008
+InPsytech  Inc.,Technology,7898.TWO,EQ,TW0007898009
+King's Metal Fiber Technologies Co.  Ltd.,Materials,6832.TWO,EQ,TW0006832009
+LPST,Industrials,7907.TWO,EQ,TW0007907008
+MITAC DIGITAL TECHNOLOGY CORPOR,Technology,7821.TW,EQ,TW0007821001
+Taiwan Bio Therapeutics Co.  Ltd.,Health Care,6892.TWO,EQ,TW0006892003
+LeRain Technology Co.  Ltd.,Technology,6921.TW,EQ,TW0006921000
+INA ENERGY,Utilities,6987.TWO,EQ,TW0006987001
+Libo Pharma Corp.,Health Care,7888.TWO,EQ,TW0007888000
+Neousys Technology Inc.,Technology,6922.TWO,EQ,TW0006922008
+Protrade Applied Materials Corp.,Industrials,6972.TWO,EQ,TW0006972003
+Daiken Biomedical Co.  Ltd.,Consumer Staples,7780.TW,EQ,TW0007780009
+Fiber Logic Communications Inc,Technology,3473.TWO,EQ,TW0003473005
+Proxene Tools Co.  Ltd.,Consumer Discretionary,6904.TWO,EQ,TW0006904006
+U-ARK Technology Co Ltd,Technology,7724.TWO,EQ,TW0007724007
+Fubon Elite Fund Units,Financials,T1010Y.TWO,EQ,TW000T1010Y5
+QBit Semiconductor Ltd.,Technology,7913.TWO,EQ,TW0007913006
+AsWater Advanced Envirotech Ltd,Industrials,7857.TWO,EQ,TW0007857005
+Anbogen Therapeutics  Inc.,Health Care,7784.TWO,EQ,TW0007784001
+KEE Fresh & Safe Foodtech Co.  Ltd.,Consumer Staples,7743.TWO,EQ,TW0007743007
+WeLeader Biomedical Co. Ltd.,Industrials,7713.TWO,EQ,TW0007713000
+Pentapro Materials  Inc.,Materials,7887.TWO,EQ,TW0007887002
+Phoenix Pioneer technology Co.  Ltd.,Technology,6920.TWO,EQ,TW0006920002
+Altasec Technology Corporation,Technology,7919.TWO,EQ,TW0007919003
+HYP,Industrials,6983.TWO,EQ,TW0006983000
+Nexora Technology Co.  LTD.,Technology,6842.TWO,EQ,TW0006842008
+Greenrock Energy Co.  Ltd.,Utilities,7833.TWO,EQ,TW0007833006
+Techman Robot Inc.,Industrials,4585.TW,EQ,TW0004585005
+Lucky Royal Co.  Ltd.,Consumer Staples,7791.TW,EQ,TW0007791006
+RFD Micro Electricity Co.  Ltd,Industrials,6883.TWO,EQ,TW0006883002
+Fabulous Global Holding Co.  Ltd.,Financials,7798.TWO,EQ,TW0007798001
+Han Biomedical  Inc.,Health Care,6999.TWO,EQ,TW0006999006
+Ofuna Technology Co.  Ltd.,Industrials,4577.TWO,EQ,TW0004577002
+Changing Information Technology  Inc.,Technology,8272.TWO,EQ,TW0008272006
+Morrison Opto Electronics Ltd.,Technology,7772.TWO,EQ,TW0007772006
+Hotai Leasing Co. Ltd.,Financials,7855.TWO,EQ,TW0007855009
+Eternal Precision Mechanics Co.  Ltd.,Industrials,7795.TW,EQ,TW0007795007
+Finesse Technology Co. Ltd.,Technology,7704.TWO,EQ,TW0007704009
+M-Power Information Co.  Ltd,Technology,6874.TWO,EQ,TW0006874001
+BIONET Therapeutics Corp.,Industrials,7808.TWO,EQ,TW0007808008
+Fullhope Biomedical Co.  Ltd,Industrials,7773.TWO,EQ,TW0007773004
+Horien Biochemical Technology Co.  Ltd.,Health Care,7814.TWO,EQ,TW0007814006
+Horng Yu Electric Co. Ltd.,Industrials,7869.TWO,EQ,TW0007869000
+Shine-On Biomedical Co.  Ltd.,Health Care,6926.TWO,EQ,TW0006926009
+Highpoint Service Network Corp.,Technology,6884.TWO,EQ,TW0006884000
+Taiwan Lamination Industries Inc,Materials,8999.TWO,EQ,TW0008999004
+Turn Cloud Technology Service Inc.,Technology,6870.TWO,EQ,TW0006870009
+RiTWIN Corporation,Industrials,7816.TWO,EQ,TW0007816001
+PRO360 Inc.,Technology,7839.TWO,EQ,TW0007839003
+Minson Integration  Inc.,Consumer Staples,7811.TWO,EQ,TW0007811002
+EmBestor,Technology,7843.TWO,EQ,TW0007843005
+Bioray Biotech Co.  Ltd,Health Care,7561.TWO,EQ,TW0007561B13
+Da Da Broadband Ltd.,Communication Services,7901.TWO,EQ,TW0007901001
+Evoasis Inc.,Consumer Discretionary,7922.TWO,EQ,TW0007922007
+LAUNXP BIOMEDICAL CO.  LTD.,Health Care,6876.TWO,EQ,TW0006876006
+JDV Control Valves Co.  Ltd.,Industrials,6843.TWO,EQ,TW0006843006
+Norbel Baby Co.  Ltd.,Industrials,6844.TWO,EQ,TW0006844004
+Anya Biopharm  Inc.,Health Care,7776.TWO,EQ,TW0007776007
+Tung Mung Development Co Ltd,Materials,1480.TWO,EQ,TW0001480002
+Htc & Solar Tech Service Limited,Materials,7846.TWO,EQ,TW0007846008
+Raytek Semiconductor  Inc.,Technology,7873.TWO,EQ,TW0007873002
+ASRock Industrial Computer Corporation,Consumer Discretionary,7710.TWO,EQ,TW0007710006
+Yu-Chen System Technology Corp.,Technology,7813.TWO,EQ,TW0007813008
+Waste Recovery Technology Inc.,Industrials,6894.TWO,EQ,TW0006894009
+Protect Animal Health Incorporation,Consumer Discretionary,7850.TWO,EQ,TW0007850000
+Praise Victor Industrial Co.  Ltd.,Materials,7768.TW,EQ,TW0007768004
+Lytone Enterprise  Inc.,Technology,1293.TWO,EQ,TW0001293009
+TPIsoftware,Technology,7781.TWO,EQ,TW0007781007
+Kingray Technology Co.  Ltd.,Technology,6787.TWO,EQ,TW0006787005
+Happytuk Co.  Ltd.,Technology,7584.TWO,EQ,TW0007584B16
+SmaDay Technology Co Ltd,Consumer Discretionary,7836.TWO,EQ,TW0007836009
+Lian Fa International Dining Business Corp.,Consumer Discretionary,2756.TWO,EQ,TW0002756004
+MetaEdge Corporation,Technology,6816.TWO,EQ,TW0006816002
+ABICO Asia,Financials,7777.TWO,EQ,TW0007777005
+Apex Material Technology Corp.,Technology,6899.TWO,EQ,TW0006899008
+Johnson Fine,Materials,7763.TWO,EQ,TW0007763005
+Q Burger Group Co.  Ltd.,Consumer Discretionary,7797.TWO,EQ,TW0007797003
+Hui Min Environmental Tech Corp.,Industrials,6971.TWO,EQ,TW0006971005
+Tripartite Therapeutics  Inc.,Health Care,7920.TWO,EQ,TW0007920001
+Recharge Power Co.  Ltd.,Industrials,7921.TWO,EQ,TW0007921009
+Wonder Pets Enterprises Corp.,Consumer Discretionary,6968.TWO,EQ,TW0006968001
+Sun Own Industrial Co.  Ltd.,Industrials,2940.TWO,EQ,TW0002940004
+Inforcom Technology Co.  Ltd.,Technology,7868.TWO,EQ,TW0007868002
+IOVTEC Co.  Ltd.,Industrials,7583.TWO,EQ,TW0007583B17
+Acer Synergy Manpower Corp.,Industrials,7706.TWO,EQ,TW0007706004
+Nextlink Technology Co Ltd,Technology,6997.TWO,EQ,TW0006997000
+CyberSoft Digital Services Corporation,Technology,7841.TWO,EQ,TW0007841009
+Synbio Tech Inc,Industrials,1295.TWO,EQ,TW0001295004
+Spec Products Corp,Industrials,7718.TWO,EQ,TW0007718009
+Sunny Pharmtech Inc.,Health Care,6676.TWO,EQ,TW0006676000
+SAULTECH Technology Co.  Ltd.,Technology,6812.TWO,EQ,TW0006812001
+AM POWER,Industrials,7792.TWO,EQ,TW0007792004
+V5 TECHNOLOGIES CO LTD,Technology,7822.TW,EQ,TW0007822009
+International Integrated Systems  Inc.,Technology,6614.TW,EQ,TW0006614001
+RBC Bioscience Corporation,Health Care,6848.TWO,EQ,TW0006848005
+Systex Fintech Corp.,Industrials,7819.TWO,EQ,TW0007819005
+Intumit  Inc.,Technology,7547.TWO,EQ,TW0007547B12
+Beast Kingdom Co. Ltd.,Consumer Discretionary,6995.TWO,EQ,TW0006995004
+Ion Electronic Materials Co.  Ltd.,Materials,6959.TWO,EQ,TW0006959000
+LOUISA Professional Coffee LTD.,Consumer Discretionary,2758.TWO,EQ,TW0002758000
+Gudeng Equipment Co.  LTD.,Technology,6953.TWO,EQ,TW0006953003
+Juoku Technology Co.  Ltd.,Industrials,6604.TWO,EQ,TW0006604002
+Texture Maker Enterprise Co Ltd,Consumer Staples,6963.TWO,EQ,TW0006963002
+U-LEAM Inc.,Technology,7915.TWO,EQ,TW0007915001
+Timing Pharmaceutical Co. Ltd.,Health Care,6659.TWO,EQ,TW0006659006
+LIANYOU METALS CO LTD,Materials,7610.TW,EQ,TW0007610B14
+Family International Gourmet Co Ltd,Consumer Discretionary,7708.TWO,EQ,TW0007708000
+Far East Bio-Tec. Co.  Ltd.,Health Care,6886.TWO,EQ,TW0006886005
+Image Match Design  Inc.,Technology,6563.TWO,EQ,TW0006563000
+Microip  Inc.,Industrials,7796.TWO,EQ,TW0007796005
+United Purification Technology Co.  Ltd.,Utilities,6977.TWO,EQ,TW0006977002
+Greenet Co.  Ltd.,Communication Services,7842.TWO,EQ,TW0007842007
+Tci Gene Inc.,Health Care,6879.TWO,EQ,TW0006879000
+IPEVO Corporation,Technology,6858.TWO,EQ,TW0006858004
+Prince Pharmaceutical Co.  Ltd.,Health Care,6935.TWO,EQ,TW0006935000
+Obigen Pharma  Inc.,Health Care,7876.TWO,EQ,TW0007876005
+High Performance Information Co.  Ltd.,Technology,7767.TWO,EQ,TW0007767006
+CLIMAX,Industrials,7689.TWO,EQ,TW0007689B10
+MegaPro Biomedical Co.  Ltd.,Health Care,6827.TWO,EQ,TW0006827009
+Yuan Jin Chuang Enterprise Co.  Ltd.,Consumer Staples,7895.TWO,EQ,TW0007895005
+Whetron Electronics Co.  Ltd.,Industrials,6722.TW,EQ,TW0006722002
+Integrated Solutions Technology Inc,Technology,6927.TWO,EQ,TW0006927007
+Hermes Testing Solutions Inc.,Technology,7856.TWO,EQ,TW0007856007
+Donutes International Co.  Ltd.,Consumer Discretionary,7756.TWO,EQ,TW0007756009
+T-Conn Precision Corporation,Technology,6833.TWO,EQ,TW0006833007
+Flight International Co. Ltd.,Industrials,6798.TWO,EQ,TW0006798002
+Chu Yu Hsiang Co.  Ltd.,Consumer Staples,2760.TWO,EQ,TW0002760006
+Red Sunrise Co Ltd,Industrials,7745.TWO,EQ,TW0007745002
+Altos Computing  Inc.,Technology,7875.TWO,EQ,TW0007875007
+Pharmigene  Inc.,Health Care,7595.TWO,EQ,TW0007595B13
+Jeilin Technology Co. Ltd.,Technology,8102.TWO,EQ,TW0008102005
+Jesper Co.  Ltd.,Consumer Discretionary,7831.TWO,EQ,TW0007831000
+Merdury Biopharmaceutical Corporation,Health Care,6932.TWO,EQ,TW0006932007
+Acer Medical Inc.,Technology,6857.TWO,EQ,TW0006857006
+Teh Seng Pharmaceutical Mfg Co Ltd,Health Care,7860.TWO,EQ,TW0007860009
+Spirit Scientific Co.  Ltd.,Health Care,7790.TWO,EQ,TW0007790008
+Locus Cell Co.  Ltd.,Health Care,6891.TWO,EQ,TW0006891005
+Twister5 Co.  Ltd.,Technology,7826.TWO,EQ,TW0007826000
+oToBrite Electronic Inc.,Technology,2256.TWO,EQ,TW0002256005
+Shine Passion Engineering Co.  Ltd.,Industrials,7849.TWO,EQ,TW0007849002
+Nada Holdings Corp,Industrials,7824.TWO,EQ,TW0007824005
+PuriBlood Medical Co. Ltd.,Health Care,6847.TWO,EQ,TW0006847007
+TSA international Co.  Ltd.,Consumer Staples,7889.TWO,EQ,TW0007889008
+Ruentex Interior Design  Inc.,Industrials,6881.TWO,EQ,TW0006881006
+Santi Renewable Energy Co. Ltd.,Consumer Discretionary,6946.TWO,EQ,TW0006946007
+TFBS Bioscience  Inc.,Health Care,6939.TWO,EQ,TW0006939002
+CMSC,Technology,7707.TWO,EQ,TW0007707002
+Teinco Technology Co. Ltd.,Industrials,7877.TWO,EQ,TW0007877003
+Formosa Saint Jose Corp.,Industrials,7764.TWO,EQ,TW0007764003
+Eclatorq Technology Co.  Ltd.,Technology,6855.TWO,EQ,TW0006855000
+Yi Chun Green Technology Co.  Ltd.,Industrials,6912.TWO,EQ,TW0006912009
+AceGreen Eco-Material Technology Co Ltd,Materials,7862.TWO,EQ,TW0007862005
+Motion Technology Electric & Machinery Co. Ltd.,Industrials,4589.TWO,EQ,TW0004589007
+Igiant Optics Co. Ltd.,Technology,6915.TWO,EQ,TW0006915002
+YE SIANG,Industrials,7909.TWO,EQ,TW0007909004
+Giant,Industrials,7783.TWO,EQ,TW0007783003
+SunWay Biotech Co.  Ltd.,Industrials,1271.TWO,EQ,TW0001271005
+Jtron,Technology,7810.TWO,EQ,TW0007810004
+BoYen Therapeutics  Inc.,Health Care,7891.TWO,EQ,TW0007891004
+Star Asia Vision Corporation,Technology,7753.TWO,EQ,TW0007753006
+Yiho International Co.  Ltd.,Utilities,7590.TWO,EQ,TW0007590B18
+Central Taiwan Science Park Logistics Co. Ltd.,Industrials,7863.TWO,EQ,TW0007863003
+Great Novel Therapeutics Biotech & Medicals Corp.,Industrials,7427.TWO,EQ,TW0007427007
+ProbeLeader Co.  Ltd.,Technology,5246.TWO,EQ,TW0005246003
+Cheng Mei Instrument Technology Co.  Ltd.,Technology,7853.TWO,EQ,TW0007853004
+Beiley Biofund  Inc.,Financials,7882.TWO,EQ,TW0007882003
+Pharmasaga Co.  Ltd.,Health Care,7878.TWO,EQ,TW0007878001
+Intelligene,Health Care,7832.TWO,EQ,TW0007832008
+Reallusion  Inc.,Technology,6882.TWO,EQ,TW0006882004
+Eyecare Tech  Inc.,Industrials,7881.TWO,EQ,TW0007881005
+Linkcom Manufacturing Co.  Ltd.,Industrials,6821.TWO,EQ,TW0006821002
+TA TUN ELECTRIC WIRE CABLE CO L,Industrials,1623.TW,EQ,TW0001623007
+TMY Technology Inc.,Technology,7812.TWO,EQ,TW0007812000
+Lebledor F&B Co Ltd,Consumer Discretionary,7757.TWO,EQ,TW0007757007
+Shine Trend International Multimedia Technology Co Ltd,Consumer Discretionary,6856.TWO,EQ,TW0006856008
+Keelgoal Energy Co Ltd,Industrials,7758.TWO,EQ,TW0007758005
+Grandsys Inc,Technology,6910.TWO,EQ,TW0006910003
+Sil-More Industrial Ltd.,Materials,7896.TWO,EQ,TW0007896003
+Suregiant Technology Co. Ltd.,Industrials,7669.TWO,EQ,TW0007669B14
+SANTA PHOENIX TECHNOLOGY CO LTD,Industrials,7880.TWO,EQ,TW0007880007
+Sync-Tech System Corp,Technology,7815.TWO,EQ,TW0007815003
+Syong Shun Metal CO.  Ltd.,Industrials,2073.TWO,EQ,TW0002073004
+aetherAI Co.  Ltd.,Health Care,7803.TW,EQ,TW0007803009
+Victory for Technology Co.  Ltd.,Technology,6979.TWO,EQ,TW0006979008
+Uwell Biopharma Inc.,Health Care,7902.TWO,EQ,TW0007902009
+New Smart Technology Co.  Ltd.,Technology,7825.TWO,EQ,TW0007825002
+KEMFLO INTERNATIONAL CO. LTD.,Utilities,7818.TW,EQ,TW0007818007
+WB,Industrials,7744.TWO,EQ,TW0007744005
+Feastogether Group Co. Ltd.,Consumer Discretionary,7883.TWO,EQ,TW0007883001
+Joules Miles Co Ltd,Technology,7854.TWO,EQ,TW0007854002
+XALLOY,Technology,7918.TWO,EQ,TW0007918005
+Greenbase Technology Corp.,Technology,7771.TWO,EQ,TW0007771008
+WebComm Technology Co.  Ltd.,Technology,6865.TWO,EQ,TW0006865009
+Asustor  Inc.,Technology,7801.TWO,EQ,TW0007801003
+Gin Hwa Biotech  Inc.,Health Care,7806.TWO,EQ,TW0007806002
+We Can Medicines Co.  Ltd.,Consumer Discretionary,6929.TWO,EQ,TW0006929003
+HeXun Biosciences Co Ltd,Health Care,6986.TWO,EQ,TW0006986003
+HCmed Innovations Co.  Ltd.,Health Care,6934.TW,EQ,TW0006934003
+Easycard Corporation,Financials,6035.TWO,EQ,TW0006035009
+Lex Computech Co.  Ltd.,Technology,7562.TWO,EQ,TW0007562B12
+Casual Restaurants  Inc.,Consumer Discretionary,7789.TWO,EQ,TW0007789000
+DURATEK,Technology,8098.TWO,EQ,TW0008098005
+Pershing Technology Services Corporation,Technology,7785.TWO,EQ,TW0007785008
+ZENITHTEK,Industrials,7912.TWO,EQ,TW0007912008
+Kojem International Co Ltd,Industrials,7886.TWO,EQ,TW0007886004
+CHT Security Co.  Ltd.,Technology,7765.TW,EQ,TW0007765000
+Acer Gaming  Inc.,Consumer Discretionary,6908.TW,EQ,TW0006908007
+Honlynn Co.  Ltd.,Industrials,7885.TWO,EQ,TW0007885006
+ChainSea Information Integrated Co Ltd,Industrials,6898.TWO,EQ,TW0006898000
+Advanced Wireless & Antenna Inc.,Industrials,6818.TWO,EQ,TW0006818008
+Fukuta Electric & Machinery Co. Ltd.,Industrials,4590.TW,EQ,TW0004590005
+NANO ELECTRONICS AND MICRO SYST,Industrials,7730.TW,EQ,TW0007730004
+GrandTech Cloud Services Inc.,Technology,7747.TWO,EQ,TW0007747008
+Plum-Monix Industry Co Ltd,Materials,6990.TWO,EQ,TW0006990005
+APEX Wind Power Equipment Manufacturing Co.  Ltd.,Materials,7702.TWO,EQ,TW0007702003
+G-yen Hutong Co Ltd,Consumer Discretionary,2761.TWO,EQ,TW0002761004
+Cica-Huntek Chemical Technology Taiwan Co.  Ltd.,Industrials,6725.TWO,EQ,TW0006725005
+Bausen Inc.,Industrials,2948.TWO,EQ,TW0002948007
+Carry International Co.  Ltd.,Consumer Discretionary,7779.TWO,EQ,TW0007779001
+POTENS,Technology,7712.TWO,EQ,TW0007712002
+Amed Co.  Ltd.,Health Care,7575.TWO,EQ,TW0007575B17
+Lydsec Digital Technology Co Ltd,Technology,7834.TWO,EQ,TW0007834004
+Chi Yi Hsin Technology Co.  Ltd.,Industrials,7848.TWO,EQ,TW0007848004
+Dexatek Technology Ltd,Technology,7455.TWO,EQ,TW0007455008
+Gwo Xi Stem Cell Applied Technology Co.  Ltd.,Health Care,6704.TWO,EQ,TW0006704000
+KDAN Mobile Software Ltd,Technology,7737.TWO,EQ,TW0007737009
+Super Qin Enterprise Co. Ltd.,Materials,8345.TWO,EQ,TW0008345000
+Zhen Yu Hardware Co.  Ltd.,Consumer Discretionary,2947.TWO,EQ,TW0002947009
+STUDY KING CO.  LTD.,Technology,6780.TWO,EQ,TW0006780000
+Uni Travel Services Co. Ltd.,Consumer Discretionary,6961.TWO,EQ,TW0006961006
+LabTurbo Biotech Corporation,Health Care,7725.TWO,EQ,TW0007725004
+H.H. Galaxy Co.  Ltd.,Technology,2949.TWO,EQ,TW0002949005
+PET Pharm Biotech Co.  Ltd.,Health Care,7762.TWO,EQ,TW0007762007
+Mister International Enterprise Corp.,Consumer Discretionary,2941.TWO,EQ,TW0002941002
+META Green Cooling Technology Co.  Ltd.,Industrials,7892.TWO,EQ,TW0007892002
+Creative Life Science Co Ltd,Health Care,7837.TWO,EQ,TW0007837007
+Song Chuan Precision Co.  Ltd.,Industrials,7788.TW,EQ,TW0007788002
+LNC Technology Co.  Ltd.,Technology,4587.TWO,EQ,TW0004587001
+Dong Fang Offshore Co.  Ltd.,Industrials,7786.TW,EQ,TW0007786006
+Winston Medical Supply Co.  Ltd.,Health Care,6817.TWO,EQ,TW0006817000
+Green Solution Technology Co,Technology,7872.TWO,EQ,TW0007872004
+Chyi Ding Technologies Co. Ltd.,Industrials,6849.TWO,EQ,TW0006849003
+AnnJi,Health Care,7754.TWO,EQ,TW0007754004
+Etica Battery INC.,Technology,7890.TWO,EQ,TW0007890006
+Li Yu Chu Co.  Ltd.,Consumer Discretionary,7847.TWO,EQ,TW0007847006
+Innostar Service  Inc.,Industrials,7828.TWO,EQ,TW0007828006
+Sun Rise E&T Corp.,Technology,1343.TWO,EQ,TW0001343002
+Jollify Creative Ltd.,Industrials,7748.TWO,EQ,TW0007748006
+Carbon-Based Technology  Inc.,Technology,7719.TWO,EQ,TW0007719007
+Uranus Chemicals Co.  LTD.,Materials,7742.TWO,EQ,TW0007742009
+AcerPure  Inc.,Industrials,7794.TWO,EQ,TW0007794000
+Advanced Material Systems Corp,Industrials,7879.TWO,EQ,TW0007879009
+Bellwether Electronic Corp.,Technology,7861.TWO,EQ,TW0007861007
+Nytex Composites Co. Ltd.,Materials,8058.TWO,EQ,TW0008058009
+Jong Shyn Shipbuilding Co.  Ltd.,Industrials,2644.TWO,EQ,TW0002644002
+DLI Memory  Inc.,Industrials,7866.TWO,EQ,TW0007866006
+Citiesocial Co.  Ltd.,Consumer Discretionary,7904.TWO,EQ,TW0007904005
+CARILEX MEDICAL INC.,Industrials,7726.TWO,EQ,TW0007726002
+Zhen Ding Technology Holding Limited,Technology,4958.TW,EQ,
+BizLink Holding Inc.,Industrials,3665.TW,EQ,
+Alchip Technologies  Limited,Technology,3661.TW,EQ,
+Airtac International Group,Industrials,1590.TW,EQ,
+Silergy Corp.,Technology,6415.TW,EQ,
+Chailease Holding Company Limited,Financials,5871.TW,EQ,
+Advanced Energy Solution Holding Co.  Ltd.,Industrials,6781.TW,EQ,
+ShunSin Technology Holdings Limited,Technology,6451.TW,EQ,
+Wisdom Marine Lines Co.  Limited (Cayman),Industrials,2637.TW,EQ,
+Lai Yih Footwear Co.  Ltd.,Consumer Discretionary,6890.TW,EQ,
+Jinan Acetate Chemical Co.  Ltd.,Materials,4763.TW,EQ,
+Sino Horizon Holdings Limited,Real Estate,2923.TW,EQ,
+TPK Holding Co.  Ltd.,Technology,3673.TW,EQ,
+General Interface Solution (GIS) Holding Limited,Technology,6456.TW,EQ,
+INTELLIGO TECHNOLOGY INC,Technology,7749.TW,EQ,
+Eson Precision Ind. Co.  Ltd.,Technology,5243.TW,EQ,
+JPP Holding Company Limited,Technology,5284.TW,EQ,
+ITH CORPORATION,Technology,6962.TW,EQ,
+PCL Technologies  Inc.,Technology,4977.TW,EQ,
+PlayNitride Inc.,Technology,6854.TW,EQ,
+GEM Services  Inc.,Technology,6525.TW,EQ,
+Sports Gear Co.  Ltd.,Consumer Discretionary,6768.TW,EQ,
+Apex International Co.  Ltd.,Technology,4927.TW,EQ,
+Ventec International Group Co. Ltd.,Technology,6672.TW,EQ,
+Fulgent Sun International (Holding) Co.  Ltd.,Consumer Discretionary,9802.TW,EQ,
+Top Bright Holding Co.  Ltd.,Technology,8499.TW,EQ,
+Polaris Group,Health Care,6550.TW,EQ,
+Chung Jye Investment Holding Co.  Ltd.,Consumer Discretionary,6965.TW,EQ,
+Khgears International Limited,Industrials,4571.TW,EQ,
+Gourmet Master Co. Ltd.,Consumer Discretionary,2723.TW,EQ,
+Eurocharm Holdings Co.  Ltd.,Industrials,5288.TW,EQ,
+Tanvex BioPharma  Inc.,Health Care,6541.TW,EQ,
+Trio Technology International Group Co.  Ltd.,Technology,6862.TW,EQ,
+World Gym Corporation,Consumer Discretionary,2762.TW,EQ,
+Patec Precision Industry Co.  Ltd.,Industrials,2236.TW,EQ,
+HORIZON FIXTURE GROUP CO LTD,Consumer Discretionary,6957.TW,EQ,
+Chlitina Holding Limited,Consumer Staples,4137.TW,EQ,
+Arizon RFID Technology (Cayman) Co.  Ltd.,Technology,6863.TW,EQ,
+Lemtech Holdings Co.  Limited,Industrials,4912.TW,EQ,
+Amax Holding Co.  Ltd.,Technology,6933.TW,EQ,
+Sunjuice Holdings Co.  Limited,Consumer Staples,1256.TW,EQ,
+Tong Ming Enterprise Co.  Ltd.,Materials,5538.TW,EQ,
+Paiho Shih Holdings Corporation,Consumer Discretionary,8404.TW,EQ,
+Bonny Worldwide Limited,Consumer Discretionary,8467.TW,EQ,
+Sixxon Tech. Co.  Ltd.,Industrials,4569.TW,EQ,
+Eastech Holding Limited,Technology,5225.TW,EQ,
+Shane Global Holding Inc.,Consumer Discretionary,8482.TW,EQ,
+Global Lighting Technologies Inc.,Technology,4935.TW,EQ,
+StemCyte International  Ltd.,Health Care,4178.TW,EQ,

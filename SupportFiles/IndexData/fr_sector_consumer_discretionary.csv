@@ -1,76 +1,93 @@
 Company Name,Industry,Symbol,Series,ISIN Code
+LVMH Moet Hennessy Louis Vuitton SE,Consumer Discretionary,MC.PA,EQ,FR0000121014
+Hermes International SCA,Consumer Discretionary,RMS.PA,EQ,FR0000052292
+Christian Dior SE,Consumer Discretionary,CDI.PA,EQ,FR0000130403
+Kering SA,Consumer Discretionary,KER.PA,EQ,FR0000121485
+Michelin SA,Consumer Discretionary,ML.PA,EQ,FR001400AJ45
+Accor SA,Consumer Discretionary,AC.PA,EQ,FR0000120404
+Renault SA,Consumer Discretionary,RNO.PA,EQ,FR0000131906
+FDJ UNITED,Consumer Discretionary,FDJU.PA,EQ,FR0013451333
+Valeo SE,Consumer Discretionary,FR.PA,EQ,FR0013176526
+SEB SA,Consumer Discretionary,SK.PA,EQ,FR0000121709
+Trigano SA,Consumer Discretionary,TRI.PA,EQ,FR0005691656
+Verallia Société Anonyme,Consumer Discretionary,VRLA.PA,EQ,FR0013447729
+OPmobility SE,Consumer Discretionary,OPM.PA,EQ,FR0000124570
+Forvia SE,Consumer Discretionary,FRVIA.PA,EQ,FR0000121147
+Compagnie des Alpes SA,Consumer Discretionary,CDA.PA,EQ,FR0000053324
+Fnac Darty SA,Consumer Discretionary,FNAC.PA,EQ,FR0011476928
+Pierre et Vacances SA,Consumer Discretionary,VAC.PA,EQ,FR0000073041
+Burelle SA,Consumer Discretionary,BUR.PA,EQ,FR0000061137
+Voyageurs du Monde SA,Consumer Discretionary,ALVDM.PA,EQ,FR0004045847
+Bénéteau S.A.,Consumer Discretionary,BEN.PA,EQ,FR0000035164
+Elior Group SA,Consumer Discretionary,ELIOR.PA,EQ,FR0011950732
+Kaufman & Broad S.A.,Consumer Discretionary,KOF.PA,EQ,FR0004007813
+Société Fermière du Casino Municipal de Cannes,Consumer Discretionary,FCMC.PA,EQ,FR0000062101
+Groupe Guillin S.A.,Consumer Discretionary,ALGIL.PA,EQ,FR0012819381
+SMCP S.A.,Consumer Discretionary,SMCP.PA,EQ,FR0013214145
+TFF Group,Consumer Discretionary,TFF.PA,EQ,FR0013295789
+Hotel Majestic Cannes,Consumer Discretionary,MLHMC.PA,EQ,FR0006226791
+Bourrelier Group SA,Consumer Discretionary,ALBOU.PA,EQ,FR0000054421
+Roche Bobois S.A.,Consumer Discretionary,RBO.PA,EQ,FR0013344173
+Delta Plus Group,Consumer Discretionary,ALDLT.PA,EQ,FR0013283108
+Aramis Group SAS,Consumer Discretionary,ARAMI.PA,EQ,FR0014003U94
+Hexaom S.A.,Consumer Discretionary,ALHEX.PA,EQ,FR0004159473
+Compagnie Du Mont-Blanc,Consumer Discretionary,MLCMB.PA,EQ,FR0000060428
+Akwel SA,Consumer Discretionary,AKW.PA,EQ,FR0000053027
+Les Hôtels Baverez S.A.,Consumer Discretionary,ALLHB.PA,EQ,FR0007080254
+Groupe Partouche SA,Consumer Discretionary,PARP.PA,EQ,FR0012612646
+Fountaine Pajot SA,Consumer Discretionary,ALFPC.PA,EQ,FR0010485268
+Vente-Unique.com SA,Consumer Discretionary,ALVU.PA,EQ,FR0010766667
+CAFOM,Consumer Discretionary,ALCAF.PA,EQ,FR0010151589
+Piscines Desjoyaux SA,Consumer Discretionary,ALPDX.PA,EQ,FR0000061608
+SRP Groupe S.A.,Consumer Discretionary,SRP.PA,EQ,FR0013006558
+Delfingen Société Anonyme,Consumer Discretionary,ALDEL.PA,EQ,FR0000054132
+S.T. Dupont S.A.,Consumer Discretionary,DPT.PA,EQ,FR0000054199
+Abéo SA,Consumer Discretionary,ABEO.PA,EQ,FR0013185857
+Gascogne SA,Consumer Discretionary,ALBI.PA,EQ,FR0000124414
+ACTIA Group S.A.,Consumer Discretionary,ALATI.PA,EQ,FR0000076655
+CATANA GROUP,Consumer Discretionary,ALCAT.PA,EQ,FR0010193052
+Lexibook - Linguistic Electronic System Société anonyme,Consumer Discretionary,ALLEX.PA,EQ,FR0000033599
+Hotelim Société Anonyme,Consumer Discretionary,MLHOT.PA,EQ,FR0000053738
+Mr.Bricolage S.A.,Consumer Discretionary,ALMRB.PA,EQ,FR0004034320
+Hydrogen-Refueling-Solutions SA,Consumer Discretionary,ALHRS.PA,EQ,FR0014001PM5
+Speed Rabbit Pizza SA,Consumer Discretionary,MLSRP.PA,EQ,FR0000054371
+Uniti S.A,Consumer Discretionary,ALUNT.PA,EQ,FR0012709160
+FORSEE POWER,Consumer Discretionary,ALFOR.PA,EQ,FR0014005SB3
+Hunyvers SA,Consumer Discretionary,ALHUN.PA,EQ,FR0014007LQ2
+Damartex,Consumer Discretionary,ALDAR.PA,EQ,FR0000185423
+U10 Corp,Consumer Discretionary,ALU10.PA,EQ,FR0000079147
+PASSAT,Consumer Discretionary,ALPAS.PA,EQ,FR0000038465
+Maisons du Monde S.A.,Consumer Discretionary,MDM.PA,EQ,FR0013153541
+Emova Group SA,Consumer Discretionary,ALEMV.PA,EQ,FR0013356755
+Société Hôtelière et Immobilière de Nice S.A.,Consumer Discretionary,MLHIN.PA,EQ,FR0006563904
+Les Hôtels de Paris SA,Consumer Discretionary,HDP.PA,EQ,FR0004165801
+Miliboo Société anonyme,Consumer Discretionary,ALMLB.PA,EQ,FR0013053535
+Société Française de Casinos Société Anonyme,Consumer Discretionary,SFCA.PA,EQ,FR0010209809
+Kumulus Vape S.A.,Consumer Discretionary,ALVAP.PA,EQ,FR0013419876
+Neolife SA,Consumer Discretionary,ALNLF.PA,EQ,FR0011636083
+UPERGY Société Anonyme,Consumer Discretionary,ALUPG.PA,EQ,FR0010337865
+Groupe Airwell Société anonyme,Consumer Discretionary,ALAIR.PA,EQ,FR0014003V77
+Augros Cosmetic Packaging SA,Consumer Discretionary,AUGR.PA,EQ,FR0000061780
+Odiot S.A.,Consumer Discretionary,MLODT.PA,EQ,FR0014010DV3
+Bernard Loiseau S.A.,Consumer Discretionary,ALDBL.PA,EQ,FR0000066961
+Colipays Reunion Société anonyme,Consumer Discretionary,MLCLP.PA,EQ,FR0010959684
+Nicolas Miguet,Consumer Discretionary,MLNMA.PA,EQ,FR0010500363
+Spartoo SAS,Consumer Discretionary,ALSPT.PA,EQ,FR00140043Y1
+NR21 Société Anonyme,Consumer Discretionary,NR21.PA,EQ,FR0014001PV6
+Groupe JAJ,Consumer Discretionary,GJAJ.PA,EQ,FR0004010338
+Body One SA,Consumer Discretionary,MLONE.PA,EQ,FR0010106039
+L Agence Automobiliere,Consumer Discretionary,MLAA.PA,EQ,FR0014005WE9
+Barbara Bui SA,Consumer Discretionary,BUI.PA,EQ,FR0000062788
+Lepermislibre Société anonyme,Consumer Discretionary,ALLPL.PA,EQ,FR001400F2Z1
+MyHotelMatch S.A.,Consumer Discretionary,MHM.PA,EQ,FR001400IE67
+Smalto Holding SA,Consumer Discretionary,MLSML.PA,EQ,FR0011131788
+PREATONI GROUP,Consumer Discretionary,ALPG.PA,EQ,FR001400WXE7
+Maison Clio Blue SA,Consumer Discretionary,MLCLI.PA,EQ,FR0011092089
 Stellantis N.V.,Consumer Discretionary,STLAP.PA,EQ,
-Cie Generale des Etablissements Michelin SA,Consumer Discretionary,ML.PA,EQ,
-Carrefour SA,Consumer Discretionary,CA.PA,EQ,
-Accor SA,Consumer Discretionary,ACMC.PA,EQ,
-Accor SA,Consumer Discretionary,AC.PA,EQ,
-Renault SA,Consumer Discretionary,RNO.PA,EQ,
-Sodexo SA,Consumer Discretionary,SW.PA,EQ,
-FDJ United,Consumer Discretionary,FDJU.PA,EQ,
-Monte-Carlo Societe des Bains de Mer SA,Consumer Discretionary,BAIN.PA,EQ,
-Trigano SA,Consumer Discretionary,TRI.PA,EQ,
-SEB SA,Consumer Discretionary,SK.PA,EQ,
-Lagardere SA,Consumer Discretionary,MMB.PA,EQ,
-Carmila SA,Consumer Discretionary,CARM.PA,EQ,
-Vivendi SE,Consumer Discretionary,VIV.PA,EQ,
-Metropole Television SA,Consumer Discretionary,MMT.PA,EQ,
-Television Francaise 1 SA,Consumer Discretionary,TFI.PA,EQ,
-Compagnie des Alpes SA,Consumer Discretionary,CDA.PA,EQ,
-Fnac Darty SA,Consumer Discretionary,FNAC.PA,EQ,
-Pierre et Vacances SA,Consumer Discretionary,VAC.PA,EQ,
-Voyageurs du Monde SA,Consumer Discretionary,ALVDM.PA,EQ,
-NRJ Group SA,Consumer Discretionary,NRG.PA,EQ,
-Beneteau SA,Consumer Discretionary,BEN.PA,EQ,
-Elior Group SA,Consumer Discretionary,ELIOR.PA,EQ,
-Kaufman & Broad SA,Consumer Discretionary,KOF.PA,EQ,
-Societe Fermiere du Casino Municipal de Cannes SA,Consumer Discretionary,FCMC.PA,EQ,
-SMCP SA,Consumer Discretionary,SMCP.PA,EQ,
-Eagle Football Group,Consumer Discretionary,EFG.PA,EQ,
-Gaumont SA,Consumer Discretionary,GAM.PA,EQ,
-Societe Immobiliere et d'Exploitation de l'Hotel Majestic,Consumer Discretionary,MLHMC.PA,EQ,
-Roche Bobois SA,Consumer Discretionary,RBO.PA,EQ,
-Aramis Group SA,Consumer Discretionary,ARAMI.PA,EQ,
-HEXAOM SA,Consumer Discretionary,ALHEX.PA,EQ,
-Compagnie du Mont-Blanc SA,Consumer Discretionary,MLCMB.PA,EQ,
-Les Hotels Baverez SA,Consumer Discretionary,ALLHB.PA,EQ,
-Groupe Partouche SA,Consumer Discretionary,PARP.PA,EQ,
-Fountaine Pajot SA,Consumer Discretionary,ALFPC.PA,EQ,
-Catering International Services,Consumer Discretionary,ALCIS.PA,EQ,
-VENTE-UNIQUE.COM,Consumer Discretionary,ALVU.PA,EQ,
-Piscine Desjoyaux SA,Consumer Discretionary,ALPDX.PA,EQ,
-CAFOM SA,Consumer Discretionary,ALCAF.PA,EQ,
-SRP Groupe SA,Consumer Discretionary,SRP.PA,EQ,
-Reworld Media SA,Consumer Discretionary,ALREW.PA,EQ,
-Televerbier SA,Consumer Discretionary,TVRB.PA,EQ,
-Casino Guichard-Perrachon SA,Consumer Discretionary,CO.PA,EQ,
-Hoteles Bestprice SA,Consumer Discretionary,MLHBP.PA,EQ,
-Abeo SA,Consumer Discretionary,ABEO.PA,EQ,
-Groupe LDLC SA,Consumer Discretionary,ALLDL.PA,EQ,
-Guillemot Corp. SA,Consumer Discretionary,GUI.PA,EQ,
-Fiducial Office Solutions SA,Consumer Discretionary,SACI.PA,EQ,
-EuropaCorp SA,Consumer Discretionary,ALECP.PA,EQ,
-Hotelim SA,Consumer Discretionary,MLHOT.PA,EQ,
-Mr Bricolage SA,Consumer Discretionary,ALMRB.PA,EQ,
-Speed Rabbit Pizza SA,Consumer Discretionary,MLSRP.PA,EQ,
-EdiliziAcrobatica SpA,Consumer Discretionary,ALEAC.PA,EQ,
-Xilam Animation SA,Consumer Discretionary,ALXIL.PA,EQ,
-Artmarket.com SA,Consumer Discretionary,PRC.PA,EQ,
-Maisons du Monde SA,Consumer Discretionary,MDM.PA,EQ,
-Emova Group SA,Consumer Discretionary,ALEMV.PA,EQ,
-Hoteliere & Immobiliere de Nice SA,Consumer Discretionary,MLHIN.PA,EQ,
-Hotels de Paris,Consumer Discretionary,HDP.PA,EQ,
-Societe Francaise de Casinos SA,Consumer Discretionary,SFCA.PA,EQ,
-ECOMIAM SA,Consumer Discretionary,ALECO.PA,EQ,
-Miliboo SA,Consumer Discretionary,ALMLB.PA,EQ,
-Kumulus Vape SA,Consumer Discretionary,ALVAP.PA,EQ,
-Bernard Loiseau SA,Consumer Discretionary,ALDBL.PA,EQ,
-One Experience,Consumer Discretionary,ALEXP.PA,EQ,
-Nicolas Miguet,Consumer Discretionary,MLNMA.PA,EQ,
-Spartoo SAS,Consumer Discretionary,ALSPT.PA,EQ,
-Transition Evergreen,Consumer Discretionary,EGR.PA,EQ,
-Imprimerie Chirat SA,Consumer Discretionary,MLIMP.PA,EQ,
-Galeo Concept,Consumer Discretionary,MLGAL.PA,EQ,
-France Tourisme Immobilier SA,Consumer Discretionary,MLFTI.PA,EQ,
-L'Agence Automobiliere,Consumer Discretionary,MLAA.PA,EQ,
-PREATONI Group,Consumer Discretionary,ALPG.PA,EQ,
-Kaleon S.p.A.,Consumer Discretionary,ALKLN.PA,EQ,
+Société Anonyme des Bains de Mer et du Cercle des Étrangers à Monaco,Consumer Discretionary,BAIN.PA,EQ,
+Racing Force S.P.A.,Consumer Discretionary,ALRFG.PA,EQ,
+KALEON,Consumer Discretionary,ALKLN.PA,EQ,
+Plastiques du Val de Loire,Consumer Discretionary,PVL.PA,EQ,
+Pet Service Holding N.V.,Consumer Discretionary,ALPET.PA,EQ,
+The Azur Selection S.A.,Consumer Discretionary,MLAZR.PA,EQ,
+Hopium SA,Consumer Discretionary,ALHPI.PA,EQ,

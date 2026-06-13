@@ -1,12 +1,15 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-Nestle S.A.,Consumer Staples,NESN.SW,EQ,CH0038863350
-Givaudan SA,Consumer Staples,GIVN.SW,EQ,CH0010645932
-Chocoladefabriken Lindt & Spruengli AG Partizipsch.,Consumer Staples,LISP.SW,EQ,CH0010570767
+Nestle SA,Consumer Staples,NESN.SW,EQ,CH0038863350
+Lindt & Sprungli AG,Consumer Staples,LISP.SW,EQ,CH0010570767
 Chocoladefabriken Lindt & Spruengli AG,Consumer Staples,LISN.SW,EQ,CH0010570759
+Chocoladefabriken Lindt & Spruengli AG TEMP,Consumer Staples,LISPE.SW,EQ,CH1192548407
+Chocoladefabriken Lindt & Spruengli AG TEMP,Consumer Staples,LISNE.SW,EQ,CH1192548399
+Coca-Cola HBC AG,Consumer Staples,CCH.SW,EQ,CH0198251305
 DSM-Firmenich AG,Consumer Staples,DSFIR.SW,EQ,CH1216478797
+On Holding AG Class A,Consumer Staples,49G.SW,EQ,CH1134540470
 Barry Callebaut AG,Consumer Staples,BARN.SW,EQ,CH0009002962
 Emmi AG,Consumer Staples,EMMN.SW,EQ,CH0012829898
-Bell Food Group Ltd.,Consumer Staples,BELL.SW,EQ,CH0315966322
+Bell Food Group,Consumer Staples,BELL.SW,EQ,CH0315966322
 CALIDA Holding AG,Consumer Staples,CALN.SW,EQ,CH0126639464
 Orior AG,Consumer Staples,ORON.SW,EQ,CH0111677362
 EvoNext Holdings SA,Consumer Staples,EVE.SW,EQ,CH1262055788

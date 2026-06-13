@@ -1,68 +1,2151 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-Malayan Banking,Financials,1155.KL,EQ,
-Public Bank,Financials,1295.KL,EQ,
-CIMB Group,Financials,1023.KL,EQ,
-Tenaga Nasional,Utilities,5347.KL,EQ,
-Petronas Chemicals,Materials,5183.KL,EQ,
-IHH Healthcare,Health Care,5225.KL,EQ,
-Hong Leong Bank,Financials,5819.KL,EQ,
-RHB Bank,Financials,1066.KL,EQ,
-Hong Leong Financial,Financials,1082.KL,EQ,
-Petronas Gas,Utilities,6033.KL,EQ,
-Petronas Dagangan,Energy,5681.KL,EQ,
-Maxis,Communication Services,6012.KL,EQ,
-CelcomDigi,Communication Services,6947.KL,EQ,
-Telekom Malaysia,Communication Services,4863.KL,EQ,
-Axiata Group,Communication Services,6888.KL,EQ,
-MISC,Industrials,3816.KL,EQ,
-Sime Darby,Industrials,4197.KL,EQ,
-SD Guthrie,Consumer Staples,5285.KL,EQ,
-IOI Corporation,Consumer Staples,1961.KL,EQ,
-Kuala Lumpur Kepong,Consumer Staples,2445.KL,EQ,
-PPB Group,Consumer Staples,4065.KL,EQ,
-Nestle Malaysia,Consumer Staples,4707.KL,EQ,
-Press Metal Aluminium,Materials,8869.KL,EQ,
-Genting,Consumer Discretionary,3182.KL,EQ,
-Genting Malaysia,Consumer Discretionary,4715.KL,EQ,
-MR DIY Group,Consumer Discretionary,5296.KL,EQ,
-QL Resources,Consumer Staples,7084.KL,EQ,
-Gamuda,Industrials,5398.KL,EQ,
-IJM Corporation,Industrials,3336.KL,EQ,
-YTL Corporation,Utilities,4677.KL,EQ,
-YTL Power,Utilities,6742.KL,EQ,
-Westports Holdings,Industrials,5246.KL,EQ,
-Inari Amertron,Technology,0166.KL,EQ,
-Hartalega Holdings,Health Care,5168.KL,EQ,
-Top Glove,Health Care,7113.KL,EQ,
-AMMB Holdings,Financials,1015.KL,EQ,
-Bank Islam Malaysia,Financials,5258.KL,EQ,
-Affin Bank,Financials,5185.KL,EQ,
-Alliance Bank Malaysia,Financials,2488.KL,EQ,
-Bursa Malaysia,Financials,1818.KL,EQ,
-Allianz Malaysia,Financials,1163.KL,EQ,
-Syarikat Takaful Malaysia,Financials,6139.KL,EQ,
-Dialog Group,Energy,7277.KL,EQ,
-Yinson Holdings,Energy,7293.KL,EQ,
-Hibiscus Petroleum,Energy,5199.KL,EQ,
-Genting Plantations,Consumer Staples,2291.KL,EQ,
-FGV Holdings,Consumer Staples,5222.KL,EQ,
-Fraser & Neave Holdings,Consumer Staples,3689.KL,EQ,
-Carlsberg Brewery Malaysia,Consumer Staples,2836.KL,EQ,
-Heineken Malaysia,Consumer Staples,3255.KL,EQ,
-Padini Holdings,Consumer Discretionary,7052.KL,EQ,
-AEON Co Malaysia,Consumer Discretionary,6599.KL,EQ,
-Berjaya Sports Toto,Consumer Discretionary,1562.KL,EQ,
-Sunway,Industrials,5211.KL,EQ,
-Sunway REIT,Real Estate,5176.KL,EQ,
-IGB REIT,Real Estate,5227.KL,EQ,
-KLCCP Stapled Group,Real Estate,5235SS.KL,EQ,
-Pavilion REIT,Real Estate,5212.KL,EQ,
-UEM Sunrise,Real Estate,5148.KL,EQ,
-SP Setia,Real Estate,8664.KL,EQ,
-Malaysia Airports Holdings,Industrials,5014.KL,EQ,
-Gas Malaysia,Utilities,5209.KL,EQ,
-Malakoff,Utilities,5264.KL,EQ,
-Cahya Mata Sarawak,Materials,2852.KL,EQ,
-Malaysian Pacific Industries,Technology,3867.KL,EQ,
-Vitrox,Technology,0097.KL,EQ,
-Greatech Technology,Technology,0208.KL,EQ,
+Malayan Banking Bhd.,Financials,MAYBANK.KL,EQ,MYL1155OO000
+Public Bank Bhd,Financials,PBBANK.KL,EQ,MYL1295OO004
+Tenaga Nasional Bhd,Utilities,TENAGA.KL,EQ,MYL5347OO009
+CIMB Group Holdings Bhd,Financials,CIMB.KL,EQ,MYL1023OO000
+IHH Healthcare Bhd.,Health Care,IHH.KL,EQ,MYL5225OO007
+Press Metal Aluminium Holdings Berhad,Industrials,PMETAL.KL,EQ,MYL8869OO009
+Hong Leong Bank Bhd,Financials,HLBANK.KL,EQ,MYL5819OO007
+PETRONAS Chemicals Group Bhd.,Materials,PCHEM.KL,EQ,MYL5183OO008
+SD Guthrie Bhd,Materials,SDG.KL,EQ,MYL5285OO001
+RHB Bank Bhd.,Financials,RHBBANK.KL,EQ,MYL1066OO009
+MISC Bhd,Industrials,MISC.KL,EQ,MYL3816OO005
+Sunway Bhd.,Industrials,SUNWAY.KL,EQ,MYL5211OO007
+YTL Power International Bhd.,Utilities,YTLPOWR.KL,EQ,MYL6742OO000
+Petronas Gas Bhd.,Utilities,PETGAS.KL,EQ,MYL6033OO004
+CelcomDigi Berhad,Communication Services,CDB.KL,EQ,MYL6947OO005
+99 Speed Mart Retail Holdings Bhd,Consumer Discretionary,99SMART.KL,EQ,MYL5326OO003
+Telekom Malaysia Bhd.,Communication Services,TM.KL,EQ,MYL4863OO006
+IOI Corporation Berhad,Materials,IOICORP.KL,EQ,MYL1961OO001
+Maxis Bhd.,Communication Services,MAXIS.KL,EQ,MYL6012OO008
+Gamuda Bhd.,Industrials,GAMUDA.KL,EQ,MYL5398OO002
+Kuala Lumpur Kepong Bhd.,Materials,KLK.KL,EQ,MYL2445OO004
+YTL Corp Bhd.,Utilities,YTL.KL,EQ,MYL4677OO000
+IOI Properties Group Bhd.,Financials,IOIPG.KL,EQ,MYL5249OO007
+Nestle (Malaysia) Bhd.,Consumer Staples,NESTLE.KL,EQ,MYL4707OO005
+AMMB Holdings Bhd.,Financials,AMBANK.KL,EQ,MYL1015OO006
+Hong Leong Financial Group Bhd.,Financials,HLFG.KL,EQ,MYL1082OO006
+Westports Holdings Bhd.,Industrials,WPRTS.KL,EQ,MYL5246OO003
+United Plantations Bhd.,Materials,UTDPLT.KL,EQ,MYL2089OO000
+Petronas Dagangan Bhd.,Industrials,PETDAG.KL,EQ,MYL5681OO001
+Axiata Group Bhd.,Communication Services,AXIATA.KL,EQ,MYL6888OO001
+KLCC Property Holdings Bhd.,Financials,KLCC.KL,EQ,MYL5235SS008
+MR. D.I.Y. Group (M) Bhd.,Industrials,MRDIY.KL,EQ,MYL5296OO008
+Sime Darby Bhd.,Industrials,SIME.KL,EQ,MYL4197OO009
+Vitrox Corp. Bhd.,Technology,VITROX.KL,EQ,MYQ0097OO004
+KPJ Healthcare Bhd.,Health Care,KPJ.KL,EQ,MYL5878OO003
+QL Resources Bhd.,Consumer Staples,QL.KL,EQ,MYL7084OO006
+PPB Group Bhd.,Materials,PPB.KL,EQ,MYL4065OO008
+IGB Real Estate Investment Trust,Financials,IGBREIT.KL,EQ,MYL5227TO002
+Dialog Group Bhd.,Industrials,DIALOG.KL,EQ,MYL7277OO006
+TIME dotCom Bhd.,Technology,TIMECOM.KL,EQ,MYL5031OO009
+Genting Malaysia Bhd.,Consumer Discretionary,GENM.KL,EQ,MYL4715OO008
+Fraser & Neave Holdings Bhd.,Consumer Staples,F&N.KL,EQ,MYL3689OO006
+Malayan Cement Bhd,Materials,MCEMENT.KL,EQ,MYL3794OO004
+Sime Darby Property Bhd.,Financials,SIMEPROP.KL,EQ,MYL5288OO005
+Malaysian Pacific Industries Bhd.,Technology,MPI.KL,EQ,MYL3867OO008
+Sunway Construction Group Bhd.,Industrials,SUNCON.KL,EQ,MYL5263OO008
+Genting Bhd.,Consumer Discretionary,GENTING.KL,EQ,MYL3182OO002
+Frontken Corp. Bhd.,Technology,FRONTKN.KL,EQ,MYQ0128OO007
+Inari Amertron Berhad,Technology,INARI.KL,EQ,MYQ0166OO007
+IJM Corporation Berhad,Industrials,IJM.KL,EQ,MYL3336OO004
+Batu Kawan Bhd.,Materials,BKAWAN.KL,EQ,MYL1899OO003
+Alliance Bank Malaysia Bhd.,Financials,ABMB.KL,EQ,MYL2488OO004
+Sunway Real Estate Investment Trust,Financials,SUNREIT.KL,EQ,MYL5176TO001
+Unisem (M) Bhd.,Technology,UNISEM.KL,EQ,MYL5005OO003
+Chin Hin Group Bhd,Industrials,CHINHIN.KL,EQ,MYL5273OO007
+Eco-Shop Marketing Berhad,Consumer Discretionary,ECOSHOP.KL,EQ,MYL5337OO000
+Bursa Malaysia Bhd.,Financials,BURSA.KL,EQ,MYL1818OO003
+Gas Malaysia Bhd.,Utilities,GASMSIA.KL,EQ,MYL5209OO001
+Hap Seng Consolidated Bhd.,Materials,HAPSENG.KL,EQ,MYL3034OO005
+Eco World Development Group Bhd.,Financials,ECOWLD.KL,EQ,MYL8206OO004
+Pavilion Real Estate Investment Trust,Financials,PAVREIT.KL,EQ,MYL5212TO004
+Kelington Group Bhd.,Industrials,KGB.KL,EQ,MYQ0151OO009
+Top Glove Corporation Bhd.,Health Care,TOPGLOV.KL,EQ,MYL7113OO003
+Zetrix AI Bhd,Technology,ZETRIX.KL,EQ,MYQ0138OO006
+Greatech Technology Bhd.,Industrials,GREATEC.KL,EQ,MYQ0208OO007
+UWC Bhd.,Industrials,UWC.KL,EQ,MYL5292OO007
+Yinson Holdings Bhd.,Industrials,YINSON.KL,EQ,MYL7293OO003
+LPI Capital Bhd,Financials,LPI.KL,EQ,MYL8621OO004
+Affin Bank Bhd.,Financials,AFFIN.KL,EQ,MYL5185OO003
+OSK Holdings Bhd.,Financials,OSK.KL,EQ,MYL5053OO003
+Scientex Bhd.,Materials,SCIENTX.KL,EQ,MYL4731OO005
+Heineken Malaysia Bhd.,Consumer Staples,HEIM.KL,EQ,MYL3255OO006
+Hong Leong Industries Bhd.,Consumer Discretionary,HLIND.KL,EQ,MYL3301OO008
+S P Setia Bhd.,Financials,SPSETIA.KL,EQ,MYL8664OO004
+MBSB Bhd,Financials,MBSB.KL,EQ,MYL1171OO007
+Carlsberg Brewery Malaysia Bhd.,Consumer Staples,CARLSBG.KL,EQ,MYL2836OO004
+Itmax System Bhd,Industrials,ITMAX.KL,EQ,MYL5309OO009
+Bank Islam Malaysia Bhd.,Financials,BIMB.KL,EQ,MYL5258OO008
+IGB Bhd.,Financials,IGBB.KL,EQ,MYL5606OO008
+UOA Development Bhd.,Financials,UOADEV.KL,EQ,MYL5200OO000
+Genting Plantations Bhd.,Materials,GENP.KL,EQ,MYL2291OO002
+Hartalega Holdings Bhd.,Industrials,HARTA.KL,EQ,MYL5168OO009
+Oriental Holdings Bhd.,Consumer Discretionary,ORIENT.KL,EQ,MYL4006OO002
+Johor Plantations Group Bhd,Materials,JPG.KL,EQ,MYL5323OO000
+Sarawak Oil Palms Bhd.,Materials,SOP.KL,EQ,MYL5126OO007
+Mi Technovation Bhd.,Industrials,MI.KL,EQ,MYL5286OO009
+Malakoff Corporation Bhd,Utilities,MALAKOF.KL,EQ,MYL5264OO006
+Farm Fresh Bhd.,Consumer Staples,FFB.KL,EQ,MYL5306OO005
+AirAsia X Bhd.,Industrials,AAX.KL,EQ,MYL5238OO000
+Axis Real Estate Investment Trust,Financials,AXREIT.KL,EQ,MYL5106TO008
+Allianz Malaysia Bhd.,Financials,ALLIANZ.KL,EQ,MYL1163OO004
+PMB Technology Bhd.,Industrials,PMBTECH.KL,EQ,MYL7172OO009
+KSL Holdings Bhd.,Financials,KSL.KL,EQ,MYL5038OO004
+Hextar Global Bhd.,Materials,HEXTAR.KL,EQ,MYL5151OO005
+Pentamaster Corp. Bhd.,Industrials,PENTA.KL,EQ,MYL7160OO004
+Kossan Rubber Industries Bhd.,Industrials,KOSSAN.KL,EQ,MYL7153OO009
+AEON Credit Service (M) Bhd.,Financials,AEONCR.KL,EQ,MYL5139OO000
+SAM Engineering & Equipment (M) Bhd,Industrials,SAM.KL,EQ,MYL9822OO007
+Syarikat Takaful Malaysia Keluarga Bhd.,Financials,TAKAFUL.KL,EQ,MYL6139OO009
+Mega First Corp. Bhd.,Utilities,MFCB.KL,EQ,MYL3069OO001
+UEM Sunrise Bhd.,Financials,UEMS.KL,EQ,MYL5148OO001
+Solarvest Holdings Bhd,Industrials,SLVEST.KL,EQ,MYQ0215OO002
+Guan Chong Bhd.,Consumer Staples,GCB.KL,EQ,MYL5102OO008
+Kerjaya Prospek Group Berhad,Industrials,KERJAYA.KL,EQ,MYL7161OO002
+Hextar Technologies Solutions Berhad.,Industrials,HEXTECH.KL,EQ,MYL5136OO006
+Kim Loong Resources Bhd.,Materials,KMLOONG.KL,EQ,MYL5027OO007
+Leong Hup International Bhd.,Materials,LHI.KL,EQ,MYL6633OO001
+Bintulu Port Holdings Bhd.,Industrials,BIPORT.KL,EQ,MYL5032OO007
+Tropicana Corp. Bhd.,Financials,TROP.KL,EQ,MYL5401OO004
+Mah Sing Group Bhd.,Financials,MAHSING.KL,EQ,MYL8583OO006
+Velesto Energy Bhd.,Industrials,VELESTO.KL,EQ,MYL5243OO000
+Ranhill Utilities Bhd.,Utilities,RANHILL.KL,EQ,MYL5272OO009
+Southern Cable Group Bhd.,Industrials,SCGBHD.KL,EQ,MYQ0225OO001
+Far East Holdings Bhd.,Materials,FAREAST.KL,EQ,MYL5029OO003
+Ta Ann Holdings Bhd.,Materials,TAANN.KL,EQ,MYL5012OO009
+DXN Holdings Bhd,Health Care,DXN.KL,EQ,MYL5318OO000
+Matrix Concepts Holdings Bhd.,Financials,MATRIX.KL,EQ,MYL5236OO004
+TMK Chemical Bhd,Materials,TMK.KL,EQ,MYL5330OO005
+WCE Holdings Berhad,Industrials,WCEHB.KL,EQ,MYL3565OO008
+Hume Cement Industries Berhad,Materials,HUMEIND.KL,EQ,MYL5000OO004
+Binastra Corporation Berhad,Technology,BNASTRA.KL,EQ,MYL7195OO000
+Dutch Lady Milk Industries Bhd.,Consumer Staples,DLADY.KL,EQ,MYL3026OO001
+7-Eleven Malaysia Holdings Bhd,Consumer Discretionary,SEM.KL,EQ,MYL5250OO005
+VSTECS Bhd.,Technology,VSTECS.KL,EQ,MYL5162OO002
+Capitaland Malaysia Trust,Financials,CLMT.KL,EQ,MYL5180TO003
+DRB-Hicom Bhd.,Consumer Discretionary,DRBHCOM.KL,EQ,MYL1619OO005
+Lianson Fleet Group Bhd,Industrials,LFG.KL,EQ,MYL5255OO004
+MBM Resources Bhd.,Consumer Discretionary,MBMR.KL,EQ,MYL5983OO001
+Dayang Enterprise Holdings Bhd.,Industrials,DAYANG.KL,EQ,MYL5141OO006
+Bumi Armada Bhd.,Industrials,ARMADA.KL,EQ,MYL5210OO009
+MNRB Holdings Bhd.,Financials,MNRB.KL,EQ,MYL6459OO001
+Keck Seng (Malaysia) Bhd.,Materials,KSENG.KL,EQ,MYL3476OO008
+Magnum Berhad,Consumer Discretionary,MAGNUM.KL,EQ,MYL3859OO005
+Eastern & Oriental Bhd.,Financials,E&O.KL,EQ,MYL3417OO002
+Sports Toto Berhad,Consumer Discretionary,SPTOTO.KL,EQ,MYL1562OO007
+YTL Hospitality REIT,Financials,YTLREIT.KL,EQ,MYL5109TO002
+Oriental Kopi Holdings Bhd.,Consumer Discretionary,KOPI.KL,EQ,MYQ0338OO002
+Capital A Berhad,Industrials,CAPITALA.KL,EQ,MYL5099OO006
+Hap Seng Plantations Holdings Bhd.,Materials,HSPLANT.KL,EQ,MYL5138OO002
+Ideal Capital Berhad,Financials,IDEAL.KL,EQ,MYL9687OO004
+Malaysia Smelting Corp. Bhd.,Industrials,MSC.KL,EQ,MYL5916OO001
+Radium Development Bhd,Financials,RADIUM.KL,EQ,MYL5313OO001
+Nationgate Holdings Berhad,Technology,NATGATE.KL,EQ,MYQ0270OO007
+MN Holdings Bhd.,Industrials,MNHLDG.KL,EQ,MYQ0245OO009
+RCE Capital Bhd.,Financials,RCECAP.KL,EQ,MYL9296OO004
+EG Industries Bhd.,Consumer Discretionary,EG.KL,EQ,MYL8907OO007
+Spritzer Bhd.,Consumer Staples,SPRITZER.KL,EQ,MYL7103OO004
+Pharmaniaga Bhd.,Industrials,PHARMA.KL,EQ,MYL7081OO002
+Elridge Energy Holdings Berhad,Materials,ELRIDGE.KL,EQ,MYQ0318OO004
+TSH Resources Bhd.,Materials,TSH.KL,EQ,MYL9059OO006
+Kretam Holdings Bhd.,Materials,KRETAM.KL,EQ,MYL1996OO007
+CTOS Digital Bhd,Industrials,CTOS.KL,EQ,MYL5301OO006
+Berjaya Corp. Bhd.,Consumer Discretionary,BJCORP.KL,EQ,MYL3395OO000
+Hibiscus Petroleum Bhd.,Energy,HIBISCS.KL,EQ,MYL5199OO004
+AEON Co. (Malaysia) Bhd.,Consumer Discretionary,AEON.KL,EQ,MYL6599OO004
+IGB Commercial Real Estate Investment Trust,Financials,IGBCR.KL,EQ,MYL5299TO001
+Chin Hin Group Property Bhd.,Consumer Discretionary,CHGP.KL,EQ,MYL7187OO007
+Padini Holdings Bhd.,Consumer Discretionary,PADINI.KL,EQ,MYL7052OO003
+BLD Plantation Bhd.,Materials,BLDPLNT.KL,EQ,MYL5069OO009
+British American Tobacco Malaysia Bhd.,Consumer Staples,BAT.KL,EQ,MYL4162OO003
+Mega Fortris Berhad,Industrials,MEGAFB.KL,EQ,MYL5327OO001
+HCK Capital Group Berhad,Financials,HCK.KL,EQ,MYL7105OO009
+Malaysian Resources Corp. Bhd.,Industrials,MRCB.KL,EQ,MYL1651OO008
+Lim Seong Hai Capital Bhd,Industrials,LSH.KL,EQ,MYQ0351OO005
+Uchi Technologies Bhd.,Technology,UCHITEC.KL,EQ,MYL7100OO000
+Dagang NeXchange Berhad,Technology,DNEX.KL,EQ,MYL4456OO009
+Southern Score Builders Bhd.,Technology,SSB8.KL,EQ,MYQ0045OO003
+United Malacca Bhd.,Materials,UMCCA.KL,EQ,MYL2593OO001
+NCT Alliance Bhd,Financials,NCT.KL,EQ,MYQ0056OO000
+Berjaya Property Berhad,Consumer Discretionary,BPROP.KL,EQ,MYL4219OO001
+Tanco Holdings Bhd.,Financials,TANCO.KL,EQ,MYL2429OO008
+Keyfield International Berhad,Financials,KEYFIELD.KL,EQ,MYL5321OO004
+CBH Engineering Holding Berhad,Utilities,CBHB.KL,EQ,MYQ0339OO000
+Hi Mobility Bhd.,Industrials,HI.KL,EQ,MYL5335OO004
+BM GreenTech Bhd,Industrials,BMGREEN.KL,EQ,MYQ0168OO003
+Duopharma Biotech Bhd.,Health Care,DPHARMA.KL,EQ,MYL7148OO009
+Alpha IVF Group Bhd.,Health Care,ALPHA.KL,EQ,MYQ0303OO006
+Cahya Mata Sarawak Bhd.,Materials,CMSB.KL,EQ,MYL2852OO001
+Lagenda Properties Bhd.,Financials,LAGENDA.KL,EQ,MYL7179OO004
+Bermaz Auto Berhad,Consumer Discretionary,BAUTO.KL,EQ,MYL5248OO009
+Pekat Group Bhd,Industrials,PEKAT.KL,EQ,MYQ0233OO005
+MKH Berhad,Financials,MKH.KL,EQ,MYL6114OO002
+Sarawak Plantation Bhd.,Materials,SWKPLNT.KL,EQ,MYL5135OO008
+Petron Malaysia Refining & Marketing Bhd.,Energy,PETRONM.KL,EQ,MYL3042OO008
+Dufu Technology Corp. Bhd.,Technology,DUFU.KL,EQ,MYL7233OO009
+Pecca Group Bhd.,Materials,PECCA.KL,EQ,MYL5271OO001
+Crescendo Corp. Bhd.,Financials,CRESNDO.KL,EQ,MYL6718OO000
+Prolintas Infra Business Trust,Industrials,PLINTAS.KL,EQ,MYL5320OO006
+Jaya Tiasa Holdings Bhd.,Materials,JTIASA.KL,EQ,MYL4383OO005
+Ancom Nylex Bhd,Materials,ANCOMNY.KL,EQ,MYL4758OO008
+Master Tec Group Bhd,Financials,MTEC.KL,EQ,MYQ0295OO004
+Chin Teck Plantations Bhd.,Materials,CHINTEK.KL,EQ,MYL1929OO008
+Al-'Aqar Healthcare REIT,Financials,ALAQAR.KL,EQ,MYL5116TO007
+Innoprise Plantations Bhd.,Materials,INNO.KL,EQ,MYL6262OO009
+AME Elite Consortium Berhad,Consumer Discretionary,AME.KL,EQ,MYL5293OO005
+Supermax Corp. Bhd.,Industrials,SUPERMX.KL,EQ,MYL7106OO007
+Ajinomoto (Malaysia) Bhd.,Consumer Staples,AJI.KL,EQ,MYL2658OO002
+NEXG Bhd,Technology,NEXG.KL,EQ,MYL5216OO006
+UEM Edgenta Bhd.,Industrials,EDGENTA.KL,EQ,MYL1368OO009
+Mulpha International Bhd.,Consumer Discretionary,MULPHA.KL,EQ,MYL3905OO006
+Sern Kou Resources Bhd.,Consumer Discretionary,SERNKOU.KL,EQ,MYL7180OO002
+Exsim Hospitality Bhd,Consumer Discretionary,EXSIMHB.KL,EQ,MYL1287OO001
+DKSH Holdings (Malaysia) Bhd.,Industrials,DKSH.KL,EQ,MYL5908OO008
+Shin Yang Group Bhd,Industrials,SYGROUP.KL,EQ,MYL5173OO009
+Aurelius Technologies Bhd.,Technology,ATECH.KL,EQ,MYL5302OO004
+Nextgreen Global Bhd,Financials,NGGB.KL,EQ,MYL7241OO002
+Kinergy Advancement Bhd,Industrials,KINERGY.KL,EQ,MYQ0193OO001
+SNS Network Technology Bhd.,Technology,SNS.KL,EQ,MYQ0259OO000
+SENTRAL REIT,Financials,SENTRAL.KL,EQ,MYL5123TO003
+Signature International Bhd.,Financials,SIGN.KL,EQ,MYL7246OO001
+Central Global Bhd,Consumer Discretionary,CGB.KL,EQ,MYL8052OO002
+AME Real Estate Investment Trust,Financials,AMEREIT.KL,EQ,MYL5307TO002
+Magni-Tech Industries Bhd.,Consumer Staples,MAGNI.KL,EQ,MYL7087OO009
+KIP Real Estate Investment Trust,Financials,KIPREIT.KL,EQ,MYL5280TO001
+Oriental Interest Bhd.,Industrials,OIB.KL,EQ,MYL5827OO000
+PTT Synergy Group Bhd.,Industrials,PTT.KL,EQ,MYL7010OO001
+Taliworks Corp. Bhd.,Utilities,TALIWRK.KL,EQ,MYL8524OO000
+SEG International Bhd.,Industrials,SEG.KL,EQ,MYL9792OO002
+V.S. Industry Bhd.,Industrials,VS.KL,EQ,MYL6963OO002
+Hup Seng Industries Bhd.,Consumer Staples,HUPSENG.KL,EQ,MYL5024OO004
+GDEX Bhd,Industrials,GDEX.KL,EQ,MYQ0078OO004
+Amway (Malaysia) Holdings Bhd.,Consumer Discretionary,AMWAY.KL,EQ,MYL6351OO000
+TMC Life Sciences Bhd.,Health Care,TMCLIFE.KL,EQ,MYQ0101OO004
+Northeast Group Bhd,Industrials,NE.KL,EQ,MYQ0325OO009
+Kobay Technology Bhd.,Industrials,KOBAY.KL,EQ,MYL6971OO005
+Hong Leong Capital Bhd.,Financials,HLCAP.KL,EQ,MYL5274OO005
+Coastal Contracts Bhd.,Industrials,COASTAL.KL,EQ,MYL5071OO005
+Shangri-La Hotels Malaysia Bhd.,Consumer Discretionary,SHANG.KL,EQ,MYL5517OO007
+Berjaya Assets Bhd.,Consumer Discretionary,BJASSET.KL,EQ,MYL3239OO000
+Lotte Chemical Titan Holdings Bhd,Materials,LCTITAN.KL,EQ,MYL5284OO004
+Samaiden Group Bhd,Technology,SAMAIDEN.KL,EQ,MYQ0223OO006
+Kumpulan Fima Bhd.,Materials,KFIMA.KL,EQ,MYL6491OO004
+CCK Consolidated Holdings Bhd.,Consumer Discretionary,CCK.KL,EQ,MYL7035OO008
+GuocoLand (Malaysia) Bhd.,Financials,GUOCO.KL,EQ,MYL1503OO001
+SFP Tech Holdings Bhd,Industrials,SFPTECH.KL,EQ,MYQ0251OO007
+JCY International Bhd.,Technology,JCY.KL,EQ,MYL5161OO004
+Hengyuan Refining Company Bhd,Energy,HENGYUAN.KL,EQ,MYL4324OO009
+Pappajack Bhd,Financials,PPJACK.KL,EQ,MYQ0242OO006
+Aumas Resources Bhd,Materials,AUMAS.KL,EQ,MYQ0098OO002
+Hextar Industries Bhd,Industrials,HEXIND.KL,EQ,MYQ0161OO008
+Vantris Energy Bhd,Industrials,VANTNRG.KL,EQ,MYL5218OO002
+Signature Alliance Group Berhad,Industrials,SAG.KL,EQ,MYQ0360OO006
+Malayan Flour Mills Bhd.,Materials,MFLOUR.KL,EQ,MYL3662OO003
+Atlan Holdings Bhd.,Industrials,ATLAN.KL,EQ,MYL7048OO001
+Teladan Group Bhd,Financials,TELADAN.KL,EQ,MYQ0230OO001
+PBA Holdings Bhd.,Utilities,PBA.KL,EQ,MYL5041OO008
+Well Chip Group Bhd.,Consumer Discretionary,WELLCHIP.KL,EQ,MYL5325OO005
+Scicom (MSC) Bhd.,Industrials,SCICOM.KL,EQ,MYQ0099OO000
+Infomina Bhd,Technology,INFOM.KL,EQ,MYQ0265OO007
+Mieco Chipboard Bhd.,Materials,MIECO.KL,EQ,MYL5001OO002
+LBS Bina Group Bhd.,Financials,LBS.KL,EQ,MYL5789OO002
+Paragon Globe Berhad,Financials,PGLOBE.KL,EQ,MYL3611OO000
+Thong Guan Industries Bhd.,Materials,TGUAN.KL,EQ,MYL7034OO001
+MKH Oil Palm (East Kalimantan) Bhd,Materials,MKHOP.KL,EQ,MYL5319OO008
+Paramount Corp. Bhd.,Financials,PARAMON.KL,EQ,MYL1724OO003
+Ecomate Holdings Bhd.,Consumer Discretionary,ECOMATE.KL,EQ,MYQ0239OO002
+Ge-Shen Corp. Bhd.,Materials,GESHEN.KL,EQ,MYL7197OO006
+Life Water Bhd.,Consumer Staples,LWSABAH.KL,EQ,MYL5328OO009
+WCT Holdings Bhd.,Industrials,WCT.KL,EQ,MYL9679OO001
+Ekovest Bhd.,Industrials,EKOVEST.KL,EQ,MYL8877OO002
+Wasco Berhad,Materials,WASCO.KL,EQ,MYL5142OO004
+P.I.E. Industrial Bhd.,Technology,PIE.KL,EQ,MYL7095OO002
+Ajiya Bhd.,Industrials,AJIYA.KL,EQ,MYL7609OO000
+Southern Steel Bhd.,Materials,SSTEEL.KL,EQ,MYL5665OO004
+Insas Bhd.,Technology,INSAS.KL,EQ,MYL3379OO004
+APM Automotive Holdings Bhd.,Industrials,APM.KL,EQ,MYL5015OO002
+Mikro MSC Bhd.,Technology,MIKROMB.KL,EQ,MYQ0112OO001
+JF Technology Bhd.,Technology,JFTECH.KL,EQ,MYQ0146OO009
+Ibraco Bhd.,Financials,IBRACO.KL,EQ,MYL5084OO008
+Plenitude Bhd.,Financials,PLENITU.KL,EQ,MYL5075OO006
+Wellcall Holdings Bhd.,Industrials,WELLCAL.KL,EQ,MYL7231OO003
+Cypark Resources Bhd.,Utilities,CYPARK.KL,EQ,MYL5184OO006
+Kotra Industries Bhd.,Health Care,KOTRA.KL,EQ,MYQ0002OO004
+Malaysia Marine & Heavy Engineering Holdings Bhd.,Industrials,MHB.KL,EQ,MYL5186OO001
+GDB Holdings Bhd.,Consumer Discretionary,GDB.KL,EQ,MYQ0198OO000
+Jag Capital Berhad,Industrials,JAGCPTL.KL,EQ,MYL6874OO001
+Fiamma Holdings Bhd.,Consumer Discretionary,FIAMMA.KL,EQ,MYL6939OO002
+Manulife Holdings Bhd.,Financials,MANULFE.KL,EQ,MYL1058OO006
+SHL Consolidated Bhd.,Financials,SHL.KL,EQ,MYL6017OO007
+UOA Real Estate Investment Trust,Financials,UOAREIT.KL,EQ,MYL5110TO000
+Pantech Group Holdings Bhd.,Materials,PANTECH.KL,EQ,MYL5125OO009
+AYER Holdings Bhd,Financials,AYER.KL,EQ,MYL2305OO000
+GO Hub Capital Berhad,Technology,GOHUB.KL,EQ,MYQ0311OO009
+Sorento Capital Bhd.,Financials,SORENTO.KL,EQ,MYQ0326OO007
+CSC Steel Holdings Bhd.,Industrials,CSCSTEL.KL,EQ,MYL5094OO007
+CB Industrial Product Holding Bhd.,Industrials,CBIP.KL,EQ,MYL7076OO002
+TH Plantations Bhd.,Materials,THPLANT.KL,EQ,MYL5112OO007
+Sungei Bagan Rubber Co. (Malaya) Bhd.,Materials,SBAGAN.KL,EQ,MYL2569OO001
+Vestland Bhd,Industrials,VLB.KL,EQ,MYQ0273OO001
+CPE Technology Bhd,Industrials,CPETECH.KL,EQ,MYL5317OO002
+Harbour-Link Group Bhd.,Industrials,HARBOUR.KL,EQ,MYL2062OO007
+SKP Resources Bhd.,Industrials,SKPRES.KL,EQ,MYL7155OO004
+MSM Malaysia Holdings Bhd.,Materials,MSM.KL,EQ,MYL5202OO006
+KJTS Group Berhad,Industrials,KJTS.KL,EQ,MYQ0293OO009
+Cuckoo International (Mal) Bhd,Consumer Discretionary,CKI.KL,EQ,MYL5336OO002
+Azam Jaya Bhd,Industrials,AZAMJAYA.KL,EQ,MYL5329OO007
+Kenanga Investment Bank Bhd.,Financials,KENANGA.KL,EQ,MYL6483OO001
+Magma Group Bhd,Financials,MAGMA.KL,EQ,MYL7243OO008
+Karex Bhd.,Industrials,KAREX.KL,EQ,MYL5247OO001
+D&O Green Technologies Bhd.,Technology,D&O.KL,EQ,MYL7204OO000
+Coraza Integrated Technology Bhd,Industrials,CORAZA.KL,EQ,MYQ0240OO000
+Powerwell Holdings Bhd.,Industrials,PWRWELL.KL,EQ,MYQ0217OO008
+Menang Corporation (M) Berhad,Industrials,MENANG.KL,EQ,MYL1694OO008
+Seng Fong Holdings Bhd,Industrials,SENFONG.KL,EQ,MYL5308OO001
+EWI Capital Bhd,Financials,EWICAP.KL,EQ,MYL5283OO006
+Land & General Bhd.,Financials,L&G.KL,EQ,MYL3174OO009
+Able Global Bhd,Materials,ABLEGLOB.KL,EQ,MYL7167OO009
+ELK-Desa Resources Bhd.,Financials,ELKDESA.KL,EQ,MYL5228OO001
+Teo Seng Capital Bhd.,Materials,TEOSENG.KL,EQ,MYL7252OO009
+Hiap Teck Venture Bhd.,Industrials,HIAPTEK.KL,EQ,MYL5072OO003
+Reach Ten Holdings Berhad,Communication Services,REACHTEN.KL,EQ,MYL5332OO001
+Apollo Food Holdings Bhd.,Consumer Staples,APOLLO.KL,EQ,MYL6432OO008
+Power Root Bhd.,Consumer Staples,PWROOT.KL,EQ,MYL7237OO000
+Supercomnet Technologies Bhd.,Industrials,SCOMNET.KL,EQ,MYQ0001OO006
+Citaglobal Bhd,Industrials,CITAGLB.KL,EQ,MYL7245OO003
+Mitrajaya Holdings Bhd.,Industrials,MITRA.KL,EQ,MYL9571OO000
+Deleum Bhd.,Industrials,DELEUM.KL,EQ,MYL5132OO005
+Luxchem Corp. Bhd.,Industrials,LUXCHEM.KL,EQ,MYL5143OO002
+KTI Landmark Bhd.,Financials,KTI.KL,EQ,MYQ0308OO005
+Skyworld Development Bhd,Financials,SKYWLD.KL,EQ,MYL5315OO006
+Poh Kong Holdings Bhd.,Consumer Discretionary,POHKONG.KL,EQ,MYL5080OO006
+Harrisons Holdings Malaysia Bhd.,Industrials,HARISON.KL,EQ,MYL5008OO007
+Suria Capital Holdings Bhd.,Industrials,SURIA.KL,EQ,MYL6521OO008
+Southern Acids (Malaysia) Bhd.,Financials,SAB.KL,EQ,MYL5134OO001
+EcoFirst Consolidated Bhd,Financials,ECOFIRS.KL,EQ,MYL3557OO005
+OCK Group Bhd.,Industrials,OCK.KL,EQ,MYQ0172OO005
+Perdana Petroleum Bhd.,Industrials,PERDANA.KL,EQ,MYL7108OO003
+I-Berhad,Financials,IBHD.KL,EQ,MYL4251OO004
+Critical Holdings Bhd.,Industrials,CHB.KL,EQ,MYQ0291OO003
+Wellspire Holdings Bhd.,Industrials,WELLS.KL,EQ,MYQ0271OO005
+Berjaya Food Bhd.,Consumer Discretionary,BJFOOD.KL,EQ,MYL5196OO000
+Fima Corp. Bhd.,Materials,FIMACOR.KL,EQ,MYL3107OO009
+FCW Holdings Bhd.,Consumer Staples,FCW.KL,EQ,MYL2755OO006
+Tiong Nam Logistics Holdings Bhd.,Industrials,TNLOGIS.KL,EQ,MYL8397OO001
+Pantech Global Bhd.,Materials,PGLOBAL.KL,EQ,MYL5331OO003
+BEDI Berhad,Financials,BEDI.KL,EQ,MYL6378OO003
+Unitrade Industries Bhd,Industrials,UNITRAD.KL,EQ,MYQ0247OO005
+Avangaad Bhd,Industrials,AVANGAAD.KL,EQ,MYL5259OO006
+Panasonic Manufacturing Malaysia Bhd.,Consumer Discretionary,PANAMY.KL,EQ,MYL3719OO001
+Harn Len Corporation Bhd.,Consumer Discretionary,HARNLEN.KL,EQ,MYL7501OO009
+Muhibbah Engineering (M) Bhd.,Industrials,MUHIBAH.KL,EQ,MYL5703OO003
+Favelle Favco Bhd.,Industrials,FAVCO.KL,EQ,MYL7229OO007
+C.I. Holdings Bhd.,Industrials,CIHLDG.KL,EQ,MYL2828OO001
+Meta Bright Group Bhd,Consumer Discretionary,MBRIGHT.KL,EQ,MYL2097OO003
+Kimlun Corp. Bhd.,Industrials,KIMLUN.KL,EQ,MYL5171OO003
+Varia Berhad,Financials,VARIA.KL,EQ,MYL5006OO001
+Qes Group Bhd,Technology,QES.KL,EQ,MYQ0196OO004
+Zhulian Corporation Bhd.,Industrials,ZHULIAN.KL,EQ,MYL5131OO007
+Negri Sembilan Oil Palms Bhd.,Materials,NSOP.KL,EQ,MYL2038OO007
+Naim Holdings Bhd.,Industrials,NAIM.KL,EQ,MYL5073OO001
+Kluang Rubber Co. (Malaya) Bhd.,Materials,KLUANG.KL,EQ,MYL2453OO008
+Evergreen Max Cash Capital Bhd,Consumer Discretionary,EMCC.KL,EQ,MYQ0286OO003
+WTK Holdings Bhd.,Materials,WTK.KL,EQ,MYL4243OO001
+Ann Joo Resources Bhd.,Industrials,ANNJOO.KL,EQ,MYL6556OO004
+XL Holdings Bhd,Materials,XL.KL,EQ,MYL7121OO006
+CAB Cakaran Corp. Bhd.,Materials,CAB.KL,EQ,MYL7174OO005
+Engtex Group Bhd.,Industrials,ENGTEX.KL,EQ,MYL5056OO006
+Uni Wall Aps Holdings Bhd,Industrials,UNIWALL.KL,EQ,MYL03017O000
+M & A Equity Holdings Bhd,Financials,M&A.KL,EQ,MYL7082OO000
+Swift Haulage Berhad,Industrials,SWIFT.KL,EQ,MYL5303OO002
+GIIB Holdings Bhd,Industrials,GIIB.KL,EQ,MYL7192OO007
+UUE Holdings Berhad,Industrials,UUE.KL,EQ,MYQ0310OO001
+TDM Bhd.,Materials,TDM.KL,EQ,MYL2054OO004
+Mynews Holdings Bhd,Industrials,MYNEWS.KL,EQ,MYL5275OO002
+Oppstar Berhad,Technology,OPPSTAR.KL,EQ,MYQ0275OO006
+Yew Lee Pacific Group Bhd.,Industrials,YEWLEE.KL,EQ,MYQ0248OO003
+Tambun Indah Land Bhd.,Financials,TAMBUN.KL,EQ,MYL5191OO001
+Three-A Resources Bhd.,Consumer Staples,3A.KL,EQ,MYQ0012OO003
+MAG Holdings Berhad,Materials,MAG.KL,EQ,MYQ0095OO008
+FM Global Logistics Holdings Bhd,Industrials,FM.KL,EQ,MYL7210OO007
+Atrium Real Estate Investment Trust,Financials,ATRIUM.KL,EQ,MYL5130TO008
+RGB International Bhd.,Consumer Discretionary,RGB.KL,EQ,MYQ0037OO000
+Autocount Dotcom Bhd,Technology,ADB.KL,EQ,MYQ0276OO004
+Kumpulan Kitacon Berhad,Consumer Discretionary,KITACON.KL,EQ,MYL5310OO007
+Paragon Union Bhd.,Industrials,PARAGON.KL,EQ,MYL9407OO007
+Rimbunan Sawit Bhd.,Materials,RSAWIT.KL,EQ,MYL5113OO005
+Pansar Bhd.,Industrials,PANSAR.KL,EQ,MYL8419OO003
+MHC Plantations Bhd.,Materials,MHC.KL,EQ,MYL5026OO009
+KKB Engineering Bhd.,Materials,KKB.KL,EQ,MYL9466OO003
+Gopeng Bhd.,Materials,GOPENG.KL,EQ,MYL2135OO001
+Media Prima Bhd.,Consumer Discretionary,MEDIA.KL,EQ,MYL4502OO000
+Focus Point Holdings Bhd.,Consumer Discretionary,FOCUSP.KL,EQ,MYQ0157OO006
+Tan Chong Motor Holdings Bhd.,Consumer Discretionary,TCHONG.KL,EQ,MYL4405OO006
+Country View Bhd.,Financials,CVIEW.KL,EQ,MYL5049OO001
+SSF Home Group Bhd,Consumer Discretionary,SSF.KL,EQ,MYQ0287OO001
+Astro Malaysia Holdings Bhd.,Consumer Discretionary,ASTRO.KL,EQ,MYL6399OO009
+Concrete Engineering Products Bhd.,Materials,CEPCO.KL,EQ,MYL8435OO009
+United U-LI Corp. Bhd.,Industrials,ULICORP.KL,EQ,MYL7133OO001
+PJBUMI BERHAD,Financials,PJBUMI.KL,EQ,MYL7163OO008
+Al-Salam Real Estate Investment Trust,Financials,ALSREIT.KL,EQ,MYL5269TO004
+Seal Incorporated Berhad,Financials,SEAL.KL,EQ,MYL4286OO000
+Maybulk Bhd,Industrials,MAYBULK.KL,EQ,MYL5077OO002
+PGF Capital Bhd,Materials,PGF.KL,EQ,MYL8117OO003
+Kawan Food Bhd.,Consumer Staples,KAWAN.KL,EQ,MYL7216OO004
+Can-One Bhd.,Materials,CANONE.KL,EQ,MYL5105OO001
+Y.S.P. Southeast Asia Holding Bhd.,Health Care,YSPSAH.KL,EQ,MYL7178OO006
+CE Technology Bhd.,Industrials,CETECH.KL,EQ,MYL03024O006
+Nestcon Bhd,Consumer Discretionary,NESTCON.KL,EQ,MYQ0235OO000
+Hektar Real Estate Investment Trust,Financials,HEKTAR.KL,EQ,MYL5121TO007
+Tex Cycle Technology (M) Bhd.,Industrials,TEXCYCL.KL,EQ,MYQ0089OO001
+Samchem Holdings Bhd.,Industrials,SAMCHEM.KL,EQ,MYL5147OO003
+Solar District Cooling Group Bhd.,Industrials,SDCG.KL,EQ,MYQ0321OO008
+Harvest Miracle Capital Bhd,Technology,HM.KL,EQ,MYQ0060OO002
+Wentel Engineering Holdings Bhd.,Industrials,WENTEL.KL,EQ,MYQ0298OO008
+Optimax Holdings Bhd.,Health Care,OPTIMAX.KL,EQ,MYQ0222OO008
+Kawan Renergy Bhd.,Industrials,KENERGY.KL,EQ,MYQ0307OO007
+Cnergenz Bhd.,Technology,CNERGEN.KL,EQ,MYQ0246OO007
+Kumpulan Perangsang Selangor Bhd.,Utilities,KPS.KL,EQ,MYL5843OO007
+Betamek Bhd,Technology,BETA.KL,EQ,MYQ0263OO002
+Ramssol Group Bhd.,Technology,RAMSSOL.KL,EQ,MYQ0236OO008
+TASCO Bhd,Industrials,TASCO.KL,EQ,MYL5140OO008
+Titijaya Land Bhd.,Financials,TITIJYA.KL,EQ,MYL5239OO008
+TSA Group Bhd,Industrials,TSA.KL,EQ,MYQ0297OO000
+Leform Bhd,Materials,LEFORM.KL,EQ,MYQ0266OO005
+Sunsuria Berhad,Financials,SUNSURIA.KL,EQ,MYL3743OO001
+Gagasan Nadi Cergas Bhd.,Consumer Discretionary,NADIBHD.KL,EQ,MYQ0206OO001
+Oxford Innotech Bhd.,Industrials,OXB.KL,EQ,MYQ0368OO009
+Boustead Heavy Industries Corporation Bhd.,Industrials,BHIC.KL,EQ,MYL8133OO000
+Bina Puri Holdings Bhd.,Industrials,BPURI.KL,EQ,MYL5932OO008
+SLP Resources Bhd.,Industrials,SLP.KL,EQ,MYL7248OO007
+Cape EMS Bhd,Technology,CEB.KL,EQ,MYL5311OO005
+Marine & General Bhd,Industrials,M&G.KL,EQ,MYL5078OO000
+Muda Holdings Bhd.,Materials,MUDA.KL,EQ,MYL3883OO005
+JAG Berhad,Industrials,JAG.KL,EQ,MYQ0024OO008
+MGB Bhd,Consumer Discretionary,MGB.KL,EQ,MYL7595OO001
+3Ren Bhd,Industrials,3REN.KL,EQ,MYQ0328OO003
+DutaLand Bhd.,Materials,DUTALND.KL,EQ,MYL3948OO006
+Glomac Bhd.,Financials,GLOMAC.KL,EQ,MYL5020OO002
+Asia File Corporation Bhd.,Materials,ASIAFLE.KL,EQ,MYL7129OO009
+Versatile Creative Bhd.,Materials,VERSATL.KL,EQ,MYL4995OO006
+Formosa Prosonic Industries Bhd.,Industrials,FPI.KL,EQ,MYL9172OO007
+Oriental Food Industries Holdings Bhd.,Consumer Staples,OFI.KL,EQ,MYL7107OO005
+AVALAND Bhd,Financials,AVALAND.KL,EQ,MYL5182OO000
+Senheng New Retail Berhad,Consumer Discretionary,SENHENG.KL,EQ,MYL5305OO007
+REDtone Digital Berhad,Communication Services,REDTONE.KL,EQ,MYQ0032OO001
+Tomei Consolidated Bhd.,Consumer Discretionary,TOMEI.KL,EQ,MYL7230OO005
+Inta Bina Group Bhd.,Consumer Discretionary,INTA.KL,EQ,MYQ0192OO003
+Tong Herr Resources Bhd.,Industrials,TONGHER.KL,EQ,MYL5010OO003
+Northern Solar Holdings Bhd.,Industrials,NORTHERN.KL,EQ,MYQ0340OO008
+Uzma Bhd.,Industrials,UZMA.KL,EQ,MYL7250OO003
+Astino Bhd.,Industrials,ASTINO.KL,EQ,MYL7162OO000
+Icents Group Holdings Berhad,Industrials,ICENTS.KL,EQ,MYQ0366OO003
+Cyberjaya Education Group Bhd,Consumer Discretionary,CYBERE.KL,EQ,MYL5166OO003
+P.A. Resources Berhad,Materials,PA.KL,EQ,MYL7225OO005
+HIL Industries Bhd.,Industrials,HIL.KL,EQ,MYL8443OO003
+JHM Consolidation Bhd.,Technology,JHM.KL,EQ,MYQ0127OO009
+JKG Land Bhd.,Financials,JKGLAND.KL,EQ,MYL6769OO003
+Yenher Holdings Bhd.,Materials,YENHER.KL,EQ,MYL5300OO008
+Yoong Onn Corp. Bhd.,Consumer Discretionary,YOCB.KL,EQ,MYL5159OO008
+PWF Corp. Bhd.,Materials,PWF.KL,EQ,MYL7134OO009
+Mercury Securities Group Bhd.,Financials,MERSEC.KL,EQ,MYQ0285OO005
+T7 Global Berhad,Industrials,T7GLOBAL.KL,EQ,MYL7228OO009
+Sunmow Holding Bhd,Industrials,SUNMOW.KL,EQ,MYL03050O001
+Sunmow Holding Bhd Cum-Red Non Conv Pref Registered Shs 2024,Industrials,SUNMOW-PA.KL,EQ,MYL030501695
+TAFI Industries Bhd.,Consumer Discretionary,TAFI.KL,EQ,MYL7211OO005
+Genetec Technology Bhd.,Industrials,GENETEC.KL,EQ,MYQ0104OO008
+Cepatwawasan Group Bhd.,Materials,CEPAT.KL,EQ,MYL8982OO000
+Magna Prima Bhd.,Financials,MAGNA.KL,EQ,MYL7617OO003
+NTPM Holdings Bhd.,Consumer Staples,NTPM.KL,EQ,MYL5066OO005
+Globaltec Formation Bhd.,Industrials,GLOTEC.KL,EQ,MYL5220OO008
+Cloudpoint Technology Bhd,Technology,CLOUDPT.KL,EQ,MYQ0277OO002
+Kerjaya Prospek Property Bhd.,Financials,KPPROP.KL,EQ,MYL7077OO000
+Salcon Bhd.,Industrials,SALCON.KL,EQ,MYL8567OO009
+AmFIRST Real Estate Investment Trust,Financials,AMFIRST.KL,EQ,MYL5120TO009
+AmanahRaya Real Estate Investment Trust,Financials,ARREIT.KL,EQ,MYL5127TO004
+Pesona Metro Holdings Bhd.,Industrials,PESONA.KL,EQ,MYL8311OO002
+HE Group Bhd,Industrials,HEGROUP.KL,EQ,MYQ0296OO002
+Chin Well Holdings Bhd.,Industrials,CHINWEL.KL,EQ,MYL5007OO009
+JcbNext Bhd.,Industrials,JCBNEXT.KL,EQ,MYQ0058OO006
+HSS Engineers Bhd.,Industrials,HSSEB.KL,EQ,MYQ0185OO007
+MCE Holdings Bhd.,Industrials,MCEHLDG.KL,EQ,MYL7004OO004
+Sunview Group Bhd,Industrials,SUNVIEW.KL,EQ,MYQ0262OO004
+Perak Transit Bhd.,Industrials,PTRANS.KL,EQ,MYQ0186OO005
+Petra Energy Bhd.,Industrials,PENERGY.KL,EQ,MYL5133OO003
+Pos Malaysia Bhd.,Industrials,POS.KL,EQ,MYL4634OO001
+Notion VTec Bhd.,Industrials,NOTION.KL,EQ,MYQ0083OO004
+Selangor Dredging Bhd.,Financials,SDRED.KL,EQ,MYL2224OO003
+Metro Healthcare Bhd.,Health Care,METRO.KL,EQ,MYQ0329OO001
+LB Aluminium Bhd.,Materials,LBALUM.KL,EQ,MYL9326OO009
+Enproserve Group Bhd.,Consumer Discretionary,ENPRO.KL,EQ,MYQ0367OO001
+HeiTech Padu Bhd.,Technology,HTPADU.KL,EQ,MYL5028OO005
+Eversendai Corp Bhd.,Industrials,SENDAI.KL,EQ,MYL5205OO009
+Tune Protect Group Bhd.,Financials,TUNEPRO.KL,EQ,MYL5230OO007
+LGMS Bhd,Technology,LGMS.KL,EQ,MYQ0249OO001
+Fibromat (M) Bhd.,Materials,FIBRO.KL,EQ,MYQ0355OO006
+New Hoong Fatt Holdings Bhd.,Industrials,NHFATT.KL,EQ,MYL7060OO006
+SDS Group Bhd.,Consumer Staples,SDS.KL,EQ,MYQ0212OO009
+PMCK Berhad,Health Care,PMCK.KL,EQ,MYQ0363OO000
+Jati Tinggi Group Bhd,Industrials,JTGROUP.KL,EQ,MYQ0292OO001
+Hextar Retail Bhd,Consumer Discretionary,HEXRTL.KL,EQ,MYL7202OO004
+JAKS Resources Bhd.,Industrials,JAKS.KL,EQ,MYL4723OO002
+IDB Technologies Bhd,Technology,IDBTECH.KL,EQ,MYL03030O003
+Techbond Group Bhd.,Materials,TECHBND.KL,EQ,MYL5289OO003
+Sunzen Group Bhd,Health Care,SUNZEN.KL,EQ,MYQ0148OO005
+Pintaras Jaya Bhd.,Industrials,PTARAS.KL,EQ,MYL9598OO003
+Star Media Group Berhad,Consumer Discretionary,STAR.KL,EQ,MYL6084OO007
+Rhong Khen International Bhd,Consumer Discretionary,RKI.KL,EQ,MYL7006OO009
+Iskandar Waterfront City Berhad,Industrials,IWCITY.KL,EQ,MYL1589OO000
+Foundpac Group Bhd.,Technology,FPGROUP.KL,EQ,MYL5277OO008
+Feytech Holdings Bhd,Industrials,FEYTECH.KL,EQ,MYL5322OO002
+Advance Synergy Bhd.,Consumer Discretionary,ASB.KL,EQ,MYL1481OO000
+Pan Merchant Bhd,Industrials,PMIBHD.KL,EQ,MYQ0361OO004
+Unimech Group Bhd.,Industrials,UNIMECH.KL,EQ,MYL7091OO001
+MK Land Holdings Bhd.,Financials,MKLAND.KL,EQ,MYL8893OO009
+AwanBiru Technology Bhd.,Technology,AWANTEC.KL,EQ,MYL5204OO002
+Parkson Holdings Bhd.,Consumer Discretionary,PARKSON.KL,EQ,MYL5657OO001
+Skygate Solutions Bhd,Financials,SKYGATE.KL,EQ,MYL7249OO005
+Maxim Global Bhd.,Materials,MAXIM.KL,EQ,MYL4022OO009
+Riverview Rubber Estates Bhd.,Materials,RVIEW.KL,EQ,MYL2542OO008
+BP Plastics Holding Bhd.,Materials,BPPLAS.KL,EQ,MYL5100OO002
+Lay Hong Bhd.,Materials,LAYHONG.KL,EQ,MYL9385OO005
+Poh Huat Resources Holdings Bhd.,Industrials,POHUAT.KL,EQ,MYL7088OO007
+BesHom Holdings Bhd,Consumer Discretionary,BESHOM.KL,EQ,MYL7668OO006
+Hexza Corp. Bhd.,Materials,HEXZA.KL,EQ,MYL3298OO006
+Analabs Resources Bhd.,Materials,ANALABS.KL,EQ,MYL7083OO008
+ES Sunlogy Berhad,Industrials,SUNLOGY.KL,EQ,MYQ0345OO007
+Edelteq Holdings Bhd,Technology,EDELTEQ.KL,EQ,MYQ0278OO000
+Mudajaya Group Bhd.,Industrials,MUDAJYA.KL,EQ,MYL5085OO005
+Econpile Holdings Bhd,Industrials,ECONBHD.KL,EQ,MYL5253OO009
+K. Seng Seng Corp. Bhd.,Materials,KSSC.KL,EQ,MYL5192OO009
+IRIS Corp. Bhd.,Technology,IRIS.KL,EQ,MYQ0010OO007
+Malaysia Steel Works (KL) Bhd.,Materials,MASTEEL.KL,EQ,MYL5098OO008
+Oasis Home Holding Bhd,Technology,OHM.KL,EQ,MYQ0357OO002
+Aemulus Holdings Bhd.,Technology,AEMULUS.KL,EQ,MYQ0181OO006
+Destini Bhd.,Industrials,DESTINI.KL,EQ,MYL7212OO003
+Bonia Corp. Bhd.,Consumer Discretionary,BONIA.KL,EQ,MYL9288OO001
+Matang Bhd.,Materials,MATANG.KL,EQ,MYQ0189OO009
+Winstar Capital Bhd.,Materials,WINSTAR.KL,EQ,MYQ0336OO006
+BWYS Group Bhd,Industrials,BWYS.KL,EQ,MYQ0313OO005
+SKB Shutters Corp. Bhd.,Industrials,SKBSHUT.KL,EQ,MYL7115OO008
+Homeritz Corp. Bhd.,Consumer Discretionary,HOMERIZ.KL,EQ,MYL5160OO006
+AGX Group Bhd.,Industrials,AGX.KL,EQ,MYQ0299OO006
+Sealink International Bhd.,Industrials,SEALINK.KL,EQ,MYL5145OO007
+EITA Resources Bhd.,Industrials,EITA.KL,EQ,MYL5208OO003
+Public Packages Holdings Bhd.,Materials,PPHB.KL,EQ,MYL8273OO004
+LTKM Bhd.,Materials,LTKM.KL,EQ,MYL7085OO003
+AWC Berhad,Industrials,AWC.KL,EQ,MYL7579OO005
+Asian Pac Holdings Bhd.,Financials,ASIAPAC.KL,EQ,MYL4057OO005
+KESM Industries Bhd.,Industrials,KESM.KL,EQ,MYL9334OO003
+Greentronics Technology Berhad,Industrials,GREENTEC.KL,EQ,MYL7943OO003
+MClean Technologies Bhd.,Industrials,MCLEAN.KL,EQ,MYQ0167OO005
+AppAsia Bhd,Technology,APPASIA.KL,EQ,MYQ0119OO006
+Cengild Medical Bhd.,Health Care,CENGILD.KL,EQ,MYQ0243OO004
+TWL Holdings Bhd,Industrials,TWL.KL,EQ,MYL7079OO006
+Pestec International Berhad,Industrials,PESTEC.KL,EQ,MYL5219OO000
+Topmix Bhd,Industrials,TOPMIX.KL,EQ,MYQ0302OO008
+Rivertree STF Synergies Berhad,Materials,RSSB.KL,EQ,MYL9776OO005
+Eonmetall Group Bhd.,Materials,EMETALL.KL,EQ,MYL7217OO002
+Globetronics Technology Bhd.,Technology,GTRONIC.KL,EQ,MYL7022OO006
+Omesti Bhd.,Technology,OMESTI.KL,EQ,MYL9008OO003
+Jishan Bhd.,Materials,JISHAN.KL,EQ,MYL03040O002
+Unique Fire Holdings Bhd,Industrials,UNIQUE.KL,EQ,MYQ0257OO004
+Crest Group Bhd.,Health Care,CREST.KL,EQ,MYQ0323OO004
+Swift Energy Technology Bhd.,Industrials,SET.KL,EQ,MYQ0337OO004
+N2N Connect Bhd.,Technology,N2N.KL,EQ,MYQ0108OO009
+Timberwell Bhd.,Materials,TIMWELL.KL,EQ,MYL7854OO002
+Colform Group Berhad,Materials,COLFORM.KL,EQ,MYQ0341OO006
+Lii Hen Industries Bhd.,Consumer Discretionary,LIIHEN.KL,EQ,MYL7089OO005
+Elsoft Research Bhd.,Industrials,ELSOFT.KL,EQ,MYQ0090OO009
+UPA Corporation Bhd.,Materials,UPA.KL,EQ,MYL7757OO007
+Pacific & Orient Bhd.,Financials,P&O.KL,EQ,MYL6009OO004
+Hubline Bhd.,Industrials,HUBLINE.KL,EQ,MYL7013OO005
+MTAG Group Berhad,Industrials,MTAG.KL,EQ,MYQ0213OO007
+Rhone Ma Holdings Bhd.,Materials,RHONEMA.KL,EQ,MYL5278OO006
+Malton Bhd.,Financials,MALTON.KL,EQ,MYL6181OO001
+PT Resources Holdings Bhd.,Consumer Staples,PTRB.KL,EQ,MYQ0260OO008
+Niche Capital Emas Holdings Bhd.,Consumer Discretionary,NICE.KL,EQ,MYL7139OO008
+George Kent (Malaysia) Bhd.,Industrials,GKENT.KL,EQ,MYL3204OO004
+LFE Corporation Bhd,Industrials,LFECORP.KL,EQ,MYL7170OO003
+Malayan United Industries Bhd.,Consumer Discretionary,MUIIND.KL,EQ,MYL3891OO008
+Tower Real Estate Investment Trust,Financials,TWRREIT.KL,EQ,MYL5111TO008
+Eurospan Holdings Bhd.,Consumer Discretionary,EUROSP.KL,EQ,MYL7094OO005
+Dancomech Holdings Bhd,Industrials,DANCO.KL,EQ,MYL5276OO000
+Seni Jaya Corp. Bhd.,Industrials,SJC.KL,EQ,MYL9431OO007
+Metrod Holdings Bhd.,Industrials,METROD.KL,EQ,MYL6149OO008
+Milux Corp. Bhd.,Consumer Discretionary,MILUX.KL,EQ,MYL7935OO009
+Apex Equity Holdings Bhd.,Financials,APEX.KL,EQ,MYL5088OO009
+FBG Holdings Berhad,Industrials,FBG.KL,EQ,MYL7047OO003
+Khee San Bhd.,Consumer Staples,KHEESAN.KL,EQ,MYL6203OO003
+DPS Resources Bhd.,Financials,DPS.KL,EQ,MYL7198OO004
+Willowglen MSC Bhd.,Technology,WILLOW.KL,EQ,MYQ0008OO001
+Jentayu Sustainables Bhd.,Industrials,JSB.KL,EQ,MYL5673OO008
+WaveFront Bhd,Materials,WAVEFRNT.KL,EQ,MYL8176OO009
+Aurora Italia International Bhd.,Consumer Discretionary,AURORA.KL,EQ,MYL03037O008
+Farm Price Holdings Bhd.,Industrials,FPHB.KL,EQ,MYQ0304OO004
+Sumisaujana Group Berhad,Financials,SUMI.KL,EQ,MYQ0349OO009
+Cropmate Bhd.,Materials,CRPMATE.KL,EQ,MYQ0331OO007
+OpenSys (M) Bhd.,Technology,OPENSYS.KL,EQ,MYQ0040OO004
+Success Transformer Corp. Bhd.,Industrials,SUCCESS.KL,EQ,MYL7207OO003
+Subur Tiasa Holdings Bhd.,Materials,SUBUR.KL,EQ,MYL6904OO006
+DKLS Industries Bhd.,Materials,DKLS.KL,EQ,MYL7528OO002
+ICT Zone Asia Bhd.,Technology,ICTZONE.KL,EQ,MYQ0358OO000
+Chemlite Innovation Berhad,Materials,CLITE.KL,EQ,MYQ0348OO001
+Panda Eco System Bhd,Technology,PANDA.KL,EQ,MYQ0290OO005
+Infoline Tec Group Bhd,Technology,INFOTEC.KL,EQ,MYQ0253OO003
+FACB Industries Inc. Bhd.,Consumer Discretionary,FACBIND.KL,EQ,MYL2984OO002
+OCR Group Bhd,Financials,OCR.KL,EQ,MYL7071OO003
+MUI Properties Bhd.,Financials,MUIPROP.KL,EQ,MYL3913OO000
+Silver Ridge Holdings Bhd.,Communication Services,SRIDGE.KL,EQ,MYQ0129OO005
+HPP Holdings Bhd,Materials,HPPHB.KL,EQ,MYQ0228OO005
+Gadang Holdings Bhd.,Industrials,GADANG.KL,EQ,MYL9261OO008
+Alam Maritim Resources Bhd.,Industrials,ALAM.KL,EQ,MYL5115OO000
+ECA Integrated Solution Bhd,Technology,ECA.KL,EQ,MYQ0267OO003
+A1 A.K. Koh Group Bhd.,Industrials,A1AKK.KL,EQ,MYQ0365OO005
+Mestron Holdings Bhd.,Industrials,MESTRON.KL,EQ,MYQ0207OO009
+TRC Synergy Bhd.,Industrials,TRC.KL,EQ,MYL5054OO001
+Astramina Group Bhd.,Consumer Staples,ASTRA.KL,EQ,MYL03032O009
+Eduspec Holdings Bhd.,Consumer Discretionary,EDUSPEC.KL,EQ,MYQ0107OO001
+EP Manufacturing Bhd.,Industrials,EPMB.KL,EQ,MYL7773OO004
+GFM Services Bhd.,Industrials,GFM.KL,EQ,MYQ0039OO006
+Aimflex Bhd.,Technology,AIMFLEX.KL,EQ,MYQ0209OO005
+Bintai Kinden Corp. Bhd.,Industrials,BINTAI.KL,EQ,MYL6998OO008
+Dominant Enterprise Bhd.,Materials,DOMINAN.KL,EQ,MYL7169OO005
+IFCA MSC Bhd.,Technology,IFCAMSC.KL,EQ,MYQ0023OO000
+SBH Marine Holdings Bhd.,Consumer Staples,SBH.KL,EQ,MYQ0300OO002
+FSBM Holdings Bhd.,Technology,FSBM.KL,EQ,MYL9377OO002
+Systech Bhd.,Technology,SYSTECH.KL,EQ,MYQ0050OO003
+Leon Fuat Bhd.,Materials,LEONFB.KL,EQ,MYL5232OO003
+Radiant Globaltech Bhd.,Technology,RGTECH.KL,EQ,MYQ0202OO000
+Lotus Kfm Bhd,Materials,LOTUS.KL,EQ,MYL8303OO009
+Lebtech Bhd.,Industrials,LEBTECH.KL,EQ,MYL9628OO008
+Pasdec Holdings Bhd.,Financials,PASDEC.KL,EQ,MYL6912OO009
+MMIS Bhd.,Industrials,MMIS.KL,EQ,MYL03027O009
+DS Sigma Holdings Berhad,Materials,DSS.KL,EQ,MYQ0269OO009
+YNH Property Bhd.,Financials,YNHPROP.KL,EQ,MYL3158OO002
+Symphony Life Bhd.,Financials,SYMLIFE.KL,EQ,MYL1538OO007
+Kein Hing International Bhd.,Industrials,KEINHIN.KL,EQ,MYL7199OO002
+Nova MSC Bhd.,Technology,NOVAMSC.KL,EQ,MYQ0026OO003
+Kim Hin Industry Bhd.,Industrials,KIMHIN.KL,EQ,MYL5371OO009
+SHH Resources Holdings Bhd.,Consumer Discretionary,SHH.KL,EQ,MYL7412OO009
+ENRA Group Bhd.,Industrials,ENRA.KL,EQ,MYL8613OO001
+PLS Plantations Bhd.,Industrials,PLS.KL,EQ,MYL9695OO007
+UMediC Group Bhd.,Health Care,UMC.KL,EQ,MYQ0256OO006
+Catcha Digital Bhd,Industrials,CATCHA.KL,EQ,MYQ0173OO003
+Euro Holdings Bhd.,Consumer Discretionary,EURO.KL,EQ,MYL7208OO001
+Hextar Capital Bhd,Industrials,HEXCAP.KL,EQ,MYQ0035OO004
+Innature bhd,Consumer Discretionary,INNATURE.KL,EQ,MYL5295OO000
+Asia Brands Bhd.,Industrials,ASIABRN.KL,EQ,MYL7722OO001
+TT Vision Holdings Bhd.,Technology,TTVHB.KL,EQ,MYQ0272OO003
+Microlink Solutions Bhd.,Industrials,MICROLN.KL,EQ,MYQ0126OO001
+Marco Holdings Bhd.,Industrials,MARCO.KL,EQ,MYL3514OO006
+Novelplus Technology Bhd,Technology,NP.KL,EQ,MYL03045O001
+Iconic Worldwide Bhd.,Consumer Discretionary,ICONIC.KL,EQ,MYL9113OO001
+Prestar Resources Bhd.,Industrials,PRESTAR.KL,EQ,MYL9873OO000
+Greenyield Bhd.,Industrials,GREENYB.KL,EQ,MYQ0136OO000
+OKA Corporation Bhd.,Materials,OKA.KL,EQ,MYL7140OO006
+Perusahaan Sadur Timah Malaysia (Perstima) Bhd.,Materials,PERSTIM.KL,EQ,MYL5436OO000
+Tien Wah Press Holdings Bhd.,Industrials,TIENWAH.KL,EQ,MYL7374OO001
+MST Golf Group Bhd,Consumer Discretionary,MSTGOLF.KL,EQ,MYL5316OO004
+PUC Bhd,Industrials,PUC.KL,EQ,MYQ0007OO003
+Advancecon Holdings Bhd.,Industrials,ADVCON.KL,EQ,MYL5281OO000
+White Horse Bhd.,Industrials,WTHORSE.KL,EQ,MYL5009OO005
+XIN Synergy Grp Bhd,Materials,XIN.KL,EQ,MYL7043OO002
+Nova Wellness Group Bhd.,Health Care,NOVA.KL,EQ,MYQ0201OO002
+Censof Holdings Bhd.,Technology,CENSOF.KL,EQ,MYL5195OO002
+DC Healthcare Holdings Bhd,Health Care,DCHCARE.KL,EQ,MYQ0283OO000
+ECM Libra Group Bhd.,Consumer Discretionary,ECM.KL,EQ,MYL2143OO005
+Superlon Holdings Bhd.,Materials,SUPERLN.KL,EQ,MYL7235OO004
+PLYTEC Holding Berhad,Industrials,PLYTEC.KL,EQ,MYQ0289OO007
+Agmo Holdings Bhd.,Technology,AGMO.KL,EQ,MYQ0258OO002
+OSK Ventures International Bhd.,Financials,OSKVI.KL,EQ,MYQ0053OO007
+Evergreen Fibreboard Bhd.,Industrials,EVERGRN.KL,EQ,MYL5101OO000
+Openmove AI Berhad,Technology,OMAI.KL,EQ,MYQ0106OO003
+Lysaght Galvanized Steel Bhd.,Materials,LYSAGHT.KL,EQ,MYL9199OO000
+Reservoir Link Energy Bhd,Industrials,RL.KL,EQ,MYQ0219OO004
+Excel Force MSC Bhd.,Technology,EFORCE.KL,EQ,MYQ0065OO001
+Carimin Petroleum Bhd,Industrials,CARIMIN.KL,EQ,MYL5257OO000
+Talam Transform Berhad,Financials,TALAMT.KL,EQ,MYL2259OO009
+KPS Consortium Bhd.,Industrials,KPSCB.KL,EQ,MYL9121OO004
+EUPE Corp. Bhd.,Financials,EUPE.KL,EQ,MYL6815OO004
+Jasa Kita Bhd.,Industrials,JASKITA.KL,EQ,MYL8648OO007
+NuEnergy Holdings Bhd,Utilities,NHB.KL,EQ,MYL5614OO002
+Choo Bee Metal Industries Bhd.,Materials,CHOOBEE.KL,EQ,MYL5797OO005
+Lotus Circular Bhd,Consumer Discretionary,LOTUSCIR.KL,EQ,MYL7234OO007
+Crest Builder Holdings Bhd.,Industrials,CRESBLD.KL,EQ,MYL8591OO009
+Econframe Bhd,Industrials,EFRAME.KL,EQ,MYQ0227OO007
+BCB BHD,Financials,BCB.KL,EQ,MYL6602OO006
+Sarawak Consolidated Industries Bhd.,Materials,SCIB.KL,EQ,MYL9237OO008
+Gromutual Bhd.,Financials,GMUTUAL.KL,EQ,MYL9962OO001
+SMRT Holdings Berhad,Industrials,SMRT.KL,EQ,MYQ0117OO000
+PLB Engineering Bhd.,Consumer Discretionary,PLB.KL,EQ,MYL7055OO006
+Carlo Rino Group Bhd,Consumer Discretionary,CARLORINO.KL,EQ,MYQ0335OO008
+Synergy House Bhd,Consumer Discretionary,SYNERGY.KL,EQ,MYQ0279OO008
+PEOPLElogy Bhd,Technology,PEOPLE.KL,EQ,MYQ0356OO004
+VETECE Holdings Berhad,Technology,VTC.KL,EQ,MYQ0319OO002
+Protasco Bhd.,Industrials,PRTASCO.KL,EQ,MYL5070OO007
+Tek Seng Holdings Bhd.,Materials,TEKSENG.KL,EQ,MYL7200OO008
+Kronologi Asia Bhd.,Technology,KRONO.KL,EQ,MYQ0176OO006
+Steel Hawk Bhd.,Energy,HAWK.KL,EQ,MYQ0320OO000
+Minho (Malaysia) Bhd.,Materials,MINHO.KL,EQ,MYL5576OO003
+OCB Bhd.,Industrials,OCB.KL,EQ,MYL5533OO004
+Sin Heng Chan (Malaya) Bhd.,Materials,SHCHAN.KL,EQ,MYL4316OO005
+Rapid Synergy Bhd.,Financials,RAPID.KL,EQ,MYL7765OO000
+EPB Group Berhad,Industrials,EPB.KL,EQ,MYQ0317OO006
+Resintech Bhd.,Industrials,RESINTC.KL,EQ,MYL7232OO001
+CJ Century Logistics Holdings Bhd.,Industrials,CJCEN.KL,EQ,MYL7117OO004
+Compugates Holdings Bhd.,Industrials,COMPUGT.KL,EQ,MYL5037OO006
+Oversea Enterprise Bhd.,Consumer Discretionary,OVERSEA.KL,EQ,MYQ0153OO005
+Luster Industries Bhd.,Industrials,LUSTER.KL,EQ,MYL5068OO001
+Axteria Group Bhd,Financials,AXTERIA.KL,EQ,MYL7120OO008
+SCGM Bhd.,Materials,SCGM.KL,EQ,MYL7247OO009
+Sin-Kung Logistics Bhd.,Industrials,SINKUNG.KL,EQ,MYQ0305OO001
+TPC Plus Bhd.,Consumer Staples,TPC.KL,EQ,MYL7176OO000
+Ken Holdings Bhd.,Industrials,KEN.KL,EQ,MYL7323OO008
+Kim Teck Cheong Consolidated Bhd.,Industrials,KTC.KL,EQ,MYQ0180OO008
+UCI Resources Bhd.,Materials,UTAMA.KL,EQ,MYL03043O006
+Ocean Vantage Holdings Bhd.,Industrials,OVH.KL,EQ,MYQ0220OO002
+AYS Ventures Bhd.,Industrials,AYS.KL,EQ,MYL5021OO000
+Texchem Resources Bhd.,Industrials,TEXCHEM.KL,EQ,MYL8702OO002
+Baba Eco Group Bhd,Industrials,BABA.KL,EQ,MYL03012O001
+TECHSTORE BERHAD,Technology,TECHSTORE.KL,EQ,MYQ0343OO002
+Rohas Tecnic Bhd.,Industrials,ROHAS.KL,EQ,MYL9741OO009
+Master-Pack Group Bhd.,Materials,MASTER.KL,EQ,MYL7029OO001
+K-One Technology Bhd.,Technology,K1.KL,EQ,MYQ0111OO003
+Gabungan AQRS Bhd.,Industrials,GBGAQRS.KL,EQ,MYL5226OO005
+Scope Industries Bhd.,Technology,SCOPE.KL,EQ,MYQ0028OO009
+Supreme Consolidated Resources Bhd,Industrials,SUPREME.KL,EQ,MYQ0330OO009
+Alcom Group Bhd.,Materials,ALCOM.KL,EQ,MYL2674OO009
+Taghill Holdings Bhd,Industrials,TAGHILL.KL,EQ,MYQ0241OO008
+HHRG BERHAD,Materials,HHRG.KL,EQ,MYQ0175OO008
+Cuscapi Bhd.,Industrials,CUSCAPI.KL,EQ,MYQ0051OO001
+Mycron Steel Bhd.,Materials,MYCRON.KL,EQ,MYL5087OO001
+YBS International Bhd.,Industrials,YBS.KL,EQ,MYQ0025OO005
+TAS Offshore Bhd.,Industrials,TAS.KL,EQ,MYL5149OO009
+Hua Yang Bhd.,Financials,HUAYANG.KL,EQ,MYL5062OO004
+Glostrext Bhd,Industrials,GLXT.KL,EQ,MYQ0284OO008
+Aneka Jaringan Holdings Bhd,Industrials,ANEKA.KL,EQ,MYQ0226OO009
+AURO Holdings Bhd,Materials,AURO.KL,EQ,MYL5025OO001
+Lion Industries Corp. Bhd.,Materials,LIONIND.KL,EQ,MYL4235OO007
+Comfort Gloves Bhd.,Industrials,COMFORT.KL,EQ,MYL2127OO008
+Eden Inc. Berhad,Utilities,EDEN.KL,EQ,MYL7471OO005
+Muar Ban Lee Group Bhd.,Materials,MBL.KL,EQ,MYL5152OO003
+Agricore CS Holdings Bhd,Industrials,AGRICOR.KL,EQ,MYQ0309OO003
+AIZO Group Berhad,Industrials,AIZO.KL,EQ,MYL7219OO008
+ETA Group Berhad,Consumer Staples,ETA.KL,EQ,MYL9946OO004
+One Glove Group Bhd,Health Care,ONEGLOVE.KL,EQ,MYL5079OO008
+Epicon Bhd,Consumer Discretionary,EPICON.KL,EQ,MYL4847OO009
+Teo Guan Lee Corp. Bhd.,Consumer Staples,TGL.KL,EQ,MYL9369OO009
+Puncak Niaga Holdings Bhd.,Utilities,PUNCAK.KL,EQ,MYL6807OO001
+Haily Group Bhd.,Consumer Discretionary,HAILY.KL,EQ,MYQ0237OO006
+Only World Group Holdings Bhd.,Consumer Discretionary,OWG.KL,EQ,MYL5260OO004
+ES Ceramics Technology Bhd.,Materials,ESCERAM.KL,EQ,MYQ0100OO006
+Teck Guan Perdana Bhd.,Materials,TECGUAN.KL,EQ,MYL7439OO002
+Seers Bhd.,Industrials,SEERS.KL,EQ,MYL03009O007
+Manforce Group Bhd. TEMP,Industrials,MFGROUP.KL,EQ,MYQ0450OO005
+DPI Holdings Bhd.,Materials,DPIH.KL,EQ,MYQ0205OO003
+Theta Edge Bhd.,Technology,THETA.KL,EQ,MYL9075OO002
+YX Precious Metals Bhd,Consumer Discretionary,YXPM.KL,EQ,MYQ0250OO009
+Zecon Bhd.,Industrials,ZECON.KL,EQ,MYL7028OO003
+Dynafront Holdings Bhd.,Technology,DYNAFNT.KL,EQ,MYL03046O009
+Lee Swee Kiat Group Bhd.,Materials,LEESK.KL,EQ,MYL8079OO005
+West River Bhd.,Industrials,WESTRVR.KL,EQ,MYQ0353OO001
+Kumpulan H&L High-Tech Bhd.,Industrials,HIGHTEC.KL,EQ,MYL7033OO003
+Orgabio Holdings Bhd.,Consumer Staples,ORGABIO.KL,EQ,MYQ0252OO005
+Mesiniaga Bhd.,Technology,MSNIAGA.KL,EQ,MYL5011OO001
+UMS Holdings Bhd.,Industrials,UMS.KL,EQ,MYL7137OO002
+GUH Holdings Bhd.,Consumer Discretionary,GUH.KL,EQ,MYL3247OO003
+RGT Bhd.,Materials,RGTBHD.KL,EQ,MYL9954OO008
+Cosmos Technology International Bhd,Industrials,COSMOS.KL,EQ,MYQ0261OO006
+UMS-Neiken Group Bhd.,Industrials,UMSNGB.KL,EQ,MYL7227OO001
+Scanwolf Corp. Bhd.,Consumer Discretionary,SCNWOLF.KL,EQ,MYL7239OO006
+Tuju Setia Bhd.,Industrials,TJSETIA.KL,EQ,MYL5297OO006
+Benalec Holdings Bhd.,Industrials,BENALEC.KL,EQ,MYL5190OO003
+Jaycorp Berhad,Consumer Discretionary,JAYCORP.KL,EQ,MYL7152OO001
+Sycal Ventures Berhad,Materials,SYCAL.KL,EQ,MYL9717OO009
+TFP Solutions Bhd.,Industrials,TFP.KL,EQ,MYQ0145OO001
+Wawasan Dengkil Holdings Bhd,Industrials,DENGKIL.KL,EQ,MYQ0347OO003
+Mobilia Holdings Bhd,Consumer Discretionary,MOBILIA.KL,EQ,MYQ0229OO003
+Daythree Digital Bhd,Industrials,DAY3.KL,EQ,MYQ0281OO004
+Tashin Holdings Bhd.,Materials,TASHIN.KL,EQ,MYQ0211OO001
+A-Rank Bhd.,Materials,ARANK.KL,EQ,MYL7214OO009
+MMAG Holdings Bhd.,Technology,MMAG.KL,EQ,MYQ0034OO007
+Hextar Healthcare Bhd,Industrials,HEXCARE.KL,EQ,MYL7803OO009
+Ahmad Zaki Resources Bhd.,Industrials,AZRB.KL,EQ,MYL7078OO008
+Dataprep Holdings Bhd.,Technology,DATAPRP.KL,EQ,MYL8338OO005
+Asia Poly Holdings Bhd.,Industrials,ASIAPLY.KL,EQ,MYQ0105OO005
+Smart Asia Chemical Bhd,Materials,SMART.KL,EQ,MYQ0306OO009
+Sasbadi Holdings Bhd,Consumer Discretionary,SASBADI.KL,EQ,MYL5252OO001
+PeterLabs Holdings Bhd.,Materials,PLABS.KL,EQ,MYQ0171OO007
+Lion Posim Bhd.,Materials,LIONPSIM.KL,EQ,MYL8486OO002
+ManagePay Systems Bhd.,Industrials,MPAY.KL,EQ,MYQ0156OO008
+Grand Central Enterprises Bhd.,Consumer Discretionary,GCE.KL,EQ,MYL5592OO000
+Brite-Tech Bhd.,Industrials,BTECH.KL,EQ,MYQ0011OO005
+Leader Steel Holdings Bhd.,Materials,LSTEEL.KL,EQ,MYL9881OO003
+Karyon Industries Bhd.,Materials,KARYON.KL,EQ,MYQ0054OO005
+Olympia Industries Bhd.,Consumer Discretionary,OLYMPIA.KL,EQ,MYL3018OO008
+Securemetric Berhad,Technology,SMETRIC.KL,EQ,MYQ0203OO008
+Edaran Bhd.,Technology,EDARAN.KL,EQ,MYL5036OO008
+Eksons Corp. Bhd.,Financials,EKSONS.KL,EQ,MYL9016OO006
+Artroniq Bhd.,Industrials,ARTRONIQ.KL,EQ,MYQ0038OO008
+Solid Automotive Bhd.,Industrials,SOLID.KL,EQ,MYL5242OO002
+Quality Concrete Holdings Bhd.,Materials,QUALITY.KL,EQ,MYL7544OO009
+Efficient E-Solutions Bhd.,Technology,EFFICEN.KL,EQ,MYQ0064OO004
+Green Packet Bhd.,Technology,GPACKET.KL,EQ,MYQ0082OO006
+Yong Tai Bhd.,Financials,YONGTAI.KL,EQ,MYL7066OO003
+Yong Tai Bhd Irred Conv Pref Registered 2016-27.11.26,Financials,YONGTAI-PA.KL,EQ,MYL7066PA6B8
+Careplus Group Bhd.,Industrials,CAREPLS.KL,EQ,MYQ0163OO004
+Avillion Bhd,Consumer Discretionary,AVI.KL,EQ,MYL8885OO005
+Turbo-Mech Bhd.,Industrials,TURBO.KL,EQ,MYL5167OO001
+PCCS Group Bhd.,Consumer Staples,PCCS.KL,EQ,MYL6068OO000
+SBC Corporation Berhad,Financials,SBCCORP.KL,EQ,MYL5207OO005
+Bertam Alliance Bhd.,Consumer Discretionary,BERTAM.KL,EQ,MYL9814OO004
+MyTech Group Berhad,Industrials,MYTECH.KL,EQ,MYL7692OO006
+Imaspro Corp. Bhd.,Materials,IMASPRO.KL,EQ,MYL7222OO002
+Astral Asia Bhd.,Materials,AASIA.KL,EQ,MYL7054OO009
+G3 Global Bhd,Technology,G3.KL,EQ,MYL7184OO004
+Infraharta Holdings Bhd.,Consumer Discretionary,IHB.KL,EQ,MYL7240OO004
+Y&G Corporation Bhd.,Financials,Y&G.KL,EQ,MYL7003OO006
+Khind Holdings Bhd.,Consumer Discretionary,KHIND.KL,EQ,MYL7062OO002
+Pimpinan Ehsan Berhad,Financials,PEB.KL,EQ,MYL5622OO005
+Wang-Zheng Bhd.,Materials,WANGZNG.KL,EQ,MYL7203OO002
+VisDynamics Holdings Bhd.,Technology,VIS.KL,EQ,MYQ0120OO004
+Sapura Industrial Bhd.,Industrials,SAPIND.KL,EQ,MYL7811OO002
+Tomypak Holdings Bhd.,Materials,TOMYPAK.KL,EQ,MYL7285OO009
+Golden Land Bhd.,Financials,GLBHD.KL,EQ,MYL7382OO004
+Divfex Bhd,Technology,DFX.KL,EQ,MYQ0131OO001
+Minox International Group Bhd,Industrials,MINOX.KL,EQ,MYQ0288OO009
+Bina Darulaman Bhd.,Industrials,BDB.KL,EQ,MYL6173OO008
+HPMT Holdings Bhd.,Industrials,HPMT.KL,EQ,MYL5291OO009
+Pensonic Holdings Bhd.,Consumer Discretionary,PENSONI.KL,EQ,MYL9997OO007
+Melati Ehsan Holdings Bhd.,Industrials,MELATI.KL,EQ,MYL5129OO001
+Propel Global Bhd.,Industrials,PGB.KL,EQ,MYQ0091OO007
+CEKD Bhd,Industrials,CEKD.KL,EQ,MYQ0238OO004
+PBS Bhd,Industrials,PBSB.KL,EQ,MYL5231OO005
+Paos Holdings Bhd.,Consumer Staples,PAOS.KL,EQ,MYL5022OO008
+HeveaBoard Bhd.,Industrials,HEVEA.KL,EQ,MYL5095OO004
+Volcano Bhd.,Industrials,VOLCANO.KL,EQ,MYQ0232OO007
+Maxland Bhd,Materials,MAXLAND.KL,EQ,MYL7123OO002
+Ecoscience International Bhd.,Industrials,EIB.KL,EQ,MYQ0255OO008
+L&P Global Berhad,Industrials,L&PBHD.KL,EQ,MYQ0268OO001
+MMS Ventures Bhd.,Industrials,MMSV.KL,EQ,MYQ0113OO009
+Jadi Imaging Holdings Bhd.,Materials,JADI.KL,EQ,MYL7223OO000
+ACO Group Bhd,Industrials,ACO.KL,EQ,MYQ0218OO006
+MAYU GLOBAL GROUP Bhd,Consumer Discretionary,MAYU.KL,EQ,MYL7099OO004
+TA Win Holdings Bhd.,Materials,TAWIN.KL,EQ,MYL7097OO008
+Zelan Bhd.,Industrials,ZELAN.KL,EQ,MYL2283OO009
+See Hup Consolidated Bhd.,Industrials,SEEHUP.KL,EQ,MYL7053OO001
+Majuperak Holdings Bhd.,Financials,MJPERAK.KL,EQ,MYL8141OO003
+Landmarks Bhd.,Consumer Discretionary,LANDMRK.KL,EQ,MYL1643OO005
+Salutica Bhd.,Technology,SALUTE.KL,EQ,MYQ0183OO002
+TCS Group Holdings Bhd,Consumer Discretionary,TCS.KL,EQ,MYQ0221OO000
+WTEC GROUP BHD,Materials,WTEC.KL,EQ,MYQ0352OO003
+Topvision Eye Specialist Bhd,Health Care,TOPVISN.KL,EQ,MYQ0332OO005
+G Capital Bhd.,Industrials,GCAP.KL,EQ,MYL7676OO009
+Wegmans Holdings Bhd.,Consumer Discretionary,WEGMANS.KL,EQ,MYQ0197OO002
+Seremban Engineering Bhd.,Industrials,SEB.KL,EQ,MYL5163OO000
+CAM Resources Bhd.,Materials,CAMRES.KL,EQ,MYL7128OO001
+RedPlanet Bhd,Industrials,RPLANET.KL,EQ,MYL03036O000
+Mentiga Corp. Bhd.,Materials,MENTIGA.KL,EQ,MYL5223OO002
+Privasia Technology Bhd.,Technology,PRIVA.KL,EQ,MYQ0123OO008
+Country Heights Holdings Bhd.,Financials,CHHB.KL,EQ,MYL5738OO009
+Parkwood Holdings Bhd.,Financials,PARKWD.KL,EQ,MYL2682OO002
+Ralco Corp. Bhd.,Materials,RALCO.KL,EQ,MYL7498OO008
+Ornapaper Bhd.,Materials,ORNA.KL,EQ,MYL5065OO007
+Cheetah Holdings Bhd.,Consumer Staples,CHEETAH.KL,EQ,MYL7209OO009
+Sapura Resources Bhd.,Financials,SAPRES.KL,EQ,MYL4596OO002
+VELOCITY CAPITAL PARTNER Bhd,Industrials,VELOCITY.KL,EQ,MYL7165OO003
+South Malaysia Industries Bhd.,Industrials,SMI.KL,EQ,MYL4375OO001
+KGW Group Bhd,Industrials,KGW.KL,EQ,MYQ0282OO002
+S & F Capital Bhd.,Materials,S&FCAP.KL,EQ,MYL8745OO001
+Vizione Holdings Bhd.,Industrials,VIZIONE.KL,EQ,MYL7070OO005
+NetX Holdings Bhd.,Technology,NETX.KL,EQ,MYQ0020OO006
+Fitters Diversified Bhd.,Industrials,FITTERS.KL,EQ,MYL9318OO006
+Melewar Industrial Group Bhd.,Materials,MELEWAR.KL,EQ,MYL3778OO007
+Focus Lumber Bhd.,Industrials,FLBHD.KL,EQ,MYL5197OO008
+PRG Holdings Berhad,Materials,PRG.KL,EQ,MYL7168OO007
+Greater Bay Holdings Bhd,Materials,GBAY.KL,EQ,MYL9148OO007
+MAA Group Bhd.,Financials,MAA.KL,EQ,MYL1198OO000
+Turiya Bhd.,Technology,TURIYA.KL,EQ,MYL4359OO005
+Global Oriental Bhd.,Financials,GOB.KL,EQ,MYL1147OO007
+Pan Malaysia Corp. Bhd.,Consumer Staples,PMCORP.KL,EQ,MYL4081OO005
+Kucingko Sdn Bhd,Consumer Discretionary,KUCINGKO.KL,EQ,MYQ0315OO000
+Lien Hoe Corp. Bhd.,Consumer Discretionary,LIENHOE.KL,EQ,MYL3573OO002
+UCrest Bhd,Technology,UCREST.KL,EQ,MYQ0005OO007
+Waja Konsortium Bhd,Technology,WAJA.KL,EQ,MYQ0102OO002
+Polydamic Group Bhd.,Technology,POLYDM.KL,EQ,MYL03031O001
+BTM Resources Bhd.,Materials,BTM.KL,EQ,MYL7188OO005
+Fibon Bhd.,Materials,FIBON.KL,EQ,MYQ0149OO003
+Federal International Holdings Bhd.,Consumer Discretionary,FIHB.KL,EQ,MYL8605OO007
+Nexgram Holdings Berhad,Industrials,NEXGRAM.KL,EQ,MYQ0096OO006
+Txcd Bhd,Industrials,TXCD.KL,EQ,MYL7145OO005
+Hiap Huat Holdings Bhd.,Energy,HHHCORP.KL,EQ,MYQ0160OO000
+GPP Resources Bhd.,Materials,GPP.KL,EQ,MYL03029O005
+Warisan TC Holdings Bhd.,Industrials,WARISAN.KL,EQ,MYL5016OO000
+Mercury Industries Bhd,Industrials,MERCURY.KL,EQ,MYL8192OO006
+RTS Technology Holdings Bhd,Industrials,RTSTECH.KL,EQ,MYL03039O004
+Perak Corp. Bhd.,Industrials,PRKCORP.KL,EQ,MYL8346OO008
+Knusford Bhd.,Industrials,KNUSFOR.KL,EQ,MYL5035OO000
+TSR Capital Bhd.,Industrials,TSRCAP.KL,EQ,MYL5042OO006
+LBI Capital Bhd.,Financials,LBICAP.KL,EQ,MYL8494OO006
+Cabnet Holdings Bhd.,Industrials,CABNET.KL,EQ,MYQ0191OO005
+Ni Hsin Group Bhd,Consumer Discretionary,NIHSIN.KL,EQ,MYL7215OO006
+Pertama Digital Bhd.,Technology,PERTAMA.KL,EQ,MYL8532OO003
+Spring Art Holdings Bhd,Consumer Discretionary,SPRING.KL,EQ,MYQ0216OO000
+Esthetics International Group Bhd.,Consumer Discretionary,EIG.KL,EQ,MYL5081OO004
+Zantat Holdings Bhd.,Materials,ZANTAT.KL,EQ,MYQ0301OO000
+CWG Holdings Bhd.,Industrials,CWG.KL,EQ,MYL9423OO004
+Kamdar Group (M) Bhd.,Consumer Discretionary,KAMDAR.KL,EQ,MYL8672OO007
+Pineapple Resources Bhd.,Industrials,PINEAPP.KL,EQ,MYQ0006OO005
+Amlex Holdings Bhd.,Technology,AMLEX.KL,EQ,MYL03011O003
+Malaysian Genomics Resource Centre Bhd.,Health Care,MGRC.KL,EQ,MYQ0155OO000
+Toyo Ventures Holdings Bhd.,Materials,TOYOVEN.KL,EQ,MYL7173OO007
+Adventa Bhd.,Industrials,ADVENTA.KL,EQ,MYL7191OO009
+KYM Holdings Bhd.,Materials,KYM.KL,EQ,MYL8362OO005
+Revenue Group Bhd.,Technology,REVENUE.KL,EQ,MYQ0200OO004
+SWS Capital Bhd.,Consumer Discretionary,SWSCAP.KL,EQ,MYL7186OO009
+Binasat Communications Bhd.,Communication Services,BINACOM.KL,EQ,MYQ0195OO006
+EquitiesTracker Holdings Bhd.,Technology,ETH.KL,EQ,MYL03021O002
+Flexidynamic Holdings Bhd,Industrials,FLEXI.KL,EQ,MYQ0231OO009
+Sedania Innovator Bhd.,Communication Services,SEDANIA.KL,EQ,MYQ0178OO002
+BSL Corporation Berhad,Industrials,BSLCORP.KL,EQ,MYL7221OO004
+Thriven Global Bhd.,Financials,THRIVEN.KL,EQ,MYL7889OO008
+SL Innovation Capital Bhd.,Technology,SLIC.KL,EQ,MYL03008O009
+Encorp Bhd.,Financials,ENCORP.KL,EQ,MYL6076OO003
+Ingenieur Gudang Bhd,Industrials,INGENIEU.KL,EQ,MYL5178OO008
+MNC Wireless Bhd.,Communication Services,MNC.KL,EQ,MYQ0103OO000
+Matrix Parking Solution Holdings Bhd,Consumer Discretionary,MPSOL.KL,EQ,MYL03019O006
+Kumpulan Jetson Bhd.,Industrials,JETSON.KL,EQ,MYL9083OO006
+ARB Bhd.,Technology,ARBB.KL,EQ,MYL7181OO000
+Cloudaron Group Bhd.,Technology,CLOUD.KL,EQ,MYL03001O004
+Amtel Holdings Bhd.,Technology,AMTEL.KL,EQ,MYL7031OO007
+Seacera Group Bhd.,Industrials,SEACERA.KL,EQ,MYL7073OO009
+B.I.G. Industries Bhd.,Materials,BIG.KL,EQ,MYL7005OO001
+Wong Engineering Corp. Bhd.,Industrials,WONG.KL,EQ,MYL7050OO007
+IQ Group Holdings Bhd.,Technology,IQGROUP.KL,EQ,MYL5107OO007
+DFCITY Group Bhd.,Materials,DFCITY.KL,EQ,MYL5165OO005
+ABM Fujiya Bhd.,Consumer Discretionary,AFUJIYA.KL,EQ,MYL5198OO006
+Kim Hin Joo (Malaysia) Bhd.,Consumer Discretionary,KHJB.KL,EQ,MYQ0210OO003
+Acme Holdings Bhd,Financials,ACME.KL,EQ,MYL7131OO005
+Key ASIC Bhd.,Technology,KEYASIC.KL,EQ,MYQ0143OO006
+Xin Hwa Holdings Bhd.,Industrials,XINHWA.KL,EQ,MYL5267OO009
+XOX Bhd.,Communication Services,XOX.KL,EQ,MYQ0165OO009
+Solution Group Bhd,Industrials,SOLUTN.KL,EQ,MYQ0093OO003
+Oceancash Pacific Bhd.,Materials,OCNCASH.KL,EQ,MYQ0049OO005
+Supergenics Bhd,Industrials,SGBHD.KL,EQ,MYL03033O007
+Chuan Huat Resources Bhd.,Industrials,CHUAN.KL,EQ,MYL7016OO008
+Golden Pharos Bhd.,Industrials,GPHAROS.KL,EQ,MYL5649OO008
+Bright Packaging Industry Bhd.,Materials,BRIGHT.KL,EQ,MYL9938OO001
+Straits Energy Resources Bhd,Industrials,STRAITS.KL,EQ,MYQ0080OO000
+NOVA Technology services berhad,Technology,NOVATECH.KL,EQ,MYQ0017OO002
+Watta Holding Bhd.,Industrials,WATTA.KL,EQ,MYL7226OO003
+Ho Hup Construction Co. Bhd.,Financials,HOHUP.KL,EQ,MYL5169OO007
+Technodex Bhd.,Industrials,TDEX.KL,EQ,MYQ0132OO009
+NexG Bina Berhad,Consumer Staples,NEXGBINA.KL,EQ,MYL7154OO007
+D'nonce Technology Bhd.,Technology,DNONCE.KL,EQ,MYL7114OO001
+SCC Holdings Bhd.,Industrials,SCC.KL,EQ,MYQ0158OO004
+CYL Corporation Berhad,Materials,CYL.KL,EQ,MYL7157OO000
+Progressive Impact Corp. Bhd.,Industrials,PICORP.KL,EQ,MYL7201OO006
+Johan Holdings Bhd.,Financials,JOHAN.KL,EQ,MYL3441OO002
+Box-Pak (Malaysia) Bhd.,Materials,BOXPAK.KL,EQ,MYL6297OO005
+Citra Nusa Holdings Bhd,Consumer Staples,CNH.KL,EQ,MYL5104OO004
+BV Land Holdings Bhd.,Consumer Discretionary,BVLH.KL,EQ,MYL03042O008
+Ancom Logistics Bhd.,Industrials,ANCOMLB.KL,EQ,MYQ0048OO007
+XOX NETWORKS BERHAD,Consumer Discretionary,XOXNET.KL,EQ,MYQ0140OO002
+Bioalpha Holdings Bhd.,Health Care,BIOHLDG.KL,EQ,MYQ0179OO000
+Sersol Bhd.,Materials,SERSOL.KL,EQ,MYQ0055OO002
+Hwa Tai Industries Bhd.,Consumer Staples,HWATAI.KL,EQ,MYL8478OO009
+PNE PCB Bhd.,Technology,PNEPCB.KL,EQ,MYL6637OO002
+Kanger International Bhd.,Industrials,KANGER.KL,EQ,MYQ0170OO009
+AHB Holdings Bhd.,Consumer Discretionary,AHB.KL,EQ,MYL7315OO004
+Parlo Bhd,Consumer Discretionary,PARLO.KL,EQ,MYQ0022OO002
+Ocean Fresh Bhd.,Consumer Staples,OFB.KL,EQ,MYQ0312OO007
+Ho Wah Genting Bhd.,Industrials,HWGB.KL,EQ,MYL9601OO005
+ASTEEL Group Bhd,Industrials,ASTEEL.KL,EQ,MYL7020OO000
+Tri-Mode System (M) Bhd.,Industrials,TRIMODE.KL,EQ,MYQ0199OO008
+Jiankun International Bhd,Materials,JIANKUN.KL,EQ,MYL8923OO004
+Smile-Link Healthcare Global Bhd.,Health Care,SMILE.KL,EQ,MYL03023O008
+Digistar Corp. Bhd.,Technology,DIGISTA.KL,EQ,MYQ0029OO007
+HLT Global Bhd.,Consumer Staples,HLT.KL,EQ,MYQ0188OO001
+Vinvest Capital Holdings Bhd,Industrials,VINVEST.KL,EQ,MYQ0069OO003
+Emico Holdings Bhd.,Industrials,EMICO.KL,EQ,MYL9091OO009
+Woodlandor Holdings Bhd.,Materials,WOODLAN.KL,EQ,MYL7025OO009
+ARKA Bhd,Industrials,ARKA.KL,EQ,MYL7218OO000
+SMIS Corp. Bhd.,Industrials,SMISCOR.KL,EQ,MYL7132OO003
+Computer Forms (Malaysia) Bhd.,Industrials,CFM.KL,EQ,MYL8044OO009
+Enest Group Bhd.,Materials,ENEST.KL,EQ,MYL03025O003
+mTouche Technology Bhd.,Technology,MTOUCHE.KL,EQ,MYQ0092OO005
+Farlim Group (Malaysia) Bhd.,Financials,FARLIM.KL,EQ,MYL6041OO007
+Erdasan Group Bhd,Industrials,ERDASAN.KL,EQ,MYQ0072OO007
+Eng Kah Corp. Bhd.,Consumer Staples,ENGKAH.KL,EQ,MYL7149OO007
+YGL Convergence Bhd.,Technology,YGL.KL,EQ,MYQ0086OO007
+YB Ventures Bhd.,Industrials,YB.KL,EQ,MYL5048OO003
+Trive Property Group Bhd.,Technology,TRIVE.KL,EQ,MYQ0118OO008
+YLI Holdings Bhd.,Industrials,YLI.KL,EQ,MYL7014OO003
+Innity Corp. Bhd.,Industrials,INNITY.KL,EQ,MYQ0147OO007
+ARK Resources Holdings Bhd.,Industrials,ARK.KL,EQ,MYL7007OO007
+Multi-Usage Holdings Bhd.,Financials,MUH.KL,EQ,MYL9539OO007
+Joe Holding Bhd.,Consumer Discretionary,JOE.KL,EQ,MYL7096OO000
+Kia Lim Bhd.,Materials,KIALIM.KL,EQ,MYL6211OO006
+Eversafe Rubber Bhd.,Consumer Discretionary,ESAFE.KL,EQ,MYQ0190OO007
+Oasis Harvest Corporation Bhd,Industrials,OASIS.KL,EQ,MYL5265OO003
+Ecobuilt Holdings Bhd.,Industrials,ECOHLDS.KL,EQ,MYQ0059OO004
+Aldrich Resources Bhd,Industrials,ALRICH.KL,EQ,MYQ0079OO002
+APB Resources Bhd.,Industrials,APB.KL,EQ,MYL5568OO000
+Techbase Industries Berhad,Consumer Staples,TECHBASE.KL,EQ,MYL8966OO003
+CME Group Bhd.,Consumer Discretionary,CME.KL,EQ,MYL7018OO004
+EVD Bhd,Technology,EVD.KL,EQ,MYQ0174OO001
+Fast Energy Holdings Bhd,Industrials,FAST.KL,EQ,MYQ0084OO002
+CN Asia Corporation Bhd.,Industrials,CNASIA.KL,EQ,MYL7986OO002
+Vsolar Group Bhd.,Technology,VSOLAR.KL,EQ,MYQ0066OO009
+LKL International Bhd.,Health Care,LKL.KL,EQ,MYQ0182OO004
+Fintec Global Bhd,Industrials,FINTEC.KL,EQ,MYQ0150OO001
+Green Ocean Corp. Bhd.,Materials,GOCEAN.KL,EQ,MYQ0074OO003
+Advance Information Marketing Bhd.,Industrials,AIM.KL,EQ,MYQ0122OO000
+AbleGroup Bhd.,Materials,ABLEGRP.KL,EQ,MYL7086OO001
+Industronics Bhd.,Technology,ITRONIC.KL,EQ,MYL9393OO009
+Midtown Group Berhad,Industrials,MIDTOWN.KL,EQ,MYQ0177OO004
+Komarkcorp Bhd.,Industrials,KOMARK.KL,EQ,MYL7017OO006
+Rekatech Capital Bhd,Industrials,REKATECH.KL,EQ,MYQ0081OO008
+PDZ Holdings Bhd.,Industrials,PDZ.KL,EQ,MYL6254OO006
+DGB Asia Bhd,Consumer Discretionary,DGB.KL,EQ,MYQ0152OO007
+Sanichi Technology Bhd.,Industrials,SANICHI.KL,EQ,MYQ0133OO007
+LYC Healthcare Bhd.,Technology,LYC.KL,EQ,MYQ0075OO000
+AE Multi Holdings Bhd.,Technology,AEM.KL,EQ,MYL7146OO003
+Asdion Bhd.,Industrials,ASDION.KL,EQ,MYQ0068OO005
+MQ Technology Bhd.,Industrials,MQTECH.KL,EQ,MYQ0070OO001
+Saudigold Group Bhd,Consumer Staples,SG.KL,EQ,MYL5157OO002
+MCOM Holdings Berhad,Industrials,MCOM.KL,EQ,MYL03022O000
+Mlabs Systems Bhd.,Consumer Discretionary,MLAB.KL,EQ,MYQ0085OO009
+Key Alliance Group Berhad,Consumer Discretionary,KGROUP.KL,EQ,MYQ0036OO002
+Meridian Berhad,Financials,MERIDIAN.KL,EQ,MYL5040OO000
+MMM Group Berhad,Industrials,MMM.KL,EQ,MYQ0159OO002
+Techna-X Bhd.,Materials,TECHNAX.KL,EQ,MYL2739OO000
+Jagasolution Berhad,Technology,JAGAAPP.KL,EQ,MYL03002O002
+OneTech Solutions Holdings Bhd.,Technology,1TECH.KL,EQ,MYL03041O000
+Alpha Ocean Resources Bhd.,Materials,AORB.KL,EQ,MYL03051O009
+Noesis Exed Berhad,Industrials,NOESIS.KL,EQ,MYL03071O007
+Teamstar Berhad,Consumer Discretionary,TEAMSTR.KL,EQ,MYQ0393OO007
+icapital.biz Bhd.,Financials,ICAP.KL,EQ,MYL5108FO003
+CC International Bhd.,Industrials,CCIB.KL,EQ,MYL03053O005
+BIMOffice Group Bhd.,Technology,BIMOFFICE.KL,EQ,MYL03069O001
+Sancy Bhd,Technology,SANCY.KL,EQ,MYL03057O006
+Orkim Bhd,Industrials,ORKIM.KL,EQ,MYL5348OO007
+BUS Cap Berhad,Industrials,BUSCAP.KL,EQ,MYQ0455OO004
+PARADIGM REAL ESTATE INVESTMENT TRUST,Financials,PARADIGM.KL,EQ,MYL5338TO007
+Milolo Berhad,Industrials,MILOLO.KL,EQ,MYL03072O005
+Verdant Solar Holdings Bhd.,Industrials,VERDANT.KL,EQ,MYQ0373OO009
+SBS Nexus Bhd.,Industrials,SBS.KL,EQ,MYQ0386OO001
+Sunway Healthcare Holdings Berhad,Health Care,SUNMED.KL,EQ,MYL5555OO007
+DSR Taiko Bhd,Materials,DSR.KL,EQ,MYL03055O000
+Adnex Group Berhad,Industrials,ADNEX.KL,EQ,MYQ0396OO000
+JS Solar Holding Bhd,Industrials,JSSOLAR.KL,EQ,MYQ0369OO007
+TSiC Bhd.,Financials,TSIC.KL,EQ,MYL03062O006
+Semico Capital Bhd.,Industrials,SEMICO.KL,EQ,MYQ0388OO007
+EI Power Berhad,Industrials,EIPOWER.KL,EQ,MYQ0453OO009
+ISF Group Berhad,Industrials,ISF.KL,EQ,MYQ0390OO003
+Bentley Music Group Berhad,Industrials,BENTLEY.KL,EQ,MYL03068O003
+Insights Analytics Berhad,Technology,IAB.KL,EQ,MYQ0376OO002
+Total Dynamic Holdings Bhd,Technology,DYNAMIC.KL,EQ,MYL03058O004
+POWERTECHNIC GROUP BHD,Industrials,POWER.KL,EQ,MYQ0377OO000
+Hock Soon Capital Bhd.,Materials,HOCKSOON.KL,EQ,MYL5346OO001
+Wasco Greenergy Berhad,Financials,GENERGY.KL,EQ,MYL5343OO008
+OB Holdings Bhd,Industrials,OBHB.KL,EQ,MYQ0327OO005
+Lac Med Berhad,Industrials,LACMED.KL,EQ,MYL5341OO002
+Camaroe Berhad,Materials,CAMAROE.KL,EQ,MYQ0371OO003
+Farmiera Bhd.,Materials,FAMIERA.KL,EQ,MYQ0378OO008
+Richtech Digital Berhad,Technology,RTECH.KL,EQ,MYQ0342OO004
+ASM Automation Group Berhad,Industrials,ASM.KL,EQ,MYQ0362OO002
+Autoris Group Holdings Bhd,Financials,AUTORIS.KL,EQ,MYL03059O002
+Hartanah Kenyalang Bhd,Industrials,HKB.KL,EQ,MYQ0359OO008
+Aquawalk Group Bhd.,Consumer Discretionary,AQUAWALK.KL,EQ,MYQ0380OO004
+MTT Shipping & Logistics Bhd.,Industrials,MTTSL.KL,EQ,MYL5352OO009
+OGX Group Berhad,Technology,OGX.KL,EQ,MYQ0395OO002
+PMW International Bhd.,Materials,PMW.KL,EQ,MYQ0379OO006
+MSB Global Group Bhd.,Industrials,MSB.KL,EQ,MYQ0350OO007
+Safetyware Group Bhd,Health Care,SAFETY.KL,EQ,MYL03056O008
+Guan Huat Seng Holdings Bhd.,Industrials,GHS.KL,EQ,MYQ0387OO009
+MM Computer Systems Berhad,Technology,MMCS.KL,EQ,MYQ0456OO002
+MYMBN Bhd,Materials,MBN.KL,EQ,MYQ0280OO006
+BMS Holdings Berhad,Consumer Discretionary,BMS.KL,EQ,MYQ0385OO003
+Sik Cheong Berhad,Industrials,SCB.KL,EQ,MYQ0316OO008
+Snowfit Group Bhd,Consumer Discretionary,SNOWFIT.KL,EQ,MYL03054O003
+Gold Li Holdings Berhad,Financials,GOLDLI.KL,EQ,MYQ0452OO001
+Inspace Creation Berhad,Industrials,INSPACE.KL,EQ,MYQ0451OO003
+THMY Holdings Berhad,Industrials,THMY.KL,EQ,MYQ0375OO004
+5E Resources Holdings Berhad,Industrials,5ER.KL,EQ,MYQ0397OO008
+Ambest Group Berhad,Industrials,AMBEST.KL,EQ,MYQ0391OO001
+Associated Air-Pak Industries Berhad,Materials,AAI.KL,EQ,MYL03067O005
+PSP Energy Berhad,Industrials,PSP.KL,EQ,MYQ0383OO008
+Express Powerr Solutions (M) Berhad,Financials,XPB.KL,EQ,MYQ0370OO005
+Foodie Media Berhad,Industrials,FOODIE.KL,EQ,MYQ0382OO000
+Golden Destinations Group Berhad,Consumer Discretionary,GDGROUP.KL,EQ,MYQ0398OO006
+AMS Advanced Material Bhd.,Industrials,AMS.KL,EQ,MYQ0399OO004
+Saliran Group Bhd,Industrials,SALIRAN.KL,EQ,MYQ0346OO005
+MyAxis Group Bhd.,Consumer Staples,MYAXIS.KL,EQ,MYL03064O002
+Skyechip Berhad,Technology,SKYECHIP.KL,EQ,MYL5357OO008
+Ray Go Solar Holdings Bhd.,Industrials,RGS.KL,EQ,MYL03052O007
+CHEEDING Holdings Bhd,Industrials,CHEEDING.KL,EQ,MYQ0372OO001
+One Gasmaster Holdings Berhad,Industrials,OGM.KL,EQ,MYQ0389OO005
+Whitman Holdings Berhad,Financials,WHITMAN.KL,EQ,MYL03070O009
+Kee Ming Group Berhad,Industrials,KEEMING.KL,EQ,MYQ0392OO009
+Polymer Link Holdings Bhd,Financials,POLYMER.KL,EQ,MYQ0381OO002
+KHPT Holdings Bhd,Industrials,KHB.KL,EQ,MYQ0322OO006
+Geohan Corporation Berhad,Industrials,GEOHAN.KL,EQ,MYL5345OO003
+TP Tec Holding Bhd.,Industrials,TPTEC.KL,EQ,MYL03061O008
+Hydropipes Bhd.,Industrials,HPI.KL,EQ,MYL03060O000
+Empire Premium Food Bhd.,Consumer Discretionary,EMPIRE.KL,EQ,MYL5351OO001
+Vanzo Holdings Bhd,Materials,VANZO.KL,EQ,MYQ0333OO003
+Malayan Banking Berhad,Financials,1155.KL,EQ,
+Public Bank Berhad,Financials,1295.KL,EQ,
+CIMB Group Holdings Berhad,Financials,1023.KL,EQ,
+Tenaga Nasional Berhad,Utilities,5347.KL,EQ,
+IHH Healthcare Berhad,Health Care,5225.KL,EQ,
+Press Metal Aluminium Holdings Berhad,Materials,8869.KL,EQ,
+Hong Leong Bank Berhad,Financials,5819.KL,EQ,
+PETRONAS Chemicals Group Berhad,Materials,5183.KL,EQ,
+SD Guthrie Berhad,Consumer Staples,5285.KL,EQ,
+Celcomdigi Berhad,Communication Services,6947.KL,EQ,
+RHB Bank Berhad,Financials,1066.KL,EQ,
+MISC Berhad,Industrials,3816.KL,EQ,
+YTL Power International Berhad,Utilities,6742.KL,EQ,
+Sunway Berhad,Industrials,5211.KL,EQ,
+PETRONAS Gas Berhad,Energy,6033.KL,EQ,
+Telekom Malaysia Berhad,Communication Services,4863.KL,EQ,
+99 Speed Mart Retail Holdings Berhad,Consumer Discretionary,5326.KL,EQ,
+Maxis Berhad,Communication Services,6012.KL,EQ,
+IOI Corporation Berhad,Consumer Staples,1961.KL,EQ,
+Gamuda Berhad,Industrials,5398.KL,EQ,
+YTL Corporation Berhad,Utilities,4677.KL,EQ,
+IOI Properties Group Berhad,Real Estate,5249.KL,EQ,
+Kuala Lumpur Kepong Berhad,Industrials,2445.KL,EQ,
+Nestlé (Malaysia) Berhad,Consumer Staples,4707.KL,EQ,
+AMMB Holdings Berhad,Financials,1015.KL,EQ,
+Hong Leong Financial Group Berhad,Financials,1082.KL,EQ,
+Westports Holdings Berhad,Industrials,5246.KL,EQ,
+Sunway Healthcare Holdings Berhad,Health Care,5555.KL,EQ,
+United Plantations Berhad,Consumer Staples,2089.KL,EQ,
+Axiata Group Berhad,Communication Services,6888.KL,EQ,
+PETRONAS Dagangan Berhad,Energy,5681.KL,EQ,
+KLCC Property Holdings Berhad,Real Estate,5235SS.KL,EQ,
+Mr D.I.Y. Group (M) Berhad,Consumer Discretionary,5296.KL,EQ,
+Sime Darby Berhad,Consumer Discretionary,4197.KL,EQ,
+PPB Group Berhad,Consumer Staples,4065.KL,EQ,
+KPJ Healthcare Berhad,Health Care,5878.KL,EQ,
+ViTrox Corporation Berhad,Technology,0097.KL,EQ,
+QL Resources Berhad,Consumer Staples,7084.KL,EQ,
+IGB Real Estate Investment Trust,Real Estate,5227.KL,EQ,
+TIME dotCom Berhad,Communication Services,5031.KL,EQ,
+Dialog Group Berhad,Energy,7277.KL,EQ,
+Genting Malaysia Berhad,Consumer Discretionary,4715.KL,EQ,
+Fraser & Neave Holdings Bhd,Consumer Staples,3689.KL,EQ,
+Tanco Holdings Berhad,Real Estate,2429.KL,EQ,
+Sunway Construction Group Berhad,Industrials,5263.KL,EQ,
+Malaysian Pacific Industries Berhad,Technology,3867.KL,EQ,
+Malayan Cement Berhad,Materials,3794.KL,EQ,
+Sime Darby Property Berhad,Real Estate,5288.KL,EQ,
+Genting Berhad,Consumer Discretionary,3182.KL,EQ,
+Inari Amertron Berhad,Technology,0166.KL,EQ,
+Alliance Bank Malaysia Berhad,Financials,2488.KL,EQ,
+Unisem (M) Berhad,Technology,5005.KL,EQ,
+Frontken Corporation Berhad,Industrials,0128.KL,EQ,
+Sunway Real Estate Investment Trust,Real Estate,5176.KL,EQ,
+Batu Kawan Berhad,Industrials,1899.KL,EQ,
+IJM Corporation Berhad,Industrials,3336.KL,EQ,
+UMS Integration Limited,Technology,5340.KL,EQ,
+Chin Hin Group Berhad,Materials,5273.KL,EQ,
+Hap Seng Consolidated Berhad,Industrials,3034.KL,EQ,
+Eco-Shop Marketing Berhad,Consumer Discretionary,5337.KL,EQ,
+Bursa Malaysia Berhad,Financials,1818.KL,EQ,
+Pavilion Real Estate Investment Trust,Real Estate,5212.KL,EQ,
+Gas Malaysia Berhad,Utilities,5209.KL,EQ,
+Greatech Technology Berhad,Industrials,0208.KL,EQ,
+Eco World Development Group Berhad,Real Estate,8206.KL,EQ,
+UWC Berhad,Industrials,5292.KL,EQ,
+Zetrix AI Berhad,Technology,0138.KL,EQ,
+Kelington Group Berhad,Industrials,0151.KL,EQ,
+Heineken Malaysia Berhad,Consumer Staples,3255.KL,EQ,
+Top Glove Corporation Bhd.,Health Care,7113.KL,EQ,
+LPI Capital Bhd,Financials,8621.KL,EQ,
+AFFIN Bank Berhad,Financials,5185.KL,EQ,
+OSK Holdings Berhad,Real Estate,5053.KL,EQ,
+Hong Leong Industries Berhad,Consumer Discretionary,3301.KL,EQ,
+Yinson Holdings Berhad,Energy,7293.KL,EQ,
+MBSB Berhad,Financials,1171.KL,EQ,
+Scientex Berhad,Consumer Discretionary,4731.KL,EQ,
+SkyeChip Berhad,Technology,5357.KL,EQ,
+Carlsberg Brewery Malaysia Berhad,Consumer Staples,2836.KL,EQ,
+Bank Islam Malaysia Berhad,Financials,5258.KL,EQ,
+S P Setia Berhad,Real Estate,8664.KL,EQ,
+IGB Berhad,Real Estate,5606.KL,EQ,
+ITMAX System Berhad,Industrials,5309.KL,EQ,
+UOA Development Bhd,Real Estate,5200.KL,EQ,
+Genting Plantations Berhad,Consumer Staples,2291.KL,EQ,
+Oriental Holdings Berhad,Consumer Discretionary,4006.KL,EQ,
+Malakoff Corporation Berhad,Utilities,5264.KL,EQ,
+Hartalega Holdings Berhad,Materials,5168.KL,EQ,
+JPG,Consumer Staples,5323.KL,EQ,
+Mi Technovation Berhad,Technology,5286.KL,EQ,
+AirAsia X Berhad,Industrials,5238.KL,EQ,
+Farm Fresh Berhad,Consumer Staples,5306.KL,EQ,
+Allianz Malaysia Berhad,Financials,1163.KL,EQ,
+Axis Real Estate Investment Trust,Real Estate,5106.KL,EQ,
+Sarawak Oil Palms Berhad,Consumer Staples,5126.KL,EQ,
+PMB Technology Berhad,Industrials,7172.KL,EQ,
+Pentamaster Corporation Berhad,Industrials,7160.KL,EQ,
+KSL Holdings Berhad,Real Estate,5038.KL,EQ,
+SAM Engineering & Equipment (M) Berhad,Industrials,9822.KL,EQ,
+Hextar Global Berhad,Materials,5151.KL,EQ,
+AEON Credit Service (M) Berhad,Financials,5139.KL,EQ,
+Kossan Rubber Industries Bhd,Health Care,7153.KL,EQ,
+UEM Sunrise Berhad,Real Estate,5148.KL,EQ,
+Syarikat Takaful Malaysia Keluarga Berhad,Financials,6139.KL,EQ,
+Mega First Corporation Berhad,Utilities,3069.KL,EQ,
+Kerjaya Prospek Group Berhad,Industrials,7161.KL,EQ,
+Solarvest Holdings Berhad,Technology,0215.KL,EQ,
+Ranhill Utilities Berhad,Utilities,5272.KL,EQ,
+Tropicana Corporation Berhad,Real Estate,5401.KL,EQ,
+Velesto Energy Berhad,Energy,5243.KL,EQ,
+Bintulu Port Holdings Berhad,Industrials,5032.KL,EQ,
+Guan Chong Berhad,Consumer Staples,5102.KL,EQ,
+Mah Sing Group Berhad,Real Estate,8583.KL,EQ,
+Kim Loong Resources Berhad,Consumer Staples,5027.KL,EQ,
+Hextar Technologies Solutions Berhad,Materials,5136.KL,EQ,
+Far East Holdings Berhad,Consumer Staples,5029.KL,EQ,
+Leong Hup International Berhad,Consumer Staples,6633.KL,EQ,
+Matrix Concepts Holdings Berhad,Real Estate,5236.KL,EQ,
+Southern Cable Group Berhad,Industrials,0225.KL,EQ,
+MTT Shipping and Logistics Berhad,Industrials,5352.KL,EQ,
+Ta Ann Holdings Berhad,Consumer Staples,5012.KL,EQ,
+DXN Holdings Bhd.,Consumer Staples,5318.KL,EQ,
+7-Eleven Malaysia Holdings Berhad,Consumer Staples,5250.KL,EQ,
+WCE Holdings Berhad,Industrials,3565.KL,EQ,
+Hume Cement Industries Berhad,Materials,5000.KL,EQ,
+DRB-HICOM Berhad,Consumer Discretionary,1619.KL,EQ,
+Binastra Corporation Berhad,Real Estate,7195.KL,EQ,
+Oriental Kopi Holdings Berhad,Consumer Discretionary,0338.KL,EQ,
+Dutch Lady Milk Industries Berhad,Consumer Staples,3026.KL,EQ,
+CapitaLand Malaysia Trust,Real Estate,5180.KL,EQ,
+Dayang Enterprise Holdings Bhd,Energy,5141.KL,EQ,
+MNRB Holdings Berhad,Financials,6459.KL,EQ,
+VSTECS Berhad,Technology,5162.KL,EQ,
+Lianson Fleet Group Berhad,Energy,5255.KL,EQ,
+MBM Resources Berhad,Consumer Discretionary,5983.KL,EQ,
+Bumi Armada Berhad,Energy,5210.KL,EQ,
+Eastern & Oriental Berhad,Real Estate,3417.KL,EQ,
+Keck Seng (Malaysia) Berhad,Consumer Staples,3476.KL,EQ,
+Capital A Berhad,Industrials,5099.KL,EQ,
+TMK,Materials,5330.KL,EQ,
+Magnum Berhad,Consumer Discretionary,3859.KL,EQ,
+Malaysia Smelting Corporation Berhad,Materials,5916.KL,EQ,
+YTL Hospitality REIT,Real Estate,5109.KL,EQ,
+Ideal Capital Berhad,Real Estate,9687.KL,EQ,
+Radium Development Berhad,Real Estate,5313.KL,EQ,
+RCE Capital Berhad,Financials,9296.KL,EQ,
+Sports Toto Berhad,Industrials,1562.KL,EQ,
+Hap Seng Plantations Holdings Berhad,Consumer Staples,5138.KL,EQ,
+NationGate Holdings Berhad,Technology,0270.KL,EQ,
+Elridge Energy Holdings Berhad,Utilities,0318.KL,EQ,
+Spritzer Bhd,Consumer Staples,7103.KL,EQ,
+Pharmaniaga Berhad,Health Care,7081.KL,EQ,
+Aeon Co. (M) Bhd.,Consumer Discretionary,6599.KL,EQ,
+MN Holdings Berhad,Industrials,0245.KL,EQ,
+Kretam Holdings Berhad,Consumer Staples,1996.KL,EQ,
+PARADIGM,Real Estate,5338.KL,EQ,
+Hibiscus Petroleum Berhad,Energy,5199.KL,EQ,
+Lim Seong Hai Capital Berhad,Industrials,0351.KL,EQ,
+Berjaya Corporation Berhad,Industrials,3395.KL,EQ,
+IGB Commercial Real Estate Investment Trust,Real Estate,5299.KL,EQ,
+Chin Hin Group Property Berhad,Consumer Discretionary,7187.KL,EQ,
+CTOS Digital Berhad,Financials,5301.KL,EQ,
+British American Tobacco (Malaysia) Berhad,Consumer Staples,4162.KL,EQ,
+Malaysian Resources Corporation Berhad,Industrials,1651.KL,EQ,
+Padini Holdings Berhad,Consumer Discretionary,7052.KL,EQ,
+MEGAFB,Industrials,5327.KL,EQ,
+THMY Holdings Berhad,Industrials,0375.KL,EQ,
+EG Industries Berhad,Technology,8907.KL,EQ,
+TSH Resources Berhad,Consumer Staples,9059.KL,EQ,
+HCK Capital Group Berhad,Real Estate,7105.KL,EQ,
+Uchi Technologies Berhad,Technology,7100.KL,EQ,
+Keyfield International Berhad,Energy,5321.KL,EQ,
+Southern Score Builders Berhad,Industrials,0045.KL,EQ,
+BLD Plantation Bhd.,Consumer Staples,5069.KL,EQ,
+Berjaya Property Bhd,Industrials,4219.KL,EQ,
+ALPHA,Health Care,0303.KL,EQ,
+United Malacca Berhad,Consumer Staples,2593.KL,EQ,
+Duopharma Biotech Berhad,Health Care,7148.KL,EQ,
+NCT Alliance Berhad,Technology,0056.KL,EQ,
+Cahya Mata Sarawak Berhad,Materials,2852.KL,EQ,
+Lagenda Properties Berhad,Consumer Discretionary,7179.KL,EQ,
+HI Mobility Berhad,Industrials,5335.KL,EQ,
+Pekat Group Berhad,Technology,0233.KL,EQ,
+Dagang NeXchange Berhad,Technology,4456.KL,EQ,
+MKH Berhad,Real Estate,6114.KL,EQ,
+EMPIRE,Consumer Discretionary,5351.KL,EQ,
+Petron Malaysia Refining & Marketing Bhd,Energy,3042.KL,EQ,
+Bermaz Auto Berhad,Consumer Discretionary,5248.KL,EQ,
+BM GreenTech Berhad,Industrials,0168.KL,EQ,
+Pecca Group Berhad,Consumer Discretionary,5271.KL,EQ,
+Master Tec Group Berhad,Industrials,0295.KL,EQ,
+Crescendo Corporation Berhad,Real Estate,6718.KL,EQ,
+Al-'Aqar Healthcare REIT,Real Estate,5116.KL,EQ,
+Jaya Tiasa Holdings Berhad,Consumer Staples,4383.KL,EQ,
+CBH Engineering Holding Berhad,Industrials,0339.KL,EQ,
+Chin Teck Plantations Berhad,Consumer Staples,1929.KL,EQ,
+PLINTAS,Industrials,5320.KL,EQ,
+Aurelius Technologies Berhad,Technology,5302.KL,EQ,
+Sarawak Plantation Berhad,Consumer Staples,5135.KL,EQ,
+Innoprise Plantations Berhad,Consumer Staples,6262.KL,EQ,
+Supermax Corporation Berhad,Health Care,7106.KL,EQ,
+NEXG Berhad,Technology,5216.KL,EQ,
+Dufu Technology Corp. Berhad,Industrials,7233.KL,EQ,
+AME Elite Consortium Berhad,Industrials,5293.KL,EQ,
+Ancom Nylex Berhad,Materials,4758.KL,EQ,
+Mulpha International Bhd,Industrials,3905.KL,EQ,
+Shin Yang Group Berhad,Industrials,5173.KL,EQ,
+UEM Edgenta Berhad,Industrials,1368.KL,EQ,
+DKSH Holdings (Malaysia) Berhad,Industrials,5908.KL,EQ,
+Signature International Berhad,Consumer Discretionary,7246.KL,EQ,
+Orkim Berhad,Industrials,5348.KL,EQ,
+Nextgreen Global Berhad,Industrials,7241.KL,EQ,
+Kinergy Advancement Berhad,Industrials,0193.KL,EQ,
+AME Real Estate Investment Trust,Real Estate,5307.KL,EQ,
+Sentral REIT,Real Estate,5123.KL,EQ,
+Well Chip Group Berhad,Consumer Discretionary,5325.KL,EQ,
+TMC Life Sciences Berhad,Health Care,0101.KL,EQ,
+Lotte Chemical Titan Holding Berhad,Materials,5284.KL,EQ,
+Kobay Technology Bhd.,Industrials,6971.KL,EQ,
+Magni-Tech Industries Berhad,Consumer Discretionary,7087.KL,EQ,
+KIP Real Estate Investment Trust,Real Estate,5280.KL,EQ,
+Exsim Hospitality Berhad,Real Estate,1287.KL,EQ,
+Taliworks Corporation Berhad,Industrials,8524.KL,EQ,
+Hup Seng Industries Berhad,Consumer Staples,5024.KL,EQ,
+SNS Network Technology Berhad,Technology,0259.KL,EQ,
+Ajinomoto (Malaysia) Berhad,Consumer Staples,2658.KL,EQ,
+AuMas Resources Berhad,Materials,0098.KL,EQ,
+Amway (Malaysia) Holdings Berhad,Consumer Discretionary,6351.KL,EQ,
+SEG International Bhd,Consumer Staples,9792.KL,EQ,
+Oriental Interest Berhad,Real Estate,5827.KL,EQ,
+Hong Leong Capital Berhad,Financials,5274.KL,EQ,
+PTT Synergy Group Berhad,Industrials,7010.KL,EQ,
+Berjaya Assets Berhad,Industrials,3239.KL,EQ,
+Shangri-La Hotels (Malaysia) Berhad,Consumer Discretionary,5517.KL,EQ,
+V.S. Industry Berhad,Technology,6963.KL,EQ,
+Central Global Berhad,Materials,8052.KL,EQ,
+Hextar Industries Berhad,Materials,0161.KL,EQ,
+CCK Consolidated Holdings Berhad,Consumer Staples,7035.KL,EQ,
+Kumpulan Fima Berhad,Industrials,6491.KL,EQ,
+Coastal Contracts Bhd,Energy,5071.KL,EQ,
+Samaiden Group Berhad,Industrials,0223.KL,EQ,
+JCY International Berhad,Technology,5161.KL,EQ,
+IAB,Technology,0376.KL,EQ,
+GuocoLand (Malaysia) Berhad,Real Estate,1503.KL,EQ,
+Vantris Energy Berhad,Energy,5218.KL,EQ,
+GDEX Berhad,Industrials,0078.KL,EQ,
+Northeast Group Berhad,Technology,0325.KL,EQ,
+Hengyuan Refining Company Berhad,Energy,4324.KL,EQ,
+Malayan Flour Mills Berhad,Consumer Staples,3662.KL,EQ,
+Pappajack Berhad,Financials,0242.KL,EQ,
+Signature Alliance Group Berhad,Industrials,0360.KL,EQ,
+LBS Bina Group Berhad,Real Estate,5789.KL,EQ,
+WCT Holdings Berhad,Industrials,9679.KL,EQ,
+Teladan Group Berhad,Consumer Discretionary,0230.KL,EQ,
+Mieco Chipboard Berhad,Materials,5001.KL,EQ,
+Infomina Berhad,Technology,0265.KL,EQ,
+Wasco Berhad,Energy,5142.KL,EQ,
+Paragon Globe Berhad,Real Estate,3611.KL,EQ,
+PBA Holdings Bhd,Utilities,5041.KL,EQ,
+MKH Oil Palm (East Kalimantan) Berhad,Consumer Staples,5319.KL,EQ,
+Paramount Corporation Berhad,Real Estate,1724.KL,EQ,
+Ekovest Berhad,Industrials,8877.KL,EQ,
+Plenitude Berhad,Real Estate,5075.KL,EQ,
+Scicom (MSC) Berhad,Industrials,0099.KL,EQ,
+Insas Berhad,Financials,3379.KL,EQ,
+GE-Shen Corporation Berhad,Industrials,7197.KL,EQ,
+Thong Guan Industries Berhad,Consumer Discretionary,7034.KL,EQ,
+Ecomate Holdings Berhad,Consumer Discretionary,0239.KL,EQ,
+APM Automotive Holdings Berhad,Consumer Discretionary,5015.KL,EQ,
+LWSABAH,Consumer Staples,5328.KL,EQ,
+Ibraco Berhad,Real Estate,5084.KL,EQ,
+JF Technology Berhad,Technology,0146.KL,EQ,
+Southern Steel Berhad,Materials,5665.KL,EQ,
+Malaysia Marine and Heavy Engineering Holdings Berhad,Energy,5186.KL,EQ,
+Wellcall Holdings Berhad,Consumer Discretionary,7231.KL,EQ,
+CUCKOO International (MAL) Berhad,Consumer Discretionary,5336.KL,EQ,
+CPE Technology Berhad,Technology,5317.KL,EQ,
+Go Hub Capital Berhad,Technology,0311.KL,EQ,
+Fiamma Holdings Berhad,Consumer Discretionary,6939.KL,EQ,
+Kenanga Investment Bank Berhad,Financials,6483.KL,EQ,
+Harbour-Link Group Berhad,Industrials,2062.KL,EQ,
+OM Holdings Limited,Materials,5298.KL,EQ,
+Cypark Resources Berhad,Utilities,5184.KL,EQ,
+MSM Malaysia Holdings Berhad,Consumer Staples,5202.KL,EQ,
+Kotra Industries Berhad,Health Care,0002.KL,EQ,
+SKP Resources Bhd,Materials,7155.KL,EQ,
+JAG Capital Berhad,Utilities,6874.KL,EQ,
+AYER Holdings Berhad,Real Estate,2305.KL,EQ,
+Manulife Holdings Berhad,Financials,1058.KL,EQ,
+Mikro MSC Berhad,Industrials,0112.KL,EQ,
+Ajiya Berhad,Industrials,7609.KL,EQ,
+Uoa Real Estate Investment,Real Estate,5110.KL,EQ,
+GDB Holdings Berhad,Industrials,0198.KL,EQ,
+D & O Green Technologies Berhad,Technology,7204.KL,EQ,
+P.I.E. Industrial Berhad,Technology,7095.KL,EQ,
+CB Industrial Product Holding Berhad,Industrials,7076.KL,EQ,
+Sorento Capital Berhad,Consumer Discretionary,0326.KL,EQ,
+ISF Group Berhad,Industrials,0390.KL,EQ,
+SFP Tech Holdings Berhad,Industrials,0251.KL,EQ,
+CSC Steel Holdings Berhad,Materials,5094.KL,EQ,
+Vestland Berhad,Real Estate,0273.KL,EQ,
+SHL Consolidated Bhd.,Real Estate,6017.KL,EQ,
+Cheeding Holdings Berhad,Industrials,0372.KL,EQ,
+Pantech Group Holdings Berhad,Materials,5125.KL,EQ,
+Sungei Bagan Rubber Company (Malaya) Berhad,Consumer Staples,2569.KL,EQ,
+KJTS,Industrials,0293.KL,EQ,
+EWI Capital Berhad,Real Estate,5283.KL,EQ,
+Azam Jaya Berhad,Industrials,5329.KL,EQ,
+Karex Berhad,Consumer Staples,5247.KL,EQ,
+Hiap Teck Venture Berhad,Materials,5072.KL,EQ,
+Deleum Berhad,Energy,5132.KL,EQ,
+TH Plantations Berhad,Consumer Staples,5112.KL,EQ,
+Magma Group Berhad,Consumer Discretionary,7243.KL,EQ,
+Paragon Union Berhad,Consumer Discretionary,9407.KL,EQ,
+Seng Fong Holdings Berhad,Materials,5308.KL,EQ,
+Land & General Berhad,Real Estate,3174.KL,EQ,
+Teo Seng Capital Berhad,Consumer Staples,7252.KL,EQ,
+Power Root Berhad,Consumer Staples,7237.KL,EQ,
+Apollo Food Holdings Berhad,Consumer Staples,6432.KL,EQ,
+Coraza Integrated Technology Berhad,Industrials,0240.KL,EQ,
+Mitrajaya Holdings Berhad,Industrials,9571.KL,EQ,
+Able Global Berhad,Consumer Staples,7167.KL,EQ,
+Menang Corporation (M) Berhad,Real Estate,1694.KL,EQ,
+ELK-Desa Resources Berhad,Financials,5228.KL,EQ,
+Powerwell Holdings Berhad,Industrials,0217.KL,EQ,
+Luxchem Corporation Berhad,Materials,5143.KL,EQ,
+Harrisons Holdings (Malaysia) Berhad,Industrials,5008.KL,EQ,
+Poh Kong Holdings Berhad,Consumer Discretionary,5080.KL,EQ,
+Suria Capital Holdings Berhad,Industrials,6521.KL,EQ,
+Southern Acids (M) Berhad,Industrials,5134.KL,EQ,
+Panasonic Manufacturing Malaysia Berhad,Consumer Discretionary,3719.KL,EQ,
+I-Berhad,Real Estate,4251.KL,EQ,
+SkyWorld Development Berhad,Real Estate,5315.KL,EQ,
+Perdana Petroleum Berhad,Energy,7108.KL,EQ,
+Oppstar Berhad,Technology,0275.KL,EQ,
+Supercomnet Technologies Berhad,Industrials,0001.KL,EQ,
+Reach Ten Holdings Berhad,Communication Services,5332.KL,EQ,
+Wellspire Holdings Berhad,Consumer Staples,0271.KL,EQ,
+KTI,Real Estate,0308.KL,EQ,
+Citaglobal Berhad,Industrials,7245.KL,EQ,
+QES Group Berhad,Technology,0196.KL,EQ,
+Meta Bright Group Berhad,Consumer Discretionary,2097.KL,EQ,
+PGLOBAL,Materials,5331.KL,EQ,
+EI Power Berhad,Industrials,0453.KL,EQ,
+Fima Corporation Berhad,Industrials,3107.KL,EQ,
+Kimlun Corporation Berhad,Industrials,5171.KL,EQ,
+Avangaad Berhad,Industrials,5259.KL,EQ,
+EcoFirst Consolidated Bhd,Real Estate,3557.KL,EQ,
+Varia Berhad,Industrials,5006.KL,EQ,
+5E Resources Holdings Berhad,Industrials,0397.KL,EQ,
+Tiong Nam Logistics Holdings Berhad,Industrials,8397.KL,EQ,
+Unitrade Industries Berhad,Industrials,0247.KL,EQ,
+BEDI Berhad,Materials,6378.KL,EQ,
+Favelle Favco Berhad,Industrials,7229.KL,EQ,
+Harn Len Corporation Bhd,Consumer Staples,7501.KL,EQ,
+OCK Group Berhad,Communication Services,0172.KL,EQ,
+Engtex Group Berhad,Industrials,5056.KL,EQ,
+Ann Joo Resources Berhad,Materials,6556.KL,EQ,
+Evergreen Max Cash Capital Berhad,Financials,0286.KL,EQ,
+Muhibbah Engineering (M) Bhd.,Industrials,5703.KL,EQ,
+C.I. Holdings Berhad,Consumer Staples,2828.KL,EQ,
+Berjaya Food Berhad,Consumer Discretionary,5196.KL,EQ,
+Autocount Dotcom Berhad,Technology,0276.KL,EQ,
+Negri Sembilan Oil Palms Berhad,Consumer Staples,2038.KL,EQ,
+Media Prima Berhad,Communication Services,4502.KL,EQ,
+iCapital.biz Berhad,Financials,5108.KL,EQ,
+AMBEST,Industrials,0391.KL,EQ,
+CAB Cakaran Corporation Berhad,Consumer Staples,7174.KL,EQ,
+Zhulian Corporation Berhad,Consumer Discretionary,5131.KL,EQ,
+TDM Berhad,Consumer Staples,2054.KL,EQ,
+UUE Holdings Berhad,Industrials,0310.KL,EQ,
+Mynews Holdings Berhad,Consumer Discretionary,5275.KL,EQ,
+Kluang Rubber Company (Malaya) Berhad,Consumer Staples,2453.KL,EQ,
+W T K Holdings Berhad,Industrials,4243.KL,EQ,
+Naim Holdings Berhad,Industrials,5073.KL,EQ,
+Swift Haulage Berhad,Industrials,5303.KL,EQ,
+Golden Destinations Group Berhad,Consumer Discretionary,0398.KL,EQ,
+Tambun Indah Land Berhad,Real Estate,5191.KL,EQ,
+Three-A Resources Berhad,Consumer Staples,0012.KL,EQ,
+Critical Holdings Berhad,Industrials,0291.KL,EQ,
+Kumpulan Kitacon Berhad,Real Estate,5310.KL,EQ,
+XL Holdings Berhad,Consumer Staples,7121.KL,EQ,
+Rimbunan Sawit Berhad,Consumer Staples,5113.KL,EQ,
+KKB Engineering Berhad,Industrials,9466.KL,EQ,
+KEEMING,Industrials,0392.KL,EQ,
+Atrium Real Estate Investment Trust,Real Estate,5130.KL,EQ,
+Tan Chong Motor Holdings Berhad,Consumer Discretionary,4405.KL,EQ,
+Focus Point Holdings Berhad,Health Care,0157.KL,EQ,
+M & A Equity Holdings Berhad,Financials,7082.KL,EQ,
+Yew Lee Pacific Group Berhad,Industrials,0248.KL,EQ,
+FM Global Logistics Holdings Berhad,Industrials,7210.KL,EQ,
+Country View Berhad,Real Estate,5049.KL,EQ,
+TASCO Berhad,Industrials,5140.KL,EQ,
+Samchem Holdings Berhad,Materials,5147.KL,EQ,
+Gopeng Berhad,Consumer Staples,2135.KL,EQ,
+LACMED,Health Care,5341.KL,EQ,
+MAG Holdings Berhad,Consumer Staples,0095.KL,EQ,
+Astro Malaysia Holdings Berhad,Communication Services,6399.KL,EQ,
+MHC Plantations Bhd.,Consumer Staples,5026.KL,EQ,
+Hektar Real Estate Investment Trust,Real Estate,5121.KL,EQ,
+KENERGY,Industrials,0307.KL,EQ,
+RGB International Bhd.,Consumer Discretionary,0037.KL,EQ,
+Kumpulan Perangsang Selangor Berhad,Industrials,5843.KL,EQ,
+United U-LI Corporation Berhad,Industrials,7133.KL,EQ,
+SSF Home Group Berhad,Consumer Discretionary,0287.KL,EQ,
+Seal Incorporated Berhad,Real Estate,4286.KL,EQ,
+Maybulk Berhad,Industrials,5077.KL,EQ,
+Can-One Berhad,Consumer Staples,5105.KL,EQ,
+Y.S.P. Southeast Asia Holding Berhad,Health Care,7178.KL,EQ,
+PGF Capital Berhad,Materials,8117.KL,EQ,
+Aquawalk Group Berhad,Consumer Discretionary,0380.KL,EQ,
+Solar District Cooling Group Berhad,Industrials,0321.KL,EQ,
+Ramssol Group Berhad,Technology,0236.KL,EQ,
+Betamek Berhad,Consumer Discretionary,0263.KL,EQ,
+Harvest Miracle Capital Berhad,Technology,0060.KL,EQ,
+Wentel Engineering Holdings Berhad,Industrials,0298.KL,EQ,
+Optimax Holdings Berhad,Health Care,0222.KL,EQ,
+Kawan Food Berhad,Consumer Staples,7216.KL,EQ,
+Titijaya Land Berhad,Real Estate,5239.KL,EQ,
+Foodie Media Berhad,Communication Services,0382.KL,EQ,
+Nestcon Berhad,Industrials,0235.KL,EQ,
+Tex Cycle Technology (M) Berhad,Industrials,0089.KL,EQ,
+Al-Salam Real Estate Investment Trust,Real Estate,5269.KL,EQ,
+Leform Berhad,Materials,0266.KL,EQ,
+PJBumi Berhad,Industrials,7163.KL,EQ,
+Oriental Food Industries Holdings Berhad,Consumer Staples,7107.KL,EQ,
+Avaland Berhad,Real Estate,5182.KL,EQ,
+Northern Solar Holdings Berhad,Technology,0340.KL,EQ,
+Sunsuria Berhad,Real Estate,3743.KL,EQ,
+Marine & General Berhad,Energy,5078.KL,EQ,
+Boustead Heavy Industries Corporation Berhad,Industrials,8133.KL,EQ,
+Cape EMS Berhad,Technology,5311.KL,EQ,
+Gagasan Nadi Cergas Berhad,Real Estate,0206.KL,EQ,
+SLP Resources Berhad,Consumer Discretionary,7248.KL,EQ,
+Formosa Prosonic Industries Berhad,Technology,9172.KL,EQ,
+3REN Berhad,Industrials,0328.KL,EQ,
+Hartanah Kenyalang Berhad,Industrials,0359.KL,EQ,
+Bina Puri Holdings Bhd,Industrials,5932.KL,EQ,
+MGB Berhad,Industrials,7595.KL,EQ,
+OGX Group Berhad,Technology,0395.KL,EQ,
+Muda Holdings Berhad,Materials,3883.KL,EQ,
+TSA,Materials,0297.KL,EQ,
+GIIB Holdings Berhad,Materials,7192.KL,EQ,
+OXB,Industrials,0368.KL,EQ,
+Salcon Berhad,Industrials,8567.KL,EQ,
+Tomei Consolidated Berhad,Consumer Discretionary,7230.KL,EQ,
+Senheng New Retail Berhad,Consumer Discretionary,5305.KL,EQ,
+Versatile Creative Berhad,Consumer Discretionary,4995.KL,EQ,
+JAG Berhad,Industrials,0024.KL,EQ,
+Asia File Corporation Bhd.,Industrials,7129.KL,EQ,
+Cyberjaya Education Group Berhad,Consumer Staples,5166.KL,EQ,
+Glomac Berhad,Real Estate,5020.KL,EQ,
+Wasco Greenergy Berhad,Utilities,5343.KL,EQ,
+REDtone Digital Berhad,Communication Services,0032.KL,EQ,
+Perak Transit Berhad,Industrials,0186.KL,EQ,
+New Hoong Fatt Holdings Berhad,Consumer Discretionary,7060.KL,EQ,
+Uzma Berhad,Energy,7250.KL,EQ,
+Cnergenz Berhad,Industrials,0246.KL,EQ,
+Inta Bina Group Berhad,Industrials,0192.KL,EQ,
+Pos Malaysia Berhad,Industrials,4634.KL,EQ,
+Cloudpoint Technology Berhad,Technology,0277.KL,EQ,
+Magna Prima Berhad,Real Estate,7617.KL,EQ,
+Pesona Metro Holdings Berhad,Industrials,8311.KL,EQ,
+Genetec Technology Berhad,Industrials,0104.KL,EQ,
+Astino Berhad,Materials,7162.KL,EQ,
+Yoong Onn Corporation Berhad,Consumer Discretionary,5159.KL,EQ,
+JKG Land Berhad,Real Estate,6769.KL,EQ,
+DutaLand Berhad,Consumer Staples,3948.KL,EQ,
+Eversendai Corporation Berhad,Industrials,5205.KL,EQ,
+Globaltec Formation Berhad,Consumer Discretionary,5220.KL,EQ,
+Tong Herr Resources Berhad,Industrials,5010.KL,EQ,
+iCents Group Holdings Berhad,Industrials,0366.KL,EQ,
+LGMS Berhad,Technology,0249.KL,EQ,
+Mercury Securities Group Berhad,Financials,0285.KL,EQ,
+Pansar Berhad,Industrials,8419.KL,EQ,
+SDS Group Berhad,Consumer Staples,0212.KL,EQ,
+Kerjaya Prospek Property Berhad,Real Estate,7077.KL,EQ,
+Cepatwawasan Group Berhad,Consumer Staples,8982.KL,EQ,
+JHM Consolidation Berhad,Technology,0127.KL,EQ,
+TAFI Industries Berhad,Consumer Discretionary,7211.KL,EQ,
+BMS,Materials,0385.KL,EQ,
+T7 Global Berhad,Energy,7228.KL,EQ,
+PWF Corporation Bhd.,Consumer Staples,7134.KL,EQ,
+Notion VTec Berhad,Technology,0083.KL,EQ,
+Yenher Holdings Berhad,Consumer Staples,5300.KL,EQ,
+PMW International Berhad,Materials,0379.KL,EQ,
+MCE Holdings Berhad,Consumer Discretionary,7004.KL,EQ,
+NTPM Holdings Berhad,Consumer Staples,5066.KL,EQ,
+AmanahRaya Real Estate Investment Trust,Real Estate,5127.KL,EQ,
+Tune Protect Group Berhad,Financials,5230.KL,EQ,
+JcbNext Berhad,Financials,0058.KL,EQ,
+Pintaras Jaya Berhad,Industrials,9598.KL,EQ,
+Enproserve Group Berhad,Industrials,0367.KL,EQ,
+AMS Advanced Material Berhad,Industrials,0399.KL,EQ,
+HeiTech Padu Berhad,Technology,5028.KL,EQ,
+BP Plastics Holding Bhd.,Consumer Discretionary,5100.KL,EQ,
+HSS Engineers Berhad,Industrials,0185.KL,EQ,
+Petra Energy Berhad,Energy,5133.KL,EQ,
+PMCK Berhad,Health Care,0363.KL,EQ,
+FoundPac Group Berhad,Technology,5277.KL,EQ,
+Sunview Group Berhad,Utilities,0262.KL,EQ,
+Star Media Group Berhad,Communication Services,6084.KL,EQ,
+AwanBiru Technology Berhad,Consumer Staples,5204.KL,EQ,
+Metro Healthcare Berhad,Health Care,0329.KL,EQ,
+LB Aluminium Berhad,Materials,9326.KL,EQ,
+AmFirst Real Estate Investment Trust,Real Estate,5120.KL,EQ,
+Jati Tinggi Group Berhad,Industrials,0292.KL,EQ,
+Pan Merchant Berhad,Industrials,0361.KL,EQ,
+P.A. Resources Berhad,Industrials,7225.KL,EQ,
+JAKS Resources Berhad,Industrials,4723.KL,EQ,
+Techbond Group Berhad,Materials,5289.KL,EQ,
+Iskandar Waterfront City Berhad,Real Estate,1589.KL,EQ,
+Chin Well Holdings Berhad,Industrials,5007.KL,EQ,
+Edelteq Holdings Berhad,Technology,0278.KL,EQ,
+HE Group Berhad,Industrials,0296.KL,EQ,
+Selangor Dredging Berhad,Real Estate,2224.KL,EQ,
+Teamstar Berhad,Consumer Discretionary,0393.KL,EQ,
+Advance Synergy Berhad,Consumer Discretionary,1481.KL,EQ,
+Poh Huat Resources Holdings Berhad,Consumer Discretionary,7088.KL,EQ,
+Fibromat (M) Berhad,Industrials,0355.KL,EQ,
+Hextar Retail Berhad,Materials,7202.KL,EQ,
+Unimech Group Berhad,Industrials,7091.KL,EQ,
+Econpile Holdings Berhad,Industrials,5253.KL,EQ,
+Feytech Holdings Berhad,Consumer Discretionary,5322.KL,EQ,
+Semico Capital Berhad,Consumer Discretionary,0388.KL,EQ,
+Skygate Solutions Berhad,Real Estate,7249.KL,EQ,
+Malaysia Steel Works (KL) Bhd.,Materials,5098.KL,EQ,
+Riverview Rubber Estates  Berhad,Consumer Staples,2542.KL,EQ,
+Analabs Resources Berhad,Materials,7083.KL,EQ,
+Concrete Engineering Products Berhad,Materials,8435.KL,EQ,
+Asian Pac Holdings Berhad,Real Estate,4057.KL,EQ,
+KESM Industries Berhad,Technology,9334.KL,EQ,
+N2N Connect Berhad,Technology,0108.KL,EQ,
+Hexza Corporation Berhad,Materials,3298.KL,EQ,
+Iris Group Berhad,Industrials,0010.KL,EQ,
+Lay Hong Berhad,Consumer Staples,9385.KL,EQ,
+Parkson Holdings Berhad,Consumer Discretionary,5657.KL,EQ,
+Mudajaya Group Berhad,Industrials,5085.KL,EQ,
+Cengild Medical Berhad,Health Care,0243.KL,EQ,
+Topmix Berhad,Consumer Discretionary,0302.KL,EQ,
+ES Sunlogy Berhad,Industrials,0345.KL,EQ,
+EC Excel Holdings Berhad,Materials,5192.KL,EQ,
+Bonia Corporation Berhad,Consumer Discretionary,9288.KL,EQ,
+AWC Berhad,Industrials,7579.KL,EQ,
+Inch Kenneth Kajang Rubber Public Limited Company,Consumer Discretionary,2607.KL,EQ,
+Maxim Global Berhad,Real Estate,4022.KL,EQ,
+Oasis Home Holding Berhad,Consumer Discretionary,0357.KL,EQ,
+Sunzen Group Berhad,Consumer Staples,0148.KL,EQ,
+Perusahaan Sadur Timah Malaysia (Perstima) Berhad,Consumer Discretionary,5436.KL,EQ,
+BWYS Group Berhad,Materials,0313.KL,EQ,
+Matang Berhad,Consumer Staples,0189.KL,EQ,
+Pestec International Berhad,Industrials,5219.KL,EQ,
+Aemulus Holdings Berhad,Technology,0181.KL,EQ,
+WINSTAR,Materials,0336.KL,EQ,
+Destini Berhad,Industrials,7212.KL,EQ,
+Greentronics Technology Berhad,Industrials,7943.KL,EQ,
+Sealink International Berhad,Industrials,5145.KL,EQ,
+LFE Corporation Berhad,Industrials,7170.KL,EQ,
+Homeritz Corporation Berhad,Consumer Discretionary,5160.KL,EQ,
+Rivertree STF Synergies Bhd,Consumer Staples,9776.KL,EQ,
+Omesti Berhad,Industrials,9008.KL,EQ,
+SKB Shutters Corporation Berhad,Industrials,7115.KL,EQ,
+AGX Group Berhad,Industrials,0299.KL,EQ,
+Crest Group Berhad,Technology,0323.KL,EQ,
+Hock Soon Capital Berhad,Consumer Staples,5346.KL,EQ,
+LTKM Berhad,Consumer Staples,7085.KL,EQ,
+Globetronics Technology Bhd.,Technology,7022.KL,EQ,
+Public Packages Holdings Berhad,Consumer Discretionary,8273.KL,EQ,
+Beshom Holdings Berhad,Health Care,7668.KL,EQ,
+M K Land Holdings Berhad,Real Estate,8893.KL,EQ,
+Unique Fire Holdings Berhad,Industrials,0257.KL,EQ,
+Lii Hen Industries Bhd,Consumer Discretionary,7089.KL,EQ,
+Elsoft Research Berhad,Technology,0090.KL,EQ,
+DPS Resources Berhad,Industrials,7198.KL,EQ,
+Eduspec Holdings Berhad,Consumer Staples,0107.KL,EQ,
+Malton Berhad,Real Estate,6181.KL,EQ,
+Silver Ridge Holdings Bhd.,Technology,0129.KL,EQ,
+Apex Equity Holdings Berhad,Financials,5088.KL,EQ,
+Gadang Holdings Berhad,Industrials,9261.KL,EQ,
+SET,Industrials,0337.KL,EQ,
+Systech Bhd,Technology,0050.KL,EQ,
+UPA Corporation Berhad,Industrials,7757.KL,EQ,
+Dancomech Holdings Berhad,Industrials,5276.KL,EQ,
+Pacific & Orient Berhad,Financials,6009.KL,EQ,
+MTAG Group Berhad,Industrials,0213.KL,EQ,
+Colform Group Berhad,Materials,0341.KL,EQ,
+AppAsia Berhad,Technology,0119.KL,EQ,
+George Kent (Malaysia) Berhad,Industrials,3204.KL,EQ,
+OCR Group Berhad,Real Estate,7071.KL,EQ,
+Hubline Berhad,Industrials,7013.KL,EQ,
+IFCA MSC Berhad,Technology,0023.KL,EQ,
+Rhone Ma Holdings Berhad,Health Care,5278.KL,EQ,
+Adnex Group Berhad,Industrials,0396.KL,EQ,
+FBG Holdings Berhad,Industrials,7047.KL,EQ,
+Success Transformer Corporation Berhad,Industrials,7207.KL,EQ,
+Khee San Berhad,Consumer Staples,6203.KL,EQ,
+Malayan United Industries Berhad,Consumer Discretionary,3891.KL,EQ,
+Tower Real Estate Investment Trust,Real Estate,5111.KL,EQ,
+Eonmetall Group Berhad,Materials,7217.KL,EQ,
+PT Resources Holdings Berhad,Consumer Staples,0260.KL,EQ,
+Sumisaujana Group Berhad,Materials,0349.KL,EQ,
+WaveFront Berhad,Technology,8176.KL,EQ,
+Metrod Holdings Berhad,Industrials,6149.KL,EQ,
+EITA Resources Berhad,Industrials,5208.KL,EQ,
+ICT Zone Asia Berhad,Technology,0358.KL,EQ,
+MClean Technologies Berhad,Industrials,0167.KL,EQ,
+A1 A.K. Koh Group Berhad,Consumer Staples,0365.KL,EQ,
+Panda Eco System Berhad,Technology,0290.KL,EQ,
+Eurospan Holdings Berhad,Consumer Discretionary,7094.KL,EQ,
+Milux Corporation Berhad,Consumer Discretionary,7935.KL,EQ,
+FACB Industries Incorporated Berhad,Consumer Discretionary,2984.KL,EQ,
+MUI Properties Berhad,Real Estate,3913.KL,EQ,
+OpenSys (M) Berhad,Technology,0040.KL,EQ,
+Willowglen MSC Berhad,Technology,0008.KL,EQ,
+Cropmate Berhad,Materials,0331.KL,EQ,
+Mestron Holdings Berhad,Industrials,0207.KL,EQ,
+PSP Energy Berhad,Energy,0383.KL,EQ,
+Geohan Corporation Berhad,Industrials,5345.KL,EQ,
+Farm Price Holdings Berhad,Consumer Staples,0304.KL,EQ,
+Subur Tiasa Holdings Berhad,Materials,6904.KL,EQ,
+Alam Maritim Resources Berhad,Energy,5115.KL,EQ,
+MST Golf Group Berhad,Consumer Discretionary,5316.KL,EQ,
+Chemlite Innovation Berhad,Industrials,0348.KL,EQ,
+Infoline Tec Group Berhad,Technology,0253.KL,EQ,
+TRC Synergy Berhad,Industrials,5054.KL,EQ,
+TT Vision Holdings Berhad,Technology,0272.KL,EQ,
+Kim Hin Industry Berhad,Materials,5371.KL,EQ,
+TWL Holdings Berhad,Real Estate,7079.KL,EQ,
+XPB,Industrials,0370.KL,EQ,
+InNature Berhad,Consumer Discretionary,5295.KL,EQ,
+Media Chinese International Limited,Communication Services,5090.KL,EQ,
+GFM Services Berhad,Industrials,0039.KL,EQ,
+EP Manufacturing Bhd,Consumer Discretionary,7773.KL,EQ,
+SBH Marine Holdings Berhad,Consumer Staples,0300.KL,EQ,
+Leon Fuat Berhad,Materials,5232.KL,EQ,
+DS Sigma Holdings Berhad,Consumer Discretionary,0269.KL,EQ,
+Agmo Holdings Berhad,Technology,0258.KL,EQ,
+FSBM Holdings Berhad,Technology,9377.KL,EQ,
+Radiant Globaltech Berhad,Technology,0202.KL,EQ,
+ECA Integrated Solution Berhad,Industrials,0267.KL,EQ,
+Timberwell Berhad,Materials,7854.KL,EQ,
+Jentayu Sustainables Berhad,Industrials,5673.KL,EQ,
+Lotus KFM Berhad,Consumer Staples,8303.KL,EQ,
+Symphony Life Berhad,Real Estate,1538.KL,EQ,
+Lebtech Berhad,Industrials,9628.KL,EQ,
+Aimflex Berhad,Industrials,0209.KL,EQ,
+Microlink Solutions Berhad,Technology,0126.KL,EQ,
+Bintai Kinden Corporation Berhad,Industrials,6998.KL,EQ,
+Dominant Enterprise Berhad,Materials,7169.KL,EQ,
+Nova MSC Berhad,Technology,0026.KL,EQ,
+Catcha Digital Berhad,Communication Services,0173.KL,EQ,
+Pasdec Holdings Berhad,Real Estate,6912.KL,EQ,
+Kein Hing International Berhad,Industrials,7199.KL,EQ,
+HPP Holdings Berhad,Consumer Discretionary,0228.KL,EQ,
+UMediC Group Berhad,Health Care,0256.KL,EQ,
+YNH Property Bhd,Real Estate,3158.KL,EQ,
+HHRG Berhad,Consumer Staples,0175.KL,EQ,
+Seni Jaya Corporation Berhad,Communication Services,9431.KL,EQ,
+SHH Resources Holdings Berhad,Consumer Discretionary,7412.KL,EQ,
+Marco Holdings Berhad,Technology,3514.KL,EQ,
+Evergreen Fibreboard Berhad,Consumer Discretionary,5101.KL,EQ,
+Iconic Worldwide Berhad,Health Care,9113.KL,EQ,
+DC Healthcare Holdings Berhad,Health Care,0283.KL,EQ,
+Advancecon Holdings Berhad,Industrials,5281.KL,EQ,
+Prestar Resources Berhad,Materials,9873.KL,EQ,
+Pegasus Heights Berhad,Real Estate,4464.KL,EQ,
+White Horse Berhad,Materials,5009.KL,EQ,
+Tien Wah Press Holdings Berhad,Industrials,7374.KL,EQ,
+Censof Holdings Berhad,Technology,5195.KL,EQ,
+Nuenergy Holdings Berhad,Utilities,5614.KL,EQ,
+Hextar Capital Berhad,Technology,0035.KL,EQ,
+Eupe Corporation Berhad,Real Estate,6815.KL,EQ,
+Axteria Group Berhad,Real Estate,7120.KL,EQ,
+Superlon Holdings Berhad,Industrials,7235.KL,EQ,
+ENRA Group Berhad,Industrials,8613.KL,EQ,
+OSK Ventures International Berhad,Financials,0053.KL,EQ,
+Carimin Petroleum Berhad,Energy,5257.KL,EQ,
+Xin Synergy Group Berhad,Materials,7043.KL,EQ,
+Nova Wellness Group Berhad,Consumer Staples,0201.KL,EQ,
+KPS Consortium Berhad,Industrials,9121.KL,EQ,
+OKA Corporation Bhd,Materials,7140.KL,EQ,
+VETECE Holdings Berhad,Technology,0319.KL,EQ,
+Excel Force MSC Berhad,Technology,0065.KL,EQ,
+Niche Capital Emas Holdings Berhad,Industrials,7139.KL,EQ,
+PLYTEC Holding Berhad,Materials,0289.KL,EQ,
+Choo Bee Metal Industries Berhad,Materials,5797.KL,EQ,
+TechStore Berhad,Technology,0343.KL,EQ,
+Kronologi Asia Berhad,Technology,0176.KL,EQ,
+OpenMove AI Berhad,Technology,0106.KL,EQ,
+Farmiera Berhad,Consumer Staples,0378.KL,EQ,
+Protasco Berhad,Industrials,5070.KL,EQ,
+BCB Berhad,Real Estate,6602.KL,EQ,
+Steel Hawk Berhad,Energy,0320.KL,EQ,
+Talam Transform Berhad,Real Estate,2259.KL,EQ,
+Lysaght Galvanized Steel Berhad,Materials,9199.KL,EQ,
+K-One Technology Berhad,Technology,0111.KL,EQ,
+Crest Builder Holdings Berhad,Industrials,8591.KL,EQ,
+Greenyield Berhad,Consumer Staples,0136.KL,EQ,
+Reservoir Link Energy Bhd,Energy,0219.KL,EQ,
+Sarawak Consolidated Industries Berhad,Materials,9237.KL,EQ,
+Cuscapi Berhad,Technology,0051.KL,EQ,
+Tek Seng Holdings Berhad,Consumer Discretionary,7200.KL,EQ,
+Carlo Rino Group Bhd,Consumer Discretionary,0335.KL,EQ,
+Gromutual Berhad,Real Estate,9962.KL,EQ,
+Synergy House Berhad,Consumer Discretionary,0279.KL,EQ,
+Sin-Kung Logistics Berhad,Industrials,0305.KL,EQ,
+Peoplelogy Berhad,Consumer Staples,0356.KL,EQ,
+Minho (M) Berhad,Materials,5576.KL,EQ,
+Econframe Berhad,Industrials,0227.KL,EQ,
+AYS Ventures Berhad,Materials,5021.KL,EQ,
+Taghill Holdings Berhad,Industrials,0241.KL,EQ,
+Alcom Group Berhad,Materials,2674.KL,EQ,
+SMRT Holdings Berhad,Consumer Staples,0117.KL,EQ,
+EPB Group Berhad,Industrials,0317.KL,EQ,
+Scope Industries Berhad,Technology,0028.KL,EQ,
+ETA Group Berhad,Consumer Staples,9946.KL,EQ,
+Sin Heng Chan (Malaya) Berhad,Consumer Staples,4316.KL,EQ,
+Lion Industries Corporation Berhad,Materials,4235.KL,EQ,
+Texchem Resources Bhd,Industrials,8702.KL,EQ,
+PUC Berhad,Communication Services,0007.KL,EQ,
+Manforce Group Berhad,Industrials,0450.KL,EQ,
+Compugates Holdings Berhad,Technology,5037.KL,EQ,
+Oversea Enterprise Berhad,Consumer Discretionary,0153.KL,EQ,
+SCGM Bhd,Financials,7247.KL,EQ,
+Ocean Vantage Holdings Berhad,Energy,0220.KL,EQ,
+CJ Century Logistics Holdings Berhad,Industrials,7117.KL,EQ,
+Master-Pack Group Berhad,Consumer Discretionary,7029.KL,EQ,
+Daythree Digital Berhad,Technology,0281.KL,EQ,
+Guan Huat Seng Holdings Berhad,Consumer Staples,0387.KL,EQ,
+Jasa Kita Berhad,Industrials,8648.KL,EQ,
+Gabungan AQRS Berhad,Industrials,5226.KL,EQ,
+Lotus Circular Berhad,Consumer Discretionary,7234.KL,EQ,
+Luster Industries Bhd,Industrials,5068.KL,EQ,
+Rapid Synergy Berhad,Industrials,7765.KL,EQ,
+Kim Teck Cheong Consolidated Berhad,Consumer Staples,0180.KL,EQ,
+Eden Inc. Berhad,Industrials,7471.KL,EQ,
+ES Ceramics Technology Berhad,Materials,0100.KL,EQ,
+Glostrext Berhad,Industrials,0284.KL,EQ,
+Resintech Berhad,Industrials,7232.KL,EQ,
+Mycron Steel Berhad,Materials,5087.KL,EQ,
+Euro Holdings Berhad,Consumer Discretionary,7208.KL,EQ,
+Ken Holdings Berhad,Industrials,7323.KL,EQ,
+SUPREME,Consumer Staples,0330.KL,EQ,
+Hua Yang Berhad,Real Estate,5062.KL,EQ,
+OCB Berhad,Consumer Staples,5533.KL,EQ,
+TAS Offshore Berhad,Industrials,5149.KL,EQ,
+TPC Plus Berhad,Consumer Staples,7176.KL,EQ,
+Epicon Berhad,Industrials,4847.KL,EQ,
+OB Holdings Berhad,Consumer Staples,0327.KL,EQ,
+Inspace Creation Berhad,Industrials,0451.KL,EQ,
+Scanwolf Corporation Berhad,Consumer Discretionary,7239.KL,EQ,
+Auro Holdings Berhad,Materials,5025.KL,EQ,
+Hextar Healthcare Berhad,Materials,7803.KL,EQ,
+Only World Group Holdings Berhad,Consumer Discretionary,5260.KL,EQ,
+Haily Group Berhad,Industrials,0237.KL,EQ,
+Saliran Group Berhad,Materials,0346.KL,EQ,
+West River Berhad,Industrials,0353.KL,EQ,
+Rohas Tecnic Berhad,Industrials,9741.KL,EQ,
+Aneka Jaringan Holdings Berhad,Industrials,0226.KL,EQ,
+AIZO Group Berhad,Materials,7219.KL,EQ,
+Dataprep Holdings Bhd,Technology,8338.KL,EQ,
+Kumpulan H & L High-Tech Berhad,Industrials,7033.KL,EQ,
+Teo Guan Lee Corporation Berhad,Consumer Discretionary,9369.KL,EQ,
+Sinaran Advance Group Berhad,Consumer Discretionary,5172.KL,EQ,
+Borneo Oil Berhad,Industrials,7036.KL,EQ,
+Comfort Gloves Berhad,Materials,2127.KL,EQ,
+YX Precious Metals Bhd,Consumer Discretionary,0250.KL,EQ,
+Agricore CS Holdings Berhad,Consumer Staples,0309.KL,EQ,
+Teck Guan Perdana Berhad,Consumer Staples,7439.KL,EQ,
+HeveaBoard Berhad,Materials,5095.KL,EQ,
+Puncak Niaga Holdings Berhad,Industrials,6807.KL,EQ,
+Lee Swee Kiat Group Berhad,Consumer Discretionary,8079.KL,EQ,
+Polymer Link Holdings Berhad,Materials,0381.KL,EQ,
+Ahmad Zaki Resources Berhad,Industrials,7078.KL,EQ,
+GUH Holdings Berhad,Technology,3247.KL,EQ,
+ASM Automation Group Berhad,Industrials,0362.KL,EQ,
+Mesiniaga Berhad,Technology,5011.KL,EQ,
+Asia Poly Holdings Berhad,Materials,0105.KL,EQ,
+Zecon Berhad,Industrials,7028.KL,EQ,
+UMS Holdings Berhad,Industrials,7137.KL,EQ,
+Tuju Setia Berhad,Industrials,5297.KL,EQ,
+DPI Holdings Berhad,Materials,0205.KL,EQ,
+Wawasan Dengkil Holdings Berhad,Industrials,0347.KL,EQ,
+Muar Ban Lee Group Berhad,Industrials,5152.KL,EQ,
+ManagePay Systems Berhad,Technology,0156.KL,EQ,
+Jaycorp Berhad,Consumer Discretionary,7152.KL,EQ,
+Lion Posim Berhad,Materials,8486.KL,EQ,
+Tashin Holdings Berhad,Materials,0211.KL,EQ,
+Benalec Holdings Berhad,Industrials,5190.KL,EQ,
+Sycal Ventures Berhad,Industrials,9717.KL,EQ,
+Cosmos Technology International Berhad,Industrials,0261.KL,EQ,
+Quality Concrete Holdings Berhad,Industrials,7544.KL,EQ,
+UMS-Neiken Group Berhad,Industrials,7227.KL,EQ,
+A-Rank Berhad,Materials,7214.KL,EQ,
+MMAG Holdings Berhad,Technology,0034.KL,EQ,
+Theta Edge Berhad,Technology,9075.KL,EQ,
+Efficient E-Solutions Berhad,Industrials,0064.KL,EQ,
+Eksons Corporation Berhad,Materials,9016.KL,EQ,
+Orgabio Holdings Berhad,Consumer Staples,0252.KL,EQ,
+Karyon Industries Berhad,Materials,0054.KL,EQ,
+Grand Central Enterprises Bhd.,Consumer Discretionary,5592.KL,EQ,
+Y&G Corporation Bhd.,Real Estate,7003.KL,EQ,
+RGT Berhad,Materials,9954.KL,EQ,
+SMART,Materials,0306.KL,EQ,
+YBS International Berhad,Industrials,0025.KL,EQ,
+Solid Automotive Berhad,Consumer Discretionary,5242.KL,EQ,
+Divfex Berhad,Technology,0131.KL,EQ,
+Bina Darulaman Berhad,Industrials,6173.KL,EQ,
+Brite-Tech Berhad,Industrials,0011.KL,EQ,
+JS Solar Holding Berhad,Utilities,0369.KL,EQ,
+Olympia Industries Berhad,Consumer Discretionary,3018.KL,EQ,
+Securemetric Berhad,Technology,0203.KL,EQ,
+PeterLabs Holdings Berhad,Health Care,0171.KL,EQ,
+GOLDLI,Real Estate,0452.KL,EQ,
+Sasbadi Holdings Berhad,Communication Services,5252.KL,EQ,
+Mobilia Holdings Berhad,Consumer Discretionary,0229.KL,EQ,
+Mayu Global Group Berhad,Industrials,7099.KL,EQ,
+Artroniq Berhad,Technology,0038.KL,EQ,
+Edaran Berhad,Technology,5036.KL,EQ,
+Green Packet Berhad,Communication Services,0082.KL,EQ,
+Minox International Group Berhad,Materials,0288.KL,EQ,
+Infraharta Holdings Berhad,Industrials,7240.KL,EQ,
+MyTech Group Berhad,Industrials,7692.KL,EQ,
+PCCS Group Berhad,Consumer Discretionary,6068.KL,EQ,
+Avillion Berhad,Consumer Discretionary,8885.KL,EQ,
+Focus Dynamics Group Berhad,Consumer Discretionary,0116.KL,EQ,
+Bertam Alliance Berhad,Real Estate,9814.KL,EQ,
+G3 Global Berhad,Technology,7184.KL,EQ,
+Yong Tai Berhad,Real Estate,7066.KL,EQ,
+Careplus Group Berhad,Health Care,0163.KL,EQ,
+Wang-Zheng Berhad,Materials,7203.KL,EQ,
+SBC Corporation Berhad,Real Estate,5207.KL,EQ,
+Imaspro Corporation Berhad,Materials,7222.KL,EQ,
+Pimpinan Ehsan Berhad,Financials,5622.KL,EQ,
+VANZO,Consumer Staples,0333.KL,EQ,
+Tomypak Holdings Berhad,Consumer Discretionary,7285.KL,EQ,
+PBS Berhad,Industrials,5231.KL,EQ,
+Golden Land Berhad,Real Estate,7382.KL,EQ,
+Visdynamics Holdings Berhad,Technology,0120.KL,EQ,
+MMS Ventures Berhad,Technology,0113.KL,EQ,
+TCS Group Holdings Berhad,Industrials,0221.KL,EQ,
+ACO Group Berhad,Technology,0218.KL,EQ,
+Melati Ehsan Holdings Berhad,Industrials,5129.KL,EQ,
+Khind Holdings Berhad,Consumer Discretionary,7062.KL,EQ,
+SBS Nexus Berhad,Communication Services,0386.KL,EQ,
+Leader Steel Holdings Berhad,Materials,9881.KL,EQ,
+Sapura Industrial Berhad,Consumer Discretionary,7811.KL,EQ,
+FITTERS Diversified Berhad,Industrials,9318.KL,EQ,
+Cheetah Holdings Berhad,Consumer Discretionary,7209.KL,EQ,
+Majuperak Holdings Berhad,Real Estate,8141.KL,EQ,
+HPMT Holdings Berhad,Industrials,5291.KL,EQ,
+G Capital Berhad,Industrials,7676.KL,EQ,
+Landmarks Berhad,Consumer Discretionary,1643.KL,EQ,
+Volcano Berhad,Industrials,0232.KL,EQ,
+BIMOffice Group Berhad,Technology,03069.KL,EQ,
+Jadi Imaging Holdings Berhad,Materials,7223.KL,EQ,
+L&P Global Berhad,Consumer Discretionary,0268.KL,EQ,
+Astral Asia Berhad,Consumer Staples,7054.KL,EQ,
+Velocity Capital Partner Berhad,Industrials,7165.KL,EQ,
+WTEC Group Berhad,Materials,0352.KL,EQ,
+Ta Win Holdings Berhad,Industrials,7097.KL,EQ,
+CEKD Berhad,Industrials,0238.KL,EQ,
+Privasia Technology Berhad,Technology,0123.KL,EQ,
+Salutica Berhad,Technology,0183.KL,EQ,
+Ornapaper Berhad,Consumer Discretionary,5065.KL,EQ,
+Turiya Berhad,Technology,4359.KL,EQ,
+Ecoscience International Berhad,Industrials,0255.KL,EQ,
+Ralco Corporation Berhad,Consumer Discretionary,7498.KL,EQ,
+Warisan TC Holdings Berhad,Industrials,5016.KL,EQ,
+Sapura Resources Berhad,Industrials,4596.KL,EQ,
+CAM Resources Berhad,Consumer Staples,7128.KL,EQ,
+Pan Malaysia Corporation Berhad,Consumer Staples,4081.KL,EQ,
+Vizione Holdings Berhad,Industrials,7070.KL,EQ,
+See Hup Consolidated Berhad,Industrials,7053.KL,EQ,
+Wegmans Holdings Berhad,Consumer Discretionary,0197.KL,EQ,
+Paos Holdings Berhad,Materials,5022.KL,EQ,
+Melewar Industrial Group Berhad,Materials,3778.KL,EQ,
+Zantat Holdings Berhad,Materials,0301.KL,EQ,
+Country Heights Holdings Berhad,Consumer Discretionary,5738.KL,EQ,
+Txcd Berhad,Industrials,7145.KL,EQ,
+KGW Group Berhad,Industrials,0282.KL,EQ,
+Maxland Berhad,Materials,7123.KL,EQ,
+Topvision Eye Specialist Berhad,Health Care,0332.KL,EQ,
+Federal International Holdings Berhad,Consumer Discretionary,8605.KL,EQ,
+Spring Art Holdings Berhad,Consumer Discretionary,0216.KL,EQ,
+S & F Capital Berhad,Real Estate,8745.KL,EQ,
+Parkwood Holdings Berhad,Real Estate,2682.KL,EQ,
+LBI Capital Berhad,Real Estate,8494.KL,EQ,
+NetX Holdings Berhad,Technology,0020.KL,EQ,
+Focus Lumber Berhad,Materials,5197.KL,EQ,
+Greater Bay Holdings Berhad,Consumer Discretionary,9148.KL,EQ,
+MSB Global Group Berhad,Consumer Discretionary,0350.KL,EQ,
+Ingenieur Gudang Berhad,Industrials,5178.KL,EQ,
+Global Oriental Berhad,Real Estate,1147.KL,EQ,
+Hiap Huat Holdings Berhad,Energy,0160.KL,EQ,
+Esthetics International Group Berhad,Consumer Staples,5081.KL,EQ,
+Perak Corporation Berhad,Industrials,8346.KL,EQ,
+Lien Hoe Corporation Berhad,Consumer Discretionary,3573.KL,EQ,
+UCrest Berhad,Health Care,0005.KL,EQ,
+Waja Konsortium Berhad,Industrials,0102.KL,EQ,
+BTM Resources Berhad,Materials,7188.KL,EQ,
+PRG Holdings Berhad,Consumer Discretionary,7168.KL,EQ,
+Cabnet Holdings Berhad,Industrials,0191.KL,EQ,
+Kumpulan Jetson Berhad,Materials,9083.KL,EQ,
+Powertechnic Group Berhad,Industrials,0377.KL,EQ,
+Knusford Berhad,Industrials,5035.KL,EQ,
+ABM Fujiya Berhad,Consumer Discretionary,5198.KL,EQ,
+Ni Hsin Group Berhad,Consumer Discretionary,7215.KL,EQ,
+Mercury Industries Berhad,Industrials,8192.KL,EQ,
+Adventa Berhad,Health Care,7191.KL,EQ,
+KYM Holdings Bhd,Consumer Discretionary,8362.KL,EQ,
+Binasat Communications Berhad,Communication Services,0195.KL,EQ,
+Key ASIC Berhad,Technology,0143.KL,EQ,
+Mentiga Corporation Berhad,Consumer Staples,5223.KL,EQ,
+Amlex Holdings Berhad,Technology,03011.KL,EQ,
+ACME Holdings Berhad,Consumer Discretionary,7131.KL,EQ,
+MAA Group Berhad,Financials,1198.KL,EQ,
+Pineapple Resources Berhad,Technology,0006.KL,EQ,
+CWG Holdings Berhad,Materials,9423.KL,EQ,
+Flexidynamic Holdings Berhad,Industrials,0231.KL,EQ,
+Kucingko Berhad,Communication Services,0315.KL,EQ,
+Malaysian Genomics Resource Centre Berhad,Health Care,0155.KL,EQ,
+Kim Hin Joo (Malaysia) Berhad,Consumer Discretionary,0210.KL,EQ,
+Toyo Ventures Holdings Berhad,Materials,7173.KL,EQ,
+Camaroe Berhad,Consumer Staples,0371.KL,EQ,
+Revenue Group Berhad,Technology,0200.KL,EQ,
+Nexgram Holdings Berhad,Industrials,0096.KL,EQ,
+Fibon Berhad,Industrials,0149.KL,EQ,
+One Gasmaster Holdings Berhad,Industrials,0389.KL,EQ,
+BSL Corporation Berhad,Industrials,7221.KL,EQ,
+Sedania Innovator Berhad,Consumer Staples,0178.KL,EQ,
+Thriven Global Berhad,Real Estate,7889.KL,EQ,
+Encorp Berhad,Real Estate,6076.KL,EQ,
+RichTech Digital Berhad,Technology,0342.KL,EQ,
+Nexg Bina Berhad,Consumer Discretionary,7154.KL,EQ,
+South Malaysia Industries Berhad,Industrials,4375.KL,EQ,
+Watta Holding Berhad,Technology,7226.KL,EQ,
+Chuan Huat Resources Berhad,Industrials,7016.KL,EQ,
+Wong Engineering Corporation Berhad,Industrials,7050.KL,EQ,
+XOX Berhad,Communication Services,0165.KL,EQ,
+SCC Holdings Berhad,Consumer Staples,0158.KL,EQ,
+Straits Energy Resources Berhad,Industrials,0080.KL,EQ,
+D'nonce Technology Bhd.,Consumer Discretionary,7114.KL,EQ,
+Xin Hwa Holdings Berhad,Industrials,5267.KL,EQ,
+B.I.G. Industries Berhad,Materials,7005.KL,EQ,
+Oceancash Pacific Berhad,Consumer Staples,0049.KL,EQ,
+Bright Packaging Industry Berhad,Consumer Discretionary,9938.KL,EQ,
+Zelan Berhad,Industrials,2283.KL,EQ,
+Golden Pharos Berhad,Materials,5649.KL,EQ,
+Ho Hup Construction Company Berhad,Industrials,5169.KL,EQ,
+CYL Corporation Berhad,Consumer Discretionary,7157.KL,EQ,
+China Ouhua Winery Holdings Limited,Consumer Staples,5188.KL,EQ,
+SWS Capital Berhad,Consumer Discretionary,7186.KL,EQ,
+Sik Cheong Berhad,Consumer Staples,0316.KL,EQ,
+Ancom Logistics Berhad,Industrials,0048.KL,EQ,
+Progressive Impact Corporation Berhad,Industrials,7201.KL,EQ,
+EA Holdings Berhad,Industrials,0154.KL,EQ,
+KHPT Holdings Berhad,Consumer Discretionary,0322.KL,EQ,
+Sersol Berhad,Materials,0055.KL,EQ,
+Solution Group Berhad,Technology,0093.KL,EQ,
+Nova Technology Services Berhad,Communication Services,0017.KL,EQ,
+ARB Berhad,Technology,7181.KL,EQ,
+Widad Group Berhad,Industrials,0162.KL,EQ,
+Amtel Holdings Berhad,Technology,7031.KL,EQ,
+Technodex Bhd,Technology,0132.KL,EQ,
+Ocean Fresh Berhad,Consumer Staples,0312.KL,EQ,
+Box-Pak (Malaysia) Bhd.,Consumer Discretionary,6297.KL,EQ,
+Johan Holdings Berhad,Materials,3441.KL,EQ,
+Citra Nusa Holdings Berhad,Industrials,5104.KL,EQ,
+Trive Property Group Berhad,Technology,0118.KL,EQ,
+Jiankun International Berhad,Real Estate,8923.KL,EQ,
+Digistar Corporation Berhad,Industrials,0029.KL,EQ,
+Tri-Mode System (M) Berhad,Industrials,0199.KL,EQ,
+Hong Seng Consolidated Berhad,Industrials,0041.KL,EQ,
+PNE PCB Berhad,Technology,6637.KL,EQ,
+Kanger International Berhad,Materials,0170.KL,EQ,
+Hwa Tai Industries Berhad,Consumer Staples,8478.KL,EQ,
+HB Global Limited,Consumer Staples,5187.KL,EQ,
+Ho Wah Genting Berhad,Industrials,9601.KL,EQ,
+YLI Holdings Berhad,Materials,7014.KL,EQ,
+ASTEEL Group Berhad,Materials,7020.KL,EQ,
+SMIS Corporation Berhad,Consumer Discretionary,7132.KL,EQ,
+Emico Holdings Berhad,Consumer Discretionary,9091.KL,EQ,
+AHB Holdings Berhad,Industrials,7315.KL,EQ,
+HLT Global Berhad,Industrials,0188.KL,EQ,
+Eng Kah Corporation Berhad,Consumer Staples,7149.KL,EQ,
+Woodlandor Holdings Berhad,Materials,7025.KL,EQ,
+Arka Berhad,Industrials,7218.KL,EQ,
+APB Resources Berhad,Industrials,5568.KL,EQ,
+SC Estate Builder Berhad,Materials,0109.KL,EQ,
+Parlo Berhad,Consumer Discretionary,0022.KL,EQ,
+Farlim Group (Malaysia) Bhd.,Real Estate,6041.KL,EQ,
+Ygl Convergence Berhad,Technology,0086.KL,EQ,
+mTouche Technology Berhad,Communication Services,0092.KL,EQ,
+ARK Resources Holdings Berhad,Industrials,7007.KL,EQ,
+Xox Networks Berhad,Industrials,0140.KL,EQ,
+Computer Forms (Malaysia) Berhad,Industrials,8044.KL,EQ,
+Erdasan Group Berhad,Industrials,0072.KL,EQ,
+Multi-Usage Holdings Berhad,Real Estate,9539.KL,EQ,
+Bioalpha Holdings Berhad,Consumer Staples,0179.KL,EQ,
+Kia Lim Berhad,Materials,6211.KL,EQ,
+BCM Alliance Berhad,Health Care,0187.KL,EQ,
+Vsolar Group Berhad,Technology,0066.KL,EQ,
+Permaju Industries Berhad,Consumer Discretionary,7080.KL,EQ,
+Advance Information Marketing Berhad,Industrials,0122.KL,EQ,
+Eversafe Rubber Berhad,Consumer Discretionary,0190.KL,EQ,
+Techbase Industries Berhad,Consumer Discretionary,8966.KL,EQ,
+Oasis Harvest Corporation Berhad,Industrials,5265.KL,EQ,
+Joe Holding Berhad,Consumer Discretionary,7096.KL,EQ,
+CME Group Berhad,Consumer Discretionary,7018.KL,EQ,
+CN Asia Corporation Bhd,Industrials,7986.KL,EQ,
+YB Ventures Berhad,Materials,5048.KL,EQ,
+AbleGroup Berhad,Industrials,7086.KL,EQ,
+Ecobuilt Holdings Berhad,Industrials,0059.KL,EQ,
+TFP Solutions Berhad,Technology,0145.KL,EQ,
+Zen Tech International Berhad,Health Care,0094.KL,EQ,
+Evd Berhad,Technology,0174.KL,EQ,
+Aldrich Resources Berhad,Technology,0079.KL,EQ,
+Fintec Global Berhad,Financials,0150.KL,EQ,
+Metronic Global Berhad,Technology,0043.KL,EQ,
+Fast Energy Holdings Berhad,Industrials,0084.KL,EQ,
+Green Ocean Corporation Berhad,Consumer Staples,0074.KL,EQ,
+Vinvest Capital Holdings Berhad,Real Estate,0069.KL,EQ,
+Industronics Berhad,Technology,9393.KL,EQ,
+LKL International Berhad,Health Care,0182.KL,EQ,
+Komarkcorp Berhad,Industrials,7017.KL,EQ,
+Midtown Group Berhad,Industrials,0177.KL,EQ,
+AE Multi Holdings Berhad,Technology,7146.KL,EQ,
+Rekatech Capital Berhad,Industrials,0081.KL,EQ,
+PDZ Holdings Bhd,Industrials,6254.KL,EQ,
+SaudiGold Group Berhad,Consumer Staples,5157.KL,EQ,
+DGB Asia Berhad,Technology,0152.KL,EQ,
+Sanichi Technology Berhad,Industrials,0133.KL,EQ,
+MQ Technology Berhad,Industrials,0070.KL,EQ,
+LYC Healthcare Berhad,Technology,0075.KL,EQ,
+XiDeLang Holdings Ltd,Consumer Discretionary,5156.KL,EQ,
+M N C Wireless Berhad,Communication Services,0103.KL,EQ,
+Asdion Berhad,Industrials,0068.KL,EQ,
+Key Alliance Group Berhad,Industrials,0036.KL,EQ,
+SMTrack Berhad,Technology,0169.KL,EQ,
+Techna-X Berhad,Consumer Discretionary,2739.KL,EQ,
+Meridian Berhad,Real Estate,5040.KL,EQ,
+Propel Global Bhd,Industrials,0091.KL,EQ,
+Focus Dynamics Group Berhad,Consumer Discretionary,0116PA.KL,EQ,
+Evd Berhad,Technology,0174PA.KL,EQ,
+VERDANT,Technology,0373.KL,EQ,
+Bus Cap Berhad,Consumer Discretionary,0455.KL,EQ,
+--,Technology,0456.KL,EQ,
+Allianz Malaysia Berhad,Financials,1163PA.KL,EQ,
+AIZO Group Berhad,Materials,7219PA.KL,EQ,
+S P Setia Berhad,Real Estate,8664PA.KL,EQ,
+S P Setia Berhad,Real Estate,8664PC.KL,EQ,

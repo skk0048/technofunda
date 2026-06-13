@@ -1,50 +1,771 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-PKO Bank Polski,Financials,PKO.WA,EQ,
-Bank Pekao,Financials,PEO.WA,EQ,
-PKN Orlen,Energy,PKN.WA,EQ,
-PZU,Financials,PZU.WA,EQ,
-Santander Bank Polska,Financials,SPL.WA,EQ,
-Allegro,Technology,ALE.WA,EQ,
-KGHM Polska Miedz,Materials,KGH.WA,EQ,
-Dino Polska,Consumer Staples,DNP.WA,EQ,
-CD Projekt,Technology,CDR.WA,EQ,
-mBank,Financials,MBK.WA,EQ,
-ING Bank Slaski,Financials,ING.WA,EQ,
-Bank Millennium,Financials,MIL.WA,EQ,
-Alior Bank,Financials,ALR.WA,EQ,
-Orange Polska,Communication Services,OPL.WA,EQ,
-Cyfrowy Polsat,Communication Services,CPS.WA,EQ,
-LPP,Consumer Discretionary,LPP.WA,EQ,
-Grupa Kety,Materials,KTY.WA,EQ,
-Asseco Poland,Technology,ACP.WA,EQ,
-Jastrzebska Spolka,Energy,JSW.WA,EQ,
-Grupa Azoty,Materials,ATT.WA,EQ,
-Tauron Polska Energia,Utilities,TPE.WA,EQ,
-PGE Polska Grupa,Utilities,PGE.WA,EQ,
-Enea,Utilities,ENA.WA,EQ,
-Budimex,Industrials,BDX.WA,EQ,
-Kruk,Financials,KRU.WA,EQ,
-Pepco Group,Consumer Discretionary,PCO.WA,EQ,
-Zabka Group,Consumer Staples,ZAB.WA,EQ,
-Text SA,Technology,TXT.WA,EQ,
-Dom Development,Real Estate,DOM.WA,EQ,
-Warsaw Stock Exchange (GPW),Financials,GPW.WA,EQ,
-Eurocash,Consumer Staples,EUR.WA,EQ,
-Benefit Systems,Consumer Discretionary,BFT.WA,EQ,
-Auto Partner,Consumer Discretionary,APR.WA,EQ,
-XTB,Financials,XTB.WA,EQ,
-Develia,Real Estate,DVL.WA,EQ,
-Echo Investment,Real Estate,ECH.WA,EQ,
-Ten Square Games,Technology,TEN.WA,EQ,
-Comarch,Technology,CMR.WA,EQ,
-Wirtualna Polska,Communication Services,WPL.WA,EQ,
-Amica,Consumer Discretionary,AMC.WA,EQ,
-Ciech,Materials,CIE.WA,EQ,
-Boryszew,Materials,BRS.WA,EQ,
-Famur,Industrials,FMF.WA,EQ,
-Mercator Medical,Health Care,MRC.WA,EQ,
-Neuca,Health Care,NEU.WA,EQ,
-Selvita,Health Care,SLV.WA,EQ,
-Inter Cars,Consumer Discretionary,CAR.WA,EQ,
-GTC,Real Estate,GTC.WA,EQ,
-Bogdanka,Energy,LWB.WA,EQ,
+PKN Orlen,Energy,PKN.WA,EQ,PLPKN0000018
+PKO Bank Polski,Financials,PKO.WA,EQ,PLPKO0000016
+KGHM Polska Miedz,Materials,KGH.WA,EQ,PLKGHM000017
+Erste Bank Polska S.A.,Financials,EBP.WA,EQ,PLBZ00000044
+ING Bank Slaski,Financials,ING.WA,EQ,PLBSK0000017
+mBank,Financials,MBK.WA,EQ,PLBRE0000012
+Bank Pekao,Financials,PEO.WA,EQ,PLPEKAO00016
+PZU,Financials,PZU.WA,EQ,PLPZU0000011
+LPP,Consumer Discretionary,LPP.WA,EQ,PLLPP0000011
+Dino Polska,Consumer Staples,DNP.WA,EQ,PLDINPL00011
+Bank Millennium,Financials,MIL.WA,EQ,PLBIG0000016
+BNP Paribas Bank Polska S.A.,Financials,BNP.WA,EQ,PLBGZ0000010
+PGE Polska Grupa,Utilities,PGE.WA,EQ,PLPGER000010
+CD Projekt,Technology,CDR.WA,EQ,PLOPTTC00011
+Orange Polska,Communication Services,OPL.WA,EQ,PLTLKPL00017
+Alior Bank,Financials,ALR.WA,EQ,PLALIOR00045
+Budimex,Industrials,BDX.WA,EQ,PLBUDMX00013
+Tauron Polska Energia,Utilities,TPE.WA,EQ,PLTAURN00011
+Bank Handlowy w Warszawie S.A.,Financials,BHW.WA,EQ,PLBH00000012
+Benefit Systems,Consumer Discretionary,BFT.WA,EQ,PLBNFTS00018
+Asseco Poland,Technology,ACP.WA,EQ,PLSOFTB00016
+XTB,Financials,XTB.WA,EQ,PLXTRDM00011
+Energa SA,Utilities,ENG.WA,EQ,PLENERG00022
+Grupa Kety,Materials,KTY.WA,EQ,PLKETY000011
+Inter Cars,Consumer Discretionary,CAR.WA,EQ,PLINTCS00010
+Enea,Utilities,ENA.WA,EQ,PLENEA000013
+Cyfrowy Polsat,Communication Services,CPS.WA,EQ,PLCFRPT00013
+Kruk,Financials,KRU.WA,EQ,PLKRK0000010
+Modivo S.A.,Consumer Discretionary,MDV.WA,EQ,PLCCC0000016
+Dom Development,Real Estate,DOM.WA,EQ,PLDMDVL00012
+Diagnostyka S.A.,Health Care,DIA.WA,EQ,PLDGNST00012
+Develia,Real Estate,DVL.WA,EQ,PLLCCRP00017
+Polenergia S.A.,Utilities,PEP.WA,EQ,PLPLSEP00013
+Newag S.A.,Industrials,NWG.WA,EQ,PLNEWAG00012
+Warsaw Stock Exchange (GPW),Financials,GPW.WA,EQ,PLGPW0000017
+Auto Partner,Consumer Discretionary,APR.WA,EQ,PLATPRT00018
+Neuca,Health Care,NEU.WA,EQ,PLTRFRM00018
+Asseco South Eastern Europe S.A.,Technology,ASE.WA,EQ,PLASSEE00014
+Grupa Pracuj S.A.,Industrials,GPP.WA,EQ,PLGRPRC00015
+Archicom S.A.,Real Estate,ARH.WA,EQ,PLARHCM00016
+Asseco Business Solutions S.A.,Technology,ABS.WA,EQ,PLABS0000018
+Jastrzebska Spolka,Energy,JSW.WA,EQ,PLJSW0000015
+Cyber_Folks S.A.,Technology,CBF.WA,EQ,PLR220000018
+Atal S.A.,Real Estate,1AT.WA,EQ,PLATAL000046
+MLP Group S.A.,Real Estate,MLG.WA,EQ,PLMLPGR00017
+Vercom S.A.,Technology,VRC.WA,EQ,PLVRCM000016
+Creotech Instruments S.A.,Industrials,CRI.WA,EQ,PLCRTCH00017
+Synektik Spólka Akcyjna,Health Care,SNT.WA,EQ,PLSNKTK00019
+Lubawa S.A.,Industrials,LBW.WA,EQ,PLLUBAW00013
+AB S.A.,Technology,ABE.WA,EQ,PLAB00000019
+Rainbow Tours S.A.,Consumer Discretionary,RBW.WA,EQ,PLRNBWT00031
+Echo Investment,Real Estate,ECH.WA,EQ,PLECHPS00019
+Grupa Azoty,Materials,ATT.WA,EQ,PLZATRM00012
+Mennica Polska S.A.,Industrials,MNC.WA,EQ,PLMNNCP00011
+NIEWIADOW,Communication Services,GNS.WA,EQ,PLVNTCP00019
+Polimex-Mostostal S.A.,Industrials,PXM.WA,EQ,PLMSTSD00019
+GRENEVIA Spolka Akcyjna,Industrials,GEA.WA,EQ,PLFAMUR00012
+Wirtualna Polska,Communication Services,WPL.WA,EQ,PLWRTPL00027
+Comp S.A.,Technology,CMP.WA,EQ,PLCMP0000017
+Sygnity S.A.,Technology,SGN.WA,EQ,PLCMPLD00016
+Murapol S.A.,Consumer Discretionary,MUR.WA,EQ,PLMURPL00190
+Torpol S.A.,Industrials,TOR.WA,EQ,PLTORPL00016
+PlayWay S.A.,Communication Services,PLW.WA,EQ,PLPLAYW00015
+Trakcja S.A.,Industrials,TRK.WA,EQ,PLTRKPL00014
+MCI Capital Alternatywna Spólka Inwestycyjna S.A.,Financials,MCI.WA,EQ,PLMCIMG00012
+Cognor Holding S.A.,Materials,COG.WA,EQ,PLCNTSL00014
+Tarczynski S.A.,Consumer Staples,TAR.WA,EQ,PLTRCZN00016
+PCC Rokita SA,Materials,PCR.WA,EQ,PLPCCRK00076
+Unimot S.A.,Consumer Discretionary,UNT.WA,EQ,PLUNMOT00013
+GTC,Real Estate,GTC.WA,EQ,PLGTC0000037
+VRG S.A.,Consumer Discretionary,VRG.WA,EQ,PLVSTLA00011
+Mo-BRUK S.A.,Industrials,MBR.WA,EQ,PLMOBRK00013
+Tire Company Debica S.A.,Consumer Discretionary,DBC.WA,EQ,PLDEBCA00016
+Voxel S.A.,Health Care,VOX.WA,EQ,PLVOXEL00014
+Stalprodukt S.A.,Materials,STP.WA,EQ,PLSTLPD00017
+Mirbud S.A.,Industrials,MRB.WA,EQ,PLMRBUD00015
+Shoper S.A.,Technology,SHO.WA,EQ,PLSHPR000021
+Celon Pharma S.A.,Health Care,CLN.WA,EQ,PLCLNPH00015
+Wawel S.A.,Consumer Staples,WWL.WA,EQ,PLWAWEL00013
+Zespól Elektrocieplowni Wroclawskich KOGENERACJA S.A.,Utilities,KGN.WA,EQ,PLKGNRC00015
+Digital Network SA,Communication Services,DIG.WA,EQ,PL4FNMD00013
+Fabryka Farb i Lakierów Sniezka SA,Materials,SKA.WA,EQ,PLSNZKA00033
+Selena FM S.A.,Materials,SEL.WA,EQ,PLSELNA00010
+Text SA,Technology,TXT.WA,EQ,PLLVTSF00010
+Boryszew,Materials,BRS.WA,EQ,PLBRSZW00011
+BEST S.A.,Financials,BST.WA,EQ,PLBEST000010
+Zaklady Azotowe Pulawy S.A.,Materials,ZAP.WA,EQ,PLZAPUL00057
+Enter Air S.A.,Industrials,ENT.WA,EQ,PLENTER00017
+Grupa Azoty Zaklady Chemiczne Police S.A.,Materials,PCE.WA,EQ,PLZCPLC00036
+Bank Ochrony Srodowiska S.A.,Financials,BOS.WA,EQ,PLBOS0000019
+ZE PAK SA,Utilities,ZEP.WA,EQ,PLZEPAK00012
+Oponeo.pl S.A.,Consumer Discretionary,OPN.WA,EQ,PLOPNPL00013
+DataWalk S.A.,Technology,DAT.WA,EQ,PLPILAB00012
+Dadelo S.A.,Consumer Discretionary,DAD.WA,EQ,PLDADEL00013
+Medinice S.A.,Health Care,ICE.WA,EQ,PLMDNCE00016
+Decora S.A.,Consumer Discretionary,DCR.WA,EQ,PLDECOR00013
+Apator S.A.,Industrials,APT.WA,EQ,PLAPATR00018
+Bogdanka,Energy,LWB.WA,EQ,PLLWBGD00016
+Eurocash,Consumer Staples,EUR.WA,EQ,PLEURCH00011
+FERRO S.A.,Industrials,FRO.WA,EQ,PLFERRO00016
+Orzel Bialy S.A.,Industrials,OBL.WA,EQ,PLORZBL00013
+Gobarto S.A.,Consumer Staples,GOB.WA,EQ,PLDUDA000016
+Ten Square Games,Technology,TEN.WA,EQ,PLTSQGM00016
+TOYA S.A.,Industrials,TOA.WA,EQ,PLTOYA000011
+Selvita,Health Care,SLV.WA,EQ,PLSLVCR00029
+Sanok Rubber Company Spólka Akcyjna,Consumer Discretionary,SNK.WA,EQ,PLSTLSK00016
+SCANWAY,Technology,SCW.WA,EQ,PLSCWAY00018
+CI Games SE,Communication Services,CIG.WA,EQ,PLCTINT00018
+Wasko S.A.,Communication Services,WAS.WA,EQ,PLHOGA000041
+Dekpol S.A.,Industrials,DEK.WA,EQ,PLDEKPL00032
+Fabryka Obrabiarek RAFAMET S.A.,Industrials,RAF.WA,EQ,PLRFMET00016
+Centrum Medyczne ENEL-MED S.A.,Health Care,ENE.WA,EQ,PLENLMD00017
+Stalexport Autostrady S.A.,Industrials,STX.WA,EQ,PLSTLEX00019
+Quercus TFI S.A.,Financials,QRS.WA,EQ,PLQRCUS00012
+Arlen S.A.,Consumer Discretionary,ARL.WA,EQ,PLARLEN00012
+Votum S.A.,Industrials,VOT.WA,EQ,PLVOTUM00016
+Elektrotim S.A.,Industrials,ELT.WA,EQ,PLELEKT00016
+Atrem S.A.,Industrials,ATR.WA,EQ,PLATREM00017
+Pkp Cargo S.A.,Industrials,PKP.WA,EQ,PLPKPCR00011
+VIGO Photonics S.A.,Technology,VGO.WA,EQ,PLVIGOS00015
+Action S.A.,Technology,ACT.WA,EQ,PLACTIN00018
+Captor Therapeutics Spolka Akcyjna,Health Care,CTX.WA,EQ,PLCPTRT00014
+Bioceltix S.A.,Health Care,BCX.WA,EQ,PLBCLTX00019
+BLOOBER,Communication Services,BLO.WA,EQ,PLBLOBR00014
+Polski Holding Nieruchomosci S.A.,Real Estate,PHN.WA,EQ,PLPHN0000014
+Mercator Medical,Health Care,MRC.WA,EQ,PLMRCTR00015
+Lokum Deweloper S.A.,Real Estate,LKD.WA,EQ,PLLKMDW00049
+Mangata Holding S.A.,Industrials,MGT.WA,EQ,PLZTKMA00017
+Fabryki Mebli FORTE S.A.,Consumer Discretionary,FTE.WA,EQ,PLFORTE00012
+Onde S.A.,Industrials,OND.WA,EQ,PLONDE000018
+Ambra S.A.,Consumer Staples,AMB.WA,EQ,PLAMBRA00013
+Odlewnie Polskie S.A.,Industrials,ODL.WA,EQ,PLODLPL00013
+Wielton S.A.,Industrials,WLT.WA,EQ,PLWELTN00012
+Spyrosoft Spólka Akcyjna,Technology,SPR.WA,EQ,PLSPRSF00011
+Mostostal Zabrze S.A.,Industrials,MSZ.WA,EQ,PLMSTZB00018
+Rawlplug S.A.,Industrials,RWL.WA,EQ,PLKLNR000017
+Agora S.A.,Communication Services,AGO.WA,EQ,PLAGORA00067
+Kino Polska TV Spolka Akcyjna,Communication Services,KPL.WA,EQ,PLKNOPL00014
+Arctic Paper S.A.,Materials,ATC.WA,EQ,PLARTPR00012
+Scope Fluidics S.A.,Health Care,SCP.WA,EQ,PLSCPFL00018
+Amica,Consumer Discretionary,AMC.WA,EQ,PLAMICA00010
+Cloud Technologies S.A.,Technology,CLD.WA,EQ,PLCLDTC00019
+UNIBEP S.A.,Industrials,UNI.WA,EQ,PLUNBEP00015
+Equnico SE,Industrials,EQU.WA,EQ,PLRESBD00032
+Creepy Jar S.A.,Communication Services,CRJ.WA,EQ,PLCRPJR00019
+CFI Holding S.A.,Industrials,CFI.WA,EQ,PLINTKS00013
+Marvipol Development S.A.,Real Estate,MVP.WA,EQ,PLMRVDV00011
+Ryvu Therapeutics S.A.,Health Care,RVU.WA,EQ,PLSELVT00013
+Grupa Kapitalowa IMMOBILE S.A.,Financials,GKI.WA,EQ,PLMAKRM00019
+BIOTON S.A.,Health Care,BIO.WA,EQ,PLBIOTN00029
+PCC Exol S.A.,Materials,PCX.WA,EQ,PLPCCEX00010
+11 bit studios S.A.,Communication Services,11B.WA,EQ,PL11BTS00015
+Answear.com S.A.,Consumer Discretionary,ANR.WA,EQ,PLANSWR00019
+Cavatina Holding Spólka Akcyjna,Real Estate,CAV.WA,EQ,PLCVTNH00040
+Seco/Warwick S.A.,Industrials,SWG.WA,EQ,PLWRWCK00013
+ATM Grupa S.A.,Communication Services,ATG.WA,EQ,PLATM0000021
+Inpro S.A.,Real Estate,INP.WA,EQ,PLINPRO00015
+ULMA Construccion Polska S.A.,Industrials,ULM.WA,EQ,PLBAUMA00017
+Erbud S.A.,Industrials,ERB.WA,EQ,PLERBUD00012
+Lentex S.A.,Industrials,LTX.WA,EQ,PLLENTX00010
+ZUE S.A.,Industrials,ZUE.WA,EQ,PLZUE0000015
+Instal Kraków S.A.,Industrials,INK.WA,EQ,PLINSTK00013
+Medicalgorithmics S.A.,Health Care,MDG.WA,EQ,PLMDCLG00015
+Novita S.A.,Consumer Discretionary,NVT.WA,EQ,PLNVITA00018
+Helio S.A.,Consumer Staples,HEL.WA,EQ,PLHELIO00014
+Bumech S.A.,Energy,BMC.WA,EQ,PLBMECH00012
+Pekabex S.A.,Industrials,PBX.WA,EQ,PLPKBEX00072
+Skarbiec Holding S.A.,Financials,SKH.WA,EQ,PLSKRBH00014
+Artifex Mundi S.A.,Communication Services,ART.WA,EQ,PLARTFX00011
+Wittchen S.A.,Consumer Discretionary,WTN.WA,EQ,PLWTCHN00030
+Grodno Spólka Akcyjna,Technology,GRN.WA,EQ,PLGRODN00015
+Makarony Polskie S.A.,Consumer Staples,MAK.WA,EQ,PLMKRNP00015
+mcr Spolka Akcyjna,Industrials,MCR.WA,EQ,PLMRCOR00016
+Columbus Energy S.A.,Technology,CLC.WA,EQ,PLSTIGR00012
+Trans Polonia S.A.,Industrials,TRN.WA,EQ,PLTRNSP00013
+JRH,Financials,JRH.WA,EQ,PLJRINV00013
+Synthaverse S.A.,Health Care,SVE.WA,EQ,PLBMDLB00018
+Xplus S.A.,Technology,XPL.WA,EQ,PLXPLUS00013
+Ailleron S.A.,Technology,ALL.WA,EQ,PLWNDMB00010
+Introl S.A.,Technology,INL.WA,EQ,PLINTRL00013
+Sonel S.A.,Technology,SON.WA,EQ,PLSONEL00011
+Aplisens S.A.,Technology,APN.WA,EQ,PLAPLS000016
+IPOPEMA Securities S.A.,Financials,IPE.WA,EQ,PLIPOPM00011
+NOCTILUCA,Technology,NCL.WA,EQ,PLNCTLC00018
+Dr. Miele Cosmed Group S.A.,Consumer Staples,DMG.WA,EQ,PLGLBLC00011
+OT Logistics S.A.,Industrials,OTS.WA,EQ,PLODRTS00017
+AC Spólka Akcyjna,Consumer Discretionary,ACG.WA,EQ,PLACSA000014
+XTPL S.A.,Technology,XTP.WA,EQ,PLXTPL000018
+MFO S.A.,Industrials,MFO.WA,EQ,PLMFO0000013
+PTWP,Communication Services,PTW.WA,EQ,PLPTWP000015
+Gielda Praw Majatkowych Vindexus Spolka Akcyjna,Industrials,VIN.WA,EQ,PLVNDEX00013
+Rank Progress S.A.,Real Estate,RNK.WA,EQ,PLRNKPR00014
+NTT System S.A.,Technology,NTT.WA,EQ,PLNTSYS00013
+ONEMORE,Communication Services,OML.WA,EQ,PLLSRMD00018
+Feerum S.A.,Industrials,FEE.WA,EQ,PLFEERM00018
+Wikana S.A.,Real Estate,WIK.WA,EQ,PLELPO000016
+Passus S.A.,Technology,PAS.WA,EQ,PLPSSUS00018
+Krynica Vitamin S.A.,Consumer Staples,KVT.WA,EQ,PLKRVTM00010
+Stalprofil S.A.,Industrials,STF.WA,EQ,PLSTLPF00012
+Zaklady Przemyslu Cukierniczego Otmuchów S.A.,Consumer Staples,OTM.WA,EQ,PLZPCOT00018
+Monnari Trade S.A.,Consumer Discretionary,MON.WA,EQ,PLMNRTR00012
+Ifirma SA,Technology,IFI.WA,EQ,PLPWRMD00011
+PCF Group Spólka Akcyjna,Communication Services,PCF.WA,EQ,PLPCFGR00010
+P.A. Nova S.A.,Industrials,NVA.WA,EQ,PLPANVA00013
+Yanosik S.A.,Technology,YAN.WA,EQ,PLNEPTS00011
+APS Energia SA,Industrials,APE.WA,EQ,PLAPSEN00011
+Zaklad Budowy Maszyn ZREMB - Chojnice S.A.,Materials,ZRE.WA,EQ,PLZBMZC00019
+LSI Software S.A.,Technology,LSI.WA,EQ,PLLSSFT00016
+Molecure S.A.,Health Care,MOC.WA,EQ,PLONCTH00011
+Altus S.A.,Financials,ALI.WA,EQ,PLATTFI00018
+Atende S.A.,Technology,ATD.WA,EQ,PLATMSI00016
+Bowim S.A.,Materials,BOW.WA,EQ,PLBOWM000019
+QNATECHNO,Technology,QNA.WA,EQ,PLQNTHL00017
+Zaklady Magnezytowe ROPCZYCE S.A.,Materials,RPC.WA,EQ,PLROPCE00017
+REINO Capital S.A.,Financials,RNC.WA,EQ,PLWDM0000029
+Mabion S.A.,Health Care,MAB.WA,EQ,PLMBION00016
+Poltreg S.A.,Health Care,PTG.WA,EQ,PLPLTRG00038
+Atlanta Poland S.A.,Consumer Staples,ATP.WA,EQ,PLATLPL00018
+4MASS,Consumer Staples,4MS.WA,EQ,PL4MASS00011
+Grupa Virtus Spolka Akcyjna,Financials,GVT.WA,EQ,PLIQPRT00017
+ML System S.A.,Technology,MLS.WA,EQ,PLMLSTM00015
+Przedsiebiorstwo Produkcyjno - Handlowe KOMPAP S.A.,Materials,KMP.WA,EQ,PLKOMPP00017
+Less S.A.,Consumer Discretionary,LES.WA,EQ,PLINTGR00013
+PJP Makrum S.A.,Industrials,PJP.WA,EQ,PLPROJP00018
+FoodHub Spolka Akcyjna,Consumer Staples,FHB.WA,EQ,PLPMPOL00031
+Eurotel S.A.,Communication Services,ETL.WA,EQ,PLERTEL00011
+Izostal S.A.,Materials,IZS.WA,EQ,PLIZSTL00015
+NanoGroup S.A.,Health Care,NNG.WA,EQ,PLNNGRP00011
+Zamet S.A.,Materials,ZMT.WA,EQ,PLZAMET00010
+Bio Planet S.A.,Consumer Staples,BIP.WA,EQ,PLBIOPL00013
+Getin Holding S.A.,Financials,GTN.WA,EQ,PLGSPR000014
+Games Operators S.A.,Communication Services,GOP.WA,EQ,PLGMSOP00019
+ED Invest Spólka Akcyjna,Consumer Discretionary,EDI.WA,EQ,PLEDINV00014
+MDI Energia S.A.,Utilities,MDI.WA,EQ,PLNFI1000012
+BoomBit S.A.,Communication Services,BBT.WA,EQ,PLBMBIT00010
+Patentus S.A.,Industrials,PAT.WA,EQ,PLPTNTS00019
+Ultimate Games S.A.,Communication Services,ULG.WA,EQ,PLULTGM00013
+Pepees S.A.,Consumer Staples,PPS.WA,EQ,PLPEPES00018
+RENDER,Communication Services,RND.WA,EQ,PLRNDCB00011
+Seko S.A.,Consumer Staples,SEK.WA,EQ,PLSEKO000014
+KGL SA,Materials,KGL.WA,EQ,PLKRKGL00012
+Genomtec S.A.,Health Care,GMT.WA,EQ,PLGNMTC00017
+Fabrity S.A.,Technology,FAB.WA,EQ,PLK2ITR00010
+Mostostal Warszawa S.A.,Industrials,MSW.WA,EQ,PLMSTWS00019
+Termo-Rex S.A.,Materials,TRR.WA,EQ,PLTRMRX00011
+IMS S.A.,Communication Services,IMS.WA,EQ,PLINTMS00019
+Delko S.A.,Consumer Staples,DEL.WA,EQ,PLDELKO00019
+Energoaparatura SA,Industrials,ENP.WA,EQ,PLENAP000010
+ECB S.A.,Utilities,ECB.WA,EQ,PLECBDZ00013
+Urteste S.A.,Health Care,URT.WA,EQ,PLURTST00010
+Komputronik S.A.,Technology,KOM.WA,EQ,PLKMPTR00012
+3R Games S.A.,Consumer Discretionary,3RG.WA,EQ,PLGRNKT00019
+Sunex S.A.,Technology,SNX.WA,EQ,PLSUNEX00013
+Polwax S.A.,Materials,PWX.WA,EQ,PLPOLWX00026
+Caspar Asset Management S.A.,Financials,CSR.WA,EQ,PLCSPAM00017
+Libet S.A.,Industrials,LBT.WA,EQ,PLLBT0000013
+All in! Games S.A.,Communication Services,ALG.WA,EQ,PLSNTFG00017
+Intersport Polska S.A.,Consumer Discretionary,IPO.WA,EQ,PLINTSP00038
+CDRL S.A.,Consumer Discretionary,CDL.WA,EQ,PLCDRL000043
+Lena Lighting S.A.,Industrials,LEN.WA,EQ,PLLENAL00015
+ESOTIQ & Henderson S.A.,Consumer Discretionary,EAH.WA,EQ,PLESTHN00018
+Compremum S.A.,Industrials,CPR.WA,EQ,PLPZBDT00013
+KCI Spolka Akcyjna,Real Estate,KCI.WA,EQ,PLPONAR00012
+Czerwona Torebka Spólka Akcyjna,Real Estate,CZT.WA,EQ,PLCRWTR00022
+BBI Development S.A.,Real Estate,BBD.WA,EQ,PLNFI1200018
+Talex S.A.,Technology,TLX.WA,EQ,PLTALEX00017
+Relpol S.A.,Industrials,RLP.WA,EQ,PLRELPL00014
+PGF Polska Grupa Fotowoltaiczna SA,Industrials,PGV.WA,EQ,PLZSTAL00012
+Herkules S.A.,Industrials,HRS.WA,EQ,PLZRWZW00012
+Capital Partners S.A.,Financials,CPA.WA,EQ,PLCPTLP00015
+IZOBLOK S.A.,Consumer Discretionary,IZB.WA,EQ,PLIZBLK00010
+OPTeam Spólka Akcyjna,Technology,OPM.WA,EQ,PLOPTEM00012
+yarrl S.A.,Technology,YRL.WA,EQ,PLUNMST00014
+PZ Cormay S.A.,Technology,CRM.WA,EQ,PLCMRAY00029
+Fabryki Sprzetu i Narzedzi Górniczych Grupa Kapitalowa FASING S.A.,Industrials,FSG.WA,EQ,PLFSING00010
+Capitea S.A.,Financials,CAP.WA,EQ,PLGTBCK00297
+Quantum software S.A.,Technology,QNT.WA,EQ,PLQNTUM00018
+Protektor S.A.,Consumer Discretionary,PRT.WA,EQ,PLLZPSK00019
+BioMaxima S.A.,Health Care,BMX.WA,EQ,PLBIOMX00015
+onesano S.A.,Materials,ONO.WA,EQ,PLSKTAN00010
+Energoinstal S.A.,Industrials,ENI.WA,EQ,PLERGIN00015
+Skyline Investment S.A.,Financials,SKL.WA,EQ,PLSKLNW00011
+Pharmena S.A.,Health Care,PHR.WA,EQ,PLPHRMN00011
+Remak-Energomontaz S.A.,Industrials,RMK.WA,EQ,PLREMAK00016
+Prochem S.A.,Industrials,PRM.WA,EQ,PLPRCHM00014
+Vivid Games S.A.,Communication Services,VVD.WA,EQ,PLVVDGM00014
+Larq S.A.,Communication Services,LRQ.WA,EQ,PLCAMMD00032
+Digitree Group S.A.,Communication Services,DTR.WA,EQ,PLSARE000013
+Magna Polonia S.A.,Financials,06N.WA,EQ,PLNFI0600010
+Unfold.vc ASI S.A.,Financials,UNF.WA,EQ,PLVNTIN00011
+JWW Invest S.A.,Industrials,JWW.WA,EQ,PLJWWNT00018
+Harper Hygienics S.A.,Consumer Staples,HRP.WA,EQ,PLHRPHG00023
+ERG Spólka Akcyjna,Consumer Discretionary,ERG.WA,EQ,PLERGZB00014
+Koszalinskie Przedsiebiorstwo Przemyslu Drzewnego Spólka Akcyjna,Materials,KPD.WA,EQ,PLKPPD000017
+Korporacja Gospodarcza efekt S.A.,Real Estate,EFK.WA,EQ,PLEFEKT00018
+Muza S.A.,Communication Services,MZA.WA,EQ,PLMUZA000019
+Gaming Factory S.A.,Communication Services,GIF.WA,EQ,PLGMNGF00017
+Przedsiebiorstwo Hydrauliki Silowej HYDROTOR S.A.,Consumer Discretionary,HDR.WA,EQ,PLHDRTR00013
+Airway Medix S.A.,Health Care,AWM.WA,EQ,PLAIRWY00017
+"Zaklady Urzadzen Kotlowych ""Staporków"" S.A.",Industrials,ZUK.WA,EQ,PLSTPRK00019
+DB Energy S.A.,Industrials,DBE.WA,EQ,PLDBENR00017
+Mex Polska S.A.,Consumer Discretionary,MEX.WA,EQ,PLMEXPL00010
+Soho Development S.A.,Financials,SHD.WA,EQ,PLNFI0400015
+NFI Octava S.A.,Real Estate,08N.WA,EQ,PLNFI0800016
+WISE Finance S.A.,Real Estate,IBS.WA,EQ,PLPLPGR00010
+Pure Biologics S.A.,Health Care,PUR.WA,EQ,PLPRBLG00010
+DGA Spólka Akcyjna,Industrials,DGA.WA,EQ,PLDGA0000019
+Miraculum S.A.,Consumer Staples,MIR.WA,EQ,PLKLSTN00017
+Mostostal Plock S.A.,Industrials,MSP.WA,EQ,PLMSTPL00018
+Sanwil Holding Spólka Akcyjna,Consumer Discretionary,SNW.WA,EQ,PLSANWL00012
+Alta S.A.,Financials,AAT.WA,EQ,PLTRNSU00013
+INC S.A.,Financials,INC.WA,EQ,PLINCLT00015
+Triton Development S.A.,Consumer Discretionary,TRI.WA,EQ,PLASMOT00030
+Novavis Group S.A.,Financials,NVG.WA,EQ,PLNFI0500012
+Betacom S.A.,Technology,BCM.WA,EQ,PLBTCOM00016
+EKO EXPORT S. A.,Materials,EEX.WA,EQ,PLEKEP000019
+Wise Energy S.A.,Financials,FMG.WA,EQ,PLTHP0000011
+Starhedge S.A.,Technology,SHG.WA,EQ,PLHRDEX00021
+IDM Spólka Akcyjna,Financials,IDM.WA,EQ,PLIDMSA00044
+CPD S.A.,Real Estate,CPD.WA,EQ,PLCELPD00013
+Tesgas S.A.,Utilities,TSG.WA,EQ,PLTSGS000019
+DRAGO entertainment Spólka Akcyjna,Communication Services,DGE.WA,EQ,PLDRG0000013
+Comperia.pl S.A.,Communication Services,CPL.WA,EQ,PLCOMPR00010
+Movie Games S.A.,Communication Services,MOV.WA,EQ,PLMVGMS00011
+PMPG Polskie Media SA,Communication Services,PGM.WA,EQ,PLPEKPL00010
+Big Cheese Studio Spolka Akcyjna,Communication Services,BCS.WA,EQ,PLA340200015
+SimFabric S.A.,Communication Services,SIM.WA,EQ,PLSMFBC00016
+Megaron S.A.,Materials,MEG.WA,EQ,PLMGRON00016
+ManyDev Studio SE,Technology,MAN.WA,EQ,PLADDRG00015
+Maxcom S.A.,Technology,MXC.WA,EQ,PLMXCMS00016
+Interbud-Lublin S.A.,Industrials,ITB.WA,EQ,PLINTBD00014
+Sfinks Polska S.A.,Consumer Discretionary,SFS.WA,EQ,PLSFNKS00011
+ASM Group S.A.,Industrials,ASM.WA,EQ,PLASMGR00014
+MOJ S.A.,Industrials,MOJ.WA,EQ,PLMOJ0000015
+PBG S.A.,Industrials,PBG.WA,EQ,PLPBG0000029
+Izolacja Jarocin Spolka Akcyjna,Materials,IZO.WA,EQ,PLIZCJR00017
+WOODPCKR,Technology,WPR.WA,EQ,PLWDPCK00017
+TenderHut S.A.,Technology,THG.WA,EQ,PLTNDRH00012
+Imperio Alternatywna Spolka Inwestycyjna S.A.,Financials,IMP.WA,EQ,PLNFI0700018
+Pragma Inkaso S.A.,Financials,PRI.WA,EQ,PLPRGNK00017
+Clean&Carbon Energy S.A.,Energy,CCE.WA,EQ,PLKAREN00014
+PBS Finanse S.A.,Financials,PBF.WA,EQ,PLBEFSN00010
+M.W. Trade SA,Financials,MWT.WA,EQ,PLMWTRD00013
+Nexity Global S.A.,Technology,NXG.WA,EQ,PLWDMCP00013
+New Tech Capital S.A.,Financials,NTC.WA,EQ,PLECMNG00019
+Adiuvo Investments S.A.,Health Care,ADV.WA,EQ,PLADVIV00015
+Regnon S.A.,Technology,REG.WA,EQ,PLPRNTC00017
+LC Spólka Akcyjna,Technology,APL.WA,EQ,PLAMPLI00019
+Tower Investments SA,Financials,TOW.WA,EQ,PLTWRNV00013
+Satis Group S.A.,Technology,STS.WA,EQ,PLADVPL00029
+T-Bull SA,Technology,TBL.WA,EQ,PLTBULL00024
+Europejskie Centrum Odszkodowan S.A.,Financials,EUC.WA,EQ,PLERPCO00017
+Prima Moda S.A.,Consumer Discretionary,PMA.WA,EQ,PLPRMMD00012
+Krakchemia S.A.,Materials,KCH.WA,EQ,PLKRKCH00019
+Redan SA,Industrials,RDN.WA,EQ,PLREDAN00019
+Fast Finance S.A.,Industrials,FFI.WA,EQ,PLFSTFC00012
+CRQUANTUM,Industrials,CRQ.WA,EQ,PLCTHQM00018
+Syn2bio S.A.,Health Care,S2B.WA,EQ,PLSNBIO00013
+IndygoTech Minerals SA,Financials,IDG.WA,EQ,PLLSTIA00018
+EUVIC S.A.,Technology,EUV.WA,EQ,PLEONTW00016
+FARMY FOTOWOLTAIKI POLSKA S.A,Industrials,FFP.WA,EQ,PLGTRMP00010
+Software Mansion SA Series A-E,Technology,SWM.WA,EQ,PLSFTMN00015
+ONICO S.A.,Industrials,ONC.WA,EQ,PLONCTR00028
+ELQ Spolka Akcyjna,Industrials,ELQ.WA,EQ,PLIPOSA00010
+Proacta S.A.,Technology,PAC.WA,EQ,PLBTEVL00019
+GRUPA KLEPSYDRA Spolka Akcyjna,Financials,KLE.WA,EQ,PLMRTIN00011
+AQUA S.A.,Utilities,AQU.WA,EQ,PLAQUA000014
+BTCS S.A.,Technology,BTF.WA,EQ,PLVKMTK00015
+Hub.Tech SA,Materials,HUB.WA,EQ,PLBRTZM00010
+Saule Technologies Spolka Akcyjna,Technology,SLT.WA,EQ,PLBLMPI00017
+Polski Holding Rozwoju S.A.,Technology,PRH.WA,EQ,PLRDDVS00016
+Stohid Technology SA,Technology,SKY.WA,EQ,PLYTFRC00015
+HIPROMINE S.A.,Materials,HPM.WA,EQ,PLHPRMN00037
+SFD SA,Consumer Discretionary,SFD.WA,EQ,PLSFD0000013
+President Studio S.A.,Technology,PRE.WA,EQ,PLPRTSD00022
+Group Recykl SA,Materials,GRC.WA,EQ,PLRCKL000010
+MILITARY GROUP S.A.,Consumer Discretionary,MIG.WA,EQ,PLRSYSA00014
+hiPower Energy spoyka akcyjna,Consumer Discretionary,HPE.WA,EQ,PLCRBON00018
+Prime Alternatywna Spolka Inwestycyjna Spolka Akcyjna,Financials,PRA.WA,EQ,PLRKLMF00010
+Tech Robotics S.A.,Technology,TCR.WA,EQ,PLNGTDV00016
+Gremi Media SA,Consumer Discretionary,GME.WA,EQ,PLGRMID00019
+Hortico SA,Industrials,HOR.WA,EQ,PLHRTIC00014
+Adatex S.A.,Industrials,ADX.WA,EQ,PLPIK0000018
+M4B S.A.,Industrials,M4B.WA,EQ,PLM4B0000017
+EKOPARK S.A.,Industrials,EPR.WA,EQ,PLPRIPK00018
+Eurosnack S.A.,Consumer Staples,ECK.WA,EQ,PLERSNK00016
+APN Promise SA,Technology,PRO.WA,EQ,PLAPNPS00017
+HyEnergy Spolka Akcyjna,Industrials,HEN.WA,EQ,PLINNGN00015
+S4E S.A.,Technology,S4E.WA,EQ,PLS4E0000015
+ATC Cargo S.A.,Industrials,ATA.WA,EQ,PLATCRG00013
+EXCELLENCE S.A,Consumer Staples,EXC.WA,EQ,PLEXCLN00016
+IDH DEVELOPMENT S.A.,Technology,IDH.WA,EQ,PLICI0000010
+Arts Alliance GK SA,Financials,AAS.WA,EQ,PLMIDVN00017
+MERLIN GROUP Spolka Akcyjna,Industrials,MRG.WA,EQ,PLADMSV00013
+Trex SA,Industrials,TRX.WA,EQ,PLAUXLM00026
+DG-NET SA,Consumer Discretionary,DGN.WA,EQ,PLDGNET00012
+Fundusz Hipoteczny DOM SA,Financials,FHD.WA,EQ,PLFHDOM00010
+Forever Entertainment SA,Technology,FOR.WA,EQ,PLFRENT00014
+XBS PRO-LOG SA,Industrials,XBS.WA,EQ,PLPROLG00013
+TAMEX Obiekty Sportowe S.A.,Industrials,TOS.WA,EQ,PLTAMEX00015
+Mennica Skarbowa SA,Consumer Discretionary,MNS.WA,EQ,PLGRMNK00014
+Internity S.A.,Industrials,INT.WA,EQ,PLINTNT00015
+Cosma S.A.,Industrials,COS.WA,EQ,PLVBN0000015
+Balticon SA,Industrials,BLT.WA,EQ,PLBLT0000013
+Read-Gene SA,Health Care,RDG.WA,EQ,PLRADGN00014
+MakoLab S.A.,Technology,MLB.WA,EQ,PLMKLAB00023
+MedApp SA,Technology,MDA.WA,EQ,PLYLWHT00012
+MedTech Solutions S.A.,Health Care,MDT.WA,EQ,PLCCHT000014
+Ekipa Holding Spolka Akcyjna,Industrials,EEE.WA,EQ,PLBBCLS00017
+Moliera2 Spolka Akcyjna,Industrials,MO2.WA,EQ,PLAIRMK00017
+Quart Development SA,Financials,QRT.WA,EQ,PLQRTDV00016
+Organic Farma Zdrowia S.A.,Consumer Discretionary,ORG.WA,EQ,PLORGNK00010
+Forbuild SA Class C,Industrials,FRB.WA,EQ,PLBETMX00013
+Centrum Finansowe SA,Industrials,CFS.WA,EQ,PLCFBPS00019
+Prymus SA,Industrials,PRS.WA,EQ,PLPRMUS00013
+Sygnis S.A.,Consumer Discretionary,SYG.WA,EQ,PLMODE000019
+Legimi Spolka Akcyjna,Technology,LEG.WA,EQ,PLLGIMI00029
+Biogened SA,Health Care,BGD.WA,EQ,PLBIOGN00018
+7FIT Spolka Akcyjna,Consumer Discretionary,7FT.WA,EQ,PLTRCPS00016
+Honey Payment Group Spolka Akcyjna,Industrials,HPG.WA,EQ,PLMAXMS00010
+Telestrada S.A.,Communication Services,TLS.WA,EQ,PLTLSTD00019
+Wodkan S.A.,Utilities,WOD.WA,EQ,PLWDKAN00016
+Nestmedic SA,Technology,NST.WA,EQ,PLNSTMD00010
+REMOR SOLAR POLSKA SA,Consumer Staples,RSP.WA,EQ,PLAGRTR00011
+Genomed S.A.,Health Care,GEN.WA,EQ,PLGNOMD00024
+Rocca S.A.,Materials,RCA.WA,EQ,PLROCCA00013
+Analizy Online S.A.,Financials,AOL.WA,EQ,PLONLIN00013
+Automatyka-Pomiary-Sterowanie SA,Industrials,APS.WA,EQ,PLPOMST00012
+MEDCAMP S.A.,Financials,MDP.WA,EQ,PLTCHPR00019
+Medicofarma Biotech Spolka Akcyjna,Health Care,MDB.WA,EQ,PLINBOK00010
+Vee SA,Industrials,VEE.WA,EQ,PLVCTCM00019
+SDS Optic Spolka Akcyjna,Technology,SDS.WA,EQ,PLSDSOP00013
+Gamivo SA,Consumer Discretionary,GMV.WA,EQ,PLGMV0000016
+BRAS S.A.,Industrials,BSA.WA,EQ,PLINVNT00011
+SoftBlue SA,Technology,SBE.WA,EQ,PLSFTBL00012
+Suntech S.A.,Technology,SUN.WA,EQ,PLSNTCH00012
+Grupa Modne Zakupy S.A.,Health Care,GMZ.WA,EQ,PLINFSC00019
+Indos SA,Industrials,INS.WA,EQ,PLINDOS00035
+Optigis S.A.,Technology,OPI.WA,EQ,PLIMAGS00013
+M FOOD S.A.,Financials,MFD.WA,EQ,PLMDVLP00016
+Ruch Chorzow SA,Consumer Discretionary,RCW.WA,EQ,PLRCHZW00012
+Geotrans SA,Industrials,GTS.WA,EQ,PLGEOTR00010
+Global Hydrogen Spolka Akcyjna,Consumer Staples,GHY.WA,EQ,PLTLVPL00014
+Hydrapres S.A.,Industrials,HPS.WA,EQ,PLHDRAP00017
+Platige Image SA,Consumer Discretionary,PLI.WA,EQ,PLPTGMG00013
+ORZEL S.A,Consumer Discretionary,ORL.WA,EQ,PLORZL000019
+Milisystem S.A.,Technology,MLM.WA,EQ,PL2INTC00018
+ICE CODE GAMES SA,Technology,ICG.WA,EQ,PLDGTAV00013
+CARLSON INVESTMENTS SE,Materials,CAI.WA,EQ,PLHOTB000011
+Telesto SA,Industrials,TLO.WA,EQ,PLTELST00017
+InventionMed SA,Technology,INM.WA,EQ,PLCDE0000010
+Yoshi Innovation Spolka Akcyjna,Technology,YOS.WA,EQ,PLACREO00019
+Black Pearl SA,Financials,BPC.WA,EQ,PLBLKPC00014
+mPay SA,Industrials,MPY.WA,EQ,PLMPAY000017
+Standrew SA,Materials,STD.WA,EQ,PLSTNDR00019
+Fintech SA,Financials,FTH.WA,EQ,PLJRSDB00015
+genXone SA,Health Care,GX1.WA,EQ,PLGENXN00013
+Erato Energy Spolka Akcyjna,Industrials,ERA.WA,EQ,PLPBLIA00012
+Novina Spolka Akcyjna,Financials,NOV.WA,EQ,PLBABY000016
+G-ENERGY S.A.,Utilities,GNG.WA,EQ,PLELKPE00014
+Planet B2B SA,Technology,P2B.WA,EQ,PLPRKLS00016
+Ekopol Gornoslaski Holding S.A.,Industrials,EGH.WA,EQ,PLEKPLG00019
+YBS S.A.,Industrials,YBS.WA,EQ,PLINSAG00011
+ENERGY S.A.,Financials,EGY.WA,EQ,PLVGUAR00011
+Munar SA,Technology,MUN.WA,EQ,PLSITE000013
+Werth-Holz SA,Materials,WHH.WA,EQ,PLWRTHL00016
+Hemp & Health SA,Industrials,HMP.WA,EQ,PLEBCSL00011
+Euro-Tax.pl S.A.,Industrials,ETX.WA,EQ,PLEURTX00012
+Starward Industries SA,Technology,STA.WA,EQ,PLSTRWI00019
+ONE2TRIBE S.A.,Technology,O2T.WA,EQ,PLJWASA00013
+Abak S.A.,Industrials,ABK.WA,EQ,PLABAK000013
+EDITEL Polska S.A.,Technology,EDL.WA,EQ,PLEDSON00018
+Pointpack SA,Technology,PNT.WA,EQ,PLPNTPK00014
+Ovid Works SA Class A,Technology,OVI.WA,EQ,PLOVIDW00014
+Polaris IT Group S.A.,Industrials,PIT.WA,EQ,PLANMD000014
+Farm 51 Group SA,Consumer Discretionary,F51.WA,EQ,PLFRMGR00015
+VOOLT Spolka Akcyjna,Technology,VLT.WA,EQ,PLNVVIS00016
+Zortrax SA,Health Care,ZRX.WA,EQ,PLCRLNS00018
+Cannabis Poland SA,Health Care,CBD.WA,EQ,PLBLOCM00013
+Centurion Finance ASI SA,Technology,CTF.WA,EQ,PLSTRGM00014
+Biomass Energy Project SA,Materials,BEP.WA,EQ,PLBMSEP00011
+OZE Capital S.A.,Industrials,OZE.WA,EQ,PLCSYSA00016
+Solar Innovation Spolka Akcyjna,Industrials,SIN.WA,EQ,PLTABLO00012
+ViDiS SA,Industrials,VDS.WA,EQ,PLVIDIS00014
+SYNERGA.fund SA,Health Care,SNG.WA,EQ,PLMWTNS00010
+Polman SA,Industrials,PLM.WA,EQ,PLPOLMN00010
+RRH Group S.A.,Industrials,RRH.WA,EQ,PLCMPRS00011
+Corey Europe S.A.,Utilities,COR.WA,EQ,PLTRMPR00017
+Galvo SA,Industrials,GAL.WA,EQ,PLGALVO00017
+Kancelaria Medius SA,Industrials,KME.WA,EQ,PLMDIUS00018
+Letus Capital S.A.,Financials,LET.WA,EQ,PLGDVIS00018
+Varsav Game Studios SA,Technology,VAR.WA,EQ,PLYORIM00019
+Mera S.A.,Materials,MER.WA,EQ,PLMERA000019
+LUG S.A.,Industrials,LUG.WA,EQ,PLLUG0000010
+Triggo SA,Consumer Discretionary,TGG.WA,EQ,PLTRGG000014
+Madkom SA,Technology,MAD.WA,EQ,PLMADKM00019
+CM International SA Class BC,Industrials,CMI.WA,EQ,PLCMINT00013
+EKO-OZE SA,Health Care,EKE.WA,EQ,PLDNTMD00012
+Incuvo S.A.,Technology,IVO.WA,EQ,PLA295700027
+Telemedycyna Polska S.A.,Health Care,TMP.WA,EQ,PLTLMDC00018
+Grupa HRC Spolka Akcyjna,Industrials,HRC.WA,EQ,PLGRHRC00012
+Euroinvestment SA,Health Care,VIV.WA,EQ,PLVRTLV00019
+Cyfrowe Centrum Serwisowe SA,Industrials,CCS.WA,EQ,PLCCS0000012
+SAKANA S.A.,Consumer Discretionary,SKN.WA,EQ,PLSAKAN00010
+AGROMEP Spolka Akcyjna,Industrials,AGP.WA,EQ,PLAGRMP00010
+QubicGames SA,Technology,QUB.WA,EQ,PLQBCGM00018
+Private Rented Sector S.A.,Health Care,RNT.WA,EQ,PLGURDR00013
+FOOTHILLS S.A.,Communication Services,FTL.WA,EQ,PLTLCMD00018
+SZAR S.A.,Materials,SZR.WA,EQ,PLSZAR000018
+MILKPOL S.A.,Materials,MLP.WA,EQ,PLMLKPL00012
+New Tech Venture S.A.,Financials,NTV.WA,EQ,PLSTCKI00016
+MaxiPizza S.A.,Consumer Discretionary,MXP.WA,EQ,PLMXPZZ00015
+Gamedust S.A.,Technology,GDC.WA,EQ,PLINSTC00010
+Present24 Spolka Akcyjna,Consumer Discretionary,P24.WA,EQ,PLPRS2400012
+Play2Chill S.A.,Technology,P2C.WA,EQ,PLPLCHL00019
+T&T Proenergy Spolka Akcyjna,Industrials,TNT.WA,EQ,PLVCAOC00015
+CONSOLE LABS Spolka Akcyjna,Technology,CLA.WA,EQ,PLCNSLB00012
+Pyramid Games Spolka Akcyjna,Technology,PDG.WA,EQ,PLPRMGM00015
+Advertigo SA,Industrials,AVE.WA,EQ,PLADMSC00013
+Ecnology Group S.A.,Industrials,ECN.WA,EQ,PLACRTS00018
+CTE Group SA,Industrials,CTE.WA,EQ,PLLRPSP00015
+Astro S.A.,Consumer Discretionary,ASR.WA,EQ,PLASTRO00013
+Hurtimex Spolka Akcyjna,Consumer Discretionary,HRT.WA,EQ,PLHRTIM00013
+Poltronic S.A.,Technology,PTN.WA,EQ,PLPLTRN00018
+7LEVELS SA,Technology,7LV.WA,EQ,PL7LVLS00017
+AQUA Spolka Akcyjna,Industrials,AQA.WA,EQ,PLAQA0000014
+AUXILIA SA,Industrials,AUX.WA,EQ,PLAXILA00018
+Wierzyciel S.A.,Financials,WRL.WA,EQ,PLWRZCL00014
+Kool2Play Spolka Akcyjna,Technology,K2P.WA,EQ,PLKL2PL00014
+4Mobility S.A.,Financials,4MB.WA,EQ,PLESLTN00010
+Berg Holding SA,Financials,BRH.WA,EQ,PLSLKAM00019
+Aztec International S.A.,Industrials,AZC.WA,EQ,PLAZTEC00011
+Mr Hamburger SA,Consumer Discretionary,MRH.WA,EQ,PLLSNRN00015
+Jujubee S.A.,Technology,JJB.WA,EQ,PLJJBEE00028
+Elektromont Spolka Akcyjna,Industrials,ELM.WA,EQ,PLEKTRM00016
+ECC Games SA,Technology,ECC.WA,EQ,PLECCGM00012
+Eskimos SA,Consumer Staples,ESK.WA,EQ,PLESKMS00016
+BizTech Konsulting SA,Technology,BTK.WA,EQ,PLBZTKN00013
+Labocanna SA,Industrials,LCN.WA,EQ,PLCCTLS00017
+Creativeforge Games SA,Technology,CFG.WA,EQ,PLCRFRG00016
+Carbon Studio S.A.,Technology,CRB.WA,EQ,PLCRBST00016
+True Games Syndicate SA,Industrials,TGS.WA,EQ,PLKKHRB00011
+GENERATIONIS.AI S.A.,Technology,IFA.WA,EQ,PLINFRA00015
+Defence.Hub S.A.,Technology,DFH.WA,EQ,PLKLBTR00014
+Black Point SA,Technology,BPN.WA,EQ,PLBLKPT00018
+MINERAL MIDRANGE S.A.,Technology,MND.WA,EQ,PLMNRLM00010
+APANET SA Class D,Industrials,APA.WA,EQ,PLAPANT00017
+Golab SA,Industrials,GOL.WA,EQ,PLGOLAB00019
+BeLeaf Spolka Akcyjna,Consumer Discretionary,BLF.WA,EQ,PLBLTXG00010
+Image Power S.A.,Technology,IPW.WA,EQ,PLIMGPW00013
+Volaria AI SA,Technology,VAI.WA,EQ,PLDTLGM00019
+TRUSTBTC S.A.,Technology,IMG.WA,EQ,PLIMRGM00010
+Neurone Studio SA,Technology,NRS.WA,EQ,PLHCKLG00010
+Atomic Jelly SA Class A,Technology,ATJ.WA,EQ,PLATMCJ00018
+Dust SA,Technology,THD.WA,EQ,PLTHDST00017
+Unified Factory SA,Technology,UFC.WA,EQ,PLDTBRK00037
+Draw Distance SA,Technology,DDI.WA,EQ,PLIFN4L00018
+Live Motion Games SA,Technology,LMG.WA,EQ,PLLVMGM00016
+AKCEPT Finance SA,Financials,AFC.WA,EQ,PLAKCFN00013
+COMECO S.A. Class D,Materials,CMC.WA,EQ,PLCOMEC00016
+LUON S.A.,Industrials,LUO.WA,EQ,PLACKRM00010
+Cherrypick Games SA,Technology,CHP.WA,EQ,PLCHRPK00018
+Przedsiebiorstwo Telekomunikacyjne Telgam S.A.,Communication Services,TLG.WA,EQ,PLPTLTG00018
+Emplocity SA,Technology,EMP.WA,EQ,PLEMPCT00017
+Lokaty Budowlane S.A.,Financials,LBD.WA,EQ,PLFBRD000018
+Notoria Serwis S.A.,Financials,NTS.WA,EQ,PLNTRSW00019
+GREMPCO S.A,Financials,GRM.WA,EQ,PLGRMPC00016
+W.G Partners SA,Industrials,WGP.WA,EQ,PLSKNWL00011
+Apollo Capital S.A.,Financials,APC.WA,EQ,PLBIOMD00017
+Zeneris Projekty S.A.,Financials,ZEN.WA,EQ,PLA351100013
+Robs Group Logistic SA,Industrials,RGL.WA,EQ,PLRBGRL00016
+MegaPixel Studio S.A.,Technology,MPS.WA,EQ,PLMGPLS00015
+Stem Cells Spin SA,Health Care,SCS.WA,EQ,PLSTCLS00013
+Mentzen Spolka Akcyjna,Consumer Discretionary,XDD.WA,EQ,PLMNTZN00014
+GKS GieKSa Katowice SA,Consumer Discretionary,GKS.WA,EQ,PLGKS0000016
+Aiton Caldwell SA,Technology,AIT.WA,EQ,PLATCDL00013
+Foto Volt Eko Energia SA,Financials,FVE.WA,EQ,PLINVFM00012
+Space Fox Games SA Class A,Technology,FOX.WA,EQ,PLSPFXG00014
+Baked Games SA,Technology,BKD.WA,EQ,PLBKDGM00019
+Do Rzeczy S.A.,Consumer Discretionary,DRZ.WA,EQ,PLDRZCZ00030
+Prefa Group S.A.,Industrials,PFG.WA,EQ,PL71MDA00018
+Outdoorzy S.A.,Consumer Discretionary,OUT.WA,EQ,PLOUTDR00013
+Sonka Spolka Akcyjna,Technology,SOK.WA,EQ,PLSNK0000012
+Purple Ray Studio SA,Technology,RAY.WA,EQ,PLPRPLR00025
+Madnetic Games SA,Technology,MGS.WA,EQ,PLMNCGS00019
+CARPATHIA CAPITAL S.A.,Financials,CRC.WA,EQ,PLCRPCP00034
+UF Games S.A,Technology,UFG.WA,EQ,PLUFGMS00017
+Dr. Finance SA,Financials,DRF.WA,EQ,PLDRD2400010
+Bridge Solutions Hub S.A.,Technology,BSH.WA,EQ,PLBRSLH00012
+Binary Helix SA,Technology,BHX.WA,EQ,PLBNRHL00013
+LUDUS S.A.,Financials,LUD.WA,EQ,PLARTBM00013
+IBC Polska F&P SA,Industrials,IBC.WA,EQ,PLIBCPL00018
+MEDARD Spolka Akcyjna,Industrials,MRD.WA,EQ,PLVENIT00010
+Dark Point Games SA,Technology,DPG.WA,EQ,PLDRPGM00048
+SEDIVIO S.A.,Technology,SED.WA,EQ,PLEC20000010
+Green Zebras SA,Health Care,GRZ.WA,EQ,PLGRNZB00015
+Robinson Europe SA,Industrials,RBS.WA,EQ,PLRBSNE00015
+Investeko SA,Industrials,IVE.WA,EQ,PLIVSTK00016
+Constance Care SA,Health Care,CCR.WA,EQ,PLCNSTC00013
+Aforti Holding SA,Financials,AFH.WA,EQ,PLMNTHL00016
+Kancelaria Prawna - Inkaso WEC S.A.,Industrials,KPI.WA,EQ,PLKPWEC00015
+Ditix S.A,Financials,DTX.WA,EQ,PLFTPRF00016
+Road Studio S.A.,Technology,RST.WA,EQ,PLA348700016
+Simteract Spolka Akcyjna,Technology,SMT.WA,EQ,PLSMTRC00013
+Kolejkowo SA,Consumer Discretionary,KLK.WA,EQ,PLKLJKW00024
+Red Carpet Media Group SA,Consumer Discretionary,RCM.WA,EQ,PLRCMGR00012
+Farm Innovations SA,Technology,FAR.WA,EQ,PLFRMIN00010
+SIGMA DEFENCE SA,Technology,SGD.WA,EQ,PLSFLND00011
+JRC Group Spolka Akcyjna,Consumer Discretionary,JRC.WA,EQ,PLPYLON00015
+ECL S.A.,Communication Services,ECL.WA,EQ,PLESCLL00010
+PrimeBit Games SA,Technology,PBT.WA,EQ,PLPRMBG00018
+Proguns Group S.A,Technology,PGG.WA,EQ,PLASMDV00013
+ADVANCED MEDICAL EQUIPMENT SPOLKA AKCYJNA,Industrials,AME.WA,EQ,PLDNMPT00016
+MPL Verbum S.A.,Industrials,VER.WA,EQ,PLMPLVR00016
+Sunway Network Spolka Akcyjna,Technology,SNN.WA,EQ,PLPRSGD00011
+Lichthund S.A.,Technology,LHD.WA,EQ,PLLCHND00029
+Black Rose Projects SA,Technology,BRP.WA,EQ,PLBLRSP00015
+B-ACT SA,Industrials,BAC.WA,EQ,PLBCT0000020
+AQT Water SA,Utilities,AQT.WA,EQ,PLAQTCH00013
+Cstore S.A.,Technology,CST.WA,EQ,PLCSTR000014
+e-Xim IT Spolka Akcyjna,Technology,EXM.WA,EQ,PLEXIM000013
+One Solution S.A.,Industrials,ONE.WA,EQ,PLONESL00011
+Browar Czarnkow SA,Consumer Staples,BRO.WA,EQ,PLBRWRG00013
+PL Group Spolka Akcyjna,Consumer Discretionary,PLG.WA,EQ,PLRAJDY00015
+Femion Technology SA,Financials,FEM.WA,EQ,PLSMSKH00019
+FIGENE CAPITAL S.A.,Industrials,FIG.WA,EQ,PLGPPIK00011
+OLYMP Spolka Akcyjna,Consumer Discretionary,OLY.WA,EQ,PLOLMP000016
+BTC Studios SA,Technology,BTC.WA,EQ,PLDMNMN00016
+MAZOP Group Spolka Akcyjna,Materials,MAZ.WA,EQ,PLMZPGR00025
+Green Lanes SA,Financials,GRL.WA,EQ,PLGRNLS00027
+Sevenet S.A.,Technology,SEV.WA,EQ,PLSVNET00019
+Lukardi SA,Technology,LUK.WA,EQ,PLSAP0000018
+Klon SA,Materials,KLN.WA,EQ,PLKLON000010
+G-DEVS Spolka Akcyjna,Technology,GDS.WA,EQ,PLGDVS000012
+Madmind Studio SA,Technology,MMS.WA,EQ,PLA346100011
+Art Games Studio SA,Technology,ARG.WA,EQ,PLARTGS00019
+Forposta SA,Industrials,FPO.WA,EQ,PLFRPST00019
+MM Conferences SA,Industrials,MMC.WA,EQ,PLMMCNF00014
+Agencja Rozwoju Innowacji SA,Industrials,ARI.WA,EQ,PLAGRIN00013
+Drageus Games S.A.,Technology,DRG.WA,EQ,PLDRGGM00013
+e-Kiosk S.A.,Technology,EKS.WA,EQ,PLEKOSK00019
+DANKS Europejskie Centrum Doradztwa Podatkowego S.A.,Industrials,DNS.WA,EQ,PLDANKS00014
+NWAI Dom Maklerski S.A.,Financials,NWA.WA,EQ,PLNWAI000017
+Consoleway SA,Technology,CWA.WA,EQ,PLCNSLW00018
+Korbank S.A.,Communication Services,KOR.WA,EQ,PLKRBNK00019
+DI VOLIO S.A.,Financials,DIV.WA,EQ,PLGTRNT00010
+Wildlands Interactive S.A.,Technology,WLI.WA,EQ,PLGMSBX00010
+Marka SA,Financials,MRK.WA,EQ,PLMARKA00014
+Verbicom SA,Technology,VRB.WA,EQ,PLVRBCM00015
+Kombinat Konopny SA,Health Care,KMB.WA,EQ,PLKMBKN00010
+Ekobox SA,Utilities,EBX.WA,EQ,PLEKOBX00018
+Highlander Enterprise S.A.,Industrials,HER.WA,EQ,PLADVGP00011
+Red Square Games Spolka Akcyjna,Technology,RSG.WA,EQ,PLRDSGM00018
+Mycodern Spolka Akcyjna,Industrials,MCD.WA,EQ,PLMDNPL00013
+Longterm Games SA,Technology,LTM.WA,EQ,PLLNTRG00017
+Plot Twist S.A,Technology,PLT.WA,EQ,PLA342500016
+Kupiec SA,Industrials,KPC.WA,EQ,PLKUPIC00010
+Iron Wolf Studio S.A.,Technology,IWS.WA,EQ,PLA319800019
+Dektra S.A.,Industrials,DKR.WA,EQ,PLDKTRA00013
+TECNOVATICA S.A.,Financials,TEC.WA,EQ,PLIPODS00014
+Falcon 1 Green World Spolka Akcyjna,Financials,FLG.WA,EQ,PLEENRG00014
+BeeIN SA,Industrials,BEE.WA,EQ,PLA346500012
+Frozen Way S.A.,Technology,FRW.WA,EQ,PLFRZNW00013
+Eco5tech SA,Industrials,ECT.WA,EQ,PLEC5TH00024
+Partner-Nieruchomosci SA,Financials,PRN.WA,EQ,PLPRNRH00010
+Termoexpert SA,Industrials,TME.WA,EQ,PLTRMEX00019
+Logintrade SA Class C,Industrials,LGT.WA,EQ,PLLGNTD00017
+APIS S.A.,Consumer Discretionary,ASA.WA,EQ,PLHMSG000019
+Moonlit S.A.,Technology,MLT.WA,EQ,PLMNLIT00014
+Skoczowska Fabryka Kapeluszy Polkap SA,Consumer Staples,SFK.WA,EQ,PLSFKPL00011
+Noobz from Poland S.A.,Technology,NOB.WA,EQ,PLPLNTR00018
+Hornigold Reit SA,Financials,HRL.WA,EQ,PLMBLPR00018
+Baseig Spolka Akcyjna,Technology,BIG.WA,EQ,PLBSG0000023
+Europejski Fundusz Energii SA,Technology,EFE.WA,EQ,PLINTRW00028
+Rockgame SA,Technology,RKG.WA,EQ,PLRCKGM00017
+Intermarum SA,Technology,IMR.WA,EQ,PLTLPKA00010
+Tax-Net SA,Industrials,TXN.WA,EQ,PLTAXNT00011
+Demolish Games S.A.,Technology,DGS.WA,EQ,PLDMLGM00014
+VRFABRIC SA,Technology,VFA.WA,EQ,PLVRFBR00017
+Brainscan SA,Technology,BSN.WA,EQ,PLBRNSN00016
+MILTON ESSEX S.A.,Health Care,MTN.WA,EQ,PLMLTNE00013
+V-MAX Spolka Akcyjna,Industrials,VMX.WA,EQ,PLVMAX000028
+FREEMIND S.A.,Technology,FRM.WA,EQ,PLFRMND00011
+MBF Group SA,Industrials,MBF.WA,EQ,PLMBFCR00018
+Duality SA,Technology,DUA.WA,EQ,PLDLITY00010
+Universe S.A.,Industrials,UNV.WA,EQ,PLALDA000010
+KBJ SA,Technology,KBJ.WA,EQ,PLKBJ0000016
+Eneida Games S.A.,Technology,END.WA,EQ,PLHDRGM00011
+Kubota SA,Consumer Staples,KUB.WA,EQ,PLKBT0000015
+Gamehunters SA,Technology,GHT.WA,EQ,PLGMHTS00015
+Massmedica S.A.,Industrials,MSM.WA,EQ,PLMSMDC00018
+Examobile SA,Technology,EXA.WA,EQ,PLEXMBL00010
+Igoria Trade SA,Technology,IGT.WA,EQ,PLIGRTR00014
+Go24.pl SA,Financials,GTF.WA,EQ,PLGOTFI00016
+Garin AI SA,Consumer Discretionary,GAR.WA,EQ,PLABNET00019
+Inside Park SA,Financials,ISD.WA,EQ,PLINSPR00016
+LexBono Spolka Akcyjna,Industrials,LXB.WA,EQ,PLBVTSA00012
+NVIDIA,Technology,NVDA.WA,EQ,
+ALPHABET,Communication Services,GOGL.WA,EQ,
+APPLE,Technology,AAPL.WA,EQ,
+MICROSOFT,Technology,MSFT.WA,EQ,
+AMAZON,Consumer Discretionary,AMZN.WA,EQ,
+META,Communication Services,META.WA,EQ,
+Tesla Inc.,Consumer Discretionary,TSLA.WA,EQ,
+ELILILLY,Health Care,LILY.WA,EQ,
+JPMORGAN,Financials,JPM.WA,EQ,
+MICRONTEC,Technology,MCRN.WA,EQ,
+EXXONMOB,Energy,EXXN.WA,EQ,
+VISA,Financials,VISA.WA,EQ,
+ASML Holding N.V.,Technology,ASML.WA,EQ,
+ORACLE,Technology,ORCL.WA,EQ,
+NETFLIX,Communication Services,NFLX.WA,EQ,
+PROCTER,Consumer Staples,PCGL.WA,EQ,
+PALANTIR,Technology,PLTR.WA,EQ,
+Siemens Aktiengesellschaft,Industrials,SIE.WA,EQ,
+SAP SE,Technology,SAP.WA,EQ,
+NVONORDSK,Health Care,NVO.WA,EQ,
+UniCredit S.p.A.,Financials,UCG.WA,EQ,
+Banco Santander S.A.,Financials,SAN.WA,EQ,
+Industria de Diseño Textil S.A.,Consumer Discretionary,ITX.WA,EQ,
+The Boeing Company,Industrials,BOEG.WA,EQ,
+Allianz SE,Financials,ALV.WA,EQ,
+Uber Technologies Inc.,Technology,UBER.WA,EQ,
+PROSUS,Consumer Discretionary,PRX.WA,EQ,
+NIKE,Consumer Discretionary,NIKE.WA,EQ,
+VOLVO,Industrials,VOLV.WA,EQ,
+ROBINHOOD,Financials,HOOD.WA,EQ,
+Rheinmetall AG,Industrials,RHM.WA,EQ,
+Mercedes-Benz Group AG,Consumer Discretionary,MBG.WA,EQ,
+Volkswagen AG,Consumer Discretionary,VOW.WA,EQ,
+Bayerische Motoren Werke Aktiengesellschaft,Consumer Discretionary,BMW.WA,EQ,
+RWE Aktiengesellschaft,Utilities,RWE.WA,EQ,
+Bayer Aktiengesellschaft,Health Care,BAY.WA,EQ,
+TAKETWO,Communication Services,TTWO.WA,EQ,
+CEZ a. s.,Utilities,CEZ.WA,EQ,
+adidas AG,Consumer Discretionary,ADS.WA,EQ,
+VESTAS,Industrials,VEST.WA,EQ,
+Jerónimo Martins SGPS S.A.,Consumer Staples,JMT.WA,EQ,
+Porsche Automobil Holding SE,Consumer Discretionary,PSHE.WA,EQ,
+MOL Magyar Olaj- és Gázipari Nyilvánosan Muködo Részvénytársaság,Energy,MOL.WA,EQ,
+Krka d. d.,Health Care,KRK.WA,EQ,
+Zalando SE,Consumer Discretionary,ZAL.WA,EQ,
+CPIEUROPE,Real Estate,CPI.WA,EQ,
+Kernel Holding S.A.,Consumer Staples,KER.WA,EQ,
+ASBISc Enterprises Plc,Technology,ASB.WA,EQ,
+Sopharma AD,Health Care,SPH.WA,EQ,
+AmRest Holdings SE,Consumer Discretionary,EAT.WA,EQ,
+IMC S.A.,Consumer Staples,IMC.WA,EQ,
+Rex Concepts S.A.,Consumer Discretionary,REXA.WA,EQ,
+Astarta Holding PLC,Consumer Staples,AST.WA,EQ,
+Tatry mountain resorts a.s.,Consumer Discretionary,TMR.WA,EQ,
+Eurohold Bulgaria AD,Utilities,EHG.WA,EQ,
+Huuuge Inc.,Communication Services,HUG.WA,EQ,
+GreenX Metals Limited,Materials,GRX.WA,EQ,
+City Service SE,Real Estate,CTS.WA,EQ,
+AS Silvano Fashion Group,Consumer Discretionary,SFG.WA,EQ,
+Warimpex Finanz- und Beteiligungs AG,Real Estate,WXF.WA,EQ,
+Agroton Public Limited,Consumer Staples,AGT.WA,EQ,
+Coal Energy S.A.,Energy,CLE.WA,EQ,
+Photon Energy N.V.,Technology,PEN.WA,EQ,
+Silvair Inc.,Technology,SVRS.WA,EQ,
+MLK Foods Public Company LTD,Consumer Staples,MLK.WA,EQ,
+KSG Agro S.A.,Consumer Staples,KSG.WA,EQ,
+Novaturas AB,Consumer Discretionary,NTU.WA,EQ,
+Elkop Estonia SE,Real Estate,EKP.WA,EQ,
+FON SE,Financials,FON.WA,EQ,
+Atlantis SE,Financials,ATS.WA,EQ,
+Plaza Centers N.V.,Real Estate,PLZ.WA,EQ,
+Investment Friends SE,Financials,IFR.WA,EQ,
+Reinhold Europe AB (publ),Real Estate,RHD.WA,EQ,

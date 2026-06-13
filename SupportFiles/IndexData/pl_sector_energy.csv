@@ -1,4 +1,9 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-PKN Orlen,Energy,PKN.WA,EQ,
-Jastrzebska Spolka,Energy,JSW.WA,EQ,
-Bogdanka,Energy,LWB.WA,EQ,
+PKN Orlen,Energy,PKN.WA,EQ,PLPKN0000018
+Jastrzebska Spolka,Energy,JSW.WA,EQ,PLJSW0000015
+Bogdanka,Energy,LWB.WA,EQ,PLLWBGD00016
+Bumech S.A.,Energy,BMC.WA,EQ,PLBMECH00012
+Clean&Carbon Energy S.A.,Energy,CCE.WA,EQ,PLKAREN00014
+EXXONMOB,Energy,EXXN.WA,EQ,
+MOL Magyar Olaj- és Gázipari Nyilvánosan Muködo Részvénytársaság,Energy,MOL.WA,EQ,
+Coal Energy S.A.,Energy,CLE.WA,EQ,

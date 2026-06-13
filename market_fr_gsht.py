@@ -26,13 +26,13 @@ else:
 
 STOCK_CSV = os.path.join(INDEX_DATA_DIR, "fr_all_stocks_master.csv")
 
-MAX_STOCKS        = 500
-PERIOD_DAYS       = 504
+MAX_STOCKS        = 1000
+PERIOD_DAYS       = 600
 ENABLE_PATTERNS   = True
 PATTERN_MAX       = 300
 FETCH_FINANCIALS  = True
 ENABLE_SIGNALS    = True
-SIGNAL_MAX_STOCKS = 500
+SIGNAL_MAX_STOCKS = 1000
 PRIMARY_RS_PERIOD = 22
 
 sys.path.insert(0, SCRIPT_DIR)
@@ -111,9 +111,9 @@ FR_SNAPSHOT_TICKERS = [
 # ─────────────────────────────────────────────────────────────────────────────
 
 def load_fr_universe():
-    csv_path = os.path.join(INDEX_DATA_DIR, "fr_cac40list.csv")
+    csv_path = STOCK_CSV  # full master list
     if not os.path.exists(csv_path):
-        csv_path = STOCK_CSV
+        csv_path = os.path.join(INDEX_DATA_DIR, "fr_cac40list.csv")
     if not os.path.exists(csv_path):
         print(f"  Universe CSV not found: {csv_path}"); return pd.DataFrame()
     df = pd.read_csv(csv_path, dtype=str)
@@ -130,7 +130,8 @@ def load_fr_universe():
     df["Yahoo"] = df["Symbol"].apply(lambda s: ensure_yahoo_suffix(s, "FR"))
     df["Company"]  = df.get("Company Name", df["Symbol"])
     df["Industry"] = df.get("Industry", "").astype(str).fillna("").str.strip()
-    df["Sector"]   = df["Industry"].map(FR_INDUSTRY_TO_SECTOR).fillna("Other")
+    df["Sector"]   = df["Industry"].map(FR_INDUSTRY_TO_SECTOR).fillna(df["Industry"])
+    df["Sector"]   = df["Sector"].replace("", "Other").fillna("Other")
     df = df.dropna(subset=["Yahoo"])
     print(f"  Universe: {len(df)} stocks loaded")
     return df.reset_index(drop=True)

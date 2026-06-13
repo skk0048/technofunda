@@ -1,61 +1,536 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-DBS Group Holdings,Financials,D05.SI,EQ,
-Oversea-Chinese Banking,Financials,O39.SI,EQ,
-United Overseas Bank,Financials,U11.SI,EQ,
-Singapore Telecommunications,Communication Services,Z74.SI,EQ,
-Singapore Airlines,Industrials,C6L.SI,EQ,
-Singapore Exchange,Financials,S68.SI,EQ,
-Wilmar International,Consumer Staples,F34.SI,EQ,
-Keppel Corporation,Industrials,BN4.SI,EQ,
-CapitaLand Investment,Real Estate,9CI.SI,EQ,
-CapitaLand Integrated,Real Estate,C38U.SI,EQ,
-Ascendas REIT,Real Estate,A17U.SI,EQ,
-Mapletree Logistics,Real Estate,M44U.SI,EQ,
-Mapletree Industrial,Real Estate,ME8U.SI,EQ,
-Mapletree Pan Asia,Real Estate,N2IU.SI,EQ,
-Frasers Logistics,Real Estate,BUOU.SI,EQ,
-Genting Singapore,Consumer Discretionary,G13.SI,EQ,
-Jardine Cycle & Carriage,Consumer Discretionary,C07.SI,EQ,
-Jardine Matheson,Industrials,J36.SI,EQ,
-Hongkong Land,Real Estate,H78.SI,EQ,
-Thai Beverage,Consumer Staples,Y92.SI,EQ,
-City Developments,Real Estate,C09.SI,EQ,
-UOL Group,Real Estate,U14.SI,EQ,
-Sembcorp Industries,Utilities,U96.SI,EQ,
-Singapore Technologies,Industrials,S63.SI,EQ,
-SATS Ltd,Industrials,S58.SI,EQ,
-ComfortDelGro,Industrials,C52.SI,EQ,
-SIA Engineering,Industrials,S59.SI,EQ,
-Venture Corporation,Technology,V03.SI,EQ,
-Yangzijiang Shipbuilding,Industrials,BS6.SI,EQ,
-Singapore Press,Communication Services,T39.SI,EQ,
-Suntec REIT,Real Estate,T82U.SI,EQ,
-Keppel DC REIT,Real Estate,AJBU.SI,EQ,
-Frasers Centrepoint,Real Estate,J69U.SI,EQ,
-Dairy Farm International,Consumer Staples,D01.SI,EQ,
-Olam Group,Consumer Staples,VC2.SI,EQ,
-Seatrium,Industrials,5E2.SI,EQ,
-Singapore Post,Industrials,S08.SI,EQ,
-Sembcorp Marine,Industrials,S51.SI,EQ,
-Genting Plantations,Consumer Staples,P15.SI,EQ,
-First Resources,Consumer Staples,EB5.SI,EQ,
-Golden Agri-Resources,Consumer Staples,E5H.SI,EQ,
-Bukit Sembawang Estates,Real Estate,B61.SI,EQ,
-Hutchison Port Holdings,Industrials,NS8U.SI,EQ,
-NetLink NBN Trust,Communication Services,CJLU.SI,EQ,
-StarHub,Communication Services,CC3.SI,EQ,
-Sheng Siong Group,Consumer Staples,OV8.SI,EQ,
-Raffles Medical Group,Health Care,BSL.SI,EQ,
-Riverstone Holdings,Health Care,AP4.SI,EQ,
-Haw Par Corporation,Health Care,H02.SI,EQ,
-ParkwayLife REIT,Real Estate,C2PU.SI,EQ,
-CapitaLand Ascott Trust,Real Estate,HMN.SI,EQ,
-Frasers Property,Real Estate,TQ5.SI,EQ,
-Far East Hospitality Trust,Real Estate,Q5T.SI,EQ,
-ESR-LOGOS REIT,Real Estate,J91U.SI,EQ,
-iFAST Corporation,Technology,AIY.SI,EQ,
-Aztech Global,Technology,8AZ.SI,EQ,
-AEM Holdings,Technology,AWX.SI,EQ,
-UMS Integration,Technology,558.SI,EQ,
-Yanlord Land Group,Real Estate,Z25.SI,EQ,
-Wing Tai Holdings,Real Estate,W05.SI,EQ,
+Tencent Holdings Ltd Shs UnSp Singapore Depositary Receipt Repr 1/10 Sh,Technology,HTCD.SI,EQ,SGXE68418768
+HSBC Holdings Plc Shs UnSp Singapore Depositary Receipt Repr 1/5 Sh,Financials,HSHD.SI,EQ,SGXE38349465
+Contemporary Amperex Technology Co.  Limited Shs UnSp Singapore Depositary Receipt Repr 1/30 Sh,Industrials,HCCD.SI,EQ,SGXE51956733
+PetroChina Co.  Ltd. Shs UnSp Singapore Depositary Receipt Repr 2/1 Sh,Energy,HPCD.SI,EQ,SGXE57566940
+Bank of China Limited Shs UnSp Singapore Depositary Receipt Repr 1 Sh,Financials,HBND.SI,EQ,SGXE34582291
+Alibaba Group Holding Limited Shs UnSp Singapore Depositary Receipt Repr 1/5 Sh,Consumer Discretionary,HBBD.SI,EQ,SGXE32143393
+China Mobile Limited Shs UnSp Singapore Depositary Receipt Repr 1/5 Sh,Communication Services,HCMD.SI,EQ,SGXE71993740
+DBS Group Holdings,Financials,D05.SI,EQ,SG1L01001701
+Ping An Insurance (Group) Company of China  Ltd. Shs UnSp Singapore Depositary Receipt Repr 1/2 Sh,Financials,HPAD.SI,EQ,SGXE81412038
+Delta Electronics (Thailand) Public Co. Ltd. Shs Singapore Depositary Receipt Repr 1 NDVR,Technology,TDED.SI,EQ,SGXE82458550
+BYD Company Limited Shs UnSp Singapore Depositary Receipt Repr 1/10 Sh,Industrials,HYDD.SI,EQ,SGXE33900452
+Semiconductor Manufacturing International Corp. UnSp Singapore Depositary Receipt Repr 1/5 Sh,Technology,HSMD.SI,EQ,SGXE29478059
+Xiaomi Corporation Shs UnSp Singapore Depositary Receipt Repr 1/2 Sh,Technology,HXXD.SI,EQ,SGXE85729692
+Oversea-Chinese Banking,Financials,O39.SI,EQ,SG1S04926220
+Meituan Shs UnSp Singapore Depositary Receipt Repr 1/5 Sh,Technology,HMTD.SI,EQ,SGXE14976547
+Singapore Telecommunications Limited,Communication Services,Z77.SI,EQ,SG1T75931496
+Singapore Telecommunications,Communication Services,Z74.SI,EQ,SG1T75931496
+United Overseas Bank,Financials,U11.SI,EQ,SG1M31001969
+PT Bank Central Asia Tbk UnSp Singapore Depositary Receipt Repr 2/1 Sh,Financials,IBKD.SI,EQ,SGXE23025161
+Baidu  Inc. Shs UnSp Singapore Depositary Receipt Repr 1/10 Sh,Technology,HBUD.SI,EQ,SGXE65286994
+Zijin Gold International Company Limited Shs UnSp Singapore Depositary Receipt Repr 1/10 Sh,Materials,HZGD.SI,EQ,SGXE43265961
+JD.com  Inc. Shs UnSp Singapore Depositary Receipt Repr 1/10 Sh,Consumer Discretionary,HJDD.SI,EQ,SGXE58855789
+Advanced Info Service Public Co.  Ltd. Shs Singapore Depositary Receipt Repr 1 NDVR,Communication Services,TADD.SI,EQ,SGXE32247038
+Prudential plc,Financials,K6S.SI,EQ,GB0007099541
+Trip.com Group Ltd. Shs UnSp Singapore Depositary Receipt Repr 1/50 Sh,Consumer Discretionary,HTGD.SI,EQ,SGXE67782909
+Pop Mart International Group Limited Shs UnSp Singapore Depositary Receipt Repr 1/20 Sh,Consumer Discretionary,HPPD.SI,EQ,SGXE35826358
+Gulf Development Public Company Limited Shs UnSp Singapore Depositary Receipt Repr 1 Sh,Industrials,TGUD.SI,EQ,SGXE34721527
+Geely Automobile Holdings Limited Shs UnSp Singapore Depositary Receipt Repr 1/2 Sh,Consumer Discretionary,HGMD.SI,EQ,SGXE43618235
+Singapore Technologies,Industrials,S63.SI,EQ,SG1F60858221
+Kuaishou Technology Shs UnSp Singapore Depositary Receipt Repr 1/5 Sh,Industrials,HKUD.SI,EQ,SGXE93813553
+Airports of Thailand Public Co Ltd Shs Singapore Depositary Receipt Repr 1 NDVR,Industrials,TATD.SI,EQ,SGXE27499115
+IHH Healthcare Bhd.,Health Care,Q0F.SI,EQ,MYL5225OO007
+Singapore Exchange,Financials,S68.SI,EQ,SG1J26887955
+Jardine Matheson,Industrials,J36.SI,EQ,BMG507361001
+Wilmar International,Consumer Staples,F34.SI,EQ,SG1T56930848
+PTT Exploration & Production Plc Shs Singapore Depositary Receipt Repr 1 NDVR,Energy,TPED.SI,EQ,SGXE96528042
+Singapore Airlines,Industrials,C6L.SI,EQ,SG1V61937297
+PT Telkom Indonesia (Persero) Tbk Shs UnSp Singapore Depositary Receipt Repr 5/1 Sh,Communication Services,ITKD.SI,EQ,SGXE83206339
+Hongkong Land,Real Estate,H78.SI,EQ,BMG4587L1090
+Kasikornbank Public Co. Ltd. Shs Singapore Depositary Receipt Repr 1 NDVR,Financials,TKKD.SI,EQ,SGXE30848761
+Keppel Corporation,Industrials,BN4.SI,EQ,SG1U68934629
+CapitaLand Integrated,Real Estate,C38U.SI,EQ,SG1M51904654
+NIO Inc. Class A,Consumer Discretionary,NIO.SI,EQ,KYG6525F1028
+CP ALL Public Company Limited Shs Singapore Depositary Receipt Repr 1 NDVR,Consumer Discretionary,TCPD.SI,EQ,SGXE91081823
+Yangzijiang Shipbuilding,Industrials,BS6.SI,EQ,SG1U76934819
+Laopu Gold Co.  Ltd. Shs UnSp Singapore Depositary Receipt Repr 1/50 Sh,Consumer Discretionary,HLPD.SI,EQ,SGXE92689194
+CapitaLand Investment,Real Estate,9CI.SI,EQ,SGXE62145532
+Ascendas REIT,Real Estate,A17U.SI,EQ,SG1M77906915
+Jardine Cycle & Carriage,Consumer Discretionary,C07.SI,EQ,SG1B51001017
+Horizon Robotics UnSp Singapore Depositary Receipt Repr 1 Sh,Technology,HHZD.SI,EQ,SGXE49383057
+Bangkok Dusit Medical Services Public Co. Ltd. UnSp Singapore Depositary Receipt Repr 2/1 Sh,Health Care,TBDD.SI,EQ,SGXE22121102
+Siam Cement Public Co. Ltd. Shs Singapore Depositary Receipt Repr 1 NDVR,Materials,TSCD.SI,EQ,SGXE69329782
+Sembcorp Industries,Utilities,U96.SI,EQ,SG1R50925390
+Thai Beverage,Consumer Staples,Y92.SI,EQ,TH0902010014
+UOL Group,Real Estate,U14.SI,EQ,SG1S83002349
+Great Eastern Holdings Limited,Financials,G07.SI,EQ,SG1I55882803
+City Developments,Real Estate,C09.SI,EQ,SG1R89002252
+Genting Singapore,Consumer Discretionary,G13.SI,EQ,SGXE21576413
+Mapletree Pan Asia,Real Estate,N2IU.SI,EQ,SG2D18969584
+Seatrium,Industrials,5E2.SI,EQ,SGXE34184239
+Dairy Farm International,Consumer Staples,D01.SI,EQ,BMG2624N1535
+Mapletree Logistics,Real Estate,M44U.SI,EQ,SG1S03926213
+SATS Ltd,Industrials,S58.SI,EQ,SG1I52882764
+Charoen Pokphand Foods Public Co. Ltd. UnSp Singapore Depositary Receipt Repr 2/1 Sh,Materials,TPFD.SI,EQ,SGXE42827407
+Keppel DC REIT,Real Estate,AJBU.SI,EQ,SG1AF6000009
+Mapletree Industrial,Real Estate,ME8U.SI,EQ,SG2C32962814
+PT Indofood CBP Sukses Makmur Tbk Shs UnSp Singapore Depositary Receipt Repr 2/1 Sh,Consumer Staples,IICD.SI,EQ,SGXE83436159
+Venture Corporation,Technology,V03.SI,EQ,SG0531000230
+Tianjin Pharmaceutical Da Ren Tang Group Corporation Limited Class S,Health Care,T14.SI,EQ,CNE100000924
+Olam Group,Consumer Staples,VC2.SI,EQ,SGXE65760014
+Sheng Siong Group,Consumer Staples,OV8.SI,EQ,SG2D54973185
+Singapore Land Group Limited,Financials,U06.SI,EQ,SG1K37001643
+Frasers Centrepoint,Real Estate,J69U.SI,EQ,SG1T60930966
+First Resources,Consumer Staples,EB5.SI,EQ,SG1W35938974
+China Medical System Holdings Ltd.,Health Care,8A8.SI,EQ,KYG211081248
+Frasers Property,Real Estate,TQ5.SI,EQ,SG2G52000004
+Suntec REIT,Real Estate,T82U.SI,EQ,SG1Q52922370
+Keppel REIT,Financials,K71U.SI,EQ,SG1T22929874
+NetLink NBN Trust,Communication Services,CJLU.SI,EQ,SG1DH9000006
+Frasers Logistics,Real Estate,BUOU.SI,EQ,SG1CI9000006
+UOB-Kay Hian Holdings Limited,Financials,U10.SI,EQ,SG1J21887414
+SIA Engineering,Industrials,S59.SI,EQ,SG1I53882771
+Haw Par Corporation,Health Care,H02.SI,EQ,SG1D25001158
+CapitaLand Ascott Trust,Real Estate,HMN.SI,EQ,SGXC16332337
+Golden Agri-Resources,Consumer Staples,E5H.SI,EQ,MU0117U00026
+AEM Holdings,Technology,AWX.SI,EQ,SG1BA1000003
+Keppel Infrastructure Trust,Utilities,A7RU.SI,EQ,SG1U48933923
+AvePoint  Inc. Class A,Technology,AVP.SI,EQ,US0536041041
+Bumitama Agri Ltd.,Materials,P8Z.SI,EQ,SG2E67980267
+ComfortDelGro,Industrials,C52.SI,EQ,SG1N31909426
+iFAST Corporation,Technology,AIY.SI,EQ,SG1AF5000000
+ParkwayLife REIT,Real Estate,C2PU.SI,EQ,SG1V52937132
+GuocoLand Limited,Financials,F17.SI,EQ,SG1R95002270
+Hotel Properties Limited,Consumer Discretionary,H15.SI,EQ,SG2P14002527
+Shangri-La Asia Limited,Consumer Discretionary,S07.SI,EQ,BMG8063F1068
+Hong Leong Asia Ltd.,Industrials,H22.SI,EQ,SG1F76860344
+UMS Integration,Technology,558.SI,EQ,SG1J94892465
+Hutchison Port Holdings,Industrials,NS8U.SI,EQ,SG2D00968206
+Hutchison Port Holdings Trust,Industrials,P7VU.SI,EQ,SG2D00968206
+Fraser & Neave Ltd.,Consumer Staples,F99.SI,EQ,SG1T58930911
+Top Glove Corporation Bhd.,Health Care,BVA.SI,EQ,MYL7113OO003
+OUE Real Estate Investment Trust,Financials,TS0U.SI,EQ,SG2G60000004
+ESR-REIT,Financials,9A4U.SI,EQ,SGXC55341835
+Lendlease Global Commercial REIT,Financials,JYEU.SI,EQ,SGXC61949712
+Raffles Medical Group,Health Care,BSL.SI,EQ,SG1CH4000003
+StarHub,Communication Services,CC3.SI,EQ,SG1V12936232
+Hour Glass Ltd.,Industrials,AGS.SI,EQ,SG1AE9000009
+China Aviation Oil (Singapore) Corporation Ltd,Industrials,G92.SI,EQ,SG1T06929205
+Food Empire Holdings Limited,Consumer Staples,F03.SI,EQ,SG1I44882534
+CapitaLand India Trust,Financials,CY6U.SI,EQ,SG1V35936920
+Thomson Medical Group Ltd.,Health Care,A50.SI,EQ,SG1M49904634
+Ho Bee Land Limited,Financials,H13.SI,EQ,SG1H41875896
+PropNex Ltd.,Financials,OYY.SI,EQ,SGXE65086469
+AIMS APAC REIT,Financials,O5RU.SI,EQ,SG2D63974620
+NTT DC REIT,Financials,NTDU.SI,EQ,SGXC92727947
+Riverstone Holdings,Health Care,AP4.SI,EQ,SG1U22933048
+Stoneweg European Stapled Trust,Financials,SEB.SI,EQ,SGXC11267561
+Stoneweg European Stapled Trust,Financials,SET.SI,EQ,SGXC11267561
+Yanlord Land Group,Real Estate,Z25.SI,EQ,SG1T57930854
+Starhill Global Real Estate Investment Trust,Financials,P40U.SI,EQ,SG1S18926810
+Genting Plantations,Consumer Staples,P15.SI,EQ,SG1J17886040
+BRC Asia Limited,Materials,BEC.SI,EQ,SG1BG3000008
+Bukit Sembawang Estates,Real Estate,B61.SI,EQ,SG1T88932077
+Centurion Corporation Limited,Consumer Discretionary,OU8.SI,EQ,SG2D51973063
+Frencken Group Limited,Technology,E28.SI,EQ,SG1R43925234
+Wing Tai Holdings,Real Estate,W05.SI,EQ,SG1K66001688
+Far East Hospitality Trust,Real Estate,Q5T.SI,EQ,SG2F08984575
+SBS Transit Ltd,Industrials,S61.SI,EQ,SG1F58858209
+CapitaLand China Trust,Financials,AU8U.SI,EQ,SG1U25933169
+First Sponsor Group Ltd,Financials,ADN.SI,EQ,KYG3488W1078
+Hong Leong Finance Limited,Financials,S41.SI,EQ,SG1M04001939
+United Overseas Australia Ltd,Financials,EH5.SI,EQ,AU000000UOS4
+Boustead Singapore Limited,Industrials,F9D.SI,EQ,SG1X13940751
+Pan-United Corporation Ltd.,Materials,P52.SI,EQ,SG1A67000830
+CDL Hospitality Trusts,Financials,J85.SI,EQ,SG1T66931158
+PC Partner Group Limited,Technology,PCT.SI,EQ,KYG6956A1013
+CSE Global Limited,Technology,544.SI,EQ,SG1G47869290
+ValueMax Group Ltd.,Consumer Discretionary,T6I.SI,EQ,SG2G29997704
+Civmec Limited,Industrials,P9D.SI,EQ,AU0000012056
+Sasseur Real Estate Investment Trust,Financials,CRPU.SI,EQ,SG1ED2000000
+Zheneng Jinjiang Environment Holding Co.  Ltd.,Utilities,BWM.SI,EQ,KYG9898S1075
+MoneyMax Financial Services Ltd.,Consumer Discretionary,5WJ.SI,EQ,SG2G06995143
+Geo Energy Resources Ltd.,Energy,RE4.SI,EQ,SG2F24986083
+Digital Core REIT,Financials,DCRU.SI,EQ,SGXC50067435
+Nanofilm Technologies International Ltd.,Industrials,MZH.SI,EQ,SGXE61652363
+Yangzijiang Financial Holding Ltd.,Financials,YF8.SI,EQ,SGXE77102635
+Hong Fok Corporation Limited,Financials,H30.SI,EQ,SG1J14885763
+Straits Trading Co. Ltd.,Materials,S20.SI,EQ,SG1J49001550
+Oiltek International Limited,Energy,HQU.SI,EQ,SGXE21569376
+Singapore Post,Industrials,S08.SI,EQ,SG1N89910219
+HRnetGroup Ltd.,Industrials,CHZ.SI,EQ,SG1DH2000003
+OUE Limited,Financials,LJ3.SI,EQ,SG2B80958517
+Stamford Land Corporation Ltd,Consumer Discretionary,H07.SI,EQ,SG1I47882655
+Aspial Lifestyle Ltd.,Financials,5UF.SI,EQ,SG2E90982678
+Aztech Global,Technology,8AZ.SI,EQ,SGXE54866863
+China Sunsine Chemical Holdings Ltd.,Materials,QES.SI,EQ,SGXE54479022
+China Everbright Water Limited,Industrials,U9E.SI,EQ,BMG2116Y1057
+Vicom Ltd,Consumer Discretionary,WJP.SI,EQ,SGXE86215543
+Wee Hur Holdings Ltd.,Industrials,E3B.SI,EQ,SG1W55939399
+Addvalue Technologies Ltd,Technology,A31.SI,EQ,SG1I67883666
+Cortina Holdings Limited,Consumer Discretionary,C41.SI,EQ,SG1M59904946
+Far East Orchard Ltd.,Financials,O10.SI,EQ,SG2P56002559
+Delfi Limited,Consumer Staples,P34.SI,EQ,SG1Q25921608
+QAF Ltd.,Consumer Staples,Q01.SI,EQ,SG1A49000759
+Marco Polo Marine Ltd.,Industrials,5LY.SI,EQ,SG1W14938268
+Q & M Dental Group (Singapore) Limited,Health Care,QC7.SI,EQ,SG2E73981531
+Malaysia Smelting Corp. Bhd.,Industrials,NPW.SI,EQ,MYL5916OO001
+Hotel Grand Central Ltd.,Consumer Discretionary,H18.SI,EQ,SG1J41888780
+Alpha Integrated Real Estate Investment Trust,Financials,M1GU.SI,EQ,SG2C57965205
+Concord New Energy Group Limited,Utilities,SEG.SI,EQ,BMG2345T1099
+Tan Chong International Limited,Industrials,T15.SI,EQ,BMG8667Z1023
+COSCO Shipping International Singapore Co Ltd,Industrials,F83.SI,EQ,SG1S76928401
+Samudera Shipping Line Ltd,Industrials,S56.SI,EQ,SG1F29855813
+United Overseas Insurance Limited,Financials,U13.SI,EQ,SG1M91002014
+Kimly Ltd.,Consumer Discretionary,1D0.SI,EQ,SG1DF1000008
+Indofood Agri Resources Ltd.,Materials,5JS.SI,EQ,SG1U47933908
+TSH Resources Bhd.,Materials,TSH.SI,EQ,MYL9059OO006
+Soilbuild Construction Group Ltd.,Industrials,ZQM.SI,EQ,SGXE48424142
+Banyan Tree Holdings Limited,Consumer Discretionary,B58.SI,EQ,SG1T49930665
+First Real Estate Investment Trust,Financials,AW9U.SI,EQ,SG1U27933225
+Valuetronics Holdings Limited,Technology,BN2.SI,EQ,BMG9316Y1084
+CNMC Goldmine Holdings Limited,Materials,5TP.SI,EQ,SG2D72974892
+Nam Cheong Limited,Industrials,1MZ.SI,EQ,BMG6361R3014
+Mewah International Inc.,Materials,MV4.SI,EQ,KYG6074A1085
+OKP Holdings Limited,Industrials,5CF.SI,EQ,SG1M55904841
+SIIC Environment Holdings Ltd.,Industrials,BHK.SI,EQ,SG1BI7000000
+GSH Corporation Limited,Financials,BDX.SI,EQ,SG1BG1000000
+Sunpower Group Ltd.,Industrials,5GD.SI,EQ,BMG8585U1027
+Micro-Mechanics (Holdings) Ltd,Industrials,5DD.SI,EQ,SG1O09910991
+Ever Glory United Holdings Limited,Industrials,ZKX.SI,EQ,SGXE22056548
+Global Resource Construction Ltd.,Financials,S3N.SI,EQ,SGXPG02D6ZP7
+United Hampshire US Real Estate Investment Trust,Financials,ODBU.SI,EQ,SGXC39411175
+Koh Brothers Eco Engineering Limited,Industrials,5HV.SI,EQ,SG1S95928879
+Tuan Sing Holdings Limited,Financials,T24.SI,EQ,SG2D13002373
+Bonvests Holdings Limited,Consumer Discretionary,B28.SI,EQ,SG2R04002568
+iX Biopharma Ltd.,Health Care,42C.SI,EQ,SG1BD9000009
+Metro Holdings Ltd,Consumer Discretionary,M01.SI,EQ,SG1I11878499
+Yeo Hiap Seng Ltd,Consumer Staples,Y03.SI,EQ,SG1I10878425
+Sing Investments & Finance Limited,Financials,S35.SI,EQ,SG1S02002305
+Elite UK REIT,Financials,MENU.SI,EQ,SGXC59097235
+Elite UK REIT,Financials,MXNU.SI,EQ,SGXC59097235
+ISDN Holdings Limited,Industrials,I07.SI,EQ,SG1S48927937
+Daiwa House Logistics Trust,Financials,DHLU.SI,EQ,SGXC62140063
+International Cement Group Ltd.,Materials,KUO.SI,EQ,SGXE38602509
+Gallant Venture Ltd.,Utilities,5IG.SI,EQ,SG1T37930313
+Oxley Holdings Ltd.,Financials,5UX.SI,EQ,SG2F25986140
+Multi-Chem Limited,Industrials,AWZ.SI,EQ,SG1BA2000002
+Aspial Corporation Limited,Materials,A30.SI,EQ,SG1G71871634
+Penguin International Limited,Industrials,BTM.SI,EQ,SG1CI0000005
+Azeus Systems Holdings Ltd.,Industrials,BBW.SI,EQ,BMG075391109
+Straco Corporation Limited,Consumer Discretionary,S85.SI,EQ,SG1P15916395
+Aoxin Q&M Dental Group Ltd.,Health Care,1D4.SI,EQ,SG1DF9000000
+Hiap Hoe Ltd.,Consumer Discretionary,5JK.SI,EQ,SG1U37933462
+Bund Center Investment Ltd,Financials,BTE.SI,EQ,BMG1792W1367
+ASL Marine Holdings Ltd.,Industrials,A04.SI,EQ,SG1N25909283
+NSL Ltd.,Materials,N02.SI,EQ,SG1F87001375
+GP Industries Limited,Industrials,G20.SI,EQ,SG1C12012995
+Thakral Corporation Ltd,Industrials,AWI.SI,EQ,SG1AJ2000005
+Prime US REIT,Financials,OXMU.SI,EQ,SGXC75818630
+IREIT Global,Financials,UD1U.SI,EQ,SG1AB8000006
+Southern Alliance Mining Ltd.,Materials,QNS.SI,EQ,SGXE41674636
+Hotel Royal Ltd.,Consumer Discretionary,H12.SI,EQ,SG1P12002132
+Credit Bureau Asia Limited,Industrials,TCU.SI,EQ,SGXE54097436
+Lum Chang Creations Limited,Industrials,LCC.SI,EQ,SGXE10283153
+LHN Limited,Industrials,41O.SI,EQ,SG1AH9000002
+JB Foods Ltd.,Consumer Staples,BEW.SI,EQ,SG1BH1000008
+PSC Corporation Ltd,Consumer Staples,DM0.SI,EQ,SG1V81937806
+XMH Holdings Ltd.,Industrials,BQF.SI,EQ,SG1CF5000006
+Sing Holdings Ltd.,Financials,5IC.SI,EQ,SG1T28930090
+JEP Holdings Ltd.,Industrials,1J4.SI,EQ,SG1EE3000007
+Tai Sin Electric Limited,Industrials,500.SI,EQ,SG1F88861140
+KORE US REIT,Financials,CMOU.SI,EQ,SG1EA1000007
+APAC Realty Ltd.,Financials,CLN.SI,EQ,SG1DJ0000001
+Coliwoo Holdings Ltd.,Consumer Discretionary,W8W.SI,EQ,SGXE36049950
+Tiong Woon Corporation Holding Ltd,Financials,BQM.SI,EQ,SG1CF7000004
+BHG Retail REIT,Financials,BMGU.SI,EQ,SG1CD7000009
+Info-Tech Systems Ltd,Technology,ITS.SI,EQ,SGXE12310608
+Chuan Hup Holdings Limited,Financials,C33.SI,EQ,SG1H43875910
+Raffles Education Limited,Industrials,NR7.SI,EQ,SG2C97968151
+Nordic Group Limited,Industrials,MR7.SI,EQ,SG2C45963924
+Hafary Holdings Limited,Industrials,5VS.SI,EQ,SG2F75992345
+Yoma Strategic Holdings Ltd.,Financials,Z59.SI,EQ,SG1T74931364
+Mermaid Maritime Public Co.  Ltd.,Energy,DU4.SI,EQ,TH0955010002
+Lum Chang Holdings Limited,Consumer Discretionary,L19.SI,EQ,SG1E20001293
+OUE Healthcare Limited,Financials,5WA.SI,EQ,SG2F86994413
+Hock Lian Seng Holdings Limited,Industrials,J2T.SI,EQ,SG1Z21951640
+KSH Holdings Limited,Industrials,ER0.SI,EQ,SG1W44939146
+ISEC Healthcare Ltd,Health Care,40T.SI,EQ,SG1AD9000001
+JUMBO Group Limited,Consumer Discretionary,42R.SI,EQ,SG1CA7000005
+Nam Lee Pressed Metal Industries Limited,Industrials,G0I.SI,EQ,SG1X43941639
+InnoTek Limited,Industrials,M14.SI,EQ,SG1F66858902
+Del Monte Pacific Limited,Consumer Staples,D03.SI,EQ,VGG270541169
+Tat Seng Packaging Group Ltd,Materials,T12.SI,EQ,SG1K31894969
+Asian Pay Television Trust,Consumer Discretionary,S7OU.SI,EQ,SG2F77993036
+Hotung Investment Holdings Limited,Financials,BLS.SI,EQ,BMG4612P2085
+17LIVE Group Limited,Consumer Discretionary,LVR.SI,EQ,KYG8074N1060
+Acrophyte Hospitality Trust,Financials,XZL.SI,EQ,SGXC80011726
+Ley Choon Group Holdings Ltd.,Technology,Q0X.SI,EQ,SG2F02983607
+Koh Brothers Group Limited,Industrials,K75.SI,EQ,SG1B06007705
+Beng Kuang Marine Ltd.,Industrials,BEZ.SI,EQ,SG1BH2000007
+Old Chang Kee Ltd.,Consumer Discretionary,5ML.SI,EQ,SG1W49939232
+Avarga Limited,Materials,X5N.SI,EQ,SGXE98222768
+HG Metal Manufacturing Limited,Materials,BTG.SI,EQ,SG1CH7000000
+Huationg Global Ltd.,Industrials,41B.SI,EQ,SG1AF2000003
+Union Gas Holdings Ltd.,Utilities,1F2.SI,EQ,SG1DI1000002
+Grand Banks Yachts Limited,Consumer Discretionary,G50.SI,EQ,SG0504000043
+RH Petrogas Limited,Energy,T13.SI,EQ,SG1H00001443
+Kencana Agri Limited,Materials,BNE.SI,EQ,SG1CE4000000
+Singapura Finance Ltd,Financials,S23.SI,EQ,SG1M01001924
+Infinity Development Holdings Co. Ltd.,Materials,ZBA.SI,EQ,KYG4772A1168
+Fortress Minerals Limited,Materials,OAJ.SI,EQ,SGXE46200569
+Manulife US REIT,Financials,BTOU.SI,EQ,SG1CI1000004
+Metis Energy Limited,Utilities,L02.SI,EQ,SG1I14879601
+Singapore Shipping Corporation Limited,Industrials,S19.SI,EQ,SG1J24887775
+EnGro Corp. Ltd. (Singapore),Materials,S44.SI,EQ,SG1H26001476
+Pacific Radiance Ltd,Industrials,RXS.SI,EQ,SGXE30264951
+Powermatic Data Systems Ltd.,Technology,BCY.SI,EQ,SG1BF0000003
+Heeton Holdings Limited,Consumer Discretionary,5DP.SI,EQ,SG1O44912994
+Kingsmen Creatives Ltd.,Industrials,5MZ.SI,EQ,SG1W76939881
+YHI International Limited,Industrials,BPF.SI,EQ,SG1CF1000000
+Taka Jewellery Holdings Ltd.,Industrials,42L.SI,EQ,SG1BI4000003
+Telechoice International Limited,Industrials,T41.SI,EQ,SG1P75919099
+Resources Global Development Limited,Industrials,V7R.SI,EQ,SGXE81809571
+ProsperCap Corporation Limited,Financials,PPC.SI,EQ,SGXE73186327
+mDR Limited,Consumer Discretionary,Y3D.SI,EQ,SGXE29738106
+Hyphens Pharma International Ltd.,Health Care,1J5.SI,EQ,SG1EE4000006
+ASTI Holdings Limited,Technology,575.SI,EQ,SG1G77872271
+iWOW Technology Limited,Technology,NXR.SI,EQ,SGXE24704236
+Sinostar PEC Holdings Limited,Energy,C9Q.SI,EQ,SG1V73937608
+Baker Technology Limited,Industrials,BTP.SI,EQ,SG1CI3000002
+MYP Limited,Financials,F86.SI,EQ,SG1S80928447
+Winking Studios Limited,Technology,WKS.SI,EQ,KYG9722U1040
+Willas-Array Electronics (Holdings) Limited,Industrials,BDR.SI,EQ,BMG9643L1349
+Choo Chiang Holdings Ltd,Industrials,42E.SI,EQ,SG1BE5000001
+Envictus International Holdings Limited,Consumer Staples,BQD.SI,EQ,SG1CF4000007
+Rex International Holding Ltd.,Energy,5WH.SI,EQ,SG2G04994999
+Embracing Future Holdings Limited,Health Care,8YY.SI,EQ,SGXE89830751
+Trendlines Group Ltd.,Financials,42T.SI,EQ,IL0011328858
+ABR Holdings Limited,Consumer Staples,533.SI,EQ,SG0533000253
+SUTL Enterprise Limited,Industrials,BHU.SI,EQ,SG1BJ4000001
+Duty Free International Limited,Consumer Discretionary,5SO.SI,EQ,SG2C70966271
+Parkson Retail Asia Limited,Consumer Discretionary,O9E.SI,EQ,SG2D81975377
+New Toyo International Holdings Ltd,Financials,N08.SI,EQ,SG1E32850828
+Sunright Limited,Industrials,S71.SI,EQ,SG1B17008288
+AnAn International Limited,Materials,Y35.SI,EQ,BMG036111034
+Pollux Properties Ltd.,Financials,5AE.SI,EQ,SG1I77884290
+Zhongmin Baihui Retail Group Ltd.,Consumer Discretionary,5SR.SI,EQ,SG2C76966531
+SHS Holdings Ltd.,Industrials,566.SI,EQ,SG1G33866144
+Vibrant Group Ltd,Industrials,BIP.SI,EQ,SG1BJ7000008
+Fu Yu Corporation Limited,Industrials,F13.SI,EQ,SG1B56010922
+Alset International Limited.,Consumer Discretionary,40V.SI,EQ,SG1AE2000006
+Sin Heng Heavy Machinery Limited,Financials,BKA.SI,EQ,SG1CB2000008
+Hiap Seng Industries Limited,Industrials,1L2.SI,EQ,SGXE37533077
+Serial System Ltd,Industrials,S69.SI,EQ,SG1E36851343
+Trek 2000 International Ltd,Technology,5AB.SI,EQ,SG1I59882965
+Uni-Asia Group Ltd.,Industrials,CHJ.SI,EQ,SG1DG7000000
+Vallianz Holdings Limited,Industrials,WPC.SI,EQ,SGXE15078822
+Sim Leisure Group Ltd.,Consumer Discretionary,URR.SI,EQ,SGXE75616446
+TA Corporation Ltd.,Industrials,PA3.SI,EQ,SG2D87975520
+GKE Corporation Limited,Industrials,595.SI,EQ,SG1N09908665
+Sarine Technologies Ltd,Technology,U77.SI,EQ,IL0010927254
+Medtecs International Corporation Ltd.,Health Care,546.SI,EQ,BMG5958R1043
+Overseas Education Ltd.,Consumer Discretionary,RQ1.SI,EQ,SG2F49989922
+IFS Capital Ltd.,Financials,I49.SI,EQ,SG1A35000706
+BBR Holdings (S) Ltd,Industrials,KJ5.SI,EQ,SG1Z42953799
+Chasen Holdings Limited,Industrials,5NV.SI,EQ,SG1X55941717
+ISOTeam Ltd.,Industrials,5WF.SI,EQ,SG2F95994529
+Zixin Group Holdings Limited,Consumer Discretionary,42W.SI,EQ,SG1CE1000003
+Nera Telecommunications Ltd,Technology,N01.SI,EQ,SG1I64883495
+Reclaims Global Limited,Industrials,NEX.SI,EQ,SGXE46584095
+Singapore Institute of Advanced Medicine Holdings Ltd.,Health Care,9G2.SI,EQ,SGXE79544776
+Hor Kew Corporation Limited,Industrials,BBP.SI,EQ,SG1BE0000006
+Kim Heng Ltd,Industrials,5G2.SI,EQ,SG2G57000009
+Union Steel Holdings Limited,Materials,ZB9.SI,EQ,SGXE53154642
+Lincotrade & Associates Holdings Limited,Materials,BFT.SI,EQ,SG1BH7000002
+Goodwill Entertainment Holding Limited,Consumer Discretionary,GEH.SI,EQ,SGXE35243133
+Atlantic Navigation Holdings (Singapore) Ltd.,Industrials,5UL.SI,EQ,SG2F00983534
+MegaChem Ltd.,Materials,5DS.SI,EQ,SG1O60914015
+Audience Analytics Limited,Industrials,1AZ.SI,EQ,SGXE74394474
+Creative Technology Ltd.,Technology,C76.SI,EQ,SG1A98006814
+Sanli Environmental Ltd.,Industrials,1E3.SI,EQ,SG1DG8000009
+Attika Group Ltd.,Industrials,53W.SI,EQ,SGXE34362983
+China Environmental Resources Group Ltd.,Industrials,UIX.SI,EQ,KYG215691505
+YKGI Limited,Consumer Discretionary,YK9.SI,EQ,SGXE39589952
+LMS Compliance Limited.,Industrials,LMS.SI,EQ,SGXE55274299
+A-Sonic Aerospace Limited,Industrials,BTJ.SI,EQ,SG1CH8000009
+HC Surgical Specialists Ltd,Health Care,1B1.SI,EQ,SG1DC2000004
+Karin Technology Holdings Limited,Technology,K29.SI,EQ,BMG521971033
+Octopus (APAC) Holdings Limited,Consumer Staples,43A.SI,EQ,SG1CF0000001
+UG Healthcare Corp. Ltd.,Health Care,8K7.SI,EQ,SGXE48766716
+Asia Enterprises Holding Ltd.,Industrials,A55.SI,EQ,SG1S11926551
+Ying Li International Real Estate Limited,Financials,5DM.SI,EQ,SG1O24911883
+MTQ Corporation Limited,Industrials,M05.SI,EQ,SG0507000073
+TIH Limited,Financials,T55.SI,EQ,SG1A82000914
+Wong Fong Industries Limited,Industrials,1A1.SI,EQ,SG1DA6000004
+World Precision Machinery Ltd.,Industrials,B49.SI,EQ,SG1T29930156
+Skylink Holdings Limited,Industrials,XZB.SI,EQ,SGXE87155607
+CSC Holdings Limited,Industrials,C06.SI,EQ,SG1F84861094
+Stamford Tyres Corporation Limited,Industrials,S29.SI,EQ,SG1O53913362
+Mencast Holdings Ltd.,Industrials,5NF.SI,EQ,SG1X07940643
+Emerging Towns & Cities Singapore Ltd,Financials,1C0.SI,EQ,SG1DD5000009
+Amcorp Global Ltd.,Financials,S9B.SI,EQ,SG2F79993489
+Jiutian Chemical Group Limited,Materials,C8R.SI,EQ,SG1V71937527
+Totm Technologies Limited,Industrials,42F.SI,EQ,SG1BF8000005
+Intraco Ltd.,Industrials,I06.SI,EQ,SG1D87001195
+Enviro-Hub Holdings Ltd.,Industrials,L23.SI,EQ,SG1G27865383
+Goodland Group Ltd.,Financials,5PC.SI,EQ,SG1Y75948873
+LHT Holdings Ltd,Materials,BEI.SI,EQ,SG1BG5000006
+Mooreast Holdings Ltd.,Industrials,1V3.SI,EQ,SGXE69578966
+Fuji Offset Plates Manufacturing Ltd,Materials,508.SI,EQ,SG0508000080
+Avi-Tech Holdings Pte. Ltd.,Industrials,1R6.SI,EQ,SGXE48832328
+Chemical Industries Far East Ltd.,Materials,C05.SI,EQ,SG1B37000984
+Ellipsiz Ltd,Industrials,BIX.SI,EQ,SG1CA2000000
+King Wan Corporation Limited,Industrials,554.SI,EQ,SG1J32888328
+Samurai 2K Aerosol Ltd.,Materials,Y8E.SI,EQ,SGXE31436269
+Global Testing Corporation Limited,Industrials,AYN.SI,EQ,SG1BB4000008
+VicPlas International Ltd.,Health Care,569.SI,EQ,SG1G57870584
+Tiong Seng Holdings Limited,Consumer Discretionary,BFI.SI,EQ,SG1BH4000005
+HL Global Enterprises Limited,Consumer Discretionary,AVX.SI,EQ,SG1AI6000003
+Ascent Bridge Limited,Industrials,AWG.SI,EQ,SG1AJ1000006
+Combine Will International Holdings Limited,Consumer Discretionary,N0Z.SI,EQ,KYG229811156
+9R Limited,Industrials,1Y1.SI,EQ,SGXE45420721
+Hong Lai Huat Group Limited,Financials,CTO.SI,EQ,SG1EE1000009
+Sitra Holdings (International) Limited,Industrials,5LE.SI,EQ,SG1V70937494
+PNE Industries Ltd,Technology,BDA.SI,EQ,SG1BF2000001
+Hiap Tong Corporation Ltd.,Financials,5PO.SI,EQ,SG1Z16951381
+Zhongxin Fruit & Juice Ltd.,Consumer Staples,5EG.SI,EQ,SG1P25916898
+Aspen (Group) Holdings Ltd.,Financials,1F3.SI,EQ,SG1DI2000001
+Abundance International Limited,Industrials,541.SI,EQ,SG1I02877971
+Pavillon Holdings Ltd.,Consumer Discretionary,596.SI,EQ,SG1I46882631
+Vin's Holdings Ltd,Consumer Discretionary,VIN.SI,EQ,KYG9R67A1025
+Alliance Healthcare Group Ltd.,Health Care,MIJ.SI,EQ,SGXE65282837
+Federal International (2000) Ltd,Industrials,BDU.SI,EQ,SG1BF9000004
+Cordlife Group Limited,Health Care,P8A.SI,EQ,SG2E64980112
+Wilton Resources Corporation Limited,Materials,5F7.SI,EQ,SG2G45999965
+Sheffield Green,Industrials,SGR.SI,EQ,SGXE15230159
+Keong Hong Holdings Limited,Industrials,5TT.SI,EQ,SG2D92977651
+MindChamps PreSchool Ltd.,Consumer Discretionary,CNE.SI,EQ,SG1EA6000002
+ST Group Food Industries Holdings Limited,Consumer Discretionary,DRX.SI,EQ,SGXE58705265
+Advancer Global Limited,Industrials,43Q.SI,EQ,SG1CJ7000006
+OTS Holdings Limited,Consumer Staples,OTS.SI,EQ,SGXE18096938
+CH Offshore Ltd.,Industrials,C13.SI,EQ,SG1N22909146
+Soon Lian Holdings Limited,Industrials,5MD.SI,EQ,SG1W36938981
+A-Smart Holdings Ltd.,Industrials,BQC.SI,EQ,SG1CF3000008
+Secura Group Ltd.,Industrials,43B.SI,EQ,SG1CF2000009
+H2G Green Limited,Industrials,5AI.SI,EQ,SG1I98885227
+HGH Holdings Ltd.,Industrials,5GZ.SI,EQ,SG1S12926576
+Medinex Ltd.,Health Care,OTX.SI,EQ,SGXE82839874
+Jadason Enterprises Ltd,Industrials,J03.SI,EQ,SG1I79884330
+GDS Global Ltd.,Industrials,5VP.SI,EQ,SG2F65991521
+Serial Achieva Limited,Industrials,XHV.SI,EQ,MYA010LA0136
+Asiamedic Limited,Health Care,505.SI,EQ,SG0505000059
+Koda Ltd.,Consumer Discretionary,BJZ.SI,EQ,SG1CB1000009
+Prospera Global Limited,Industrials,5HH.SI,EQ,SG1S49927944
+TrickleStar Ltd.,Industrials,CYW.SI,EQ,SGXE45760753
+BH Global Corporation Limited,Industrials,BQN.SI,EQ,SG1CF8000003
+Courage Investment Group Limited,Industrials,CIN.SI,EQ,BMG246371113
+Tye Soon Limited,Industrials,BFU.SI,EQ,SG1BH8000001
+Datapulse Technology Limited,Consumer Discretionary,BKW.SI,EQ,SG1CB7000003
+Casa Holdings Limited,Industrials,C04.SI,EQ,SG1B93012089
+Khong Guan Limited,Industrials,K03.SI,EQ,SG1E13001268
+Food Innovators Holdings Limited,Financials,KYB.SI,EQ,SGXE76179717
+Medi Lifestyle Limited,Health Care,Z4D.SI,EQ,SGXE63978766
+UnUsUal Ltd.,Industrials,1D1.SI,EQ,SG1DF5000004
+Tung Lok Restaurants (2000) Ltd,Consumer Discretionary,540.SI,EQ,SG1J65890803
+Anchun International Holdings Ltd.,Industrials,BTX.SI,EQ,SG1CI5000000
+Brook Crompton Holdings Ltd.,Industrials,AWC.SI,EQ,SG1AI8000001
+Khen Energy Limited,Utilities,YSV.SI,EQ,SGXE64291615
+Ouhua Energy Holdings Ltd.,Utilities,AJ2.SI,EQ,BMG6843Q1033
+Southern Packaging Group Limited,Materials,BQP.SI,EQ,SG1CG0000009
+Amplefield Limited,Financials,AOF.SI,EQ,SG1AG0000003
+Hosen Group Ltd.,Consumer Staples,5EV.SI,EQ,SG1Q03920366
+AP Oil International Limited,Energy,5AU.SI,EQ,SG1K10892752
+EuroSports Global Ltd.,Consumer Discretionary,5G1.SI,EQ,SG2G55000001
+Japan Foods Holding Ltd.,Consumer Discretionary,5OI.SI,EQ,SG1X84942272
+Fuxing China Group Ltd.,Industrials,AWK.SI,EQ,BMG3705H2069
+Pan Hong Holdings Group Limited,Financials,P36.SI,EQ,BMG6900A1163
+SunMoon Food Co. Ltd.,Industrials,AAJ.SI,EQ,SG1AA2000004
+Lion Asiapac Limited,Materials,BAZ.SI,EQ,SG1BD6000002
+Natural Cool Holdings Limited,Industrials,5IF.SI,EQ,SG1T36930298
+Ecowise Holdings Limited,Industrials,5CT.SI,EQ,SG1N88910129
+Noel Gifts International Ltd.,Consumer Discretionary,543.SI,EQ,SG0543000335
+Global Invacom Group Ltd.,Technology,QS9.SI,EQ,SG2E91982768
+Sapphire Corporation Limited,Industrials,BRD.SI,EQ,SG1CG4000005
+CDW Holding Limited,Technology,BXE.SI,EQ,BMG2022E1104
+ZICO Holdings Inc.,Industrials,40W.SI,EQ,MYA007968003
+Annaik Limited,Industrials,A52.SI,EQ,SG1O45913009
+LY Corporation Limited,Consumer Discretionary,1H8.SI,EQ,SG1EC1000003
+Leader Environmental Technologies Ltd.,Industrials,LS9.SI,EQ,SG2B93959478
+Jason Marine Group Limited,Technology,5PF.SI,EQ,SG1Y80949072
+Bromat Holdings Ltd.,Consumer Discretionary,9I7.SI,EQ,SGXE18744354
+Accrelist Ltd.,Industrials,QZG.SI,EQ,SGXE69448095
+Livingstone Health Holdings Limited,Materials,PRH.SI,EQ,SGXE70643320
+Ocean Sky International Limited,Industrials,1B6.SI,EQ,SG1DD2000002
+Qian Hu Corporation Limited,Materials,BCV.SI,EQ,SG1BE8000008
+AsiaPhos Limited,Materials,5WV.SI,EQ,SG2G24997246
+GSS Energy Limited,Technology,41F.SI,EQ,SG1AG6000007
+Mun Siong Engineering Ltd.,Industrials,MF6.SI,EQ,SG2C34962861
+LS 2 Holdings Limited,Industrials,ENV.SI,EQ,SGXE89787605
+Yamada Green Resources Ltd.,Materials,BJV.SI,EQ,SG1CA8000004
+IPS Securex Holdings Ltd,Technology,42N.SI,EQ,SG1BJ0000005
+Luminor Financial Holdings Limited,Financials,5UA.SI,EQ,SG2E72981474
+Soup Holdings Limited,Consumer Discretionary,5KI.SI,EQ,SG1U97935860
+Nippecraft Limited,Consumer Discretionary,N32.SI,EQ,SG1A83000921
+NoonTalk Media Limited,Consumer Discretionary,SEJ.SI,EQ,SGXE33048260
+Trans-China Automotive Holdings Ltd.,Consumer Discretionary,VI2.SI,EQ,KYG9005M1006
+Advanced Holdings Ltd.,Technology,BLZ.SI,EQ,SG1CD5000001
+Koyo International Limited,Technology,5OC.SI,EQ,SG1X69942156
+Memiontec Holdings Ltd.,Industrials,TWL.SI,EQ,SGXE13155820
+Far East Group Limited,Industrials,5TJ.SI,EQ,SG2D48972988
+Asia Vets Holdings Ltd.,Materials,5RE.SI,EQ,SG2B95959500
+Sakae Holdings Ltd.,Consumer Discretionary,5DO.SI,EQ,SG1O42912715
+CFM Holdings Limited,Industrials,5EB.SI,EQ,SG1P02915996
+OxPay Financial Limited,Technology,TVV.SI,EQ,SGXE15822534
+Figtree Holdings Ltd.,Industrials,5F4.SI,EQ,SG2G36998349
+Jawala Inc.,Materials,1J7.SI,EQ,MYA013922002
+IPC Corporation Ltd,Consumer Discretionary,AZA.SI,EQ,SG1BB8000004
+Acesian Partners Limited,Industrials,5FW.SI,EQ,SG1Q66923448
+Pharmesis International Ltd.,Health Care,BFK.SI,EQ,SG1BH6000003
+Travelite Holdings Ltd.,Consumer Discretionary,BCZ.SI,EQ,SG1BF1000002
+Green Build Technology Ltd.,Industrials,Y06.SI,EQ,SG1Q40922128
+GRP Ltd.,Industrials,BLU.SI,EQ,SG1CD2000004
+Digilife Technologies Limited,Industrials,BAI.SI,EQ,SG1BD0000008
+Progen Holdings Ltd,Industrials,583.SI,EQ,SG1F48858053
+Metech International Limited,Industrials,V3M.SI,EQ,SGXE91187273
+Pasture Holdings Ltd.,Industrials,UUK.SI,EQ,SGXE54661850
+Acma Ltd.,Industrials,AYV.SI,EQ,SG1BB6000006
+Camsing Healthcare Limited,Consumer Discretionary,BAC.SI,EQ,SG1BC8000002
+ES Group (Holdings) Limited,Industrials,5RC.SI,EQ,SG2B91959363
+Sunrise Shares Holdings Ltd,Financials,581.SI,EQ,SG0581008505
+Shanaya Limited,Technology,SES.SI,EQ,SGXE61364597
+Captii Limited,Communication Services,AWV.SI,EQ,SG1BA0000004
+TSH Corporation Limited,Consumer Discretionary,KUH.SI,EQ,SGXE89604008
+Heatec Jietong Holdings Ltd.,Industrials,5OR.SI,EQ,SG1Y31945526
+AcroMeta Group Limited,Industrials,43F.SI,EQ,SG1CH1000006
+Net Pacific Holdings Limited,Financials,5QY.SI,EQ,SG2B83959223
+MeGroup Ltd.,Consumer Discretionary,SJY.SI,EQ,SGXE43386122
+Vividthree Holdings Ltd.,Consumer Discretionary,OMK.SI,EQ,SGXE74791307
+Darco Water Technologies Ltd.,Industrials,BLR.SI,EQ,SG1CC9000009
+China Mining International Ltd.,Financials,BHD.SI,EQ,KYG211721207
+Shopper360 Ltd.,Industrials,1F0.SI,EQ,SG1DH4000001
+Manufacturing Integration Technology Ltd.,Technology,M11.SI,EQ,SG1H45875967
+Versalink Holdings Ltd,Industrials,40N.SI,EQ,SG1AC9000003
+Mary Chia Holdings Limited,Consumer Discretionary,5OX.SI,EQ,SG1Y51946677
+OIO Holdings Ltd.,Industrials,KUX.SI,EQ,SGXE73993458
+China Kunda Technology Holdings Limited,Materials,GU5.SI,EQ,SG1X41941300
+Katrina Group Ltd.,Consumer Discretionary,1A0.SI,EQ,SG1DA5000005
+KTMG Limited,Consumer Staples,XCF.SI,EQ,SGXE61141383
+Jubilee Industries Holdings Ltd.,Industrials,NHD.SI,EQ,SGXE67467741
+MSM International Limited,Industrials,51O.SI,EQ,SGXE66633194
+Suntar Eco-City Ltd.,Industrials,BKZ.SI,EQ,SG1CC1000007
+Heptamax International Limited,Industrials,8A1.SI,EQ,SGXE87077033
+Sevens Atelier Limited,Industrials,5EW.SI,EQ,SG1Q04920423
+Rich Capital Holdings Limited,Financials,1U8.SI,EQ,SGXE20364795
+Annica Holdings Limited,Health Care,JFQ.SI,EQ,SGXE54006650
+China Shenshan Orchard Holdings Co.  Ltd.,Consumer Staples,BKV.SI,EQ,BMG2860H2096
+Eindec Corp. Ltd.,Industrials,42Z.SI,EQ,SG1CE9000005
+Vibropower Corporation Limited,Industrials,BJD.SI,EQ,SG1CA3000009
+China International Holdings Limited,Financials,BEH.SI,EQ,BMG2113G1151
+Spackman Entertainment Group Ltd,Consumer Discretionary,9VW.SI,EQ,SGXE13591867
+UI Boustead REIT,Financials,UIBU.SI,EQ,SGXC15458703
+Soon Hock Enterprise Holding Limited,Financials,SHE.SI,EQ,SGXE42186366
+First Ship Lease Trust Shipping Business Trust Units,Industrials,D8DU.SI,EQ,SG1U66934613
+JustCo Holdings Limited,Financials,JCO.SI,EQ,SGXE40121159
+Centurion Accommodation REIT,Financials,8C8U.SI,EQ,SGXC43938841
+UltraGreen.ai Limited,Technology,UGS.SI,EQ,SGXE24586385
+UltraGreen.ai Limited,Technology,ULG.SI,EQ,SGXE24586385
+Toku Ltd.,Technology,TKU.SI,EQ,SGXE69764855
+MetaOptics Ltd,Technology,9MT.SI,EQ,KYG93Y1D1074
+Assembly Place Holdings Ltd.,Financials,TAP.SI,EQ,SGXE34389325
+Kin Global Ltd.,Consumer Discretionary,KIN.SI,EQ,SGXE84077846
+Leong Guan Holdings Ltd.,Consumer Staples,LGH.SI,EQ,SGXE13084095
+Global Investments Limited,Financials,B73.SI,EQ,SGXC73602341
+Dezign Format Group Limited,Industrials,UZF.SI,EQ,SGXE32578069
+Yangzijiang Maritime Development Ltd.,Financials,8YZ.SI,EQ,SGXE35825913

@@ -1,412 +1,584 @@
 Company Name,Industry,Symbol,Series,ISIN Code
+Berkshire Hathaway Inc. Sponsored Canadian Depository Receipt Hedged Reg S,Financials,ZBRK.NE,EQ,CA08466V1013
+Berkshire Hathaway Inc. Shs -B CAD hedged- Canadian Depositary Receipt Repr Shs B Reg S,Financials,BRK.TO,EQ,CA08465W1005
+JPMorgan Chase & Co. Shs -CAD hedged- Canadian Depositary Receipt Repr Shs Reg S,Financials,JPM.TO,EQ,CA46653U1066
+JPMorgan Chase & Co. Shs Unsponsored Canadian Depository Receipt Hedged Reg S,Financials,ZJPM.NE,EQ,CA4662971080
+Visa Inc. Shs Unsponsored Canadian Depository Receipt,Financials,ZV.NE,EQ,CA9279531094
+Visa Inc. Shs -A CAD hedged- Canadian Depositary Receipt Repr Shs Reg S,Financials,VISA.TO,EQ,CA92790D1024
+Mastercard Incorporated Shs Unsponsored Canadian Depository Receipt Hedged,Financials,ZMAS.NE,EQ,CA5759771036
+Mastercard Incorporated Shs -A CAD hedged- Canadian Depositary Receipt Repr Shs A Reg S,Financials,MA.TO,EQ,CA57637G1054
+Bank of America Corp Shs Canadian Depositary Receipt Repr Shs Reg S,Financials,BOFA.TO,EQ,CA06048X1087
+Morgan Stanley Shs Unsponsored Canadian Depository Receipt Hedged Reg S,Financials,MS.TO,EQ,CA61692D1069
+Goldman Sachs Group  Inc. Shs Canadian Depositary Receipt Repr Shs Reg S,Financials,GS.TO,EQ,CA38150F1045
 Royal Bank of Canada,Financials,RY.TO,EQ,CA7800871021
-Royal Bank of Canada Non-Cum Conv Red Pfd Registered Shs Series -BO- Reg S,Financials,RY-PR-S.TO,EQ,CA78013R3909
-Toronto-Dominion Bank Non-Cum Conv Red Rate Reset Pfd Series 16,Financials,TD-PF-I.TO,EQ,CA8911606405
-Toronto-Dominion Bank Non-Cum Conv Red Perp Pfd Series 18,Financials,TD-PF-J.TO,EQ,CA8911606249
+Royal Bank of Canada Non-Cum Conv Red Pfd Registered Shs Series -BO- Reg S,Financials,RY.PR.S.TO,EQ,CA78013R3909
+Wells Fargo & Company Shs Sponsored Canadian Depoitary Receipt Hedged Reg S,Financials,WFCS.TO,EQ,CA9499321078
+Citigroup Inc. Shs Unsponsored Canadian Depository Receipt Hedged Reg S,Financials,CITI.TO,EQ,CA17331G1081
+American Express Company Shs Canadian Depository Receipt Hedge Reg S,Financials,AXP.TO,EQ,CA02590A1093
+Mitsubishi UFJ Financial Group  Inc. Sponsored Canadian Depository Receipt Hedged Reg S,Financials,MUFG.NE,EQ,CA6249381063
+Toronto-Dominion Bank Non Cum Pfd Registered Shs -A- Series -1-,Financials,TD.PF.A.TO,EQ,CA8911456900
+Toronto-Dominion Bank Non-Cum Conv Red Rate Reset Pfd Series 16,Financials,TD.PF.I.TO,EQ,CA8911606405
+Toronto-Dominion Bank Non-Cum Conv Red Perp Pfd Series 18,Financials,TD.PF.J.TO,EQ,CA8911606249
 Toronto-Dominion Bank,Financials,TD.TO,EQ,CA8911605092
-Toronto-Dominion Bank Non Cum Pfd Registered Shs -A- Series -1-,Financials,TD-PF-A.TO,EQ,CA8911456900
+Banco Santander S.A. Shs Sponsored Canadian Depository Receipt Hedged Reg S,Financials,BSAN.NE,EQ,CA05973U1057
+Allianz SE Shs Sponsored Canadian Depository Receipt Hedged Reg S,Financials,ALIZ.NE,EQ,CA01882L1040
+Allianz SE CAD Hedged CIBC CDR,Financials,ALZ.TO,EQ,CA01883E1097
+BlackRock  Inc. Shs Unsponsored Canadian Depoitary Receipt Hedged Reg S,Financials,BLK.TO,EQ,CA09263C1068
+Charles Schwab Corp Shs Unsponsored Canadian Depository Receipt Hedged Reg S,Financials,SCHW.TO,EQ,CA15987A1021
+Blackstone Inc. Shs Sponsored Canadian Depository Receipt Hedged Reg S,Financials,BX.TO,EQ,CA09263X1006
+UBS Group AG CAD Hedged CIBC CDR,Financials,UBSS.TO,EQ,CA90356F1071
+UBS Group AG Sponsored Canadian Depository Receipt Hedged Reg S,Financials,UBS.NE,EQ,CA9039421008
+Banco Bilbao Vizcaya Argentaria  S.A. Shs Sponsored Canadian Depository Receipt Hedged Reg S,Financials,BBVA.NE,EQ,CA0589451065
+BNP Paribas S.A. Unsponsored Canadian Depository Receipt Hedged Reg S,Financials,BNP.NE,EQ,CA09656Y1034
+Bank of Montreal Non-Cum Conv Red Pfd Registered Shs B Series -44- Reg S,Financials,BMO.PR.E.TO,EQ,CA06368B2075
 Bank of Montreal,Financials,BMO.TO,EQ,CA0636711016
-Bank of Montreal Non-Cum Conv Red Pfd Registered Shs B Series -44- Reg S,Financials,BMO-PR-E.TO,EQ,CA06368B2075
+Zurich Insurance Group Ltd Shs Sponsored Canadian Depository Receipt Hedged Reg S,Financials,ZUR.NE,EQ,CA9899621051
 Canadian Imperial Bank of Commerce,Financials,CM.TO,EQ,CA1360691010
-Canadian Imperial Bank of Commerce Non-Cum Conv Red Perp Pfd A Series 47,Financials,CM-PR-S.TO,EQ,CA1360708772
-Brookfield Corporation Cum Red Pref Class A Series 40,Financials,BN-PF-F.TO,EQ,CA11271J7197
-Brookfield Corporation Cum Pfd Registered Shs -A- Series -24-,Financials,BN-PR-R.TO,EQ,CA11271J8831
-Brookfield Corporation Cum Red Pref Registered Shs -A- Series -37- Non Vtg,Financials,BN-PF-D.TO,EQ,CA11271J7437
-Brookfield Corporation Cum Pref Registered Shs -A- Series -30-,Financials,BN-PR-Z.TO,EQ,CA11271J8260
-Brookfield Corporation Cum Conv Red Pref Registered Shs -A- Series -48-,Financials,BN-PF-J.TO,EQ,CA11271J6280
-Brookfield Corporation Class A Preference Shares Series 42,Financials,BN-PF-G.TO,EQ,CA11271J6850
-Brookfield Corporation 4.75 % Cum Conv Pfd Registered Shs -A- Series 17,Financials,BN-PR-M.TO,EQ,CA11271J7015
-Brookfield Corporation Cum Red Pref Registered Shs -A- Series -46-,Financials,BN-PF-I.TO,EQ,CA11271J6447
-Brookfield Corporation Cum Pref Registered Shs -A- Series -26-,Financials,BN-PR-T.TO,EQ,CA11271J8674
-Brookfield Corporation Cum Pref Registered Shs A Series 28,Financials,BN-PR-X.TO,EQ,CA11271J8427
-Brookfield Corporation Cum Red Pfd Registered Shs A Series 4,Financials,BN-PR-C.TO,EQ,CA11271J3055
-Brookfield Corporation Cum Pref Shs A Non-Voting Series -38-,Financials,BN-PF-E.TO,EQ,CA11271J7353
-Brookfield Corporation 4.75 % Cum Pref Registered Shs -A- Series -18-,Financials,BN-PR-N.TO,EQ,CA11271J8005
-Brookfield Corporation Cum Red Pfd Shs A Series -36-,Financials,BN-PF-C.TO,EQ,CA11271J7502
-Brookfield Corporation Cum Pfd A Series -32-,Financials,BN-PF-A.TO,EQ,CA11271J7924
-Brookfield Corporation Pfd Registered Shs A cSeries -54,Financials,BN-PF-M.TO,EQ,CA11271J5787
-Brookfield Corporation Red Pref Registered Shs A Series -51- Non Vtg,Financials,BN-PF-K.TO,EQ,CA11271J5944
-Brookfield Corporation,Financials,BN.TO,EQ,CA11271J1075
-Brookfield Corporation Cum Red Pfd Registered Shs -A- Series -13-,Financials,BN-PR-K.TO,EQ,CA11271J6025
-Brookfield Corporation Cum Red Pfd Registered A Series 2,Financials,BN-PR-B.TO,EQ,CA11271J2065
-Brookfield Corporation Cum Pfd Shs A Series -34-,Financials,BN-PF-B.TO,EQ,CA11271J7767
-Brookfield Corporation Red Pref Registered Shs A Series -52- Non Vtg,Financials,BN-PF-L.TO,EQ,CA11271J5860
+Canadian Imperial Bank of Commerce Non-Cum Conv Red Perp Pfd A Series 47,Financials,CM.PR.S.TO,EQ,CA1360708772
 Bank of Nova Scotia,Financials,BNS.TO,EQ,CA0641491075
-Brookfield Asset Management Ltd. Class A,Financials,BAM.TO,EQ,CA1130041058
-Manulife Financial Corp Non Cum Red Pfd Registered Shs 1 Series -19-,Financials,MFC-PR-N.TO,EQ,CA56501R6766
-Manulife Financial Corporation 4 1/2 % Non Cum Red Pfd Shs A Series 3,Financials,MFC-PR-C.TO,EQ,CA56501R5024
-Manulife Financial Corporation Non-Cum Pfd Shs 1 Series -15-,Financials,MFC-PR-L.TO,EQ,CA56501R7269
-Manulife Financial Corp Non Cum Pfd Registered Shs 1 Series 4,Financials,MFC-PR-P.TO,EQ,CA56501R8416
-Manulife Financial Corp Non Cum Pfd Registered Shs 1 Series -17-,Financials,MFC-PR-M.TO,EQ,CA56501R6923
-Manulife Financial Corporation 4.65 % Non Cum Red Pfd Registered Shs A Series 2,Financials,MFC-PR-B.TO,EQ,CA56501R4035
-Manulife Financial Corp Non-Cum Rate Reset Class 1 Shs Series 25,Financials,MFC-PR-Q.TO,EQ,CA56501R6196
-Manulife Financial Corporation Non Cum Conv Pfd Registered Shs 1 Series 9,Financials,MFC-PR-I.TO,EQ,CA56501R7830
-Manulife Financial Corporation Non-Cum Conv Pfd Shs 1 Series -11-,Financials,MFC-PR-J.TO,EQ,CA56501R7673
-Manulife Financial Corporation,Financials,MFC-PR-K.TO,EQ,CA56501R7426
-Manulife Financial Corporation Non Cum Pfd Registered Shs 1 Series 3,Financials,MFC-PR-F.TO,EQ,CA56501R8580
+Brookfield Corporation Cum Pfd Shs A Series -34-,Financials,BN.PF.B.TO,EQ,CA11271J7767
+Brookfield Corporation Cum Red Pfd Registered Shs -A- Series -13-,Financials,BN.PR.K.TO,EQ,CA11271J6025
+Brookfield Corporation 4.75 % Cum Conv Pfd Registered Shs -A- Series 17,Financials,BN.PR.M.TO,EQ,CA11271J7015
+Brookfield Corporation Cum Pref Shs A Non-Voting Series -38-,Financials,BN.PF.E.TO,EQ,CA11271J7353
+Brookfield Corporation Cum Red Pfd Registered Shs A Series 4,Financials,BN.PR.C.TO,EQ,CA11271J3055
+Brookfield Corporation Cum Conv Red Pref Registered Shs -A- Series -48-,Financials,BN.PF.J.TO,EQ,CA11271J6280
+Brookfield Corporation Red Pref Registered Shs A Series -51- Non Vtg,Financials,BN.PF.K.TO,EQ,CA11271J5944
+Brookfield Corporation Cum Red Pref Registered Shs -A- Series -46-,Financials,BN.PF.I.TO,EQ,CA11271J6447
+Brookfield Corporation Cum Red Pref Class A Series 40,Financials,BN.PF.F.TO,EQ,CA11271J7197
+Brookfield Corporation Cum Pref Registered Shs A Series 28,Financials,BN.PR.X.TO,EQ,CA11271J8427
+Brookfield Corporation Cum Red Pfd Shs A Series -36-,Financials,BN.PF.C.TO,EQ,CA11271J7502
+Brookfield Corporation Pfd Registered Shs A cSeries -54,Financials,BN.PF.M.TO,EQ,CA11271J5787
+Brookfield Corporation Cum Red Pref Registered Shs -A- Series -37- Non Vtg,Financials,BN.PF.D.TO,EQ,CA11271J7437
+Brookfield Corporation Cum Pfd Registered Shs -A- Series -24-,Financials,BN.PR.R.TO,EQ,CA11271J8831
+Brookfield Corporation 4.75 % Cum Pref Registered Shs -A- Series -18-,Financials,BN.PR.N.TO,EQ,CA11271J8005
+Brookfield Corporation Cum Pfd A Series -32-,Financials,BN.PF.A.TO,EQ,CA11271J7924
+Brookfield Corporation,Financials,BN.TO,EQ,CA11271J1075
+Brookfield Corporation Class A Preference Shares  Series 42,Financials,BN.PF.G.TO,EQ,CA11271J6850
+Brookfield Corporation Cum Red Pfd Registered A Series 2,Financials,BN.PR.B.TO,EQ,CA11271J2065
+Brookfield Corporation Cum Pref Registered Shs -A- Series -26-,Financials,BN.PR.T.TO,EQ,CA11271J8674
+Brookfield Corporation Cum Pref Registered Shs -A- Series -30-,Financials,BN.PR.Z.TO,EQ,CA11271J8260
+Brookfield Corporation Red Pref Registered Shs A Series -52- Non Vtg,Financials,BN.PF.L.TO,EQ,CA11271J5860
+AXA SA Shs Unsponsored Canadian Depository Receipt Hedged Reg S,Financials,AXA.NE,EQ,CA00249P1053
+KKR & Co Inc Shs Unsponsored Canadian Depository Receipt Hedged Reg S,Financials,KKR.TO,EQ,CA48257B1040
+ING Groep N.V. CAD Hedged CIBC CDR,Financials,INGS.TO,EQ,CA4569421015
+ING Groep N.V. Shs Sponsored Canadian Depository Receipt Hedged Reg S,Financials,INGG.NE,EQ,CA44989Q1054
+Robinhood Markets  Inc. Shs Unsponsored Canadian Depository Receipt Hedged,Financials,ZHOO.NE,EQ,CA7709161045
+Robinhood Markets  Inc. Shs Unsponsored Canadian Depository Receipt Hedged Reg S,Financials,HOOD.TO,EQ,CA7699091020
+Apollo Global Management Inc Shs Canadian Depositary Receipt Repr Shs Reg S,Financials,ZAPO.NE,EQ,CA03771W1005
+Brookfield Asset Management Ltd.,Financials,BAM.TO,EQ,CA1130041058
+Manulife Financial Corporation 4.65 % Non Cum Red Pfd Registered Shs A Series 2,Financials,MFC.PR.B.TO,EQ,CA56501R4035
+Manulife Financial Corporation 4 1/2 % Non Cum Red Pfd Shs A Series 3,Financials,MFC.PR.C.TO,EQ,CA56501R5024
+Manulife Financial Corporation Non-Cum Pfd Shs 1 Series -15-,Financials,MFC.PR.L.TO,EQ,CA56501R7269
+Manulife Financial Corp Non Cum Pfd Registered Shs 1 Series 4,Financials,MFC.PR.P.TO,EQ,CA56501R8416
+Manulife Financial Corp Non-Cum Rate Reset Class 1 Shs Series 25,Financials,MFC.PR.Q.TO,EQ,CA56501R6196
+Manulife Financial Corp Non Cum Red Pfd Registered Shs 1 Series -19-,Financials,MFC.PR.N.TO,EQ,CA56501R6766
+Manulife Financial Corporation Non Cum Pfd Registered Shs 1 Series 3,Financials,MFC.PR.F.TO,EQ,CA56501R8580
+Manulife Financial Corporation Non Cum Conv Pfd Registered Shs 1 Series 9,Financials,MFC.PR.I.TO,EQ,CA56501R7830
 Manulife Financial Corporation,Financials,MFC.TO,EQ,CA56501R1064
-National Bank of Canada Non-Cum Conv Red 1st Pfd Registered Shs Series -38-,Financials,NA-PR-C.TO,EQ,CA6330672289
-National Bank of Canada Non-Cum Conv Red Perp Pfd Registered Shs Series -40-,Financials,NA-PR-E.TO,EQ,CA6330671943
+Manulife Financial Corporation Non-Cum Conv Pfd Shs 1 Series -11-,Financials,MFC.PR.J.TO,EQ,CA56501R7673
+Manulife Financial Corp Non Cum Pfd Registered Shs 1 Series -17-,Financials,MFC.PR.M.TO,EQ,CA56501R6923
+Manulife Financial Corporation,Financials,MFC.PR.K.TO,EQ,CA56501R7426
+National Bank of Canada Non-Cum Conv Red Perp Pfd Registered Shs Series -49- Reg S,Financials,NA.PR.K.TO,EQ,CA63307P7636
+National Bank of Canada Non-Cum Conv Red Perp Pfd Registered Shs Series -42- Reg S,Financials,NA.PR.G.TO,EQ,CA63306A2056
+National Bank of Canada Non-Cum Conv Red Perp Pfd Registered Shs Series -40-,Financials,NA.PR.E.TO,EQ,CA6330671943
 National Bank of Canada,Financials,NA.TO,EQ,CA6330671034
-National Bank of Canada Non-Cum Conv Red Perp Pfd Registered Shs Series -42- Reg S,Financials,NA-PR-G.TO,EQ,CA63306A2056
-National Bank of Canada Non-Cum Conv Red Perp Pfd Registered Shs Series -49- Reg S,Financials,NA-PR-K.TO,EQ,CA63307P7636
-National Bank of Canada Non-Cum First Pfd Shs Series -30-,Financials,NA-PR-S.TO,EQ,CA6330673196
-National Bank of Canada Non-Cum Conv Red Perp Pfd Registered Shs Series -47- Reg S,Financials,NA-PR-I.TO,EQ,CA63307P7891
-Great-West Lifeco Inc. 5.4 % Non-Cum 1st Pfd Shs Series P,Financials,GWO-PR-P.TO,EQ,CA39138C7750
-Great-West Lifeco Inc. 4.85 % Non-Cum Pfd Shs Series H,Financials,GWO-PR-H.TO,EQ,CA39138C8741
-Great-West Lifeco Inc. 5.65 % Non Cum First Pfd Shs Series L,Financials,GWO-PR-L.TO,EQ,CA39138C8253
+National Bank of Canada Non-Cum First Pfd Shs Series -30-,Financials,NA.PR.S.TO,EQ,CA6330673196
+National Bank of Canada Non-Cum Conv Red 1st Pfd Registered Shs Series -38-,Financials,NA.PR.C.TO,EQ,CA6330672289
+National Bank of Canada Non-Cum Conv Red Perp Pfd Registered Shs Series -47- Reg S,Financials,NA.PR.I.TO,EQ,CA63307P7891
+Societe Generale S.A. Unsponsored Canadian Depository Receipt Hedged Reg S,Financials,SOCG.NE,EQ,CA83360C1032
+Great-West Lifeco Inc. 5.4 % Non-Cum 1st Pfd Shs Series P,Financials,GWO.PR.P.TO,EQ,CA39138C7750
 Great-West Lifeco Inc.,Financials,GWO.TO,EQ,CA39138C1068
-Great-West Lifeco Inc. Non Cum 1st Pfd Registered Series S,Financials,GWO-PR-S.TO,EQ,CA39138C7347
-Great-West Lifeco Inc. 5.2 % Non Cum 1st Pfd Shs Series G,Financials,GWO-PR-G.TO,EQ,CA39138C8824
-Great-West Lifeco Inc. 5.8 % Non-Cum 1st Pfd Shs Series M,Financials,GWO-PR-M.TO,EQ,CA39138C8170
-Great-West Lifeco Inc. 4.50 % Non-Cum Red 1st Pfd Registered Shs Series -Y-,Financials,GWO-PR-Y.TO,EQ,CA39138C6927
-Great-West Lifeco Inc. Non-Cum 1st Pfd Shs Series N,Financials,GWO-PR-N.TO,EQ,CA39138C7917
-Great-West Lifeco Inc. 5.70 % Non Cum 1Pfd Registered Shs Series Z,Financials,GWO-PR-Z.TO,EQ,CA39138C6844
-Great-West Lifeco Inc. Non-Cum Red 1st Pfd Registered Shs Series T,Financials,GWO-PR-T.TO,EQ,CA39138C7263
-Great-West Lifeco Inc. Non Cum 1st Pfd Registered Shs Series -Q-,Financials,GWO-PR-Q.TO,EQ,CA39138C7677
-Great-West Lifeco Inc. Non-Cum Red 1st Pfd Shs Series R,Financials,GWO-PR-R.TO,EQ,CA39138C7594
-Great-West Lifeco Inc. 4 1/2 % Non-Cum Red 1st Pfd Shs Series I,Financials,GWO-PR-I.TO,EQ,CA39138C8667
-Sun Life Financial Inc Non Cum Pfd Shs A Series -9QR- Fltg Rt,Financials,SLF-PR-J.TO,EQ,CA8667968736
-Sun Life Financial Inc 4.5 % Non Cum Pfd Registered Shs A Series 5,Financials,SLF-PR-E.TO,EQ,CA8667966003
-Sun Life Financial Inc Non-Cum Pfd Shs A Series -10R-,Financials,SLF-PR-H.TO,EQ,CA8667968652
-Sun Life Financial Inc. Non-Cum Pfd Shs A Series -11QR- Fltg Rt,Financials,SLF-PR-K.TO,EQ,CA8667968579
-Sun Life Financial Inc Non Cum Pfd Shs A Series -8R-,Financials,SLF-PR-G.TO,EQ,CA8667968819
-Sun Life Financial Inc 4.45 % Pfd Shs A Series 3,Financials,SLF-PR-C.TO,EQ,CA8667964024
-Sun Life Financial Inc 4.45 % Non Cum Pfd Registered Shs A Series 4,Financials,SLF-PR-D.TO,EQ,CA8667965013
+Great-West Lifeco Inc. 5.8 % Non-Cum 1st Pfd Shs Series M,Financials,GWO.PR.M.TO,EQ,CA39138C8170
+Great-West Lifeco Inc. Non-Cum 1st Pfd Shs Series N,Financials,GWO.PR.N.TO,EQ,CA39138C7917
+Great-West Lifeco Inc. 5.2 % Non Cum 1st Pfd Shs Series G,Financials,GWO.PR.G.TO,EQ,CA39138C8824
+Great-West Lifeco Inc. Non Cum 1st Pfd Registered Series S,Financials,GWO.PR.S.TO,EQ,CA39138C7347
+Great-West Lifeco Inc. 5.65 % Non Cum First Pfd Shs Series L,Financials,GWO.PR.L.TO,EQ,CA39138C8253
+Great-West Lifeco Inc. 4 1/2 % Non-Cum Red 1st Pfd Shs Series I,Financials,GWO.PR.I.TO,EQ,CA39138C8667
+Great-West Lifeco Inc. 5.70 % Non Cum 1Pfd Registered Shs Series Z,Financials,GWO.PR.Z.TO,EQ,CA39138C6844
+Great-West Lifeco Inc. Non-Cum Red 1st Pfd Shs Series R,Financials,GWO.PR.R.TO,EQ,CA39138C7594
+Great-West Lifeco Inc. 4.50 % Non-Cum Red 1st Pfd Registered Shs Series -Y-,Financials,GWO.PR.Y.TO,EQ,CA39138C6927
+Great-West Lifeco Inc. Non Cum 1st Pfd Registered Shs Series -Q-,Financials,GWO.PR.Q.TO,EQ,CA39138C7677
+Great-West Lifeco Inc. 4.85 % Non-Cum Pfd Shs Series H,Financials,GWO.PR.H.TO,EQ,CA39138C8741
+Great-West Lifeco Inc. Non-Cum Red 1st Pfd Registered Shs Series T,Financials,GWO.PR.T.TO,EQ,CA39138C7263
+Sun Life Financial Inc. Non-Cum Pfd Shs A Series -11QR- Fltg Rt,Financials,SLF.PR.K.TO,EQ,CA8667968579
+Sun Life Financial Inc Non-Cum Pfd Shs A Series -10R-,Financials,SLF.PR.H.TO,EQ,CA8667968652
+Sun Life Financial Inc 4.45 % Pfd Shs A Series 3,Financials,SLF.PR.C.TO,EQ,CA8667964024
 Sun Life Financial Inc.,Financials,SLF.TO,EQ,CA8667961053
-Power Corporation of Canada 5.65 % Non Cum Pfd Registered Shs Series I,Financials,POW-PR-I.TO,EQ,CA7392398383
+Sun Life Financial Inc 4.45 % Non Cum Pfd Registered Shs A Series 4,Financials,SLF.PR.D.TO,EQ,CA8667965013
+Sun Life Financial Inc Non Cum Pfd Shs A Series -9QR- Fltg Rt,Financials,SLF.PR.J.TO,EQ,CA8667968736
+Sun Life Financial Inc Non Cum Pfd Shs A Series -8R-,Financials,SLF.PR.G.TO,EQ,CA8667968819
+Sun Life Financial Inc 4.5 % Non Cum Pfd Registered Shs A Series 5,Financials,SLF.PR.E.TO,EQ,CA8667966003
+Power Corporation of Canada 5.6 % Non Cum Pfd Shs Series A,Financials,POW.PR.A.TO,EQ,CA7392398870
+Power Corporation of Canada 5 % Non Cum 1st Pfd Shs Series D,Financials,POW.PR.D.TO,EQ,CA7392398615
+Power Corporation of Canada 5.6 % Non Cum Pfd Shs Series G,Financials,POW.PR.G.TO,EQ,CA7392398532
+Power Corporation of Canada 5.75 % Non Cum Pfd Registered Shs Series H,Financials,POW.PR.H.TO,EQ,CA7392398466
+Power Corporation of Canada 5.65 % Non Cum Pfd Registered Shs Series I,Financials,POW.PR.I.TO,EQ,CA7392398383
+Power Corporation of Canada 5.35 % Non Cum Pfd Shs Series B,Financials,POW.PR.B.TO,EQ,CA7392398045
 Power Corporation of Canada,Financials,POW.TO,EQ,CA7392391016
-Power Corporation of Canada 5 % Non Cum 1st Pfd Shs Series D,Financials,POW-PR-D.TO,EQ,CA7392398615
-Power Corporation of Canada 5.75 % Non Cum Pfd Registered Shs Series H,Financials,POW-PR-H.TO,EQ,CA7392398466
-Power Corporation of Canada Part.Pfd Shs,Financials,POW-PR-E.TO,EQ,CA7392394085
-Power Corporation of Canada 5.8 % Non Cum Pfd Shs Series C,Financials,POW-PR-C.TO,EQ,CA7392398797
-Power Corporation of Canada 5.35 % Non Cum Pfd Shs Series B,Financials,POW-PR-B.TO,EQ,CA7392398045
-Power Corporation of Canada 5.6 % Non Cum Pfd Shs Series G,Financials,POW-PR-G.TO,EQ,CA7392398532
-Power Corporation of Canada 5.6 % Non Cum Pfd Shs Series A,Financials,POW-PR-A.TO,EQ,CA7392398870
+Power Corporation of Canada Part.Pfd Shs,Financials,POW.PR.E.TO,EQ,CA7392394085
+Power Corporation of Canada 5.8 % Non Cum Pfd Shs Series C,Financials,POW.PR.C.TO,EQ,CA7392398797
+Fairfax Financial Holdings Limited Cum Pfd Registered Shs Series K,Financials,FFH.PR.K.TO,EQ,CA3039018211
 Fairfax Financial Holdings Limited,Financials,FFH.TO,EQ,CA3039011026
-Fairfax Financial Holdings Limited Cum Pfd Registered Shs Series K,Financials,FFH-PR-K.TO,EQ,CA3039018211
-Fairfax Financial Holdings Limited,Financials,FFH-U.TO,EQ,CA3039011026
-Intact Financial Corporation 5.20% Non-Cum Red Pfd Registered Shs A Series 5,Financials,IFC-PR-E.TO,EQ,CA45823T8095
-Intact Financial Corporation Non-Cum Pfd Registered Shs Series 13,Financials,IFC-PR-M.TO,EQ,CA45823T7675
-Intact Financial Corporation Non Cum Pfd Registered Shs A Series 1,Financials,IFC-PR-A.TO,EQ,CA45823T3047
-Intact Financial Corporation 5.25% Non-Cum Red Pfd Registered Shs A Series -11- Reg S,Financials,IFC-PR-K.TO,EQ,CA45823T8178
-Intact Financial Corporation Non-Cum Pfd Shs A Series 3,Financials,IFC-PR-C.TO,EQ,CA45823T6016
+Intact Financial Corporation Non Cum Pfd Registered Shs A Series 1,Financials,IFC.PR.A.TO,EQ,CA45823T3047
+Intact Financial Corporation Non-Cum Pfd Shs A Series 3,Financials,IFC.PR.C.TO,EQ,CA45823T6016
+Intact Financial Corporation Non-Cum Conv Red Perp Pfd Registered Shs A Series 7 Reg S,Financials,IFC.PR.G.TO,EQ,CA45823T8749
 Intact Financial Corporation,Financials,IFC.TO,EQ,CA45823T1066
-Intact Financial Corporation 5.30 % Non-Cum Red Pfd Registered Shs A Series 6,Financials,IFC-PR-F.TO,EQ,CA45823T8822
-Intact Financial Corporation Non-Cum Conv Red Perp Pfd Registered Shs A Series 7 Reg S,Financials,IFC-PR-G.TO,EQ,CA45823T8749
-Intact Financial Corporation 5.4 % Non-Cum Red Pfd Registered Shs A Series 9 Reg S,Financials,IFC-PR-I.TO,EQ,CA45823T8582
-Brookfield Wealth Solutions Ltd. Class A,Financials,BNT.TO,EQ,BMG174341047
+Intact Financial Corporation 5.30 % Non-Cum Red Pfd Registered Shs A Series 6,Financials,IFC.PR.F.TO,EQ,CA45823T8822
+Intact Financial Corporation 5.4 % Non-Cum Red Pfd Registered Shs A Series 9 Reg S,Financials,IFC.PR.I.TO,EQ,CA45823T8582
+Intact Financial Corporation Non-Cum Pfd Registered Shs Series 13,Financials,IFC.PR.M.TO,EQ,CA45823T7675
+Intact Financial Corporation 5.25% Non-Cum Red Pfd Registered Shs A Series -11- Reg S,Financials,IFC.PR.K.TO,EQ,CA45823T8178
+Intact Financial Corporation 5.20% Non-Cum Red Pfd Registered Shs A Series 5,Financials,IFC.PR.E.TO,EQ,CA45823T8095
 IGM Financial Inc.,Financials,IGM.TO,EQ,CA4495861060
 iA Financial Corporation Inc.,Financials,IAG.TO,EQ,CA45075E1043
-TMX Group Ltd.,Financials,X.TO,EQ,CA87262K1057
-Choice Properties Real Estate Investment Trust,Financials,CHP-UN.TO,EQ,CA17039A1066
-Element Fleet Management Corporation,Financials,EFN.TO,EQ,CA2861812014
-Brookfield Business Corporation Class A,Financials,BBUC.TO,EQ,CA1130061007
-FirstService Corp,Financials,FSV.TO,EQ,CA33767E2024
-Definity Financial Corp.,Financials,DFY.TO,EQ,CA24477T1003
+TMX Group Limited,Financials,X.TO,EQ,CA87262K1057
+Choice Properties Real Estate Investment Trust,Financials,CHP.UN.TO,EQ,CA17039A1066
+Definity Financial Corporation,Financials,DFY.TO,EQ,CA24477T1003
 Onex Corporation,Financials,ONEX.TO,EQ,CA68272K1030
-Chartwell Retirement Residences,Financials,CSH-UN.TO,EQ,CA16141A1030
-Colliers International Group Inc.,Financials,CIGI.TO,EQ,CA1946931070
-RioCan Real Estate Investment Trust,Financials,REI-UN.TO,EQ,CA7669101031
-E-L Financial Corp Ltd 4.75 % Non Cum Red First Pfd Registered Shs Series 2,Financials,ELF-PR-G.TO,EQ,CA26857Q4088
-E-L Financial Corp Ltd 5 1/2 % Non-Cum Red First Pfd Shs Series 3,Financials,ELF-PR-H.TO,EQ,CA26857Q5077
+Chartwell Retirement Residences,Financials,CSH.UN.TO,EQ,CA16141A1030
+RioCan Real Estate Investment Trust,Financials,REI.UN.TO,EQ,CA7669101031
+SmartCentres Real Estate Investment Trust,Financials,SRU.UN.TO,EQ,CA83179X1087
+E-L Financial Corp Ltd 5 1/2 % Non-Cum Red First Pfd Shs Series 3,Financials,ELF.PR.H.TO,EQ,CA26857Q5077
 E-L Financial Corporation Limited,Financials,ELF.TO,EQ,CA2685751075
-E-L Financial Corp Ltd 5.3 % First Pfd Shs Series 1,Financials,ELF-PR-F.TO,EQ,CA26857Q3098
-Granite Real Estate Investment Trust,Financials,GRT-UN.TO,EQ,CA3874372053
-SmartCentres Real Estate Investment Trust,Financials,SRU-UN.TO,EQ,CA83179X1087
-Canadian Apartment Properties Real Estate Investment Trust,Financials,CAR-UN.TO,EQ,CA1349211054
-First Capital Real Estate Investment Trust,Financials,FCR-UN.TO,EQ,CA31890B1031
+E-L Financial Corp Ltd 4.75 % Non Cum Red First Pfd Registered Shs Series 2,Financials,ELF.PR.G.TO,EQ,CA26857Q4088
+E-L Financial Corp Ltd 5.3 % First Pfd Shs Series 1,Financials,ELF.PR.F.TO,EQ,CA26857Q3098
+Granite Real Estate Investment Trust,Financials,GRT.UN.TO,EQ,CA3874372053
+Canadian Apartment Properties Real Estate Investment Trust,Financials,CAR.UN.TO,EQ,CA1349211054
+First Capital Real Estate Investment Trust,Financials,FCR.UN.TO,EQ,CA31890B1031
+EQB Inc.,Financials,EQB.TO,EQ,CA26886R1047
+CT Real Estate Investment Trust,Financials,CRT.UN.TO,EQ,CA1264621006
 Sprott Inc.,Financials,SII.TO,EQ,CA8520662088
-EQB Inc,Financials,EQB.TO,EQ,CA26886R1047
-CT Real Estate Investment Trust,Financials,CRT-UN.TO,EQ,CA1264621006
-Dream Industrial Real Estate Investment Trust,Financials,DIR-UN.TO,EQ,CA26153W1095
-Boardwalk Real Estate Investment Trust,Financials,BEI-UN.TO,EQ,CA0966311064
-Crombie Real Estate Investment Trust,Financials,CRR-UN.TO,EQ,CA2271071094
-H&R Real Estate Investment Trust,Financials,HR-UN.TO,EQ,CA4039254079
-Primaris Real Estate Investment Trust,Financials,PMZ-UN.TO,EQ,CA74167K1093
-Killam Apartment REIT,Financials,KMP-UN.TO,EQ,CA49410M1023
+Dream Industrial Real Estate Investment Trust,Financials,DIR.UN.TO,EQ,CA26153W1095
+Boardwalk Real Estate Investment Trust,Financials,BEI.UN.TO,EQ,CA0966311064
+Crombie Real Estate Investment Trust,Financials,CRR.UN.TO,EQ,CA2271071094
+H&R Real Estate Investment Trust,Financials,HR.UN.TO,EQ,CA4039254079
+Primaris Real Estate Investment Trust,Financials,PMZ.UN.TO,EQ,CA74167K1093
+Killam Apartment REIT,Financials,KMP.UN.TO,EQ,CA49410M1023
 Trisura Group Ltd.,Financials,TSU.TO,EQ,CA89679A2092
+Cymbria Corporation Class A,Financials,CYB.TO,EQ,CA23257X1096
 Laurentian Bank of Canada,Financials,LB.TO,EQ,CA51925D1069
-Laurentian Bank of Canada Non Cum Pfd Class A Series 13,Financials,LB-PR-H.TO,EQ,CA51925D8254
-InterRent Real Estate Investment Trust,Financials,IIP-UN.TO,EQ,CA46071W2058
-Altus Group Limited,Financials,AIF.TO,EQ,CA02215R1073
+Laurentian Bank of Canada Non Cum Pfd Class A Series 13,Financials,LB.PR.H.TO,EQ,CA51925D8254
+InterRent Real Estate Investment Trust,Financials,IIP.UN.TO,EQ,CA46071W2058
 Mainstreet Equity Corp.,Financials,MEQ.TO,EQ,CA5609151009
-Canaccord Genuity Group Inc Cum Pfd Shs Series C,Financials,CF-PR-C.TO,EQ,CA1348016041
+Canaccord Genuity Group Inc Cum Pfd Shs Series C,Financials,CF.PR.C.TO,EQ,CA1348016041
 Canaccord Genuity Group Inc.,Financials,CF.TO,EQ,CA1348011091
-Canaccord Genuity Group Inc Cum Pfd Shs Series A,Financials,CF-PR-A.TO,EQ,CA1348013071
-Allied Properties Real Estate Investment Trust,Financials,AP-UN.TO,EQ,CA0194561027
-Vital Infrastructure Property Trust,Financials,VITL-UN.TO,EQ,CA92848P1071
+Canaccord Genuity Group Inc Cum Pfd Shs Series A,Financials,CF.PR.A.TO,EQ,CA1348013071
+Allied Properties Real Estate Investment Trust,Financials,AP.UN.TO,EQ,CA0194561027
+Vital Infrastructure Property Trust,Financials,VITL.UN.TO,EQ,CA92848P1071
 Morguard Corporation,Financials,MRC.TO,EQ,CA6175771014
+AGF Management Limited Class B,Financials,AGF.B.TO,EQ,CA0010921058
+RFA Financial Inc. Pfd Shares Series E,Financials,RFA.PR.E.TO,EQ,CA7619273005
 RFA Financial Inc.,Financials,RFA.TO,EQ,CA7619271025
-RFA Financial Inc. Pfd Shs Series I,Financials,RFA-PR-I.TO,EQ,CA7619272015
-RFA Financial Inc. Pfd Shares Series E,Financials,RFA-PR-E.TO,EQ,CA7619273005
-AGF Management Limited Class B,Financials,AGF-B.TO,EQ,CA0010921058
-Sagicor Financial Co. Ltd. Class A,Financials,SFC.TO,EQ,BM78669Q1007
-Alaris Equity Partners Income Trust Trust Units Reg S 3c7,Financials,AD-UN.TO,EQ,CAC010971017
-Slate Grocery REIT Class U,Financials,SGR-UN.TO,EQ,CA8310622037
-Slate Grocery REIT Class U,Financials,SGR-U.TO,EQ,CA8310622037
+RFA Financial Inc. Pfd Shs Series I,Financials,RFA.PR.I.TO,EQ,CA7619272015
+Alaris Equity Partners Income Trust Trust Units Reg S 3c7,Financials,AD.UN.TO,EQ,CAC010971017
+Slate Grocery REIT Class U,Financials,SGR.UN.TO,EQ,CA8310622037
 Clairvest Group Inc.,Financials,CVG.TO,EQ,CA17965L1004
+DRI Healthcare Trust,Financials,DHT.UN.TO,EQ,CA23344H1091
 MCAN Mortgage Corporation,Financials,MKP.TO,EQ,CA5791761086
 Senvest Capital Inc.,Financials,SEC.TO,EQ,CA81731L1094
 Metalla Royalty & Streaming Ltd.,Financials,MTA.V,EQ,CA59124U6051
-Morguard North American Residential Real Estate Investment Trust,Financials,MRG-UN.TO,EQ,CA61761E1007
 VersaBank,Financials,VBNK.TO,EQ,CA92512J1066
+Morguard North American Residential Real Estate Investment Trust,Financials,MRG.UN.TO,EQ,CA61761E1007
+Versamet Royalties Corp.,Financials,VMET.TO,EQ,CA92528V2003
 DREAM Unlimited Corp. Class A,Financials,DRM.TO,EQ,CA26153M5072
-Dominion Lending Centres Inc. (Canada) Class A,Financials,DLCG.TO,EQ,CA2574141024
-Flagship Communities Real Estate Investment Trust,Financials,MHC-UN.TO,EQ,CA33843T1084
-Flagship Communities Real Estate Investment Trust,Financials,MHC-U.TO,EQ,CA33843T1084
+Flagship Communities Real Estate Investment Trust,Financials,MHC.UN.TO,EQ,CA33843T1084
+Dominion Lending Centres  Inc. (Canada) Class A,Financials,DLCG.TO,EQ,CA2574141024
+BSR Real Estate Investment Trust,Financials,HOM.UN.TO,EQ,CA05585D1033
+Automotive Properties Real Estate Investment Trust,Financials,APR.UN.TO,EQ,CA05329M1041
 goeasy Ltd.,Financials,GSY.TO,EQ,CA3803551074
-Automotive Properties Real Estate Investment Trust,Financials,APR-UN.TO,EQ,CA05329M1041
-BSR Real Estate Investment Trust,Financials,HOM-UN.TO,EQ,CA05585D1033
-BSR Real Estate Investment Trust,Financials,HOM-U.TO,EQ,CA05585D1033
-Minto Apartment Real Estate Investment Trust,Financials,MI-UN.TO,EQ,CA60448E1034
+Minto Apartment Real Estate Investment Trust,Financials,MI.UN.TO,EQ,CA60448E1034
 Zedcor Inc,Financials,ZDC.V,EQ,CA98923V1094
 Wall Financial Corporation,Financials,WFC.TO,EQ,CA9319021007
+Nexus Industrial REIT,Financials,NXR.UN.TO,EQ,CA65344U1012
 Fiera Capital Corporation Class A,Financials,FSZ.TO,EQ,CA31660A1030
-Nexus Industrial REIT,Financials,NXR-UN.TO,EQ,CA65344U1012
 Atrium Mortgage Investment Corp.,Financials,AI.TO,EQ,CA04964G1000
 Melcor Developments Ltd.,Financials,MRD.TO,EQ,CA5854671032
 Timbercreek Financial Corp.,Financials,TF.TO,EQ,CA88709B1040
-Plaza Retail REIT,Financials,PLZ-UN.TO,EQ,CA72820F1036
+Plaza Retail REIT,Financials,PLZ.UN.TO,EQ,CA72820F1036
 Vox Royalty Corp,Financials,VOXR.TO,EQ,CA92919F1036
-Stack Capital Group Inc.,Financials,STCK.TO,EQ,CA85236X1042
-Morguard Real Estate Investment Trust,Financials,MRT-UN.TO,EQ,CA6179141065
+Morguard Real Estate Investment Trust,Financials,MRT.UN.TO,EQ,CA6179141065
 Firm Capital Mortgage Investment Corporation,Financials,FC.TO,EQ,CA3183231024
-PRO Real Estate Investment Trust,Financials,PRV-UN.TO,EQ,CA7426943006
-Real Matters Inc.,Financials,REAL.TO,EQ,CA75601Y1007
-Urbana Corporation Class A,Financials,URB-A.TO,EQ,CA91707P2089
+PRO Real Estate Investment Trust,Financials,PRV.UN.TO,EQ,CA7426943006
+Stack Capital Group  Inc.,Financials,STCK.TO,EQ,CA85236X1042
+Real Matters  Inc.,Financials,REAL.TO,EQ,CA75601Y1007
+Urbana Corporation Class A,Financials,URB.A.TO,EQ,CA91707P2089
 Urbana Corporation,Financials,URB.TO,EQ,CA91707P1099
-Dream Office Real Estate Investment Trust Class A,Financials,D-UN.TO,EQ,CA26153P2035
-Dundee Corporation Class A,Financials,DC-A.TO,EQ,CA2649011095
-BTB Real Estate Investment Trust,Financials,BTB-UN.TO,EQ,CA11777P3007
-Madison Pacific Properties Inc. Class C,Financials,MPC-C.TO,EQ,CA5579032007
+Dream Office Real Estate Investment Trust Class A,Financials,D.UN.TO,EQ,CA26153P2035
+BTB Real Estate Investment Trust,Financials,BTB.UN.TO,EQ,CA11777P3007
+Dundee Corporation Class A,Financials,DC.A.TO,EQ,CA2649011095
+Madison Pacific Properties Inc. Class C,Financials,MPC.C.TO,EQ,CA5579032007
 Madison Pacific Properties Inc. Class B,Financials,MPC.TO,EQ,CA5579031017
-Firm Capital Property Trust,Financials,FCD-UN.TO,EQ,CA3183261054
-Aimia Inc. Cum Pfd Shs Series 1,Financials,AIM-PR-A.TO,EQ,CA00900Q2027
-Aimia Inc. Cum Pfd Registered Shs Series 3,Financials,AIM-PR-C.TO,EQ,CA00900Q4007
-Aimia Inc.,Financials,AIM.TO,EQ,CA00900Q1037
-Aimia Inc. Floating Rate Cum Pfd Registered Shs Series 4,Financials,AIM-PR-D.TO,EQ,CA00900Q5095
+DeFi Technologies Inc,Financials,DEFI.NE,EQ,CA2449161025
+Firm Capital Property Trust,Financials,FCD.UN.TO,EQ,CA3183261054
 Olympia Financial Group Inc.,Financials,OLY.TO,EQ,CA6814721065
+Aimia Inc. Floating Rate Cum Pfd Registered Shs Series 4,Financials,AIM.PR.D.TO,EQ,CA00900Q5095
+Aimia Inc. Cum Pfd Registered Shs Series 3,Financials,AIM.PR.C.TO,EQ,CA00900Q4007
+Aimia Inc.,Financials,AIM.TO,EQ,CA00900Q1037
+Aimia Inc. Cum Pfd Shs Series 1,Financials,AIM.PR.A.TO,EQ,CA00900Q2027
 Palisades Goldcorp Ltd.,Financials,PALI.V,EQ,CA69639G1081
-GoldMoney Inc.,Financials,XAU.TO,EQ,VGG4001R1047
 CoTec Holdings Corp,Financials,CTH.V,EQ,CA22165A1021
 Halmont Properties Corporation Class A,Financials,HMT.V,EQ,CA40637F1036
-Western Investment Company of Canada Limited,Financials,WI.V,EQ,CA95846L1013
 Flint Corp,Financials,FLNT.TO,EQ,CA33944M4083
-Northfield Capital Corporation Class A,Financials,NFD-A.V,EQ,CA66611D1033
-Brookfield Investments Corp Pfd Shs 1 Series A,Financials,BRN-PR-A.V,EQ,CA1127412023
-Canadian Net Real Estate Investment Trust,Financials,NET-UN.V,EQ,CA13639A1093
-True North Commercial REIT,Financials,TNT-UN.TO,EQ,CA89784Y4076
-Real Estate Split Corp 5.25 % Cum Red Pfd Registered Shs 2021-31.12.25,Financials,RS-PR-A.TO,EQ,CA75602C2067
+Western Investment Company of Canada Limited,Financials,WI.V,EQ,CA95846L1013
+Juno International Corporation Class A,Financials,JUN.A.V,EQ,CA4820451017
+Canadian Net Real Estate Investment Trust,Financials,NET.UN.V,EQ,CA13639A1093
+Brookfield Investments Corp Pfd Shs 1 Series A,Financials,BRN.PR.A.V,EQ,CA1127412023
+Evolve Royalties Ltd.,Financials,EVR.NE,EQ,CA2999441082
+Bridgemarq Real Estate Services  Inc.,Financials,BRE.TO,EQ,CA10808B1085
+True North Commercial REIT,Financials,TNT.UN.TO,EQ,CA89784Y4076
 Real Estate Split Corp Class A,Financials,RS.TO,EQ,CA75602C1077
+Real Estate Split Corp 5.25 % Cum Red Pfd Registered Shs 2021-31.12.25,Financials,RS.PR.A.TO,EQ,CA75602C2067
 Invesque Inc,Financials,IVQ.TO,EQ,CA46136U1030
-Invesque Inc,Financials,IVQ-U.TO,EQ,CA46136U1030
-Enterprise Group Inc.,Financials,E.TO,EQ,CA29373A3038
 Empress Royalty Corp,Financials,EMPR.V,EQ,CA2924541055
-Astra Exploration Inc,Financials,ASTR.V,EQ,CA04633F1036
+Enterprise Group  Inc.,Financials,E.TO,EQ,CA29373A3038
+Infrastructure Dividend Split Corp Cum Red Pfd Registered Shs,Financials,IS.PR.A.TO,EQ,CA45686H2072
+Infrastructure Dividend Split Corp Class A,Financials,IS.TO,EQ,CA45686H1082
 Pharmacorp Rx Inc.,Financials,PCRX.V,EQ,CA71714X1050
 Pinetree Capital Ltd.,Financials,PNP.TO,EQ,CA7233308583
+Astra Exploration Inc,Financials,ASTR.V,EQ,CA04633F1036
+Sol Strategies Inc.,Financials,HODL.NE,EQ,CA83411A2056
 Realbotix Corp,Financials,XBOT.V,EQ,CA75604K1075
-Northview Residential REIT,Financials,NRR-UN.TO,EQ,CA66719E1025
-Aluula Composites Inc,Financials,AUUA.V,EQ,CA0223173091
-Grey Wolf Animal Health Corp,Financials,WOLF.V,EQ,CA3978851044
-Legacy Gold Mines Ltd,Financials,LEGY.V,EQ,CA52474Q1000
-Miniluxe Holding Corp.,Financials,MNLX.V,EQ,CA60365X1006
-Urbanfund Corp.,Financials,UFC.V,EQ,CA9169101024
+Northview Residential REIT,Financials,NRR.UN.TO,EQ,CA66719E1025
 Power & Infrastructure Split Corp. Class A,Financials,PWI.TO,EQ,CA7389271023
-Power & Infrastructure Split Corp. 5.0 % Cum Red Pfd Registered Shs 2021-29.05.26 Reg S,Financials,PWI-PR-A.TO,EQ,CA7389272013
-Fredonia Mining Inc.,Financials,FRED.V,EQ,CA3560634048
+Power & Infrastructure Split Corp. 5.0 % Cum Red Pfd Registered Shs 2021-29.05.26 Reg S,Financials,PWI.PR.A.TO,EQ,CA7389272013
+Grey Wolf Animal Health Corp,Financials,WOLF.V,EQ,CA3978851044
+Aluula Composites Inc,Financials,AUUA.V,EQ,CA0223173091
+Miniluxe Holding Corp.,Financials,MNLX.V,EQ,CA60365X1006
+Viscount Mining Corp.,Financials,VML.V,EQ,CA92834X1069
+Urbanfund Corp.,Financials,UFC.V,EQ,CA9169101024
+American Hotel Income Properties REIT LP,Financials,HOT.UN.TO,EQ,CA0266951064
 Imperial Equities Inc.,Financials,IEI.V,EQ,CA4527371096
-Edge Total Intelligence Inc,Financials,CTRL.V,EQ,CA2798741013
-American Hotel Income Properties REIT LP,Financials,HOT-UN.TO,EQ,CA0266951064
-American Hotel Income Properties REIT LP,Financials,HOT-U.TO,EQ,CA0266951064
-FUTR Corporation,Financials,FTRC.V,EQ,CA3609521057
-Saltire Capital Ltd. Class A,Financials,SLT.TO,EQ,CA7959271023
-Saltire Capital Ltd. Class A,Financials,SLT-U.TO,EQ,CA7959271023
-Firm Capital Apartment Real Estate Investment Trust Trust Units,Financials,FCA-UN.V,EQ,CA31833L1013
-Firm Capital Apartment Real Estate Investment Trust Trust Units,Financials,FCA-U.V,EQ,CA31833L1013
 Neupath Health Inc.,Financials,NPTH.V,EQ,CA64133P1009
+Fredonia Mining  Inc.,Financials,FRED.V,EQ,CA3560634048
+Edge Total Intelligence Inc,Financials,CTRL.V,EQ,CA2798741013
+FUTR Corporation,Financials,FTRC.V,EQ,CA3609521057
+Wilmington Capital Management Inc. Class A,Financials,WCM.A.TO,EQ,CA9715581018
+Wilmington Capital Management Inc. Class B,Financials,WCM.B.TO,EQ,CA9715583097
+Firm Capital Apartment Real Estate Investment Trust Trust Units,Financials,FCA.UN.V,EQ,CA31833L1013
 Builders Capital Mortgage Corp. Class A,Financials,BCF.V,EQ,CA12008G1019
 Thiogenesis Therapeutics Corp,Financials,TTI.V,EQ,CA88410L1022
+Dream Impact Trust,Financials,MPCT.UN.TO,EQ,CA26154L1287
 Orion Digital Corp.,Financials,ORIO.TO,EQ,CA68627G1046
-Moon River Moly Ltd.,Financials,MOO.V,EQ,CA6154521091
-Canadian Large Cap Leaders Split Corp. Pfd Registered Shs,Financials,NPS-PR-A.TO,EQ,CA13625G2018
+Saltire Capital Ltd. Class A,Financials,SLT.TO,EQ,CA7959271023
 Canadian Large Cap Leaders Split Corp. Class A,Financials,NPS.TO,EQ,CA13625G1028
+Canadian Large Cap Leaders Split Corp. Pfd Registered Shs,Financials,NPS.PR.A.TO,EQ,CA13625G2018
+Canso Select Opportunities Corp. Class A,Financials,CSOC.A.V,EQ,CA13809N1050
+Canso Select Opportunities Corp. Class B,Financials,CSOC.B.V,EQ,CA13809N2041
+Big Banc Split Corp. 8.4 % Cum Red Pfd Registered Shs 2020-30.11.23,Financials,BNK.PR.A.TO,EQ,CA0888932013
+Big Banc Split Corp. Class A,Financials,BNK.TO,EQ,CA0888931023
+Illumisoft Lighting Corp.,Financials,UVC.V,EQ,CA4523361000
 Comet Industries Ltd.,Financials,CMU.V,EQ,CA2003481009
 Kobo Resources Inc.,Financials,KRI.V,EQ,CA49990B1040
-Inovalis REIT,Financials,INO-UN.TO,EQ,CA45780E1007
-Automotive Finco Corp,Financials,AFCC-H.V,EQ,CA05329N1024
+Moon River Moly Ltd.,Financials,MOO.V,EQ,CA6154521091
+Automotive Finco Corp,Financials,AFCC.H.V,EQ,CA05329N1024
+Inovalis REIT,Financials,INO.UN.TO,EQ,CA45780E1007
 Churchill Resources Inc,Financials,CRI.V,EQ,CA1715521029
-Illumisoft Lighting Corp.,Financials,UVC.V,EQ,CA4523361000
-Solution Financial Inc.,Financials,SFI.TO,EQ,CA83439G2009
-Marwest Apartment REIT,Financials,MAR-UN.V,EQ,CA57386R1047
 MiMedia Holdings Inc,Financials,MIM.V,EQ,CA60250B1067
-Coyote Copper Mines Inc.,Financials,CCMM.V,EQ,CA22406U1075
+Marwest Apartment REIT,Financials,MAR.UN.V,EQ,CA57386R1047
+Kadestone Capital Corp.,Financials,KDSX.V,EQ,CA4828461026
+Solution Financial Inc.,Financials,SFI.TO,EQ,CA83439G2009
+Safi Silver Corp.,Financials,SF.V,EQ,CA78657T1084
+Flow Capital Corp.,Financials,FW.CN,EQ,CA3434492037
 Miivo Holdings Corp.,Financials,MIVO.V,EQ,CA55318L1040
-Yorkton Equity Group Inc,Financials,YEG.V,EQ,CA98721W1014
+Principal Technologies  Inc.,Financials,PTEC.V,EQ,CA74260Q1028
+Coyote Copper Mines Inc.,Financials,CCMM.V,EQ,CA22406U1075
 Elysee Development Corp,Financials,ELC.V,EQ,CA2907371058
-Arya Resources Ltd,Financials,RBZ.V,EQ,CA0429401064
-RE Royalties Ltd.,Financials,RE.V,EQ,CA75527Q1081
+Yorkton Equity Group Inc,Financials,YEG.V,EQ,CA98721W1014
+GoGo AI Network Inc.,Financials,GOGO.CN,EQ,CA3799631013
 Hampton Financial Corp.,Financials,HFC.V,EQ,CA40915Q1028
-Largo Physical Vanadium Corp.,Financials,VAND.V,EQ,CA51710H2054
+Arya Resources Ltd,Financials,RBZ.V,EQ,CA0429401064
 Hydaway Digital Corp.,Financials,HIDE.V,EQ,CA44864F1099
-Great Plains Metals Corp.,Financials,GPS.V,EQ,CA3911731014
+RE Royalties Ltd.,Financials,RE.V,EQ,CA75527Q1081
+Cupani Metals Corp.,Financials,CUPA.NE,EQ,CA2311951081
 Bitcoin Well Inc,Financials,BTCW.V,EQ,CA09173W1014
+Great Plains Metals Corp.,Financials,GPS.V,EQ,CA3911731014
+Largo Physical Vanadium Corp.,Financials,VAND.V,EQ,CA51710H2054
+Humanoid Global Holdings Corp.,Financials,ROBO.NE,EQ,CA44486R1010
+Red White & Bloom Brands  Inc.,Financials,RWB.CN,EQ,CA75704R1010
 Parvis Invest Inc,Financials,PVIS.V,EQ,CA7021681050
-Findev Inc.,Financials,FDI.V,EQ,CA31773A1075
 Gulf & Pacific Equities Corp.,Financials,GUF.V,EQ,CA4019151030
+Findev Inc.,Financials,FDI.V,EQ,CA31773A1075
 IC Group Holdings Inc.,Financials,ICGH.V,EQ,CA4492741091
-Lions Bay Capital Inc.,Financials,LBI.V,EQ,CA5362632054
+Captiva Verde Wellness Corp,Financials,PWR.CN,EQ,CA14076P1045
+ThreeD Capital Inc.,Financials,IDK.NE,EQ,CA88581L3039
+Lions Bay Capital  Inc.,Financials,LBI.V,EQ,CA5362632054
+Clydesdale Resources Inc.,Financials,CEO.H.V,EQ,CA18972D1078
+FutureGen Industries Corp.,Financials,LITT.V,EQ,CA36118G1072
 Galactic Gold Corp.,Financials,GGAU.V,EQ,CA36315L1076
 Spackman Equities Group Inc.,Financials,SQG.V,EQ,CA8463113065
-PEZM Gold Inc,Financials,PEZM-H.V,EQ,CA71705M1005
-Casa Minerals Inc.,Financials,CASA.V,EQ,CA14712X1078
+Altrova Health Inc.,Financials,ROVA.NE,EQ,CA0220931087
+Casa Minerals  Inc.,Financials,CASA.V,EQ,CA14712X1078
+Strategem Capital Corporation Class A,Financials,SGE.V,EQ,CA86269P3079
+Prime Dividend Corp A 2018-01.12.23,Financials,PDV.TO,EQ,CA74161F4033
+Prime Dividend Corp Cum Pfd Shs A 2005-1.12.18,Financials,PDV.PR.A.TO,EQ,CA74161F2052
 AI Artificial Intelligence Ventures Inc.,Financials,AIVC.V,EQ,CA00135V1094
+PEZM Gold Inc,Financials,PEZM.H.V,EQ,CA71705M1005
 Zimtu Capital Corp.,Financials,ZC.V,EQ,CA9895895022
-DelphX Capital Markets Inc.,Financials,DELX.V,EQ,CA24721L1013
-Maple Peak Investments Inc.,Financials,MAP.V,EQ,CA56531K1057
-Hispania Resources Inc,Financials,ESPN.V,EQ,CA43359H1091
-THS Maple Holdings Ltd,Financials,YAY.V,EQ,CA87252F1080
 Coloured Ties Capital Inc,Financials,TIE.V,EQ,CA19682H1073
-ReeXploration Inc.,Financials,REE.V,EQ,CA75865L1094
-Accord Financial Corp.,Financials,ACD.TO,EQ,CA00435L1085
-Stardust Solar Energy Inc.,Financials,SUN.V,EQ,CA8552811017
-49 North Resources Inc,Financials,FNR.V,EQ,CA34978T1030
-Minco Capital Corporation,Financials,MMM.V,EQ,CA6025321036
-Sherpa II Holdings Corp.,Financials,SHRP.V,EQ,CA82420H1029
-Future Mineral Resources Inc.,Financials,FMR.TO,EQ,CA3611551043
-Aberdeen International Inc.,Financials,AAB.TO,EQ,CA0030691012
+Quinsam Capital Corp.,Financials,QCA.CN,EQ,CA7487472010
+Armada Mercantile Ltd.,Financials,ARM.CN,EQ,CA0419041037
+Maple Peak Investments Inc.,Financials,MAP.V,EQ,CA56531K1057
+THS Maple Holdings Ltd,Financials,YAY.V,EQ,CA87252F1080
+DelphX Capital Markets  Inc.,Financials,DELX.V,EQ,CA24721L1013
+Hispania Resources Inc,Financials,ESPN.V,EQ,CA43359H1091
+Luxxfolio Holdings Inc,Financials,LUXX.CN,EQ,CA55069Q3026
+Blockmate Ventures Inc,Financials,MATE.V,EQ,CA09370U1066
+Argentum Silver Corp.,Financials,ASL.V,EQ,CA04014D2068
+Inomin Mines Inc,Financials,MINE.V,EQ,CA45782J1075
+Biomind Labs Inc,Financials,BMND.NE,EQ,CA0907021012
+Oregen Energy Corp.,Financials,ORNG.CN,EQ,CA6857681036
+US Critical Metals Corp.,Financials,USCM.NE,EQ,CA90366H4089
 ZEB Nickel Corp,Financials,ZBNI.V,EQ,CA98920G1054
+Minco Capital Corporation,Financials,MMM.V,EQ,CA6025321036
+Immutable Holdings  Inc.,Financials,HOLD.NE,EQ,CA45258G1081
+Accord Financial Corp.,Financials,ACD.TO,EQ,CA00435L1085
+ReeXploration Inc.,Financials,REE.V,EQ,CA75865L1094
+Stardust Solar Energy Inc.,Financials,SUN.V,EQ,CA8552811017
+Braille Energy Systems  Inc.,Financials,BES.V,EQ,CA10489B1040
+Avrupa Minerals Ltd.,Financials,AVU.V,EQ,CA05453A2074
+49 North Resources Inc,Financials,FNR.V,EQ,CA34978T1030
+Belgravia Hartford Capital Inc.,Financials,BLGV.NE,EQ,CA07785T2011
+Aberdeen International Inc.,Financials,AAB.TO,EQ,CA0030691012
+Tier One Capital LP,Financials,TLP.UN.CN,EQ,CA88650W1077
+Future Mineral Resources Inc.,Financials,FMR.TO,EQ,CA3611551043
+Origen Resources Inc,Financials,ORGN.CN,EQ,CA68622Y1007
 NeuroThera Labs Inc.,Financials,NTLX.V,EQ,CA64136J1012
-Western Pacific Trust Company,Financials,WP.V,EQ,CA9591431080
-Mink Ventures Corp.,Financials,MINK.V,EQ,CA6037051043
-Crown Capital Partners Inc.,Financials,CRWN.TO,EQ,CA22821L1040
-Fountain Asset Corp.,Financials,FA.V,EQ,CA35063X1078
-Elixxer Ltd.,Financials,ELXR-H.V,EQ,CA28660W2004
-Matador Technologies Inc.,Financials,MATA.V,EQ,CA5764871029
-Eshbal Functional Food Inc.,Financials,ESBL.V,EQ,CA2959181066
-Ranchero Gold Corp,Financials,RNCH.V,EQ,CA75189P1099
 A.C.L. Construction Ltd,Financials,ACL.V,EQ,CA00092W1086
-J2 Metals Incorporation,Financials,JTWO.V,EQ,CA4809311042
+Mink Ventures Corp.,Financials,MINK.V,EQ,CA6037051043
+Fountain Asset Corp.,Financials,FA.V,EQ,CA35063X1078
+Golden Ridge Resources Ltd.,Financials,GLDN.V,EQ,CA38116T2065
+Matador Technologies Inc.,Financials,MATA.V,EQ,CA5764871029
+Elixxer Ltd.,Financials,ELXR.H.V,EQ,CA28660W2004
+Western Pacific Trust Company,Financials,WP.V,EQ,CA9591431080
+R&R Real Estate Investment Trust,Financials,RRR.UN.V,EQ,CA74979N1015
+Mackenzie Master Limited Partnership,Financials,MKZ.UN.TO,EQ,CA5549051095
+Crown Capital Partners  Inc.,Financials,CRWN.TO,EQ,CA22821L1040
+FRNT Financial  Inc.,Financials,FRNT.V,EQ,CA30322H1001
+Ranchero Gold Corp,Financials,RNCH.V,EQ,CA75189P1099
+Pool Safe  Inc.,Financials,POOL.V,EQ,CA73278C2040
 Rakovina Therapeutics Inc,Financials,RKV.V,EQ,CA75103L3092
-FRNT Financial Inc.,Financials,FRNT.V,EQ,CA30322H1001
+Cruz Battery Metals Corp,Financials,CRUZ.NE,EQ,CA22888A2074
+J2 Metals Incorporation,Financials,JTWO.V,EQ,CA4809311042
+Apogee Minerals Ltd,Financials,APMI.V,EQ,CA03768V1076
+Eshbal Functional Food Inc.,Financials,ESBL.V,EQ,CA2959181066
 J4 Ventures Resources Corp.,Financials,JJJJ.V,EQ,CA46660E1034
 Centaurus Energy Inc.,Financials,CTA.V,EQ,CA15138B3065
-Apogee Minerals Ltd,Financials,APMI.V,EQ,CA03768V1076
-Urban Infrastructure Group Inc.,Financials,UIG.V,EQ,CA9170311067
+Ciscom Corp.,Financials,CISC.CN,EQ,CA17282B1085
 Auric Resources Corp,Financials,RES.V,EQ,CA05155H1047
 Forward Water Technologies Corp,Financials,FWTC.V,EQ,CA34988A2011
+Urban Infrastructure Group Inc.,Financials,UIG.V,EQ,CA9170311067
+Data Watts Partners Inc.,Financials,DWTZ.CN,EQ,CA2379441033
+Tempus Capital  Inc.,Financials,TEMP.CN,EQ,CA88024G1019
 SuperBuzz Inc,Financials,SPZ.V,EQ,CA8680412035
-Mapath Capital Corp,Financials,MPTH-H.V,EQ,CA56509K1030
+Mapath Capital Corp,Financials,MPTH.H.V,EQ,CA56509K1030
+Twyford Ventures  Inc.,Financials,TWY.H.V,EQ,CA90212Y1007
+Regent Pacific Properties Inc.,Financials,RPP.V,EQ,CA75900R1038
 TINONE RESOURCES INC,Financials,TORC.V,EQ,CA8875892082
-Pine Trail Real Estate Investment Trust Class A,Financials,PINE-UN.V,EQ,CA72288P1062
-Aurum Lake Mining Corporation,Financials,ARL.V,EQ,KYG0700S1049
+Greencastle Resources Ltd.,Financials,VGN.V,EQ,CA3941631093
 BEACN Wizardry & Magic Inc,Financials,BECN.V,EQ,CA07355C1095
-Mongolia Growth Group Ltd.,Financials,YAK-H.V,EQ,CA60936L2057
+Alaska Hydro Corp.,Financials,AKH.H.V,EQ,CA01170T1084
 Reeflex Solutions Inc.,Financials,RFX.V,EQ,CA75846K1057
-Zidane Capital Corp.,Financials,ZZE-H.V,EQ,CA98953U2039
+Digital Asset Technologies Inc.,Financials,DATT.CN,EQ,CA25401P1062
+Zidane Capital Corp.,Financials,ZZE.H.V,EQ,CA98953U2039
+Lanebury Growth Capital Ltd.,Financials,LLL.CN,EQ,CA5155041083
+Mongolia Growth Group Ltd.,Financials,YAK.H.V,EQ,CA60936L2057
+Cloud3 Ventures Inc.,Financials,CLDV.CN,EQ,CA18914M2076
+Buzz Capital Inc,Financials,BUZ.P.V,EQ,CA12429L1013
+Spacefy  Inc.,Financials,SPFY.CN,EQ,CA84624Q1028
+Plank Ventures Ltd.,Financials,PLNK.CN,EQ,CA72706P2098
 Avaron Mining Corp,Financials,AVR.V,EQ,CA05352J1012
+ECC Ventures 4 Corp.,Financials,ECCF.P.V,EQ,CA2682751045
+Credissential Inc.,Financials,WHIP.CN,EQ,CA22535J3047
 Impact Development Group Inc,Financials,IMPT.V,EQ,CA45259H1055
-Wangton Capital Corp.,Financials,WT-H.V,EQ,CA93390B4055
-Cinaport Acquisition Corp. III,Financials,CAC-P.V,EQ,CA17185C1041
-China Goldcorp. Ltd.,Financials,CAU-H.V,EQ,CA16938J1012
-Valencia Capital Inc,Financials,VAL-P.V,EQ,CA91912W1059
-Whatcom Capital II Corp.,Financials,WAT-P.V,EQ,CA96246G1063
-Jesmond Capital Ltd.,Financials,JES-P.V,EQ,CA4768701001
-High Mountain 2 Capital Corp.,Financials,HMCC-P.V,EQ,CA42970W1077
+Wangton Capital Corp.,Financials,WT.H.V,EQ,CA93390B4055
+Jesmond Capital Ltd.,Financials,JES.P.V,EQ,CA4768701001
+Cinaport Acquisition Corp. III,Financials,CAC.P.V,EQ,CA17185C1041
+China Goldcorp. Ltd.,Financials,CAU.H.V,EQ,CA16938J1012
+Valencia Capital Inc,Financials,VAL.P.V,EQ,CA91912W1059
+Whatcom Capital II Corp.,Financials,WAT.P.V,EQ,CA96246G1063
+High Mountain 2 Capital Corp.,Financials,HMCC.P.V,EQ,CA42970W1077
 Western Metallica Resources Corp.,Financials,WMS.V,EQ,CA95861P2017
-Ord Mountain Resources Corp,Financials,OMR-H.V,EQ,CA6857432059
-Alterego Ventures 24 Corp,Financials,ALTR-P.V,EQ,CA02157H1091
-A-Labs Capital II Corp.,Financials,ALAB-P.V,EQ,CA00167A1066
-Transcontinental Gold Corp.,Financials,TCG-P.V,EQ,CA89357P1062
-Smartset Services Inc.,Financials,SMAR-P.V,EQ,CA83191T1012
-Collingwood Resources Corp.,Financials,COLL-P.V,EQ,CA1947972057
-Beretta Ventures Ltd.,Financials,BRTA-H.V,EQ,CA08374J1093
-Auston Capital Corp.,Financials,ASTN-P.V,EQ,CA0525041079
-Little Fish Acquisition I Corp,Financials,LILL-P.V,EQ,CA5372261027
-Castlecap Capital Inc.,Financials,CSTL-P.V,EQ,CA14843W1014
-Sayward Capital Corp.,Financials,SAWC-P.V,EQ,CA8058411031
-Antera Ventures II Corp.,Financials,AVII-P.V,EQ,CA03675K1030
-Sparrowhawk Opportunity Corp.,Financials,SHK-P.V,EQ,CA8469181009
-AE Fuels Corporation,Financials,AEF.V,EQ,CA0010241085
-Verdera Energy Corp.,Financials,V.V,EQ,CA92339J1075
-Brookfield Office Properties Inc. Cum Pref Shs AAA Series AA,Financials,BPO-PR-A.TO,EQ,CA1129006831
-Brookfield Property Preferred LP 6.25 % Cum Red Perp Pfd Units A Series 1,Financials,BPYP-PR-A.TO,EQ,BMG1624R1079
-Power Financial Corp Non-Cum 1st Pfd Shs Series P,Financials,PWF-PR-P.TO,EQ,CA73927C7796
-Power Financial Corp Cum First Pfd Shs Series A Fltg Rt,Financials,PWF-PR-A.TO,EQ,CA73927C2094
-Mayfair Acquisition Corp.,Financials,MFA-P.V,EQ,CA57807J1030
-Fairfax India Holdings Corp,Financials,FIH-U.TO,EQ,CA3038971022
-Dominus Acquisitions Corp.,Financials,DAQ-P.V,EQ,CA25756D1042
-Shellron Capital Ltd.,Financials,SHLL-P.V,EQ,CA82281V1094
-Margaux Real Estate Investment Trust,Financials,ALFA-UN.V,EQ,CA56660A2092
-Brookfield Property Split Corp Pfd Shs Series 3,Financials,BPS-PR-B.TO,EQ,CA1128274075
-Essex Resources Corp.,Financials,ESXR.V,EQ,CA2971901004
-Adagio 2 Capital Inc.,Financials,ADAD-P.V,EQ,CA00534V1067
-V Ten Metals Corp.,Financials,VTEN.V,EQ,CA91839J1049
-Brookfield Office Properties Inc. Pref AAA Series R,Financials,BPO-PR-R.TO,EQ,CA1129007821
-Icarus Capital Corp.,Financials,ICRS.V,EQ,CA4510621036
-Brookfield Property Split Corp Pfd Shs Series 2,Financials,BPS-PR-A.TO,EQ,CA1128273085
-Faction Investment Group Corp.,Financials,FINV-P.V,EQ,CA3030441016
-Thermopylae Capital Inc.,Financials,THY-P.V,EQ,CA8836541059
-North Shore Uranium Ltd,Financials,NSU.V,EQ,CA66240L1040
-Partners Value Investments L.P. Registered Non-Voting,Financials,PVF-UN.V,EQ,BMG6936M1001
-Power Financial Corporation 4.50 % Non-Cum Red 1st Pfd Registered Shs Series -23-,Financials,PWF-PF-A.TO,EQ,CA73927C1187
-Planet X Capital Corp,Financials,XOX-P.V,EQ,CA72706J1049
-Matchpoint Ventures Corp.,Financials,MPV-P.V,EQ,CA57666X1024
-Power Financial Corp 5.9 % Non Cum 1st Pfd Shs Series F,Financials,PWF-PR-G.TO,EQ,CA73927C8786
-Power Financial Corp Non-Cum Red Pfd Shs Series S,Financials,PWF-PR-S.TO,EQ,CA73927C7465
-Brookfield Office Properties Inc. Pfd AAA Series N,Financials,BPO-PR-N.TO,EQ,CA1129008324
-Power Financial Corp 5 1/2 % Non Cum 1st Pfd Shs Series R,Financials,PWF-PR-R.TO,EQ,CA73927C7531
+Ord Mountain Resources Corp,Financials,OMR.H.V,EQ,CA6857432059
+Alterego Ventures 24 Corp,Financials,ALTR.P.V,EQ,CA02157H1091
+Transcontinental Gold Corp.,Financials,TCG.P.V,EQ,CA89357P1062
+Collingwood Resources Corp.,Financials,COLL.P.V,EQ,CA1947972057
+Blackhawk Growth Corp.,Financials,BLR.X.CN,EQ,CA09237D2068
+Beretta Ventures Ltd.,Financials,BRTA.H.V,EQ,CA08374J1093
+Auston Capital Corp.,Financials,ASTN.P.V,EQ,CA0525041079
+Antera Ventures II Corp.,Financials,AVII.P.V,EQ,CA03675K1030
+Castlecap Capital  Inc.,Financials,CSTL.P.V,EQ,CA14843W1014
+Sparrowhawk Opportunity Corp.,Financials,SHK.P.V,EQ,CA8469181009
+Planet X II Capital Corp.,Financials,PLXX.P.V,EQ,CA72706M1077
+Power Financial Corp 5 1/2 % Non Cum 1st Pfd Shs Series R,Financials,PWF.PR.R.TO,EQ,CA73927C7531
+Planet X Capital Corp,Financials,XOX.P.V,EQ,CA72706J1049
+Matchpoint Ventures Corp.,Financials,MPV.P.V,EQ,CA57666X1024
+Power Financial Corp 4.2 % Non Cum Pfd Series T,Financials,PWF.PR.T.TO,EQ,CA73927C7382
+JVR Ventures  Inc.,Financials,JVR.P.V,EQ,CA46654Y1079
+Brookfield Renewable Power Preferred Equity Inc Cum Pref A Series 6,Financials,BRF.PR.F.TO,EQ,CA11283Q7012
+Bitcoin Fund Trust Units A,Financials,QBTC.TO,EQ,CA09175G1046
 Dr. Phone Fix Canada Corporation,Financials,DPF.V,EQ,CA26138G1046
+Dividend Select 15 Corp. Equity Shs,Financials,DS.TO,EQ,CA2553801077
+Canadian Banc Corp Pfd Shs 2005-1.12.18 Fltg Rt,Financials,BK.PR.A.TO,EQ,CA13536V2066
+Brookfield Renewable Power Preferred Equity Inc Cum Red Pref Registered Shs A Series 5,Financials,BRF.PR.E.TO,EQ,CA11283Q6022
+Brompton Lifeco Split Corp 7 % Pfd Shs A 2007-29.4.29,Financials,LCS.PR.A.TO,EQ,CA1122162052
+Hoshi Resource Corp.,Financials,HRC.P.V,EQ,CA4410151043
+Sprott Physical Platinum and Palladium Trust Trust Units,Financials,SPPP.TO,EQ,CA85207Q1046
 Pecoy Copper Corp.,Financials,PCU.V,EQ,CA70529A1021
-Brookfield Office Properties Inc. Cum Red Pref Registered Shs -AAA- Series -GG-,Financials,BPO-PR-G.TO,EQ,CA1129006260
-Brookfield Office Properties Inc. Cum Pfd AAA Series T,Financials,BPO-PR-T.TO,EQ,CA1129007664
-Seegnal Inc.,Financials,SEGN.V,EQ,CA81573E1060
-Brookfield Office Properties Inc. Pref AAA Series V,Financials,BPO-PR-X.TO,EQ,CA1129007417
-Brookfield Office Properties Inc. Cum Pfd Registered Shs -AAA- Series P,Financials,BPO-PR-P.TO,EQ,CA1129008167
-Atlantic Horizon Capital Corp.,Financials,ATLH-P.V,EQ,CA0485891059
-Aster Acquisition Corp.,Financials,ATR-P.V,EQ,CA0459381079
-SalesCloser Technologies Ltd.,Financials,SCAI.V,EQ,CA79467H1029
-Power Financial Corp 5 3/4 % Non Cum Pfd Shs Series H,Financials,PWF-PR-H.TO,EQ,CA73927C8604
-Power Financial Corp 5.1 % Non Cum 1st Pfd Shs Series L,Financials,PWF-PR-L.TO,EQ,CA73927C8299
-Rockmount Capital Corp.,Financials,RSC-P.V,EQ,CA7737931047
-Power Financial Corp 5 1/4 % Non Cum Pfd Shs Series E,Financials,PWF-PR-F.TO,EQ,CA73927C8869
-Brookfield Property Split Corp Pfd Shs Series 4,Financials,BPS-PR-C.TO,EQ,CA1128275064
-GO Residential Real Estate Investment Trust,Financials,GO-U.TO,EQ,CA36272H1073
-Helios Fairfax Partners Corp.,Financials,HFPC-U.TO,EQ,CA42328X1042
-KP3993 Resources Inc,Financials,KPEN-P.V,EQ,CA4826551075
-Brookfield Office Properties Inc. Cum Red Pref Shs -AAA- Series -CC-,Financials,BPO-PR-C.TO,EQ,CA1129006674
-Mandala Capital Inc,Financials,MAN-P.V,EQ,CA56256W1023
-Fountainhall Capital Corp.,Financials,FUN-P.V,EQ,CA35084J1030
-Brookfield Office Properties Inc. Cum Conv Red Perp Pref Registered AAA Series II,Financials,BPO-PR-I.TO,EQ,CA1129005924
-Fort Technology Inc.,Financials,FORT.V,EQ,CA3490243076
-Centenario Gold Corp.,Financials,CTG.V,EQ,CA15139A2083
-Monarch West Ventures Inc.,Financials,MONA-P.V,EQ,CA6091871096
-Chrysalis 12 Inc.,Financials,RTO-P.V,EQ,CA1711901019
-Power Financial Corp 5.15% Non-Cum Red First Preferred Registered Shs Series V,Financials,PWF-PR-Z.TO,EQ,CA73927C7127
-SCD Capital Corp.,Financials,SMCD-P.V,EQ,CA80620E1016
-Brookfield Office Properties Inc. Pref AAA Series Y,Financials,BPO-PR-Y.TO,EQ,CA1129007177
-MAK Acquisition Corp. Class A,Financials,MAK-U.TO,EQ,KYG5SYG61070
-Sagen MI Canada Inc 5.4 % Non-Cum Red Pfd Registered Shs A Series 1,Financials,MIC-PR-A.TO,EQ,CA7866883092
-Oracle Commodity Holding Corp.,Financials,ORCL.V,EQ,CA68405F1045
-Pender Growth Fund Inc.,Financials,PTF.V,EQ,CA70671Q1037
+GO Residential Real Estate Investment Trust,Financials,GO.U.TO,EQ,CA36272H1073
+Power Financial Corp 5.1 % Non Cum 1st Pfd Shs Series L,Financials,PWF.PR.L.TO,EQ,CA73927C8299
 Vector Science and Therapeutics Corp.,Financials,PAIN.V,EQ,CA92244M1041
-Brookfield Office Properties Inc. Cum Red Pref Registered Shs -AAA- Series -EE-,Financials,BPO-PR-E.TO,EQ,CA1129006427
-Co-Operators General Insurance Company Non Cum Red Pref Registered Shs E Series C,Financials,CCS-PR-C.TO,EQ,CA1899064077
-Power Financial Corp 4.95 % Non Cum Pfd Shs Series K,Financials,PWF-PR-K.TO,EQ,CA73927C8372
+Pluto Ventures  Inc.,Financials,PLTO.CN,EQ,CA7294131049
+Amaya Big Sky Capital Corp.,Financials,AMYA.P.V,EQ,CA02315A1030
+Coinbase Global  Inc. Shs Sponsored Canadian Depository Receipt Hedged Reg S,Financials,COIN.TO,EQ,CA19260V1067
+Power Financial Corp 5.9 % Non Cum 1st Pfd Shs Series F,Financials,PWF.PR.G.TO,EQ,CA73927C8786
+Brookfield Renewable Power Preferred Equity Inc Pref Shs A Series 1,Financials,BRF.PR.A.TO,EQ,CA11283Q2062
+Financial 15 Split Corp. Class A,Financials,FTN.TO,EQ,CA3175043064
+Thermopylae Capital Inc.,Financials,THY.P.V,EQ,CA8836541059
+Partners Value Split Corp. Cum Red Pfd Registered Shs -AA- 2025- Class AA Series 15,Financials,PVS.PR.M.TO,EQ,CA70214J8225
+SCD Capital Corp.,Financials,SMCD.P.V,EQ,CA80620E1016
+MINT Income Fund Trust Units,Financials,MID.UN.TO,EQ,CA60446Q1081
+Ether Fund Trust Units A,Financials,QETH.U.TO,EQ,CA29764L1085
+Dividend 15 Split Corp II 7 % Pfd Shs 2006-1.12.29,Financials,DF.PR.A.TO,EQ,CA25537W2076
+Oracle Commodity Holding Corp.,Financials,ORCL.V,EQ,CA68405F1045
+Life & Banc Split Corp 7.25 % Cum Pfd Registered Shs 2006-29.11.18 Ext to 30.10.28,Financials,LBS.PR.A.TO,EQ,CA53184C1187
+Power Financial Corp 5 1/4 % Non Cum Pfd Shs Series E,Financials,PWF.PR.F.TO,EQ,CA73927C8869
+E Split Corp. Class A,Financials,ENS.TO,EQ,CA26916F1045
+Dividend 15 Split Corp. 7 % (Ex 5.5 %) Pfd Registered Shs 2004-1.12.19 Ext 01.12.29,Financials,DFN.PR.A.TO,EQ,CA25537R2081
+Power Financial Corp 5 1/2 % Non Cum Pfd Shs Series D,Financials,PWF.PR.E.TO,EQ,CA73927C8034
+Life & Banc Split Corp A 2006-29.11.18 Ext to 30.10.23 Further Ext to 30.10.28,Financials,LBS.TO,EQ,CA53184C1005
+Energy Income Fund Trust Units,Financials,ENI.UN.TO,EQ,CA29270B2066
+Premium Income Corp Pfd Registered Shs 1996-1.11.10 Ext to 01.11.24,Financials,PIC.PR.A.TO,EQ,CA7409102034
+Faircourt Gold Income Corp. Class A,Financials,FGX.NE,EQ,CA30376T1093
+Commerce Split Corp Capital 2010-1.12.19,Financials,YCM.TO,EQ,CA2007018039
+Canoe EIT Income Fund,Financials,EIT.UN.TO,EQ,CA13780R1091
+Brookfield Office Properties Inc. Cum Pref Shs AAA Series AA,Financials,BPO.PR.A.TO,EQ,CA1129006831
+Brookfield Renewable Power Preferred Equity Inc Floating Rate Pref Registered A Series 2 Fltg Rt,Financials,BRF.PR.B.TO,EQ,CA11283Q3052
+Canso Credit Income Fund Trust Units A,Financials,PBY.UN.TO,EQ,CA1380801060
+Brookfield Office Properties Inc. Pref AAA Series V,Financials,BPO.PR.X.TO,EQ,CA1129007417
+North Shore Uranium Ltd,Financials,NSU.V,EQ,CA66240L1040
+Precious Metals and Mining Trust Units,Financials,MMP.UN.TO,EQ,CA7401731095
+B.E.S.T Venture Opportunities Fund Inc A Series I,Financials,BVOF.A.CN,EQ,CA0549711061
+Canadian Life Companies Split Corp. Class A,Financials,LFE.TO,EQ,CA1362904007
+Brookfield Office Properties Inc. Cum Red Pref Shs -AAA- Series -CC-,Financials,BPO.PR.C.TO,EQ,CA1129006674
+Power Financial Corp 5.8 % Non-Cum 1st Pfd Shs Series O,Financials,PWF.PR.O.TO,EQ,CA73927C7879
+Helios Fairfax Partners Corp.,Financials,HFPC.U.TO,EQ,CA42328X1042
+Brookfield Office Properties Inc. Cum Pfd Registered Shs -AAA- Series P,Financials,BPO.PR.P.TO,EQ,CA1129008167
+Big Pharma Split Corp. Class A,Financials,PRM.TO,EQ,CA08934P1080
+Canoe EIT Income Fund 4.8 % Cum Red Perp Pfd Units Series 1,Financials,EIT.PR.A.TO,EQ,CA13780R2081
+Pender Growth Fund Inc.,Financials,PTF.V,EQ,CA70671Q1037
+Sprott Physical Uranium Trust,Financials,U.UN.TO,EQ,CA85210A1049
+Premium Income Corporation Class A,Financials,PIC.A.TO,EQ,CA7409107819
+North American Financial 15 Split Corp A 2019-01.12.24,Financials,FFN.TO,EQ,CA65685J3010
+Partners Value Split Corp. 4.7 % Cum Red Pfd Registered Shs -AA- 2020-28.02.27 Series -10- Reg S,Financials,PVS.PR.H.TO,EQ,CA70214J8712
+Ravensource Fund Trust Units,Financials,RAV.UN.TO,EQ,CA7544021057
+Canadian Banc Corp Class A,Financials,BK.TO,EQ,CA13536V1076
+SP Strategic Acquisition Corp.,Financials,SPSA.P.V,EQ,CA78474B1085
+Dividend Growth Split Corp. Class A,Financials,DGS.TO,EQ,CA25537Y1043
+PIMCO Global Income Opportunities Fund Trust Units,Financials,PGI.UN.TO,EQ,CA72202T1012
+Partners Value Split Corp. Non-Cum Pfd Registered Shs Series 17,Financials,PVS.PR.V.TO,EQ,CA70214J7987
+Brompton Lifeco Split Corp A 2007-29.04.24,Financials,LCS.TO,EQ,CA1122161062
+Atlantic Horizon Capital Corp.,Financials,ATLH.P.V,EQ,CA0485891059
+Brookfield Property Split Corp Pfd Shs Series 2,Financials,BPS.PR.A.TO,EQ,CA1128273085
+Shellron Capital Ltd.,Financials,SHLL.P.V,EQ,CA82281V1094
+Brookfield Office Properties Inc. Cum Pfd AAA Series T,Financials,BPO.PR.T.TO,EQ,CA1129007664
+Brookfield Office Properties Inc. Cum Red Pref Registered Shs -AAA- Series -EE-,Financials,BPO.PR.E.TO,EQ,CA1129006427
+Power Financial Corp 5 3/4 % Non Cum Pfd Shs Series H,Financials,PWF.PR.H.TO,EQ,CA73927C8604
+LunR Royalties Corp,Financials,LUNR.TO,EQ,CA5504281067
+Verdera Energy Corp.,Financials,V.V,EQ,CA92339J1075
+Power Financial Corp 4.95 % Non Cum Pfd Shs Series K,Financials,PWF.PR.K.TO,EQ,CA73927C8372
+Brompton Energy Split Corp,Financials,ESP.TO,EQ,CA11222U1021
+Goldcana Resources Inc.,Financials,GC.CN,EQ,CA38076V1004
+IDEX Metals Corp.,Financials,IDEX.V,EQ,CA45167E1034
 Gold Hart Copper Corp.,Financials,HART.V,EQ,CA38060B1022
-Brookfield Office Properties Inc. Pref AAA Series W,Financials,BPO-PR-W.TO,EQ,CA1129007334
-Pender Street Capital Corp.,Financials,PCP-P.V,EQ,CA70672P1045
-MDK Acquisition Inc.,Financials,MDK-P.V,EQ,CA55285V1013
-SP Strategic Acquisition Corp.,Financials,SPSA-P.V,EQ,CA78474B1085
-H2 Ventures 1 Inc.,Financials,HO-P.V,EQ,CA44332Q1090
-Power Financial Corp 5.8 % Non-Cum 1st Pfd Shs Series O,Financials,PWF-PR-O.TO,EQ,CA73927C7879
+V Ten Metals Corp.,Financials,VTEN.V,EQ,CA91839J1049
+Partners Value Split Corp. 4.40 % Cum Red Pfd Registered Shs -AA- 2021-29.02.28 Series -12- Reg S,Financials,PVS.PR.J.TO,EQ,CA70214J8555
+M-Split Corp Pfd Shs -II- 2010-1.12.14,Financials,XMF.PR.C.TO,EQ,CA55376A8005
+Sagen MI Canada Inc 5.4 % Non-Cum Red Pfd Registered Shs A Series 1,Financials,MIC.PR.A.TO,EQ,CA7866883092
+Sprott Physical Gold Trust Units,Financials,PHYS.TO,EQ,CA85207H1047
+Economic Investment Trust Limited,Financials,EVT.TO,EQ,CA2788931020
+Adagio 2 Capital Inc.,Financials,ADAD.P.V,EQ,CA00534V1067
+Blue Ribbon Income Fund Trust units,Financials,RBN.UN.TO,EQ,CA0958191086
+Partners Value Split Corp. 5.5 % Cum Red Pfd Registered Shs -AA- 2024-30.06.30 Class AA Series 14,Financials,PVS.PR.L.TO,EQ,CA70214J8308
+Brompton Split Banc Corp 6.25 % Cum Pfd Registered Shs 2005-30.11.12 Ext to 29.11.27,Financials,SBC.PR.A.TO,EQ,CA11221E2087
 Totec Resources Ltd.,Financials,TOTC.V,EQ,CA89157M2040
-Harmony Acquisitions Corp,Financials,MONY-P.V,EQ,CA4131811081
-Power Financial Corp 4.2 % Non Cum Pfd Series T,Financials,PWF-PR-T.TO,EQ,CA73927C7382
-First Tidal Acquisition Corp. Class A,Financials,AAA-P.V,EQ,CA33719F1099
-Raging Rhino Capital Corp.,Financials,RRCC-P.V,EQ,CA7506481075
-AF3 Capital Corp.,Financials,AFC-P.V,EQ,CA00113A1012
-TelyRx Holdings Inc.,Financials,TELY.TO,EQ,CA87974Y1043
-Power Financial Corp 5 1/2 % Non Cum Pfd Shs Series D,Financials,PWF-PR-E.TO,EQ,CA73927C8034
-Brookfield Property Split Corp Pfd Shs Series 1,Financials,BPS-PR-U.TO,EQ,CA1128272095
+Big Pharma Split Corp 5 % Cum Pfd Registered 2017-31.12.22,Financials,PRM.PR.A.TO,EQ,CA08934P2070
+SIR Royalty Income Fund,Financials,SRV.UN.TO,EQ,CA8296361097
+Power Financial Corp Cum First Pfd Shs Series A Fltg Rt,Financials,PWF.PR.A.TO,EQ,CA73927C2094
+United Corporations Ltd 5 % 2nd Pfd Shs Series -1959-,Financials,UNC.PR.B.TO,EQ,CA9101443021
+Power Financial Corp Non-Cum Red Pfd Shs Series S,Financials,PWF.PR.S.TO,EQ,CA73927C7465
+Co-Operators General Insurance Company Non Cum Red Pref Registered Shs E Series C,Financials,CCS.PR.C.TO,EQ,CA1899064077
+Financial 15 Split Corp 7.25 % Pfd Registered Shs 2003-1.12.20 Ext to 01.12.25,Financials,FTN.PR.A.TO,EQ,CA3175041084
+United Corporations Ltd 5 % 2nd Pfd Shs Series -1963-,Financials,UNC.PR.C.TO,EQ,CA9101444011
+Sustainable Innovation & Health Dividend Fund,Financials,SIH.UN.TO,EQ,CA86934T1066
+North American Financial 15 Split Corp 7.5 % Pfd Registered Shs 2004-1.12.19 Ext to 01.12.2029,Financials,FFN.PR.A.TO,EQ,CA65685J1030
+Global Dividend Growth Split Corp. 5 % Cum Red Pfd Registered Shs 2018-30.06.21 Ext to 30.06.26 Reg S,Financials,GDV.PR.A.TO,EQ,CA3794442010
+PIMCO Monthly Enhanced Income Fund Trust Units A,Financials,PMEI.UN.TO,EQ,CA72203W1032
+B.E.S.T Venture Opportunities Fund Inc A Series -II-,Financials,BVOF.B.CN,EQ,CA0549712051
+E Split Corp. 7.0 % Cum Pfd 2018-30.06.23,Financials,ENS.PR.A.TO,EQ,CA26916F2035
+Citadel Income Fund Trust Units,Financials,CTF.UN.TO,EQ,CA17286A1066
+Brookfield Property Split Corp Pfd Shs Series 3,Financials,BPS.PR.B.TO,EQ,CA1128274075
+Sprott Physical Silver Trust,Financials,PSLV.U.TO,EQ,CA85207K1075
+Brookfield Office Properties Inc. Pfd AAA Series N,Financials,BPO.PR.N.TO,EQ,CA1129008324
+First Tidal Acquisition Corp. Class A,Financials,AAA.P.V,EQ,CA33719F1099
+Healthcare Special Opportunities Fund Trust Units A,Financials,MDS.UN.TO,EQ,CA42226J1084
+Brompton Split Banc Corp. Class A,Financials,SBC.TO,EQ,CA11221E1097
+TDb Split Corp. Priority Equity Shs 2007-1.12.19,Financials,XTD.PR.A.TO,EQ,CA87234Y1007
+Brookfield Renewable Power Preferred Equity Inc Cum Red Pfd Registered Shs A Series 3,Financials,BRF.PR.C.TO,EQ,CA11283Q4043
+Commerce Split Corp Pfd Shs I 2010-1.12.19,Financials,YCM.PR.A.TO,EQ,CA2007015068
+TDb Split Corp. Shs A 2007-1.12.19,Financials,XTD.TO,EQ,CA87234Y3086
+Premium Global Income Split Fund Cum Red Pfd Registered Shs -A-,Financials,PGIC.PR.A.TO,EQ,CA74061R2000
+Sprott Physical Gold and Silver Trust Units,Financials,CEF.U.TO,EQ,CA85208R1010
+Dividend 15 Split Corp II -A- 2006-1.12.19 Ext to 01.12.24,Financials,DF.TO,EQ,CA25537W1086
+Power Financial Corporation 4.50 % Non-Cum Red 1st Pfd Registered Shs Series -23-,Financials,PWF.PF.A.TO,EQ,CA73927C1187
+Power Financial Corp 5.15% Non-Cum Red First Preferred Registered Shs Series V,Financials,PWF.PR.Z.TO,EQ,CA73927C7127
+US Financial 15 Split Corp A 2018-01.12.24,Financials,FTU.TO,EQ,CA90341H5078
+Boston Pizza Royalties Income Fund,Financials,BPF.UN.TO,EQ,CA1010841015
+Sentry Select Primary Metals Corp. Class A,Financials,PME.TO,EQ,CA81733D1050
+Dividend Growth Split Corp. 6.75 % Cum Red Pfd Registered Shs -A- 2007-30.08.29,Financials,DGS.PR.A.TO,EQ,CA25537Y2033
+Centenario Gold Corp.,Financials,CTG.V,EQ,CA15139A2083
+Brookfield Global Infrastructure Securities Income Fund,Financials,BGI.UN.TO,EQ,CA1127201079
+Fairfax India Holdings Corp,Financials,FIH.U.TO,EQ,CA3038971022
+Partners Value Split Corp. Preference Shs Class AA Series -16-,Financials,PVS.PR.U.TO,EQ,CA70214J8142
+Canadian Life Companies Split Corp. 6.25 % Cum Pfd Registered Shs,Financials,LFE.PR.B.TO,EQ,CA1362903017
+Power Financial Corp Non-Cum 1st Pfd Shs Series P,Financials,PWF.PR.P.TO,EQ,CA73927C7796
+Viridian Metals Inc,Financials,VRDN.CN,EQ,CA92841T1066
+Mayfair Acquisition Corp.,Financials,MFA.P.V,EQ,CA57807J1030
+Brookfield Office Properties Inc. Pref AAA Series W,Financials,BPO.PR.W.TO,EQ,CA1129007334
+AAJ Capital 3 Corp.,Financials,AAAJ.P.V,EQ,CA00036L1013
+Brookfield Office Properties Inc. Pref AAA Series R,Financials,BPO.PR.R.TO,EQ,CA1129007821
+Brookfield Property Split Corp Pfd Shs Series 4,Financials,BPS.PR.C.TO,EQ,CA1128275064
+Aster Acquisition Corp.,Financials,ATR.P.V,EQ,CA0459381079
+Partners Value Investments L.P. Pfd Registered Shs Series 1,Financials,PVF.PR.V.V,EQ,CA70214W2031
+Global Real Assets Trust 6.85 % Cum Red Pfd Registered Shs,Financials,GLRA.PR.A.TO,EQ,CA37966R2037
+Canadian General Investments Ltd,Financials,CGI.TO,EQ,CA1358251074
+Faction Investment Group Corp.,Financials,FINV.P.V,EQ,CA3030441016
+M Split Corp,Financials,XMF.A.TO,EQ,CA55376A8757
+Rupert's Crossing Capital Inc,Financials,RUCC.P.V,EQ,CA78165Y1025
+North America Home Finance  Inc.,Financials,NAHF.CN,EQ,CA65670A1093
+Starlight U.S. Residential Fund (Multi-Family) Investment LP Class A,Financials,SURF.UN.V,EQ,CA85555K2048
+Seegnal Inc.,Financials,SEGN.V,EQ,CA81573E1060
+Margaux Real Estate Investment Trust,Financials,ALFA.UN.V,EQ,CA56660A2092
+Income Financial Trust 1999-1.1.19 Trust Units,Financials,INC.UN.TO,EQ,CA4532991094
+JFT Strategies Fund Trust Units A,Financials,JFS.UN.TO,EQ,CA4661351003
+Chrysalis 12  Inc.,Financials,RTO.P.V,EQ,CA1711901019
+Brookfield Property Split Corp Pfd Shs Series 1,Financials,BPS.PR.U.TO,EQ,CA1128272095
+Brompton Energy Split Corp 8.25 % Cum Pfd,Financials,ESP.PR.A.TO,EQ,CA11222U2011
+Brookfield Office Properties Inc. Cum Red Pref Registered Shs -AAA- Series -GG-,Financials,BPO.PR.G.TO,EQ,CA1129006260
+Premium Global Income Split Fund Class A,Financials,PGIC.TO,EQ,CA74061R1010
+United Corporations Ltd 5 % Cum First Pfd Shs,Financials,UNC.PR.A.TO,EQ,CA9101441041
+US Financial 15 Split Corp 5 1/4% Cum Pfd Shs 2012-1.12.18,Financials,FTU.PR.B.TO,EQ,CA90341H3099
+Partners Value Split Corp. 4.45 % Cum Red Pfd Registered Shs -AA- 2021-31.05.29 Series -13- Reg S,Financials,PVS.PR.K.TO,EQ,CA70214J8480
+Dominus Acquisitions Corp.,Financials,DAQ.P.V,EQ,CA25756D1042
+Brookfield Office Properties Inc. Cum Conv Red Perp Pref Registered AAA Series II,Financials,BPO.PR.I.TO,EQ,CA1129005924
+Harmony Acquisitions Corp,Financials,MONY.P.V,EQ,CA4131811081
+Canoe EIT Income Fund 4.8 % Cum Red Perp Pfd Units Series 2 Reg S,Financials,EIT.PR.B.TO,EQ,CA13780R1331
+Brookfield Office Properties Inc. Pref AAA Series Y,Financials,BPO.PR.Y.TO,EQ,CA1129007177
+United Corporations Limited,Financials,UNC.TO,EQ,CA9101442031
+Mandala Capital Inc,Financials,MAN.P.V,EQ,CA56256W1023
+Commerce Split Corp Pfd Shs -II- 2010-1.12.19,Financials,YCM.PR.B.TO,EQ,CA2007016058
+Global Dividend Growth Split Corp. Class A,Financials,GDV.TO,EQ,CA3794441020
+Coinbase Global  Inc. Shs Unsponsored Canadian Depository Receipt Hedged Reg S,Financials,ZCOI.NE,EQ,CA19260W1041
+H2 Ventures 1  Inc.,Financials,HO.P.V,EQ,CA44332Q1090
+M Split Corp Pfd I 2010-1.12.19,Financials,XMF.PR.B.TO,EQ,CA55376A5035
+Dividend 15 Split Corp. Class A,Financials,DFN.TO,EQ,CA25537R1091
+SalesCloser Technologies Ltd.,Financials,SCAI.V,EQ,CA79467H1029
+Monarch West Ventures  Inc.,Financials,MONA.P.V,EQ,CA6091871096

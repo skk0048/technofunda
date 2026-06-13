@@ -1,162 +1,214 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-Commonwealth Bank of Australia,Financials,CBA.AX,EQ,
-Westpac Banking Corporation,Financials,WBC.AX,EQ,
-National Australia Bank Limited,Financials,NAB.AX,EQ,
-ANZ Group Holdings Limited,Financials,ANZ.AX,EQ,
-Macquarie Group Ltd.,Financials,MQG.AX,EQ,
-Goodman Group,Financials,GMG.AX,EQ,
-QBE Insurance Group Limited,Financials,QBE.AX,EQ,
-Scentre Group,Financials,SCG.AX,EQ,
-Suncorp Group Limited,Financials,SUN.AX,EQ,
-Insurance Australia Group Ltd,Financials,IAG.AX,EQ,
-Washington H. Soul Pattinson and Company Limited,Financials,SOL.AX,EQ,
-Medibank Private Ltd.,Financials,MPL.AX,EQ,
-Infratil Limited,Financials,IFT.AX,EQ,
-Vicinity Centres,Financials,VCX.AX,EQ,
-Charter Hall Group,Financials,CHC.AX,EQ,
-ASX Limited,Financials,ASX.AX,EQ,
-Stockland,Financials,SGP.AX,EQ,
-GPT Group,Financials,GPT.AX,EQ,
-Mirvac Group,Financials,MGR.AX,EQ,
-Challenger Limited,Financials,CGF.AX,EQ,
-Dexus,Financials,DXS.AX,EQ,
-Bendigo & Adelaide Bank Ltd.,Financials,BEN.AX,EQ,
-Netwealth Group Ltd.,Financials,NWL.AX,EQ,
-Steadfast Group Limited,Financials,SDF.AX,EQ,
-GQG Partners Inc. Shs Chess Depository Interests Repr 1 Sh,Financials,GQG.AX,EQ,
-Bank of Queensland Limited,Financials,BOQ.AX,EQ,
-BSP Financial Group Ltd.,Financials,BFL.AX,EQ,
-AMP Limited,Financials,AMP.AX,EQ,
-Pinnacle Investment Management Group Limited,Financials,PNI.AX,EQ,
-AUB Group Limited,Financials,AUB.AX,EQ,
-NIB Holdings Ltd,Financials,NHF.AX,EQ,
-Zip Co Ltd.,Financials,ZIP.AX,EQ,
-BWP Trust,Financials,BWP.AX,EQ,
-L1 Group Limited,Financials,L1G.AX,EQ,
-Region Group,Financials,RGN.AX,EQ,
-HomeCo Daily Needs REIT,Financials,HDN.AX,EQ,
-Charter Hall Long WALE REIT,Financials,CLW.AX,EQ,
-Charter Hall Retail REIT,Financials,CQR.AX,EQ,
-PEXA Group Limited,Financials,PXA.AX,EQ,
-Gemlife Communities Group,Financials,GLF.AX,EQ,
-Centuria Industrial REIT,Financials,CIP.AX,EQ,
-Perpetual Limited,Financials,PPT.AX,EQ,
-Abacus Storage King,Financials,ASK.AX,EQ,
-Centuria Capital Group,Financials,CNI.AX,EQ,
-Growthpoint Properties Australia,Financials,GOZ.AX,EQ,
-Judo Capital Holdings Limited,Financials,JDO.AX,EQ,
-Magellan Financial Group Ltd,Financials,MFG.AX,EQ,
-Generation Development Group Limited,Financials,GDG.AX,EQ,
-Waypoint REIT Ltd.,Financials,WPR.AX,EQ,
-Ingenia Communities Group,Financials,INA.AX,EQ,
-Digico Infrastructure REIT,Financials,DGT.AX,EQ,
-Mcmillan Shakespeare Limited,Financials,MMS.AX,EQ,
-Navigator Global Investments Ltd,Financials,NGI.AX,EQ,
-United Overseas Australia Ltd,Financials,UOS.AX,EQ,
-Helia Group Limited,Financials,HLI.AX,EQ,
-Arena REIT,Financials,ARF.AX,EQ,
-HMC Capital Limited,Financials,HMC.AX,EQ,
-MA Financial Group Limited,Financials,MAF.AX,EQ,
-Cromwell Property Group,Financials,CMW.AX,EQ,
-Aspen Group Limited,Financials,APZ.AX,EQ,
-Qualitas Real Estate Income Fund Units,Financials,QRI.AX,EQ,
-Liberty Financial Group Ltd,Financials,LFG.AX,EQ,
-Heartland Group Holdings Ltd.,Financials,HGH.AX,EQ,
-Latitude Group Holdings Ltd.,Financials,LFS.AX,EQ,
-Charter Hall Social Infrastructure REIT,Financials,CQE.AX,EQ,
-Regal Partners Limited,Financials,RPL.AX,EQ,
-Abacus Group,Financials,ABG.AX,EQ,
-Qualitas Limited,Financials,QAL.AX,EQ,
-Peet Limited,Financials,PPC.AX,EQ,
-Rural Funds Group,Financials,RFF.AX,EQ,
-Pepper Money Ltd,Financials,PPM.AX,EQ,
-Mystate Limited,Financials,MYS.AX,EQ,
-Dexus Industria REIT,Financials,DXI.AX,EQ,
-Chrysos Corp. Ltd.,Financials,C79.AX,EQ,
-Servcorp Limited,Financials,SRV.AX,EQ,
-Turners Automotive Group Ltd,Financials,TRA.AX,EQ,
-FleetPartners Group Limited,Financials,FPR.AX,EQ,
-Cedar Woods Properties Limited,Financials,CWP.AX,EQ,
-Tower Limited,Financials,TWR.AX,EQ,
-Emeco Holdings Limited,Financials,EHL.AX,EQ,
-Centuria Office REIT,Financials,COF.AX,EQ,
-Australian Unity Ltd Pref.,Financials,AYUPA.AX,EQ,
-Australian Ethical Investment Ltd,Financials,AEF.AX,EQ,
-Tourism Holdings Limited,Financials,THL.AX,EQ,
-Carindale Property Trust,Financials,CDP.AX,EQ,
-Bell Financial Group Limited,Financials,BFG.AX,EQ,
-Australian Finance Group Ltd.,Financials,AFG.AX,EQ,
-EQT Holdings Ltd.,Financials,EQT.AX,EQ,
-Kina Securities Ltd.,Financials,KSL.AX,EQ,
-Whitefield income limited,Financials,WHI.AX,EQ,
-Winton Land Limited,Financials,WTN.AX,EQ,
-ClearView Wealth Limited,Financials,CVW.AX,EQ,
-HealthCo Healthcare & Wellness REIT,Financials,HCW.AX,EQ,
-Dexus Convenience Retail REIT,Financials,DXC.AX,EQ,
-GDI Property Group,Financials,GDI.AX,EQ,
-Resimac Group Limited,Financials,RMC.AX,EQ,
-Pacific Current Group Ltd,Financials,PAC.AX,EQ,
-Humm Group Limited,Financials,HUM.AX,EQ,
-Fiducian Group Ltd,Financials,FID.AX,EQ,
-Solvar Limited,Financials,SVR.AX,EQ,
-Eureka Group Holdings Limited,Financials,EGH.AX,EQ,
-CVC Limited,Financials,CVC.AX,EQ,
-RAM Essential Services Property Fund,Financials,REP.AX,EQ,
-GARDA Property Group Stapled Secs Cons of 1 Ut GARDA Div Prop Fund + 1 Sh of GARDA Hldgs Ltd,Financials,GDF.AX,EQ,
-Euroz Hartleys Group Limited,Financials,EZL.AX,EQ,
-LDR Capital Property Fund,Financials,LED.AX,EQ,
-Finbar Group Limited,Financials,FRI.AX,EQ,
-FSA Group Limited,Financials,FSA.AX,EQ,
-Plenti Group Ltd.,Financials,PLT.AX,EQ,
-NobleOak Life Ltd,Financials,NOL.AX,EQ,
-US Masters Residential Property Fund,Financials,URF.AX,EQ,
-Schoolblazer Limited,Financials,SBZ.AX,EQ,
-Pioneer Credit Ltd,Financials,PNC.AX,EQ,
-WOTSO,Financials,WOT.AX,EQ,
-360 Capital REIT,Financials,TOT.AX,EQ,
-Ariadne Australia Limited,Financials,ARA.AX,EQ,
-Harmoney Corp Ltd,Financials,HMY.AX,EQ,
-Boom Logistics Ltd,Financials,BOL.AX,EQ,
-Aland Equity Group Limited,Financials,AEG.AX,EQ,
-Australian Unity Office Fund,Financials,AOF.AX,EQ,
-Raiz Invest Ltd.,Financials,RZI.AX,EQ,
-Prime Financial Group Limited,Financials,PFG.AX,EQ,
-Microequities Asset Management Group Ltd.,Financials,MAM.AX,EQ,
-ASF Group Limited,Financials,AFA.AX,EQ,
-Salter Brothers Emerging Companies Ltd.,Financials,SB2.AX,EQ,
-Australian Wealth Advisors Group Ltd.,Financials,WAG.AX,EQ,
-WT Financial Group Ltd.,Financials,WTL.AX,EQ,
-Wisr Ltd.,Financials,WZR.AX,EQ,
-Desane Group Holdings Ltd,Financials,DGH.AX,EQ,
-EarlyPay Limited,Financials,EPY.AX,EQ,
-Teaminvest Private Group Ltd,Financials,TIP.AX,EQ,
-BNK Banking Corporation Limited,Financials,BBC.AX,EQ,
-London City Equities Ltd,Financials,LCE.AX,EQ,
-Blackwall Limited,Financials,BWF.AX,EQ,
-Clime Investment Management Ltd,Financials,CIW.AX,EQ,
-Powerhouse Ventures Ltd.,Financials,PVL.AX,EQ,
-Group One Capital Limited,Financials,G1C.AX,EQ,
-Income Asset Management Group Limited,Financials,IAM.AX,EQ,
-Strategic Elements Ltd,Financials,SOR.AX,EQ,
-Acumentis Group Limited,Financials,ACU.AX,EQ,
-Mustera Property Group Ltd.,Financials,MPX.AX,EQ,
-Associate Global Partners Limited,Financials,APL.AX,EQ,
-Tian An Australia Limited,Financials,TIA.AX,EQ,
-Sequoia Financial Group Ltd.,Financials,SEQ.AX,EQ,
-Agency Group Australia Ltd,Financials,AU1.AX,EQ,
-Underwood Capital Limited,Financials,UWC.AX,EQ,
-Australian Bond Exchange Holdings Ltd.,Financials,ABE.AX,EQ,
-Queste Communications Ltd,Financials,QUE.AX,EQ,
-CD Private Equity Fund III Units,Financials,CD3.AX,EQ,
-CD Private Equity Fund I Units,Financials,CD1.AX,EQ,
-Lion Selection Group Ltd.,Financials,LSX.AX,EQ,
-L1 Gold Fund Limited,Financials,LGF.AX,EQ,
-La Trobe Private Credit Fund,Financials,LF1.AX,EQ,
-Metrics Real Estate Multi-Strategy Fund,Financials,MRE.AX,EQ,
-Ryder Capital Ltd.,Financials,RYD.AX,EQ,
-BTC Health Ltd Registered,Financials,BTC.AX,EQ,
-InvestSMART Group Limited,Financials,INV.AX,EQ,
-Orion Equities Limited,Financials,OEQ.AX,EQ,
-NGE Capital Ltd,Financials,NGE.AX,EQ,
-CD Private Equity Fund II Units,Financials,CD2.AX,EQ,
-Solaris Australian Equity Income Plus Ltd.,Financials,SET.AX,EQ,
+Commonwealth Bank,Financials,CBA.AX,EQ,AU000000CBA7
+Westpac,Financials,WBC.AX,EQ,AU000000WBC1
+National Australia Bank,Financials,NAB.AX,EQ,AU000000NAB4
+Australia & New Zealand Banking Group,Financials,ANZ.AX,EQ,AU000000ANZ3
+Macquarie Group,Financials,MQG.AX,EQ,AU000000MQG1
+Block,Financials,XYZ.AX,EQ,AU0000380420
+QBE Insurance,Financials,QBE.AX,EQ,AU000000QBE9
+Suncorp,Financials,SUN.AX,EQ,AU000000SUN6
+Insurance Australia Group,Financials,IAG.AX,EQ,AU000000IAG3
+Soul Patts,Financials,SOL.AX,EQ,AU000000SOL3
+Medibank,Financials,MPL.AX,EQ,AU000000MPL3
+ASX,Financials,ASX.AX,EQ,AU000000ASX7
+Challenger,Financials,CGF.AX,EQ,AU000000CGF5
+HUB24,Financials,HUB.AX,EQ,AU000000HUB4
+Bendigo & Adelaide Bank,Financials,BEN.AX,EQ,AU000000BEN6
+Steadfast Group,Financials,SDF.AX,EQ,AU000000SDF8
+Netwealth Group,Financials,NWL.AX,EQ,AU000000NWL7
+GQG Partners,Financials,GQG.AX,EQ,AU0000180499
+Bank of Queensland,Financials,BOQ.AX,EQ,AU000000BOQ8
+AMP,Financials,AMP.AX,EQ,AU000000AMP6
+AUB Group,Financials,AUB.AX,EQ,AU000000AUB9
+Pinnacle Investment Management,Financials,PNI.AX,EQ,AU000000PNI7
+Nib,Financials,NHF.AX,EQ,AU000000NHF0
+Zip,Financials,ZIP.AX,EQ,AU0000218307
+MFF Capital Investments,Financials,MFF.AX,EQ,AU000000MFF6
+L1 Group,Financials,L1G.AX,EQ,AU0000423501
+Perpetual,Financials,PPT.AX,EQ,AU000000PPT9
+Centuria Capital Group,Financials,CNI.AX,EQ,AU000000CNI5
+Magellan Financial Group,Financials,MFG.AX,EQ,AU000000MFG4
+Growthpoint Properties Australia,Financials,GOZ.AX,EQ,AU000000GOZ8
+Gemlife Communities Group,Financials,GLF.AX,EQ,AU0000402562
+Waypoint REIT Ltd.,Financials,WPR.AX,EQ,AU0000088064
+Judo Capital Holdings Limited,Financials,JDO.AX,EQ,AU0000182271
+Generation Development Group,Financials,GDG.AX,EQ,AU0000005126
+Mcmillan Shakespeare Limited,Financials,MMS.AX,EQ,AU000000MMS5
+Helia Group Limited,Financials,HLI.AX,EQ,AU0000251498
+Digico Infrastructure REIT,Financials,DGT.AX,EQ,AU0000367088
+Arena REIT,Financials,ARF.AX,EQ,AU000000ARF6
+Navigator Global Investments Ltd,Financials,NGI.AX,EQ,AU000000NGI6
+United Overseas Australia Ltd,Financials,UOS.AX,EQ,AU000000UOS4
+HMC Capital Limited,Financials,HMC.AX,EQ,AU0000058943
+Cromwell Property Group,Financials,CMW.AX,EQ,AU000000CMW8
+Aspen Group Limited,Financials,APZ.AX,EQ,AU000000APZ8
+MA Financial Group Limited,Financials,MAF.AX,EQ,AU0000156218
+Charter Hall Social Infrastructure REIT,Financials,CQE.AX,EQ,AU0000030645
+Qualitas Real Estate Income Fund Units,Financials,QRI.AX,EQ,AU0000027310
+Latitude Group Holdings Ltd.,Financials,LFS.AX,EQ,AU0000143687
+Liberty Financial Group Ltd,Financials,LFG.AX,EQ,AU0000121634
+Regal Partners Limited,Financials,RPL.AX,EQ,AU0000226300
+Abacus Group,Financials,ABG.AX,EQ,AU0000291882
+Qualitas Limited,Financials,QAL.AX,EQ,AU0000195265
+Rural Funds Group,Financials,RFF.AX,EQ,AU000000RFF5
+Dexus Industria REIT,Financials,DXI.AX,EQ,AU0000192833
+Peet Limited,Financials,PPC.AX,EQ,AU000000PPC5
+Mystate Limited,Financials,MYS.AX,EQ,AU000000MYS0
+Chrysos Corp. Ltd.,Financials,C79.AX,EQ,AU0000218190
+Pepper Money Ltd,Financials,PPM.AX,EQ,AU0000150898
+Servcorp Limited,Financials,SRV.AX,EQ,AU000000SRV5
+Cedar Woods Properties Limited,Financials,CWP.AX,EQ,AU000000CWP1
+FleetPartners Group Limited,Financials,FPR.AX,EQ,AU0000272924
+Centuria Office REIT,Financials,COF.AX,EQ,AU0000077893
+MA Credit Income Trust,Financials,MA1.AX,EQ,AU0000380917
+Mirrabooka Investments Ltd,Financials,MIR.AX,EQ,AU000000MIR5
+Emeco Holdings Limited,Financials,EHL.AX,EQ,AU000000EHL7
+Australian Unity Ltd Pref.,Financials,AYUPA.AX,EQ,AU0000124349
+EQT Holdings Ltd.,Financials,EQT.AX,EQ,AU000000EQT1
+Australian Ethical Investment Ltd,Financials,AEF.AX,EQ,AU000000AEF4
+Carindale Property Trust,Financials,CDP.AX,EQ,AU000000CDP1
+Australian Finance Group Ltd.,Financials,AFG.AX,EQ,AU000000AFG9
+Bell Financial Group Limited,Financials,BFG.AX,EQ,AU000000BFG7
+Whitefield income limited,Financials,WHI.AX,EQ,AU0000360018
+HealthCo Healthcare & Wellness REIT,Financials,HCW.AX,EQ,AU0000169302
+ClearView Wealth Limited,Financials,CVW.AX,EQ,AU000000CVW9
+Dexus Convenience Retail REIT,Financials,DXC.AX,EQ,AU0000179061
+Resimac Group Limited,Financials,RMC.AX,EQ,AU0000033094
+GDI Property Group,Financials,GDI.AX,EQ,AU000000GDI7
+Dominion Income Trust 1,Financials,DN1.AX,EQ,AU0000381113
+WAM Income Maximiser Limited,Financials,WMX.AX,EQ,AU0000390387
+COG Financial Services Limited,Financials,COG.AX,EQ,AU000000COG7
+Pacific Current Group Ltd,Financials,PAC.AX,EQ,AU000000PAC7
+Metrics Real Estate Multi-Strategy Fund,Financials,MRE.AX,EQ,AU0000352791
+Fiducian Group Ltd,Financials,FID.AX,EQ,AU000000FID9
+Humm Group Limited,Financials,HUM.AX,EQ,AU0000121337
+Solvar Limited,Financials,SVR.AX,EQ,AU0000258782
+Eureka Group Holdings Limited,Financials,EGH.AX,EQ,AU000000EGH7
+La Trobe Private Credit Fund,Financials,LF1.AX,EQ,AU0000398133
+GARDA Property Group Stapled Secs Cons of 1 Ut GARDA Div Prop Fund + 1 Sh of GARDA Hldgs Ltd,Financials,GDF.AX,EQ,AU000000GDF3
+RAM Essential Services Property Fund,Financials,REP.AX,EQ,AU0000180317
+Pengana Global Private Credit Trust,Financials,PCX.AX,EQ,AU0000331795
+CVC Limited,Financials,CVC.AX,EQ,AU000000CVC1
+LDR Capital Property Fund,Financials,LED.AX,EQ,AU0000455305
+Euroz Hartleys Group Limited,Financials,EZL.AX,EQ,AU000000EZL9
+Finbar Group Limited,Financials,FRI.AX,EQ,AU000000FRI9
+FSA Group Limited,Financials,FSA.AX,EQ,AU000000FSA4
+AIMS Property Securities Fund,Financials,APW.AX,EQ,AU000000APW5
+Plenti Group Ltd.,Financials,PLT.AX,EQ,AU0000102691
+Pioneer Credit Ltd,Financials,PNC.AX,EQ,AU000000PNC0
+NobleOak Life Ltd,Financials,NOL.AX,EQ,AU0000161580
+US Masters Residential Property Fund,Financials,URF.AX,EQ,AU000000URF4
+Schoolblazer Limited,Financials,SBZ.AX,EQ,AU0000458531
+WOTSO,Financials,WOT.AX,EQ,AU0000136863
+360 Capital REIT,Financials,TOT.AX,EQ,AU000000TOT4
+Ariadne Australia Limited,Financials,ARA.AX,EQ,AU000000ARA7
+Centrepoint Alliance Limited,Financials,CAF.AX,EQ,AU000000CAF8
+Boom Logistics Ltd,Financials,BOL.AX,EQ,AU000000BOL9
+Pengana Capital Group Ltd.,Financials,PCG.AX,EQ,AU000000PCG4
+Raiz Invest Ltd.,Financials,RZI.AX,EQ,AU0000010761
+Prime Financial Group Limited,Financials,PFG.AX,EQ,AU000000PFG7
+Microequities Asset Management Group Ltd.,Financials,MAM.AX,EQ,AU0000004517
+Aland Equity Group Limited,Financials,AEG.AX,EQ,AU0000449209
+ASF Group Limited,Financials,AFA.AX,EQ,AU000000AFA2
+Salter Brothers Emerging Companies Ltd.,Financials,SB2.AX,EQ,AU0000149429
+Australian Wealth Advisors Group Ltd.,Financials,WAG.AX,EQ,AU0000307902
+WT Financial Group Ltd.,Financials,WTL.AX,EQ,AU0000065054
+Wisr Ltd.,Financials,WZR.AX,EQ,AU0000004129
+Teaminvest Private Group Ltd,Financials,TIP.AX,EQ,AU0000041717
+BNK Banking Corporation Limited,Financials,BBC.AX,EQ,AU0000041857
+EarlyPay Limited,Financials,EPY.AX,EQ,AU0000119570
+Blackwall Limited,Financials,BWF.AX,EQ,AU000000BWF4
+Clime Investment Management Ltd,Financials,CIW.AX,EQ,AU000000CIW6
+Fitzroy River Corp. Ltd.,Financials,FZR.AX,EQ,AU000000FZR3
+Group One Capital Limited,Financials,G1C.AX,EQ,AU0000423741
+Mustera Property Group Ltd.,Financials,MPX.AX,EQ,AU000000MPX8
+Acumentis Group Limited,Financials,ACU.AX,EQ,AU0000077604
+Strategic Elements Ltd,Financials,SOR.AX,EQ,AU000000SOR0
+Associate Global Partners Limited,Financials,APL.AX,EQ,AU0000251514
+Income Asset Management Group Limited,Financials,IAM.AX,EQ,AU0000200198
+Tian An Australia Limited,Financials,TIA.AX,EQ,AU000000TIA6
+Sequoia Financial Group Ltd.,Financials,SEQ.AX,EQ,AU000000SEQ3
+Agency Group Australia Ltd,Financials,AU1.AX,EQ,AU000000AU12
+K2 Asset Management Holdings Ltd,Financials,KAM.AX,EQ,AU000000KAM7
+Underwood Capital Limited,Financials,UWC.AX,EQ,AU0000373201
+Axtec Limited,Financials,AXI.AX,EQ,AU000000AXI8
+8I Holdings Ltd. Chess Depository Interests repr 1 shs,Financials,8IH.AX,EQ,AU0000008IH1
+Australian Bond Exchange Holdings Ltd.,Financials,ABE.AX,EQ,AU0000187577
+Katana Capital Ltd.,Financials,KAT.AX,EQ,AU000000KAT2
+NAOS Emerging Opportunities Co. Ltd.,Financials,NCC.AX,EQ,AU000000NCC8
+Pengana International Equities Ltd Registered,Financials,PIA.AX,EQ,AU000000PIA4
+Argo Investments,Financials,ARG.AX,EQ,AU000000ARG4
+CD Private Equity Fund III Units,Financials,CD3.AX,EQ,AU000000CD37
+Staude Capital Global Value Fund Ltd,Financials,GVF.AX,EQ,AU000000GVF5
+Argo Global Listed Infrastructure Ltd.,Financials,ALI.AX,EQ,AU000000ALI3
+Djerriwarrh Investments Limited,Financials,DJW.AX,EQ,AU000000DJW2
+Thorney Opportunities Ltd.,Financials,TOP.AX,EQ,AU000000TOP2
+L1 Gold Fund Limited,Financials,LGF.AX,EQ,AU0000460305
+Plato Income Maximiser Ltd.,Financials,PL8.AX,EQ,AU000000PL81
+Perpetual Equity Investment Co. Ltd.,Financials,PIC.AX,EQ,AU000000PIC0
+Acorn Capital Investment Fund Ltd Registered,Financials,ACQ.AX,EQ,AU000000ACQ5
+Bailador Technology Investments Ltd,Financials,BTI.AX,EQ,AU000000BTI4
+Regal Partners Global Investments Limited,Financials,RG1.AX,EQ,AU0000434920
+L1 Long Short Fund,Financials,LSF.AX,EQ,AU0000002339
+BTC Health Ltd Registered,Financials,BTC.AX,EQ,AU000000BTC7
+Cadence Opportunities Fund Ltd.,Financials,CDO.AX,EQ,AU0000186165
+Glennon Small Companies Ltd,Financials,GC1.AX,EQ,AU000000GC18
+Sandon Capital Investments Limited,Financials,SNC.AX,EQ,AU000000SNC4
+Tribeca Global Natural Resources Ltd.,Financials,TGF.AX,EQ,AU0000023202
+WAM Strategic Value Ltd,Financials,WAR.AX,EQ,AU0000155707
+Australian Foundation Investment Company,Financials,AFI.AX,EQ,AU000000AFI5
+Regal Investment Fund Units,Financials,RF1.AX,EQ,AU0000045585
+Spheria Emerging Cos. Ltd.,Financials,SEC.AX,EQ,AU000000SEC3
+WAM Research Ltd.,Financials,WAX.AX,EQ,AU000000WAX9
+Morphic Ethical Equities Fund Ltd.,Financials,MEC.AX,EQ,AU000000MEC6
+L1 Global Long Short Fund Limited Registered,Financials,GLS.AX,EQ,AU0000440166
+Australian United Investment Co. Ltd.,Financials,AUI.AX,EQ,AU000000AUI4
+WAM Capital,Financials,WAM.AX,EQ,AU000000WAM2
+Bentley Capital Ltd.,Financials,BEL.AX,EQ,AU000000BEL0
+Orion Equities Limited,Financials,OEQ.AX,EQ,AU000000OEQ2
+Gryphon Capital Income Trust,Financials,GCI.AX,EQ,AU0000005209
+WAM Leaders,Financials,WLE.AX,EQ,AU000000WLE6
+WAM Alternative Assets Ltd,Financials,WMA.AX,EQ,AU0000110827
+ARC Funds Limited,Financials,ARC.AX,EQ,AU000000ARC3
+360 Capital Mortgage REIT,Financials,TCF.AX,EQ,AU0000108771
+Solaris Australian Equity Income Plus Ltd.,Financials,SET.AX,EQ,AU0000461840
+PM Capital Global Opportunities Fund Ltd.,Financials,PGF.AX,EQ,AU000000PGF7
+WAM Global Ltd.,Financials,WGB.AX,EQ,AU0000009649
+Future Generation Global Limited,Financials,FGG.AX,EQ,AU000000FGG6
+Carlton Investments Ltd,Financials,CIN.AX,EQ,AU000000CIN5
+Fat Prophets Global Contrarian Fund Ltd.,Financials,FPC.AX,EQ,AU000000FPC6
+WAM Active Ltd.,Financials,WAA.AX,EQ,AU000000WAA7
+WAM Microcap Ltd.,Financials,WMI.AX,EQ,AU000000WMI5
+Perpetual Credit Income Trust,Financials,PCI.AX,EQ,AU0000041261
+CD Private Equity Fund II Units,Financials,CD2.AX,EQ,AU000000CD29
+Lion Selection Group Ltd.,Financials,LSX.AX,EQ,AU000000LSX4
+Hearts and Minds Investments Ltd,Financials,HM1.AX,EQ,AU0000026569
+Cadence Capital Limited,Financials,CDM.AX,EQ,AU000000CDM8
+Whitefield Industrials Limited,Financials,WHF.AX,EQ,AU000000WHF1
+Kapstream Investment Trust,Financials,KIT.AX,EQ,AU0000457392
+Thorney Technologies Limited,Financials,TEK.AX,EQ,AU000000TEK4
+Touch Ventures Ltd.,Financials,TVL.AX,EQ,AU0000175424
+Gowing Bros. Ltd.,Financials,GOW.AX,EQ,AU000000GOW5
+Future Generation Australia Limited Stapled Security,Financials,FGX.AX,EQ,AU000000FGX1
+Metrics Income Opportunities Trust Units,Financials,MOT.AX,EQ,AU0000040776
+Clime Capital Limited,Financials,CAM.AX,EQ,AU000000CAM4
+InvestSMART Group Limited,Financials,INV.AX,EQ,AU000000INV5
+WCM Global Growth Ltd.,Financials,WQG.AX,EQ,AU0000017071
+Alternative Investment Trust Units,Financials,AIQ.AX,EQ,AU000000AIQ2
+BKI Investment Co. Ltd.,Financials,BKI.AX,EQ,AU000000BKI3
+KKR Credit Income fund Units,Financials,KKC.AX,EQ,AU0000060014
+AMCIL Limited,Financials,AMH.AX,EQ,AU000000AMH3
+Lowell Resources Funds Management Ltd Units,Financials,LRT.AX,EQ,AU000000LRT4
+NAOS Small Cap Opportunities Company Ltd,Financials,NSC.AX,EQ,AU000000NSC4
+Flagship Investments Ltd.,Financials,FSI.AX,EQ,AU000000FSI7
+Global Masters Fund Limited,Financials,GFL.AX,EQ,AU000000GFL6
+Ryder Capital Ltd.,Financials,RYD.AX,EQ,AU000000RYD1
+NAOS Ex-50 Opportunities Co. Ltd.,Financials,NAC.AX,EQ,AU000000NAC2
+Metrics Master Income Trust,Financials,MXT.AX,EQ,AU000000MXT0
+Benjamin Hornigold Ltd.,Financials,BHD.AX,EQ,AU000000BHD0
+Pengana Private Equity Trust,Financials,PE1.AX,EQ,AU0000039521
+NGE Capital Ltd,Financials,NGE.AX,EQ,AU000000NGE5
+Regal Asian Investments Limited,Financials,RG8.AX,EQ,AU0000253510
+Ironbark Balanced Income Limited Registered,Financials,IBC.AX,EQ,AU000000IBC0
+CD Private Equity Fund I Units,Financials,CD1.AX,EQ,AU000000CD11
+ECP Emerging Growth Ltd.,Financials,ECP.AX,EQ,AU0000067514

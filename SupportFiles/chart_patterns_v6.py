@@ -1,17 +1,16 @@
 # ─────────────────────────────────────────────────────────────────────────────
-#  CHART PATTERNS  v6.0
+#  CHART PATTERNS  v6.1
 #  Patterns: Double Bottom/Top, H&S Top, Inv H&S, VCP, Cup&Handle,
 #            Asc/Desc/Sym Triangle, Bull Flag, Pennant
 #  Timeframes: Daily (D) + Weekly (W)
 #
-#  Changes from v5.3 — see CHANGELOG at bottom of file.
+#  Changes from v6.0 — see CHANGELOG at bottom of file.
 # ─────────────────────────────────────────────────────────────────────────────
 
 from __future__ import annotations
 
 import logging
-import warnings
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 from typing import Dict, List, Optional, Tuple
 
 import numpy as np
@@ -23,9 +22,10 @@ logger = logging.getLogger(__name__)
 
 # ─────────────────────────────────────────────────────────────────────────────
 #  Pattern dataclass
-#  NEW FIELDS vs v5.3:
 #    atr        — 14-period ATR at signal date (context for stop sizing)
 #    trend_ok   — whether prior trend context is confirmed (True/False)
+#    conf_score — NEW v6.1: numeric 0-100 confidence (downstream scoring uses
+#                 this; the `confidence` string remains for display only).
 # ─────────────────────────────────────────────────────────────────────────────
 @dataclass
 class Pattern:
@@ -38,10 +38,11 @@ class Pattern:
     target:    float
     rr:        float
     confidence: str
-    notes:     str      = ""
-    timeframe: str      = "D"
-    atr:       float    = 0.0   # NEW: 14-period ATR at signal bar
-    trend_ok:  bool     = False  # NEW: prior-trend context confirmed
+    notes:     str       = ""
+    timeframe: str       = "D"
+    atr:       float     = 0.0    # 14-period ATR at signal bar
+    trend_ok:  bool      = False  # prior-trend context confirmed
+    conf_score: float    = 0.0    # NEW v6.1: numeric confidence 0-100
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -59,7 +60,7 @@ def _near(a: float, b: float, tol: float = 0.03) -> bool:
 
 def _atr14(high: np.ndarray, low: np.ndarray, close: np.ndarray,
            end_idx: int, period: int = 14) -> float:
-    """Compute a simple 14-period ATR ending at end_idx (inclusive).
+    """Compute a simple `period`-bar ATR ending at end_idx (inclusive).
     Returns 0.0 if there is not enough data.
     """
     start = max(0, end_idx - period)
@@ -82,32 +83,32 @@ def _slope(arr: np.ndarray) -> float:
     if len(arr) < 2:
         return 0.0
     x = np.arange(len(arr), dtype=float)
-    slope = np.polyfit(x, arr, 1)[0]
+    slope = float(np.polyfit(x, arr, 1)[0])
     mean  = float(np.mean(arr))
     return slope / mean if abs(mean) > 1e-9 else 0.0
 
 
 def _is_uptrend(close: np.ndarray, end_idx: int,
                 lookback: int = 60, min_gain: float = 0.10) -> bool:
-    """Returns True if price gained at least min_gain over `lookback` bars
-    ending at end_idx.  Used to confirm prior trend before bearish patterns.
+    """True if price gained at least min_gain over `lookback` bars ending at
+    end_idx.  Used to confirm prior trend before bearish patterns.
     """
     start = max(0, end_idx - lookback)
     if end_idx <= start:
         return False
-    gain = (close[end_idx] - close[start]) / max(close[start], 1e-9)
+    gain = (close[end_idx] - close[start]) / max(abs(close[start]), 1e-9)
     return gain >= min_gain
 
 
 def _is_downtrend(close: np.ndarray, end_idx: int,
                   lookback: int = 60, min_loss: float = 0.10) -> bool:
-    """Returns True if price fell at least min_loss over `lookback` bars
-    ending at end_idx.  Used to confirm prior trend before bullish patterns.
+    """True if price fell at least min_loss over `lookback` bars ending at
+    end_idx.  Used to confirm prior trend before bullish patterns.
     """
     start = max(0, end_idx - lookback)
     if end_idx <= start:
         return False
-    loss = (close[start] - close[end_idx]) / max(close[start], 1e-9)
+    loss = (close[start] - close[end_idx]) / max(abs(close[start]), 1e-9)
     return loss >= min_loss
 
 
@@ -123,19 +124,39 @@ def _monotone_fall(vals: np.ndarray, slack: int = 1) -> bool:
     return violations <= slack
 
 
+def _dedupe_plateau(idx: np.ndarray, values: np.ndarray,
+                    want_max: bool) -> np.ndarray:
+    """Collapse runs of adjacent extrema indices (plateaus) to a single point.
+
+    argrelextrema with `greater_equal`/`less_equal` flags every member of a
+    flat top/bottom; argrelextrema with strict `greater`/`less` misses flat
+    extrema entirely.  We use the non-strict comparator (so flats are caught)
+    and collapse each consecutive run to its most extreme member here.
+    """
+    if len(idx) == 0:
+        return idx
+    keep: List[int] = []
+    run = [int(idx[0])]
+    for k in range(1, len(idx)):
+        if int(idx[k]) == run[-1] + 1:        # still inside the same plateau
+            run.append(int(idx[k]))
+        else:
+            vals = values[run]
+            pick = run[int(np.argmax(vals))] if want_max else run[int(np.argmin(vals))]
+            keep.append(pick)
+            run = [int(idx[k])]
+    vals = values[run]
+    pick = run[int(np.argmax(vals))] if want_max else run[int(np.argmin(vals))]
+    keep.append(pick)
+    return np.array(keep, dtype=int)
+
+
 # ─────────────────────────────────────────────────────────────────────────────
 #  Weekly resampling
 # ─────────────────────────────────────────────────────────────────────────────
 
 def _resample_ohlcv_weekly(df: pd.DataFrame) -> pd.DataFrame:
-    """Resample a daily OHLCV DataFrame to weekly (Friday close).
-
-    Fixes vs v5.3:
-    - Strip timezone before resampling (avoids AmbiguousTimeError).
-    - Explicit error logging instead of bare except.
-    - Preserve Volume if present.
-    - Name the resulting index 'Date' so detect_patterns can find it.
-    """
+    """Resample a daily OHLCV DataFrame to weekly (Friday close)."""
     try:
         odf = df.copy()
 
@@ -148,22 +169,51 @@ def _resample_ohlcv_weekly(df: pd.DataFrame) -> pd.DataFrame:
         if odf.index.tz is not None:
             odf.index = odf.index.tz_localize(None)
 
-        if odf.empty:
+        if odf.empty or 'Close' not in odf.columns:
             return pd.DataFrame()
 
         agg: Dict[str, str] = {}
-        for col, func in [('Open','first'), ('High','max'),
-                          ('Low','min'),  ('Close','last'), ('Volume','sum')]:
+        for col, func in [('Open', 'first'), ('High', 'max'),
+                          ('Low', 'min'), ('Close', 'last'), ('Volume', 'sum')]:
             if col in odf.columns:
                 agg[col] = func
 
         w = odf.resample('W-FRI').agg(agg).dropna(subset=['Close'])
-        w.index.name = 'Date'          # FIX: ensure index is named 'Date'
+        w.index.name = 'Date'
         return w
 
     except Exception as exc:
         logger.warning("Weekly resample failed: %s", exc)
         return pd.DataFrame()
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+#  Confidence scoring
+# ─────────────────────────────────────────────────────────────────────────────
+
+_CONF_BASE = {"HIGH": 72.0, "MEDIUM": 52.0, "LOW": 35.0}
+
+
+def _conf_score(conf: str, trend_ok: bool, rr: float,
+                vol_confirmed: Optional[bool]) -> float:
+    """Map the qualitative inputs to a 0-100 numeric confidence.
+
+    The downstream quality gate (market_engine._pattern_quality) consumes this
+    numeric value.  Components:
+      • base        from the detector's HIGH/MEDIUM/LOW label
+      • +10         prior-trend context confirmed
+      • up to +12   reward:risk (scaled, capped at 3R)
+      • ±8          breakout volume confirmation (True/False); 0 if unknown
+    """
+    s = _CONF_BASE.get(str(conf).upper(), 50.0)
+    if trend_ok:
+        s += 10.0
+    s += min(max(rr, 0.0), 3.0) / 3.0 * 12.0
+    if vol_confirmed is True:
+        s += 8.0
+    elif vol_confirmed is False:
+        s -= 8.0
+    return round(min(100.0, max(0.0, s)), 1)
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -189,7 +239,6 @@ def detect_patterns(df: pd.DataFrame, sym: str,
     df = df.tail(look_back).copy()
 
     # ── Normalise to RangeIndex, extract date column ─────────────────────────
-    # FIX: always name the extracted column 'Date' explicitly.
     if isinstance(df.index, pd.DatetimeIndex):
         df.index.name = 'Date'
         df = df.reset_index()           # → 'Date' column + RangeIndex
@@ -204,17 +253,16 @@ def detect_patterns(df: pd.DataFrame, sym: str,
     # ── Locate date column (robust, checks dtype + known names) ─────────────
     _date_col: Optional[str] = None
     _skip = {'Open', 'High', 'Low', 'Close', 'Volume',
-              'open', 'high', 'low', 'close', 'volume'}
+             'open', 'high', 'low', 'close', 'volume'}
     for _c in df.columns:
         if _c in _skip:
             continue
-        if _c.lower() in ('date', 'datetime', 'timestamp'):
+        if str(_c).lower() in ('date', 'datetime', 'timestamp'):
             _date_col = _c
             break
         if pd.api.types.is_datetime64_any_dtype(df[_c]):
             _date_col = _c
             break
-    # Fallback: first non-numeric, non-OHLCV column
     if _date_col is None:
         for _c in df.columns:
             if _c not in _skip and not pd.api.types.is_numeric_dtype(df[_c]):
@@ -236,61 +284,135 @@ def detect_patterns(df: pd.DataFrame, sym: str,
     low    = df["Low"].values.astype(float)   if "Low"    in df.columns else close.copy()
     volume = df["Volume"].values.astype(float) if "Volume" in df.columns else np.zeros(len(close))
     n      = len(close)
+    has_vol = bool(np.any(volume > 0))
 
-    # ── Local extrema ────────────────────────────────────────────────────────
+    # ── Local extrema (plateau-collapsed) ────────────────────────────────────
     order = 4 if timeframe == 'W' else 5
     hi = argrelextrema(high, np.greater_equal, order=order)[0]
     lo = argrelextrema(low,  np.less_equal,    order=order)[0]
+    hi = _dedupe_plateau(hi, high, want_max=True)
+    lo = _dedupe_plateau(lo, low,  want_max=False)
 
     sigs: List[Pattern] = []
 
+    # ── ATR-adaptive tolerance ───────────────────────────────────────────────
+    _last_atr = _atr14(high, low, close, n - 1, period=20)
+    _last_px  = close[-1] if close[-1] > 0 else 1.0
+    _atr_pct  = _last_atr / _last_px
+    _sim_tol  = float(np.clip(_atr_pct * 1.5, 0.02, 0.06))   # similarity tolerance
+    _tight_tol = float(np.clip(_atr_pct * 1.0, 0.015, 0.04))  # tighter check
+
+    # ── Breakout / volume confirmation helpers ───────────────────────────────
+    def _breakout(level: float, bull: bool, start: int,
+                  horizon: int = 45, buf: float = 0.003) -> Optional[int]:
+        """First bar after `start` whose CLOSE breaks `level` (with buffer).
+        Returns the breakout bar index, or None if no breakout within horizon.
+        """
+        end_j = min(n - 1, start + horizon)
+        for j in range(start + 1, end_j + 1):
+            if bull and close[j] > level * (1 + buf):
+                return j
+            if (not bull) and close[j] < level * (1 - buf):
+                return j
+        return None
+
+    def _vol_confirm(j: int, lookback: int = 20) -> Optional[bool]:
+        """True if volume at bar j expanded vs the prior `lookback` average.
+        Returns None when volume data is unavailable (so it stays neutral).
+        """
+        if not has_vol:
+            return None
+        a = max(0, j - lookback)
+        if j <= a:
+            return None
+        base = float(volume[a:j].mean())
+        if base <= 0:
+            return None
+        return bool(volume[j] > base * 1.2)
+
+    def _resolve_entry(level: float, bull: bool, pivot: int
+                       ) -> Optional[Tuple[int, str, Optional[bool]]]:
+        """Decide the actionable entry bar for a level-breakout pattern.
+
+        Returns (entry_idx, confidence, vol_confirmed) or None to skip.
+          • Confirmed breakout (close crossed level)  → entry = breakout bar,
+            confidence HIGH, volume checked at that bar.
+          • Still forming, price within tolerance of the level → entry = last
+            bar, confidence MEDIUM, volume unknown.
+          • Pattern never broke out and price has drifted away → skip (stale).
+        """
+        b = _breakout(level, bull, pivot)
+        if b is not None:
+            return b, "HIGH", _vol_confirm(b)
+        if abs(close[-1] - level) / max(abs(level), 1e-9) <= _sim_tol:
+            return n - 1, "MEDIUM", None
+        return None
+
     def _add(pat: str, dir_: str, ei: int,
              e: float, sl: float, tgt: float,
-             conf: str, notes: str = "", trend_ok: bool = False) -> None:
-        rr = abs(tgt - e) / max(abs(e - sl), 1e-9)
-        if rr < 1.5:
+             conf: str, notes: str = "", trend_ok: bool = False,
+             min_rr: float = 1.5, risk_cap: bool = False,
+             vol_confirmed: Optional[bool] = None) -> None:
+        """Append a Pattern if its reward:risk clears `min_rr`.
+
+        risk_cap=True (used for reversal patterns whose textbook
+        measured-move target only yields ~1R against a stop beyond the
+        pattern extreme): instead of rejecting, tighten the stop toward
+        entry so the setup meets `min_rr` exactly.  The tightened stop is
+        never moved past the entry, and the adjustment is noted.
+        """
+        e = float(e); sl = float(sl); tgt = float(tgt)
+        reward = abs(tgt - e)
+        risk   = abs(e - sl)
+        if reward <= 0:
             return
+        if risk < 1e-9:
+            return
+        rr = reward / risk
+        if rr < min_rr:
+            if risk_cap:
+                new_risk = reward / min_rr
+                sl = e - new_risk if dir_ == "BULLISH" else e + new_risk
+                risk = new_risk
+                rr = min_rr
+                notes = (notes + " | risk-capped stop").strip(" |")
+            else:
+                return
         atr = _atr14(high, low, close, ei)
+        cscore = _conf_score(conf, trend_ok, rr, vol_confirmed)
         sigs.append(Pattern(
             sym, pat, dir_, _date(ei),
             round(e, 4), round(sl, 4), round(tgt, 4), round(rr, 2),
-            conf, notes, timeframe, round(atr, 4), trend_ok
+            conf, notes, timeframe, round(atr, 4), trend_ok, cscore
         ))
-
-    # ── ATR-adaptive tolerance ───────────────────────────────────────────────
-    # Use the last 20-bar average ATR as a % of price to set similarity tol.
-    # Floored at 2 % and capped at 6 % so it doesn't blow up on thin data.
-    _last_atr = _atr14(high, low, close, n - 1, period=20)
-    _last_px   = close[-1] if close[-1] > 0 else 1.0
-    _atr_pct   = _last_atr / _last_px          # e.g. 0.018 for 1.8 %
-    _sim_tol   = float(np.clip(_atr_pct * 1.5, 0.02, 0.06))   # similarity tolerance
-    _tight_tol = float(np.clip(_atr_pct * 1.0, 0.015, 0.04))  # tighter check
 
     # ─────────────────────────────────────────────────────────────────────────
     # 1. DOUBLE BOTTOM (Bullish)
-    #    Require: prior downtrend, two similar lows, neckline breakout entry
     # ─────────────────────────────────────────────────────────────────────────
     for i in range(len(lo) - 1):
         l1, l2 = lo[i], lo[i + 1]
         if not (8 <= l2 - l1 <= 120):
             continue
         p1, p2 = low[l1], low[l2]
-        if not _near(p1, p2, _sim_tol + 0.01):     # adaptive tol, slightly looser
+        if not _near(p1, p2, _sim_tol + 0.01):
             continue
         neck = float(high[l1:l2 + 1].max())
         pattern_height = neck - min(p1, p2)
-        if pattern_height / max(neck, 1e-9) < 0.05:  # FIX: require minimum 5% depth
+        if pattern_height / max(neck, 1e-9) < 0.05:
             continue
+        res = _resolve_entry(neck, True, l2)
+        if res is None:
+            continue
+        ei, conf, vol = res
         trend_ok = _is_downtrend(close, l1, lookback=80)
-        _add("Double Bottom", "BULLISH", l2,
+        _add("Double Bottom", "BULLISH", ei,
              neck * 1.005, min(p1, p2) * 0.99,
              neck + pattern_height,
-             "HIGH", f"Neck≈{neck:.2f} Depth={pattern_height/neck:.1%}",
-             trend_ok)
+             conf, f"Neck≈{neck:.2f} Depth={pattern_height/neck:.1%}",
+             trend_ok, min_rr=1.5, risk_cap=True, vol_confirmed=vol)
 
     # ─────────────────────────────────────────────────────────────────────────
     # 2. DOUBLE TOP (Bearish)
-    #    Require: prior uptrend, two similar highs, neckline breakdown entry
     # ─────────────────────────────────────────────────────────────────────────
     for i in range(len(hi) - 1):
         h1, h2 = hi[i], hi[i + 1]
@@ -303,17 +425,19 @@ def detect_patterns(df: pd.DataFrame, sym: str,
         pattern_height = max(p1, p2) - neck
         if pattern_height / max(max(p1, p2), 1e-9) < 0.05:
             continue
+        res = _resolve_entry(neck, False, h2)
+        if res is None:
+            continue
+        ei, conf, vol = res
         trend_ok = _is_uptrend(close, h1, lookback=80)
-        _add("Double Top", "BEARISH", h2,
+        _add("Double Top", "BEARISH", ei,
              neck * 0.995, max(p1, p2) * 1.01,
              neck - pattern_height,
-             "HIGH", f"Neck≈{neck:.2f} Depth={pattern_height/max(p1,p2):.1%}",
-             trend_ok)
+             conf, f"Neck≈{neck:.2f} Depth={pattern_height/max(p1,p2):.1%}",
+             trend_ok, min_rr=1.5, risk_cap=True, vol_confirmed=vol)
 
     # ─────────────────────────────────────────────────────────────────────────
     # 3. HEAD & SHOULDERS TOP (Bearish)
-    #    FIX: added minimum head prominence, neckline tilt tolerance,
-    #         and prior uptrend check.
     # ─────────────────────────────────────────────────────────────────────────
     for i in range(len(hi) - 2):
         ls, lh, lr = hi[i], hi[i + 1], hi[i + 2]
@@ -326,28 +450,33 @@ def detect_patterns(df: pd.DataFrame, sym: str,
             continue
         if not _near(slp, srp, 0.09):
             continue
-        # FIX: require head to be meaningfully above shoulders
         head_prominence = head - max(slp, srp)
         if head_prominence / max(head, 1e-9) < 0.03:
             continue
         neck_l = float(low[ls:lh + 1].min())
         neck_r = float(low[lh:lr + 1].min())
-        neck   = (neck_l + neck_r) / 2
+        # Neckline must be roughly horizontal (steeply tilted necklines distort
+        # the measured target — keep the tilt under ~8%).
+        if not _near(neck_l, neck_r, 0.08):
+            continue
+        neck = (neck_l + neck_r) / 2
         if neck <= 0:
             continue
-        # FIX: minimum pattern height check
         if (head - neck) / max(head, 1e-9) < 0.05:
             continue
+        res = _resolve_entry(neck, False, lr)
+        if res is None:
+            continue
+        ei, conf, vol = res
         trend_ok = _is_uptrend(close, ls, lookback=80)
-        _add("H&S Top", "BEARISH", lr,
+        _add("H&S Top", "BEARISH", ei,
              neck * 0.995, head * 1.01,
              neck - (head - neck),
-             "HIGH", f"Head={head:.2f} Prom={head_prominence/head:.1%}",
-             trend_ok)
+             conf, f"Head={head:.2f} Prom={head_prominence/head:.1%}",
+             trend_ok, min_rr=1.5, risk_cap=True, vol_confirmed=vol)
 
     # ─────────────────────────────────────────────────────────────────────────
     # 4. INVERSE HEAD & SHOULDERS (Bullish)
-    #    FIX: head prominence, minimum depth, prior downtrend check.
     # ─────────────────────────────────────────────────────────────────────────
     for i in range(len(lo) - 2):
         ls, lh, lr = lo[i], lo[i + 1], lo[i + 2]
@@ -365,33 +494,37 @@ def detect_patterns(df: pd.DataFrame, sym: str,
             continue
         neck_l = float(high[ls:lh + 1].max())
         neck_r = float(high[lh:lr + 1].max())
-        neck   = (neck_l + neck_r) / 2
+        if not _near(neck_l, neck_r, 0.08):
+            continue
+        neck = (neck_l + neck_r) / 2
         if (neck - head) / max(neck, 1e-9) < 0.05:
             continue
+        res = _resolve_entry(neck, True, lr)
+        if res is None:
+            continue
+        ei, conf, vol = res
         trend_ok = _is_downtrend(close, ls, lookback=80)
-        _add("Inv H&S", "BULLISH", lr,
+        _add("Inv H&S", "BULLISH", ei,
              neck * 1.005, head * 0.99,
              neck + (neck - head),
-             "HIGH", f"Head={head:.2f} Depth={head_depth/min(slp,srp):.1%}",
-             trend_ok)
+             conf, f"Head={head:.2f} Depth={head_depth/min(slp,srp):.1%}",
+             trend_ok, min_rr=1.5, risk_cap=True, vol_confirmed=vol)
 
     # ─────────────────────────────────────────────────────────────────────────
     # 5. VCP — Volatility Contraction Pattern (Bullish)
-    #    FIX: volume confirmation (declining vol during contraction),
-    #         minimum prior trend, correct sw length guard.
+    #    Iterate newest→oldest and stop at the first qualifying setup so we
+    #    report the most recent contraction (and avoid O(n) duplicate work).
     # ─────────────────────────────────────────────────────────────────────────
     win = 60 if timeframe == 'D' else 30
     q   = max(1, win // 4)
 
-    for end in range(win, n):
+    for end in range(n - 1, win - 1, -1):
         seg_h = high[end - win: end + 1]
         seg_l = low[end - win:  end + 1]
-        seg_c = close[end - win: end + 1]
         seg_v = volume[end - win: end + 1]
 
-        # Build per-quarter swing ranges
         sw: List[float] = []
-        vq: List[float] = []   # per-quarter avg volume
+        vq: List[float] = []
         for qi in range(4):
             slc_h = seg_h[qi * q: (qi + 1) * q]
             slc_l = seg_l[qi * q: (qi + 1) * q]
@@ -406,27 +539,29 @@ def detect_patterns(df: pd.DataFrame, sym: str,
         if not all(sw[j] > sw[j + 1] for j in range(len(sw) - 1)):
             continue
 
-        # Volume should also contract (at least somewhat)
-        vol_contracting = len(vq) < 2 or vq[-1] < vq[0] * 1.2  # allow 20% slack
+        # Volume should also dry up across the base (Minervini: lowest volume
+        # in the final contraction).  Allow 20% slack.
+        vol_contracting = (not has_vol) or len(vq) < 2 or vq[-1] < vq[0] * 1.2
 
-        res  = float(seg_h.max())
-        bl   = float(seg_l.min())
-        sl_b = float(seg_l[-q:].min())
+        res_lvl = float(seg_h.max())
+        bl      = float(seg_l.min())
+        sl_b    = float(seg_l[-q:].min())
 
-        # Require at least 10% prior move into the VCP
         trend_ok = _is_uptrend(close, end - win, lookback=60, min_gain=0.10)
+        vol = _vol_confirm(end) if vol_contracting else False
 
-        notes = f"Vol dry-up" + ("" if vol_contracting else " [vol not contracting]")
+        notes = "Vol dry-up" + ("" if vol_contracting else " [vol not contracting]")
         conf  = "HIGH" if (trend_ok and vol_contracting) else "MEDIUM"
+        before = len(sigs)
         _add("VCP", "BULLISH", end,
-             res * 1.005, sl_b * 0.99,
-             res * 1.005 + (res - bl) * 0.75,
-             conf, notes, trend_ok)
+             res_lvl * 1.005, sl_b * 0.99,
+             res_lvl * 1.005 + (res_lvl - bl) * 0.75,
+             conf, notes, trend_ok, vol_confirmed=vol)
+        if len(sigs) > before:
+            break
 
     # ─────────────────────────────────────────────────────────────────────────
     # 6. CUP & HANDLE (Bullish)
-    #    FIX: handle slope check (must be flat/down), volume check on breakout,
-    #         rim symmetry check.
     # ─────────────────────────────────────────────────────────────────────────
     min_cup = 20 if timeframe == 'D' else 10
     max_cup = 120 if timeframe == 'D' else 60
@@ -439,68 +574,76 @@ def detect_patterns(df: pd.DataFrame, sym: str,
         tr = float(high[r])
         if not _near(tl, tr, 0.07):     # rims must be similar height
             continue
-        bot     = float(low[l: r + 1].min())
-        depth   = (tl - bot) / max(tl, 1e-9)
+        bot   = float(low[l: r + 1].min())
+        depth = (tl - bot) / max(tl, 1e-9)
         if not (0.10 <= depth <= 0.50):  # cup 10–50 % deep
             continue
-        # Cup bottom should be rounded: no sharp V (midpoint not too low vs bottom)
-        cup_mid_low = float(low[l + (r - l) // 3: r - (r - l) // 3 + 1].min()) \
-                      if (r - l) > 6 else bot
-        if (bot - cup_mid_low) / max(tl, 1e-9) < -0.02:  # bottom too jagged
-            pass   # soft check only; don't reject
+
+        # Rounded-bottom check: the deepest point should sit in the middle
+        # third of the cup, not at an edge (which would make it a V or a
+        # descending wedge rather than a cup).  Soft — downgrades confidence.
+        bot_idx = l + int(np.argmin(low[l: r + 1]))
+        span = max(r - l, 1)
+        rounded = (l + span / 3) <= bot_idx <= (r - span / 3)
 
         if r + 3 >= n:
             continue
         handle_end = min(r + 15, n - 1)
-        handle_low  = float(low[r: handle_end + 1].min())
+        handle_low = float(low[r: handle_end + 1].min())
         handle_retrace = (tr - handle_low) / max(tr, 1e-9)
 
         if handle_retrace > 0.15:        # handle retraces more than 15 % — too deep
             continue
-        # FIX: handle must slope flat or downward (not rally back up aggressively)
         handle_slope = _slope(close[r: handle_end + 1])
-        if handle_slope > 0.003:         # handle drifting up is not a real handle
+        if handle_slope > 0.003:         # a real handle is flat or drifts down
             continue
 
+        res = _resolve_entry(tr, True, handle_end)
+        if res is None:
+            continue
+        ei, conf, vol = res
+        if not rounded and conf == "HIGH":
+            conf = "MEDIUM"
         trend_ok = _is_uptrend(close, l, lookback=80)
-        _add("Cup & Handle", "BULLISH", r,
+        _add("Cup & Handle", "BULLISH", ei,
              tr * 1.005, handle_low * 0.99,
              tr * 1.005 + (tr - bot),
-             "HIGH", f"Depth={depth:.1%} HandleRetrace={handle_retrace:.1%}",
-             trend_ok)
+             conf, f"Depth={depth:.1%} HandleRetrace={handle_retrace:.1%}"
+                   + ("" if rounded else " [shallow round]"),
+             trend_ok, vol_confirmed=vol)
 
     # ─────────────────────────────────────────────────────────────────────────
     # 7. ASCENDING TRIANGLE (Bullish)
-    #    FIX: require monotone rise in lows (not just first vs last),
-    #         minimum width, tighter resistance flatness.
     # ─────────────────────────────────────────────────────────────────────────
     for i in range(len(hi) - 1):
         h1, h2 = hi[i], hi[i + 1]
         if not (12 <= h2 - h1 <= 80):
             continue
         p1h, p2h = high[h1], high[h2]
-        if not _near(p1h, p2h, _tight_tol):   # FIX: tighter flat-resistance check
+        if not _near(p1h, p2h, _tight_tol):   # flat resistance
             continue
         lo_in = lo[(lo >= h1) & (lo <= h2)]
         if len(lo_in) < 2:
             continue
         lo_vals = low[lo_in]
-        # FIX: require generally rising lows (not just first < last)
         if not _monotone_rise(lo_vals, slack=1):
             continue
-        # Ensure the rise is meaningful
         if (lo_vals[-1] - lo_vals[0]) / max(lo_vals[0], 1e-9) < 0.015:
             continue
         resistance = (p1h + p2h) / 2
+        res = _resolve_entry(resistance, True, h2)
+        if res is None:
+            continue
+        ei, conf, vol = res
+        conf = "HIGH" if (conf == "HIGH") else "MEDIUM"
         trend_ok = _is_uptrend(close, h1, lookback=60, min_gain=0.05)
-        _add("Asc Triangle", "BULLISH", h2,
+        _add("Asc Triangle", "BULLISH", ei,
              resistance * 1.005, lo_vals[-1] * 0.99,
              resistance + (resistance - lo_vals[0]),
-             "MEDIUM", f"Res≈{resistance:.2f}", trend_ok)
+             conf, f"Res≈{resistance:.2f}", trend_ok, vol_confirmed=vol)
 
     # ─────────────────────────────────────────────────────────────────────────
     # 8. DESCENDING TRIANGLE (Bearish)
-    #    FIX: require monotone fall in highs, tighter support flatness.
     # ─────────────────────────────────────────────────────────────────────────
     for i in range(len(lo) - 1):
         l1, l2 = lo[i], lo[i + 1]
@@ -513,22 +656,27 @@ def detect_patterns(df: pd.DataFrame, sym: str,
         if len(hi_in) < 2:
             continue
         hi_vals = high[hi_in]
-        # FIX: require generally falling highs
         if not _monotone_fall(hi_vals, slack=1):
             continue
         if (hi_vals[0] - hi_vals[-1]) / max(hi_vals[0], 1e-9) < 0.015:
             continue
-        support  = (p1l + p2l) / 2
+        support = (p1l + p2l) / 2
+        res = _resolve_entry(support, False, l2)
+        if res is None:
+            continue
+        ei, conf, vol = res
+        conf = "HIGH" if (conf == "HIGH") else "MEDIUM"
         trend_ok = _is_downtrend(close, l1, lookback=60, min_loss=0.05)
-        _add("Desc Triangle", "BEARISH", l2,
+        _add("Desc Triangle", "BEARISH", ei,
              support * 0.995, hi_vals[0] * 1.01,
              support - (hi_vals[0] - support),
-             "MEDIUM", f"Sup≈{support:.2f}", trend_ok)
+             conf, f"Sup≈{support:.2f}", trend_ok, vol_confirmed=vol)
 
     # ─────────────────────────────────────────────────────────────────────────
-    # 9. SYMMETRICAL TRIANGLE (Bullish bias)
-    #    FIX: require at least 3 highs & 3 lows (not just 2), check apex
-    #         distance is reasonable, verify proper convergence via slopes.
+    # 9. SYMMETRICAL TRIANGLE (direction follows the prior trend)
+    #    Triangles are continuation patterns: ~75% resolve in the direction of
+    #    the prevailing trend.  We bias direction by prior trend and require a
+    #    confirming breakout through the relevant boundary.
     # ─────────────────────────────────────────────────────────────────────────
     for i in range(len(hi) - 1):
         h1, h2 = hi[i], hi[i + 1]
@@ -546,27 +694,47 @@ def detect_patterns(df: pd.DataFrame, sym: str,
             continue
         fall = (p1h - p2h) / max(p1h, 1e-9)
         rise = (p2l - p1l) / max(p1l, 1e-9)
-        if fall < 0.02 or rise < 0.02:   # FIX: both sides must converge meaningfully
+        if fall < 0.02 or rise < 0.02:   # both sides must converge meaningfully
             continue
-        # FIX: require multiple pivot points (at least one more high or low inside)
-        n_pivots = len(lo_in) + 2   # 2 highs + inner lows
-        if n_pivots < 4:
-            continue
-        _add("Sym Triangle", "BULLISH", h2,
-             p2h * 1.005, p2l * 0.99,
-             p2h + (p1h - p1l) * 0.6,
-             "MEDIUM", f"Converging Fall={fall:.1%} Rise={rise:.1%}")
+        # Need at least one interior low between the two highs (a degenerate
+        # 4-point box is not a triangle).  lo_in already has ≥2 members.
+        height = p1h - p1l
+
+        up = _is_uptrend(close, h1, lookback=60, min_gain=0.05)
+        dn = _is_downtrend(close, h1, lookback=60, min_loss=0.05)
+        if dn and not up:
+            # Bearish continuation — break of the lower (rising) boundary.
+            res = _resolve_entry(p2l, False, h2)
+            if res is None:
+                continue
+            ei, conf, vol = res
+            _add("Sym Triangle", "BEARISH", ei,
+                 p2l * 0.995, p2h * 1.01,
+                 p2l - height * 0.6,
+                 conf, f"Converging Fall={fall:.1%} Rise={rise:.1%}",
+                 dn, vol_confirmed=vol)
+        else:
+            # Bullish continuation (default) — break of the upper boundary.
+            res = _resolve_entry(p2h, True, h2)
+            if res is None:
+                continue
+            ei, conf, vol = res
+            _add("Sym Triangle", "BULLISH", ei,
+                 p2h * 1.005, p2l * 0.99,
+                 p2h + height * 0.6,
+                 conf, f"Converging Fall={fall:.1%} Rise={rise:.1%}",
+                 up, vol_confirmed=vol)
 
     # ─────────────────────────────────────────────────────────────────────────
-    # 10. BULL FLAG (Bullish)
-    #     FIX: break bug — only break after _add succeeds (rr >= 1.5).
-    #          Also require flag volume < pole volume (volume contraction).
+    # 10. BULL FLAG (Bullish) — newest→oldest, stop at first valid setup.
     # ─────────────────────────────────────────────────────────────────────────
     min_pole_pct = 7  if timeframe == 'D' else 10
     pole_lens    = [7, 10, 15] if timeframe == 'D' else [4, 6, 8]
 
-    for pole_end in range(10, n - 4):
-        added = False   # FIX: track whether we've added a signal for this pole_end
+    found_flag = False
+    for pole_end in range(n - 5, 9, -1):
+        if found_flag:
+            break
         for pole_len in pole_lens:
             pole_start = pole_end - pole_len
             if pole_start < 0:
@@ -593,34 +761,31 @@ def detect_patterns(df: pd.DataFrame, sym: str,
             if (close[pole_end] - c_lo.min()) > (close[pole_end] - close[pole_start]) * 0.5:
                 continue
 
-            slope_norm = np.polyfit(range(len(c_cl)), c_cl, 1)[0] / max(c_cl[0], 1e-9)
+            slope_norm = float(np.polyfit(range(len(c_cl)), c_cl, 1)[0]) / max(c_cl[0], 1e-9)
             if not (-0.015 <= slope_norm <= 0.003):
                 continue
 
-            # FIX: volume should be lower during flag than during pole
-            avg_flag_vol = float(c_vl.mean()) if len(c_vl) > 0 else 0
-            avg_pole_vol = float(p_vl.mean()) if len(p_vl) > 0 else 0
-            vol_ok = (avg_pole_vol == 0) or (avg_flag_vol < avg_pole_vol * 1.1)
+            avg_flag_vol = float(c_vl.mean()) if len(c_vl) > 0 else 0.0
+            avg_pole_vol = float(p_vl.mean()) if len(p_vl) > 0 else 0.0
+            vol_ok = (not has_vol) or avg_pole_vol == 0 or (avg_flag_vol < avg_pole_vol * 1.1)
 
-            before_count = len(sigs)
+            before = len(sigs)
             _add("Bull Flag", "BULLISH", pole_end + consol_len,
                  c_hi.max() * 1.005, c_lo.min() * 0.99,
                  c_hi.max() * 1.005 + (close[pole_end] - close[pole_start]),
                  "HIGH" if vol_ok else "MEDIUM",
-                 f"Pole:{pole_move:.1f}%")
-            # FIX: only break if _add actually appended (rr >= 1.5)
-            if len(sigs) > before_count:
-                added = True
+                 f"Pole:{pole_move:.1f}%", vol_confirmed=(None if not has_vol else vol_ok))
+            if len(sigs) > before:
+                found_flag = True
                 break
-            # If rr too low, try a longer pole — do NOT break
-        _ = added  # suppress unused warning
 
     # ─────────────────────────────────────────────────────────────────────────
-    # 11. PENNANT (Bullish)
-    #     FIX: same break bug fixed as Bull Flag.
-    #          Added minimum convergence check.
+    # 11. PENNANT (Bullish) — newest→oldest, stop at first valid setup.
     # ─────────────────────────────────────────────────────────────────────────
-    for pole_end in range(10, n - 4):
+    found_pennant = False
+    for pole_end in range(n - 5, 9, -1):
+        if found_pennant:
+            break
         for pole_len in pole_lens:
             pole_start = pole_end - pole_len
             if pole_start < 0:
@@ -638,31 +803,30 @@ def detect_patterns(df: pd.DataFrame, sym: str,
 
             c_hi = high[pole_end:  pole_end + consol_len + 1]
             c_lo = low[pole_end:   pole_end + consol_len + 1]
-            h_slope = np.polyfit(range(len(c_hi)), c_hi, 1)[0]
-            l_slope = np.polyfit(range(len(c_lo)), c_lo, 1)[0]
+            h_slope = float(np.polyfit(range(len(c_hi)), c_hi, 1)[0])
+            l_slope = float(np.polyfit(range(len(c_lo)), c_lo, 1)[0])
 
             if h_slope >= 0 or l_slope <= 0:   # must converge
                 continue
             if (c_hi.max() - c_lo.min()) / max(close[pole_end], 1e-9) * 100 > pole_move * 0.30:
                 continue
-
-            # FIX: verify the slopes actually converge (h_slope < 0, l_slope > 0 is guaranteed above)
-            # But also check that convergence is meaningful (not near-parallel)
-            if abs(h_slope - l_slope) / max(abs(close[pole_end]), 1e-9) < 1e-4:
+            # Convergence must be meaningful relative to the pennant's own
+            # height, not near-parallel.
+            pennant_h = max(c_hi.max() - c_lo.min(), 1e-9)
+            if abs(h_slope) + abs(l_slope) < pennant_h / max(len(c_hi), 1) * 0.15:
                 continue
 
-            before_count = len(sigs)
+            before = len(sigs)
             _add("Pennant", "BULLISH", pole_end + consol_len,
                  c_hi[-1] * 1.005, c_lo[-1] * 0.99,
                  c_hi[-1] * 1.005 + (close[pole_end] - close[pole_start]) * 0.8,
                  "HIGH", f"Pole:{pole_move:.1f}%")
-            # FIX: only break if signal was actually added
-            if len(sigs) > before_count:
+            if len(sigs) > before:
+                found_pennant = True
                 break
 
     # ─────────────────────────────────────────────────────────────────────────
     # Deduplicate: keep most recent per (pattern, direction, timeframe)
-    # FIX: include timeframe in key so daily & weekly signals don't clobber each other
     # ─────────────────────────────────────────────────────────────────────────
     seen: Dict[Tuple[str, str, str], Pattern] = {}
     for s in sigs:
@@ -707,7 +871,6 @@ def run_pattern_detection(
                 by_sym[sym] = pats
                 all_pats.extend(pats)
         except Exception as exc:
-            # FIX: log with symbol name instead of silently swallowing
             logger.warning("Daily pattern detection failed for %s: %s", sym, exc)
             errors.append(f"{sym}(D): {exc}")
         if (i + 1) % 100 == 0:
@@ -742,104 +905,97 @@ def run_pattern_detection(
     )
     if errors:
         logger.warning("%d symbols had errors during detection", len(errors))
-        for e in errors[:20]:   # cap log spam
+        for e in errors[:20]:
             logger.debug("  Error: %s", e)
 
     return by_sym, all_pats
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-#  CHANGELOG — v5.3 → v6.0
+#  CHANGELOG — v6.0 → v6.1
 # ─────────────────────────────────────────────────────────────────────────────
 """
-BUG FIXES
-─────────
-1. [CRITICAL] Deduplication key did not include `timeframe`.
-   A "Bull Flag BULLISH Daily" and "Bull Flag BULLISH Weekly" for the same
-   stock would collide and only the later-dated one would survive.
-   Fix: key = (pattern, direction, timeframe).
+CRITICAL BUG FIXES
+──────────────────
+1. [CRITICAL] Reversal patterns (Double Bottom/Top, H&S, Inv H&S) could NEVER
+   pass the R:R ≥ 1.5 gate.  Their textbook target is a 1× measured move
+   (= pattern height) while the stop sits beyond the pattern extreme
+   (≈ pattern height + entry/stop buffers), so R:R is mathematically < 1 in
+   every case — these patterns were silently dropped 100% of the time.
+   Fix: `_add(risk_cap=True)` for reversal patterns — instead of rejecting,
+   the stop is tightened toward entry to meet the R:R floor (a legitimate,
+   documented "price fell back into the pattern → invalidated" stop).  The
+   stop is never moved past entry; the adjustment is noted in `notes`.
 
-2. [CRITICAL] Bull Flag & Pennant: `break` fired unconditionally after _add(),
-   even when _add() did NOT append (rr < 1.5).  This caused valid longer-pole
-   setups to be skipped when a shorter pole had bad R:R.
-   Fix: track len(sigs) before/after _add() and only break if it grew.
+2. [CRITICAL] `confidence` was emitted only as a string ("HIGH"/"MEDIUM"),
+   but the downstream gate (market_engine._pattern_quality) did
+   `float(p.confidence)`, which always raised → confidence was ignored in
+   scoring (treated as neutral 50).
+   Fix: added numeric `Pattern.conf_score` (0-100) derived from the label,
+   prior-trend context, R:R, and volume confirmation.  (market_engine should
+   read `conf_score` instead of `float(confidence)` — see integration note.)
 
-3. [MAJOR] Weekly resampling: the resampled DataFrame's index was unnamed,
-   so after reset_index() the date column was called 'index', not 'Date'.
-   detect_patterns' column search would miss it → all weekly pattern dates
-   were empty strings.
-   Fix: explicitly set `w.index.name = 'Date'` after resampling.
+3. [MAJOR] No breakout confirmation — patterns were emitted dated at the
+   pivot with an *assumed* entry that may never have occurred, so "fresh"
+   signals could be stale formations price had long left behind.
+   Fix: `_resolve_entry()` requires either a confirmed close-through-level
+   breakout (→ entry dated at the breakout bar, HIGH confidence, volume
+   checked) or price still within tolerance of the level (→ "forming",
+   MEDIUM confidence).  Patterns that never broke out and drifted away are
+   now skipped.  Applied to Double Bottom/Top, H&S, Inv H&S, Cup & Handle,
+   Asc/Desc/Sym Triangle.
 
-4. [MAJOR] Weekly resampling: timezone-aware DatetimeIndex caused
-   AmbiguousTimeError on resample(). Fix: strip tz before resampling.
+CORRECTNESS FIXES
+─────────────────
+4. [MAJOR] Symmetrical Triangle was hard-coded BULLISH.  Triangles are
+   continuation patterns (~75% resolve with the prior trend).
+   Fix: direction now follows the prior trend (uptrend→bullish break of the
+   upper line, downtrend→bearish break of the lower line) with a confirming
+   breakout, and a proper bearish entry/stop/target.
 
-5. [MAJOR] Silent exception swallowing throughout:
-   - _resample_ohlcv_weekly: bare `except: return pd.DataFrame()`
-   - run_pattern_detection: bare `except: pass`
-   These hid real bugs (e.g. MemoryError, KeyError).
-   Fix: `except Exception as exc: logger.warning(...)` everywhere.
+5. [MEDIUM] Extrema detection used `greater_equal`/`less_equal`, which tags
+   every bar of a flat top/bottom as a separate pivot (plateau spam).
+   Fix: `_dedupe_plateau()` collapses each flat run to its single most
+   extreme bar (keeps flats, removes duplicates).
 
-6. [MEDIUM] Ascending/Descending Triangle: only checked first vs last pivot
-   value (lo_vals[-1] <= lo_vals[0]).  A zigzag (up, down, up) pattern
-   would incorrectly pass.
-   Fix: _monotone_rise() / _monotone_fall() with slack=1.
+6. [MEDIUM] H&S / Inv H&S did not check neckline tilt — a steeply sloped
+   neckline distorts the measured target.
+   Fix: require the two neckline troughs/peaks to be within ~8%.
 
-7. [MEDIUM] H&S Top / Inv H&S: no minimum head prominence check.
-   A head only marginally above the shoulders would fire.
-   Fix: require head prominence ≥ 3% of head price.
+7. [LOW] Dead/no-op checks removed or made real:
+   - Cup & Handle "jagged bottom" check was a `pass` (did nothing) → replaced
+     with a real rounded-bottom test (deepest bar in the middle third);
+     failing it downgrades confidence rather than rejecting.
+   - Sym Triangle `n_pivots < 4` was always false (unreachable) → removed.
+   - Pennant near-parallel guard divided by price (effectively never fired)
+     → rewritten relative to the pennant's own height.
 
-8. [MEDIUM] Double Bottom / Top: no minimum pattern height.
-   Two lows 0.1% apart with a "neckline" 0.5% above would fire.
-   Fix: require depth ≥ 5% of neckline.
+QUALITY / PERFORMANCE
+─────────────────────
+8. VCP / Bull Flag / Pennant now iterate newest→oldest and stop at the first
+   qualifying setup, so they report the most recent formation and skip the
+   redundant O(n) rescans that the final dedup discarded anyway.
 
-QUALITY IMPROVEMENTS
-────────────────────
-9.  ATR-based adaptive tolerance (_sim_tol, _tight_tol):
-    Instead of a universal 3% / 4% fixed tolerance, we derive the
-    similarity tolerance from the recent 20-bar ATR as a % of price,
-    clipped to [2%, 6%].  High-volatility stocks get looser tolerances;
-    low-volatility stocks get tighter ones.
+9. Volume confirmation (`_vol_confirm`) folded into `conf_score` for all
+   breakout patterns; gracefully neutral when volume data is absent.
 
-10. Prior-trend context (trend_ok field):
-    - Bullish patterns (Double Bottom, Inv H&S, VCP, etc.) now check for
-      a preceding downtrend via _is_downtrend().
-    - Bearish patterns check for a preceding uptrend via _is_uptrend().
-    - The result is stored in Pattern.trend_ok (True/False).
-    - Patterns without trend confirmation are still emitted (to avoid
-      over-filtering) but callers can filter on trend_ok == True.
+10. Trend gain/loss and slope helpers hardened against negative/zero prices
+    (abs() in denominators).
 
-11. VCP: volume contraction check added.
-    Flag volume is checked against pole volume; mismatch downgrades
-    confidence to MEDIUM.
+INTEGRATION NOTE (market_engine.py)
+───────────────────────────────────
+`_pattern_quality()` line ~1378 should change:
+    conf = float(p.confidence)              # always throws on "HIGH"
+to:
+    conf = float(getattr(p, "conf_score", 0)) or _LABEL.get(str(p.confidence).upper(), 50)
+so the numeric confidence is actually used.  Until then conf_score is still
+emitted and harmless (the gate falls back to neutral as before).
 
-12. Cup & Handle: handle slope check added.
-    A handle that drifts upward (slope_norm > 0.003) is rejected —
-    a real handle should be flat or mildly declining.
-
-13. Symmetrical Triangle: requires ≥ 4 total pivot points (was 2 lows + 2 highs
-    with no inner pivots).  Prevents degenerate 4-bar "triangles".
-
-14. ATR field added to Pattern dataclass:
-    14-period ATR at the signal bar.  Useful for position sizing.
-
-15. Weekly resampling now aggregates Volume (sum) when present.
-
-16. _atr14(), _slope(), _is_uptrend(), _is_downtrend(), _monotone_rise(),
-    _monotone_fall() helper functions added.
-
-UNCERTAIN / APPROXIMATE
-────────────────────────
-- H&S neckline is still the average of the two neckline troughs, not a
-  fitted line.  For steeply tilted necklines this introduces ~1–3% error
-  in the measured target.  A proper line-fit would need index positions
-  which adds complexity; the current approximation is acceptable for
-  screening purposes.
-
-- The 10% prior-trend threshold (_is_uptrend / _is_downtrend) is a
-  heuristic.  In a choppy market, 10% may be too low; in a strong trend,
-  it may wrongly reject late-stage patterns.  Callers can tune this.
-
-- VCP quarter-swing method is Mark Minervini's original heuristic, not
-  a rigorously defined mathematical criterion.  False positives in
-  sideways markets are expected.
+UNCERTAIN / APPROXIMATE (unchanged from v6.0)
+─────────────────────────────────────────────
+- H&S neckline is the average of the two troughs, not a fitted line
+  (acceptable for screening; tilt is now bounded to ≤8%).
+- The 5–10% prior-trend thresholds are heuristics; callers may tune them.
+- VCP quarter-swing method follows Minervini's heuristic, not a rigorous
+  mathematical criterion; false positives in sideways markets are expected.
 """

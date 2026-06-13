@@ -1,16 +1,12 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-Emaar Properties PJSC,Real Estate,EMAAR.DU,EQ,
-Aldar Properties PJSC,Real Estate,ALDAR.AD,EQ,
-Emaar Development PJSC,Real Estate,EMAARDEV.DU,EQ,
-Modon Holding PSC,Real Estate,MODON.AD,EQ,
-TECOM Group PJSC,Real Estate,TECOM.DU,EQ,
-Dubai Residential REIT,Real Estate,DUBAIRESD.DU,EQ,
-Deyaar Development PJSC,Real Estate,DEYAAR.DU,EQ,
-Union Properties PJSC,Real Estate,UPP.DU,EQ,
-RAK Properties PJSC,Real Estate,RAKPROP.AD,EQ,
-Eshraq Investments PJSC,Real Estate,ESHRAQ.DU,EQ,
-Manazel PJSC,Real Estate,MANAZEL.DU,EQ,
-Al Mal Capital REIT,Real Estate,AMCREIT.DU,EQ,
-Emirates REIT (CEIC) PLC,Real Estate,REIT.DU,EQ,
-Al-Mazaya Holding Co. SAKC,Real Estate,MAZAYA.KW,EQ,
-ENBD REIT (CEIC) PLC,Real Estate,ENBDREIT.DU,EQ,
+Emaar Properties PJSC,Real Estate,EMAAR.DU,EQ,AEE000301011
+Aldar Properties PJSC,Real Estate,ALDAR.AD,EQ,AEA002001013
+Emaar Development PJSC,Real Estate,EMAARDEV.DU,EQ,AEE001901017
+Modon Holding PSC,Real Estate,MODON.AD,EQ,AEA006501018
+TECOM Group PJSC,Real Estate,TECOM.DU,EQ,AEE01081T004
+Deyaar Development PJSC,Real Estate,DEYAAR.DU,EQ,AED001001018
+RAK Properties PJSC,Real Estate,RAKPROP.AD,EQ,AER000601016
+Union Properties PJSC,Real Estate,UPP.DU,EQ,AEU000101011
+Al Mal Capital REIT,Real Estate,AMCREIT.DU,EQ,AEA003630067
+Emirates REIT (CEIC) PLC,Real Estate,REIT.DU,EQ,AEDFXA1XE5D7
+ENBD REIT (CEIC) PLC,Real Estate,ENBDREIT.DU,EQ,AEDFXA1CN004

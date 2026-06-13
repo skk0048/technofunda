@@ -1,279 +1,217 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-ABB Ltd.,Industrials,ABB.ST,EQ,
-Atlas Copco AB Class B,Industrials,ATCO-B.ST,EQ,
-Atlas Copco AB Class A,Industrials,ATCO-A.ST,EQ,
-Volvo AB Class A,Industrials,VOLV-A.ST,EQ,
-Volvo AB Class B,Industrials,VOLV-B.ST,EQ,
-Sandvik AB,Industrials,SAND.ST,EQ,
-Epiroc AB Class B,Industrials,EPI-B.ST,EQ,
-Epiroc AB Class A,Industrials,EPI-A.ST,EQ,
-Kongsberg Gruppen ASA,Industrials,KOGO.ST,EQ,
-Alfa Laval AB,Industrials,ALFA.ST,EQ,
-Lifco AB Class B,Industrials,LIFCO-B.ST,EQ,
-Verisure Plc,Industrials,VSURE.ST,EQ,
-SKF AB Class A,Industrials,SKF-A.ST,EQ,
-SKF AB Class B,Industrials,SKF-B.ST,EQ,
-Skanska AB Class B,Industrials,SKA-B.ST,EQ,
-Subsea 7 S.A.,Industrials,SUBCO.ST,EQ,
-SSAB AB Class A,Industrials,SSAB-A.ST,EQ,
-SSAB AB Class B,Industrials,SSAB-B.ST,EQ,
-Trelleborg AB Class B,Industrials,TREL-B.ST,EQ,
-Autoliv Inc Shs Swedish DR,Industrials,ALIV-SDB.ST,EQ,
-Securitas AB Class B,Industrials,SECU-B.ST,EQ,
-NIBE Industrier AB Class B,Industrials,NIBE-B.ST,EQ,
-Frontline Plc,Industrials,FROO.ST,EQ,
-Indutrade AB,Industrials,INDT.ST,EQ,
-Beijer Ref AB Class B,Industrials,BEIJ-B.ST,EQ,
-Mycronic AB,Industrials,MYCR.ST,EQ,
-Wallenius Wilhelmsen ASA,Industrials,WAWIO.ST,EQ,
-Sweco AB Class B,Industrials,SWEC-B.ST,EQ,
-Sweco AB Class A,Industrials,SWEC-A.ST,EQ,
-Munters Group AB,Industrials,MTRS.ST,EQ,
-Hafnia Limited,Industrials,HAFNIO.ST,EQ,
-Asker Healthcare Group AB,Industrials,ASKER.ST,EQ,
-Wilh. Wilhelmsen Holding ASA Class A,Industrials,WWIO.ST,EQ,
-Wilh. Wilhelmsen Holding ASA Class B,Industrials,WWIBO.ST,EQ,
-BW LPG Limited,Industrials,BWLPGO.ST,EQ,
-Loomis AB,Industrials,LOOMIS.ST,EQ,
-TOMRA Systems ASA,Industrials,TOMO.ST,EQ,
-Hoegh Autoliners ASA,Industrials,HAUTOO.ST,EQ,
-Peab AB Class B,Industrials,PEAB-B.ST,EQ,
-Veidekke ASA,Industrials,VEIO.ST,EQ,
-Bravida Holding AB,Industrials,BRAV.ST,EQ,
-OEM International AB Class B,Industrials,OEM-B.ST,EQ,
-Bufab AB,Industrials,BUFAB.ST,EQ,
-Cadeler A/S,Industrials,CADLRO.ST,EQ,
-Odfjell Drilling Ltd.,Industrials,ODLO.ST,EQ,
-SoftwareOne Holding Ltd.,Industrials,SWONO.ST,EQ,
-AQ Group AB,Industrials,AQ.ST,EQ,
-AF Gruppen ASA Class A,Industrials,AFGO.ST,EQ,
-Beijer Alma AB Class B,Industrials,BEIA-B.ST,EQ,
-Okeanis Eco Tankers Corp.,Industrials,OETO.ST,EQ,
-Stolt-Nielsen Limited,Industrials,SNIO.ST,EQ,
-NCC AB Class A,Industrials,NCC-A.ST,EQ,
-NCC AB Class B,Industrials,NCC-B.ST,EQ,
-Systemair AB,Industrials,SYSR.ST,EQ,
-Norwegian Air Shuttle ASA,Industrials,NASO.ST,EQ,
-BW Energy Ltd.,Industrials,BWEO.ST,EQ,
-Hoist Finance AB,Industrials,HOFI.ST,EQ,
-Borr Drilling Limited,Industrials,BORRO.ST,EQ,
-Electrolux Professional AB Class B,Industrials,EPRO-B.ST,EQ,
-Solstad Maritime ASA,Industrials,SOMAO.ST,EQ,
-AFRY AB Class B,Industrials,AFRY.ST,EQ,
-Alimak Group AB,Industrials,ALIG.ST,EQ,
-MPC Container Ships ASA,Industrials,MPCCO.ST,EQ,
-Norbit ASA,Industrials,NORBTO.ST,EQ,
-Lindab International AB,Industrials,LIAB.ST,EQ,
-Bonheur ASA,Industrials,BONHRO.ST,EQ,
-Creades AB Class A,Industrials,CRED-A.ST,EQ,
-engcon AB Class B,Industrials,ENGCON-B.ST,EQ,
-Instalco AB,Industrials,INSTAL.ST,EQ,
-Sdiptech AB Class B,Industrials,SDIP-B.ST,EQ,
-Swedish Logistic Property AB Class B,Industrials,SLP-B.ST,EQ,
-Odfjell SE Class B,Industrials,ODFBO.ST,EQ,
-Odfjell SE Class A,Industrials,ODFO.ST,EQ,
-B2 Impact ASA,Industrials,B2IO.ST,EQ,
-VBG Group AB Class B,Industrials,VBG-B.ST,EQ,
-Paratus Energy Services Ltd.,Industrials,PLSVO.ST,EQ,
-Better Collective A/S,Industrials,BETCO.ST,EQ,
-Karnov Group AB,Industrials,KAR.ST,EQ,
-Alligo AB Class B,Industrials,ALLIGO-B.ST,EQ,
-Arjo AB Class B,Industrials,ARJO-B.ST,EQ,
-Rederiaktiebolaget Gotland Class B,Industrials,GOTL-B.ST,EQ,
-Rederiaktiebolaget Gotland Class A,Industrials,GOTL-A.ST,EQ,
-Troax Group AB Class A,Industrials,TROAX.ST,EQ,
-Himalaya Shipping Ltd.,Industrials,HSHPO.ST,EQ,
-Sed Energy Holdings PLC,Industrials,ENHO.ST,EQ,
-Endur ASA,Industrials,ENDURO.ST,EQ,
-Momentum Group AB Class B,Industrials,MMGR-B.ST,EQ,
-Klaveness Combination Carriers ASA,Industrials,KCCO.ST,EQ,
-NEL ASA,Industrials,NELO.ST,EQ,
-Solstad Offshore ASA,Industrials,SOFFO.ST,EQ,
-Coor Service Management Holding AB,Industrials,COOR.ST,EQ,
-Yubico AB,Industrials,YUBICO.ST,EQ,
-Vestum AB,Industrials,VESTUM.ST,EQ,
-Nederman Holding AB,Industrials,NMAN.ST,EQ,
-Haypp Group AB,Industrials,HAYPP.ST,EQ,
-Karnell Group AB Class B,Industrials,KARNEL-B.ST,EQ,
-Zaptec ASA,Industrials,ZAPO.ST,EQ,
-Meko AB,Industrials,MEKO.ST,EQ,
-AKVA Group ASA,Industrials,AKVAO.ST,EQ,
-Multiconsult ASA,Industrials,MULTIO.ST,EQ,
-Sea1 Offshore Incorporation,Industrials,SEA1O.ST,EQ,
-NYAB AB,Industrials,NYAB.ST,EQ,
-Akastor ASA,Industrials,AKASTO.ST,EQ,
-ITAB Group AB (publ),Industrials,ITAB.ST,EQ,
-Axactor ASA,Industrials,ACRO.ST,EQ,
-Rejlers AB Class B,Industrials,REJL-B.ST,EQ,
-BTS Group AB Class B,Industrials,BTS-B.ST,EQ,
-Fagerhult Group AB,Industrials,FAG.ST,EQ,
-Envipco Holding N.V.,Industrials,ENVIPO.ST,EQ,
-FM Mattsson Class B,Industrials,FMM-B.ST,EQ,
-XANO Industri AB Class B,Industrials,XANO-B.ST,EQ,
-Agilyx ASA,Industrials,AGLXO.ST,EQ,
-Teqnion AB,Industrials,TEQ.ST,EQ,
-Odfjell Technology Ltd.,Industrials,OTLO.ST,EQ,
-Intrum AB,Industrials,INTRUM.ST,EQ,
-Archer Limited,Industrials,ARCHO.ST,EQ,
-Integrated Wind Solutions ASA,Industrials,IWSO.ST,EQ,
-Knowit AB,Industrials,KNOW.ST,EQ,
-Dustin Group AB,Industrials,DUST.ST,EQ,
-Northern Ocean Ltd.,Industrials,NOLO.ST,EQ,
-KB Components AB,Industrials,KBC.ST,EQ,
-Absolent Air Care Group AB,Industrials,ABSO.ST,EQ,
-ByggPartner Gruppen AB,Industrials,BYGGP.ST,EQ,
-Studsvik AB,Industrials,SVIK.ST,EQ,
-Kongsberg Automotive ASA,Industrials,KOAO.ST,EQ,
-Eltel AB,Industrials,ELTEL.ST,EQ,
-Fasadgruppen Group AB,Industrials,FG.ST,EQ,
-Viking Supply Ships AB Class B,Industrials,VSSAB-B.ST,EQ,
-Green Landscaping Group AB,Industrials,GREEN.ST,EQ,
-Elanders AB Class B,Industrials,ELAN-B.ST,EQ,
-Prosafe SE,Industrials,PRSO.ST,EQ,
-Thor Medical ASA,Industrials,TRMEDO.ST,EQ,
-Nekkar ASA,Industrials,NKRO.ST,EQ,
-Berner Industrier AB Class B,Industrials,BERNER-B.ST,EQ,
-SEHED Byggmastargruppen AB,Industrials,SEHED.B.ST,EQ,
-Norse Atlantic ASA,Industrials,NORSEO.ST,EQ,
-VETERANPOOLEN AB CLASS B,Industrials,VPAB.B.ST,EQ,
-Cavotec Group AB,Industrials,CCC.ST,EQ,
-SHT SMART HIGH-TECH AB CLASS B,Industrials,SHT.B.ST,EQ,
-Eolus AB Class B,Industrials,EOLU-B.ST,EQ,
-Ework Group AB,Industrials,EWRK.ST,EQ,
-CTEK AB,Industrials,CTEK.ST,EQ,
-W5 Solutions AB,Industrials,W5.ST,EQ,
-Bulten AB,Industrials,BULTEN.ST,EQ,
-Railcare Group AB,Industrials,RAIL.ST,EQ,
-Nilorngruppen AB Class B,Industrials,NIL-B.ST,EQ,
-LumenRadio AB,Industrials,LUMEN.ST,EQ,
-Arla Plast AB,Industrials,ARPL.ST,EQ,
-Alcadon Group AB,Industrials,ALCA.ST,EQ,
-BeammWave AB Class B,Industrials,BEAMMW-B.ST,EQ,
-CombinedX AB,Industrials,CX.ST,EQ,
-Scana ASA,Industrials,SCANAO.ST,EQ,
-Nordisk Bergteknik AB Class B,Industrials,NORB-B.ST,EQ,
-Vow ASA,Industrials,VOWO.ST,EQ,
-GARO AB,Industrials,GARO.ST,EQ,
-Midsummer AB,Industrials,MIDS.ST,EQ,
-Terranor Group AB,Industrials,TERNOR.ST,EQ,
-HOMEMAID AB CLASS B,Industrials,HOME.B.ST,EQ,
-Qliro AB,Industrials,QLIRO.ST,EQ,
-Cedergrenska AB,Industrials,CEDER.ST,EQ,
-Hexagon Purus ASA,Industrials,HPURO.ST,EQ,
-Sibek AB,Industrials,SIBEK.ST,EQ,
-BE Group AB,Industrials,BEGR.ST,EQ,
-Seafire AB,Industrials,SEAF.ST,EQ,
-Impact Coatings AB,Industrials,IMPC.ST,EQ,
-Navigo Invest AB,Industrials,NAVIGO-STAM.ST,EQ,
-Navigo Invest AB SEK 9.50 Cum Pref Registered Shs,Industrials,NAVIGO-PREF.ST,EQ,
-Eniro Group AB Class A,Industrials,ENRO.ST,EQ,
-Acuvi AB,Industrials,ACUVI.ST,EQ,
-Leading Edge Materials Corp.,Industrials,LEMSE.ST,EQ,
-Wall to Wall Group AB Class A,Industrials,WTW-A.ST,EQ,
-Infrea AB,Industrials,INFREA.ST,EQ,
-Webstep AS,Industrials,WSTEPO.ST,EQ,
-Freja eID Group AB,Industrials,FREJA.ST,EQ,
-TradeDoubler AB,Industrials,TRAD.ST,EQ,
-Candles Scandinavia AB Class B,Industrials,CANDLE-B.ST,EQ,
-Wastbygg Gruppen AB Class B,Industrials,WBGR-B.ST,EQ,
-Ferroamp AB,Industrials,FERRO.ST,EQ,
-FlexQube AB,Industrials,FLEXQ.ST,EQ,
-QleanAir AB,Industrials,QAIR.ST,EQ,
-Malmbergs Elektriska AB Class B,Industrials,MEAB-B.ST,EQ,
-Ogunsen AB Class B,Industrials,OGUN-B.ST,EQ,
-PION Group AB Class B,Industrials,PION-B.ST,EQ,
-Cavendish Hydrogen ASA,Industrials,CAVENO.ST,EQ,
-AGES Industri AB,Industrials,AGES-B.ST,EQ,
-Eqva ASA,Industrials,EQVAO.ST,EQ,
-Metacon AB,Industrials,META.ST,EQ,
-HydrogenPro ASA,Industrials,HYPROO.ST,EQ,
-Climeon AB Class B,Industrials,CLIME-B.ST,EQ,
-Freemelt Holding AB,Industrials,FREEM.ST,EQ,
-Enrad AB,Industrials,ENRAD.ST,EQ,
-OptiCept Technologies AB,Industrials,OPTI.ST,EQ,
-Hultstrom Group AB(publ) Class B,Industrials,HULT-B.ST,EQ,
-Lammhults Design Group AB Class B,Industrials,LAMM-B.ST,EQ,
-Lyckegard Group AB,Industrials,LYGRD.ST,EQ,
-OXE Marine AB,Industrials,OXE.ST,EQ,
-ENVIROLOGIC AB,Industrials,ENVI.B.ST,EQ,
-Front Ventures AB Class B,Industrials,FRNT.B.ST,EQ,
-Triona AB,Industrials,TRIONA.ST,EQ,
-iZafe Group AB,Industrials,IZAFE-B.ST,EQ,
-TCECUR Sweden AB,Industrials,TCC.A.ST,EQ,
-Netel Holding AB,Industrials,NETEL.ST,EQ,
-Norditek Group AB,Industrials,NOTEK.ST,EQ,
-Seamless Distribution Systems AB,Industrials,SDS.ST,EQ,
-SOLUTION INTERNATIONAL NORDICS AB,Industrials,SIN.ST,EQ,
-Modelon AB,Industrials,MODEL.ST,EQ,
-Frontwalker AB Class B,Industrials,FRWA.B.ST,EQ,
-VIMAB Group AB,Industrials,VIMAB.ST,EQ,
-Vo2 Cap Holding AB,Industrials,VO2.ST,EQ,
-Stockwik Forvaltning AB,Industrials,STWK.ST,EQ,
-Wise Group AB,Industrials,WISE.ST,EQ,
-ES Energy Save Holding AB Class B,Industrials,ESGR-B.ST,EQ,
-GULLBERG & JANSSON,Industrials,GJAB.ST,EQ,
-Tempest Security AB,Industrials,TSEC.ST,EQ,
-TalkPool AG,Industrials,TALK.ST,EQ,
-Bawat Water Technologies AB,Industrials,BAWAT.ST,EQ,
-TRANSFERATOR AB CLASS B,Industrials,TRAN.B.ST,EQ,
-TRANSFERATOR AB CLASS A,Industrials,TRAN.A.ST,EQ,
-Guideline Geo AB,Industrials,GGEO.ST,EQ,
-AcouSort AB,Industrials,ACOU.ST,EQ,
-Axolot Solutions Holding AB,Industrials,AXOLOT.ST,EQ,
-Saxlund Group AB,Industrials,SAXG.ST,EQ,
-ABSOLICON SOLAR COLLECTOR AB CLASS B,Industrials,ABSL.B.ST,EQ,
-Gasporox AB,Industrials,GPX.ST,EQ,
-CHOSA ONCOLOGY AB,Industrials,CHOSA.ST,EQ,
-Heliospectra AB,Industrials,HELIO.ST,EQ,
-Cell Impact AB,Industrials,CI.ST,EQ,
-NGS Group AB,Industrials,NGS.ST,EQ,
-Nordic Flanges Group AB,Industrials,NFGAB.ST,EQ,
-Tourn International AB,Industrials,TOURN.ST,EQ,
-XP Chemistries AB,Industrials,XPC.ST,EQ,
-AEROWASH AB CLASS B,Industrials,AERW.B.ST,EQ,
-Svenska Aerogel Holding AB,Industrials,AERO.ST,EQ,
-GOMERO GROUP AB,Industrials,GOMERO.ST,EQ,
-Hexicon AB,Industrials,HEXI.ST,EQ,
-LifeClean International AB,Industrials,LCLEAN.ST,EQ,
-Precomp Solutions AB Class B,Industrials,PCOM-B.ST,EQ,
-ZOOMABILITY INT AB,Industrials,ZOOM.ST,EQ,
-ECORUB AB CLASS B,Industrials,ECO.B.ST,EQ,
-NOVUS GROUP INTERNATIONAL AB,Industrials,NOVU.ST,EQ,
-FINEPART SWEDEN AB,Industrials,FINE.ST,EQ,
-EASYFILL AB CLASS B,Industrials,EASY.B.ST,EQ,
-Aino Health AB,Industrials,AINO.ST,EQ,
-LightAir AB,Industrials,LAIR.ST,EQ,
-NFO DRIVES AB,Industrials,NFO.ST,EQ,
-MOVEBYBIKE EUROPE AB,Industrials,MBBAB.ST,EQ,
-Hedera Group AB,Industrials,HEGR.ST,EQ,
-Level Bio AB,Industrials,LEVBIO.ST,EQ,
-Goobit Group AB,Industrials,BTCX.ST,EQ,
-Trainimal AB,Industrials,TRML.ST,EQ,
-SBF Bostad AB (publ) Class B,Industrials,SBFBO.B.ST,EQ,
-SBF Bostad AB (publ) Class A,Industrials,SBFBO.A.ST,EQ,
-Time People Group AB,Industrials,TPGR.ST,EQ,
-ZENERGY AB CLASS B,Industrials,ZENZIP.B.ST,EQ,
-RECYCTEC HOLDING AB CLASS B,Industrials,RECY.B.ST,EQ,
-ECOMB AB,Industrials,ECOMB.ST,EQ,
-Creturner Group AB,Industrials,CRET.ST,EQ,
-Rentunder Holding AB,Industrials,RENT.ST,EQ,
-Amaron Commercial Properties AB (publ) Class B,Industrials,AMARON.CF.B.ST,EQ,
-Guldbrev Holding AB,Industrials,GULD.ST,EQ,
-AI Revenue Assistant Software Stockholm AB,Industrials,AIRA.ST,EQ,
-Argo Defence Group AB (publ),Industrials,ARGO.ST,EQ,
-BERGHOLM FRITIDSFORDON AB,Industrials,BHOLM.ST,EQ,
-Railway Metrics and Dynamics Sweden AB,Industrials,RMDX.ST,EQ,
-SOLIDX AB,Industrials,SOLIDX.ST,EQ,
-HUNTER CAPITAL RTO 2 AB,Industrials,HCRTO2.ST,EQ,
-PixelFox AB,Industrials,PIXEL.ST,EQ,
-Calviks AB (publ),Industrials,CALVIK.ST,EQ,
-MENDOLE A/S,Industrials,MENDO.ST,EQ,
-Transfer Group AB,Industrials,TRNSF.ST,EQ,
-Constellation Oil Services Holding S.A. Shs Norwegian depository receipts 1 Sh,Industrials,COSHO.ST,EQ,
-Scandinavian Credit Fund I AB (publ) Structured Note 2016-23.01.37 Series 2016:1,Industrials,SCF.KAPBEVIS.1A.ST,EQ,
-WINDON ENERGY GROUP AB,Industrials,WEG.ST,EQ,
-GOSOL ENERGY GROUP AB,Industrials,GOSOL.ST,EQ,
-Dividend Sweden AB Class B,Industrials,DIV.B.ST,EQ,
-APR TECHNOLOGIES AB,Industrials,APRTEC.ST,EQ,
-Kongsberg Maritime ASA,Industrials,KMARO.ST,EQ,
-ABAS PROTECT AB,Industrials,ABAS.ST,EQ,
+Atlas Copco AB Class A,Industrials,ATCO_A.ST,EQ,SE0017486889
+Atlas Copco AB Class B,Industrials,ATCO_B.ST,EQ,SE0017486897
+Volvo AB Class B,Industrials,VOLV_B.ST,EQ,SE0000115446
+Volvo AB Class A,Industrials,VOLV_A.ST,EQ,SE0000115420
+Sandvik,Industrials,SAND.ST,EQ,SE0000667891
+Epiroc AB Class B,Industrials,EPI_B.ST,EQ,SE0015658117
+Epiroc AB Class A,Industrials,EPI_A.ST,EQ,SE0015658109
+Alfa Laval,Industrials,ALFA.ST,EQ,SE0000695876
+Lifco AB Class B,Industrials,LIFCO_B.ST,EQ,SE0015949201
+SKF AB Class B,Industrials,SKF_B.ST,EQ,SE0000108227
+SKF AB Class A,Industrials,SKF_A.ST,EQ,SE0000108201
+SSAB AB Class A,Industrials,SSAB_A.ST,EQ,SE0000171100
+SSAB AB Class B,Industrials,SSAB_B.ST,EQ,SE0000120669
+Skanska AB Class B,Industrials,SKA_B.ST,EQ,SE0000113250
+Autoliv Inc Shs Swedish DR,Industrials,ALIV_SDB.ST,EQ,SE0021309614
+Securitas AB Class B,Industrials,SECU_B.ST,EQ,SE0000163594
+Trelleborg AB Class B,Industrials,TREL_B.ST,EQ,SE0000114837
+NIBE Industrier AB Class B,Industrials,NIBE_B.ST,EQ,SE0015988019
+Indutrade,Industrials,INDT.ST,EQ,SE0001515552
+Beijer Ref AB Class B,Industrials,BEIJ_B.ST,EQ,SE0015949748
+Mycronic AB,Industrials,MYCR.ST,EQ,SE0025158629
+Sweco AB Class B,Industrials,SWEC_B.ST,EQ,SE0014960373
+Sweco AB Class A,Industrials,SWEC_A.ST,EQ,SE0014960365
+Munters Group AB,Industrials,MTRS.ST,EQ,SE0009806607
+Loomis AB,Industrials,LOOMIS.ST,EQ,SE0014504817
+Asker Healthcare Group AB,Industrials,ASKER.ST,EQ,SE0024171458
+Peab AB Class B,Industrials,PEAB_B.ST,EQ,SE0000106205
+Bravida Holding AB,Industrials,BRAV.ST,EQ,SE0007491303
+OEM International AB Class B,Industrials,OEM_B.ST,EQ,SE0017766843
+Bufab AB,Industrials,BUFAB.ST,EQ,SE0025010671
+AQ Group AB,Industrials,AQ.ST,EQ,SE0022062196
+Beijer Alma AB Class B,Industrials,BEIA_B.ST,EQ,SE0011090547
+Systemair AB,Industrials,SYSR.ST,EQ,SE0016609499
+NCC AB Class A,Industrials,NCC_A.ST,EQ,SE0000118952
+NCC AB Class B,Industrials,NCC_B.ST,EQ,SE0000117970
+Hoist Finance AB,Industrials,HOFI.ST,EQ,SE0006887063
+Electrolux Professional AB Class B,Industrials,EPRO_B.ST,EQ,SE0013747870
+AFRY AB Class B,Industrials,AFRY.ST,EQ,SE0005999836
+Alimak Group AB,Industrials,ALIG.ST,EQ,SE0007158910
+Intrum AB,Industrials,INTRUM.ST,EQ,SE0000936478
+Instalco AB,Industrials,INSTAL.ST,EQ,SE0017483506
+Lindab International AB,Industrials,LIAB.ST,EQ,SE0001852419
+engcon AB Class B,Industrials,ENGCON_B.ST,EQ,SE0017769847
+Sdiptech AB Class B,Industrials,SDIP_B.ST,EQ,SE0003756758
+Swedish Logistic Property AB Class B,Industrials,SLP_B.ST,EQ,SE0017565476
+VBG Group AB Class B,Industrials,VBG_B.ST,EQ,SE0000115107
+Karnov Group AB,Industrials,KAR.ST,EQ,SE0012323715
+Alligo AB Class B,Industrials,ALLIGO_B.ST,EQ,SE0009922305
+Rederiaktiebolaget Gotland Class B,Industrials,GOTL_B.ST,EQ,SE0000105397
+Rederiaktiebolaget Gotland Class A,Industrials,GOTL_A.ST,EQ,SE0000105371
+Arjo AB Class B,Industrials,ARJO_B.ST,EQ,SE0010468116
+Troax Group AB Class A,Industrials,TROAX.ST,EQ,SE0012729366
+Vestum AB,Industrials,VESTUM.ST,EQ,SE0017134125
+Momentum Group AB Class B,Industrials,MMGR_B.ST,EQ,SE0017562523
+Coor Service Management Holding AB,Industrials,COOR.ST,EQ,SE0007158829
+Yubico AB,Industrials,YUBICO.ST,EQ,SE0015657788
+Nederman Holding AB,Industrials,NMAN.ST,EQ,SE0011204510
+Haypp Group AB,Industrials,HAYPP.ST,EQ,SE0016829469
+Karnell Group AB Class B,Industrials,KARNEL_B.ST,EQ,SE0017832173
+Meko AB,Industrials,MEKO.ST,EQ,SE0002110064
+NYAB AB,Industrials,NYAB.ST,EQ,SE0022242434
+ITAB Group AB (publ),Industrials,ITAB.ST,EQ,SE0015962097
+Rejlers AB Class B,Industrials,REJL_B.ST,EQ,SE0000123671
+BTS Group AB Class B,Industrials,BTS_B.ST,EQ,SE0000805426
+Fagerhult Group AB,Industrials,FAG.ST,EQ,SE0010048884
+FM Mattsson Class B,Industrials,FMM_B.ST,EQ,SE0018040883
+XANO Industri AB Class B,Industrials,XANO_B.ST,EQ,SE0018014151
+Teqnion AB,Industrials,TEQ.ST,EQ,SE0012308088
+Knowit AB,Industrials,KNOW.ST,EQ,SE0000421273
+KB Components AB,Industrials,KBC.ST,EQ,SE0022725743
+Dustin Group AB,Industrials,DUST.ST,EQ,SE0006625471
+Absolent Air Care Group AB,Industrials,ABSO.ST,EQ,SE0006256558
+Eltel AB,Industrials,ELTEL.ST,EQ,SE0006509949
+ByggPartner Gruppen AB,Industrials,BYGGP.ST,EQ,SE0009242324
+Studsvik AB,Industrials,SVIK.ST,EQ,SE0000653230
+Fasadgruppen Group AB,Industrials,FG.ST,EQ,SE0015195771
+Viking Supply Ships AB Class B,Industrials,VSSAB_B.ST,EQ,SE0010820613
+Green Landscaping Group AB,Industrials,GREEN.ST,EQ,SE0010985028
+Elanders AB Class B,Industrials,ELAN_B.ST,EQ,SE0000119299
+Berner Industrier AB Class B,Industrials,BERNER_B.ST,EQ,SE0006143129
+SEHED Byggmastargruppen AB,Industrials,SEHED.B.ST,EQ,SE0023468954
+VETERANPOOLEN AB CLASS B,Industrials,VPAB.B.ST,EQ,SE0010663161
+Cavotec Group AB,Industrials,CCC.ST,EQ,SE0025010887
+SHT SMART HIGH-TECH AB CLASS B,Industrials,SHT.B.ST,EQ,SE0016843809
+Eolus AB Class B,Industrials,EOLU_B.ST,EQ,SE0007075056
+Ework Group AB,Industrials,EWRK.ST,EQ,SE0002402701
+Bulten AB,Industrials,BULTEN.ST,EQ,SE0003849223
+W5 Solutions AB,Industrials,W5.ST,EQ,SE0016786040
+Railcare Group AB,Industrials,RAIL.ST,EQ,SE0010441139
+Nilorngruppen AB Class B,Industrials,NIL_B.ST,EQ,SE0007100342
+Arla Plast AB,Industrials,ARPL.ST,EQ,SE0015810817
+BeammWave AB TEMP Class B,Industrials,BEAMMW_BTA_B.ST,EQ,SE0029076843
+BeammWave AB Class B,Industrials,BEAMMW_B.ST,EQ,SE0016799068
+LumenRadio AB,Industrials,LUMEN.ST,EQ,SE0019072158
+Alcadon Group AB,Industrials,ALCA.ST,EQ,SE0008732218
+CombinedX AB,Industrials,CX.ST,EQ,SE0012065589
+Midsummer AB,Industrials,MIDS.ST,EQ,SE0011281757
+Nordisk Bergteknik AB Class B,Industrials,NORB_B.ST,EQ,SE0015812128
+Terranor Group AB,Industrials,TERNOR.ST,EQ,SE0025159023
+GARO AB,Industrials,GARO.ST,EQ,SE0015812417
+HOMEMAID AB CLASS B,Industrials,HOME.B.ST,EQ,SE0001426131
+Qliro AB,Industrials,QLIRO.ST,EQ,SE0013719077
+Cedergrenska AB,Industrials,CEDER.ST,EQ,SE0015949946
+BE Group AB,Industrials,BEGR.ST,EQ,SE0008321921
+Seafire AB,Industrials,SEAF.ST,EQ,SE0009779796
+Sibek AB,Industrials,SIBEK.ST,EQ,SE0020050359
+Navigo Invest AB SEK 9.50 Cum Pref Registered Shs,Industrials,NAVIGO_PREF.ST,EQ,SE0007100540
+Navigo Invest AB,Industrials,NAVIGO_STAM.ST,EQ,SE0007100532
+Impact Coatings AB,Industrials,IMPC.ST,EQ,SE0001279142
+Wall to Wall Group AB Class A,Industrials,WTW_A.ST,EQ,SE0016075246
+Eniro Group AB Class A,Industrials,ENRO.ST,EQ,SE0011256312
+Freja eID Group AB,Industrials,FREJA.ST,EQ,SE0015950308
+Acuvi AB,Industrials,ACUVI.ST,EQ,SE0017833171
+Infrea AB,Industrials,INFREA.ST,EQ,SE0010600106
+TradeDoubler AB,Industrials,TRAD.ST,EQ,SE0001552357
+Candles Scandinavia AB Class B,Industrials,CANDLE_B.ST,EQ,SE0016797773
+Wastbygg Gruppen AB Class B,Industrials,WBGR_B.ST,EQ,SE0014453874
+FlexQube AB,Industrials,FLEXQ.ST,EQ,SE0010547075
+QleanAir AB,Industrials,QAIR.ST,EQ,SE0013382066
+Ferroamp AB,Industrials,FERRO.ST,EQ,SE0012229920
+Malmbergs Elektriska AB Class B,Industrials,MEAB_B.ST,EQ,SE0000507659
+4C Group AB,Industrials,4C.ST,EQ,SE0017936891
+Ogunsen AB Class B,Industrials,OGUN_B.ST,EQ,SE0008406151
+Metacon AB,Industrials,META.ST,EQ,SE0003086214
+AGES Industri AB,Industrials,AGES_B.ST,EQ,SE0005799046
+PION Group AB Class B,Industrials,PION_B.ST,EQ,SE0000567539
+Freemelt Holding AB,Industrials,FREEM.ST,EQ,SE0011167170
+Enrad AB,Industrials,ENRAD.ST,EQ,SE0009994858
+Lammhults Design Group AB Class B,Industrials,LAMM_B.ST,EQ,SE0000386138
+Hultstrom Group AB(publ) Class B,Industrials,HULT_B.ST,EQ,SE0000483943
+Lyckegard Group AB,Industrials,LYGRD.ST,EQ,SE0017160575
+OptiCept Technologies AB,Industrials,OPTI.ST,EQ,SE0005881786
+OXE Marine AB,Industrials,OXE.ST,EQ,SE0009888613
+ENVIROLOGIC AB,Industrials,ENVI.B.ST,EQ,SE0005704095
+Modelon AB,Industrials,MODEL.ST,EQ,SE0023112438
+iZafe Group AB,Industrials,IZAFE_B.ST,EQ,SE0003656834
+Climeon AB Class B,Industrials,CLIME_B.ST,EQ,SE0023837182
+Front Ventures AB Class B,Industrials,FRNT.B.ST,EQ,SE0005337920
+Triona AB,Industrials,TRIONA.ST,EQ,SE0001321761
+Netel Holding AB,Industrials,NETEL.ST,EQ,SE0016798417
+TCECUR Sweden AB,Industrials,TCC.A.ST,EQ,SE0014965604
+Norditek Group AB,Industrials,NOTEK.ST,EQ,SE0016843486
+SOLUTION INTERNATIONAL NORDICS AB,Industrials,SIN.ST,EQ,SE0020541589
+Seamless Distribution Systems AB,Industrials,SDS.ST,EQ,SE0009994445
+Frontwalker AB Class B,Industrials,FRWA.B.ST,EQ,SE0003088541
+Wise Group AB,Industrials,WISE.ST,EQ,SE0007277876
+VIMAB Group AB,Industrials,VIMAB.ST,EQ,SE0007439633
+ES Group AB (publ) Class B,Industrials,ESGR_B.ST,EQ,SE0014428447
+Vo2 Cap Holding AB,Industrials,VO2.ST,EQ,SE0016802797
+GULLBERG & JANSSON,Industrials,GJAB.ST,EQ,SE0004576346
+Tempest Security AB,Industrials,TSEC.ST,EQ,SE0010469221
+Stockwik Forvaltning AB,Industrials,STWK.ST,EQ,SE0012257970
+Bawat Water Technologies AB,Industrials,BAWAT.ST,EQ,SE0017487424
+Guideline Geo AB,Industrials,GGEO.ST,EQ,SE0005562014
+Axolot Solutions Holding AB,Industrials,AXOLOT.ST,EQ,SE0009414303
+AcouSort AB,Industrials,ACOU.ST,EQ,SE0009189608
+Saxlund Group AB,Industrials,SAXG.ST,EQ,SE0023439500
+CHOSA ONCOLOGY AB,Industrials,CHOSA.ST,EQ,SE0007784319
+ABSOLICON SOLAR COLLECTOR AB CLASS B,Industrials,ABSL.B.ST,EQ,SE0018396947
+Gasporox AB,Industrials,GPX.ST,EQ,SE0008991624
+Cell Impact AB,Industrials,CI.ST,EQ,SE0025940513
+Tourn International AB,Industrials,TOURN.ST,EQ,SE0005568482
+NGS Group AB,Industrials,NGS.ST,EQ,SE0009947708
+Nordic Flanges Group AB,Industrials,NFGAB.ST,EQ,SE0023641311
+XP Chemistries AB,Industrials,XPC.ST,EQ,SE0016787279
+Hexicon AB,Industrials,HEXI.ST,EQ,SE0004898799
+Heliospectra AB,Industrials,HELIO.ST,EQ,SE0005933082
+AEROWASH AB CLASS B,Industrials,AERW.B.ST,EQ,SE0009346299
+LifeClean International AB,Industrials,LCLEAN.ST,EQ,SE0014829271
+Svenska Aerogel Holding AB,Industrials,AERO.ST,EQ,SE0023440557
+GOMERO GROUP AB,Industrials,GOMERO.ST,EQ,SE0011167535
+ECORUB AB CLASS B,Industrials,ECO.B.ST,EQ,SE0003273531
+Precomp Solutions AB Class B,Industrials,PCOM_B.ST,EQ,SE0006091724
+ZOOMABILITY INT AB,Industrials,ZOOM.ST,EQ,SE0012740074
+NOVUS GROUP INTERNATIONAL AB,Industrials,NOVU.ST,EQ,SE0001989260
+FINEPART SWEDEN AB,Industrials,FINE.ST,EQ,SE0009189442
+LightAir AB,Industrials,LAIR.ST,EQ,SE0022239133
+EASYFILL AB CLASS B,Industrials,EASY.B.ST,EQ,SE0002039222
+Aino Health AB,Industrials,AINO.ST,EQ,SE0009242555
+MOVEBYBIKE EUROPE AB,Industrials,MBBAB.ST,EQ,SE0015988100
+NFO DRIVES AB,Industrials,NFO.ST,EQ,SE0015193800
+Trainimal AB,Industrials,TRML.ST,EQ,SE0011528082
+Hedera Group AB,Industrials,HEGR.ST,EQ,SE0007815113
+Goobit Group AB,Industrials,BTCX.ST,EQ,SE0015837752
+Level Bio AB,Industrials,LEVBIO.ST,EQ,SE0000885501
+Time People Group AB,Industrials,TPGR.ST,EQ,SE0010442962
+Creturner Group AB,Industrials,CRET.ST,EQ,SE0013460375
+ZENERGY AB CLASS B,Industrials,ZENZIP.B.ST,EQ,SE0023313069
+RECYCTEC HOLDING AB CLASS B,Industrials,RECY.B.ST,EQ,SE0014808978
+Rentunder Holding AB,Industrials,RENT.ST,EQ,SE0004548451
+ECOMB AB,Industrials,ECOMB.ST,EQ,SE0023950555
+Dividend Sweden AB Class B,Industrials,DIV.B.ST,EQ,SE0017085145
+SOLIDX AB,Industrials,SOLIDX.ST,EQ,SE0016797971
+WINDON ENERGY GROUP AB,Industrials,WEG.ST,EQ,SE0017131865
+Railway Metrics and Dynamics Sweden AB,Industrials,RMDX.ST,EQ,SE0011451921
+Calviks AB (publ),Industrials,CALVIK.ST,EQ,SE0017564800
+Guldbrev Holding AB,Industrials,GULD.ST,EQ,SE0025667033
+ABAS PROTECT AB,Industrials,ABAS.ST,EQ,SE0018588659
+APR TECHNOLOGIES AB,Industrials,APRTEC.ST,EQ,SE0027099060
+Argo Defence Group AB (publ),Industrials,ARGO.ST,EQ,SE0026820540
+GOSOL ENERGY GROUP AB,Industrials,GOSOL.ST,EQ,SE0020845071
+PixelFox AB,Industrials,PIXEL.ST,EQ,SE0013409273
+Transfer Group AB,Industrials,TRNSF.ST,EQ,SE0011870757
+Atlas Copco,Industrials,ATCO-A.ST,EQ,
+Volvo AB,Industrials,VOLV-B.ST,EQ,
+SKF,Industrials,SKF-B.ST,EQ,
+Epiroc AB,Industrials,EPI-A.ST,EQ,
+Nibe Industrier,Industrials,NIBE-B.ST,EQ,
+Sweco AB,Industrials,SWEC-B.ST,EQ,
+Lifco,Industrials,LIFCO-B.ST,EQ,
+Addtech,Industrials,ADDT-B.ST,EQ,
+Beijer Ref,Industrials,BEIJ-B.ST,EQ,
+Securitas,Industrials,SECU-B.ST,EQ,
+Assa Abloy,Industrials,ASSA-B.ST,EQ,
+SKF AB Series A,Industrials,SKF-A.ST,EQ,
+Saab AB,Industrials,SAAB-B.ST,EQ,

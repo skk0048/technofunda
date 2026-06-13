@@ -1,178 +1,180 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-Investor AB Class B,Financials,INVE-B.ST,EQ,
-Investor AB Class A,Financials,INVE-A.ST,EQ,
-Nordea Bank Abp,Financials,NDA-SE.ST,EQ,
-DNB Bank ASA,Financials,DNBO.ST,EQ,
-Swedbank AB Class A,Financials,SWED-A.ST,EQ,
-Skandinaviska Enskilda Banken AB Class A,Financials,SEB-A.ST,EQ,
-Skandinaviska Enskilda Banken AB Class C,Financials,SEB-C.ST,EQ,
-EQT AB,Financials,EQT.ST,EQ,
-Svenska Handelsbanken AB Class A,Financials,SHB-A.ST,EQ,
-Svenska Handelsbanken AB Class B,Financials,SHB-B.ST,EQ,
-Sampo Oyj,Financials,SAMPO-SEK.ST,EQ,
-Industrivarden AB Class C,Financials,INDU-C.ST,EQ,
-Industrivarden AB Class A,Financials,INDU-A.ST,EQ,
-L E Lundbergforetagen AB Class B,Financials,LUND-B.ST,EQ,
-Gjensidige Forsikring ASA,Financials,GJFO.ST,EQ,
-Investment AB Latour Class B,Financials,LATO-B.ST,EQ,
-Aker ASA Class A,Financials,AKERO.ST,EQ,
-Nordnet AB,Financials,SAVE.ST,EQ,
-Storebrand ASA,Financials,STBO.ST,EQ,
-SPAREBANK 1 SOR-NORGE ASA,Financials,SB1NOO.ST,EQ,
-Fastighets AB Balder Class B,Financials,BALD-B.ST,EQ,
-AB Sagax Class A,Financials,SAGA-A.ST,EQ,
-AB Sagax Class B,Financials,SAGA-B.ST,EQ,
-AB Sagax,Financials,SAGA-D.ST,EQ,
-Castellum AB,Financials,CAST.ST,EQ,
-Avanza Bank Holding AB,Financials,AZA.ST,EQ,
-Protector Forsikring ASA,Financials,PROTO.ST,EQ,
-Pandox AB Class B,Financials,PNDX-B.ST,EQ,
-Roko AB Class B,Financials,ROKO-B.ST,EQ,
-Catena AB,Financials,CATE.ST,EQ,
-Wallenstam AB Class B,Financials,WALL-B.ST,EQ,
-Wihlborgs Fastigheter AB,Financials,WIHL.ST,EQ,
-Fabege AB,Financials,FABG.ST,EQ,
-Hufvudstaden AB Class A,Financials,HUFV-A.ST,EQ,
-Bure Equity AB,Financials,BURE.ST,EQ,
-Arion Banki hf Shs Swedish DR,Financials,ARION-SDB.ST,EQ,
-Entra ASA,Financials,ENTRAO.ST,EQ,
-Atrium Ljungberg AB Class B,Financials,ATRLJ-B.ST,EQ,
-Kinnevik AB Class B,Financials,KINV-B.ST,EQ,
-Kinnevik AB Class A,Financials,KINV-A.ST,EQ,
-NP3 Fastigheter AB,Financials,NP3.ST,EQ,
-Intea Fastigheter AB Class D,Financials,INTEA-D.ST,EQ,
-Intea Fastigheter AB Class B,Financials,INTEA-B.ST,EQ,
-Storskogen Group AB Class B,Financials,STOR-B.ST,EQ,
-Altra Fastigheter AB,Financials,ALTRA.ST,EQ,
-Cibus Real Estate AB (publ),Financials,CIBUS.ST,EQ,
-Ratos AB Class B,Financials,RATO-B.ST,EQ,
-Ratos AB Class A,Financials,RATO-A.ST,EQ,
-Norion Bank AB,Financials,NORION.ST,EQ,
-Avarda Bank AB,Financials,AVARDA.ST,EQ,
-Dios Fastigheter AB,Financials,DIOS.ST,EQ,
-Platzer Fastigheter Holding AB Class B,Financials,PLAZ-B.ST,EQ,
-Hemnet Group AB,Financials,HEM.ST,EQ,
-FastPartner AB,Financials,FPAR-A.ST,EQ,
-FastPartner AB Class D,Financials,FPAR-D.ST,EQ,
-JM AB,Financials,JM.ST,EQ,
-Investment AB Oresund,Financials,ORES.ST,EQ,
-Fastighetsbolaget Emilshus AB Class B,Financials,EMIL-B.ST,EQ,
-Volati AB Pref. Shs,Financials,VOLO-PREF.ST,EQ,
-Volati AB,Financials,VOLO.ST,EQ,
-Sveafastigheter AB,Financials,SVEAF.ST,EQ,
-Flat Capital AB Class B,Financials,FLAT-B.ST,EQ,
-Stendoerren Fastigheter AB Class B,Financials,STEF-B.ST,EQ,
-Spiltan Invest AB,Financials,SPLTN.ST,EQ,
-Svolder AB Class B,Financials,SVOL-B.ST,EQ,
-Svolder AB Class A,Financials,SVOL-A.ST,EQ,
-Samhallsbyggnadsbolaget I Norden AB Class B,Financials,SBB-B.ST,EQ,
-Samhallsbyggnadsbolaget i Norden AB Class D,Financials,SBB-D.ST,EQ,
-Pareto Bank ASA,Financials,PARBO.ST,EQ,
-Corem Property Group AB Class D,Financials,CORE-D.ST,EQ,
-Corem Property Group AB Pref,Financials,CORE-PREF.ST,EQ,
-Corem Property Group AB Class A,Financials,CORE-A.ST,EQ,
-Corem Property Group AB Class B,Financials,CORE-B.ST,EQ,
-John Mattson Fastighetsforetagen AB,Financials,JOMA.ST,EQ,
-Eastnine AB,Financials,EAST.ST,EQ,
-Stenhus Fastigheter i Norden AB,Financials,SFAST.ST,EQ,
-Linc AB,Financials,LINC.ST,EQ,
-Heimstaden AB Pref Registered Shs,Financials,HEIM-PREF.ST,EQ,
-HEBA Fastighets AB Class B,Financials,HEBA-B.ST,EQ,
-Prisma Properties AB,Financials,PRISMA.ST,EQ,
-Idun Industrier AB Class B,Financials,IDUN-B.ST,EQ,
-ABG Sundal Collier Holding ASA,Financials,ABGO.ST,EQ,
-Nivika Fastigheter AB Class B,Financials,NIVI-B.ST,EQ,
-Traction AB Class B,Financials,TRAC-B.ST,EQ,
-Enity Holding AB,Financials,ENITY.ST,EQ,
-Morrow Bank AB,Financials,MORROW.ST,EQ,
-Fastighets AB Trianon Class B,Financials,TRIAN-B.ST,EQ,
-Brinova Fastigheter AB Class B,Financials,BRIN-B.ST,EQ,
-Bonava AB Class A,Financials,BONAV-A.ST,EQ,
-Bonava AB Class B,Financials,BONAV-B.ST,EQ,
-Besqab AB,Financials,BESQAB.ST,EQ,
-Arlandastad Group AB,Financials,AGROUP.ST,EQ,
-Neobo Fastigheter AB,Financials,NEOBO.ST,EQ,
-K-Fast Holding AB Class B,Financials,KFAST-B.ST,EQ,
-VNV Global AB,Financials,VNV.ST,EQ,
-KlaraBo Sverige AB Class B,Financials,KLARA-B.ST,EQ,
-VEF AB,Financials,VEFAB.ST,EQ,
-Catella AB Class A,Financials,CAT-A.ST,EQ,
-Catella AB Class B,Financials,CAT-B.ST,EQ,
-Solid Forsakringsaktiebolag,Financials,SFAB.ST,EQ,
-Genova Property Group AB,Financials,GPG.ST,EQ,
-Arbona AB Class A,Financials,ARBO.A.ST,EQ,
-Annehem Fastigheter AB Class B,Financials,ANNE-B.ST,EQ,
-Byggmastare Anders J Ahlstrom Holding AB Class B,Financials,AJA-B.ST,EQ,
-LOGISTRI FASTIGHETS AB CLASS B,Financials,LOGIST.B.ST,EQ,
-LOGISTRI FASTIGHETS AB CLASS A,Financials,LOGIST.A.ST,EQ,
-Fortinova Fastigheter AB,Financials,FNOVA-B.ST,EQ,
-Lea Bank AB,Financials,LEA.ST,EQ,
-Studentbostader i Norden AB,Financials,STUDBO.ST,EQ,
-Coeli Private Equity AB,Financials,CPE.I.ST,EQ,
-Mangold AB,Financials,MANG.ST,EQ,
-ALM Equity AB Pref.shs,Financials,ALM-PREF.ST,EQ,
-ALM Equity AB,Financials,ALM.ST,EQ,
-Kallebaeck Property Invest AB,Financials,KAPIAB.ST,EQ,
-Case Group AB,Financials,CASE.ST,EQ,
-Boho Group AB (publ) SEK 0.96 Cum Pref Registered Shs,Financials,BOHO-PREF.ST,EQ,
-Boho Group AB (publ),Financials,BOHO.ST,EQ,
-MäLARDALENS OMSORGSFASTIGHETER,Financials,MOFAST.ST,EQ,
-Solnaberg Property AB,Financials,SOLNA.ST,EQ,
-Bonasudden Holding AB,Financials,BONAS.ST,EQ,
-Brock Milton Capital AB,Financials,BMC.ST,EQ,
-NAXS AB,Financials,NAXS.ST,EQ,
-Acrinova AB Class A,Financials,ACRI-A.ST,EQ,
-Acrinova AB Class B,Financials,ACRI-B.ST,EQ,
-FLEMING PROPERTIES AB,Financials,FLMNG.ST,EQ,
-K2A Knaust & Andersson Fastigheter AB Class B,Financials,K2A-B.ST,EQ,
-Real Fastigheter AB Class B,Financials,REAL.ST,EQ,
-Tingsvalvet Fastighets AB Class A,Financials,TINGS-A.ST,EQ,
-Tingsvalvet Fastighets AB Class B,Financials,TINGS-B.ST,EQ,
-KRONA PUBLIC REAL ESTATE AB,Financials,KRONA.ST,EQ,
-PRESERVIUM PROPERTY AB,Financials,PRESRV.ST,EQ,
-Garpco AB,Financials,GARPCO.B.ST,EQ,
-Alpcot Holding AB Class B,Financials,ALPCOT-B.ST,EQ,
-Link Prop Investment AB,Financials,LINKAB.ST,EQ,
-KDventures AB Class B,Financials,KDV-B.ST,EQ,
-Crown Energy AB,Financials,CRWN.ST,EQ,
-Coeli Fastighet II AB Pref Registered Shs -P2-,Financials,CF2.PREF.P2.ST,EQ,
-Havsfrun Investment AB Class B,Financials,HAV-B.ST,EQ,
-OODA AI AB (publ),Financials,OODA.ST,EQ,
-AQUATICUS REAL ESTATE AB,Financials,AQUAT.ST,EQ,
-SaveLend Group AB,Financials,YIELD.ST,EQ,
-SPOTLIGHT GROUP AB,Financials,SPGR.ST,EQ,
-B TREASURY CAPITAL AB CLASS B,Financials,BTC.B.ST,EQ,
-Aktiebolaget Fastator,Financials,FASTAT.ST,EQ,
-First Venture Sweden AB Class B,Financials,FIRST-B.ST,EQ,
-Webrock Ventures AB,Financials,WRV.ST,EQ,
-Safello Group AB,Financials,SFL.ST,EQ,
-KATALYSEN VENTURES AB,Financials,KAV.ST,EQ,
-SLOTTSVIKEN FASTIGHETSAKTIEBOLAG CLASS B,Financials,SLOTT.B.ST,EQ,
-Cardeon AB,Financials,CARDEO.ST,EQ,
-Collaxio AB (publ) Class B,Financials,COLLAX.ST,EQ,
-NanoCap Group AB,Financials,NANOC-B.ST,EQ,
-RISK INTELLIGENCE A/S,Financials,RISK.ST,EQ,
-Buddypro Group AB Class B,Financials,BUDDY.B.ST,EQ,
-Preservia Hyresfastigheter AB Pref Registered Shs,Financials,PHYR.PREF.ST,EQ,
-Preservia Hyresfastigheter AB Class B,Financials,PHYR.B.ST,EQ,
-Preservia Holding AB Pref Registered Shs,Financials,PHOL.PREF.ST,EQ,
-Northern CapSek Ventures AB,Financials,CAPS.ST,EQ,
-INVOICERY GROUP AB,Financials,FRILAN.ST,EQ,
-MTI Investment AB,Financials,MTI.ST,EQ,
-CNI Nordic 5 AB Pref Registered Shs -P2-,Financials,CNI5.PREF.P2.ST,EQ,
-BlueYield AB,Financials,SHIP.ST,EQ,
-HUNTER CAPITAL RTO 1 AB (PUBL),Financials,HCRTO1.ST,EQ,
-PPI Public Property Invest AB,Financials,PUBLI.ST,EQ,
-PROPORT INVEST AB,Financials,PRPORT.ST,EQ,
-PPI Public Property Invest AB,Financials,PUBLIO.ST,EQ,
-ARENIT Industrie SE Swedish Depository Receipt,Financials,ARENIT-SDB.ST,EQ,
-UPGRADE INVEST NORDIC AB,Financials,UPGRAD.ST,EQ,
-I LOVE LUND AB CLASS B,Financials,LOVE.B.ST,EQ,
-Noba Bank Group AB,Financials,NOBA.ST,EQ,
-NORDEN ESTATES AB,Financials,NORDEN.ST,EQ,
-Vastra Hamnen Corporate Finance AB,Financials,VH.ST,EQ,
-RAMLOSA SHIPPING AB(PUBL),Financials,RAMSH.ST,EQ,
-HF REVERSE(RTO)AB CLASS B,Financials,HFRTO.B.ST,EQ,
-PUBLICVC RTO1 AB (PUBL) CLASS B,Financials,PVRTO1.B.ST,EQ,
-Insig AB,Financials,INSIG.PREF.ST,EQ,
-Logistea AB Class B,Financials,LOGI-B.ST,EQ,
+Investor AB Class B,Financials,INVE_B.ST,EQ,SE0015811963
+Investor AB Class A,Financials,INVE_A.ST,EQ,SE0015811955
+Swedbank AB Class A,Financials,SWED_A.ST,EQ,SE0000242455
+Skandinaviska Enskilda Banken AB Class A,Financials,SEB_A.ST,EQ,SE0000148884
+Skandinaviska Enskilda Banken AB Class C,Financials,SEB_C.ST,EQ,SE0000120784
+EQT AB,Financials,EQT.ST,EQ,SE0012853455
+Svenska Handelsbanken AB Class A,Financials,SHB_A.ST,EQ,SE0007100599
+Svenska Handelsbanken AB Class B,Financials,SHB_B.ST,EQ,SE0007100607
+Industrivarden AB Class C,Financials,INDU_C.ST,EQ,SE0000107203
+Industrivarden AB Class A,Financials,INDU_A.ST,EQ,SE0000190126
+L E Lundbergforetagen AB Class B,Financials,LUND_B.ST,EQ,SE0000108847
+Investment AB Latour Class B,Financials,LATO_B.ST,EQ,SE0010100958
+Nordnet AB,Financials,SAVE.ST,EQ,SE0015192067
+Fastighets AB Balder Class B,Financials,BALD_B.ST,EQ,SE0017832488
+Avanza Bank Holding AB,Financials,AZA.ST,EQ,SE0012454072
+AB Sagax,Financials,SAGA_D.ST,EQ,SE0009161052
+AB Sagax Class A,Financials,SAGA_A.ST,EQ,SE0004635878
+AB Sagax Class B,Financials,SAGA_B.ST,EQ,SE0005127818
+Noba Bank Group AB,Financials,NOBA.ST,EQ,SE0023135298
+Pandox AB Class B,Financials,PNDX_B.ST,EQ,SE0007100359
+Roko AB Class B,Financials,ROKO_B.ST,EQ,SE0023950795
+Catena AB,Financials,CATE.ST,EQ,SE0001664707
+Wallenstam AB Class B,Financials,WALL_B.ST,EQ,SE0017780133
+Hufvudstaden AB Class A,Financials,HUFV_A.ST,EQ,SE0000170375
+Bure Equity AB,Financials,BURE.ST,EQ,SE0000195810
+Arion Banki hf Shs Swedish DR,Financials,ARION_SDB.ST,EQ,SE0010413567
+Atrium Ljungberg AB Class B,Financials,ATRLJ_B.ST,EQ,SE0024320832
+NP3 Fastigheter AB,Financials,NP3.ST,EQ,SE0006342333
+Intea Fastigheter AB Class B,Financials,INTEA_B.ST,EQ,SE0017072259
+Intea Fastigheter AB Class D,Financials,INTEA_D.ST,EQ,SE0017072267
+Kinnevik AB Class A,Financials,KINV_A.ST,EQ,SE0022060513
+Kinnevik AB Class B,Financials,KINV_B.ST,EQ,SE0022060521
+Storskogen Group AB Class B,Financials,STOR_B.ST,EQ,SE0016797732
+Altra Fastigheter AB,Financials,ALTRA.ST,EQ,SE0011426428
+Cibus Real Estate AB (publ),Financials,CIBUS.ST,EQ,SE0010832204
+Avarda Bank AB,Financials,AVARDA.ST,EQ,SE0025666969
+Norion Bank AB,Financials,NORION.ST,EQ,SE0017831795
+Ratos AB Class A,Financials,RATO_A.ST,EQ,SE0000191090
+Ratos AB Class B,Financials,RATO_B.ST,EQ,SE0000111940
+Creades AB Class A,Financials,CRED_A.ST,EQ,SE0015661236
+Dios Fastigheter AB,Financials,DIOS.ST,EQ,SE0001634262
+Platzer Fastigheter Holding AB Class B,Financials,PLAZ_B.ST,EQ,SE0004977692
+FastPartner AB Class D,Financials,FPAR_D.ST,EQ,SE0013512514
+FastPartner AB,Financials,FPAR_A.ST,EQ,SE0013512506
+JM AB,Financials,JM.ST,EQ,SE0000806994
+Investment AB Oresund,Financials,ORES.ST,EQ,SE0008321608
+Fastighetsbolaget Emilshus AB Class B,Financials,EMIL_B.ST,EQ,SE0016785786
+Sveafastigheter AB,Financials,SVEAF.ST,EQ,SE0022243812
+Flat Capital AB Class B,Financials,FLAT_B.ST,EQ,SE0016609846
+Stendoerren Fastigheter AB Class B,Financials,STEF_B.ST,EQ,SE0006543344
+Svolder AB Class B,Financials,SVOL_B.ST,EQ,SE0017161458
+Svolder AB Class A,Financials,SVOL_A.ST,EQ,SE0017161441
+Spiltan Invest AB,Financials,SPLTN.ST,EQ,SE0013382546
+Corem Property Group AB Pref,Financials,CORE_PREF.ST,EQ,SE0010714311
+Corem Property Group AB Class D,Financials,CORE_D.ST,EQ,SE0015961594
+Corem Property Group AB Class B,Financials,CORE_B.ST,EQ,SE0010714287
+Corem Property Group AB Class A,Financials,CORE_A.ST,EQ,SE0010714279
+Samhallsbyggnadsbolaget I Norden AB Class B,Financials,SBB_B.ST,EQ,SE0009554454
+Samhallsbyggnadsbolaget i Norden AB Class D,Financials,SBB_D.ST,EQ,SE0011844091
+John Mattson Fastighetsforetagen AB,Financials,JOMA.ST,EQ,SE0012481364
+Stenhus Fastigheter i Norden AB,Financials,SFAST.ST,EQ,SE0014956819
+Eastnine AB,Financials,EAST.ST,EQ,SE0022050183
+Linc AB,Financials,LINC.ST,EQ,SE0015949433
+Heimstaden AB Pref Registered Shs,Financials,HEIM_PREF.ST,EQ,SE0015949037
+HEBA Fastighets AB Class B,Financials,HEBA_B.ST,EQ,SE0017911480
+Prisma Properties AB,Financials,PRISMA.ST,EQ,SE0022062055
+Idun Industrier AB Class B,Financials,IDUN_B.ST,EQ,SE0013512464
+Nivika Fastigheter AB Class B,Financials,NIVI_B.ST,EQ,SE0017083272
+Enity Holding AB,Financials,ENITY.ST,EQ,SE0025011554
+Traction AB Class B,Financials,TRAC_B.ST,EQ,SE0000391716
+Morrow Bank AB,Financials,MORROW.ST,EQ,SE0026852725
+Fastighets AB Trianon Class B,Financials,TRIAN_B.ST,EQ,SE0018013658
+Brinova Fastigheter AB Class B,Financials,BRIN_B.ST,EQ,SE0008347652
+Bonava AB Class B,Financials,BONAV_B.ST,EQ,SE0008091581
+Bonava AB Class A,Financials,BONAV_A.ST,EQ,SE0008091573
+Besqab AB,Financials,BESQAB.ST,EQ,SE0010547786
+Volati AB,Financials,VOLO.ST,EQ,SE0009143662
+Volati AB Pref. Shs,Financials,VOLO_PREF.ST,EQ,SE0009143670
+Arlandastad Group AB,Financials,AGROUP.ST,EQ,SE0016276851
+K-Fast Holding AB Class B,Financials,KFAST_B.ST,EQ,SE0016101679
+Neobo Fastigheter AB,Financials,NEOBO.ST,EQ,SE0005034550
+KlaraBo Sverige AB Class B,Financials,KLARA_B.ST,EQ,SE0010832287
+VNV Global AB,Financials,VNV.ST,EQ,SE0014428835
+VEF AB,Financials,VEFAB.ST,EQ,SE0016128151
+Solid Forsakringsaktiebolag,Financials,SFAB.ST,EQ,SE0017082548
+Catella AB Class A,Financials,CAT_A.ST,EQ,SE0000188500
+Catella AB Class B,Financials,CAT_B.ST,EQ,SE0000188518
+Genova Property Group AB,Financials,GPG.ST,EQ,SE0007184189
+Arbona AB Class A,Financials,ARBO.A.ST,EQ,SE0003210590
+Annehem Fastigheter AB Class B,Financials,ANNE_B.ST,EQ,SE0015221684
+Byggmastare Anders J Ahlstrom Holding AB Class B,Financials,AJA_B.ST,EQ,SE0026876476
+LOGISTRI FASTIGHETS AB CLASS B,Financials,LOGIST.B.ST,EQ,SE0025197627
+LOGISTRI FASTIGHETS AB CLASS A,Financials,LOGIST.A.ST,EQ,SE0025197619
+Fortinova Fastigheter AB,Financials,FNOVA_B.ST,EQ,SE0014608915
+Lea Bank AB,Financials,LEA.ST,EQ,SE0023261300
+Studentbostader i Norden AB,Financials,STUDBO.ST,EQ,SE0015657697
+Coeli Private Equity AB,Financials,CPE.I.ST,EQ,SE0012012268
+Mangold AB,Financials,MANG.ST,EQ,SE0001449380
+ALM Equity AB Pref.shs,Financials,ALM_PREF.ST,EQ,SE0004109627
+ALM Equity AB,Financials,ALM.ST,EQ,SE0018741985
+Kallebaeck Property Invest AB,Financials,KAPIAB.ST,EQ,SE0005704079
+Case Group AB,Financials,CASE.ST,EQ,SE0017082514
+MäLARDALENS OMSORGSFASTIGHETER,Financials,MOFAST.ST,EQ,SE0012596120
+Boho Group AB (publ) SEK 0.96 Cum Pref Registered Shs,Financials,BOHO_PREF.ST,EQ,SE0009697212
+Boho Group AB (publ),Financials,BOHO.ST,EQ,SE0009697204
+Solnaberg Property AB,Financials,SOLNA.ST,EQ,SE0009155211
+Bonasudden Holding AB,Financials,BONAS.ST,EQ,SE0007157953
+Brock Milton Capital AB,Financials,BMC.ST,EQ,SE0022757860
+NAXS AB,Financials,NAXS.ST,EQ,SE0001965369
+FLEMING PROPERTIES AB,Financials,FLMNG.ST,EQ,SE0013042561
+Acrinova AB Class A,Financials,ACRI_A.ST,EQ,SE0015660014
+Acrinova AB Class B,Financials,ACRI_B.ST,EQ,SE0015660030
+K2A Knaust & Andersson Fastigheter AB Class B,Financials,K2A_B.ST,EQ,SE0010520254
+Tingsvalvet Fastighets AB Class B,Financials,TINGS_B.ST,EQ,SE0018534497
+Tingsvalvet Fastighets AB Class A,Financials,TINGS_A.ST,EQ,SE0018534471
+Real Fastigheter AB Class B,Financials,REAL.ST,EQ,SE0020679025
+KRONA PUBLIC REAL ESTATE AB,Financials,KRONA.ST,EQ,SE0015657895
+Garpco AB,Financials,GARPCO.B.ST,EQ,SE0001823352
+PRESERVIUM PROPERTY AB,Financials,PRESRV.ST,EQ,SE0016829790
+Alpcot Holding AB Class B,Financials,ALPCOT_B.ST,EQ,SE0016845655
+Link Prop Investment AB,Financials,LINKAB.ST,EQ,SE0006993804
+Crown Energy AB,Financials,CRWN.ST,EQ,SE0004210854
+Coeli Fastighet II AB Pref Registered Shs -P2-,Financials,CF2.PREF.P2.ST,EQ,SE0012012672
+KDventures AB Class B,Financials,KDV_B.ST,EQ,SE0002190926
+Havsfrun Investment AB Class B,Financials,HAV_B.ST,EQ,SE0000312043
+OODA AI AB (publ),Financials,OODA.ST,EQ,SE0020699296
+AQUATICUS REAL ESTATE AB,Financials,AQUAT.ST,EQ,SE0015244132
+TRANSFERATOR AB CLASS B,Financials,TRAN.B.ST,EQ,SE0017911241
+TRANSFERATOR AB CLASS A,Financials,TRAN.A.ST,EQ,SE0017911233
+B TREASURY CAPITAL AB CLASS B,Financials,BTC.B.ST,EQ,SE0025198542
+SaveLend Group AB,Financials,YIELD.ST,EQ,SE0015961024
+SPOTLIGHT GROUP AB,Financials,SPGR.ST,EQ,SE0014704763
+Webrock Ventures AB,Financials,WRV.ST,EQ,SE0016278139
+Aktiebolaget Fastator,Financials,FASTAT.ST,EQ,SE0015407382
+First Venture Sweden AB Class B,Financials,FIRST_B.ST,EQ,SE0016075451
+Safello Group AB,Financials,SFL.ST,EQ,SE0015346895
+KATALYSEN VENTURES AB,Financials,KAV.ST,EQ,SE0016798045
+SLOTTSVIKEN FASTIGHETSAKTIEBOLAG CLASS B,Financials,SLOTT.B.ST,EQ,SE0018012411
+Collaxio AB (publ) Class B,Financials,COLLAX.ST,EQ,SE0016609333
+Cardeon AB,Financials,CARDEO.ST,EQ,SE0020050896
+NanoCap Group AB,Financials,NANOC_B.ST,EQ,SE0004020931
+Preservia Hyresfastigheter AB Class B,Financials,PHYR.B.ST,EQ,SE0013147113
+Preservia Hyresfastigheter AB Pref Registered Shs,Financials,PHYR.PREF.ST,EQ,SE0009973365
+Buddypro Group AB Class B,Financials,BUDDY.B.ST,EQ,SE0018690349
+SBF Bostad AB (publ) Class A,Financials,SBFBO.A.ST,EQ,SE0021630084
+SBF Bostad AB (publ) Class B,Financials,SBFBO.B.ST,EQ,SE0021630092
+Preservia Holding AB Pref Registered Shs,Financials,PHOL.PREF.ST,EQ,SE0013486099
+Northern CapSek Ventures AB,Financials,CAPS.ST,EQ,SE0024989750
+Logistea AB Class B,Financials,LOGI_B.ST,EQ,SE0017131337
+BlueYield AB,Financials,SHIP.ST,EQ,SE0024738496
+UPGRADE INVEST NORDIC AB,Financials,UPGRAD.ST,EQ,SE0018536401
+Amaron Commercial Properties AB (publ) Class B,Financials,AMARON.CF.B.ST,EQ,SE0023849799
+RAMLOSA SHIPPING AB(PUBL),Financials,RAMSH.ST,EQ,SE0022600219
+PUBLICVC RTO1 AB (PUBL) CLASS B,Financials,PVRTO1.B.ST,EQ,SE0026821563
+HUNTER CAPITAL RTO 2 AB,Financials,HCRTO2.ST,EQ,SE0026526386
+TANGEN INDUSTRIKAPITAL AB PUBL,Financials,TANGEN_B.ST,EQ,SE0029278985
+NORDEN ESTATES AB,Financials,NORDEN.ST,EQ,SE0025158678
+I LOVE LUND AB CLASS B,Financials,LOVE.B.ST,EQ,SE0018397648
+BERGHOLM FRITIDSFORDON AB,Financials,BHOLM.ST,EQ,SE0027691668
+Insig AB,Financials,INSIG.PREF.ST,EQ,SE0028026997
+CNI Nordic 5 AB Pref Registered Shs -P2-,Financials,CNI5.PREF.P2.ST,EQ,SE0011090646
+Stockholm Nordtech Group AB,Financials,NTECH.ST,EQ,SE0028825042
+PPI Public Property Invest AB,Financials,PUBLI.ST,EQ,SE0028799411
+HUNTER CAPITAL RTO 1 AB (PUBL),Financials,HCRTO1.ST,EQ,SE0026526352
+Vastra Hamnen Corporate Finance AB,Financials,VH.ST,EQ,SE0017767031
+HF REVERSE(RTO)AB CLASS B,Financials,HFRTO.B.ST,EQ,SE0025937899
+PROPORT INVEST AB,Financials,PRPORT.ST,EQ,SE0027767724
+INVOICERY GROUP AB,Financials,FRILAN.ST,EQ,SE0019070434
+ARENIT Industrie SE Swedish Depository Receipt,Financials,ARENIT_SDB.ST,EQ,SE0027767849
+MTI Investment AB,Financials,MTI.ST,EQ,SE0017105539
+Nordea Bank,Financials,NDA-SE.ST,EQ,
+Svenska Handelsbanken,Financials,SHB-A.ST,EQ,
+Swedbank,Financials,SWED-A.ST,EQ,
+SEB AB,Financials,SEB-A.ST,EQ,
+Investor AB,Financials,INVE-B.ST,EQ,
+Industrivärden,Financials,INDU-C.ST,EQ,
+Lundbergföretagen,Financials,LUND-B.ST,EQ,
+Kinnevik,Financials,KINV-B.ST,EQ,
+Latour,Financials,LATO-B.ST,EQ,

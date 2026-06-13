@@ -1,60 +1,55 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-International Holding Company PJSC,Financials,IHC.AD,EQ,
-First Abu Dhabi Bank PJSC,Financials,FAB.AD,EQ,
-Emirates NBD Bank PJSC,Financials,EMIRATESNBD.DU,EQ,
-Abu Dhabi Commercial Bank PJSC,Financials,ADCB.AD,EQ,
-Abu Dhabi Islamic Bank PJSC,Financials,ADIB.AD,EQ,
-Dubai Islamic Bank PJSC,Financials,DIB.DU,EQ,
-Mashreqbank PSC,Financials,MASQ.DU,EQ,
-Commercial Bank of Dubai PSC,Financials,CBD.DU,EQ,
-The National Bank of Ras Al Khaimah (RAKBANK),Financials,RAKBANK.AD,EQ,
-Sharjah Islamic Bank PJSC,Financials,SIB.DU,EQ,
-Dubai Financial Market PJSC,Financials,DFM.DU,EQ,
-Invest Bank PJSC,Financials,INB.DU,EQ,
-GFH Bank B.S.C.,Financials,GFH.DU,EQ,
-Al Salam Bank B.S.C.,Financials,SALAMA.AD,EQ,
-National Bank of Umm Al Qaiwain,Financials,NBQ.AD,EQ,
-United Arab Bank PJSC,Financials,UAB.DU,EQ,
-ANAN Investment Holding PJSC,Financials,ANAN.DU,EQ,
-Abu Dhabi National Insurance Company PJSC,Financials,ADNIC.AD,EQ,
-Phoenix Group PLC,Financials,PHX.DU,EQ,
-Ajman Bank PJSC,Financials,AJMANBANK.DU,EQ,
-Waha Capital Company PJSC,Financials,WAHA.AD,EQ,
-Amanat Holdings PJSC,Financials,AMANAT.DU,EQ,
-Investcorp Capital PLC,Financials,ICAP.AD,EQ,
-Bank of Sharjah PJSC,Financials,BOS.AD,EQ,
-MAIR Group PJSC,Financials,MAIR.AD,EQ,
-Sukoon Insurance PJSC,Financials,SUKOON.AD,EQ,
-Amlak Finance PJSC,Financials,AMLAK.DU,EQ,
-E7 Group PJSC,Financials,E7.AD,EQ,
-Dubai Insurance Company PSC,Financials,DIN.DU,EQ,
-Emirates Insurance Co. PSC,Financials,EIC.DU,EQ,
-National General Insurance Co. PJSC,Financials,NGI.DU,EQ,
-Al Ramz Corporation Investment & Development PJSC,Financials,ALRAMZ.AD,EQ,
-Shuaa Capital PSC,Financials,SHUAA.DU,EQ,
-Emirates Investment Bank PJSC,Financials,EIBANK.AD,EQ,
-Al Khaleej Investment PJSC,Financials,KICO.AD,EQ,
-Al Buhaira National Insurance Company,Financials,ABNIC.AD,EQ,
-Islamic Arab Insurance Co. (Salama),Financials,SALAMI.DU,EQ,
-BHM Capital Financial Services PSC,Financials,BHMCAPITAL.DU,EQ,
-Ithmaar Holding BSC,Financials,ITHMR.BH,EQ,
-Umm Al Qaiwain General Investment Co. PSC,Financials,QIC.AD,EQ,
-Abu Dhabi National Takaful Co.,Financials,TKFL.AD,EQ,
-Dubai National Insurance & Reinsurance Co. PSC,Financials,DNIR.DU,EQ,
-Orient Insurance PJSC,Financials,ORIENT.DU,EQ,
-Union Insurance Company PJSC,Financials,UNION.DU,EQ,
-Takaful Emarat Insurance PSC,Financials,TAKAFUL-EM.DU,EQ,
-Hayah Insurance Company PJSC,Financials,HAYAH.DU,EQ,
-Hily Holding PJSC,Financials,HH.DU,EQ,
-Sukoon Takaful PJSC,Financials,SUKOON-T.AD,EQ,
-Watania International Holding PJSC,Financials,WATANIA.DU,EQ,
-Insurance House PJSC,Financials,IH.AD,EQ,
-Aram Group PJSC,Financials,ARAM.AD,EQ,
-Al Sagr National Insurance Co. PSC,Financials,ASNIC.DU,EQ,
-Naeem Holding Co.,Financials,NAHO.DU,EQ,
-Ekttitab Holding Co. SAKC,Financials,EKTTITAB.KW,EQ,
-Dubai Islamic Insurance & Reinsurance Co.,Financials,AMAN.DU,EQ,
-Al Salam Bank Sudan,Financials,ALSALAMSUDAN.AD,EQ,
-Multiply Group PJSC,Financials,MULTIPLY.AD,EQ,
-International Financial Advisors Holding K.P.S.C.,Financials,IFA.KW,EQ,
-Gulf Finance House B.S.C.,Financials,GFH.BH,EQ,
+International Holding Company PJSC,Financials,IHC.AD,EQ,AEI000201014
+First Abu Dhabi Bank PJSC,Financials,FAB.AD,EQ,AEN000101016
+Emirates NBD Bank PJSC,Financials,EMIRATESNBD.DU,EQ,AEE000801010
+Abu Dhabi Commercial Bank PJSC,Financials,ADCB.AD,EQ,AEA000201011
+Abu Dhabi Islamic Bank PJSC,Financials,ADIB.AD,EQ,AEA000801018
+Dubai Islamic Bank PJSC,Financials,DIB.DU,EQ,AED000201015
+Mashreqbank PSC,Financials,MASQ.DU,EQ,AEM000101018
+Commercial Bank of Dubai PSC,Financials,CBD.DU,EQ,AEC000201017
+The National Bank of Ras Al Khaimah (RAKBANK),Financials,RAKBANK.AD,EQ,AEN000601015
+Dubai Residential REIT,Financials,DUBAIRESI.DU,EQ,AEE01657D252
+Sharjah Islamic Bank,Financials,SIB.AD,EQ,AES000201013
+Dubai Financial Market PJSC,Financials,DFM.DU,EQ,AED000901010
+National Bank of Fujairah,Financials,NBF.AD,EQ,AEN000801011
+Invest Bank,Financials,INB.AD,EQ,AEI000101016
+National Bank of Umm Al Qaiwain,Financials,NBQ.AD,EQ,AEN000701013
+United Arab Bank,Financials,UAB.AD,EQ,AEU000601010
+Abu Dhabi National Insurance Company PJSC,Financials,ADNIC.AD,EQ,AEA001101012
+PHOENIX GROUP   PLC,Financials,PHX.AD,EQ,AEE01357P238
+Ajman Bank PJSC,Financials,AJMANBANK.DU,EQ,AEA003201018
+Waha Capital Company PJSC,Financials,WAHA.AD,EQ,AEA000701010
+ANAN INVESTMENT HOLDING P.J.S.C,Financials,ANAN.AD,EQ,AEW000201015
+Investcorp Capital PLC,Financials,ICAP.AD,EQ,AEE01354I230
+Amanat Holdings PJSC,Financials,AMANAT.DU,EQ,AEA005901011
+Bank of Sharjah PJSC,Financials,BOS.AD,EQ,AEB000101011
+Sukoon Insurance PJSC,Financials,SUKOON.DU,EQ,AEO000101014
+MAIR Group PJSC,Financials,MAIR.AD,EQ,AEE01571M249
+Amlak Finance PJSC,Financials,AMLAK.DU,EQ,AEA001201010
+E7 Group PJSC,Financials,E7.AD,EQ,AEE01073A225
+Dubai Insurance Company PSC,Financials,DIN.DU,EQ,AED000301013
+ESHRAQ INVESTMENTS P.J.S.C,Financials,ESHRAQ.AD,EQ,AEE000901018
+National General Insurance Co. PJSC,Financials,NGI.DU,EQ,AEN000301012
+Manazel PJSC,Financials,MANAZEL.AD,EQ,AEM000601017
+Al Ramz Corporation Investment & Development PJSC,Financials,ALRAMZ.DU,EQ,AED000801012
+Shuaa Capital PSC,Financials,SHUAA.DU,EQ,AES000101015
+Al Dhafra Insurance Co.,Financials,DHAFRA.AD,EQ,AEA000601012
+Emirates Investment Bank PJSC,Financials,EIBANK.DU,EQ,AEA001301018
+Al Buhaira National Insurance Company,Financials,ABNIC.AD,EQ,AEA001701019
+Islamic Arab Insurance Co. (Salama),Financials,SALAMA.DU,EQ,AEI000301012
+BHM Capital Financial Services PSC,Financials,BHMCAPITAL.DU,EQ,AEA006001019
+Umm Al Qaiwain General Investment Co. PSC,Financials,QIC.AD,EQ,AEU000701018
+Al Khaleej Investment PJSC,Financials,KICO.AD,EQ,AEG000701017
+Abu Dhabi National Takaful Co.,Financials,TKFL.AD,EQ,AEA001801017
+Dubai National Insurance & Reinsurance Co. PSC,Financials,DNIR.DU,EQ,AED000101017
+Takaful Emarat - Insurance (PSC),Financials,TAKAFUL_EM.DU,EQ,AET000201011
+Orient Insurance PJSC,Financials,ORIENT.DU,EQ,AEA002601010
+Union Insurance Company,Financials,UNION.AD,EQ,AEU000501012
+Hayah Insurance Company P.J.S.C,Financials,HAYAH.AD,EQ,AEG000801015
+Sharjah Insurance Company,Financials,SICO.AD,EQ,AES000301011
+Sukoon Takaful PJSC,Financials,SUKOONTAKAFL.DU,EQ,AEA001401016
+Insurance House PJSC,Financials,IH.AD,EQ,AEI000401010
+Watania International Holding PJSC,Financials,WATANIA.DU,EQ,AET000301019
+Aram Group PJSC,Financials,ARAM.AD,EQ,AES000601014
+Al Sagr National Insurance Co. PSC,Financials,ASNIC.DU,EQ,AEA002101011
+Dubai Islamic Insurance & Reinsurance Co.,Financials,AMAN.DU,EQ,AED000401011

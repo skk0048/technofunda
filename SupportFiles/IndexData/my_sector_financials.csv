@@ -1,14 +1,194 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-Malayan Banking,Financials,1155.KL,EQ,
-Public Bank,Financials,1295.KL,EQ,
-CIMB Group,Financials,1023.KL,EQ,
-Hong Leong Bank,Financials,5819.KL,EQ,
-RHB Bank,Financials,1066.KL,EQ,
-Hong Leong Financial,Financials,1082.KL,EQ,
-AMMB Holdings,Financials,1015.KL,EQ,
-Bank Islam Malaysia,Financials,5258.KL,EQ,
-Affin Bank,Financials,5185.KL,EQ,
-Alliance Bank Malaysia,Financials,2488.KL,EQ,
-Bursa Malaysia,Financials,1818.KL,EQ,
-Allianz Malaysia,Financials,1163.KL,EQ,
-Syarikat Takaful Malaysia,Financials,6139.KL,EQ,
+Malayan Banking Bhd.,Financials,MAYBANK.KL,EQ,MYL1155OO000
+Public Bank Bhd,Financials,PBBANK.KL,EQ,MYL1295OO004
+CIMB Group Holdings Bhd,Financials,CIMB.KL,EQ,MYL1023OO000
+Hong Leong Bank Bhd,Financials,HLBANK.KL,EQ,MYL5819OO007
+RHB Bank Bhd.,Financials,RHBBANK.KL,EQ,MYL1066OO009
+IOI Properties Group Bhd.,Financials,IOIPG.KL,EQ,MYL5249OO007
+AMMB Holdings Bhd.,Financials,AMBANK.KL,EQ,MYL1015OO006
+Hong Leong Financial Group Bhd.,Financials,HLFG.KL,EQ,MYL1082OO006
+KLCC Property Holdings Bhd.,Financials,KLCC.KL,EQ,MYL5235SS008
+IGB Real Estate Investment Trust,Financials,IGBREIT.KL,EQ,MYL5227TO002
+Sime Darby Property Bhd.,Financials,SIMEPROP.KL,EQ,MYL5288OO005
+Alliance Bank Malaysia Bhd.,Financials,ABMB.KL,EQ,MYL2488OO004
+Sunway Real Estate Investment Trust,Financials,SUNREIT.KL,EQ,MYL5176TO001
+Bursa Malaysia Bhd.,Financials,BURSA.KL,EQ,MYL1818OO003
+Eco World Development Group Bhd.,Financials,ECOWLD.KL,EQ,MYL8206OO004
+Pavilion Real Estate Investment Trust,Financials,PAVREIT.KL,EQ,MYL5212TO004
+LPI Capital Bhd,Financials,LPI.KL,EQ,MYL8621OO004
+Affin Bank Bhd.,Financials,AFFIN.KL,EQ,MYL5185OO003
+OSK Holdings Bhd.,Financials,OSK.KL,EQ,MYL5053OO003
+S P Setia Bhd.,Financials,SPSETIA.KL,EQ,MYL8664OO004
+MBSB Bhd,Financials,MBSB.KL,EQ,MYL1171OO007
+Bank Islam Malaysia Bhd.,Financials,BIMB.KL,EQ,MYL5258OO008
+IGB Bhd.,Financials,IGBB.KL,EQ,MYL5606OO008
+UOA Development Bhd.,Financials,UOADEV.KL,EQ,MYL5200OO000
+Axis Real Estate Investment Trust,Financials,AXREIT.KL,EQ,MYL5106TO008
+Allianz Malaysia Bhd.,Financials,ALLIANZ.KL,EQ,MYL1163OO004
+KSL Holdings Bhd.,Financials,KSL.KL,EQ,MYL5038OO004
+AEON Credit Service (M) Bhd.,Financials,AEONCR.KL,EQ,MYL5139OO000
+Syarikat Takaful Malaysia Keluarga Bhd.,Financials,TAKAFUL.KL,EQ,MYL6139OO009
+UEM Sunrise Bhd.,Financials,UEMS.KL,EQ,MYL5148OO001
+Tropicana Corp. Bhd.,Financials,TROP.KL,EQ,MYL5401OO004
+Mah Sing Group Bhd.,Financials,MAHSING.KL,EQ,MYL8583OO006
+Matrix Concepts Holdings Bhd.,Financials,MATRIX.KL,EQ,MYL5236OO004
+Capitaland Malaysia Trust,Financials,CLMT.KL,EQ,MYL5180TO003
+MNRB Holdings Bhd.,Financials,MNRB.KL,EQ,MYL6459OO001
+Eastern & Oriental Bhd.,Financials,E&O.KL,EQ,MYL3417OO002
+YTL Hospitality REIT,Financials,YTLREIT.KL,EQ,MYL5109TO002
+Ideal Capital Berhad,Financials,IDEAL.KL,EQ,MYL9687OO004
+Radium Development Bhd,Financials,RADIUM.KL,EQ,MYL5313OO001
+RCE Capital Bhd.,Financials,RCECAP.KL,EQ,MYL9296OO004
+IGB Commercial Real Estate Investment Trust,Financials,IGBCR.KL,EQ,MYL5299TO001
+HCK Capital Group Berhad,Financials,HCK.KL,EQ,MYL7105OO009
+NCT Alliance Bhd,Financials,NCT.KL,EQ,MYQ0056OO000
+Tanco Holdings Bhd.,Financials,TANCO.KL,EQ,MYL2429OO008
+Keyfield International Berhad,Financials,KEYFIELD.KL,EQ,MYL5321OO004
+Lagenda Properties Bhd.,Financials,LAGENDA.KL,EQ,MYL7179OO004
+MKH Berhad,Financials,MKH.KL,EQ,MYL6114OO002
+Crescendo Corp. Bhd.,Financials,CRESNDO.KL,EQ,MYL6718OO000
+Master Tec Group Bhd,Financials,MTEC.KL,EQ,MYQ0295OO004
+Al-'Aqar Healthcare REIT,Financials,ALAQAR.KL,EQ,MYL5116TO007
+Nextgreen Global Bhd,Financials,NGGB.KL,EQ,MYL7241OO002
+SENTRAL REIT,Financials,SENTRAL.KL,EQ,MYL5123TO003
+Signature International Bhd.,Financials,SIGN.KL,EQ,MYL7246OO001
+AME Real Estate Investment Trust,Financials,AMEREIT.KL,EQ,MYL5307TO002
+KIP Real Estate Investment Trust,Financials,KIPREIT.KL,EQ,MYL5280TO001
+Hong Leong Capital Bhd.,Financials,HLCAP.KL,EQ,MYL5274OO005
+GuocoLand (Malaysia) Bhd.,Financials,GUOCO.KL,EQ,MYL1503OO001
+Pappajack Bhd,Financials,PPJACK.KL,EQ,MYQ0242OO006
+Teladan Group Bhd,Financials,TELADAN.KL,EQ,MYQ0230OO001
+LBS Bina Group Bhd.,Financials,LBS.KL,EQ,MYL5789OO002
+Paragon Globe Berhad,Financials,PGLOBE.KL,EQ,MYL3611OO000
+Paramount Corp. Bhd.,Financials,PARAMON.KL,EQ,MYL1724OO003
+Ibraco Bhd.,Financials,IBRACO.KL,EQ,MYL5084OO008
+Plenitude Bhd.,Financials,PLENITU.KL,EQ,MYL5075OO006
+Manulife Holdings Bhd.,Financials,MANULFE.KL,EQ,MYL1058OO006
+SHL Consolidated Bhd.,Financials,SHL.KL,EQ,MYL6017OO007
+UOA Real Estate Investment Trust,Financials,UOAREIT.KL,EQ,MYL5110TO000
+AYER Holdings Bhd,Financials,AYER.KL,EQ,MYL2305OO000
+Sorento Capital Bhd.,Financials,SORENTO.KL,EQ,MYQ0326OO007
+Kenanga Investment Bank Bhd.,Financials,KENANGA.KL,EQ,MYL6483OO001
+Magma Group Bhd,Financials,MAGMA.KL,EQ,MYL7243OO008
+EWI Capital Bhd,Financials,EWICAP.KL,EQ,MYL5283OO006
+Land & General Bhd.,Financials,L&G.KL,EQ,MYL3174OO009
+ELK-Desa Resources Bhd.,Financials,ELKDESA.KL,EQ,MYL5228OO001
+KTI Landmark Bhd.,Financials,KTI.KL,EQ,MYQ0308OO005
+Skyworld Development Bhd,Financials,SKYWLD.KL,EQ,MYL5315OO006
+Southern Acids (Malaysia) Bhd.,Financials,SAB.KL,EQ,MYL5134OO001
+EcoFirst Consolidated Bhd,Financials,ECOFIRS.KL,EQ,MYL3557OO005
+I-Berhad,Financials,IBHD.KL,EQ,MYL4251OO004
+BEDI Berhad,Financials,BEDI.KL,EQ,MYL6378OO003
+Varia Berhad,Financials,VARIA.KL,EQ,MYL5006OO001
+M & A Equity Holdings Bhd,Financials,M&A.KL,EQ,MYL7082OO000
+Tambun Indah Land Bhd.,Financials,TAMBUN.KL,EQ,MYL5191OO001
+Atrium Real Estate Investment Trust,Financials,ATRIUM.KL,EQ,MYL5130TO008
+Country View Bhd.,Financials,CVIEW.KL,EQ,MYL5049OO001
+PJBUMI BERHAD,Financials,PJBUMI.KL,EQ,MYL7163OO008
+Al-Salam Real Estate Investment Trust,Financials,ALSREIT.KL,EQ,MYL5269TO004
+Seal Incorporated Berhad,Financials,SEAL.KL,EQ,MYL4286OO000
+Hektar Real Estate Investment Trust,Financials,HEKTAR.KL,EQ,MYL5121TO007
+Titijaya Land Bhd.,Financials,TITIJYA.KL,EQ,MYL5239OO008
+Sunsuria Berhad,Financials,SUNSURIA.KL,EQ,MYL3743OO001
+Glomac Bhd.,Financials,GLOMAC.KL,EQ,MYL5020OO002
+AVALAND Bhd,Financials,AVALAND.KL,EQ,MYL5182OO000
+JKG Land Bhd.,Financials,JKGLAND.KL,EQ,MYL6769OO003
+Mercury Securities Group Bhd.,Financials,MERSEC.KL,EQ,MYQ0285OO005
+Magna Prima Bhd.,Financials,MAGNA.KL,EQ,MYL7617OO003
+Kerjaya Prospek Property Bhd.,Financials,KPPROP.KL,EQ,MYL7077OO000
+AmFIRST Real Estate Investment Trust,Financials,AMFIRST.KL,EQ,MYL5120TO009
+AmanahRaya Real Estate Investment Trust,Financials,ARREIT.KL,EQ,MYL5127TO004
+Selangor Dredging Bhd.,Financials,SDRED.KL,EQ,MYL2224OO003
+Tune Protect Group Bhd.,Financials,TUNEPRO.KL,EQ,MYL5230OO007
+MK Land Holdings Bhd.,Financials,MKLAND.KL,EQ,MYL8893OO009
+Skygate Solutions Bhd,Financials,SKYGATE.KL,EQ,MYL7249OO005
+Asian Pac Holdings Bhd.,Financials,ASIAPAC.KL,EQ,MYL4057OO005
+Pacific & Orient Bhd.,Financials,P&O.KL,EQ,MYL6009OO004
+Malton Bhd.,Financials,MALTON.KL,EQ,MYL6181OO001
+Tower Real Estate Investment Trust,Financials,TWRREIT.KL,EQ,MYL5111TO008
+Apex Equity Holdings Bhd.,Financials,APEX.KL,EQ,MYL5088OO009
+DPS Resources Bhd.,Financials,DPS.KL,EQ,MYL7198OO004
+Sumisaujana Group Berhad,Financials,SUMI.KL,EQ,MYQ0349OO009
+OCR Group Bhd,Financials,OCR.KL,EQ,MYL7071OO003
+MUI Properties Bhd.,Financials,MUIPROP.KL,EQ,MYL3913OO000
+Pasdec Holdings Bhd.,Financials,PASDEC.KL,EQ,MYL6912OO009
+YNH Property Bhd.,Financials,YNHPROP.KL,EQ,MYL3158OO002
+Symphony Life Bhd.,Financials,SYMLIFE.KL,EQ,MYL1538OO007
+OSK Ventures International Bhd.,Financials,OSKVI.KL,EQ,MYQ0053OO007
+Talam Transform Berhad,Financials,TALAMT.KL,EQ,MYL2259OO009
+EUPE Corp. Bhd.,Financials,EUPE.KL,EQ,MYL6815OO004
+BCB BHD,Financials,BCB.KL,EQ,MYL6602OO006
+Gromutual Bhd.,Financials,GMUTUAL.KL,EQ,MYL9962OO001
+Rapid Synergy Bhd.,Financials,RAPID.KL,EQ,MYL7765OO000
+Axteria Group Bhd,Financials,AXTERIA.KL,EQ,MYL7120OO008
+Hua Yang Bhd.,Financials,HUAYANG.KL,EQ,MYL5062OO004
+Eksons Corp. Bhd.,Financials,EKSONS.KL,EQ,MYL9016OO006
+Yong Tai Bhd.,Financials,YONGTAI.KL,EQ,MYL7066OO003
+Yong Tai Bhd Irred Conv Pref Registered 2016-27.11.26,Financials,YONGTAI-PA.KL,EQ,MYL7066PA6B8
+SBC Corporation Berhad,Financials,SBCCORP.KL,EQ,MYL5207OO005
+Y&G Corporation Bhd.,Financials,Y&G.KL,EQ,MYL7003OO006
+Pimpinan Ehsan Berhad,Financials,PEB.KL,EQ,MYL5622OO005
+Golden Land Bhd.,Financials,GLBHD.KL,EQ,MYL7382OO004
+Majuperak Holdings Bhd.,Financials,MJPERAK.KL,EQ,MYL8141OO003
+Country Heights Holdings Bhd.,Financials,CHHB.KL,EQ,MYL5738OO009
+Parkwood Holdings Bhd.,Financials,PARKWD.KL,EQ,MYL2682OO002
+Sapura Resources Bhd.,Financials,SAPRES.KL,EQ,MYL4596OO002
+MAA Group Bhd.,Financials,MAA.KL,EQ,MYL1198OO000
+Global Oriental Bhd.,Financials,GOB.KL,EQ,MYL1147OO007
+LBI Capital Bhd.,Financials,LBICAP.KL,EQ,MYL8494OO006
+Thriven Global Bhd.,Financials,THRIVEN.KL,EQ,MYL7889OO008
+Encorp Bhd.,Financials,ENCORP.KL,EQ,MYL6076OO003
+Acme Holdings Bhd,Financials,ACME.KL,EQ,MYL7131OO005
+Ho Hup Construction Co. Bhd.,Financials,HOHUP.KL,EQ,MYL5169OO007
+Johan Holdings Bhd.,Financials,JOHAN.KL,EQ,MYL3441OO002
+Farlim Group (Malaysia) Bhd.,Financials,FARLIM.KL,EQ,MYL6041OO007
+Multi-Usage Holdings Bhd.,Financials,MUH.KL,EQ,MYL9539OO007
+Meridian Berhad,Financials,MERIDIAN.KL,EQ,MYL5040OO000
+icapital.biz Bhd.,Financials,ICAP.KL,EQ,MYL5108FO003
+PARADIGM REAL ESTATE INVESTMENT TRUST,Financials,PARADIGM.KL,EQ,MYL5338TO007
+TSiC Bhd.,Financials,TSIC.KL,EQ,MYL03062O006
+Wasco Greenergy Berhad,Financials,GENERGY.KL,EQ,MYL5343OO008
+Autoris Group Holdings Bhd,Financials,AUTORIS.KL,EQ,MYL03059O002
+Gold Li Holdings Berhad,Financials,GOLDLI.KL,EQ,MYQ0452OO001
+Express Powerr Solutions (M) Berhad,Financials,XPB.KL,EQ,MYQ0370OO005
+Whitman Holdings Berhad,Financials,WHITMAN.KL,EQ,MYL03070O009
+Polymer Link Holdings Bhd,Financials,POLYMER.KL,EQ,MYQ0381OO002
+Malayan Banking Berhad,Financials,1155.KL,EQ,
+Public Bank Berhad,Financials,1295.KL,EQ,
+CIMB Group Holdings Berhad,Financials,1023.KL,EQ,
+Hong Leong Bank Berhad,Financials,5819.KL,EQ,
+RHB Bank Berhad,Financials,1066.KL,EQ,
+AMMB Holdings Berhad,Financials,1015.KL,EQ,
+Hong Leong Financial Group Berhad,Financials,1082.KL,EQ,
+Alliance Bank Malaysia Berhad,Financials,2488.KL,EQ,
+Bursa Malaysia Berhad,Financials,1818.KL,EQ,
+LPI Capital Bhd,Financials,8621.KL,EQ,
+AFFIN Bank Berhad,Financials,5185.KL,EQ,
+MBSB Berhad,Financials,1171.KL,EQ,
+Bank Islam Malaysia Berhad,Financials,5258.KL,EQ,
+Allianz Malaysia Berhad,Financials,1163.KL,EQ,
+AEON Credit Service (M) Berhad,Financials,5139.KL,EQ,
+Syarikat Takaful Malaysia Keluarga Berhad,Financials,6139.KL,EQ,
+MNRB Holdings Berhad,Financials,6459.KL,EQ,
+RCE Capital Berhad,Financials,9296.KL,EQ,
+CTOS Digital Berhad,Financials,5301.KL,EQ,
+Hong Leong Capital Berhad,Financials,5274.KL,EQ,
+Pappajack Berhad,Financials,0242.KL,EQ,
+Insas Berhad,Financials,3379.KL,EQ,
+Kenanga Investment Bank Berhad,Financials,6483.KL,EQ,
+Manulife Holdings Berhad,Financials,1058.KL,EQ,
+ELK-Desa Resources Berhad,Financials,5228.KL,EQ,
+Evergreen Max Cash Capital Berhad,Financials,0286.KL,EQ,
+iCapital.biz Berhad,Financials,5108.KL,EQ,
+M & A Equity Holdings Berhad,Financials,7082.KL,EQ,
+Mercury Securities Group Berhad,Financials,0285.KL,EQ,
+Tune Protect Group Berhad,Financials,5230.KL,EQ,
+JcbNext Berhad,Financials,0058.KL,EQ,
+Apex Equity Holdings Berhad,Financials,5088.KL,EQ,
+Pacific & Orient Berhad,Financials,6009.KL,EQ,
+OSK Ventures International Berhad,Financials,0053.KL,EQ,
+SCGM Bhd,Financials,7247.KL,EQ,
+Pimpinan Ehsan Berhad,Financials,5622.KL,EQ,
+MAA Group Berhad,Financials,1198.KL,EQ,
+Fintec Global Berhad,Financials,0150.KL,EQ,
+Allianz Malaysia Berhad,Financials,1163PA.KL,EQ,

@@ -1,16 +1,15 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-ASML Holding NV,Technology,ASML.AS,EQ,
-Prosus N.V. Class N,Technology,PRX.AS,EQ,
-CSG N.V.,Technology,CSG.AS,EQ,
-Wolters Kluwer N.V.,Technology,WKL.AS,EQ,
-InPost S.A.,Technology,INPST.AS,EQ,
-COLT CZ GROUP SE,Technology,COLT.AS,EQ,
-TomTom NV,Technology,TOM2.AS,EQ,
-Nedap N.V,Technology,NEDAP.AS,EQ,
-CM.com N.V.,Technology,CMCOM.AS,EQ,
-MotorK PLC,Technology,MTRK.AS,EQ,
-Ctac NV,Technology,CTAC.AS,EQ,
-Hawick Data N.V,Technology,HWK.AS,EQ,
-MKB NedSense N.V.,Technology,NEDSE.AS,EQ,
-ER Capital N.V.,Technology,ERC.AS,EQ,
-SWI Capital Holding Ltd.,Technology,SWICH.AS,EQ,
+ASML Holding,Technology,ASML.AS,EQ,NL0010273215
+Prosus NV,Technology,PRX.AS,EQ,NL0013654783
+ASM International NV,Technology,ASM.AS,EQ,NL0000334118
+Adyen NV,Technology,ADYEN.AS,EQ,NL0012969182
+Besi,Technology,BESI.AS,EQ,NL0012866412
+CSG N.V.,Technology,CSG.AS,EQ,NL0015073TS8
+Wolters Kluwer,Technology,WKL.AS,EQ,NL0000395903
+TomTom NV,Technology,TOM2.AS,EQ,NL0013332471
+Nedap NV,Technology,NEDAP.AS,EQ,NL0000371243
+CM.com N.V.,Technology,CMCOM.AS,EQ,NL0012747059
+Ctac NV,Technology,CTAC.AS,EQ,NL0000345577
+Hawick Data N.V,Technology,HWK.AS,EQ,NL0010556726
+MKB NedSense N.V.,Technology,NEDSE.AS,EQ,NL0009312842
+ER Capital N.V.,Technology,ERC.AS,EQ,NL0010389508

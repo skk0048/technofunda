@@ -1,18 +1,16 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-APA Group,Utilities,APA.AX,EQ,
-Meridian Energy Limited,Utilities,MEZ.AX,EQ,
-Contact Energy Limited,Utilities,CEN.AX,EQ,
-Mercury NZ Ltd.,Utilities,MCY.AX,EQ,
-AGL Energy Limited,Utilities,AGL.AX,EQ,
-Genesis Energy Limited,Utilities,GNE.AX,EQ,
-IPD Group Ltd,Utilities,IPG.AX,EQ,
-LGI LTD,Utilities,LGI.AX,EQ,
-Rivco Australia Limited,Utilities,RIV.AX,EQ,
-Energy World Corporation Ltd,Utilities,EWC.AX,EQ,
-Gold Hydrogen Ltd.,Utilities,GHY.AX,EQ,
-Kalina Power Limited,Utilities,KPO.AX,EQ,
-TPC Consolidated Limited,Utilities,TPC.AX,EQ,
-Volt Group Ltd.,Utilities,VPR.AX,EQ,
-Delorean Corporation Ltd,Utilities,DEL.AX,EQ,
-Janus Electric Holdings Limited,Utilities,JNS.AX,EQ,
-Locality Planning Energy Holdings Limited,Utilities,LPE.AX,EQ,
+Origin Energy,Utilities,ORG.AX,EQ,AU000000ORG5
+APA Group,Utilities,APA.AX,EQ,AU000000APA1
+AGL Energy,Utilities,AGL.AX,EQ,AU000000AGL7
+IPD Group Ltd,Utilities,IPG.AX,EQ,AU0000189318
+LGI LTD,Utilities,LGI.AX,EQ,AU0000237638
+Energy World Corporation Ltd,Utilities,EWC.AX,EQ,AU000000EWC5
+Rivco Australia Limited,Utilities,RIV.AX,EQ,AU0000426512
+Gold Hydrogen Ltd.,Utilities,GHY.AX,EQ,AU0000253171
+TPC Consolidated Limited,Utilities,TPC.AX,EQ,AU000000TPC7
+Kalina Power Limited,Utilities,KPO.AX,EQ,AU000000KPO1
+Volt Group Ltd.,Utilities,VPR.AX,EQ,AU000000VPR1
+Delorean Corporation Ltd,Utilities,DEL.AX,EQ,AU0000139974
+Janus Electric Holdings Limited,Utilities,JNS.AX,EQ,AU0000395626
+Locality Planning Energy Holdings Limited,Utilities,LPE.AX,EQ,AU000000LPE0
+Timah Resources Ltd,Utilities,TML.AX,EQ,AU000000TML5

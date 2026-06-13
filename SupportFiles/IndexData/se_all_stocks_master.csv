@@ -1,1111 +1,986 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-AstraZeneca PLC,Health Care,AZN.ST,EQ,
-ABB Ltd.,Industrials,ABB.ST,EQ,
-Investor AB Class B,Financials,INVE-B.ST,EQ,
-Investor AB Class A,Financials,INVE-A.ST,EQ,
-Equinor ASA,Energy,EQNRO.ST,EQ,
-Atlas Copco AB Class B,Industrials,ATCO-B.ST,EQ,
-Atlas Copco AB Class A,Industrials,ATCO-A.ST,EQ,
-Nokia Oyj,Technology,NOKIA-SEK.ST,EQ,
-Volvo AB Class A,Industrials,VOLV-A.ST,EQ,
-Volvo AB Class B,Industrials,VOLV-B.ST,EQ,
-Nordea Bank Abp,Financials,NDA-SE.ST,EQ,
-Sandvik AB,Industrials,SAND.ST,EQ,
-DNB Bank ASA,Financials,DNBO.ST,EQ,
-Telefonaktiebolaget LM Ericsson Class A,Technology,ERIC-A.ST,EQ,
-Telefonaktiebolaget LM Ericsson Class B,Technology,ERIC-B.ST,EQ,
-Swedbank AB Class A,Financials,SWED-A.ST,EQ,
-ASSA ABLOY AB Class B,Consumer Discretionary,ASSA-B.ST,EQ,
-Skandinaviska Enskilda Banken AB Class A,Financials,SEB-A.ST,EQ,
-Skandinaviska Enskilda Banken AB Class C,Financials,SEB-C.ST,EQ,
-EQT AB,Financials,EQT.ST,EQ,
-Epiroc AB Class B,Industrials,EPI-B.ST,EQ,
-Epiroc AB Class A,Industrials,EPI-A.ST,EQ,
-Saab AB Class B,Technology,SAAB-B.ST,EQ,
-Kongsberg Gruppen ASA,Industrials,KOGO.ST,EQ,
-Svenska Handelsbanken AB Class A,Financials,SHB-A.ST,EQ,
-Svenska Handelsbanken AB Class B,Financials,SHB-B.ST,EQ,
-H&M Hennes & Mauritz AB Class B,Consumer Discretionary,HM-B.ST,EQ,
-Sampo Oyj,Financials,SAMPO-SEK.ST,EQ,
-Hexagon AB Class B,Technology,HEXA-B.ST,EQ,
-Norsk Hydro ASA,Materials,NHYO.ST,EQ,
-Alfa Laval AB,Industrials,ALFA.ST,EQ,
-Aker BP ASA,Energy,AKRBPO.ST,EQ,
-Industrivarden AB Class C,Financials,INDU-C.ST,EQ,
-Industrivarden AB Class A,Financials,INDU-A.ST,EQ,
-Lundin Mining Corporation,Materials,LUMI.ST,EQ,
-Telenor ASA,Communication Services,TELO.ST,EQ,
-Telia Company AB,Communication Services,TELIA.ST,EQ,
-Essity AB Class B,Consumer Staples,ESSITY-B.ST,EQ,
-Essity AB Class A,Consumer Staples,ESSITY-A.ST,EQ,
-Boliden AB,Materials,BOL.ST,EQ,
-Swedish Orphan Biovitrum AB,Health Care,SOBI.ST,EQ,
-Evolution AB,Technology,EVO.ST,EQ,
-Lifco AB Class B,Industrials,LIFCO-B.ST,EQ,
-L E Lundbergforetagen AB Class B,Financials,LUND-B.ST,EQ,
-Lundin Gold Inc.,Materials,LUG.ST,EQ,
-Yara International ASA,Materials,YARO.ST,EQ,
-Gjensidige Forsikring ASA,Financials,GJFO.ST,EQ,
-Verisure Plc,Industrials,VSURE.ST,EQ,
-Tele2 AB Class B,Communication Services,TEL2-B.ST,EQ,
-Tele2 AB Class A,Communication Services,TEL2-A.ST,EQ,
-Var Energi ASA,Energy,VARO.ST,EQ,
-Investment AB Latour Class B,Financials,LATO-B.ST,EQ,
-SKF AB Class A,Industrials,SKF-A.ST,EQ,
-SKF AB Class B,Industrials,SKF-B.ST,EQ,
-Mowi ASA,Consumer Staples,MOWIO.ST,EQ,
-Skanska AB Class B,Industrials,SKA-B.ST,EQ,
-Orkla ASA,Consumer Staples,ORKO.ST,EQ,
-Subsea 7 S.A.,Industrials,SUBCO.ST,EQ,
-SSAB AB Class A,Industrials,SSAB-A.ST,EQ,
-SSAB AB Class B,Industrials,SSAB-B.ST,EQ,
-Aker ASA Class A,Financials,AKERO.ST,EQ,
-Trelleborg AB Class B,Industrials,TREL-B.ST,EQ,
-Autoliv Inc Shs Swedish DR,Industrials,ALIV-SDB.ST,EQ,
-Securitas AB Class B,Industrials,SECU-B.ST,EQ,
-Addtech AB Class B,Technology,ADDT-B.ST,EQ,
-Nordnet AB,Financials,SAVE.ST,EQ,
-NIBE Industrier AB Class B,Industrials,NIBE-B.ST,EQ,
-Frontline Plc,Industrials,FROO.ST,EQ,
-SalMar ASA,Materials,SALMO.ST,EQ,
-Storebrand ASA,Financials,STBO.ST,EQ,
-Svenska Cellulosa AB SCA Class A,Materials,SCA-A.ST,EQ,
-Svenska Cellulosa AB SCA Class B,Materials,SCA-B.ST,EQ,
-SPAREBANK 1 SOR-NORGE ASA,Financials,SB1NOO.ST,EQ,
-Indutrade AB,Industrials,INDT.ST,EQ,
-Volvo Car AB Class B,Consumer Discretionary,VOLCAR-B.ST,EQ,
-Beijer Ref AB Class B,Industrials,BEIJ-B.ST,EQ,
-AAK AB,Consumer Staples,AAK.ST,EQ,
-Fastighets AB Balder Class B,Financials,BALD-B.ST,EQ,
-Mycronic AB,Industrials,MYCR.ST,EQ,
-AB Sagax Class A,Financials,SAGA-A.ST,EQ,
-AB Sagax Class B,Financials,SAGA-B.ST,EQ,
-AB Sagax,Financials,SAGA-D.ST,EQ,
-Sectra AB Class B,Technology,SECT-B.ST,EQ,
-Axfood AB,Consumer Discretionary,AXFO.ST,EQ,
-Castellum AB,Financials,CAST.ST,EQ,
-Avanza Bank Holding AB,Financials,AZA.ST,EQ,
-Wallenius Wilhelmsen ASA,Industrials,WAWIO.ST,EQ,
-Vend Marketplaces ASA,Technology,VENDO.ST,EQ,
-Getinge AB Class B,Health Care,GETI-B.ST,EQ,
-Lagercrantz Group AB Class B,Technology,LAGR-B.ST,EQ,
-Sweco AB Class B,Industrials,SWEC-B.ST,EQ,
-Sweco AB Class A,Industrials,SWEC-A.ST,EQ,
-Holmen AB Class A,Materials,HOLM-A.ST,EQ,
-Holmen AB Class B,Materials,HOLM-B.ST,EQ,
-AutoStore Holdings Ltd.,Technology,AUTOOO.ST,EQ,
-Nordic Semiconductor ASA,Technology,NODO.ST,EQ,
-Munters Group AB,Industrials,MTRS.ST,EQ,
-Protector Forsikring ASA,Financials,PROTO.ST,EQ,
-Hafnia Limited,Industrials,HAFNIO.ST,EQ,
-Pandox AB Class B,Financials,PNDX-B.ST,EQ,
-Camurus AB,Health Care,CAMX.ST,EQ,
-Asmodee Group AB Class B,Consumer Discretionary,ASMDEE-B.ST,EQ,
-Medicover AB Class B,Health Care,MCOV-B.ST,EQ,
-Sinch AB,Technology,SINCH.ST,EQ,
-Asker Healthcare Group AB,Industrials,ASKER.ST,EQ,
-DOF Group ASA,Energy,DOFGO.ST,EQ,
-Wilh. Wilhelmsen Holding ASA Class A,Industrials,WWIO.ST,EQ,
-Wilh. Wilhelmsen Holding ASA Class B,Industrials,WWIBO.ST,EQ,
-BW LPG Limited,Industrials,BWLPGO.ST,EQ,
-Loomis AB,Industrials,LOOMIS.ST,EQ,
-TGS ASA,Technology,TGSO.ST,EQ,
-TOMRA Systems ASA,Industrials,TOMO.ST,EQ,
-Roko AB Class B,Financials,ROKO-B.ST,EQ,
-Hoegh Autoliners ASA,Industrials,HAUTOO.ST,EQ,
-Electrolux AB Class B,Consumer Discretionary,ELUX-B.ST,EQ,
-Electrolux AB Class A,Consumer Discretionary,ELUX-A.ST,EQ,
-Catena AB,Financials,CATE.ST,EQ,
-BioArctic AB Class B,Health Care,BIOA-B.ST,EQ,
-HMS Networks AB,Technology,HMS.ST,EQ,
-International Petroleum Corp. (British Columbia),Energy,IPCO.ST,EQ,
-Tieto Corporation,Technology,TIETOS.ST,EQ,
-Peab AB Class B,Industrials,PEAB-B.ST,EQ,
-Hexpol AB Class B,Materials,HPOL-B.ST,EQ,
-Wallenstam AB Class B,Financials,WALL-B.ST,EQ,
-Bakkafrost P/F,Consumer Staples,BAKKAO.ST,EQ,
-Kitron ASA,Technology,KITO.ST,EQ,
-Wihlborgs Fastigheter AB,Financials,WIHL.ST,EQ,
-Leroy Seafood Group ASA,Consumer Staples,LSGO.ST,EQ,
-Fabege AB,Financials,FABG.ST,EQ,
-Veidekke ASA,Industrials,VEIO.ST,EQ,
-Clas Ohlson AB Class B,Consumer Discretionary,CLAS-B.ST,EQ,
-Husqvarna AB Class A,Consumer Discretionary,HUSQ-A.ST,EQ,
-Husqvarna AB Class B,Consumer Discretionary,HUSQ-B.ST,EQ,
-Sivers Semiconductors AB,Technology,SIVE.ST,EQ,
-Thule Group AB,Consumer Discretionary,THULE.ST,EQ,
-Bravida Holding AB,Industrials,BRAV.ST,EQ,
-Hacksaw AB,Technology,HACK.ST,EQ,
-OEM International AB Class B,Industrials,OEM-B.ST,EQ,
-Bufab AB,Industrials,BUFAB.ST,EQ,
-Cadeler A/S,Industrials,CADLRO.ST,EQ,
-Alleima AB,Materials,ALLEI.ST,EQ,
-Odfjell Drilling Ltd.,Industrials,ODLO.ST,EQ,
-Aker Solutions ASA,Utilities,AKSOO.ST,EQ,
-SoftwareOne Holding Ltd.,Industrials,SWONO.ST,EQ,
-AQ Group AB,Industrials,AQ.ST,EQ,
-Hufvudstaden AB Class A,Financials,HUFV-A.ST,EQ,
-Elekta AB Class B,Health Care,EKTA-B.ST,EQ,
-AF Gruppen ASA Class A,Industrials,AFGO.ST,EQ,
-Granges AB,Materials,GRNG.ST,EQ,
-Bure Equity AB,Financials,BURE.ST,EQ,
-Scandic Hotels Group AB,Consumer Discretionary,SHOT.ST,EQ,
-Arion Banki hf Shs Swedish DR,Financials,ARION-SDB.ST,EQ,
-DNO ASA Class A,Energy,DNOO.ST,EQ,
-Atea ASA,Technology,ATEAO.ST,EQ,
-AddLife AB Class B,Health Care,ALIF-B.ST,EQ,
-Entra ASA,Financials,ENTRAO.ST,EQ,
-Beijer Alma AB Class B,Industrials,BEIA-B.ST,EQ,
-Okeanis Eco Tankers Corp.,Industrials,OETO.ST,EQ,
-Atrium Ljungberg AB Class B,Financials,ATRLJ-B.ST,EQ,
-Attendo AB,Health Care,ATT.ST,EQ,
-Austevoll Seafood ASA,Consumer Staples,AUSSO.ST,EQ,
-Kinnevik AB Class B,Financials,KINV-B.ST,EQ,
-Kinnevik AB Class A,Financials,KINV-A.ST,EQ,
-Scatec ASA,Utilities,SCATCO.ST,EQ,
-Stolt-Nielsen Limited,Industrials,SNIO.ST,EQ,
-NCC AB Class A,Industrials,NCC-A.ST,EQ,
-NCC AB Class B,Industrials,NCC-B.ST,EQ,
-NP3 Fastigheter AB,Financials,NP3.ST,EQ,
-Intea Fastigheter AB Class D,Financials,INTEA-D.ST,EQ,
-Intea Fastigheter AB Class B,Financials,INTEA-B.ST,EQ,
-NCAB Group AB,Technology,NCAB.ST,EQ,
-Modern Times Group MTG AB Class B,Technology,MTG-B.ST,EQ,
-Modern Times Group MTG AB Class A,Technology,MTG-A.ST,EQ,
-Systemair AB,Industrials,SYSR.ST,EQ,
-Billerud AB,Materials,BILL.ST,EQ,
-Norwegian Air Shuttle ASA,Industrials,NASO.ST,EQ,
-BW Energy Ltd.,Industrials,BWEO.ST,EQ,
-Storskogen Group AB Class B,Financials,STOR-B.ST,EQ,
-Europris ASA,Consumer Discretionary,EPRO.ST,EQ,
-BlueNord ASA,Energy,BNORO.ST,EQ,
-BONESUPPORT HOLDING AB,Health Care,BONEX.ST,EQ,
-Embracer Group AB Class B,Technology,EMBRAC-B.ST,EQ,
-Vimian Group AB,Health Care,VIMIAN.ST,EQ,
-Borregaard ASA,Materials,BRGO.ST,EQ,
-Hoist Finance AB,Industrials,HOFI.ST,EQ,
-Altra Fastigheter AB,Financials,ALTRA.ST,EQ,
-Borr Drilling Limited,Industrials,BORRO.ST,EQ,
-Cloetta AB Class B,Consumer Staples,CLA-B.ST,EQ,
-Paradox Interactive AB,Technology,PDX.ST,EQ,
-Rusta AB,Consumer Discretionary,RUSTA.ST,EQ,
-Electrolux Professional AB Class B,Industrials,EPRO-B.ST,EQ,
-Nolato AB Class B,Technology,NOLA-B.ST,EQ,
-Vitrolife AB,Health Care,VITR.ST,EQ,
-Bilia AB Class A,Consumer Discretionary,BILI-A.ST,EQ,
-Solstad Maritime ASA,Industrials,SOMAO.ST,EQ,
-New Wave Group AB Class B,Consumer Staples,NEWA-B.ST,EQ,
-AFRY AB Class B,Industrials,AFRY.ST,EQ,
-INVISIO AB,Technology,IVSO.ST,EQ,
-PLEJD AB,Technology,PLEJD.ST,EQ,
-BioGaia AB Class B,Health Care,BIOG-B.ST,EQ,
-Cibus Real Estate AB (publ),Financials,CIBUS.ST,EQ,
-Betsson AB Class B,Consumer Discretionary,BETS-B.ST,EQ,
-Elkem ASA,Materials,ELKO.ST,EQ,
-Alimak Group AB,Industrials,ALIG.ST,EQ,
-MPC Container Ships ASA,Industrials,MPCCO.ST,EQ,
-SkiStar AB Class B,Consumer Discretionary,SKIS-B.ST,EQ,
-Norbit ASA,Industrials,NORBTO.ST,EQ,
-Ratos AB Class B,Financials,RATO-B.ST,EQ,
-Ratos AB Class A,Financials,RATO-A.ST,EQ,
-Norion Bank AB,Financials,NORION.ST,EQ,
-Avarda Bank AB,Financials,AVARDA.ST,EQ,
-Hanza AB,Materials,HANZA.ST,EQ,
-Ambea AB,Health Care,AMBEA.ST,EQ,
-Lindab International AB,Industrials,LIAB.ST,EQ,
-Bonheur ASA,Industrials,BONHRO.ST,EQ,
-Alvotech Swedish Depository Receipt Repr 1 Sh,Health Care,ALVO-SDB.ST,EQ,
-Vitec Software Group AB Class B,Technology,VIT-B.ST,EQ,
-Creades AB Class A,Industrials,CRED-A.ST,EQ,
-Meren Energy Inc.,Energy,MER.ST,EQ,
-engcon AB Class B,Industrials,ENGCON-B.ST,EQ,
-Dometic Group AB,Consumer Discretionary,DOM.ST,EQ,
-Instalco AB,Industrials,INSTAL.ST,EQ,
-Arendals Fossekompani ASA,Utilities,AFKO.ST,EQ,
-Elopak ASA,Materials,ELOO.ST,EQ,
-Scandi Standard AB,Consumer Staples,SCST.ST,EQ,
-Sdiptech AB Class B,Industrials,SDIP-B.ST,EQ,
-Swedish Logistic Property AB Class B,Industrials,SLP-B.ST,EQ,
-MilDef Group AB,Technology,MILDEF.ST,EQ,
-AcadeMedia AB,Consumer Discretionary,ACAD.ST,EQ,
-Hexatronic Group AB,Technology,HTRO.ST,EQ,
-Dios Fastigheter AB,Financials,DIOS.ST,EQ,
-Xvivo Perfusion AB,Health Care,XVIVO.ST,EQ,
-Aker BioMarine ASA,Materials,AKBMO.ST,EQ,
-Odfjell SE Class B,Industrials,ODFBO.ST,EQ,
-Odfjell SE Class A,Industrials,ODFO.ST,EQ,
-BW Offshore Limited,Energy,BWOO.ST,EQ,
-Platzer Fastigheter Holding AB Class B,Financials,PLAZ-B.ST,EQ,
-Hemnet Group AB,Financials,HEM.ST,EQ,
-Inwido AB,Materials,INWI.ST,EQ,
-B2 Impact ASA,Industrials,B2IO.ST,EQ,
-Synsam AB,Consumer Discretionary,SYNSAM.ST,EQ,
-FastPartner AB,Financials,FPAR-A.ST,EQ,
-FastPartner AB Class D,Financials,FPAR-D.ST,EQ,
-Apotea AB,Consumer Discretionary,APOTEA.ST,EQ,
-Dynavox Group AB,Technology,DYVOX.ST,EQ,
-LINK Mobility Group Holding ASA,Technology,LINKO.ST,EQ,
-SATS ASA,Consumer Discretionary,SATSO.ST,EQ,
-VBG Group AB Class B,Industrials,VBG-B.ST,EQ,
-Pexip Holding ASA,Technology,PEXIPO.ST,EQ,
-Bergman & Beving AB Class B,Consumer Discretionary,BERG-B.ST,EQ,
-Storytel AB Class B,Consumer Discretionary,STORY-B.ST,EQ,
-Paratus Energy Services Ltd.,Industrials,PLSVO.ST,EQ,
-MedCap AB,Health Care,MCAP.ST,EQ,
-Boozt AB,Consumer Discretionary,BOOZT.ST,EQ,
-RaySearch Laboratories AB Class B,Technology,RAY-B.ST,EQ,
-JM AB,Financials,JM.ST,EQ,
-Ovzon AB,Communication Services,OVZON.ST,EQ,
-Better Collective A/S,Industrials,BETCO.ST,EQ,
-Investment AB Oresund,Financials,ORES.ST,EQ,
-Karnov Group AB,Industrials,KAR.ST,EQ,
-Viaplay Group AB Class A,Consumer Discretionary,VPLAY-A.ST,EQ,
-Viaplay Group AB Class B,Consumer Discretionary,VPLAY-B.ST,EQ,
-Acast AB,Technology,ACAST.ST,EQ,
-Alligo AB Class B,Industrials,ALLIGO-B.ST,EQ,
-Fastighetsbolaget Emilshus AB Class B,Financials,EMIL-B.ST,EQ,
-Arjo AB Class B,Industrials,ARJO-B.ST,EQ,
-Rederiaktiebolaget Gotland Class B,Industrials,GOTL-B.ST,EQ,
-Rederiaktiebolaget Gotland Class A,Industrials,GOTL-A.ST,EQ,
-Volati AB Pref. Shs,Financials,VOLO-PREF.ST,EQ,
-Volati AB,Financials,VOLO.ST,EQ,
-Troax Group AB Class A,Industrials,TROAX.ST,EQ,
-Himalaya Shipping Ltd.,Industrials,HSHPO.ST,EQ,
-Addnode Group AB Class B,Technology,ANOD-B.ST,EQ,
-RVRC Holding AB,Consumer Discretionary,RVRC.ST,EQ,
-Sveafastigheter AB,Financials,SVEAF.ST,EQ,
-Mips AB,Consumer Discretionary,MIPS.ST,EQ,
-Sed Energy Holdings PLC,Industrials,ENHO.ST,EQ,
-Endur ASA,Industrials,ENDURO.ST,EQ,
-Flat Capital AB Class B,Financials,FLAT-B.ST,EQ,
-Smartoptics Group ASA,Technology,SMOPO.ST,EQ,
-Napatech A/S,Technology,NAPAO.ST,EQ,
-Stendoerren Fastigheter AB Class B,Financials,STEF-B.ST,EQ,
-Momentum Group AB Class B,Industrials,MMGR-B.ST,EQ,
-Spiltan Invest AB,Financials,SPLTN.ST,EQ,
-Svolder AB Class B,Financials,SVOL-B.ST,EQ,
-Svolder AB Class A,Financials,SVOL-A.ST,EQ,
-Klaveness Combination Carriers ASA,Industrials,KCCO.ST,EQ,
-NEL ASA,Industrials,NELO.ST,EQ,
-Solstad Offshore ASA,Industrials,SOFFO.ST,EQ,
-Bahnhof AB Class B,Communication Services,BAHN-B.ST,EQ,
-Samhallsbyggnadsbolaget I Norden AB Class B,Financials,SBB-B.ST,EQ,
-Samhallsbyggnadsbolaget i Norden AB Class D,Financials,SBB-D.ST,EQ,
-Fenix Outdoor International AG Series B,Consumer Discretionary,FOI-B.ST,EQ,
-Zinzino AB Class B,Consumer Staples,ZZ-B.ST,EQ,
-Pareto Bank ASA,Financials,PARBO.ST,EQ,
-Corem Property Group AB Class D,Financials,CORE-D.ST,EQ,
-Corem Property Group AB Pref,Financials,CORE-PREF.ST,EQ,
-Corem Property Group AB Class A,Financials,CORE-A.ST,EQ,
-Corem Property Group AB Class B,Financials,CORE-B.ST,EQ,
-NOTE AB,Technology,NOTE.ST,EQ,
-Kid ASA,Consumer Discretionary,KIDO.ST,EQ,
-Coor Service Management Holding AB,Industrials,COOR.ST,EQ,
-Yubico AB,Industrials,YUBICO.ST,EQ,
-Bouvet ASA,Technology,BOUVO.ST,EQ,
-Ependion AB,Technology,EPEN.ST,EQ,
-Vestum AB,Industrials,VESTUM.ST,EQ,
-BHG Group AB,Consumer Discretionary,BHG.ST,EQ,
-Nederman Holding AB,Industrials,NMAN.ST,EQ,
-Swedencare AB,Health Care,SECARE.ST,EQ,
-John Mattson Fastighetsforetagen AB,Financials,JOMA.ST,EQ,
-Haypp Group AB,Industrials,HAYPP.ST,EQ,
-Kambi Group plc Class B,Technology,KAMBI.ST,EQ,
-Truecaller AB Class B,Technology,TRUE-B.ST,EQ,
-Karnell Group AB Class B,Industrials,KARNEL-B.ST,EQ,
-Panoro Energy ASA,Energy,PENO.ST,EQ,
-Eastnine AB,Financials,EAST.ST,EQ,
-Zaptec ASA,Industrials,ZAPO.ST,EQ,
-Meko AB,Industrials,MEKO.ST,EQ,
-AKVA Group ASA,Industrials,AKVAO.ST,EQ,
-Medistim ASA,Health Care,MEDIO.ST,EQ,
-Multiconsult ASA,Industrials,MULTIO.ST,EQ,
-Bewi ASA,Materials,BEWIO.ST,EQ,
-Goldsky Resources Corp Shs Swedish Depository Receipt Repr 1 Sh,Materials,GSKR-SDB.ST,EQ,
-Sea1 Offshore Incorporation,Industrials,SEA1O.ST,EQ,
-Stenhus Fastigheter i Norden AB,Financials,SFAST.ST,EQ,
-Linc AB,Financials,LINC.ST,EQ,
-Heimstaden AB Pref Registered Shs,Financials,HEIM-PREF.ST,EQ,
-NYAB AB,Industrials,NYAB.ST,EQ,
-OKEA ASA,Energy,OKEAO.ST,EQ,
-HEBA Fastighets AB Class B,Financials,HEBA-B.ST,EQ,
-Prisma Properties AB,Financials,PRISMA.ST,EQ,
-Implantica Inc. Shs A Swedish Depositary Receipt Repr 1 Sh A,Health Care,IMP-A-SDB.ST,EQ,
-Idun Industrier AB Class B,Financials,IDUN-B.ST,EQ,
-ABG Sundal Collier Holding ASA,Financials,ABGO.ST,EQ,
-Gruvaktiebolaget Viscaria,Materials,VISC.ST,EQ,
-Duni AB,Consumer Discretionary,DUNI.ST,EQ,
-Verve Group SE Class A,Technology,VER.ST,EQ,
-Akastor ASA,Industrials,AKASTO.ST,EQ,
-ITAB Group AB (publ),Industrials,ITAB.ST,EQ,
-Nivika Fastigheter AB Class B,Financials,NIVI-B.ST,EQ,
-Proact IT Group AB,Technology,PACT.ST,EQ,
-Axactor ASA,Industrials,ACRO.ST,EQ,
-Norske Skog ASA,Materials,NSKOGO.ST,EQ,
-Nordrest Holding AB,Consumer Discretionary,NREST.ST,EQ,
-Rejlers AB Class B,Industrials,REJL-B.ST,EQ,
-Svedbergs Group AB Class B,Consumer Discretionary,SVED-B.ST,EQ,
-BTS Group AB Class B,Industrials,BTS-B.ST,EQ,
-Traction AB Class B,Financials,TRAC-B.ST,EQ,
-Enity Holding AB,Financials,ENITY.ST,EQ,
-Morrow Bank AB,Financials,MORROW.ST,EQ,
-Grieg Seafood ASA,Materials,GSFO.ST,EQ,
-Humble Group AB,Consumer Staples,HUMBLE.ST,EQ,
-Fastighets AB Trianon Class B,Financials,TRIAN-B.ST,EQ,
-Smart Eye AB,Health Care,SEYE.ST,EQ,
-Fagerhult Group AB,Industrials,FAG.ST,EQ,
-Elmera Group ASA,Utilities,ELMRAO.ST,EQ,
-Hansa Biopharma AB,Health Care,HNSA.ST,EQ,
-GomSpace Group AB,Technology,GOMX.ST,EQ,
-Brinova Fastigheter AB Class B,Financials,BRIN-B.ST,EQ,
-Vicore Pharma Holding AB,Health Care,VICO.ST,EQ,
-Envipco Holding N.V.,Industrials,ENVIPO.ST,EQ,
-FM Mattsson Class B,Industrials,FMM-B.ST,EQ,
-Maha Capital AB Class A,Energy,MAHA-A.ST,EQ,
-CellaVision AB,Health Care,CEVI.ST,EQ,
-XANO Industri AB Class B,Industrials,XANO-B.ST,EQ,
-Lime Technologies AB,Technology,LIME.ST,EQ,
-Agilyx ASA,Industrials,AGLXO.ST,EQ,
-Byggmax Group AB,Consumer Discretionary,BMAX.ST,EQ,
-Bonava AB Class A,Financials,BONAV-A.ST,EQ,
-Bonava AB Class B,Financials,BONAV-B.ST,EQ,
-Teqnion AB,Industrials,TEQ.ST,EQ,
-Stillfront Group AB,Technology,SF.ST,EQ,
-Orron Energy AB,Utilities,ORRON.ST,EQ,
-Egetis Therapeutics AB,Health Care,EGTX.ST,EQ,
-Viva Wine Group AB,Consumer Staples,VIVA.ST,EQ,
-SmartCraft Group AB (publ),Technology,SMCRT.ST,EQ,
-Besqab AB,Financials,BESQAB.ST,EQ,
-Odfjell Technology Ltd.,Industrials,OTLO.ST,EQ,
-Humana AB,Consumer Discretionary,HUM.ST,EQ,
-Arlandastad Group AB,Financials,AGROUP.ST,EQ,
-Intrum AB,Industrials,INTRUM.ST,EQ,
-Archer Limited,Industrials,ARCHO.ST,EQ,
-Integrated Wind Solutions ASA,Industrials,IWSO.ST,EQ,
-Knowit AB,Industrials,KNOW.ST,EQ,
-Kopparbergs Bryggeri AB,Consumer Staples,KOBR.B.ST,EQ,
-Dustin Group AB,Industrials,DUST.ST,EQ,
-Northern Ocean Ltd.,Industrials,NOLO.ST,EQ,
-KB Components AB,Industrials,KBC.ST,EQ,
-Neobo Fastigheter AB,Financials,NEOBO.ST,EQ,
-K-Fast Holding AB Class B,Financials,KFAST-B.ST,EQ,
-VNV Global AB,Financials,VNV.ST,EQ,
-Absolent Air Care Group AB,Industrials,ABSO.ST,EQ,
-Stille AB,Health Care,STIL.ST,EQ,
-KlaraBo Sverige AB Class B,Financials,KLARA-B.ST,EQ,
-Hexagon Composites ASA,Materials,HEXO.ST,EQ,
-Nobia AB,Consumer Discretionary,NOBI.ST,EQ,
-Midsona AB Class A,Health Care,MSON-A.ST,EQ,
-Midsona AB Class B,Health Care,MSON-B.ST,EQ,
-Flerie AB,Health Care,FLERIE.ST,EQ,
-Cint Group AB,Technology,CINT.ST,EQ,
-ByggPartner Gruppen AB,Industrials,BYGGP.ST,EQ,
-VEF AB,Financials,VEFAB.ST,EQ,
-Circio Holding ASA,Health Care,CRNAO.ST,EQ,
-BioInvent International AB,Health Care,BINV.ST,EQ,
-Studsvik AB,Industrials,SVIK.ST,EQ,
-Kongsberg Automotive ASA,Industrials,KOAO.ST,EQ,
-Vertiseit AB Class B,Technology,VERT-B.ST,EQ,
-PetroNor E&P ASA,Energy,PNORO.ST,EQ,
-Saniona AB,Health Care,SANION.ST,EQ,
-Eltel AB,Industrials,ELTEL.ST,EQ,
-Catella AB Class A,Financials,CAT-A.ST,EQ,
-Catella AB Class B,Financials,CAT-B.ST,EQ,
-Solid Forsakringsaktiebolag,Financials,SFAB.ST,EQ,
-Acconeer AB,Technology,ACCON.ST,EQ,
-Reach Subsea ASA,Energy,REACHO.ST,EQ,
-Fasadgruppen Group AB,Industrials,FG.ST,EQ,
-Viking Supply Ships AB Class B,Industrials,VSSAB-B.ST,EQ,
-Genova Property Group AB,Financials,GPG.ST,EQ,
-Sotkamo Silver AB,Materials,SOSI.ST,EQ,
-Surgical Science Sweden AB,Health Care,SUS.ST,EQ,
-Inission AB Class B,Technology,INISS-B.ST,EQ,
-Lucara Diamond Corp.,Materials,LUC.ST,EQ,
-Green Landscaping Group AB,Industrials,GREEN.ST,EQ,
-CURASIGHT A/S,Health Care,CURAS.ST,EQ,
-Arbona AB Class A,Financials,ARBO.A.ST,EQ,
-Elanders AB Class B,Industrials,ELAN-B.ST,EQ,
-CTT Systems AB,Technology,CTT.ST,EQ,
-Enad Global 7 AB,Technology,EG7.ST,EQ,
-Clavister AB,Technology,CLAV.ST,EQ,
-Prosafe SE,Industrials,PRSO.ST,EQ,
-Enea AB,Technology,ENEA.ST,EQ,
-Bjorn Borg AB,Consumer Staples,BORG.ST,EQ,
-PowerCell Sweden AB,Utilities,PCELL.ST,EQ,
-FormPipe Software AB,Technology,FPIP.ST,EQ,
-Cheffelo AB,Consumer Discretionary,CHEF.ST,EQ,
-KABE Group AB Class B,Consumer Discretionary,KABE-B.ST,EQ,
-Photocure ASA,Health Care,PHOO.ST,EQ,
-Annehem Fastigheter AB Class B,Financials,ANNE-B.ST,EQ,
-Devyser Diagnostics AB,Health Care,DVYSR.ST,EQ,
-Byggmastare Anders J Ahlstrom Holding AB Class B,Financials,AJA-B.ST,EQ,
-SaltX Technology Holding AB Class B,Technology,SALT-B.ST,EQ,
-Siljansvik AB,Utilities,SIVI.ST,EQ,
-Carasent AB,Technology,CARA.ST,EQ,
-Thor Medical ASA,Industrials,TRMEDO.ST,EQ,
-Cereno Scientific AB Class B,Health Care,CRNO-B.ST,EQ,
-Nekkar ASA,Industrials,NKRO.ST,EQ,
-Berner Industrier AB Class B,Industrials,BERNER-B.ST,EQ,
-Micro Systemation AB Class B,Technology,MSAB-B.ST,EQ,
-SEHED Byggmastargruppen AB,Industrials,SEHED.B.ST,EQ,
-Net Insight AB Class B,Technology,NETI-B.ST,EQ,
-Exsitec Holding AB,Technology,EXS.ST,EQ,
-Norse Atlantic ASA,Industrials,NORSEO.ST,EQ,
-LOGISTRI FASTIGHETS AB CLASS B,Financials,LOGIST.B.ST,EQ,
-LOGISTRI FASTIGHETS AB CLASS A,Financials,LOGIST.A.ST,EQ,
-VETERANPOOLEN AB CLASS B,Industrials,VPAB.B.ST,EQ,
-Genovis AB,Health Care,GENO.ST,EQ,
-Fjord Defence Group ASA,Technology,DFENSO.ST,EQ,
-Fortinova Fastigheter AB,Financials,FNOVA-B.ST,EQ,
-Cavotec Group AB,Industrials,CCC.ST,EQ,
-Paxman AB,Health Care,PAX.ST,EQ,
-Nordic Mining ASA,Materials,NOMO.ST,EQ,
-Otello Corporation ASA,Technology,OTECO.ST,EQ,
-Scandinavian Astor Group AB,Technology,ASTOR.ST,EQ,
-BICO Group AB Class B,Health Care,BICO.ST,EQ,
-RugVista Group AB,Consumer Discretionary,RUG.ST,EQ,
-Briox AB,Technology,BRIX.ST,EQ,
-SHT SMART HIGH-TECH AB CLASS B,Industrials,SHT.B.ST,EQ,
-C-Rad AB Class B,Health Care,CRAD-B.ST,EQ,
-Lea Bank AB,Financials,LEA.ST,EQ,
-Softronic AB Class B,Technology,SOF-B.ST,EQ,
-Bokusgruppen AB,Consumer Discretionary,BOKUS.ST,EQ,
-ArcticZymes Technologies ASA,Health Care,AZTO.ST,EQ,
-Nykode Therapeutics ASA,Health Care,NYKDO.ST,EQ,
-Eolus AB Class B,Industrials,EOLU-B.ST,EQ,
-Safestate Group AB (publ),Technology,STATE.ST,EQ,
-AAC Clyde Space AB,Technology,AAC.ST,EQ,
-Kjell Group AB,Consumer Discretionary,KJELL.ST,EQ,
-Arctic Paper S.A.,Materials,ARP.ST,EQ,
-Nelly Group AB,Consumer Discretionary,NELLY.ST,EQ,
-Ework Group AB,Industrials,EWRK.ST,EQ,
-HAMLET BIOPHARMA AB CLASS B,Health Care,HAMLET.B.ST,EQ,
-Hunter Group ASA,Energy,HUNTO.ST,EQ,
-CTEK AB,Industrials,CTEK.ST,EQ,
-Firefly AB,Technology,FIRE.ST,EQ,
-W5 Solutions AB,Industrials,W5.ST,EQ,
-Prevas AB Class B,Technology,PREV-B.ST,EQ,
-Lyko Group AB Class A,Consumer Discretionary,LYKO-A.ST,EQ,
-Bulten AB,Industrials,BULTEN.ST,EQ,
-Ferronordic AB,Consumer Discretionary,FNM.ST,EQ,
-Medivir AB,Health Care,MVIR.ST,EQ,
-Studentbostader i Norden AB,Financials,STUDBO.ST,EQ,
-Nanoform Finland Oyj,Health Care,NANOFS.ST,EQ,
-Tekna Holding ASA,Materials,TEKNAO.ST,EQ,
-Sedana Medical AB,Health Care,SEDANA.ST,EQ,
-Coeli Private Equity AB,Financials,CPE.I.ST,EQ,
-Railcare Group AB,Industrials,RAIL.ST,EQ,
-Advenica AB,Technology,ADVE.ST,EQ,
-Nilorngruppen AB Class B,Industrials,NIL-B.ST,EQ,
-Xspray Pharma AB,Health Care,XSPRAY.ST,EQ,
-Done.ai Group AB,Technology,DONE.ST,EQ,
-LumenRadio AB,Industrials,LUMEN.ST,EQ,
-Mangold AB,Financials,MANG.ST,EQ,
-District Metals Corporation Shs Swedish Depository Receipt Repr 1 Sh,Materials,DMXSE-SDB.ST,EQ,
-FREETRAILER GROUP A/S,Technology,FREETR.ST,EQ,
-Questerre Energy Corporation Class A,Energy,QECO.ST,EQ,
-Embellence Group AB,Materials,EMBELL.ST,EQ,
-ALM Equity AB Pref.shs,Financials,ALM-PREF.ST,EQ,
-ALM Equity AB,Financials,ALM.ST,EQ,
-Arla Plast AB,Industrials,ARPL.ST,EQ,
-I-Tech AB,Materials,ITECH.ST,EQ,
-Unibap Space Solutions AB,Technology,UNIBAP.ST,EQ,
-Alcadon Group AB,Industrials,ALCA.ST,EQ,
-Infant Bacterial Therapeutics AB Class B,Health Care,IBT-B.ST,EQ,
-SinterCast AB,Technology,SINT.ST,EQ,
-C.A.G Group AB,Technology,CAG.ST,EQ,
-FluoGuide A/S,Health Care,FLUO.ST,EQ,
-Dicot Pharma AB,Health Care,DICOT.ST,EQ,
-Dicot Pharma AB Units Cons of 8 Shs + 2 Wts TO7 25.06.26,Health Care,DICOT-BTU.ST,EQ,
-CDON AB,Consumer Discretionary,CDON.ST,EQ,
-Kallebaeck Property Invest AB,Financials,KAPIAB.ST,EQ,
-BeammWave AB Class B,Industrials,BEAMMW-B.ST,EQ,
-CombinedX AB,Industrials,CX.ST,EQ,
-Awilco LNG ASA,Energy,ALNGO.ST,EQ,
-Actic Group AB,Consumer Discretionary,ATIC.ST,EQ,
-EQL Pharma AB,Health Care,EQL.ST,EQ,
-Gentoo Media Inc,Consumer Discretionary,G2M.ST,EQ,
-SynAct Pharma AB,Health Care,SYNACT.ST,EQ,
-Pierce Group AB,Consumer Discretionary,PIERCE.ST,EQ,
-Nanexa AB,Health Care,NANEXA.ST,EQ,
-Africa Energy Corp.,Energy,AEC.ST,EQ,
-ProfilGruppen AB Class B,Materials,PROF-B.ST,EQ,
-Case Group AB,Financials,CASE.ST,EQ,
-Duroc AB Class B,Materials,DURC-B.ST,EQ,
-Scana ASA,Industrials,SCANAO.ST,EQ,
-Grangex AB,Materials,GRANGX.ST,EQ,
-BIMobject AB,Technology,BIM.ST,EQ,
-Senzime AB,Health Care,SEZI.ST,EQ,
-Enzymatica AB,Health Care,ENZY.ST,EQ,
-Qben Infra AB,Consumer Discretionary,QBEN.ST,EQ,
-Nordisk Bergteknik AB Class B,Industrials,NORB-B.ST,EQ,
-Orexo AB,Health Care,ORX.ST,EQ,
-Tobii AB,Technology,TOBII.ST,EQ,
-Vow ASA,Industrials,VOWO.ST,EQ,
-Oncopeptides AB,Health Care,ONCO.ST,EQ,
-Adtraction Group AB,Technology,ADTR.ST,EQ,
-GARO AB,Industrials,GARO.ST,EQ,
-Careium AB,Technology,CARE.ST,EQ,
-Midsummer AB,Industrials,MIDS.ST,EQ,
-Terranor Group AB,Industrials,TERNOR.ST,EQ,
-HAKI Safety AB Class B,Consumer Discretionary,HAKI-B.ST,EQ,
-HAKI Safety AB Class A,Consumer Discretionary,HAKI-A.ST,EQ,
-Rottneros AB,Materials,RROS.ST,EQ,
-HOMEMAID AB CLASS B,Industrials,HOME.B.ST,EQ,
-TagMaster AB Class B,Technology,TAGM-B.ST,EQ,
-Obducat AB Pref Registered Shs B,Technology,OBDU.PREF.B.ST,EQ,
-Obducat AB Class B,Technology,OBDU.B.ST,EQ,
-Qliro AB,Industrials,QLIRO.ST,EQ,
-Nimbus Group AB,Consumer Discretionary,BOAT.ST,EQ,
-InfraCom Group AB,Technology,INFRA.ST,EQ,
-Gapwaves AB Class B,Technology,GAPW-B.ST,EQ,
-Boho Group AB (publ) SEK 0.96 Cum Pref Registered Shs,Financials,BOHO-PREF.ST,EQ,
-Boho Group AB (publ),Financials,BOHO.ST,EQ,
-Pricer AB Class B,Technology,PRIC-B.ST,EQ,
-Concejo AB Class B,Technology,CNCJO-B.ST,EQ,
-Cinclus Pharma Holding AB,Health Care,CINPHA.ST,EQ,
-Skolon AB,Technology,SKOLON.ST,EQ,
-Envar Holding AB,Technology,ENVAR.ST,EQ,
-Novotek AB Class B,Technology,NTEK-B.ST,EQ,
-Gentian Diagnostics ASA,Health Care,GENTO.ST,EQ,
-Sensys Gatso Group AB,Technology,SGG.ST,EQ,
-MäLARDALENS OMSORGSFASTIGHETER,Financials,MOFAST.ST,EQ,
-Bactiguard Holding AB,Health Care,BACTI-B.ST,EQ,
-Titania Holding AB Class B,Consumer Discretionary,TITA-B.ST,EQ,
-Cedergrenska AB,Industrials,CEDER.ST,EQ,
-Skane-moellan AB,Materials,SKMO.ST,EQ,
-Hexagon Purus ASA,Industrials,HPURO.ST,EQ,
-Cantargia AB,Health Care,CANTA.ST,EQ,
-Doxa AB,Health Care,DOXA.ST,EQ,
-G5 Entertainment AB,Technology,G5EN.ST,EQ,
-Sibek AB,Industrials,SIBEK.ST,EQ,
-BE Group AB,Industrials,BEGR.ST,EQ,
-Seafire AB,Industrials,SEAF.ST,EQ,
-Sleep Cycle AB,Technology,SLEEP.ST,EQ,
-CESSATECH A/S,Health Care,CESSA.ST,EQ,
-Botnia Gold AB,Materials,BOTX.ST,EQ,
-OssDsign AB,Health Care,OSSD.ST,EQ,
-Opter AB,Technology,OPTER.ST,EQ,
-Impact Coatings AB,Industrials,IMPC.ST,EQ,
-Qualisys Holding AB,Consumer Discretionary,QSYS.ST,EQ,
-Episurf Medical AB Class B,Health Care,EPIS-B.ST,EQ,
-StrongPoint ASA,Technology,STROO.ST,EQ,
-Oneflow AB,Technology,ONEF.ST,EQ,
-Navigo Invest AB,Industrials,NAVIGO-STAM.ST,EQ,
-Navigo Invest AB SEK 9.50 Cum Pref Registered Shs,Industrials,NAVIGO-PREF.ST,EQ,
-Generic Sweden AB,Communication Services,GENI.ST,EQ,
-mySafety Group AB Class B,Technology,SAFETY-B.ST,EQ,
-ZENITH ENERGY LTD SHS SWEDISH DEPOSITORY RECEIPT REPR 1 SH,Energy,ZENA.SDR.ST,EQ,
-Corline Biomedical AB,Health Care,CLBIO.ST,EQ,
-Moberg Pharma AB,Health Care,MOB.ST,EQ,
-SMOLTEK NANOTECH HOLDING AB,Technology,SMOL.ST,EQ,
-Eniro Group AB Class A,Industrials,ENRO.ST,EQ,
-Premium Snacks Nordic AB,Consumer Staples,SNX.ST,EQ,
-Hilbert Group AB Class B,Technology,HILB-B.ST,EQ,
-Acuvi AB,Industrials,ACUVI.ST,EQ,
-SciBase Holding AB,Health Care,SCIB.ST,EQ,
-Intervacc AB,Health Care,IVACC.ST,EQ,
-Leading Edge Materials Corp.,Industrials,LEMSE.ST,EQ,
-White Pearl Technology Group AB,Technology,WPTG-B.ST,EQ,
-Wall to Wall Group AB Class A,Industrials,WTW-A.ST,EQ,
-Solnaberg Property AB,Financials,SOLNA.ST,EQ,
-Infrea AB,Industrials,INFREA.ST,EQ,
-Bonasudden Holding AB,Financials,BONAS.ST,EQ,
-Upsales Technology AB,Technology,UPSALE.ST,EQ,
-Webstep AS,Industrials,WSTEPO.ST,EQ,
-Freja eID Group AB,Industrials,FREJA.ST,EQ,
-Dedicare AB,Consumer Discretionary,DEDI.ST,EQ,
-AMHULT 2 AB CLASS B,Consumer Discretionary,AMH2.B.ST,EQ,
-Fractal Gaming Group AB,Technology,FRACTL.ST,EQ,
-Elliptic Laboratories ASA,Technology,ELABSO.ST,EQ,
-Meds Apotek AB,Consumer Discretionary,MEDS.ST,EQ,
-Mentice AB,Health Care,MNTC.ST,EQ,
-Brock Milton Capital AB,Financials,BMC.ST,EQ,
-TradeDoubler AB,Industrials,TRAD.ST,EQ,
-NAXS AB,Financials,NAXS.ST,EQ,
-Arribatec Group ASA,Technology,ARRO.ST,EQ,
-Ascelia Pharma AB,Health Care,ACE.ST,EQ,
-BIO-WORKS TECHNOLOGIES AB,Health Care,BIOWKS.ST,EQ,
-Q-linea AB,Health Care,QLINEA.ST,EQ,
-H100 Group AB,Technology,H100.ST,EQ,
-Ortoma AB Class B,Health Care,ORT-B.ST,EQ,
-SUSTAINION GROUP AB,Technology,SUSG.ST,EQ,
-Sprint Bioscience AB,Health Care,SPRINT.ST,EQ,
-Summa Defence Plc Class A,Consumer Discretionary,SUMMAS.ST,EQ,
-Waystream Group AB,Technology,WAYS.ST,EQ,
-Acrinova AB Class A,Financials,ACRI-A.ST,EQ,
-Acrinova AB Class B,Financials,ACRI-B.ST,EQ,
-Candles Scandinavia AB Class B,Industrials,CANDLE-B.ST,EQ,
-FLEMING PROPERTIES AB,Financials,FLMNG.ST,EQ,
-Agtira AB Class B,Materials,AGTIRA-B.ST,EQ,
-Profoto Holding AB,Consumer Discretionary,PRFO.ST,EQ,
-Wastbygg Gruppen AB Class B,Industrials,WBGR-B.ST,EQ,
-Maven Wireless Sweden AB,Technology,MAVEN.ST,EQ,
-Nexam Chemical Holding AB,Materials,NEXAM.ST,EQ,
-K2A Knaust & Andersson Fastigheter AB Class B,Financials,K2A-B.ST,EQ,
-Balco Group AB,Consumer Discretionary,BALCO.ST,EQ,
-Terranet AB Class B,Technology,TERRNT-B.ST,EQ,
-KebNi AB Class B,Technology,KEBNI-B.ST,EQ,
-Athanase Innovation AB,Consumer Staples,ATIN.ST,EQ,
-SolTech Energy Sweden AB,Technology,SOLT.ST,EQ,
-ANGLER GAMING PLC,Consumer Discretionary,ANGL.ST,EQ,
-Ferroamp AB,Industrials,FERRO.ST,EQ,
-AVTECH Sweden AB,Technology,AVT-B.ST,EQ,
-FlexQube AB,Industrials,FLEXQ.ST,EQ,
-Real Fastigheter AB Class B,Financials,REAL.ST,EQ,
-Tingsvalvet Fastighets AB Class A,Financials,TINGS-A.ST,EQ,
-Tingsvalvet Fastighets AB Class B,Financials,TINGS-B.ST,EQ,
-QleanAir AB,Industrials,QAIR.ST,EQ,
-Bluelake Mineral AB,Materials,BLUE.ST,EQ,
-Mendus AB,Health Care,IMMU.ST,EQ,
-Neovici Holding AB Class B,Technology,NEO-B.ST,EQ,
-K33 AB,Technology,K33.ST,EQ,
-KRONA PUBLIC REAL ESTATE AB,Financials,KRONA.ST,EQ,
-BrainCool AB,Health Care,BRAIN.ST,EQ,
-Minesto AB,Utilities,MINEST.ST,EQ,
-Observit AB,Technology,OBSE.ST,EQ,
-Avensia AB,Consumer Discretionary,AVEN.ST,EQ,
-Elon AB,Consumer Discretionary,ELON.ST,EQ,
-Online Brands Nordic AB,Consumer Discretionary,OBAB.ST,EQ,
-Malmbergs Elektriska AB Class B,Industrials,MEAB-B.ST,EQ,
-Acarix AB,Health Care,ACARIX.ST,EQ,
-Ogunsen AB Class B,Industrials,OGUN-B.ST,EQ,
-Arctic Minerals AB,Materials,ARCT.ST,EQ,
-Scandinavian Enviro Systems AB,Materials,SES.ST,EQ,
-Latvian Forest Co. AB Class B,Materials,LATF.B.ST,EQ,
-Nordic Iron Ore AB,Materials,NIO.ST,EQ,
-ContextVision AB,Technology,CONTXO.ST,EQ,
-PRESERVIUM PROPERTY AB,Financials,PRESRV.ST,EQ,
-Garpco AB,Financials,GARPCO.B.ST,EQ,
-PION Group AB Class B,Industrials,PION-B.ST,EQ,
-Cavendish Hydrogen ASA,Industrials,CAVENO.ST,EQ,
-Byhmgard AB,Technology,BESS.ST,EQ,
-AGES Industri AB,Industrials,AGES-B.ST,EQ,
-Eqva ASA,Industrials,EQVAO.ST,EQ,
-Unlimited Travel Group AB,Consumer Discretionary,UTG.ST,EQ,
-Metacon AB,Industrials,META.ST,EQ,
-Eurobattery Minerals AB,Materials,BAT.ST,EQ,
-HydrogenPro ASA,Industrials,HYPROO.ST,EQ,
-Nord Insuretech Group AB,Technology,NORDIG.ST,EQ,
-Binero Group AB,Technology,BINERO.ST,EQ,
-Climeon AB Class B,Industrials,CLIME-B.ST,EQ,
-Freemelt Holding AB,Industrials,FREEM.ST,EQ,
-SeaTwirl AB,Utilities,STW.ST,EQ,
-ScandBook Holding AB,Consumer Discretionary,SBOK.ST,EQ,
-Enrad AB,Industrials,ENRAD.ST,EQ,
-Litium AB,Technology,LITI.ST,EQ,
-TURA GROUP AB,Consumer Discretionary,TURA.ST,EQ,
-Wyld Networks AB,Technology,WYLD.ST,EQ,
-Wyld Networks AB TEMP,Technology,WYLD-BTA.ST,EQ,
-Isofol Medical AB,Health Care,ISOFOL.ST,EQ,
-OptiCept Technologies AB,Industrials,OPTI.ST,EQ,
-Nodebis Applications AB,Technology,NODE.ST,EQ,
-B3 Consulting Group AB,Technology,B3.ST,EQ,
-Bambuser AB,Technology,BUSER.ST,EQ,
-Xbrane Biopharma AB,Health Care,XBRANE.ST,EQ,
-Crunchfish AB,Technology,CFISH.ST,EQ,
-Hultstrom Group AB(publ) Class B,Industrials,HULT-B.ST,EQ,
-Promimic AB,Health Care,PRO.ST,EQ,
-Medclair AB,Health Care,MCLR.ST,EQ,
-Integrum AB Class B,Health Care,INTEG-B.ST,EQ,
-Lammhults Design Group AB Class B,Industrials,LAMM-B.ST,EQ,
-Transtema Group AB,Technology,TRANS.ST,EQ,
-Transtema Group AB TEMP,Technology,TRANS-BTA.ST,EQ,
-Acroud AB,Technology,ACROUD.ST,EQ,
-MICROPOS MEDICAL AB,Health Care,MPOS.ST,EQ,
-MICROPOS MEDICAL AB TEMP,Health Care,MPOS.BTA.ST,EQ,
-Lyckegard Group AB,Industrials,LYGRD.ST,EQ,
-Alpcot Holding AB Class B,Financials,ALPCOT-B.ST,EQ,
-Link Prop Investment AB,Financials,LINKAB.ST,EQ,
-Codemill AB,Technology,CDMIL.ST,EQ,
-OPSY HOLDING AB,Technology,OPSYH.ST,EQ,
-MAG Interactive AB,Technology,MAGI.ST,EQ,
-Polygiene Group AB,Materials,POLYG.ST,EQ,
-OXE Marine AB,Industrials,OXE.ST,EQ,
-ENVIROLOGIC AB,Industrials,ENVI.B.ST,EQ,
-Teneo AI AB Class B,Technology,TENEO.ST,EQ,
-Initiator Pharma A/S,Health Care,INIT.ST,EQ,
-InCoax Networks AB,Technology,INCOAX.ST,EQ,
-Elicera Therapeutics AB,Health Care,ELIC.ST,EQ,
-Klaria Pharma Holding AB,Health Care,KLAR.ST,EQ,
-Front Ventures AB Class B,Industrials,FRNT.B.ST,EQ,
-Catena Media plc,Consumer Discretionary,CTM.ST,EQ,
-KDventures AB Class B,Financials,KDV-B.ST,EQ,
-Crown Energy AB,Financials,CRWN.ST,EQ,
-DEXTECH MEDICAL AB,Health Care,DEX.ST,EQ,
-Vuxen Group AB,Consumer Discretionary,VUXEN.ST,EQ,
-Coeli Fastighet II AB Pref Registered Shs -P2-,Financials,CF2.PREF.P2.ST,EQ,
-High Coast Distillery AB Class B,Consumer Staples,HIGHCO-B.ST,EQ,
-FABLE MEDIA GROUP AB,Consumer Discretionary,FABLE.ST,EQ,
-SenzaGen AB,Health Care,SENZA.ST,EQ,
-BPC INSTRUMENTS AB,Technology,BPCINS.ST,EQ,
-Vetted Assets AB (publ),Consumer Discretionary,VETT.ST,EQ,
-Triona AB,Industrials,TRIONA.ST,EQ,
-XER TECH HOLDING AB,Technology,XER.ST,EQ,
-Scandinavian Real Heart AB,Health Care,HEART.ST,EQ,
-Active Biotech AB,Health Care,ACTI.ST,EQ,
-iZafe Group AB,Industrials,IZAFE-B.ST,EQ,
-TCECUR Sweden AB,Industrials,TCC.A.ST,EQ,
-Nanologica AB,Health Care,NICA.ST,EQ,
-Drillcon AB,Materials,DRIL.ST,EQ,
-Precio Fishbone AB Class B,Technology,PRCO-B.ST,EQ,
-Netel Holding AB,Industrials,NETEL.ST,EQ,
-Norditek Group AB,Industrials,NOTEK.ST,EQ,
-Seamless Distribution Systems AB,Industrials,SDS.ST,EQ,
-Xintela AB,Health Care,XINT.ST,EQ,
-Flexion Mobile Plc,Consumer Discretionary,FLEXM.ST,EQ,
-EMB Mission Bound AB (publ),Technology,EMB.ST,EQ,
-Havsfrun Investment AB Class B,Financials,HAV-B.ST,EQ,
-DistIT AB,Technology,DIST.ST,EQ,
-Starbreeze AB Class A,Technology,STAR-A.ST,EQ,
-Starbreeze AB,Technology,STAR-B.ST,EQ,
-Greater Than AB,Materials,GREAT.ST,EQ,
-ACUCORT AB,Health Care,ACUC.ST,EQ,
-Prolight Diagnostics AB,Health Care,PRLD.ST,EQ,
-Nepa AB,Technology,NEPA.ST,EQ,
-SOLUTION INTERNATIONAL NORDICS AB,Industrials,SIN.ST,EQ,
-Ortivus AB Class A,Technology,ORTI-A.ST,EQ,
-Ortivus AB Class B,Technology,ORTI-B.ST,EQ,
-Nowonomics AB,Technology,NOWO.ST,EQ,
-Precise Biometrics AB,Technology,PREC.ST,EQ,
-AlzeCure Pharma AB,Health Care,ALZCUR.ST,EQ,
-Diamyd Medical AB Class B,Health Care,DMYD-B.ST,EQ,
-EmbeddedArt Group AB,Technology,EMART.ST,EQ,
-Safeture AB,Technology,SFTR.ST,EQ,
-Moment Group AB,Consumer Discretionary,MOMENT.ST,EQ,
-Modelon AB,Industrials,MODEL.ST,EQ,
-Nosa Plugs AB,Technology,NOSA.ST,EQ,
-OODA AI AB (publ),Financials,OODA.ST,EQ,
-Bong AB,Materials,BONG.ST,EQ,
-Gigasun AB,Utilities,GIGA.ST,EQ,
-Soder Sportfiske AB,Consumer Discretionary,SODER.ST,EQ,
-Physitrack Limited,Technology,PTRK.ST,EQ,
-Anoto Group AB,Technology,ANOT.ST,EQ,
-Frontwalker AB Class B,Industrials,FRWA.B.ST,EQ,
-VIMAB Group AB,Industrials,VIMAB.ST,EQ,
-AQUATICUS REAL ESTATE AB,Financials,AQUAT.ST,EQ,
-Klimator AB,Technology,KLIMAT.ST,EQ,
-Glycorex Transplantation AB Class B,Health Care,GTAB.B.ST,EQ,
-Effnetplattformen Holding AB,Technology,EFFH.ST,EQ,
-Tellusgruppen AB,Consumer Discretionary,TELLUS.ST,EQ,
-ABERA BIOSCIENCE AB,Health Care,ABERA.ST,EQ,
-Vo2 Cap Holding AB,Industrials,VO2.ST,EQ,
-Stockwik Forvaltning AB,Industrials,STWK.ST,EQ,
-Irisity AB,Technology,IRIS.ST,EQ,
-Westpay AB,Technology,WPAY.ST,EQ,
-Immunovia AB,Health Care,IMMNOV.ST,EQ,
-Subgen AI AB,Health Care,SUBGEN.ST,EQ,
-AIXIA GROUP AB CLASS B,Technology,AIXIA.B.ST,EQ,
-Wise Group AB,Industrials,WISE.ST,EQ,
-NextCell Pharma AB,Health Care,NXTCL.ST,EQ,
-Neola Medical AB,Health Care,NEOLA.ST,EQ,
-ES Energy Save Holding AB Class B,Industrials,ESGR-B.ST,EQ,
-Boule Diagnostics AB,Health Care,BOUL.ST,EQ,
-GULLBERG & JANSSON,Industrials,GJAB.ST,EQ,
-New Bubbleroom Sweden AB,Consumer Discretionary,BBROOM.ST,EQ,
-Simris Group AB Class B,Health Care,SIMRIS-B.ST,EQ,
-Bioextrax AB,Health Care,BIOEX.ST,EQ,
-Tempest Security AB,Industrials,TSEC.ST,EQ,
-Arcoma AB,Health Care,ARCOMA.ST,EQ,
-BIBBINSTRUMENTS AB,Health Care,BIBB.ST,EQ,
-Serstech AB,Technology,SERT.ST,EQ,
-IDL Diagnostics AB,Health Care,IDLDX.ST,EQ,
-Clinical Laserthermia Systems AB Class B,Health Care,CLS-B.ST,EQ,
-Gaming Corps AB,Technology,GCOR.ST,EQ,
-Alligator Bioscience AB,Health Care,ATORX.ST,EQ,
-IRLAB Therapeutics AB Class A,Health Care,IRLAB-A.ST,EQ,
-SaveLend Group AB,Financials,YIELD.ST,EQ,
-TalkPool AG,Industrials,TALK.ST,EQ,
-Checkin.com Group AB,Technology,CHECK.ST,EQ,
-DevPort AB Class B,Technology,DEVP-B.ST,EQ,
-Bawat Water Technologies AB,Industrials,BAWAT.ST,EQ,
-Biovica International AB Class B,Health Care,BIOVIC-B.ST,EQ,
-eEducation Albert AB,Technology,ALBERT.ST,EQ,
-SPOTLIGHT GROUP AB,Financials,SPGR.ST,EQ,
-Magle Chemoswed Holding AB,Health Care,MAGLE.ST,EQ,
-TRANSFERATOR AB CLASS B,Industrials,TRAN.B.ST,EQ,
-TRANSFERATOR AB CLASS A,Industrials,TRAN.A.ST,EQ,
-Vivesto AB,Health Care,VIVE.ST,EQ,
-SUNTRADE GROUP AB CLASS B,Energy,STRD.B.ST,EQ,
-Guideline Geo AB,Industrials,GGEO.ST,EQ,
-AcouSort AB,Industrials,ACOU.ST,EQ,
-Clemondo Group AB,Consumer Staples,CLEM.ST,EQ,
-Annexin Pharmaceuticals AB,Health Care,ANNX.ST,EQ,
-Image Systems AB,Technology,IS.ST,EQ,
-Coegin Pharma AB,Health Care,COEGIN.ST,EQ,
-Scandinavian ChemoTech AB Class B,Health Care,CMOTEC-B.ST,EQ,
-aXichem AB Class A,Materials,AXIC-A.ST,EQ,
-Iconovo AB,Health Care,ICO.ST,EQ,
-Axolot Solutions Holding AB,Industrials,AXOLOT.ST,EQ,
-Lohilo Foods AB,Consumer Staples,LOHILO.ST,EQ,
-Mediacle Group AB,Technology,MEGR.ST,EQ,
-Saxlund Group AB,Industrials,SAXG.ST,EQ,
-OncoZenge AB,Health Care,ONCOZ.ST,EQ,
-Desenio Group AB,Consumer Discretionary,DSNO.ST,EQ,
-Lifecare ASA,Health Care,LIFEO.ST,EQ,
-New Nordic Healthbrands AB,Health Care,NNH.ST,EQ,
-AMIDO AB,Technology,AMIDO.ST,EQ,
-Spago Nanomedical AB,Health Care,SPAGO.ST,EQ,
-MRESELL HOLDING AB,Consumer Discretionary,MRSELL.ST,EQ,
-USWE Sports AB,Consumer Discretionary,USWE.ST,EQ,
-B TREASURY CAPITAL AB CLASS B,Financials,BTC.B.ST,EQ,
-Aktiebolaget Fastator,Financials,FASTAT.ST,EQ,
-SpectraCure AB,Technology,SPEC.ST,EQ,
-ABSOLICON SOLAR COLLECTOR AB CLASS B,Industrials,ABSL.B.ST,EQ,
-Raketech Group Holding Plc,Technology,RAKE.ST,EQ,
-Kentima Holding AB Class B,Technology,KENH.ST,EQ,
-REDSENSE MEDICAL AB,Health Care,REDS.ST,EQ,
-Gasporox AB,Industrials,GPX.ST,EQ,
-Flowscape Technology AB,Technology,FLOWS.ST,EQ,
-JonDeTech Sensors AB,Technology,JDT.ST,EQ,
-CHOSA ONCOLOGY AB,Industrials,CHOSA.ST,EQ,
-BEOWULF MINING PLC SHS SWEDISH DEPOSITORY RECEIPT,Materials,BEO.SDB.ST,EQ,
-SpectrumOne AB,Technology,SPEONE.ST,EQ,
-SYNTHETICMR AB,Health Care,SYNT.ST,EQ,
-First Venture Sweden AB Class B,Financials,FIRST-B.ST,EQ,
-Nordic LEVEL Group AB Class B,Consumer Discretionary,LEVEL.ST,EQ,
-ChargePanel AB,Consumer Discretionary,CHARGE.ST,EQ,
-Alzinova AB,Health Care,ALZ.ST,EQ,
-PILA PHARMA AB,Health Care,PILA.ST,EQ,
-AB IGRENE,Energy,ABI.ST,EQ,
-Tribox Group AB Class B,Materials,TRIBO-B.ST,EQ,
-Webrock Ventures AB,Financials,WRV.ST,EQ,
-Loyal Solutions A/S,Technology,LOYAL.ST,EQ,
-Sweden BuyersClub AB,Consumer Discretionary,BUY.ST,EQ,
-Heliospectra AB,Industrials,HELIO.ST,EQ,
-Fluicell AB,Health Care,FLUI.ST,EQ,
-Safello Group AB,Financials,SFL.ST,EQ,
-Cell Impact AB,Industrials,CI.ST,EQ,
-QBNK HOLDING AB,Technology,QBNK.ST,EQ,
-Realfiction Holding AB,Technology,REALFI.ST,EQ,
-Qlife Holding AB,Health Care,QLIFE.ST,EQ,
-Mahvie Minerals AB,Materials,MAHVIE.ST,EQ,
-BoMill AB,Technology,BOMILL.ST,EQ,
-BrightBid Group AB,Technology,BRIGHT.ST,EQ,
-Modus Therapeutics Holding AB,Health Care,MODTX.ST,EQ,
-NGS Group AB,Industrials,NGS.ST,EQ,
-Nordic Flanges Group AB,Industrials,NFGAB.ST,EQ,
-Tourn International AB,Industrials,TOURN.ST,EQ,
-LOVISAGRUVAN AB,Materials,LOVI.ST,EQ,
-XP Chemistries AB,Industrials,XPC.ST,EQ,
-SOUND DIMENSION AB,Technology,SOUND.ST,EQ,
-TOUCHTECH AB,Technology,TOUCH.ST,EQ,
-AEROWASH AB CLASS B,Industrials,AERW.B.ST,EQ,
-Synexo Group AB,Technology,SYNEXO.ST,EQ,
-AIK Fotboll AB Class B,Consumer Discretionary,AIK.B.ST,EQ,
-JLT Mobile Computers AB,Technology,JLT.ST,EQ,
-XMReality AB,Technology,XMR.ST,EQ,
-Svenska Aerogel Holding AB,Industrials,AERO.ST,EQ,
-Brilliant Future AB,Technology,BRILL.ST,EQ,
-CirChem AB,Materials,CIRCHE.ST,EQ,
-Compodium International AB,Technology,COMPDM.ST,EQ,
-KATALYSEN VENTURES AB,Financials,KAV.ST,EQ,
-Fingerprint Cards AB Class B,Technology,FING-B.ST,EQ,
-ScandiDos AB,Technology,SDOS.ST,EQ,
-SLOTTSVIKEN FASTIGHETSAKTIEBOLAG CLASS B,Financials,SLOTT.B.ST,EQ,
-GENETIC ANALYSIS AS,Health Care,GEAN.ST,EQ,
-GOMERO GROUP AB,Industrials,GOMERO.ST,EQ,
-KONTIGO CARE AB,Health Care,KONT.ST,EQ,
-ODI PHARMA AB,Health Care,ODI.ST,EQ,
-Nitro Games Plc,Technology,NITRO.ST,EQ,
-OrganoClick AB,Materials,ORGC.ST,EQ,
-WONDERFUL TIMES GROUP AB,Consumer Discretionary,WTG.ST,EQ,
-Cardeon AB,Financials,CARDEO.ST,EQ,
-BEYOND FRAMES ENTERTAINMENT AB,Technology,BEYOND.ST,EQ,
-Hexicon AB,Industrials,HEXI.ST,EQ,
-PHOTOCAT A/S,Materials,PCAT.ST,EQ,
-Fragbite Group AB,Technology,FRAG.ST,EQ,
-Larkberget AB,Health Care,LARK.ST,EQ,
-LifeClean International AB,Industrials,LCLEAN.ST,EQ,
-Collaxio AB (publ) Class B,Financials,COLLAX.ST,EQ,
-POLARCOOL AB,Health Care,POLAR.ST,EQ,
-Sonetel AB,Communication Services,SONE.ST,EQ,
-Thinc Collective AB,Technology,THINC.ST,EQ,
-HUNTER CAPITAL AB,Consumer Discretionary,HUNTER.ST,EQ,
-Dlaboratory Sweden AB,Technology,DLAB.ST,EQ,
-VIDHANCE AB,Technology,VIDH.ST,EQ,
-PEXA AB CLASS B,Health Care,PEXA.B.ST,EQ,
-Precomp Solutions AB Class B,Industrials,PCOM-B.ST,EQ,
-ZOOMABILITY INT AB,Industrials,ZOOM.ST,EQ,
-Star Vault AB Class B,Technology,STVA.B.ST,EQ,
-ExpreS2ion Biotech Holding AB,Health Care,EXPRS2.ST,EQ,
-ECORUB AB CLASS B,Industrials,ECO.B.ST,EQ,
-BIOFRIGAS SWEDEN AB,Energy,BIOF.ST,EQ,
-BIOFRIGAS SWEDEN AB TEMP,Energy,BIOF.BTU.ST,EQ,
-MIRIS HOLDING AB,Technology,MIR.ST,EQ,
-MONIVENT AB,Health Care,MONI.ST,EQ,
-SAFE AT SEA AB,Health Care,SAFE.ST,EQ,
-COMINTELLI AB,Technology,COMINT.ST,EQ,
-VIBROSENSE DYNAMICS AB CLASS B,Health Care,VSD.B.ST,EQ,
-Luxbright AB,Health Care,LXB.ST,EQ,
-Luxbright AB TEMP,Health Care,LXB-BTU.ST,EQ,
-Kakel Max AB,Consumer Discretionary,KAKEL.ST,EQ,
-UMIDA GROUP AB CLASS B,Consumer Staples,UMIDA.B.ST,EQ,
-Zaplox AB,Technology,ZAPLOX.ST,EQ,
-Prostatype Genomics AB,Health Care,PROGEN.ST,EQ,
-Perpetua Medical AB Class B,Technology,PERP-B.ST,EQ,
-NOVUS GROUP INTERNATIONAL AB,Industrials,NOVU.ST,EQ,
-SARSYS AB,Technology,SARS.ST,EQ,
-FINEPART SWEDEN AB,Industrials,FINE.ST,EQ,
-Goodbye Kansas Group AB,Technology,GBK.ST,EQ,
-EASYFILL AB CLASS B,Industrials,EASY.B.ST,EQ,
-SJöSTRAND COFFEE B,Consumer Staples,SCC.B.ST,EQ,
-Gabather AB,Health Care,GABA.ST,EQ,
-ZENICOR MEDICAL SYSTEMS AB,Technology,ZENI.ST,EQ,
-NanoCap Group AB,Financials,NANOC-B.ST,EQ,
-Guard Therapeutics International AB,Health Care,GUARD.ST,EQ,
-Jumpgate AB,Technology,GATE.ST,EQ,
-Aino Health AB,Industrials,AINO.ST,EQ,
-DOUBLE BOND PHARMACEUTICAL INTERNATIONAL AB CLASS B,Health Care,DBP.B.ST,EQ,
-LIGHTNING GROUP AB,Technology,LIGR.ST,EQ,
-APTAHEM AB,Health Care,APTA.ST,EQ,
-Divio Technologies AB TEMP Class B,Technology,DIVIO-BTU-B.ST,EQ,
-Divio Technologies AB Class B,Technology,DIVIO-B.ST,EQ,
-LightAir AB,Industrials,LAIR.ST,EQ,
-Nicoccino Holding AB,Consumer Staples,NICO.ST,EQ,
-PREBONA AB,Consumer Staples,PREBON.ST,EQ,
-Nexar Group AB,Consumer Discretionary,NXAR.ST,EQ,
-NFO DRIVES AB,Industrials,NFO.ST,EQ,
-Enorama Pharma AB,Health Care,ERMA.ST,EQ,
-Acenta Group AB,Technology,PADEL.ST,EQ,
-MOVEBYBIKE EUROPE AB,Industrials,MBBAB.ST,EQ,
-StoneBeach Group AB,Technology,SBG.ST,EQ,
-Adverty AB,Technology,ADVT.ST,EQ,
-Niutech Group AB,Technology,NIUTEC.ST,EQ,
-Diadrom Holding AB,Technology,DIAH.ST,EQ,
-Qiiwi Games AB,Technology,QIIWI.ST,EQ,
-RISK INTELLIGENCE A/S,Financials,RISK.ST,EQ,
-Hybricon AB,Consumer Discretionary,HYCO.ST,EQ,
-VAXXA AB,Consumer Discretionary,VAXXA.ST,EQ,
-Transiro Holding AB,Technology,TIRO.ST,EQ,
-Biosergen AB,Health Care,BIOSGN.ST,EQ,
-Buddypro Group AB Class B,Financials,BUDDY.B.ST,EQ,
-OURLIVING AB,Technology,OURLIV.ST,EQ,
-Hedera Group AB,Industrials,HEGR.ST,EQ,
-Avsalt Group AB,Technology,AVSALT.ST,EQ,
-INVENT MEDIC SWEDEN AB,Health Care,IMS.ST,EQ,
-EXALT AB,Technology,EXALT.ST,EQ,
-RESPIRATORIUS AB,Health Care,RESP.ST,EQ,
-Mantex AB,Technology,MANTEX.ST,EQ,
-Level Bio AB,Industrials,LEVBIO.ST,EQ,
-Clean Motion AB,Consumer Discretionary,CLEMO.ST,EQ,
-Qbrick AB,Technology,QBRICK.ST,EQ,
-M.O.B.A. Network AB,Technology,MOBA.ST,EQ,
-EDYOUTEC AB,Technology,EDYOU.ST,EQ,
-Goobit Group AB,Industrials,BTCX.ST,EQ,
-Trainimal AB,Industrials,TRML.ST,EQ,
-Maximum Entertainment AB Class B,Technology,MAXENT-B.ST,EQ,
-Fram Skandinavien AB Class B,Technology,FRAM-B.ST,EQ,
-Safe Lane Gaming AB Class B,Technology,SLG.B.ST,EQ,
-Ortelius International AB (publ),Consumer Discretionary,ORTIN.ST,EQ,
-Preservia Hyresfastigheter AB Pref Registered Shs,Financials,PHYR.PREF.ST,EQ,
-Preservia Hyresfastigheter AB Class B,Financials,PHYR.B.ST,EQ,
-TESSIN NORDIC HOLDING AB,Technology,TESSIN.ST,EQ,
-HOODIN AB,Technology,HOODIN.ST,EQ,
-Relevance Communication Nordic AB,Technology,RLVNC.ST,EQ,
-SBF Bostad AB (publ) Class B,Industrials,SBFBO.B.ST,EQ,
-SBF Bostad AB (publ) Class A,Industrials,SBFBO.A.ST,EQ,
-FSport AB,Technology,FSPORT.ST,EQ,
-LANE CAPITAL GROUP AB,Technology,LANE.B.ST,EQ,
-BLICK GLOBAL GROUP AB,Consumer Discretionary,BLICK.ST,EQ,
-Time People Group AB,Industrials,TPGR.ST,EQ,
-Insplorion AB,Technology,INSP.ST,EQ,
-Valuno Group AB,Technology,VALUNO.ST,EQ,
-Ecoclime Group AB Class B,Technology,ECC.B.ST,EQ,
-ODINWELL AB,Technology,ODIN.ST,EQ,
-ZENERGY AB CLASS B,Industrials,ZENZIP.B.ST,EQ,
-INHALATION SCIENCES SWEDEN AB,Health Care,ISAB.ST,EQ,
-Gamethrill AB,Technology,THRILL.ST,EQ,
-Spotr Group AB,Technology,SPOTR.ST,EQ,
-Preservia Holding AB Pref Registered Shs,Financials,PHOL.PREF.ST,EQ,
-Nosium AB Class B,Consumer Staples,NOSIUM.B.ST,EQ,
-Gold Town Games AB,Technology,GTG.ST,EQ,
-FX INTERNATIONAL AB,Technology,FXI.ST,EQ,
-Polymer Factory Sweden AB,Materials,POLYMER.ST,EQ,
-Lumito AB,Health Care,LUMITO.ST,EQ,
-RECYCTEC HOLDING AB CLASS B,Industrials,RECY.B.ST,EQ,
-ECOMB AB,Industrials,ECOMB.ST,EQ,
-Creturner Group AB,Industrials,CRET.ST,EQ,
-SOCIALLITE US AB,Technology,SOCIAL.ST,EQ,
-Northern CapSek Ventures AB,Financials,CAPS.ST,EQ,
-STOCKHOLM TREASURY AB,Consumer Discretionary,STHLM.ST,EQ,
-Free2move Holding AB,Technology,F2M.ST,EQ,
-IMHO Intermedia House AB Class B,Consumer Discretionary,IMHO.B.ST,EQ,
-PROVIDE IT SWEDEN AB,Technology,PROVIT.ST,EQ,
-Rentunder Holding AB,Industrials,RENT.ST,EQ,
-PHARMALUNDENSIS AB,Health Care,PHAL.ST,EQ,
-Hemply Balance Holding AB,Health Care,HMPLY.ST,EQ,
-EATGOOD SWEDEN AB,Consumer Discretionary,EATG.ST,EQ,
-EATGOOD SWEDEN AB TEMP,Consumer Discretionary,EATG.BTA.ST,EQ,
-NIDHOGG RESOURCES HOLDING AB,Materials,NIDHOG.ST,EQ,
-Africa Resources AB,Materials,AFRI.ST,EQ,
-Pixfam AB,Technology,PIXFAM.ST,EQ,
-Shamaran Petroleum Ltd Shs Swedish Depository Receipt Repr 1 Sh,Energy,SNM-SDB.ST,EQ,
-INVOICERY GROUP AB,Financials,FRILAN.ST,EQ,
-Amaron Commercial Properties AB (publ) Class B,Industrials,AMARON.CF.B.ST,EQ,
-MTI Investment AB,Financials,MTI.ST,EQ,
-RanLOS AB Class B,Technology,RLOS.B.ST,EQ,
-Qbim Aktiebolag,Technology,QBIM.ST,EQ,
-NanoEcho AB,Health Care,NANECH.ST,EQ,
-Guldbrev Holding AB,Industrials,GULD.ST,EQ,
-GiG Software PLC Shs Swedish Depository Receipt Repr 1 Sh,Technology,GIG-SDB.ST,EQ,
-CNI Nordic 5 AB Pref Registered Shs -P2-,Financials,CNI5.PREF.P2.ST,EQ,
-AI Revenue Assistant Software Stockholm AB,Industrials,AIRA.ST,EQ,
-Newbury Pharmaceuticals AB,Health Care,NEWBRY.ST,EQ,
-Argo Defence Group AB (publ),Industrials,ARGO.ST,EQ,
-BlueYield AB,Financials,SHIP.ST,EQ,
-HUNTER CAPITAL RTO 1 AB (PUBL),Financials,HCRTO1.ST,EQ,
-Herno Gin AB Class B,Consumer Discretionary,HERNO-B.ST,EQ,
-PPI Public Property Invest AB,Financials,PUBLI.ST,EQ,
-Holdflight AB,Technology,HOLDFL.ST,EQ,
-BERGHOLM FRITIDSFORDON AB,Industrials,BHOLM.ST,EQ,
-Railway Metrics and Dynamics Sweden AB,Industrials,RMDX.ST,EQ,
-SOLIDX AB,Industrials,SOLIDX.ST,EQ,
-PROPORT INVEST AB,Financials,PRPORT.ST,EQ,
-PPI Public Property Invest AB,Financials,PUBLIO.ST,EQ,
-General Oceans ASA,Technology,GENOO.ST,EQ,
-HUNTER CAPITAL RTO 2 AB,Industrials,HCRTO2.ST,EQ,
-ARENIT Industrie SE Swedish Depository Receipt,Financials,ARENIT-SDB.ST,EQ,
-Octave Intelligence PLC Shs Swedish Depository Receipt Repr 1 Sh,Technology,OCTV-SDB.ST,EQ,
-UPGRADE INVEST NORDIC AB,Financials,UPGRAD.ST,EQ,
-MINDARK PE AB,Technology,MNDRK.ST,EQ,
-AKTIEBOLAGET GOTLAND ART & DESIGN,Consumer Discretionary,GAD.ST,EQ,
-Kvix AB,Technology,KVIX.ST,EQ,
-PixelFox AB,Industrials,PIXEL.ST,EQ,
-I LOVE LUND AB CLASS B,Financials,LOVE.B.ST,EQ,
-MY BEAT AB,Technology,MYBEAT.ST,EQ,
-Noba Bank Group AB,Financials,NOBA.ST,EQ,
-NORDEN ESTATES AB,Financials,NORDEN.ST,EQ,
-Calviks AB (publ),Industrials,CALVIK.ST,EQ,
-Silex Microsystems AB,Technology,SILEX.ST,EQ,
-NATTARO LABS AB,Health Care,NATTA.ST,EQ,
-MENDOLE A/S,Industrials,MENDO.ST,EQ,
-Qlucore AB,Technology,QCORE.ST,EQ,
-Transfer Group AB,Industrials,TRNSF.ST,EQ,
-Vastra Hamnen Corporate Finance AB,Financials,VH.ST,EQ,
-CYCLEZYME AB,Materials,CYCLE.ST,EQ,
-C100 AB,Communication Services,C100.ST,EQ,
-NILSSON SPECIAL VEHICLES AB,Consumer Discretionary,NILS.ST,EQ,
-RAMLOSA SHIPPING AB(PUBL),Financials,RAMSH.ST,EQ,
-Greenmerc AB Class B,Technology,GMERC.B.ST,EQ,
-WS WeSports Group AB,Consumer Discretionary,WSG.ST,EQ,
-HF REVERSE(RTO)AB CLASS B,Financials,HFRTO.B.ST,EQ,
-Wonderboo Holding AB,Consumer Staples,WONDR.ST,EQ,
-Arctic Blue Beverages AB,Consumer Staples,ARCTIC.ST,EQ,
-PUBLICVC RTO1 AB (PUBL) CLASS B,Financials,PVRTO1.B.ST,EQ,
-XOMA AB CLASS B,Materials,XOM.B.ST,EQ,
-Constellation Oil Services Holding S.A. Shs Norwegian depository receipts 1 Sh,Industrials,COSHO.ST,EQ,
-Arctic Falls AB,Consumer Discretionary,ARFA.ST,EQ,
-Scandinavian Credit Fund I AB (publ) Structured Note 2016-23.01.37 Series 2016:1,Industrials,SCF.KAPBEVIS.1A.ST,EQ,
-WINDON ENERGY GROUP AB,Industrials,WEG.ST,EQ,
-GOSOL ENERGY GROUP AB,Industrials,GOSOL.ST,EQ,
-Dividend Sweden AB Class B,Industrials,DIV.B.ST,EQ,
-Insig AB,Financials,INSIG.PREF.ST,EQ,
-APR TECHNOLOGIES AB,Industrials,APRTEC.ST,EQ,
-Kinda Brave Entertainment Group AB,Technology,BRAVE.ST,EQ,
-LAPPLAND GULDPROSPEKTERING AB CLASS B,Materials,LGOLD.B.ST,EQ,
-Logistea AB Class B,Financials,LOGI-B.ST,EQ,
-Coffee Stain Group AB Class B,Technology,COFFEE-B.ST,EQ,
-Crustal Resources AB Class B,Materials,CRUST.B.ST,EQ,
-Kongsberg Maritime ASA,Industrials,KMARO.ST,EQ,
-ABAS PROTECT AB,Industrials,ABAS.ST,EQ,
+Investor AB Class B,Financials,INVE_B.ST,EQ,SE0015811963
+Investor AB Class A,Financials,INVE_A.ST,EQ,SE0015811955
+Atlas Copco AB Class A,Industrials,ATCO_A.ST,EQ,SE0017486889
+Atlas Copco AB Class B,Industrials,ATCO_B.ST,EQ,SE0017486897
+Volvo AB Class B,Industrials,VOLV_B.ST,EQ,SE0000115446
+Volvo AB Class A,Industrials,VOLV_A.ST,EQ,SE0000115420
+Sandvik,Industrials,SAND.ST,EQ,SE0000667891
+Swedbank AB Class A,Financials,SWED_A.ST,EQ,SE0000242455
+Telefonaktiebolaget LM Ericsson Class B,Technology,ERIC_B.ST,EQ,SE0000108656
+Telefonaktiebolaget LM Ericsson Class A,Technology,ERIC_A.ST,EQ,SE0000108649
+Skandinaviska Enskilda Banken AB Class A,Financials,SEB_A.ST,EQ,SE0000148884
+Skandinaviska Enskilda Banken AB Class C,Financials,SEB_C.ST,EQ,SE0000120784
+ASSA ABLOY AB Class B,Consumer Discretionary,ASSA_B.ST,EQ,SE0007100581
+EQT AB,Financials,EQT.ST,EQ,SE0012853455
+Epiroc AB Class B,Industrials,EPI_B.ST,EQ,SE0015658117
+Epiroc AB Class A,Industrials,EPI_A.ST,EQ,SE0015658109
+Saab AB Class B,Technology,SAAB_B.ST,EQ,SE0021921269
+Svenska Handelsbanken AB Class A,Financials,SHB_A.ST,EQ,SE0007100599
+Svenska Handelsbanken AB Class B,Financials,SHB_B.ST,EQ,SE0007100607
+H&M Hennes & Mauritz AB Class B,Consumer Discretionary,HM_B.ST,EQ,SE0000106270
+Industrivarden AB Class C,Financials,INDU_C.ST,EQ,SE0000107203
+Industrivarden AB Class A,Financials,INDU_A.ST,EQ,SE0000190126
+Alfa Laval,Industrials,ALFA.ST,EQ,SE0000695876
+Hexagon AB Class B,Technology,HEXA_B.ST,EQ,SE0015961909
+Telia Company,Communication Services,TELIA.ST,EQ,SE0000667925
+Essity AB Class A,Consumer Staples,ESSITY_A.ST,EQ,SE0009922156
+Essity AB Class B,Consumer Staples,ESSITY_B.ST,EQ,SE0009922164
+Boliden,Materials,BOL.ST,EQ,SE0020050417
+Swedish Orphan Biovitrum,Health Care,SOBI.ST,EQ,SE0000872095
+Evolution AB,Technology,EVO.ST,EQ,SE0012673267
+Lifco AB Class B,Industrials,LIFCO_B.ST,EQ,SE0015949201
+L E Lundbergforetagen AB Class B,Financials,LUND_B.ST,EQ,SE0000108847
+Tele2 AB Class A,Communication Services,TEL2_A.ST,EQ,SE0005190220
+Tele2 AB Class B,Communication Services,TEL2_B.ST,EQ,SE0005190238
+Investment AB Latour Class B,Financials,LATO_B.ST,EQ,SE0010100958
+SKF AB Class B,Industrials,SKF_B.ST,EQ,SE0000108227
+SKF AB Class A,Industrials,SKF_A.ST,EQ,SE0000108201
+SSAB AB Class A,Industrials,SSAB_A.ST,EQ,SE0000171100
+SSAB AB Class B,Industrials,SSAB_B.ST,EQ,SE0000120669
+Skanska AB Class B,Industrials,SKA_B.ST,EQ,SE0000113250
+Autoliv Inc Shs Swedish DR,Industrials,ALIV_SDB.ST,EQ,SE0021309614
+Securitas AB Class B,Industrials,SECU_B.ST,EQ,SE0000163594
+Trelleborg AB Class B,Industrials,TREL_B.ST,EQ,SE0000114837
+Nordnet AB,Financials,SAVE.ST,EQ,SE0015192067
+Addtech AB Class B,Technology,ADDT_B.ST,EQ,SE0014781795
+NIBE Industrier AB Class B,Industrials,NIBE_B.ST,EQ,SE0015988019
+Svenska Cellulosa AB SCA Class B,Materials,SCA_B.ST,EQ,SE0000112724
+Svenska Cellulosa AB SCA Class A,Materials,SCA_A.ST,EQ,SE0000171886
+Indutrade,Industrials,INDT.ST,EQ,SE0001515552
+Beijer Ref AB Class B,Industrials,BEIJ_B.ST,EQ,SE0015949748
+Volvo Car AB Class B,Consumer Discretionary,VOLCAR_B.ST,EQ,SE0021628898
+AAK AB,Consumer Staples,AAK.ST,EQ,SE0011337708
+Fastighets AB Balder Class B,Financials,BALD_B.ST,EQ,SE0017832488
+Mycronic AB,Industrials,MYCR.ST,EQ,SE0025158629
+Avanza Bank Holding AB,Financials,AZA.ST,EQ,SE0012454072
+Sectra AB Class B,Technology,SECT_B.ST,EQ,SE0022419784
+AB Sagax,Financials,SAGA_D.ST,EQ,SE0009161052
+AB Sagax Class A,Financials,SAGA_A.ST,EQ,SE0004635878
+AB Sagax Class B,Financials,SAGA_B.ST,EQ,SE0005127818
+Axfood,Consumer Staples,AXFO.ST,EQ,SE0006993770
+Castellum,Real Estate,CAST.ST,EQ,SE0000379190
+Getinge AB Class B,Health Care,GETI_B.ST,EQ,SE0000202624
+Lagercrantz Group AB Class B,Technology,LAGR_B.ST,EQ,SE0014990966
+Sweco AB Class B,Industrials,SWEC_B.ST,EQ,SE0014960373
+Sweco AB Class A,Industrials,SWEC_A.ST,EQ,SE0014960365
+Holmen AB Class A,Materials,HOLM_A.ST,EQ,SE0011090000
+Holmen AB Class B,Materials,HOLM_B.ST,EQ,SE0011090018
+Octave Intelligence PLC Shs Swedish Depository Receipt Repr 1 Sh,Technology,OCTV_SDB.ST,EQ,SE0028329433
+Noba Bank Group AB,Financials,NOBA.ST,EQ,SE0023135298
+Munters Group AB,Industrials,MTRS.ST,EQ,SE0009806607
+Pandox AB Class B,Financials,PNDX_B.ST,EQ,SE0007100359
+Camurus AB,Health Care,CAMX.ST,EQ,SE0007692850
+Medicover AB Class B,Health Care,MCOV_B.ST,EQ,SE0009778848
+Asmodee Group AB Class B,Consumer Discretionary,ASMDEE_B.ST,EQ,SE0023615638
+Loomis AB,Industrials,LOOMIS.ST,EQ,SE0014504817
+Asker Healthcare Group AB,Industrials,ASKER.ST,EQ,SE0024171458
+Sinch,Technology,SINCH.ST,EQ,SE0016101844
+Roko AB Class B,Financials,ROKO_B.ST,EQ,SE0023950795
+Sivers Semiconductors AB,Technology,SIVE.ST,EQ,SE0003917798
+Catena AB,Financials,CATE.ST,EQ,SE0001664707
+BioArctic AB Class B,Health Care,BIOA_B.ST,EQ,SE0010323311
+Clas Ohlson AB Class B,Consumer Discretionary,CLAS_B.ST,EQ,SE0000584948
+Peab AB Class B,Industrials,PEAB_B.ST,EQ,SE0000106205
+Wallenstam AB Class B,Financials,WALL_B.ST,EQ,SE0017780133
+HMS Networks AB,Technology,HMS.ST,EQ,SE0009997018
+Bravida Holding AB,Industrials,BRAV.ST,EQ,SE0007491303
+Electrolux AB Class B,Consumer Discretionary,ELUX_B.ST,EQ,SE0016589188
+Electrolux AB Class A,Consumer Discretionary,ELUX_A.ST,EQ,SE0016589170
+Wihlborgs Fastigheter,Real Estate,WIHL.ST,EQ,SE0018012635
+Alleima AB,Materials,ALLEI.ST,EQ,SE0017615644
+Hexpol AB Class B,Materials,HPOL_B.ST,EQ,SE0007074281
+Fabege,Real Estate,FABG.ST,EQ,SE0011166974
+Husqvarna AB Class A,Consumer Discretionary,HUSQ_A.ST,EQ,SE0001662222
+Husqvarna AB Class B,Consumer Discretionary,HUSQ_B.ST,EQ,SE0001662230
+Thule Group AB,Consumer Discretionary,THULE.ST,EQ,SE0006422390
+OEM International AB Class B,Industrials,OEM_B.ST,EQ,SE0017766843
+Bufab AB,Industrials,BUFAB.ST,EQ,SE0025010671
+Hacksaw AB,Technology,HACK.ST,EQ,SE0025138357
+Hufvudstaden AB Class A,Financials,HUFV_A.ST,EQ,SE0000170375
+AQ Group AB,Industrials,AQ.ST,EQ,SE0022062196
+Bure Equity AB,Financials,BURE.ST,EQ,SE0000195810
+Elekta AB Class B,Health Care,EKTA_B.ST,EQ,SE0000163628
+Granges AB,Materials,GRNG.ST,EQ,SE0006288015
+AddLife AB Class B,Health Care,ALIF_B.ST,EQ,SE0014401378
+Scandic Hotels Group AB,Consumer Discretionary,SHOT.ST,EQ,SE0007640156
+Arion Banki hf Shs Swedish DR,Financials,ARION_SDB.ST,EQ,SE0010413567
+Attendo AB,Health Care,ATT.ST,EQ,SE0007666110
+Beijer Alma AB Class B,Industrials,BEIA_B.ST,EQ,SE0011090547
+Systemair AB,Industrials,SYSR.ST,EQ,SE0016609499
+Atrium Ljungberg AB Class B,Financials,ATRLJ_B.ST,EQ,SE0024320832
+NCC AB Class A,Industrials,NCC_A.ST,EQ,SE0000118952
+NCC AB Class B,Industrials,NCC_B.ST,EQ,SE0000117970
+NP3 Fastigheter AB,Financials,NP3.ST,EQ,SE0006342333
+Intea Fastigheter AB Class B,Financials,INTEA_B.ST,EQ,SE0017072259
+Intea Fastigheter AB Class D,Financials,INTEA_D.ST,EQ,SE0017072267
+Kinnevik AB Class A,Financials,KINV_A.ST,EQ,SE0022060513
+Kinnevik AB Class B,Financials,KINV_B.ST,EQ,SE0022060521
+Vimian Group AB,Health Care,VIMIAN.ST,EQ,SE0015961982
+Modern Times Group MTG AB Class A,Technology,MTG_A.ST,EQ,SE0018012486
+Modern Times Group MTG AB Class B,Technology,MTG_B.ST,EQ,SE0018012494
+Storskogen Group AB Class B,Financials,STOR_B.ST,EQ,SE0016797732
+Billerud AB,Materials,BILL.ST,EQ,SE0000862997
+BONESUPPORT HOLDING AB,Health Care,BONEX.ST,EQ,SE0009858152
+NCAB Group AB,Technology,NCAB.ST,EQ,SE0017160773
+Hoist Finance AB,Industrials,HOFI.ST,EQ,SE0006887063
+Altra Fastigheter AB,Financials,ALTRA.ST,EQ,SE0011426428
+Cloetta AB Class B,Consumer Staples,CLA_B.ST,EQ,SE0002626861
+Embracer Group AB Class B,Technology,EMBRAC_B.ST,EQ,SE0023615885
+Paradox Interactive AB,Technology,PDX.ST,EQ,SE0008294953
+Bilia AB Class A,Consumer Discretionary,BILI_A.ST,EQ,SE0009921588
+Nolato AB Class B,Technology,NOLA_B.ST,EQ,SE0015962477
+Vitrolife AB,Health Care,VITR.ST,EQ,SE0011205202
+Electrolux Professional AB Class B,Industrials,EPRO_B.ST,EQ,SE0013747870
+New Wave Group AB Class B,Consumer Staples,NEWA_B.ST,EQ,SE0020356970
+AFRY AB Class B,Industrials,AFRY.ST,EQ,SE0005999836
+BioGaia AB Class B,Health Care,BIOG_B.ST,EQ,SE0017769995
+Betsson AB Class B,Consumer Discretionary,BETS_B.ST,EQ,SE0022726485
+Alvotech Swedish Depository Receipt Repr 1 Sh,Health Care,ALVO_SDB.ST,EQ,SE0025011463
+Cibus Real Estate AB (publ),Financials,CIBUS.ST,EQ,SE0010832204
+PLEJD AB,Technology,PLEJD.ST,EQ,SE0008014476
+Rusta AB,Consumer Discretionary,RUSTA.ST,EQ,SE0020848356
+Alimak Group AB,Industrials,ALIG.ST,EQ,SE0007158910
+Intrum AB,Industrials,INTRUM.ST,EQ,SE0000936478
+SkiStar AB Class B,Consumer Discretionary,SKIS_B.ST,EQ,SE0012141687
+Avarda Bank AB,Financials,AVARDA.ST,EQ,SE0025666969
+Norion Bank AB,Financials,NORION.ST,EQ,SE0017831795
+Ratos AB Class A,Financials,RATO_A.ST,EQ,SE0000191090
+Ratos AB Class B,Financials,RATO_B.ST,EQ,SE0000111940
+INVISIO AB,Technology,IVSO.ST,EQ,SE0001200015
+Instalco AB,Industrials,INSTAL.ST,EQ,SE0017483506
+Lindab International AB,Industrials,LIAB.ST,EQ,SE0001852419
+Ambea AB,Health Care,AMBEA.ST,EQ,SE0009663826
+Creades AB Class A,Financials,CRED_A.ST,EQ,SE0015661236
+Scandi Standard AB,Consumer Staples,SCST.ST,EQ,SE0005999760
+Hanza AB,Materials,HANZA.ST,EQ,SE0005878543
+engcon AB Class B,Industrials,ENGCON_B.ST,EQ,SE0017769847
+Sdiptech AB Class B,Industrials,SDIP_B.ST,EQ,SE0003756758
+Dometic Group AB,Consumer Discretionary,DOM.ST,EQ,SE0007691613
+Vitec Software Group AB Class B,Technology,VIT_B.ST,EQ,SE0007871363
+AcadeMedia AB,Consumer Discretionary,ACAD.ST,EQ,SE0007897079
+Hexatronic Group AB,Technology,HTRO.ST,EQ,SE0018040677
+Swedish Logistic Property AB Class B,Industrials,SLP_B.ST,EQ,SE0017565476
+Dios Fastigheter AB,Financials,DIOS.ST,EQ,SE0001634262
+MilDef Group AB,Technology,MILDEF.ST,EQ,SE0016074249
+Xvivo Perfusion AB,Health Care,XVIVO.ST,EQ,SE0004840718
+Inwido AB,Materials,INWI.ST,EQ,SE0006220018
+Synsam AB,Consumer Discretionary,SYNSAM.ST,EQ,SE0016829709
+Platzer Fastigheter Holding AB Class B,Financials,PLAZ_B.ST,EQ,SE0004977692
+Boozt AB,Consumer Discretionary,BOOZT.ST,EQ,SE0009888738
+FastPartner AB Class D,Financials,FPAR_D.ST,EQ,SE0013512514
+FastPartner AB,Financials,FPAR_A.ST,EQ,SE0013512506
+Storytel AB Class B,Consumer Discretionary,STORY_B.ST,EQ,SE0007439443
+VBG Group AB Class B,Industrials,VBG_B.ST,EQ,SE0000115107
+Bergman & Beving AB Class B,Consumer Discretionary,BERG_B.ST,EQ,SE0000101362
+Apotea AB,Consumer Discretionary,APOTEA.ST,EQ,SE0023313762
+RaySearch Laboratories AB Class B,Technology,RAY_B.ST,EQ,SE0000135485
+MedCap AB,Health Care,MCAP.ST,EQ,SE0009160872
+Dynavox Group AB,Technology,DYVOX.ST,EQ,SE0017105620
+JM AB,Financials,JM.ST,EQ,SE0000806994
+Hemnet Group,Technology,HEM.ST,EQ,SE0015671995
+Karnov Group AB,Industrials,KAR.ST,EQ,SE0012323715
+Investment AB Oresund,Financials,ORES.ST,EQ,SE0008321608
+Alligo AB Class B,Industrials,ALLIGO_B.ST,EQ,SE0009922305
+Rederiaktiebolaget Gotland Class B,Industrials,GOTL_B.ST,EQ,SE0000105397
+Rederiaktiebolaget Gotland Class A,Industrials,GOTL_A.ST,EQ,SE0000105371
+Viaplay Group AB Class B,Consumer Discretionary,VPLAY_B.ST,EQ,SE0012116390
+Viaplay Group AB Class A,Consumer Discretionary,VPLAY_A.ST,EQ,SE0012324226
+Fastighetsbolaget Emilshus AB Class B,Financials,EMIL_B.ST,EQ,SE0016785786
+Acast AB,Technology,ACAST.ST,EQ,SE0015960935
+Arjo AB Class B,Industrials,ARJO_B.ST,EQ,SE0010468116
+RVRC Holding AB,Consumer Discretionary,RVRC.ST,EQ,SE0015962485
+Troax Group AB Class A,Industrials,TROAX.ST,EQ,SE0012729366
+Mips AB,Consumer Discretionary,MIPS.ST,EQ,SE0009216278
+Sveafastigheter AB,Financials,SVEAF.ST,EQ,SE0022243812
+Ovzon AB,Communication Services,OVZON.ST,EQ,SE0010948711
+Flat Capital AB Class B,Financials,FLAT_B.ST,EQ,SE0016609846
+Vestum AB,Industrials,VESTUM.ST,EQ,SE0017134125
+Addnode Group AB Class B,Technology,ANOD_B.ST,EQ,SE0017885767
+Stendoerren Fastigheter AB Class B,Financials,STEF_B.ST,EQ,SE0006543344
+Svolder AB Class B,Financials,SVOL_B.ST,EQ,SE0017161458
+Svolder AB Class A,Financials,SVOL_A.ST,EQ,SE0017161441
+Spiltan Invest AB,Financials,SPLTN.ST,EQ,SE0013382546
+Bahnhof AB Class B,Communication Services,BAHN_B.ST,EQ,SE0010442418
+Zinzino AB Class B,Consumer Staples,ZZ_B.ST,EQ,SE0002480442
+Momentum Group AB Class B,Industrials,MMGR_B.ST,EQ,SE0017562523
+Corem Property Group AB Pref,Financials,CORE_PREF.ST,EQ,SE0010714311
+Corem Property Group AB Class D,Financials,CORE_D.ST,EQ,SE0015961594
+Corem Property Group AB Class B,Financials,CORE_B.ST,EQ,SE0010714287
+Corem Property Group AB Class A,Financials,CORE_A.ST,EQ,SE0010714279
+Samhallsbyggnadsbolaget I Norden AB Class B,Financials,SBB_B.ST,EQ,SE0009554454
+Samhallsbyggnadsbolaget i Norden AB Class D,Financials,SBB_D.ST,EQ,SE0011844091
+Coor Service Management Holding AB,Industrials,COOR.ST,EQ,SE0007158829
+Yubico AB,Industrials,YUBICO.ST,EQ,SE0015657788
+NOTE AB,Technology,NOTE.ST,EQ,SE0001161654
+Ependion AB,Technology,EPEN.ST,EQ,SE0000671711
+Nederman Holding AB,Industrials,NMAN.ST,EQ,SE0011204510
+Swedencare AB,Health Care,SECARE.ST,EQ,SE0015988167
+John Mattson Fastighetsforetagen AB,Financials,JOMA.ST,EQ,SE0012481364
+BHG Group AB,Consumer Discretionary,BHG.ST,EQ,SE0010948588
+Haypp Group AB,Industrials,HAYPP.ST,EQ,SE0016829469
+Karnell Group AB Class B,Industrials,KARNEL_B.ST,EQ,SE0017832173
+Stenhus Fastigheter i Norden AB,Financials,SFAST.ST,EQ,SE0014956819
+Eastnine AB,Financials,EAST.ST,EQ,SE0022050183
+Meko AB,Industrials,MEKO.ST,EQ,SE0002110064
+NYAB AB,Industrials,NYAB.ST,EQ,SE0022242434
+Linc AB,Financials,LINC.ST,EQ,SE0015949433
+Implantica Inc. Shs A Swedish Depositary Receipt Repr 1 Sh A,Health Care,IMP_A_SDB.ST,EQ,SE0014855029
+Heimstaden AB Pref Registered Shs,Financials,HEIM_PREF.ST,EQ,SE0015949037
+HEBA Fastighets AB Class B,Financials,HEBA_B.ST,EQ,SE0017911480
+Goldsky Resources Corp Shs Swedish Depository Receipt Repr 1 Sh,Materials,GSKR_SDB.ST,EQ,SE0027099318
+Prisma Properties AB,Financials,PRISMA.ST,EQ,SE0022062055
+Idun Industrier AB Class B,Financials,IDUN_B.ST,EQ,SE0013512464
+Truecaller AB Class B,Technology,TRUE_B.ST,EQ,SE0016787071
+Shamaran Petroleum Ltd Shs Swedish Depository Receipt Repr 1 Sh,Energy,SNM_SDB.ST,EQ,SE0028000992
+ITAB Group AB (publ),Industrials,ITAB.ST,EQ,SE0015962097
+Gruvaktiebolaget Viscaria,Materials,VISC.ST,EQ,SE0021148160
+Nivika Fastigheter AB Class B,Financials,NIVI_B.ST,EQ,SE0017083272
+Proact IT Group AB,Technology,PACT.ST,EQ,SE0015961222
+Duni AB,Consumer Discretionary,DUNI.ST,EQ,SE0000616716
+Enity Holding AB,Financials,ENITY.ST,EQ,SE0025011554
+Hansa Biopharma AB,Health Care,HNSA.ST,EQ,SE0002148817
+Rejlers AB Class B,Industrials,REJL_B.ST,EQ,SE0000123671
+Traction AB Class B,Financials,TRAC_B.ST,EQ,SE0000391716
+Svedbergs Group AB Class B,Consumer Discretionary,SVED_B.ST,EQ,SE0000407991
+Nordrest Holding AB,Consumer Discretionary,NREST.ST,EQ,SE0022088217
+Verve Group SE Class A,Technology,VER.ST,EQ,SE0018538068
+Morrow Bank AB,Financials,MORROW.ST,EQ,SE0026852725
+Humble Group AB,Consumer Staples,HUMBLE.ST,EQ,SE0006261046
+BTS Group AB Class B,Industrials,BTS_B.ST,EQ,SE0000805426
+Fastighets AB Trianon Class B,Financials,TRIAN_B.ST,EQ,SE0018013658
+CellaVision AB,Health Care,CEVI.ST,EQ,SE0000683484
+Smart Eye AB,Health Care,SEYE.ST,EQ,SE0009268279
+GomSpace Group AB,Technology,GOMX.ST,EQ,SE0008348304
+Fagerhult Group AB,Industrials,FAG.ST,EQ,SE0010048884
+Keo Capital AB Class A,Energy,KEOC.ST,EQ,SE0008374383
+Brinova Fastigheter AB Class B,Financials,BRIN_B.ST,EQ,SE0008347652
+FM Mattsson Class B,Industrials,FMM_B.ST,EQ,SE0018040883
+Vicore Pharma Holding AB,Health Care,VICO.ST,EQ,SE0007577895
+XANO Industri AB Class B,Industrials,XANO_B.ST,EQ,SE0018014151
+Byggmax Group AB,Consumer Discretionary,BMAX.ST,EQ,SE0003303627
+Bonava AB Class B,Financials,BONAV_B.ST,EQ,SE0008091581
+Bonava AB Class A,Financials,BONAV_A.ST,EQ,SE0008091573
+Teqnion AB,Industrials,TEQ.ST,EQ,SE0012308088
+Lime Technologies AB,Technology,LIME.ST,EQ,SE0011870195
+Viva Wine Group AB,Consumer Staples,VIVA.ST,EQ,SE0017084361
+Besqab AB,Financials,BESQAB.ST,EQ,SE0010547786
+Humana AB,Consumer Discretionary,HUM.ST,EQ,SE0008040653
+Volati AB,Financials,VOLO.ST,EQ,SE0009143662
+Volati AB Pref. Shs,Financials,VOLO_PREF.ST,EQ,SE0009143670
+SmartCraft Group AB (publ),Technology,SMCRT.ST,EQ,SE0027597691
+Egetis Therapeutics AB,Health Care,EGTX.ST,EQ,SE0003815604
+Orron Energy AB,Utilities,ORRON.ST,EQ,SE0000825820
+Arlandastad Group AB,Financials,AGROUP.ST,EQ,SE0016276851
+Knowit AB,Industrials,KNOW.ST,EQ,SE0000421273
+Kopparbergs Bryggeri AB,Consumer Staples,KOBR.B.ST,EQ,SE0000500779
+K-Fast Holding AB Class B,Financials,KFAST_B.ST,EQ,SE0016101679
+Stille AB,Health Care,STIL.ST,EQ,SE0000998650
+Neobo Fastigheter AB,Financials,NEOBO.ST,EQ,SE0005034550
+Stillfront Group AB,Technology,SF.ST,EQ,SE0015346135
+KB Components AB,Industrials,KBC.ST,EQ,SE0022725743
+Dustin Group AB,Industrials,DUST.ST,EQ,SE0006625471
+KlaraBo Sverige AB Class B,Financials,KLARA_B.ST,EQ,SE0010832287
+Absolent Air Care Group AB,Industrials,ABSO.ST,EQ,SE0006256558
+VNV Global AB,Financials,VNV.ST,EQ,SE0014428835
+Midsona AB Class B,Health Care,MSON_B.ST,EQ,SE0000565228
+Midsona AB Class A,Health Care,MSON_A.ST,EQ,SE0000565210
+Nobia AB,Consumer Discretionary,NOBI.ST,EQ,SE0028900134
+Cint Group AB,Technology,CINT.ST,EQ,SE0015483276
+Flerie AB,Health Care,FLERIE.ST,EQ,SE0022447348
+Eltel AB,Industrials,ELTEL.ST,EQ,SE0006509949
+ByggPartner Gruppen AB,Industrials,BYGGP.ST,EQ,SE0009242324
+Vertiseit AB Class B,Technology,VERT_B.ST,EQ,SE0012481133
+VEF AB,Financials,VEFAB.ST,EQ,SE0016128151
+Studsvik AB,Industrials,SVIK.ST,EQ,SE0000653230
+Solid Forsakringsaktiebolag,Financials,SFAB.ST,EQ,SE0017082548
+Catella AB Class A,Financials,CAT_A.ST,EQ,SE0000188500
+Catella AB Class B,Financials,CAT_B.ST,EQ,SE0000188518
+Cereno Scientific AB Class B,Health Care,CRNO_B.ST,EQ,SE0008241558
+Fasadgruppen Group AB,Industrials,FG.ST,EQ,SE0015195771
+Saniona AB,Health Care,SANION.ST,EQ,SE0005794617
+Genova Property Group AB,Financials,GPG.ST,EQ,SE0007184189
+Inission AB Class B,Technology,INISS_B.ST,EQ,SE0016275069
+Arbona AB Class A,Financials,ARBO.A.ST,EQ,SE0003210590
+CTT Systems AB,Technology,CTT.ST,EQ,SE0000418923
+Clavister AB,Technology,CLAV.ST,EQ,SE0005308558
+SaltX Technology Holding AB Class B,Technology,SALT_B.ST,EQ,SE0005308541
+Viking Supply Ships AB Class B,Industrials,VSSAB_B.ST,EQ,SE0010820613
+Green Landscaping Group AB,Industrials,GREEN.ST,EQ,SE0010985028
+Surgical Science Sweden AB,Health Care,SUS.ST,EQ,SE0014428512
+Cheffelo AB,Consumer Discretionary,CHEF.ST,EQ,SE0015556873
+Elanders AB Class B,Industrials,ELAN_B.ST,EQ,SE0000119299
+KABE Group AB Class B,Consumer Discretionary,KABE_B.ST,EQ,SE0000107724
+Sotkamo Silver AB,Materials,SOSI.ST,EQ,SE0001057910
+Lasernet Group AB,Technology,LASER.ST,EQ,SE0001338039
+BioInvent International AB,Health Care,BINV.ST,EQ,SE0015244520
+Annehem Fastigheter AB Class B,Financials,ANNE_B.ST,EQ,SE0015221684
+Bjorn Borg AB,Consumer Staples,BORG.ST,EQ,SE0021921327
+Carasent AB,Technology,CARA.ST,EQ,SE0023261599
+Siljansvik AB,Utilities,SIVI.ST,EQ,SE0000201253
+Enea AB,Technology,ENEA.ST,EQ,SE0009697220
+Enad Global 7 AB,Technology,EG7.ST,EQ,SE0010520106
+Byggmastare Anders J Ahlstrom Holding AB Class B,Financials,AJA_B.ST,EQ,SE0026876476
+Devyser Diagnostics AB,Health Care,DVYSR.ST,EQ,SE0016588867
+Acconeer AB,Technology,ACCON.ST,EQ,SE0010546242
+Berner Industrier AB Class B,Industrials,BERNER_B.ST,EQ,SE0006143129
+SEHED Byggmastargruppen AB,Industrials,SEHED.B.ST,EQ,SE0023468954
+Exsitec Holding AB,Technology,EXS.ST,EQ,SE0014035762
+Net Insight AB Class B,Technology,NETI_B.ST,EQ,SE0000366098
+VETERANPOOLEN AB CLASS B,Industrials,VPAB.B.ST,EQ,SE0010663161
+PowerCell Sweden AB,Utilities,PCELL.ST,EQ,SE0006425815
+Micro Systemation AB Class B,Technology,MSAB_B.ST,EQ,SE0000526626
+LOGISTRI FASTIGHETS AB CLASS B,Financials,LOGIST.B.ST,EQ,SE0025197627
+LOGISTRI FASTIGHETS AB CLASS A,Financials,LOGIST.A.ST,EQ,SE0025197619
+Genovis AB,Health Care,GENO.ST,EQ,SE0002485979
+Fortinova Fastigheter AB,Financials,FNOVA_B.ST,EQ,SE0014608915
+RugVista Group AB,Consumer Discretionary,RUG.ST,EQ,SE0015659834
+Cavotec Group AB,Industrials,CCC.ST,EQ,SE0025010887
+Scandinavian Astor Group AB,Technology,ASTOR.ST,EQ,SE0019175274
+C-Rad AB Class B,Health Care,CRAD_B.ST,EQ,SE0002016352
+Paxman AB,Health Care,PAX.ST,EQ,SE0009806284
+Lea Bank AB,Financials,LEA.ST,EQ,SE0023261300
+SHT SMART HIGH-TECH AB CLASS B,Industrials,SHT.B.ST,EQ,SE0016843809
+BICO Group AB Class B,Health Care,BICO.ST,EQ,SE0013647385
+Softronic AB Class B,Technology,SOF_B.ST,EQ,SE0000323305
+Briox AB,Technology,BRIX.ST,EQ,SE0008588131
+Bokusgruppen AB,Consumer Discretionary,BOKUS.ST,EQ,SE0016074256
+AAC Clyde Space AB,Technology,AAC.ST,EQ,SE0021020716
+Nelly Group AB,Consumer Discretionary,NELLY.ST,EQ,SE0015245535
+Kjell Group AB,Consumer Discretionary,KJELL.ST,EQ,SE0028354936
+HAMLET BIOPHARMA AB CLASS B,Health Care,HAMLET.B.ST,EQ,SE0015661152
+Safestate Group AB (publ),Technology,STATE.ST,EQ,SE0019763988
+Eolus AB Class B,Industrials,EOLU_B.ST,EQ,SE0007075056
+Firefly AB,Technology,FIRE.ST,EQ,SE0000395428
+Ework Group AB,Industrials,EWRK.ST,EQ,SE0002402701
+Bulten AB,Industrials,BULTEN.ST,EQ,SE0003849223
+W5 Solutions AB,Industrials,W5.ST,EQ,SE0016786040
+Prevas AB Class B,Technology,PREV_B.ST,EQ,SE0000356008
+CTEK AB,Consumer Discretionary,CTEK.ST,EQ,SE0016798763
+Ferronordic AB,Consumer Discretionary,FNM.ST,EQ,SE0005468717
+Studentbostader i Norden AB,Financials,STUDBO.ST,EQ,SE0015657697
+District Metals Corporation Shs Swedish Depository Receipt Repr 1 Sh,Materials,DMXSE_SDB.ST,EQ,SE0023112941
+Medivir AB,Health Care,MVIR.ST,EQ,SE0020181014
+Lyko Group AB Class A,Consumer Discretionary,LYKO_A.ST,EQ,SE0010468918
+Sedana Medical AB,Health Care,SEDANA.ST,EQ,SE0015988373
+Railcare Group AB,Industrials,RAIL.ST,EQ,SE0010441139
+Coeli Private Equity AB,Financials,CPE.I.ST,EQ,SE0012012268
+Advenica AB,Technology,ADVE.ST,EQ,SE0006219473
+Mangold AB,Financials,MANG.ST,EQ,SE0001449380
+Nilorngruppen AB Class B,Industrials,NIL_B.ST,EQ,SE0007100342
+I-Tech AB,Materials,ITECH.ST,EQ,SE0011167725
+Infant Bacterial Therapeutics AB Class B,Health Care,IBT_B.ST,EQ,SE0008015259
+Arla Plast AB,Industrials,ARPL.ST,EQ,SE0015810817
+Done.ai Group AB,Technology,DONE.ST,EQ,SE0010546911
+BeammWave AB TEMP Class B,Industrials,BEAMMW_BTA_B.ST,EQ,SE0029076843
+BeammWave AB Class B,Industrials,BEAMMW_B.ST,EQ,SE0016799068
+Dicot Pharma AB,Health Care,DICOT.ST,EQ,SE0011178458
+Dicot Pharma AB Units Cons of 8 Shs + 2 Wts TO7 25.06.26,Health Care,DICOT_BTU.ST,EQ,SE0029051291
+LumenRadio AB,Industrials,LUMEN.ST,EQ,SE0019072158
+Alcadon Group AB,Industrials,ALCA.ST,EQ,SE0008732218
+Embellence Group AB,Materials,EMBELL.ST,EQ,SE0013888831
+ALM Equity AB Pref.shs,Financials,ALM_PREF.ST,EQ,SE0004109627
+ALM Equity AB,Financials,ALM.ST,EQ,SE0018741985
+SynAct Pharma AB,Health Care,SYNACT.ST,EQ,SE0008241491
+Kallebaeck Property Invest AB,Financials,KAPIAB.ST,EQ,SE0005704079
+SinterCast AB,Technology,SINT.ST,EQ,SE0000950982
+C.A.G Group AB,Technology,CAG.ST,EQ,SE0011923341
+Duroc AB Class B,Materials,DURC_B.ST,EQ,SE0000331266
+Nanexa AB,Health Care,NANEXA.ST,EQ,SE0007074166
+CDON AB,Consumer Discretionary,CDON.ST,EQ,SE0015191911
+Grangex AB,Materials,GRANGX.ST,EQ,SE0018014243
+EQL Pharma AB,Health Care,EQL.ST,EQ,SE0005497732
+Orexo AB,Health Care,ORX.ST,EQ,SE0000736415
+Xspray Pharma AB,Health Care,XSPRAY.ST,EQ,SE0009973563
+Pierce Group AB,Consumer Discretionary,PIERCE.ST,EQ,SE0015658364
+CombinedX AB,Industrials,CX.ST,EQ,SE0012065589
+ProfilGruppen AB Class B,Materials,PROF_B.ST,EQ,SE0000393860
+Case Group AB,Financials,CASE.ST,EQ,SE0017082514
+Actic Group AB,Consumer Discretionary,ATIC.ST,EQ,SE0009269467
+BIMobject AB,Technology,BIM.ST,EQ,SE0011644376
+Midsummer AB,Industrials,MIDS.ST,EQ,SE0011281757
+Oncopeptides AB,Health Care,ONCO.ST,EQ,SE0009414576
+Unibap Space Solutions AB,Technology,UNIBAP.ST,EQ,SE0009606809
+Senzime AB,Health Care,SEZI.ST,EQ,SE0002478776
+Adtraction Group AB,Technology,ADTR.ST,EQ,SE0016833149
+Nordisk Bergteknik AB Class B,Industrials,NORB_B.ST,EQ,SE0015812128
+Qben Infra AB,Consumer Discretionary,QBEN.ST,EQ,SE0023114012
+Terranor Group AB,Industrials,TERNOR.ST,EQ,SE0025159023
+GARO AB,Industrials,GARO.ST,EQ,SE0015812417
+Careium AB,Technology,CARE.ST,EQ,SE0017131824
+TagMaster AB Class B,Technology,TAGM_B.ST,EQ,SE0015950399
+HOMEMAID AB CLASS B,Industrials,HOME.B.ST,EQ,SE0001426131
+Qliro AB,Industrials,QLIRO.ST,EQ,SE0013719077
+Enzymatica AB,Health Care,ENZY.ST,EQ,SE0003943620
+HAKI Safety AB Class B,Consumer Discretionary,HAKI_B.ST,EQ,SE0000122673
+HAKI Safety AB Class A,Consumer Discretionary,HAKI_A.ST,EQ,SE0000122657
+MäLARDALENS OMSORGSFASTIGHETER,Financials,MOFAST.ST,EQ,SE0012596120
+InfraCom Group AB,Technology,INFRA.ST,EQ,SE0010414573
+AlzeCure Pharma AB,Health Care,ALZCUR.ST,EQ,SE0010133785
+Skane-moellan AB,Materials,SKMO.ST,EQ,SE0017885338
+Cedergrenska AB,Industrials,CEDER.ST,EQ,SE0015949946
+Skolon AB,Technology,SKOLON.ST,EQ,SE0017615784
+Rottneros AB,Materials,RROS.ST,EQ,SE0000112252
+Novotek AB Class B,Technology,NTEK_B.ST,EQ,SE0000567752
+Concejo AB Class B,Technology,CNCJO_B.ST,EQ,SE0000236382
+Gapwaves AB Class B,Technology,GAPW_B.ST,EQ,SE0009155518
+Cinclus Pharma Holding AB,Health Care,CINPHA.ST,EQ,SE0020388577
+Sensys Gatso Group AB,Technology,SGG.ST,EQ,SE0020356244
+Bactiguard Holding AB,Health Care,BACTI_B.ST,EQ,SE0005878741
+Envar Holding AB,Technology,ENVAR.ST,EQ,SE0023134895
+Nimbus Group AB,Consumer Discretionary,BOAT.ST,EQ,SE0015407390
+Pricer AB Class B,Technology,PRIC_B.ST,EQ,SE0000233934
+Tobii AB,Technology,TOBII.ST,EQ,SE0002591420
+Titania Holding AB Class B,Consumer Discretionary,TITA_B.ST,EQ,SE0017132129
+Cantargia AB,Health Care,CANTA.ST,EQ,SE0006371126
+Boho Group AB (publ) SEK 0.96 Cum Pref Registered Shs,Financials,BOHO_PREF.ST,EQ,SE0009697212
+Boho Group AB (publ),Financials,BOHO.ST,EQ,SE0009697204
+BE Group AB,Industrials,BEGR.ST,EQ,SE0008321921
+Qualisys Holding AB,Consumer Discretionary,QSYS.ST,EQ,SE0023837091
+G5 Entertainment AB,Technology,G5EN.ST,EQ,SE0001824004
+Doxa AB,Health Care,DOXA.ST,EQ,SE0005624756
+SciBase Holding AB,Health Care,SCIB.ST,EQ,SE0029277631
+Seafire AB,Industrials,SEAF.ST,EQ,SE0009779796
+SMOLTEK NANOTECH HOLDING AB,Technology,SMOL.ST,EQ,SE0010820381
+Sleep Cycle AB,Technology,SLEEP.ST,EQ,SE0015961404
+Sibek AB,Industrials,SIBEK.ST,EQ,SE0020050359
+Botnia Gold AB,Materials,BOTX.ST,EQ,SE0010494708
+Obducat AB Pref Registered Shs B,Technology,OBDU.PREF.B.ST,EQ,SE0009357536
+Obducat AB Class B,Technology,OBDU.B.ST,EQ,SE0000514705
+ZENITH ENERGY LTD SHS SWEDISH DEPOSITORY RECEIPT REPR 1 SH,Energy,ZENA.SDR.ST,EQ,SE0025938210
+Episurf Medical AB Class B,Health Care,EPIS_B.ST,EQ,SE0003491562
+Oneflow AB,Technology,ONEF.ST,EQ,SE0017564461
+Moberg Pharma AB,Health Care,MOB.ST,EQ,SE0020353928
+Opter AB,Technology,OPTER.ST,EQ,SE0016829501
+Premium Snacks Nordic AB,Consumer Staples,SNX.ST,EQ,SE0006260865
+Generic Sweden AB,Communication Services,GENI.ST,EQ,SE0001790791
+Navigo Invest AB SEK 9.50 Cum Pref Registered Shs,Industrials,NAVIGO_PREF.ST,EQ,SE0007100540
+Navigo Invest AB,Industrials,NAVIGO_STAM.ST,EQ,SE0007100532
+Corline Biomedical AB,Health Care,CLBIO.ST,EQ,SE0006887451
+Intervacc AB,Health Care,IVACC.ST,EQ,SE0009607252
+OssDsign AB,Health Care,OSSD.ST,EQ,SE0012570448
+mySafety Group AB Class B,Technology,SAFETY_B.ST,EQ,SE0010769182
+White Pearl Technology Group AB,Technology,WPTG_B.ST,EQ,SE0020203271
+Impact Coatings AB,Industrials,IMPC.ST,EQ,SE0001279142
+Dedicare AB,Consumer Discretionary,DEDI.ST,EQ,SE0003909282
+Wall to Wall Group AB Class A,Industrials,WTW_A.ST,EQ,SE0016075246
+Solnaberg Property AB,Financials,SOLNA.ST,EQ,SE0009155211
+Bonasudden Holding AB,Financials,BONAS.ST,EQ,SE0007157953
+Eniro Group AB Class A,Industrials,ENRO.ST,EQ,SE0011256312
+Freja eID Group AB,Industrials,FREJA.ST,EQ,SE0015950308
+Hilbert Group AB Class B,Technology,HILB_B.ST,EQ,SE0016278154
+H100 Group AB,Technology,H100.ST,EQ,SE0009580756
+Acuvi AB,Industrials,ACUVI.ST,EQ,SE0017833171
+Meds Apotek AB,Consumer Discretionary,MEDS.ST,EQ,SE0018014110
+Fractal Gaming Group AB,Technology,FRACTL.ST,EQ,SE0015504477
+AMHULT 2 AB CLASS B,Consumer Discretionary,AMH2.B.ST,EQ,SE0001356932
+Upsales Technology AB,Technology,UPSALE.ST,EQ,SE0011985514
+Infrea AB,Industrials,INFREA.ST,EQ,SE0010600106
+Brock Milton Capital AB,Financials,BMC.ST,EQ,SE0022757860
+Sprint Bioscience AB,Health Care,SPRINT.ST,EQ,SE0006343745
+NAXS AB,Financials,NAXS.ST,EQ,SE0001965369
+TradeDoubler AB,Industrials,TRAD.ST,EQ,SE0001552357
+Ascelia Pharma AB,Health Care,ACE.ST,EQ,SE0010573113
+BIO-WORKS TECHNOLOGIES AB,Health Care,BIOWKS.ST,EQ,SE0007387089
+Waystream Group AB,Technology,WAYS.ST,EQ,SE0007577077
+SUSTAINION GROUP AB,Technology,SUSG.ST,EQ,SE0002067421
+Candles Scandinavia AB Class B,Industrials,CANDLE_B.ST,EQ,SE0016797773
+Mentice AB,Health Care,MNTC.ST,EQ,SE0012673291
+FLEMING PROPERTIES AB,Financials,FLMNG.ST,EQ,SE0013042561
+Ortoma AB Class B,Health Care,ORT_B.ST,EQ,SE0005676103
+Acrinova AB Class A,Financials,ACRI_A.ST,EQ,SE0015660014
+Acrinova AB Class B,Financials,ACRI_B.ST,EQ,SE0015660030
+Observit AB,Technology,OBSE.ST,EQ,SE0017911704
+K2A Knaust & Andersson Fastigheter AB Class B,Financials,K2A_B.ST,EQ,SE0010520254
+Q-linea AB,Health Care,QLINEA.ST,EQ,SE0025420714
+Balco Group AB,Consumer Discretionary,BALCO.ST,EQ,SE0010323998
+Wastbygg Gruppen AB Class B,Industrials,WBGR_B.ST,EQ,SE0014453874
+Nexam Chemical Holding AB,Materials,NEXAM.ST,EQ,SE0005101003
+Profoto Holding AB,Consumer Discretionary,PRFO.ST,EQ,SE0015962147
+Athanase Innovation AB,Consumer Staples,ATIN.ST,EQ,SE0018014060
+KebNi AB Class B,Technology,KEBNI_B.ST,EQ,SE0012904803
+FlexQube AB,Industrials,FLEXQ.ST,EQ,SE0010547075
+AVTECH Sweden AB,Technology,AVT_B.ST,EQ,SE0004270445
+Bluelake Mineral AB,Materials,BLUE.ST,EQ,SE0015382148
+Agtira AB Class B,Materials,AGTIRA_B.ST,EQ,SE0008588354
+QleanAir AB,Industrials,QAIR.ST,EQ,SE0013382066
+Mendus AB,Health Care,IMMU.ST,EQ,SE0022239950
+Ferroamp AB,Industrials,FERRO.ST,EQ,SE0012229920
+Maven Wireless Sweden AB,Technology,MAVEN.ST,EQ,SE0015961180
+Scandinavian Enviro Systems AB,Materials,SES.ST,EQ,SE0005877560
+Tingsvalvet Fastighets AB Class B,Financials,TINGS_B.ST,EQ,SE0018534497
+Tingsvalvet Fastighets AB Class A,Financials,TINGS_A.ST,EQ,SE0018534471
+K33 AB,Technology,K33.ST,EQ,SE0007614722
+Minesto AB,Utilities,MINEST.ST,EQ,SE0007578141
+Real Fastigheter AB Class B,Financials,REAL.ST,EQ,SE0020679025
+KRONA PUBLIC REAL ESTATE AB,Financials,KRONA.ST,EQ,SE0015657895
+Online Brands Nordic AB,Consumer Discretionary,OBAB.ST,EQ,SE0017133838
+Avensia AB,Consumer Discretionary,AVEN.ST,EQ,SE0000671745
+Malmbergs Elektriska AB Class B,Industrials,MEAB_B.ST,EQ,SE0000507659
+Acarix AB,Health Care,ACARIX.ST,EQ,SE0009268717
+Garpco AB,Financials,GARPCO.B.ST,EQ,SE0001823352
+PRESERVIUM PROPERTY AB,Financials,PRESRV.ST,EQ,SE0016829790
+BrainCool AB,Health Care,BRAIN.ST,EQ,SE0005731833
+Byhmgard AB,Technology,BESS.ST,EQ,SE0023849583
+Latvian Forest Co. AB Class B,Materials,LATF.B.ST,EQ,SE0003883008
+Nordic Iron Ore AB,Materials,NIO.ST,EQ,SE0011528017
+SolTech Energy Sweden AB,Technology,SOLT.ST,EQ,SE0005392537
+4C Group AB,Industrials,4C.ST,EQ,SE0017936891
+Terranet AB Class B,Technology,TERRNT_B.ST,EQ,SE0009806045
+Elon AB,Consumer Discretionary,ELON.ST,EQ,SE0001572520
+Ogunsen AB Class B,Industrials,OGUN_B.ST,EQ,SE0008406151
+Metacon AB,Industrials,META.ST,EQ,SE0003086214
+Arctic Minerals AB,Materials,ARCT.ST,EQ,SE0024172779
+Unlimited Travel Group AB,Consumer Discretionary,UTG.ST,EQ,SE0001834821
+AGES Industri AB,Industrials,AGES_B.ST,EQ,SE0005799046
+PION Group AB Class B,Industrials,PION_B.ST,EQ,SE0000567539
+ContextVision AB,Technology,CONTXO.ST,EQ,SE0014731154
+Freemelt Holding AB,Industrials,FREEM.ST,EQ,SE0011167170
+Nord Insuretech Group AB,Technology,NORDIG.ST,EQ,SE0013486255
+Neovici Holding AB Class B,Technology,NEO_B.ST,EQ,SE0016830038
+Binero Group AB,Technology,BINERO.ST,EQ,SE0005249570
+TURA GROUP AB,Consumer Discretionary,TURA.ST,EQ,SE0017083355
+Enrad AB,Industrials,ENRAD.ST,EQ,SE0009994858
+Eurobattery Minerals AB,Materials,BAT.ST,EQ,SE0012481570
+Alpcot Holding AB Class B,Financials,ALPCOT_B.ST,EQ,SE0016845655
+ScandBook Holding AB,Consumer Discretionary,SBOK.ST,EQ,SE0003175660
+Nodebis Applications AB,Technology,NODE.ST,EQ,SE0020846392
+Litium AB,Technology,LITI.ST,EQ,SE0007387246
+SeaTwirl AB,Utilities,STW.ST,EQ,SE0009242175
+Isofol Medical AB,Health Care,ISOFOL.ST,EQ,SE0009581051
+Lammhults Design Group AB Class B,Industrials,LAMM_B.ST,EQ,SE0000386138
+Xbrane Biopharma AB,Health Care,XBRANE.ST,EQ,SE0026598583
+Integrum AB Class B,Health Care,INTEG_B.ST,EQ,SE0009807266
+Medclair AB,Health Care,MCLR.ST,EQ,SE0009190572
+Hultstrom Group AB(publ) Class B,Industrials,HULT_B.ST,EQ,SE0000483943
+Vetted Assets AB (publ),Consumer Discretionary,VETT.ST,EQ,SE0021021656
+Lyckegard Group AB,Industrials,LYGRD.ST,EQ,SE0017160575
+B3 Consulting Group AB,Technology,B3.ST,EQ,SE0008347660
+Bambuser AB,Technology,BUSER.ST,EQ,SE0027099326
+OptiCept Technologies AB,Industrials,OPTI.ST,EQ,SE0005881786
+Crunchfish AB,Technology,CFISH.ST,EQ,SE0009190192
+Link Prop Investment AB,Financials,LINKAB.ST,EQ,SE0006993804
+Codemill AB,Technology,CDMIL.ST,EQ,SE0013914819
+MICROPOS MEDICAL AB TEMP,Health Care,MPOS.BTA.ST,EQ,SE0028778183
+MICROPOS MEDICAL AB,Health Care,MPOS.ST,EQ,SE0002834507
+Transtema Group AB,Technology,TRANS.ST,EQ,SE0006758587
+Transtema Group AB TEMP,Technology,TRANS_BTA.ST,EQ,SE0028450569
+DEXTECH MEDICAL AB,Health Care,DEX.ST,EQ,SE0005881489
+Polygiene Group AB,Materials,POLYG.ST,EQ,SE0007692157
+Promimic AB,Health Care,PRO.ST,EQ,SE0017487242
+Klaria Pharma Holding AB,Health Care,KLAR.ST,EQ,SE0007280326
+Teneo AI AB Class B,Technology,TENEO.ST,EQ,SE0018397184
+InCoax Networks AB,Technology,INCOAX.ST,EQ,SE0009832595
+OXE Marine AB,Industrials,OXE.ST,EQ,SE0009888613
+Elicera Therapeutics AB,Health Care,ELIC.ST,EQ,SE0015382080
+ENVIROLOGIC AB,Industrials,ENVI.B.ST,EQ,SE0005704095
+Vuxen Group AB,Consumer Discretionary,VUXEN.ST,EQ,SE0017232838
+Crown Energy AB,Financials,CRWN.ST,EQ,SE0004210854
+MAG Interactive AB,Technology,MAGI.ST,EQ,SE0010520908
+Scandinavian Real Heart AB,Health Care,HEART.ST,EQ,SE0023286836
+BPC INSTRUMENTS AB,Technology,BPCINS.ST,EQ,SE0017130826
+SenzaGen AB,Health Care,SENZA.ST,EQ,SE0010219626
+Coeli Fastighet II AB Pref Registered Shs -P2-,Financials,CF2.PREF.P2.ST,EQ,SE0012012672
+KDventures AB Class B,Financials,KDV_B.ST,EQ,SE0002190926
+Acroud AB,Technology,ACROUD.ST,EQ,SE0001863291
+Modelon AB,Industrials,MODEL.ST,EQ,SE0023112438
+New Bubbleroom Sweden AB,Consumer Discretionary,BBROOM.ST,EQ,SE0016288476
+Nanologica AB,Health Care,NICA.ST,EQ,SE0005454873
+FABLE MEDIA GROUP AB,Consumer Discretionary,FABLE.ST,EQ,SE0018013922
+High Coast Distillery AB Class B,Consumer Staples,HIGHCO_B.ST,EQ,SE0003848613
+iZafe Group AB,Industrials,IZAFE_B.ST,EQ,SE0003656834
+IRLAB Therapeutics AB Class A,Health Care,IRLAB_A.ST,EQ,SE0012675361
+Precio Fishbone AB Class B,Technology,PRCO_B.ST,EQ,SE0000141137
+Wyld Networks AB TEMP,Technology,WYLD_BTA.ST,EQ,SE0028900696
+Wyld Networks AB,Technology,WYLD.ST,EQ,SE0027099078
+Xintela AB,Health Care,XINT.ST,EQ,SE0007756903
+EMB Mission Bound AB (publ),Technology,EMB.ST,EQ,SE0015797873
+Climeon AB Class B,Industrials,CLIME_B.ST,EQ,SE0023837182
+Front Ventures AB Class B,Industrials,FRNT.B.ST,EQ,SE0005337920
+Triona AB,Industrials,TRIONA.ST,EQ,SE0001321761
+Netel Holding AB,Industrials,NETEL.ST,EQ,SE0016798417
+TCECUR Sweden AB,Industrials,TCC.A.ST,EQ,SE0014965604
+OPSY HOLDING AB,Technology,OPSYH.ST,EQ,SE0025399199
+Drillcon AB,Materials,DRIL.ST,EQ,SE0001770702
+Norditek Group AB,Industrials,NOTEK.ST,EQ,SE0016843486
+SOLUTION INTERNATIONAL NORDICS AB,Industrials,SIN.ST,EQ,SE0020541589
+Active Biotech AB,Health Care,ACTI.ST,EQ,SE0029278555
+XER TECH HOLDING AB,Technology,XER.ST,EQ,SE0017768658
+Ortivus AB Class A,Technology,ORTI_A.ST,EQ,SE0000188930
+Ortivus AB Class B,Technology,ORTI_B.ST,EQ,SE0000123085
+Prolight Diagnostics AB,Health Care,PRLD.ST,EQ,SE0027099656
+EmbeddedArt Group AB,Technology,EMART.ST,EQ,SE0021924719
+Nepa AB,Technology,NEPA.ST,EQ,SE0008066302
+DistIT AB,Technology,DIST.ST,EQ,SE0003883800
+Starbreeze AB,Technology,STAR_B.ST,EQ,SE0005992831
+Starbreeze AB Class A,Technology,STAR_A.ST,EQ,SE0007158928
+Diamyd Medical AB Class B,Health Care,DMYD_B.ST,EQ,SE0005162880
+Nowonomics AB,Technology,NOWO.ST,EQ,SE0015660840
+Havsfrun Investment AB Class B,Financials,HAV_B.ST,EQ,SE0000312043
+Seamless Distribution Systems AB,Industrials,SDS.ST,EQ,SE0009994445
+ACUCORT AB,Health Care,ACUC.ST,EQ,SE0009695927
+Safeture AB,Technology,SFTR.ST,EQ,SE0006117297
+ABERA BIOSCIENCE AB,Health Care,ABERA.ST,EQ,SE0015245097
+Moment Group AB,Consumer Discretionary,MOMENT.ST,EQ,SE0020388932
+Anoto Group AB,Technology,ANOT.ST,EQ,SE0010415281
+Greater Than AB,Materials,GREAT.ST,EQ,SE0005881554
+Nosa Plugs AB,Technology,NOSA.ST,EQ,SE0006994539
+Frontwalker AB Class B,Industrials,FRWA.B.ST,EQ,SE0003088541
+Bong AB,Materials,BONG.ST,EQ,SE0000396061
+OODA AI AB (publ),Financials,OODA.ST,EQ,SE0020699296
+Effnetplattformen Holding AB,Technology,EFFH.ST,EQ,SE0015987565
+Wise Group AB,Industrials,WISE.ST,EQ,SE0007277876
+Boule Diagnostics AB,Health Care,BOUL.ST,EQ,SE0011231158
+AQUATICUS REAL ESTATE AB,Financials,AQUAT.ST,EQ,SE0015244132
+VIMAB Group AB,Industrials,VIMAB.ST,EQ,SE0007439633
+Gigasun AB,Utilities,GIGA.ST,EQ,SE0016101521
+AIXIA GROUP AB CLASS B,Technology,AIXIA.B.ST,EQ,SE0010636837
+ES Group AB (publ) Class B,Industrials,ESGR_B.ST,EQ,SE0014428447
+Precise Biometrics AB,Technology,PREC.ST,EQ,SE0018013849
+Simris Group AB Class B,Health Care,SIMRIS_B.ST,EQ,SE0008091664
+Klimator AB,Technology,KLIMAT.ST,EQ,SE0014401329
+Soder Sportfiske AB,Consumer Discretionary,SODER.ST,EQ,SE0016276539
+Vo2 Cap Holding AB,Industrials,VO2.ST,EQ,SE0016802797
+GULLBERG & JANSSON,Industrials,GJAB.ST,EQ,SE0004576346
+Tellusgruppen AB,Consumer Discretionary,TELLUS.ST,EQ,SE0015504519
+Glycorex Transplantation AB Class B,Health Care,GTAB.B.ST,EQ,SE0000524530
+Westpay AB,Technology,WPAY.ST,EQ,SE0002169292
+Arcoma AB,Health Care,ARCOMA.ST,EQ,SE0006219176
+Immunovia AB,Health Care,IMMNOV.ST,EQ,SE0006091997
+Tempest Security AB,Industrials,TSEC.ST,EQ,SE0010469221
+Serstech AB,Technology,SERT.ST,EQ,SE0005365095
+Irisity AB,Technology,IRIS.ST,EQ,SE0005365681
+NextCell Pharma AB,Health Care,NXTCL.ST,EQ,SE0009723125
+Bioextrax AB,Health Care,BIOEX.ST,EQ,SE0016276752
+eEducation Albert AB,Technology,ALBERT.ST,EQ,SE0016797989
+Stockwik Forvaltning AB,Industrials,STWK.ST,EQ,SE0012257970
+OncoZenge AB,Health Care,ONCOZ.ST,EQ,SE0015504097
+Clinical Laserthermia Systems AB Class B,Health Care,CLS_B.ST,EQ,SE0022049920
+BIBBINSTRUMENTS AB,Health Care,BIBB.ST,EQ,SE0010102095
+TRANSFERATOR AB CLASS B,Financials,TRAN.B.ST,EQ,SE0017911241
+TRANSFERATOR AB CLASS A,Financials,TRAN.A.ST,EQ,SE0017911233
+Annexin Pharmaceuticals AB,Health Care,ANNX.ST,EQ,SE0025159387
+B TREASURY CAPITAL AB CLASS B,Financials,BTC.B.ST,EQ,SE0025198542
+DevPort AB Class B,Technology,DEVP_B.ST,EQ,SE0010546622
+IDL Diagnostics AB,Health Care,IDLDX.ST,EQ,SE0003883990
+Neola Medical AB,Health Care,NEOLA.ST,EQ,SE0014829255
+Bawat Water Technologies AB,Industrials,BAWAT.ST,EQ,SE0017487424
+Guideline Geo AB,Industrials,GGEO.ST,EQ,SE0005562014
+Gaming Corps AB,Technology,GCOR.ST,EQ,SE0014694691
+SaveLend Group AB,Financials,YIELD.ST,EQ,SE0015961024
+Biovica International AB Class B,Health Care,BIOVIC_B.ST,EQ,SE0008613731
+Clemondo Group AB,Consumer Staples,CLEM.ST,EQ,SE0023468400
+SPOTLIGHT GROUP AB,Financials,SPGR.ST,EQ,SE0014704763
+AMIDO AB,Technology,AMIDO.ST,EQ,SE0013042108
+Spago Nanomedical AB,Health Care,SPAGO.ST,EQ,SE0004899474
+Checkin.com Group AB,Technology,CHECK.ST,EQ,SE0015810502
+Vivesto AB,Health Care,VIVE.ST,EQ,SE0028925701
+Alligator Bioscience AB,Health Care,ATORX.ST,EQ,SE0024173637
+SUNTRADE GROUP AB CLASS B,Energy,STRD.B.ST,EQ,SE0001075102
+Axolot Solutions Holding AB,Industrials,AXOLOT.ST,EQ,SE0009414303
+Mediacle Group AB,Technology,MEGR.ST,EQ,SE0007705074
+Subgen AI AB,Health Care,SUBGEN.ST,EQ,SE0026820854
+Iconovo AB,Health Care,ICO.ST,EQ,SE0010868943
+Coegin Pharma AB,Health Care,COEGIN.ST,EQ,SE0020357754
+Scandinavian ChemoTech AB Class B,Health Care,CMOTEC_B.ST,EQ,SE0009242654
+AcouSort AB,Industrials,ACOU.ST,EQ,SE0009189608
+Saxlund Group AB,Industrials,SAXG.ST,EQ,SE0023439500
+aXichem AB Class A,Materials,AXIC_A.ST,EQ,SE0005250719
+Lohilo Foods AB,Consumer Staples,LOHILO.ST,EQ,SE0014262549
+Kentima Holding AB Class B,Technology,KENH.ST,EQ,SE0005100757
+Desenio Group AB,Consumer Discretionary,DSNO.ST,EQ,SE0015657853
+New Nordic Healthbrands AB,Health Care,NNH.ST,EQ,SE0001838038
+USWE Sports AB,Consumer Discretionary,USWE.ST,EQ,SE0015949771
+MRESELL HOLDING AB,Consumer Discretionary,MRSELL.ST,EQ,SE0023261623
+Image Systems AB,Technology,IS.ST,EQ,SE0006421871
+Webrock Ventures AB,Financials,WRV.ST,EQ,SE0016278139
+CHOSA ONCOLOGY AB,Industrials,CHOSA.ST,EQ,SE0007784319
+ABSOLICON SOLAR COLLECTOR AB CLASS B,Industrials,ABSL.B.ST,EQ,SE0018396947
+Aktiebolaget Fastator,Financials,FASTAT.ST,EQ,SE0015407382
+Alzinova AB,Health Care,ALZ.ST,EQ,SE0007413455
+ChargePanel AB,Consumer Discretionary,CHARGE.ST,EQ,SE0017083835
+Flowscape Technology AB,Technology,FLOWS.ST,EQ,SE0018042046
+REDSENSE MEDICAL AB,Health Care,REDS.ST,EQ,SE0006965158
+Nordic LEVEL Group AB Class B,Consumer Discretionary,LEVEL.ST,EQ,SE0012313302
+AB IGRENE,Energy,ABI.ST,EQ,SE0006091476
+Sweden BuyersClub AB,Consumer Discretionary,BUY.ST,EQ,SE0015660287
+BEOWULF MINING PLC SHS SWEDISH DEPOSITORY RECEIPT,Materials,BEO.SDB.ST,EQ,SE0022240073
+Gasporox AB,Industrials,GPX.ST,EQ,SE0008991624
+First Venture Sweden AB Class B,Financials,FIRST_B.ST,EQ,SE0016075451
+SYNTHETICMR AB,Health Care,SYNT.ST,EQ,SE0015987946
+PILA PHARMA AB,Health Care,PILA.ST,EQ,SE0015988274
+SpectrumOne AB,Technology,SPEONE.ST,EQ,SE0006994448
+Tribox Group AB Class B,Materials,TRIBO_B.ST,EQ,SE0010600429
+Realfiction Holding AB,Technology,REALFI.ST,EQ,SE0009920994
+Cell Impact AB,Industrials,CI.ST,EQ,SE0025940513
+Tourn International AB,Industrials,TOURN.ST,EQ,SE0005568482
+NGS Group AB,Industrials,NGS.ST,EQ,SE0009947708
+JonDeTech Sensors AB,Technology,JDT.ST,EQ,SE0022240115
+SOUND DIMENSION AB,Technology,SOUND.ST,EQ,SE0016589063
+Nordic Flanges Group AB,Industrials,NFGAB.ST,EQ,SE0023641311
+BoMill AB,Technology,BOMILL.ST,EQ,SE0014583332
+Mahvie Minerals AB,Materials,MAHVIE.ST,EQ,SE0018768210
+Qlife Holding AB,Health Care,QLIFE.ST,EQ,SE0022574331
+Synexo Group AB,Technology,SYNEXO.ST,EQ,SE0000619371
+Safello Group AB,Financials,SFL.ST,EQ,SE0015346895
+TOUCHTECH AB,Technology,TOUCH.ST,EQ,SE0010414482
+BrightBid Group AB,Technology,BRIGHT.ST,EQ,SE0017937279
+QBNK HOLDING AB,Technology,QBNK.ST,EQ,SE0007278726
+CirChem AB,Materials,CIRCHE.ST,EQ,SE0015193529
+ODI PHARMA AB,Health Care,ODI.ST,EQ,SE0013409760
+BEYOND FRAMES ENTERTAINMENT AB,Technology,BEYOND.ST,EQ,SE0011614965
+XP Chemistries AB,Industrials,XPC.ST,EQ,SE0016787279
+Modus Therapeutics Holding AB,Health Care,MODTX.ST,EQ,SE0015987904
+Fluicell AB,Health Care,FLUI.ST,EQ,SE0023595459
+JLT Mobile Computers AB,Technology,JLT.ST,EQ,SE0000725624
+Brilliant Future AB,Technology,BRILL.ST,EQ,SE0015811625
+Hexicon AB,Industrials,HEXI.ST,EQ,SE0004898799
+Heliospectra AB,Industrials,HELIO.ST,EQ,SE0005933082
+2cureX AB,Health Care,2CUREX.ST,EQ,SE0010468124
+Fingerprint Cards AB Class B,Technology,FING_B.ST,EQ,SE0026141665
+AEROWASH AB CLASS B,Industrials,AERW.B.ST,EQ,SE0009346299
+LifeClean International AB,Industrials,LCLEAN.ST,EQ,SE0014829271
+Magle Chemoswed Holding AB,Health Care,MAGLE.ST,EQ,SE0014401014
+KATALYSEN VENTURES AB,Financials,KAV.ST,EQ,SE0016798045
+Svenska Aerogel Holding AB,Industrials,AERO.ST,EQ,SE0023440557
+Maximum Entertainment AB Class B,Technology,MAXENT_B.ST,EQ,SE0011725506
+ScandiDos AB,Technology,SDOS.ST,EQ,SE0005768124
+XMReality AB,Technology,XMR.ST,EQ,SE0009664188
+WONDERFUL TIMES GROUP AB,Consumer Discretionary,WTG.ST,EQ,SE0006028577
+KONTIGO CARE AB,Health Care,KONT.ST,EQ,SE0007075247
+Compodium International AB,Technology,COMPDM.ST,EQ,SE0022088233
+GOMERO GROUP AB,Industrials,GOMERO.ST,EQ,SE0011167535
+LOVISAGRUVAN AB,Materials,LOVI.ST,EQ,SE0000418873
+SLOTTSVIKEN FASTIGHETSAKTIEBOLAG CLASS B,Financials,SLOTT.B.ST,EQ,SE0018012411
+Fragbite Group AB,Technology,FRAG.ST,EQ,SE0023287347
+Collaxio AB (publ) Class B,Financials,COLLAX.ST,EQ,SE0016609333
+Larkberget AB,Health Care,LARK.ST,EQ,SE0016101935
+OrganoClick AB,Materials,ORGC.ST,EQ,SE0006510335
+AIK Fotboll AB Class B,Consumer Discretionary,AIK.B.ST,EQ,SE0000598278
+Sonetel AB,Communication Services,SONE.ST,EQ,SE0009580517
+Cardeon AB,Financials,CARDEO.ST,EQ,SE0020050896
+Dlaboratory Sweden AB,Technology,DLAB.ST,EQ,SE0015658380
+HUNTER CAPITAL AB,Consumer Discretionary,HUNTER.ST,EQ,SE0022087649
+FSport AB,Technology,FSPORT.ST,EQ,SE0016288641
+POLARCOOL AB,Health Care,POLAR.ST,EQ,SE0023467162
+Thinc Collective AB,Technology,THINC.ST,EQ,SE0020358281
+M.O.B.A. Network AB,Technology,MOBA.ST,EQ,SE0016277909
+Star Vault AB Class B,Technology,STVA.B.ST,EQ,SE0002149369
+PEXA AB CLASS B,Health Care,PEXA.B.ST,EQ,SE0007412374
+ECORUB AB CLASS B,Industrials,ECO.B.ST,EQ,SE0003273531
+ExpreS2ion Biotech Holding AB,Health Care,EXPRS2.ST,EQ,SE0023261292
+Luxbright AB TEMP,Health Care,LXB_BTU.ST,EQ,SE0028501312
+Luxbright AB,Health Care,LXB.ST,EQ,SE0015192075
+VIDHANCE AB,Technology,VIDH.ST,EQ,SE0021309937
+MIRIS HOLDING AB,Technology,MIR.ST,EQ,SE0026821373
+BIOFRIGAS SWEDEN AB,Energy,BIOF.ST,EQ,SE0014262887
+BIOFRIGAS SWEDEN AB TEMP,Energy,BIOF.BTU.ST,EQ,SE0028900258
+Kakel Max AB,Consumer Discretionary,KAKEL.ST,EQ,SE0009921075
+Precomp Solutions AB Class B,Industrials,PCOM_B.ST,EQ,SE0006091724
+Perpetua Medical AB Class B,Technology,PERP_B.ST,EQ,SE0022726311
+SPERMOSENS AB,Health Care,SPERM.ST,EQ,SE0015346424
+SAFE AT SEA AB,Health Care,SAFE.ST,EQ,SE0005308632
+ZOOMABILITY INT AB,Industrials,ZOOM.ST,EQ,SE0012740074
+UMIDA GROUP AB CLASS B,Consumer Staples,UMIDA.B.ST,EQ,SE0009190788
+Zaplox AB,Technology,ZAPLOX.ST,EQ,SE0020354389
+Guard Therapeutics International AB,Health Care,GUARD.ST,EQ,SE0021181559
+VIBROSENSE DYNAMICS AB CLASS B,Health Care,VSD.B.ST,EQ,SE0006852125
+MONIVENT AB,Health Care,MONI.ST,EQ,SE0013512282
+NOVUS GROUP INTERNATIONAL AB,Industrials,NOVU.ST,EQ,SE0001989260
+Holdflight AB,Technology,HOLDFL.ST,EQ,SE0007525738
+SJöSTRAND COFFEE B,Consumer Staples,SCC.B.ST,EQ,SE0025399835
+FINEPART SWEDEN AB,Industrials,FINE.ST,EQ,SE0009189442
+SpectraCure AB,Technology,SPEC.ST,EQ,SE0007158118
+SARSYS AB,Technology,SARS.ST,EQ,SE0009320294
+Jumpgate AB,Technology,GATE.ST,EQ,SE0023113154
+Goodbye Kansas Group AB,Technology,GBK.ST,EQ,SE0021627353
+ZENICOR MEDICAL SYSTEMS AB,Technology,ZENI.ST,EQ,SE0006343984
+Valuno Group AB,Technology,VALUNO.ST,EQ,SE0010662585
+Niutech Group AB,Technology,NIUTEC.ST,EQ,SE0016609911
+Divio Technologies AB Class B,Technology,DIVIO_B.ST,EQ,SE0011311554
+LightAir AB,Industrials,LAIR.ST,EQ,SE0022239133
+Prostatype Genomics AB,Health Care,PROGEN.ST,EQ,SE0023261532
+Enorama Pharma AB,Health Care,ERMA.ST,EQ,SE0008216329
+DOUBLE BOND PHARMACEUTICAL INTERNATIONAL AB CLASS B,Health Care,DBP.B.ST,EQ,SE0007185525
+Nicoccino Holding AB,Consumer Staples,NICO.ST,EQ,SE0005506185
+EASYFILL AB CLASS B,Industrials,EASY.B.ST,EQ,SE0002039222
+NanoCap Group AB,Financials,NANOC_B.ST,EQ,SE0004020931
+PREBONA AB,Consumer Staples,PREBON.ST,EQ,SE0007692884
+Preservia Hyresfastigheter AB Class B,Financials,PHYR.B.ST,EQ,SE0013147113
+Preservia Hyresfastigheter AB Pref Registered Shs,Financials,PHYR.PREF.ST,EQ,SE0009973365
+APTAHEM AB,Health Care,APTA.ST,EQ,SE0022447173
+StoneBeach Group AB,Technology,SBG.ST,EQ,SE0014829495
+Diadrom Holding AB,Technology,DIAH.ST,EQ,SE0001606906
+Aino Health AB,Industrials,AINO.ST,EQ,SE0009242555
+Nexar Group AB,Consumer Discretionary,NXAR.ST,EQ,SE0018219826
+Acenta Group AB,Technology,PADEL.ST,EQ,SE0024173728
+MOVEBYBIKE EUROPE AB,Industrials,MBBAB.ST,EQ,SE0015988100
+LIGHTNING GROUP AB,Technology,LIGR.ST,EQ,SE0007980362
+Hybricon AB,Consumer Discretionary,HYCO.ST,EQ,SE0015345897
+VAXXA AB,Consumer Discretionary,VAXXA.ST,EQ,SE0021629953
+EDYOUTEC AB,Technology,EDYOU.ST,EQ,SE0015811377
+Qiiwi Games AB,Technology,QIIWI.ST,EQ,SE0010245373
+Transiro Holding AB,Technology,TIRO.ST,EQ,SE0009242027
+Ranplan Group AB,Technology,RPLAN.ST,EQ,SE0011178201
+Gabather AB,Health Care,GABA.ST,EQ,SE0010869552
+NFO DRIVES AB,Industrials,NFO.ST,EQ,SE0015193800
+OURLIVING AB,Technology,OURLIV.ST,EQ,SE0009606593
+INVENT MEDIC SWEDEN AB,Health Care,IMS.ST,EQ,SE0007603402
+Adverty AB,Technology,ADVT.ST,EQ,SE0011724889
+Mantex AB,Technology,MANTEX.ST,EQ,SE0023467451
+EXALT AB,Technology,EXALT.ST,EQ,SE0005223542
+RESPIRATORIUS AB,Health Care,RESP.ST,EQ,SE0023314315
+Trainimal AB,Industrials,TRML.ST,EQ,SE0011528082
+Avsalt Group AB,Technology,AVSALT.ST,EQ,SE0022242681
+Biosergen AB,Health Care,BIOSGN.ST,EQ,SE0026821852
+Gold Town Games AB,Technology,GTG.ST,EQ,SE0026876179
+Hedera Group AB,Industrials,HEGR.ST,EQ,SE0007815113
+Goobit Group AB,Industrials,BTCX.ST,EQ,SE0015837752
+HOODIN AB,Technology,HOODIN.ST,EQ,SE0011415249
+Level Bio AB,Industrials,LEVBIO.ST,EQ,SE0000885501
+Ortelius International AB (publ),Consumer Discretionary,ORTIN.ST,EQ,SE0020551679
+Buddypro Group AB Class B,Financials,BUDDY.B.ST,EQ,SE0018690349
+Safe Lane Gaming AB Class B,Technology,SLG.B.ST,EQ,SE0020552297
+Fram Skandinavien AB Class B,Technology,FRAM_B.ST,EQ,SE0010296269
+TESSIN NORDIC HOLDING AB,Technology,TESSIN.ST,EQ,SE0027598145
+Clean Motion AB,Consumer Discretionary,CLEMO.ST,EQ,SE0008216303
+Qbrick AB,Technology,QBRICK.ST,EQ,SE0015962105
+Relevance Communication Nordic AB,Technology,RLVNC.ST,EQ,SE0009889934
+SBF Bostad AB (publ) Class A,Financials,SBFBO.A.ST,EQ,SE0021630084
+SBF Bostad AB (publ) Class B,Financials,SBFBO.B.ST,EQ,SE0021630092
+Time People Group AB,Industrials,TPGR.ST,EQ,SE0010442962
+LANE CAPITAL GROUP AB,Technology,LANE.B.ST,EQ,SE0027301763
+BLICK GLOBAL GROUP AB,Consumer Discretionary,BLICK.ST,EQ,SE0019172735
+Insplorion AB,Technology,INSP.ST,EQ,SE0006994943
+Nosium AB Class B,Consumer Staples,NOSIUM.B.ST,EQ,SE0023112065
+ODINWELL AB,Technology,ODIN.ST,EQ,SE0015809967
+Spotr Group AB,Technology,SPOTR.ST,EQ,SE0025166416
+Preservia Holding AB Pref Registered Shs,Financials,PHOL.PREF.ST,EQ,SE0013486099
+INHALATION SCIENCES SWEDEN AB,Health Care,ISAB.ST,EQ,SE0009983893
+Gamethrill AB,Technology,THRILL.ST,EQ,SE0010820191
+Creturner Group AB,Industrials,CRET.ST,EQ,SE0013460375
+Lumito AB,Health Care,LUMITO.ST,EQ,SE0027620956
+Polymer Factory Sweden AB,Materials,POLYMER.ST,EQ,SE0015244470
+ZENERGY AB CLASS B,Industrials,ZENZIP.B.ST,EQ,SE0023313069
+FX INTERNATIONAL AB,Technology,FXI.ST,EQ,SE0003787555
+RECYCTEC HOLDING AB CLASS B,Industrials,RECY.B.ST,EQ,SE0014808978
+Northern CapSek Ventures AB,Financials,CAPS.ST,EQ,SE0024989750
+Ecoclime Group AB Class B,Technology,ECC.B.ST,EQ,SE0012729937
+SOCIALLITE US AB,Technology,SOCIAL.ST,EQ,SE0020824373
+STOCKHOLM TREASURY AB,Consumer Discretionary,STHLM.ST,EQ,SE0011089929
+Rentunder Holding AB,Industrials,RENT.ST,EQ,SE0004548451
+NIDHOGG RESOURCES HOLDING AB,Materials,NIDHOG.ST,EQ,SE0023468624
+Free2move Holding AB,Technology,F2M.ST,EQ,SE0011414283
+PROVIDE IT SWEDEN AB,Technology,PROVIT.ST,EQ,SE0008321418
+EATGOOD SWEDEN AB TEMP,Consumer Discretionary,EATG.BTA.ST,EQ,SE0028777912
+EATGOOD SWEDEN AB,Consumer Discretionary,EATG.ST,EQ,SE0009548597
+Hemply Balance Holding AB,Health Care,HMPLY.ST,EQ,SE0014402400
+36 Group AB,Technology,36GRP.ST,EQ,SE0023468194
+PHARMALUNDENSIS AB,Health Care,PHAL.ST,EQ,SE0003359710
+IMHO Intermedia House AB Class B,Consumer Discretionary,IMHO.B.ST,EQ,SE0017830789
+ECOMB AB,Industrials,ECOMB.ST,EQ,SE0023950555
+Africa Resources AB,Materials,AFRI.ST,EQ,SE0009496482
+Pixfam AB,Technology,PIXFAM.ST,EQ,SE0016275333
+Logistea AB Class B,Financials,LOGI_B.ST,EQ,SE0017131337
+BlueYield AB,Financials,SHIP.ST,EQ,SE0024738496
+Newbury Pharmaceuticals AB,Health Care,NEWBRY.ST,EQ,SE0015244884
+Arctic Blue Beverages AB,Consumer Staples,ARCTIC.ST,EQ,SE0017769136
+Coffee Stain Group AB Class B,Technology,COFFEE_B.ST,EQ,SE0026599557
+UPGRADE INVEST NORDIC AB,Financials,UPGRAD.ST,EQ,SE0018536401
+Dividend Sweden AB Class B,Industrials,DIV.B.ST,EQ,SE0017085145
+SOLIDX AB,Industrials,SOLIDX.ST,EQ,SE0016797971
+WINDON ENERGY GROUP AB,Industrials,WEG.ST,EQ,SE0017131865
+AKTIEBOLAGET GOTLAND ART & DESIGN,Consumer Discretionary,GAD.ST,EQ,SE0026852808
+Railway Metrics and Dynamics Sweden AB,Industrials,RMDX.ST,EQ,SE0011451921
+Amaron Commercial Properties AB (publ) Class B,Financials,AMARON.CF.B.ST,EQ,SE0023849799
+NATTARO LABS AB,Health Care,NATTA.ST,EQ,SE0016844534
+RanLOS AB Class B,Technology,RLOS.B.ST,EQ,SE0019762147
+Calviks AB (publ),Industrials,CALVIK.ST,EQ,SE0017564800
+NanoEcho AB,Health Care,NANECH.ST,EQ,SE0017133705
+Qlucore AB,Technology,QCORE.ST,EQ,SE0016829824
+RAMLOSA SHIPPING AB(PUBL),Financials,RAMSH.ST,EQ,SE0022600219
+PUBLICVC RTO1 AB (PUBL) CLASS B,Financials,PVRTO1.B.ST,EQ,SE0026821563
+Herno Gin AB Class B,Consumer Discretionary,HERNO_B.ST,EQ,SE0017767494
+XOMA AB CLASS B,Materials,XOM.B.ST,EQ,SE0019174194
+HUNTER CAPITAL RTO 2 AB,Financials,HCRTO2.ST,EQ,SE0026526386
+Arctic Falls AB,Consumer Discretionary,ARFA.ST,EQ,SE0026821076
+MY BEAT AB,Technology,MYBEAT.ST,EQ,SE0023440763
+Guldbrev Holding AB,Industrials,GULD.ST,EQ,SE0025667033
+Silex Microsystems AB,Technology,SILEX.ST,EQ,SE0028000190
+TANGEN INDUSTRIKAPITAL AB PUBL,Financials,TANGEN_B.ST,EQ,SE0029278985
+NORDEN ESTATES AB,Financials,NORDEN.ST,EQ,SE0025158678
+LAPPLAND GULDPROSPEKTERING AB CLASS B,Materials,LGOLD.B.ST,EQ,SE0022447207
+Crustal Resources AB Class B,Materials,CRUST.B.ST,EQ,SE0020355188
+ABAS PROTECT AB,Industrials,ABAS.ST,EQ,SE0018588659
+I LOVE LUND AB CLASS B,Financials,LOVE.B.ST,EQ,SE0018397648
+Kvix AB,Technology,KVIX.ST,EQ,SE0016610083
+Greenmerc AB Class B,Technology,GMERC.B.ST,EQ,SE0022087680
+APR TECHNOLOGIES AB,Industrials,APRTEC.ST,EQ,SE0027099060
+BERGHOLM FRITIDSFORDON AB,Financials,BHOLM.ST,EQ,SE0027691668
+Insig AB,Financials,INSIG.PREF.ST,EQ,SE0028026997
+NILSSON SPECIAL VEHICLES AB,Consumer Discretionary,NILS.ST,EQ,SE0007702949
+Qbim Aktiebolag,Technology,QBIM.ST,EQ,SE0025667009
+CNI Nordic 5 AB Pref Registered Shs -P2-,Financials,CNI5.PREF.P2.ST,EQ,SE0011090646
+C100 AB,Communication Services,C100.ST,EQ,SE0017616006
+MINDARK PE AB,Technology,MNDRK.ST,EQ,SE0019354358
+Stockholm Nordtech Group AB,Financials,NTECH.ST,EQ,SE0028825042
+Argo Defence Group AB (publ),Industrials,ARGO.ST,EQ,SE0026820540
+PPI Public Property Invest AB,Financials,PUBLI.ST,EQ,SE0028799411
+HUNTER CAPITAL RTO 1 AB (PUBL),Financials,HCRTO1.ST,EQ,SE0026526352
+GiG Software PLC Shs Swedish Depository Receipt Repr 1 Sh,Technology,GIG_SDB.ST,EQ,SE0022760229
+Vastra Hamnen Corporate Finance AB,Financials,VH.ST,EQ,SE0017767031
+GOSOL ENERGY GROUP AB,Industrials,GOSOL.ST,EQ,SE0020845071
+Wonderboo Holding AB,Consumer Staples,WONDR.ST,EQ,SE0020540110
+HF REVERSE(RTO)AB CLASS B,Financials,HFRTO.B.ST,EQ,SE0025937899
+PROPORT INVEST AB,Financials,PRPORT.ST,EQ,SE0027767724
+PixelFox AB,Industrials,PIXEL.ST,EQ,SE0013409273
+INVOICERY GROUP AB,Financials,FRILAN.ST,EQ,SE0019070434
+Transfer Group AB,Industrials,TRNSF.ST,EQ,SE0011870757
+ARENIT Industrie SE Swedish Depository Receipt,Financials,ARENIT_SDB.ST,EQ,SE0027767849
+Kinda Brave Entertainment Group AB,Technology,BRAVE.ST,EQ,SE0021921822
+CYCLEZYME AB,Materials,CYCLE.ST,EQ,SE0020975852
+WS WeSports Group AB,Consumer Discretionary,WSG.ST,EQ,SE0026853335
+MTI Investment AB,Financials,MTI.ST,EQ,SE0017105539
+Atlas Copco,Industrials,ATCO-A.ST,EQ,
+Volvo AB,Industrials,VOLV-B.ST,EQ,
+SKF,Industrials,SKF-B.ST,EQ,
+Epiroc AB,Industrials,EPI-A.ST,EQ,
+SSAB,Materials,SSAB-A.ST,EQ,
+Husqvarna,Consumer Discretionary,HUSQ-B.ST,EQ,
+Ericsson,Technology,ERIC-B.ST,EQ,
+Hexagon AB,Technology,HEXA-B.ST,EQ,
+Embracer Group,Technology,EMBRAC-B.ST,EQ,
+Nibe Industrier,Industrials,NIBE-B.ST,EQ,
+Sweco AB,Industrials,SWEC-B.ST,EQ,
+Hexpol,Materials,HPOL-B.ST,EQ,
+Trelleborg,Materials,TREL-B.ST,EQ,
+H&M Group,Consumer Discretionary,HM-B.ST,EQ,
+Electrolux,Consumer Discretionary,ELUX-B.ST,EQ,
+Nordea Bank,Financials,NDA-SE.ST,EQ,
+Svenska Handelsbanken,Financials,SHB-A.ST,EQ,
+Swedbank,Financials,SWED-A.ST,EQ,
+SEB AB,Financials,SEB-A.ST,EQ,
+Tele2,Communication Services,TEL2-B.ST,EQ,
+Millicom International,Communication Services,TIGO-SDB.ST,EQ,
+Betsson AB,Consumer Discretionary,BETS-B.ST,EQ,
+AstraZeneca,Health Care,AZN.ST,EQ,
+Getinge,Health Care,GETI-B.ST,EQ,
+Dometic Group,Consumer Discretionary,DOMETIC.ST,EQ,
+BillerudKorsnäs,Materials,BILD.ST,EQ,
+Fastighets Wallenstam,Real Estate,WALL-B.ST,EQ,
+Investor AB,Financials,INVE-B.ST,EQ,
+Industrivärden,Financials,INDU-C.ST,EQ,
+Lundbergföretagen,Financials,LUND-B.ST,EQ,
+Kinnevik,Financials,KINV-B.ST,EQ,
+Latour,Financials,LATO-B.ST,EQ,
+Lifco,Industrials,LIFCO-B.ST,EQ,
+Addtech,Industrials,ADDT-B.ST,EQ,
+Beijer Ref,Industrials,BEIJ-B.ST,EQ,
+Securitas,Industrials,SECU-B.ST,EQ,
+Assa Abloy,Industrials,ASSA-B.ST,EQ,
+SKF AB Series A,Industrials,SKF-A.ST,EQ,
+Truecaller,Technology,TRUE-B.ST,EQ,
+Saab AB,Industrials,SAAB-B.ST,EQ,
+Sagax,Real Estate,SAGA-B.ST,EQ,
+Balder,Real Estate,BALD-B.ST,EQ,
+Essity,Consumer Staples,ESSITY-B.ST,EQ,

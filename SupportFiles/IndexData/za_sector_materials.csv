@@ -1,53 +1,35 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-BHP Group Ltd,Materials,BHG.JO,EQ,
-Anglo American plc,Materials,AGL.JO,EQ,
-Anglogold Ashanti PLC,Materials,ANG.JO,EQ,
-Gold Fields Limited,Materials,GFI.JO,EQ,
-Valterra Platinum Limited,Materials,VAL.JO,EQ,
-South32 Ltd.,Materials,S32.JO,EQ,
-Impala Platinum Holdings Limited,Materials,IMP.JO,EQ,
-Harmony Gold Mining Co. Ltd.,Materials,HAR.JO,EQ,
-Sasol Limited,Materials,SOL.JO,EQ,
-BEE - Sasol Limited,Materials,SOLBE1.JO,EQ,
-Sibanye Stillwater Limited,Materials,SSW.JO,EQ,
-Northam Platinum Holdings Limited,Materials,NPH.JO,EQ,
-Kumba Iron Ore Limited,Materials,KIO.JO,EQ,
-Mondi plc,Materials,MNP.JO,EQ,
-Pan African Resources PLC,Materials,PAN.JO,EQ,
-African Rainbow Minerals Limited,Materials,ARI.JO,EQ,
-DRDGOLD Ltd.,Materials,DRD.JO,EQ,
-Alphamin Resources Corp.,Materials,APH.JO,EQ,
-Omnia Holdings Limited,Materials,OMN.JO,EQ,
-AECI Ltd,Materials,AFE.JO,EQ,
-PPC Limited,Materials,PPC.JO,EQ,
-Astral Foods Limited,Materials,ARL.JO,EQ,
-Tharisa Plc,Materials,THA.JO,EQ,
-Sappi Limited,Materials,SAP.JO,EQ,
-Afrimat Limited,Materials,AFT.JO,EQ,
-Montauk Renewables Inc.,Materials,MKR.JO,EQ,
-Nampak Limited,Materials,NPK.JO,EQ,
-Merafe Resources Limited,Materials,MRF.JO,EQ,
-Kore Potash PLC,Materials,KP2.JO,EQ,
-Mpact Limited,Materials,MPT.JO,EQ,
-Sea Harvest Group Ltd.,Materials,SHG.JO,EQ,
-Master Drilling Group Ltd.,Materials,MDI.JO,EQ,
-Orion Minerals Limited,Materials,ORN.JO,EQ,
-Jubilee Metals Group PLC,Materials,JBL.JO,EQ,
-Quantum Foods Holdings Ltd,Materials,QFH.JO,EQ,
-Southern Palladium Ltd.,Materials,SDL.JO,EQ,
-Copper 360 Limited,Materials,CPR.JO,EQ,
-ArcelorMittal South Africa Limited,Materials,ACL.JO,EQ,
-Gemfields Group Limited,Materials,GML.JO,EQ,
-Brimstone Investment Corporation Limited,Materials,BRT.JO,EQ,
-Brimstone Investment Corporation Limited Class N,Materials,BRN.JO,EQ,
-Transpaco Limited,Materials,TPC.JO,EQ,
-Eastern Platinum Limited,Materials,EPS.JO,EQ,
-Hulamin Limited,Materials,HLM.JO,EQ,
-Sephaku Holdings Limited,Materials,SEP.JO,EQ,
-Crookes Brothers Limited,Materials,CKS.JO,EQ,
-Insimbi Industrial Holdings Limited,Materials,ISB.JO,EQ,
-Brikor Limited,Materials,BIK.JO,EQ,
-Shuka Minerals PLC,Materials,SKA.JO,EQ,
-Randgold & Exploration Company Ltd,Materials,RNG.JO,EQ,
-Europa Metals Limited,Materials,EUZ.JO,EQ,
-Rainbow Chicken Limited,Materials,RBO.JO,EQ,
+Gold Fields,Materials,GFI.JO,EQ,ZAE000018123
+Valterra Platinum Limited,Materials,VAL.JO,EQ,ZAE000013181
+Impala Platinum,Materials,IMP.JO,EQ,ZAE000083648
+Harmony Gold,Materials,HAR.JO,EQ,ZAE000015228
+BEE - Sasol Limited,Materials,SOLBE1.JO,EQ,ZAE000151817
+Sibanye Stillwater,Materials,SSW.JO,EQ,ZAE000259701
+Northam Platinum,Materials,NPH.JO,EQ,ZAE000298253
+Kumba Iron Ore,Materials,KIO.JO,EQ,ZAE000085346
+African Rainbow Minerals,Materials,ARI.JO,EQ,ZAE000054045
+DRDGold,Materials,DRD.JO,EQ,ZAE000058723
+Omnia Holdings Limited,Materials,OMN.JO,EQ,ZAE000005153
+PPC Limited,Materials,PPC.JO,EQ,ZAE000170049
+AECI Ltd,Materials,AFE.JO,EQ,ZAE000000220
+Sappi,Materials,SAP.JO,EQ,ZAE000006284
+Afrimat Limited,Materials,AFT.JO,EQ,ZAE000086302
+Nampak Limited,Materials,NPK.JO,EQ,ZAE000322095
+Merafe Resources Limited,Materials,MRF.JO,EQ,ZAE000060000
+Mpact Limited,Materials,MPT.JO,EQ,ZAE000156501
+Sea Harvest Group Ltd.,Materials,SHG.JO,EQ,ZAE000240198
+Master Drilling Group Ltd.,Materials,MDI.JO,EQ,ZAE000171948
+Quantum Foods Holdings Ltd,Materials,QFH.JO,EQ,ZAE000193686
+ArcelorMittal South Africa Limited,Materials,ACL.JO,EQ,ZAE000134961
+Brimstone Investment Corporation Limited Class N,Materials,BRN.JO,EQ,ZAE000015285
+Brimstone Investment Corporation Limited,Materials,BRT.JO,EQ,ZAE000015277
+Copper 360 Limited,Materials,CPR.JO,EQ,ZAE000318531
+Transpaco Limited,Materials,TPC.JO,EQ,ZAE000007480
+Wesizwe Platinum Limited,Materials,WEZ.JO,EQ,ZAE000075859
+Hulamin Limited,Materials,HLM.JO,EQ,ZAE000096210
+Sephaku Holdings Limited,Materials,SEP.JO,EQ,ZAE000138459
+Crookes Brothers Limited,Materials,CKS.JO,EQ,ZAE000001434
+Insimbi Industrial Holdings Limited,Materials,ISB.JO,EQ,ZAE000116828
+Brikor Limited,Materials,BIK.JO,EQ,ZAE000101945
+Randgold & Exploration Company Ltd,Materials,RNG.JO,EQ,ZAE000008819
+Rainbow Chicken Limited,Materials,RBO.JO,EQ,ZAE000334850

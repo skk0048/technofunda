@@ -1,154 +1,143 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-Abu Dhabi National Energy Company PJSC (TAQA),Utilities,TAQA.AD,EQ,
-Dubai Electricity & Water Authority PJSC,Utilities,DEWA.DU,EQ,
-Emirates Central Cooling Systems Corporation PJSC,Utilities,EMPOWER.DU,EQ,
-National Central Cooling Co. (Tabreed),Utilities,TABREED.AD,EQ,
-Emirates Telecom Group Company (e&) PJSC,Communication Services,EAND.AD,EQ,
-Emirates Integrated Telecommunications Company PJSC (du),Communication Services,DU.DU,EQ,
-Ooredoo QPSC,Communication Services,ORDS.QA,EQ,
-ADNOC Gas plc,Energy,ADNOCGAS.AD,EQ,
-Dana Gas PJSC,Energy,DANA.AD,EQ,
-ADNOC Drilling Company PJSC,Industrials,ADNOCDRILL.AD,EQ,
-Alpha Dhabi Holding PJSC,Industrials,ALPHADHABI.AD,EQ,
-NMDC Group PJSC,Industrials,NMDC.AD,EQ,
-NMDC Energy PJSC,Industrials,NMDCENR.AD,EQ,
-Orascom Construction PLC,Industrials,ORA.DU,EQ,
-Drake & Scull International PJSC,Industrials,DSI.DU,EQ,
-Depa PLC,Industrials,DEPA.AD,EQ,
-Two Point Zero Group PJSC,Industrials,2POINTZERO.AD,EQ,
-Al Ansari Financial Services PJSC,Industrials,ALANSARI.AD,EQ,
-ESG Emirates Stallions Group PJSC,Industrials,ESG.AD,EQ,
-RAK Ceramics PJSC,Industrials,RAKCEC.AD,EQ,
-Abu Dhabi Ship Building Co.,Industrials,ADSB.AD,EQ,
-ADNOC Logistics & Services plc,Industrials,ADNOCLS.AD,EQ,
-Salik Company PJSC,Industrials,SALIK.DU,EQ,
-Talabat Holding Plc,Industrials,TALABAT.DU,EQ,
-Abu Dhabi Ports Company PJSC,Industrials,ADPORTS.AD,EQ,
-Air Arabia PJSC,Industrials,AIRARABI.AD,EQ,
-Agility Global PLC,Industrials,AGILITY.KW,EQ,
-Gulf Navigation Holding PJSC,Industrials,GULFNAV.DU,EQ,
-Abu Dhabi Aviation Co.,Industrials,ADAVIATION.AD,EQ,
-Dubai Taxi Co. PJSC,Industrials,DTC.DU,EQ,
-Agility Public Warehousing Co.,Industrials,MKHZN.KW,EQ,
-Aramex PJSC,Industrials,ARMX.DU,EQ,
-Borouge PLC,Materials,BOROUGE.AD,EQ,
-Fertiglobe plc,Materials,FERTIGLB.AD,EQ,
-Dubai Investment PJSC,Materials,DIC.DU,EQ,
-Apex Investment PJSC,Materials,APEX.AD,EQ,
-Emirates Steel ARKAN Building Materials PJSC,Materials,EMSTEEL.AD,EQ,
-Abu Dhabi National Co. for Building Materials,Materials,BILDCO.AD,EQ,
-National Cement Company PSC,Materials,NCC.AD,EQ,
-Sharjah Cement and Industrial Development Co.,Materials,SCIDC.DU,EQ,
-RAK Co. for White Cement & Construction Materials,Materials,RAKWCT.AD,EQ,
-Fujairah Building Industries PSC,Materials,FBI.AD,EQ,
-Gulf Cement Co.,Materials,GCEM.AD,EQ,
-Fujairah Cement Industries,Materials,FCI.AD,EQ,
-RAPCO Investment PJSC,Materials,RAPCO.AD,EQ,
-Agthia Group PJSC,Consumer Staples,AGTHIA.AD,EQ,
-Abu Dhabi National Oil Company For Distribution,Consumer Staples,ADNOCDIST.AD,EQ,
-Dubai Refreshment Company PJSC,Consumer Staples,DRC.DU,EQ,
-United Foods Co. PSC,Consumer Staples,UFC.AD,EQ,
-Unikai Foods PJSC,Consumer Staples,UNIKAI.AD,EQ,
-Ghitha Holding PJSC,Consumer Staples,GHITHA.AD,EQ,
-Invictus Investment Company PLC,Consumer Staples,INVICTUS.AD,EQ,
-Foodco National Foodstuff PJSC,Consumer Staples,FNF.AD,EQ,
-Oman & Emirates Investment Holding Co.,Consumer Staples,OEIHC.AD,EQ,
-Lulu Retail Holdings PLC,Consumer Discretionary,LULU.AD,EQ,
-Spinneys 1961 Holding plc,Consumer Discretionary,SPINNEYS.AD,EQ,
-Union Coop,Consumer Discretionary,UNIONCOOP.DU,EQ,
-Parkin Co. PJSC,Consumer Discretionary,PARKIN.DU,EQ,
-Americana Restaurants International PLC,Consumer Discretionary,AMR.AD,EQ,
-Alef Education Holding plc,Consumer Discretionary,ALEFEDT.AD,EQ,
-Abu Dhabi National Hotels Co.,Consumer Discretionary,ADNH.AD,EQ,
-Emirates Mobility Company PJSC,Consumer Discretionary,EMOBILITY.AD,EQ,
-National Corporation for Tourism & Hotels,Consumer Discretionary,NCTH.AD,EQ,
-Taaleem Holdings PJSC,Consumer Discretionary,TAALEEM.AD,EQ,
-ADNH Catering plc,Consumer Discretionary,ADNHC.AD,EQ,
-Palms Sports PrJSC,Consumer Discretionary,PALMS.AD,EQ,
-Easy Lease Motorcycle Rental PJSC,Consumer Discretionary,EASYLEASE.AD,EQ,
-Al Firdous Holdings PJSC,Consumer Discretionary,ALFIRDOUS.AD,EQ,
-Al Seer Marine Supplies & Equipment Company PJSC,Consumer Discretionary,ASM.AD,EQ,
-ALEC Holdings PJSC,Consumer Discretionary,ALEC.DU,EQ,
-Presight AI Holding PLC,Technology,PRESIGHT.AD,EQ,
-SPACE42 PLC,Technology,SPACE42.AD,EQ,
-Alpha Data PJSC,Technology,ALPHADATA.AD,EQ,
-Pure Health Holding PJSC,Health Care,PUREHEALTH.AD,EQ,
-Burjeel Holdings PLC,Health Care,BURJEEL.AD,EQ,
-Gulf Medical Projects Company PJSC,Health Care,GMPC.AD,EQ,
-Response Plus Holding PrJSC,Health Care,RPM.AD,EQ,
-Gulf Pharmaceutical Industries (Julphar),Health Care,JULPHAR.AD,EQ,
-Hikma Pharmaceuticals Plc,Health Care,HIK.AD,EQ,
-International Holding Company PJSC,Financials,IHC.AD,EQ,
-First Abu Dhabi Bank PJSC,Financials,FAB.AD,EQ,
-Emirates NBD Bank PJSC,Financials,EMIRATESNBD.DU,EQ,
-Abu Dhabi Commercial Bank PJSC,Financials,ADCB.AD,EQ,
-Emaar Properties PJSC,Real Estate,EMAAR.DU,EQ,
-Abu Dhabi Islamic Bank PJSC,Financials,ADIB.AD,EQ,
-Aldar Properties PJSC,Real Estate,ALDAR.AD,EQ,
-Emaar Development PJSC,Real Estate,EMAARDEV.DU,EQ,
-Dubai Islamic Bank PJSC,Financials,DIB.DU,EQ,
-Mashreqbank PSC,Financials,MASQ.DU,EQ,
-Modon Holding PSC,Real Estate,MODON.AD,EQ,
-Commercial Bank of Dubai PSC,Financials,CBD.DU,EQ,
-The National Bank of Ras Al Khaimah (RAKBANK),Financials,RAKBANK.AD,EQ,
-TECOM Group PJSC,Real Estate,TECOM.DU,EQ,
-Dubai Residential REIT,Real Estate,DUBAIRESD.DU,EQ,
-Sharjah Islamic Bank PJSC,Financials,SIB.DU,EQ,
-Dubai Financial Market PJSC,Financials,DFM.DU,EQ,
-Invest Bank PJSC,Financials,INB.DU,EQ,
-GFH Bank B.S.C.,Financials,GFH.DU,EQ,
-Al Salam Bank B.S.C.,Financials,SALAMA.AD,EQ,
-National Bank of Umm Al Qaiwain,Financials,NBQ.AD,EQ,
-United Arab Bank PJSC,Financials,UAB.DU,EQ,
-ANAN Investment Holding PJSC,Financials,ANAN.DU,EQ,
-Abu Dhabi National Insurance Company PJSC,Financials,ADNIC.AD,EQ,
-Phoenix Group PLC,Financials,PHX.DU,EQ,
-Ajman Bank PJSC,Financials,AJMANBANK.DU,EQ,
-Waha Capital Company PJSC,Financials,WAHA.AD,EQ,
-Deyaar Development PJSC,Real Estate,DEYAAR.DU,EQ,
-Amanat Holdings PJSC,Financials,AMANAT.DU,EQ,
-Investcorp Capital PLC,Financials,ICAP.AD,EQ,
-Union Properties PJSC,Real Estate,UPP.DU,EQ,
-RAK Properties PJSC,Real Estate,RAKPROP.AD,EQ,
-Bank of Sharjah PJSC,Financials,BOS.AD,EQ,
-MAIR Group PJSC,Financials,MAIR.AD,EQ,
-Sukoon Insurance PJSC,Financials,SUKOON.AD,EQ,
-Amlak Finance PJSC,Financials,AMLAK.DU,EQ,
-E7 Group PJSC,Financials,E7.AD,EQ,
-Dubai Insurance Company PSC,Financials,DIN.DU,EQ,
-Eshraq Investments PJSC,Real Estate,ESHRAQ.DU,EQ,
-Emirates Insurance Co. PSC,Financials,EIC.DU,EQ,
-National General Insurance Co. PJSC,Financials,NGI.DU,EQ,
-Al Ramz Corporation Investment & Development PJSC,Financials,ALRAMZ.AD,EQ,
-Manazel PJSC,Real Estate,MANAZEL.DU,EQ,
-Al Mal Capital REIT,Real Estate,AMCREIT.DU,EQ,
-Shuaa Capital PSC,Financials,SHUAA.DU,EQ,
-Emirates Investment Bank PJSC,Financials,EIBANK.AD,EQ,
-Al Khaleej Investment PJSC,Financials,KICO.AD,EQ,
-Al Buhaira National Insurance Company,Financials,ABNIC.AD,EQ,
-Islamic Arab Insurance Co. (Salama),Financials,SALAMI.DU,EQ,
-BHM Capital Financial Services PSC,Financials,BHMCAPITAL.DU,EQ,
-Emirates REIT (CEIC) PLC,Real Estate,REIT.DU,EQ,
-Ithmaar Holding BSC,Financials,ITHMR.BH,EQ,
-Umm Al Qaiwain General Investment Co. PSC,Financials,QIC.AD,EQ,
-Abu Dhabi National Takaful Co.,Financials,TKFL.AD,EQ,
-Al-Mazaya Holding Co. SAKC,Real Estate,MAZAYA.KW,EQ,
-ENBD REIT (CEIC) PLC,Real Estate,ENBDREIT.DU,EQ,
-Dubai National Insurance & Reinsurance Co. PSC,Financials,DNIR.DU,EQ,
-Orient Insurance PJSC,Financials,ORIENT.DU,EQ,
-Union Insurance Company PJSC,Financials,UNION.DU,EQ,
-Takaful Emarat Insurance PSC,Financials,TAKAFUL-EM.DU,EQ,
-Hayah Insurance Company PJSC,Financials,HAYAH.DU,EQ,
-Hily Holding PJSC,Financials,HH.DU,EQ,
-Sukoon Takaful PJSC,Financials,SUKOON-T.AD,EQ,
-Watania International Holding PJSC,Financials,WATANIA.DU,EQ,
-Insurance House PJSC,Financials,IH.AD,EQ,
-Aram Group PJSC,Financials,ARAM.AD,EQ,
-Al Sagr National Insurance Co. PSC,Financials,ASNIC.DU,EQ,
-Naeem Holding Co.,Financials,NAHO.DU,EQ,
-Ekttitab Holding Co. SAKC,Financials,EKTTITAB.KW,EQ,
-Dubai Islamic Insurance & Reinsurance Co.,Financials,AMAN.DU,EQ,
-Al Salam Bank Sudan,Financials,ALSALAMSUDAN.AD,EQ,
-Multiply Group PJSC,Financials,MULTIPLY.AD,EQ,
-International Financial Advisors Holding K.P.S.C.,Financials,IFA.KW,EQ,
-Gulf Finance House B.S.C.,Financials,GFH.BH,EQ,
+International Holding Company PJSC,Financials,IHC.AD,EQ,AEI000201014
+ADNOC Gas plc,Energy,ADNOCGAS.AD,EQ,AEE01195A234
+Abu Dhabi National Energy Company PJSC (TAQA),Utilities,TAQA.AD,EQ,AEA002401015
+First Abu Dhabi Bank PJSC,Financials,FAB.AD,EQ,AEN000101016
+Emirates NBD Bank PJSC,Financials,EMIRATESNBD.DU,EQ,AEE000801010
+Emirates Telecom Group Company (e&) PJSC,Communication Services,EAND.AD,EQ,AEE000401019
+Dubai Electricity & Water Authority PJSC,Utilities,DEWA.DU,EQ,AED001801011
+Abu Dhabi Commercial Bank PJSC,Financials,ADCB.AD,EQ,AEA000201011
+Emaar Properties PJSC,Real Estate,EMAAR.DU,EQ,AEE000301011
+ADNOC Drilling Company PJSC,Industrials,ADNOCDRILL.AD,EQ,AEA007301012
+Two Point Zero Group PJSC,Industrials,2POINTZERO.AD,EQ,AEM001001019
+Abu Dhabi Islamic Bank PJSC,Financials,ADIB.AD,EQ,AEA000801018
+Borouge PLC,Materials,BOROUGE.AD,EQ,AEE01072B225
+Alpha Dhabi Holding PJSC,Industrials,ALPHADHABI.AD,EQ,AEA007601015
+Aldar Properties PJSC,Real Estate,ALDAR.AD,EQ,AEA002001013
+Emaar Development PJSC,Real Estate,EMAARDEV.DU,EQ,AEE001901017
+Dubai Islamic Bank PJSC,Financials,DIB.DU,EQ,AED000201015
+Emirates Integrated Telecommunications Company PJSC (du),Communication Services,DU.DU,EQ,AEE000701012
+Mashreqbank PSC,Financials,MASQ.DU,EQ,AEM000101018
+Modon Holding PSC,Real Estate,MODON.AD,EQ,AEA006501018
+Abu Dhabi National Oil Company For Distribution,Consumer Staples,ADNOCDIST.AD,EQ,AEA006101017
+ADNOC Logistics & Services plc,Industrials,ADNOCLS.AD,EQ,AEE01268A239
+Salik Company PJSC,Industrials,SALIK.DU,EQ,AEE01110S227
+Talabat Holding Plc,Industrials,TALABAT.DU,EQ,AEE01569T248
+Commercial Bank of Dubai PSC,Financials,CBD.DU,EQ,AEC000201017
+Fertiglobe plc,Materials,FERTIGLB.AD,EQ,AEF000901015
+Pure Health Holding PJSC,Health Care,PUREHEALTH.AD,EQ,AEE01362P238
+Air Arabia PJSC,Industrials,AIRARABIA.DU,EQ,AEA003001012
+Abu Dhabi Ports Company PJSC,Industrials,ADPORTS.AD,EQ,AEA004601018
+Presight AI Holding PLC,Technology,PRESIGHT.AD,EQ,AEE01200P230
+Agility Global PLC,Industrials,AGILITY.AD,EQ,AEE01376A248
+Parkin Co. PJSC,Consumer Discretionary,PARKIN.DU,EQ,AEE01370P249
+The National Bank of Ras Al Khaimah (RAKBANK),Financials,RAKBANK.AD,EQ,AEN000601015
+NMDC Group PJSC,Industrials,NMDC.AD,EQ,AEN000401010
+TECOM Group PJSC,Real Estate,TECOM.DU,EQ,AEE01081T004
+Emirates Central Cooling Systems Corporation PJSC,Utilities,EMPOWER.DU,EQ,AEE01134E227
+Dubai Residential REIT,Financials,DUBAIRESI.DU,EQ,AEE01657D252
+Americana Restaurants International PLC,Consumer Discretionary,AMR.AD,EQ,AEE01135A222
+Dubai Investment PJSC,Materials,DIC.DU,EQ,AED000601016
+NMDC Energy PJSC,Industrials,NMDCENR.AD,EQ,AEE01456N241
+Sharjah Islamic Bank,Financials,SIB.AD,EQ,AES000201013
+Apex Investment PJSC,Materials,APEX.AD,EQ,AER000401011
+Dubai Financial Market PJSC,Financials,DFM.DU,EQ,AED000901010
+National Bank of Fujairah,Financials,NBF.AD,EQ,AEN000801011
+Lulu Retail Holdings PLC,Consumer Discretionary,LULU.AD,EQ,AEE01487L240
+Gulf Navigation Holding PJSC,Industrials,GULFNAV.DU,EQ,AEG000601019
+SPACE42 PLC,Technology,SPACE42.AD,EQ,AEE01122B228
+Emirates Steel ARKAN Building Materials PJSC,Materials,EMSTEEL.AD,EQ,AEA002801016
+Invest Bank,Financials,INB.AD,EQ,AEI000101016
+National Central Cooling Co. (P.S.C.) (Tabreed),Utilities,TABREED.DU,EQ,AEN000501017
+Al Ansari Financial Services PJSC,Industrials,ALANSARI.DU,EQ,AEE01198A238
+Alef Education Holding plc,Consumer Discretionary,ALEFEDT.AD,EQ,AEE01388A243
+Dana Gas PJSC,Energy,DANA.AD,EQ,AED000701014
+Orascom Construction PLC,Industrials,ORAS.AD,EQ,AEE01702O253
+National Bank of Umm Al Qaiwain,Financials,NBQ.AD,EQ,AEN000701013
+Burjeel Holdings PLC,Health Care,BURJEEL.AD,EQ,AEE01119B224
+Abu Dhabi Aviation Co.,Industrials,ADAVIATION.AD,EQ,AEA001001014
+Dubai Taxi Co. PJSC,Industrials,DTC.DU,EQ,AEE01356D236
+Abu Dhabi National Hotels Co.,Consumer Discretionary,ADNH.AD,EQ,AEA000301019
+Spinneys 1961 Holding plc,Consumer Discretionary,SPINNEYS.DU,EQ,AEE01377S248
+United Arab Bank,Financials,UAB.AD,EQ,AEU000601010
+Abu Dhabi National Insurance Company PJSC,Financials,ADNIC.AD,EQ,AEA001101012
+PHOENIX GROUP   PLC,Financials,PHX.AD,EQ,AEE01357P238
+Ajman Bank PJSC,Financials,AJMANBANK.DU,EQ,AEA003201018
+Waha Capital Company PJSC,Financials,WAHA.AD,EQ,AEA000701010
+ANAN INVESTMENT HOLDING P.J.S.C,Financials,ANAN.AD,EQ,AEW000201015
+Union Coop,Consumer Discretionary,UNIONCOOP.DU,EQ,AEE01083U222
+Deyaar Development PJSC,Real Estate,DEYAAR.DU,EQ,AED001001018
+Emirates Mobility Company PJSC,Consumer Discretionary,EMOBILITY.AD,EQ,AEE000601014
+Investcorp Capital PLC,Financials,ICAP.AD,EQ,AEE01354I230
+National Corporation for Tourism & Hotels,Consumer Discretionary,NCTH.AD,EQ,AEN001001017
+Amanat Holdings PJSC,Financials,AMANAT.DU,EQ,AEA005901011
+ESG Emirates Stallions Group PJSC,Industrials,ESG.AD,EQ,AEE002901016
+RAK Properties PJSC,Real Estate,RAKPROP.AD,EQ,AER000601016
+Agthia Group PJSC,Consumer Staples,AGTHIA.AD,EQ,AEA001901015
+Union Properties PJSC,Real Estate,UPP.DU,EQ,AEU000101011
+Taaleem Holdings PJSC,Consumer Discretionary,TAALEEM.DU,EQ,AEE01136T220
+Abu Dhabi National Co. for Building Materials,Materials,BILDCO.AD,EQ,AEA000501014
+Ghitha Holding PJSC,Consumer Staples,GHITHA.AD,EQ,AEZ000101010
+Bank of Sharjah PJSC,Financials,BOS.AD,EQ,AEB000101011
+Aramex PJSC,Industrials,ARMX.DU,EQ,AEA002301017
+Dubai Refreshment Company PJSC,Consumer Staples,DRC.DU,EQ,AED000501018
+Sukoon Insurance PJSC,Financials,SUKOON.DU,EQ,AEO000101014
+RAK Ceramics PJSC,Industrials,RAKCEC.AD,EQ,AER000301013
+MAIR Group PJSC,Financials,MAIR.AD,EQ,AEE01571M249
+Al Seer Marine Supplies & Equipment Company PJSC,Consumer Discretionary,ASM.AD,EQ,AEA007701013
+Amlak Finance PJSC,Financials,AMLAK.DU,EQ,AEA001201010
+E7 Group PJSC,Financials,E7.AD,EQ,AEE01073A225
+Abu Dhabi Ship Building Co.,Industrials,ADSB.AD,EQ,AEA000901016
+Invictus Investment Company PLC,Consumer Staples,INVICTUS.AD,EQ,AEE01078I227
+Dubai Insurance Company PSC,Financials,DIN.DU,EQ,AED000301013
+Gulf Medical Projects Company PJSC,Health Care,GMPC.AD,EQ,AEG000401014
+National Cement Company PSC,Materials,NCC.DU,EQ,AEN000901019
+ADNH Catering plc,Consumer Discretionary,ADNHC.AD,EQ,AEE01486A245
+Alpha Data PJSC,Technology,ALPHADATA.AD,EQ,AEE01575A252
+Gulf Pharmaceutical Industries (Julphar),Health Care,JULPHAR.AD,EQ,AEG000201018
+ESHRAQ INVESTMENTS P.J.S.C,Financials,ESHRAQ.AD,EQ,AEE000901018
+Palms Sports PrJSC,Consumer Discretionary,PALMS.AD,EQ,AEP000201019
+National General Insurance Co. PJSC,Financials,NGI.DU,EQ,AEN000301012
+Manazel PJSC,Financials,MANAZEL.AD,EQ,AEM000601017
+Al Ramz Corporation Investment & Development PJSC,Financials,ALRAMZ.DU,EQ,AED000801012
+Shuaa Capital PSC,Financials,SHUAA.DU,EQ,AES000101015
+Al Mal Capital REIT,Real Estate,AMCREIT.DU,EQ,AEA003630067
+Easy Lease Motorcycle Rental PJSC,Consumer Discretionary,EASYLEASE.AD,EQ,AEE002801018
+Al Dhafra Insurance Co.,Financials,DHAFRA.AD,EQ,AEA000601012
+Drake & Scull International PJSC,Industrials,DSI.DU,EQ,AED001101016
+Emirates Reem Investments PJSC,Consumer Staples,ERC.DU,EQ,AEJ000101014
+Emirates Investment Bank PJSC,Financials,EIBANK.DU,EQ,AEA001301018
+Sharjah Cement and Industrial Development Co.,Materials,SCIDC.AD,EQ,AES000401019
+Al Buhaira National Insurance Company,Financials,ABNIC.AD,EQ,AEA001701019
+Islamic Arab Insurance Co. (Salama),Financials,SALAMA.DU,EQ,AEI000301012
+Emirates REIT (CEIC) PLC,Real Estate,REIT.DU,EQ,AEDFXA1XE5D7
+BHM Capital Financial Services PSC,Financials,BHMCAPITAL.DU,EQ,AEA006001019
+Umm Al Qaiwain General Investment Co. PSC,Financials,QIC.AD,EQ,AEU000701018
+Al Khaleej Investment PJSC,Financials,KICO.AD,EQ,AEG000701017
+Abu Dhabi National Takaful Co.,Financials,TKFL.AD,EQ,AEA001801017
+RAK Co. for White Cement & Construction Materials,Materials,RAKWCT.AD,EQ,AER000101017
+ENBD REIT (CEIC) PLC,Real Estate,ENBDREIT.DU,EQ,AEDFXA1CN004
+Response Plus Holding PrJSC,Health Care,RPM.AD,EQ,AER001001018
+Fujairah Building Industries PSC,Materials,FBI.AD,EQ,AEF000501013
+Gulf Cement Co.,Materials,GCEM.AD,EQ,AEG000101010
+Foodco National Foodstuff PJSC,Consumer Staples,FNF.AD,EQ,AEF000701019
+United Foods Co. PSC,Consumer Staples,UFC.DU,EQ,AEU000901014
+Dubai National Insurance & Reinsurance Co. PSC,Financials,DNIR.DU,EQ,AED000101017
+Takaful Emarat - Insurance (PSC),Financials,TAKAFUL_EM.DU,EQ,AET000201011
+Orient Insurance PJSC,Financials,ORIENT.DU,EQ,AEA002601010
+Union Insurance Company,Financials,UNION.AD,EQ,AEU000501012
+Hayah Insurance Company P.J.S.C,Financials,HAYAH.AD,EQ,AEG000801015
+Sharjah Insurance Company,Financials,SICO.AD,EQ,AES000301011
+Sukoon Takaful PJSC,Financials,SUKOONTAKAFL.DU,EQ,AEA001401016
+RAPCO Investment PJSC,Materials,RAPCO.AD,EQ,AER000201015
+Depa Plc,Industrials,DEPA.DU,EQ,AEDFXA0NFP81
+Depa PLC Class A,Industrials,DEPACLA.DU,EQ,AEDFXA20E018
+Unikai Foods PJSC,Consumer Staples,UNIKAI.DU,EQ,AEU000801016
+Insurance House PJSC,Financials,IH.AD,EQ,AEI000401010
+Al Firdous Holdings PJSC,Consumer Discretionary,ALFIRDOUS.DU,EQ,AEA003101010
+Watania International Holding PJSC,Financials,WATANIA.DU,EQ,AET000301019
+Aram Group PJSC,Financials,ARAM.AD,EQ,AES000601014
+Fujairah Cement Industries,Materials,FCI.AD,EQ,AEF000301018
+Al Sagr National Insurance Co. PSC,Financials,ASNIC.DU,EQ,AEA002101011
+Dubai Islamic Insurance & Reinsurance Co.,Financials,AMAN.DU,EQ,AED000401011
+ALEC Holdings PJSC,Consumer Discretionary,ALEC.DU,EQ,AEE01710A255

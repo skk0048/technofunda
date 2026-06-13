@@ -1,26 +1,39 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-ING Groep N.V.,Financials,INGA.AS,EQ,
-ABN AMRO Bank N.V. Depositary receipts,Financials,ABN.AS,EQ,
-EXOR N.V.,Financials,EXO.AS,EQ,
-NN Group N.V.,Financials,NN.AS,EQ,
+ING Groep,Financials,INGA.AS,EQ,NL0011821202
+ABN AMRO Bank NV,Financials,ABN.AS,EQ,NL0011540547
+Exor NV,Financials,EXO.AS,EQ,NL0012059018
+NN Group,Financials,NN.AS,EQ,NL0010773842
+ASR Nederland,Financials,ASRNL.AS,EQ,NL0011872643
+NEPI Rockcastle N.V.,Financials,NRP.AS,EQ,NL0015000RT3
+Van Lanschot Kempen NV cert. of shs,Financials,VLK.AS,EQ,NL0000302636
+Azerion Group N.V,Financials,AZRN.AS,EQ,NL00150006Z9
+Cabka N.V.,Financials,CABKA.AS,EQ,NL00150000S7
+New Amsterdam Invest NV,Financials,NAI.AS,EQ,NL0015000CG2
+PB Holding NV,Financials,PBH.AS,EQ,NL0000336303
+Lavide Holding N.V.,Financials,LVIDE.AS,EQ,NL0010545679
+Goldman Sachs Dynamic Mix Fund III (NL) - P,Financials,GSDM3.AS,EQ,NL0000293165
+Goldman Sachs Dynamic Mix Fund I (NL) - P,Financials,GSDM1.AS,EQ,NL0000293140
+TRIODOS BANK NV Depositary Receipt,Financials,TRIO.AS,EQ,NL0010407946
+Kempen European High Dividend Fund N.V. N,Financials,KEHDF.AS,EQ,NL0000293348
+Arcona Property Fund N.V.,Financials,ARCPF.AS,EQ,NL0006311706
+Kempen Profielfondsen N.V. - Evi Go Offensief N,Financials,LANGR.AS,EQ,NL0000290484
+Goldman Sachs Dynamic Mix Fund IV (NL) - P,Financials,GSDM4.AS,EQ,NL0000293173
+Kempen Profielfondsen N.V. - Evi Go Neutraal N,Financials,LANNE.AS,EQ,NL0000290476
+Goldman Sachs Dynamic Mix Fund V (NL) - P,Financials,GSDM5.AS,EQ,NL0000293181
+BNP Paribas Fund III N.V. - BNP Paribas Global Property Securities Fund Classic,Financials,BGPSF.AS,EQ,NL0006294092
+Optimix Investment Funds NV - Optimix Emerging Markets Fund - Fonds F F,Financials,OPEMF.AS,EQ,NL0000287126
+Cardano Investment Funds I - IC North America Equity ESG Index Fund Units -C1-,Financials,ICINA.AS,EQ,NL0015002QB9
+Goldman Sachs Wereldwijd Mix Fonds (NL) - P,Financials,GSMIX.AS,EQ,NL0000442077
+Optimix Investment Funds NV - Optimix EuroRente Fonds,Financials,OPERF.AS,EQ,NL0010558805
+ASN Beleggingsfondsen AIF N.V. - ASN Duurzaam Mixfonds Offensief,Financials,ASNO.AS,EQ,NL0014270308
+ASN Beleggingsfondsen UCITS N.V. - ASN Duurzaam Aandelenfonds,Financials,ASN.AS,EQ,NL0014270225
+Goldman Sachs Equity Investment Fund (NL) N.V- P,Financials,GSEIF.AS,EQ,NL0000286318
+Rolinco N.V. -EUR E-,Financials,ROLA.AS,EQ,NL0000289817
+Goldman Sachs Enhanced Index Sustainable Emerging Markets Equity Fund (NL) - P,Financials,GSEME.AS,EQ,NL0006311771
+ING Groep NV,Financials,ING.AS,EQ,
 HAL Trust,Financials,HAL.AS,EQ,
-CVC Capital Partners plc,Financials,CVC.AS,EQ,
-ASR Nederland N.V.,Financials,ASRNL.AS,EQ,
-Aegon Ltd.,Financials,AGN.AS,EQ,
-CTP N.V.,Financials,CTPNV.AS,EQ,
-NEPI Rockcastle N.V.,Financials,NRP.AS,EQ,
-Allfunds Group plc,Financials,ALLFG.AS,EQ,
-Reinet Investments S.C.A.,Financials,REINA.AS,EQ,
-Van Lanschot Kempen NV cert. of shs,Financials,VLK.AS,EQ,
-Eurocommercial Properties NV,Financials,ECMPA.AS,EQ,
-Flow Traders Ltd,Financials,FLOW.AS,EQ,
-Wereldhave N.V.,Financials,WHA.AS,EQ,
-NSI NV,Financials,NSI.AS,EQ,
-Azerion Group N.V,Financials,AZRN.AS,EQ,
-Morefield Group N.V.,Financials,MORE.AS,EQ,
-Cabka N.V.,Financials,CABKA.AS,EQ,
-N.V. Bever Holding,Financials,BEVER.AS,EQ,
-New Amsterdam Invest NV,Financials,NAI.AS,EQ,
-PB Holding NV,Financials,PBH.AS,EQ,
-Eurocastle Investment Limited,Financials,ECT.AS,EQ,
-TRIODOS BANK NV Depositary Receipt,Financials,TRIO.AS,EQ,
+Aegon NV,Financials,AGN.AS,EQ,
+Flow Traders NV,Financials,FLOW.AS,EQ,
+Euronext NV,Financials,ENX.AS,EQ,
+Allfunds Group,Financials,ALLFG.AS,EQ,
+Intertrust NV,Financials,INTER.AS,EQ,

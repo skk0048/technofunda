@@ -1,11 +1,126 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-Eregli Demir Celik,Materials,EREGL.IS,EQ,
-Petkim,Materials,PETKM.IS,EQ,
-Sasa Polyester,Materials,SASA.IS,EQ,
-Kardemir,Materials,KRDMD.IS,EQ,
-Sisecam,Materials,SISE.IS,EQ,
-Gubre Fabrikalari,Materials,GUBRF.IS,EQ,
-Hektas,Materials,HEKTS.IS,EQ,
-Akcansa Cimento,Materials,AKCNS.IS,EQ,
-Cimsa Cimento,Materials,CIMSA.IS,EQ,
-Oyak Cimento,Materials,OYAKC.IS,EQ,
+Eregli Demir Celik,Materials,EREGL.IS,EQ,TRAEREGL91G3
+Iskenderun Demir ve Celik AS,Materials,ISDMR.IS,EQ,TREISDC00020
+Gubre Fabrikalari,Materials,GUBRF.IS,EQ,TRAGUBRF91E2
+Turk Altin Isletmeleri A.S.,Materials,TRALT.IS,EQ,TREKOAL00014
+Sisecam,Materials,SISE.IS,EQ,TRASISEW91Q3
+Sasa Polyester,Materials,SASA.IS,EQ,TRASASAW91E4
+Oyak Cimento,Materials,OYAKC.IS,EQ,TRAMRDIN91F2
+BORUSAN BIRLESIK BORU FABRIKALARI SANAYI VE TICARET ANONIM SIRKETI,Materials,BRSAN.IS,EQ,TRABRSAN91G8
+Isiklar Enerji ve Yapi Holding Anonim Sirketi,Materials,IEYHO.IS,EQ,TRAMTEKS91B0
+CVK MADEN ISLETMELERI SANAYI VE TICARET A.S,Materials,CVKMD.IS,EQ,TRECVKM00021
+Batisoke Soke Cimento Sanayii T.A.S.,Materials,BSOKE.IS,EQ,TRABSOKE91F5
+Kardemir Karabiik Demir celik Sanayi ve Ticaret A.S. Class B,Materials,KRDMB.IS,EQ,TRAKRDMB91G1
+Kardemir,Materials,KRDMD.IS,EQ,TRAKRDMR91G7
+Kardemir Karabiik Demir celik Sanayi ve Ticaret A.S. Class A,Materials,KRDMA.IS,EQ,TRAKRDMA91G3
+Petkim,Materials,PETKM.IS,EQ,TRAPETKM91E0
+Cimsa Cimento,Materials,CIMSA.IS,EQ,TRACIMSA91F9
+Aksa Akrilik Kimya Sanayii A.S.,Materials,AKSA.IS,EQ,TRAAKSAW91E1
+Akcansa Cimento,Materials,AKCNS.IS,EQ,TRAAKCNS91F3
+TR Anadolu Metal Madencilik Isletmeleri Anonim Sirketi,Materials,TRMET.IS,EQ,TREKOZA00014
+Hektas,Materials,HEKTS.IS,EQ,TRAHEKTS91E4
+Nuh Cimento Sanayi A.S.,Materials,NUHCM.IS,EQ,TRANUHCM91F0
+Baticim Bati Anadolu Cimento Sanayii A.S.,Materials,BTCIM.IS,EQ,TRABTCIM91F5
+Kocaer Celik Sanayi ve Ticaret AS,Materials,KCAER.IS,EQ,TREKCAE00030
+Cimentas Izmir Cimento Fabrikasi Turk A.S.,Materials,CMENT.IS,EQ,TRACMENT91F9
+Mega Metal Sanayi Ve Ticaret A.S.,Materials,MEGMT.IS,EQ,TREMEGM00024
+Ege Profil Ticaret ve Sanayi A.S.,Materials,EGPRO.IS,EQ,TRAEGPRO91E8
+Barem Ambalaj Sanayi ve Ticaret AS,Materials,BARMA.IS,EQ,TREBARM00014
+Politeknik Metal Sanayi ve Ticaret AS,Materials,POLTK.IS,EQ,TREPOLT00013
+Konya Cimento Sanayi A.S.,Materials,KONYA.IS,EQ,TRAKONYA91F6
+Marshall Boya ve Vernik Sanayi A.S.,Materials,MRSHL.IS,EQ,TRAMRSHL91E9
+Kordsa Teknik Tekstil A.S.,Materials,KORDS.IS,EQ,TRAKORDS91B2
+Polisan Holding AS,Materials,POLHO.IS,EQ,TREPOHO00012
+Banvit Bandirma Vitaminli Yem Sanayii A.S.,Materials,BANVT.IS,EQ,TRABANVT92A9
+Limak Dogu Anadolu Cimento Sanayi Ve Ticaret AS,Materials,LMKDC.IS,EQ,TRELIMK00029
+Kalekim Kimyevi Maddeler Sanayi ve Ticaret AS,Materials,KLKIM.IS,EQ,TREKLKM00025
+Kaplamin Ambalaj Sanayi ve Ticaret A.S.,Materials,KAPLM.IS,EQ,TRAKAPLM91D7
+Yayla Agro Gida Sanayi ve Nakliyat AS,Materials,YYLGD.IS,EQ,TREYYLA00014
+Izmir Demir Celik Sanayi A.S.,Materials,IZMDC.IS,EQ,TRAIZMDC91G6
+Tarkim Bitki Koruma Sanayi ve Ticaret A.S.,Materials,TARKM.IS,EQ,TRETRKM00015
+Ege Gubre Sanayii A.S.,Materials,EGGUB.IS,EQ,TRAEGGUB91E8
+Bastas Baskent Cimento Sanayi ve Ticaret AS,Materials,BASCM.IS,EQ,TREBASC00013
+Qua Granite Hayal Yapi ve Urunleri Sanayi Ticaret AS,Materials,QUAGR.IS,EQ,TREQAGR00022
+Visne Madencilik Uretim Sanayi ve Ticaret AS,Materials,VSNMD.IS,EQ,TREVISN00029
+Kartonsan Karton Sanayi ve Ticaret Anonim Sirketi,Materials,KARTN.IS,EQ,TRAKARTN91D4
+Soenmez Filament Sentetik Iplik ve Elyaf Sanayi Anonim Sirketi,Materials,SONME.IS,EQ,TRASONME91B5
+Bursa Cimento Fabrikasi A.S.,Materials,BUCIM.IS,EQ,TRABUCIM91F3
+Ofis Yem Gida Sanayi ve Ticaret A.S.,Materials,OFSYM.IS,EQ,TREOFSY00027
+Sonmez Pamuklu Sanayii A.S.,Materials,SNPAM.IS,EQ,TRASNPAM91B0
+Bien Yapi Urunleri Sanayi Turizm Ve Ticaret Anonim Sirketi,Materials,BIENY.IS,EQ,TREBNYP00016
+Bossa Ticaret ve Sanayi Isletmeleri T.A.S.,Materials,BOSSA.IS,EQ,TRABOSSA91B5
+KOZA POLYESTER SANAYI VE TICARET A.S.,Materials,KOPOL.IS,EQ,TREKOPL00012
+Bogazici Beton Sanayi ve Ticaret AS,Materials,BOBET.IS,EQ,TREBOBT00014
+Alkim Kagit Sanayi ve Ticaret A.S.,Materials,ALKA.IS,EQ,TRAALKAW91D8
+Bahadir Kimya Sanayi Ve Ticaret Anonim Sirketi,Materials,BAHKM.IS,EQ,TREBHDR00018
+Ulusoy Un Sanayi ve Ticaret AS,Materials,ULUUN.IS,EQ,TREULSY00014
+Temapol Polimer Plastik Ve Insaat Sanayi Ticaret A..S,Materials,TMPOL.IS,EQ,TRETMPL00017
+Mondi Turkey Oluklu Mukavva Kagit ve Ambalaj Sanayi A.S.,Materials,MNDTR.IS,EQ,TRATIREW91D1
+Koc Metalurji AS,Materials,KOCMT.IS,EQ,TREKOCM00018
+Soke Degirmencilik Sanayi ve Ticaret AS,Materials,SOKE.IS,EQ,TRESOKE00029
+Bor Seker A.S.,Materials,BORSK.IS,EQ,TREBRSK00010
+Goltas Goller Bolgesi Cimento Sanayi ve Ticaret A.S.,Materials,GOLTS.IS,EQ,TRAGOLTS91F0
+Celik Halat ve Tel Sanayii A.S.,Materials,CELHA.IS,EQ,TRACELHA91G1
+Arsan Holding A.S.,Materials,ARSAN.IS,EQ,TRAARSAN91B1
+Konya Kagit Sanayi ve Ticaret AS,Materials,KONKA.IS,EQ,TREKNKA00026
+Orma Orman Mahsulleri Integre Sanayi ve Ticaret AS,Materials,ORMA.IS,EQ,TREORMA00017
+Alkim Alkali Kimya A.S.,Materials,ALKIM.IS,EQ,TRAALKIM91E0
+Cemtas Celik Makina Sanayi ve Ticaret A.S.,Materials,CEMTS.IS,EQ,TRACEMTS91G6
+Afyon Cimento Sanayii T.A.S.,Materials,AFYON.IS,EQ,TRAAFYON91F6
+Yunsa Yunlu Sanayi ve Ticaret A.S.,Materials,YUNSA.IS,EQ,TRAYUNSA91B5
+Yibitas Yozgat Isci Birligi Insaat Malzemeleri Ticaret Ve San,Materials,YBTAS.IS,EQ,TREYBTS00017
+Birlesim Muhendislik Isitma Sogutma Havalandirma Sanayi ve Ticaret A.S.,Materials,BRLSM.IS,EQ,TREBLSM00027
+Erciyas Celik Boru Sanayi A.S.,Materials,ERCB.IS,EQ,TREERCY00027
+Dyo Boya Fabrikalari Sanayi ve Ticaret A.S.,Materials,DYOBY.IS,EQ,TRAYASAS91E0
+Eksun Gida Tarim Sanayi ve Ticaret,Materials,EKSUN.IS,EQ,TREEKSN00021
+MERCAN KIMYA SANAYI VE TICARET A.S.,Materials,MERCN.IS,EQ,TREMRCN00023
+Kutahya Seker Fabrikasi AS,Materials,KTSKR.IS,EQ,TREKTSR00046
+SANIFOAM ENDUSTRI VE TUKETIM URUNLERI SANAYI TICARET A.S.,Materials,SANFM.IS,EQ,TRESNFM00016
+Cemas Dokum Sanayi A.S.,Materials,CEMAS.IS,EQ,TRECMAS00010
+Dogusan Boru Sanayii ve Ticaret A.S.,Materials,DOGUB.IS,EQ,TRADOGUB92F9
+Yaprak Sut ve Besi Ciftikleri Sanayi Ve Ticaret AS,Materials,YAPRK.IS,EQ,TREYSBS00019
+Erbosan Erciyas Boru Sanayii ve Ticaret A.S.,Materials,ERBOS.IS,EQ,TRAERBOS91G8
+Burcelik Bursa Celik Doekum Sanayii A.S.,Materials,BURCE.IS,EQ,TRABURCE91G9
+Bagfas Bandirma Gubre Fabrikalari A.S.,Materials,BAGFS.IS,EQ,TRABAGFS91E2
+Panelsan Cati Cephe Sistemleri Sanayi ve Ticaret AS,Materials,PNLSN.IS,EQ,TREPNLS00017
+Bak Ambalaj Sanayi ve Ticaret A.S.,Materials,BAKAB.IS,EQ,TRABAKAB91D3
+Ozsu Balik Uretim A.S.,Materials,OZSUB.IS,EQ,TREOZSU00023
+Sanko Pazarlama Ithalat Ihracat Anonim Sirketi,Materials,SANKO.IS,EQ,TRASANKO91I2
+Isbir Sentetik Dokuma Sanayi AS,Materials,ISSEN.IS,EQ,TREISBS00012
+Luks Kadife Ticaret ve Sanayi A.S.,Materials,LUKSK.IS,EQ,TRALUKSK91B7
+Tureks Turunc Madencilik Ic ve Dis Ticaret A.S.,Materials,MARBL.IS,EQ,TRETRKT00044
+Ruzy Madencilik Ve Enerji Yatirimlari Sanayi Ve Ticaret A.S.,Materials,RUZYE.IS,EQ,TRAALYAG91A8
+Cimbeton Hazir Beton ve Prefabrik Yapi Elemanlari Sanayi ve Ticaret A.S.,Materials,CMBTN.IS,EQ,TRACMBTN91F5
+Duran Dogan Basim ve Ambalaj Sanayi A.S.,Materials,DURDO.IS,EQ,TRADUROF91D4
+FORMET METAL VE CAM SANAYI A.S.,Materials,FORMT.IS,EQ,TREFRMT00015
+Park Elektrik Uretim Madencilik Sanayi ve Ticaret A.S.,Materials,PRKME.IS,EQ,TRAPRKTE91B5
+Dinamik Isi Makina Yalitim Malzemeleri Sanayi ve Ticaret AS,Materials,DNISI.IS,EQ,TREDIMY00027
+Akin Tekstil A.S.,Materials,ATEKS.IS,EQ,TRAATEKS91B5
+Bilici Yatirim Sanayi ve Ticaret A.S.,Materials,BLCYT.IS,EQ,TREBLCY00018
+Rubenis Tekstil Sanayi Ticaret AS,Materials,RUBNS.IS,EQ,TRERBNS00014
+Ozerden Ambalaj Sanayi A.S.,Materials,OZRDN.IS,EQ,TREOZER00029
+Sumas Suni Tahta ve Mobilya Sanayii AS,Materials,SUMAS.IS,EQ,TRESMAS00016
+Isbir Holding AS,Materials,ISBIR.IS,EQ,TREISBR00014
+Dofer Yapi Maizemeleri Sanayi ve Ticaret A.S.,Materials,DOFER.IS,EQ,TREDOFR00023
+Innosa Teknoloji Anonim Sirketi,Materials,INTEK.IS,EQ,TREUZER00018
+Cuhadaroglu Metal Sanayi ve Pazarlama AS,Materials,CUSAN.IS,EQ,TRECUHA00016
+Soktas Tekstil Sanayi ve Ticaret A.S.,Materials,SKTAS.IS,EQ,TRASKTAS91B5
+Sekuro Plastik Ambalaj Sanayi A.S.,Materials,SEKUR.IS,EQ,TRESKPA00016
+OTTO HOLDING A.S,Materials,OTTO.IS,EQ,TRETTUR00019
+Aciselsan Acipayam Seluloz Sanayi ve Ticaret AS,Materials,ACSEL.IS,EQ,TREACSS00017
+Bantas Bandirma Ambalaj Sanayi ve Ticaret A.S.,Materials,BNTAS.IS,EQ,TREBANT00026
+Gediz Ambalaj Sanayi ve Ticaret AS,Materials,GEDZA.IS,EQ,TREGDZA00015
+Tugcelik Aluminyum ve Metal Mamulleri Sanayi ve Ticaret A.S.,Materials,TUCLK.IS,EQ,TRETUGC00018
+Sodas Sodyum Sanayii AS,Materials,SODSN.IS,EQ,TRESODS00016
+Hateks Hatay Tekstil Isletmeleri A.S.,Materials,HATEK.IS,EQ,TREHTKS00013
+Eminis Ambalaj Sanayi ve Ticaret A.S.,Materials,EMNIS.IS,EQ,TRAEMNIS91E1
+Birlik Mensucat Ticaret ve Sanayi Isletmesi A.S.,Materials,BRMEN.IS,EQ,TRABRMEN91B4
+Pergamon Status Dis Ticaret A.S.,Materials,PSDTC.IS,EQ,TREPERG00018
+Karsu Tekstil Sanayii ve Ticaret A.S.,Materials,KRTEK.IS,EQ,TRAKRTEK91B6
+Ekiz Kimya Sanayi ve Ticaret A.S.,Materials,EKIZ.IS,EQ,TREEKIZ00018
+Berkosan Yalitim ve Tecrit Maddeleri Uretim ve Ticaret A.S.,Materials,BRKSN.IS,EQ,TREBERK00010
+Mega Polietilen Kopuk Sanayi ve Ticaret AS,Materials,MEGAP.IS,EQ,TREMEGA00011
+Diriteks Dirilis Tekstil Sanayi ve Ticaret AS,Materials,DIRIT.IS,EQ,TREDRTK00014
+Gentas Kimya Sanayi ve Ticaret Pazarlama,Materials,GENKM.IS,EQ,TREGNTK00016
+Akhan Un Fabrikasi Ve Tarim Urunleri Gida Sanayi Ticaret Anonim Sirketi,Materials,AKHAN.IS,EQ,TREAKHN00014
+Ekinciler Demir ve Celik Sanayi AS,Materials,EKDMR.IS,EQ,TREEKNC00025

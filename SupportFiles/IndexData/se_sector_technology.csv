@@ -1,254 +1,234 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-Nokia Oyj,Technology,NOKIA-SEK.ST,EQ,
-Telefonaktiebolaget LM Ericsson Class A,Technology,ERIC-A.ST,EQ,
-Telefonaktiebolaget LM Ericsson Class B,Technology,ERIC-B.ST,EQ,
-Saab AB Class B,Technology,SAAB-B.ST,EQ,
-Hexagon AB Class B,Technology,HEXA-B.ST,EQ,
-Evolution AB,Technology,EVO.ST,EQ,
-Addtech AB Class B,Technology,ADDT-B.ST,EQ,
-Sectra AB Class B,Technology,SECT-B.ST,EQ,
-Vend Marketplaces ASA,Technology,VENDO.ST,EQ,
-Lagercrantz Group AB Class B,Technology,LAGR-B.ST,EQ,
-AutoStore Holdings Ltd.,Technology,AUTOOO.ST,EQ,
-Nordic Semiconductor ASA,Technology,NODO.ST,EQ,
-Sinch AB,Technology,SINCH.ST,EQ,
-TGS ASA,Technology,TGSO.ST,EQ,
-HMS Networks AB,Technology,HMS.ST,EQ,
-Tieto Corporation,Technology,TIETOS.ST,EQ,
-Kitron ASA,Technology,KITO.ST,EQ,
-Sivers Semiconductors AB,Technology,SIVE.ST,EQ,
-Hacksaw AB,Technology,HACK.ST,EQ,
-Atea ASA,Technology,ATEAO.ST,EQ,
-NCAB Group AB,Technology,NCAB.ST,EQ,
-Modern Times Group MTG AB Class B,Technology,MTG-B.ST,EQ,
-Modern Times Group MTG AB Class A,Technology,MTG-A.ST,EQ,
-Embracer Group AB Class B,Technology,EMBRAC-B.ST,EQ,
-Paradox Interactive AB,Technology,PDX.ST,EQ,
-Nolato AB Class B,Technology,NOLA-B.ST,EQ,
-INVISIO AB,Technology,IVSO.ST,EQ,
-PLEJD AB,Technology,PLEJD.ST,EQ,
-Vitec Software Group AB Class B,Technology,VIT-B.ST,EQ,
-MilDef Group AB,Technology,MILDEF.ST,EQ,
-Hexatronic Group AB,Technology,HTRO.ST,EQ,
-Dynavox Group AB,Technology,DYVOX.ST,EQ,
-LINK Mobility Group Holding ASA,Technology,LINKO.ST,EQ,
-Pexip Holding ASA,Technology,PEXIPO.ST,EQ,
-RaySearch Laboratories AB Class B,Technology,RAY-B.ST,EQ,
-Acast AB,Technology,ACAST.ST,EQ,
-Addnode Group AB Class B,Technology,ANOD-B.ST,EQ,
-Smartoptics Group ASA,Technology,SMOPO.ST,EQ,
-Napatech A/S,Technology,NAPAO.ST,EQ,
-NOTE AB,Technology,NOTE.ST,EQ,
-Bouvet ASA,Technology,BOUVO.ST,EQ,
-Ependion AB,Technology,EPEN.ST,EQ,
-Kambi Group plc Class B,Technology,KAMBI.ST,EQ,
-Truecaller AB Class B,Technology,TRUE-B.ST,EQ,
-Verve Group SE Class A,Technology,VER.ST,EQ,
-Proact IT Group AB,Technology,PACT.ST,EQ,
-GomSpace Group AB,Technology,GOMX.ST,EQ,
-Lime Technologies AB,Technology,LIME.ST,EQ,
-Stillfront Group AB,Technology,SF.ST,EQ,
-SmartCraft Group AB (publ),Technology,SMCRT.ST,EQ,
-Cint Group AB,Technology,CINT.ST,EQ,
-Vertiseit AB Class B,Technology,VERT-B.ST,EQ,
-Acconeer AB,Technology,ACCON.ST,EQ,
-Inission AB Class B,Technology,INISS-B.ST,EQ,
-CTT Systems AB,Technology,CTT.ST,EQ,
-Enad Global 7 AB,Technology,EG7.ST,EQ,
-Clavister AB,Technology,CLAV.ST,EQ,
-Enea AB,Technology,ENEA.ST,EQ,
-FormPipe Software AB,Technology,FPIP.ST,EQ,
-SaltX Technology Holding AB Class B,Technology,SALT-B.ST,EQ,
-Carasent AB,Technology,CARA.ST,EQ,
-Micro Systemation AB Class B,Technology,MSAB-B.ST,EQ,
-Net Insight AB Class B,Technology,NETI-B.ST,EQ,
-Exsitec Holding AB,Technology,EXS.ST,EQ,
-Fjord Defence Group ASA,Technology,DFENSO.ST,EQ,
-Otello Corporation ASA,Technology,OTECO.ST,EQ,
-Scandinavian Astor Group AB,Technology,ASTOR.ST,EQ,
-Briox AB,Technology,BRIX.ST,EQ,
-Softronic AB Class B,Technology,SOF-B.ST,EQ,
-Safestate Group AB (publ),Technology,STATE.ST,EQ,
-AAC Clyde Space AB,Technology,AAC.ST,EQ,
-Firefly AB,Technology,FIRE.ST,EQ,
-Prevas AB Class B,Technology,PREV-B.ST,EQ,
-Advenica AB,Technology,ADVE.ST,EQ,
-Done.ai Group AB,Technology,DONE.ST,EQ,
-FREETRAILER GROUP A/S,Technology,FREETR.ST,EQ,
-Unibap Space Solutions AB,Technology,UNIBAP.ST,EQ,
-SinterCast AB,Technology,SINT.ST,EQ,
-C.A.G Group AB,Technology,CAG.ST,EQ,
-BIMobject AB,Technology,BIM.ST,EQ,
-Tobii AB,Technology,TOBII.ST,EQ,
-Adtraction Group AB,Technology,ADTR.ST,EQ,
-Careium AB,Technology,CARE.ST,EQ,
-TagMaster AB Class B,Technology,TAGM-B.ST,EQ,
-Obducat AB Pref Registered Shs B,Technology,OBDU.PREF.B.ST,EQ,
-Obducat AB Class B,Technology,OBDU.B.ST,EQ,
-InfraCom Group AB,Technology,INFRA.ST,EQ,
-Gapwaves AB Class B,Technology,GAPW-B.ST,EQ,
-Pricer AB Class B,Technology,PRIC-B.ST,EQ,
-Concejo AB Class B,Technology,CNCJO-B.ST,EQ,
-Skolon AB,Technology,SKOLON.ST,EQ,
-Envar Holding AB,Technology,ENVAR.ST,EQ,
-Novotek AB Class B,Technology,NTEK-B.ST,EQ,
-Sensys Gatso Group AB,Technology,SGG.ST,EQ,
-G5 Entertainment AB,Technology,G5EN.ST,EQ,
-Sleep Cycle AB,Technology,SLEEP.ST,EQ,
-Opter AB,Technology,OPTER.ST,EQ,
-StrongPoint ASA,Technology,STROO.ST,EQ,
-Oneflow AB,Technology,ONEF.ST,EQ,
-mySafety Group AB Class B,Technology,SAFETY-B.ST,EQ,
-SMOLTEK NANOTECH HOLDING AB,Technology,SMOL.ST,EQ,
-Hilbert Group AB Class B,Technology,HILB-B.ST,EQ,
-White Pearl Technology Group AB,Technology,WPTG-B.ST,EQ,
-Upsales Technology AB,Technology,UPSALE.ST,EQ,
-Fractal Gaming Group AB,Technology,FRACTL.ST,EQ,
-Elliptic Laboratories ASA,Technology,ELABSO.ST,EQ,
-Arribatec Group ASA,Technology,ARRO.ST,EQ,
-H100 Group AB,Technology,H100.ST,EQ,
-SUSTAINION GROUP AB,Technology,SUSG.ST,EQ,
-Waystream Group AB,Technology,WAYS.ST,EQ,
-Maven Wireless Sweden AB,Technology,MAVEN.ST,EQ,
-Terranet AB Class B,Technology,TERRNT-B.ST,EQ,
-KebNi AB Class B,Technology,KEBNI-B.ST,EQ,
-SolTech Energy Sweden AB,Technology,SOLT.ST,EQ,
-AVTECH Sweden AB,Technology,AVT-B.ST,EQ,
-Neovici Holding AB Class B,Technology,NEO-B.ST,EQ,
-K33 AB,Technology,K33.ST,EQ,
-Observit AB,Technology,OBSE.ST,EQ,
-ContextVision AB,Technology,CONTXO.ST,EQ,
-Byhmgard AB,Technology,BESS.ST,EQ,
-Nord Insuretech Group AB,Technology,NORDIG.ST,EQ,
-Binero Group AB,Technology,BINERO.ST,EQ,
-Litium AB,Technology,LITI.ST,EQ,
-Wyld Networks AB,Technology,WYLD.ST,EQ,
-Wyld Networks AB TEMP,Technology,WYLD-BTA.ST,EQ,
-Nodebis Applications AB,Technology,NODE.ST,EQ,
-B3 Consulting Group AB,Technology,B3.ST,EQ,
-Bambuser AB,Technology,BUSER.ST,EQ,
-Crunchfish AB,Technology,CFISH.ST,EQ,
-Transtema Group AB,Technology,TRANS.ST,EQ,
-Transtema Group AB TEMP,Technology,TRANS-BTA.ST,EQ,
-Acroud AB,Technology,ACROUD.ST,EQ,
-Codemill AB,Technology,CDMIL.ST,EQ,
-OPSY HOLDING AB,Technology,OPSYH.ST,EQ,
-MAG Interactive AB,Technology,MAGI.ST,EQ,
-Teneo AI AB Class B,Technology,TENEO.ST,EQ,
-InCoax Networks AB,Technology,INCOAX.ST,EQ,
-BPC INSTRUMENTS AB,Technology,BPCINS.ST,EQ,
-XER TECH HOLDING AB,Technology,XER.ST,EQ,
-Precio Fishbone AB Class B,Technology,PRCO-B.ST,EQ,
-EMB Mission Bound AB (publ),Technology,EMB.ST,EQ,
-DistIT AB,Technology,DIST.ST,EQ,
-Starbreeze AB Class A,Technology,STAR-A.ST,EQ,
-Starbreeze AB,Technology,STAR-B.ST,EQ,
-Nepa AB,Technology,NEPA.ST,EQ,
-Ortivus AB Class A,Technology,ORTI-A.ST,EQ,
-Ortivus AB Class B,Technology,ORTI-B.ST,EQ,
-Nowonomics AB,Technology,NOWO.ST,EQ,
-Precise Biometrics AB,Technology,PREC.ST,EQ,
-EmbeddedArt Group AB,Technology,EMART.ST,EQ,
-Safeture AB,Technology,SFTR.ST,EQ,
-Nosa Plugs AB,Technology,NOSA.ST,EQ,
-Physitrack Limited,Technology,PTRK.ST,EQ,
-Anoto Group AB,Technology,ANOT.ST,EQ,
-Klimator AB,Technology,KLIMAT.ST,EQ,
-Effnetplattformen Holding AB,Technology,EFFH.ST,EQ,
-Irisity AB,Technology,IRIS.ST,EQ,
-Westpay AB,Technology,WPAY.ST,EQ,
-AIXIA GROUP AB CLASS B,Technology,AIXIA.B.ST,EQ,
-Serstech AB,Technology,SERT.ST,EQ,
-Gaming Corps AB,Technology,GCOR.ST,EQ,
-Checkin.com Group AB,Technology,CHECK.ST,EQ,
-DevPort AB Class B,Technology,DEVP-B.ST,EQ,
-eEducation Albert AB,Technology,ALBERT.ST,EQ,
-Image Systems AB,Technology,IS.ST,EQ,
-Mediacle Group AB,Technology,MEGR.ST,EQ,
-AMIDO AB,Technology,AMIDO.ST,EQ,
-SpectraCure AB,Technology,SPEC.ST,EQ,
-Raketech Group Holding Plc,Technology,RAKE.ST,EQ,
-Kentima Holding AB Class B,Technology,KENH.ST,EQ,
-Flowscape Technology AB,Technology,FLOWS.ST,EQ,
-JonDeTech Sensors AB,Technology,JDT.ST,EQ,
-SpectrumOne AB,Technology,SPEONE.ST,EQ,
-Loyal Solutions A/S,Technology,LOYAL.ST,EQ,
-QBNK HOLDING AB,Technology,QBNK.ST,EQ,
-Realfiction Holding AB,Technology,REALFI.ST,EQ,
-BoMill AB,Technology,BOMILL.ST,EQ,
-BrightBid Group AB,Technology,BRIGHT.ST,EQ,
-SOUND DIMENSION AB,Technology,SOUND.ST,EQ,
-TOUCHTECH AB,Technology,TOUCH.ST,EQ,
-Synexo Group AB,Technology,SYNEXO.ST,EQ,
-JLT Mobile Computers AB,Technology,JLT.ST,EQ,
-XMReality AB,Technology,XMR.ST,EQ,
-Brilliant Future AB,Technology,BRILL.ST,EQ,
-Compodium International AB,Technology,COMPDM.ST,EQ,
-Fingerprint Cards AB Class B,Technology,FING-B.ST,EQ,
-ScandiDos AB,Technology,SDOS.ST,EQ,
-Nitro Games Plc,Technology,NITRO.ST,EQ,
-BEYOND FRAMES ENTERTAINMENT AB,Technology,BEYOND.ST,EQ,
-Fragbite Group AB,Technology,FRAG.ST,EQ,
-Thinc Collective AB,Technology,THINC.ST,EQ,
-Dlaboratory Sweden AB,Technology,DLAB.ST,EQ,
-VIDHANCE AB,Technology,VIDH.ST,EQ,
-Star Vault AB Class B,Technology,STVA.B.ST,EQ,
-MIRIS HOLDING AB,Technology,MIR.ST,EQ,
-COMINTELLI AB,Technology,COMINT.ST,EQ,
-Zaplox AB,Technology,ZAPLOX.ST,EQ,
-Perpetua Medical AB Class B,Technology,PERP-B.ST,EQ,
-SARSYS AB,Technology,SARS.ST,EQ,
-Goodbye Kansas Group AB,Technology,GBK.ST,EQ,
-ZENICOR MEDICAL SYSTEMS AB,Technology,ZENI.ST,EQ,
-Jumpgate AB,Technology,GATE.ST,EQ,
-LIGHTNING GROUP AB,Technology,LIGR.ST,EQ,
-Divio Technologies AB TEMP Class B,Technology,DIVIO-BTU-B.ST,EQ,
-Divio Technologies AB Class B,Technology,DIVIO-B.ST,EQ,
-Acenta Group AB,Technology,PADEL.ST,EQ,
-StoneBeach Group AB,Technology,SBG.ST,EQ,
-Adverty AB,Technology,ADVT.ST,EQ,
-Niutech Group AB,Technology,NIUTEC.ST,EQ,
-Diadrom Holding AB,Technology,DIAH.ST,EQ,
-Qiiwi Games AB,Technology,QIIWI.ST,EQ,
-Transiro Holding AB,Technology,TIRO.ST,EQ,
-OURLIVING AB,Technology,OURLIV.ST,EQ,
-Avsalt Group AB,Technology,AVSALT.ST,EQ,
-EXALT AB,Technology,EXALT.ST,EQ,
-Mantex AB,Technology,MANTEX.ST,EQ,
-Qbrick AB,Technology,QBRICK.ST,EQ,
-M.O.B.A. Network AB,Technology,MOBA.ST,EQ,
-EDYOUTEC AB,Technology,EDYOU.ST,EQ,
-Maximum Entertainment AB Class B,Technology,MAXENT-B.ST,EQ,
-Fram Skandinavien AB Class B,Technology,FRAM-B.ST,EQ,
-Safe Lane Gaming AB Class B,Technology,SLG.B.ST,EQ,
-TESSIN NORDIC HOLDING AB,Technology,TESSIN.ST,EQ,
-HOODIN AB,Technology,HOODIN.ST,EQ,
-Relevance Communication Nordic AB,Technology,RLVNC.ST,EQ,
-FSport AB,Technology,FSPORT.ST,EQ,
-LANE CAPITAL GROUP AB,Technology,LANE.B.ST,EQ,
-Insplorion AB,Technology,INSP.ST,EQ,
-Valuno Group AB,Technology,VALUNO.ST,EQ,
-Ecoclime Group AB Class B,Technology,ECC.B.ST,EQ,
-ODINWELL AB,Technology,ODIN.ST,EQ,
-Gamethrill AB,Technology,THRILL.ST,EQ,
-Spotr Group AB,Technology,SPOTR.ST,EQ,
-Gold Town Games AB,Technology,GTG.ST,EQ,
-FX INTERNATIONAL AB,Technology,FXI.ST,EQ,
-SOCIALLITE US AB,Technology,SOCIAL.ST,EQ,
-Free2move Holding AB,Technology,F2M.ST,EQ,
-PROVIDE IT SWEDEN AB,Technology,PROVIT.ST,EQ,
-Pixfam AB,Technology,PIXFAM.ST,EQ,
-RanLOS AB Class B,Technology,RLOS.B.ST,EQ,
-Qbim Aktiebolag,Technology,QBIM.ST,EQ,
-GiG Software PLC Shs Swedish Depository Receipt Repr 1 Sh,Technology,GIG-SDB.ST,EQ,
-Holdflight AB,Technology,HOLDFL.ST,EQ,
-General Oceans ASA,Technology,GENOO.ST,EQ,
-Octave Intelligence PLC Shs Swedish Depository Receipt Repr 1 Sh,Technology,OCTV-SDB.ST,EQ,
-MINDARK PE AB,Technology,MNDRK.ST,EQ,
-Kvix AB,Technology,KVIX.ST,EQ,
-MY BEAT AB,Technology,MYBEAT.ST,EQ,
-Silex Microsystems AB,Technology,SILEX.ST,EQ,
-Qlucore AB,Technology,QCORE.ST,EQ,
-Greenmerc AB Class B,Technology,GMERC.B.ST,EQ,
-Kinda Brave Entertainment Group AB,Technology,BRAVE.ST,EQ,
-Coffee Stain Group AB Class B,Technology,COFFEE-B.ST,EQ,
+Telefonaktiebolaget LM Ericsson Class B,Technology,ERIC_B.ST,EQ,SE0000108656
+Telefonaktiebolaget LM Ericsson Class A,Technology,ERIC_A.ST,EQ,SE0000108649
+Saab AB Class B,Technology,SAAB_B.ST,EQ,SE0021921269
+Hexagon AB Class B,Technology,HEXA_B.ST,EQ,SE0015961909
+Evolution AB,Technology,EVO.ST,EQ,SE0012673267
+Addtech AB Class B,Technology,ADDT_B.ST,EQ,SE0014781795
+Sectra AB Class B,Technology,SECT_B.ST,EQ,SE0022419784
+Lagercrantz Group AB Class B,Technology,LAGR_B.ST,EQ,SE0014990966
+Octave Intelligence PLC Shs Swedish Depository Receipt Repr 1 Sh,Technology,OCTV_SDB.ST,EQ,SE0028329433
+Sinch,Technology,SINCH.ST,EQ,SE0016101844
+Sivers Semiconductors AB,Technology,SIVE.ST,EQ,SE0003917798
+HMS Networks AB,Technology,HMS.ST,EQ,SE0009997018
+Hacksaw AB,Technology,HACK.ST,EQ,SE0025138357
+Modern Times Group MTG AB Class A,Technology,MTG_A.ST,EQ,SE0018012486
+Modern Times Group MTG AB Class B,Technology,MTG_B.ST,EQ,SE0018012494
+NCAB Group AB,Technology,NCAB.ST,EQ,SE0017160773
+Embracer Group AB Class B,Technology,EMBRAC_B.ST,EQ,SE0023615885
+Paradox Interactive AB,Technology,PDX.ST,EQ,SE0008294953
+Nolato AB Class B,Technology,NOLA_B.ST,EQ,SE0015962477
+PLEJD AB,Technology,PLEJD.ST,EQ,SE0008014476
+INVISIO AB,Technology,IVSO.ST,EQ,SE0001200015
+Vitec Software Group AB Class B,Technology,VIT_B.ST,EQ,SE0007871363
+Hexatronic Group AB,Technology,HTRO.ST,EQ,SE0018040677
+MilDef Group AB,Technology,MILDEF.ST,EQ,SE0016074249
+RaySearch Laboratories AB Class B,Technology,RAY_B.ST,EQ,SE0000135485
+Dynavox Group AB,Technology,DYVOX.ST,EQ,SE0017105620
+Hemnet Group,Technology,HEM.ST,EQ,SE0015671995
+Acast AB,Technology,ACAST.ST,EQ,SE0015960935
+Addnode Group AB Class B,Technology,ANOD_B.ST,EQ,SE0017885767
+NOTE AB,Technology,NOTE.ST,EQ,SE0001161654
+Ependion AB,Technology,EPEN.ST,EQ,SE0000671711
+Truecaller AB Class B,Technology,TRUE_B.ST,EQ,SE0016787071
+Proact IT Group AB,Technology,PACT.ST,EQ,SE0015961222
+Verve Group SE Class A,Technology,VER.ST,EQ,SE0018538068
+GomSpace Group AB,Technology,GOMX.ST,EQ,SE0008348304
+Lime Technologies AB,Technology,LIME.ST,EQ,SE0011870195
+SmartCraft Group AB (publ),Technology,SMCRT.ST,EQ,SE0027597691
+Stillfront Group AB,Technology,SF.ST,EQ,SE0015346135
+Cint Group AB,Technology,CINT.ST,EQ,SE0015483276
+Vertiseit AB Class B,Technology,VERT_B.ST,EQ,SE0012481133
+Inission AB Class B,Technology,INISS_B.ST,EQ,SE0016275069
+CTT Systems AB,Technology,CTT.ST,EQ,SE0000418923
+Clavister AB,Technology,CLAV.ST,EQ,SE0005308558
+SaltX Technology Holding AB Class B,Technology,SALT_B.ST,EQ,SE0005308541
+Lasernet Group AB,Technology,LASER.ST,EQ,SE0001338039
+Carasent AB,Technology,CARA.ST,EQ,SE0023261599
+Enea AB,Technology,ENEA.ST,EQ,SE0009697220
+Enad Global 7 AB,Technology,EG7.ST,EQ,SE0010520106
+Acconeer AB,Technology,ACCON.ST,EQ,SE0010546242
+Exsitec Holding AB,Technology,EXS.ST,EQ,SE0014035762
+Net Insight AB Class B,Technology,NETI_B.ST,EQ,SE0000366098
+Micro Systemation AB Class B,Technology,MSAB_B.ST,EQ,SE0000526626
+Scandinavian Astor Group AB,Technology,ASTOR.ST,EQ,SE0019175274
+Softronic AB Class B,Technology,SOF_B.ST,EQ,SE0000323305
+Briox AB,Technology,BRIX.ST,EQ,SE0008588131
+AAC Clyde Space AB,Technology,AAC.ST,EQ,SE0021020716
+Safestate Group AB (publ),Technology,STATE.ST,EQ,SE0019763988
+Firefly AB,Technology,FIRE.ST,EQ,SE0000395428
+Prevas AB Class B,Technology,PREV_B.ST,EQ,SE0000356008
+Advenica AB,Technology,ADVE.ST,EQ,SE0006219473
+Done.ai Group AB,Technology,DONE.ST,EQ,SE0010546911
+SinterCast AB,Technology,SINT.ST,EQ,SE0000950982
+C.A.G Group AB,Technology,CAG.ST,EQ,SE0011923341
+BIMobject AB,Technology,BIM.ST,EQ,SE0011644376
+Unibap Space Solutions AB,Technology,UNIBAP.ST,EQ,SE0009606809
+Adtraction Group AB,Technology,ADTR.ST,EQ,SE0016833149
+Careium AB,Technology,CARE.ST,EQ,SE0017131824
+TagMaster AB Class B,Technology,TAGM_B.ST,EQ,SE0015950399
+InfraCom Group AB,Technology,INFRA.ST,EQ,SE0010414573
+Skolon AB,Technology,SKOLON.ST,EQ,SE0017615784
+Novotek AB Class B,Technology,NTEK_B.ST,EQ,SE0000567752
+Concejo AB Class B,Technology,CNCJO_B.ST,EQ,SE0000236382
+Gapwaves AB Class B,Technology,GAPW_B.ST,EQ,SE0009155518
+Sensys Gatso Group AB,Technology,SGG.ST,EQ,SE0020356244
+Envar Holding AB,Technology,ENVAR.ST,EQ,SE0023134895
+Pricer AB Class B,Technology,PRIC_B.ST,EQ,SE0000233934
+Tobii AB,Technology,TOBII.ST,EQ,SE0002591420
+G5 Entertainment AB,Technology,G5EN.ST,EQ,SE0001824004
+SMOLTEK NANOTECH HOLDING AB,Technology,SMOL.ST,EQ,SE0010820381
+Sleep Cycle AB,Technology,SLEEP.ST,EQ,SE0015961404
+Obducat AB Pref Registered Shs B,Technology,OBDU.PREF.B.ST,EQ,SE0009357536
+Obducat AB Class B,Technology,OBDU.B.ST,EQ,SE0000514705
+Oneflow AB,Technology,ONEF.ST,EQ,SE0017564461
+Opter AB,Technology,OPTER.ST,EQ,SE0016829501
+mySafety Group AB Class B,Technology,SAFETY_B.ST,EQ,SE0010769182
+White Pearl Technology Group AB,Technology,WPTG_B.ST,EQ,SE0020203271
+Hilbert Group AB Class B,Technology,HILB_B.ST,EQ,SE0016278154
+H100 Group AB,Technology,H100.ST,EQ,SE0009580756
+Fractal Gaming Group AB,Technology,FRACTL.ST,EQ,SE0015504477
+Upsales Technology AB,Technology,UPSALE.ST,EQ,SE0011985514
+Waystream Group AB,Technology,WAYS.ST,EQ,SE0007577077
+SUSTAINION GROUP AB,Technology,SUSG.ST,EQ,SE0002067421
+Observit AB,Technology,OBSE.ST,EQ,SE0017911704
+KebNi AB Class B,Technology,KEBNI_B.ST,EQ,SE0012904803
+AVTECH Sweden AB,Technology,AVT_B.ST,EQ,SE0004270445
+Maven Wireless Sweden AB,Technology,MAVEN.ST,EQ,SE0015961180
+K33 AB,Technology,K33.ST,EQ,SE0007614722
+Byhmgard AB,Technology,BESS.ST,EQ,SE0023849583
+SolTech Energy Sweden AB,Technology,SOLT.ST,EQ,SE0005392537
+Terranet AB Class B,Technology,TERRNT_B.ST,EQ,SE0009806045
+ContextVision AB,Technology,CONTXO.ST,EQ,SE0014731154
+Nord Insuretech Group AB,Technology,NORDIG.ST,EQ,SE0013486255
+Neovici Holding AB Class B,Technology,NEO_B.ST,EQ,SE0016830038
+Binero Group AB,Technology,BINERO.ST,EQ,SE0005249570
+Nodebis Applications AB,Technology,NODE.ST,EQ,SE0020846392
+Litium AB,Technology,LITI.ST,EQ,SE0007387246
+B3 Consulting Group AB,Technology,B3.ST,EQ,SE0008347660
+Bambuser AB,Technology,BUSER.ST,EQ,SE0027099326
+Crunchfish AB,Technology,CFISH.ST,EQ,SE0009190192
+Codemill AB,Technology,CDMIL.ST,EQ,SE0013914819
+Transtema Group AB,Technology,TRANS.ST,EQ,SE0006758587
+Transtema Group AB TEMP,Technology,TRANS_BTA.ST,EQ,SE0028450569
+Teneo AI AB Class B,Technology,TENEO.ST,EQ,SE0018397184
+InCoax Networks AB,Technology,INCOAX.ST,EQ,SE0009832595
+MAG Interactive AB,Technology,MAGI.ST,EQ,SE0010520908
+BPC INSTRUMENTS AB,Technology,BPCINS.ST,EQ,SE0017130826
+Acroud AB,Technology,ACROUD.ST,EQ,SE0001863291
+Precio Fishbone AB Class B,Technology,PRCO_B.ST,EQ,SE0000141137
+Wyld Networks AB TEMP,Technology,WYLD_BTA.ST,EQ,SE0028900696
+Wyld Networks AB,Technology,WYLD.ST,EQ,SE0027099078
+EMB Mission Bound AB (publ),Technology,EMB.ST,EQ,SE0015797873
+OPSY HOLDING AB,Technology,OPSYH.ST,EQ,SE0025399199
+XER TECH HOLDING AB,Technology,XER.ST,EQ,SE0017768658
+Ortivus AB Class A,Technology,ORTI_A.ST,EQ,SE0000188930
+Ortivus AB Class B,Technology,ORTI_B.ST,EQ,SE0000123085
+EmbeddedArt Group AB,Technology,EMART.ST,EQ,SE0021924719
+Nepa AB,Technology,NEPA.ST,EQ,SE0008066302
+DistIT AB,Technology,DIST.ST,EQ,SE0003883800
+Starbreeze AB,Technology,STAR_B.ST,EQ,SE0005992831
+Starbreeze AB Class A,Technology,STAR_A.ST,EQ,SE0007158928
+Nowonomics AB,Technology,NOWO.ST,EQ,SE0015660840
+Safeture AB,Technology,SFTR.ST,EQ,SE0006117297
+Anoto Group AB,Technology,ANOT.ST,EQ,SE0010415281
+Nosa Plugs AB,Technology,NOSA.ST,EQ,SE0006994539
+Effnetplattformen Holding AB,Technology,EFFH.ST,EQ,SE0015987565
+AIXIA GROUP AB CLASS B,Technology,AIXIA.B.ST,EQ,SE0010636837
+Precise Biometrics AB,Technology,PREC.ST,EQ,SE0018013849
+Klimator AB,Technology,KLIMAT.ST,EQ,SE0014401329
+Westpay AB,Technology,WPAY.ST,EQ,SE0002169292
+Serstech AB,Technology,SERT.ST,EQ,SE0005365095
+Irisity AB,Technology,IRIS.ST,EQ,SE0005365681
+eEducation Albert AB,Technology,ALBERT.ST,EQ,SE0016797989
+DevPort AB Class B,Technology,DEVP_B.ST,EQ,SE0010546622
+Gaming Corps AB,Technology,GCOR.ST,EQ,SE0014694691
+AMIDO AB,Technology,AMIDO.ST,EQ,SE0013042108
+Checkin.com Group AB,Technology,CHECK.ST,EQ,SE0015810502
+Mediacle Group AB,Technology,MEGR.ST,EQ,SE0007705074
+Kentima Holding AB Class B,Technology,KENH.ST,EQ,SE0005100757
+Image Systems AB,Technology,IS.ST,EQ,SE0006421871
+Flowscape Technology AB,Technology,FLOWS.ST,EQ,SE0018042046
+SpectrumOne AB,Technology,SPEONE.ST,EQ,SE0006994448
+Realfiction Holding AB,Technology,REALFI.ST,EQ,SE0009920994
+JonDeTech Sensors AB,Technology,JDT.ST,EQ,SE0022240115
+SOUND DIMENSION AB,Technology,SOUND.ST,EQ,SE0016589063
+BoMill AB,Technology,BOMILL.ST,EQ,SE0014583332
+Synexo Group AB,Technology,SYNEXO.ST,EQ,SE0000619371
+TOUCHTECH AB,Technology,TOUCH.ST,EQ,SE0010414482
+BrightBid Group AB,Technology,BRIGHT.ST,EQ,SE0017937279
+QBNK HOLDING AB,Technology,QBNK.ST,EQ,SE0007278726
+BEYOND FRAMES ENTERTAINMENT AB,Technology,BEYOND.ST,EQ,SE0011614965
+JLT Mobile Computers AB,Technology,JLT.ST,EQ,SE0000725624
+Brilliant Future AB,Technology,BRILL.ST,EQ,SE0015811625
+Fingerprint Cards AB Class B,Technology,FING_B.ST,EQ,SE0026141665
+Maximum Entertainment AB Class B,Technology,MAXENT_B.ST,EQ,SE0011725506
+ScandiDos AB,Technology,SDOS.ST,EQ,SE0005768124
+XMReality AB,Technology,XMR.ST,EQ,SE0009664188
+Compodium International AB,Technology,COMPDM.ST,EQ,SE0022088233
+Fragbite Group AB,Technology,FRAG.ST,EQ,SE0023287347
+Dlaboratory Sweden AB,Technology,DLAB.ST,EQ,SE0015658380
+FSport AB,Technology,FSPORT.ST,EQ,SE0016288641
+Thinc Collective AB,Technology,THINC.ST,EQ,SE0020358281
+M.O.B.A. Network AB,Technology,MOBA.ST,EQ,SE0016277909
+Star Vault AB Class B,Technology,STVA.B.ST,EQ,SE0002149369
+VIDHANCE AB,Technology,VIDH.ST,EQ,SE0021309937
+MIRIS HOLDING AB,Technology,MIR.ST,EQ,SE0026821373
+Perpetua Medical AB Class B,Technology,PERP_B.ST,EQ,SE0022726311
+Zaplox AB,Technology,ZAPLOX.ST,EQ,SE0020354389
+Holdflight AB,Technology,HOLDFL.ST,EQ,SE0007525738
+SpectraCure AB,Technology,SPEC.ST,EQ,SE0007158118
+SARSYS AB,Technology,SARS.ST,EQ,SE0009320294
+Jumpgate AB,Technology,GATE.ST,EQ,SE0023113154
+Goodbye Kansas Group AB,Technology,GBK.ST,EQ,SE0021627353
+ZENICOR MEDICAL SYSTEMS AB,Technology,ZENI.ST,EQ,SE0006343984
+Valuno Group AB,Technology,VALUNO.ST,EQ,SE0010662585
+Niutech Group AB,Technology,NIUTEC.ST,EQ,SE0016609911
+Divio Technologies AB Class B,Technology,DIVIO_B.ST,EQ,SE0011311554
+StoneBeach Group AB,Technology,SBG.ST,EQ,SE0014829495
+Diadrom Holding AB,Technology,DIAH.ST,EQ,SE0001606906
+Acenta Group AB,Technology,PADEL.ST,EQ,SE0024173728
+LIGHTNING GROUP AB,Technology,LIGR.ST,EQ,SE0007980362
+EDYOUTEC AB,Technology,EDYOU.ST,EQ,SE0015811377
+Qiiwi Games AB,Technology,QIIWI.ST,EQ,SE0010245373
+Transiro Holding AB,Technology,TIRO.ST,EQ,SE0009242027
+Ranplan Group AB,Technology,RPLAN.ST,EQ,SE0011178201
+OURLIVING AB,Technology,OURLIV.ST,EQ,SE0009606593
+Adverty AB,Technology,ADVT.ST,EQ,SE0011724889
+Mantex AB,Technology,MANTEX.ST,EQ,SE0023467451
+EXALT AB,Technology,EXALT.ST,EQ,SE0005223542
+Avsalt Group AB,Technology,AVSALT.ST,EQ,SE0022242681
+Gold Town Games AB,Technology,GTG.ST,EQ,SE0026876179
+HOODIN AB,Technology,HOODIN.ST,EQ,SE0011415249
+Safe Lane Gaming AB Class B,Technology,SLG.B.ST,EQ,SE0020552297
+Fram Skandinavien AB Class B,Technology,FRAM_B.ST,EQ,SE0010296269
+TESSIN NORDIC HOLDING AB,Technology,TESSIN.ST,EQ,SE0027598145
+Qbrick AB,Technology,QBRICK.ST,EQ,SE0015962105
+Relevance Communication Nordic AB,Technology,RLVNC.ST,EQ,SE0009889934
+LANE CAPITAL GROUP AB,Technology,LANE.B.ST,EQ,SE0027301763
+Insplorion AB,Technology,INSP.ST,EQ,SE0006994943
+ODINWELL AB,Technology,ODIN.ST,EQ,SE0015809967
+Spotr Group AB,Technology,SPOTR.ST,EQ,SE0025166416
+Gamethrill AB,Technology,THRILL.ST,EQ,SE0010820191
+FX INTERNATIONAL AB,Technology,FXI.ST,EQ,SE0003787555
+Ecoclime Group AB Class B,Technology,ECC.B.ST,EQ,SE0012729937
+SOCIALLITE US AB,Technology,SOCIAL.ST,EQ,SE0020824373
+Free2move Holding AB,Technology,F2M.ST,EQ,SE0011414283
+PROVIDE IT SWEDEN AB,Technology,PROVIT.ST,EQ,SE0008321418
+36 Group AB,Technology,36GRP.ST,EQ,SE0023468194
+Pixfam AB,Technology,PIXFAM.ST,EQ,SE0016275333
+Coffee Stain Group AB Class B,Technology,COFFEE_B.ST,EQ,SE0026599557
+RanLOS AB Class B,Technology,RLOS.B.ST,EQ,SE0019762147
+Qlucore AB,Technology,QCORE.ST,EQ,SE0016829824
+MY BEAT AB,Technology,MYBEAT.ST,EQ,SE0023440763
+Silex Microsystems AB,Technology,SILEX.ST,EQ,SE0028000190
+Kvix AB,Technology,KVIX.ST,EQ,SE0016610083
+Greenmerc AB Class B,Technology,GMERC.B.ST,EQ,SE0022087680
+Qbim Aktiebolag,Technology,QBIM.ST,EQ,SE0025667009
+MINDARK PE AB,Technology,MNDRK.ST,EQ,SE0019354358
+GiG Software PLC Shs Swedish Depository Receipt Repr 1 Sh,Technology,GIG_SDB.ST,EQ,SE0022760229
+Kinda Brave Entertainment Group AB,Technology,BRAVE.ST,EQ,SE0021921822
+Ericsson,Technology,ERIC-B.ST,EQ,
+Hexagon AB,Technology,HEXA-B.ST,EQ,
+Embracer Group,Technology,EMBRAC-B.ST,EQ,
+Truecaller,Technology,TRUE-B.ST,EQ,

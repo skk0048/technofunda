@@ -1,29 +1,65 @@
 Company Name,Industry,Symbol,Series,ISIN Code
+Coca-Cola Company Shs -CAD hedged- Canadian Depositary Receipt Repr Shs Reg S,Consumer Staples,COLA.TO,EQ,CA19123A1093
+Procter & Gamble Company Shs Sponsored canadian Depositary Receipt Repr Sh,Consumer Staples,PG.TO,EQ,CA74276N1015
+LVMH Moet Hennessy Louis Vuitton SE Shs Unsponsored Canadian Depository Receipt Hedged,Consumer Staples,LV.NE,EQ,CA50244Q1037
+LVMH Moet Hennessy Louis Vuitton SE Shs Unsponsored Canadian Depository Receipt Hedged Reg S,Consumer Staples,LVMH.TO,EQ,CA50244E1007
+Philip Morris International Inc. Unsponsored Canadian Depository Receipt Hedged Reg S,Consumer Staples,ZYNS.TO,EQ,CA7183911055
+Nestle S.A CAD Hedged CIBC CDR,Consumer Staples,NSTL.TO,EQ,CA64108U1003
+Nestle S.A. Shs Canadian Depositary Receipt Repr 1 Shs Reg S,Consumer Staples,NEST.NE,EQ,CA6410701073
+L'Oreal S.A. Shs Unsponsored Canadian Depository Receipt Hedged Reg S,Consumer Staples,LOR.NE,EQ,CA50214N1069
+L'Oreal S.A. Shs Unsponsored Canadian Depository Receipt Hedged Reg,Consumer Staples,LORL.TO,EQ,CA50214W1068
+Hermes International S.A. Shs Unsponsored Canadian Depository Receipt Hedged Reg S,Consumer Staples,HERM.NE,EQ,CA42751V1040
+Hermes International S.A. Shs Unsponsored Canadian Depository Receipt Hedged,Consumer Staples,HRMS.TO,EQ,CA42751W1023
+PepsiCo  Inc. Shs Unsponsored Canadian Depository Receipt Hedged Reg S,Consumer Staples,PEP.TO,EQ,CA71344A1030
+NIKE  Inc. Shs B -CAD hedged- Canadian Depositary Receipt Repr Shs B Reg S,Consumer Staples,NKE.TO,EQ,CA65410W1068
+Loblaw Companies Limited,Consumer Staples,L.TO,EQ,CA5394811015
+Heineken NV Shs Unsponsored Canadian Depository Receipt Hedged Reg S,Consumer Staples,HEIA.NE,EQ,CA4230061059
+Dollarama Inc.,Consumer Staples,DOL.TO,EQ,CA25675T1075
+adidas AG Shs Sponsored Canadian Depository Receipt Hedged Reg S,Consumer Staples,ADI.NE,EQ,CA0069281057
+George Weston Limited,Consumer Staples,WN.TO,EQ,CA9611485090
+Constellation Brands  Inc. Shs Unsponsored Canadian Depoitary Receipt Hedged Reg S,Consumer Staples,STZ.TO,EQ,CA21036D1050
+lululemon athletica inc. Shs Unsponsored Canadian Depository Receipt Hedged Reg S,Consumer Staples,ZLUL.NE,EQ,CA55002J1003
+lululemon athletica inc. Shs Unsponsored Canadian Depoitary Receipt Hedged Reg S,Consumer Staples,LULU.TO,EQ,CA5499211046
+Metro Inc.,Consumer Staples,MRU.TO,EQ,CA59162N1096
 Saputo Inc.,Consumer Staples,SAP.TO,EQ,CA8029121057
-Gildan Activewear Inc.,Consumer Staples,GIL.TO,EQ,CA3759161035
-Molson Coors Canada Inc. Class B,Consumer Staples,TPX-B.TO,EQ,CA6087112067
-Molson Coors Canada Inc. Class A,Consumer Staples,TPX-A.TO,EQ,CA6087111077
-Lassonde Industries Inc. Class A,Consumer Staples,LAS-A.TO,EQ,CA5179071017
-Canada Goose Holdings Inc.,Consumer Staples,GOOS.TO,EQ,CA1350861060
+Molson Coors Canada Inc. Class B,Consumer Staples,TPX.B.TO,EQ,CA6087112067
+Molson Coors Canada Inc. Class A,Consumer Staples,TPX.A.TO,EQ,CA6087111077
+Premium Brands Holdings Corporation,Consumer Staples,PBH.TO,EQ,CA74061A1084
+Maple Leaf Foods Inc.,Consumer Staples,MFI.TO,EQ,CA5649051078
+North West Company Inc.,Consumer Staples,NWC.TO,EQ,CA6632782083
+Jamieson Wellness Inc.,Consumer Staples,JWEL.TO,EQ,CA4707481046
+Lassonde Industries  Inc. Class A,Consumer Staples,LAS.A.TO,EQ,CA5179071017
+Canada Goose Holdings  Inc.,Consumer Staples,GOOS.TO,EQ,CA1350861060
+AGT Food and Ingredients Inc,Consumer Staples,AGTF.TO,EQ,CA0012643080
 Canada Packers Inc.,Consumer Staples,CPKR.TO,EQ,CA1351801073
-Corby Spirit and Wine Limited Class B,Consumer Staples,CSW-B.TO,EQ,CA2183492073
-Corby Spirit and Wine Limited Class A,Consumer Staples,CSW-A.TO,EQ,CA2183491083
+Corby Spirit and Wine Limited Class B,Consumer Staples,CSW.B.TO,EQ,CA2183492073
+Corby Spirit and Wine Limited Class A,Consumer Staples,CSW.A.TO,EQ,CA2183491083
 High Liner Foods Incorporated,Consumer Staples,HLF.TO,EQ,CA4296951094
-Andrew Peller Limited Class A,Consumer Staples,ADW-A.TO,EQ,CA03444Q1000
-Andrew Peller Limited Class B,Consumer Staples,ADW-B.TO,EQ,CA03444Q2099
+Andrew Peller Limited Class A,Consumer Staples,ADW.A.TO,EQ,CA03444Q1000
+Andrew Peller Limited Class B,Consumer Staples,ADW.B.TO,EQ,CA03444Q2099
+Happy Belly Food Group Inc,Consumer Staples,HBFG.NE,EQ,CA41138T1057
 Roots Corp.,Consumer Staples,ROOT.TO,EQ,CA7766521099
-KP Tissue Inc.,Consumer Staples,KPT.TO,EQ,CA48265Y1043
-iFabric Corp.,Consumer Staples,IFA.TO,EQ,CA45172X2032
 GURU Organic Energy Corp,Consumer Staples,GURU.TO,EQ,CA36260M1005
+KP Tissue  Inc.,Consumer Staples,KPT.TO,EQ,CA48265Y1043
+iFabric Corp.,Consumer Staples,IFA.TO,EQ,CA45172X2032
 Supremex Inc.,Consumer Staples,SXP.TO,EQ,CA86863R1055
 Unisync Corp.,Consumer Staples,UNI.TO,EQ,CA90922H2072
 Fresh Factory B.C. Ltd.,Consumer Staples,FRSH.V,EQ,CA35805H1055
 DAVIDsTEA Inc.,Consumer Staples,DTEA.V,EQ,CA2386611024
 Big Rock Brewery Inc.,Consumer Staples,BR.TO,EQ,CA08947P1036
-Diamond Estates Wines & Spirits Inc.,Consumer Staples,DWS.V,EQ,CA2525938015
+Inturai Ventures Corp.,Consumer Staples,URAI.NE,EQ,CA46125N1024
+Diamond Estates Wines & Spirits  Inc.,Consumer Staples,DWS.V,EQ,CA2525938015
 WestBond Enterprises Corporation,Consumer Staples,WBE.V,EQ,CA95712L1022
+Harrys Manufacturing  Inc.,Consumer Staples,HARY.CN,EQ,CA4158651048
 Mercanto Holdings Inc,Consumer Staples,MUSH.V,EQ,CA58757P1071
 One Bullion Limited,Consumer Staples,OBUL.V,EQ,CA68237J2092
-Plantify Foods Inc,Consumer Staples,PTFY.V,EQ,CA72749H2063
+Vanta Holdings Inc.,Consumer Staples,VNTA.CN,EQ,CA92214C1023
+Beckett's Inc.,Consumer Staples,BKTS.CN,EQ,CA07568L1022
+Ramm Pharma Corp,Consumer Staples,RAMM.CN,EQ,CA75150G1046
+Tokenwell Platforms Inc.,Consumer Staples,TWEL.NE,EQ,CA88909Q1090
 Canyon Creek Food Company Ltd.,Consumer Staples,CYF.V,EQ,CA1389081086
-AGT Food and Ingredients Inc,Consumer Staples,AGTF.TO,EQ,CA0012643080
+Ovation Science  Inc.,Consumer Staples,OVAT.CN,EQ,CA69016D1087
+Zoglo's Food Corp,Consumer Staples,ZOG.X.CN,EQ,CA98979D2014
+Yumy Candy Company Inc.,Consumer Staples,TYUM.CN,EQ,CA98873A2048
+CENTR Brands Corp.,Consumer Staples,CNTR.CN,EQ,CA15234A4000
+Cizzle Brands Corporation,Consumer Staples,CZZL.NE,EQ,CA17888V1022

@@ -26,13 +26,13 @@ else:
 
 STOCK_CSV = os.path.join(INDEX_DATA_DIR, "de_all_stocks_master.csv")
 
-MAX_STOCKS        = 500
-PERIOD_DAYS       = 504
+MAX_STOCKS        = 1000
+PERIOD_DAYS       = 600
 ENABLE_PATTERNS   = True
 PATTERN_MAX       = 300
 FETCH_FINANCIALS  = True
 ENABLE_SIGNALS    = True
-SIGNAL_MAX_STOCKS = 500
+SIGNAL_MAX_STOCKS = 1000
 PRIMARY_RS_PERIOD = 22
 
 
@@ -64,8 +64,8 @@ except Exception:
 #  CANADA MARKET CONFIG
 # ─────────────────────────────────────────────────────────────────────────────
 
-DE_INDEX          = "EXS1.DE"      # Country benchmark ETF (USD-denominated where applicable)
-DE_INDEX_FALLBACK = "^GDAXI"     # Local index fallback
+DE_INDEX          = "^GDAXI"      # Country benchmark ETF (USD-denominated where applicable)
+DE_INDEX_FALLBACK = "EXS1.DE"     # Local index fallback
 
 # Germany sector ETFs — iShares STOXX Europe 600 sector ETFs (.DE suffix on XETRA)
 # Keys use GICS standard names matching DE_INDUSTRY_TO_SECTOR values.
@@ -182,7 +182,8 @@ def load_de_universe():
     df["Yahoo"] = df["Symbol"].apply(lambda s: ensure_yahoo_suffix(s, "DE"))
     df["Company"]  = df.get("Company Name", df["Symbol"])
     df["Industry"] = df.get("Industry", "").astype(str).fillna("").str.strip()
-    df["Sector"]   = df["Industry"].map(DE_INDUSTRY_TO_SECTOR).fillna("Other")
+    df["Sector"]   = df["Industry"].map(DE_INDUSTRY_TO_SECTOR).fillna(df["Industry"])
+    df["Sector"]   = df["Sector"].replace("", "Other").fillna("Other")
     print(f"  ✅ Germany Universe: {len(df)} stocks loaded")
     return df.reset_index(drop=True)
 

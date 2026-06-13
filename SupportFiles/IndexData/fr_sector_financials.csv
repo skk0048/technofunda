@@ -1,96 +1,53 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-BNP Paribas S.A. Class A,Financials,BNP.PA,EQ,
-AXA SA,Financials,CS.PA,EQ,
-Credit Agricole SA,Financials,ACA.PA,EQ,
-Societe Generale S.A. Class A,Financials,GLE.PA,EQ,
-Amundi SA,Financials,AMUN.PA,EQ,
-Euronext NV,Financials,ENX.PA,EQ,
-Unibail-Rodamco-Westfield SE Stapled Secs Cons of 1 Sh Unibail Rodamco + 1 Sh WFD Unib Rod,Financials,URW.PA,EQ,
-SEGRO plc,Financials,SGRO.PA,EQ,
-Klepierre SA,Financials,LI.PA,EQ,
-Ayvens,Financials,AYV.PA,EQ,
-Covivio SA,Financials,COV.PA,EQ,
-SCOR SE,Financials,SCR.PA,EQ,
-Gecina SA,Financials,GFC.PA,EQ,
-Covivio Hotels SCA,Financials,COVH.PA,EQ,
-Wendel SE,Financials,MF.PA,EQ,
-Tikehau Capital SCA,Financials,TKO.PA,EQ,
-Eurazeo SE,Financials,RF.PA,EQ,
-Financiere Moncey,Financials,FMONC.PA,EQ,
-Altarea SCA,Financials,ALTA.PA,EQ,
-Coface SA,Financials,COFA.PA,EQ,
-Antin Infrastructure Partners,Financials,ANTIN.PA,EQ,
-Icade SA,Financials,ICAD.PA,EQ,
-Argan,Financials,ARG.PA,EQ,
-Peugeot Invest SA,Financials,PEUG.PA,EQ,
-Frey SA,Financials,FREY.PA,EQ,
-Viel & Cie SA,Financials,VIL.PA,EQ,
-Societe de la Tour Eiffel SA,Financials,EIFF.PA,EQ,
-Mercialys SA,Financials,MERY.PA,EQ,
-Altareit,Financials,AREIT.PA,EQ,
-Caisse Regionale de Credit Agricole Mutuel de Paris et d'Ile-de-France Cert.Coop.d'Invest.,Financials,CAF.PA,EQ,
-Montepino Logistica SOCIMI SA,Financials,MLMTP.PA,EQ,
-CFM Indosuez Wealth SA,Financials,MLCFM.PA,EQ,
-Bassac SA,Financials,BASS.PA,EQ,
-Caisse Regionale de Credit Agricole Mutuel Brie Picardie Cert. Coop. d'invest.,Financials,CRBP2.PA,EQ,
-Caisse Regionale de Credit Agricole Mutuel Nord de France Cert.Coop.d'Inv.,Financials,CNDF.PA,EQ,
-Institut de Developpement Industriel SCA,Financials,IDIP.PA,EQ,
-Nexity SA,Financials,NXI.PA,EQ,
-Patrimoine et Commerce,Financials,PAT.PA,EQ,
-Fiducial Real Estate SA,Financials,ORIA.PA,EQ,
-Immobiliere Dassault SA,Financials,IMDA.PA,EQ,
-Selectirente SA,Financials,SELER.PA,EQ,
-Fonciere INEA,Financials,INEA.PA,EQ,
-ABC arbitrage SA,Financials,ABCA.PA,EQ,
-Caisse Regionale de Credit Agricole Mutuel d'Ille-et-Vilaine Cert.coop.d'invt.,Financials,CIV.PA,EQ,
-Bourse Direct SA,Financials,BSD.PA,EQ,
-Caisse Regionale de Credit Agricole Mutuel Atlantique Vendee Cert.Coop.d'Inv.,Financials,CRAV.PA,EQ,
-CRCAM du Morbihan,Financials,CMO.PA,EQ,
-Caisse Regionale de Credit Agricole Mutuel Toulouse 31 Cert.Coop.d'Invest. Em.janv.88,Financials,CAT31.PA,EQ,
-Caisse Regionale de Credit Agricole Mutuel de Normandie Seine Cert.Coop.d'invt.,Financials,CCN.PA,EQ,
-Caisse Regionale de Credit Agricole Mutuel du Languedoc Cert.Coop.d'invt.,Financials,CRLA.PA,EQ,
-Atland SA,Financials,ATLD.PA,EQ,
-CRCAM de Sud Rhone-Alpes,Financials,CRSU.PA,EQ,
-Caisse Regionale de Credit Agricole Mutuel de la Touraine et du Poitou Cert.Coop.d'Invt.,Financials,CRTO.PA,EQ,
-CBo Territoria SA,Financials,CBOT.PA,EQ,
-Societe Centrale des Bois et Scieries de la Manche,Financials,CBSM.PA,EQ,
-Caisse Regionale de Credit Agricole Mutuel Loire Haute-Loire Cert.coop.d'invest.,Financials,CRLO.PA,EQ,
-Bleecker S.A.,Financials,BLEE.PA,EQ,
-FirstCaution SA,Financials,MLFIR.PA,EQ,
-Caisse Regionale De Credit Agricole Mutuel Alpes Provence CERT.COOP.D'INVEST.,Financials,CRAP.PA,EQ,
-Compagnie Lebon SA,Financials,ALBON.PA,EQ,
-Fonciere Volta SA,Financials,SPEL.PA,EQ,
-Crosswood SA,Financials,CROS.PA,EQ,
-Vitura SA,Financials,VTR.PA,EQ,
-ABL Diagnostics SA,Financials,ABLD.PA,EQ,
-TBSO,Financials,TBSO.PA,EQ,
-Paref SA,Financials,PAR.PA,EQ,
-Acanthe Developpement SA,Financials,ACAN.PA,EQ,
-Rebirth S.P.A.,Financials,ALREB.PA,EQ,
-Odyssee Technologies,Financials,ALODY.PA,EQ,
-Uniti SA,Financials,ALUNT.PA,EQ,
-FINANCIERE MARJOS SA,Financials,FINM.PA,EQ,
-Audacia SA,Financials,ALAUD.PA,EQ,
-Touax SA,Financials,ALTOU.PA,EQ,
-Artea SA,Financials,ARTE.PA,EQ,
+BNP Paribas SA,Financials,BNP.PA,EQ,FR0000131104
+AXA SA,Financials,CS.PA,EQ,FR0000120628
+Credit Agricole SA,Financials,ACA.PA,EQ,FR0000045072
+Societe Generale SA,Financials,GLE.PA,EQ,FR0000130809
+Amundi SA,Financials,AMUN.PA,EQ,FR0004125920
+Compagnie du Cambodge,Financials,CBDG.PA,EQ,FR001400SUB7
+SCOR SE,Financials,SCR.PA,EQ,FR0010411983
+Wendel SE,Financials,MF.PA,EQ,FR0000121204
+Tikehau Capital SCA,Financials,TKO.PA,EQ,FR0013230612
+Eurazeo SE,Financials,RF.PA,EQ,FR0000121121
+Financière Moncey Société anonyme,Financials,FMONC.PA,EQ,FR001400SU99
+Coface SA,Financials,COFA.PA,EQ,FR0010667147
+Antin Infrastructure Partners S.A.,Financials,ANTIN.PA,EQ,FR0014005AL0
+Peugeot Invest Société anonyme,Financials,PEUG.PA,EQ,FR0000064784
+VIEL & Cie  société anonyme,Financials,VIL.PA,EQ,FR0000050049
+Caisse Régionale de Crédit Agricole Mutuel de Paris et d'Ile-de-France,Financials,CAF.PA,EQ,FR0000045528
+Caisse Régionale de Crédit Agricole Mutuel Brie Picardie Société coopérative,Financials,CRBP2.PA,EQ,FR0010483768
+Caisse Régionale de Crédit Agricole Mutuel Nord de France Société coopérative,Financials,CNDF.PA,EQ,FR0000185514
+IDI,Financials,IDIP.PA,EQ,FR0000051393
+ABC arbitrage SA,Financials,ABCA.PA,EQ,FR0004040608
+Caisse régionale de Crédit Agricole Mutuel d'Ille-et-Vilaine Société coopérative,Financials,CIV.PA,EQ,FR0000045213
+Bourse Direct SA,Financials,BSD.PA,EQ,FR0000074254
+Caisse régionale de Crédit Agricole Mutuel Atlantique Vendée,Financials,CRAV.PA,EQ,FR0000185506
+Caisse Regionale de Credit Agricole Mutuel Toulouse 31,Financials,CAT31.PA,EQ,FR0000045544
+Caisse Régionale de Crédit Agricole du Morbihan,Financials,CMO.PA,EQ,FR0000045551
+SFPI SA,Financials,SFPI.PA,EQ,FR0004155000
+Caisse Régionale de Crédit Agricole Mutuel de Normandie-Seine Société coopérative,Financials,CCN.PA,EQ,FR0000044364
+Caisse Régionale de Crédit Agricole Mutuel du Languedoc Société coopérative,Financials,CRLA.PA,EQ,FR0010461053
+Caisse Régionale de Crédit Agricole Mutuel Sud Rhône Alpes,Financials,CRSU.PA,EQ,FR0000045346
+Caisse Régionale de Crédit Agricole Mutuel de la Touraine et du Poitou Société Coopérative,Financials,CRTO.PA,EQ,FR0000045304
+Caisse Régionale de Crédit Agricole Mutuel Loire Haute-Loire Société coopérative,Financials,CRLO.PA,EQ,FR0000045239
+Caisse Régionale de Crédit Agricole Mutuel Alpes Provence Société coopérative,Financials,CRAP.PA,EQ,FR0000044323
+Compagnie Lebon,Financials,ALBON.PA,EQ,FR0000121295
+Fonciere Volta SA,Financials,SPEL.PA,EQ,FR0000053944
+Vaziva Société anonyme,Financials,ALVAZ.PA,EQ,FR0014007T10
+TBSO,Financials,TBSO.PA,EQ,FR0000063307
+Audacia SA,Financials,ALAUD.PA,EQ,FR00140059B5
+Crypto Blockchain Industries,Financials,ALCBI.PA,EQ,FR0014007LW0
+Electricité et Eaux de Madagascar Société Anonyme,Financials,EEM.PA,EQ,FR0000035719
+Euroland Corporate Société anonyme,Financials,ALERO.PA,EQ,FR0010157115
+Courtois SA,Financials,COUR.PA,EQ,FR0000065393
+Financiere Hoche Bains-Les-Bains SA,Financials,MLHBB.PA,EQ,FR0000051302
+Eduform'action Société Anonyme,Financials,MLEFA.PA,EQ,FR0010882886
+One Experience Société anonyme,Financials,ALEXP.PA,EQ,FR0013266772
+Transition Evergreen SA,Financials,EGR.PA,EQ,FR0000035784
+Altamir Ord,Financials,LTA.PA,EQ,FR0000053837
+Euronext N.V.,Financials,ENX.PA,EQ,
+YOUNITED FINANCIAL,Financials,YOUNI.PA,EQ,
+Firstcaution SA,Financials,MLFIR.PA,EQ,
 Hamilton Global Opportunities PLC,Financials,ALHGO.PA,EQ,
-Hunyvers,Financials,ALHUN.PA,EQ,
-Innovative-RFK SpA,Financials,MLIRF.PA,EQ,
-Stradim-Espace Finances SA,Financials,ALSAS.PA,EQ,
-Electricite et Eaux de Madagascar SA,Financials,EEM.PA,EQ,
 Photonike Capital SA,Financials,MLPHO.PA,EQ,
-Courbet Heritage,Financials,MLCOU.PA,EQ,
-The Azur Selection SA,Financials,MLAZR.PA,EQ,
-EuroLand Corporate SA,Financials,ALERO.PA,EQ,
-Courtois SA,Financials,COUR.PA,EQ,
-Financiere Hoche Bains-Les-Bains,Financials,MLHBB.PA,EQ,
-Alliance Developpement Capital SIIC,Financials,ALDV.PA,EQ,
-EDUFORM'ACTION,Financials,MLEFA.PA,EQ,
-NR21 SA,Financials,NR21.PA,EQ,
-Realites SCA,Financials,ALREA.PA,EQ,
-MyHotelMatch S.A.,Financials,MHM.PA,EQ,
-Adomos SA,Financials,ALADO.PA,EQ,
-Rising Stone SA,Financials,ALRIS.PA,EQ,
-Compagnie Financiere de l'Ouest Africain,Financials,FOAF.PA,EQ,
-Methanor SCA,Financials,ALMET.PA,EQ,
-Younited Financial S.A.,Financials,YOUNI.PA,EQ,
+Gentlemen's Equity S.A.,Financials,MLGEQ.PA,EQ,

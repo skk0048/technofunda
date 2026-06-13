@@ -1,27 +1,70 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-SAP SE,Technology,SAP.DE,EQ,
-Siemens Energy AG,Technology,ENR.DE,EQ,
-Aixtron SE,Technology,AIXA.DE,EQ,
-Bechtle AG,Technology,BC8.DE,EQ,
-Cancom SE,Technology,COK.DE,EQ,
-Compugroup Medical SE & Co. KGaA,Technology,COP.DE,EQ,
-Jenoptik AG,Technology,JEN.DE,EQ,
-Nemetschek SE,Technology,NEM.DE,EQ,
-Osram Licht AG,Technology,OSR.DE,EQ,
-Scout24 SE,Technology,G24.DE,EQ,
-Siltronic AG,Technology,WAF.DE,EQ,
-Software AG,Technology,SOW.DE,EQ,
-TeamViewer SE,Technology,TMV.DE,EQ,
-Varta AG,Technology,VAR1.DE,EQ,
-Atoss Software SE,Technology,AOF.DE,EQ,
-Elmos Semiconductor SE,Technology,ELG.DE,EQ,
-Fabasoft AG,Technology,FAB.DE,EQ,
-Intershop Communications AG,Technology,ISH2.DE,EQ,
-Itelligence AG,Technology,ILI.DE,EQ,
-Kontron AG,Technology,KTN.DE,EQ,
-Mensch und Maschine Software SE,Technology,MUM.DE,EQ,
-Nagarro SE,Technology,NA9.DE,EQ,
-NewWork SE,Technology,NEW.DE,EQ,
-PSI Software AG,Technology,PSAN.DE,EQ,
-Süss MicroTec SE,Technology,SMHN.DE,EQ,
-YOC AG,Technology,YOC.DE,EQ,
+SAP SE,Technology,SAP.DE,EQ,DE0007164600
+Siemens Energy AG,Technology,ENR.DE,EQ,DE000ENER6Y0
+MTU Aero Engines AG,Technology,A0D9PT.DE,EQ,DE000A0D9PT0
+HENSOLDT AG,Technology,HAG000.DE,EQ,DE000HAG0005
+Aixtron SE,Technology,AIXA.DE,EQ,DE000A0WMPJ6
+Nemetschek SE,Technology,NEM.DE,EQ,DE0006452907
+Scout24 SE,Technology,G24.DE,EQ,DE000A12DM80
+Scout24 SE,Technology,A12DM8.DE,EQ,DE000A12DM80
+AUTO1 Group SE,Technology,A2LQ88.DE,EQ,DE000A2LQ884
+RENK Group AG,Technology,RENK73.DE,EQ,DE000RENK730
+Bechtle AG,Technology,BC8.DE,EQ,DE0005158703
+IONOS Group SE,Technology,IOS.DE,EQ,DE000A3E00M1
+IONOS Group SE,Technology,A3E00M.DE,EQ,DE000A3E00M1
+Elmos Semiconductor SE,Technology,ELG.DE,EQ,DE0005677108
+Siltronic AG,Technology,WAF.DE,EQ,DE000WAF3001
+Siltronic AG,Technology,WAF300.DE,EQ,DE000WAF3001
+Jenoptik AG,Technology,A2NB60.DE,EQ,DE000A2NB601
+Jenoptik AG,Technology,JEN.DE,EQ,DE000A2NB601
+Süss MicroTec SE,Technology,SMHN.DE,EQ,DE000A1K0235
+SMA Solar Technology AG,Technology,S92.DE,EQ,DE000A0DJ6J9
+PFISTERER Holding SE,Technology,PFSE.DE,EQ,DE000PFSE212
+Atoss Software SE,Technology,AOF.DE,EQ,DE0005104400
+Adtran Networks SE,Technology,ADV.DE,EQ,DE0005103006
+secunet Security Networks Aktiengesellschaft,Technology,YSN.DE,EQ,DE0007276503
+H&K AG,Technology,A11Q13.DE,EQ,DE000A11Q133
+PVA TePla AG,Technology,TPE.DE,EQ,DE0007461006
+TeamViewer SE,Technology,A2YN90.DE,EQ,DE000A2YN900
+TeamViewer SE,Technology,TMV.DE,EQ,DE000A2YN900
+Basler AG,Technology,BSL.DE,EQ,DE0005102008
+innoscripta SE,Technology,1INN.DE,EQ,DE000A40QVM8
+innoscripta SE,Technology,A40QVM.DE,EQ,DE000A40QVM8
+CHAPTERS Group AG,Technology,CHG.DE,EQ,DE0006618309
+Cancom SE,Technology,COK.DE,EQ,DE0005419105
+PSI Software AG,Technology,PSAN.DE,EQ,DE000A0Z1JH9
+PSI Software SE,Technology,A0Z1JH.DE,EQ,DE000A0Z1JH9
+PSI Software SE,Technology,PSA.DE,EQ,DE000A0HMWM7
+PSI Software SE,Technology,A0HMWM.DE,EQ,DE000A0HMWM7
+Schaltbau Holding AG,Technology,SLT.DE,EQ,DE000A2NBTL2
+DATAGROUP SE,Technology,D6H0.DE,EQ,DE000A41YEV7
+Mensch und Maschine Software SE,Technology,MUM.DE,EQ,DE0006580806
+SNP Schneider-Neureither & Partner SE,Technology,SHF.DE,EQ,DE0007203705
+GFT Technologies SE,Technology,GFT.DE,EQ,DE0005800601
+Muhlbauer Holding AG & Co. KGaA,Technology,MUB.DE,EQ,DE0006627201
+First Sensor AG,Technology,SIS.DE,EQ,DE0007201907
+init innovation in traffic systems SE,Technology,IXX.DE,EQ,DE0005759807
+Nagarro SE,Technology,NA9.DE,EQ,DE000A3H2200
+Nagarro SE,Technology,A3H220.DE,EQ,DE000A3H2200
+Northern Data AG,Technology,A0SMU8.DE,EQ,DE000A0SMU87
+Northern Data AG,Technology,NB2.DE,EQ,DE000A0SMU87
+SFC Energy AG,Technology,F3C.DE,EQ,DE0007568578
+IVU Traffic Technologies AG,Technology,IVU.DE,EQ,DE0007448508
+Funkwerk AG,Technology,A40ZW0.DE,EQ,DE000A40ZW05
+Brockhaus Technologies AG,Technology,BKHT.DE,EQ,DE000A2GSU42
+Brockhaus Technologies AG,Technology,A2GSU4.DE,EQ,DE000A2GSU42
+029 Group SE,Technology,Z29.DE,EQ,DE000A2LQ2D0
+029 Group SE,Technology,A2LQ2D.DE,EQ,DE000A2LQ2D0
+centrotherm international AG,Technology,A1TNMM.DE,EQ,DE000A1TNMM9
+centrotherm international AG,Technology,CTNK.DE,EQ,DE000A1TNMM9
+Smartbroker Holding AG,Technology,SB1.DE,EQ,DE000A2GS609
+Smartbroker Holding AG,Technology,A2GS60.DE,EQ,DE000A2GS609
+Allgeier SE,Technology,A2GS63.DE,EQ,DE000A2GS633
+Allgeier SE,Technology,AEIN.DE,EQ,DE000A2GS633
+Serviceware SE,Technology,A2G8X3.DE,EQ,DE000A2G8X31
+Serviceware SE,Technology,SJJ.DE,EQ,DE000A2G8X31
+Nynomic AG,Technology,M7U.DE,EQ,DE000A0MSN11
+Nynomic AG,Technology,A0MSN1.DE,EQ,DE000A0MSN11
+Vectron Systems AG,Technology,A0KEXC.DE,EQ,DE000A0KEXC7
+ParTec AG,Technology,A3E5A3.DE,EQ,DE000A3E5A34
+DATA MODUL AG,Technology,DAM.DE,EQ,DE0005498901

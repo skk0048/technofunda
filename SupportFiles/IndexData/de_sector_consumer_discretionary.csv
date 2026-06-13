@@ -1,20 +1,58 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-BMW AG,Consumer Discretionary,BMW.DE,EQ,
-Mercedes-Benz Group AG,Consumer Discretionary,MBG.DE,EQ,
-Volkswagen AG (Preference),Consumer Discretionary,VOW3.DE,EQ,
-Dr. Ing. h.c. F. Porsche AG,Consumer Discretionary,P911.DE,EQ,
-Adidas AG,Consumer Discretionary,ADS.DE,EQ,
-Zalando SE,Consumer Discretionary,ZAL.DE,EQ,
-Bijou Brigitte modische Accessoires AG,Consumer Discretionary,BIJ.DE,EQ,
-CECONOMY AG,Consumer Discretionary,CEC.DE,EQ,
-CTS Eventim AG & Co. KGaA,Consumer Discretionary,EVD.DE,EQ,
-Hella GmbH & Co. KGaA,Consumer Discretionary,HLE.DE,EQ,
-HUGO BOSS AG,Consumer Discretionary,BOSS.DE,EQ,
-Puma SE,Consumer Discretionary,PUM.DE,EQ,
-TUI AG,Consumer Discretionary,TUI1.DE,EQ,
-Westwing Group SE,Consumer Discretionary,WEW.DE,EQ,
-Zeal Network SE,Consumer Discretionary,TIMA.DE,EQ,
-Zooplus SE,Consumer Discretionary,ZO1.DE,EQ,
-Borussia Dortmund GmbH & Co. KGaA,Consumer Discretionary,BVB.DE,EQ,
-DFB-Campus GmbH,Consumer Discretionary,DFB.DE,EQ,
-Grammer AG,Consumer Discretionary,GMM.DE,EQ,
+Mercedes-Benz Group AG,Consumer Discretionary,MBG.DE,EQ,DE0007100000
+Volkswagen AG,Consumer Discretionary,VOW.DE,EQ,DE0007664005
+Volkswagen AG (Preference),Consumer Discretionary,VOW3.DE,EQ,DE0007664039
+Dr. Ing. h.c. F. Porsche AG,Consumer Discretionary,P911.DE,EQ,DE000PAG9113
+Porsche AG,Consumer Discretionary,PAG911.DE,EQ,DE000PAG9113
+Bayerische Motoren Werke Aktiengesellschaft,Consumer Discretionary,BMW3.DE,EQ,DE0005190037
+BMW AG,Consumer Discretionary,BMW.DE,EQ,DE0005190003
+Daimler Truck Holding AG,Consumer Discretionary,DTR0CK.DE,EQ,DE000DTR0CK8
+Adidas AG,Consumer Discretionary,ADS.DE,EQ,DE000A1EWWW0
+TRATON SE,Consumer Discretionary,TRAT0N.DE,EQ,DE000TRAT0N7
+Delivery Hero SE,Consumer Discretionary,DHER.DE,EQ,DE000A2E4K43
+Porsche Automobil Holding SE,Consumer Discretionary,PAH3.DE,EQ,DE000PAH0038
+Porsche Automobil Holding SE Pref,Consumer Discretionary,PAH003.DE,EQ,DE000PAH0038
+Schaeffler AG,Consumer Discretionary,SHA0.DE,EQ,DE000SHA0100
+Hella GmbH & Co. KGaA,Consumer Discretionary,HLE.DE,EQ,DE000A13SX22
+Zalando SE,Consumer Discretionary,ZAL.DE,EQ,DE000ZAL1111
+Zalando SE,Consumer Discretionary,ZAL111.DE,EQ,DE000ZAL1111
+AUTO1 Group SE,Consumer Discretionary,AG1.DE,EQ,DE000A2LQ884
+CTS Eventim AG & Co. KGaA,Consumer Discretionary,EVD.DE,EQ,DE0005470306
+Puma SE,Consumer Discretionary,PUM.DE,EQ,DE0006969603
+Aumovio SE,Consumer Discretionary,AMV0.DE,EQ,DE000AUM0V10
+Springer Nature AG & Co. KGaA,Consumer Discretionary,SPG100.DE,EQ,DE000SPG1003
+TUI AG,Consumer Discretionary,TUI1.DE,EQ,DE000TUAG505
+TUI AG,Consumer Discretionary,TUAG50.DE,EQ,DE000TUAG505
+HUGO BOSS AG,Consumer Discretionary,BOSS.DE,EQ,DE000A1PHFF7
+HORNBACH Baumarkt AG,Consumer Discretionary,HBM.DE,EQ,DE0006084403
+CECONOMY AG,Consumer Discretionary,CEC.DE,EQ,DE0007257503
+CECONOMY AG TEMP,Consumer Discretionary,CECV.DE,EQ,DE000A40ZVV0
+CECONOMY AG TEMP,Consumer Discretionary,A40ZVV.DE,EQ,DE000A40ZVV0
+HORNBACH Holding AG & Co. KGaA,Consumer Discretionary,HBH.DE,EQ,DE0006083405
+Zeal Network SE,Consumer Discretionary,TIMA.DE,EQ,DE000ZEAL241
+ZEAL Network SE,Consumer Discretionary,ZEAL24.DE,EQ,DE000ZEAL241
+Douglas AG,Consumer Discretionary,DOU.DE,EQ,DE000BEAU1Y4
+Douglas AG,Consumer Discretionary,BEAU1Y.DE,EQ,DE000BEAU1Y4
+ProSiebenSat.1 Media SE,Consumer Discretionary,PSM777.DE,EQ,DE000PSM7770
+Einhell Germany AG Pref,Consumer Discretionary,EIN.DE,EQ,DE000A40ESU3
+Einhell Germany AG Pref,Consumer Discretionary,A40ESU.DE,EQ,DE000A40ESU3
+CEWE Stiftung & Co. KGaA,Consumer Discretionary,CWC.DE,EQ,DE0005403901
+HelloFresh SE,Consumer Discretionary,A16140.DE,EQ,DE000A161408
+Bijou Brigitte modische Accessoires AG,Consumer Discretionary,BIJ.DE,EQ,DE0005229504
+HolidayCheck Group AG,Consumer Discretionary,HOC.DE,EQ,DE0005495329
+Borussia Dortmund GmbH & Co. KGaA,Consumer Discretionary,BVB.DE,EQ,DE0005493092
+Westwing Group SE,Consumer Discretionary,WEW.DE,EQ,DE000A2N4H07
+Westwing Group SE,Consumer Discretionary,A2N4H0.DE,EQ,DE000A2N4H07
+TIN INN Holding AG,Consumer Discretionary,TIW.DE,EQ,DE000A40ZTT8
+TIN INN Holding AG,Consumer Discretionary,A40ZTT.DE,EQ,DE000A40ZTT8
+Circus SE,Consumer Discretionary,A2YN35.DE,EQ,DE000A2YN355
+Circus SE,Consumer Discretionary,CA1.DE,EQ,DE000A2YN355
+Hawesko Holding SE,Consumer Discretionary,HAW.DE,EQ,DE0006042708
+Leifheit AG,Consumer Discretionary,LEI.DE,EQ,DE0006464506
+Grammer AG,Consumer Discretionary,GMM.DE,EQ,DE0005895403
+Bike24 Holding AG,Consumer Discretionary,BIKE.DE,EQ,DE000A3CQ7F4
+Bike24 Holding AG,Consumer Discretionary,A3CQ7F.DE,EQ,DE000A3CQ7F4
+Knaus Tabbert AG,Consumer Discretionary,A2YN50.DE,EQ,DE000A2YN504
+Knaus Tabbert AG,Consumer Discretionary,KTA.DE,EQ,DE000A2YN504
+Edel SE & Co. KGAA,Consumer Discretionary,EDL.DE,EQ,DE0005649503
+LUDWIG BECK am Rathauseck - Textilhaus Feldmeier AG,Consumer Discretionary,ECK.DE,EQ,DE0005199905

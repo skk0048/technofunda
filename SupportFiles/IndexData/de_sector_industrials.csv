@@ -1,36 +1,110 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-Siemens AG,Industrials,SIE.DE,EQ,
-Deutsche Post AG,Industrials,DPW.DE,EQ,
-MTU Aero Engines AG,Industrials,MTX.DE,EQ,
-Rheinmetall AG,Industrials,RHM.DE,EQ,
-Infineon Technologies AG,Industrials,IFX.DE,EQ,
-Continental AG,Industrials,CON.DE,EQ,
-KION Group AG,Industrials,KGX.DE,EQ,
-Symrise AG,Industrials,SY1.DE,EQ,
-Brenntag SE,Industrials,BNR.DE,EQ,
-Daimler Truck Holding AG,Industrials,DTG.DE,EQ,
-Deutz AG,Industrials,DEZ.DE,EQ,
-Fraport AG,Industrials,FRA.DE,EQ,
-GEA Group AG,Industrials,G1A.DE,EQ,
-Gerresheimer AG,Industrials,GXI.DE,EQ,
-Hamburger Hafen und Logistik AG,Industrials,HHFA.DE,EQ,
-Jungheinrich AG,Industrials,JUN3.DE,EQ,
-Knorr-Bremse AG,Industrials,KBX.DE,EQ,
-MAN SE,Industrials,MAN.DE,EQ,
-NORMA Group SE,Industrials,NOEJ.DE,EQ,
-Rational AG,Industrials,RAA.DE,EQ,
-Schaeffler AG,Industrials,SHA.DE,EQ,
-Stabilus SE,Industrials,STM.DE,EQ,
-Wacker Neuson SE,Industrials,WAC.DE,EQ,
-Amadeus Fire AG,Industrials,AAD.DE,EQ,
-Eurokai GmbH & Co. KGaA,Industrials,EUK3.DE,EQ,
-Friedrich Vorwerk Group SE,Industrials,VH2.DE,EQ,
-Gesco AG,Industrials,GSC1.DE,EQ,
-Heidelberger Druckmaschinen AG,Industrials,HDD.DE,EQ,
-Manz AG,Industrials,M5Z.DE,EQ,
-Masterflex SE,Industrials,MZX.DE,EQ,
-MBB SE,Industrials,MBB.DE,EQ,
-Mutares SE & Co. KGaA,Industrials,MUX.DE,EQ,
-Pfeiffer Vacuum Technology AG,Industrials,PFV.DE,EQ,
-R. Stahl AG,Industrials,RSL2.DE,EQ,
-Takkt AG,Industrials,TTK.DE,EQ,
+Siemens AG,Industrials,SIE.DE,EQ,DE0007236101
+Siemens Energy AG,Industrials,ENER6Y.DE,EQ,DE000ENER6Y0
+Infineon Technologies AG,Industrials,IFX.DE,EQ,DE0006231004
+Deutsche Post AG,Industrials,DHL.DE,EQ,DE0005552004
+Rheinmetall AG,Industrials,RHM.DE,EQ,DE0007030009
+HOCHTIEF Aktiengesellschaft,Industrials,HOT.DE,EQ,DE0006070006
+Daimler Truck Holding AG,Industrials,DTG.DE,EQ,DE000DTR0CK8
+Hapag-Lloyd Aktiengesellschaft,Industrials,HLAG.DE,EQ,DE000HLAG475
+Hapag-Lloyd AG,Industrials,HLAG47.DE,EQ,DE000HLAG475
+Traton SE,Industrials,8TRA.DE,EQ,DE000TRAT0N7
+MTU Aero Engines AG,Industrials,MTX.DE,EQ,DE000A0D9PT0
+Knorr-Bremse AG,Industrials,KBX.DE,EQ,DE000KBX1006
+Knorr-Bremse AG,Industrials,KBX100.DE,EQ,DE000KBX1006
+Continental AG,Industrials,CON.DE,EQ,DE0005439004
+Symrise AG,Industrials,SY1.DE,EQ,DE000SYM9999
+Delivery Hero SE,Industrials,A2E4K4.DE,EQ,DE000A2E4K43
+Delivery Hero SE TEMP,Industrials,DHE0.DE,EQ,DE000A0STS84
+Deutsche Lufthansa AG,Industrials,LHA.DE,EQ,DE0008232125
+Nordex SE,Industrials,A0D655.DE,EQ,DE000A0D6554
+Schaeffler AG,Industrials,SHA010.DE,EQ,DE000SHA0100
+GEA Group AG,Industrials,G1A.DE,EQ,DE0006602006
+Hensoldt AG,Industrials,HAG.DE,EQ,DE000HAG0005
+Brenntag SE,Industrials,BNR.DE,EQ,DE000A1DAHH0
+Brenntag SE,Industrials,A1DAHH.DE,EQ,DE000A1DAHH0
+HELLA GmbH & Co. KGaA,Industrials,A13SX2.DE,EQ,DE000A13SX22
+OHB SE,Industrials,OHB.DE,EQ,DE0005936124
+Rational AG,Industrials,RAA.DE,EQ,DE0007010803
+thyssenkrupp AG,Industrials,TKA.DE,EQ,DE0007500001
+AIXTRON SE,Industrials,A0WMPJ.DE,EQ,DE000A0WMPJ6
+Fraport AG,Industrials,FRA.DE,EQ,DE0005773303
+KION Group AG,Industrials,KGX.DE,EQ,DE000KGX8881
+KION GROUP AG,Industrials,KGX888.DE,EQ,DE000KGX8881
+RENK Group AG,Industrials,R3NK.DE,EQ,DE000RENK730
+TKMS AG & Co KGaA,Industrials,TKMS.DE,EQ,DE000TKMS001
+TKMS AG & Co. KGaA,Industrials,TKMS00.DE,EQ,DE000TKMS001
+Aumovio SE,Industrials,AUM0V1.DE,EQ,DE000AUM0V10
+DMG MORI AKTIENGESELLSCHAFT,Industrials,GIL.DE,EQ,DE0005878003
+Krones AG,Industrials,KRN.DE,EQ,DE0006335003
+Sixt SE,Industrials,SIX2.DE,EQ,DE0007231326
+Sixt SE,Industrials,SIX3.DE,EQ,DE0007231334
+Bilfinger SE,Industrials,GBF.DE,EQ,DE0005909006
+METRO AG,Industrials,A41YD1.DE,EQ,DE000A41YD16
+Jungheinrich AG,Industrials,JUN3.DE,EQ,DE0006219934
+SUSS MicroTec SE,Industrials,A1K023.DE,EQ,DE000A1K0235
+SMA Solar Technology AG,Industrials,A0DJ6J.DE,EQ,DE000A0DJ6J9
+Pfeiffer Vacuum Technology AG,Industrials,PFV.DE,EQ,DE0006916604
+PFISTERER Holding SE,Industrials,PFSE21.DE,EQ,DE000PFSE212
+Hamburger Hafen und Logistik AG,Industrials,HHFA.DE,EQ,DE000A0S8488
+Hamburger Hafen und Logistik AG,Industrials,A0S848.DE,EQ,DE000A0S8488
+KSB SE & Co. KGaA,Industrials,KSB.DE,EQ,DE0006292006
+KSB SE & Co. KGaA,Industrials,KSB3.DE,EQ,DE0006292030
+BayWa AG,Industrials,BYW.DE,EQ,DE0005194005
+Deutz AG,Industrials,DEZ.DE,EQ,DE0006305006
+Dürr Aktiengesellschaft,Industrials,DUE.DE,EQ,DE0005565204
+Friedrich Vorwerk Group SE,Industrials,VH2.DE,EQ,DE000A255F11
+Friedrich Vorwerk Group SE,Industrials,A255F1.DE,EQ,DE000A255F11
+Vossloh AG,Industrials,VOS.DE,EQ,DE0007667107
+Wacker Neuson SE,Industrials,WAC.DE,EQ,DE000WACK012
+Wacker Neuson SE,Industrials,WACK01.DE,EQ,DE000WACK012
+2G Energy AG,Industrials,2GB.DE,EQ,DE000A0HL8N9
+thyssenkrupp nucera AG & Co. KGaA,Industrials,NCH2.DE,EQ,DE000NCA0001
+thyssenkrupp nucera AG & Co. KGaA,Industrials,NCA000.DE,EQ,DE000NCA0001
+SAF-HOLLAND SE,Industrials,SFQ.DE,EQ,DE000SAFH001
+SAF-HOLLAND SE,Industrials,SAFH00.DE,EQ,DE000SAFH001
+Maschinenfabrik Berthold Hermle AG Pref,Industrials,MBH3.DE,EQ,DE0006052830
+JOST Werke SE,Industrials,JST.DE,EQ,DE000JST4000
+JOST Werke SE,Industrials,JST400.DE,EQ,DE000JST4000
+Gerresheimer AG,Industrials,GXI.DE,EQ,DE000A0LD6E6
+Evotec SE,Industrials,EVT.DE,EQ,DE0005664809
+Eurokai GmbH & Co. KGaA,Industrials,EUK3.DE,EQ,DE0005706535
+MBB SE,Industrials,MBB.DE,EQ,DE000A0ETBQ4
+Mutares SE & Co. KGaA,Industrials,MUX.DE,EQ,DE000A2NB650
+INDUS Holding AG,Industrials,INH.DE,EQ,DE0006200108
+LPKF Laser & Electronics SE,Industrials,LPK.DE,EQ,DE0006450000
+NORMA Group SE,Industrials,NOEJ.DE,EQ,DE000A1H8BV3
+NORMA Group SE,Industrials,A1H8BV.DE,EQ,DE000A1H8BV3
+WashTec AG,Industrials,WSU.DE,EQ,DE0007507501
+Heidelberger Druckmaschinen AG,Industrials,HDD.DE,EQ,DE0007314007
+Villeroy & Boch AG Pref,Industrials,VIB3.DE,EQ,DE0007657231
+Stabilus SE,Industrials,STM.DE,EQ,DE000STAB1L8
+Stabilus SE,Industrials,STAB1L.DE,EQ,DE000STAB1L8
+Homag Group AG,Industrials,HG1.DE,EQ,DE0005297204
+ElringKlinger AG,Industrials,ZIL2.DE,EQ,DE0007856023
+adesso SE,Industrials,ADN1.DE,EQ,DE000A0Z23Q5
+adesso SE,Industrials,A0Z23Q.DE,EQ,DE000A0Z23Q5
+Medios AG,Industrials,ILM1.DE,EQ,DE000A1MMCC8
+Medios AG,Industrials,A1MMCC.DE,EQ,DE000A1MMCC8
+EnviTec Biogas AG,Industrials,ETG.DE,EQ,DE000A0MVLS8
+EnviTec Biogas AG,Industrials,A0MVLS.DE,EQ,DE000A0MVLS8
+Ernst Russ AG,Industrials,ERAG.DE,EQ,DE000A161077
+Ernst Russ AG,Industrials,A16107.DE,EQ,DE000A161077
+technotrans SE,Industrials,TTR1.DE,EQ,DE000A0XYGA7
+technotrans SE,Industrials,A0XYGA.DE,EQ,DE000A0XYGA7
+HMS Bergbau AG,Industrials,HMU.DE,EQ,DE0006061104
+Aumann AG,Industrials,AAG.DE,EQ,DE000A2DAM03
+Aumann AG,Industrials,A2DAM0.DE,EQ,DE000A2DAM03
+MAX Automation SE,Industrials,MXHN.DE,EQ,DE000A2DA588
+MAX Automation SE,Industrials,A2DA58.DE,EQ,DE000A2DA588
+All for One Group SE,Industrials,A1OS.DE,EQ,DE0005110001
+Takkt AG,Industrials,TTK.DE,EQ,DE0007446007
+Gesco AG,Industrials,GSC1.DE,EQ,DE000A1K0201
+Koenig & Bauer AG,Industrials,SKB.DE,EQ,DE0007193500
+Masterflex SE,Industrials,MZX.DE,EQ,DE0005492938
+Daldrup & Soehne AG,Industrials,4DS.DE,EQ,DE0007830572
+Amadeus Fire AG,Industrials,AAD.DE,EQ,DE0005093108
+Nabaltec AG,Industrials,A0KPPR.DE,EQ,DE000A0KPPR7
+Nabaltec AG,Industrials,NTG.DE,EQ,DE000A0KPPR7
+Pyrum Innovations AG,Industrials,PYR.DE,EQ,DE000A2G8ZX8
+Pyrum Innovations AG,Industrials,A2G8ZX.DE,EQ,DE000A2G8ZX8

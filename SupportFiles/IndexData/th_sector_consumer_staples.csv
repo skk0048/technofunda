@@ -1,9 +1,93 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-CP All,Consumer Staples,CPALL.BK,EQ,
-Charoen Pokphand Foods,Consumer Staples,CPF.BK,EQ,
-CP Axtra,Consumer Staples,CPAXT.BK,EQ,
-Osotspa,Consumer Staples,OSP.BK,EQ,
-Carabao Group,Consumer Staples,CBG.BK,EQ,
-Sappe,Consumer Staples,SAPPE.BK,EQ,
-Thai Union Group,Consumer Staples,TU.BK,EQ,
-Betagro,Consumer Staples,BTG.BK,EQ,
+CP All,Consumer Staples,CPALL.BK,EQ,TH0737010Y08
+CP Axtra,Consumer Staples,CPAXT.BK,EQ,THC450010002
+Charoen Pokphand Foods,Consumer Staples,CPF.BK,EQ,TH0101A10Z01
+Thai President Foods Public Company Limited,Consumer Staples,TFMAMA.BK,EQ,TH8223010001
+Thaifoods Group Public Company Limited,Consumer Staples,TFG.BK,EQ,TH6717010008
+i-Tail Corporation Public Company Limited,Consumer Staples,ITC.BK,EQ,THB056010002
+Osotspa,Consumer Staples,OSP.BK,EQ,TH8752010000
+Thai Union Group,Consumer Staples,TU.BK,EQ,TH0450010Y08
+Carabao Group,Consumer Staples,CBG.BK,EQ,TH6066010005
+Betagro,Consumer Staples,BTG.BK,EQ,TH0612010007
+Thai Vegetable Oil Public Company Limited,Consumer Staples,TVO.BK,EQ,TH0209010Z07
+President Bakery Public Company Limited,Consumer Staples,PB.BK,EQ,TH0687010Z04
+Saha Pathanapibul Public Company Limited,Consumer Staples,SPC.BK,EQ,TH0035010Z06
+Ichitan Group Public Company Limited,Consumer Staples,ICHI.BK,EQ,TH5048010000
+Thaitheparos Public Company Limited,Consumer Staples,SAUCE.BK,EQ,TH0460010Z06
+Univanich Palm Oil Public Company Limited,Consumer Staples,UVAN.BK,EQ,TH0748010Z04
+GFPT Public Company Limited,Consumer Staples,GFPT.BK,EQ,TH0297010Z02
+Karmarts Public Company Limited,Consumer Staples,KAMART.BK,EQ,TH0467A10Z09
+Sappe,Consumer Staples,SAPPE.BK,EQ,TH5614010004
+SISB Public Company Limited,Consumer Staples,SISB.BK,EQ,TH8859010002
+R&B Food Supply Public Company Limited,Consumer Staples,RBF.BK,EQ,TH9451010002
+Thai Coconut Public Company Limited,Consumer Staples,COCOCO.BK,EQ,THB540010006
+Asian Alliance International Public Company Limited,Consumer Staples,AAI.BK,EQ,THA984010001
+Exotic Food Public Company Limited,Consumer Staples,XO.BK,EQ,TH5778010006
+Kaset Thai International Sugar Corporation Public Company Limited,Consumer Staples,KTIS.BK,EQ,TH5288010009
+PRG Corporation Public Company Limited,Consumer Staples,PRG.BK,EQ,TH0366010Z05
+NSL Foods Public Company Limited,Consumer Staples,NSL.BK,EQ,THA300010008
+Thai Union Feedmill Public Company Limited,Consumer Staples,TFM.BK,EQ,THA506010Z09
+Khon Kaen Sugar Industry Public Company Limited,Consumer Staples,KSL.BK,EQ,TH0828A10Z03
+Haad Thip Public Company Limited,Consumer Staples,HTC.BK,EQ,TH0140B10Z03
+Petchsrivichai Enterprise Public Company Limited,Consumer Staples,PCE.BK,EQ,THC273010007
+Srinanaporn Marketing Public Company Limited,Consumer Staples,SNNP.BK,EQ,THA385010006
+Premier Marketing Public Company Limited,Consumer Staples,PM.BK,EQ,TH0977010Z09
+KCG Corporation Public Company Limited,Consumer Staples,KCG.BK,EQ,THB479010001
+Asian Sea Corporation Public Company Limited,Consumer Staples,ASIAN.BK,EQ,TH0405010Y02
+Taokaenoi Food & Marketing Public Company Limited,Consumer Staples,TKN.BK,EQ,TH6927010004
+NEO_NEO CORPORATE,Consumer Staples,NEO.BK,EQ,THC009010008
+S&J International Enterprises Public Co. Ltd.,Consumer Staples,S&J.BK,EQ,TH0123010Z00
+TSTE Public Company Limited,Consumer Staples,TSTE.BK,EQ,TH0195010Y09
+FM_FOOD MOMENTS,Consumer Staples,FM.BK,EQ,THC208010007
+Lam Soon (Thailand) Public Company Limited,Consumer Staples,LST.BK,EQ,TH0574010Z04
+T.A.C. Consumer Public Company Limited,Consumer Staples,TACC.BK,EQ,TH6897010000
+Khonburi Sugar Public Company Limited,Consumer Staples,KBS.BK,EQ,TH1061010001
+Buriram Sugar Public Company Limited,Consumer Staples,BRR.BK,EQ,TH6011010001
+Tipco Foods Public Company Limited,Consumer Staples,TIPCO.BK,EQ,TH0154010Y06
+Thai Wah Public Company Limited,Consumer Staples,TWPC.BK,EQ,TH6820010002
+Pluk Phak Praw Rak Mae Public Company Limited,Consumer Staples,OKJ.BK,EQ,THC358010005
+Bangkok Lab And Cosmetic Public Company Limited,Consumer Staples,BLC.BK,EQ,THB407010008
+Lee Feed Mill Public Company Limited,Consumer Staples,LEE.BK,EQ,TH0181B10Z03
+Thanapiriya Public Company Limited,Consumer Staples,TNP.BK,EQ,TH6881010008
+United Palm Oil Industry Public Company Limited,Consumer Staples,UPOIC.BK,EQ,TH0227010Z09
+Ubon Bio Ethanol Public Company Limited,Consumer Staples,UBE.BK,EQ,THA472010000
+Malee Group Public Company Limited,Consumer Staples,MALEE.BK,EQ,TH0293B10Z08
+Chumporn Palm Oil Industry Public Company Limited,Consumer Staples,CPI.BK,EQ,TH0389010Z07
+Rojukiss International Public Company Limited,Consumer Staples,KISS.BK,EQ,THA159010000
+Sunsweet Public Company Limited,Consumer Staples,SUN.BK,EQ,TH8368010006
+Tropical Canning (Thailand) Public Company Limited,Consumer Staples,TC.BK,EQ,TH0178A10Z09
+Agripure Holdings Public Company Limited,Consumer Staples,APURE.BK,EQ,TH0343010Z04
+SNPS_SPECIALTY NATURAL PRODUCTS,Consumer Staples,SNPS.BK,EQ,THC572010005
+Bangkok Ranch Public Company Limited,Consumer Staples,BR.BK,EQ,TH4683010003
+Asian Phytoceuticals Public Company Limited,Consumer Staples,APCO.BK,EQ,TH1077A10Z09
+Thai Nippon Rubber Industry Public Co. Ltd.,Consumer Staples,TNR.BK,EQ,TH7618010006
+Do Day Dream Public Company Limited,Consumer Staples,DDD.BK,EQ,TH8365010009
+AI Energy Public Company Limited,Consumer Staples,AIE.BK,EQ,TH5085A10Z00
+X Bioscience Public Company Limited,Consumer Staples,XBIO.BK,EQ,TH0753C10Z00
+Surapon Foods Public Company Limited,Consumer Staples,SSF.BK,EQ,TH0159A10Z02
+CHAO_CHAOSUA FOODS INDUSTRY,Consumer Staples,CHAO.BK,EQ,THC187010002
+Winner Group Enterprise Public Company Limited,Consumer Staples,WINNER.BK,EQ,TH4877010009
+Chin Huay Public Company Limited,Consumer Staples,CH.BK,EQ,THA862010008
+JD Food Public Company Limited,Consumer Staples,JDF.BK,EQ,THA757010006
+Premier Quality Starch Public Company Limited,Consumer Staples,PQS.BK,EQ,THB212010003
+S. Khonkaen Foods Public Company Limited,Consumer Staples,SORKON.BK,EQ,TH0345010Z09
+Jack Chia Industries (Thailand) Public Company Limited,Consumer Staples,JCT.BK,EQ,TH0204010001
+T S Flour Mill Public Company Limited,Consumer Staples,TMILL.BK,EQ,TH4016010001
+Seafresh Industry Public Company Limited,Consumer Staples,CFRESH.BK,EQ,TH0359A10Z00
+JSP Pharmaceutical Manufacturing (Thailand) Public Co. Ltd.,Consumer Staples,JSP.BK,EQ,THA520010002
+Food and Drinks Public Company Limited,Consumer Staples,F&D.BK,EQ,TH0410010001
+Royal Plus Public Company Limited,Consumer Staples,PLUS.BK,EQ,THA761010000
+Moong Pattana International Public Company Limited,Consumer Staples,MOONG.BK,EQ,TH1020010Z07
+DOD Biotech Public Company Limited,Consumer Staples,DOD.BK,EQ,TH8569010003
+People's Garment Public Co. Ltd.,Consumer Staples,PG.BK,EQ,TH0126010Z03
+Chiangmai Frozen Foods Public Co. Ltd.,Consumer Staples,CM.BK,EQ,TH0317010Z08
+Vichitbhan Palmoil PCL,Consumer Staples,VPO.BK,EQ,TH6052010001
+Pan Asia Footwear Public Co. Ltd.,Consumer Staples,PAF.BK,EQ,TH0112A10Z08
+NR Instant Produce PCL,Consumer Staples,NRF.BK,EQ,TH9882010001
+Peerapat Technology Public Company Limited,Consumer Staples,PRAPAT.BK,EQ,TH9988010004
+Castle Peak Holdings Public Co. Ltd.,Consumer Staples,CPH.BK,EQ,TH0290010006
+New Plus Knitting Public Co. Ltd.,Consumer Staples,NPK.BK,EQ,TH0127010005
+Skin Laboratory Public Company Limited,Consumer Staples,SKIN.BK,EQ,THD134010004
+SMO_SMOTHONG GROUP,Consumer Staples,SMO.BK,EQ,THD373010004
+88(Thailand) Public Company Limited,Consumer Staples,88TH.BK,EQ,THD171010008
+NTF Intergroup (Thailand) Public Company Limited,Consumer Staples,NTF.BK,EQ,THD423010004

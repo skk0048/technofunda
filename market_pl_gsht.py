@@ -28,7 +28,7 @@ else:
 
 STOCK_CSV = os.path.join(INDEX_DATA_DIR, "pl_all_stocks_master.csv")
 
-MAX_STOCKS        = 500
+MAX_STOCKS        = 1000
 PERIOD_DAYS       = 504
 ENABLE_PATTERNS   = True
 PATTERN_MAX       = 300
@@ -66,8 +66,8 @@ except Exception:
 #  POLAND MARKET CONFIG
 # ─────────────────────────────────────────────────────────────────────────────
 
-PL_INDEX          = "WIG20.WA"
-PL_INDEX_FALLBACK = "^WIG"
+PL_INDEX          = "2OP.F"
+PL_INDEX_FALLBACK = "NQPL"
 
 PL_INDUSTRY_TO_SECTOR = {
     "Financials":"Financials","Banking":"Financials","Insurance":"Financials",
@@ -109,9 +109,9 @@ PL_SNAPSHOT_TICKERS = [
 # ─────────────────────────────────────────────────────────────────────────────
 
 def load_pl_universe():
-    csv_path = os.path.join(INDEX_DATA_DIR, "pl_wig20list.csv")
+    csv_path = STOCK_CSV  # full master list
     if not os.path.exists(csv_path):
-        csv_path = STOCK_CSV
+        csv_path = os.path.join(INDEX_DATA_DIR, "pl_wig20list.csv")
     if not os.path.exists(csv_path):
         print(f"  \u274c Universe CSV not found: {csv_path}"); return pd.DataFrame()
     df = pd.read_csv(csv_path, dtype=str)
@@ -128,7 +128,8 @@ def load_pl_universe():
     df["Yahoo"] = df["Symbol"].apply(lambda s: ensure_yahoo_suffix(s, "PL"))
     df["Company"]  = df.get("Company Name", df["Symbol"])
     df["Industry"] = df.get("Industry", "").astype(str).fillna("").str.strip()
-    df["Sector"]   = df["Industry"].map(PL_INDUSTRY_TO_SECTOR).fillna("Other")
+    df["Sector"]   = df["Industry"].map(PL_INDUSTRY_TO_SECTOR).fillna(df["Industry"])
+    df["Sector"]   = df["Sector"].replace("", "Other").fillna("Other")
     df = df.dropna(subset=["Yahoo"])
     print(f"  \u2705 Universe: {len(df)} stocks loaded")
     return df.reset_index(drop=True)
@@ -136,38 +137,22 @@ def load_pl_universe():
 
 # Poland sector ETFs — no liquid Yahoo-accessible ETFs; synthetic composites via fill_missing_sector_prices
 PL_SECTORS = {
-    "Financials":             {"yahoo": None, "csv": None},
-    "Energy":                 {"yahoo": None, "csv": None},
-    "Materials":              {"yahoo": None, "csv": None},
-    "Technology":             {"yahoo": None, "csv": None},
-    "Health Care":            {"yahoo": None, "csv": None},
-    "Industrials":            {"yahoo": None, "csv": None},
-    "Consumer Discretionary": {"yahoo": None, "csv": None},
-    "Consumer Staples":       {"yahoo": None, "csv": None},
-    "Utilities":              {"yahoo": None, "csv": None},
-    "Communication Services": {"yahoo": None, "csv": None},
-    "Real Estate":            {"yahoo": None, "csv": None},
+    "Financials":      {"yahoo": None, "csv": "pl_sector_financials.csv"},
+    "Energy":          {"yahoo": None, "csv": "pl_sector_energy.csv"},
+    "Materials":       {"yahoo": None, "csv": "pl_sector_materials.csv"},
+    "Technology":      {"yahoo": None, "csv": "pl_sector_technology.csv"},
+    "Healthcare":      {"yahoo": None, "csv": "pl_sector_health_care.csv"},
+    "Industrials":     {"yahoo": None, "csv": "pl_sector_industrials.csv"},
+    "ConsumerDisc":    {"yahoo": None, "csv": "pl_sector_consumer_discretionary.csv"},
+    "Consumer Staples":{"yahoo": None, "csv": "pl_sector_consumer_staples.csv"},
+    "Utilities":       {"yahoo": None, "csv": "pl_sector_utilities.csv"},
+    "CommServices":    {"yahoo": None, "csv": "pl_sector_communication_services.csv"},
+    "RealEstate":      {"yahoo": None, "csv": "pl_sector_real_estate.csv"},
 }
 
 def fetch_pl_sector_prices():
-    result = {}
-    end   = datetime.today() + timedelta(days=1)
-    start = end - timedelta(days=PERIOD_DAYS + 5)
-    for sec_name, cfg in PL_SECTORS.items():
-        ticker = cfg.get("yahoo")
-        if not ticker: continue
-        try:
-            raw = yf.download(ticker, start=start.strftime("%Y-%m-%d"),
-                              end=end.strftime("%Y-%m-%d"),
-                              auto_adjust=True, progress=False)
-            if raw.empty: continue
-            cl = raw["Close"]
-            if isinstance(cl, pd.DataFrame): cl = cl.squeeze()
-            s = _normalize(cl.dropna())
-            if len(s) >= 22: result[sec_name] = s
-        except Exception: pass
-    print(f"  ✅ Poland Sector prices: {len(result)}/{len(PL_SECTORS)}")
-    return result
+    return _me.fetch_sector_prices_generic(
+        PL_SECTORS, PERIOD_DAYS, INDEX_DATA_DIR, SCRIPT_DIR, label="Poland")
 
 def fill_missing_sector_prices(universe, price_data, sector_prices, sectors_cfg):
     """
@@ -253,13 +238,12 @@ def main():
     start_dt= end_dt - timedelta(days=PERIOD_DAYS+5)
     raw = yf.download(PL_INDEX, start=start_dt.strftime("%Y-%m-%d"),
                       end=end_dt.strftime("%Y-%m-%d"), auto_adjust=True, progress=False)
-    if raw.empty:
-        print(f"  \u26a0 {PL_INDEX} empty, trying {PL_INDEX_FALLBACK} …")
+    if raw.empty or len(raw) < 30:
+        print(f"  ⚠ {PL_INDEX} returned {len(raw)} rows, trying {PL_INDEX_FALLBACK} ...")
         raw = yf.download(PL_INDEX_FALLBACK, start=start_dt.strftime("%Y-%m-%d"),
                           end=end_dt.strftime("%Y-%m-%d"), auto_adjust=True, progress=False)
-    if raw.empty: print(f"  \u274c Cannot fetch Poland index"); return
+    if raw.empty or len(raw) < 30: print("  ❌ Cannot fetch Poland index"); return
     cl = raw["Close"]
-    # squeeze only columns (axis=1) — never rows — so a 1-row result stays a Series
     if isinstance(cl, pd.DataFrame):
         cl = cl.iloc[:, 0] if cl.shape[1] >= 1 else cl.squeeze()
     cl = pd.Series(cl).dropna()
@@ -296,6 +280,7 @@ def main():
     run_time = datetime.now(tz_obj).strftime(f"%d %B %Y %H:%M CET")
 
     print("\n\U0001F4F8 Market Snapshot …");   snap_df    = build_pl_snapshot()
+
     print("\U0001F3ED Sector Strength …");    sec_str_df = build_sector_strength(
         universe, price_data, index_prices, sector_prices, primary_rs=PRIMARY_RS_PERIOD)
     print("\U0001F504 Sector Rotation …");    sec_rot_df = build_sector_rotation(

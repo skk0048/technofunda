@@ -1,68 +1,58 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-ABB Ltd.,Industrials,ABBN.SW,EQ,CH0012221716
-Schindler Holding Ltd.,Industrials,SCHN.SW,EQ,CH0024638212
-Schindler Holding Ltd. Pref,Industrials,SCHP.SW,EQ,CH0024638196
-Kuehne & Nagel International AG,Industrials,KNIN.SW,EQ,CH0025238863
-VAT Group AG,Industrials,VACN.SW,EQ,CH0311864901
+ABB Ltd. TEMP,Industrials,ABBNE.SW,EQ,CH0357679619
+ABB Ltd,Industrials,ABBN.SW,EQ,CH0012221716
+Schindler Holding AG,Industrials,SCHP.SW,EQ,CH0024638196
+Schindler Holding Ltd. TEMP,Industrials,SCHNE.SW,EQ,CH1391509895
+Schindler Holding,Industrials,SCHN.SW,EQ,CH0024638212
+Schindler Holding Ltd. TEMP,Industrials,SCHPE.SW,EQ,CH1391509903
+Kühne und Nagel,Industrials,KNIN.SW,EQ,CH0025238863
+VAT Group,Industrials,VACN.SW,EQ,CH0311864901
 SGS SA,Industrials,SGSN.SW,EQ,CH1256740924
 Geberit AG,Industrials,GEBN.SW,EQ,CH0030170408
-BELIMO Holding AG,Industrials,BEAN.SW,EQ,CH1101098163
+Geberit AG TEMP,Industrials,GEBNE.SW,EQ,CH0358541057
+Belimo Holding AG,Industrials,BEAN.SW,EQ,CH1101098163
+Flughafen Zürich AG,Industrials,FHZN.SW,EQ,CH0319416936
 Accelleron Industries AG,Industrials,ACLN.SW,EQ,CH1169360919
-Flughafen Zurich AG,Industrials,FHZN.SW,EQ,CH0319416936
-Sulzer AG,Industrials,SUN.SW,EQ,CH0038388911
+Accelleron Industries AG TEMP,Industrials,ACLNE.SW,EQ,CH1550409051
+Transocean Ltd.,Industrials,TOJ.SW,EQ,CH0048265513
 SFS Group AG,Industrials,SFSN.SW,EQ,CH0239229302
-Galenica AG,Industrials,GALE.SW,EQ,CH0360674466
-DKSH Holding Ltd,Industrials,DKSH.SW,EQ,CH0126673539
-Georg Fischer AG,Industrials,GF.SW,EQ,CH1169151003
+Sulzer AG,Industrials,SUN.SW,EQ,CH0038388911
+DKSH Holding,Industrials,DKSH.SW,EQ,CH0126673539
+Georg Fischer,Industrials,GF.SW,EQ,CH1169151003
 Bucher Industries AG,Industrials,BUCN.SW,EQ,CH0002432174
+Dätwyler Holding AG,Industrials,DAE.SW,EQ,CH0030486770
 Adecco Group AG,Industrials,ADEN.SW,EQ,CH0012138605
-Daetwyler Holding AG,Industrials,DAE.SW,EQ,CH0030486770
-ALSO Holding AG,Industrials,ALSN.SW,EQ,CH0024590272
 Stadler Rail AG,Industrials,SRAIL.SW,EQ,CH0002178181
-SoftwareOne Holding Ltd.,Industrials,SWON.SW,EQ,CH0496451508
 Burkhalter Holding AG,Industrials,BRKN.SW,EQ,CH0212255803
+SoftwareOne Holding Ltd.,Industrials,SWON.SW,EQ,CH0496451508
+Kardex Group,Industrials,KARN.SW,EQ,CH0100837282
 Burckhardt Compression Holding AG,Industrials,BCHN.SW,EQ,CH0025536027
-Landis+Gyr Group AG,Industrials,LAND.SW,EQ,CH0371153492
-Jungfraubahn Holding AG,Industrials,JFN.SW,EQ,CH0017875789
 Bossard Holding AG,Industrials,BOSN.SW,EQ,CH0238627142
-Interroll Holding AG,Industrials,INRN.SW,EQ,CH0006372897
+Jungfraubahn Holding AG,Industrials,JFN.SW,EQ,CH0017875789
 Implenia AG,Industrials,IMPN.SW,EQ,CH0023868554
+Oerlikon Group,Industrials,OERL.SW,EQ,CH0000816824
+Interroll Holding AG,Industrials,INRN.SW,EQ,CH0006372897
 EPIC Suisse Ltd.,Industrials,EPIC.SW,EQ,CH0516131684
 R&S Group Holding AG Pref Class A,Industrials,RSGN.SW,EQ,CH1107979838
 Zehnder Group AG Class A,Industrials,ZEHN.SW,EQ,CH0276534614
 Autoneum Holding AG,Industrials,AUTN.SW,EQ,CH0127480363
-APG SGA SA,Industrials,APGN.SW,EQ,CH0019107025
 Centiel AG,Industrials,CNTL.SW,EQ,CH0024666528
+APG SGA SA,Industrials,APGN.SW,EQ,CH0019107025
+Schweiter Technologies AG,Industrials,SWTQ.SW,EQ,CH1248667003
 Rieter Holding AG,Industrials,RIEN.SW,EQ,CH0003671440
 Phoenix Mecano AG,Industrials,PMN.SW,EQ,CH1261338102
-Schweiter Technologies AG,Industrials,SWTQ.SW,EQ,CH1248667003
-Bystronic AG,Industrials,BYS.SW,EQ,CH0244017502
 DocMorris Ltd,Industrials,DOCM.SW,EQ,CH0042615283
+Bystronic AG,Industrials,BYS.SW,EQ,CH0244017502
 Meier Tobler Group AG,Industrials,MTG.SW,EQ,CH0208062627
 BVZ Holding AG,Industrials,BVZN.SW,EQ,CH0008207356
 Mikron Holding AG,Industrials,MIKN.SW,EQ,CH0003390066
 Komax Holding AG,Industrials,KOMN.SW,EQ,CH0010702154
 Arbonia AG,Industrials,ARBN.SW,EQ,CH0110240600
 StarragTornos Group AG,Industrials,STGN.SW,EQ,CH0002361068
-Feintool International Holding AG,Industrials,FTON.SW,EQ,CH0009320091
 MCH Group AG,Industrials,MCHN.SW,EQ,CH0039542854
-Leclanche SA,Industrials,LECN.SW,EQ,CH0110303119
 Xlife Sciences Ltd.,Industrials,XLS.SW,EQ,CH0461929603
+Feintool International Holding AG,Industrials,FTON.SW,EQ,CH0009320091
 Klingelnberg AG,Industrials,KLIN.SW,EQ,CH0420462266
-Alpine Select AG,Industrials,ALPN.SW,EQ,CH0019199550
 Adval Tech Holding AG,Industrials,ADVN.SW,EQ,CH0008967926
 Schlatter Industries AG,Industrials,STRN.SW,EQ,CH0002277314
 Perrot Duval Holding SA,Industrials,PEDU.SW,EQ,CH0252620700
-UBS (CH) Property Fund – Direct Mixed Urban A,Industrials,URBAN.SW,EQ,CH0100778445
-FIR Fonds Immobilier Romand Parts,Industrials,FIR.SW,EQ,CH0014586710
-Schroder ImmoPLUS Units,Industrials,SRI.SW,EQ,CH0395718866
-Castle Private Equity AG,Industrials,CPEN.SW,EQ,CH0048854746
-UBS (CH) Property Fund - Direct LogisticsPlus Anteile,Industrials,CSLOG.SW,EQ,CH0245633950
-Immo Helvetic Anteile,Industrials,IMHE.SW,EQ,CH0002770102
-Bonhote-Immobilier SICAV - BIM,Industrials,BIM.SW,EQ,CH0026725611
-Swissinvest Real Estate Fund Anteile,Industrials,SREF.SW,EQ,CH0026168846
-UBS (CH) Property Fund - Direct LivingPlus Anteile,Industrials,CSLP.SW,EQ,CH0031069328
-UBS (CH) Property Fund - Swiss Commercial Interswiss Anteile,Industrials,INT.SW,EQ,CH0002769351
-UBS (CH) Property Fund - Direct Hospitality Anteile,Industrials,HOSP.SW,EQ,CH0118768057
-IMMOFONDS Schweizerischer Immobilien-Anlagefonds Anteile,Industrials,IM.SW,EQ,CH0009778769
-HBM Healthcare Investments AG,Industrials,HBMN.SW,EQ,CH0012627250

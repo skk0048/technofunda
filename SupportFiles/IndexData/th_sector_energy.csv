@@ -1,9 +1,19 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-PTT,Energy,PTT.BK,EQ,
-PTT Exploration,Energy,PTTEP.BK,EQ,
-Thai Oil,Energy,TOP.BK,EQ,
-IRPC,Energy,IRPC.BK,EQ,
-Banpu,Energy,BANPU.BK,EQ,
-PTT Oil and Retail,Energy,OR.BK,EQ,
-Bangchak Corporation,Energy,BCP.BK,EQ,
-Star Petroleum Refining,Energy,SPRC.BK,EQ,
+PTT,Energy,PTT.BK,EQ,TH0646010Z00
+PTT Exploration,Energy,PTTEP.BK,EQ,TH0355A10Z04
+PTT Oil and Retail,Energy,OR.BK,EQ,THA099010003
+Thai Oil,Energy,TOP.BK,EQ,TH0796010005
+Banpu,Energy,BANPU.BK,EQ,TH0148A10Z06
+Bangchak Corporation,Energy,BCP.BK,EQ,TH0420010Y01
+IRPC,Energy,IRPC.BK,EQ,TH0471010Y04
+Star Petroleum Refining,Energy,SPRC.BK,EQ,TH6838010002
+Prima Marine Public Company Limited,Energy,PRM.BK,EQ,TH8170010004
+Siamgas and Petrochemicals Public Company Limited,Energy,SGP.BK,EQ,TH0979A10Z00
+Lanna Resources Public Company Limited,Energy,LANNA.BK,EQ,TH0409010Z03
+Unique Mining Services Public Co. Ltd.,Energy,UMS.BK,EQ,TH0775010Z07
+Sea Oil Public Company Limited,Energy,SEAOIL.BK,EQ,TH4791010002
+Susco Public Company Limited,Energy,SUSCO.BK,EQ,TH0202B10Z08
+Asia Green Energy Public Company Limited,Energy,AGE.BK,EQ,TH0990A10Z05
+Power Solution Technologies Public Company Limited,Energy,PSTC.BK,EQ,TH6075010Z06
+RPCG Public Co. Ltd.,Energy,RPC.BK,EQ,TH0750010Y01
+ATLAS_ATLAS ENERGY,Energy,ATLAS.BK,EQ,THD346010008

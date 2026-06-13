@@ -1,39 +1,33 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-Air Liquide SA,Materials,AI.PA,EQ,
-Vallourec SA,Materials,VK.PA,EQ,
-Arkema SA,Materials,AKE.PA,EQ,
-LDC SA,Materials,LOUP.PA,EQ,
-Vicat SA,Materials,VCT.PA,EQ,
-Verallia SAS,Materials,VRLA.PA,EQ,
-Imerys SA,Materials,NK.PA,EQ,
-Eramet SA,Materials,ERA.PA,EQ,
-Waga Energy SA,Materials,WAGA.PA,EQ,
-Societe Explosifs et Produits Chimiques SA,Materials,EXPL.PA,EQ,
-Oeneo SA,Materials,SBT.PA,EQ,
-Groupe Guillin SA,Materials,ALGIL.PA,EQ,
-TFF Group,Materials,TFF.PA,EQ,
-Compagnie Chargeurs Invest,Materials,CRI.PA,EQ,
-Installux S.A.,Materials,ALLUX.PA,EQ,
-Baikowski SA,Materials,ALBKK.PA,EQ,
-Lhyfe SA,Materials,LHYFE.PA,EQ,
-Gascogne,Materials,ALBI.PA,EQ,
-Omer - Decugis & Cie SA,Materials,ALODC.PA,EQ,
-Moulinvest SA,Materials,ALMOU.PA,EQ,
-Hoffmann Green Cement Technologies SA,Materials,ALHGR.PA,EQ,
-Plastiques du Val de Loire SA,Materials,PVL.PA,EQ,
-ZCCM Investments Holdings PLC Class B,Materials,MLZAM.PA,EQ,
-Cogra 48 SA,Materials,ALCOG.PA,EQ,
-Sapmer SA,Materials,ALMER.PA,EQ,
-Trilogiq SA,Materials,ALTRI.PA,EQ,
-Gold by Gold SA,Materials,ALGLD.PA,EQ,
-KKO International SA,Materials,ALKKO.PA,EQ,
-Pet service Holding N.V,Materials,ALPET.PA,EQ,
-AgroGeneration SA,Materials,ALAGR.PA,EQ,
-PAULIC Meunerie SA,Materials,ALPAU.PA,EQ,
-Plant Advanced Technologies SA,Materials,ALPAT.PA,EQ,
-Augros Cosmetics Packaging SA,Materials,AUGR.PA,EQ,
-EO2,Materials,ALEO2.PA,EQ,
-Encres Dubuit SA,Materials,ALDUB.PA,EQ,
-Altheora SA,Materials,ALORA.PA,EQ,
-Florentaise SA,Materials,ALFLO.PA,EQ,
-Coil Naamloze vennootschap,Materials,ALCOI.PA,EQ,
+Air Liquide SA,Materials,AI.PA,EQ,FR0000120073
+Nexans SA,Materials,NEX.PA,EQ,FR0000044448
+Vallourec SA,Materials,VK.PA,EQ,FR0013506730
+Arkema SA,Materials,AKE.PA,EQ,FR0010313833
+Vicat SA,Materials,VCT.PA,EQ,FR0000031775
+Imerys SA,Materials,NK.PA,EQ,FR0000120859
+Robertet SA,Materials,CBE.PA,EQ,FR0000045601
+Robertet SA,Materials,RBT.PA,EQ,FR0000039091
+ERAMET S.A.,Materials,ERA.PA,EQ,FR0000131757
+EPC Groupe,Materials,EXPL.PA,EQ,FR0014003AQ4
+Jacquet Metals SA,Materials,JCQ.PA,EQ,FR0000033904
+Installux S.A.,Materials,ALLUX.PA,EQ,FR0000060451
+Baikowski SA,Materials,ALBKK.PA,EQ,FR0013384369
+Lhyfe SA,Materials,LHYFE.PA,EQ,FR0014009YQ1
+AFYREN SAS,Materials,ALAFY.PA,EQ,FR0014005AC9
+Carbios SAS,Materials,ALCRB.PA,EQ,FR0011648716
+Moulinvest S.A.,Materials,ALMOU.PA,EQ,FR0011033083
+Hoffmann Green Cement Technologies Societe anonyme,Materials,ALHGR.PA,EQ,FR0013451044
+Amoéba S.A.,Materials,ALMIB.PA,EQ,FR0011051598
+Herige,Materials,ALHRG.PA,EQ,FR0000066540
+Graines Voltz S.A.,Materials,GRVO.PA,EQ,FR0000065971
+Cogra 48 Société Anonyme,Materials,ALCOG.PA,EQ,FR0011071570
+Vinpai SAS,Materials,ALVIN.PA,EQ,FR001400AXT1
+Gold By Gold SA,Materials,ALGLD.PA,EQ,FR0011208693
+Rougier S.A.,Materials,ALRGR.PA,EQ,FR0000037640
+Eo2 Société Anonyme,Materials,ALEO2.PA,EQ,FR0010465534
+Encres Dubuit,Materials,ALDUB.PA,EQ,FR0004030708
+SAS Florentaise,Materials,ALFLO.PA,EQ,FR001400GO75
+ZCCM Investments Holdings Plc,Materials,MLZAM.PA,EQ,
+Plásticos Compuestos  S.A.,Materials,ALKOM.PA,EQ,
+Coil S.A./N.V.,Materials,ALCOI.PA,EQ,
+Parx Materials N.V.,Materials,MLPRX.PA,EQ,

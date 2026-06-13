@@ -1,814 +1,813 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-PT Bank Central Asia Tbk,Financials,BBCA.JK,EQ,ID1000109507
+Bank Central Asia,Financials,BBCA.JK,EQ,ID1000109507
 PT Barito Renewables Energy Tbk,Utilities,BREN.JK,EQ,ID1000198500
 PT DCI Indonesia Tbk,Technology,DCII.JK,EQ,ID1000158603
-PT Bank Rakyat Indonesia (Persero) Tbk Class B,Financials,BBRI.JK,EQ,ID1000118201
-PT Bank Mandiri (Persero) Tbk,Financials,BMRI.JK,EQ,ID1000095003
-PT Bayan Resources Tbk,Energy,BYAN.JK,EQ,ID1000111701
-PT Telkom Indonesia (Persero) Tbk Class B,Communication Services,TLKM.JK,EQ,ID1000129000
+Bank Rakyat Indonesia,Financials,BBRI.JK,EQ,ID1000118201
+Bank Mandiri,Financials,BMRI.JK,EQ,ID1000095003
+Bayan Resources,Energy,BYAN.JK,EQ,ID1000111701
 PT Ekamas Mora Republik Tbk,Communication Services,MORA.JK,EQ,ID1000170608
-PT Amman Mineral Internasional Tbk,Materials,AMMN.JK,EQ,ID1000191109
-PT Astra International Tbk,Technology,ASII.JK,EQ,ID1000122807
-PT Sejahteraraya Anugrahjaya Tbk,Health Care,SRAJ.JK,EQ,ID1000118706
-PT Indoritel Makmur Internasional Tbk,Communication Services,DNET.JK,EQ,ID1000063605
-PT Barito Pacific Tbk,Materials,BRPT.JK,EQ,ID1000085707
-PT Sinar Mas Multiartha Tbk Class A,Financials,SMMA.JK,EQ,ID1000094501
-PT Bank Negara Indonesia (Persero) Tbk Class B,Financials,BBNI.JK,EQ,ID1000096605
+Telkom Indonesia,Communication Services,TLKM.JK,EQ,ID1000129000
+Amman Mineral,Materials,AMMN.JK,EQ,ID1000191109
+Astra International,Consumer Discretionary,ASII.JK,EQ,ID1000122807
+Chandra Asri Pacific,Materials,TPIA.JK,EQ,ID1000090301
 PT Dian Swastatika Sentosa Tbk,Energy,DSSA.JK,EQ,ID1000113400
-PT Chandra Asri Pacific Tbk,Materials,TPIA.JK,EQ,ID1000090301
-PT Merdeka Gold Resources Tbk,Materials,EMAS.JK,EQ,ID1000211600
+Barito Pacific,Energy,BRPT.JK,EQ,ID1000085707
+PT Sinar Mas Multiartha Tbk Class A,Financials,SMMA.JK,EQ,ID1000094501
+PT Indoritel Makmur Internasional Tbk,Communication Services,DNET.JK,EQ,ID1000063605
+PT Sejahteraraya Anugrahjaya Tbk,Health Care,SRAJ.JK,EQ,ID1000118706
+Bank Negara Indonesia,Financials,BBNI.JK,EQ,ID1000096605
 PT Pantai Indah Kapuk Dua Tbk,Consumer Staples,PANI.JK,EQ,ID1000145303
 PT Bank Permata Tbk Class A,Financials,BNLI.JK,EQ,ID1000098205
-PT Maha Properti Indonesia Tbk,Financials,MPRO.JK,EQ,ID1000146301
+PT Merdeka Gold Resources Tbk,Materials,EMAS.JK,EQ,ID1000211600
 PT Impack Pratama Industri Tbk,Industrials,IMPC.JK,EQ,ID1000133002
-PT Bank Syariah Indonesia (Persero) Tbk,Financials,BRIS.JK,EQ,ID1000142904
+Bank Syariah Indonesia,Financials,BRIS.JK,EQ,ID1000142904
 PT Chandra Daya Investasi Tbk.,Utilities,CDIA.JK,EQ,ID1000210701
-PT United Tractors Tbk,Energy,UNTR.JK,EQ,ID1000058407
-PT Petrindo Jaya Kreasi Tbk,Materials,CUAN.JK,EQ,ID1000187206
-PT Indofood CBP Sukses Makmur Tbk,Consumer Staples,ICBP.JK,EQ,ID1000116700
 PT Capital Financial Indonesia Tbk,Financials,CASA.JK,EQ,ID1000137508
-PT Hanjaya Mandala Sampoerna Tbk,Consumer Staples,HMSP.JK,EQ,ID1000074008
+United Tractors,Industrials,UNTR.JK,EQ,ID1000058407
+PT Petrindo Jaya Kreasi Tbk,Materials,CUAN.JK,EQ,ID1000187206
 PT Bumi Resources Minerals Tbk Class A,Materials,BRMS.JK,EQ,ID1000117609
-PT ANTAM (Persero) Tbk,Materials,ANTM.JK,EQ,ID1000106602
-PT Alamtri Resources Indonesia Tbk,Energy,ADRO.JK,EQ,ID1000111305
-PT Merdeka Copper Gold Tbk,Materials,MDKA.JK,EQ,ID1000134406
-PT Indosat Tbk Class B,Communication Services,ISAT.JK,EQ,ID1000097405
-PT Unilever Indonesia Tbk,Consumer Staples,UNVR.JK,EQ,ID1000095706
+Indofood CBP,Consumer Staples,ICBP.JK,EQ,ID1000116700
+HM Sampoerna,Consumer Staples,HMSP.JK,EQ,ID1000074008
+PT Maha Properti Indonesia Tbk,Financials,MPRO.JK,EQ,ID1000146301
+Aneka Tambang,Materials,ANTM.JK,EQ,ID1000106602
 Pt Adaro Andalan Indonesia Tbk,Energy,AADI.JK,EQ,ID1000207509
 PT Alamtri Minerals Indonesia Tbk,Energy,ADMR.JK,EQ,ID1000165608
-PT Charoen Pokphand Indonesia Tbk,Materials,CPIN.JK,EQ,ID1000117708
-PT Indofood Sukses Makmur Tbk,Consumer Staples,INDF.JK,EQ,ID1000057003
-PT GoTo Gojek Tokopedia Tbk,Technology,GOTO.JK,EQ,ID1000166903
-PT Sumber Alfaria Trijaya,Consumer Discretionary,AMRT.JK,EQ,ID1000128705
+Adaro Energy,Energy,ADRO.JK,EQ,ID1000111305
+Unilever Indonesia,Consumer Staples,UNVR.JK,EQ,ID1000095706
+Merdeka Copper Gold,Materials,MDKA.JK,EQ,ID1000134406
+PT Indosat Tbk Class B,Communication Services,ISAT.JK,EQ,ID1000097405
 PT Bumi Resources Tbk Class A,Materials,BUMI.JK,EQ,ID1000068703
+Sumber Alfaria,Consumer Staples,AMRT.JK,EQ,ID1000128705
+Indofood Sukses,Consumer Staples,INDF.JK,EQ,ID1000057003
 PT Trimegah Bangun Persada Tbk,Materials,NCKL.JK,EQ,ID1000188006
-PT Vale Indonesia Tbk,Materials,INCO.JK,EQ,ID1000109309
-PT XLSMART Telecom Sejahtera Tbk,Communication Services,EXCL.JK,EQ,ID1000102502
+Charoen Pokphand,Consumer Staples,CPIN.JK,EQ,ID1000117708
+GoTo Gojek Tokopedia,Technology,GOTO.JK,EQ,ID1000166903
 PT Merdeka Battery Materials Tbk,Materials,MBMA.JK,EQ,ID1000188303
-PT Transcoal Pacific,Industrials,TCPI.JK,EQ,ID1000144009
+Vale Indonesia,Materials,INCO.JK,EQ,ID1000109309
 PT Bank Mega Tbk,Financials,MEGA.JK,EQ,ID1000052400
-PT Dayamitra Telekomunikasi Tbk,Communication Services,MTEL.JK,EQ,ID1000164205
-PT Global Digital Niaga Tbk,Consumer Discretionary,BELI.JK,EQ,ID1000176001
-PT Bank Danamon Indonesia Tbk Class A,Financials,BDMN.JK,EQ,ID1000094204
-PT Bank CIMB Niaga Tbk Class A,Financials,BNGA.JK,EQ,ID1000098007
-PT Mayora Indah Tbk,Consumer Staples,MYOR.JK,EQ,ID1000060007
-PT Perusahaan Gas Negara (Persero) Tbk Class B,Energy,PGAS.JK,EQ,ID1000111602
-PT Petrosea Tbk,Industrials,PTRO.JK,EQ,ID1000122401
-PT Indah Kiat Pulp & Paper Tbk,Materials,INKP.JK,EQ,ID1000062201
+PT XLSMART Telecom Sejahtera Tbk,Communication Services,EXCL.JK,EQ,ID1000102502
+PT Transcoal Pacific,Industrials,TCPI.JK,EQ,ID1000144009
 PT Pradiksi Gunatama Tbk,Materials,PGUN.JK,EQ,ID1000156409
+Indah Kiat Pulp & Paper,Materials,INKP.JK,EQ,ID1000062201
+PT Petrosea Tbk,Industrials,PTRO.JK,EQ,ID1000122401
+Telkom Towers Mitratel,Communication Services,MTEL.JK,EQ,ID1000164205
+PT Global Digital Niaga Tbk,Consumer Discretionary,BELI.JK,EQ,ID1000176001
 PT Golden Energy Mines Tbk,Energy,GEMS.JK,EQ,ID1000121106
-PT Pertamina Geothermal Energy Tbk,Utilities,PGEO.JK,EQ,ID1000186505
-PT Cisarua Mountain Dairy Tbk,Industrials,CMRY.JK,EQ,ID1000164700
-PT Tower Bersama Infrastructure Tbk,Financials,TBIG.JK,EQ,ID1000116908
-PT MNC Digital Entertainment Tbk,Consumer Discretionary,MSIN.JK,EQ,ID1000143605
-PT Kalbe Farma Tbk,Health Care,KLBF.JK,EQ,ID1000125107
+Bank CIMB Niaga,Financials,BNGA.JK,EQ,ID1000098007
+Bank Danamon,Financials,BDMN.JK,EQ,ID1000094204
+Mayora Indah,Consumer Staples,MYOR.JK,EQ,ID1000060007
+PT Multipolar Technology Tbk,Technology,MLPT.JK,EQ,ID1000128408
+Perusahaan Gas Negara,Utilities,PGAS.JK,EQ,ID1000111602
 PT Energi Mega Persada Tbk,Energy,ENRG.JK,EQ,ID1000098304
+Pertamina Geothermal,Energy,PGEO.JK,EQ,ID1000186505
+Cisarua Mountain Dairy,Consumer Staples,CMRY.JK,EQ,ID1000164700
+Kalbe Farma,Health Care,KLBF.JK,EQ,ID1000125107
 PT Elang Mahkota Teknologi Tbk,Consumer Discretionary,EMTK.JK,EQ,ID1000113905
-PT Medco Energi Internasional Tbk,Energy,MEDC.JK,EQ,ID1000053705
-PT Bukit Asam (Persero) Tbk,Energy,PTBA.JK,EQ,ID1000094006
+Tower Bersama,Communication Services,TBIG.JK,EQ,ID1000116908
+PT MNC Digital Entertainment Tbk,Consumer Discretionary,MSIN.JK,EQ,ID1000143605
+Medco Energi,Energy,MEDC.JK,EQ,ID1000053705
 PT Siloam International Hospitals Tbk Reg-S,Health Care,SILO.JK,EQ,ID1000129208
-PT Gudang Garam Tbk,Consumer Staples,GGRM.JK,EQ,ID1000068604
+Bukit Asam,Energy,PTBA.JK,EQ,ID1000094006
 PT Triputra Agro Persada Tbk,Materials,TAPG.JK,EQ,ID1000160302
+Gudang Garam,Consumer Staples,GGRM.JK,EQ,ID1000068604
 PT Bank OCBC NISP Tbk,Financials,NISP.JK,EQ,ID1000094402
 PT VKTR Teknologi Mobilitas Tbk,Consumer Discretionary,VKTR.JK,EQ,ID1000190309
+Indo Tambangraya,Energy,ITMG.JK,EQ,ID1000108509
 PT FAP Agri Tbk,Consumer Staples,FAPA.JK,EQ,ID1000158405
-PT Multipolar Technology Tbk,Technology,MLPT.JK,EQ,ID1000128408
+AKR Corporindo,Energy,AKRA.JK,EQ,ID1000106701
+Mitra Adiperkasa,Consumer Discretionary,MAPI.JK,EQ,ID1000099807
 PT Archi Indonesia Tbk,Materials,ARCI.JK,EQ,ID1000161003
-PT Indo Tambangraya Megah Tbk,Energy,ITMG.JK,EQ,ID1000108509
-PT Mitra Adiperkasa Tbk,Consumer Discretionary,MAPI.JK,EQ,ID1000099807
-PT AKR Corporindo Tbk,Industrials,AKRA.JK,EQ,ID1000106701
-PT Bank Ina Perdana Tbk,Financials,BINA.JK,EQ,ID1000130404
 PT Timah (Persero) Tbk,Materials,TINS.JK,EQ,ID1000111800
+PT Bank Ina Perdana Tbk,Financials,BINA.JK,EQ,ID1000130404
+PT Garuda Indonesia (Persero) Tbk Class B,Industrials,GIAA.JK,EQ,ID1000118300
 PT Bank SMBC Indonesia Tbk,Financials,BTPN.JK,EQ,ID1000118508
 PT Japfa Comfeed Indonesia Tbk Class A,Materials,JPFA.JK,EQ,ID1000126907
-PT Mitra Keluarga Karyasehat Tbk,Health Care,MIKA.JK,EQ,ID1000135700
+Panin Bank,Financials,PNBN.JK,EQ,ID1000092703
 PT Daya Intiguna Yasa Tbk,Consumer Discretionary,MDIY.JK,EQ,ID1000207608
-PT Garuda Indonesia (Persero) Tbk Class B,Industrials,GIAA.JK,EQ,ID1000118300
-PT Metropolitan Kentjana Tbk,Financials,MKPI.JK,EQ,ID1000112808
-PT Bank Pan Indonesia Tbk,Financials,PNBN.JK,EQ,ID1000092703
-PT Jasa Marga (Persero) Tbk Class B,Industrials,JSMR.JK,EQ,ID1000108103
-PT Sarana Menara Nusantara Tbk,Financials,TOWR.JK,EQ,ID1000128804
-PT MD Entertainment Tbk,Consumer Discretionary,FILM.JK,EQ,ID1000144900
-PT Allo Bank Indonesia Tbk,Financials,BBHI.JK,EQ,ID1000135304
-PT Avia Avian Tbk,Materials,AVIA.JK,EQ,ID1000165004
 PT Bangun Kosambi Sukses Tbk,Financials,CBDK.JK,EQ,ID1000208309
-PT Saratoga Investama Sedaya Tbk,Financials,SRTG.JK,EQ,ID1000127707
-PT MAP Aktif Adiperkasa Tbk,Consumer Discretionary,MAPA.JK,EQ,ID1000144108
-PT Bank Tabungan Negara (Persero) Tbk,Financials,BBTN.JK,EQ,ID1000113707
-PT Bakrie & Brothers Tbk Class A,Industrials,BNBR.JK,EQ,ID1000110000
-PT Panca Anugrah Wisesa Tbk,Consumer Discretionary,MGLV.JK,EQ,ID1000160609
+Mitra Keluarga Karyasehat,Health Care,MIKA.JK,EQ,ID1000135700
+PT Allo Bank Indonesia Tbk,Financials,BBHI.JK,EQ,ID1000135304
+PT Metropolitan Kentjana Tbk,Financials,MKPI.JK,EQ,ID1000112808
+Sarana Menara Nusantara,Communication Services,TOWR.JK,EQ,ID1000128804
 PT Darma Henwa Tbk,Energy,DEWA.JK,EQ,ID1000107303
-PT Bukit Uluwatu Villa Tbk,Consumer Discretionary,BUVA.JK,EQ,ID1000116007
-PT Pabrik Kertas Tjiwi Kimia Tbk,Materials,TKIM.JK,EQ,ID1000060403
-PT Bank Sinarmas Tbk,Financials,BSIM.JK,EQ,ID1000117807
-PT Soho Global Health Tbk,Health Care,SOHO.JK,EQ,ID1000157506
-PT Krom Bank Indonesia Tbk,Financials,BBSI.JK,EQ,ID1000157100
-PT Indocement Tunggal Prakarsa Tbk,Materials,INTP.JK,EQ,ID1000061302
-PT Bank Maybank Indonesia Tbk Class A,Financials,BNII.JK,EQ,ID1000099302
-PT Jaya Real Property Tbk,Financials,JRPT.JK,EQ,ID1000128903
-PT Ultrajaya Milk Industry & Trading Co. Tbk,Consumer Staples,ULTJ.JK,EQ,ID1000063100
-PT Cemindo Gemilang Tbk,Materials,CMNT.JK,EQ,ID1000163108
-PT J Resources Asia Pasifik Tbk,Materials,PSAB.JK,EQ,ID1000094709
+PT Saratoga Investama Sedaya Tbk,Financials,SRTG.JK,EQ,ID1000127707
 PT Jaya Sukses Makmur Sentosa Tbk,Financials,RISE.JK,EQ,ID1000144801
-PT Metro Healthcare Indonesia Tbk,Health Care,CARE.JK,EQ,ID1000154909
-PT Bank Jago Tbk,Financials,ARTO.JK,EQ,ID1000136708
-PT Pakuwon Jati Tbk,Financials,PWON.JK,EQ,ID1000122500
-PT Prima Andalan Mandiri Tbk,Energy,MCOL.JK,EQ,ID1000162902
-PT Arkora Hydro Tbk,Industrials,ARKO.JK,EQ,ID1000168909
-PT Akasha Wira International Tbk,Consumer Staples,ADES.JK,EQ,ID1000067606
-PT Siantar Top Tbk,Consumer Staples,STTP.JK,EQ,ID1000079502
-PT Multi Bintang Indonesia Tbk,Consumer Staples,MLBI.JK,EQ,ID1000132806
+PT Avia Avian Tbk,Materials,AVIA.JK,EQ,ID1000165004
+PT Bukit Uluwatu Villa Tbk,Consumer Discretionary,BUVA.JK,EQ,ID1000116007
+PT Bakrie & Brothers Tbk Class A,Industrials,BNBR.JK,EQ,ID1000110000
+PT MD Entertainment Tbk,Consumer Discretionary,FILM.JK,EQ,ID1000144900
+Jasa Marga,Industrials,JSMR.JK,EQ,ID1000108103
+Bank Tabungan Negara,Financials,BBTN.JK,EQ,ID1000113707
+Pabrik Kertas Tjiwi Kimia,Materials,TKIM.JK,EQ,ID1000060403
+PT Panca Anugrah Wisesa Tbk,Consumer Discretionary,MGLV.JK,EQ,ID1000160609
+Map Aktif Adiperkasa,Consumer Discretionary,MAPA.JK,EQ,ID1000144108
+PT Krom Bank Indonesia Tbk,Financials,BBSI.JK,EQ,ID1000157100
 PT Rukun Raharja Tbk,Utilities,RAJA.JK,EQ,ID1000094105
-PT Astra Agro Lestari Tbk,Materials,AALI.JK,EQ,ID1000066004
-PT Surya Citra Media Tbk,Consumer Discretionary,SCMA.JK,EQ,ID1000125305
-PT MSIG Life Insurance Indonesia Tbk,Financials,LIFE.JK,EQ,ID1000150600
-PT Medikaloka Hermina Tbk,Health Care,HEAL.JK,EQ,ID1000143100
-PT Sinar Mas Agro Resources & Technology Tbk,Materials,SMAR.JK,EQ,ID1000101504
+PT Arkora Hydro Tbk,Industrials,ARKO.JK,EQ,ID1000168909
 PT Jhonlin Agro Raya Tbk,Materials,JARR.JK,EQ,ID1000170202
+PT Soho Global Health Tbk,Health Care,SOHO.JK,EQ,ID1000157506
+Indocement,Materials,INTP.JK,EQ,ID1000061302
+PT Bank Sinarmas Tbk,Financials,BSIM.JK,EQ,ID1000117807
+PT Bank Maybank Indonesia Tbk Class A,Financials,BNII.JK,EQ,ID1000099302
+Bank Jago,Financials,ARTO.JK,EQ,ID1000136708
+PT Cemindo Gemilang Tbk,Materials,CMNT.JK,EQ,ID1000163108
+PT Jaya Real Property Tbk,Financials,JRPT.JK,EQ,ID1000128903
+PT Metro Healthcare Indonesia Tbk,Health Care,CARE.JK,EQ,ID1000154909
 PT Ancara Logistics Indonesia Tbk,Consumer Discretionary,ALII.JK,EQ,ID1000202807
-PT Dharma Satya Nusantara Tbk,Materials,DSNG.JK,EQ,ID1000135809
-PT Astra Otoparts Tbk,Industrials,AUTO.JK,EQ,ID1000119704
-PT Bumi Serpong Damai Tbk,Financials,BSDE.JK,EQ,ID1000110802
-PT Garudafood Putra Putri Jaya Tbk,Consumer Staples,GOOD.JK,EQ,ID1000145907
-PT Bukalapak.com Tbk,Consumer Discretionary,BUKA.JK,EQ,ID1000162001
-PT Cita Mineral Investindo Tbk,Consumer Discretionary,CITA.JK,EQ,ID1000082803
-PT Raharja Energi Cepu Tbk,Industrials,RATU.JK,EQ,ID1000208101
-PT Cikarang Listrindo Tbk,Utilities,POWR.JK,EQ,ID1000137201
-PT Industri Jamu dan Farmasi Sido Muncul Tbk,Health Care,SIDO.JK,EQ,ID1000130305
-PT Tempo Scan Pacific Tbk,Industrials,TSPC.JK,EQ,ID1000104508
-PT Pelayaran Nasional Ekalya Purnamasari Tbk,Industrials,ELPI.JK,EQ,ID1000170905
+PT Sinar Mas Agro Resources & Technology Tbk,Materials,SMAR.JK,EQ,ID1000101504
+PT Prima Andalan Mandiri Tbk,Energy,MCOL.JK,EQ,ID1000162902
+PT Akasha Wira International Tbk,Consumer Staples,ADES.JK,EQ,ID1000067606
+PT Medikaloka Hermina Tbk,Health Care,HEAL.JK,EQ,ID1000143100
+PT Raharja Energi Cepu Tbk,Financials,RATU.JK,EQ,ID1000208101
+Bumi Serpong Damai,Real Estate,BSDE.JK,EQ,ID1000110802
+PT Multi Bintang Indonesia Tbk,Consumer Staples,MLBI.JK,EQ,ID1000132806
+PT Surya Citra Media Tbk,Consumer Discretionary,SCMA.JK,EQ,ID1000125305
+Pakuwon Jati,Real Estate,PWON.JK,EQ,ID1000122500
+PT J Resources Asia Pasifik Tbk,Materials,PSAB.JK,EQ,ID1000094709
+PT Siantar Top Tbk,Consumer Staples,STTP.JK,EQ,ID1000079502
 Pt Yupi Indo Jelly Gum Tbk,Consumer Staples,YUPI.JK,EQ,ID1000209802
-PT Semen Indonesia (Persero) Tbk,Materials,SMGR.JK,EQ,ID1000106800
-PT Indika Energy Tbk,Energy,INDY.JK,EQ,ID1000110901
-PT Hartadinata Abadi Tbk,Consumer Discretionary,HRTA.JK,EQ,ID1000139405
-PT Ciputra Development Tbk,Financials,CTRA.JK,EQ,ID1000115306
-PT Baramulti Suksessarana Tbk,Energy,BSSR.JK,EQ,ID1000125701
-PT ESSA Industries Indonesia Tbk,Energy,ESSA.JK,EQ,ID1000122203
-PT Indokripto Koin Semesta Tbk,Industrials,COIN.JK,EQ,ID1000211105
-PT Adira Dinamika Multi Finance Tbk,Financials,ADMF.JK,EQ,ID1000097504
-PT Sumber Tani Agung Resources Tbk,Materials,STAA.JK,EQ,ID1000166507
-PT Nusantara Sawit Sejahtera Tbk,Materials,NSSS.JK,EQ,ID1000187503
-PT Famon Awal Bros Sedaya Tbk,Health Care,PRAY.JK,EQ,ID1000175904
-PT Bank KB Indonesia Tbk Class B,Financials,BBKP.JK,EQ,ID1000103609
+PT Ultrajaya Milk Industry & Trading Co. Tbk,Consumer Staples,ULTJ.JK,EQ,ID1000063100
+PT Dharma Satya Nusantara Tbk,Materials,DSNG.JK,EQ,ID1000135809
+PT MSIG Life Insurance Indonesia Tbk,Financials,LIFE.JK,EQ,ID1000150600
+Astra Agro Lestari,Consumer Staples,AALI.JK,EQ,ID1000066004
+PT Garudafood Putra Putri Jaya Tbk,Consumer Staples,GOOD.JK,EQ,ID1000145907
+Indika Energy,Energy,INDY.JK,EQ,ID1000110901
+PT Pelayaran Nasional Ekalya Purnamasari Tbk,Industrials,ELPI.JK,EQ,ID1000170905
+PT Bukalapak.com Tbk,Consumer Discretionary,BUKA.JK,EQ,ID1000162001
+PT Astra Otoparts Tbk,Industrials,AUTO.JK,EQ,ID1000119704
+PT Cita Mineral Investindo Tbk,Consumer Discretionary,CITA.JK,EQ,ID1000082803
 PT Sentul City Tbk,Financials,BKSL.JK,EQ,ID1000104201
+Ciputra Development,Real Estate,CTRA.JK,EQ,ID1000115306
+PT Indokripto Koin Semesta Tbk,Financials,COIN.JK,EQ,ID1000211105
+PT Tempo Scan Pacific Tbk,Industrials,TSPC.JK,EQ,ID1000104508
+Sido Muncul,Health Care,SIDO.JK,EQ,ID1000130305
+PT Cikarang Listrindo Tbk,Utilities,POWR.JK,EQ,ID1000137201
+PT Sumber Tani Agung Resources Tbk,Materials,STAA.JK,EQ,ID1000166507
+PT Baramulti Suksessarana Tbk,Energy,BSSR.JK,EQ,ID1000125701
+Harum Energy,Energy,HRUM.JK,EQ,ID1000116601
+PT Nusantara Sawit Sejahtera Tbk,Materials,NSSS.JK,EQ,ID1000187503
+PT Golden Flower Tbk,Consumer Staples,POLU.JK,EQ,ID1000149206
+Surya Esa Perkasa,Energy,ESSA.JK,EQ,ID1000122203
+Semen Indonesia,Materials,SMGR.JK,EQ,ID1000106800
+PT Bank KB Indonesia Tbk Class B,Financials,BBKP.JK,EQ,ID1000103609
+PT Adira Dinamika Multi Finance Tbk,Financials,ADMF.JK,EQ,ID1000097504
 PT Midi Utama Indonesia Tbk,Consumer Discretionary,MIDI.JK,EQ,ID1000117302
-PT Selamat Sempurna Tbk,Industrials,SMSM.JK,EQ,ID1000095409
-PT Harum Energy Tbk,Energy,HRUM.JK,EQ,ID1000116601
-PT RMK Energy Tbk,Industrials,RMKE.JK,EQ,ID1000164908
-PT Citra Marga Nusaphala Persada Tbk,Industrials,CMNP.JK,EQ,ID1000070402
-PT BFI Finance Indonesia Tbk,Financials,BFIN.JK,EQ,ID1000124001
 PT Astrindo Nusantara Infrastruktur Tbk,Energy,BIPI.JK,EQ,ID1000114101
-PT Bank Maspion Indonesia Tbk,Financials,BMAS.JK,EQ,ID1000128200
-PT Indonesian Paradise Property Tbk,Consumer Discretionary,INPP.JK,EQ,ID1000100001
+PT RMK Energy Tbk,Industrials,RMKE.JK,EQ,ID1000164908
+PT BFI Finance Indonesia Tbk,Financials,BFIN.JK,EQ,ID1000124001
+PT Selamat Sempurna Tbk,Industrials,SMSM.JK,EQ,ID1000095409
+PT Famon Awal Bros Sedaya Tbk,Health Care,PRAY.JK,EQ,ID1000175904
+PT Citra Marga Nusaphala Persada Tbk,Industrials,CMNP.JK,EQ,ID1000070402
 PT Sariguna Primatirta Tbk,Consumer Staples,CLEO.JK,EQ,ID1000138605
+PT Hartadinata Abadi Tbk,Consumer Discretionary,HRTA.JK,EQ,ID1000139405
+PT Bank Maspion Indonesia Tbk,Financials,BMAS.JK,EQ,ID1000128200
+PP London Sumatra,Consumer Staples,LSIP.JK,EQ,ID1000118409
 PT MNC Tourism Indonesia Tbk,Financials,KPIG.JK,EQ,ID1000052301
+PT Solusi Sinergi Digital Tbk,Technology,WIFI.JK,EQ,ID1000158504
+PT ITSEC Asia Tbk,Technology,CYBR.JK,EQ,ID1000194707
+PT Abadi Nusantara Hijau Investama Tbk,Materials,PACK.JK,EQ,ID1000185002
 PT Samator Indo Gas Tbk,Materials,AGII.JK,EQ,ID1000137805
 PT Salim Ivomas Pratama Tbk,Consumer Staples,SIMP.JK,EQ,ID1000119100
-PT Bank Mestika Dharma Tbk,Financials,BBMD.JK,EQ,ID1000128507
-PT Perusahaan Perkebunan London Sumatra Indonesia Tbk,Materials,LSIP.JK,EQ,ID1000118409
+PT Indonesian Paradise Property Tbk,Consumer Discretionary,INPP.JK,EQ,ID1000100001
 PT Bank Pembangunan Daerah Jawa Barat & Banten Tbk,Financials,BJBR.JK,EQ,ID1000115702
-PT Solusi Sinergi Digital Tbk,Technology,WIFI.JK,EQ,ID1000158504
-PT Duta Pertiwi Tbk,Financials,DUTI.JK,EQ,ID1000076300
+PT Bank Mestika Dharma Tbk,Financials,BBMD.JK,EQ,ID1000128507
 PT Bank Pembangunan Daerah Jawa Timur Tbk Class B,Financials,BJTM.JK,EQ,ID1000123904
-PT ITSEC Asia Tbk,Technology,CYBR.JK,EQ,ID1000194707
 PT Nusantara Sejahtera Raya Tbk,Consumer Discretionary,CNMA.JK,EQ,ID1000193709
-PT Abadi Nusantara Hijau Investama Tbk,Materials,PACK.JK,EQ,ID1000185002
-PT Citra Putra Realty Tbk,Consumer Discretionary,CLAY.JK,EQ,ID1000147903
+Bank Tabungan Pensiunan,Financials,BTPS.JK,EQ,ID1000142805
 PT Puradelta Lestari Tbk,Financials,DMAS.JK,EQ,ID1000134109
-PT Surya Semesta Internusa Tbk,Industrials,SSIA.JK,EQ,ID1000119902
-PT Golden Flower Tbk,Consumer Staples,POLU.JK,EQ,ID1000149206
-PT Sawit Sumbermas Sarana Tbk,Materials,SSMS.JK,EQ,ID1000130008
-PT Bank BTPN Syariah Tbk,Financials,BTPS.JK,EQ,ID1000142805
-PT Temas Tbk,Industrials,TMAS.JK,EQ,ID1000103203
-PT Panin Financial Tbk,Industrials,PNLF.JK,EQ,ID1000095607
-PT Garuda Maintenance Facility Aero Asia Tbk,Industrials,GMFI.JK,EQ,ID1000140601
-PT ABM Investama Tbk,Energy,ABMM.JK,EQ,ID1000121502
-PT Enseval Putera Megatrading Tbk,Industrials,EPMT.JK,EQ,ID1000096506
-PT Metrodata Electronics Tbk,Technology,MTDL.JK,EQ,ID1000055007
-PT Teladan Prima Agro Tbk,Materials,TLDN.JK,EQ,ID1000167109
+PT Duta Pertiwi Tbk,Financials,DUTI.JK,EQ,ID1000076300
 PT Pacific Strategic Financial Tbk Class A,Financials,APIC.JK,EQ,ID1000101009
+PT Sawit Sumbermas Sarana Tbk,Materials,SSMS.JK,EQ,ID1000130008
+PT Surya Semesta Internusa Tbk,Industrials,SSIA.JK,EQ,ID1000119902
+PT Citra Putra Realty Tbk,Consumer Discretionary,CLAY.JK,EQ,ID1000147903
+PT Panin Financial Tbk,Industrials,PNLF.JK,EQ,ID1000095607
+PT Temas Tbk,Industrials,TMAS.JK,EQ,ID1000103203
+PT ABM Investama Tbk,Energy,ABMM.JK,EQ,ID1000121502
+PT Metrodata Electronics Tbk,Technology,MTDL.JK,EQ,ID1000055007
+PT Garuda Maintenance Facility Aero Asia Tbk,Industrials,GMFI.JK,EQ,ID1000140601
+PT PAM Mineral Tbk,Materials,NICL.JK,EQ,ID1000161409
+PT Teladan Prima Agro Tbk,Materials,TLDN.JK,EQ,ID1000167109
+PT Sumber Global Energy Tbk,Materials,SGER.JK,EQ,ID1000156706
+PT Enseval Putera Megatrading Tbk,Industrials,EPMT.JK,EQ,ID1000096506
 PT Fore Kopi Indonesia Tbk,Consumer Discretionary,FORE.JK,EQ,ID1000210008
-PT Aspirasi Hidup Indonesia Tbk,Consumer Discretionary,ACES.JK,EQ,ID1000125503
+Ace Hardware Indonesia,Consumer Discretionary,ACES.JK,EQ,ID1000125503
 PT Golden Eagle Energy Tbk,Energy,SMMT.JK,EQ,ID1000100704
 PT Diamond Food Indonesia Tbk,Consumer Staples,DMND.JK,EQ,ID1000153802
-PT Erajaya Swasembada Tbk,Industrials,ERAA.JK,EQ,ID1000121601
-PT Bhakti Multi Artha Tbk,Industrials,BHAT.JK,EQ,ID1000155807
-PT Jayamas Medica Industri Tbk,Health Care,OMED.JK,EQ,ID1000176209
-PT Citra Tubindo Tbk,Industrials,CTBN.JK,EQ,ID1000112303
-PT Sarana Meditama Metropolitan Tbk,Health Care,SAME.JK,EQ,ID1000126303
-PT Yulie Sekuritas Indonesia Tbk,Financials,YULE.JK,EQ,ID1000100100
-PT PAM Mineral Tbk,Materials,NICL.JK,EQ,ID1000161409
-PT Provident Investasi Bersama Tbk,Materials,PALM.JK,EQ,ID1000125008
-PT Unggul Indah Cahaya Tbk,Consumer Staples,UNIC.JK,EQ,ID1000058704
-PT Batavia Prosperindo Internasional Tbk,Industrials,BPII.JK,EQ,ID1000132004
-PT Bank Multiarta Sentosa Tbk,Financials,MASB.JK,EQ,ID1000161102
-PT Austindo Nusantara Jaya Tbk,Materials,ANJT.JK,EQ,ID1000270002
-PT Mitra Pinasthika Mustika Tbk,Industrials,MPMX.JK,EQ,ID1000127202
+Erajaya Swasembada,Consumer Discretionary,ERAA.JK,EQ,ID1000121601
 PT Buana Lintas Lautan Tbk,Industrials,BULL.JK,EQ,ID1000133705
-PT Dharma Polimetal Tbk,Industrials,DRMA.JK,EQ,ID1000165509
-PT Bali Towerindo Sentra Tbk,Industrials,BALI.JK,EQ,ID1000135106
-PT Olympus Strategic Indonesia Tbk,Consumer Discretionary,NATO.JK,EQ,ID1000148000
-PT Singaraja Putra Tbk,Consumer Discretionary,SINI.JK,EQ,ID1000151905
-PT Bank Mayapada Internasional Tbk Class A,Financials,MAYA.JK,EQ,ID1000055205
-PT Roda Vivatex Tbk,Financials,RDTX.JK,EQ,ID1000067200
-PT Summarecon Agung Tbk,Financials,SMRA.JK,EQ,ID1000092406
-PT Lippo Karawaci Tbk,Financials,LPKR.JK,EQ,ID1000108905
-PT Samudera Indonesia Tbk,Industrials,SMDR.JK,EQ,ID1000075906
-PT Super Energy Tbk,Energy,SURE.JK,EQ,ID1000145709
+PT Yulie Sekuritas Indonesia Tbk,Financials,YULE.JK,EQ,ID1000100100
+PT Jayamas Medica Industri Tbk,Health Care,OMED.JK,EQ,ID1000176209
+PT Bhakti Multi Artha Tbk,Industrials,BHAT.JK,EQ,ID1000155807
+PT Sarana Meditama Metropolitan Tbk,Health Care,SAME.JK,EQ,ID1000126303
+PT Provident Investasi Bersama Tbk,Materials,PALM.JK,EQ,ID1000125008
+Summarecon Agung,Real Estate,SMRA.JK,EQ,ID1000092406
+PT Austindo Nusantara Jaya Tbk,Materials,ANJT.JK,EQ,ID1000270002
 PT Prime Agri Resources Tbk,Materials,SGRO.JK,EQ,ID1000106107
-PT Mastersystem Infotama Tbk,Technology,MSTI.JK,EQ,ID1000199102
+PT Bank Mayapada Internasional Tbk Class A,Financials,MAYA.JK,EQ,ID1000055205
+PT Unggul Indah Cahaya Tbk,Consumer Staples,UNIC.JK,EQ,ID1000058704
+PT Bali Towerindo Sentra Tbk,Industrials,BALI.JK,EQ,ID1000135106
+PT Bank Multiarta Sentosa Tbk,Financials,MASB.JK,EQ,ID1000161102
+PT Olympus Strategic Indonesia Tbk,Consumer Discretionary,NATO.JK,EQ,ID1000148000
+PT Samudera Indonesia Tbk,Industrials,SMDR.JK,EQ,ID1000075906
+PT Singaraja Putra Tbk,Consumer Discretionary,SINI.JK,EQ,ID1000151905
+PT Super Energy Tbk,Energy,SURE.JK,EQ,ID1000145709
+PT Citra Tubindo Tbk,Industrials,CTBN.JK,EQ,ID1000112303
+PT Lippo Karawaci Tbk,Financials,LPKR.JK,EQ,ID1000108905
 PT Elnusa Tbk,Energy,ELSA.JK,EQ,ID1000109606
-PT Media Nusantara Citra Tbk,Industrials,MNCN.JK,EQ,ID1000106206
-PT Tigaraksa Satria Tbk,Industrials,TGKA.JK,EQ,ID1000102106
-PT Sillo Maritime Perdana Tbk,Industrials,SHIP.JK,EQ,ID1000137102
-PT Jasuindo Tiga Perkasa Tbk,Industrials,JTPE.JK,EQ,ID1000120603
-PT Mitrabahtera Segara Sejati Tbk,Industrials,MBSS.JK,EQ,ID1000118607
-PT Metropolitan Land Tbk,Financials,MTLA.JK,EQ,ID1000119308
-PT Asuransi Tugu Pratama Indonesia Tbk,Financials,TUGU.JK,EQ,ID1000143506
 PT Sinergi Inti Andalan Prima Tbk,Communication Services,INET.JK,EQ,ID1000192404
-PT Sumber Global Energy Tbk,Materials,SGER.JK,EQ,ID1000156706
-PT Daaz Bara Lestari Tbk,Industrials,DAAZ.JK,EQ,ID1000206808
-PT Cahaya Aero Services Tbk,Industrials,CASS.JK,EQ,ID1000121403
-PT Blue Bird Tbk,Industrials,BIRD.JK,EQ,ID1000132707
-PT Gajah Tunggal Tbk,Consumer Discretionary,GJTL.JK,EQ,ID1000086002
-PT Multi Medika Internasional Tbk,Industrials,MMIX.JK,EQ,ID1000178700
-PT Bank Aladin Syariah Tbk,Financials,BANK.JK,EQ,ID1000159205
-PT Panca Budi Idaman Tbk,Materials,PBID.JK,EQ,ID1000141401
-PT Hexindo Adiperkasa Tbk,Industrials,HEXA.JK,EQ,ID1000102205
-PT Bank Raya Indonesia Tbk,Financials,AGRO.JK,EQ,ID1000095508
-PT Krakatau Steel (Persero) Tbk Class B,Materials,KRAS.JK,EQ,ID1000117005
-PT Total Bangun Persada Tbk,Industrials,TOTL.JK,EQ,ID1000104003
-PT Palma Serasih Tbk.,Consumer Staples,PSGO.JK,EQ,ID1000152408
-PT Multikarya Asia Pasifik Raya Tbk,Industrials,MKAP.JK,EQ,ID1000203102
-PT Bank Amar Indonesia Tbk,Financials,AMAR.JK,EQ,ID1000153406
-PT Trimegah Sekuritas Indonesia Tbk,Financials,TRIM.JK,EQ,ID1000052608
-PT Gunung Raja Paksi Tbk,Materials,GGRP.JK,EQ,ID1000151202
+PT Mitrabahtera Segara Sejati Tbk,Industrials,MBSS.JK,EQ,ID1000118607
+PT Media Nusantara Citra Tbk,Industrials,MNCN.JK,EQ,ID1000106206
+PT Dharma Polimetal Tbk,Industrials,DRMA.JK,EQ,ID1000165509
+PT Batavia Prosperindo Internasional Tbk,Industrials,BPII.JK,EQ,ID1000132004
 PT Victoria Care Indonesia Tbk,Consumer Staples,VICI.JK,EQ,ID1000158207
+PT Bank Aladin Syariah Tbk,Financials,BANK.JK,EQ,ID1000159205
+PT Tigaraksa Satria Tbk,Industrials,TGKA.JK,EQ,ID1000102106
+PT Jasuindo Tiga Perkasa Tbk,Industrials,JTPE.JK,EQ,ID1000120603
 PT Apollo Global Interactive Tbk,Consumer Discretionary,BOGA.JK,EQ,ID1000138100
-PT Mulia Boga Raya Tbk,Consumer Staples,KEJU.JK,EQ,ID1000152309
-PT MDS Retailing Tbk Class A,Consumer Discretionary,LPPF.JK,EQ,ID1000113301
-PT Bank Nationalnobu Tbk,Financials,NOBU.JK,EQ,ID1000127103
-PT Nippon Indosari Corpindo Tbk,Consumer Staples,ROTI.JK,EQ,ID1000129703
-PT Tunas Baru Lampung Tbk,Materials,TBLA.JK,EQ,ID1000076706
+PT Mitra Pinasthika Mustika Tbk,Industrials,MPMX.JK,EQ,ID1000127202
+PT Asuransi Tugu Pratama Indonesia Tbk,Financials,TUGU.JK,EQ,ID1000143506
 PT Estee Gold Feet Tbk,Consumer Staples,EURO.JK,EQ,ID1000170707
-PT Indomobil Sukses Internasional Tbk,Consumer Discretionary,IMAS.JK,EQ,ID1000123003
-PT Link Net Tbk,Communication Services,LINK.JK,EQ,ID1000131808
-PT Paragon Karya Perkasa Tbk,Industrials,PKPK.JK,EQ,ID1000106404
-PT City Retail Developments Tbk,Financials,NIRO.JK,EQ,ID1000124605
-PT Satu Visi Putra Tbk,Industrials,VISI.JK,EQ,ID1000203409
-PT FKS Multi Agro Tbk,Consumer Staples,FISH.JK,EQ,ID1000080104
+PT Blue Bird Tbk,Industrials,BIRD.JK,EQ,ID1000132707
+PT Roda Vivatex Tbk,Financials,RDTX.JK,EQ,ID1000067200
+PT Gajah Tunggal Tbk,Consumer Discretionary,GJTL.JK,EQ,ID1000086002
+PT Mastersystem Infotama Tbk,Technology,MSTI.JK,EQ,ID1000199102
+PT Sillo Maritime Perdana Tbk,Industrials,SHIP.JK,EQ,ID1000137102
+PT Krakatau Steel (Persero) Tbk Class B,Materials,KRAS.JK,EQ,ID1000117005
+PT Bank Raya Indonesia Tbk,Financials,AGRO.JK,EQ,ID1000095508
+PT Metropolitan Land Tbk,Financials,MTLA.JK,EQ,ID1000119308
+PT Cahaya Aero Services Tbk,Industrials,CASS.JK,EQ,ID1000121403
 PT Central Omega Resources Tbk,Materials,DKFT.JK,EQ,ID1000124100
-PT Bank Woori Saudara Indonesia 1906 Tbk,Financials,SDRA.JK,EQ,ID1000105307
+PT Hexindo Adiperkasa Tbk,Industrials,HEXA.JK,EQ,ID1000102205
+PT Trimegah Sekuritas Indonesia Tbk,Financials,TRIM.JK,EQ,ID1000052608
+PT Link Net Tbk,Communication Services,LINK.JK,EQ,ID1000131808
+PT Bank Amar Indonesia Tbk,Financials,AMAR.JK,EQ,ID1000153406
+PT Total Bangun Persada Tbk,Industrials,TOTL.JK,EQ,ID1000104003
+PT Satu Visi Putra Tbk,Industrials,VISI.JK,EQ,ID1000203409
+PT Multi Medika Internasional Tbk,Industrials,MMIX.JK,EQ,ID1000178700
+PT Palma Serasih Tbk.,Consumer Staples,PSGO.JK,EQ,ID1000152408
+PT Panca Budi Idaman Tbk,Materials,PBID.JK,EQ,ID1000141401
+PT MDS Retailing Tbk Class A,Consumer Discretionary,LPPF.JK,EQ,ID1000113301
+PT Gunung Raja Paksi Tbk,Materials,GGRP.JK,EQ,ID1000151202
+PT Indomobil Sukses Internasional Tbk,Consumer Discretionary,IMAS.JK,EQ,ID1000123003
+PT Tunas Baru Lampung Tbk,Materials,TBLA.JK,EQ,ID1000076706
+PT Nippon Indosari Corpindo Tbk,Consumer Staples,ROTI.JK,EQ,ID1000129703
+PT Multikarya Asia Pasifik Raya Tbk,Industrials,MKAP.JK,EQ,ID1000203102
+PT Mulia Boga Raya Tbk,Consumer Staples,KEJU.JK,EQ,ID1000152309
+PT Daaz Bara Lestari Tbk,Industrials,DAAZ.JK,EQ,ID1000206808
+PT City Retail Developments Tbk,Financials,NIRO.JK,EQ,ID1000124605
+PT TBS Energi Utama Tbk,Energy,TOBA.JK,EQ,ID1000123409
+PT Intra Golflink Resorts Tbk,Industrials,GOLF.JK,EQ,ID1000205107
+PT Bank Nationalnobu Tbk,Financials,NOBU.JK,EQ,ID1000127103
 PT Batulicin Nusantara Maritim Tbk,Industrials,BESS.JK,EQ,ID1000154701
-PT Mark Dynamics Indonesia Tbk,Materials,MARK.JK,EQ,ID1000140106
-PT Agung Podomoro Land Tbk,Financials,APLN.JK,EQ,ID1000117104
-PT Arwana Citramulia Tbk,Industrials,ARNA.JK,EQ,ID1000128309
-PT Central Proteina Prima Tbk,Materials,CPRO.JK,EQ,ID1000105000
 PT Wismilak Inti Makmur Tbk,Consumer Staples,WIIM.JK,EQ,ID1000126006
+PT Mark Dynamics Indonesia Tbk,Materials,MARK.JK,EQ,ID1000140106
+PT Paragon Karya Perkasa Tbk,Industrials,PKPK.JK,EQ,ID1000106404
 PT Indonesia Prima Property Tbk,Consumer Discretionary,OMRE.JK,EQ,ID1000075401
 PT Kencana Energi Lestari Tbk,Utilities,KEEN.JK,EQ,ID1000150907
-PT Tifico Fiber Indonesia Tbk,Materials,TFCO.JK,EQ,ID1000054802
-PT TBS Energi Utama Tbk,Energy,TOBA.JK,EQ,ID1000123409
-PT Steel Pipe Industry of Indonesia Tbk,Materials,ISSP.JK,EQ,ID1000126709
+PT Bank Woori Saudara Indonesia 1906 Tbk,Financials,SDRA.JK,EQ,ID1000105307
+PT Arwana Citramulia Tbk,Industrials,ARNA.JK,EQ,ID1000128309
+PT Central Proteina Prima Tbk,Materials,CPRO.JK,EQ,ID1000105000
+PT FKS Multi Agro Tbk,Consumer Staples,FISH.JK,EQ,ID1000080104
 PT Bank IBK Indonesia Tbk,Financials,AGRS.JK,EQ,ID1000133309
+PT Paninvest Tbk,Consumer Discretionary,PNIN.JK,EQ,ID1000094907
+PT Tifico Fiber Indonesia  Tbk,Materials,TFCO.JK,EQ,ID1000054802
+PT Habco Trans Maritima Tbk,Industrials,HATM.JK,EQ,ID1000169402
+PT Agung Podomoro Land Tbk,Financials,APLN.JK,EQ,ID1000117104
+PT Victoria Investama Tbk,Financials,VICO.JK,EQ,ID1000128002
+PT Sanurhasta Mitra Tbk.,Consumer Discretionary,MINA.JK,EQ,ID1000138506
+PT Intermedia Capital Tbk,Consumer Discretionary,MDIA.JK,EQ,ID1000131303
+PT Bank Neo Commerce Tbk,Financials,BBYB.JK,EQ,ID1000133408
+PT Steel Pipe Industry of Indonesia Tbk,Materials,ISSP.JK,EQ,ID1000126709
+PT Medela Potentia Tbk,Industrials,MDLA.JK,EQ,ID1000209901
+PT Saraswanti Anugerah Makmur Tbk,Materials,SAMF.JK,EQ,ID1000155104
 PT Map Boga Adiperkasa Tbk,Consumer Discretionary,MAPB.JK,EQ,ID1000139702
 PT Jakarta Setiabudi Internasional Tbk,Consumer Discretionary,JSPT.JK,EQ,ID1000082001
-PT Saraswanti Anugerah Makmur Tbk,Materials,SAMF.JK,EQ,ID1000155104
-PT Paninvest Tbk,Consumer Discretionary,PNIN.JK,EQ,ID1000094907
+PT Argo Pantes Tbk,Materials,ARGO.JK,EQ,ID1000083702
 PT Pinago Utama Tbk,Materials,PNGO.JK,EQ,ID1000156904
-PT Superkrane Mitra Utama,Financials,SKRN.JK,EQ,ID1000146103
-PT Intra Golflink Resorts Tbk,Industrials,GOLF.JK,EQ,ID1000205107
 PT Surya Fajar Capital Tbk,Financials,SFAN.JK,EQ,ID1000149107
-PT Medela Potentia Tbk,Industrials,MDLA.JK,EQ,ID1000209901
-PT Bank Neo Commerce Tbk,Financials,BBYB.JK,EQ,ID1000133408
-PT Sanurhasta Mitra Tbk.,Consumer Discretionary,MINA.JK,EQ,ID1000138506
-PT Lippo Cikarang Tbk,Financials,LPCK.JK,EQ,ID1000080302
-PT Victoria Investama Tbk,Financials,VICO.JK,EQ,ID1000128002
-PT Habco Trans Maritima Tbk,Industrials,HATM.JK,EQ,ID1000169402
-PT Graha Layar Prima Tbk Class C,Consumer Discretionary,BLTZ.JK,EQ,ID1000131402
-PT Nusantara Pelabuhan Handal Tbk,Industrials,PORT.JK,EQ,ID1000138209
-PT Dwi Guna Laksana Tbk,Energy,DWGL.JK,EQ,ID1000141302
-PT Bank China Construction Bank Indonesia Tbk,Financials,MCOR.JK,EQ,ID1000106305
-PT Bank Artha Graha Internasional Tbk,Financials,INPC.JK,EQ,ID1000105505
 PT Pakuan Tbk,Financials,UANG.JK,EQ,ID1000156201
 PT Soechi Lines Tbk,Industrials,SOCI.JK,EQ,ID1000132905
-PT Bank Ganesha Tbk,Financials,BGTG.JK,EQ,ID1000137003
-PT Kawasan Industri Jababeka Tbk Class A,Financials,KIJA.JK,EQ,ID1000072507
-PT Argo Pantes Tbk,Materials,ARGO.JK,EQ,ID1000083702
-PT Duta Intidaya Tbk,Consumer Discretionary,DAYA.JK,EQ,ID1000137300
-PT Surya Toto Indonesia Tbk,Industrials,TOTO.JK,EQ,ID1000132509
-PT Intermedia Capital Tbk,Consumer Discretionary,MDIA.JK,EQ,ID1000131303
-PT Ramayana Lestari Sentosa Tbk,Consumer Discretionary,RALS.JK,EQ,ID1000099500
-PT Mahkota Group Tbk,Materials,MGRO.JK,EQ,ID1000144603
-PT Samindo Resources Tbk,Energy,MYOH.JK,EQ,ID1000120900
-PT Sarana Mitra Luas Tbk,Financials,SMIL.JK,EQ,ID1000189103
-PT Kimia Farma (Persero) Tbk Class B,Health Care,KAEF.JK,EQ,ID1000070303
-PT Multi Spunindo Jaya Tbk,Materials,MSJA.JK,EQ,ID1000201304
-PT Ifishdeco Tbk,Materials,IFSH.JK,EQ,ID1000152606
-PT Prodia Widyahusada Tbk,Health Care,PRDA.JK,EQ,ID1000138001
-PT Bank MNC Internasional Tbk,Financials,BABP.JK,EQ,ID1000091507
-PT Wintermar Offshore Marine Tbk,Industrials,WINS.JK,EQ,ID1000117500
-PT Suryamas Dutamakmur Tbk,Financials,SMDM.JK,EQ,ID1000067408
-PT Centratama Telekomunikasi Indonesia Tbk,Communication Services,CENT.JK,EQ,ID1000076805
-PT MNC Kapital Indonesia Tbk,Financials,BCAP.JK,EQ,ID1000069701
-PT Mandiri Herindo Adiperkasa Tbk,Energy,MAHA.JK,EQ,ID1000192503
-PT BISI International Tbk,Materials,BISI.JK,EQ,ID1000105703
-PT Eagle High Plantations Tbk.,Materials,BWPT.JK,EQ,ID1000113202
-PT Bank Capital Indonesia Tbk,Financials,BACA.JK,EQ,ID1000107402
-PT Lippo General Insurance Tbk,Financials,LPGI.JK,EQ,ID1000068109
-PT Murni Sadar Tbk,Health Care,MTMH.JK,EQ,ID1000167307
-PT Rockfields Properti Indonesia Tbk,Financials,ROCK.JK,EQ,ID1000157605
-PT Agro Bahari Nusantara Tbk,Materials,UDNG.JK,EQ,ID1000199003
-PT Adi Sarana Armada Tbk,Industrials,ASSA.JK,EQ,ID1000125800
-PT Esta Indonesia Tbk,Materials,NEST.JK,EQ,ID1000206006
-PT Pyridam Farma Tbk,Health Care,PYFA.JK,EQ,ID1000075609
-PT Indonesia Fibreboard Industry Tbk,Materials,IFII.JK,EQ,ID1000152804
-PT Bank Bumi Arta Tbk,Financials,BNBA.JK,EQ,ID1000103401
-PT MNC Asia Holding Tbk,Consumer Discretionary,BHIT.JK,EQ,ID1000064207
-PT Alam Sutera Realty Tbk,Financials,ASRI.JK,EQ,ID1000108400
-PT Indonesia Kendaraan Terminal Tbk,Industrials,IPCC.JK,EQ,ID1000144306
-PT Paramita Bangun Sarana Tbk,Industrials,PBSA.JK,EQ,ID1000137904
-PT Bank Panin Dubai Syariah Tbk,Financials,PNBS.JK,EQ,ID1000130701
-PT Asuransi Bina Dana Arta Tbk Class A,Financials,ABDA.JK,EQ,ID1000073406
-PT Indo Kordsa Tbk,Materials,BRAM.JK,EQ,ID1000084700
+PT Lippo Cikarang Tbk,Financials,LPCK.JK,EQ,ID1000080302
+PT Bank Artha Graha Internasional Tbk,Financials,INPC.JK,EQ,ID1000105505
 PT Bukaka Teknik Utama Tbk,Industrials,BUKK.JK,EQ,ID1000080807
-PT Mega Manunggal Property Tbk,Financials,MMLP.JK,EQ,ID1000134307
-PT Asuransi Multi Artha Guna Tbk,Financials,AMAG.JK,EQ,ID1000102908
-PT Astra Graphia Tbk,Technology,ASGR.JK,EQ,ID1000066103
-PT Supreme Cable Manufacturing & Commerce Tbk,Industrials,SCCO.JK,EQ,ID1000080906
-PT Alkindo Naratama Tbk,Materials,ALDO.JK,EQ,ID1000120207
-PT Jaya Agra Wattie Tbk,Materials,JAWA.JK,EQ,ID1000119001
-PT Bank QNB Indonesia Tbk,Financials,BKSW.JK,EQ,ID1000093503
-PT Kirana Megatara Tbk,Industrials,KMTR.JK,EQ,ID1000139306
-PT Global Mediacom Tbk,Consumer Discretionary,BMTR.JK,EQ,ID1000105604
+PT Bank Bumi Arta Tbk,Financials,BNBA.JK,EQ,ID1000103401
+PT Duta Intidaya Tbk,Consumer Discretionary,DAYA.JK,EQ,ID1000137300
+PT Nusantara Pelabuhan Handal Tbk,Industrials,PORT.JK,EQ,ID1000138209
+PT Bank Ganesha Tbk,Financials,BGTG.JK,EQ,ID1000137003
+PT Kimia Farma (Persero) Tbk Class B,Health Care,KAEF.JK,EQ,ID1000070303
+PT Agro Bahari Nusantara Tbk,Materials,UDNG.JK,EQ,ID1000199003
+PT Ramayana Lestari Sentosa Tbk,Consumer Discretionary,RALS.JK,EQ,ID1000099500
+PT Centratama Telekomunikasi Indonesia Tbk,Communication Services,CENT.JK,EQ,ID1000076805
+PT Bank China Construction Bank Indonesia Tbk,Financials,MCOR.JK,EQ,ID1000106305
+PT Superkrane Mitra Utama,Financials,SKRN.JK,EQ,ID1000146103
+PT Mahkota Group Tbk,Materials,MGRO.JK,EQ,ID1000144603
+PT Suryamas Dutamakmur Tbk,Financials,SMDM.JK,EQ,ID1000067408
+PT Surya Toto Indonesia Tbk,Industrials,TOTO.JK,EQ,ID1000132509
+PT Kawasan Industri Jababeka Tbk Class A,Financials,KIJA.JK,EQ,ID1000072507
+PT Multi Spunindo Jaya Tbk,Materials,MSJA.JK,EQ,ID1000201304
+PT Dwi Guna Laksana Tbk,Energy,DWGL.JK,EQ,ID1000141302
+PT Adi Sarana Armada Tbk,Industrials,ASSA.JK,EQ,ID1000125800
+PT Eagle High Plantations Tbk.,Materials,BWPT.JK,EQ,ID1000113202
+PT Esta Indonesia Tbk,Materials,NEST.JK,EQ,ID1000206006
+PT Prodia Widyahusada Tbk,Health Care,PRDA.JK,EQ,ID1000138001
+PT Ifishdeco Tbk,Materials,IFSH.JK,EQ,ID1000152606
 PT Humpuss Maritim Internasional Tbk,Industrials,HUMI.JK,EQ,ID1000194905
-PT Garuda Metalindo Tbk,Industrials,BOLT.JK,EQ,ID1000134604
-PT Remala Abadi Tbk,Communication Services,DATA.JK,EQ,ID1000203904
-PT MNC Energy Investments Tbk,Industrials,IATA.JK,EQ,ID1000104409
-PT Merck Tbk,Health Care,MERK.JK,EQ,ID1000136609
-PT Red Planet Indonesia Tbk,Consumer Discretionary,PSKT.JK,EQ,ID1000087802
+PT MNC Asia Holding Tbk,Consumer Discretionary,BHIT.JK,EQ,ID1000064207
+PT Samindo Resources Tbk,Energy,MYOH.JK,EQ,ID1000120900
+PT Wintermar Offshore Marine Tbk,Industrials,WINS.JK,EQ,ID1000117500
+PT Mandiri Herindo Adiperkasa Tbk,Energy,MAHA.JK,EQ,ID1000192503
+PT Indonesia Kendaraan Terminal Tbk,Industrials,IPCC.JK,EQ,ID1000144306
+PT Bank MNC Internasional Tbk,Financials,BABP.JK,EQ,ID1000091507
+PT Bank Capital Indonesia Tbk,Financials,BACA.JK,EQ,ID1000107402
+PT Alam Sutera Realty Tbk,Financials,ASRI.JK,EQ,ID1000108400
+PT Pyridam Farma Tbk,Health Care,PYFA.JK,EQ,ID1000075609
+PT Rockfields Properti Indonesia Tbk,Financials,ROCK.JK,EQ,ID1000157605
+PT Paramita Bangun Sarana Tbk,Industrials,PBSA.JK,EQ,ID1000137904
+PT Mega Manunggal Property Tbk,Financials,MMLP.JK,EQ,ID1000134307
 PT GTS Internasional,Industrials,GTSI.JK,EQ,ID1000163306
-PT Delta Giri Wacana Tbk,Materials,DGWG.JK,EQ,ID1000208200
-PT Darya-Varia Laboratoria Tbk,Health Care,DVLA.JK,EQ,ID1000117203
-PT Bank Oke Indonesia Tbk,Financials,DNAR.JK,EQ,ID1000132301
-PT Mitrabara Adiperdana Tbk,Energy,MBAP.JK,EQ,ID1000132400
-PT Citra Borneo Utama Tbk,Consumer Staples,CBUT.JK,EQ,ID1000176100
+PT Sarana Mitra Luas Tbk,Financials,SMIL.JK,EQ,ID1000189103
+PT Indo Kordsa Tbk,Materials,BRAM.JK,EQ,ID1000084700
+PT MNC Kapital Indonesia Tbk,Financials,BCAP.JK,EQ,ID1000069701
+PT Asuransi Bina Dana Arta Tbk Class A,Financials,ABDA.JK,EQ,ID1000073406
+PT Indonesia Fibreboard Industry Tbk,Materials,IFII.JK,EQ,ID1000152804
+PT BISI International Tbk,Materials,BISI.JK,EQ,ID1000105703
+PT Perintis Triniti Properti Tbk,Financials,TRIN.JK,EQ,ID1000153604
+PT Murni Sadar Tbk,Health Care,MTMH.JK,EQ,ID1000167307
+PT Astra Graphia Tbk,Technology,ASGR.JK,EQ,ID1000066103
+PT Remala Abadi Tbk,Communication Services,DATA.JK,EQ,ID1000203904
 PT Bank JTrust Indonesia Tbk,Financials,BCIC.JK,EQ,ID1000100407
-PT Caturkarda Depo Bangunan Tbk,Consumer Discretionary,DEPO.JK,EQ,ID1000164304
-PT Jasa Armada Indonesia Tbk,Industrials,IPCM.JK,EQ,ID1000141708
-PT Maharaksa Biru Energi Tbk,Industrials,OASA.JK,EQ,ID1000137607
-PT Malindo Feedmill Tbk,Materials,MAIN.JK,EQ,ID1000119407
-PT Pollux Hotels Group Tbk,Consumer Discretionary,POLI.JK,EQ,ID1000147606
-PT Ketrosden Triasmitra Tbk,Industrials,KETR.JK,EQ,ID1000176704
+PT Lippo General Insurance Tbk,Financials,LPGI.JK,EQ,ID1000068109
+PT MNC Energy Investments Tbk,Industrials,IATA.JK,EQ,ID1000104409
+PT Red Planet Indonesia Tbk,Consumer Discretionary,PSKT.JK,EQ,ID1000087802
+PT Asuransi Multi Artha Guna Tbk,Financials,AMAG.JK,EQ,ID1000102908
+PT Global Mediacom Tbk,Consumer Discretionary,BMTR.JK,EQ,ID1000105604
+PT Bank Panin Dubai Syariah Tbk,Financials,PNBS.JK,EQ,ID1000130701
+PT Jaya Agra Wattie Tbk,Materials,JAWA.JK,EQ,ID1000119001
+PT Bank Oke Indonesia Tbk,Financials,DNAR.JK,EQ,ID1000132301
+PT Alkindo Naratama Tbk,Materials,ALDO.JK,EQ,ID1000120207
+PT Kirana Megatara Tbk,Industrials,KMTR.JK,EQ,ID1000139306
+PT Supreme Cable Manufacturing & Commerce Tbk,Industrials,SCCO.JK,EQ,ID1000080906
+PT Garuda Metalindo Tbk,Industrials,BOLT.JK,EQ,ID1000134604
+PT Folago Global Nusantara Tbk,Technology,IRSX.JK,EQ,ID1000184401
+PT Bank QNB Indonesia Tbk,Financials,BKSW.JK,EQ,ID1000093503
+PT Delta Giri Wacana Tbk,Materials,DGWG.JK,EQ,ID1000208200
 PT Indospring Tbk,Industrials,INDS.JK,EQ,ID1000072002
+PT Mitrabara Adiperdana Tbk,Energy,MBAP.JK,EQ,ID1000132400
+PT Fortune Indonesia  Tbk,Industrials,FORU.JK,EQ,ID1000080203
 PT Lotte Chemical Titan Tbk,Materials,FPNI.JK,EQ,ID1000083801
+PT Darya-Varia Laboratoria Tbk,Health Care,DVLA.JK,EQ,ID1000117203
+PT Citra Borneo Utama Tbk,Consumer Staples,CBUT.JK,EQ,ID1000176100
+PT Jasa Armada Indonesia Tbk,Industrials,IPCM.JK,EQ,ID1000141708
+PT Adhi Kartiko Pratama Tbk,Materials,NICE.JK,EQ,ID1000200900
+PT Maharaksa Biru Energi Tbk,Industrials,OASA.JK,EQ,ID1000137607
+PT Pollux Hotels Group Tbk,Consumer Discretionary,POLI.JK,EQ,ID1000147606
+PT Caturkarda Depo Bangunan Tbk,Consumer Discretionary,DEPO.JK,EQ,ID1000164304
+PT Fortune Mate Indonesia Tbk,Financials,FMII.JK,EQ,ID1000091200
+PT Cisadane Sawit Raya Tbk,Materials,CSRA.JK,EQ,ID1000153307
+PT Ketrosden Triasmitra Tbk,Industrials,KETR.JK,EQ,ID1000176704
+PT Bank Victoria International Tbk,Financials,BVIC.JK,EQ,ID1000056302
 PT Sunindo Pratama Tbk,Energy,SUNI.JK,EQ,ID1000181209
-PT Mulia Industrindo Tbk,Materials,MLIA.JK,EQ,ID1000060106
+PT IMC Pelita Logistik Tbk,Industrials,PSSI.JK,EQ,ID1000141203
 PT Kino Indonesia Tbk,Consumer Staples,KINO.JK,EQ,ID1000136500
 PT Uni-Charm Indonesia Tbk,Consumer Staples,UCID.JK,EQ,ID1000152903
-PT Adhi Kartiko Pratama Tbk,Materials,NICE.JK,EQ,ID1000200900
 PT Catur Sentosa Adiprana Tbk,Industrials,CSAP.JK,EQ,ID1000108301
-PT Surya Pertiwi Tbk,Industrials,SPTO.JK,EQ,ID1000143001
-PT Delta Djakarta Tbk,Consumer Staples,DLTA.JK,EQ,ID1000136005
-PT Folago Global Nusantara Tbk,Technology,IRSX.JK,EQ,ID1000184401
-PT Gowa Makassar Tourism Development Tbk,Financials,GMTD.JK,EQ,ID1000064009
-PT Bank Victoria International Tbk,Financials,BVIC.JK,EQ,ID1000056302
-PT Fortune Mate Indonesia Tbk,Financials,FMII.JK,EQ,ID1000091200
+PT Merck Tbk,Health Care,MERK.JK,EQ,ID1000136609
+PT Mulia Industrindo Tbk,Materials,MLIA.JK,EQ,ID1000060106
 PT Bundamedik Tbk,Health Care,BMHS.JK,EQ,ID1000161201
 PT BUMA Internasional Grup Tbk,Energy,DOID.JK,EQ,ID1000110505
-PT Cisadane Sawit Raya Tbk,Materials,CSRA.JK,EQ,ID1000153307
-PT Putra Mandiri Jembar Tbk,Consumer Discretionary,PMJS.JK,EQ,ID1000153000
-PT Cerestar Indonesia Tbk,Materials,TRGU.JK,EQ,ID1000168800
-PT IMC Pelita Logistik Tbk,Industrials,PSSI.JK,EQ,ID1000141203
-PT Perintis Triniti Properti Tbk,Financials,TRIN.JK,EQ,ID1000153604
-PT Semen Baturaja (Persero) Tbk Class B,Materials,SMBR.JK,EQ,ID1000127806
-PT Calculus Global Ventures Tbk.,Financials,STAR.JK,EQ,ID1000120306
-PT Menthobi Karyatama Raya Tbk,Industrials,MKTR.JK,EQ,ID1000176308
-PT DFI Retail Nusantara Tbk,Consumer Discretionary,HERO.JK,EQ,ID1000122708
+PT Malindo Feedmill Tbk,Materials,MAIN.JK,EQ,ID1000119407
 PT Indomobil Multi Jasa Tbk,Financials,IMJS.JK,EQ,ID1000129901
+PT Menthobi Karyatama Raya Tbk,Industrials,MKTR.JK,EQ,ID1000176308
 PT Integra Indocabinet Tbk,Consumer Discretionary,WOOD.JK,EQ,ID1000139504
-PT Sona Topas Tourism Industry Tbk,Consumer Discretionary,SONA.JK,EQ,ID1000052202
-PT MNC Vision Networks Tbk Class A,Consumer Discretionary,IPTV.JK,EQ,ID1000150402
 PT Sumber Energi Andalan Tbk,Energy,ITMA.JK,EQ,ID1000089105
-PT Sreeya Sewu Indonesia Tbk Class A,Materials,SIPD.JK,EQ,ID1000133606
-PT Industri dan Perdagangan Bintraco Dharma Tbk,Consumer Discretionary,CARS.JK,EQ,ID1000138308
-PT Indo-Rama Synthetics Tbk,Materials,INDR.JK,EQ,ID1000086101
-PT Acset Indonusa Tbk,Industrials,ACST.JK,EQ,ID1000127509
-PT Sat Nusapersada Tbk,Technology,PTSN.JK,EQ,ID1000107808
+PT Calculus Global Ventures Tbk.,Financials,STAR.JK,EQ,ID1000120306
+PT Delta Djakarta Tbk,Consumer Staples,DLTA.JK,EQ,ID1000136005
+PT Putra Mandiri Jembar Tbk,Consumer Discretionary,PMJS.JK,EQ,ID1000153000
+PT Surya Pertiwi Tbk,Industrials,SPTO.JK,EQ,ID1000143001
+PT Semen Baturaja (Persero) Tbk Class B,Materials,SMBR.JK,EQ,ID1000127806
 PT Sinar Eka Selaras Tbk,Consumer Discretionary,ERAL.JK,EQ,ID1000194301
-PT Clipan Finance Indonesia Tbk,Financials,CFIN.JK,EQ,ID1000095201
-PT Trans Power Marine Tbk,Industrials,TPMA.JK,EQ,ID1000126600
-PT Asahimas Flat Glass Tbk,Materials,AMFG.JK,EQ,ID1000084601
-PT KMI Wire & Cable Tbk Class A,Industrials,KBLI.JK,EQ,ID1000071806
-PT Wulandari Bangun Laksana Tbk,Financials,BSBK.JK,EQ,ID1000176407
-PT Berkah Prima Perkasa Tbk,Industrials,BLUE.JK,EQ,ID1000149800
-PT Wilmar Cahaya Indonesia Tbk,Consumer Staples,CEKA.JK,EQ,ID1000135007
-PT Trias Sentosa Tbk,Materials,TRST.JK,EQ,ID1000059009
-PT Adhi Karya (Persero) Tbk,Industrials,ADHI.JK,EQ,ID1000097207
-PT Sekar Laut Tbk,Consumer Staples,SKLT.JK,EQ,ID1000059702
-PT Superior Prima Sukses Tbk,Materials,BLES.JK,EQ,ID1000205206
-PT Janu Putra Sejahtera Tbk,Materials,AYAM.JK,EQ,ID1000199904
-PT Resource Alam Indonesia Tbk,Energy,KKGI.JK,EQ,ID1000114309
-PT Panin Sekuritas Tbk,Financials,PANS.JK,EQ,ID1000109200
 PT Tripar Multivision Plus Tbk,Consumer Discretionary,RAAM.JK,EQ,ID1000188808
-PT Graha Andrasentra Propertindo Tbk,Financials,JGLE.JK,EQ,ID1000137409
-PT Anabatic Technologies Tbk,Technology,ATIC.JK,EQ,ID1000134505
-PT Multipolar Tbk Class A,Consumer Discretionary,MLPL.JK,EQ,ID1000115207
-PT Trimitra Trans Persada Tbk,Industrials,BLOG.JK,EQ,ID1000210909
-PT NFC Indonesia Tbk,Technology,NFCX.JK,EQ,ID1000144504
-PT PP (Persero) Tbk,Industrials,PTPP.JK,EQ,ID1000114002
-PT Estika Tata Tiara Tbk,Consumer Staples,BEEF.JK,EQ,ID1000147705
+PT Gowa Makassar Tourism Development Tbk,Financials,GMTD.JK,EQ,ID1000064009
+PT Asahimas Flat Glass Tbk,Materials,AMFG.JK,EQ,ID1000084601
+PT Trias Sentosa  Tbk,Materials,TRST.JK,EQ,ID1000059009
+PT Berkah Prima Perkasa Tbk,Industrials,BLUE.JK,EQ,ID1000149800
+PT Cerestar Indonesia Tbk,Materials,TRGU.JK,EQ,ID1000168800
+PT Resource Alam Indonesia Tbk,Energy,KKGI.JK,EQ,ID1000114309
+PT Sona Topas Tourism Industry Tbk,Consumer Discretionary,SONA.JK,EQ,ID1000052202
 PT Dana Brata Luhur Tbk,Industrials,TEBE.JK,EQ,ID1000152200
-PT Adhi Commuter Properti Tbk,Financials,ADCP.JK,EQ,ID1000166309
-PT Aracord Nusantara Group Tbk,Industrials,RONY.JK,EQ,ID1000155609
-PT Lautan Luas Tbk,Industrials,LTLS.JK,EQ,ID1000133507
-PT Bakrieland Development Tbk Class A,Financials,ELTY.JK,EQ,ID1000088701
-PT Mandom Indonesia Tbk,Consumer Staples,TCID.JK,EQ,ID1000053002
-PT Intiland Development Tbk,Financials,DILD.JK,EQ,ID1000116403
+PT Trans Power Marine Tbk,Industrials,TPMA.JK,EQ,ID1000126600
+PT Industri dan Perdagangan Bintraco Dharma Tbk,Consumer Discretionary,CARS.JK,EQ,ID1000138308
+PT Sreeya Sewu Indonesia Tbk Class A,Materials,SIPD.JK,EQ,ID1000133606
+PT Wilmar Cahaya Indonesia Tbk,Consumer Staples,CEKA.JK,EQ,ID1000135007
+PT DFI Retail Nusantara Tbk,Consumer Discretionary,HERO.JK,EQ,ID1000122708
+PT Adhi Karya (Persero) Tbk,Industrials,ADHI.JK,EQ,ID1000097207
+PT Janu Putra Sejahtera Tbk,Materials,AYAM.JK,EQ,ID1000199904
+PT Clipan Finance Indonesia Tbk,Financials,CFIN.JK,EQ,ID1000095201
+PT Graha Andrasentra Propertindo Tbk,Financials,JGLE.JK,EQ,ID1000137409
+PT Wulandari Bangun Laksana Tbk,Financials,BSBK.JK,EQ,ID1000176407
+PT KMI Wire & Cable Tbk Class A,Industrials,KBLI.JK,EQ,ID1000071806
+PT Estika Tata Tiara Tbk,Consumer Staples,BEEF.JK,EQ,ID1000147705
 PT Pancaran Samudera Transport Tbk,Industrials,PSAT.JK,EQ,ID1000210800
-PT Equity Development Investment Tbk Class A,Financials,GSMF.JK,EQ,ID1000074206
-PT Jaya Konstruksi Manggala Pratama Tbk,Industrials,JKON.JK,EQ,ID1000129307
-PT KDB Tifa Finance Tbk,Financials,TIFA.JK,EQ,ID1000120504
-PT Digital Mediatama Maxima Tbk,Industrials,DMMX.JK,EQ,ID1000151806
-PT Bank Pembangunan Daerah Banten (Perseroda) Tbk Class A,Financials,BEKS.JK,EQ,ID1000070600
-PT Segar Kumala Indonesia Tbk,Industrials,BUAH.JK,EQ,ID1000171200
-PT Nusa Raya Cipta Tbk,Industrials,NRCA.JK,EQ,ID1000127608
-PT Atlas Resources Tbk,Energy,ARII.JK,EQ,ID1000121205
-PT Buana Finance Tbk,Financials,BBLD.JK,EQ,ID1000104607
-PT Ingria Pratama Capitalindo Tbk,Financials,GRIA.JK,EQ,ID1000194400
-PT Gihon Telekomunikasi Indonesia,Communication Services,GHON.JK,EQ,ID1000142300
-PT Campina Ice Cream Industry Tbk,Consumer Staples,CAMP.JK,EQ,ID1000141500
-PT Bukit Darmo Property Tbk,Financials,BKDP.JK,EQ,ID1000106008
-PT Arthavest Tbk,Consumer Discretionary,ARTA.JK,EQ,ID1000093305
+PT Acset Indonusa Tbk,Industrials,ACST.JK,EQ,ID1000127509
+PT Multipolar Tbk Class A,Consumer Discretionary,MLPL.JK,EQ,ID1000115207
+PT PP (Persero) Tbk,Industrials,PTPP.JK,EQ,ID1000114002
+PT Sekar Laut Tbk,Consumer Staples,SKLT.JK,EQ,ID1000059702
+PT Sat Nusapersada Tbk,Technology,PTSN.JK,EQ,ID1000107808
+PT Hoffmen Cleanindo Tbk,Industrials,KING.JK,EQ,ID1000185705
+PT Panin Sekuritas Tbk,Financials,PANS.JK,EQ,ID1000109200
+PT Intiland Development Tbk,Financials,DILD.JK,EQ,ID1000116403
+PT Superior Prima Sukses Tbk,Materials,BLES.JK,EQ,ID1000205206
+PT MNC Vision Networks Tbk Class A,Consumer Discretionary,IPTV.JK,EQ,ID1000150402
+PT Indo-Rama Synthetics Tbk,Materials,INDR.JK,EQ,ID1000086101
 PT Homeco Victoria Makmur Tbk,Industrials,LIVE.JK,EQ,ID1000203003
-PT Minna Padi Investama Sekuritas Tbk,Financials,PADI.JK,EQ,ID1000121908
-PT Tunas Alfin Tbk,Materials,TALF.JK,EQ,ID1000130107
-PT Budi Starch & Sweetener Tbk,Materials,BUDI.JK,EQ,ID1000084908
-PT Wahana Ottomitra Multiartha Tbk,Financials,WOMF.JK,EQ,ID1000100209
-PT Makmur Berkah Amanda Tbk,Financials,AMAN.JK,EQ,ID1000155005
-PT FKS Food Sejahtera Tbk Class A,Consumer Staples,AISA.JK,EQ,ID1000087901
-PT Greenwood Sejahtera Tbk,Financials,GWSA.JK,EQ,ID1000121809
-PT DMS Propertindo Tbk,Financials,KOTA.JK,EQ,ID1000150709
-PT Sekar Bumi Tbk,Consumer Staples,SKBM.JK,EQ,ID1000124407
-PT Tembaga Mulia Semanan Tbk,Industrials,TBMS.JK,EQ,ID1000066400
-PT Bekasi Fajar Industrial Estate Tbk,Industrials,BEST.JK,EQ,ID1000122609
+PT Digital Mediatama Maxima Tbk,Industrials,DMMX.JK,EQ,ID1000151806
+PT Mandom Indonesia Tbk,Consumer Staples,TCID.JK,EQ,ID1000053002
+PT Bakrieland Development Tbk Class A,Financials,ELTY.JK,EQ,ID1000088701
+PT NFC Indonesia Tbk,Technology,NFCX.JK,EQ,ID1000144504
+PT Adhi Commuter Properti Tbk,Financials,ADCP.JK,EQ,ID1000166309
+PT Jaya Konstruksi Manggala Pratama Tbk,Industrials,JKON.JK,EQ,ID1000129307
+PT Anabatic Technologies Tbk,Technology,ATIC.JK,EQ,ID1000134505
+PT Lautan Luas Tbk,Industrials,LTLS.JK,EQ,ID1000133507
+PT Bank Pembangunan Daerah Banten (Perseroda) Tbk Class A,Financials,BEKS.JK,EQ,ID1000070600
+PT Trimitra Trans Persada Tbk,Industrials,BLOG.JK,EQ,ID1000210909
 PT Fast Food Indonesia Tbk,Consumer Discretionary,FAST.JK,EQ,ID1000063209
+PT Atlas Resources Tbk,Energy,ARII.JK,EQ,ID1000121205
+PT Gihon Telekomunikasi Indonesia,Communication Services,GHON.JK,EQ,ID1000142300
+PT Futura Energi Global Tbk,Industrials,FUTR.JK,EQ,ID1000186604
+PT Aracord Nusantara Group Tbk,Industrials,RONY.JK,EQ,ID1000155609
+PT Campina Ice Cream Industry Tbk,Consumer Staples,CAMP.JK,EQ,ID1000141500
+PT Equity Development Investment Tbk Class A,Financials,GSMF.JK,EQ,ID1000074206
+PT Segar Kumala Indonesia Tbk,Industrials,BUAH.JK,EQ,ID1000171200
+PT Arthavest Tbk,Consumer Discretionary,ARTA.JK,EQ,ID1000093305
+PT Minna Padi Investama Sekuritas Tbk,Financials,PADI.JK,EQ,ID1000121908
+PT Nusa Raya Cipta Tbk,Industrials,NRCA.JK,EQ,ID1000127608
+PT Berlian Laju Tanker Tbk,Industrials,BLTA.JK,EQ,ID1000099906
+PT Greenwood Sejahtera Tbk,Financials,GWSA.JK,EQ,ID1000121809
+PT KDB Tifa Finance Tbk,Financials,TIFA.JK,EQ,ID1000120504
+PT Makmur Berkah Amanda Tbk,Financials,AMAN.JK,EQ,ID1000155005
+PT Era Media Sejahtera Tbk,Industrials,DOOH.JK,EQ,ID1000188600
 PT Jakarta International Hotels & Development Tbk,Financials,JIHD.JK,EQ,ID1000097900
+PT Buana Finance Tbk,Financials,BBLD.JK,EQ,ID1000104607
+PT PP Presisi Tbk,Industrials,PPRE.JK,EQ,ID1000141005
+PT FKS Food Sejahtera Tbk Class A,Consumer Staples,AISA.JK,EQ,ID1000087901
+PT DMS Propertindo Tbk,Financials,KOTA.JK,EQ,ID1000150709
+PT Bekasi Fajar Industrial Estate Tbk,Industrials,BEST.JK,EQ,ID1000122609
+PT Tunas Alfin Tbk,Materials,TALF.JK,EQ,ID1000130107
+PT Tembaga Mulia Semanan Tbk,Industrials,TBMS.JK,EQ,ID1000066400
+PT Budi Starch & Sweetener Tbk,Materials,BUDI.JK,EQ,ID1000084908
+PT Sekar Bumi Tbk,Consumer Staples,SKBM.JK,EQ,ID1000124407
 PT Sinar Terang Mandiri TBK,Materials,MINE.JK,EQ,ID1000209505
 PT Reliance Sekuritas Indonesia Tbk,Financials,RELI.JK,EQ,ID1000101603
-PT Pratama Widya Tbk,Industrials,PTPW.JK,EQ,ID1000154107
-PT Voksel Electric Tbk,Industrials,VOKS.JK,EQ,ID1000083900
-PT Suparma Tbk,Materials,SPMA.JK,EQ,ID1000054307
-PT Berlian Laju Tanker Tbk,Industrials,BLTA.JK,EQ,ID1000099906
-PT PP Properti Tbk,Financials,PPRO.JK,EQ,ID1000133903
-PT Polychem Indonesia Tbk,Materials,ADMG.JK,EQ,ID1000090202
-PT Supra Boga Lestari Tbk,Consumer Discretionary,RANC.JK,EQ,ID1000122906
-PT Pelayaran Nasional Bina Buana Raya Tbk,Industrials,BBRM.JK,EQ,ID1000126204
-PT Hotel Sahid Jaya International Tbk,Consumer Discretionary,SHID.JK,EQ,ID1000068505
-PT Futura Energi Global Tbk,Industrials,FUTR.JK,EQ,ID1000186604
-PT PP Presisi Tbk,Industrials,PPRE.JK,EQ,ID1000141005
-PT Hero Global Investment Tbk,Utilities,HGII.JK,EQ,ID1000208507
-PT Primadaya Plastisindo Tbk,Materials,PDPP.JK,EQ,ID1000176902
-PT AirAsia Indonesia Tbk,Industrials,CMPP.JK,EQ,ID1000132608
-PT Era Media Sejahtera Tbk,Industrials,DOOH.JK,EQ,ID1000188600
-PT Shield On Service Tbk,Industrials,SOSS.JK,EQ,ID1000146608
-PT Fortune Indonesia Tbk,Industrials,FORU.JK,EQ,ID1000080203
-PT Bali Bintang Sejahtera Tbk,Consumer Discretionary,BOLA.JK,EQ,ID1000148901
+PT Wahana Ottomitra Multiartha Tbk,Financials,WOMF.JK,EQ,ID1000100209
 PT Gozco Plantations Tbk,Materials,GZCO.JK,EQ,ID1000110604
-PT Widodo Makmur Perkasa Tbk,Materials,WMPP.JK,EQ,ID1000164809
-PT Dua Putra Utama Makmur Tbk,Industrials,DPUM.JK,EQ,ID1000136203
-PT Bintang Samudera Mandiri Lines Tbk,Industrials,BSML.JK,EQ,ID1000165400
-PT Pelita Teknologi Global Tbk,Technology,CHIP.JK,EQ,ID1000184906
-PT Autopedia Sukses Lestari Tbk,Industrials,ASLC.JK,EQ,ID1000165806
+PT PP Properti Tbk,Financials,PPRO.JK,EQ,ID1000133903
+PT Pelayaran Nasional Bina Buana Raya Tbk,Industrials,BBRM.JK,EQ,ID1000126204
+PT Hero Global Investment Tbk,Utilities,HGII.JK,EQ,ID1000208507
+PT Suparma Tbk,Materials,SPMA.JK,EQ,ID1000054307
+PT Multi Garam Utama Tbk,Industrials,FOLK.JK,EQ,ID1000194202
 PT Charlie Hospital Semarang Tbk,Health Care,RSCH.JK,EQ,ID1000197304
-PT Kedawung Setia Industrial Tbk,Materials,KDSI.JK,EQ,ID1000054703
-PT Malacca Trust Wuwungan Insurance Tbk,Financials,MTWI.JK,EQ,ID1000140700
-PT Kentanix Supra International Tbk,Consumer Discretionary,KSIX.JK,EQ,ID1000208408
-PT Wilton Makmur Indonesia Tbk,Materials,SQMI.JK,EQ,ID1000098601
-PT Perdana Bangun Pusaka Tbk,Consumer Discretionary,KONI.JK,EQ,ID1000079809
-PT Pikko Land Development Tbk,Consumer Discretionary,RODA.JK,EQ,ID1000075203
-PT Ashmore Asset Management Indonesia Tbk,Financials,AMOR.JK,EQ,ID1000153703
-PT Pembangunan Jaya Ancol Tbk,Consumer Discretionary,PJAA.JK,EQ,ID1000103807
-PT Royalindo Investa Wijaya Tbk,Financials,INDO.JK,EQ,ID1000153505
-PT Trisula Textile Industries Tbk,Consumer Staples,BELL.JK,EQ,ID1000140502
-PT Charnic Capital Tbk,Financials,NICK.JK,EQ,ID1000142706
-PT Woori Finance Indonesia Tbk,Financials,BPFI.JK,EQ,ID1000112600
-PT Nusa Konstruksi Enjiniring Tbk,Industrials,DGIK.JK,EQ,ID1000108806
-PT Indo Boga Sukses Tbk,Consumer Discretionary,IBOS.JK,EQ,ID1000167406
-PT Natura City Developments Tbk,Financials,CITY.JK,EQ,ID1000145501
-PT Imago Mulia Persada Tbk,Industrials,LFLO.JK,EQ,ID1000160005
-PT Indopoly Swakarsa Industry Tbk,Materials,IPOL.JK,EQ,ID1000115900
-PT Gunawan Dianjaya Steel Tbk,Materials,GDST.JK,EQ,ID1000113806
+PT Supra Boga Lestari Tbk,Consumer Discretionary,RANC.JK,EQ,ID1000122906
+PT Pratama Widya Tbk,Industrials,PTPW.JK,EQ,ID1000154107
 PT Waskita Beton Precast Tbk,Materials,WSBP.JK,EQ,ID1000137706
-PT Widodo Makmur Unggas Tbk,Materials,WMUU.JK,EQ,ID1000159106
-PT Tera Data Indonusa Tbk,Technology,AXIO.JK,EQ,ID1000169204
+PT Voksel Electric Tbk,Industrials,VOKS.JK,EQ,ID1000083900
+PT Ingria Pratama Capitalindo Tbk,Financials,GRIA.JK,EQ,ID1000194400
+PT Bintang Samudera Mandiri Lines Tbk,Industrials,BSML.JK,EQ,ID1000165400
+PT AirAsia Indonesia Tbk,Industrials,CMPP.JK,EQ,ID1000132608
+PT Autopedia Sukses Lestari Tbk,Industrials,ASLC.JK,EQ,ID1000165806
+PT Bali Bintang Sejahtera Tbk,Consumer Discretionary,BOLA.JK,EQ,ID1000148901
+PT Malacca Trust Wuwungan Insurance Tbk,Financials,MTWI.JK,EQ,ID1000140700
+PT Polychem Indonesia Tbk,Materials,ADMG.JK,EQ,ID1000090202
+PT Primadaya Plastisindo Tbk,Materials,PDPP.JK,EQ,ID1000176902
+PT Pelita Teknologi Global Tbk,Technology,CHIP.JK,EQ,ID1000184906
+PT Pikko Land Development Tbk,Consumer Discretionary,RODA.JK,EQ,ID1000075203
+PT Kentanix Supra International Tbk,Consumer Discretionary,KSIX.JK,EQ,ID1000208408
+PT Hotel Sahid Jaya International Tbk,Consumer Discretionary,SHID.JK,EQ,ID1000068505
+PT Shield On Service Tbk,Industrials,SOSS.JK,EQ,ID1000146608
 PT Pelayaran Tamarin Samudra Tbk,Industrials,TAMU.JK,EQ,ID1000138803
-PT Panorama Sentrawisata Tbk,Consumer Discretionary,PANR.JK,EQ,ID1000109705
-PT MDTV Media Technologies Tbk,Industrials,NETV.JK,EQ,ID1000165905
+PT Royalindo Investa Wijaya Tbk,Financials,INDO.JK,EQ,ID1000153505
+PT Woori Finance Indonesia Tbk,Financials,BPFI.JK,EQ,ID1000112600
+PT Perdana Bangun Pusaka Tbk,Consumer Discretionary,KONI.JK,EQ,ID1000079809
+PT Kedawung Setia Industrial Tbk,Materials,KDSI.JK,EQ,ID1000054703
+PT Natura City Developments Tbk,Financials,CITY.JK,EQ,ID1000145501
+PT Pembangunan Jaya Ancol Tbk,Consumer Discretionary,PJAA.JK,EQ,ID1000103807
+PT Ashmore Asset Management Indonesia Tbk,Financials,AMOR.JK,EQ,ID1000153703
 PT WIR Asia Tbk,Health Care,WIRG.JK,EQ,ID1000166804
-PT Modernland Realty Tbk Class A,Financials,MDLN.JK,EQ,ID1000129604
-PT Sumi Indo Kabel Tbk,Technology,IKBI.JK,EQ,ID1000083009
-PT Indonesia Pondasi Raya Tbk,Industrials,IDPR.JK,EQ,ID1000136401
+PT Indopoly Swakarsa Industry Tbk,Materials,IPOL.JK,EQ,ID1000115900
+PT Trisula Textile Industries Tbk,Consumer Staples,BELL.JK,EQ,ID1000140502
+PT Wilton Makmur Indonesia Tbk,Materials,SQMI.JK,EQ,ID1000098601
 PT Wijaya Karya Beton Tbk,Industrials,WTON.JK,EQ,ID1000131105
+PT Nusa Konstruksi Enjiniring Tbk,Industrials,DGIK.JK,EQ,ID1000108806
+PT Charnic Capital Tbk,Financials,NICK.JK,EQ,ID1000142706
+PT Widodo Makmur Perkasa Tbk,Materials,WMPP.JK,EQ,ID1000164809
+PT Widodo Makmur Unggas Tbk,Materials,WMUU.JK,EQ,ID1000159106
+PT Gunawan Dianjaya Steel Tbk,Materials,GDST.JK,EQ,ID1000113806
+PT Satria Mega Kencana Tbk,Consumer Discretionary,SOTS.JK,EQ,ID1000147309
+PT Indo Boga Sukses Tbk,Consumer Discretionary,IBOS.JK,EQ,ID1000167406
+PT Imago Mulia Persada Tbk,Industrials,LFLO.JK,EQ,ID1000160005
+PT MDTV Media Technologies Tbk,Industrials,NETV.JK,EQ,ID1000165905
+PT Madusari Murni Indah Tbk,Materials,MOLI.JK,EQ,ID1000145204
+PT Sumi Indo Kabel Tbk,Technology,IKBI.JK,EQ,ID1000083009
+PT Urban Jakarta Propertindo Tbk,Financials,URBN.JK,EQ,ID1000147200
+PT Bahtera Bumi Raya Tbk,Technology,PGJO.JK,EQ,ID1000153208
+PT Panorama Sentrawisata Tbk,Consumer Discretionary,PANR.JK,EQ,ID1000109705
+PT Pan Brothers Tbk,Materials,PBRX.JK,EQ,ID1000119506
 PT Mitra Investindo Tbk Class A,Industrials,MITI.JK,EQ,ID1000131709
+PT Modernland Realty Tbk Class A,Financials,MDLN.JK,EQ,ID1000129604
+PT Aman Agrindo Tbk,Materials,GULA.JK,EQ,ID1000170400
+PT Tera Data Indonusa Tbk,Technology,AXIO.JK,EQ,ID1000169204
+PT Wahana Interfood Nusantara Tbk,Consumer Staples,COCO.JK,EQ,ID1000148208
+PT Indonesia Pondasi Raya Tbk,Industrials,IDPR.JK,EQ,ID1000136401
+PT Sumber Mineral Global Abadi Tbk,Industrials,SMGA.JK,EQ,ID1000201809
+PT Asia Pramulia Tbk,Industrials,ASPR.JK,EQ,ID1000211006
 PT Berlina Tbk,Materials,BRNA.JK,EQ,ID1000125602
 PT Berdikari Pondasi Perkasa Tbk,Industrials,BDKR.JK,EQ,ID1000187008
-PT Satria Mega Kencana Tbk,Consumer Discretionary,SOTS.JK,EQ,ID1000147309
-PT Matahari Putra Prima Tbk,Consumer Discretionary,MPPA.JK,EQ,ID1000125909
-PT Urban Jakarta Propertindo Tbk,Financials,URBN.JK,EQ,ID1000147200
-PT Madusari Murni Indah Tbk,Materials,MOLI.JK,EQ,ID1000145204
-PT Dunia Virtual Online Tbk,Technology,AREA.JK,EQ,ID1000203508
-PT Ekadharma International Tbk,Materials,EKAD.JK,EQ,ID1000104805
-PT Multi Garam Utama Tbk,Industrials,FOLK.JK,EQ,ID1000194202
-PT Bahtera Bumi Raya Tbk,Technology,PGJO.JK,EQ,ID1000153208
-PT UBC Medical Indonesia Tbk,Industrials,LABS.JK,EQ,ID1000205305
-PT Verona Indah Pictures Tbk,Consumer Discretionary,VERN.JK,EQ,ID1000206303
-PT Wahana Interfood Nusantara Tbk,Consumer Staples,COCO.JK,EQ,ID1000148208
-PT Aman Agrindo Tbk,Materials,GULA.JK,EQ,ID1000170400
-PT Bakrie Sumatera Plantations Tbk,Industrials,UNSP.JK,EQ,ID1000099708
 PT Radana Bhaskara Finance Tbk,Financials,HDFA.JK,EQ,ID1000118805
-PT Penta Valent Tbk,Industrials,PEVE.JK,EQ,ID1000183601
+PT Dunia Virtual Online Tbk,Technology,AREA.JK,EQ,ID1000203508
+PT Verona Indah Pictures Tbk,Consumer Discretionary,VERN.JK,EQ,ID1000206303
+PT Multitrend Indo Tbk,Consumer Discretionary,BABY.JK,EQ,ID1000197809
 PT Sarimelati Kencana Tbk,Consumer Discretionary,PZZA.JK,EQ,ID1000143407
-PT Champ Resto Indonesia Tbk,Consumer Discretionary,ENAK.JK,EQ,ID1000166101
-PT Buyung Poetra Sembada Tbk,Materials,HOKI.JK,EQ,ID1000139801
-PT Sumber Mineral Global Abadi Tbk,Industrials,SMGA.JK,EQ,ID1000201809
-PT Nusantara Almazia Tbk,Financials,NZIA.JK,EQ,ID1000151400
-PT Itama Ranoraya Tbk,Industrials,IRRA.JK,EQ,ID1000151707
-PT Pan Brothers Tbk,Materials,PBRX.JK,EQ,ID1000119506
-PT SLJ Global Tbk,Materials,SULI.JK,EQ,ID1000088909
-PT Era Digital Media Tbk,Technology,AWAN.JK,EQ,ID1000188105
-PT Maskapai Reasuransi Indonesia Tbk,Financials,MREI.JK,EQ,ID1000056005
-PT Bumi Benowo Sukses Sejahtera Tbk,Industrials,BBSS.JK,EQ,ID1000155500
-PT Pelat Timah Nusantara Tbk,Materials,NIKL.JK,EQ,ID1000113608
-PT Maxindo Karya Anugerah Tbk,Consumer Staples,MAXI.JK,EQ,ID1000189905
 PT Logindo Samudramakmur Tbk,Industrials,LEAD.JK,EQ,ID1000134000
-PT Galva Technologies Tbk,Industrials,GLVA.JK,EQ,ID1000153109
-PT Wijaya Karya Bangunan Gedung Tbk,Industrials,WEGE.JK,EQ,ID1000141104
-PT Colorpak Indonesia Tbk,Materials,CLPI.JK,EQ,ID1000079106
-PT Diastika Biotekindo Tbk,Health Care,CHEK.JK,EQ,ID1000211402
 PT Bumi Teknokultura Unggul Tbk,Materials,BTEK.JK,EQ,ID1000098106
-PT Garda Tujuh Buana Tbk,Energy,GTBO.JK,EQ,ID1000113004
-PT Trisula International Tbk,Consumer Staples,TRIS.JK,EQ,ID1000123102
-PT Asiaplast Industries Tbk,Materials,APLI.JK,EQ,ID1000059405
-PT Emdeki Utama Tbk,Materials,MDKI.JK,EQ,ID1000140304
-PT Saraswanti Indoland Development Tbk,Financials,SWID.JK,EQ,ID1000168602
-PT Goodyear Indonesia Tbk,Consumer Discretionary,GDYR.JK,EQ,ID1000134802
-PT Esta Multi Usaha Tbk,Consumer Discretionary,ESTA.JK,EQ,ID1000154800
+PT UBC Medical Indonesia Tbk,Industrials,LABS.JK,EQ,ID1000205305
+PT Ekadharma International Tbk,Materials,EKAD.JK,EQ,ID1000104805
+PT Penta Valent Tbk,Industrials,PEVE.JK,EQ,ID1000183601
 PT Visi Media Asia Tbk Class A,Consumer Discretionary,VIVA.JK,EQ,ID1000121304
-PT Yanaprima Hastapersada Tbk,Materials,YPAS.JK,EQ,ID1000109804
-PT Solusi Environment Asia Tbk,Materials,SOFA.JK,EQ,ID1000156300
-PT Apexindo Pratama Duta Tbk,Industrials,APEX.JK,EQ,ID1000091309
-PT Hotel Fitra International Tbk,Consumer Discretionary,FITT.JK,EQ,ID1000148802
-PT Bersama Zatta Jaya Tbk,Consumer Discretionary,ZATA.JK,EQ,ID1000176605
-PT Sunson Textile Manufacturer Tbk,Materials,SSTM.JK,EQ,ID1000081508
-PT Triniti Dinamik Tbk,Financials,TRUE.JK,EQ,ID1000160807
-PT Perdana Gapuraprima Tbk,Consumer Discretionary,GPRA.JK,EQ,ID1000107501
-PT Satyamitra Kemas Lestari Tbk,Materials,SMKL.JK,EQ,ID1000150204
-PT Kurniamitra Duta Sentosa Tbk,Industrials,KMDS.JK,EQ,ID1000157704
-PT Pelayaran Nelly Dwi Putri Tbk,Industrials,NELY.JK,EQ,ID1000125206
-PT Pudjiadi & Sons Tbk,Consumer Discretionary,PNSE.JK,EQ,ID1000124803
-PT Capitalinc Investment Tbk Class A,Financials,MTFN.JK,EQ,ID1000120405
-PT Indah Prakasa Sentosa Tbk,Utilities,INPS.JK,EQ,ID1000142508
-PT Hasnur Internasional Shipping Tbk,Industrials,HAIS.JK,EQ,ID1000162605
-PT Terang Dunia Internusa Tbk,Consumer Discretionary,UNTD.JK,EQ,ID1000202104
-PT Mizuho Leasing Indonesia Tbk,Financials,VRNA.JK,EQ,ID1000111008
+PT Matahari Putra Prima Tbk,Consumer Discretionary,MPPA.JK,EQ,ID1000125909
 PT Tirta Mahakam Resources Tbk,Materials,TIRT.JK,EQ,ID1000053408
-PT Rig Tenders Indonesia Tbk,Industrials,RIGS.JK,EQ,ID1000098809
-PT Prima Multi Usaha Indonesia Tbk,Industrials,PMUI.JK,EQ,ID1000211303
-PT Toba Surimi Industries Tbk,Consumer Staples,CRAB.JK,EQ,ID1000171408
-PT Champion Pacific Indonesia Tbk,Materials,IGAR.JK,EQ,ID1000059306
-PT Trimitra Prawara Goldland Tbk,Financials,ATAP.JK,EQ,ID1000158108
-PT Multi Hanna Kreasindo Tbk,Industrials,MHKI.JK,EQ,ID1000203706
-PT Jembo Cable Co. Tbk,Industrials,JECC.JK,EQ,ID1000074305
-PT Andalan Perkasa Abadi Tbk,Financials,NASA.JK,EQ,ID1000140205
-PT Duta Anggada Realty Tbk,Consumer Discretionary,DART.JK,EQ,ID1000089303
-PT Diamond Citra Propertindo Tbk,Financials,DADA.JK,EQ,ID1000154503
-PT Damai Sejahtera Abadi Tbk,Consumer Discretionary,UFOE.JK,EQ,ID1000159304
-PT Mutuagung Lestari Tbk,Industrials,MUTU.JK,EQ,ID1000194806
-PT Maja Agung Latexindo Tbk,Consumer Staples,SURI.JK,EQ,ID1000200207
-PT Indo Acidatama Tbk,Consumer Staples,SRSN.JK,EQ,ID1000102601
-PT Gunanusa Eramandiri Tbk,Consumer Staples,GUNA.JK,EQ,ID1000205008
-PT Destinasi Tirta Nusantara Tbk,Consumer Discretionary,PDES.JK,EQ,ID1000111107
-PT Asia Pramulia Tbk,Industrials,ASPR.JK,EQ,ID1000211006
+PT Itama Ranoraya Tbk,Industrials,IRRA.JK,EQ,ID1000151707
+PT Buyung Poetra Sembada Tbk,Materials,HOKI.JK,EQ,ID1000139801
+PT Hotel Fitra International Tbk,Consumer Discretionary,FITT.JK,EQ,ID1000148802
+PT Maskapai Reasuransi Indonesia Tbk,Financials,MREI.JK,EQ,ID1000056005
+PT Bakrie Sumatera Plantations Tbk,Industrials,UNSP.JK,EQ,ID1000099708
+PT Era Digital Media Tbk,Technology,AWAN.JK,EQ,ID1000188105
+PT Champ Resto Indonesia Tbk,Consumer Discretionary,ENAK.JK,EQ,ID1000166101
+PT Bersama Zatta Jaya Tbk,Consumer Discretionary,ZATA.JK,EQ,ID1000176605
+PT Triniti Dinamik Tbk,Financials,TRUE.JK,EQ,ID1000160807
+PT Trisula International Tbk,Consumer Staples,TRIS.JK,EQ,ID1000123102
+PT Bumi Benowo Sukses Sejahtera Tbk,Industrials,BBSS.JK,EQ,ID1000155500
+PT Colorpak Indonesia Tbk,Materials,CLPI.JK,EQ,ID1000079106
+PT Wijaya Karya Bangunan Gedung Tbk,Industrials,WEGE.JK,EQ,ID1000141104
+PT SLJ Global Tbk,Materials,SULI.JK,EQ,ID1000088909
+PT Apexindo Pratama Duta Tbk,Industrials,APEX.JK,EQ,ID1000091309
+PT Diastika Biotekindo Tbk,Health Care,CHEK.JK,EQ,ID1000211402
+PT Pelat Timah Nusantara Tbk,Materials,NIKL.JK,EQ,ID1000113608
+PT Dua Putra Utama Makmur Tbk,Industrials,DPUM.JK,EQ,ID1000136203
+PT Maxindo Karya Anugerah Tbk,Consumer Staples,MAXI.JK,EQ,ID1000189905
+PT Capitalinc Investment Tbk Class A,Financials,MTFN.JK,EQ,ID1000120405
+PT Saraswanti Indoland Development Tbk,Financials,SWID.JK,EQ,ID1000168602
+PT Terang Dunia Internusa Tbk,Consumer Discretionary,UNTD.JK,EQ,ID1000202104
+PT Sunson Textile Manufacturer Tbk,Materials,SSTM.JK,EQ,ID1000081508
 PT Hatten Bali Tbk,Consumer Staples,WINE.JK,EQ,ID1000182207
-PT Fuji Finance Indonesia Tbk.,Financials,FUJI.JK,EQ,ID1000150006
-PT Haloni Jane Tbk,Industrials,HALO.JK,EQ,ID1000184708
-PT Kota Satu Properti Tbk,Financials,SATU.JK,EQ,ID1000146707
+PT Hasnur Internasional Shipping Tbk,Industrials,HAIS.JK,EQ,ID1000162605
+PT Pelayaran Nelly Dwi Putri Tbk,Industrials,NELY.JK,EQ,ID1000125206
+PT Galva Technologies Tbk,Industrials,GLVA.JK,EQ,ID1000153109
+PT Indah Prakasa Sentosa Tbk,Utilities,INPS.JK,EQ,ID1000142508
+PT Multi Hanna Kreasindo Tbk,Industrials,MHKI.JK,EQ,ID1000203706
+PT Emdeki Utama Tbk,Materials,MDKI.JK,EQ,ID1000140304
+PT Garda Tujuh Buana Tbk,Energy,GTBO.JK,EQ,ID1000113004
+PT Perdana Gapuraprima Tbk,Consumer Discretionary,GPRA.JK,EQ,ID1000107501
+PT Goodyear Indonesia Tbk,Consumer Discretionary,GDYR.JK,EQ,ID1000134802
+PT Trimitra Prawara Goldland Tbk,Financials,ATAP.JK,EQ,ID1000158108
+PT Pudjiadi & Sons Tbk,Consumer Discretionary,PNSE.JK,EQ,ID1000124803
+PT Jembo Cable Co. Tbk,Industrials,JECC.JK,EQ,ID1000074305
+PT Esta Multi Usaha Tbk,Consumer Discretionary,ESTA.JK,EQ,ID1000154800
+PT Mizuho Leasing Indonesia Tbk,Financials,VRNA.JK,EQ,ID1000111008
+PT Yanaprima Hastapersada Tbk,Materials,YPAS.JK,EQ,ID1000109804
+PT Kurniamitra Duta Sentosa Tbk,Industrials,KMDS.JK,EQ,ID1000157704
+PT Solusi Environment Asia Tbk,Materials,SOFA.JK,EQ,ID1000156300
+PT Rig Tenders Indonesia Tbk,Industrials,RIGS.JK,EQ,ID1000098809
+PT Toba Surimi Industries Tbk,Consumer Staples,CRAB.JK,EQ,ID1000171408
+PT Satyamitra Kemas Lestari Tbk,Materials,SMKL.JK,EQ,ID1000150204
+PT Royaltama Mulia Kontraktorindo Tbk,Energy,RMKO.JK,EQ,ID1000193105
+PT Asuransi Harta Aman Pratama Tbk,Financials,AHAP.JK,EQ,ID1000095805
+PT Personel Alih Daya Tbk,Industrials,PADA.JK,EQ,ID1000178908
+PT Gunanusa Eramandiri Tbk,Consumer Staples,GUNA.JK,EQ,ID1000205008
+PT Indo Acidatama Tbk,Consumer Staples,SRSN.JK,EQ,ID1000102601
+PT Prima Multi Usaha Indonesia Tbk,Industrials,PMUI.JK,EQ,ID1000211303
 PT Bayu Buana Tbk,Consumer Discretionary,BAYU.JK,EQ,ID1000074107
+PT Champion Pacific Indonesia Tbk,Materials,IGAR.JK,EQ,ID1000059306
+PT Damai Sejahtera Abadi Tbk,Consumer Discretionary,UFOE.JK,EQ,ID1000159304
+PT Tira Austenite Tbk,Industrials,TIRA.JK,EQ,ID1000061005
+PT Nusantara Almazia Tbk,Financials,NZIA.JK,EQ,ID1000151400
+PT Venteny Fortuna International Tbk,Technology,VTNY.JK,EQ,ID1000179500
+PT Asia Pacific Investama Tbk Class A,Materials,MYTX.JK,EQ,ID1000074701
+PT Haloni Jane Tbk,Industrials,HALO.JK,EQ,ID1000184708
+PT Andalan Perkasa Abadi Tbk,Financials,NASA.JK,EQ,ID1000140205
+PT Kota Satu Properti Tbk,Financials,SATU.JK,EQ,ID1000146707
+PT Duta Anggada Realty Tbk,Consumer Discretionary,DART.JK,EQ,ID1000089303
+PT Maja Agung Latexindo Tbk,Consumer Staples,SURI.JK,EQ,ID1000200207
+PT Diamond Citra Propertindo Tbk,Financials,DADA.JK,EQ,ID1000154503
 PT Eastparc Hotel Tbk,Consumer Discretionary,EAST.JK,EQ,ID1000150808
-PT Selaras Citra Nusantara Perkasa Tbk,Consumer Discretionary,SCNP.JK,EQ,ID1000157308
-PT Jobubu Jarum Minahasa Tbk,Consumer Staples,BEER.JK,EQ,ID1000181605
-PT Grahaprima Suksesmandiri Tbk,Industrials,GTRA.JK,EQ,ID1000187701
+PT Destinasi Tirta Nusantara Tbk,Consumer Discretionary,PDES.JK,EQ,ID1000111107
+PT Vastland Indonesia Tbk,Financials,VAST.JK,EQ,ID1000184807
+PT Fuji Finance Indonesia Tbk.,Financials,FUJI.JK,EQ,ID1000150006
 PT Ecocare Indo Pasifik Tbk,Industrials,HYGN.JK,EQ,ID1000202906
 PT King Tire Indonesia Tbk,Consumer Discretionary,TYRE.JK,EQ,ID1000188709
-PT Tira Austenite Tbk,Industrials,TIRA.JK,EQ,ID1000061005
-PT Trimegah Karya Pratama Tbk,Technology,UVCR.JK,EQ,ID1000161904
-PT Kobexindo Tractors Tbk,Industrials,KOBX.JK,EQ,ID1000123508
-PT Asuransi Harta Aman Pratama Tbk,Financials,AHAP.JK,EQ,ID1000095805
-PT Venteny Fortuna International Tbk,Technology,VTNY.JK,EQ,ID1000179500
-PT Repower Asia Indonesia Tbk,Financials,REAL.JK,EQ,ID1000152705
-PT Data Sinergitama Jaya Tbk,Technology,ELIT.JK,EQ,ID1000181506
-PT Kabelindo Murni Tbk Class A,Industrials,KBLM.JK,EQ,ID1000073802
-PT Royaltama Mulia Kontraktorindo Tbk,Energy,RMKO.JK,EQ,ID1000193105
+PT Grahaprima Suksesmandiri Tbk,Industrials,GTRA.JK,EQ,ID1000187701
 PT Newport Marine Services Tbk,Industrials,BOAT.JK,EQ,ID1000206907
-PT Vastland Indonesia Tbk,Financials,VAST.JK,EQ,ID1000184807
-PT Multitrend Indo Tbk,Consumer Discretionary,BABY.JK,EQ,ID1000197809
-PT Informasi Teknologi Indonesia Tbk,Technology,JATI.JK,EQ,ID1000188501
-PT Asia Pacific Investama Tbk Class A,Materials,MYTX.JK,EQ,ID1000074701
-PT Black Diamond Resources Tbk,Energy,COAL.JK,EQ,ID1000172802
-PT Bintang Mitra Semestaraya Tbk,Industrials,BMSR.JK,EQ,ID1000079908
-PT Atlantis Subsea Indonesia Tbk,Industrials,ATLA.JK,EQ,ID1000203607
-PT Alakasa Industrindo Tbk Class A,Materials,ALKA.JK,EQ,ID1000076904
-PT Asuransi Ramayana Tbk,Financials,ASRM.JK,EQ,ID1000079700
-PT Visi Telekomunikasi Infrastruktur Tbk,Financials,GOLD.JK,EQ,ID1000116205
-PT Communication Cable Systems Indonesia Tbk,Industrials,CCSI.JK,EQ,ID1000149008
-PT Ikapharmindo Putramas Tbk,Health Care,IKPM.JK,EQ,ID1000199409
-PT Dyandra Media International Tbk,Industrials,DYAN.JK,EQ,ID1000126808
-PT Telefast Indonesia Tbk,Technology,TFAS.JK,EQ,ID1000151103
-PT Xolare Rcr Energy Tbk,Industrials,SOLA.JK,EQ,ID1000204001
-PT Mega Perintis Tbk,Consumer Staples,ZONE.JK,EQ,ID1000147408
+PT Data Sinergitama Jaya Tbk,Technology,ELIT.JK,EQ,ID1000181506
+PT Selaras Citra Nusantara Perkasa Tbk,Consumer Discretionary,SCNP.JK,EQ,ID1000157308
+PT Trimegah Karya Pratama Tbk,Technology,UVCR.JK,EQ,ID1000161904
 PT Exploitasi Energi Indonesia Tbk Class A,Energy,CNKO.JK,EQ,ID1000096209
-PT Personel Alih Daya Tbk,Industrials,PADA.JK,EQ,ID1000178908
-PT Koka Indonesia Tbk,Industrials,KOKA.JK,EQ,ID1000198609
-PT Multi Indocitra Tbk,Industrials,MICE.JK,EQ,ID1000102809
-PT MPX Logistics International Tbk,Industrials,MPXL.JK,EQ,ID1000188907
-PT Panca Global Kapital Tbk,Financials,PEGE.JK,EQ,ID1000101405
-PT Argha Karya Prima Industry Tbk,Materials,AKPI.JK,EQ,ID1000084205
-PT Ateliers Mecaniques D'Indonesie Tbk,Industrials,AMIN.JK,EQ,ID1000136302
-PT Diagnos Laboratorium Utama Tbk,Health Care,DGNS.JK,EQ,ID1000158702
+PT Jobubu Jarum Minahasa Tbk,Consumer Staples,BEER.JK,EQ,ID1000181605
+PT Asiaplast Industries Tbk,Materials,APLI.JK,EQ,ID1000059405
+PT Telefast Indonesia Tbk,Technology,TFAS.JK,EQ,ID1000151103
+PT Bintang Mitra Semestaraya Tbk,Industrials,BMSR.JK,EQ,ID1000079908
+PT Repower Asia Indonesia Tbk,Financials,REAL.JK,EQ,ID1000152705
+PT Mutuagung Lestari Tbk,Industrials,MUTU.JK,EQ,ID1000194806
+PT Communication Cable Systems Indonesia Tbk,Industrials,CCSI.JK,EQ,ID1000149008
+PT Kobexindo Tractors Tbk,Industrials,KOBX.JK,EQ,ID1000123508
+PT Kabelindo Murni Tbk Class A,Industrials,KBLM.JK,EQ,ID1000073802
+PT Dyandra Media International Tbk,Industrials,DYAN.JK,EQ,ID1000126808
 PT Ulima Nitra Tbk,Industrials,UNIQ.JK,EQ,ID1000159502
+PT Diagnos Laboratorium Utama Tbk,Health Care,DGNS.JK,EQ,ID1000158702
+PT Atlantis Subsea Indonesia Tbk,Industrials,ATLA.JK,EQ,ID1000203607
+PT Informasi Teknologi Indonesia Tbk,Technology,JATI.JK,EQ,ID1000188501
+PT Argha Karya Prima Industry Tbk,Materials,AKPI.JK,EQ,ID1000084205
+PT Visi Telekomunikasi Infrastruktur Tbk,Financials,GOLD.JK,EQ,ID1000116205
+PT Asuransi Digital Bersama Tbk,Financials,YOII.JK,EQ,ID1000208002
+PT Alakasa Industrindo  Tbk Class A,Materials,ALKA.JK,EQ,ID1000076904
+PT Asuransi Ramayana Tbk,Financials,ASRM.JK,EQ,ID1000079700
 PT Grand House Mulia Tbk,Financials,HOMI.JK,EQ,ID1000157209
-PT Geoprima Solusi Tbk,Technology,GPSO.JK,EQ,ID1000162704
+PT Ikapharmindo Putramas Tbk,Health Care,IKPM.JK,EQ,ID1000199409
+PT Xolare Rcr Energy Tbk,Industrials,SOLA.JK,EQ,ID1000204001
+PT Panca Global Kapital Tbk,Financials,PEGE.JK,EQ,ID1000101405
+PT Mega Perintis Tbk,Consumer Staples,ZONE.JK,EQ,ID1000147408
+PT Cilacap Samudera Fishing Industry Tbk,Materials,ASHA.JK,EQ,ID1000167901
+PT Multi Indocitra Tbk,Industrials,MICE.JK,EQ,ID1000102809
 PT Agung Semesta Sejahtera Tbk,Financials,TARA.JK,EQ,ID1000132202
+PT MPX Logistics International Tbk,Industrials,MPXL.JK,EQ,ID1000188907
 PT Carsurin Tbk,Industrials,CRSN.JK,EQ,ID1000191208
 PT Star Pacific Tbk Class A,Technology,LPLI.JK,EQ,ID1000100902
-PT Betonjaya Manunggal Tbk,Materials,BTON.JK,EQ,ID1000071509
+PT Bhuwanatala Indah Permai Tbk Class A,Financials,BIPP.JK,EQ,ID1000076508
+PT Cipta Perdana Lancar Tbk,Industrials,PART.JK,EQ,ID1000204902
+PT Ateliers Mecaniques D'Indonesie Tbk,Industrials,AMIN.JK,EQ,ID1000136302
+PT Menteng Heritage Realty Tbk,Consumer Discretionary,HRME.JK,EQ,ID1000148505
+PT Harapan Duta Pertiwi Tbk,Industrials,HOPE.JK,EQ,ID1000160500
 PT Sumber Sinergi Makmur Tbk,Industrials,IOTF.JK,EQ,ID1000198401
 PT Citra Nusantara Gemilang Tbk,Utilities,CGAS.JK,EQ,ID1000201106
-PT Bhuwanatala Indah Permai Tbk Class A,Financials,BIPP.JK,EQ,ID1000076508
-PT Cilacap Samudera Fishing Industry Tbk,Materials,ASHA.JK,EQ,ID1000167901
-PT Asuransi Jiwa Syariah Jasa Mitra Abadi Tbk,Financials,JMAS.JK,EQ,ID1000141609
-PT Royal Prima Tbk,Health Care,PRIM.JK,EQ,ID1000143209
-PT Asuransi Digital Bersama Tbk,Financials,YOII.JK,EQ,ID1000208002
-PT Intikeramik Alamasri Industri Tbk,Industrials,IKAI.JK,EQ,ID1000076201
 PT Adiwarna Anugerah Abadi Tbk,Industrials,NAIK.JK,EQ,ID1000207103
-PT Steady Safe Tbk,Industrials,SAFE.JK,EQ,ID1000067309
-PT Ever Shine Textile Tbk,Materials,ESTI.JK,EQ,ID1000063506
-PT Cahayasakti Investindo Sukses Tbk,Financials,CSIS.JK,EQ,ID1000138704
-PT Saranacentral Bajatama Tbk,Materials,BAJA.JK,EQ,ID1000121700
-PT.Cashlez Worldwide Indonesia Tbk,Technology,CASH.JK,EQ,ID1000155906
-PT Magna Investama Mandiri Tbk,Financials,MGNA.JK,EQ,ID1000132103
-PT Menteng Heritage Realty Tbk,Consumer Discretionary,HRME.JK,EQ,ID1000148505
-PT Arsy Buana Travelindo Tbk,Consumer Discretionary,HAJJ.JK,EQ,ID1000187800
 PT Karya Bersama Anugerah Tbk,Financials,KBAG.JK,EQ,ID1000155203
-PT Andalan Sakti Primaindo Tbk,Financials,ASPI.JK,EQ,ID1000154602
-PT Global Sukses Digital Tbk,Consumer Discretionary,DOSS.JK,EQ,ID1000205909
-PT Topindo Solusi Komunika Tbk,Technology,TOSK.JK,EQ,ID1000202203
-PT Teknologi Karya Digital Nusa Tbk,Technology,TRON.JK,EQ,ID1000187404
-PT Batavia Prosperindo Trans Tbk,Financials,BPTR.JK,EQ,ID1000144207
-PT Leyand International Tbk,Utilities,LAPD.JK,EQ,ID1000071004
-PT Dewi Shri Farmindo Tbk,Consumer Discretionary,DEWI.JK,EQ,ID1000169105
-PT Pulau Subur Tbk,Materials,PTPS.JK,EQ,ID1000198807
-PT Pelayaran Kurnia Lautan Semesta Tbk,Industrials,KLAS.JK,EQ,ID1000190002
-PT Harapan Duta Pertiwi Tbk,Industrials,HOPE.JK,EQ,ID1000160500
-PT Quantum Clovera Investama Tbk,Financials,KREN.JK,EQ,ID1000124308
-PT Pudjiadi Prestige Tbk Class A,Financials,PUDP.JK,EQ,ID1000080609
-PT Intraco Penta Tbk,Industrials,INTA.JK,EQ,ID1000119209
-PT Millennium Pharmacon International Tbk,Industrials,SDPC.JK,EQ,ID1000072804
-PT Perma Plasindo Tbk,Industrials,BINO.JK,EQ,ID1000164403
+PT Koka Indonesia Tbk,Industrials,KOKA.JK,EQ,ID1000198609
+PT Royal Prima Tbk,Health Care,PRIM.JK,EQ,ID1000143209
+PT Intikeramik Alamasri Industri Tbk,Industrials,IKAI.JK,EQ,ID1000076201
+PT Steady Safe Tbk,Industrials,SAFE.JK,EQ,ID1000067309
+PT Magna Investama Mandiri Tbk,Financials,MGNA.JK,EQ,ID1000132103
+PT Cahayasakti Investindo Sukses Tbk,Financials,CSIS.JK,EQ,ID1000138704
+PT.Cashlez Worldwide Indonesia Tbk,Technology,CASH.JK,EQ,ID1000155906
 PT Hillcon Tbk,Materials,HILL.JK,EQ,ID1000186901
-PT Asia Sejahtera Mina Tbk,Industrials,AGAR.JK,EQ,ID1000152507
-PT Cipta Perdana Lancar Tbk,Industrials,PART.JK,EQ,ID1000204902
-PT Trust Finance Indonesia Tbk,Financials,TRUS.JK,EQ,ID1000134901
-PT Asuransi Dayin Mitra Tbk,Financials,ASDM.JK,EQ,ID1000090905
-PT Saptausaha Gemilangindah Tbk,Financials,SAGE.JK,EQ,ID1000187305
-PT Graha Mitra Asia Tbk,Financials,RELF.JK,EQ,ID1000190705
-PT Modern Internasional Tbk,Consumer Discretionary,MDRN.JK,EQ,ID1000123300
-PT Asuransi Jasa Tania Tbk,Financials,ASJT.JK,EQ,ID1000135205
+PT Pelayaran Kurnia Lautan Semesta Tbk,Industrials,KLAS.JK,EQ,ID1000190002
+PT Betonjaya Manunggal Tbk,Materials,BTON.JK,EQ,ID1000071509
+PT Batavia Prosperindo Trans Tbk,Financials,BPTR.JK,EQ,ID1000144207
+PT Arsy Buana Travelindo Tbk,Consumer Discretionary,HAJJ.JK,EQ,ID1000187800
+PT Topindo Solusi Komunika Tbk,Technology,TOSK.JK,EQ,ID1000202203
+PT Pulau Subur Tbk,Materials,PTPS.JK,EQ,ID1000198807
+PT Asuransi Jiwa Syariah Jasa Mitra Abadi Tbk,Financials,JMAS.JK,EQ,ID1000141609
+PT Leyand International Tbk,Utilities,LAPD.JK,EQ,ID1000071004
+PT Quantum Clovera Investama Tbk,Financials,KREN.JK,EQ,ID1000124308
+PT Dewi Shri Farmindo Tbk,Consumer Discretionary,DEWI.JK,EQ,ID1000169105
+PT Ever Shine Textile Tbk,Materials,ESTI.JK,EQ,ID1000063506
+PT Perma Plasindo Tbk,Industrials,BINO.JK,EQ,ID1000164403
+PT Global Sukses Digital Tbk,Consumer Discretionary,DOSS.JK,EQ,ID1000205909
+PT Andalan Sakti Primaindo Tbk,Financials,ASPI.JK,EQ,ID1000154602
+PT Saranacentral Bajatama Tbk,Materials,BAJA.JK,EQ,ID1000121700
 PT Ancora Indonesia Resources Tbk,Materials,OKAS.JK,EQ,ID1000103302
-PT Putra Rajawali Kencana Tbk,Industrials,PURA.JK,EQ,ID1000153901
-PT Inocycle Technology Group Tbk,Materials,INOV.JK,EQ,ID1000150105
-PT Phapros Tbk,Industrials,PEHA.JK,EQ,ID1000147507
-PT Harta Djaya Karya Tbk,Industrials,MEJA.JK,EQ,ID1000202302
-PT Manggung Polahraya Tbk,Consumer Discretionary,MANG.JK,EQ,ID1000200801
-PT Mustika Ratu Tbk,Industrials,MRAT.JK,EQ,ID1000092604
-PT Pioneerindo Gourmet International Tbk,Consumer Discretionary,PTSP.JK,EQ,ID1000064108
-PT Megapolitan Developments Tbk,Financials,EMDE.JK,EQ,ID1000118003
-PT Samcro Hyosung Adilestari Tbk Class A,Materials,ACRO.JK,EQ,ID1000201007
+PT Geoprima Solusi Tbk,Technology,GPSO.JK,EQ,ID1000162704
+PT Modern Internasional Tbk,Consumer Discretionary,MDRN.JK,EQ,ID1000123300
+PT Teknologi Karya Digital Nusa Tbk,Technology,TRON.JK,EQ,ID1000187404
+PT Asuransi Jasa Tania Tbk,Financials,ASJT.JK,EQ,ID1000135205
+PT Millennium Pharmacon International Tbk,Industrials,SDPC.JK,EQ,ID1000072804
+PT Asia Sejahtera Mina Tbk,Industrials,AGAR.JK,EQ,ID1000152507
 PT Victoria Insurance Tbk,Financials,VINS.JK,EQ,ID1000135601
-PT Dafam Property Indonesia Tbk,Consumer Discretionary,DFAM.JK,EQ,ID1000142607
 PT Sinergi Multi Lestarindo Tbk,Industrials,SMLE.JK,EQ,ID1000201205
+PT Trust Finance Indonesia Tbk,Financials,TRUS.JK,EQ,ID1000134901
+PT Black Diamond Resources Tbk,Energy,COAL.JK,EQ,ID1000172802
+PT Samcro Hyosung Adilestari Tbk Class A,Materials,ACRO.JK,EQ,ID1000201007
+PT Intraco Penta Tbk,Industrials,INTA.JK,EQ,ID1000119209
+PT Saptausaha Gemilangindah Tbk,Financials,SAGE.JK,EQ,ID1000187305
+PT Harta Djaya Karya Tbk,Industrials,MEJA.JK,EQ,ID1000202302
+PT Putra Rajawali Kencana Tbk,Industrials,PURA.JK,EQ,ID1000153901
+PT Phapros Tbk,Industrials,PEHA.JK,EQ,ID1000147507
+PT Pudjiadi Prestige Tbk Class A,Financials,PUDP.JK,EQ,ID1000080609
+PT Inocycle Technology Group Tbk,Materials,INOV.JK,EQ,ID1000150105
+PT Pioneerindo Gourmet International Tbk,Consumer Discretionary,PTSP.JK,EQ,ID1000064108
 PT Nusa Palapa Gemilang Tbk,Materials,NPGF.JK,EQ,ID1000160104
-PT WEHA Transportasi Indonesia Tbk,Industrials,WEHA.JK,EQ,ID1000105901
-PT Arita Prima Indonesia Tbk,Industrials,APII.JK,EQ,ID1000129406
-PT Megalestari Epack Sentosaraya Tbk,Technology,EPAC.JK,EQ,ID1000156102
-PT M Cash Integrasi Tbk,Technology,MCAS.JK,EQ,ID1000140908
-PT Indonesian Tobacco Tbk,Consumer Staples,ITIC.JK,EQ,ID1000149404
+PT Asuransi Dayin Mitra Tbk,Financials,ASDM.JK,EQ,ID1000090905
+PT Graha Mitra Asia Tbk,Financials,RELF.JK,EQ,ID1000190705
+PT Mustika Ratu Tbk,Industrials,MRAT.JK,EQ,ID1000092604
 PT Mitra Pack Tbk,Industrials,PTMP.JK,EQ,ID1000187107
 PT Pool Advista Finance Tbk,Financials,POLA.JK,EQ,ID1000146905
-PT Cahayaputra Asa Keramik Tbk,Consumer Discretionary,CAKK.JK,EQ,ID1000146509
+PT Megapolitan Developments Tbk,Financials,EMDE.JK,EQ,ID1000118003
+PT Arita Prima Indonesia Tbk,Industrials,APII.JK,EQ,ID1000129406
+PT Indonesian Tobacco Tbk,Consumer Staples,ITIC.JK,EQ,ID1000149404
+PT Megalestari Epack Sentosaraya Tbk,Technology,EPAC.JK,EQ,ID1000156102
 PT Satria Antaran Prima Tbk,Industrials,SAPX.JK,EQ,ID1000145600
-PT Lion Metal Works Tbk,Industrials,LION.JK,EQ,ID1000135403
-PT Transkon Jaya Tbk,Financials,TRJA.JK,EQ,ID1000156805
-PT Multi Prima Sejahtera Tbk,Technology,LPIN.JK,EQ,ID1000086408
-PT Chitose Internasional Tbk,Industrials,CINT.JK,EQ,ID1000131907
-PT Zyrexindo Mandiri Buana Tbk,Technology,ZYRX.JK,EQ,ID1000159908
-PT Bima Sakti Pertiwi Tbk,Financials,PAMG.JK,EQ,ID1000149503
-PT Eratex Djaja Tbk,Materials,ERTX.JK,EQ,ID1000076607
+PT Dafam Property Indonesia Tbk,Consumer Discretionary,DFAM.JK,EQ,ID1000142607
 PT Lenox Pasifik InvestamaTbk Class A,Financials,LPPS.JK,EQ,ID1000119803
-PT Indo Straits Tbk,Industrials,PTIS.JK,EQ,ID1000120009
 PT Lancartama Sejati Tbk,Consumer Discretionary,TAMA.JK,EQ,ID1000154008
-PT Prasidha Aneka Niaga Tbk,Materials,PSDN.JK,EQ,ID1000090400
-PT Inter-Delta Tbk,Consumer Discretionary,INTD.JK,EQ,ID1000085103
-PT Trimitra Propertindo Tbk,Consumer Discretionary,LAND.JK,EQ,ID1000145006
-PT Distribusi Voucher Nusantara Tbk,Technology,DIVA.JK,EQ,ID1000147002
-PT Asuransi Bintang Tbk,Financials,ASBI.JK,EQ,ID1000058506
-PT Guna Timur Raya Tbk,Industrials,TRUK.JK,EQ,ID1000143308
-PT Electronic City Indonesia Tbk,Consumer Discretionary,ECII.JK,EQ,ID1000127905
-PT Langgeng Makmur Industri Tbk,Consumer Discretionary,LMPI.JK,EQ,ID1000062409
-PT Meratus Jasa Prima Tbk,Industrials,KARW.JK,EQ,ID1000079205
-PT Ristia Bintang Mahkotasejati Tbk,Consumer Discretionary,RBMS.JK,EQ,ID1000058100
-PT Andira Agro Tbk,Materials,ANDI.JK,EQ,ID1000145105
-PT Ginting Jaya Energi Tbk,Industrials,WOWS.JK,EQ,ID1000152002
+PT Eratex Djaja Tbk,Materials,ERTX.JK,EQ,ID1000076607
+PT Lion Metal Works Tbk,Industrials,LION.JK,EQ,ID1000135403
+PT First Media Tbk,Consumer Discretionary,KBLV.JK,EQ,ID1000051709
 PT Citatah Tbk,Materials,CTTH.JK,EQ,ID1000070105
-PT Asuransi Maximus Graha Persada Tbk,Financials,ASMI.JK,EQ,ID1000130602
-PT Wahana Pronatural Tbk,Consumer Staples,WAPO.JK,EQ,ID1000070204
-PT Mineral Sumberdaya Mandiri Tbk,Financials,AKSI.JK,EQ,ID1000070709
+PT Cahayaputra Asa Keramik Tbk,Consumer Discretionary,CAKK.JK,EQ,ID1000146509
+PT M Cash Integrasi Tbk,Technology,MCAS.JK,EQ,ID1000140908
+PT Multi Prima Sejahtera Tbk,Technology,LPIN.JK,EQ,ID1000086408
+PT Andira Agro Tbk,Materials,ANDI.JK,EQ,ID1000145105
+PT Zyrexindo Mandiri Buana Tbk,Technology,ZYRX.JK,EQ,ID1000159908
+PT Chitose Internasional Tbk,Industrials,CINT.JK,EQ,ID1000131907
+PT Transkon Jaya Tbk,Financials,TRJA.JK,EQ,ID1000156805
+PT Prasidha Aneka Niaga Tbk,Materials,PSDN.JK,EQ,ID1000090400
+PT Meratus Jasa Prima Tbk,Industrials,KARW.JK,EQ,ID1000079205
+PT Manggung Polahraya Tbk,Consumer Discretionary,MANG.JK,EQ,ID1000200801
+PT Indo Straits Tbk,Industrials,PTIS.JK,EQ,ID1000120009
+PT Bima Sakti Pertiwi Tbk,Financials,PAMG.JK,EQ,ID1000149503
+PT Brigit Biofarmaka Teknologi Tbk,Industrials,OBAT.JK,EQ,ID1000208705
+PT Guna Timur Raya Tbk,Industrials,TRUK.JK,EQ,ID1000143308
 PT Alfa Energi Investama Tbk,Energy,FIRE.JK,EQ,ID1000139009
+PT Distribusi Voucher Nusantara Tbk,Technology,DIVA.JK,EQ,ID1000147002
+PT Trimitra Propertindo Tbk,Consumer Discretionary,LAND.JK,EQ,ID1000145006
+PT Era Graharealty Tbk,Financials,IPAC.JK,EQ,ID1000160906
+PT Jaya Trishindo Tbk,Industrials,HELI.JK,EQ,ID1000142201
+PT Gaya Abadi Sempurna Tbk,Industrials,SLIS.JK,EQ,ID1000151608
+PT Morenzo Abadi Perkasa Tbk,Consumer Staples,ENZO.JK,EQ,ID1000157803
+PT WEHA Transportasi Indonesia Tbk,Industrials,WEHA.JK,EQ,ID1000105901
+PT Sidomulyo Selaras Tbk,Industrials,SDMU.JK,EQ,ID1000120108
+PT Ginting Jaya Energi Tbk,Industrials,WOWS.JK,EQ,ID1000152002
+PT Ristia Bintang Mahkotasejati Tbk,Consumer Discretionary,RBMS.JK,EQ,ID1000058100
+PT Wijaya Cahaya Timber Tbk,Materials,FWCT.JK,EQ,ID1000184203
+PT Radiant Utama Interinsco Tbk,Industrials,RUIS.JK,EQ,ID1000103708
 PT Express Transindo Utama Tbk,Industrials,TAXI.JK,EQ,ID1000125404
 Pt Cipta Sarana Medika Tbk.,Health Care,DKHH.JK,EQ,ID1000210305
-PT Gaya Abadi Sempurna Tbk,Industrials,SLIS.JK,EQ,ID1000151608
-PT Brigit Biofarmaka Teknologi Tbk,Industrials,OBAT.JK,EQ,ID1000208705
-PT Era Graharealty Tbk,Financials,IPAC.JK,EQ,ID1000160906
-PT Wijaya Cahaya Timber Tbk,Materials,FWCT.JK,EQ,ID1000184203
-PT Sidomulyo Selaras Tbk,Industrials,SDMU.JK,EQ,ID1000120108
-PT Mitra Pedagang Indonesia Tbk,Industrials,MPIX.JK,EQ,ID1000203201
-PT Radiant Utama Interinsco Tbk,Industrials,RUIS.JK,EQ,ID1000103708
-PT Mahaka Radio Integra Tbk,Consumer Discretionary,MARI.JK,EQ,ID1000136906
+PT Yelooo Integra Datanet Tbk,Industrials,YELO.JK,EQ,ID1000146400
+PT Electronic City Indonesia Tbk,Consumer Discretionary,ECII.JK,EQ,ID1000127905
+PT Asuransi Bintang Tbk,Financials,ASBI.JK,EQ,ID1000058506
+PT Inter-Delta Tbk,Consumer Discretionary,INTD.JK,EQ,ID1000085103
+PT Langgeng Makmur Industri Tbk,Consumer Discretionary,LMPI.JK,EQ,ID1000062409
 PT Mahaka Media Tbk,Consumer Discretionary,ABBA.JK,EQ,ID1000087208
-PT Morenzo Abadi Perkasa Tbk,Consumer Staples,ENZO.JK,EQ,ID1000157803
-PT Semacom Integrated Tbk,Industrials,SEMA.JK,EQ,ID1000165707
-PT Jaya Trishindo Tbk,Industrials,HELI.JK,EQ,ID1000142201
+PT Wahana Pronatural Tbk,Consumer Staples,WAPO.JK,EQ,ID1000070204
+PT Tempo Inti Media Tbk,Consumer Discretionary,TMPO.JK,EQ,ID1000064801
+PT Asuransi Maximus Graha Persada Tbk,Financials,ASMI.JK,EQ,ID1000130602
+PT Mitra Pedagang Indonesia Tbk,Industrials,MPIX.JK,EQ,ID1000203201
 PT Intanwijaya Internasional Tbk,Materials,INCI.JK,EQ,ID1000064504
-PT Gema Grahasarana Tbk,Industrials,GEMA.JK,EQ,ID1000092505
-PT Island Concepts Indonesia Tbk,Consumer Discretionary,ICON.JK,EQ,ID1000112204
 PT Dharma Samudera Fishing Industries Tbk,Consumer Staples,DSFI.JK,EQ,ID1000065808
+PT Mineral Sumberdaya Mandiri Tbk,Financials,AKSI.JK,EQ,ID1000070709
+PT LCK Global Kedaton Tbk,Industrials,LCKM.JK,EQ,ID1000141906
+PT Mitra Energi Persada Tbk,Industrials,KOPI.JK,EQ,ID1000131501
 PT Jasa Berdikari Logistics Tbk,Industrials,LAJU.JK,EQ,ID1000183809
 PT Puri Global Sukses Tbk,Financials,PURI.JK,EQ,ID1000157001
-PT First Media Tbk,Consumer Discretionary,KBLV.JK,EQ,ID1000051709
-PT Yelooo Integra Datanet Tbk,Industrials,YELO.JK,EQ,ID1000146400
-PT Falmaco Nonwoven Industri Tbk,Materials,FLMC.JK,EQ,ID1000161300
-PT MNC Vision Network,Communication Services,MSKY.JK,EQ,ID1000123607
-PT Martina Berto Tbk,Consumer Staples,MBTO.JK,EQ,ID1000118102
-PT Hetzer Medical Indonesia Tbk,Health Care,MEDS.JK,EQ,ID1000171309
-PT Sinergi Inti Plastindo Tbk,Industrials,ESIP.JK,EQ,ID1000152101
-PT Sentra Food Indonesia Tbk,Industrials,FOOD.JK,EQ,ID1000147804
-PT Mitra Angkasa Sejahtera Tbk,Industrials,BAUT.JK,EQ,ID1000166002
-PT Tempo Inti Media Tbk,Consumer Discretionary,TMPO.JK,EQ,ID1000064801
 PT Winner Nusantara Jaya Tbk,Financials,WINR.JK,EQ,ID1000167505
-PT Sunter Lakeside Hotel Tbk,Consumer Discretionary,SNLK.JK,EQ,ID1000159809
+PT Sinergi Inti Plastindo Tbk,Industrials,ESIP.JK,EQ,ID1000152101
+PT Semacom Integrated Tbk,Industrials,SEMA.JK,EQ,ID1000165707
+PT Mitra Angkasa Sejahtera Tbk,Industrials,BAUT.JK,EQ,ID1000166002
+PT Gema Grahasarana Tbk,Industrials,GEMA.JK,EQ,ID1000092505
+PT MNC Vision Network,Communication Services,MSKY.JK,EQ,ID1000123607
 PT Capitol Nusantara Indonesia Tbk,Industrials,CANI.JK,EQ,ID1000130503
-PT Mitra Energi Persada Tbk,Industrials,KOPI.JK,EQ,ID1000131501
-PT Indal Aluminium Industry Tbk,Materials,INAI.JK,EQ,ID1000130800
+PT Martina Berto Tbk,Consumer Staples,MBTO.JK,EQ,ID1000118102
+PT Mahaka Radio Integra Tbk,Consumer Discretionary,MARI.JK,EQ,ID1000136906
+PT Hetzer Medical Indonesia Tbk,Health Care,MEDS.JK,EQ,ID1000171309
 PT Merry Riana Edukasi Tbk,Industrials,MERI.JK,EQ,ID1000211204
-PT Bhakti Agung Propertindo Tbk,Financials,BAPI.JK,EQ,ID1000151004
+PT Arkayana Lestari Grup Tbk,Materials,AYLS.JK,EQ,ID1000154404
+PT Island Concepts Indonesia Tbk,Consumer Discretionary,ICON.JK,EQ,ID1000112204
 PT Nanotech Indonesia Global Tbk,Industrials,NANO.JK,EQ,ID1000166606
+PT Sunter Lakeside Hotel Tbk,Consumer Discretionary,SNLK.JK,EQ,ID1000159809
+PT Sentra Food Indonesia Tbk,Industrials,FOOD.JK,EQ,ID1000147804
+PT Bhakti Agung Propertindo Tbk,Financials,BAPI.JK,EQ,ID1000151004
+PT Isra Presisi Indonesia Tbk,Industrials,ISAP.JK,EQ,ID1000178809
+PT Bangun Karya Perkasa Jaya Tbk,Industrials,KRYA.JK,EQ,ID1000169303
+PT Kioson Komersial Indonesia Tbk,Consumer Discretionary,KIOS.JK,EQ,ID1000140403
 PT Surya Biru Murni Acetylene Tbk,Materials,SBMA.JK,EQ,ID1000163207
 PT Armada Berjaya Trans Tbk,Industrials,JAYA.JK,EQ,ID1000148109
-PT Bangun Karya Perkasa Jaya Tbk,Industrials,KRYA.JK,EQ,ID1000169303
-PT LCK Global Kedaton Tbk,Industrials,LCKM.JK,EQ,ID1000141906
-PT Arkayana Lestari Grup Tbk,Materials,AYLS.JK,EQ,ID1000154404
-PT Wahana Inti Makmur Tbk,Consumer Staples,NASI.JK,EQ,ID1000165301
-PT Megapower Makmur Tbk,Utilities,MPOW.JK,EQ,ID1000139900
-PT Sepatu Bata Tbk,Consumer Staples,BATA.JK,EQ,ID1000129109
-PT Jasnita Telekomindo Tbk,Communication Services,JAST.JK,EQ,ID1000148604
-PT Pembangunan Graha Lestari Indah Tbk,Consumer Discretionary,PGLI.JK,EQ,ID1000090509
-PT Isra Presisi Indonesia Tbk,Industrials,ISAP.JK,EQ,ID1000178809
-PT Sumber Mas Konstruksi Tbk,Industrials,SMKM.JK,EQ,ID1000166408
 PT Green Power Group Tbk,Materials,LABA.JK,EQ,ID1000160708
-PT Intan Baru Prana Tbk,Financials,IBFN.JK,EQ,ID1000133101
+PT Pembangunan Graha Lestari Indah Tbk,Consumer Discretionary,PGLI.JK,EQ,ID1000090509
 PT Indo American Seafoods Tbk,Consumer Staples,ISEA.JK,EQ,ID1000204803
+PT Intan Baru Prana Tbk,Financials,IBFN.JK,EQ,ID1000133101
 PT Bumi Citra Permai Tbk,Financials,BCIP.JK,EQ,ID1000113509
-PT Kokoh Inti Arebama Tbk,Industrials,KOIN.JK,EQ,ID1000110406
-PT Hensel Davest Indonesia Tbk,Industrials,HDIT.JK,EQ,ID1000150303
-PT Sentral Mitra Informatika Tbk,Industrials,LUCK.JK,EQ,ID1000147101
-PT Artha Mahiya Investama Tbk,Industrials,AIMS.JK,EQ,ID1000071202
-PT Pelangi Indah Canindo Tbk,Materials,PICO.JK,EQ,ID1000088404
-PT Global Sukses Solusi Tbk,Technology,RUNS.JK,EQ,ID1000163405
-PT Optima Prima Metal Sinergi Tbk,Industrials,OPMS.JK,EQ,ID1000151301
-PT Indo Komoditi Korpora Tbk Class A,Industrials,INCF.JK,EQ,ID1000086200
-PT Utama Radar Cahaya Tbk,Technology,RCCC.JK,EQ,ID1000170004
-PT Kioson Komersial Indonesia Tbk,Consumer Discretionary,KIOS.JK,EQ,ID1000140403
-PT Danasupra Erapacific Tbk,Financials,DEFI.JK,EQ,ID1000136104
 PT Mitra International Resources Tbk,Industrials,MIRA.JK,EQ,ID1000110703
-PT Trimuda Nuansa Citra Tbk,Industrials,TNCA.JK,EQ,ID1000143902
+PT Jasnita Telekomindo Tbk,Communication Services,JAST.JK,EQ,ID1000148604
+PT Artha Mahiya Investama Tbk,Industrials,AIMS.JK,EQ,ID1000071202
+PT Wahana Inti Makmur Tbk,Consumer Staples,NASI.JK,EQ,ID1000165301
+PT Sepatu Bata Tbk,Consumer Staples,BATA.JK,EQ,ID1000129109
+PT Indal Aluminium Industry Tbk,Materials,INAI.JK,EQ,ID1000130800
+PT Megapower Makmur Tbk,Utilities,MPOW.JK,EQ,ID1000139900
+PT Hensel Davest Indonesia Tbk,Industrials,HDIT.JK,EQ,ID1000150303
+PT Danasupra Erapacific Tbk,Financials,DEFI.JK,EQ,ID1000136104
+PT Sumber Mas Konstruksi Tbk,Industrials,SMKM.JK,EQ,ID1000166408
+PT Optima Prima Metal Sinergi Tbk,Industrials,OPMS.JK,EQ,ID1000151301
+PT Kokoh Inti Arebama Tbk,Industrials,KOIN.JK,EQ,ID1000110406
+PT Global Sukses Solusi Tbk,Technology,RUNS.JK,EQ,ID1000163405
+PT Sentral Mitra Informatika Tbk,Industrials,LUCK.JK,EQ,ID1000147101
+PT Indo Komoditi Korpora Tbk Class A,Industrials,INCF.JK,EQ,ID1000086200
+PT Falmaco Nonwoven Industri Tbk,Materials,FLMC.JK,EQ,ID1000161300
+PT Pelangi Indah Canindo Tbk,Materials,PICO.JK,EQ,ID1000088404
 PT Eka Sari Lorena Transport Tbk,Industrials,LRNA.JK,EQ,ID1000131204
+PT Utama Radar Cahaya Tbk,Technology,RCCC.JK,EQ,ID1000170004
+PT Trimuda Nuansa Citra Tbk,Industrials,TNCA.JK,EQ,ID1000143902
 PT Era Mandiri Cemerlang Tbk,Consumer Staples,IKAN.JK,EQ,ID1000154305
 PT Cipta Selera Murni Tbk,Consumer Discretionary,CSMI.JK,EQ,ID1000155401
 PT Krida Jaringan Nusantara Tbk,Industrials,KJEN.JK,EQ,ID1000149305
 PT Jaya Swarasa Agung Tbk,Consumer Staples,TAYS.JK,EQ,ID1000164601
-PT Arkadia Digital Media Tbk,Technology,DIGI.JK,EQ,ID1000145402
 PT Arkha Jayanti Persada Tbk,Industrials,ARKA.JK,EQ,ID1000150501
+PT Arkadia Digital Media Tbk,Technology,DIGI.JK,EQ,ID1000145402
 PT Kedaung Indah Can Tbk,Consumer Discretionary,KICI.JK,EQ,ID1000083207
 PT Ricky Putra Globalindo Tbk,Consumer Staples,RICY.JK,EQ,ID1000059801
 PT Prima Cakrawala Abadi Tbk,Consumer Staples,PCAR.JK,EQ,ID1000141807
@@ -816,52 +815,51 @@ PT Widiant Jaya Krenindo Tbk,Financials,WIDI.JK,EQ,ID1000191406
 PT Himalaya Energi Perkasa Tbk,Industrials,HADE.JK,EQ,ID1000107006
 PT Planet Properindo Jaya Tbk,Consumer Discretionary,PLAN.JK,EQ,ID1000157407
 PT Tanah Laut Tbk,Technology,INDX.JK,EQ,ID1000102007
-PT Raja Roti Cemerlang Tbk,Consumer Staples,BRRC.JK,EQ,ID1000208606
-PT Kedoya Adyaraya Tbk,Health Care,RSGK.JK,EQ,ID1000163009
-PT Asri Karya Lestari Tbk,Industrials,ASLI.JK,EQ,ID1000200702
-Dana Investasi Real Estat Ciptadana Properti Perhotelan Padjajaran,Financials,XCIS.JK,EQ,IDX000000303
-PT Kian Santang Muliatama Tbk,Industrials,RGAS.JK,EQ,ID1000199201
-PT Mitra Tirta Buwana Tbk,Consumer Staples,SOUL.JK,EQ,ID1000181308
-PT Techno9 Indonesia Tbk,Technology,NINE.JK,EQ,ID1000178601
-PT Super Bank Indonesia Tbk,Financials,SUPA.JK,EQ,ID1000212608
-PT Oscar Mitra Sukses Sejahtera Tbk,Consumer Discretionary,OLIV.JK,EQ,ID1000167802
-PT Abadi Lestari Indonesia Tbk,Health Care,RLCO.JK,EQ,ID1000212509
-PT Bersama Mencapai Puncak Tbk,Consumer Discretionary,BAIK.JK,EQ,ID1000270101
-PT Agung Menjangan Mas Tbk,Materials,AMMS.JK,EQ,ID1000170301
-PT Lavender Bina Cendikia Tbk,Industrials,BMBL.JK,EQ,ID1000182306
-PT Griptha Putra Persada Tbk,Consumer Discretionary,GRPH.JK,EQ,ID1000201502
+PT Paperocks Indonesia Tbk,Industrials,PPRI.JK,EQ,ID1000194608
 PT Idea Indonesia Akademi Tbk,Industrials,IDEA.JK,EQ,ID1000163504
-PT Kokoh Exa Nusantara Tbk,Financials,KOCI.JK,EQ,ID1000198302
-PT Indo Oil Perkasa Tbk,Materials,OILS.JK,EQ,ID1000162803
-PT Prima Globalindo Logistik Tbk,Industrials,PPGL.JK,EQ,ID1000156508
-PT Minahasa Membangun Hebat Tbk,Financials,HBAT.JK,EQ,ID1000193907
-PT Soraya Berjaya Indonesia Tbk,Consumer Discretionary,SPRE.JK,EQ,ID1000204605
+PT Asri Karya Lestari Tbk,Industrials,ASLI.JK,EQ,ID1000200702
+PT Griptha Putra Persada Tbk,Consumer Discretionary,GRPH.JK,EQ,ID1000201502
+PT Techno9 Indonesia Tbk,Technology,NINE.JK,EQ,ID1000178601
+PT Benteng Api Technic Tbk,Materials,BATR.JK,EQ,ID1000204308
+PT Lavender Bina Cendikia Tbk,Industrials,BMBL.JK,EQ,ID1000182306
+PT OBM Drilchem Tbk,Materials,OBMD.JK,EQ,ID1000165202
 PT Cakra Buana Resources Energi Tbk,Industrials,CBRE.JK,EQ,ID1000181704
+PT Anugerah Spareparts Sejahtera Tbk,Industrials,AEGS.JK,EQ,ID1000197908
+PT Mitra Tirta Buwana Tbk,Consumer Staples,SOUL.JK,EQ,ID1000181308
+PT Minahasa Membangun Hebat Tbk,Financials,HBAT.JK,EQ,ID1000193907
+PT Nusatama Berkah Tbk,Consumer Discretionary,NTBK.JK,EQ,ID1000166200
+Dana Investasi Real Estat Ciptadana Properti Perhotelan Padjajaran,Financials,XCIS.JK,EQ,IDX000000303
+PT Kedoya Adyaraya Tbk,Health Care,RSGK.JK,EQ,ID1000163009
 PT Jantra Grupo Indonesia Tbk,Consumer Discretionary,KAQI.JK,EQ,ID1000209604
 PT Logisticsplus International Tbk,Industrials,LOPI.JK,EQ,ID1000198906
-PT Chemstar Indonesia Tbk,Materials,CHEM.JK,EQ,ID1000168701
-PT OBM Drilchem Tbk,Materials,OBMD.JK,EQ,ID1000165202
-PT BSA Logistics Indonesia Tbk,Industrials,WBSA.JK,EQ,ID1000213309
-PT Paperocks Indonesia Tbk,Industrials,PPRI.JK,EQ,ID1000194608
-DIRE CIPTADANA PROPERTI RITEL INDONESIA,Financials,XCID.JK,EQ,IDX000000105
-PT Formosa Ingredient Factory Tbk,Consumer Staples,BOBA.JK,EQ,ID1000163900
-PT Lupromax Pelumas Indonesia Tbk,Materials,LMAX.JK,EQ,ID1000194509
-PT Hassana Boga Sejahtera Tbk,Consumer Staples,NAYZ.JK,EQ,ID1000184500
-PT Citra Buana Prasida Tbk,Financials,CBPE.JK,EQ,ID1000181407
-PT Multisarana Intan Eduka Tbk,Financials,MSIE.JK,EQ,ID1000195209
-PT Wira Global Solusi Tbk,Technology,WGSH.JK,EQ,ID1000164502
-PT Nusatama Berkah Tbk,Consumer Discretionary,NTBK.JK,EQ,ID1000166200
-PT Lovina Beach Brewery Tbk,Consumer Staples,STRK.JK,EQ,ID1000198708
-PT Anugerah Spareparts Sejahtera Tbk,Industrials,AEGS.JK,EQ,ID1000197908
-PT Lima Dua Lima Tiga Tbk,Industrials,LUCY.JK,EQ,ID1000160401
-PT Sigma Energy Compressindo Tbk,Energy,SICO.JK,EQ,ID1000167000
-PT Multi Makmur Lemindo Tbk,Materials,PIPA.JK,EQ,ID1000187909
-PT Kusuma Kemindo Sentosa Tbk,Industrials,KKES.JK,EQ,ID1000170806
-PT Benteng Api Technic Tbk,Materials,BATR.JK,EQ,ID1000204308
-PT Klinko Karya Imaji Tbk,Consumer Staples,KLIN.JK,EQ,ID1000171002
-Dana Investasi Real Estat Simas Plaza Indonesia,Financials,XSPI.JK,EQ,IDX000000600
-PT Rohartindo Nusantara Luas Tbk,Industrials,TOOL.JK,EQ,ID1000171101
-PT Pelayaran Jaya Hidup Baru,Industrials,PJHB.JK,EQ,ID1000212004
-PT Ace Oldfields Tbk,Industrials,KUAS.JK,EQ,ID1000163702
+PT Kokoh Exa Nusantara Tbk,Financials,KOCI.JK,EQ,ID1000198302
 PT Graha Prima Mentari Tbk,Industrials,GRPM.JK,EQ,ID1000191307
+PT Klinko Karya Imaji Tbk,Consumer Staples,KLIN.JK,EQ,ID1000171002
+PT Indo Oil Perkasa Tbk,Materials,OILS.JK,EQ,ID1000162803
+PT Super Bank Indonesia Tbk,Financials,SUPA.JK,EQ,ID1000212608
+PT Rohartindo Nusantara Luas Tbk,Industrials,TOOL.JK,EQ,ID1000171101
+PT Formosa Ingredient Factory Tbk,Consumer Staples,BOBA.JK,EQ,ID1000163900
+PT Sigma Energy Compressindo Tbk,Energy,SICO.JK,EQ,ID1000167000
+PT Soraya Berjaya Indonesia Tbk,Consumer Discretionary,SPRE.JK,EQ,ID1000204605
+PT Lupromax Pelumas Indonesia Tbk,Materials,LMAX.JK,EQ,ID1000194509
 PT Puri Sentul Permai Tbk,Consumer Discretionary,KDTN.JK,EQ,ID1000176506
+PT Citra Buana Prasida Tbk,Financials,CBPE.JK,EQ,ID1000181407
+PT Ace Oldfields Tbk,Industrials,KUAS.JK,EQ,ID1000163702
+PT Kian Santang Muliatama Tbk,Industrials,RGAS.JK,EQ,ID1000199201
+PT Lima Dua Lima Tiga Tbk,Industrials,LUCY.JK,EQ,ID1000160401
+DIRE CIPTADANA PROPERTI RITEL INDONESIA,Financials,XCID.JK,EQ,IDX000000105
+PT Multi Makmur Lemindo Tbk,Materials,PIPA.JK,EQ,ID1000187909
+PT Bersama Mencapai Puncak Tbk,Consumer Discretionary,BAIK.JK,EQ,ID1000270101
+PT Prima Globalindo Logistik Tbk,Industrials,PPGL.JK,EQ,ID1000156508
+PT Agung Menjangan Mas Tbk,Materials,AMMS.JK,EQ,ID1000170301
+PT Lovina Beach Brewery Tbk,Consumer Staples,STRK.JK,EQ,ID1000198708
+PT Pelayaran Jaya Hidup Baru,Industrials,PJHB.JK,EQ,ID1000212004
+PT Wira Global Solusi Tbk,Technology,WGSH.JK,EQ,ID1000164502
+PT Raja Roti Cemerlang Tbk,Consumer Staples,BRRC.JK,EQ,ID1000208606
+PT Abadi Lestari Indonesia Tbk,Health Care,RLCO.JK,EQ,ID1000212509
+PT Kusuma Kemindo Sentosa Tbk,Industrials,KKES.JK,EQ,ID1000170806
+PT Hassana Boga Sejahtera Tbk,Consumer Staples,NAYZ.JK,EQ,ID1000184500
+PT Chemstar Indonesia Tbk,Materials,CHEM.JK,EQ,ID1000168701
+PT Multisarana Intan Eduka Tbk,Financials,MSIE.JK,EQ,ID1000195209
+PT BSA Logistics Indonesia Tbk,Industrials,WBSA.JK,EQ,ID1000213309
+PT Oscar Mitra Sukses Sejahtera Tbk,Consumer Discretionary,OLIV.JK,EQ,ID1000167802

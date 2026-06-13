@@ -1,55 +1,28 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-Coca-Cola Company Shs Unsponsored Brazilian Depositary Receipt Repr 0.166666667 Sh,Consumer Staples,COCA34.SA,EQ,BRCOCABDR002
-Procter & Gamble Co Shs Unsponsored Brazilian Depository Receipt Repr 0.07143 Sh,Consumer Staples,PGCO34.SA,EQ,BRPGCOBDR001
-Philip Morris International Inc. Shs Unsponsored Brazilian Depository Receipt Repr 1 Sh,Consumer Staples,PHMO34.SA,EQ,BRPHMOBDR008
-PepsiCo Inc. Shs Unsponsored Brazilian Depository Receipt Repr 0.0666667 Sh,Consumer Staples,PEPB34.SA,EQ,BRPEPBBDR005
-Anheuser-Busch InBev SA/NV ADR Unsponsored Brazilian Depository Receipt Repr 0.1667 ADR,Consumer Staples,ABUD34.SA,EQ,BRABUDBDR009
-British American Tobacco PLC ADR Unsponsored Brazilian Depositary Receipt Repr 0.2 ADR,Consumer Staples,B1TI34.SA,EQ,BRB1TIBDR005
-Unilever PLC ADR Unsponsored Brazilian Depository Receipt Repr 1 ADR,Consumer Staples,ULEV34.SA,EQ,BRULEVBDR002
-Altria Group Inc. Shs Unsponsored Brazilian Depository Receipt Repr 1 Sh,Consumer Staples,MOOO34.SA,EQ,BRMOOOBDR007
-Monster Beverage Corporation Shs Unsponsored Brazilian Depositary Receipt Repr 1 Sh,Consumer Staples,M1NS34.SA,EQ,BRM1NSBDR004
-Mondelez International Inc. Shs Unsponsored Brazilian Depository Receipt Repr 1/2 Sh,Consumer Staples,MDLZ34.SA,EQ,BRMDLZBDR002
-Colgate-Palmolive Co Shs Unsponsored Brazilian Depositary Receipt Repr 0.142857143 Sh,Consumer Staples,COLG34.SA,EQ,BRCOLGBDR000
-NIKE Inc. Shs B Unsponsored Brazilian Depositary Receipt Repr 0.1 Sh B,Consumer Staples,NIKE34.SA,EQ,BRNIKEBDR006
 Ambev SA,Consumer Staples,ABEV3.SA,EQ,BRABEVACNOR1
-Diageo PLC ADR Unsponsored Brazilian Depository Receipt Repr 0.05555556 ADR,Consumer Staples,DEOP34.SA,EQ,BRDEOPBDR004
-Hershey Co Shs Unsponsored Brazilian Depository Receipt Repr 1/5 Sh,Consumer Staples,HSHY34.SA,EQ,BRHSHYBDR001
-Kimberly-Clark Corp Shs Unsponsored Brazilian Depository Receipt Repr 1 Sh,Consumer Staples,KMBB34.SA,EQ,BRKMBBBDR009
-Estee Lauder Companies Inc Shs A Unsponsored Brazilian Depository Receipt Repr 0.04166667 S,Consumer Staples,ELCI34.SA,EQ,BRELCIBDR007
-Kraft Heinz Company Shs Unsponsored Brazilian Depository Receipt Repr 0.25 Sh,Consumer Staples,KHCB34.SA,EQ,BRKHCBBDR007
-Fomento Economico Mexicano SAB de CV Shs Unsponsored Brazilian Depository Receipt Repr 1 ADR,Consumer Staples,FMXB34.SA,EQ,BRFMXBBDR003
-Constellation Brands Inc. Shs -A- Unsponsored Brazilian Depository Receipt Repr 1/4 Sh -A-,Consumer Staples,STZB34.SA,EQ,BRSTZBBDR006
-Church & Dwight Co. Inc. Shs Unsponsored Brazilian Depository Receipt Repr 1 Sh,Consumer Staples,CHDC34.SA,EQ,BRCHDCBDR000
-Ralph Lauren Corporation Shs A Unsponsored Brazilian Depositary Receipt Repr 1/2 Sh A,Consumer Staples,R1LC34.SA,EQ,BRR1LCBDR007
-Tyson Foods Inc. Shs A Unsponsored Brazilian Depository Receipt Repr 1 Sh,Consumer Staples,TSNF34.SA,EQ,BRTSNFBDR003
-International Flavors & Fragrances Inc. Shs Unsponsored Brazilian Depositary Receipt Repr 1/2 Sh,Consumer Staples,I1FF34.SA,EQ,BRI1FFBDR003
-General Mills Inc. Shs Unsponsored Brazilian Depositary Receipt Repr 1 Sh,Consumer Staples,G1MI34.SA,EQ,BRG1MIBDR005
-lululemon athletica inc. Unsponsored Brazilian Depositary Receipt Repr 0.25 Sh,Consumer Staples,L1UL34.SA,EQ,BRL1ULBDR005
-JBS N.V. Shs Sponsored Brazilian Depositary Receipt Repr 1 Sh A,Consumer Staples,JBSS32.SA,EQ,BRJBSSBDR002
-Hormel Foods Corporation Unsponsored Brazilian Depositary Receipt Repr 1 Sh,Consumer Staples,H1RL34.SA,EQ,BRH1RLBDR007
-McCormick & Company Incorporated Shs Unsponsored Brazilian Depositary Receipt Repr 0.25 Sh,Consumer Staples,M1KC34.SA,EQ,BRM1KCBDR004
-Brown-Forman Corporation Shs B Unsponsored Brazilian Depositary Receipt Repr 1 Sh B,Consumer Staples,B1FC34.SA,EQ,BRB1FCBDR007
-Clorox Co Shs Unsponsored Brazilian Depository Receipt Repr 1/4 Sh,Consumer Staples,CLXC34.SA,EQ,BRCLXCBDR000
-Molson Coors Beverage Company Shs B Unsponsored Brazilian Depositary Receipt Repr 1 Sh,Consumer Staples,M1CB34.SA,EQ,BRM1CBBDR003
-V.F. Corporation Unsponsored Brazilian Depository Receipt Repr 1/2 Sh,Consumer Staples,VFCO34.SA,EQ,BRVFCOBDR001
-Campbell's Company Shs Unsponsored Brazilian Depositary Receipt Repr 1 Sh,Consumer Staples,C1PB34.SA,EQ,BRC1PBBDR007
-Ingredion Inc Shs Unsponsored Brazilian Depositary Receipt Repr 0.125 Sh,Consumer Staples,I2NG34.SA,EQ,BRI2NGBDR003
-Conagra Brands Inc. Unsponsored Brazilian Depositary Receipt Repr 1 Sh,Consumer Staples,C1AG34.SA,EQ,BRC1AGBDR008
-Coca-Cola Femsa SAB de CV ADR Unsponsored Brazilian Depositary Receipt Repr 0.2 ADR,Consumer Staples,C2CA34.SA,EQ,BRC2CABDR005
+Raia Drogasil,Consumer Staples,RADL3.SA,EQ,BRRADLACNOR0
 MBRF Global Foods Company S.A.,Consumer Staples,MBRF3.SA,EQ,BRMBRFACNOR1
-Post Holdings Inc. Shs Unsponsored Brazilian Depositary Receipt Repr 0.1666667 Sh,Consumer Staples,P2OS34.SA,EQ,BRP2OSBDR007
-Natura Cosmeticos SA,Consumer Staples,NATU3.SA,EQ,BRNATUACNOR6
-Under Armour Inc. Shs Unsponsored Brazilian Depositary Receipt Repr 1 Sh,Consumer Staples,U1AI34.SA,EQ,BRU1AIBDR002
-Coty Inc. Shs Unsponsored Brazilian Depository Receipt Repr 1/2 Sh,Consumer Staples,COTY34.SA,EQ,BRCOTYBDR006
-Alpargatas SA,Consumer Staples,ALPA3.SA,EQ,BRALPAACNOR0
+Natura Cosméticos S.A.,Consumer Staples,NATU3.SA,EQ,BRNATUACNOR6
+Assai,Consumer Staples,ASAI3.SA,EQ,BRASAIACNOR0
+Grupo Mateus SA,Consumer Staples,GMAT3.SA,EQ,BRGMATACNOR7
 Alpargatas SA Pfd,Consumer Staples,ALPA4.SA,EQ,BRALPAACNPR7
-M. Dias Branco SA Industria e Comercio de Alimentos,Consumer Staples,MDIA3.SA,EQ,BRMDIAACNOR7
-Simply Good Foods Co Shs Unsponsored Brazilian Depositary Receipt Repr 0.3333333 Sh,Consumer Staples,S2MP34.SA,EQ,BRS2MPBDR004
+Alpargatas SA,Consumer Staples,ALPA3.SA,EQ,BRALPAACNOR0
+SLC Agricola SA,Consumer Staples,SLCE3.SA,EQ,BRSLCEACNOR2
+M Dias Branco,Consumer Staples,MDIA3.SA,EQ,BRMDIAACNOR7
+Sao Martinho,Consumer Staples,SMTO3.SA,EQ,BRSMTOACNOR3
 Vulcabras SA,Consumer Staples,VULC3.SA,EQ,BRVULCACNOR2
-Azzas 2154 SA,Consumer Staples,AZZA3.SA,EQ,BRAZZAACNOR9
-Grendene S.A.,Consumer Staples,GRND3.SA,EQ,BRGRNDACNOR3
-Beyond Meat Inc. Shs Unsponsored Brazilian Depositary Receipt Repr 0.05 Sh,Consumer Staples,B2YN34.SA,EQ,BRB2YNBDR003
-Veste S.A. Estilo,Consumer Staples,VSTE3.SA,EQ,BRVSTEACNOR5
-Cambuci SA,Consumer Staples,CAMB3.SA,EQ,BRCAMBACNOR4
-Bombril S.A.Non-Cum Perp Pfd Registered Shs,Consumer Staples,BOBR4.SA,EQ,BRBOBRACNPR3
-Mundial S.A.- Produtos de Consumo,Consumer Staples,MNDL3.SA,EQ,BRMNDLACNOR4
+Minerva Foods,Consumer Staples,BEEF3.SA,EQ,BRBEEFACNOR6
+Vitru Educação S.A.,Consumer Staples,VTRU3.SA,EQ,BRVTRUACNOR3
+BrasilAgro - Companhia Brasileira de Propriedades Agrícolas,Consumer Staples,AGRO3.SA,EQ,BRAGROACNOR7
+Camil Alimentos SA,Consumer Staples,CAML3.SA,EQ,BRCAMLACNOR3
+Cruzeiro do Sul Educacional S.A.,Consumer Staples,CSED3.SA,EQ,BRCSEDACNOR9
+Ânima Holding S.A.,Consumer Staples,ANIM3.SA,EQ,BRANIMACNOR6
+Oranjebtc S.A. - Educação e Investimento,Consumer Staples,OBTC3.SA,EQ,BROBTCACNOR0
+Terra Santa Propriedades Agrícolas S.A.,Consumer Staples,LAND3.SA,EQ,BRLANDACNOR9
+Grupo Pao de Acucar,Consumer Staples,PCAR3.SA,EQ,BRPCARACNOR3
+Jalles Machado S/A,Consumer Staples,JALL3.SA,EQ,BRJALLACNOR0
+Bombril S.A.,Consumer Staples,BOBR4.SA,EQ,BRBOBRACNPR3
+Minupar Participações S.A.,Consumer Staples,MNPR3.SA,EQ,BRMNPRACNOR5
+Bioma Educação S.A.,Consumer Staples,BIED3.SA,EQ,BRBIEDACNOR2
+Mundial S.A. - Produtos de Consumo,Consumer Staples,MNDL3.SA,EQ,BRMNDLACNOR4
+JOSAPAR Joaquim Oliveira S.A. Participações,Consumer Staples,JOPA4.SA,EQ,BRJOPAACNPR2

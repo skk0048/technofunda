@@ -1,15 +1,65 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-Ford Otosan,Consumer Discretionary,FROTO.IS,EQ,
-Tofas Turk Otomobil,Consumer Discretionary,TOASO.IS,EQ,
-Arcelik,Consumer Discretionary,ARCLK.IS,EQ,
-Vestel Elektronik,Consumer Discretionary,VESTL.IS,EQ,
-Turk Traktor,Consumer Discretionary,TTRAK.IS,EQ,
-Dogus Otomotiv,Consumer Discretionary,DOAS.IS,EQ,
-Mavi Giyim,Consumer Discretionary,MAVI.IS,EQ,
-Brisa Bridgestone,Consumer Discretionary,BRISA.IS,EQ,
-Goodyear Lastikleri,Consumer Discretionary,GOODY.IS,EQ,
-Otokar,Consumer Discretionary,OTKAR.IS,EQ,
-Karsan Otomotiv,Consumer Discretionary,KARSN.IS,EQ,
-Yatas,Consumer Discretionary,YATAS.IS,EQ,
-Vestel Beyaz Esya,Consumer Discretionary,VESBE.IS,EQ,
-Turk Demir Dokum,Consumer Discretionary,DOKTA.IS,EQ,
+Ford Otosan,Consumer Discretionary,FROTO.IS,EQ,TRAOTOSN91H6
+Tofas Turk Otomobil,Consumer Discretionary,TOASO.IS,EQ,TRATOASO91H3
+Arcelik,Consumer Discretionary,ARCLK.IS,EQ,TRAARCLK91H5
+TAB Gida Sanayi ve Ticaret A.S.,Consumer Discretionary,TABGD.IS,EQ,TRETABG00020
+Turk Traktor,Consumer Discretionary,TTRAK.IS,EQ,TRETTRK00010
+Otokar,Consumer Discretionary,OTKAR.IS,EQ,TRAOTKAR91H3
+Dogus Otomotiv,Consumer Discretionary,DOAS.IS,EQ,TREDOTO00013
+Mavi Giyim,Consumer Discretionary,MAVI.IS,EQ,TREMAVI00037
+Gur-Sel Turizm Tasimacilik Ve Servis Ticaret A.S.,Consumer Discretionary,GRSEL.IS,EQ,TREGRSL00025
+Brisa Bridgestone,Consumer Discretionary,BRISA.IS,EQ,TRABRISA91E3
+FUZUL GAYRIMENKUL YATIRIM ORTAKLIGI A.S.,Consumer Discretionary,FZLGY.IS,EQ,TREFUZL00026
+Fenerbahce Futbol A.S.,Consumer Discretionary,FENER.IS,EQ,TREFBAH00019
+Net Holding A.S.,Consumer Discretionary,NTHOL.IS,EQ,TRANTHOL91Q6
+CarrefourSA Carrefour Sabanci Ticaret Merkezi A.S.,Consumer Discretionary,CRFSA.IS,EQ,TRECARF00032
+Anadolu Isuzu Otomotiv Sanayi ve Ticaret A.S. Class C,Consumer Discretionary,ASUZU.IS,EQ,TRAASUZU91H4
+Altin Yunus Cesme Turistik Tesisler A.S.,Consumer Discretionary,AYCES.IS,EQ,TRAAYCES92K1
+Galatasaray Sportif Sinai Veticari Yatirimlar A.S.,Consumer Discretionary,GSRAY.IS,EQ,TRAGSRAY91X9
+EBEBEK MAGAZACILIK ANONIM SIRKETI,Consumer Discretionary,EBEBK.IS,EQ,TREEBEB00025
+Gimat Magazacilik Insaat Sanayi ve Ticaret A.S.,Consumer Discretionary,GMTAS.IS,EQ,TREGMAT00027
+Kustur Kusadasi Turizm Endustrisi A.S.,Consumer Discretionary,KSTUR.IS,EQ,TREKUST00016
+Karsan Otomotiv,Consumer Discretionary,KARSN.IS,EQ,TRAKARSN91H7
+Vestel Beyaz Esya,Consumer Discretionary,VESBE.IS,EQ,TREVEST00017
+Mopas Marketcilik Gida Sanayi Ve Ticaret A.S.,Consumer Discretionary,MOPAS.IS,EQ,TREMPAS00012
+Marmaris Altinyunus Turistik Tesisler A.S,Consumer Discretionary,MAALT.IS,EQ,TRAMAALT91K5
+Adel Kalemcilik Ticaret ve Sanayi A.S.,Consumer Discretionary,ADEL.IS,EQ,TRAADELW91T1
+Turk Demir Dokum,Consumer Discretionary,DOKTA.IS,EQ,TRADOKTS91G7
+Vestel Elektronik,Consumer Discretionary,VESTL.IS,EQ,TRAVESTL91H6
+Cagdas Cam Sanayi ve Ticaret AS,Consumer Discretionary,CGCAM.IS,EQ,TRECGDC00010
+Big Medya Teknoloji A.S.,Consumer Discretionary,BIGTK.IS,EQ,TRADOBUR91D3
+Trabzonspor Sportif Yatirim ve Futbol Isletmeciligi Ticaret A.S.,Consumer Discretionary,TSPOR.IS,EQ,TRETRBZ00016
+Besiktas Futbol Yatirimlari Sanayi ve Ticaret A.S.,Consumer Discretionary,BJKAS.IS,EQ,TRABJKAS91X6
+Koleksiyon Mobilya Sanayi AS,Consumer Discretionary,KLSYN.IS,EQ,TREKLSN00026
+Blume Metal Kimya Anonim Sirketi,Consumer Discretionary,BLUME.IS,EQ,TREMETU00012
+Yatas,Consumer Discretionary,YATAS.IS,EQ,TRAYATAS91B4
+Merit Turizm Yatirim ve Isletmeleri AS,Consumer Discretionary,MERIT.IS,EQ,TREMRTT00016
+Kuvva Gida Ticaret ve Sanayi Yatirimlari A.S.,Consumer Discretionary,KUVVA.IS,EQ,TRASERVE91T0
+Gezinomi Seyahat Turizm Ticaret A.S.,Consumer Discretionary,GZNMI.IS,EQ,TREGZNM00027
+Goodyear Lastikleri,Consumer Discretionary,GOODY.IS,EQ,TRAGOODY91E9
+Hurriyet Gazetecilik ve Matbaacilik A.S.,Consumer Discretionary,HURGZ.IS,EQ,TRAHURGZ91D9
+Ersan Alisveris Hizmetleri ve Gida Sanayi Ticaret A.S.,Consumer Discretionary,KIMMR.IS,EQ,TREERSN00026
+Suwen Tekstil San. Paz. AS,Consumer Discretionary,SUWEN.IS,EQ,TRESUWN00022
+Teknosa Ic ve Dis Ticaret AS,Consumer Discretionary,TKNSA.IS,EQ,TRETKNO00010
+Petrokent Turizm A.S.,Consumer Discretionary,PKENT.IS,EQ,TRAPKENT91K5
+Buyuk Sefler Gida Turizm Tekstil Danismanlik Organizasyon Egitim Sanayi ve Ticaret A.S.,Consumer Discretionary,BIGCH.IS,EQ,TREBIGC00011
+Kutahya Porselen Sanayi A.S.,Consumer Discretionary,KUTPO.IS,EQ,TRAKUTPO91F9
+Kervansaray Yatirim Holding A.S.,Consumer Discretionary,KERVN.IS,EQ,TRACEYLN91B0
+Baydoner Restoranlari A.S.,Consumer Discretionary,BYDNR.IS,EQ,TREBYDN00012
+Doganlar Mobilya Grubu Imalat Sanayi ve Ticaret A.S.,Consumer Discretionary,DGNMO.IS,EQ,TRAKLBMO91C0
+Tek-Art Insaat Ticaret Turizm Sanayi ve Yatirimlar Anonim Sirketi,Consumer Discretionary,TEKTU.IS,EQ,TRATEKTU91K2
+Marti Otel Isletmeleri A.S.,Consumer Discretionary,MARTI.IS,EQ,TRAMMART91K7
+Artemis Hali A. S.,Consumer Discretionary,ARTMS.IS,EQ,TREATMS00014
+Beyaz Filo Oto Kiralama AS,Consumer Discretionary,BEYAZ.IS,EQ,TREBFOK00014
+BREAK MOLA TURIZM YATIRIMLAR A.S.,Consumer Discretionary,MEPET.IS,EQ,TREMEPT00012
+Birko Birlesik Koyunlulular Mensucat ve Ticaret A.S.,Consumer Discretionary,BRKO.IS,EQ,TREBRKO00019
+Zedur Enerji ElekTrik Uretim A.S.,Consumer Discretionary,ZEDUR.IS,EQ,TREUTOP00014
+Flap Kongre Toplanti Hizmetleri Otomotiv ve Turizm A.S.,Consumer Discretionary,FLAP.IS,EQ,TREFLAP00011
+Etiler Gida ve Ticari Yatirimlar Sanayi ve Ticaret A.S.,Consumer Discretionary,ETILR.IS,EQ,TREEIBG00017
+CEO Event Medya AS,Consumer Discretionary,CEOEM.IS,EQ,TRECEOM00011
+Ihlas Gazetecilik A.S.,Consumer Discretionary,IHGZT.IS,EQ,TREIHGZ00019
+Yonga Mobilya SANAYI ve TICARET AS,Consumer Discretionary,YONGA.IS,EQ,TREYONG00018
+Ihlas Yayin Holding A.S.,Consumer Discretionary,IHYAY.IS,EQ,TREIHYA00015
+Ihlas Ev Aletleri Imalat  Sanayi ve Ticaret A.S.,Consumer Discretionary,IHEVA.IS,EQ,TRAIHEVA91H5
+Ulaslar Turizm Energi Tarim Gida ve Insaat Yatirimlari A.S.,Consumer Discretionary,ULAS.IS,EQ,TREULAS00014
+Ata Turizm Isletmecilik Tasimacilik Madencilik Kuyumculu,Consumer Discretionary,ATATR.IS,EQ,TREATTR00011

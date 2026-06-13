@@ -1,13 +1,124 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-Koc Holding,Industrials,KCHOL.IS,EQ,
-Aselsan,Industrials,ASELS.IS,EQ,
-Sabanci Holding,Industrials,SAHOL.IS,EQ,
-Turk Hava Yollari (THY),Industrials,THYAO.IS,EQ,
-Pegasus Hava Tasimaciligi,Industrials,PGSUS.IS,EQ,
-Enka Insaat,Industrials,ENKAI.IS,EQ,
-Dogan Holding,Industrials,DOHOL.IS,EQ,
-Tav Havalimanlari,Industrials,TAVHL.IS,EQ,
-Tekfen Holding,Industrials,TKFEN.IS,EQ,
-Alarko Holding,Industrials,ALARK.IS,EQ,
-Tureks Turizm,Industrials,TUREX.IS,EQ,
-Astor Enerji,Industrials,ASTOR.IS,EQ,
+Aselsan,Industrials,ASELS.IS,EQ,TRAASELS91H2
+Enka Insaat,Industrials,ENKAI.IS,EQ,TREENKA00011
+Koc Holding,Industrials,KCHOL.IS,EQ,TRAKCHOL91Q8
+Turk Hava Yollari (THY),Industrials,THYAO.IS,EQ,TRATHYAO91M5
+Astor Enerji,Industrials,ASTOR.IS,EQ,TREASTR00013
+Sabanci Holding,Industrials,SAHOL.IS,EQ,TRASAHOL91Q5
+OZATA DENIZCILIK SANAYI VE TICARET AS,Industrials,OZATD.IS,EQ,TREOZAT00023
+Tav Havalimanlari,Industrials,TAVHL.IS,EQ,TRETAVH00018
+Pegasus Hava Tasimaciligi,Industrials,PGSUS.IS,EQ,TREPEGS00016
+Pasifik Eurasia Lojistik dis Ticaret AS,Industrials,PASEU.IS,EQ,TREPASF00024
+Ral Yatirim Holding A.S.,Industrials,RALYH.IS,EQ,TRABISAS91B7
+Selcuk Ecza Deposu Ticaret ve Sanayi A.S.,Industrials,SELEC.IS,EQ,TRESLEC00014
+Lydia Holding A.S.,Industrials,LYDHO.IS,EQ,TRAMIPAZ91J8
+Europower Enerji ve Otomasyon Teknolojileri Sanayi Ticaret AS,Industrials,EUPWR.IS,EQ,TREEUPW00019
+Gulermak Agir Sanayi Insaat Ve Taahhut A.S.,Industrials,GLRMK.IS,EQ,TREGLRM00010
+Tekfen Holding,Industrials,TKFEN.IS,EQ,TRETKHO00012
+Reysas Tasimacilik ve Lojistik Ticaret Anonim Sirketi,Industrials,RYSAS.IS,EQ,TREREYS00015
+Alarko Holding,Industrials,ALARK.IS,EQ,TRAALARK91Q0
+Akfen insaat Turizm ve Ticaret AS,Industrials,AKFIS.IS,EQ,TREAKFI00018
+Celebi Hava Servisi A.S.,Industrials,CLEBI.IS,EQ,TRACLEBI91M5
+Dogan Holding,Industrials,DOHOL.IS,EQ,TRADOHOL91Q8
+Grainturk Holding A.S.,Industrials,GRTHO.IS,EQ,TREGRNT00029
+Anel Elektrik Proje Taahhut ve Ticaret A.S.,Industrials,ANELE.IS,EQ,TREAEPT00017
+Sarkuysan Elektrolitik Bakir Sanayi ve Ticaret A.S.,Industrials,SARKY.IS,EQ,TRASARKY91G6
+Ulusoy Elektrik Imalat Taahhut ve Ticaret AS,Industrials,ULUSE.IS,EQ,TREULET00014
+Kirac Galvaniz Telekominikasyon Metal Makine Insaat Elektrik Sanayi Ve Ticaret AS,Industrials,TCKRC.IS,EQ,TREKIRC00019
+Kalyon Gunes Teknolojileri Uretim Anonim Sirketi,Industrials,KLYPV.IS,EQ,TREKLYN00024
+BMS Birlesik Metal Sanayi ve Ticaret AS Class B,Industrials,BMSTL.IS,EQ,TREBMSM00017
+Bin Ulasim Ve Akilli Sehir Teknolojileri AS,Industrials,BINBN.IS,EQ,TREBINU00019
+Ege Endustri ve Ticaret A.S.,Industrials,EGEEN.IS,EQ,TRAEGEEN91H5
+Bosch Fren Sistemleri Sanayi ve Ticaret A.S.,Industrials,BFREN.IS,EQ,TRABFREN91H5
+Ihlas Haber Ajansi SA,Industrials,IHAAS.IS,EQ,TREIHAS00025
+Gersan Elektrik Ticaret ve Sanayi A.S.,Industrials,GEREL.IS,EQ,TREGREL00017
+Kaleseramik Canakkale Kalebodur Seramik A.S.,Industrials,KLSER.IS,EQ,TREKALE00049
+Mobitel Iletisim Nizmetleri Sanayi ve Ticaret A.S,Industrials,MOBTL.IS,EQ,TREMBTL00025
+Kuzey Boru A.S.,Industrials,KBORU.IS,EQ,TREKZYB00011
+Isik Plastik Sanayi VE Dis Ticaret Pazarlama AS,Industrials,ISKPL.IS,EQ,TREISKP00027
+Hareket Proje Tasimaciligi ve Yuk Muhendisligi AS,Industrials,HRKET.IS,EQ,TREHRKT00015
+Hat-San Gemi Insaa Bakim Onarim Deniz Nakliyat Sanayi ve Ticaret A.S.,Industrials,HATSN.IS,EQ,TREHTSN00017
+Jantsa Jant Sanayi ve Ticaret AS,Industrials,JANTS.IS,EQ,TREJANT00011
+Bera Holding AS,Industrials,BERA.IS,EQ,TREKMBH00014
+Izmir Firca Sanayi ve Ticaret AS,Industrials,IZFAS.IS,EQ,TREIFIR00016
+Tumosan Motor Ve Traktor Sanayi AS,Industrials,TMSN.IS,EQ,TRETUMO00011
+Kimteks Poliuretan Sanayi ve Ticaret AS,Industrials,KMPUR.IS,EQ,TREKMPU00017
+Ingram Micro Bilisim Sistemleri A.S.,Industrials,INGRM.IS,EQ,TREARMD00010
+Europen Endustri Insaat Sanayi ve Ticaret A.S.,Industrials,EUREN.IS,EQ,TREEURN00030
+Gipta Ofis Kirtasiye ve Promosyon Urunleri Imalat Sanayi A.S.,Industrials,GIPTA.IS,EQ,TREGPTA00038
+Manas Enerji Yonetimi Sanayi ve Ticaret A.S.,Industrials,MANAS.IS,EQ,TREMANS00025
+Sumer Varlik Yonetim A.S.,Industrials,SMRVA.IS,EQ,TRESUVY00013
+Orge Enerji Elektrik Taahhut AS,Industrials,ORGE.IS,EQ,TREORGE00011
+Tureks Turizm,Industrials,TUREX.IS,EQ,TRETURX00045
+Turk Prysmian Kablo ve Sistemleri A.S.,Industrials,PRKAB.IS,EQ,TRASMENS91H3
+Indeks Bilgisayar Sistemleri Muhendislik Sanayi ve Ticaret A.S,Industrials,INDES.IS,EQ,TREINDX00019
+Ekos Teknoloji ve Elektrik AS,Industrials,EKOS.IS,EQ,TREEKOS00011
+Alarko Carrier Sanayi ve Ticaret A.S.,Industrials,ALCAR.IS,EQ,TRAALRSA91H2
+E-Data Teknoloji Pazarlama AS,Industrials,EDATA.IS,EQ,TREEDTA00021
+Parsan Makina Parcalari Sanayii Anonim Sirketi,Industrials,PARSN.IS,EQ,TRAPARSN91H6
+Burcelik Vana Sanayi ve Ticaret A.S.,Industrials,BURVA.IS,EQ,TREBRVN00018
+Ditas Dogan Yedek Parca Imalat ve Teknik A.S.,Industrials,DITAS.IS,EQ,TRADITAS91H8
+Yigit Aku Malzemeleri Nakliyat Turizm Insaat Sanayi Ve Ticaret,Industrials,YIGIT.IS,EQ,TREYIGT00025
+Penta Teknoloji Urunleri Dagitim Ticaret AS,Industrials,PENTA.IS,EQ,TREPNTA00042
+Katmerciler Arac Ustu Ekipman Sanayi ve Ticaret A.S.,Industrials,KATMR.IS,EQ,TREKTMR00015
+GSD Holding A.S.,Industrials,GSDHO.IS,EQ,TRAGSDHO91Q9
+Horoz Lojistik Kargo Hizmetleri Ve Ticaret AS,Industrials,HOROZ.IS,EQ,TREHROZ00022
+Naturel Yenilenebilir Enerji Ticaret A.S.,Industrials,NATEN.IS,EQ,TRENATU00026
+PLATFORM TURIZM TASIMACILIK GIDA INSAAT TEMIZLIK HIZMETLERI SANAYI VE TICARET A.S.,Industrials,PLTUR.IS,EQ,TREPLTU00028
+Aztek Teknoloji Urunleri Ticaret A.S.,Industrials,AZTEK.IS,EQ,TREAZTK00021
+Ayes Celik Hasir ve Cit Sanayi AS,Industrials,AYES.IS,EQ,TREAYES00011
+Safkar Ege Cooling Air Conditioning Cold Air Tes.Ihr.Ith.A.S,Industrials,SAFKR.IS,EQ,TRESFEK00027
+Ozyasar Tel ve Galvanizleme Sanayi Anonim Sirketi,Industrials,OZYSR.IS,EQ,TREOZYS00025
+Gentas Dekoratif Yuzeyler Sanayi ve Ticaret A.S.,Industrials,GENTS.IS,EQ,TRAGENTS91C4
+Intema Insaat ve Tesisat Malzemeleri Yatirim ve Pazarlama A.S.,Industrials,INTEM.IS,EQ,TRAINTEM91I0
+BULBULOGLU VINC SANAYI VE TICARET A.S.,Industrials,BVSAN.IS,EQ,TREBVSB00011
+DCT Trading Dis Ticaret Anonim Sirketi,Industrials,DCTTR.IS,EQ,TREDCTT00025
+Say Yenilenebilir Enerji Ekipmanlari Sanayi ve Ticaret A.S.,Industrials,SAYAS.IS,EQ,TRESAYR00013
+Alves Kablo Sanayi ve Ticaret A. S.,Industrials,ALVES.IS,EQ,TREALVS00012
+Federal-Mogul Izmit Piston ve Pim Uretim Tesisleri A.S.,Industrials,FMIZP.IS,EQ,TRAISTMP91H7
+Mackolik Internet Hizmetleri Ticaret AS,Industrials,MACKO.IS,EQ,TREMACK00017
+PC Iletisim ve Medya Hizmetleri Sanayi Ticaret AS,Industrials,PCILT.IS,EQ,TREPCIL00029
+Seranit Granit Seramik Sanayi ve Ticaret A.S.,Industrials,SERNT.IS,EQ,TRESRNT00016
+Prizma Pres Matbaacilik Yayincilik Sanayi ve Ticaret AS,Industrials,PRZMA.IS,EQ,TREPRZM00011
+Usak Seramik Sanayii A.S.,Industrials,USAK.IS,EQ,TRAUSAKW91F6
+Datagate Bilgisayar Malzemeleri Ticaret A.S.,Industrials,DGATE.IS,EQ,TREDGTE00010
+Gate Group Teknoloji Medya Ve Siber Guvenlik Hizmetleri A.S.,Industrials,GATEG.IS,EQ,TRESNKR00023
+Emek Elektrik Endustrisi A.S.,Industrials,EMKEL.IS,EQ,TRAEMKEL91L6
+Skyalp Finansal Teknolojiler ve Danismanlik A.S,Industrials,SKYLP.IS,EQ,TREMCTD00012
+Plastikkart Akilli Kart Iletisim Sistemleri Sanayi ve Ticaret A.S.,Industrials,PKART.IS,EQ,TREPKRT00018
+IMAS Makina Sanayi Anonim Sirketi,Industrials,IMASM.IS,EQ,TREIMAS00017
+Arena Bilgisayar AS,Industrials,ARENA.IS,EQ,TRAARENA91U1
+Makina Takim Endustrisi A.S.,Industrials,MAKTK.IS,EQ,TRAMAKTK91H2
+TGS Dis Ticaret AS,Industrials,TGSAS.IS,EQ,TRETGSD00010
+Klimasan Klima Sanayi ve Ticaret A.S.,Industrials,KLMSN.IS,EQ,TRAKLMSN91H5
+Sanica Isi Sanayi A.S.,Industrials,SNICA.IS,EQ,TRESANK00011
+Ege Seramik Sanayi ve Ticaret A.S.,Industrials,EGSER.IS,EQ,TRAEGSER91F0
+Trabzon Liman Isletmeciligi AS,Industrials,TLMAN.IS,EQ,TRETLMN00020
+Vanet Gida Sanayi Ic ve Dis Ticaret AS,Industrials,VANGD.IS,EQ,TREVNGS00015
+GSD Denizcilik Gayrimenkul Insaat Sanayi ve Ticaret AS,Industrials,GSDDE.IS,EQ,TRARANTL91P6
+Demisas Dokum Emaye Mamulleri Sanayi A.S.,Industrials,DMSAS.IS,EQ,TRADMSAS91E9
+Yesil Yapi Endustrisi A.S.,Industrials,YYAPI.IS,EQ,TRABROVA91S5
+Yukselen Celik AS,Industrials,YKSLN.IS,EQ,TREYUKC00028
+BMS Celik Hasir Sanayi Ve Ticaret A.S.,Industrials,BMSCH.IS,EQ,TREBMSC00018
+Rainbow Polikarbonat Sanayi Ticaret Anonim Sirketi,Industrials,RNPOL.IS,EQ,TRERNPL00027
+Marka Yatirim Holding A.S.,Industrials,MARKA.IS,EQ,TREIFTY00019
+Nigbas Nigde Beton Sanayi ve Ticarte A.S.,Industrials,NIBAS.IS,EQ,TRENNBS00013
+HIDROPAR HAREKET KONTROL TEKNOLOJILERI MERKEZI SANAYI VE TICARET ANONIM SIRKETI,Industrials,HKTM.IS,EQ,TREHDRP00018
+Arzum Elektrikli Ev Aletleri Sanayi ve Ticaret AS,Industrials,ARZUM.IS,EQ,TREAZEV00020
+Egeplast Ege Plastik Ticaret ve Sanayi A.S.,Industrials,EPLAS.IS,EQ,TRAEPLAS91E5
+Yayla Enerji Uretim Turizm ve Insaat Ticaret AS,Industrials,YAYLA.IS,EQ,TREYAYL00014
+Cosmos Yatirim Holding A.S.,Industrials,COSMO.IS,EQ,TRABUMYO91Q2
+Despec Bilgisayar Pazarlama ve Ticaret A.S.,Industrials,DESPC.IS,EQ,TREDSPC00017
+San-El Muhendislik Elektrik Taahhut Sanayi ve Ticaret A.S.,Industrials,SANEL.IS,EQ,TRESNEL00011
+Silverline Endustri ve Ticaret A.S.,Industrials,SILVR.IS,EQ,TRESLVR00016
+Balatacilar Balatacilik Sanayi ve Ticaret AS,Industrials,BALAT.IS,EQ,TREBLTA00012
+MMC Sanayi ve Ticari Yatirimlar A.S,Industrials,MMCAS.IS,EQ,TREGNTR00011
+Saray Matbaacilik Kagitcilik Kirtasiyecilik Ticaret Ve Sanayi A.S.,Industrials,SAMAT.IS,EQ,TRESRAY00013
+Akdeniz Yatirim Holding A.S.,Industrials,AKYHO.IS,EQ,TREAKGH00018
+Mazhar Zorlu Holding Anonim Sirketi,Industrials,MZHLD.IS,EQ,TRAMZHLD94Q2
+Casa Emtia Petrol Kimyevi ve Turevleri Sanayi Ticaret AS,Industrials,CASA.IS,EQ,TREKRSS00014
+Meka Global Makine Imalat Sanayi Ve Ticaret A.S.,Industrials,MEKAG.IS,EQ,TREMEKA00013
+DOF Robotik Sanayi Anonim Sirketi,Industrials,DOFRB.IS,EQ,TREDFRB00020
+Ucay Muhendislik Enerji ve Iklimlendirme Teknolojileri,Industrials,UCAYM.IS,EQ,TREUCYM00024
+Formul Plastik Ve Metal Sanayi AS,Industrials,FRMPL.IS,EQ,TREFRML00012
+Metropal Kurumsal Hizmetler A.S.,Industrials,MCARD.IS,EQ,TREMTRP00014

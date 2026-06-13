@@ -105,17 +105,17 @@ COUNTRY_CONFIG = {
         "index_fallback": "^GSPC",
 
         "sectors": {
-            "Technology":       {"yahoo": "XLK",  "csv": None},
-            "Healthcare":       {"yahoo": "XLV",  "csv": None},
-            "Financials":       {"yahoo": "XLF",  "csv": None},
-            "ConsumerDisc":     {"yahoo": "XLY",  "csv": None},
-            "Consumer Staples": {"yahoo": "XLP",  "csv": None},
-            "Energy":           {"yahoo": "XLE",  "csv": None},
-            "Industrials":      {"yahoo": "XLI",  "csv": None},
-            "Materials":        {"yahoo": "XLB",  "csv": None},
-            "Utilities":        {"yahoo": "XLU",  "csv": None},
-            "RealEstate":       {"yahoo": "XLRE", "csv": None},
-            "CommServices":     {"yahoo": "XLC",  "csv": None},
+            "Technology":             {"yahoo": "XLK",  "csv": "us_sector_technology.csv"},
+            "Healthcare":             {"yahoo": "XLV",  "csv": "us_sector_healthcare.csv"},
+            "Financials":             {"yahoo": "XLF",  "csv": "us_sector_financials.csv"},
+            "Consumer Discretionary": {"yahoo": "XLY",  "csv": "us_sector_consumer_discretionary.csv"},
+            "Consumer Staples":       {"yahoo": "XLP",  "csv": "us_sector_consumer_staples.csv"},
+            "Energy":                 {"yahoo": "XLE",  "csv": "us_sector_energy.csv"},
+            "Industrials":            {"yahoo": "XLI",  "csv": "us_sector_industrials.csv"},
+            "Materials":              {"yahoo": "XLB",  "csv": "us_sector_materials.csv"},
+            "Utilities":              {"yahoo": "XLU",  "csv": "us_sector_utilities.csv"},
+            "Real Estate":            {"yahoo": "XLRE", "csv": "us_sector_real_estate.csv"},
+            "Communication Services": {"yahoo": "XLC",  "csv": "us_sector_communication_services.csv"},
         },
 
         "breadth_indices": {

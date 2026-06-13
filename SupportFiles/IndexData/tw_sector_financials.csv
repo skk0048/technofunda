@@ -1,15 +1,80 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-Cathay Financial,Financials,2882.TW,EQ,
-Fubon Financial,Financials,2881.TW,EQ,
-Mega Financial,Financials,2886.TW,EQ,
-CTBC Financial,Financials,2891.TW,EQ,
-E.SUN Financial,Financials,2884.TW,EQ,
-First Financial Holding,Financials,2892.TW,EQ,
-Hua Nan Financial,Financials,2880.TW,EQ,
-Taishin Financial,Financials,2887.TW,EQ,
-SinoPac Financial,Financials,2890.TW,EQ,
-Yuanta Financial,Financials,2885.TW,EQ,
-Shin Kong Financial,Financials,2888.TW,EQ,
-Chang Hwa Bank,Financials,2801.TW,EQ,
-Chailease Holding,Financials,5871.TW,EQ,
-China Development Financial Holding,Financials,2883.TW,EQ,
+Fubon Financial,Financials,2881.TW,EQ,TW0002881000
+Cathay Financial,Financials,2882.TW,EQ,TW0002882008
+CTBC Financial,Financials,2891.TW,EQ,TW0002891009
+Yuanta Financial,Financials,2885.TW,EQ,TW0002885001
+Taishin Financial,Financials,2887.TW,EQ,TW0002887007
+Mega Financial,Financials,2886.TW,EQ,TW0002886009
+E.SUN Financial,Financials,2884.TW,EQ,TW0002884004
+Hua Nan Financial,Financials,2880.TW,EQ,TW0002880002
+SinoPac Financial,Financials,2890.TW,EQ,TW0002890001
+China Development Financial Holding,Financials,2883.TW,EQ,TW0002883006
+First Financial Holding,Financials,2892.TW,EQ,TW0002892007
+Taiwan Cooperative Financial Holding Co.  Ltd.,Financials,5880.TW,EQ,TW0005880009
+Chang Hwa Bank,Financials,2801.TW,EQ,TW0002801008
+The Shanghai Commercial & Savings Bank  Ltd.,Financials,5876.TW,EQ,TW0005876007
+Taiwan Business Bank  Ltd.,Financials,2834.TW,EQ,TW0002834009
+Taichung Commercial Bank Co.  Ltd.,Financials,2812.TW,EQ,TW0002812005
+Union Bank of Taiwan,Financials,2838.TW,EQ,TW0002838000
+Capital Securities Corporation,Financials,6005.TW,EQ,TW0006005002
+President Securities Corporation,Financials,2855.TW,EQ,TW0002855004
+Far Eastern International Bank Ltd.,Financials,2845.TW,EQ,TW0002845005
+IBF Financial Holdings Co.  Ltd.,Financials,2889.TW,EQ,TW0002889003
+Mercuries Life Insurance Company Ltd.,Financials,2867.TW,EQ,TW0002867009
+Taiwan Acceptance Corporation,Financials,9941.TW,EQ,TW0009941005
+Shinkong Insurance Co.  Ltd.,Financials,2850.TW,EQ,TW0002850005
+Hotai Finance Co.  Ltd.,Financials,6592.TW,EQ,TW0006592009
+Yuanta Futures Co.  Ltd.,Financials,6023.TWO,EQ,TW0006023005
+Central Reinsurance Corporation,Financials,2851.TW,EQ,TW0002851003
+O-Bank Co.  Ltd.,Financials,2897.TW,EQ,TW0002897006
+EnTie Commercial Bank Co.  Ltd.,Financials,2849.TW,EQ,TW0002849007
+China Bills Finance Corporation,Financials,2820.TW,EQ,TW0002820008
+Millerful No 1 Real Estate Investment Trust,Financials,01010T.TW,EQ,TW00001010T9
+Bank of Kaohsiung Co.  Ltd.,Financials,2836.TW,EQ,TW0002836004
+Concord International Securities Co.  Ltd,Financials,5864.TWO,EQ,TW0005864003
+Farglory Life Insurance Co.  Ltd.,Financials,5859.TWO,EQ,TW0005859003
+Cathay No. 1 Real Estate Investment Trust,Financials,01002T.TW,EQ,TW00001002T6
+Concord Securities Co.  Ltd.,Financials,6016.TWO,EQ,TW0006016009
+Mercuries & Associates Holding  Ltd.,Financials,2905.TW,EQ,TW0002905007
+Capital Futures Corporation,Financials,6024.TW,EQ,TW0006024003
+Taiwan Fire & Marine Insurance Co.  Ltd.,Financials,2832.TW,EQ,TW0002832003
+Diamond Biofund Inc.,Financials,6901.TW,EQ,TW0006901002
+Good Finance Securities Co.  Ltd.,Financials,6021.TWO,EQ,TW0006021009
+China Man-Made Fiber Corporation,Financials,1718.TW,EQ,TW0001718005
+Cathay No. 2 Real Estate Investment Trust,Financials,01007T.TW,EQ,TW00001007T5
+The First Insurance Co.  Ltd.,Financials,2852.TW,EQ,TW0002852001
+Fubon No.2 Real Estate Investment Trust,Financials,01004T.TW,EQ,TW00001004T2
+Union Insurance Co.  Ltd.,Financials,2816.TW,EQ,TW0002816006
+Horizon Securities Co.  Ltd.,Financials,6015.TWO,EQ,TW0006015001
+Infinite Finance Co.  Ltd.,Financials,6958.TW,EQ,TW0006958002
+Grand Fortune Securities Co. Ltd,Financials,6026.TWO,EQ,TW0006026008
+Fubon No.1 Real Estate Investment Trust,Financials,01001T.TW,EQ,TW00001001T8
+Tachan Securities Co.  Ltd.,Financials,6020.TWO,EQ,TW0006020001
+Allmind Holdings Corporation,Financials,2718.TWO,EQ,TW0002718004
+Kunyue Development Co.  Ltd.,Financials,5206.TWO,EQ,TW0005206007
+We&Win Diversification Co.  Ltd.,Financials,4113.TWO,EQ,TW0004113006
+TAIPEI STAR BANK,Financials,5863.TWO,EQ,TW0005863005
+Realy Development & Construction Corp.,Financials,2596.TWO,EQ,TW0002596004
+SanDi Properties Co. Ltd.,Financials,1438.TW,EQ,TW0001438000
+Global View Co.  Ltd.,Financials,3040.TW,EQ,TW0003040002
+Golden Insurance Brokers Co.  Ltd.,Financials,6028.TWO,EQ,TW0006028004
+Reliance Securities Co.  Ltd.,Financials,6027.TWO,EQ,TW0006027006
+TRK Corporation,Financials,1432.TW,EQ,TW0001432003
+Sheng Yi Development Co. Ltd,Financials,5455.TWO,EQ,TW0005455000
+O-Bank No.1 Real Estate Investment Trust,Financials,01009T.TW,EQ,TW00001009T1
+Eslite Spectrum Corporation,Financials,2926.TWO,EQ,TW0002926003
+Full Wang International Development Co. Ltd.,Financials,6219.TWO,EQ,TW0006219009
+Better Life Group Co.  Ltd.,Financials,1805.TW,EQ,TW0001805000
+I-HWA Industrial Co.  Ltd.,Financials,1456.TW,EQ,TW0001456002
+Ta Jiang Co.  Ltd.,Financials,1453.TW,EQ,TW0001453009
+Taiming Assurance Broker Co.  Ltd.,Financials,5878.TWO,EQ,TW0005878003
+KINGLAND PROPERTY CORPORATION LTD,Financials,6264.TWO,EQ,TW0006264005
+Sung Gang Corp.Limited,Financials,6240.TWO,EQ,TW0006240005
+EUI,Financials,7738.TWO,EQ,TW0007738007
+Fubon Elite Fund Units,Financials,T1010Y.TWO,EQ,TW000T1010Y5
+Fabulous Global Holding Co.  Ltd.,Financials,7798.TWO,EQ,TW0007798001
+Hotai Leasing Co. Ltd.,Financials,7855.TWO,EQ,TW0007855009
+ABICO Asia,Financials,7777.TWO,EQ,TW0007777005
+Beiley Biofund  Inc.,Financials,7882.TWO,EQ,TW0007882003
+Easycard Corporation,Financials,6035.TWO,EQ,TW0006035009
+Chailease Holding Company Limited,Financials,5871.TW,EQ,

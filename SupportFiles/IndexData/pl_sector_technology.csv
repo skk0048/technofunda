@@ -1,7 +1,187 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-Allegro,Technology,ALE.WA,EQ,
-CD Projekt,Technology,CDR.WA,EQ,
-Asseco Poland,Technology,ACP.WA,EQ,
-Text SA,Technology,TXT.WA,EQ,
-Ten Square Games,Technology,TEN.WA,EQ,
-Comarch,Technology,CMR.WA,EQ,
+CD Projekt,Technology,CDR.WA,EQ,PLOPTTC00011
+Asseco Poland,Technology,ACP.WA,EQ,PLSOFTB00016
+Asseco South Eastern Europe S.A.,Technology,ASE.WA,EQ,PLASSEE00014
+Asseco Business Solutions S.A.,Technology,ABS.WA,EQ,PLABS0000018
+Cyber_Folks S.A.,Technology,CBF.WA,EQ,PLR220000018
+Vercom S.A.,Technology,VRC.WA,EQ,PLVRCM000016
+AB S.A.,Technology,ABE.WA,EQ,PLAB00000019
+Comp S.A.,Technology,CMP.WA,EQ,PLCMP0000017
+Sygnity S.A.,Technology,SGN.WA,EQ,PLCMPLD00016
+Shoper S.A.,Technology,SHO.WA,EQ,PLSHPR000021
+Text SA,Technology,TXT.WA,EQ,PLLVTSF00010
+DataWalk S.A.,Technology,DAT.WA,EQ,PLPILAB00012
+Ten Square Games,Technology,TEN.WA,EQ,PLTSQGM00016
+SCANWAY,Technology,SCW.WA,EQ,PLSCWAY00018
+VIGO Photonics S.A.,Technology,VGO.WA,EQ,PLVIGOS00015
+Action S.A.,Technology,ACT.WA,EQ,PLACTIN00018
+Spyrosoft Spólka Akcyjna,Technology,SPR.WA,EQ,PLSPRSF00011
+Cloud Technologies S.A.,Technology,CLD.WA,EQ,PLCLDTC00019
+Grodno Spólka Akcyjna,Technology,GRN.WA,EQ,PLGRODN00015
+Columbus Energy S.A.,Technology,CLC.WA,EQ,PLSTIGR00012
+Xplus S.A.,Technology,XPL.WA,EQ,PLXPLUS00013
+Ailleron S.A.,Technology,ALL.WA,EQ,PLWNDMB00010
+Introl S.A.,Technology,INL.WA,EQ,PLINTRL00013
+Sonel S.A.,Technology,SON.WA,EQ,PLSONEL00011
+Aplisens S.A.,Technology,APN.WA,EQ,PLAPLS000016
+NOCTILUCA,Technology,NCL.WA,EQ,PLNCTLC00018
+XTPL S.A.,Technology,XTP.WA,EQ,PLXTPL000018
+NTT System S.A.,Technology,NTT.WA,EQ,PLNTSYS00013
+Passus S.A.,Technology,PAS.WA,EQ,PLPSSUS00018
+Ifirma SA,Technology,IFI.WA,EQ,PLPWRMD00011
+Yanosik S.A.,Technology,YAN.WA,EQ,PLNEPTS00011
+LSI Software S.A.,Technology,LSI.WA,EQ,PLLSSFT00016
+Atende S.A.,Technology,ATD.WA,EQ,PLATMSI00016
+QNATECHNO,Technology,QNA.WA,EQ,PLQNTHL00017
+ML System S.A.,Technology,MLS.WA,EQ,PLMLSTM00015
+Fabrity S.A.,Technology,FAB.WA,EQ,PLK2ITR00010
+Komputronik S.A.,Technology,KOM.WA,EQ,PLKMPTR00012
+Sunex S.A.,Technology,SNX.WA,EQ,PLSUNEX00013
+Talex S.A.,Technology,TLX.WA,EQ,PLTALEX00017
+OPTeam Spólka Akcyjna,Technology,OPM.WA,EQ,PLOPTEM00012
+yarrl S.A.,Technology,YRL.WA,EQ,PLUNMST00014
+PZ Cormay S.A.,Technology,CRM.WA,EQ,PLCMRAY00029
+Quantum software S.A.,Technology,QNT.WA,EQ,PLQNTUM00018
+Betacom S.A.,Technology,BCM.WA,EQ,PLBTCOM00016
+Starhedge S.A.,Technology,SHG.WA,EQ,PLHRDEX00021
+ManyDev Studio SE,Technology,MAN.WA,EQ,PLADDRG00015
+Maxcom S.A.,Technology,MXC.WA,EQ,PLMXCMS00016
+WOODPCKR,Technology,WPR.WA,EQ,PLWDPCK00017
+TenderHut S.A.,Technology,THG.WA,EQ,PLTNDRH00012
+Nexity Global S.A.,Technology,NXG.WA,EQ,PLWDMCP00013
+Regnon S.A.,Technology,REG.WA,EQ,PLPRNTC00017
+LC Spólka Akcyjna,Technology,APL.WA,EQ,PLAMPLI00019
+Satis Group S.A.,Technology,STS.WA,EQ,PLADVPL00029
+T-Bull SA,Technology,TBL.WA,EQ,PLTBULL00024
+EUVIC S.A.,Technology,EUV.WA,EQ,PLEONTW00016
+Software Mansion SA Series A-E,Technology,SWM.WA,EQ,PLSFTMN00015
+Proacta S.A.,Technology,PAC.WA,EQ,PLBTEVL00019
+BTCS S.A.,Technology,BTF.WA,EQ,PLVKMTK00015
+Saule Technologies Spolka Akcyjna,Technology,SLT.WA,EQ,PLBLMPI00017
+Polski Holding Rozwoju S.A.,Technology,PRH.WA,EQ,PLRDDVS00016
+Stohid Technology SA,Technology,SKY.WA,EQ,PLYTFRC00015
+President Studio S.A.,Technology,PRE.WA,EQ,PLPRTSD00022
+Tech Robotics S.A.,Technology,TCR.WA,EQ,PLNGTDV00016
+APN Promise SA,Technology,PRO.WA,EQ,PLAPNPS00017
+S4E S.A.,Technology,S4E.WA,EQ,PLS4E0000015
+IDH DEVELOPMENT S.A.,Technology,IDH.WA,EQ,PLICI0000010
+Forever Entertainment SA,Technology,FOR.WA,EQ,PLFRENT00014
+MakoLab S.A.,Technology,MLB.WA,EQ,PLMKLAB00023
+MedApp SA,Technology,MDA.WA,EQ,PLYLWHT00012
+Legimi Spolka Akcyjna,Technology,LEG.WA,EQ,PLLGIMI00029
+Nestmedic SA,Technology,NST.WA,EQ,PLNSTMD00010
+SDS Optic Spolka Akcyjna,Technology,SDS.WA,EQ,PLSDSOP00013
+SoftBlue SA,Technology,SBE.WA,EQ,PLSFTBL00012
+Suntech S.A.,Technology,SUN.WA,EQ,PLSNTCH00012
+Optigis S.A.,Technology,OPI.WA,EQ,PLIMAGS00013
+Milisystem S.A.,Technology,MLM.WA,EQ,PL2INTC00018
+ICE CODE GAMES SA,Technology,ICG.WA,EQ,PLDGTAV00013
+InventionMed SA,Technology,INM.WA,EQ,PLCDE0000010
+Yoshi Innovation Spolka Akcyjna,Technology,YOS.WA,EQ,PLACREO00019
+Planet B2B SA,Technology,P2B.WA,EQ,PLPRKLS00016
+Munar SA,Technology,MUN.WA,EQ,PLSITE000013
+Starward Industries SA,Technology,STA.WA,EQ,PLSTRWI00019
+ONE2TRIBE S.A.,Technology,O2T.WA,EQ,PLJWASA00013
+EDITEL Polska S.A.,Technology,EDL.WA,EQ,PLEDSON00018
+Pointpack SA,Technology,PNT.WA,EQ,PLPNTPK00014
+Ovid Works SA Class A,Technology,OVI.WA,EQ,PLOVIDW00014
+VOOLT Spolka Akcyjna,Technology,VLT.WA,EQ,PLNVVIS00016
+Centurion Finance ASI SA,Technology,CTF.WA,EQ,PLSTRGM00014
+Varsav Game Studios SA,Technology,VAR.WA,EQ,PLYORIM00019
+Madkom SA,Technology,MAD.WA,EQ,PLMADKM00019
+Incuvo S.A.,Technology,IVO.WA,EQ,PLA295700027
+QubicGames SA,Technology,QUB.WA,EQ,PLQBCGM00018
+Gamedust S.A.,Technology,GDC.WA,EQ,PLINSTC00010
+Play2Chill S.A.,Technology,P2C.WA,EQ,PLPLCHL00019
+CONSOLE LABS Spolka Akcyjna,Technology,CLA.WA,EQ,PLCNSLB00012
+Pyramid Games Spolka Akcyjna,Technology,PDG.WA,EQ,PLPRMGM00015
+Poltronic S.A.,Technology,PTN.WA,EQ,PLPLTRN00018
+7LEVELS SA,Technology,7LV.WA,EQ,PL7LVLS00017
+Kool2Play Spolka Akcyjna,Technology,K2P.WA,EQ,PLKL2PL00014
+Jujubee S.A.,Technology,JJB.WA,EQ,PLJJBEE00028
+ECC Games SA,Technology,ECC.WA,EQ,PLECCGM00012
+BizTech Konsulting SA,Technology,BTK.WA,EQ,PLBZTKN00013
+Creativeforge Games SA,Technology,CFG.WA,EQ,PLCRFRG00016
+Carbon Studio S.A.,Technology,CRB.WA,EQ,PLCRBST00016
+GENERATIONIS.AI S.A.,Technology,IFA.WA,EQ,PLINFRA00015
+Defence.Hub S.A.,Technology,DFH.WA,EQ,PLKLBTR00014
+Black Point SA,Technology,BPN.WA,EQ,PLBLKPT00018
+MINERAL MIDRANGE S.A.,Technology,MND.WA,EQ,PLMNRLM00010
+Image Power S.A.,Technology,IPW.WA,EQ,PLIMGPW00013
+Volaria AI SA,Technology,VAI.WA,EQ,PLDTLGM00019
+TRUSTBTC S.A.,Technology,IMG.WA,EQ,PLIMRGM00010
+Neurone Studio SA,Technology,NRS.WA,EQ,PLHCKLG00010
+Atomic Jelly SA Class A,Technology,ATJ.WA,EQ,PLATMCJ00018
+Dust SA,Technology,THD.WA,EQ,PLTHDST00017
+Unified Factory SA,Technology,UFC.WA,EQ,PLDTBRK00037
+Draw Distance SA,Technology,DDI.WA,EQ,PLIFN4L00018
+Live Motion Games SA,Technology,LMG.WA,EQ,PLLVMGM00016
+Cherrypick Games SA,Technology,CHP.WA,EQ,PLCHRPK00018
+Emplocity SA,Technology,EMP.WA,EQ,PLEMPCT00017
+MegaPixel Studio S.A.,Technology,MPS.WA,EQ,PLMGPLS00015
+Aiton Caldwell SA,Technology,AIT.WA,EQ,PLATCDL00013
+Space Fox Games SA Class A,Technology,FOX.WA,EQ,PLSPFXG00014
+Baked Games SA,Technology,BKD.WA,EQ,PLBKDGM00019
+Sonka Spolka Akcyjna,Technology,SOK.WA,EQ,PLSNK0000012
+Purple Ray Studio SA,Technology,RAY.WA,EQ,PLPRPLR00025
+Madnetic Games SA,Technology,MGS.WA,EQ,PLMNCGS00019
+UF Games S.A,Technology,UFG.WA,EQ,PLUFGMS00017
+Bridge Solutions Hub S.A.,Technology,BSH.WA,EQ,PLBRSLH00012
+Binary Helix SA,Technology,BHX.WA,EQ,PLBNRHL00013
+Dark Point Games SA,Technology,DPG.WA,EQ,PLDRPGM00048
+SEDIVIO S.A.,Technology,SED.WA,EQ,PLEC20000010
+Road Studio S.A.,Technology,RST.WA,EQ,PLA348700016
+Simteract Spolka Akcyjna,Technology,SMT.WA,EQ,PLSMTRC00013
+Farm Innovations SA,Technology,FAR.WA,EQ,PLFRMIN00010
+SIGMA DEFENCE SA,Technology,SGD.WA,EQ,PLSFLND00011
+PrimeBit Games SA,Technology,PBT.WA,EQ,PLPRMBG00018
+Proguns Group S.A,Technology,PGG.WA,EQ,PLASMDV00013
+Sunway Network Spolka Akcyjna,Technology,SNN.WA,EQ,PLPRSGD00011
+Lichthund S.A.,Technology,LHD.WA,EQ,PLLCHND00029
+Black Rose Projects SA,Technology,BRP.WA,EQ,PLBLRSP00015
+Cstore S.A.,Technology,CST.WA,EQ,PLCSTR000014
+e-Xim IT Spolka Akcyjna,Technology,EXM.WA,EQ,PLEXIM000013
+BTC Studios SA,Technology,BTC.WA,EQ,PLDMNMN00016
+Sevenet S.A.,Technology,SEV.WA,EQ,PLSVNET00019
+Lukardi SA,Technology,LUK.WA,EQ,PLSAP0000018
+G-DEVS Spolka Akcyjna,Technology,GDS.WA,EQ,PLGDVS000012
+Madmind Studio SA,Technology,MMS.WA,EQ,PLA346100011
+Art Games Studio SA,Technology,ARG.WA,EQ,PLARTGS00019
+Drageus Games S.A.,Technology,DRG.WA,EQ,PLDRGGM00013
+e-Kiosk S.A.,Technology,EKS.WA,EQ,PLEKOSK00019
+Consoleway SA,Technology,CWA.WA,EQ,PLCNSLW00018
+Wildlands Interactive S.A.,Technology,WLI.WA,EQ,PLGMSBX00010
+Verbicom SA,Technology,VRB.WA,EQ,PLVRBCM00015
+Red Square Games Spolka Akcyjna,Technology,RSG.WA,EQ,PLRDSGM00018
+Longterm Games SA,Technology,LTM.WA,EQ,PLLNTRG00017
+Plot Twist S.A,Technology,PLT.WA,EQ,PLA342500016
+Iron Wolf Studio S.A.,Technology,IWS.WA,EQ,PLA319800019
+Frozen Way S.A.,Technology,FRW.WA,EQ,PLFRZNW00013
+Moonlit S.A.,Technology,MLT.WA,EQ,PLMNLIT00014
+Noobz from Poland S.A.,Technology,NOB.WA,EQ,PLPLNTR00018
+Baseig Spolka Akcyjna,Technology,BIG.WA,EQ,PLBSG0000023
+Europejski Fundusz Energii SA,Technology,EFE.WA,EQ,PLINTRW00028
+Rockgame SA,Technology,RKG.WA,EQ,PLRCKGM00017
+Intermarum SA,Technology,IMR.WA,EQ,PLTLPKA00010
+Demolish Games S.A.,Technology,DGS.WA,EQ,PLDMLGM00014
+VRFABRIC SA,Technology,VFA.WA,EQ,PLVRFBR00017
+Brainscan SA,Technology,BSN.WA,EQ,PLBRNSN00016
+FREEMIND S.A.,Technology,FRM.WA,EQ,PLFRMND00011
+Duality SA,Technology,DUA.WA,EQ,PLDLITY00010
+KBJ SA,Technology,KBJ.WA,EQ,PLKBJ0000016
+Eneida Games S.A.,Technology,END.WA,EQ,PLHDRGM00011
+Gamehunters SA,Technology,GHT.WA,EQ,PLGMHTS00015
+Examobile SA,Technology,EXA.WA,EQ,PLEXMBL00010
+Igoria Trade SA,Technology,IGT.WA,EQ,PLIGRTR00014
+NVIDIA,Technology,NVDA.WA,EQ,
+APPLE,Technology,AAPL.WA,EQ,
+MICROSOFT,Technology,MSFT.WA,EQ,
+MICRONTEC,Technology,MCRN.WA,EQ,
+ASML Holding N.V.,Technology,ASML.WA,EQ,
+ORACLE,Technology,ORCL.WA,EQ,
+PALANTIR,Technology,PLTR.WA,EQ,
+SAP SE,Technology,SAP.WA,EQ,
+Uber Technologies Inc.,Technology,UBER.WA,EQ,
+ASBISc Enterprises Plc,Technology,ASB.WA,EQ,
+Photon Energy N.V.,Technology,PEN.WA,EQ,
+Silvair Inc.,Technology,SVRS.WA,EQ,

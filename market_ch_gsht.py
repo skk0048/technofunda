@@ -111,9 +111,9 @@ CH_SNAPSHOT_TICKERS = [
 # ─────────────────────────────────────────────────────────────────────────────
 
 def load_ch_universe():
-    csv_path = os.path.join(INDEX_DATA_DIR, "ch_smilist.csv")
+    csv_path = STOCK_CSV  # full master list
     if not os.path.exists(csv_path):
-        csv_path = STOCK_CSV
+        csv_path = os.path.join(INDEX_DATA_DIR, "ch_smilist.csv")
     if not os.path.exists(csv_path):
         print(f"  Universe CSV not found: {csv_path}"); return pd.DataFrame()
     df = pd.read_csv(csv_path, dtype=str)
@@ -127,7 +127,8 @@ def load_ch_universe():
     df["Yahoo"]    = df["Symbol"]
     df["Company"]  = df.get("Company Name", df["Symbol"])
     df["Industry"] = df.get("Industry", "").astype(str).fillna("").str.strip()
-    df["Sector"]   = df["Industry"].map(CH_INDUSTRY_TO_SECTOR).fillna("Other")
+    df["Sector"]   = df["Industry"].map(CH_INDUSTRY_TO_SECTOR).fillna(df["Industry"])
+    df["Sector"]   = df["Sector"].replace("", "Other").fillna("Other")
     df = df.dropna(subset=["Yahoo"])
     print(f"  Universe: {len(df)} stocks loaded")
     return df.reset_index(drop=True)

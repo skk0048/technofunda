@@ -1,47 +1,42 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-Glencore plc,Industrials,GLN.JO,EQ,
-Premier Group Limited,Industrials,PMR.JO,EQ,
-ADvTECH Limited,Industrials,ADH.JO,EQ,
-Grindrod Ltd Cum.Non-Red.Non-Ptg.Non-Cnv.Pref.Shs,Industrials,GNDP.JO,EQ,
-Grindrod Limited,Industrials,GND.JO,EQ,
-Motus Holdings Limited,Industrials,MTH.JO,EQ,
-Greencoat Renewables Plc,Industrials,GCT.JO,EQ,
-Wilson Bayly Holmes-Ovcon Limited,Industrials,WBO.JO,EQ,
-Spar Group Limited,Industrials,SPP.JO,EQ,
-Stadio Holdings Pty Ltd.,Industrials,SDO.JO,EQ,
-Raubex Group Limited,Industrials,RBX.JO,EQ,
-Clientele Limited,Industrials,CLI.JO,EQ,
-Blu Label Unlimited Group Ltd,Industrials,BLU.JO,EQ,
-KAP Limited,Industrials,KAP.JO,EQ,
-CA Sales Holdings (Pty) Ltd.,Industrials,CAA.JO,EQ,
-Super Group Limited,Industrials,SPG.JO,EQ,
-Hudaco Industries Limited,Industrials,HDC.JO,EQ,
-Bell Equipment Limited,Industrials,BEL.JO,EQ,
-KAL Group Limited,Industrials,KAL.JO,EQ,
-Invicta Holdings Limited,Industrials,IVT.JO,EQ,
-Balwin Properties Ltd.,Industrials,BWN.JO,EQ,
-Argent Industrial Limited,Industrials,ART.JO,EQ,
-Frontier Transport Holdings Limited,Industrials,FTH.JO,EQ,
-Oasis Crescent Property Fund,Industrials,OAS.JO,EQ,
-Novus Holdings Ltd.,Industrials,NVS.JO,EQ,
-eMedia Holdings Limited,Industrials,EMH.JO,EQ,
-eMedia Holdings Limited Class N,Industrials,EMN.JO,EQ,
-Marshall Monteagle PLC,Industrials,MMP.JO,EQ,
-Deneb Investments Limited,Industrials,DNB.JO,EQ,
-Stefanutti Stocks Holdings Limited,Industrials,SSK.JO,EQ,
-Santova Limited,Industrials,SNV.JO,EQ,
-Metair Investments Limited,Industrials,MTA.JO,EQ,
-York Timber Holdings Limited,Industrials,YRK.JO,EQ,
-Bowler Metcalf Limited,Industrials,BCF.JO,EQ,
-enX Group Limited,Industrials,ENX.JO,EQ,
-SAB Zenzele Kabili Holdings (RF) Limited,Industrials,SZK.JO,EQ,
-Nutun Limited,Industrials,NTU.JO,EQ,
-Adcorp Holdings Limited,Industrials,ADR.JO,EQ,
-Nu-World Holdings Limited,Industrials,NWL.JO,EQ,
-Aveng Limited,Industrials,AEG.JO,EQ,
-Primeserv Group Limited,Industrials,PMV.JO,EQ,
-Nictus Ltd.,Industrials,NCS.JO,EQ,
-South Ocean Holdings Limited,Industrials,SOH.JO,EQ,
-Trellidor Holdings Ltd.,Industrials,TRL.JO,EQ,
-Labat Africa Ltd,Industrials,LAB.JO,EQ,
-Cell C Holdings Ltd.,Industrials,CCD.JO,EQ,
+Bidvest Group,Industrials,BVT.JO,EQ,ZAE000117321
+Premier Group Limited,Industrials,PMR.JO,EQ,ZAE000320321
+ADvTECH Limited,Industrials,ADH.JO,EQ,ZAE000031035
+Motus Holdings Limited,Industrials,MTH.JO,EQ,ZAE000261913
+Grindrod,Industrials,GND.JO,EQ,ZAE000072328
+Grindrod Ltd Cum.Non-Red.Non-Ptg.Non-Cnv.Pref.Shs,Industrials,GNDP.JO,EQ,ZAE000071106
+Wilson Bayly Holmes-Ovcon Limited,Industrials,WBO.JO,EQ,ZAE000009932
+Stadio Holdings Pty Ltd.,Industrials,SDO.JO,EQ,ZAE000248662
+Reunert,Industrials,RLO.JO,EQ,ZAE000057428
+Raubex Group Limited,Industrials,RBX.JO,EQ,ZAE000093183
+Blu Label Unlimited Group Ltd,Industrials,BLU.JO,EQ,ZAE000109088
+KAP Limited,Industrials,KAP.JO,EQ,ZAE000171963
+CA Sales Holdings (Pty) Ltd.,Industrials,CAA.JO,EQ,ZAE400000036
+Super Group,Industrials,SPG.JO,EQ,ZAE000161832
+Hudaco Industries Limited,Industrials,HDC.JO,EQ,ZAE000003273
+Bell Equipment Limited,Industrials,BEL.JO,EQ,ZAE000028304
+KAL Group Limited,Industrials,KAL.JO,EQ,ZAE000244711
+Invicta Holdings Limited,Industrials,IVT.JO,EQ,ZAE000029773
+Balwin Properties Ltd.,Industrials,BWN.JO,EQ,ZAE000209532
+Argent Industrial Limited,Industrials,ART.JO,EQ,ZAE000019188
+Frontier Transport Holdings Limited,Industrials,FTH.JO,EQ,ZAE000300505
+Novus Holdings Ltd.,Industrials,NVS.JO,EQ,ZAE000202149
+eMedia Holdings Limited,Industrials,EMH.JO,EQ,ZAE000208898
+eMedia Holdings Limited Class N,Industrials,EMN.JO,EQ,ZAE000209524
+Deneb Investments Limited,Industrials,DNB.JO,EQ,ZAE000197398
+Stefanutti Stocks Holdings Limited,Industrials,SSK.JO,EQ,ZAE000123766
+Santova Limited,Industrials,SNV.JO,EQ,ZAE000159711
+Metair Investments Limited,Industrials,MTA.JO,EQ,ZAE000090692
+York Timber Holdings Limited,Industrials,YRK.JO,EQ,ZAE000133450
+Bowler Metcalf Limited,Industrials,BCF.JO,EQ,ZAE000030797
+enX Group Limited,Industrials,ENX.JO,EQ,ZAE000222253
+SAB Zenzele Kabili Holdings (RF) Limited,Industrials,SZK.JO,EQ,ZAE000284196
+Nutun Limited,Industrials,NTU.JO,EQ,ZAE000167391
+Adcorp Holdings Limited,Industrials,ADR.JO,EQ,ZAE000000139
+Nu-World Holdings Limited,Industrials,NWL.JO,EQ,ZAE000005070
+Aveng Limited,Industrials,AEG.JO,EQ,ZAE000302618
+4Sight Holdings Limited,Industrials,4SI.JO,EQ,ZAE000324059
+Primeserv Group Limited,Industrials,PMV.JO,EQ,ZAE000039277
+South Ocean Holdings Limited,Industrials,SOH.JO,EQ,ZAE000092748
+Trellidor Holdings Ltd.,Industrials,TRL.JO,EQ,ZAE000209342
+Labat Africa Ltd,Industrials,LAB.JO,EQ,ZAE000018354

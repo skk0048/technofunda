@@ -26,10 +26,10 @@ else:
 
 STOCK_CSV = os.path.join(INDEX_DATA_DIR, "br_all_stocks_master.csv")
 
-MAX_STOCKS        = 500
+MAX_STOCKS        = 1000
 PERIOD_DAYS       = 504
 ENABLE_PATTERNS   = True
-PATTERN_MAX       = 300
+PATTERN_MAX       = 600
 FETCH_FINANCIALS  = True
 ENABLE_SIGNALS    = True
 SIGNAL_MAX_STOCKS = 500
@@ -169,10 +169,12 @@ def load_br_universe():
         df = df[df["Series"].astype(str).str.strip().str.upper().isin(["EQ",""])]
     df = df.head(MAX_STOCKS).copy()
     df["Symbol"]   = df["Symbol"].astype(str).str.strip()
-    df["Yahoo"]    = df["Symbol"] + ".SA"     # Yahoo Finance ticker suffix
+    from ticker_fixer import ensure_yahoo_suffix
+    df["Yahoo"]    = df["Symbol"].apply(lambda s: ensure_yahoo_suffix(s, "BR"))
     df["Company"]  = df.get("Company Name", df["Symbol"])
     df["Industry"] = df.get("Industry", "").astype(str).fillna("").str.strip()
-    df["Sector"]   = df["Industry"].map(BR_INDUSTRY_TO_SECTOR).fillna("Other")
+    df["Sector"]   = df["Industry"].map(BR_INDUSTRY_TO_SECTOR).fillna(df["Industry"])
+    df["Sector"]   = df["Sector"].replace("", "Other").fillna("Other")
     print(f"  ✅ Brazil Universe: {len(df)} stocks loaded")
     return df.reset_index(drop=True)
 

@@ -1,10 +1,15 @@
 Company Name,Industry,Symbol,Series,ISIN Code
+Akzo Nobel,Materials,AKZA.AS,EQ,NL0013267909
+IMCD Group,Materials,IMCD.AS,EQ,NL0010801007
+AMG Critical Materials N.V.,Materials,AMG.AS,EQ,NL0000888691
+Corbion NV,Materials,CRBN.AS,EQ,NL0010583399
+OCI NV,Materials,OCI.AS,EQ,NL0010558797
+ForFarmers NV,Materials,FFARM.AS,EQ,NL0011832811
+Avantium,Materials,AVTX.AS,EQ,NL0015002IE0
+Holland Colours NV,Materials,HOLCO.AS,EQ,NL0000440311
+ALUMEXX N.V.,Materials,ALX.AS,EQ,NL0012194724
+DSM-Firmenich AG,Materials,DSM.AS,EQ,
 ArcelorMittal SA,Materials,MT.AS,EQ,
-Akzo Nobel N.V.,Materials,AKZA.AS,EQ,
-Aperam S.A.,Materials,APAM.AS,EQ,
-AMG Critical Materials N.V.,Materials,AMG.AS,EQ,
-OCI NV,Materials,OCI.AS,EQ,
-ForFarmers NV,Materials,FFARM.AS,EQ,
-Accsys Technologies PLC,Materials,AXS.AS,EQ,
-Holland Colours NV,Materials,HOLCO.AS,EQ,
-ALUMEXX N.V.,Materials,ALX.AS,EQ,
+DSM-Firmenich,Materials,DSFIR.AS,EQ,
+Aperam,Materials,APAM.AS,EQ,
+Accsys Technologies,Materials,AXS.AS,EQ,

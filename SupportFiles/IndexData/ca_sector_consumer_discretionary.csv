@@ -1,84 +1,124 @@
 Company Name,Industry,Symbol,Series,ISIN Code
+Amazon.com  Inc. Shs Unsponsored Canadian Depository Receipt Hedged Reg S,Consumer Discretionary,ZAMZ.NE,EQ,CA02314W1068
+Amazon.com  Inc. Canadian Depositary Receipt Repr 1 Sh Reg S,Consumer Discretionary,AMZN.TO,EQ,CA02315E1051
+Tesla  Inc. Shs Canadian Depositary Receipt Repr Shs Reg S,Consumer Discretionary,TSLA.TO,EQ,CA88162R1091
+Tesla  Inc. Shs Unsponsored Canadian Depository Receipt Hedged Reg S,Consumer Discretionary,ZTSL.NE,EQ,CA88167D1050
+Walmart Inc. Shs Canadian Depositary Receipt Repr Shs Reg S,Consumer Discretionary,WMT.TO,EQ,CA93267X1006
+Walmart Inc. Shs Unsponsored Canadian Depository Receipt Hedged Reg S,Consumer Discretionary,ZWMT.NE,EQ,CA93267J1012
+Costco Wholesale Corporation Shs Unsponsored Canadian Depository Receipt Hedged Reg S,Consumer Discretionary,ZCOS.NE,EQ,CA2216031039
+Costco Wholesale Corporation Shs -CAD hedged- Canadian Depositary Receipt Repr Shs Reg S,Consumer Discretionary,COST.TO,EQ,CA22170M1095
+Home Depot  Inc. Shs Canadian Depositary Receipt Repr Shs Reg S,Consumer Discretionary,HD.TO,EQ,CA43709V1058
+Home Depot  Inc. Canadian Depositary Receipt Repr Shs Reg S (CAD Hedged),Consumer Discretionary,ZHD.NE,EQ,CA43708V1067
+Toyota Motor Corp. Sponsored Canadian Depository Receipt Hedged Reg,Consumer Discretionary,TOYM.NE,EQ,CA89238H1091
+McDonald's Corporation Shs -CAD hedged- Canadian Depositary Receipt Repr Shs Reg S,Consumer Discretionary,MCDS.TO,EQ,CA5801031090
+McDonald's Corporation Shs Unsponsored Canadian Depository Receipt Hedged Reg S,Consumer Discretionary,ZMCD.NE,EQ,CA5801091060
+Industria de Diseno Textil  S.A. Shs Sponsored Canadian Depository Receipt Hedged Reg S,Consumer Discretionary,ZARA.NE,EQ,CA45579F1027
 TJX Companies Inc Shs UnSp CDR-Reg S,Consumer Discretionary,TJX.TO,EQ,CA88873A1066
+Walt Disney Company Shs -CAD hedged- Canadian Depositary Receipt Repr Shs Reg S,Consumer Discretionary,DIS.TO,EQ,CA25472W1059
+Walt Disney Company Sponsored Canadian Depository Receipt Hedged Reg S,Consumer Discretionary,ZDIS.NE,EQ,CA93314E1051
+COMPAGNIE FINANCIERE RICHEMONT SA Sponsored Canadian Depository Receipt Hedged Reg S,Consumer Discretionary,RCHM.NE,EQ,CA12570Q1072
+CVS Health Corporation Shs Sponsored Canadian Depositary Receipt Repr Sh,Consumer Discretionary,CVS.TO,EQ,CA12683R1091
+Booking Holdings Inc. Shs -CAD hedged- Canadian Depositary Receipt Repr Shs Reg S,Consumer Discretionary,BKNG.TO,EQ,CA09858C1077
+Starbucks Corporation Shs -CAD hedged- Canadian Depositary Receipt Repr Shs Reg S,Consumer Discretionary,SBUX.TO,EQ,CA85524N1078
+Airbnb  Inc. Shs Sponsored Canadian Depoitary Receipt Hedged Reg S,Consumer Discretionary,ABNB.TO,EQ,CA00925E1016
 Ford Motor Company Shs A -CAD- hedged- Canadian Depoitary Receipt Hedged Shs A Reg S,Consumer Discretionary,F.TO,EQ,CA34539A1066
-Loblaw Companies Limited,Consumer Discretionary,L.TO,EQ,CA5394811015
 Alimentation Couche-Tard Inc.,Consumer Discretionary,ATD.TO,EQ,CA01626P1484
+Mercedes-Benz Group AG CAD Hedged CIBC CDR,Consumer Discretionary,BENZ.TO,EQ,CA58769H1010
+Mercedes-Benz Group AG Shs Sponsored Canadian Depoitary Receipt Hedged Reg S,Consumer Discretionary,MB.NE,EQ,CA58770D1078
+Nintendo Co.  Ltd. Sponsored Canadian Depository Receipt Hedged Reg,Consumer Discretionary,NTDO.NE,EQ,CA6539521014
+Volkswagen AG Shs Sponsored Canadian Depository Receipt Hedged Reg S,Consumer Discretionary,VWA.NE,EQ,CA92866T1066
+AutoZone  Inc. Shs UnSponsored Canadian Depository Receipt Hedged Reg S,Consumer Discretionary,AZO.TO,EQ,CA05335Q1072
+Bayerische Motoren Werke AG Shs Sponsored Canadian Depository Receipt Hedged Reg S,Consumer Discretionary,BMWY.NE,EQ,CA0969181076
 Bayerische Motoren Werke AG CDR,Consumer Discretionary,BMW.TO,EQ,CA0727441051
-Dollarama Inc.,Consumer Discretionary,DOL.TO,EQ,CA25675T1075
+D.R. Horton  Inc. Shs Sponsored Canadian Depository Receipt Hedged Reg S,Consumer Discretionary,DHI.TO,EQ,CA23347K1093
+Chipotle Mexican Grill  Inc. Shs Sponsored Canadian Depository Receipt Hedged Reg S,Consumer Discretionary,CMGS.TO,EQ,CA16965M1005
+Honda Motor Co.  Ltd. Sponsored Canadian Depository Receipt Hedged Reg,Consumer Discretionary,HNDA.NE,EQ,CA4381261045
 Restaurant Brands International Inc.,Consumer Discretionary,QSR.TO,EQ,CA76131D1033
-Restaurant Brands International LP,Consumer Discretionary,QSP-UN.TO,EQ,CA76090H1038
-George Weston Limited 5.2 % Pfd Shs Series -IV-,Consumer Discretionary,WN-PR-D.TO,EQ,CA9611488557
-George Weston Limited,Consumer Discretionary,WN.TO,EQ,CA9611485090
-George Weston Limited 5.8 % Pfd shs Series 1,Consumer Discretionary,WN-PR-A.TO,EQ,CA9611488896
-George Weston Ltd 4.75 % Cum Conv Red Pfd Registered Shs Series V,Consumer Discretionary,WN-PR-E.TO,EQ,CA9611488482
-George Weston Limited 5.2 % Cum Pfd Shs Series -III-,Consumer Discretionary,WN-PR-C.TO,EQ,CA9611488631
-Metro Inc.,Consumer Discretionary,MRU.TO,EQ,CA59162N1096
+Restaurant Brands International LP,Consumer Discretionary,QSP.UN.TO,EQ,CA76090H1038
+George Weston Limited 5.8 % Pfd shs Series 1,Consumer Discretionary,WN.PR.A.TO,EQ,CA9611488896
+George Weston Limited 5.2 % Cum Pfd Shs Series -III-,Consumer Discretionary,WN.PR.C.TO,EQ,CA9611488631
+George Weston Ltd 4.75 % Cum Conv Red Pfd Registered Shs Series V,Consumer Discretionary,WN.PR.E.TO,EQ,CA9611488482
+George Weston Limited 5.2 % Pfd Shs Series -IV-,Consumer Discretionary,WN.PR.D.TO,EQ,CA9611488557
+Magna International Inc.,Consumer Discretionary,MG.TO,EQ,CA5592224011
 Aritzia Inc.,Consumer Discretionary,ATZ.TO,EQ,CA04045U1021
-Empire Co Ltd Class A,Consumer Discretionary,EMP-A.TO,EQ,CA2918434077
-Canadian Tire Corporation Limited,Consumer Discretionary,CTC.TO,EQ,CA1366811034
-Canadian Tire Corporation Limited Class A,Consumer Discretionary,CTC-A.TO,EQ,CA1366812024
-Boyd Group Services Inc,Consumer Discretionary,BYD.TO,EQ,CA1033101082
-Cogeco Communications Inc.,Consumer Discretionary,CCA.TO,EQ,CA19239C1068
-North West Company Inc.,Consumer Discretionary,NWC.TO,EQ,CA6632782083
+Gildan Activewear Inc.,Consumer Discretionary,GIL.TO,EQ,CA3759161035
+Empire Co Ltd Class A,Consumer Discretionary,EMP.A.TO,EQ,CA2918434077
+Canadian Tire Corporation  Limited Class A,Consumer Discretionary,CTC.A.TO,EQ,CA1366812024
+Canadian Tire Corporation  Limited,Consumer Discretionary,CTC.TO,EQ,CA1366811034
+BRP Inc.,Consumer Discretionary,DOO.TO,EQ,CA05577W2004
+Linamar Corporation,Consumer Discretionary,LNR.TO,EQ,CA53278L1076
+Boyd Group Services Inc.,Consumer Discretionary,BYD.TO,EQ,CA1033101082
+NFI Group Inc.,Consumer Discretionary,NFI.TO,EQ,CA62910L1022
+Winpak Ltd.,Consumer Discretionary,WPK.TO,EQ,CA97535P1045
+Richelieu Hardware Ltd.,Consumer Discretionary,RCH.TO,EQ,CA76329W1032
 Savaria Corporation,Consumer Discretionary,SIS.TO,EQ,CA8051121090
 Spin Master Corp,Consumer Discretionary,TOY.TO,EQ,CA8485101031
 Leon's Furniture Limited,Consumer Discretionary,LNF.TO,EQ,CA5266821092
 Black Diamond Group Limited,Consumer Discretionary,BDI.TO,EQ,CA09202D2077
 Pet Valu Holdings Ltd.,Consumer Discretionary,PET.TO,EQ,CA71584R1055
-Stingray Group Inc.,Consumer Discretionary,RAY.TO,EQ,CA86084H4070
+Stingray Group  Inc.,Consumer Discretionary,RAY.TO,EQ,CA86084H4070
 MTY Food Group Inc.,Consumer Discretionary,MTY.TO,EQ,CA55378N1078
-A&W Food Services of Canada Inc.,Consumer Discretionary,AW.TO,EQ,CA0002251027
-Dexterra Group Inc.,Consumer Discretionary,DXT.TO,EQ,CA2523711091
+A&W Food Services of Canada  Inc.,Consumer Discretionary,AW.TO,EQ,CA0002251027
+Dexterra Group  Inc.,Consumer Discretionary,DXT.TO,EQ,CA2523711091
 Cineplex Inc.,Consumer Discretionary,CGX.TO,EQ,CA1724541000
 TWC Enterprises Limited,Consumer Discretionary,TWC.TO,EQ,CA87310A1093
 Blue Ant Media Corporation,Consumer Discretionary,BAMI.TO,EQ,CA09523F1053
 AutoCanada Inc.,Consumer Discretionary,ACQ.TO,EQ,CA05277B2093
 Kits Eyecare Ltd.,Consumer Discretionary,KITS.TO,EQ,CA49804N1042
-Transcontinental Inc. Class A,Consumer Discretionary,TCL-A.TO,EQ,CA8935781044
-Transcontinental Inc. Class B,Consumer Discretionary,TCL-B.TO,EQ,CA8935782034
 Pollard Banknote Limited,Consumer Discretionary,PBL.TO,EQ,CA73150R1055
+Transcontinental Inc. Class A,Consumer Discretionary,TCL.A.TO,EQ,CA8935781044
+Transcontinental Inc. Class B,Consumer Discretionary,TCL.B.TO,EQ,CA8935782034
 BMTC Group Inc. Class A,Consumer Discretionary,GBT.TO,EQ,CA05561N2086
 Clarke Inc.,Consumer Discretionary,CKI.TO,EQ,CA1819013071
-Vecima Networks Inc.,Consumer Discretionary,VCM.TO,EQ,CA92241Y1016
 Pizza Pizza Royalty Corp.,Consumer Discretionary,PZA.TO,EQ,CA72585V1031
-High Tide Inc.,Consumer Discretionary,HITI.V,EQ,CA42981E4013
+Vecima Networks Inc.,Consumer Discretionary,VCM.TO,EQ,CA92241Y1016
+Draganfly Inc,Consumer Discretionary,DPRO.NE,EQ,CA26142Q3044
+High Tide  Inc.,Consumer Discretionary,HITI.V,EQ,CA42981E4013
 Gamehost Inc.,Consumer Discretionary,GH.TO,EQ,CA36468B1040
 WildBrain Ltd.,Consumer Discretionary,WILD.TO,EQ,CA96810C2004
 D-BOX Technologies Inc. Class A,Consumer Discretionary,DBO.TO,EQ,CA23305P1080
-Genesis Land Development Corp.,Consumer Discretionary,GDC.TO,EQ,CA37183V1022
 Orogen Royalties Incorporation,Consumer Discretionary,OGN.V,EQ,CA6870801017
-Hydreight Technologies Inc,Consumer Discretionary,NURS.V,EQ,CA44877L1013
+Genesis Land Development Corp.,Consumer Discretionary,GDC.TO,EQ,CA37183V1022
 Ameritrust Financial Technologies Inc.,Consumer Discretionary,AMT.V,EQ,CA0307361026
 BuildDirect.com Technologies Inc,Consumer Discretionary,BILD.V,EQ,CA12009C1095
 PesoRama Inc,Consumer Discretionary,PESO.V,EQ,CA7157921072
+Hydreight Technologies Inc,Consumer Discretionary,NURS.V,EQ,CA44877L1013
 Parkit Enterprise Inc.,Consumer Discretionary,PKT.V,EQ,CA70137X1069
-Transat A.T. Inc.,Consumer Discretionary,TRZ.TO,EQ,CA89351T4019
-Reitmans (Canada) Limited Class A,Consumer Discretionary,RET-A.V,EQ,CA7594042052
 Reitmans (Canada) Limited,Consumer Discretionary,RET.V,EQ,CA7594041062
-Postmedia Network Canada Corp. Class C,Consumer Discretionary,PNC-A.TO,EQ,CA73752W4039
-Postmedia Network Canada Corp.,Consumer Discretionary,PNC-B.TO,EQ,CA73752W5028
-TVA Group Inc. Class B,Consumer Discretionary,TVA-B.TO,EQ,CA8729482031
+Reitmans (Canada) Limited Class A,Consumer Discretionary,RET.A.V,EQ,CA7594042052
+Transat A.T. Inc.,Consumer Discretionary,TRZ.TO,EQ,CA89351T4019
+Postmedia Network Canada Corp. Class C,Consumer Discretionary,PNC.A.TO,EQ,CA73752W4039
+Postmedia Network Canada Corp.,Consumer Discretionary,PNC.B.TO,EQ,CA73752W5028
+Pacifica Silver Corp.,Consumer Discretionary,PSIL.NE,EQ,CA6951041095
+TVA Group  Inc. Class B,Consumer Discretionary,TVA.B.TO,EQ,CA8729482031
+TelyRx Holdings Inc.,Consumer Discretionary,TELY.TO,EQ,CA87974Y1043
 Canlan Ice Sports Corp.,Consumer Discretionary,ICE.TO,EQ,CA1376392090
-Dorel Industries Inc. Class B,Consumer Discretionary,DII-B.TO,EQ,CA25822C2058
-Dorel Industries Inc. Class A,Consumer Discretionary,DII-A.TO,EQ,CA25822C3049
-Mene Inc. Class B,Consumer Discretionary,MENE.V,EQ,CA58680T1012
+Dorel Industries Inc. Class B,Consumer Discretionary,DII.B.TO,EQ,CA25822C2058
+Dorel Industries Inc. Class A,Consumer Discretionary,DII.A.TO,EQ,CA25822C3049
+Mene  Inc. Class B,Consumer Discretionary,MENE.V,EQ,CA58680T1012
 Vitalist Inc,Consumer Discretionary,VITA.V,EQ,CA92847E1034
+Plaid Technologies Inc,Consumer Discretionary,STIF.CN,EQ,CA7261351067
+Nepra Foods  Inc.,Consumer Discretionary,NPRA.NE,EQ,CA64067L1094
 OverActive Media Corp,Consumer Discretionary,OAM.V,EQ,CA6901611047
-Becker Milk Company Limited Class B,Consumer Discretionary,BEK-B.TO,EQ,CA0756532044
+Becker Milk Company Limited Class B,Consumer Discretionary,BEK.B.TO,EQ,CA0756532044
 Aegis Brands Inc,Consumer Discretionary,AEG.TO,EQ,CA00775H1055
 Goodfood Market Corp.,Consumer Discretionary,FOOD.TO,EQ,CA38217M1005
 Global Education Communities Corp,Consumer Discretionary,GEC.TO,EQ,CA37961F1053
-QYOU Media Inc.,Consumer Discretionary,QYOU.V,EQ,CA77584B6026
 KDA Group Inc.,Consumer Discretionary,KDA.V,EQ,CA48669F1071
+QYOU Media  Inc.,Consumer Discretionary,QYOU.V,EQ,CA77584B6026
+Precision Peptide Company Inc,Consumer Discretionary,BPC.NE,EQ,CA74031F1045
 Emerge Commerce Ltd,Consumer Discretionary,ECOM.V,EQ,CA29104G1081
 Hypercharge Networks Corp.,Consumer Discretionary,HC.V,EQ,CA44916D1024
+Advent-AWI Holdings Inc,Consumer Discretionary,AWI.V,EQ,CA0076421019
+Corus Entertainment Inc. Class B,Consumer Discretionary,CJR.B.TO,EQ,CA2208741017
 Rumbu Holdings Ltd,Consumer Discretionary,RMB.V,EQ,CA7813911079
-Corus Entertainment Inc. Class B,Consumer Discretionary,CJR-B.TO,EQ,CA2208741017
 FP Newspapers Inc.,Consumer Discretionary,FP.V,EQ,CA3025862010
 Global Power Solutions Corp,Consumer Discretionary,PWER.V,EQ,CA37893J1003
+CordovaCann Corp.,Consumer Discretionary,CDVA.CN,EQ,CA21864T1075
 Rocky Mountain Liquor Inc.,Consumer Discretionary,RUM.V,EQ,CA77472P2008
+Quizam Media Corp.,Consumer Discretionary,QQ.CN,EQ,CA7490575015
+Delota Corp,Consumer Discretionary,NIC.CN,EQ,CA24713H1001
 Pathfinder Ventures Inc,Consumer Discretionary,RV.V,EQ,CA70323P2061
-Asian Television Network International Limited,Consumer Discretionary,SAT.V,EQ,CA0449191083
-Vision Marine Technologies Inc.,Consumer Discretionary,VMAR.V,EQ,CA92840Q4007
 Network Media Group Inc.,Consumer Discretionary,NTE.V,EQ,CA64128U2056
+Vision Marine Technologies  Inc.,Consumer Discretionary,VMAR.V,EQ,CA92840Q4007
 Purebread Brands Inc.,Consumer Discretionary,BRED.V,EQ,CA74624T2065

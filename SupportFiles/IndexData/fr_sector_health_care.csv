@@ -1,68 +1,78 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-Sanofi SA,Health Care,SAN.PA,EQ,
-EssilorLuxottica SA,Health Care,EL.PA,EQ,
-Sartorius Stedim Biotech SA,Health Care,DIM.PA,EQ,
-Ipsen SA,Health Care,IPN.PA,EQ,
-bioMerieux SA,Health Care,BIM.PA,EQ,
-Abivax SA,Health Care,ABVX.PA,EQ,
-Virbac SA,Health Care,VIRP.PA,EQ,
-Emeis,Health Care,EMEIS.PA,EQ,
-Nanobiotix SA,Health Care,NANO.PA,EQ,
-Clariane SE,Health Care,CLARI.PA,EQ,
-Ramsay Generale de Sante SA,Health Care,GDS.PA,EQ,
-MedinCell SA,Health Care,MEDCL.PA,EQ,
-DBV Technologies SA,Health Care,DBV.PA,EQ,
-Inventiva SA,Health Care,IVA.PA,EQ,
-Vetoquinol SA,Health Care,VETO.PA,EQ,
-Boiron SA,Health Care,BOI.PA,EQ,
-Valneva SE,Health Care,VLA.PA,EQ,
-Genfit SA,Health Care,GNFT.PA,EQ,
-LNA Sante SA,Health Care,LNA.PA,EQ,
-Median Technologies,Health Care,ALMDT.PA,EQ,
-Eurobio-Scientific SA,Health Care,ALERS.PA,EQ,
-Transgene SA,Health Care,TNG.PA,EQ,
-Sensorion SAS,Health Care,ALSEN.PA,EQ,
-Cellectis S.A.,Health Care,ALCLS.PA,EQ,
-Bastide Le Confort Medical SA,Health Care,BLC.PA,EQ,
-Innate Pharma SA Class A,Health Care,IPH.PA,EQ,
-Guerbet SA,Health Care,GBT.PA,EQ,
-Euroapi SA,Health Care,EAPI.PA,EQ,
-ABIONYX Pharma SA,Health Care,ABNX.PA,EQ,
-Crossject SA,Health Care,ALCJ.PA,EQ,
-Valerio Therapeutics,Health Care,ALVIO.PA,EQ,
-Afyren SA,Health Care,ALAFY.PA,EQ,
-Adocia SA,Health Care,ADOC.PA,EQ,
-OSE Immunotherapeutics SA,Health Care,OSE.PA,EQ,
-AB Science SA,Health Care,AB.PA,EQ,
-Klea Holding,Health Care,ALKLH.PA,EQ,
-Rapid Nutrition PLC,Health Care,ALRPD.PA,EQ,
-Theraclion SA,Health Care,ALTHE.PA,EQ,
-MaaT Pharma,Health Care,MAAT.PA,EQ,
-S.M.A.I.O S.A.,Health Care,ALSMA.PA,EQ,
-THX Pharma,Health Care,ALTHX.PA,EQ,
-Nicox SA,Health Care,ALCOX.PA,EQ,
-Novacyt S.A.,Health Care,ALNOV.PA,EQ,
-Mauna Kea Technologies SA Class O,Health Care,ALMKT.PA,EQ,
-Diagnostic Medical Systems,Health Care,ALDMS.PA,EQ,
-genOway SA,Health Care,ALGEN.PA,EQ,
-Implanet SA,Health Care,ALIMP.PA,EQ,
-Ikonisys SA,Health Care,ALIKO.PA,EQ,
-Valbiotis SA,Health Care,ALVAL.PA,EQ,
-Gensight Biologics SA,Health Care,SIGHT.PA,EQ,
-Biosynex SA,Health Care,ALBIO.PA,EQ,
-Advicenne SA,Health Care,ALDVI.PA,EQ,
-Vinpai S.A.,Health Care,ALVIN.PA,EQ,
-Aelis Farma SA,Health Care,AELIS.PA,EQ,
-Aton,Health Care,ALTAO.PA,EQ,
-Rougier SA,Health Care,ALRGR.PA,EQ,
-NFL Biosciences SA,Health Care,ALNFL.PA,EQ,
-Poxel SA,Health Care,POXEL.PA,EQ,
-SpineGuard,Health Care,ALSGD.PA,EQ,
+Sanofi SA,Health Care,SAN.PA,EQ,FR0000120578
+EssilorLuxottica SA,Health Care,EL.PA,EQ,FR0000121667
+Sartorius Stedim Biotech SA,Health Care,DIM.PA,EQ,FR0013154002
+Ipsen SA,Health Care,IPN.PA,EQ,FR0010259150
+Eurofins Scientific SE,Health Care,ERF.PA,EQ,FR0014000MR3
+Biomerieux SA,Health Care,BIM.PA,EQ,FR0013280286
+ABIVAX Société Anonyme,Health Care,ABVX.PA,EQ,FR0012333284
+Virbac SA,Health Care,VIRP.PA,EQ,FR0000031577
+EMEIS,Health Care,EMEIS.PA,EQ,FR001400NLM4
+Nanobiotix S.A.,Health Care,NANO.PA,EQ,FR0011341205
+Clariane SE,Health Care,CLARI.PA,EQ,FR0010386334
+Ramsay Générale de Santé SA,Health Care,GDS.PA,EQ,FR0000044471
+MedinCell S.A.,Health Care,MEDCL.PA,EQ,FR0004065605
+DBV Technologies S.A.,Health Care,DBV.PA,EQ,FR0010417345
+Vetoquinol SA,Health Care,VETO.PA,EQ,FR0004186856
+Inventiva S.A.,Health Care,IVA.PA,EQ,FR0013233012
+Equasens Société anonyme,Health Care,EQS.PA,EQ,FR0012882389
+Lumibird SA,Health Care,LBIRD.PA,EQ,FR0000038242
+Boiron SA,Health Care,BOI.PA,EQ,FR0000061129
+Genfit S.A.,Health Care,GNFT.PA,EQ,FR0004163111
+Valneva SE,Health Care,VLA.PA,EQ,FR0004056851
+LNA Santé SA,Health Care,LNA.PA,EQ,FR0004170017
+Median Technologies SA,Health Care,ALMDT.PA,EQ,FR0011049824
+Eurobio Scientific Société anonyme,Health Care,ALERS.PA,EQ,FR0013240934
+Transgene SA,Health Care,TNG.PA,EQ,FR0005175080
+Cellectis S.A.,Health Care,ALCLS.PA,EQ,FR0010425595
+CARVOLIX,Health Care,CVX.PA,EQ,FR0013333077
+Bastide Le Confort Medical SA,Health Care,BLC.PA,EQ,FR0000035370
+CEGEDIM,Health Care,ALCGM.PA,EQ,FR0000053506
+Innate Pharma S.A.,Health Care,IPH.PA,EQ,FR0010331421
+Sensorion SA,Health Care,ALSEN.PA,EQ,FR0012596468
+Guerbet SA,Health Care,GBT.PA,EQ,FR0000032526
+Euroapi S.A.,Health Care,EAPI.PA,EQ,FR0014008VX5
+Crossject Société Anonyme,Health Care,ALCJ.PA,EQ,FR0011716265
+ABIONYX Pharma SA,Health Care,ABNX.PA,EQ,FR0012616852
+Valerio Therapeutics Société anonyme,Health Care,ALVIO.PA,EQ,FR0010095596
+OSE Immunotherapeutics SA,Health Care,OSE.PA,EQ,FR0012127173
+Adocia SA,Health Care,ADOC.PA,EQ,FR0011184241
+Eurofins-Cerep SA,Health Care,ALECR.PA,EQ,FR0013256518
+AB Science SA,Health Care,AB.PA,EQ,FR0010557264
+KLEA HOLDING,Health Care,ALKLH.PA,EQ,FR0013481835
+MaaT Pharma SA,Health Care,MAAT.PA,EQ,FR0012634822
+Theraclion SA,Health Care,ALTHE.PA,EQ,FR0010120402
+FERMENTALG,Health Care,ALGAE.PA,EQ,FR0011271600
+S.M.A.I.O S.A.,Health Care,ALSMA.PA,EQ,FR0014005I80
+THX Pharma Société Anonyme,Health Care,ALTHX.PA,EQ,FR0013286259
+ABL Diagnostics Société anonyme,Health Care,ABLD.PA,EQ,FR001400AHX6
+Diagnostic Medical Systems S.A.,Health Care,ALDMS.PA,EQ,FR0012202497
+Mauna Kea Technologies SA,Health Care,ALMKT.PA,EQ,FR0010609263
+Nicox S.A.,Health Care,ALCOX.PA,EQ,FR0013018124
+Novacyt S.A.,Health Care,ALNOV.PA,EQ,FR0010397232
+genOway Société anonyme,Health Care,ALGEN.PA,EQ,FR0004053510
+Implanet S.A.,Health Care,ALIMP.PA,EQ,FR0013470168
+Ikonisys S.A.,Health Care,ALIKO.PA,EQ,FR00140048X2
+GenSight Biologics S.A.,Health Care,SIGHT.PA,EQ,FR0013183985
+Biosynex SA,Health Care,ALBIO.PA,EQ,FR0011005933
+Advicenne S.A.,Health Care,ALDVI.PA,EQ,FR0013296746
+Aelis Farma SA,Health Care,AELIS.PA,EQ,FR0014007ZB4
+Laboratoires Euromedis Société anonyme,Health Care,ALEMG.PA,EQ,FR0000075343
+Intrasense S.A.,Health Care,ALINS.PA,EQ,FR0011179886
+ATON,Health Care,ALTAO.PA,EQ,FR0004153930
+NFL Biosciences SA,Health Care,ALNFL.PA,EQ,FR0014003XT0
+Poxel S.A.,Health Care,POXEL.PA,EQ,FR0012432516
+Predilife S.A.,Health Care,ALPRE.PA,EQ,FR0010169920
+SpineGuard SA,Health Care,ALSGD.PA,EQ,FR0011464452
+Plant Advanced Technologies SA,Health Care,ALPAT.PA,EQ,FR0010785790
+Bluelinea Société Anonyme,Health Care,ALBLU.PA,EQ,FR0011041011
+Oncodesign Precision Medicine Société anonyme,Health Care,ALOPM.PA,EQ,FR001400CM63
+Spineway SA,Health Care,ALSPW.PA,EQ,FR001400N2P2
+Biophytis S.A.,Health Care,ALBPS.PA,EQ,FR001400OLP5
+IntegraGen SA,Health Care,ALINT.PA,EQ,FR0010908723
+Safe Orthopaedics SA,Health Care,ALSAF.PA,EQ,FR001400ZU25
+INMOLECULE NANOTECH  S.A.,Health Care,MLINA.PA,EQ,
 TME Pharma N.V.,Health Care,ALTME.PA,EQ,
-Oncodesign Precision Medicine S.A.,Health Care,ALOPM.PA,EQ,
-Spineway SA,Health Care,ALSPW.PA,EQ,
-bonyf NV,Health Care,MLBON.PA,EQ,
-Biophytis SA,Health Care,ALBPS.PA,EQ,
-IntegraGen SA,Health Care,ALINT.PA,EQ,
-Safe SA,Health Care,ALSAF.PA,EQ,
-Inmolecule Nanotech SA,Health Care,MLINA.PA,EQ,
+Media Lab S.p.A.,Health Care,MLLAB.PA,EQ,
+AMA Corporation Plc,Health Care,ALAMA.PA,EQ,
+Neovacs S.A.,Health Care,ALNEV.PA,EQ,

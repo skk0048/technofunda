@@ -26,8 +26,8 @@ else:
 
 STOCK_CSV = os.path.join(INDEX_DATA_DIR, "sa_all_stocks_master.csv")
 
-MAX_STOCKS        = 500
-PERIOD_DAYS       = 504
+MAX_STOCKS        = 1000
+PERIOD_DAYS       = 600
 ENABLE_PATTERNS   = True
 PATTERN_MAX       = 300
 FETCH_FINANCIALS  = True
@@ -67,23 +67,32 @@ SA_INDEX          = "^TASI.SR"
 SA_INDEX_FALLBACK = "^TASI"
 
 SA_INDUSTRY_TO_SECTOR = {
-    "Financials": "Financials", "Banking": "Financials",
-    "Insurance": "Financials", "Asset Management": "Financials",
-    "Energy": "Energy", "Oil & Gas": "Energy",
-    "Materials": "Materials", "Mining": "Materials",
-    "Gold": "Materials", "Metals": "Materials", "Chemicals": "Materials",
-    "Technology": "Technology", "Software": "Technology",
-    "IT Services": "Technology", "Electronics": "Technology",
+    # Full sector names (as stored in sa_all_stocks_master.csv)
+    "Financials": "Financials",
+    "Energy": "Energy",
+    "Materials": "Materials",
+    "Technology": "Technology",
+    "Health Care": "Health Care",
+    "Industrials": "Industrials",
+    "Consumer Discretionary": "Consumer Discretionary",
+    "Consumer Staples": "Consumer Staples",
+    "Utilities": "Utilities",
+    "Communication Services": "Communication Services",
+    "Real Estate": "Real Estate",
+    # Abbreviated / alternate forms
+    "Banking": "Financials", "Insurance": "Financials", "Asset Management": "Financials",
+    "Oil & Gas": "Energy",
+    "Mining": "Materials", "Gold": "Materials", "Metals": "Materials", "Chemicals": "Materials",
+    "Software": "Technology", "IT Services": "Technology", "Electronics": "Technology",
     "Semiconductors": "Technology",
     "Healthcare": "Health Care", "Pharmaceuticals": "Health Care",
     "Biotechnology": "Health Care", "Medical Devices": "Health Care",
-    "Industrials": "Industrials", "Railways": "Industrials",
-    "Aerospace": "Industrials", "Engineering": "Industrials",
+    "Railways": "Industrials", "Aerospace": "Industrials", "Engineering": "Industrials",
     "Machinery": "Industrials", "Shipbuilding": "Industrials",
     "ConsumerDisc": "Consumer Discretionary", "Retail": "Consumer Discretionary",
     "Automotive": "Consumer Discretionary", "Luxury": "Consumer Discretionary",
-    "Consumer Staples": "Consumer Staples", "Food & Beverage": "Consumer Staples",
-    "Utilities": "Utilities", "Power": "Utilities",
+    "Food & Beverage": "Consumer Staples",
+    "Power": "Utilities",
     "CommServices": "Communication Services", "Telecoms": "Communication Services",
     "Media": "Communication Services",
     "RealEstate": "Real Estate", "REITs": "Real Estate",
@@ -110,9 +119,10 @@ SA_SNAPSHOT_TICKERS = [
 # ─────────────────────────────────────────────────────────────────────────────
 
 def load_sa_universe():
-    csv_path = os.path.join(INDEX_DATA_DIR, "sa_tadawullist.csv")
+    # Prefer the full master list; fall back to the smaller TASI list
+    csv_path = STOCK_CSV  # sa_all_stocks_master.csv (339 stocks)
     if not os.path.exists(csv_path):
-        csv_path = STOCK_CSV
+        csv_path = os.path.join(INDEX_DATA_DIR, "sa_tadawullist.csv")
     if not os.path.exists(csv_path):
         print(f"  Universe CSV not found: {csv_path}"); return pd.DataFrame()
     df = pd.read_csv(csv_path, dtype=str)
@@ -126,9 +136,11 @@ def load_sa_universe():
     df["Yahoo"]    = df["Symbol"]
     df["Company"]  = df.get("Company Name", df["Symbol"])
     df["Industry"] = df.get("Industry", "").astype(str).fillna("").str.strip()
-    df["Sector"]   = df["Industry"].map(SA_INDUSTRY_TO_SECTOR).fillna("Other")
+    # Map industry → sector; if Industry already IS a valid sector name, keep it as-is
+    df["Sector"]   = df["Industry"].map(SA_INDUSTRY_TO_SECTOR).fillna(df["Industry"])
+    df["Sector"]   = df["Sector"].replace("", "Other").fillna("Other")
     df = df.dropna(subset=["Yahoo"])
-    print(f"  Universe: {len(df)} stocks loaded")
+    print(f"  Universe: {len(df)} stocks loaded from {os.path.basename(csv_path)}")
     return df.reset_index(drop=True)
 
 

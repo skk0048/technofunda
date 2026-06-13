@@ -1,16 +1,76 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-Allianz SE,Financials,ALV.DE,EQ,
-Deutsche Bank AG,Financials,DBK.DE,EQ,
-Commerzbank AG,Financials,CBK.DE,EQ,
-Deutsche Boerse AG,Financials,DB1.DE,EQ,
-Muenchener Rueckversicherungs AG,Financials,MUV2.DE,EQ,
-Hannover Rueck SE,Financials,HNR1.DE,EQ,
-Aareal Bank AG,Financials,ARL.DE,EQ,
-Deutsche Pfandbriefbank AG,Financials,PBB.DE,EQ,
-DWS Group GmbH & Co. KGaA,Financials,DWS.DE,EQ,
-Grenke AG,Financials,GLJ.DE,EQ,
-Patrizia SE,Financials,PAT.DE,EQ,
-Wüstenrot & Württembergische AG,Financials,WUW.DE,EQ,
-Corestate Capital Holding SA,Financials,CCAP.DE,EQ,
-Hypoport SE,Financials,HYQ.DE,EQ,
-Legalitas AG,Financials,LGS.DE,EQ,
+Allianz SE,Financials,ALV.DE,EQ,DE0008404005
+Muenchener Rueckversicherungs AG,Financials,MUV2.DE,EQ,DE0008430026
+Deutsche Bank AG,Financials,DBK.DE,EQ,DE0005140008
+Deutsche Boerse AG,Financials,DB1.DE,EQ,DE0005810055
+Commerzbank AG,Financials,CBK0.DE,EQ,DE000A41YE64
+Commerzbank AG,Financials,CBK100.DE,EQ,DE000CBK1001
+Commerzbank AG,Financials,CBK.DE,EQ,DE000CBK1001
+Hannover Rueck SE,Financials,HNR1.DE,EQ,DE0008402215
+Talanx AG,Financials,TLX.DE,EQ,DE000TLX1005
+Talanx AG,Financials,TLX100.DE,EQ,DE000TLX1005
+Vonovia SE,Financials,A1ML7J.DE,EQ,DE000A1ML7J1
+DWS Group GmbH & Co. KGaA,Financials,DWS.DE,EQ,DE000DWS1007
+DWS Group GmbH & Co. KGaA,Financials,DWS100.DE,EQ,DE000DWS1007
+Deutsche Wohnen SE,Financials,A0HN5C.DE,EQ,DE000A0HN5C6
+LEG Immobilien SE,Financials,LEG111.DE,EQ,DE000LEG1110
+flatexDEGIRO SE,Financials,FTK.DE,EQ,DE000FTG1111
+flatexDEGIRO SE,Financials,FTG111.DE,EQ,DE000FTG1111
+Tradegate AG Wertpapierhandelsbank,Financials,T2G.DE,EQ,DE0005216907
+Wüstenrot & Württembergische AG,Financials,WUW.DE,EQ,DE0008051004
+NÜRNBERGER Beteiligungs-AG,Financials,NBG6.DE,EQ,DE0008435967
+Berliner Effektengesellschaft AG,Financials,BFV.DE,EQ,DE0005221303
+MLP SE,Financials,MLP.DE,EQ,DE0006569908
+MBB SE,Financials,A0ETBQ.DE,EQ,DE000A0ETBQ4
+Mutares SE & Co. KGaA,Financials,A2NB65.DE,EQ,DE000A2NB650
+Patrizia SE,Financials,PAT.DE,EQ,DE000PAT1AG3
+PATRIZIA SE,Financials,PAT1AG.DE,EQ,DE000PAT1AG3
+Grenke AG,Financials,GLJ.DE,EQ,DE000A161N30
+GRENKE AG,Financials,A161N3.DE,EQ,DE000A161N30
+Hypoport SE,Financials,HYQ.DE,EQ,DE0005493365
+ProCredit Holding AG,Financials,PCZ.DE,EQ,DE0006223407
+Deutsche Pfandbriefbank AG,Financials,PBB.DE,EQ,DE0008019001
+Deutsche Beteiligungs AG,Financials,DBAN.DE,EQ,DE000A1TNUT7
+Deutsche Beteiligungs AG,Financials,A1TNUT.DE,EQ,DE000A1TNUT7
+BAVARIA Industries Group AG,Financials,B8A.DE,EQ,DE0002605557
+AUR Portfolio III SE & Co. KGaA,Financials,A0LSAQ.DE,EQ,DE000A0LSAQ3
+Hamborner REIT AG,Financials,A3H233.DE,EQ,DE000A3H2333
+Instone Real Estate Group SE,Financials,A2NBX8.DE,EQ,DE000A2NBX80
+Baader Bank AG,Financials,BWB.DE,EQ,DE0005088108
+DN Group AG,Financials,D77.DE,EQ,DE000A3DW408
+DN Group AG,Financials,A3DW40.DE,EQ,DE000A3DW408
+OVB Holding AG,Financials,O4B.DE,EQ,DE0006286560
+JDC Group AG,Financials,JDC.DE,EQ,DE000A0B9N37
+JDC Group AG,Financials,A0B9N3.DE,EQ,DE000A0B9N37
+Lang & Schwarz AG,Financials,LUS1.DE,EQ,DE000LS1LUS9
+Allane SE,Financials,A0DPRE.DE,EQ,DE000A0DPRE6
+Allane SE,Financials,LNSX.DE,EQ,DE000A0DPRE6
+Eisen- und Huttenwerke AG,Financials,EIS.DE,EQ,DE0005658009
+VIB Vermoegen AG,Financials,A2YPDD.DE,EQ,DE000A2YPDD0
+VIB Vermoegen AG,Financials,VIH1.DE,EQ,DE000A2YPDD0
+Deutsche Real Estate AG,Financials,DRE2.DE,EQ,DE0008055021
+EUWAX AG,Financials,EUX.DE,EQ,DE0005660104
+sino Aktiengesellschaft,Financials,XTP.DE,EQ,DE0005765507
+OEKOWORLD AG Pref.,Financials,VVV3.DE,EQ,DE0005408686
+MPC Munchmeyer Petersen Capital AG,Financials,MPCK.DE,EQ,DE000A1TNWJ4
+MPC Munchmeyer Petersen Capital AG,Financials,A1TNWJ.DE,EQ,DE000A1TNWJ4
+Netfonds AG,Financials,NF4.DE,EQ,DE000A1MME74
+Netfonds AG,Financials,A1MME7.DE,EQ,DE000A1MME74
+Deutsche Konsum Real Estate AG,Financials,DKG.DE,EQ,DE000A14KRD3
+Deutsche Konsum Real Estate AG,Financials,A14KRD.DE,EQ,DE000A14KRD3
+Beta Systems Software AG,Financials,A0NK3W.DE,EQ,DE000A0NK3W4
+UmweltBank AG,Financials,UBK.DE,EQ,DE0005570808
+Quirin Privatbank AG,Financials,QB7.DE,EQ,DE0005202303
+DFV Deutsche Familienversicherung AG,Financials,A2NBVD.DE,EQ,DE000A2NBVD5
+Bitcoin Group SE,Financials,A1TNV9.DE,EQ,DE000A1TNV91
+Bitcoin Group SE,Financials,ADE.DE,EQ,DE000A1TNV91
+Heliad AG,Financials,A7A.DE,EQ,DE0001218063
+MPH Health Care AG,Financials,93M1.DE,EQ,DE000A289V03
+MPH Health Care AG,Financials,A289V0.DE,EQ,DE000A289V03
+DEFAMA Deutsche Fachmarkt AG,Financials,DEF.DE,EQ,DE000A13SUL5
+DEFAMA Deutsche Fachmarkt AG,Financials,A13SUL.DE,EQ,DE000A13SUL5
+FCR Immobilien AG,Financials,FC9.DE,EQ,DE000A1YC913
+FCR Immobilien AG,Financials,A1YC91.DE,EQ,DE000A1YC913
+MERKUR PRIVATBANK KGaA,Financials,MBK.DE,EQ,DE0008148206
+AGROB Immobilien AG,Financials,AGR.DE,EQ,DE0005019004
+AGROB Immobilien AG Pref,Financials,AGR3.DE,EQ,DE0005019038

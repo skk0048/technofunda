@@ -1,52 +1,139 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-America Movil,Communication Services,AMXB.MX,EQ,
-Walmart de Mexico,Consumer Staples,WALMEX.MX,EQ,
-Grupo Financiero Banorte,Financials,GFNORTEO.MX,EQ,
-Fomento Economico (FEMSA),Consumer Staples,FEMSAUBD.MX,EQ,
-Grupo Mexico,Materials,GMEXICOB.MX,EQ,
-Grupo Bimbo,Consumer Staples,BIMBOA.MX,EQ,
-Cemex,Materials,CEMEXCPO.MX,EQ,
-Grupo Televisa,Communication Services,TLEVISACPO.MX,EQ,
-Grupo Elektra,Financials,ELEKTRA.MX,EQ,
-Grupo Carso,Industrials,GCARSOA1.MX,EQ,
-Kimberly-Clark Mexico,Consumer Staples,KIMBERA.MX,EQ,
-Coca-Cola FEMSA,Consumer Staples,KOFUBL.MX,EQ,
-Arca Continental,Consumer Staples,AC.MX,EQ,
-Gruma,Consumer Staples,GRUMAB.MX,EQ,
-El Puerto de Liverpool,Consumer Discretionary,LIVEPOLC-1.MX,EQ,
-Alsea,Consumer Discretionary,ALSEA.MX,EQ,
-Grupo Aeroportuario Pacifico,Industrials,GAPB.MX,EQ,
-Grupo Aeroportuario Sureste,Industrials,ASURB.MX,EQ,
-OMA Airports,Industrials,OMAB.MX,EQ,
-Orbia Advance,Materials,ORBIA.MX,EQ,
-Alfa,Industrials,ALFAA.MX,EQ,
-Grupo Financiero Inbursa,Financials,GFINBURO.MX,EQ,
-Regional,Financials,RA.MX,EQ,
-Gentera,Financials,GENTERA.MX,EQ,
-Banco del Bajio,Financials,BBAJIOO.MX,EQ,
-Megacable,Communication Services,MEGACPO.MX,EQ,
-Industrias Penoles,Materials,PE&OLES.MX,EQ,
-Grupo Cementos Chihuahua,Materials,GCC.MX,EQ,
-Bachoco,Consumer Staples,BACHOCOB.MX,EQ,
-Vesta,Real Estate,VESTA.MX,EQ,
-Fibra Uno,Real Estate,FUNO11.MX,EQ,
-Becle (Jose Cuervo),Consumer Staples,CUERVO.MX,EQ,
-Genomma Lab,Health Care,LABB.MX,EQ,
-Qualitas Controladora,Financials,Q.MX,EQ,
-Grupo Comercial Chedraui,Consumer Staples,CHDRAUIB.MX,EQ,
-Industrias CH,Materials,ICHB.MX,EQ,
-Simec,Materials,SIMECB.MX,EQ,
-Grupo Rotoplas,Industrials,AGUA.MX,EQ,
-Fibra Prologis,Real Estate,FIBRAPL14.MX,EQ,
-Fibra Macquarie,Real Estate,FIBRAMQ12.MX,EQ,
-Terrafina,Real Estate,TERRA13.MX,EQ,
-Grupo GICSA,Real Estate,GICSAB.MX,EQ,
-Promotora y Operadora,Industrials,PINFRA.MX,EQ,
-Grupo Aeromexico,Industrials,AEROMEX.MX,EQ,
-Volaris,Industrials,VOLARA.MX,EQ,
-Grupo Lala,Consumer Staples,LALAB.MX,EQ,
-Grupo Herdez,Consumer Staples,HERDEZ.MX,EQ,
-Grupo Sports World,Consumer Discretionary,SPORTS.MX,EQ,
-Banco Santander Mexico,Financials,BSMXB.MX,EQ,
-Operadora de Sites Mexicanos,Communication Services,SITESB-1.MX,EQ,
-Grupo Mexico Transportes,Industrials,GMXT.MX,EQ,
+Grupo Mexico,Materials,GMEXICOB.MX,EQ,MXP370841019
+America Movil,Communication Services,AMXB.MX,EQ,MX01AM050019
+Walmart de Mexico,Consumer Staples,WALMEX.MX,EQ,MX01WA000038
+Grupo Financiero Banorte,Financials,GFNORTEO.MX,EQ,MXP370711014
+Fomento Económico Mexicano  S.A.B. de C.V.,Consumer Staples,FEMSAUB.MX,EQ,MXP320321211
+Fomento Economico (FEMSA),Consumer Staples,FEMSAUBD.MX,EQ,MXP320321310
+Arca Continental,Consumer Staples,AC.MX,EQ,MX01AC100006
+Cemex,Materials,CEMEXCPO.MX,EQ,MXP225611567
+Industrias Penoles SAB de CV,Materials,PE_OLES.MX,EQ,MXP554091415
+Grupo Carso,Industrials,GCARSOA1.MX,EQ,MXP461181085
+Grupo Financiero Inbursa,Financials,GFINBURO.MX,EQ,MXP370641013
+Grupo Bimbo,Consumer Staples,BIMBOA.MX,EQ,MXP495211262
+Grupo Aeroportuario Pacifico,Industrials,GAPB.MX,EQ,MX01GA000004
+Grupo Aeroportuario Sureste,Industrials,ASURB.MX,EQ,MXP001661018
+El Puerto de Liverpool  S.A.B. de C.V.,Consumer Discretionary,LIVEPOL1.MX,EQ,MXP369181112
+El Puerto de Liverpool,Consumer Discretionary,LIVEPOLC-1.MX,EQ,MXP369181377
+Fibra Prologis,Real Estate,FIBRAPL14.MX,EQ,MXCFFI170008
+Impulsora del Desarrollo y el Empleo en America Latina SAB Class B,Industrials,IDEALB-1.MX,EQ,MX01ID000009
+Vista Energy  S.A.B. de C.V.,Energy,VISTAA.MX,EQ,MX01VI0C0006
+Promotora y Operadora,Industrials,PINFRA.MX,EQ,MX01PI000005
+Promotora y Operadora de Infraestructura  S. A. B. de C. V.,Industrials,PINFRAL.MX,EQ,MX01PI000013
+Fibra Uno,Real Estate,FUNO11.MX,EQ,MXCFFU000001
+Kimberly-Clark Mexico,Consumer Staples,KIMBERA.MX,EQ,MXP606941179
+Kimberly-Clark de México  S. A. B. de C. V.,Consumer Staples,KIMBERB.MX,EQ,MXP606941096
+Gruma,Consumer Staples,GRUMAB.MX,EQ,MXP4948K1056
+Coca-Cola FEMSA,Consumer Staples,KOFUBL.MX,EQ,MX01KO000002
+Simec,Materials,SIMECB.MX,EQ,MXP4984U1083
+Sigma Foods  S.A.B. de C.V.,Consumer Staples,SIGMAFA.MX,EQ,MXP000511016
+Grupo Comercial Chedraui,Consumer Staples,CHDRAUIB.MX,EQ,MX01CH170002
+OMA Airports,Industrials,OMAB.MX,EQ,MX01OM000018
+Industrias CH,Materials,ICHB.MX,EQ,MXP524131127
+Corporación Moctezuma  S.A.B. de C.V.,Materials,CMOCTEZ.MX,EQ,MXP314311103
+Qualitas Controladora,Financials,Q.MX,EQ,MX01Q0000008
+Grupo Cementos Chihuahua,Materials,GCC.MX,EQ,MX01GC2M0006
+Minera Frisco  S.A.B. de C.V.,Materials,MFRISCOA-1.MX,EQ,MX01MF010000
+Banco del Bajio,Financials,BBAJIOO.MX,EQ,MX41BB000000
+Gentera,Financials,GENTERA.MX,EQ,MX01GE0E0004
+Organización Soriana  S. A. B. de C. V.,Consumer Discretionary,SORIANAB.MX,EQ,MXP8728U1671
+Vesta,Real Estate,VESTA.MX,EQ,MX01VE0M0003
+Operadora de Sites Mexicanos  S.A.B. de C.V.,Industrials,SITES1A-1.MX,EQ,MX01SI0C0002
+Becle (Jose Cuervo),Consumer Staples,CUERVO.MX,EQ,MX01CU010003
+Corporativo Fragua  S.A.B. de C.V.,Health Care,FRAGUAB.MX,EQ,MXP321131015
+Fibra Mty  S.A.P.I. de C.V.,Financials,FMTY14.MX,EQ,MXCFFM010000
+Grupo Aeroméxico  S.A.B. de C.V.,Industrials,AERO.MX,EQ,MX01AE040002
+Orbia Advance,Materials,ORBIA.MX,EQ,MX01OR010004
+Fibra Danhos,Real Estate,DANHOS13.MX,EQ,MXCFDA020005
+Regional,Financials,RA.MX,EQ,MX01R0000006
+Alsea,Consumer Discretionary,ALSEA.MX,EQ,MXP001391012
+Empresas Cablevision SA de CV Cert.Part.Ord. Repr. 2 Shs A & 1 Shs B,Consumer Discretionary,CABLECPO.MX,EQ,MX01CA110005
+Grupo Profuturo  S.A.B. de C.V.,Financials,GPROFUT.MX,EQ,MX01GP010006
+Fibra Macquarie,Real Estate,FIBRAMQ12.MX,EQ,MXCFFI0U0002
+Grupo Lamosa SAB de CV,Industrials,LAMOSA.MX,EQ,MX01LA000007
+Grupo Gigante  S. A. B. de C. V.,Consumer Discretionary,GIGANTE.MX,EQ,MXP370791214
+Grupo Bafar  S.A.B. de C.V.,Consumer Staples,BAFARB.MX,EQ,MXP100901018
+Megacable,Communication Services,MEGACPO.MX,EQ,MX01ME090003
+Corporativo GBM  S.A.B. de C.V.,Financials,GBMO.MX,EQ,MX01GB0D0001
+Grupo Nacional Provincial SA,Financials,GNP.MX,EQ,MXP4960P1070
+ALPEK  S.A.B. de C.V.,Materials,ALPEKA.MX,EQ,MX01AL0C0004
+Kuo  S.A.B. de C.V.,Consumer Staples,KUOA.MX,EQ,MX01KU000004
+Kuo  S.A.B. de C.V.,Consumer Staples,KUOB.MX,EQ,MX01KU000012
+Corporacion Interamericana de Entretenimiento SA de CV Class B,Consumer Discretionary,CIEB.MX,EQ,MXP201161017
+Infraestructura Viable  S.A. de C.V.,Financials,FVIA16.MX,EQ,MXFFFV000007
+Sitios Latinoamérica  S.A.B. de C.V.,Industrials,LASITE.MX,EQ,MX01LA080025
+Grupo Televisa,Communication Services,TLEVISACPO.MX,EQ,MXP4987V1378
+Fideicomiso Irrevocable Numero Cib/2919 (Cfe Fibra E),Financials,FCFE18.MX,EQ,MXFEFC0C0003
+Fibra Nova,Real Estate,FNOVA17.MX,EQ,MXCFFN040006
+Bolsa Mexicana de Valores  S.A.B. de C.V.,Financials,BOLSAA.MX,EQ,MX01BM1B0000
+México Infrastructure Partners F1 S.A.P.I. de C.V.,Financials,FEXI21.MX,EQ,MXFFFE0K0006
+RLH Properties SAB de CV Class A,Financials,RLHA.MX,EQ,MX01RL000016
+La Comer  S.A.B. de C.V.,Consumer Discretionary,LACOMERUBC.MX,EQ,MX01LA050010
+Grupo Herdez,Consumer Staples,HERDEZ.MX,EQ,MX01HE010008
+Grupo Palacio de Hierro SAB de CV,Consumer Discretionary,GPH1.MX,EQ,MXP496851033
+INVEX Controladora  S.A.B. de C.V.,Financials,INVEXA.MX,EQ,MX01IN4J0002
+Volaris,Industrials,VOLARA.MX,EQ,MX01VO000009
+DINE  S.A.B. de C.V.,Real Estate,DINEB.MX,EQ,MX01DI1J0014
+DINE  S.A.B. de C.V.,Real Estate,DINEA.MX,EQ,MX01DI1J0006
+Grupo Posadas SAB de CV Class A,Consumer Discretionary,POSADASA.MX,EQ,MXP791641105
+Genomma Lab,Health Care,LABB.MX,EQ,MX01LA010006
+Cydsa  S.A.B. de C.V.,Materials,CYDSASAA.MX,EQ,MXP339881098
+Corporación Actinver  S. A. B. de C. V.,Financials,ACTINVRB.MX,EQ,MX01AC0Q0007
+Farmacias Benavides SAB de CV Class B,Consumer Discretionary,BEVIDESB.MX,EQ,MXP3895X1106
+Nemak  S. A. B. de C. V.,Consumer Discretionary,NEMAKA.MX,EQ,MX01NE000001
+Value Grupo Financiero SA de CV Class O,Financials,VALUEGFO.MX,EQ,MXP800761019
+Ollamani  S.A.B.,Consumer Discretionary,AGUILASCPO.MX,EQ,MX01AG080022
+Organización Cultiba  S.A.B. de C.V.,Consumer Staples,CULTIBAB.MX,EQ,MX01CU000004
+Acosta Verde SAB de CV Class A,Financials,GAVA.MX,EQ,MX01GA060008
+FIBRAeMX,Financials,FMX23.MX,EQ,MXFFFM040012
+Vinte Viviendas Integrales  S.A.B. de C.V.,Real Estate,VINTE.MX,EQ,MX01VI050002
+Fibra Shop,Real Estate,FSHOP13.MX,EQ,MXCFFS000005
+Axtel  S.A.B. de C.V.,Communication Services,AXTELCPO.MX,EQ,MX01AX040009
+CIBanco SA Institucion de Banca Multiple,Financials,STORAGE18.MX,EQ,MXCFST270008
+Grupo Rotoplas,Industrials,AGUA.MX,EQ,MX01AG050009
+Médica Sur  S.A.B. de C.V.,Health Care,MEDICAB.MX,EQ,MXP510121215
+FibraHotel,Real Estate,FIHO12.MX,EQ,MXCFFI0T0005
+Consorcio ARA  S. A. B. de C. V.,Consumer Discretionary,ARA.MX,EQ,MXP001161019
+Grupo Financiero Multiva  S.A.B. de C.V.,Financials,GFMULTIO.MX,EQ,MXP6990U1056
+Grupo Traxión  S.A.B. de C.V.,Industrials,TRAXIONA.MX,EQ,MX01TR0H0006
+Fideicomiso Irrevocable F/2061 FHipo,Financials,FHIPO14.MX,EQ,MXFHFH020001
+Grupo GICSA,Real Estate,GICSAB.MX,EQ,MX01GI020004
+Promotora Ambiental SAB de CV Class B,Industrials,PASAB.MX,EQ,MX01PA0B0006
+Controladora Axtel S.A.B. de C.V.,Technology,CTAXTELA.MX,EQ,MX01CT0D0002
+Accel SAB de CV Class B,Industrials,ACCELSAB.MX,EQ,MXP000171316
+Pena Verde SAB,Financials,PV.MX,EQ,MX01PV000008
+Cox Energy America SAB de CV Class A,Utilities,COXA.MX,EQ,MX01CO0U0028
+Fideicomiso Irrevocable db/1616,Real Estate,FINN13.MX,EQ,MXCFFI0V0001
+Grupo Industrial Saltillo  S.A.B. de C.V.,Consumer Discretionary,GISSAA.MX,EQ,MX01GI000030
+Grupo Hotelero Santa Fe  S.A.B. de C.V.,Consumer Discretionary,HOTEL.MX,EQ,MX01HO090008
+Grupo Minsa  S.A.B. de C.V.,Consumer Staples,MINSAB.MX,EQ,MXP510501119
+Fibra Plus,Financials,FPLUS16.MX,EQ,MXCFFP050003
+Vitro  S.A.B. de C.V.,Materials,VITROA.MX,EQ,MXP9802B1093
+Financiera Independencia S.A.B. de C.V. SOFOM E.N.R.,Financials,FINDEP.MX,EQ,MX00FI050003
+Casa de Bolsa Finamex SAB de CV Class O,Financials,FINAMEXO.MX,EQ,MX03FI2S0005
+Corpovael  S.A.B. de C.V.,Real Estate,CADUA.MX,EQ,MX01CA130029
+Compañía Minera Autlán  S.A.B. de C.V.,Materials,AUTLANB.MX,EQ,MXP0598H1110
+Promotora de Hoteles Norte 19  S.A.B. de C.V.,Consumer Discretionary,HCITY.MX,EQ,MX01HC000001
+Grupo Sports World,Consumer Discretionary,SPORTS.MX,EQ,MX01SP020001
+Fibra Upsite,Industrials,FIBRAUP18.MX,EQ,MXCFFI1U0001
+Grupo TMM  S.A.B.,Industrials,TMMA.MX,EQ,MX01TM000005
+G. Collado SAB de CV,Industrials,COLLADO.MX,EQ,MXP201301019
+Grupe  S.A.B. de C.V.,Consumer Discretionary,CIDMEGA.MX,EQ,MX01CI030007
+Grupo Mexicano de Desarrollo SAB,Financials,GMD.MX,EQ,MX01GM080002
+Fideicomiso Irrevocable No. F/1523,Real Estate,FIBRAHD15.MX,EQ,MXCFFI1H0008
+Alterna Asesoría Internacional  S.A.B. de C.V.,Financials,ALTERNAB.MX,EQ,MX01AL2G0008
+Grupo Pochteca  S.A.B. de C.V.,Materials,POCHTECB.MX,EQ,MX01PO020005
+CMR  S.A.B. de C.V.,Consumer Discretionary,CMRB.MX,EQ,MX01CM020002
+Procorp SAB de CV Class B,Financials,PROCORPB.MX,EQ,MXP791441043
+Convertidora Industrial  S.A.B. de C.V.,Consumer Discretionary,CONVERA.MX,EQ,MXP201231117
+Proteak Uno  S.A.B. de C.V.,Materials,TEAKCPO.MX,EQ,MX01TE0A0001
+Grupo Vasconia  S.A.B.,Consumer Discretionary,VASCONI.MX,EQ,MX01VA110002
+Diablos Rojos Del Mexico SAPIB DE CV Class O,Consumer Discretionary,DIABLOSO.MX,EQ,MX1SDI2B0012
+Tenedora de Acciones CM  S.A.P.I.B. De C.V,Financials,GLOBCA.MX,EQ,MX1SGL050004
+Nearshoring Experts & Technology  S.C.,Financials,NEXT25.MX,EQ,MXCFNE040015
+Grupo Nutrisa  S.A.B. de C.V.,Consumer Staples,NUTRISAA.MX,EQ,MX01NU070004
+Fibra SOMA,Financials,SOMA21.MX,EQ,MXCFSO0F0002
+Fideicomiso Irrevocable No. F/3277 en Banco Invex  S. A. Institución de Banca Múltiple  INVEX Grupo,Real Estate,EDUCA18.MX,EQ,MXCFED090004
+Esentia Energy Systems,Energy,ESENTIAII.MX,EQ,MX01ES050019
+AgroFibra,Financials,AGRO22.MX,EQ,MXCFAG060016
+Industrias Peñoles  S.A.B. de C.V.,Materials,PE&OLES.MX,EQ,

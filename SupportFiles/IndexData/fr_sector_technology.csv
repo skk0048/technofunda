@@ -1,120 +1,96 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-Airbus SE,Technology,AIR.PA,EQ,
-Safran SA,Technology,SAF.PA,EQ,
-STMicroelectronics NV,Technology,STMPA.PA,EQ,
-Thales SA,Technology,HO.PA,EQ,
-Legrand SA,Technology,LR.PA,EQ,
-Dassault Systemes SE,Technology,DSY.PA,EQ,
-Dassault Aviation SA,Technology,AM.PA,EQ,
-Capgemini SE,Technology,CAP.PA,EQ,
-Soitec SA,Technology,SOI.PA,EQ,
-Exosens SA,Technology,EXENS.PA,EQ,
-LISI SA,Technology,FII.PA,EQ,
-Sopra Steria Group SA,Technology,SOP.PA,EQ,
-OVH Groupe S.A.,Technology,OVH.PA,EQ,
-Societe Industrielle & Financiere de l'Artois SA,Technology,ARTO.PA,EQ,
-VusionGroup S.A.,Technology,VU.PA,EQ,
-Exail Technologies SA,Technology,EXA.PA,EQ,
-Planisware Societe anonyme,Technology,PLNW.PA,EQ,
+Dassault Systemes SE,Technology,DSY.PA,EQ,FR0014003TT8
+Capgemini SE,Technology,CAP.PA,EQ,FR0000125338
+Soitec SA,Technology,SOI.PA,EQ,FR0013227113
+Edenred SE,Technology,EDEN.PA,EQ,FR0010908533
+Sopra Steria Group SA,Technology,SOP.PA,EQ,FR0000050809
+Société Industrielle et Financière de l'Artois Société anonyme,Technology,ARTO.PA,EQ,FR0000076952
+OVH Groupe S.A.,Technology,OVH.PA,EQ,FR0014005HJ9
+Vusion S.A.,Technology,VU.PA,EQ,FR0010282822
+Alten SA,Technology,ATE.PA,EQ,FR0000071946
+PLANISWARE,Technology,PLNW.PA,EQ,FR001400PFU4
+2CRSI S.A.,Technology,AL2SI.PA,EQ,FR0013341781
+74SOFTWARE,Technology,74SW.PA,EQ,FR0011040500
+Wavestone SA,Technology,WAVE.PA,EQ,FR0013357621
+Neurones S.A.,Technology,NRO.PA,EQ,FR0004050250
+Aubay SA,Technology,AUB.PA,EQ,FR0000063737
+Atos SE,Technology,ATO.PA,EQ,FR001400X2S4
+Ubisoft Entertainment SA,Technology,UBI.PA,EQ,FR0000054470
+Worldline SA,Technology,WLN.PA,EQ,FR0011981968
+Lectra SA,Technology,LSS.PA,EQ,FR0000065484
+SEMCO Technologies Société anonyme,Technology,ALSEM.PA,EQ,FR0014010H01
+Quadient SA,Technology,QDT.PA,EQ,FR0000120560
+Parrot S.A.,Technology,PARRO.PA,EQ,FR0004038263
+Sword Group S.E.,Technology,SWP.PA,EQ,FR0004180578
+Riber S.A.,Technology,ALRIB.PA,EQ,FR0000075954
+Infotel SA,Technology,INF.PA,EQ,FR0000071797
+Sidetrade SA,Technology,ALBFR.PA,EQ,FR0010202606
+Streamwide S.A.,Technology,ALSTW.PA,EQ,FR0010528059
+Linedata Services S.A.,Technology,LIN.PA,EQ,FR0004156297
+Kalray S.A.,Technology,ALKAL.PA,EQ,FR0010722819
+WALLIX GROUP SA,Technology,ALLIX.PA,EQ,FR0010131409
+NSE S.A.,Technology,ALNSE.PA,EQ,FR0004065639
+Ateme SA,Technology,ATEME.PA,EQ,FR0011992700
+CAPITAL B,Technology,ALCPB.PA,EQ,FR0011053636
+Cheops Technology France Société anonyme,Technology,MLCHE.PA,EQ,FR0010447086
+Keyrus S.A.,Technology,ALKEY.PA,EQ,FR0004029411
+LACROIX Group SA,Technology,LACR.PA,EQ,FR0000066607
+EKINOPS S.A.,Technology,EKI.PA,EQ,FR0011466069
+We.Connect SA,Technology,ALWEC.PA,EQ,FR0013079092
+Solutions 30 SE,Technology,S30.PA,EQ,FR0013379484
+Groupe LDLC société anonyme,Technology,ALLDL.PA,EQ,FR0000075442
+MGI Digital Technology Société Anonyme,Technology,ALMDG.PA,EQ,FR0010353888
+Coheris SA,Technology,COH.PA,EQ,FR0004031763
+Guillemot Corporation S.A.,Technology,GUI.PA,EQ,FR0000066722
+Icape Holding S.A.,Technology,ALICA.PA,EQ,FR001400A3Q3
+MEMSCAP  S.A.,Technology,MEMS.PA,EQ,FR0010298620
+Claranova SE,Technology,ALCLA.PA,EQ,FR0013426004
+PRODWAYS GROUP,Technology,ALPWG.PA,EQ,FR0012613610
+Prologue S.A.,Technology,ALPRG.PA,EQ,FR0010380626
+HiPay Group SA,Technology,ALHYP.PA,EQ,FR0012821916
+Drone Volt SA,Technology,ALDRV.PA,EQ,FR001400SVN0
+Broadpeak Société anonyme,Technology,ALBPK.PA,EQ,FR001400AJZ7
+IT Link SA,Technology,ALITL.PA,EQ,FR0000072597
+Netgem SA,Technology,ALNTG.PA,EQ,FR0004154060
+LightOn SA,Technology,ALTAI.PA,EQ,FR0013230950
+Octopus Biosafety SA,Technology,MLOCT.PA,EQ,FR0013310281
+HITECHPROS Société anonyme,Technology,ALHIT.PA,EQ,FR0010396309
+Egide S.A.,Technology,ALGID.PA,EQ,FR0000072373
+Logic Instrument S.A.,Technology,ALLOG.PA,EQ,FR0000044943
+Verimatrix SA,Technology,VMX.PA,EQ,FR0010291245
+Novatech Industries,Technology,MLNOV.PA,EQ,FR0000185464
+RocTool S.A.,Technology,ALROC.PA,EQ,FR0010523167
+MACOMPTA.FR,Technology,ALCPA.PA,EQ,FR001400NQB6
+HF Company SA,Technology,ALHF.PA,EQ,FR0000038531
+Vogo SA,Technology,ALVGO.PA,EQ,FR0011532225
+Tractial S.A.,Technology,ALTRA.PA,EQ,FR0014014ZV8
+Archos S.A.,Technology,ALJXR.PA,EQ,FR001400KO61
+TXCOM Société Anonyme,Technology,ALTXC.PA,EQ,FR0010654087
+Cofidur S.A.,Technology,ALCOF.PA,EQ,FR0013257409
+ENENSYS Technologies SA,Technology,ALNN6.PA,EQ,FR0013330792
+Innelec Multimédia SA,Technology,ALINN.PA,EQ,FR0000064297
+Kerlink SA,Technology,ALKLK.PA,EQ,FR0013156007
+Cibox Inter@ctive,Technology,ALCBX.PA,EQ,FR0000054322
+Onlineformapro SA,Technology,MLONL.PA,EQ,FR0004174712
+Union Technologies Informatique Group S.A.,Technology,FPG.PA,EQ,FR0000074197
+Groupe Tera SA,Technology,ALGTR.PA,EQ,FR0013429404
+Largo SA,Technology,ALLGO.PA,EQ,FR0013308582
+Avenir Telecom S.A.,Technology,AVT.PA,EQ,FR001400CFI7
+BigBen Interactive,Technology,BIG.PA,EQ,FR0000074072
+Activium Group SAS,Technology,MLACT.PA,EQ,FR0010979377
+Proactis SA,Technology,PROAC.PA,EQ,FR0004052561
+Locasystem International SA,Technology,MLLOI.PA,EQ,FR0004155208
+Munic S.A.,Technology,ALMUN.PA,EQ,FR0013462231
+Adeunis Société anonyme,Technology,ALARF.PA,EQ,FR0013284627
+Immersion SA,Technology,ALIMR.PA,EQ,FR0013060100
+Acteos SA,Technology,EOS.PA,EQ,FR0000076861
+Ordissimo SA,Technology,ALORD.PA,EQ,FR0013318052
+GECI International S.A.,Technology,ALGEC.PA,EQ,FR001400M1R1
+Boostheat SA,Technology,ALBOO.PA,EQ,FR00140153G5
+STMicroelectronics N.V.,Technology,STMPA.PA,EQ,
 X-FAB Silicon Foundries SE,Technology,XFAB.PA,EQ,
-H&K AG,Technology,MLHK.PA,EQ,
-2CRSI SA,Technology,AL2SI.PA,EQ,
-Atos SE,Technology,ATO.PA,EQ,
-UBISOFT Entertainment,Technology,UBI.PA,EQ,
-Lectra SA,Technology,LSS.PA,EQ,
-Equasens SA,Technology,EQS.PA,EQ,
-Lumibird SA,Technology,LBIRD.PA,EQ,
-SEMCO Technologies,Technology,ALSEM.PA,EQ,
-Figeac Aero SA,Technology,FGA.PA,EQ,
-Quadient SA,Technology,QDT.PA,EQ,
-Parrot SA,Technology,PARRO.PA,EQ,
-Gerard Perrier Industrie SA,Technology,PERR.PA,EQ,
-Sword Group SE,Technology,SWP.PA,EQ,
-Riber SA,Technology,ALRIB.PA,EQ,
-Embention Sistemas Inteligentes SA,Technology,MLUAV.PA,EQ,
-Infotel SA,Technology,INF.PA,EQ,
-Sidetrade SA,Technology,ALBFR.PA,EQ,
-Carvolix,Technology,CVX.PA,EQ,
-Linedata Services SA,Technology,LIN.PA,EQ,
-Latecoere SA,Technology,LAT.PA,EQ,
-Kalray SA,Technology,ALKAL.PA,EQ,
-Wallix Group SA,Technology,ALLIX.PA,EQ,
-NSE SA,Technology,ALNSE.PA,EQ,
-Cegedim SA,Technology,ALCGM.PA,EQ,
-Ateme SA,Technology,ATEME.PA,EQ,
-Deezer SA,Technology,DEEZR.PA,EQ,
-Cheops Technology SA,Technology,MLCHE.PA,EQ,
-Keyrus SA,Technology,ALKEY.PA,EQ,
-SOGECLAIR SA,Technology,ALSOG.PA,EQ,
-Grenobloise d'Electronique et d'Automatismes SA,Technology,GEA.PA,EQ,
-Vaziva SA,Technology,ALVAZ.PA,EQ,
-Lacroix Group SA,Technology,LACR.PA,EQ,
-Ekinops SA,Technology,EKI.PA,EQ,
-Solutions 30 SE,Technology,S30.PA,EQ,
-WE.CONNECT SA,Technology,ALWEC.PA,EQ,
-Pullup Entertainment,Technology,ALPUL.PA,EQ,
-Energy Solar Tech S.A.,Technology,ALETC.PA,EQ,
-Bilendi SA,Technology,ALBLD.PA,EQ,
-Coheris SA,Technology,COH.PA,EQ,
-Lexibook Linguistic Electronic System SA,Technology,ALLEX.PA,EQ,
-Atari SA,Technology,ALATA.PA,EQ,
-Facephi Biometria SA,Technology,ALPHI.PA,EQ,
-Vantiva SA,Technology,VANTI.PA,EQ,
-MEMSCAP SA,Technology,MEMS.PA,EQ,
-Claranova SE,Technology,ALCLA.PA,EQ,
-MEXEDIA S.P.A.,Technology,ALMEX.PA,EQ,
-Drone Volt SA,Technology,ALDRV.PA,EQ,
-DNXCORP SE,Technology,ALDNX.PA,EQ,
-Broadpeak SA,Technology,ALBPK.PA,EQ,
-LightOn S.A.,Technology,ALTAI.PA,EQ,
-Netgem SA,Technology,ALNTG.PA,EQ,
-IT Link SA,Technology,ALITL.PA,EQ,
-Virtualware 2007 SA,Technology,ALVIR.PA,EQ,
-Crypto Blockchain Industries SA,Technology,ALCBI.PA,EQ,
-Egide SA,Technology,ALGID.PA,EQ,
-Verimatrix SA,Technology,VMX.PA,EQ,
-HiTechPros SA,Technology,ALHIT.PA,EQ,
-Tonner Drones S.A.,Technology,ALTD.PA,EQ,
-Logic Instrument SA Class A,Technology,ALLOG.PA,EQ,
-Novatech Industries SA,Technology,MLNOV.PA,EQ,
-Arcure SA,Technology,ALCUR.PA,EQ,
-MACOMPTA.FR S.A.,Technology,ALCPA.PA,EQ,
-HF Company,Technology,ALHF.PA,EQ,
-Obiz SA,Technology,ALBIZ.PA,EQ,
-Witbe SA,Technology,ALWIT.PA,EQ,
-MG International,Technology,ALMGI.PA,EQ,
-Intrasense SA,Technology,ALINS.PA,EQ,
-Archos SA,Technology,ALJXR.PA,EQ,
-i2S SA,Technology,ALI2S.PA,EQ,
-Grolleau,Technology,ALGRO.PA,EQ,
-TXCom SA,Technology,ALTXC.PA,EQ,
-Cofidur SA,Technology,ALCOF.PA,EQ,
-WINAMP GROUP,Technology,ALWIN.PA,EQ,
-Vogo SA,Technology,ALVGO.PA,EQ,
-Predilife SA,Technology,ALPRE.PA,EQ,
-ENENSYS Technologies SA,Technology,ALNN6.PA,EQ,
-Cibox Inter@ctive SA,Technology,ALCBX.PA,EQ,
-Kerlink SA,Technology,ALKLK.PA,EQ,
-Onlineformapro SA,Technology,MLONL.PA,EQ,
-Union Technologies Informatique Group SA,Technology,FPG.PA,EQ,
-Groupe Tera SA,Technology,ALGTR.PA,EQ,
-Bluelinea SA,Technology,ALBLU.PA,EQ,
-Avenir Telecom SA,Technology,AVT.PA,EQ,
-Bigben Interactive SA,Technology,BIG.PA,EQ,
-Don't Nod Entertainment SA,Technology,ALDNE.PA,EQ,
-AMA Corporation Plc,Technology,ALAMA.PA,EQ,
-Proactis SA,Technology,PROAC.PA,EQ,
-Pacte Novation,Technology,MLPAC.PA,EQ,
-Locasystem International SA,Technology,MLLOI.PA,EQ,
-Munic SA,Technology,ALMUN.PA,EQ,
-Adeunis RF SA,Technology,ALARF.PA,EQ,
-Damaris SA,Technology,MLDAM.PA,EQ,
-ETHERO,Technology,ALENT.PA,EQ,
-Acteos SA,Technology,EOS.PA,EQ,
-Ordissimo SA,Technology,ALORD.PA,EQ,
-Immersion SA,Technology,ALIMR.PA,EQ,
-GECI International SA,Technology,ALGEC.PA,EQ,
-Azorean-Aquatic Technologies SA,Technology,MLAAT.PA,EQ,
-Lepermislibre SA,Technology,ALLPL.PA,EQ,
-Lucibel S.A.,Technology,ALUCI.PA,EQ,
-Mutter Ventures SA,Technology,MLMUT.PA,EQ,
+Embention Sistemas Inteligentes  S.A.,Technology,MLUAV.PA,EQ,
+Facephi Biometria  S.A.,Technology,ALPHI.PA,EQ,
+VIRTUALWARE,Technology,ALVIR.PA,EQ,
+SA Energisme,Technology,ALNRG.PA,EQ,
+Metavisio,Technology,ALTHO.PA,EQ,

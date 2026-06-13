@@ -1,81 +1,61 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-FirstRand Limited,Financials,FSR.JO,EQ,
-Capitec Bank Holdings Limited,Financials,CPI.JO,EQ,
-Standard Bank Group Limited,Financials,SBK.JO,EQ,
-Investec Limited Non-Red.Non-Cum.Non-Ptg.Prf.Shs,Financials,INPR.JO,EQ,
-Investec Limited,Financials,INL.JO,EQ,
-Absa Group Limited,Financials,ABG.JO,EQ,
-Discovery Limited,Financials,DSY.JO,EQ,
-Sanlam Limited,Financials,SLM.JO,EQ,
-Nedbank Group,Financials,NED.JO,EQ,
-Investec plc,Financials,INP.JO,EQ,
-OUTsurance Group Limited,Financials,OUT.JO,EQ,
-Remgro Limited,Financials,REM.JO,EQ,
-NEPI Rockcastle N.V.,Financials,NRP.JO,EQ,
-Ninety One Plc,Financials,N91.JO,EQ,
-Ninety One Ltd.,Financials,NY1.JO,EQ,
-Reinet Investments S.C.A.,Financials,RNI.JO,EQ,
-Old Mutual Ltd.,Financials,OMU.JO,EQ,
-Shaftesbury Capital PLC,Financials,SHC.JO,EQ,
-Quilter Plc,Financials,QLT.JO,EQ,
-Growthpoint Properties Limited,Financials,GRT.JO,EQ,
-Primary Health Properties PLC,Financials,PHP.JO,EQ,
-Momentum Group Limited,Financials,MTM.JO,EQ,
-Santam Limited,Financials,SNT.JO,EQ,
-Redefine Properties Limited,Financials,RDF.JO,EQ,
-Hammerson plc,Financials,HMN.JO,EQ,
-PSG Financial Services Limited,Financials,KST.JO,EQ,
-Vukile Property Fund Limited,Financials,VKE.JO,EQ,
-Sirius Real Estate Limited,Financials,SRE.JO,EQ,
-Resilient REIT Limited,Financials,RES.JO,EQ,
-Fortress Real Estate Investments Limited Class B,Financials,FFB.JO,EQ,
-Supermarket Income REIT Plc,Financials,SRI.JO,EQ,
-Hyprop Investments Limited,Financials,HYP.JO,EQ,
-Coronation Fund Managers Limited,Financials,CML.JO,EQ,
-Fairvest Limited Class A,Financials,FTA.JO,EQ,
-Fairvest Limited Class B,Financials,FTB.JO,EQ,
-Lighthouse Properties Plc,Financials,LTE.JO,EQ,
-MAS P.L.C.,Financials,MSP.JO,EQ,
-Equites Property Fund Ltd ZAR,Financials,EQU.JO,EQ,
-JSE Limited,Financials,JSE.JO,EQ,
-Attacq Limited,Financials,ATT.JO,EQ,
-Alexander Forbes Group Holdings Limited,Financials,AFH.JO,EQ,
-SA Corporate Real Estate Ltd.,Financials,SAC.JO,EQ,
-Brait PLC,Financials,BAT.JO,EQ,
-Stor-Age Property REIT Ltd.,Financials,SSS.JO,EQ,
-Burstone Group Limited,Financials,BTN.JO,EQ,
-Dipula Properties Limited Class B,Financials,DIB.JO,EQ,
-Emira Property Fund Ltd.,Financials,EMI.JO,EQ,
-Spear REIT Ltd.,Financials,SEA.JO,EQ,
-Weaver Fintech Ltd.,Financials,WVR.JO,EQ,
-Sabvest Capital Ltd.,Financials,SBP.JO,EQ,
-Sygnia Ltd.,Financials,SYG.JO,EQ,
-Octodec Investments Limited,Financials,OCT.JO,EQ,
-Acsion Limited,Financials,ACS.JO,EQ,
-Collins Property Group Limited,Financials,CPP.JO,EQ,
-YeboYethu Limited,Financials,YYLBEE.JO,EQ,
-Zeda Limited,Financials,ZZD.JO,EQ,
-Purple Group Limited,Financials,PPE.JO,EQ,
-Araxi Limited,Financials,AXX.JO,EQ,
-Zeder Investments Limited,Financials,ZED.JO,EQ,
-Schroder European Real Estate Investment Trust Plc,Financials,SCD.JO,EQ,
-Universal Partners Ltd.,Financials,UPL.JO,EQ,
-Texton Property Fund Limited,Financials,TEX.JO,EQ,
-Accelerate Property Fund Ltd.,Financials,APF.JO,EQ,
-EPE Capital Partners Ltd. Class A,Financials,EPE.JO,EQ,
-RMB Holdings Limited,Financials,RMH.JO,EQ,
-Finbond Group Limited,Financials,FGL.JO,EQ,
-Newpark REIT Ltd.,Financials,NRL.JO,EQ,
-Calgro M3 Holdings Limited,Financials,CGR.JO,EQ,
-Vunani Limited,Financials,VUN.JO,EQ,
-Goldrush Holdings Limited Non-Cum Pref Registered Shs,Financials,GRSP.JO,EQ,
-Putprop Limited,Financials,PPR.JO,EQ,
-Trematon Capital Investments Limited,Financials,TMT.JO,EQ,
-Delta Property Fund Limited,Financials,DLT.JO,EQ,
-Mahube Infrastructure Ltd.,Financials,MHB.JO,EQ,
-RH Bophelo Ltd.,Financials,RHB.JO,EQ,
-Mantengu Limited,Financials,MTU.JO,EQ,
-Visual International Holdings Ltd.,Financials,VIS.JO,EQ,
-Channel VAS Investments Limited,Financials,OPA.JO,EQ,
-Cilo Cybin Holdings Limited,Financials,CCC.JO,EQ,
-Afine Investments Limited,Financials,ANI.JO,EQ,
+FirstRand,Financials,FSR.JO,EQ,ZAE000066304
+Capitec Bank,Financials,CPI.JO,EQ,ZAE000035861
+Standard Bank Group,Financials,SBK.JO,EQ,ZAE000109815
+Investec,Financials,INL.JO,EQ,ZAE000081949
+Investec Limited Non-Red.Non-Cum.Non-Ptg.Prf.Shs,Financials,INPR.JO,EQ,ZAE000063814
+Absa Group,Financials,ABG.JO,EQ,ZAE000255915
+Discovery,Financials,DSY.JO,EQ,ZAE000022331
+Sanlam,Financials,SLM.JO,EQ,ZAE000070660
+Nedbank Group,Financials,NED.JO,EQ,ZAE000004875
+OUTsurance Group Limited,Financials,OUT.JO,EQ,ZAE000314084
+Remgro,Financials,REM.JO,EQ,ZAE000026480
+Ninety One,Financials,NY1.JO,EQ,ZAE000282356
+Old Mutual,Financials,OMU.JO,EQ,ZAE000255360
+Momentum Metropolitan,Financials,MTM.JO,EQ,ZAE000269890
+Santam Limited,Financials,SNT.JO,EQ,ZAE000093779
+PSG Konsult,Financials,KST.JO,EQ,ZAE000191417
+Fairvest Limited Class A,Financials,FTA.JO,EQ,ZAE000304788
+Fairvest Limited Class B,Financials,FTB.JO,EQ,ZAE000304796
+Coronation Fund Managers,Financials,CML.JO,EQ,ZAE000047353
+Equites Property Fund Ltd ZAR,Financials,EQU.JO,EQ,ZAE000188843
+JSE Limited,Financials,JSE.JO,EQ,ZAE000079711
+Attacq Limited,Financials,ATT.JO,EQ,ZAE000177218
+SA Corporate Real Estate Ltd.,Financials,SAC.JO,EQ,ZAE000203238
+Clientele Limited,Financials,CLI.JO,EQ,ZAE000117438
+Stor-Age Property REIT Ltd.,Financials,SSS.JO,EQ,ZAE000208963
+Alexander Forbes Group Holdings Limited,Financials,AFH.JO,EQ,ZAE000191516
+Burstone Group Limited,Financials,BTN.JO,EQ,ZAE000180915
+Dipula Properties Limited Class B,Financials,DIB.JO,EQ,ZAE000203394
+Emira Property Fund Ltd.,Financials,EMI.JO,EQ,ZAE000203063
+Spear REIT Ltd.,Financials,SEA.JO,EQ,ZAE000228995
+Exemplar REITail Ltd.,Financials,EXP.JO,EQ,ZAE000257549
+Sabvest Capital Ltd.,Financials,SBP.JO,EQ,ZAE000283511
+Sygnia Ltd.,Financials,SYG.JO,EQ,ZAE000208815
+Octodec Investments Limited,Financials,OCT.JO,EQ,ZAE000192258
+Acsion Limited,Financials,ACS.JO,EQ,ZAE000198289
+Collins Property Group Limited,Financials,CPP.JO,EQ,ZAE000152658
+YeboYethu Limited,Financials,YYLBEE.JO,EQ,ZAE000218483
+Zeda Limited,Financials,ZZD.JO,EQ,ZAE000315768
+Purple Group Limited,Financials,PPE.JO,EQ,ZAE000185526
+Araxi Limited,Financials,AXX.JO,EQ,ZAE000208245
+Oasis Crescent Property Fund,Financials,OAS.JO,EQ,ZAE000074332
+Zeder Investments Limited,Financials,ZED.JO,EQ,ZAE000088431
+Accelerate Property Fund Ltd.,Financials,APF.JO,EQ,ZAE000185815
+Texton Property Fund Limited,Financials,TEX.JO,EQ,ZAE000190542
+RMB Holdings,Financials,RMH.JO,EQ,ZAE000024501
+Finbond Group Limited,Financials,FGL.JO,EQ,ZAE000138095
+Newpark REIT Ltd.,Financials,NRL.JO,EQ,ZAE000212783
+Calgro M3 Holdings Limited,Financials,CGR.JO,EQ,ZAE000109203
+Delta Property Fund Limited,Financials,DLT.JO,EQ,ZAE000194049
+Vunani Limited,Financials,VUN.JO,EQ,ZAE000163382
+Goldrush Holdings Limited Non-Cum Pref Registered Shs,Financials,GRSP.JO,EQ,ZAE000145041
+Putprop Limited,Financials,PPR.JO,EQ,ZAE000072310
+Trematon Capital Investments Limited,Financials,TMT.JO,EQ,ZAE000013991
+Mahube Infrastructure Ltd.,Financials,MHB.JO,EQ,ZAE000290763
+RH Bophelo Ltd.,Financials,RHB.JO,EQ,ZAE000244737
+Mantengu Limited,Financials,MTU.JO,EQ,ZAE000320347
+Visual International Holdings Ltd.,Financials,VIS.JO,EQ,ZAE000187407
+Cilo Cybin Holdings Limited,Financials,CCC.JO,EQ,ZAE000310397
+Afine Investments Limited,Financials,ANI.JO,EQ,ZAE000303947
+Cell C Holdings Ltd.,Financials,CCD.JO,EQ,ZAE000354007

@@ -1,149 +1,429 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-Allianz SE,Financials,ALV.DE,EQ,
-Deutsche Bank AG,Financials,DBK.DE,EQ,
-Commerzbank AG,Financials,CBK.DE,EQ,
-Deutsche Boerse AG,Financials,DB1.DE,EQ,
-Muenchener Rueckversicherungs AG,Financials,MUV2.DE,EQ,
-Hannover Rueck SE,Financials,HNR1.DE,EQ,
-Bayer AG,Health Care,BAYN.DE,EQ,
-Merck KGaA,Health Care,MRK.DE,EQ,
-Fresenius SE & Co. KGaA,Health Care,FRE.DE,EQ,
-Fresenius Medical Care AG & Co. KGaA,Health Care,FME.DE,EQ,
-Sartorius AG,Health Care,SRT.DE,EQ,
-Beiersdorf AG,Consumer Staples,BEI.DE,EQ,
-Henkel AG & Co. KGaA,Consumer Staples,HENKY.DE,EQ,
-BMW AG,Consumer Discretionary,BMW.DE,EQ,
-Mercedes-Benz Group AG,Consumer Discretionary,MBG.DE,EQ,
-Volkswagen AG (Preference),Consumer Discretionary,VOW3.DE,EQ,
-Dr. Ing. h.c. F. Porsche AG,Consumer Discretionary,P911.DE,EQ,
-Adidas AG,Consumer Discretionary,ADS.DE,EQ,
-Zalando SE,Consumer Discretionary,ZAL.DE,EQ,
-Siemens AG,Industrials,SIE.DE,EQ,
-Deutsche Post AG,Industrials,DPW.DE,EQ,
-MTU Aero Engines AG,Industrials,MTX.DE,EQ,
-Rheinmetall AG,Industrials,RHM.DE,EQ,
-Infineon Technologies AG,Industrials,IFX.DE,EQ,
-Continental AG,Industrials,CON.DE,EQ,
-KION Group AG,Industrials,KGX.DE,EQ,
-Symrise AG,Industrials,SY1.DE,EQ,
-SAP SE,Technology,SAP.DE,EQ,
-Siemens Energy AG,Technology,ENR.DE,EQ,
-BASF SE,Materials,BAS.DE,EQ,
-Covestro AG,Materials,1COV.DE,EQ,
-Linde plc,Materials,LIN.DE,EQ,
-HeidelbergCement AG (Heidelberg Materials),Materials,HEI.DE,EQ,
-RWE AG,Energy,RWE.DE,EQ,
-E.ON SE,Utilities,EOAN.DE,EQ,
-Deutsche Telekom AG,Communication Services,DTE.DE,EQ,
-Brenntag SE,Industrials,BNR.DE,EQ,
-Vonovia SE,Real Estate,VNA.DE,EQ,
-Aareal Bank AG,Financials,ARL.DE,EQ,
-Aixtron SE,Technology,AIXA.DE,EQ,
-Aroundtown SA,Real Estate,AT1.DE,EQ,
-Aurubis AG,Materials,NDA.DE,EQ,
-Bechtle AG,Technology,BC8.DE,EQ,
-Bijou Brigitte modische Accessoires AG,Consumer Discretionary,BIJ.DE,EQ,
-Cancom SE,Technology,COK.DE,EQ,
-Carl Zeiss Meditec AG,Health Care,AFX.DE,EQ,
-CECONOMY AG,Consumer Discretionary,CEC.DE,EQ,
-Compugroup Medical SE & Co. KGaA,Technology,COP.DE,EQ,
-CTS Eventim AG & Co. KGaA,Consumer Discretionary,EVD.DE,EQ,
-Daimler Truck Holding AG,Industrials,DTG.DE,EQ,
-Deutsche EuroShop AG,Real Estate,DEQ.DE,EQ,
-Deutsche Pfandbriefbank AG,Financials,PBB.DE,EQ,
-Deutsche Wohnen SE,Real Estate,DWNI.DE,EQ,
-Deutz AG,Industrials,DEZ.DE,EQ,
-DWS Group GmbH & Co. KGaA,Financials,DWS.DE,EQ,
-Evonik Industries AG,Materials,EVK.DE,EQ,
-Fielmann Group AG,Health Care,FIE.DE,EQ,
-Fraport AG,Industrials,FRA.DE,EQ,
-Freenet AG,Communication Services,FNTN.DE,EQ,
-Fuchs SE,Materials,FPE3.DE,EQ,
-GEA Group AG,Industrials,G1A.DE,EQ,
-Gerresheimer AG,Industrials,GXI.DE,EQ,
-Grenke AG,Financials,GLJ.DE,EQ,
-Hamburger Hafen und Logistik AG,Industrials,HHFA.DE,EQ,
-Hella GmbH & Co. KGaA,Consumer Discretionary,HLE.DE,EQ,
-HUGO BOSS AG,Consumer Discretionary,BOSS.DE,EQ,
-Instone Real Estate Group SE,Real Estate,INS.DE,EQ,
-Jenoptik AG,Technology,JEN.DE,EQ,
-Jungheinrich AG,Industrials,JUN3.DE,EQ,
-K+S AG,Materials,SDZ.DE,EQ,
-Knorr-Bremse AG,Industrials,KBX.DE,EQ,
-Lanxess AG,Materials,LXS.DE,EQ,
-LEG Immobilien SE,Real Estate,LEG.DE,EQ,
-MAN SE,Industrials,MAN.DE,EQ,
-Metro AG,Consumer Staples,B4B3.DE,EQ,
-Nemetschek SE,Technology,NEM.DE,EQ,
-NORMA Group SE,Industrials,NOEJ.DE,EQ,
-Osram Licht AG,Technology,OSR.DE,EQ,
-Patrizia SE,Financials,PAT.DE,EQ,
-Puma SE,Consumer Discretionary,PUM.DE,EQ,
-Rational AG,Industrials,RAA.DE,EQ,
-RTL Group SA,Communication Services,RRTL.DE,EQ,
-Schaeffler AG,Industrials,SHA.DE,EQ,
-Scout24 SE,Technology,G24.DE,EQ,
-Siltronic AG,Technology,WAF.DE,EQ,
-Software AG,Technology,SOW.DE,EQ,
-Stabilus SE,Industrials,STM.DE,EQ,
-Stroeer SE & Co. KGaA,Communication Services,SAX.DE,EQ,
-Südzucker AG,Consumer Staples,SZU.DE,EQ,
-TAG Immobilien AG,Real Estate,TEG.DE,EQ,
-TeamViewer SE,Technology,TMV.DE,EQ,
-TUI AG,Consumer Discretionary,TUI1.DE,EQ,
-Varta AG,Technology,VAR1.DE,EQ,
-Wacker Chemie AG,Materials,WCH.DE,EQ,
-Wacker Neuson SE,Industrials,WAC.DE,EQ,
-Westwing Group SE,Consumer Discretionary,WEW.DE,EQ,
-Wüstenrot & Württembergische AG,Financials,WUW.DE,EQ,
-Zeal Network SE,Consumer Discretionary,TIMA.DE,EQ,
-Zooplus SE,Consumer Discretionary,ZO1.DE,EQ,
-Adler Group SA,Real Estate,ADJ.DE,EQ,
-Adler Real Estate AG,Real Estate,ADL.DE,EQ,
-Amadeus Fire AG,Industrials,AAD.DE,EQ,
-Atoss Software SE,Technology,AOF.DE,EQ,
-BayWa AG,Consumer Staples,BYW6.DE,EQ,
-BioNTech SE,Health Care,22UA.DE,EQ,
-Borussia Dortmund GmbH & Co. KGaA,Consumer Discretionary,BVB.DE,EQ,
-Corestate Capital Holding SA,Financials,CCAP.DE,EQ,
-Dermapharm Holding SE,Health Care,DMP.DE,EQ,
-DFB-Campus GmbH,Consumer Discretionary,DFB.DE,EQ,
-Drägerwerk AG & Co. KGaA,Health Care,DRW3.DE,EQ,
-Elmos Semiconductor SE,Technology,ELG.DE,EQ,
-Energiekontor AG,Utilities,EKT.DE,EQ,
-Eurokai GmbH & Co. KGaA,Industrials,EUK3.DE,EQ,
-Fabasoft AG,Technology,FAB.DE,EQ,
-Friedrich Vorwerk Group SE,Industrials,VH2.DE,EQ,
-Gesco AG,Industrials,GSC1.DE,EQ,
-Grammer AG,Consumer Discretionary,GMM.DE,EQ,
-Hamborner REIT AG,Real Estate,HABA.DE,EQ,
-Heidelberg Pharma AG,Health Care,HPHA.DE,EQ,
-Heidelberger Druckmaschinen AG,Industrials,HDD.DE,EQ,
-Hellofresh SE,Consumer Staples,HFG.DE,EQ,
-Hypoport SE,Financials,HYQ.DE,EQ,
-Intershop Communications AG,Technology,ISH2.DE,EQ,
-Itelligence AG,Technology,ILI.DE,EQ,
-Kontron AG,Technology,KTN.DE,EQ,
-Legalitas AG,Financials,LGS.DE,EQ,
-Manz AG,Industrials,M5Z.DE,EQ,
-Masterflex SE,Industrials,MZX.DE,EQ,
-MBB SE,Industrials,MBB.DE,EQ,
-Mensch und Maschine Software SE,Technology,MUM.DE,EQ,
-Mutares SE & Co. KGaA,Industrials,MUX.DE,EQ,
-Nagarro SE,Technology,NA9.DE,EQ,
-NewWork SE,Technology,NEW.DE,EQ,
-Nexus AG,Health Care,NXU.DE,EQ,
-Nordex SE,Energy,NDX1.DE,EQ,
-Patrizia Immobilien AG,Real Estate,P1Z.DE,EQ,
-Pfeiffer Vacuum Technology AG,Industrials,PFV.DE,EQ,
-ProSiebenSat.1 Media SE,Communication Services,PSM.DE,EQ,
-PSI Software AG,Technology,PSAN.DE,EQ,
-Publity AG,Real Estate,PBY.DE,EQ,
-R. Stahl AG,Industrials,RSL2.DE,EQ,
-Ringmetall SE,Materials,HP3.DE,EQ,
-Sto SE & Co. KGaA,Materials,STO3.DE,EQ,
-Süss MicroTec SE,Technology,SMHN.DE,EQ,
-SynBiotic SE,Health Care,SYT.DE,EQ,
-Takkt AG,Industrials,TTK.DE,EQ,
-Verbio SE,Energy,VBK.DE,EQ,
-YOC AG,Technology,YOC.DE,EQ,
+Siemens AG,Industrials,SIE.DE,EQ,DE0007236101
+SAP SE,Technology,SAP.DE,EQ,DE0007164600
+Allianz SE,Financials,ALV.DE,EQ,DE0008404005
+Deutsche Telekom AG,Communication Services,DTE.DE,EQ,DE0005557508
+Siemens Energy AG,Technology,ENR.DE,EQ,DE000ENER6Y0
+Siemens Energy AG,Industrials,ENER6Y.DE,EQ,DE000ENER6Y0
+Infineon Technologies AG,Industrials,IFX.DE,EQ,DE0006231004
+Muenchener Rueckversicherungs AG,Financials,MUV2.DE,EQ,DE0008430026
+Merck KGaA,Health Care,MRK.DE,EQ,DE0006599905
+Deutsche Post AG,Industrials,DHL.DE,EQ,DE0005552004
+Rheinmetall AG,Industrials,RHM.DE,EQ,DE0007030009
+Deutsche Bank AG,Financials,DBK.DE,EQ,DE0005140008
+E.ON SE,Utilities,EOAN.DE,EQ,DE000ENAG999
+E.ON SE,Utilities,ENAG99.DE,EQ,DE000ENAG999
+Mercedes-Benz Group AG,Consumer Discretionary,MBG.DE,EQ,DE0007100000
+Deutsche Boerse AG,Financials,DB1.DE,EQ,DE0005810055
+Volkswagen AG,Consumer Discretionary,VOW.DE,EQ,DE0007664005
+Volkswagen AG (Preference),Consumer Discretionary,VOW3.DE,EQ,DE0007664039
+Dr. Ing. h.c. F. Porsche AG,Consumer Discretionary,P911.DE,EQ,DE000PAG9113
+Porsche AG,Consumer Discretionary,PAG911.DE,EQ,DE000PAG9113
+BASF SE,Materials,BAS.DE,EQ,DE000BASF111
+BASF SE,Materials,BASF11.DE,EQ,DE000BASF111
+RWE AG,Energy,RWE.DE,EQ,DE0007037129
+Commerzbank AG,Financials,CBK0.DE,EQ,DE000A41YE64
+Commerzbank AG,Financials,CBK100.DE,EQ,DE000CBK1001
+Commerzbank AG,Financials,CBK.DE,EQ,DE000CBK1001
+Bayerische Motoren Werke Aktiengesellschaft,Consumer Discretionary,BMW3.DE,EQ,DE0005190037
+BMW AG,Consumer Discretionary,BMW.DE,EQ,DE0005190003
+Siemens Healthineers AG,Health Care,SHL.DE,EQ,DE000SHL1006
+Siemens Healthineers AG,Health Care,SHL100.DE,EQ,DE000SHL1006
+HOCHTIEF Aktiengesellschaft,Industrials,HOT.DE,EQ,DE0006070006
+Bayer AG,Health Care,BAYN.DE,EQ,DE000BAY0017
+Bayer AG,Health Care,BAY001.DE,EQ,DE000BAY0017
+HeidelbergCement AG (Heidelberg Materials),Materials,HEI.DE,EQ,DE0006047004
+Daimler Truck Holding AG,Industrials,DTG.DE,EQ,DE000DTR0CK8
+Daimler Truck Holding AG,Consumer Discretionary,DTR0CK.DE,EQ,DE000DTR0CK8
+adidas AG,Consumer Staples,A1EWWW.DE,EQ,DE000A1EWWW0
+Adidas AG,Consumer Discretionary,ADS.DE,EQ,DE000A1EWWW0
+Hannover Rueck SE,Financials,HNR1.DE,EQ,DE0008402215
+Henkel AG & Co. KGaA,Consumer Staples,HEN.DE,EQ,DE0006048408
+Henkel AG & Co. KGaA,Consumer Staples,HEN3.DE,EQ,DE0006048432
+Talanx AG,Financials,TLX.DE,EQ,DE000TLX1005
+Talanx AG,Financials,TLX100.DE,EQ,DE000TLX1005
+EnBW Energie Baden-Württemberg AG,Utilities,EBK.DE,EQ,DE0005220008
+Fresenius SE & Co. KGaA,Health Care,FRE.DE,EQ,DE0005785604
+Hapag-Lloyd Aktiengesellschaft,Industrials,HLAG.DE,EQ,DE000HLAG475
+Hapag-Lloyd AG,Industrials,HLAG47.DE,EQ,DE000HLAG475
+Uniper SE,Utilities,UN0.DE,EQ,DE000UNSE026
+Uniper SE,Utilities,UNSE02.DE,EQ,DE000UNSE026
+Vonovia SE,Real Estate,VNA.DE,EQ,DE000A1ML7J1
+Vonovia SE,Financials,A1ML7J.DE,EQ,DE000A1ML7J1
+Traton SE,Industrials,8TRA.DE,EQ,DE000TRAT0N7
+TRATON SE,Consumer Discretionary,TRAT0N.DE,EQ,DE000TRAT0N7
+MTU Aero Engines AG,Industrials,MTX.DE,EQ,DE000A0D9PT0
+MTU Aero Engines AG,Technology,A0D9PT.DE,EQ,DE000A0D9PT0
+Knorr-Bremse AG,Industrials,KBX.DE,EQ,DE000KBX1006
+Knorr-Bremse AG,Industrials,KBX100.DE,EQ,DE000KBX1006
+Beiersdorf AG,Consumer Staples,BEI.DE,EQ,DE0005200000
+Continental AG,Industrials,CON.DE,EQ,DE0005439004
+Sartorius AG,Health Care,SRT.DE,EQ,DE0007165607
+Sartorius Aktiengesellschaft,Health Care,SRT3.DE,EQ,DE0007165631
+Covestro AG,Materials,1COV.DE,EQ,DE0006062144
+DWS Group GmbH & Co. KGaA,Financials,DWS.DE,EQ,DE000DWS1007
+DWS Group GmbH & Co. KGaA,Financials,DWS100.DE,EQ,DE000DWS1007
+Symrise AG,Industrials,SY1.DE,EQ,DE000SYM9999
+Symrise AG,Materials,SYM999.DE,EQ,DE000SYM9999
+Delivery Hero SE,Industrials,A2E4K4.DE,EQ,DE000A2E4K43
+Delivery Hero SE TEMP,Industrials,DHE0.DE,EQ,DE000A0STS84
+Delivery Hero SE,Consumer Discretionary,DHER.DE,EQ,DE000A2E4K43
+Fresenius Medical Care AG & Co. KGaA,Health Care,FME.DE,EQ,DE0005785802
+Deutsche Lufthansa AG,Industrials,LHA.DE,EQ,DE0008232125
+Nordex SE,Energy,NDX1.DE,EQ,DE000A0D6554
+Nordex SE,Industrials,A0D655.DE,EQ,DE000A0D6554
+Porsche Automobil Holding SE,Consumer Discretionary,PAH3.DE,EQ,DE000PAH0038
+Porsche Automobil Holding SE Pref,Consumer Discretionary,PAH003.DE,EQ,DE000PAH0038
+Schaeffler AG,Consumer Discretionary,SHA0.DE,EQ,DE000SHA0100
+Schaeffler AG,Industrials,SHA010.DE,EQ,DE000SHA0100
+GEA Group AG,Industrials,G1A.DE,EQ,DE0006602006
+Hensoldt AG,Industrials,HAG.DE,EQ,DE000HAG0005
+HENSOLDT AG,Technology,HAG000.DE,EQ,DE000HAG0005
+Aurubis AG,Materials,NDA.DE,EQ,DE0006766504
+Brenntag SE,Industrials,BNR.DE,EQ,DE000A1DAHH0
+Brenntag SE,Industrials,A1DAHH.DE,EQ,DE000A1DAHH0
+Hella GmbH & Co. KGaA,Consumer Discretionary,HLE.DE,EQ,DE000A13SX22
+HELLA GmbH & Co. KGaA,Industrials,A13SX2.DE,EQ,DE000A13SX22
+OHB SE,Industrials,OHB.DE,EQ,DE0005936124
+Rational AG,Industrials,RAA.DE,EQ,DE0007010803
+Evonik Industries AG,Materials,EVK.DE,EQ,DE000EVNK013
+Evonik Industries AG,Materials,EVNK01.DE,EQ,DE000EVNK013
+Deutsche Wohnen SE,Real Estate,DWNI.DE,EQ,DE000A0HN5C6
+Deutsche Wohnen SE,Financials,A0HN5C.DE,EQ,DE000A0HN5C6
+thyssenkrupp AG,Industrials,TKA.DE,EQ,DE0007500001
+Aixtron SE,Technology,AIXA.DE,EQ,DE000A0WMPJ6
+AIXTRON SE,Industrials,A0WMPJ.DE,EQ,DE000A0WMPJ6
+Fraport AG,Industrials,FRA.DE,EQ,DE0005773303
+Nemetschek SE,Technology,NEM.DE,EQ,DE0006452907
+Zalando SE,Consumer Discretionary,ZAL.DE,EQ,DE000ZAL1111
+Zalando SE,Consumer Discretionary,ZAL111.DE,EQ,DE000ZAL1111
+Telefonica Deutschland Holding AG,Communication Services,A1J5RX.DE,EQ,DE000A1J5RX9
+Scout24 SE,Technology,G24.DE,EQ,DE000A12DM80
+Scout24 SE,Technology,A12DM8.DE,EQ,DE000A12DM80
+AUTO1 Group SE,Consumer Discretionary,AG1.DE,EQ,DE000A2LQ884
+AUTO1 Group SE,Technology,A2LQ88.DE,EQ,DE000A2LQ884
+United Internet AG,Communication Services,UTDI.DE,EQ,DE0005089031
+KION Group AG,Industrials,KGX.DE,EQ,DE000KGX8881
+KION GROUP AG,Industrials,KGX888.DE,EQ,DE000KGX8881
+CTS Eventim AG & Co. KGaA,Consumer Discretionary,EVD.DE,EQ,DE0005470306
+Fuchs SE,Materials,FPE3.DE,EQ,DE000A3E5D64
+Fuchs SE,Materials,FPE.DE,EQ,DE000A3E5D56
+FUCHS SE,Materials,A3E5D5.DE,EQ,DE000A3E5D56
+FUCHS SE Pref Registered Shs,Materials,A3E5D6.DE,EQ,DE000A3E5D64
+Wacker Chemie AG,Materials,WCH888.DE,EQ,DE000WCH8881
+Wacker Chemie AG,Materials,WCH.DE,EQ,DE000WCH8881
+RENK Group AG,Industrials,R3NK.DE,EQ,DE000RENK730
+RENK Group AG,Technology,RENK73.DE,EQ,DE000RENK730
+TKMS AG & Co KGaA,Industrials,TKMS.DE,EQ,DE000TKMS001
+TKMS AG & Co. KGaA,Industrials,TKMS00.DE,EQ,DE000TKMS001
+1&1 AG,Communication Services,1U1.DE,EQ,DE0005545503
+Puma SE,Consumer Discretionary,PUM.DE,EQ,DE0006969603
+LEG Immobilien SE,Real Estate,LEG.DE,EQ,DE000LEG1110
+LEG Immobilien SE,Financials,LEG111.DE,EQ,DE000LEG1110
+flatexDEGIRO SE,Financials,FTK.DE,EQ,DE000FTG1111
+flatexDEGIRO SE,Financials,FTG111.DE,EQ,DE000FTG1111
+Aumovio SE,Industrials,AUM0V1.DE,EQ,DE000AUM0V10
+Aumovio SE,Consumer Discretionary,AMV0.DE,EQ,DE000AUM0V10
+Bechtle AG,Technology,BC8.DE,EQ,DE0005158703
+Fielmann Group AG,Health Care,FIE.DE,EQ,DE0005772206
+IONOS Group SE,Technology,IOS.DE,EQ,DE000A3E00M1
+IONOS Group SE,Technology,A3E00M.DE,EQ,DE000A3E00M1
+Springer Nature AG & Co. KGaA,Communication Services,SPG.DE,EQ,DE000SPG1003
+Springer Nature AG & Co. KGaA,Consumer Discretionary,SPG100.DE,EQ,DE000SPG1003
+DMG MORI AKTIENGESELLSCHAFT,Industrials,GIL.DE,EQ,DE0005878003
+TUI AG,Consumer Discretionary,TUI1.DE,EQ,DE000TUAG505
+TUI AG,Consumer Discretionary,TUAG50.DE,EQ,DE000TUAG505
+Salzgitter AG,Materials,SZG.DE,EQ,DE0006202005
+Krones AG,Industrials,KRN.DE,EQ,DE0006335003
+Sixt SE,Industrials,SIX2.DE,EQ,DE0007231326
+Sixt SE,Industrials,SIX3.DE,EQ,DE0007231334
+Ottobock SE & Co. KGaA I,Health Care,OBCK.DE,EQ,DE000BCK2223
+Ottobock SE & Co. KGaA,Health Care,BCK222.DE,EQ,DE000BCK2223
+Freenet AG,Communication Services,FNTN.DE,EQ,DE000A0Z2ZZ5
+freenet AG,Communication Services,A0Z2ZZ.DE,EQ,DE000A0Z2ZZ5
+Bilfinger SE,Industrials,GBF.DE,EQ,DE0005909006
+Elmos Semiconductor SE,Technology,ELG.DE,EQ,DE0005677108
+Siltronic AG,Technology,WAF.DE,EQ,DE000WAF3001
+Siltronic AG,Technology,WAF300.DE,EQ,DE000WAF3001
+HUGO BOSS AG,Consumer Discretionary,BOSS.DE,EQ,DE000A1PHFF7
+HUGO BOSS AG,Consumer Staples,A1PHFF.DE,EQ,DE000A1PHFF7
+SCHOTT Pharma AG & Co. KGaA,Health Care,1SXP.DE,EQ,DE000A3ENQ51
+SCHOTT Pharma AG & Co. KGaA,Health Care,A3ENQ5.DE,EQ,DE000A3ENQ51
+METRO AG,Industrials,A41YD1.DE,EQ,DE000A41YD16
+Jenoptik AG,Technology,A2NB60.DE,EQ,DE000A2NB601
+Jenoptik AG,Technology,JEN.DE,EQ,DE000A2NB601
+TAG Immobilien AG,Real Estate,TEG.DE,EQ,DE0008303504
+K+S Aktiengesellschaft,Materials,SDF.DE,EQ,DE000KSAG888
+K+S AG,Materials,KSAG88.DE,EQ,DE000KSAG888
+Mainova AG,Utilities,MNV6.DE,EQ,DE0006553464
+Dermapharm Holding SE,Health Care,DMP.DE,EQ,DE000A2GS5D8
+Dermapharm Holding SE,Health Care,A2GS5D.DE,EQ,DE000A2GS5D8
+Lechwerke AG,Utilities,LEC.DE,EQ,DE0006458003
+Südzucker AG,Consumer Staples,SZU.DE,EQ,DE0007297004
+Jungheinrich AG,Industrials,JUN3.DE,EQ,DE0006219934
+KWS SAAT SE & Co. KGaA,Materials,KWS.DE,EQ,DE0007074007
+Carl Zeiss Meditec AG,Health Care,AFX.DE,EQ,DE0005313704
+Tradegate AG Wertpapierhandelsbank,Financials,T2G.DE,EQ,DE0005216907
+HORNBACH Baumarkt AG,Consumer Discretionary,HBM.DE,EQ,DE0006084403
+Verbio SE,Energy,VBK.DE,EQ,DE000A0JL9W6
+Verbio SE,Materials,A0JL9W.DE,EQ,DE000A0JL9W6
+MVV Energie AG,Utilities,A0H52F.DE,EQ,DE000A0H52F5
+MVV Energie AG,Utilities,MVV1.DE,EQ,DE000A0H52F5
+AlzChem Group AG,Materials,ACT.DE,EQ,DE000A2YNT30
+Alzchem Group AG,Materials,A2YNT3.DE,EQ,DE000A2YNT30
+Stroeer SE & Co. KGaA,Communication Services,SAX.DE,EQ,DE0007493991
+GELSENWASSER AG,Utilities,WWG.DE,EQ,DE0007760001
+CECONOMY AG,Consumer Discretionary,CEC.DE,EQ,DE0007257503
+CECONOMY AG TEMP,Consumer Discretionary,CECV.DE,EQ,DE000A40ZVV0
+CECONOMY AG TEMP,Consumer Discretionary,A40ZVV.DE,EQ,DE000A40ZVV0
+Süss MicroTec SE,Technology,SMHN.DE,EQ,DE000A1K0235
+SUSS MicroTec SE,Industrials,A1K023.DE,EQ,DE000A1K0235
+SMA Solar Technology AG,Technology,S92.DE,EQ,DE000A0DJ6J9
+SMA Solar Technology AG,Industrials,A0DJ6J.DE,EQ,DE000A0DJ6J9
+Pfeiffer Vacuum Technology AG,Industrials,PFV.DE,EQ,DE0006916604
+PFISTERER Holding SE,Technology,PFSE.DE,EQ,DE000PFSE212
+PFISTERER Holding SE,Industrials,PFSE21.DE,EQ,DE000PFSE212
+Hamburger Hafen und Logistik AG,Industrials,HHFA.DE,EQ,DE000A0S8488
+Hamburger Hafen und Logistik AG,Industrials,A0S848.DE,EQ,DE000A0S8488
+Deutsche EuroShop AG,Real Estate,DEQ.DE,EQ,DE0007480204
+Drägerwerk AG & Co. KGaA,Health Care,DRW8.DE,EQ,DE0005550602
+Drägerwerk AG & Co. KGaA,Health Care,DRW3.DE,EQ,DE0005550636
+KSB SE & Co. KGaA,Industrials,KSB.DE,EQ,DE0006292006
+KSB SE & Co. KGaA,Industrials,KSB3.DE,EQ,DE0006292030
+BayWa AG,Industrials,BYW.DE,EQ,DE0005194005
+BayWa AG,Consumer Staples,BYW6.DE,EQ,DE0005194062
+CompuGroup Medical SE & Co. KGaA,Health Care,A28890.DE,EQ,DE000A288904
+Wüstenrot & Württembergische AG,Financials,WUW.DE,EQ,DE0008051004
+Deutz AG,Industrials,DEZ.DE,EQ,DE0006305006
+Lanxess AG,Materials,LXS.DE,EQ,DE0005470405
+NÜRNBERGER Beteiligungs-AG,Financials,NBG6.DE,EQ,DE0008435967
+Dürr Aktiengesellschaft,Industrials,DUE.DE,EQ,DE0005565204
+Friedrich Vorwerk Group SE,Industrials,VH2.DE,EQ,DE000A255F11
+Friedrich Vorwerk Group SE,Industrials,A255F1.DE,EQ,DE000A255F11
+HORNBACH Holding AG & Co. KGaA,Consumer Discretionary,HBH.DE,EQ,DE0006083405
+Vossloh AG,Industrials,VOS.DE,EQ,DE0007667107
+Wacker Neuson SE,Industrials,WAC.DE,EQ,DE000WACK012
+Wacker Neuson SE,Industrials,WACK01.DE,EQ,DE000WACK012
+Klöckner & Co SE,Materials,KCO.DE,EQ,DE000KC01000
+Kloeckner & Co SE,Materials,KC0100.DE,EQ,DE000KC01000
+Atoss Software SE,Technology,AOF.DE,EQ,DE0005104400
+Adtran Networks SE,Technology,ADV.DE,EQ,DE0005103006
+secunet Security Networks Aktiengesellschaft,Technology,YSN.DE,EQ,DE0007276503
+H&K AG,Technology,A11Q13.DE,EQ,DE000A11Q133
+2G Energy AG,Industrials,2GB.DE,EQ,DE000A0HL8N9
+2G Energy AG,Utilities,A0HL8N.DE,EQ,DE000A0HL8N9
+thyssenkrupp nucera AG & Co. KGaA,Industrials,NCH2.DE,EQ,DE000NCA0001
+thyssenkrupp nucera AG & Co. KGaA,Industrials,NCA000.DE,EQ,DE000NCA0001
+Berliner Effektengesellschaft AG,Financials,BFV.DE,EQ,DE0005221303
+Eckert & Ziegler SE,Health Care,EUZ.DE,EQ,DE0005659700
+PVA TePla AG,Technology,TPE.DE,EQ,DE0007461006
+Zeal Network SE,Consumer Discretionary,TIMA.DE,EQ,DE000ZEAL241
+ZEAL Network SE,Consumer Discretionary,ZEAL24.DE,EQ,DE000ZEAL241
+SAF-HOLLAND SE,Industrials,SFQ.DE,EQ,DE000SAFH001
+SAF-HOLLAND SE,Industrials,SAFH00.DE,EQ,DE000SAFH001
+Douglas AG,Consumer Discretionary,DOU.DE,EQ,DE000BEAU1Y4
+Douglas AG,Consumer Discretionary,BEAU1Y.DE,EQ,DE000BEAU1Y4
+Maschinenfabrik Berthold Hermle AG Pref,Industrials,MBH3.DE,EQ,DE0006052830
+MLP SE,Financials,MLP.DE,EQ,DE0006569908
+JOST Werke SE,Industrials,JST.DE,EQ,DE000JST4000
+JOST Werke SE,Industrials,JST400.DE,EQ,DE000JST4000
+Gerresheimer AG,Industrials,GXI.DE,EQ,DE000A0LD6E6
+Gerresheimer AG,Materials,A0LD6E.DE,EQ,DE000A0LD6E6
+TeamViewer SE,Technology,A2YN90.DE,EQ,DE000A2YN900
+TeamViewer SE,Technology,TMV.DE,EQ,DE000A2YN900
+Evotec SE,Industrials,EVT.DE,EQ,DE0005664809
+RHON-KLINIKUM AG,Health Care,RHK.DE,EQ,DE0007042301
+ProSiebenSat.1 Media SE,Communication Services,PSM.DE,EQ,DE000PSM7770
+ProSiebenSat.1 Media SE,Consumer Discretionary,PSM777.DE,EQ,DE000PSM7770
+Basler AG,Technology,BSL.DE,EQ,DE0005102008
+Einhell Germany AG Pref,Consumer Discretionary,EIN.DE,EQ,DE000A40ESU3
+Einhell Germany AG Pref,Consumer Discretionary,A40ESU.DE,EQ,DE000A40ESU3
+Eurokai GmbH & Co. KGaA,Industrials,EUK3.DE,EQ,DE0005706535
+PNE AG,Utilities,PNE3.DE,EQ,DE000A0JBPG2
+PNE AG,Utilities,A0JBPG.DE,EQ,DE000A0JBPG2
+innoscripta SE,Technology,1INN.DE,EQ,DE000A40QVM8
+innoscripta SE,Technology,A40QVM.DE,EQ,DE000A40QVM8
+PAUL HARTMANN AG,Health Care,PHH2.DE,EQ,DE0007474041
+MBB SE,Industrials,MBB.DE,EQ,DE000A0ETBQ4
+MBB SE,Financials,A0ETBQ.DE,EQ,DE000A0ETBQ4
+CHAPTERS Group AG,Technology,CHG.DE,EQ,DE0006618309
+Cancom SE,Technology,COK.DE,EQ,DE0005419105
+Mutares SE & Co. KGaA,Industrials,MUX.DE,EQ,DE000A2NB650
+Mutares SE & Co. KGaA,Financials,A2NB65.DE,EQ,DE000A2NB650
+INDUS Holding AG,Industrials,INH.DE,EQ,DE0006200108
+PSI Software AG,Technology,PSAN.DE,EQ,DE000A0Z1JH9
+PSI Software SE,Technology,A0Z1JH.DE,EQ,DE000A0Z1JH9
+PSI Software SE,Technology,PSA.DE,EQ,DE000A0HMWM7
+PSI Software SE,Technology,A0HMWM.DE,EQ,DE000A0HMWM7
+CEWE Stiftung & Co. KGaA,Consumer Discretionary,CWC.DE,EQ,DE0005403901
+Schaltbau Holding AG,Technology,SLT.DE,EQ,DE000A2NBTL2
+Patrizia SE,Financials,PAT.DE,EQ,DE000PAT1AG3
+PATRIZIA SE,Financials,PAT1AG.DE,EQ,DE000PAT1AG3
+FRoSTA AG,Consumer Staples,NLM.DE,EQ,DE0006069008
+Sudwestdeutsche Salzwerke AG,Materials,SSH.DE,EQ,DE0007346603
+SGL Carbon SE,Materials,SGL.DE,EQ,DE0007235301
+DATAGROUP SE,Technology,D6H0.DE,EQ,DE000A41YEV7
+Hellofresh SE,Consumer Staples,HFG.DE,EQ,DE000A161408
+HelloFresh SE,Consumer Discretionary,A16140.DE,EQ,DE000A161408
+Mensch und Maschine Software SE,Technology,MUM.DE,EQ,DE0006580806
+SNP Schneider-Neureither & Partner SE,Technology,SHF.DE,EQ,DE0007203705
+Grenke AG,Financials,GLJ.DE,EQ,DE000A161N30
+GRENKE AG,Financials,A161N3.DE,EQ,DE000A161N30
+GFT Technologies SE,Technology,GFT.DE,EQ,DE0005800601
+Sto SE & Co. KGaA,Materials,STO3.DE,EQ,DE0007274136
+Energiekontor AG,Utilities,EKT.DE,EQ,DE0005313506
+Muhlbauer Holding AG & Co. KGaA,Technology,MUB.DE,EQ,DE0006627201
+First Sensor AG,Technology,SIS.DE,EQ,DE0007201907
+LPKF Laser & Electronics SE,Industrials,LPK.DE,EQ,DE0006450000
+NORMA Group SE,Industrials,NOEJ.DE,EQ,DE000A1H8BV3
+NORMA Group SE,Industrials,A1H8BV.DE,EQ,DE000A1H8BV3
+Hypoport SE,Financials,HYQ.DE,EQ,DE0005493365
+Deutsche Rohstoff AG,Energy,DR0.DE,EQ,DE000A0XYG76
+Deutsche Rohstoff AG,Energy,A0XYG7.DE,EQ,DE000A0XYG76
+init innovation in traffic systems SE,Technology,IXX.DE,EQ,DE0005759807
+WashTec AG,Industrials,WSU.DE,EQ,DE0007507501
+ProCredit Holding AG,Financials,PCZ.DE,EQ,DE0006223407
+Heidelberger Druckmaschinen AG,Industrials,HDD.DE,EQ,DE0007314007
+Deutsche Pfandbriefbank AG,Financials,PBB.DE,EQ,DE0008019001
+Nagarro SE,Technology,NA9.DE,EQ,DE000A3H2200
+Nagarro SE,Technology,A3H220.DE,EQ,DE000A3H2200
+Deutsche Beteiligungs AG,Financials,DBAN.DE,EQ,DE000A1TNUT7
+Deutsche Beteiligungs AG,Financials,A1TNUT.DE,EQ,DE000A1TNUT7
+BAVARIA Industries Group AG,Financials,B8A.DE,EQ,DE0002605557
+Bijou Brigitte modische Accessoires AG,Consumer Discretionary,BIJ.DE,EQ,DE0005229504
+Villeroy & Boch AG Pref,Industrials,VIB3.DE,EQ,DE0007657231
+Stabilus SE,Industrials,STM.DE,EQ,DE000STAB1L8
+Stabilus SE,Industrials,STAB1L.DE,EQ,DE000STAB1L8
+AUR Portfolio III SE & Co. KGaA,Financials,A0LSAQ.DE,EQ,DE000A0LSAQ3
+HolidayCheck Group AG,Consumer Discretionary,HOC.DE,EQ,DE0005495329
+Homag Group AG,Industrials,HG1.DE,EQ,DE0005297204
+Hamborner REIT AG,Real Estate,HABA.DE,EQ,DE000A3H2333
+Hamborner REIT AG,Financials,A3H233.DE,EQ,DE000A3H2333
+ElringKlinger AG,Industrials,ZIL2.DE,EQ,DE0007856023
+Formycon AG,Health Care,A1EWVY.DE,EQ,DE000A1EWVY8
+Formycon AG,Health Care,FYB.DE,EQ,DE000A1EWVY8
+Northern Data AG,Technology,A0SMU8.DE,EQ,DE000A0SMU87
+Northern Data AG,Technology,NB2.DE,EQ,DE000A0SMU87
+SIMONA Aktiengesellschaft,Materials,A3E5CP.DE,EQ,DE000A3E5CP0
+SIMONA Aktiengesellschaft,Materials,SIM0.DE,EQ,DE000A3E5CP0
+Instone Real Estate Group SE,Real Estate,INS.DE,EQ,DE000A2NBX80
+Instone Real Estate Group SE,Financials,A2NBX8.DE,EQ,DE000A2NBX80
+SFC Energy AG,Technology,F3C.DE,EQ,DE0007568578
+adesso SE,Industrials,ADN1.DE,EQ,DE000A0Z23Q5
+adesso SE,Industrials,A0Z23Q.DE,EQ,DE000A0Z23Q5
+IVU Traffic Technologies AG,Technology,IVU.DE,EQ,DE0007448508
+Borussia Dortmund GmbH & Co. KGaA,Consumer Discretionary,BVB.DE,EQ,DE0005493092
+Baader Bank AG,Financials,BWB.DE,EQ,DE0005088108
+M1 Kliniken AG,Health Care,M12.DE,EQ,DE000A0STSQ8
+M1 Kliniken AG,Health Care,A0STSQ.DE,EQ,DE000A0STSQ8
+DN Group AG,Financials,D77.DE,EQ,DE000A3DW408
+DN Group AG,Financials,A3DW40.DE,EQ,DE000A3DW408
+Medios AG,Industrials,ILM1.DE,EQ,DE000A1MMCC8
+Medios AG,Industrials,A1MMCC.DE,EQ,DE000A1MMCC8
+OVB Holding AG,Financials,O4B.DE,EQ,DE0006286560
+EnviTec Biogas AG,Industrials,ETG.DE,EQ,DE000A0MVLS8
+EnviTec Biogas AG,Industrials,A0MVLS.DE,EQ,DE000A0MVLS8
+Westwing Group SE,Consumer Discretionary,WEW.DE,EQ,DE000A2N4H07
+Westwing Group SE,Consumer Discretionary,A2N4H0.DE,EQ,DE000A2N4H07
+Funkwerk AG,Technology,A40ZW0.DE,EQ,DE000A40ZW05
+Ernst Russ AG,Industrials,ERAG.DE,EQ,DE000A161077
+Ernst Russ AG,Industrials,A16107.DE,EQ,DE000A161077
+Steico SE,Materials,A0LR93.DE,EQ,DE000A0LR936
+Steico SE,Materials,ST5.DE,EQ,DE000A0LR936
+JDC Group AG,Financials,JDC.DE,EQ,DE000A0B9N37
+JDC Group AG,Financials,A0B9N3.DE,EQ,DE000A0B9N37
+Uzin Utz SE,Materials,UZU.DE,EQ,DE0007551509
+Lang & Schwarz AG,Financials,LUS1.DE,EQ,DE000LS1LUS9
+Allane SE,Financials,A0DPRE.DE,EQ,DE000A0DPRE6
+Allane SE,Financials,LNSX.DE,EQ,DE000A0DPRE6
+Eisen- und Huttenwerke AG,Financials,EIS.DE,EQ,DE0005658009
+VIB Vermoegen AG,Financials,A2YPDD.DE,EQ,DE000A2YPDD0
+VIB Vermoegen AG,Financials,VIH1.DE,EQ,DE000A2YPDD0
+Deutsche Real Estate AG,Financials,DRE2.DE,EQ,DE0008055021
+EUWAX AG,Financials,EUX.DE,EQ,DE0005660104
+sino Aktiengesellschaft,Financials,XTP.DE,EQ,DE0005765507
+STRATEC SE,Health Care,SBS.DE,EQ,DE000STRA555
+STRATEC SE,Health Care,STRA55.DE,EQ,DE000STRA555
+technotrans SE,Industrials,TTR1.DE,EQ,DE000A0XYGA7
+technotrans SE,Industrials,A0XYGA.DE,EQ,DE000A0XYGA7
+Brockhaus Technologies AG,Technology,BKHT.DE,EQ,DE000A2GSU42
+Brockhaus Technologies AG,Technology,A2GSU4.DE,EQ,DE000A2GSU42
+OEKOWORLD AG Pref.,Financials,VVV3.DE,EQ,DE0005408686
+029 Group SE,Technology,Z29.DE,EQ,DE000A2LQ2D0
+029 Group SE,Technology,A2LQ2D.DE,EQ,DE000A2LQ2D0
+centrotherm international AG,Technology,A1TNMM.DE,EQ,DE000A1TNMM9
+centrotherm international AG,Technology,CTNK.DE,EQ,DE000A1TNMM9
+HMS Bergbau AG,Industrials,HMU.DE,EQ,DE0006061104
+MEDICLIN Aktiengesellschaft,Health Care,MED.DE,EQ,DE0006595101
+MPC Munchmeyer Petersen Capital AG,Financials,MPCK.DE,EQ,DE000A1TNWJ4
+MPC Munchmeyer Petersen Capital AG,Financials,A1TNWJ.DE,EQ,DE000A1TNWJ4
+Smartbroker Holding AG,Technology,SB1.DE,EQ,DE000A2GS609
+Smartbroker Holding AG,Technology,A2GS60.DE,EQ,DE000A2GS609
+Netfonds AG,Financials,NF4.DE,EQ,DE000A1MME74
+Netfonds AG,Financials,A1MME7.DE,EQ,DE000A1MME74
+TIN INN Holding AG,Consumer Discretionary,TIW.DE,EQ,DE000A40ZTT8
+TIN INN Holding AG,Consumer Discretionary,A40ZTT.DE,EQ,DE000A40ZTT8
+Allgeier SE,Technology,A2GS63.DE,EQ,DE000A2GS633
+Allgeier SE,Technology,AEIN.DE,EQ,DE000A2GS633
+H&R GmbH & Co. KGaA,Materials,2HRA.DE,EQ,DE000A2E4T77
+H&R GmbH & Co. KGaA,Materials,A2E4T7.DE,EQ,DE000A2E4T77
+Circus SE,Consumer Discretionary,A2YN35.DE,EQ,DE000A2YN355
+Circus SE,Consumer Discretionary,CA1.DE,EQ,DE000A2YN355
+Deutsche Konsum Real Estate AG,Financials,DKG.DE,EQ,DE000A14KRD3
+Deutsche Konsum Real Estate AG,Financials,A14KRD.DE,EQ,DE000A14KRD3
+Aumann AG,Industrials,AAG.DE,EQ,DE000A2DAM03
+Aumann AG,Industrials,A2DAM0.DE,EQ,DE000A2DAM03
+Hawesko Holding SE,Consumer Discretionary,HAW.DE,EQ,DE0006042708
+Beta Systems Software AG,Financials,A0NK3W.DE,EQ,DE000A0NK3W4
+MAX Automation SE,Industrials,MXHN.DE,EQ,DE000A2DA588
+MAX Automation SE,Industrials,A2DA58.DE,EQ,DE000A2DA588
+UmweltBank AG,Financials,UBK.DE,EQ,DE0005570808
+All for One Group SE,Industrials,A1OS.DE,EQ,DE0005110001
+Limes Schlosskliniken AG,Health Care,LIK.DE,EQ,DE000A0JDBC7
+Limes Schlosskliniken AG,Health Care,A0JDBC.DE,EQ,DE000A0JDBC7
+Takkt AG,Industrials,TTK.DE,EQ,DE0007446007
+Quirin Privatbank AG,Financials,QB7.DE,EQ,DE0005202303
+SURTECO GROUP SE,Materials,SUR.DE,EQ,DE0005176903
+7C Solarparken AG,Utilities,HRPK.DE,EQ,DE000A11QW68
+7C Solarparken AG,Utilities,A11QW6.DE,EQ,DE000A11QW68
+Gesco AG,Industrials,GSC1.DE,EQ,DE000A1K0201
+GESCO AG,Materials,A1K020.DE,EQ,DE000A1K0201
+Koenig & Bauer AG,Industrials,SKB.DE,EQ,DE0007193500
+DFV Deutsche Familienversicherung AG,Financials,A2NBVD.DE,EQ,DE000A2NBVD5
+Masterflex SE,Industrials,MZX.DE,EQ,DE0005492938
+Bitcoin Group SE,Financials,A1TNV9.DE,EQ,DE000A1TNV91
+Bitcoin Group SE,Financials,ADE.DE,EQ,DE000A1TNV91
+Leifheit AG,Consumer Discretionary,LEI.DE,EQ,DE0006464506
+Serviceware SE,Technology,A2G8X3.DE,EQ,DE000A2G8X31
+Serviceware SE,Technology,SJJ.DE,EQ,DE000A2G8X31
+Nynomic AG,Technology,M7U.DE,EQ,DE000A0MSN11
+Nynomic AG,Technology,A0MSN1.DE,EQ,DE000A0MSN11
+Grammer AG,Consumer Discretionary,GMM.DE,EQ,DE0005895403
+Bike24 Holding AG,Consumer Discretionary,BIKE.DE,EQ,DE000A3CQ7F4
+Bike24 Holding AG,Consumer Discretionary,A3CQ7F.DE,EQ,DE000A3CQ7F4
+Knaus Tabbert AG,Consumer Discretionary,A2YN50.DE,EQ,DE000A2YN504
+Knaus Tabbert AG,Consumer Discretionary,KTA.DE,EQ,DE000A2YN504
+Daldrup & Soehne AG,Industrials,4DS.DE,EQ,DE0007830572
+Heliad AG,Financials,A7A.DE,EQ,DE0001218063
+Heidelberg Pharma AG,Health Care,HPHA.DE,EQ,DE000A11QVV0
+Heidelberg Pharma AG,Health Care,A11QVV.DE,EQ,DE000A11QVV0
+MPH Health Care AG,Financials,93M1.DE,EQ,DE000A289V03
+MPH Health Care AG,Financials,A289V0.DE,EQ,DE000A289V03
+Vectron Systems AG,Technology,A0KEXC.DE,EQ,DE000A0KEXC7
+DEFAMA Deutsche Fachmarkt AG,Financials,DEF.DE,EQ,DE000A13SUL5
+DEFAMA Deutsche Fachmarkt AG,Financials,A13SUL.DE,EQ,DE000A13SUL5
+Amadeus Fire AG,Industrials,AAD.DE,EQ,DE0005093108
+ParTec AG,Technology,A3E5A3.DE,EQ,DE000A3E5A34
+FCR Immobilien AG,Financials,FC9.DE,EQ,DE000A1YC913
+FCR Immobilien AG,Financials,A1YC91.DE,EQ,DE000A1YC913
+Nabaltec AG,Industrials,A0KPPR.DE,EQ,DE000A0KPPR7
+Nabaltec AG,Industrials,NTG.DE,EQ,DE000A0KPPR7
+Schloss Wachenheim AG,Consumer Staples,SWA.DE,EQ,DE0007229007
+MERKUR PRIVATBANK KGaA,Financials,MBK.DE,EQ,DE0008148206
+DATA MODUL AG,Technology,DAM.DE,EQ,DE0005498901
+Edel SE & Co. KGAA,Consumer Discretionary,EDL.DE,EQ,DE0005649503
+Pyrum Innovations AG,Industrials,PYR.DE,EQ,DE000A2G8ZX8
+Pyrum Innovations AG,Industrials,A2G8ZX.DE,EQ,DE000A2G8ZX8
+AGROB Immobilien AG,Financials,AGR.DE,EQ,DE0005019004
+AGROB Immobilien AG Pref,Financials,AGR3.DE,EQ,DE0005019038
+LUDWIG BECK am Rathauseck - Textilhaus Feldmeier AG,Consumer Discretionary,ECK.DE,EQ,DE0005199905

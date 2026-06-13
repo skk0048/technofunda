@@ -1,12 +1,95 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-PKO Bank Polski,Financials,PKO.WA,EQ,
-Bank Pekao,Financials,PEO.WA,EQ,
-PZU,Financials,PZU.WA,EQ,
-Santander Bank Polska,Financials,SPL.WA,EQ,
-mBank,Financials,MBK.WA,EQ,
-ING Bank Slaski,Financials,ING.WA,EQ,
-Bank Millennium,Financials,MIL.WA,EQ,
-Alior Bank,Financials,ALR.WA,EQ,
-Kruk,Financials,KRU.WA,EQ,
-Warsaw Stock Exchange (GPW),Financials,GPW.WA,EQ,
-XTB,Financials,XTB.WA,EQ,
+PKO Bank Polski,Financials,PKO.WA,EQ,PLPKO0000016
+Erste Bank Polska S.A.,Financials,EBP.WA,EQ,PLBZ00000044
+ING Bank Slaski,Financials,ING.WA,EQ,PLBSK0000017
+mBank,Financials,MBK.WA,EQ,PLBRE0000012
+Bank Pekao,Financials,PEO.WA,EQ,PLPEKAO00016
+PZU,Financials,PZU.WA,EQ,PLPZU0000011
+Bank Millennium,Financials,MIL.WA,EQ,PLBIG0000016
+BNP Paribas Bank Polska S.A.,Financials,BNP.WA,EQ,PLBGZ0000010
+Alior Bank,Financials,ALR.WA,EQ,PLALIOR00045
+Bank Handlowy w Warszawie S.A.,Financials,BHW.WA,EQ,PLBH00000012
+XTB,Financials,XTB.WA,EQ,PLXTRDM00011
+Kruk,Financials,KRU.WA,EQ,PLKRK0000010
+Warsaw Stock Exchange (GPW),Financials,GPW.WA,EQ,PLGPW0000017
+MCI Capital Alternatywna Spólka Inwestycyjna S.A.,Financials,MCI.WA,EQ,PLMCIMG00012
+BEST S.A.,Financials,BST.WA,EQ,PLBEST000010
+Bank Ochrony Srodowiska S.A.,Financials,BOS.WA,EQ,PLBOS0000019
+Quercus TFI S.A.,Financials,QRS.WA,EQ,PLQRCUS00012
+Grupa Kapitalowa IMMOBILE S.A.,Financials,GKI.WA,EQ,PLMAKRM00019
+Skarbiec Holding S.A.,Financials,SKH.WA,EQ,PLSKRBH00014
+JRH,Financials,JRH.WA,EQ,PLJRINV00013
+IPOPEMA Securities S.A.,Financials,IPE.WA,EQ,PLIPOPM00011
+Altus S.A.,Financials,ALI.WA,EQ,PLATTFI00018
+REINO Capital S.A.,Financials,RNC.WA,EQ,PLWDM0000029
+Grupa Virtus Spolka Akcyjna,Financials,GVT.WA,EQ,PLIQPRT00017
+Getin Holding S.A.,Financials,GTN.WA,EQ,PLGSPR000014
+Caspar Asset Management S.A.,Financials,CSR.WA,EQ,PLCSPAM00017
+Capital Partners S.A.,Financials,CPA.WA,EQ,PLCPTLP00015
+Capitea S.A.,Financials,CAP.WA,EQ,PLGTBCK00297
+Skyline Investment S.A.,Financials,SKL.WA,EQ,PLSKLNW00011
+Magna Polonia S.A.,Financials,06N.WA,EQ,PLNFI0600010
+Unfold.vc ASI S.A.,Financials,UNF.WA,EQ,PLVNTIN00011
+Soho Development S.A.,Financials,SHD.WA,EQ,PLNFI0400015
+Alta S.A.,Financials,AAT.WA,EQ,PLTRNSU00013
+INC S.A.,Financials,INC.WA,EQ,PLINCLT00015
+Novavis Group S.A.,Financials,NVG.WA,EQ,PLNFI0500012
+Wise Energy S.A.,Financials,FMG.WA,EQ,PLTHP0000011
+IDM Spólka Akcyjna,Financials,IDM.WA,EQ,PLIDMSA00044
+Imperio Alternatywna Spolka Inwestycyjna S.A.,Financials,IMP.WA,EQ,PLNFI0700018
+Pragma Inkaso S.A.,Financials,PRI.WA,EQ,PLPRGNK00017
+PBS Finanse S.A.,Financials,PBF.WA,EQ,PLBEFSN00010
+M.W. Trade SA,Financials,MWT.WA,EQ,PLMWTRD00013
+New Tech Capital S.A.,Financials,NTC.WA,EQ,PLECMNG00019
+Tower Investments SA,Financials,TOW.WA,EQ,PLTWRNV00013
+Europejskie Centrum Odszkodowan S.A.,Financials,EUC.WA,EQ,PLERPCO00017
+IndygoTech Minerals SA,Financials,IDG.WA,EQ,PLLSTIA00018
+GRUPA KLEPSYDRA Spolka Akcyjna,Financials,KLE.WA,EQ,PLMRTIN00011
+Prime Alternatywna Spolka Inwestycyjna Spolka Akcyjna,Financials,PRA.WA,EQ,PLRKLMF00010
+Arts Alliance GK SA,Financials,AAS.WA,EQ,PLMIDVN00017
+Fundusz Hipoteczny DOM SA,Financials,FHD.WA,EQ,PLFHDOM00010
+Quart Development SA,Financials,QRT.WA,EQ,PLQRTDV00016
+Analizy Online S.A.,Financials,AOL.WA,EQ,PLONLIN00013
+MEDCAMP S.A.,Financials,MDP.WA,EQ,PLTCHPR00019
+M FOOD S.A.,Financials,MFD.WA,EQ,PLMDVLP00016
+Black Pearl SA,Financials,BPC.WA,EQ,PLBLKPC00014
+Fintech SA,Financials,FTH.WA,EQ,PLJRSDB00015
+Novina Spolka Akcyjna,Financials,NOV.WA,EQ,PLBABY000016
+ENERGY S.A.,Financials,EGY.WA,EQ,PLVGUAR00011
+Letus Capital S.A.,Financials,LET.WA,EQ,PLGDVIS00018
+New Tech Venture S.A.,Financials,NTV.WA,EQ,PLSTCKI00016
+Wierzyciel S.A.,Financials,WRL.WA,EQ,PLWRZCL00014
+4Mobility S.A.,Financials,4MB.WA,EQ,PLESLTN00010
+Berg Holding SA,Financials,BRH.WA,EQ,PLSLKAM00019
+AKCEPT Finance SA,Financials,AFC.WA,EQ,PLAKCFN00013
+Lokaty Budowlane S.A.,Financials,LBD.WA,EQ,PLFBRD000018
+Notoria Serwis S.A.,Financials,NTS.WA,EQ,PLNTRSW00019
+GREMPCO S.A,Financials,GRM.WA,EQ,PLGRMPC00016
+Apollo Capital S.A.,Financials,APC.WA,EQ,PLBIOMD00017
+Zeneris Projekty S.A.,Financials,ZEN.WA,EQ,PLA351100013
+Foto Volt Eko Energia SA,Financials,FVE.WA,EQ,PLINVFM00012
+CARPATHIA CAPITAL S.A.,Financials,CRC.WA,EQ,PLCRPCP00034
+Dr. Finance SA,Financials,DRF.WA,EQ,PLDRD2400010
+LUDUS S.A.,Financials,LUD.WA,EQ,PLARTBM00013
+Aforti Holding SA,Financials,AFH.WA,EQ,PLMNTHL00016
+Ditix S.A,Financials,DTX.WA,EQ,PLFTPRF00016
+Femion Technology SA,Financials,FEM.WA,EQ,PLSMSKH00019
+Green Lanes SA,Financials,GRL.WA,EQ,PLGRNLS00027
+NWAI Dom Maklerski S.A.,Financials,NWA.WA,EQ,PLNWAI000017
+DI VOLIO S.A.,Financials,DIV.WA,EQ,PLGTRNT00010
+Marka SA,Financials,MRK.WA,EQ,PLMARKA00014
+TECNOVATICA S.A.,Financials,TEC.WA,EQ,PLIPODS00014
+Falcon 1 Green World Spolka Akcyjna,Financials,FLG.WA,EQ,PLEENRG00014
+Partner-Nieruchomosci SA,Financials,PRN.WA,EQ,PLPRNRH00010
+Hornigold Reit SA,Financials,HRL.WA,EQ,PLMBLPR00018
+Go24.pl SA,Financials,GTF.WA,EQ,PLGOTFI00016
+Inside Park SA,Financials,ISD.WA,EQ,PLINSPR00016
+JPMORGAN,Financials,JPM.WA,EQ,
+VISA,Financials,VISA.WA,EQ,
+UniCredit S.p.A.,Financials,UCG.WA,EQ,
+Banco Santander S.A.,Financials,SAN.WA,EQ,
+Allianz SE,Financials,ALV.WA,EQ,
+ROBINHOOD,Financials,HOOD.WA,EQ,
+FON SE,Financials,FON.WA,EQ,
+Atlantis SE,Financials,ATS.WA,EQ,
+Investment Friends SE,Financials,IFR.WA,EQ,

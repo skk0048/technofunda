@@ -1,39 +1,40 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-LVMH Moet Hennessy Louis Vuitton SE,Consumer Staples,MC.PA,EQ,
-L'Oreal S.A.,Consumer Staples,OR.PA,EQ,
-Hermes International SCA,Consumer Staples,RMS.PA,EQ,
-Christian Dior SE,Consumer Staples,CDI.PA,EQ,
-Danone SA,Consumer Staples,BN.PA,EQ,
-Kering SA,Consumer Staples,KER.PA,EQ,
-Pernod Ricard SA,Consumer Staples,RI.PA,EQ,
-Remy Cointreau SA,Consumer Staples,RCO.PA,EQ,
-Interparfums,Consumer Staples,ITP.PA,EQ,
-Robertet SA Cert.d'Invest. Em.87,Consumer Staples,CBE.PA,EQ,
-Robertet SA,Consumer Staples,RBT.PA,EQ,
-Coty Inc. Class A,Consumer Staples,COTY.PA,EQ,
-Savencia SA,Consumer Staples,SAVE.PA,EQ,
-Laurent-Perrier SA,Consumer Staples,LPE.PA,EQ,
-Malteries Franco-Belges,Consumer Staples,MALT.PA,EQ,
-Marie Brizard Wine & Spirits SA,Consumer Staples,MBWS.PA,EQ,
-Bonduelle SCA,Consumer Staples,BON.PA,EQ,
-Delta Plus Group SA,Consumer Staples,ALDLT.PA,EQ,
-Lanson-BCC,Consumer Staples,ALLAN.PA,EQ,
-Fleury Michon SA,Consumer Staples,ALFLE.PA,EQ,
-Maison Pommery & Associes,Consumer Staples,POMRY.PA,EQ,
-AdVini SA,Consumer Staples,ALAVI.PA,EQ,
-Saint Jean Groupe SA,Consumer Staples,SABE.PA,EQ,
-Amoeba SA,Consumer Staples,ALMIB.PA,EQ,
-Groupe Carnivor SA,Consumer Staples,MLGRC.PA,EQ,
-Fermentalg SA,Consumer Staples,ALGAE.PA,EQ,
-Poulaillon SA,Consumer Staples,ALPOU.PA,EQ,
-Jacques Bogart SA,Consumer Staples,JBOG.PA,EQ,
-Damartex SA,Consumer Staples,ALDAR.PA,EQ,
-Lombard & Medot,Consumer Staples,MLCAC.PA,EQ,
-Groupe JAJ,Consumer Staples,GJAJ.PA,EQ,
-Body One SA,Consumer Staples,MLONE.PA,EQ,
-La Chausseria SA,Consumer Staples,CHSR.PA,EQ,
-Franck Deville,Consumer Staples,MLFDV.PA,EQ,
-Devernois SA,Consumer Staples,ALDEV.PA,EQ,
-Smalto,Consumer Staples,MLSML.PA,EQ,
-La Savonnerie De Nyons SA,Consumer Staples,MLSDN.PA,EQ,
-IEVA Group,Consumer Staples,ALIEV.PA,EQ,
+L'Oreal SA,Consumer Staples,OR.PA,EQ,FR0000120321
+Danone SA,Consumer Staples,BN.PA,EQ,FR0000120644
+Pernod Ricard SA,Consumer Staples,RI.PA,EQ,FR0000120693
+Carrefour SA,Consumer Staples,CA.PA,EQ,FR0000120172
+L.D.C. S.A.,Consumer Staples,LOUP.PA,EQ,FR001400SF56
+Remy Cointreau SA,Consumer Staples,RCO.PA,EQ,FR0000130395
+Société BIC SA,Consumer Staples,BB.PA,EQ,FR0000120966
+Interparfums SA,Consumer Staples,ITP.PA,EQ,FR0004024222
+Savencia SA,Consumer Staples,SAVE.PA,EQ,FR0000120107
+Oeneo SA,Consumer Staples,SBT.PA,EQ,FR0000052680
+Laurent-Perrier S.A.,Consumer Staples,LPE.PA,EQ,FR0006864484
+Malteries Franco-Belges Société Anonyme,Consumer Staples,MALT.PA,EQ,FR0000030074
+Marie Brizard Wine & Spirits SA,Consumer Staples,MBWS.PA,EQ,FR0000060873
+Bonduelle SCA,Consumer Staples,BON.PA,EQ,FR0000063935
+Lanson-BCC,Consumer Staples,ALLAN.PA,EQ,FR0004027068
+Fleury Michon SA,Consumer Staples,ALFLE.PA,EQ,FR0000074759
+MAISON POMMERY & ASSOCIES,Consumer Staples,POMRY.PA,EQ,FR0000062796
+Casino  Guichard-Perrachon S.A.,Consumer Staples,CO.PA,EQ,FR001400OKR3
+Omer-Decugis & Cie SA,Consumer Staples,ALODC.PA,EQ,FR0014003T71
+Saint Jean Groupe Société anonyme,Consumer Staples,SABE.PA,EQ,FR0000060121
+AdVini S.A.,Consumer Staples,ALAVI.PA,EQ,FR0000053043
+Groupe Carnivor SA,Consumer Staples,MLGRC.PA,EQ,FR0000076960
+Poulaillon SA,Consumer Staples,ALPOU.PA,EQ,FR0013015583
+Jacques Bogart S.A.,Consumer Staples,JBOG.PA,EQ,FR0012872141
+Valbiotis SA,Consumer Staples,ALVAL.PA,EQ,FR0013254851
+Sapmer SA,Consumer Staples,ALMER.PA,EQ,FR0010776617
+KKO International SA,Consumer Staples,ALKKO.PA,EQ,FR0013374667
+écomiam SA,Consumer Staples,ALECO.PA,EQ,FR0013534617
+AgroGeneration SA,Consumer Staples,ALAGR.PA,EQ,FR0010641449
+Lombard & Medot,Consumer Staples,MLCAC.PA,EQ,FR0006205019
+PAULIC Meunerie SA,Consumer Staples,ALPAU.PA,EQ,FR0013479730
+Galeo Concept Société Anonyme,Consumer Staples,MLGAL.PA,EQ,FR0011100759
+Devernois SA,Consumer Staples,ALDEV.PA,EQ,FR0000060840
+La Savonnerie De Nyons,Consumer Staples,MLSDN.PA,EQ,FR0013155975
+IEVA Group S.A.,Consumer Staples,ALIEV.PA,EQ,FR0014015ND9
+Coty Inc.,Consumer Staples,COTY.PA,EQ,
+Amatheon Agri Holding N.V.,Consumer Staples,MLAAH.PA,EQ,
+Rapid Nutrition PLC,Consumer Staples,ALRPD.PA,EQ,
+Mastrad Société Anonyme,Consumer Staples,ALMAS.PA,EQ,

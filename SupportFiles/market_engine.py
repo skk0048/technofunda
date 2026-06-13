@@ -171,42 +171,49 @@ INDIA_BREADTH_INDICES = {
 # ─────────────────────────────────────────────────────────────────────────────
 US_INDEX = "SPY"
 US_SECTORS = {
-    "Technology":      {"yahoo":"XLK",  "csv":"us_sector_information_technology.csv"},
-    "Financials":      {"yahoo":"XLF",  "csv":"us_sector_financials.csv"},
-    "Healthcare":      {"yahoo":"XLV",  "csv":"us_sector_health_care.csv"},
-    "ConsumerDisc":    {"yahoo":"XLY",  "csv":"us_sector_consumer_discretionary.csv"},
-    "Industrials":     {"yahoo":"XLI",  "csv":"us_sector_industrials.csv"},
-    "CommServices":    {"yahoo":"XLC",  "csv":"us_sector_communication_services.csv"},
-    "ConsumerStaples": {"yahoo":"XLP",  "csv":"us_sector_consumer_staples.csv"},
-    "Energy":          {"yahoo":"XLE",  "csv":"us_sector_energy.csv"},
-    "RealEstate":      {"yahoo":"XLRE", "csv":"us_sector_real_estate.csv"},
-    "Materials":       {"yahoo":"XLB",  "csv":"us_sector_materials.csv"},
-    "Utilities":       {"yahoo":"XLU",  "csv":"us_sector_utilities.csv"},
+    "Technology":             {"yahoo":"XLK",  "csv":"us_sector_technology.csv"},
+    "Financials":             {"yahoo":"XLF",  "csv":"us_sector_financials.csv"},
+    "Healthcare":             {"yahoo":"XLV",  "csv":"us_sector_healthcare.csv"},
+    "Consumer Discretionary": {"yahoo":"XLY",  "csv":"us_sector_consumer_discretionary.csv"},
+    "Industrials":            {"yahoo":"XLI",  "csv":"us_sector_industrials.csv"},
+    "Communication Services": {"yahoo":"XLC",  "csv":"us_sector_communication_services.csv"},
+    "Consumer Staples":       {"yahoo":"XLP",  "csv":"us_sector_consumer_staples.csv"},
+    "Energy":                 {"yahoo":"XLE",  "csv":"us_sector_energy.csv"},
+    "Real Estate":            {"yahoo":"XLRE", "csv":"us_sector_real_estate.csv"},
+    "Materials":              {"yahoo":"XLB",  "csv":"us_sector_materials.csv"},
+    "Utilities":              {"yahoo":"XLU",  "csv":"us_sector_utilities.csv"},
 }
 US_INDUSTRY_TO_SECTOR = {
-    "Information Technology":"Technology","Semiconductors":"Technology","Software":"Technology",
-    "Financials":"Financials","Health Care":"Healthcare","Pharmaceuticals":"Healthcare",
-    "Biotechnology":"Healthcare","Consumer Discretionary":"ConsumerDisc",
-    "Industrials":"Industrials","Communication Services":"CommServices","Media":"CommServices",
-    "Consumer Staples":"ConsumerStaples","Energy":"Energy","Real Estate":"RealEstate",
-    "REITs":"RealEstate","Materials":"Materials","Chemicals":"Materials","Utilities":"Utilities",
+    "Technology":"Technology","Information Technology":"Technology",
+    "Semiconductors":"Technology","Software":"Technology",
+    "Financials":"Financials",
+    "Healthcare":"Healthcare","Health Care":"Healthcare",
+    "Pharmaceuticals":"Healthcare","Biotechnology":"Healthcare",
+    "Consumer Discretionary":"Consumer Discretionary",
+    "Industrials":"Industrials",
+    "Communication Services":"Communication Services","Media":"Communication Services",
+    "Consumer Staples":"Consumer Staples",
+    "Energy":"Energy",
+    "Real Estate":"Real Estate","REITs":"Real Estate",
+    "Materials":"Materials","Chemicals":"Materials",
+    "Utilities":"Utilities",
 }
 US_BREADTH_INDICES = {
-    "S&P 500":         {"yahoo":"SPY",  "csv":"us_sp500list.csv"},
-    "Nasdaq 100":      {"yahoo":"QQQ",  "csv":"us_nasdaq100list.csv"},
-    "Dow Jones 30":    {"yahoo":"DIA",  "csv":"us_dji30list.csv"},
-    "Russell 2000":    {"yahoo":"IWM",  "csv":None},
-    "Technology":      {"yahoo":"XLK",  "csv":"us_sector_information_technology.csv"},
-    "Financials":      {"yahoo":"XLF",  "csv":"us_sector_financials.csv"},
-    "Healthcare":      {"yahoo":"XLV",  "csv":"us_sector_health_care.csv"},
-    "ConsumerDisc":    {"yahoo":"XLY",  "csv":"us_sector_consumer_discretionary.csv"},
-    "Industrials":     {"yahoo":"XLI",  "csv":"us_sector_industrials.csv"},
-    "CommServices":    {"yahoo":"XLC",  "csv":"us_sector_communication_services.csv"},
-    "ConsumerStaples": {"yahoo":"XLP",  "csv":"us_sector_consumer_staples.csv"},
-    "Energy":          {"yahoo":"XLE",  "csv":"us_sector_energy.csv"},
-    "RealEstate":      {"yahoo":"XLRE", "csv":"us_sector_real_estate.csv"},
-    "Materials":       {"yahoo":"XLB",  "csv":"us_sector_materials.csv"},
-    "Utilities":       {"yahoo":"XLU",  "csv":"us_sector_utilities.csv"},
+    "S&P 500":                {"yahoo":"SPY",  "csv":"us_sp500list.csv"},
+    "Nasdaq 100":             {"yahoo":"QQQ",  "csv":"us_nasdaq100list.csv"},
+    "Dow Jones 30":           {"yahoo":"DIA",  "csv":"us_dji30list.csv"},
+    "Russell 2000":           {"yahoo":"IWM",  "csv":None},
+    "Technology":             {"yahoo":"XLK",  "csv":"us_sector_technology.csv"},
+    "Financials":             {"yahoo":"XLF",  "csv":"us_sector_financials.csv"},
+    "Healthcare":             {"yahoo":"XLV",  "csv":"us_sector_healthcare.csv"},
+    "Consumer Discretionary": {"yahoo":"XLY",  "csv":"us_sector_consumer_discretionary.csv"},
+    "Industrials":            {"yahoo":"XLI",  "csv":"us_sector_industrials.csv"},
+    "Communication Services": {"yahoo":"XLC",  "csv":"us_sector_communication_services.csv"},
+    "Consumer Staples":       {"yahoo":"XLP",  "csv":"us_sector_consumer_staples.csv"},
+    "Energy":                 {"yahoo":"XLE",  "csv":"us_sector_energy.csv"},
+    "Real Estate":            {"yahoo":"XLRE", "csv":"us_sector_real_estate.csv"},
+    "Materials":              {"yahoo":"XLB",  "csv":"us_sector_materials.csv"},
+    "Utilities":              {"yahoo":"XLU",  "csv":"us_sector_utilities.csv"},
 }
 
 ACTION_TIER_ORDER = {
@@ -1367,9 +1374,15 @@ def _pattern_quality(p, info):
     bull = (direction == "BULLISH")
 
     # ── pattern-intrinsic strength ──────────────────────────────────────────
+    # chart_patterns_v6.1 emits a numeric `conf_score` (0-100); the legacy
+    # `confidence` field is a string label ("HIGH"/"MEDIUM"/"LOW") for display.
+    # Prefer the numeric score; fall back to mapping the label.
+    _CONF_LABEL = {"HIGH": 72.0, "MEDIUM": 52.0, "LOW": 35.0}
     try:
-        conf = float(p.confidence)
-        if conf <= 1:        # detector may report 0-1 instead of 0-100
+        conf = float(getattr(p, "conf_score", 0) or 0)
+        if conf <= 0:        # no numeric score → map the label
+            conf = _CONF_LABEL.get(str(getattr(p, "confidence", "")).upper(), np.nan)
+        elif conf <= 1:      # detector may report 0-1 instead of 0-100
             conf *= 100
     except Exception:
         conf = np.nan
@@ -3130,7 +3143,7 @@ def _fin_is_fresh(entry: dict) -> bool:
     try:
         import time
         ts = entry.get("_ts", 0)
-        return (time.time() - ts) < 86400 * 7   # 7-day TTL
+        return (time.time() - ts) < 8640
     except Exception:
         return False
 

@@ -1,79 +1,75 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-Woodside Energy Group Ltd,Energy,WDS.AX,EQ,
-Santos Limited,Energy,STO.AX,EQ,
-Origin Energy Limited,Energy,ORG.AX,EQ,
-Yancoal Australia Ltd.,Energy,YAL.AX,EQ,
-Ampol Limited,Energy,ALD.AX,EQ,
-Whitehaven Coal Limited,Energy,WHC.AX,EQ,
-New Hope Corporation Limited,Energy,NHC.AX,EQ,
-Viva Energy Group Ltd.,Energy,VEA.AX,EQ,
-Stanmore Resources Ltd,Energy,SMR.AX,EQ,
-Beach Energy Limited,Energy,BPT.AX,EQ,
-Macmahon Holdings Limited,Energy,MAH.AX,EQ,
-Tamboran Resources Corporation Chess Depository Interests,Energy,TBN.AX,EQ,
-Karoon Energy Ltd,Energy,KAR.AX,EQ,
-Channel Infrastructure NZ Limited,Energy,CHI.AX,EQ,
-Coronado Global Resources Inc. Shs Chess Depository Interests Repr 10 Sh,Energy,CRN.AX,EQ,
-Amplitude Energy Limited,Energy,AEL.AX,EQ,
-Beetaloo Energy Australia Limited,Energy,BTL.AX,EQ,
-Strike Energy Limited,Energy,STX.AX,EQ,
-Horizon Oil Limited,Energy,HZN.AX,EQ,
-Omega Oil & Gas Limited,Energy,OMA.AX,EQ,
-GreenX Metals Limited,Energy,GRX.AX,EQ,
-MC Mining Ltd,Energy,MCM.AX,EQ,
-Carnarvon Energy Limited,Energy,CVN.AX,EQ,
-Elixir Energy Limited,Energy,EXR.AX,EQ,
-Finder Energy Holdings Limited,Energy,FDR.AX,EQ,
-Jade Gas Holdings Limited,Energy,JGH.AX,EQ,
-Comet Ridge Ltd,Energy,COI.AX,EQ,
-TerraCom Limited,Energy,TER.AX,EQ,
-Bathurst Resources Ltd,Energy,BRL.AX,EQ,
-Invictus Energy Limited,Energy,IVZ.AX,EQ,
-Aspire Mining Limited,Energy,AKM.AX,EQ,
-Conrad Asia Energy Ltd. Shs Chess Depositary Interests Repr 1 Sh,Energy,CRD.AX,EQ,
-Cue Energy Resources Limited,Energy,CUE.AX,EQ,
-Emperor Energy Ltd,Energy,EMP.AX,EQ,
-Pancontinental Energy NL,Energy,PCL.AX,EQ,
-White Energy Company Limited,Energy,WEC.AX,EQ,
-Echelon Resources Limited,Energy,ECH.AX,EQ,
-Po Valley Energy Limited,Energy,PVE.AX,EQ,
-Kinetiko Energy Ltd.,Energy,KKO.AX,EQ,
-NuEnergy Gas Limited,Energy,NGY.AX,EQ,
-D3 Energy Limited,Energy,D3E.AX,EQ,
-Central Petroleum Limited,Energy,CTP.AX,EQ,
-Cokal Limited,Energy,CKA.AX,EQ,
-Brookside Energy Limited,Energy,BRK.AX,EQ,
-Breakthrough Minerals Limited,Energy,BTM.AX,EQ,
-Hartshead Resources NL,Energy,HHR.AX,EQ,
-TMK Energy Limited,Energy,TMK.AX,EQ,
-HyTerra Ltd,Energy,HYT.AX,EQ,
-Jameson Resources Limited,Energy,JAL.AX,EQ,
-Jupiter Energy Limited,Energy,JPR.AX,EQ,
-Lakes Blue Energy NL,Energy,LKO.AX,EQ,
-FAR Ltd,Energy,FAR.AX,EQ,
-Pure One Corporation Limited,Energy,P1E.AX,EQ,
-Australis Oil & Gas Ltd.,Energy,ATS.AX,EQ,
-ADX Energy Ltd,Energy,ADX.AX,EQ,
-Voltaic Strategic Resources Limited,Energy,VSR.AX,EQ,
-Botala Energy Ltd.,Energy,BTE.AX,EQ,
-Greenvale Energy Limited,Energy,GRV.AX,EQ,
-Bass Oil Ltd,Energy,BAS.AX,EQ,
-High Peak Royalties Limited,Energy,HPR.AX,EQ,
-Buru Energy Ltd,Energy,BRU.AX,EQ,
-SSH Group Ltd.,Energy,SSH.AX,EQ,
-Asian Battery Metals PLC Chess Depository Interests Repr 0.1 Sh,Energy,AZ9.AX,EQ,
-Condor Energy Limited,Energy,CND.AX,EQ,
-Provaris Energy Ltd,Energy,PV1.AX,EQ,
-Xstate Resources Limited,Energy,XST.AX,EQ,
-State Gas Ltd.,Energy,GAS.AX,EQ,
-QEM Limited,Energy,QEM.AX,EQ,
-Stonehorse Energy Ltd,Energy,SHE.AX,EQ,
-Taiton Resources Limited,Energy,T88.AX,EQ,
-Lion Energy Limited,Energy,LIO.AX,EQ,
-Key Petroleum Limited,Energy,KEY.AX,EQ,
-Sagalio Energy Limited,Energy,SAN.AX,EQ,
-Bounty Oil & Gas NL,Energy,BUY.AX,EQ,
-Metgasco Ltd,Energy,MEL.AX,EQ,
-Eastern Gas Corp Ltd,Energy,EGA.AX,EQ,
-Macallum New Energy Limited,Energy,MNE.AX,EQ,
-Ronin Resources Ltd,Energy,RON.AX,EQ,
+Woodside Energy Group,Energy,WDS.AX,EQ,AU0000224040
+Santos,Energy,STO.AX,EQ,AU000000STO6
+Nexgen Energy,Energy,NXG.AX,EQ,AU0000159329
+Ampol,Energy,ALD.AX,EQ,AU0000088338
+Whitehaven Coal,Energy,WHC.AX,EQ,AU000000WHC8
+Worley,Energy,WOR.AX,EQ,AU000000WOR2
+New Hope,Energy,NHC.AX,EQ,AU000000NHC7
+Paladin Energy,Energy,PDN.AX,EQ,AU000000PDN8
+Viva Energy,Energy,VEA.AX,EQ,AU0000016875
+Beach Energy,Energy,BPT.AX,EQ,AU000000BPT9
+Tamboran Resources Corporation Chess Depository Interests,Energy,TBN.AX,EQ,AU0000154841
+Macmahon Holdings Limited,Energy,MAH.AX,EQ,AU000000MAH3
+Karoon Energy,Energy,KAR.AX,EQ,AU000000KAR6
+Deep Yellow,Energy,DYL.AX,EQ,AU000000DYL4
+Amplitude Energy Limited,Energy,AEL.AX,EQ,AU0000361909
+Beetaloo Energy Australia Limited,Energy,BTL.AX,EQ,AU0000401770
+Strike Energy Limited,Energy,STX.AX,EQ,AU000000STX7
+Horizon Oil Limited,Energy,HZN.AX,EQ,AU000000HZN8
+Omega Oil & Gas Limited,Energy,OMA.AX,EQ,AU0000237729
+GreenX Metals Limited,Energy,GRX.AX,EQ,AU0000198939
+MC Mining Ltd,Energy,MCM.AX,EQ,AU000000MCM9
+Elixir Energy Limited,Energy,EXR.AX,EQ,AU000000EXR1
+Carnarvon Energy Limited,Energy,CVN.AX,EQ,AU000000CVN8
+Finder Energy Holdings Limited,Energy,FDR.AX,EQ,AU0000212078
+Jade Gas Holdings Limited,Energy,JGH.AX,EQ,AU0000178477
+Comet Ridge Ltd,Energy,COI.AX,EQ,AU000000COI3
+TerraCom Limited,Energy,TER.AX,EQ,AU000000TER9
+Aspire Mining Limited,Energy,AKM.AX,EQ,AU000000AKM7
+Invictus Energy Limited,Energy,IVZ.AX,EQ,AU0000016560
+Conrad Asia Energy Ltd. Shs Chess Depositary Interests Repr 1 Sh,Energy,CRD.AX,EQ,AU0000240970
+Cue Energy Resources Limited,Energy,CUE.AX,EQ,AU000000CUE9
+Pancontinental Energy NL,Energy,PCL.AX,EQ,AU000000PCL4
+Emperor Energy Ltd,Energy,EMP.AX,EQ,AU000000EMP8
+White Energy Company Limited,Energy,WEC.AX,EQ,AU000000WEC5
+Po Valley Energy Limited,Energy,PVE.AX,EQ,AU000000PVE9
+Kinetiko Energy Ltd.,Energy,KKO.AX,EQ,AU000000KKO2
+NuEnergy Gas Limited,Energy,NGY.AX,EQ,AU000000NGY3
+Cokal Limited,Energy,CKA.AX,EQ,AU000000CKA8
+D3 Energy Limited,Energy,D3E.AX,EQ,AU0000325003
+Central Petroleum Limited,Energy,CTP.AX,EQ,AU000000CTP7
+Brookside Energy Limited,Energy,BRK.AX,EQ,AU000000BRK4
+Hartshead Resources NL,Energy,HHR.AX,EQ,AU0000154148
+Breakthrough Minerals Limited,Energy,BTM.AX,EQ,AU0000374274
+TMK Energy Limited,Energy,TMK.AX,EQ,AU000000TMK7
+HyTerra Ltd,Energy,HYT.AX,EQ,AU0000232415
+Jameson Resources Limited,Energy,JAL.AX,EQ,AU000000JAL1
+Jupiter Energy Limited,Energy,JPR.AX,EQ,AU000000JPR6
+88 Energy Limited,Energy,88E.AX,EQ,AU00000088E2
+Bounty Oil & Gas NL,Energy,BUY.AX,EQ,AU000000BUY9
+Lakes Blue Energy NL,Energy,LKO.AX,EQ,AU000000LKO0
+FAR Ltd,Energy,FAR.AX,EQ,AU000000FAR6
+Australis Oil & Gas Ltd.,Energy,ATS.AX,EQ,AU000000ATS5
+ADX Energy Ltd,Energy,ADX.AX,EQ,AU000000ADX9
+Pure One Corporation Limited,Energy,P1E.AX,EQ,AU0000442865
+Botala Energy Ltd.,Energy,BTE.AX,EQ,AU0000224552
+Voltaic Strategic Resources Limited,Energy,VSR.AX,EQ,AU0000234395
+Greenvale Energy Limited,Energy,GRV.AX,EQ,AU000000GRV0
+Bass Oil Ltd,Energy,BAS.AX,EQ,AU000000BAS3
+High Peak Royalties Limited,Energy,HPR.AX,EQ,AU000000HPR0
+Buru Energy Ltd,Energy,BRU.AX,EQ,AU000000BRU3
+SSH Group Ltd.,Energy,SSH.AX,EQ,AU0000168627
+Azzuro Resources Plc Shs Chess Depository Interests Repr 0.1 Sh,Energy,AZ9.AX,EQ,AU0000340143
+Condor Energy Limited,Energy,CND.AX,EQ,AU0000331142
+QEM Limited,Energy,QEM.AX,EQ,AU0000022246
+Stonehorse Energy Ltd,Energy,SHE.AX,EQ,AU0000054900
+Xstate Resources Limited,Energy,XST.AX,EQ,AU000000XST7
+State Gas Ltd.,Energy,GAS.AX,EQ,AU000000GAS2
+Taiton Resources Limited,Energy,T88.AX,EQ,AU0000243750
+Lion Energy Limited,Energy,LIO.AX,EQ,AU000000LIO4
+Key Petroleum Limited,Energy,KEY.AX,EQ,AU000000KEY4
+Metgasco Ltd,Energy,MEL.AX,EQ,AU000000MEL7
+Eastern Gas Corp Ltd,Energy,EGA.AX,EQ,AU0000446429
+Ronin Resources Ltd,Energy,RON.AX,EQ,AU0000188849
+Macallum New Energy Limited,Energy,MNE.AX,EQ,AU0000446361

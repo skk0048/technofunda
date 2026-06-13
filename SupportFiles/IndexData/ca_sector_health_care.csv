@@ -1,71 +1,138 @@
 Company Name,Industry,Symbol,Series,ISIN Code
+Eli Lilly and Company Canadian Depositary Receipt,Health Care,LLY.TO,EQ,CA28655A1066
+Eli Lilly and Company Shs Unsponsored Canadian Depository Receipt Hedged,Health Care,ZLLY.NE,EQ,CA2869111021
 Johnson & Johnson Shs,Health Care,JNJ.TO,EQ,CA47817E1034
+AbbVie  Inc. CDR (CAD Hedged),Health Care,ABBV.TO,EQ,CA00288K1084
+UnitedHealth Group Incorporated Shs -CAD hedged- Canadian Depositary Receipt Repr Shs Reg S,Health Care,UNH.TO,EQ,CA91324M1095
+UnitedHealth Group Incorporated shs Sponsored Canadian Depository Receipt Hedged Reg S,Health Care,ZUNH.NE,EQ,CA91324K1030
+Roche Holding Ltd Sponsored Canadian Depository Receipt Hedged Reg S,Health Care,ROCH.NE,EQ,CA77119N1050
+Roche Holding Ltd CAD Hedged CIBC CDR,Health Care,ROG.TO,EQ,CA77119A1030
+Merck & Co.  Inc. Shs Sponsored Canadian Depository Receipt Hedged Reg S,Health Care,MRK.TO,EQ,CA58933J1084
+Novartis AG CAD Hedged CIBC CDR,Health Care,NVS.TO,EQ,CA66989X1033
+Novartis AG Shs Sponsored Canadian Depository Receipt Hedged Reg S,Health Care,NOVN.NE,EQ,CA6699861010
+Novo Nordisk A/S Shs Unsponsored Canadian Depository Receipt Hedged,Health Care,NOVO.TO,EQ,CA67010P1018
+Novo Nordisk A/S Sponsored Canadian Depository Receipt Hedged Reg S,Health Care,NVON.NE,EQ,CA67010H1091
+Amgen Inc. Shs Sponsored Canadian Depository Receipt Hedged Reg S,Health Care,AMGN.TO,EQ,CA03116G1090
+Thermo Fisher Scientific Inc. Shs Unsponsored Canadian Depoitary Receipt Hedged Reg S,Health Care,TMO.TO,EQ,CA88355G1000
+Gilead Sciences  Inc. Shs Unsponsored Canadian Depository Receipt Hedged Reg S,Health Care,GILD.TO,EQ,CA37556U1030
+Abbott Laboratories Shs UnSponsored Canadian Depository Receipt Hedged,Health Care,ABT.TO,EQ,CA0028221046
+Pfizer Inc. Shs Unsponsored Canadian Depository Receipt Hedged,Health Care,ZPFE.NE,EQ,CA7169691002
+Pfizer Inc. Shs -CAD hedged- Canadian Depositary Receipt Repr Shs Reg S,Health Care,PFE.TO,EQ,CA7170651060
+Intuitive Surgical  Inc. Shs A -CAD hedged- Unsponsored Canadian Depoitary Receipt Hedged Shs A Reg S,Health Care,ISRG.TO,EQ,CA46125T1093
+Stryker Corporation Shs Sponsored Canadian Depository Receipt Hedged Reg S,Health Care,SYK.TO,EQ,CA8636701051
+Sanofi SA Shs Unsponsored Canadian Depository Receipt Hedged Reg S,Health Care,SAN.NE,EQ,CA80106A1021
+Sanofi SA Shs Unsponsored Canadian Depository Receipt Hedged Reg S,Health Care,SNY.TO,EQ,CA8010MA1047
+Lonza Group AG Shs Sponsored Canadian Depository Receipt Hedged Reg S,Health Care,LON.NE,EQ,CA5429191052
 Bausch + Lomb Corporation,Health Care,BLCO.TO,EQ,CA0717051076
+"Curaleaf Holdings, Inc.",Health Care,CURA.TO,EQ,CA23126M3003
 Extendicare Inc.,Health Care,EXE.TO,EQ,CA30224T8639
 Bausch Health Companies Inc.,Health Care,BHC.TO,EQ,CA0717341071
 Sienna Senior Living Inc.,Health Care,SIA.TO,EQ,CA82621K1021
-Jamieson Wellness Inc.,Health Care,JWEL.TO,EQ,CA4707481046
 Cronos Group Inc,Health Care,CRON.TO,EQ,CA22717L1013
 WELL Health Technologies Corp.,Health Care,WELL.TO,EQ,CA94947L1022
-Knight Therapeutics Inc.,Health Care,GUD.TO,EQ,CA4990531069
-Eupraxia Pharmaceuticals Inc.,Health Care,EPRX.TO,EQ,CA29842P1053
-Cipher Pharmaceuticals Inc.,Health Care,CPH.TO,EQ,CA17253X1050
+Knight Therapeutics  Inc.,Health Care,GUD.TO,EQ,CA4990531069
+Bright Minds Biosciences Inc.,Health Care,DRUG.NE,EQ,CA10919W4056
+Eupraxia Pharmaceuticals  Inc.,Health Care,EPRX.TO,EQ,CA29842P1053
 Fennec Pharmaceuticals Inc.,Health Care,FRX.TO,EQ,CA31447P1009
+Cipher Pharmaceuticals Inc.,Health Care,CPH.TO,EQ,CA17253X1050
 Spectral Medical Inc,Health Care,EDT.TO,EQ,CA8475771033
 Profound Medical Corp,Health Care,PRN.TO,EQ,CA74319B5027
 Medical Facilities Corporation,Health Care,DR.TO,EQ,CA58457V5036
 HealWELL AI Inc. Class A,Health Care,AIDX.TO,EQ,CA42249X1006
+Cannabist Company Holdings Inc,Health Care,CBST.NE,EQ,CA13765Y1034
 CareRx Corporation,Health Care,CRRX.TO,EQ,CA14173C1059
 Cardiol Therapeutics Inc. Class A,Health Care,CRDL.TO,EQ,CA14161Y2006
 Satellos Bioscience Inc,Health Care,MSCL.TO,EQ,CA80401L8033
 BioSyent Inc.,Health Care,RX.V,EQ,CA0906901081
-HLS Therapeutics Inc.,Health Care,HLS.TO,EQ,CA40390B1094
+Grown Rogue International Inc.,Health Care,GRIN.NE,EQ,CA39986R3045
+HLS Therapeutics  Inc.,Health Care,HLS.TO,EQ,CA40390B1094
 Medexus Pharmaceuticals Inc.,Health Care,MDP.TO,EQ,CA58410Q2036
 Helix BioPharma Corp.,Health Care,HBP.TO,EQ,CA4229102088
+Noveris Health Sciences Inc.,Health Care,NVRS.NE,EQ,CA66990B1085
+Onco-Innovations Ltd.,Health Care,ONCO.NE,EQ,CA68237C1059
+Telescope Innovations Corp,Health Care,TELI.NE,EQ,CA87953P1080
 Decibel Cannabis Company Inc,Health Care,DB.V,EQ,CA2434371001
 Eastwood Bio-Medical Canada Inc,Health Care,EBM.V,EQ,CA27783W1059
 Theralase Technologies Inc.,Health Care,TLT.V,EQ,CA88337V1004
 Covalon Technologies Ltd.,Health Care,COV.V,EQ,CA22282D3022
+ME Therapeutics Holdings  Inc.,Health Care,METX.CN,EQ,CA5527671054
+BioMark Diagnostics  Inc.,Health Care,BUX.NE,EQ,CA09073K1084
 Sernova Biotherapeutics Inc,Health Care,SVA.TO,EQ,CA81752F1062
-Nurexone Biologic Inc,Health Care,NRX.V,EQ,CA67059R1091
-Perimeter Medical Imaging AI Inc,Health Care,PINK.V,EQ,CA71385D1078
+BioNxt Solutions Inc,Health Care,BNXT.NE,EQ,CA0909741062
 MedMira Inc.,Health Care,MIR.V,EQ,CA58501R1029
-LSL Pharma Group Inc,Health Care,LSL.V,EQ,CA50190N1042
-BriaCell Therapeutics Corp,Health Care,BCT.TO,EQ,CA1079303071
+Perimeter Medical Imaging AI Inc,Health Care,PINK.V,EQ,CA71385D1078
 Microbix Biosystems Inc.,Health Care,MBX.TO,EQ,CA59501P1045
-Arch Biopartners Inc.,Health Care,ARCH.V,EQ,CA03938C1041
+Defence Therapeutics Inc Class A,Health Care,DTC.CN,EQ,CA24463V1013
+LSL Pharma Group Inc,Health Care,LSL.V,EQ,CA50190N1042
+Nurexone Biologic Inc,Health Care,NRX.V,EQ,CA67059R1091
+Arch Biopartners  Inc.,Health Care,ARCH.V,EQ,CA03938C1041
+Quantum Biopharma Ltd. Subordinate Voting Shares Class B,Health Care,QNTM.NE,EQ,CA74764Y2050
 Resverlogix Corp.,Health Care,RVX.TO,EQ,CA76128M1086
-Ocumetics Technology Corp,Health Care,OTC.V,EQ,CA67577H1047
+BriaCell Therapeutics Corp,Health Care,BCT.TO,EQ,CA1079303071
 Nova Leap Health Corp.,Health Care,NLH.V,EQ,CA66980G1090
-Devonian Health Group Inc.,Health Care,GSD.V,EQ,CA2518348834
+Rubicon Organics  Inc.,Health Care,ROMJ.V,EQ,CA78112W1005
+Ocumetics Technology Corp,Health Care,OTC.V,EQ,CA67577H1047
+Lobe Sciences Ltd,Health Care,LOBE.CN,EQ,CA53946V2066
+Devonian Health Group  Inc.,Health Care,GSD.V,EQ,CA2518348834
 Medicenna Therapeutics Corp.,Health Care,MDNA.TO,EQ,CA58490H1073
-Rubicon Organics Inc.,Health Care,ROMJ.V,EQ,CA78112W1005
 Ventripoint Diagnostics Ltd.,Health Care,VPT.V,EQ,CA92281P2008
-FuelPositive Corp.,Health Care,NHHH.V,EQ,CA35954F1080
 Conavi Medical Corp.,Health Care,CNVI.V,EQ,CA2059531020
+FuelPositive Corp.,Health Care,NHHH.V,EQ,CA35954F1080
 Aurora Spine Corp.,Health Care,ASG.V,EQ,CA05206X1087
-Medx Health Corp.,Health Care,MDX.V,EQ,CA5850901037
+Izotropic Corp.,Health Care,IZO.CN,EQ,CA46604F1099
 Nanalysis Scientific Corp,Health Care,NSCI.V,EQ,CA63000Y1034
-Frequency Exchange Corp,Health Care,FREQ.V,EQ,CA3580191078
+PharmAla Biotech Holdings  Inc.,Health Care,MDMA.NE,EQ,CA71719L1067
+Medx Health Corp.,Health Care,MDX.V,EQ,CA5850901037
+HYTN Innovations Inc,Health Care,HYTN.CN,EQ,CA40443L1040
 Avicanna Inc,Health Care,AVCN.TO,EQ,CA05368K1003
+InnoCan Pharma Corporation,Health Care,INNO.CN,EQ,CA45783P5085
+Frequency Exchange Corp,Health Care,FREQ.V,EQ,CA3580191078
 Marvel Biosciences Corp,Health Care,MRVL.V,EQ,CA57384M1077
-Medicure Inc.,Health Care,MPH.V,EQ,CA58469E4085
+Revive Therapeutics Ltd.,Health Care,RVV.NE,EQ,CA7615161030
+Rapid Dose Therapeutics Corp,Health Care,DOSE.NE,EQ,CA75339A1012
 California Nanotechnologies Corp.,Health Care,CNO.V,EQ,CA1304921010
+BetterLife Pharma Inc.,Health Care,BETR.NE,EQ,CA08772P2026
 Hemostemix Inc,Health Care,HEM.V,EQ,CA4236943060
+Medicure Inc.,Health Care,MPH.V,EQ,CA58469E4085
+QScreen AI Inc.,Health Care,QAI.CN,EQ,CA7469601032
 COSCIENS Biopharma Inc.,Health Care,CSCI.TO,EQ,CA22112H1010
+UniDoc Health Corp.,Health Care,UDOC.CN,EQ,CA90468F1027
+PreveCeutical Medical Inc,Health Care,PREV.NE,EQ,CA74143C1068
+Glow LifeTech Corp,Health Care,GLOW.NE,EQ,CA37989H1091
+Promino Nutritional Sciences Inc,Health Care,MUSL.CN,EQ,CA74290V2049
 DataMetrex AI Ltd.,Health Care,DM.V,EQ,CA23809L2075
-Avricore Health Inc.,Health Care,AVCR.V,EQ,CA0545211090
-Innovotech Inc.,Health Care,IOT.V,EQ,CA45772U1049
-Aptose Biosciences Inc.,Health Care,APS.TO,EQ,CA03835T4081
 Telo Genomics Corp.,Health Care,TELO.V,EQ,CA87975M2085
+SureNano Science Ltd,Health Care,SURE.CN,EQ,CA86867L1040
+Innovotech Inc.,Health Care,IOT.V,EQ,CA45772U1049
+DiagnaMed Holdings Corp.,Health Care,DMED.NE,EQ,CA25245D1033
+Aptose Biosciences Inc.,Health Care,APS.TO,EQ,CA03835T4081
+Avricore Health Inc.,Health Care,AVCR.V,EQ,CA0545211090
+XORTX Therapeutics  Inc.,Health Care,XRTX.V,EQ,CA98420Q4051
+PharmaTher Holdings Ltd,Health Care,PHRM.NE,EQ,CA71716H1082
+Restart Life Sciences Corp.,Health Care,HEAL.CN,EQ,CA76134J2065
+Digital Commodities Inc,Health Care,DIGI.NE,EQ,CA25384L1067
 NuGen Medical Devices Inc,Health Care,NGMD.V,EQ,CA67054F1009
-XORTX Therapeutics Inc.,Health Care,XRTX.V,EQ,CA98420Q4051
 Simply Solventless Concentrates Ltd,Health Care,HASH.V,EQ,CA82888A1021
+TripSitter Clinic Ltd,Health Care,KETA.CN,EQ,CA89680B2049
+Grey Matters Health Inc,Health Care,GREY.CN,EQ,CA3978841078
 Therma Bright Inc.,Health Care,THRM.V,EQ,CA8834262070
+Neural Therapeutics Inc.,Health Care,NURL.CN,EQ,CA64134N2032
 Lifeist Wellness Inc,Health Care,LFST.V,EQ,CA53228D2059
 Appili Therapeutics Inc Class A,Health Care,APLI.TO,EQ,CA03783R1073
+Cybin  Inc.,Health Care,HELP.NE,EQ,CA23256X4075
 Zero Candida Technologies Inc.,Health Care,ZCT.V,EQ,CA9894831028
+Mindbio Therapeutics Corp.,Health Care,MBIO.NE,EQ,CA60256C2076
+Doseology Sciences  Inc.,Health Care,MOOD.NE,EQ,CA2584842033
 Else Nutrition Holdings Inc,Health Care,BABY.TO,EQ,CA2902575000
+Good Purpose Investments Inc.,Health Care,GPIN.CN,EQ,CA38211A1021
+Nevis Brands Inc.,Health Care,NEVI.CN,EQ,CA64155A1066
+EGF Theramed Health Corp.,Health Care,TMED.CN,EQ,CA2684692023
+Waverley Pharma  Inc.,Health Care,WAVE.V,EQ,CA94357L1058
+Entheon Biomedical Corp.,Health Care,ENBI.X.CN,EQ,CA29383X2023
 Vaxil Bio Ltd.,Health Care,VXL.V,EQ,CA92243L2066
 Vitality Products Inc.,Health Care,VPI.V,EQ,CA92847D1050
+Global Health Clinics Ltd.,Health Care,MJRX.CN,EQ,CA37958W3012
+DiagnosTear Technologies  Inc.,Health Care,DTR.CN,EQ,CA25244H1055
 Cheelcare Inc.,Health Care,CHER.V,EQ,CA16308C1086
+Apotex Health Corp.,Health Care,APTX.TO,EQ,CA03772D1015
+Rise Nano Optics Ltd.,Health Care,EYE.CN,EQ,CA76761X1069

@@ -1,38 +1,883 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-Taiwan Semiconductor,Technology,2330.TW,EQ,
-MediaTek,Technology,2454.TW,EQ,
-Hon Hai Precision,Technology,2317.TW,EQ,
-Delta Electronics,Technology,2308.TW,EQ,
-Largan Precision,Technology,3008.TW,EQ,
-ASE Technology,Technology,3711.TW,EQ,
-Novatek Microelectronics,Technology,3034.TW,EQ,
-Realtek Semiconductor,Technology,2379.TW,EQ,
-United Microelectronics,Technology,2303.TW,EQ,
-eMemory Technology,Technology,3529.TW,EQ,
-Wiwynn,Technology,6669.TW,EQ,
-Inventec,Technology,2356.TW,EQ,
-Quanta Computer,Technology,2382.TW,EQ,
-Compal Electronics,Technology,2324.TW,EQ,
-Pegatron,Technology,4938.TW,EQ,
-Nanya Technology,Technology,2408.TW,EQ,
-Powerchip Semiconductor,Technology,6770.TW,EQ,
-Vanguard International Semiconductor,Technology,5347.TWO,EQ,
-Global Unichip,Technology,3443.TW,EQ,
-Parade Technologies,Technology,4966.TWO,EQ,
-Alchip Technologies,Technology,3661.TW,EQ,
-King Yuan Electronics,Technology,2449.TW,EQ,
-Lite-On Technology,Technology,2301.TW,EQ,
-Advantech,Technology,2395.TW,EQ,
-Synnex Technology,Technology,2347.TW,EQ,
-Gigabyte Technology,Technology,2376.TW,EQ,
-Micro-Star International,Technology,2377.TW,EQ,
-Innolux Corporation,Technology,3481.TW,EQ,
-Elan Microelectronics Corp,Technology,2458.TW,EQ,
-WPG Holdings Ltd,Technology,3702.TW,EQ,
-Primax Electronics Ltd,Technology,4915.TW,EQ,
-AUO Corporation,Technology,2409.TW,EQ,
-Himax Technologies Inc,Technology,3036.TW,EQ,
-Silergy Corp,Technology,6415.TW,EQ,
-Phison Electronics Corp,Technology,8299.TW,EQ,
-Silicon Motion Technology Corp,Technology,8150.TW,EQ,
-Genius Electronic Optical Co Ltd,Technology,3406.TW,EQ,
+Taiwan Semiconductor,Technology,2330.TW,EQ,TW0002330008
+MediaTek,Technology,2454.TW,EQ,TW0002454006
+Delta Electronics,Technology,2308.TW,EQ,TW0002308004
+Hon Hai Precision,Technology,2317.TW,EQ,TW0002317005
+ASE Technology,Technology,3711.TW,EQ,TW0003711008
+Elite Material Co.  Ltd.,Technology,2383.TW,EQ,TW0002383007
+United Microelectronics,Technology,2303.TW,EQ,TW0002303005
+Quanta Computer,Technology,2382.TW,EQ,TW0002382009
+Unimicron Technology Corp.,Technology,3037.TW,EQ,TW0003037008
+Accton Technology Corporation,Technology,2345.TW,EQ,TW0002345006
+Hon. Precision  Inc.,Technology,7769.TW,EQ,TW0007769002
+Nanya Technology,Technology,2408.TW,EQ,TW0002408002
+Chroma ATE Inc.,Technology,2360.TW,EQ,TW0002360005
+Asia Vital Components Co.  Ltd.,Technology,3017.TW,EQ,TW0003017000
+Wiwynn,Technology,6669.TW,EQ,TW0006669005
+Winbond Electronics Corporation,Technology,2344.TW,EQ,TW0002344009
+ASPEED Technology Inc.,Technology,5274.TWO,EQ,TW0005274005
+Gold Circuit Electronics Ltd.,Technology,2368.TW,EQ,TW0002368008
+MPI Corporation,Technology,6223.TWO,EQ,TW0006223001
+Global Unichip,Technology,3443.TW,EQ,TW0003443008
+Jentech Precision Industrial Co.  Ltd,Technology,3653.TW,EQ,TW0003653002
+Nan Ya Printed Circuit Board Corporation,Technology,8046.TW,EQ,TW0008046004
+Largan Precision,Technology,3008.TW,EQ,TW0003008009
+Phison Electronics Corp.,Technology,8299.TWO,EQ,TW0008299009
+Lite-On Technology,Technology,2301.TW,EQ,TW0002301009
+Taiwan Union Technology Corporation,Technology,6274.TWO,EQ,TW0006274004
+GlobalWafers Co.  Ltd.,Technology,6488.TWO,EQ,TW0006488000
+Advantech,Technology,2395.TW,EQ,TW0002395001
+Innolux Corporation,Technology,3481.TW,EQ,TW0003481008
+WinWay Technology Co.  Ltd.,Technology,6515.TW,EQ,TW0006515000
+King Yuan Electronics,Technology,2449.TW,EQ,TW0002449006
+Kinsus Interconnect Technology Corp.,Technology,3189.TW,EQ,TW0003189007
+Realtek Semiconductor,Technology,2379.TW,EQ,TW0002379005
+Vanguard International Semiconductor,Technology,5347.TWO,EQ,TW0005347009
+Compeq Manufacturing Co.  Ltd.,Technology,2313.TW,EQ,TW0002313004
+Novatek Microelectronics,Technology,3034.TW,EQ,TW0003034005
+Himax Technologies Inc,Technology,3036.TW,EQ,TW0003036000
+Macronix International Co.  Ltd.,Technology,2337.TW,EQ,TW0002337003
+Powerchip Semiconductor,Technology,6770.TW,EQ,TW0006770001
+Tripod Technology Corporation,Technology,3044.TW,EQ,TW0003044004
+Powertech Technology Inc.,Technology,6239.TW,EQ,TW0006239007
+Lotes Co.  Ltd.,Technology,3533.TW,EQ,TW0003533006
+Pegatron,Technology,4938.TW,EQ,TW0004938006
+Inventec,Technology,2356.TW,EQ,TW0002356003
+Gigabyte Technology,Technology,2376.TW,EQ,TW0002376001
+eMemory Technology Inc.,Technology,3529.TWO,EQ,TW0003529004
+E Ink Holdings Inc.,Technology,8069.TWO,EQ,TW0008069006
+WIN Semiconductors Corp.,Technology,3105.TWO,EQ,TW0003105003
+LandMark Optoelectronics Corporation,Technology,3081.TWO,EQ,TW0003081006
+Walsin Technology Corporation,Technology,2492.TW,EQ,TW0002492006
+Chenbro Micom Co.  Ltd.,Technology,8210.TW,EQ,TW0008210006
+WPG Holdings Ltd,Technology,3702.TW,EQ,TW0003702007
+AUO Corporation,Technology,2409.TW,EQ,TW0002409000
+Innodisk Corporation,Technology,5289.TWO,EQ,TW0005289003
+Chipbond Technology Corporation,Technology,6147.TWO,EQ,TW0006147002
+Compal Electronics,Technology,2324.TW,EQ,TW0002324001
+VisEra Technologies Company Ltd.,Technology,6789.TW,EQ,TW0006789001
+AP Memory Technology Corporation,Technology,6531.TW,EQ,TW0006531007
+Synnex Technology,Technology,2347.TW,EQ,TW0002347002
+Co-Tech Development Corporation,Technology,8358.TWO,EQ,TW0008358003
+EZconn Corporation,Technology,6442.TW,EQ,TW0006442007
+ADATA Technology Co.  Ltd.,Technology,3260.TWO,EQ,TW0003260006
+Transcend Information  Inc.,Technology,2451.TW,EQ,TW0002451002
+WNC Corporation,Technology,6285.TW,EQ,TW0006285000
+Holy Stone Enterprise Co. Ltd.,Technology,3026.TW,EQ,TW0003026001
+Formosa Sumco Technology Corporation,Technology,3532.TW,EQ,TW0003532008
+Fositek Corp.,Technology,6805.TW,EQ,TW0006805005
+Marketech International Corp.,Technology,6196.TW,EQ,TW0006196009
+Chunghwa Precision Test Tech. Co.  Ltd.,Technology,6510.TWO,EQ,TW0006510001
+Universal Microwave Technology  Inc.,Technology,3491.TWO,EQ,TW0003491007
+Micro-Star International,Technology,2377.TW,EQ,TW0002377009
+MiTAC Holdings Corporation,Technology,3706.TW,EQ,TW0003706008
+Ardentec Corporation,Technology,3264.TWO,EQ,TW0003264008
+Sigurd Microelectronics Corporation,Technology,6257.TW,EQ,TW0006257009
+Airoha Technology Corp.,Technology,6526.TW,EQ,TW0006526007
+ASMedia Technology Inc.,Technology,5269.TW,EQ,TW0005269005
+Sino-American Silicon Products Inc.,Technology,5483.TWO,EQ,TW0005483002
+Chicony Electronics Co.  Ltd.,Technology,2385.TW,EQ,TW0002385002
+Cal-Comp Electronics (Thailand) Public Company Limited,Technology,9105.TW,EQ,TW0009105007
+Auras Technology Co.  Ltd.,Technology,3324.TWO,EQ,TW0003324000
+Grand Process Technology Corporation,Technology,3131.TWO,EQ,TW0003131009
+ITEQ Corporation,Technology,6213.TW,EQ,TW0006213002
+Topco Scientific Co. Ltd.,Technology,5434.TW,EQ,TW0005434005
+Advanced Echem Materials Company Limited,Technology,4749.TWO,EQ,TW0004749007
+FOCI Fiber Optic Communications  Inc.,Technology,3363.TWO,EQ,TW0003363008
+Chang Wah Technology Co.  Ltd.,Technology,6548.TWO,EQ,TW0006548001
+Foxconn Technology Co.  Ltd.,Technology,2354.TW,EQ,TW0002354008
+TXC Corporation,Technology,3042.TW,EQ,TW0003042008
+Test Research  Inc.,Technology,3030.TW,EQ,TW0003030003
+SINBON Electronics Co.  Ltd.,Technology,3023.TW,EQ,TW0003023008
+Genius Electronic Optical Co Ltd,Technology,3406.TW,EQ,TW0003406005
+Nuvoton Technology Corporation,Technology,4919.TW,EQ,TW0004919006
+Nichidenbo Corporation,Technology,3090.TW,EQ,TW0003090007
+LuxNet Corporation,Technology,4979.TWO,EQ,TW0004979000
+Greatek Electronics Inc.,Technology,2441.TW,EQ,TW0002441003
+Alliance Material Co.  Ltd.,Technology,3595.TWO,EQ,TW0003595005
+Silicon Motion Technology Corp,Technology,8150.TW,EQ,TW0008150004
+Elite Advanced Laser Corporation,Technology,3450.TW,EQ,TW0003450003
+Getac Holdings Corporation,Technology,3005.TW,EQ,TW0003005005
+Visual Photonics Epitaxy Co.  Ltd.,Technology,2455.TW,EQ,TW0002455003
+Browave Corporation,Technology,3163.TWO,EQ,TW0003163002
+Scientech Corporation,Technology,3583.TW,EQ,TW0003583001
+Xintec Inc.,Technology,3374.TWO,EQ,TW0003374005
+Taiwan Surface Mounting Technology Corp.,Technology,6278.TW,EQ,TW0006278005
+Elite Semiconductor Microelectronics Technology Inc.,Technology,3006.TW,EQ,TW0003006003
+Lelon Electronics Corp.,Technology,2472.TW,EQ,TW0002472008
+I-Chiun Precision Industry Co.  Ltd.,Technology,2486.TW,EQ,TW0002486008
+Fulltech Fiber Glass Corp.,Technology,1815.TWO,EQ,TW0001815009
+PANJIT International Inc.,Technology,2481.TW,EQ,TW0002481009
+Phoenix Silicon International Corporation,Technology,8028.TW,EQ,TW0008028002
+Ennoconn Corporation,Technology,6414.TW,EQ,TW0006414006
+Wafer Works Corporation,Technology,6182.TWO,EQ,TW0006182009
+Supreme Electronics Co.  Ltd.,Technology,8112.TW,EQ,TW0008112004
+Kinpo Electronics  Inc.,Technology,2312.TW,EQ,TW0002312006
+Tong Hsing Electronic Industries  Ltd.,Technology,6271.TW,EQ,TW0006271000
+Qisda Corporation,Technology,2352.TW,EQ,TW0002352002
+Gudeng Precision Industrial Co.  Ltd.,Technology,3680.TWO,EQ,TW0003680005
+Faraday Technology Corporation,Technology,3035.TW,EQ,TW0003035002
+ENNOSTAR Inc.,Technology,3714.TW,EQ,TW0003714002
+Dynamic Holding Co.  Ltd.,Technology,3715.TW,EQ,TW0003715009
+Prosperity Dielectrics Co.  Ltd.,Technology,6173.TWO,EQ,TW0006173008
+Global Brands Manufacture Ltd.,Technology,6191.TW,EQ,TW0006191000
+Taiwan Puritic Corp.,Technology,6826.TWO,EQ,TW0006826001
+Machvision Inc.,Technology,3563.TW,EQ,TW0003563003
+Unitech Printed Circuit Board Corp.,Technology,2367.TW,EQ,TW0002367000
+HannStar Display Corporation,Technology,6116.TW,EQ,TW0006116007
+Radiant Opto-Electronics Corporation,Technology,6176.TW,EQ,TW0006176001
+Elan Microelectronics Corp,Technology,2458.TW,EQ,TW0002458007
+Chang Wah Electromaterials Inc.,Technology,8070.TW,EQ,TW0008070004
+HannStar Board Corporation,Technology,5469.TW,EQ,TW0005469001
+Asia Optical Co.  Inc.,Technology,3019.TW,EQ,TW0003019006
+Jess-link Products Co.  Ltd.,Technology,6197.TW,EQ,TW0006197007
+Keystone Microtech Corporation,Technology,6683.TWO,EQ,TW0006683006
+Arcadyan Technology Corporation,Technology,3596.TW,EQ,TW0003596003
+Taiflex Scientific Co.  Ltd.,Technology,8039.TW,EQ,TW0008039009
+Apaq Technology Co.  Ltd.,Technology,6449.TW,EQ,TW0006449002
+Thinking Electronic Industrial Co.  Ltd.,Technology,2428.TW,EQ,TW0002428000
+HORNG TERNG,Technology,7751.TWO,EQ,TW0007751000
+VIA Technologies  Inc.,Technology,2388.TW,EQ,TW0002388006
+Systex Corporation,Technology,6214.TW,EQ,TW0006214000
+HTC Corporation,Technology,2498.TW,EQ,TW0002498003
+Primax Electronics Ltd,Technology,4915.TW,EQ,TW0004915004
+Orient Semiconductor Electronics  Limited,Technology,2329.TW,EQ,TW0002329000
+Sitronix Technology Corporation,Technology,8016.TW,EQ,TW0008016007
+Wah Lee Industrial Corporation,Technology,3010.TW,EQ,TW0003010005
+Foxsemicon Integrated Technology Inc.,Technology,3413.TW,EQ,TW0003413001
+SDI Corporation,Technology,2351.TW,EQ,TW0002351004
+Episil-Precision Inc.,Technology,3016.TW,EQ,TW0003016002
+PixArt Imaging Inc.,Technology,3227.TWO,EQ,TW0003227005
+TAI-TECH Advanced Electronics Co.  Ltd.,Technology,3357.TWO,EQ,TW0003357000
+United Renewable Energy Co.  Ltd.,Technology,3576.TW,EQ,TW0003576005
+Formosa Advanced Technologies Co.  Ltd.,Technology,8131.TW,EQ,TW0008131004
+Everlight Electronics Co.  Ltd.,Technology,2393.TW,EQ,TW0002393006
+ASROCK Incorporation,Technology,3515.TW,EQ,TW0003515003
+Episil Technologies Inc.,Technology,3707.TWO,EQ,TW0003707006
+First Hi-tec Enterprise Co.  Ltd.,Technology,5439.TWO,EQ,TW0005439004
+Silicon Integrated Systems Corp.,Technology,2363.TW,EQ,TW0002363009
+Advanced Wireless Semiconductor Company,Technology,8086.TWO,EQ,TW0008086000
+Etron Technology  Inc.,Technology,5351.TWO,EQ,TW0005351001
+Gallant Micro. Machining Co.  LTD.,Technology,6640.TWO,EQ,TW0006640006
+WUS Printed Circuit Co.  Ltd.,Technology,2316.TW,EQ,TW0002316007
+Adlink Technology Inc.,Technology,6166.TW,EQ,TW0006166002
+Walton Advanced Engineering  Inc.,Technology,8110.TW,EQ,TW0008110008
+C.C.P. Contact Probes Co.  Ltd.,Technology,6217.TWO,EQ,TW0006217003
+AAEON Technology Inc.,Technology,6579.TW,EQ,TW0006579006
+Clevo Co.,Technology,2362.TW,EQ,TW0002362001
+Grade Upon Technology Corp,Technology,6739.TWO,EQ,TW0006739006
+Pan-International Industrial Corp.,Technology,2328.TW,EQ,TW0002328002
+Coretronic Corporation,Technology,5371.TWO,EQ,TW0005371009
+Msscorps Co.  Ltd.,Technology,6830.TW,EQ,TW0006830003
+Ampoc Far-East Co.  Ltd.,Technology,2493.TW,EQ,TW0002493004
+Apacer Technology Inc.,Technology,8271.TW,EQ,TW0008271008
+Lintes Technology Co.  Ltd.,Technology,6715.TW,EQ,TW0006715006
+Sercomm Corporation,Technology,5388.TW,EQ,TW0005388003
+ASRock Rack Incorporation,Technology,7711.TW,EQ,TW0007711004
+AmTRAN Technology Co. Ltd,Technology,2489.TW,EQ,TW0002489002
+ITE Tech. Inc,Technology,3014.TW,EQ,TW0003014007
+Taiwan Semiconductor Co.  Ltd.,Technology,5425.TWO,EQ,TW0005425003
+Contrel Technology Co.  Ltd.,Technology,8064.TWO,EQ,TW0008064007
+TA-I Technology Co.  Ltd.,Technology,2478.TW,EQ,TW0002478005
+Chin-Poon Industrial Co.  Ltd.,Technology,2355.TW,EQ,TW0002355005
+Winstek Semiconductor Co.  Ltd.,Technology,3265.TWO,EQ,TW0003265005
+Ability Enterprise Co.  Ltd.,Technology,2374.TW,EQ,TW0002374006
+Global Mixed-Mode Technology Inc.,Technology,8081.TW,EQ,TW0008081001
+Weikeng Industrial Co.  Ltd.,Technology,3033.TW,EQ,TW0003033007
+Ability Opto-Electronics Technology Co. Ltd.,Technology,3362.TWO,EQ,TW0003362000
+QNAP,Technology,7805.TWO,EQ,TW0007805004
+Anpec Electronics Corporation,Technology,6138.TWO,EQ,TW0006138001
+Merry Electronics Co.  Ltd.,Technology,2439.TW,EQ,TW0002439007
+uPI Semiconductor Corp.,Technology,6719.TW,EQ,TW0006719008
+Solomon Technology Corporation,Technology,2359.TW,EQ,TW0002359007
+Flexium Interconnect  Inc.,Technology,6269.TW,EQ,TW0006269004
+LINE Pay Taiwan Limited,Technology,7722.TW,EQ,TW0007722001
+Quanta Storage Inc.,Technology,6188.TWO,EQ,TW0006188006
+Team Group Inc.,Technology,4967.TW,EQ,TW0004967005
+TSEC Corporation,Technology,6443.TW,EQ,TW0006443005
+Taiwan Chinsan Electronic Industrial Co.  Ltd.,Technology,8042.TWO,EQ,TW0008042003
+Chenming Electronic Tech. Corp.,Technology,3013.TW,EQ,TW0003013009
+AIC Inc.,Technology,3693.TWO,EQ,TW0003693008
+Allied Circuit Co.  Ltd.,Technology,8155.TWO,EQ,TW0008155003
+Alltop Technology Co.  Ltd.,Technology,3526.TWO,EQ,TW0003526000
+Advanced Power Electronics Co.  Ltd.,Technology,8261.TW,EQ,TW0008261009
+Shenmao Technology Inc,Technology,3305.TW,EQ,TW0003305009
+Zinwell Corporation,Technology,2485.TW,EQ,TW0002485000
+Tyntek Corporation,Technology,2426.TW,EQ,TW0002426004
+Materials Analysis Technology Inc.,Technology,3587.TWO,EQ,TW0003587002
+Raydium Semiconductor Corporation,Technology,3592.TW,EQ,TW0003592002
+Fitipower Integrated Technology Inc.,Technology,4961.TW,EQ,TW0004961008
+Ichia Technologies  Inc.,Technology,2402.TW,EQ,TW0002402005
+CoAsia Electronics Corp.,Technology,8096.TWO,EQ,TW0008096009
+M31 Technology Corporation,Technology,6643.TWO,EQ,TW0006643000
+EDOM Technology Co.  Ltd.,Technology,3048.TW,EQ,TW0003048005
+Gemtek Technology Co.  Ltd.,Technology,4906.TW,EQ,TW0004906003
+Cheng Uei Precision Industry Co.  Ltd.,Technology,2392.TW,EQ,TW0002392008
+G-TECH Optoelectronics Corporation,Technology,3149.TW,EQ,TW0003149001
+Kaimei Electronic Corp.,Technology,2375.TW,EQ,TW0002375003
+Flytech Technology Co.  Ltd.,Technology,6206.TW,EQ,TW0006206006
+Skytech Inc.,Technology,6937.TW,EQ,TW0006937006
+Zyxel Group Corporation,Technology,3704.TW,EQ,TW0003704003
+Alpha Networks Inc.,Technology,3380.TW,EQ,TW0003380002
+Zenitron Corporation,Technology,3028.TW,EQ,TW0003028007
+Albatron Technology Co.  Ltd,Technology,5386.TWO,EQ,TW0005386007
+Goldkey Technology Corporation,Technology,3135.TW,EQ,TW0003135000
+Zero One Technology Co.  Ltd.,Technology,3029.TW,EQ,TW0003029005
+Gmt Global Inc.,Technology,4573.TWO,EQ,TW0004573001
+Myson Century  Inc.,Technology,5314.TWO,EQ,TW0005314009
+Sunplus Technology Company Limited,Technology,2401.TW,EQ,TW0002401007
+Gallant Precision Machining Co.  Ltd.,Technology,5443.TWO,EQ,TW0005443006
+Stark Technology Inc.,Technology,2480.TW,EQ,TW0002480001
+Eris Technology Corporation,Technology,3675.TWO,EQ,TW0003675005
+Cheng Mei Materials Technology Corporation,Technology,4960.TW,EQ,TW0004960000
+Analog Integrations Corporation,Technology,6291.TWO,EQ,TW0006291008
+Sysgration Ltd.,Technology,5309.TWO,EQ,TW0005309009
+Taiwan Mask Corporation,Technology,2338.TW,EQ,TW0002338001
+APAC Opto Electronics Inc.,Technology,4908.TWO,EQ,TW0004908009
+Ju Teng International Holdings Limited,Technology,9136.TW,EQ,TW0009136002
+IEI Integration Corp.,Technology,3022.TW,EQ,TW0003022000
+Axiomtek Co.  Ltd.,Technology,3088.TWO,EQ,TW0003088001
+Argosy Research Inc.,Technology,3217.TWO,EQ,TW0003217006
+Advanced Ceramic X Corporation,Technology,3152.TWO,EQ,TW0003152005
+Taiwan-Asia Semiconductor Corporation,Technology,2340.TW,EQ,TW0002340007
+Jetwell Computer Co.  Ltd.,Technology,3147.TWO,EQ,TW0003147005
+INPAQ Technology Co.  Ltd.,Technology,6284.TWO,EQ,TW0006284003
+Zilltek Technology Corp.,Technology,6679.TWO,EQ,TW0006679004
+Honey Hope Honesty Enterprise Co. Ltd,Technology,8043.TWO,EQ,TW0008043001
+Kinko Optical Co.  Ltd.,Technology,6209.TW,EQ,TW0006209000
+Giga Solar Materials Corp.,Technology,3691.TWO,EQ,TW0003691002
+Alltek Technology Corporation,Technology,3209.TW,EQ,TW0003209003
+Promate Electronic Co. Ltd.,Technology,6189.TW,EQ,TW0006189004
+Wonderful Hi-tech Co.  Ltd.,Technology,6190.TWO,EQ,TW0006190002
+Career Technology (Mfg.) Co.  Ltd.,Technology,6153.TW,EQ,TW0006153000
+Winmate Inc.,Technology,3416.TW,EQ,TW0003416004
+Viking Tech Corporation,Technology,3624.TWO,EQ,TW0003624003
+Infortrend Technology  Inc.,Technology,2495.TW,EQ,TW0002495009
+Syncmold Enterprise Corp.,Technology,1582.TW,EQ,TW0001582005
+Gigastorage Corporation,Technology,2406.TW,EQ,TW0002406006
+Holtek Semiconductor Inc.,Technology,6202.TW,EQ,TW0006202005
+Altek Corporation,Technology,3059.TW,EQ,TW0003059002
+Weltrend Semiconductor  Inc.,Technology,2436.TW,EQ,TW0002436003
+Integrated Service Technology Inc.,Technology,3289.TWO,EQ,TW0003289005
+Parpro Corporation,Technology,4916.TW,EQ,TW0004916002
+ACES Electronics Co.  Ltd.,Technology,3605.TW,EQ,TW0003605002
+Feedback Technology Corp.,Technology,8091.TWO,EQ,TW0008091000
+Utechzone Co.  Ltd.,Technology,3455.TWO,EQ,TW0003455002
+Youngtek Electronics Corporation,Technology,6261.TWO,EQ,TW0006261001
+Silicon Power Computer & Communications Inc.,Technology,4973.TWO,EQ,TW0004973003
+TrueLight Corporation,Technology,3234.TWO,EQ,TW0003234001
+Lingsen Precision Industries  Ltd.,Technology,2369.TW,EQ,TW0002369006
+Taimide Tech. Inc.,Technology,3645.TW,EQ,TW0003645008
+Insyde Software Corp.,Technology,6231.TWO,EQ,TW0006231004
+CMC Magnetics Corporation,Technology,2323.TW,EQ,TW0002323003
+Motech Industries Inc.,Technology,6244.TWO,EQ,TW0006244007
+Shih Her Technologies Inc.,Technology,3551.TWO,EQ,TW0003551008
+Darfon Electronics Corp.,Technology,8163.TW,EQ,TW0008163007
+FocalTech Systems Co.  Ltd.,Technology,3545.TW,EQ,TW0003545000
+Elitegroup Computer Systems Co. Ltd.,Technology,2331.TW,EQ,TW0002331006
+Lanner Electronics Inc.,Technology,6245.TWO,EQ,TW0006245004
+Nidec Chaun-Choung Technology Corporation,Technology,6230.TW,EQ,TW0006230006
+RDC Semiconductor Co.  Ltd.,Technology,3228.TWO,EQ,TW0003228003
+Ample Electronic Technology Co. Ltd.,Technology,4760.TWO,EQ,TW0004760004
+FIC Global  Inc.,Technology,3701.TW,EQ,TW0003701009
+IBASE Technology Inc.,Technology,8050.TWO,EQ,TW0008050006
+HannsTouch Holdings Company,Technology,3049.TW,EQ,TW0003049003
+Good Will Instrument Co.  Ltd.,Technology,2423.TW,EQ,TW0002423001
+Siward Crystal Technology Co.  Ltd,Technology,2484.TW,EQ,TW0002484003
+JMicron Technology Corp.,Technology,4925.TWO,EQ,TW0004925003
+Alcor Micro Corp.,Technology,8054.TWO,EQ,TW0008054008
+GMI Technology Inc.,Technology,3312.TW,EQ,TW0003312005
+Trigold Holdings Limited,Technology,3709.TWO,EQ,TW0003709002
+U.D. Electronic Corp.,Technology,3689.TWO,EQ,TW0003689006
+Sinopower Semiconductor  Inc.,Technology,6435.TWO,EQ,TW0006435001
+Transcom  Inc.,Technology,5222.TW,EQ,TW0005222004
+Andes Technology Corporation,Technology,6533.TW,EQ,TW0006533003
+Favite  Inc.,Technology,3535.TW,EQ,TW0003535001
+Egis Technology Inc.,Technology,6462.TWO,EQ,TW0006462005
+Giantplus Technology Co.  Ltd.,Technology,8105.TW,EQ,TW0008105008
+Planet Technology Corporation,Technology,6263.TWO,EQ,TW0006263007
+Unitech Computer Co.  Ltd.,Technology,2414.TW,EQ,TW0002414000
+Enli Technology Co. Ltd,Technology,7728.TWO,EQ,TW0007728008
+Laser Tek Taiwan Co. Ltd.,Technology,6207.TWO,EQ,TW0006207004
+RichWave Technology Corporation,Technology,4968.TW,EQ,TW0004968003
+WITS Corp.,Technology,4953.TWO,EQ,TW0004953005
+Macnica Galaxy Inc.,Technology,6227.TWO,EQ,TW0006227002
+Avalue Technology Incorporation,Technology,3479.TWO,EQ,TW0003479002
+Amazing Microelectronic Corp.,Technology,6411.TWO,EQ,TW0006411002
+Acer E-Enabling Service Business Inc.,Technology,6811.TWO,EQ,TW0006811003
+Acme Electronics Corporation,Technology,8121.TWO,EQ,TW0008121005
+Taiwan Printed Circuit Board Techvest Co. Ltd.,Technology,8213.TW,EQ,TW0008213000
+Hua Hsu Advanced Technology Co.  Ltd.,Technology,6682.TWO,EQ,TW0006682008
+D-Link Corporation,Technology,2332.TW,EQ,TW0002332004
+Compucase Enterprise Co.  Ltd.,Technology,3032.TW,EQ,TW0003032009
+AzureWave Technologies  Inc.,Technology,3694.TW,EQ,TW0003694006
+Hitron Technologies Inc.,Technology,2419.TW,EQ,TW0002419009
+RITEK Corporation,Technology,2349.TW,EQ,TW0002349008
+Sunplus Innovation Technology Inc.,Technology,5236.TWO,EQ,TW0005236004
+TSC Auto ID Technology Co.  Ltd.,Technology,3611.TWO,EQ,TW0003611000
+BenQ Materials Corporation,Technology,8215.TW,EQ,TW0008215005
+IC Plus Corp.,Technology,8040.TWO,EQ,TW0008040007
+Jih Lin Technology Co.  Ltd.,Technology,5285.TW,EQ,TW0005285001
+Sonix Technology Co. Ltd.,Technology,5471.TW,EQ,TW0005471007
+NEXCOM International Co.  Ltd.,Technology,8234.TWO,EQ,TW0008234006
+Forcecon Technology Co.  Ltd.,Technology,3483.TWO,EQ,TW0003483004
+Genesys Logic  Inc.,Technology,6104.TWO,EQ,TW0006104003
+Aten International Co.  Ltd,Technology,6277.TW,EQ,TW0006277007
+Green World Fintech Service Co.  Ltd.,Technology,6763.TWO,EQ,TW0006763006
+Metaage Corporation,Technology,6112.TW,EQ,TW0006112006
+Taiwan Kong King Co. Ltd,Technology,3093.TWO,EQ,TW0003093001
+Spirox Corporation,Technology,3055.TW,EQ,TW0003055000
+Biostar Microtech International Corp.,Technology,2399.TW,EQ,TW0002399003
+CyberTAN Technology Inc.,Technology,3062.TW,EQ,TW0003062006
+Young Fast Optoelectronics Co.  Ltd.,Technology,3622.TW,EQ,TW0003622007
+Senao Networks  Inc.,Technology,3558.TWO,EQ,TW0003558003
+forcelead,Technology,6996.TWO,EQ,TW0006996002
+LEATEC Fine Ceramics Co.  Ltd.,Technology,6127.TWO,EQ,TW0006127004
+Darwin Precisions Corporation,Technology,6120.TW,EQ,TW0006120009
+Cosmo Electronics Corporation,Technology,2466.TW,EQ,TW0002466000
+Mildef Crete Inc.,Technology,3213.TWO,EQ,TW0003213005
+Hold-Key Electric Wire & Cable Co.  Ltd,Technology,1618.TW,EQ,TW0001618007
+Answer Technology Co.  Ltd.,Technology,3528.TW,EQ,TW0003528006
+BaaS Innovation Co.  Ltd.,Technology,3555.TWO,EQ,TW0003555009
+Senao International Co. Ltd.,Technology,2450.TW,EQ,TW0002450004
+ICP Das Co.  Ltd.,Technology,3577.TWO,EQ,TW0003577003
+Universal Microelectronics Co.  Ltd.,Technology,2413.TW,EQ,TW0002413002
+Inergy Technology Inc.,Technology,6693.TWO,EQ,TW0006693005
+Sunrex Technology Corporation,Technology,2387.TW,EQ,TW0002387008
+Netronix  Inc.,Technology,6143.TWO,EQ,TW0006143001
+CviLux Corporation,Technology,8103.TW,EQ,TW0008103003
+Firich Enterprises Co.  Ltd.,Technology,8076.TWO,EQ,TW0008076001
+Sensortek Technology Corp.,Technology,6732.TWO,EQ,TW0006732001
+Yeedex Electronic Corporation,Technology,7556.TWO,EQ,TW0007556B10
+Advance Materials Corporation,Technology,3585.TWO,EQ,TW0003585006
+Apogee Optocom Co.  Ltd.,Technology,6426.TW,EQ,TW0006426000
+Ever Ohms Technology Co. Ltd.,Technology,6834.TW,EQ,TW0006834005
+KYE Systems Corp.,Technology,2365.TW,EQ,TW0002365004
+Abico AVY Co.  Ltd.,Technology,5392.TWO,EQ,TW0005392005
+Dimerco Data System Corporation,Technology,5403.TWO,EQ,TW0005403000
+Auden Techno Corp.,Technology,3138.TW,EQ,TW0003138004
+Hua Jung Components Co. Ltd.,Technology,5328.TWO,EQ,TW0005328009
+Audix Corporation,Technology,2459.TW,EQ,TW0002459005
+King Core Electronics Inc.,Technology,6155.TW,EQ,TW0006155005
+Zen Voce Corporation,Technology,3581.TWO,EQ,TW0003581005
+Leadtek Research Inc.,Technology,2465.TW,EQ,TW0002465002
+Nishoku Technology Inc.,Technology,3679.TW,EQ,TW0003679007
+Chant Sincere Co.  Ltd.,Technology,6205.TW,EQ,TW0006205008
+DFI Inc.,Technology,2397.TW,EQ,TW0002397007
+Niko Semiconductor Co.  Ltd.,Technology,3317.TWO,EQ,TW0003317004
+In Win Development Inc.,Technology,6117.TW,EQ,TW0006117005
+Progate Group Corporation,Technology,8227.TWO,EQ,TW0008227000
+Kuen Chaang Uppertech Corp.,Technology,6265.TWO,EQ,TW0006265002
+Speed Tech Corp.,Technology,5457.TWO,EQ,TW0005457006
+Wendell Industrial Co.  Ltd,Technology,6761.TWO,EQ,TW0006761000
+Yuan High-Tech Development Co.  Ltd.,Technology,5474.TWO,EQ,TW0005474001
+ASIX Electronics Corporation,Technology,3169.TWO,EQ,TW0003169009
+VIA Labs  Inc.,Technology,6756.TW,EQ,TW0006756000
+ABC Taiwan Electronics Corp.,Technology,3236.TWO,EQ,TW0003236006
+Polytronics Technology Corp.,Technology,6224.TW,EQ,TW0006224009
+TaiSol Electronics Co.  Ltd.,Technology,3338.TW,EQ,TW0003338000
+Asia Electronic Material Co.  Ltd.,Technology,4939.TWO,EQ,TW0004939004
+Mosel Vitelic Inc.,Technology,2342.TW,EQ,TW0002342003
+Shuttle Inc.,Technology,2405.TW,EQ,TW0002405008
+AVerMedia Technologies  Inc.,Technology,2417.TW,EQ,TW0002417003
+Tai-Saw Technology Co. Ltd.,Technology,3221.TWO,EQ,TW0003221008
+SynPower Co.  Ltd.,Technology,6658.TW,EQ,TW0006658008
+Jarllytec Co.   Ltd.,Technology,3548.TWO,EQ,TW0003548004
+FineTek Co.  Ltd.,Technology,4549.TWO,EQ,TW0004549001
+CASwell  Inc.,Technology,6416.TW,EQ,TW0006416001
+Tatung System Technologies Inc.,Technology,8099.TWO,EQ,TW0008099003
+Ligitek Electronics Co. Ltd,Technology,8111.TWO,EQ,TW0008111006
+Hye Technology Co. Ltd,Technology,6877.TWO,EQ,TW0006877004
+Win Win Precision Technology Co.  Ltd.,Technology,4949.TW,EQ,TW0004949003
+Nextronics Engineering Corp.,Technology,8147.TWO,EQ,TW0008147000
+TienPin United Enterprise CO.  LTD.,Technology,6199.TWO,EQ,TW0006199003
+Newmax Technology Co.  Ltd.,Technology,3630.TWO,EQ,TW0003630000
+Acon Optics Communications Inc.,Technology,6820.TWO,EQ,TW0006820004
+TWOWAY Communications  Inc.,Technology,8045.TW,EQ,TW0008045006
+Generalplus Technology Inc.,Technology,4952.TW,EQ,TW0004952007
+Spectrum Electrics Corporation,Technology,5381.TWO,EQ,TW0005381008
+Aurona Industries  Inc.,Technology,8074.TWO,EQ,TW0008074006
+Rectron Limited,Technology,2302.TW,EQ,TW0002302007
+Harmony Electronics Co. Ltd,Technology,8182.TWO,EQ,TW0008182007
+Syscom Computer Engineering Co.,Technology,2453.TW,EQ,TW0002453008
+Securitag Assembly Group Co.  Ltd.,Technology,6417.TWO,EQ,TW0006417009
+Ubright Optronics Corporation,Technology,4933.TWO,EQ,TW0004933007
+Wah Hong Industrial Corp.,Technology,8240.TWO,EQ,TW0008240003
+Sea Sonic Electronics Co.  Ltd.,Technology,6203.TWO,EQ,TW0006203003
+Yeh Chiang Technology Corporation,Technology,6124.TWO,EQ,TW0006124001
+Asia Tech Image Inc.,Technology,4974.TWO,EQ,TW0004974001
+CyberLink Corp.,Technology,5203.TW,EQ,TW0005203004
+Excelliance MOS Corporation,Technology,5299.TWO,EQ,TW0005299002
+iCatch Technology  Inc.,Technology,6695.TW,EQ,TW0006695000
+Harvatek Corporation,Technology,6168.TW,EQ,TW0006168008
+Chia Chang Co.  Ltd,Technology,4942.TW,EQ,TW0004942008
+Weblink International Inc.,Technology,6776.TW,EQ,TW0006776008
+Ultra Chip  Inc.,Technology,3141.TWO,EQ,TW0003141008
+Acer Cyber Security Inc.,Technology,6690.TWO,EQ,TW0006690001
+GEM Terminal Industry Co. Ltd.,Technology,2460.TW,EQ,TW0002460003
+Rafael Microelectronics  Inc.,Technology,6568.TWO,EQ,TW0006568009
+Singatron Enterprise Co. Ltd,Technology,6126.TWO,EQ,TW0006126006
+Solidwizard Technology Co.  Ltd.,Technology,8416.TWO,EQ,TW0008416009
+Lin Horn Technology Co.  Ltd.,Technology,5464.TWO,EQ,TW0005464002
+Microtek International  Inc.,Technology,2305.TW,EQ,TW0002305000
+YFC-Boneagle Electric Co.  Ltd.,Technology,6220.TWO,EQ,TW0006220007
+Chialin Precision Industrial Co.  Ltd.,Technology,3310.TWO,EQ,TW0003310009
+China Wire & Cable Co.  Ltd.,Technology,1603.TW,EQ,TW0001603009
+CTCI Advanced Systems Inc.,Technology,5209.TWO,EQ,TW0005209001
+AMPAK Technology Inc.,Technology,6546.TWO,EQ,TW0006546005
+Silicon Optronics  Inc.,Technology,3530.TW,EQ,TW0003530002
+Promate Solutions Corporation,Technology,6577.TWO,EQ,TW0006577000
+Excellence Optoelectronics Holding Co.  Inc.,Technology,3717.TW,EQ,TW0003717005
+Megaforce Company Limited,Technology,3294.TWO,EQ,TW0003294005
+Gogolook Co.  Ltd.,Technology,6902.TW,EQ,TW0006902000
+Taitien Electronics Co.  Ltd.,Technology,8289.TWO,EQ,TW0008289000
+Powertip Image Corp,Technology,6498.TWO,EQ,TW0006498009
+Heran Co.  Ltd.,Technology,5283.TW,EQ,TW0005283006
+Cystech Electronics Corp.,Technology,6651.TWO,EQ,TW0006651003
+Micro Silicon Electronics Co.  Ltd.,Technology,8162.TW,EQ,TW0008162009
+New Era Electronics Co.  Ltd,Technology,4909.TWO,EQ,TW0004909007
+Bright LED Electronics Corp.,Technology,3031.TW,EQ,TW0003031001
+eCloudvalley Digital Technology Co.  Ltd.,Technology,6689.TW,EQ,TW0006689003
+Onano Industrial Corp.,Technology,6405.TW,EQ,TW0006405004
+Microprogram Information Co. Ltd,Technology,7721.TW,EQ,TW0007721003
+Yao Sheng Electronic Co.  Ltd.,Technology,3207.TWO,EQ,TW0003207007
+Amulaire Thermal Technology  Inc.,Technology,2241.TW,EQ,TW0002241007
+Major-Power Technology Co.  Ltd.,Technology,6720.TWO,EQ,TW0006720006
+Calin Technology Co.  Ltd.,Technology,4976.TW,EQ,TW0004976006
+Optimax Technology Corporation,Technology,3051.TW,EQ,TW0003051009
+Entire Technology Co Ltd,Technology,6775.TWO,EQ,TW0006775000
+Kwan's International Co.  Ltd.,Technology,6101.TWO,EQ,TW0006101009
+AOPEN Incorporated,Technology,3046.TW,EQ,TW0003046009
+eGalax_eMPIA Technology Inc.,Technology,3556.TWO,EQ,TW0003556007
+Onyx Healthcare  Inc.,Technology,6569.TWO,EQ,TW0006569007
+Champion Microelectronic Corporation,Technology,3257.TW,EQ,TW0003257002
+AMPACS Corporation,Technology,6743.TW,EQ,TW0006743008
+ARBOR Technology Corp.,Technology,3594.TWO,EQ,TW0003594008
+Min Aik Technology Co.  Ltd.,Technology,3060.TW,EQ,TW0003060000
+Hanpin Electron Co.  Ltd.,Technology,2488.TW,EQ,TW0002488004
+AMIDA Technology  Inc.,Technology,6735.TWO,EQ,TW0006735004
+FIT Holding Co.  Ltd.,Technology,3712.TW,EQ,TW0003712006
+Niching Industrial Corporation,Technology,3444.TWO,EQ,TW0003444006
+Interactive Digital Technologies Inc.,Technology,6486.TWO,EQ,TW0006486004
+ANJI Technology Co.  Ltd.,Technology,6477.TW,EQ,TW0006477003
+Epoch Chemtronics Corp.,Technology,3633.TWO,EQ,TW0003633004
+ASolid Technology Co.  Ltd.,Technology,6485.TWO,EQ,TW0006485006
+Excel Cell Electronic Co.  Ltd.,Technology,2483.TW,EQ,TW0002483005
+United Fiber Optic Communication Inc.,Technology,4903.TWO,EQ,TW0004903000
+Zhong Yang Technology Co. Ltd,Technology,6668.TW,EQ,TW0006668007
+Sanlien Technology Corp.,Technology,5493.TWO,EQ,TW0005493001
+Loop Telecommunication International  Inc.,Technology,3025.TW,EQ,TW0003025003
+Dynacolor  Inc.,Technology,5489.TWO,EQ,TW0005489009
+Tainergy Tech Co.  Ltd.,Technology,4934.TW,EQ,TW0004934005
+Genesis Technology  Inc. (Taiwan),Technology,6221.TWO,EQ,TW0006221005
+RiTdisplay Corp,Technology,8104.TW,EQ,TW0008104001
+Top Union Electronics Corp.,Technology,6266.TWO,EQ,TW0006266000
+Ruby Tech Corporation,Technology,8048.TWO,EQ,TW0008048000
+Chaheng Precision Co.  Ltd.,Technology,4546.TWO,EQ,TW0004546007
+Easy Field Corporation,Technology,6425.TWO,EQ,TW0006425002
+Lang  Inc.,Technology,6165.TW,EQ,TW0006165004
+ATW Technology Incorporated,Technology,8097.TWO,EQ,TW0008097007
+Info-Tek Corporation,Technology,8183.TWO,EQ,TW0008183005
+Epileds Technologies  Inc.,Technology,4956.TW,EQ,TW0004956008
+Panram International Corp.,Technology,8088.TWO,EQ,TW0008088006
+Vactronics technologies inc.,Technology,6742.TW,EQ,TW0006742000
+Galaxy Software Services Corporation,Technology,6752.TWO,EQ,TW0006752009
+Data Image Corporation,Technology,3168.TW,EQ,TW0003168001
+M3 Technology Inc.,Technology,6799.TW,EQ,TW0006799000
+ADDA Corp.,Technology,3071.TWO,EQ,TW0003071007
+Plotech Co. Ltd.,Technology,6141.TW,EQ,TW0006141005
+Brave C&H Supply Co. Ltd.,Technology,6538.TWO,EQ,TW0006538002
+Twinhead International Corp.,Technology,2364.TW,EQ,TW0002364007
+Mosa Industrial Corp.,Technology,4564.TW,EQ,TW0004564000
+Rich Circle Development Co Ltd,Technology,6198.TWO,EQ,TW0006198005
+Leadtrend Technology Corporation,Technology,3588.TW,EQ,TW0003588000
+East Tender Optoelectronics Corporation,Technology,6588.TWO,EQ,TW0006588007
+Edimax Technology Co.  Ltd.,Technology,3047.TW,EQ,TW0003047007
+CastleNet Technology  Inc.,Technology,8059.TWO,EQ,TW0008059007
+Shun On Electronic Co.  Ltd.,Technology,6283.TW,EQ,TW0006283005
+C-Media Electronics Inc.,Technology,6237.TWO,EQ,TW0006237001
+Taiwan Ic Packaging Corporation,Technology,3372.TWO,EQ,TW0003372009
+Emerging Display Technologies Corp,Technology,3038.TW,EQ,TW0003038006
+Action Electronics Co.  Ltd.,Technology,3024.TW,EQ,TW0003024006
+ALi Corporation,Technology,3041.TW,EQ,TW0003041000
+We & Win Development Co.  Ltd,Technology,2537.TW,EQ,TW0002537008
+Feature Integration Technology Inc.,Technology,4951.TWO,EQ,TW0004951009
+Celxpert Energy Corporation,Technology,3323.TWO,EQ,TW0003323002
+CALITECH CO LTD,Technology,6532.TWO,EQ,TW0006532005
+Aver Information Inc.,Technology,3669.TW,EQ,TW0003669008
+Abonmax Co.  Ltd,Technology,2429.TW,EQ,TW0002429008
+EverFocus Electronics Co. Ltd.,Technology,5484.TW,EQ,TW0005484000
+Chaintech Technology Corp.,Technology,2425.TW,EQ,TW0002425006
+Axcen Photonics Corp,Technology,6530.TWO,EQ,TW0006530009
+Edison Opto Corporation,Technology,3591.TW,EQ,TW0003591004
+Chip Hope Co.  Ltd.,Technology,8084.TWO,EQ,TW0008084005
+Advanced Analog Technology  Inc.,Technology,3438.TWO,EQ,TW0003438008
+Unictron Technologies Corporation,Technology,6792.TW,EQ,TW0006792005
+Magnate Technology Co.  Ltd.,Technology,4541.TWO,EQ,TW0004541008
+Kingwaytek Technology Co Ltd,Technology,6516.TWO,EQ,TW0006516008
+Mortech Corporation,Technology,7419.TWO,EQ,TW0007419004
+Ampire Co.  Ltd.,Technology,8049.TWO,EQ,TW0008049008
+Brinno Inc.,Technology,7402.TWO,EQ,TW0007402000
+Fuzetec Technology Co.  Ltd.,Technology,6642.TWO,EQ,TW0006642002
+Cincon Electronics Co.  Ltd.,Technology,3332.TWO,EQ,TW0003332003
+Tul Corporation,Technology,6150.TWO,EQ,TW0006150006
+Groundhog  Inc.,Technology,6906.TW,EQ,TW0006906001
+Otsuka Information Technology Corp.,Technology,3570.TWO,EQ,TW0003570008
+Advanced Optoelectronic Technology  Inc.,Technology,3437.TW,EQ,TW0003437000
+Xavi Technologies Corporation,Technology,3447.TW,EQ,TW0003447009
+Taiwan Takisawa Technology Co.  Ltd.,Technology,6609.TWO,EQ,TW0006609001
+Jetway Information Co.  Ltd.,Technology,6161.TWO,EQ,TW0006161003
+Mitake Information Corp.,Technology,8284.TWO,EQ,TW0008284001
+Tricorntech Corporation,Technology,6909.TW,EQ,TW0006909005
+APCB Inc.,Technology,6108.TW,EQ,TW0006108004
+Gongin Precision Industrial Co.  Ltd.,Technology,3178.TWO,EQ,TW0003178000
+Li Ming Development Construction Co.  Ltd.,Technology,6212.TWO,EQ,TW0006212004
+Wieson Technologies Co.  Ltd.,Technology,6272.TW,EQ,TW0006272008
+Laster Tech Co.  Ltd.,Technology,3346.TW,EQ,TW0003346003
+ATrack Technology Inc,Technology,6465.TWO,EQ,TW0006465008
+Welltend Technology Corporation,Technology,3021.TW,EQ,TW0003021002
+Unique Opto-Electronics Co. Ltd,Technology,3441.TWO,EQ,TW0003441002
+AXIS Corporation,Technology,6292.TWO,EQ,TW0006292006
+Solomon Data International Corporation,Technology,5432.TWO,EQ,TW0005432009
+Cameo Communications  Inc.,Technology,6142.TW,EQ,TW0006142003
+Paragon Technologies Co.  Ltd.,Technology,3518.TW,EQ,TW0003518007
+Princeton Technology Corporation,Technology,6129.TWO,EQ,TW0006129000
+PADAUK Technology Co.  Ltd.,Technology,6716.TWO,EQ,TW0006716004
+XAC Automation Corporation,Technology,5490.TWO,EQ,TW0005490007
+iSTART-TEK INC.,Technology,6786.TWO,EQ,TW0006786007
+Billion Electric Co.  Ltd.,Technology,3027.TW,EQ,TW0003027009
+Cheer Time Enterprise Co.  Ltd.,Technology,3229.TW,EQ,TW0003229001
+3s Silicon Tech.  Inc.,Technology,5297.TWO,EQ,TW0005297006
+Unitech Electronic Co.  Ltd.,Technology,3652.TW,EQ,TW0003652004
+Tekcore Co.  Ltd,Technology,3339.TWO,EQ,TW0003339008
+Macroblock  Inc.,Technology,3527.TWO,EQ,TW0003527008
+Max Echo Technology Corp,Technology,5228.TWO,EQ,TW0005228001
+Feei Cherng Enterprise Co.  Ltd,Technology,3313.TWO,EQ,TW0003313003
+SIM Technology Group Limited,Technology,912000.TW,EQ,TW0009120006
+EISO Enterprise Co.  Ltd.,Technology,5291.TWO,EQ,TW0005291009
+FORTUNE ORIENTAL CO.  LTD.,Technology,2491.TW,EQ,TW0002491008
+SysJust Co.  Ltd.,Technology,3158.TWO,EQ,TW0003158002
+FineMat Applied Materials Co.  Ltd.,Technology,6698.TW,EQ,TW0006698004
+Brightek Optoelectronic Co.  Ltd.,Technology,5244.TW,EQ,TW0005244008
+Davicom Semiconductor  Inc.,Technology,3094.TW,EQ,TW0003094009
+Taiwan Alpha Electronic Co.  Ltd.,Technology,6204.TWO,EQ,TW0006204001
+Prime Electronics & Satellitics Inc.,Technology,6152.TW,EQ,TW0006152002
+AKER Technology Co.  Ltd.,Technology,6174.TWO,EQ,TW0006174006
+Arch Meter Corporation,Technology,4588.TW,EQ,TW0004588009
+Ares International Corp.,Technology,2471.TW,EQ,TW0002471000
+Yield Microelectronics Corporation,Technology,6423.TWO,EQ,TW0006423007
+JMC Electronics Co.  Ltd.,Technology,6552.TW,EQ,TW0006552003
+Professional Computer Technology Limited,Technology,6270.TWO,EQ,TW0006270002
+Apex International Financial Engineering Res & Tech Co.  Ltd.,Technology,5210.TWO,EQ,TW0005210009
+Tailyn Technologies  Inc.,Technology,5353.TWO,EQ,TW0005353007
+MAYO Human Capital  Inc.,Technology,6738.TWO,EQ,TW0006738008
+Gigastone Corp.,Technology,5262.TWO,EQ,TW0005262000
+Complex Micro Interconnection Co.  Ltd.,Technology,6835.TW,EQ,TW0006835002
+Arlitech Electronic Corp,Technology,6432.TWO,EQ,TW0006432008
+Everspring Industry Co.  Ltd.,Technology,2390.TW,EQ,TW0002390002
+Skardin Industrial Corporation,Technology,3466.TWO,EQ,TW0003466009
+RoyalTek Co. Ltd.,Technology,3306.TWO,EQ,TW0003306007
+Aero Win Technology Corp.,Technology,8222.TW,EQ,TW0008222001
+United Radiant Technology Corporation,Technology,5315.TWO,EQ,TW0005315006
+TSG Development Co.  Ltd.,Technology,3521.TWO,EQ,TW0003521001
+AV Tech Corporation,Technology,8072.TW,EQ,TW0008072000
+Sunflex Technology Corp.,Technology,3390.TWO,EQ,TW0003390001
+Jia Wei Lifestyle  Inc. Class A,Technology,3557.TW,EQ,TW0003557005
+Koryo Electronics Co.  Ltd.,Technology,8032.TWO,EQ,TW0008032004
+Song Shang Electronics Co.  Ltd.,Technology,6156.TWO,EQ,TW0006156003
+Algoltek  Inc.,Technology,6684.TWO,EQ,TW0006684004
+DrayTek Corporation,Technology,6216.TW,EQ,TW0006216005
+Great Computer Corp.,Technology,8047.TWO,EQ,TW0008047002
+Taiwan Auto-Design Co.,Technology,6791.TWO,EQ,TW0006791007
+Mutual-Tek Industries Co.  Ltd.,Technology,6407.TWO,EQ,TW0006407000
+Aplex Technology Inc.,Technology,6570.TWO,EQ,TW0006570005
+ELTA Technology Co.  Ltd.,Technology,8487.TW,EQ,TW0008487000
+Plastron Presicion Co.  Ltd.,Technology,6185.TWO,EQ,TW0006185002
+Topview Optronics Corp.,Technology,6556.TWO,EQ,TW0006556004
+Tainet Communication System Corp.,Technology,4905.TWO,EQ,TW0004905005
+Joinsoon Electronics Manufacturing Co.  Ltd.,Technology,3322.TWO,EQ,TW0003322004
+Sun Brothers Development Co.  Ltd.,Technology,3489.TWO,EQ,TW0003489001
+Kwong Fong Industries Corporation,Technology,1416.TW,EQ,TW0001416006
+Hauman Technologies Corp.,Technology,6218.TWO,EQ,TW0006218001
+Thermaltake Technology Co.  Ltd.,Technology,3540.TWO,EQ,TW0003540001
+Yem Chio Distribution Co.  Ltd.,Technology,3171.TWO,EQ,TW0003171005
+Forcera Materials Co Ltd,Technology,3467.TWO,EQ,TW0003467007
+U-Tech Media Corporation,Technology,3050.TW,EQ,TW0003050001
+Greenfiltec Ltd.,Technology,6823.TWO,EQ,TW0006823008
+Gamesparcs Co.  Ltd.,Technology,6542.TWO,EQ,TW0006542004
+Partner Tech Corp.,Technology,3097.TWO,EQ,TW0003097002
+Litemax Electronics Inc.,Technology,4995.TWO,EQ,TW0004995006
+Jorjin Technologies Inc.,Technology,4980.TWO,EQ,TW0004980008
+Nuuo  Inc.,Technology,6419.TWO,EQ,TW0006419005
+Ahoku Electronic Co.,Technology,3002.TW,EQ,TW0003002002
+Prolific Technology Inc.,Technology,6233.TWO,EQ,TW0006233000
+Simula Technology  Inc.,Technology,3511.TWO,EQ,TW0003511002
+TerraLink Enterprise Co Ltd,Technology,8080.TWO,EQ,TW0008080003
+Ji-Haw Industrial Co.  Ltd.,Technology,3011.TW,EQ,TW0003011003
+Grand-Tek Technology Co.  Ltd.,Technology,3684.TWO,EQ,TW0003684007
+Nam Liong Global Corporation,Technology,5450.TWO,EQ,TW0005450001
+Nyquest Technology Co Ltd,Technology,6494.TWO,EQ,TW0006494008
+TMP Steel Corporation,Technology,6248.TWO,EQ,TW0006248008
+U-MEDIA Communications Inc,Technology,6470.TWO,EQ,TW0006470008
+ACON Holding Inc.,Technology,3710.TWO,EQ,TW0003710000
+Leader Electronics  Inc.,Technology,3058.TW,EQ,TW0003058004
+Forward Electronics Co.  Ltd.,Technology,8085.TWO,EQ,TW0008085002
+Syntek Semiconductor Co.  Ltd.,Technology,5302.TWO,EQ,TW0005302004
+Microtips Technology Inc.,Technology,3285.TWO,EQ,TW0003285003
+Uniflex Technology  Inc.,Technology,3321.TW,EQ,TW0003321006
+Mildex Optical Inc.,Technology,4729.TWO,EQ,TW0004729009
+Solidyear Co. Ltd.,Technology,6737.TWO,EQ,TW0006737000
+Wha Yu Industrial Co.  Ltd.,Technology,3419.TW,EQ,TW0003419008
+Acer Gadget Inc,Technology,2432.TW,EQ,TW0002432002
+Hengs Technology Co. Ltd.,Technology,4582.TW,EQ,TW0004582002
+Powertip Tech Corp.,Technology,6167.TWO,EQ,TW0006167000
+Diva Laboratories  Ltd.,Technology,4153.TWO,EQ,TW0004153002
+Taiwan Oasis Technology Co.  Ltd.,Technology,3066.TWO,EQ,TW0003066007
+Provision Information Co.  Ltd.,Technology,6590.TWO,EQ,TW0006590003
+Goldtek Technology Co.  Ltd.,Technology,6638.TWO,EQ,TW0006638000
+Hyweb Technology Co.  Ltd.,Technology,5212.TWO,EQ,TW0005212005
+Taiwan Biomaterial Co.  Ltd.,Technology,6649.TWO,EQ,TW0006649007
+Microelectronics Technology Inc.,Technology,2314.TW,EQ,TW0002314002
+Solytech Enterprise Corporation,Technology,1471.TW,EQ,TW0001471001
+Force-MOS Technology Co.  Ltd.,Technology,4923.TWO,EQ,TW0004923008
+Enlight Corporation,Technology,2438.TW,EQ,TW0002438009
+Azion Corporation,Technology,6148.TWO,EQ,TW0006148000
+Yufo Electronics Co.  Ltd.,Technology,6194.TWO,EQ,TW0006194004
+Qbic Technology Co.  Ltd.,Technology,6825.TWO,EQ,TW0006825003
+Nan Yang Dyeing & Finishing Co. Ltd.,Technology,1410.TW,EQ,TW0001410009
+KWorld Computer Co.  Ltd.,Technology,3287.TWO,EQ,TW0003287009
+Juliens International Entertainment Group,Technology,6595.TWO,EQ,TW0006595002
+ENE Technology  Inc.,Technology,6243.TW,EQ,TW0006243009
+Hsinjing Holding Co.  Ltd.,Technology,3713.TWO,EQ,TW0003713004
+Avision Inc.,Technology,2380.TW,EQ,TW0002380003
+Comtrend Corp,Technology,8089.TWO,EQ,TW0008089004
+Casing Macron Technology Co.  Ltd.,Technology,3325.TWO,EQ,TW0003325007
+Shian Yih Electronic Industry Co.  Ltd,Technology,3531.TWO,EQ,TW0003531000
+Para Light Electronics Co.  Ltd.,Technology,6226.TW,EQ,TW0006226004
+NewSoft Technology Corporation,Technology,5202.TWO,EQ,TW0005202006
+Danen Technology Corporation,Technology,3686.TW,EQ,TW0003686002
+Winstar Display Co Ltd,Technology,6916.TW,EQ,TW0006916000
+Genie Networks Ltd.,Technology,8298.TWO,EQ,TW0008298001
+Opnet Technologies Co.  Ltd.,Technology,8034.TWO,EQ,TW0008034000
+JUIC INTERNATIONAL CORPORATION,Technology,6114.TWO,EQ,TW0006114002
+Leadsun Greentech Corporation,Technology,8087.TWO,EQ,TW0008087008
+Samebest Co.  Ltd.,Technology,8489.TWO,EQ,TW0008489006
+Uniform Industrial Corp.,Technology,2482.TW,EQ,TW0002482007
+SINTRONES Technology Corp.,Technology,6680.TWO,EQ,TW0006680002
+Eland Information Co.  Ltd,Technology,6925.TWO,EQ,TW0006925001
+Promise Technology  Inc.,Technology,3057.TW,EQ,TW0003057006
+AboCom Systems  Inc.,Technology,2444.TW,EQ,TW0002444007
+ZEITEC Semiconductor Co. Ltd.,Technology,7770.TWO,EQ,TW0007770000
+Vate Technology Co.  Ltd.,Technology,5344.TWO,EQ,TW0005344006
+Fullhome Development Co.  Ltd.,Technology,5345.TWO,EQ,TW0005345003
+Solid State System Co.  Ltd.,Technology,3259.TWO,EQ,TW0003259008
+Cypress Technology Co. Ltd.,Technology,3541.TWO,EQ,TW0003541009
+Megawin Technology Co.  Ltd.,Technology,3122.TWO,EQ,TW0003122008
+Mospec Semiconductor Corp.,Technology,2434.TW,EQ,TW0002434008
+APPRO Photoelectron  Inc.,Technology,6560.TWO,EQ,TW0006560006
+Lien Chang Electronic Enterprise Co.  Ltd,Technology,2431.TW,EQ,TW0002431004
+Oriental System Technology Inc,Technology,6819.TWO,EQ,TW0006819006
+Jhen Vei Electronic Co.  Ltd.,Technology,3520.TWO,EQ,TW0003520003
+Bison Electronics Inc.,Technology,3659.TWO,EQ,TW0003659009
+TM Technology Inc.,Technology,5468.TWO,EQ,TW0005468003
+Sunnic Technology & Merchandise Inc.,Technology,3360.TWO,EQ,TW0003360004
+Information Technology Total Services Co.  Ltd.,Technology,6697.TWO,EQ,TW0006697006
+AMICCOM Electronics Corp.,Technology,5272.TWO,EQ,TW0005272009
+Gia Tzoong Enterprise Co. Ltd.,Technology,5355.TWO,EQ,TW0005355002
+CipherLab Co.  Ltd.,Technology,6160.TWO,EQ,TW0006160005
+New Advanced Electronics Technologies Co.  Ltd.,Technology,3465.TWO,EQ,TW0003465001
+Wisechip Semiconductor Inc.,Technology,5245.TWO,EQ,TW0005245005
+Hi Sharp Electronics Co.  Ltd.,Technology,3128.TWO,EQ,TW0003128005
+Mars Semiconductor Corp.,Technology,6708.TWO,EQ,TW0006708001
+K Way Information Corporation,Technology,5201.TWO,EQ,TW0005201008
+Sunf Pu Technology Co. Ltd.,Technology,5488.TWO,EQ,TW0005488001
+Y-S Electronic Co.  Ltd.,Technology,6418.TWO,EQ,TW0006418007
+Taiwan Name Plate Co.  Ltd.,Technology,6593.TWO,EQ,TW0006593007
+Hunt Electronic Co.  Ltd.,Technology,3297.TWO,EQ,TW0003297008
+Acula Technology Corp.,Technology,3434.TWO,EQ,TW0003434007
+Acer Synergy Tech Corp.,Technology,6751.TWO,EQ,TW0006751001
+Power Master II Holdings.Co. Ltd,Technology,6839.TWO,EQ,TW0006839004
+Avertronics Inc.,Technology,3597.TWO,EQ,TW0003597001
+V-TAC Technology co.  Ltd.,Technology,6229.TWO,EQ,TW0006229008
+Hep Tech Co.  Ltd.,Technology,3609.TWO,EQ,TW0003609004
+Enermax Technology Corporation,Technology,8093.TWO,EQ,TW0008093006
+T-Flex Techvest PCB Co.  Ltd.,Technology,3276.TWO,EQ,TW0003276002
+EFUN Technology Co.  Ltd.,Technology,3523.TWO,EQ,TW0003523007
+Good Way Technology Co.  Ltd.,Technology,3272.TWO,EQ,TW0003272001
+Horng Tong Enterprise Co.  Ltd.,Technology,5271.TWO,EQ,TW0005271001
+Ledlink Optics  Inc.,Technology,5230.TWO,EQ,TW0005230007
+JSW Pacific Corporation,Technology,5251.TWO,EQ,TW0005251003
+P-Two Industries Inc.,Technology,6158.TWO,EQ,TW0006158009
+Cen Link Co.  Ltd.,Technology,5254.TWO,EQ,TW0005254007
+Atech OEM Inc.,Technology,6109.TWO,EQ,TW0006109002
+Poindus Systems Corp.,Technology,6599.TWO,EQ,TW0006599004
+Cayenne Entertainment Technology Co.  Ltd.,Technology,4946.TWO,EQ,TW0004946009
+Unifosa Corp.,Technology,8277.TWO,EQ,TW0008277005
+Ledtech Electronics Corp.,Technology,6164.TW,EQ,TW0006164007
+Lung Ming Green Energy Technology Engineering Co Ltd.,Technology,3018.TW,EQ,TW0003018008
+Pixon Technologies Corporation,Technology,5248.TWO,EQ,TW0005248009
+Art Emperor Co.  Ltd.,Technology,6650.TWO,EQ,TW0006650005
+Das Technology Co.  Ltd.,Technology,6648.TWO,EQ,TW0006648009
+Fun Yours Technology Co.  Ltd.,Technology,6482.TWO,EQ,TW0006482003
+DEXIN Corporation,Technology,3349.TWO,EQ,TW0003349007
+HIGGSTEC Inc,Technology,5220.TWO,EQ,TW0005220008
+Chien Wei Precise Technology Co.  Ltd.,Technology,8092.TWO,EQ,TW0008092008
+Inventec Besta Co.  Ltd.,Technology,8201.TW,EQ,TW0008201005
+Syncomm Technology Corp.,Technology,3150.TW,EQ,TW0003150009
+Radiant Innovation Inc.,Technology,3373.TWO,EQ,TW0003373007
+Advanced Connection Technology Inc.,Technology,3492.TWO,EQ,TW0003492005
+Globalsat Worldcom Corp.,Technology,3499.TWO,EQ,TW0003499000
+Neith Corporation,Technology,6236.TWO,EQ,TW0006236003
+Tai Twun Enterprise Co. Ltd.,Technology,3432.TW,EQ,TW0003432001
+Orange Electronic Co Ltd,Technology,4554.TWO,EQ,TW0004554001
+Arima Communications Corp.,Technology,8101.TW,EQ,TW0008101007
+Bull Will Co.  Ltd.,Technology,6259.TWO,EQ,TW0006259005
+HiTi Digital Inc.,Technology,3494.TW,EQ,TW0003494001
+ShineMore Technology Materials Co.  Ltd.,Technology,8291.TWO,EQ,TW0008291006
+Iscom Online International Information Inc.,Technology,6868.TWO,EQ,TW0006868003
+Kintech Electronics Co.  Ltd.,Technology,6210.TWO,EQ,TW0006210008
+Z-Com  Inc.,Technology,8176.TWO,EQ,TW0008176009
+Tecstar Technology Co.  Ltd.,Technology,3117.TWO,EQ,TW0003117008
+Higher Way Electronic Co.  Ltd.,Technology,3268.TWO,EQ,TW0003268009
+Amigo Technology  Inc.,Technology,6241.TWO,EQ,TW0006241003
+CGS International  Inc.,Technology,5310.TWO,EQ,TW0005310007
+Transtouch Technology Inc.,Technology,3623.TWO,EQ,TW0003623005
+AmCad BioMed Corporation,Technology,4188.TWO,EQ,TW0004188008
+Wellysun Inc.,Technology,6988.TW,EQ,TW0006988009
+Tontek Design Technology Ltd.,Technology,5487.TWO,EQ,TW0005487003
+Lian Hong Art Company Limited,Technology,6755.TWO,EQ,TW0006755002
+Trust-Search Corp. Ltd.,Technology,3115.TWO,EQ,TW0003115002
+Clientron Corp.,Technology,8119.TWO,EQ,TW0008119009
+ACTI Corporation,Technology,5240.TWO,EQ,TW0005240006
+Penpower Technology Ltd.,Technology,5211.TWO,EQ,TW0005211007
+Associated Industries China  Inc.,Technology,9912.TW,EQ,TW0009912006
+EBM Technologies Incorporated,Technology,8409.TWO,EQ,TW0008409004
+Lung Hwa Electronics Co.  Ltd.,Technology,2424.TW,EQ,TW0002424009
+Taiwan Thick-Film Ind. Corp.,Technology,6246.TWO,EQ,TW0006246002
+ThroughTek Co.  Ltd.,Technology,6565.TWO,EQ,TW0006565005
+Pacific Image Electronics Co.  Ltd.,Technology,6228.TWO,EQ,TW0006228000
+Lealea Hotels & Resorts Co. Ltd.,Technology,5364.TWO,EQ,TW0005364004
+Alpha Microelectronics Corp.,Technology,8024.TWO,EQ,TW0008024001
+Lifestyle Global Enterprise Inc.,Technology,8066.TWO,EQ,TW0008066002
+Tiga Gaming Inc.,Technology,6536.TWO,EQ,TW0006536006
+Gravitytai Co. Ltd.,Technology,3629.TWO,EQ,TW0003629002
+Avid Electronics Corp.,Technology,6103.TWO,EQ,TW0006103005
+High Power Lighting Corp.,Technology,6559.TWO,EQ,TW0006559008
+Connection Technology Systems  Inc.,Technology,3672.TWO,EQ,TW0003672002
+CJW International Co. Ltd.,Technology,5301.TWO,EQ,TW0005301006
+Meimaii Technology Co Ltd,Technology,6473.TWO,EQ,TW0006473002
+Tecom Co.  Ltd.,Technology,2321.TW,EQ,TW0002321007
+Bryton  Inc.,Technology,7558.TWO,EQ,TW0007558B18
+Silicon Touch Technology Inc.,Technology,3288.TWO,EQ,TW0003288007
+ACpay Co.  Ltd.,Technology,6984.TWO,EQ,TW0006984008
+PAPAGO Inc.,Technology,3632.TWO,EQ,TW0003632006
+Taiwan Green Environment Technology Inc.,Technology,5205.TWO,EQ,TW0005205009
+Taiwan Taomee Co.  Ltd.,Technology,6428.TWO,EQ,TW0006428006
+Empower Technology Corporation,Technology,5348.TWO,EQ,TW0005348007
+Accordance Systems  Inc.,Technology,7870.TWO,EQ,TW0007870008
+Apollo power,Technology,7911.TWO,EQ,TW0007911000
+TSKY Co.  Ltd.,Technology,6784.TWO,EQ,TW0006784002
+Neweb Information Co. Ltd.,Technology,6938.TWO,EQ,TW0006938004
+Rapidtek Technologies Inc.,Technology,6980.TWO,EQ,TW0006980006
+InPsytech  Inc.,Technology,7898.TWO,EQ,TW0007898009
+MITAC DIGITAL TECHNOLOGY CORPOR,Technology,7821.TW,EQ,TW0007821001
+LeRain Technology Co.  Ltd.,Technology,6921.TW,EQ,TW0006921000
+Neousys Technology Inc.,Technology,6922.TWO,EQ,TW0006922008
+Fiber Logic Communications Inc,Technology,3473.TWO,EQ,TW0003473005
+U-ARK Technology Co Ltd,Technology,7724.TWO,EQ,TW0007724007
+QBit Semiconductor Ltd.,Technology,7913.TWO,EQ,TW0007913006
+Phoenix Pioneer technology Co.  Ltd.,Technology,6920.TWO,EQ,TW0006920002
+Altasec Technology Corporation,Technology,7919.TWO,EQ,TW0007919003
+Nexora Technology Co.  LTD.,Technology,6842.TWO,EQ,TW0006842008
+Changing Information Technology  Inc.,Technology,8272.TWO,EQ,TW0008272006
+Morrison Opto Electronics Ltd.,Technology,7772.TWO,EQ,TW0007772006
+Finesse Technology Co. Ltd.,Technology,7704.TWO,EQ,TW0007704009
+M-Power Information Co.  Ltd,Technology,6874.TWO,EQ,TW0006874001
+Highpoint Service Network Corp.,Technology,6884.TWO,EQ,TW0006884000
+Turn Cloud Technology Service Inc.,Technology,6870.TWO,EQ,TW0006870009
+PRO360 Inc.,Technology,7839.TWO,EQ,TW0007839003
+EmBestor,Technology,7843.TWO,EQ,TW0007843005
+Raytek Semiconductor  Inc.,Technology,7873.TWO,EQ,TW0007873002
+Yu-Chen System Technology Corp.,Technology,7813.TWO,EQ,TW0007813008
+Lytone Enterprise  Inc.,Technology,1293.TWO,EQ,TW0001293009
+TPIsoftware,Technology,7781.TWO,EQ,TW0007781007
+Kingray Technology Co.  Ltd.,Technology,6787.TWO,EQ,TW0006787005
+Happytuk Co.  Ltd.,Technology,7584.TWO,EQ,TW0007584B16
+MetaEdge Corporation,Technology,6816.TWO,EQ,TW0006816002
+Apex Material Technology Corp.,Technology,6899.TWO,EQ,TW0006899008
+Inforcom Technology Co.  Ltd.,Technology,7868.TWO,EQ,TW0007868002
+Nextlink Technology Co Ltd,Technology,6997.TWO,EQ,TW0006997000
+CyberSoft Digital Services Corporation,Technology,7841.TWO,EQ,TW0007841009
+SAULTECH Technology Co.  Ltd.,Technology,6812.TWO,EQ,TW0006812001
+V5 TECHNOLOGIES CO LTD,Technology,7822.TW,EQ,TW0007822009
+International Integrated Systems  Inc.,Technology,6614.TW,EQ,TW0006614001
+Intumit  Inc.,Technology,7547.TWO,EQ,TW0007547B12
+Gudeng Equipment Co.  LTD.,Technology,6953.TWO,EQ,TW0006953003
+U-LEAM Inc.,Technology,7915.TWO,EQ,TW0007915001
+Image Match Design  Inc.,Technology,6563.TWO,EQ,TW0006563000
+IPEVO Corporation,Technology,6858.TWO,EQ,TW0006858004
+High Performance Information Co.  Ltd.,Technology,7767.TWO,EQ,TW0007767006
+Integrated Solutions Technology Inc,Technology,6927.TWO,EQ,TW0006927007
+Hermes Testing Solutions Inc.,Technology,7856.TWO,EQ,TW0007856007
+T-Conn Precision Corporation,Technology,6833.TWO,EQ,TW0006833007
+Altos Computing  Inc.,Technology,7875.TWO,EQ,TW0007875007
+Jeilin Technology Co. Ltd.,Technology,8102.TWO,EQ,TW0008102005
+Acer Medical Inc.,Technology,6857.TWO,EQ,TW0006857006
+Twister5 Co.  Ltd.,Technology,7826.TWO,EQ,TW0007826000
+oToBrite Electronic Inc.,Technology,2256.TWO,EQ,TW0002256005
+CMSC,Technology,7707.TWO,EQ,TW0007707002
+Eclatorq Technology Co.  Ltd.,Technology,6855.TWO,EQ,TW0006855000
+Igiant Optics Co. Ltd.,Technology,6915.TWO,EQ,TW0006915002
+Jtron,Technology,7810.TWO,EQ,TW0007810004
+Star Asia Vision Corporation,Technology,7753.TWO,EQ,TW0007753006
+ProbeLeader Co.  Ltd.,Technology,5246.TWO,EQ,TW0005246003
+Cheng Mei Instrument Technology Co.  Ltd.,Technology,7853.TWO,EQ,TW0007853004
+Reallusion  Inc.,Technology,6882.TWO,EQ,TW0006882004
+TMY Technology Inc.,Technology,7812.TWO,EQ,TW0007812000
+Grandsys Inc,Technology,6910.TWO,EQ,TW0006910003
+Sync-Tech System Corp,Technology,7815.TWO,EQ,TW0007815003
+Victory for Technology Co.  Ltd.,Technology,6979.TWO,EQ,TW0006979008
+New Smart Technology Co.  Ltd.,Technology,7825.TWO,EQ,TW0007825002
+Joules Miles Co Ltd,Technology,7854.TWO,EQ,TW0007854002
+XALLOY,Technology,7918.TWO,EQ,TW0007918005
+Greenbase Technology Corp.,Technology,7771.TWO,EQ,TW0007771008
+WebComm Technology Co.  Ltd.,Technology,6865.TWO,EQ,TW0006865009
+Asustor  Inc.,Technology,7801.TWO,EQ,TW0007801003
+Lex Computech Co.  Ltd.,Technology,7562.TWO,EQ,TW0007562B12
+DURATEK,Technology,8098.TWO,EQ,TW0008098005
+Pershing Technology Services Corporation,Technology,7785.TWO,EQ,TW0007785008
+CHT Security Co.  Ltd.,Technology,7765.TW,EQ,TW0007765000
+GrandTech Cloud Services Inc.,Technology,7747.TWO,EQ,TW0007747008
+POTENS,Technology,7712.TWO,EQ,TW0007712002
+Lydsec Digital Technology Co Ltd,Technology,7834.TWO,EQ,TW0007834004
+Dexatek Technology Ltd,Technology,7455.TWO,EQ,TW0007455008
+KDAN Mobile Software Ltd,Technology,7737.TWO,EQ,TW0007737009
+STUDY KING CO.  LTD.,Technology,6780.TWO,EQ,TW0006780000
+H.H. Galaxy Co.  Ltd.,Technology,2949.TWO,EQ,TW0002949005
+LNC Technology Co.  Ltd.,Technology,4587.TWO,EQ,TW0004587001
+Green Solution Technology Co,Technology,7872.TWO,EQ,TW0007872004
+Etica Battery INC.,Technology,7890.TWO,EQ,TW0007890006
+Sun Rise E&T Corp.,Technology,1343.TWO,EQ,TW0001343002
+Carbon-Based Technology  Inc.,Technology,7719.TWO,EQ,TW0007719007
+Bellwether Electronic Corp.,Technology,7861.TWO,EQ,TW0007861007
+Zhen Ding Technology Holding Limited,Technology,4958.TW,EQ,
+Alchip Technologies  Limited,Technology,3661.TW,EQ,
+Silergy Corp.,Technology,6415.TW,EQ,
+ShunSin Technology Holdings Limited,Technology,6451.TW,EQ,
+TPK Holding Co.  Ltd.,Technology,3673.TW,EQ,
+General Interface Solution (GIS) Holding Limited,Technology,6456.TW,EQ,
+INTELLIGO TECHNOLOGY INC,Technology,7749.TW,EQ,
+Eson Precision Ind. Co.  Ltd.,Technology,5243.TW,EQ,
+JPP Holding Company Limited,Technology,5284.TW,EQ,
+ITH CORPORATION,Technology,6962.TW,EQ,
+PCL Technologies  Inc.,Technology,4977.TW,EQ,
+PlayNitride Inc.,Technology,6854.TW,EQ,
+GEM Services  Inc.,Technology,6525.TW,EQ,
+Apex International Co.  Ltd.,Technology,4927.TW,EQ,
+Ventec International Group Co. Ltd.,Technology,6672.TW,EQ,
+Top Bright Holding Co.  Ltd.,Technology,8499.TW,EQ,
+Trio Technology International Group Co.  Ltd.,Technology,6862.TW,EQ,
+Arizon RFID Technology (Cayman) Co.  Ltd.,Technology,6863.TW,EQ,
+Amax Holding Co.  Ltd.,Technology,6933.TW,EQ,
+Eastech Holding Limited,Technology,5225.TW,EQ,
+Global Lighting Technologies Inc.,Technology,4935.TW,EQ,

@@ -1,13 +1,38 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-BASF SE,Materials,BAS.DE,EQ,
-Covestro AG,Materials,1COV.DE,EQ,
-Linde plc,Materials,LIN.DE,EQ,
-HeidelbergCement AG (Heidelberg Materials),Materials,HEI.DE,EQ,
-Aurubis AG,Materials,NDA.DE,EQ,
-Evonik Industries AG,Materials,EVK.DE,EQ,
-Fuchs SE,Materials,FPE3.DE,EQ,
-K+S AG,Materials,SDZ.DE,EQ,
-Lanxess AG,Materials,LXS.DE,EQ,
-Wacker Chemie AG,Materials,WCH.DE,EQ,
-Ringmetall SE,Materials,HP3.DE,EQ,
-Sto SE & Co. KGaA,Materials,STO3.DE,EQ,
+BASF SE,Materials,BAS.DE,EQ,DE000BASF111
+BASF SE,Materials,BASF11.DE,EQ,DE000BASF111
+HeidelbergCement AG (Heidelberg Materials),Materials,HEI.DE,EQ,DE0006047004
+Covestro AG,Materials,1COV.DE,EQ,DE0006062144
+Symrise AG,Materials,SYM999.DE,EQ,DE000SYM9999
+Aurubis AG,Materials,NDA.DE,EQ,DE0006766504
+Evonik Industries AG,Materials,EVK.DE,EQ,DE000EVNK013
+Evonik Industries AG,Materials,EVNK01.DE,EQ,DE000EVNK013
+Fuchs SE,Materials,FPE3.DE,EQ,DE000A3E5D64
+Fuchs SE,Materials,FPE.DE,EQ,DE000A3E5D56
+FUCHS SE,Materials,A3E5D5.DE,EQ,DE000A3E5D56
+FUCHS SE Pref Registered Shs,Materials,A3E5D6.DE,EQ,DE000A3E5D64
+Wacker Chemie AG,Materials,WCH888.DE,EQ,DE000WCH8881
+Wacker Chemie AG,Materials,WCH.DE,EQ,DE000WCH8881
+Salzgitter AG,Materials,SZG.DE,EQ,DE0006202005
+K+S Aktiengesellschaft,Materials,SDF.DE,EQ,DE000KSAG888
+K+S AG,Materials,KSAG88.DE,EQ,DE000KSAG888
+KWS SAAT SE & Co. KGaA,Materials,KWS.DE,EQ,DE0007074007
+Verbio SE,Materials,A0JL9W.DE,EQ,DE000A0JL9W6
+AlzChem Group AG,Materials,ACT.DE,EQ,DE000A2YNT30
+Alzchem Group AG,Materials,A2YNT3.DE,EQ,DE000A2YNT30
+Lanxess AG,Materials,LXS.DE,EQ,DE0005470405
+Klöckner & Co SE,Materials,KCO.DE,EQ,DE000KC01000
+Kloeckner & Co SE,Materials,KC0100.DE,EQ,DE000KC01000
+Gerresheimer AG,Materials,A0LD6E.DE,EQ,DE000A0LD6E6
+Sudwestdeutsche Salzwerke AG,Materials,SSH.DE,EQ,DE0007346603
+SGL Carbon SE,Materials,SGL.DE,EQ,DE0007235301
+Sto SE & Co. KGaA,Materials,STO3.DE,EQ,DE0007274136
+SIMONA Aktiengesellschaft,Materials,A3E5CP.DE,EQ,DE000A3E5CP0
+SIMONA Aktiengesellschaft,Materials,SIM0.DE,EQ,DE000A3E5CP0
+Steico SE,Materials,A0LR93.DE,EQ,DE000A0LR936
+Steico SE,Materials,ST5.DE,EQ,DE000A0LR936
+Uzin Utz SE,Materials,UZU.DE,EQ,DE0007551509
+H&R GmbH & Co. KGaA,Materials,2HRA.DE,EQ,DE000A2E4T77
+H&R GmbH & Co. KGaA,Materials,A2E4T7.DE,EQ,DE000A2E4T77
+SURTECO GROUP SE,Materials,SUR.DE,EQ,DE0005176903
+GESCO AG,Materials,A1K020.DE,EQ,DE000A1K0201

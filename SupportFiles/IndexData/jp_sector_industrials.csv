@@ -1,1360 +1,1348 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-Tokyo Electron Ltd.,Industrials,8035.T,EQ,
-Hitachi Ltd.,Industrials,6501.T,EQ,
-Mitsubishi Corporation,Industrials,8058.T,EQ,
-Itochu Corporation,Industrials,8001.T,EQ,
-Mitsubishi Heavy Industries Ltd.,Industrials,7011.T,EQ,
-Mitsubishi Electric Corp.,Industrials,6503.T,EQ,
-Sumitomo Electric Industries Ltd.,Industrials,5802.T,EQ,
-Fujikura Ltd,Industrials,5803.T,EQ,
-Sumitomo Corporation,Industrials,8053.T,EQ,
-Disco Corporation,Industrials,6146.T,EQ,
-Fanuc Corporation,Industrials,6954.T,EQ,
-DAIKIN INDUSTRIES LTD.,Industrials,6367.T,EQ,
-Toyota Tsusho Corp.,Industrials,8015.T,EQ,
-Komatsu Ltd.,Industrials,6301.T,EQ,
-DENSO CORPORATION,Industrials,6902.T,EQ,
-Kyocera Corporation,Industrials,6971.T,EQ,
-SMC Corporation,Industrials,6273.T,EQ,
-East Japan Railway Company,Industrials,9020.T,EQ,
-Furukawa Electric Co. Ltd.,Industrials,5801.T,EQ,
-Kubota Corporation,Industrials,6326.T,EQ,
-Central Japan Railway Company,Industrials,9022.T,EQ,
-Nidec Corporation,Industrials,6594.T,EQ,
-Secom Co. Ltd.,Industrials,9735.T,EQ,
-IHI Corporation,Industrials,7013.T,EQ,
-Kajima Corporation,Industrials,1812.T,EQ,
-Daifuku Co. Ltd.,Industrials,6383.T,EQ,
-Ebara Corporation,Industrials,6361.T,EQ,
-SCREEN Holdings Co. Ltd,Industrials,7735.T,EQ,
-Nippon Yusen Kabushiki Kaisha,Industrials,9101.T,EQ,
-Fuji Electric Co. Ltd.,Industrials,6504.T,EQ,
-Taisei Corporation,Industrials,1801.T,EQ,
-Mitsui O.S.K.Lines Ltd.,Industrials,9104.T,EQ,
-Niterra Co. Ltd.,Industrials,5334.T,EQ,
-Kokusai Electric Corporation,Industrials,6525.T,EQ,
-Yaskawa Electric Corporation,Industrials,6506.T,EQ,
-NGK Corp.,Industrials,5333.T,EQ,
-Aisin Corporation,Industrials,7259.T,EQ,
-Shimizu Corporation,Industrials,1803.T,EQ,
-Kawasaki Kisen Kaisha Ltd.,Industrials,9107.T,EQ,
-SUMCO Corporation,Industrials,3436.T,EQ,
-ANA Holdings Inc.,Industrials,9202.T,EQ,
-Kinden Corporation,Industrials,1944.T,EQ,
-TOTO Ltd,Industrials,5332.T,EQ,
-Nippon Express Holdings Inc.,Industrials,9147.T,EQ,
-OMRON Corporation,Industrials,6645.T,EQ,
-Kandenko Co. Ltd.,Industrials,1942.T,EQ,
-TOPPAN Holdings Inc.,Industrials,7911.T,EQ,
-Japan Airlines Co. Ltd.,Industrials,9201.T,EQ,
-Japan Airlines Co. Ltd. Bond-Type Cumulative Pfd Registered Shs Series 1,Industrials,92015.T,EQ,
-Hitachi Construction Machinery Co. Ltd.,Industrials,6305.T,EQ,
-West Japan Railway Company,Industrials,9021.T,EQ,
-Dai Nippon Printing Co. Ltd.,Industrials,7912.T,EQ,
-Horiba Ltd.,Industrials,6856.T,EQ,
-Eisai Co. Ltd.,Industrials,4523.T,EQ,
-Hankyu Hanshin Holdings Inc.,Industrials,9042.T,EQ,
-MISUMI Group Inc.,Industrials,9962.T,EQ,
-Kurita Water Industries Ltd.,Industrials,6370.T,EQ,
-AMADA Co. Ltd.,Industrials,6113.T,EQ,
-MonotaRO Co. Ltd.,Industrials,3064.T,EQ,
-BayCurrent Inc,Industrials,6532.T,EQ,
-MARUWA CO. LTD.,Industrials,5344.T,EQ,
-SG Holdings Co. Ltd.,Industrials,9143.T,EQ,
-THK Co. Ltd.,Industrials,6481.T,EQ,
-Koito Manufacturing Co. Ltd.,Industrials,7276.T,EQ,
-NHK Spring Co. Ltd.,Industrials,5991.T,EQ,
-Tokyo Metro Co Ltd,Industrials,9023.T,EQ,
-Dentsu Group Inc.,Industrials,4324.T,EQ,
-Canon Marketing Japan Incorporated,Industrials,8060.T,EQ,
-NIKKON Holdings Co. Ltd.,Industrials,9072.T,EQ,
-Sanwa Holdings Corporation,Industrials,5929.T,EQ,
-FUJI CORPORATION,Industrials,6134.T,EQ,
-HOSHIZAKI Corp.,Industrials,6465.T,EQ,
-Tokyo Seimitsu Co. Ltd,Industrials,7729.T,EQ,
-GS Yuasa Corporation,Industrials,6674.T,EQ,
-Modec Inc.,Industrials,6269.T,EQ,
-Organo Corp.,Industrials,6368.T,EQ,
-Kintetsu Group Holdings Co. Ltd.,Industrials,9041.T,EQ,
-Harmonic Drive Systems Inc.,Industrials,6324.T,EQ,
-JTEKT Corporation,Industrials,6473.T,EQ,
-Nichias Corporation,Industrials,5393.T,EQ,
-Workman Co. Ltd.,Industrials,7564.T,EQ,
-Takasago Thermal Engineering Co. Ltd.,Industrials,1969.T,EQ,
-Sumitomo Heavy Industries Ltd.,Industrials,6302.T,EQ,
-Mitsubishi Materials Corp.,Industrials,5711.T,EQ,
-COMSYS Holdings Corporation,Industrials,1721.T,EQ,
-INFRONEER Holdings Inc.,Industrials,5076.T,EQ,
-JGC Holdings Corporation,Industrials,1963.T,EQ,
-MACNICA HOLDINGS INC.,Industrials,3132.T,EQ,
-KRAFTIA CORPORATION,Industrials,1959.T,EQ,
-Yamato Holdings Co. Ltd.,Industrials,9064.T,EQ,
-Nabtesco Corporation,Industrials,6268.T,EQ,
-Odakyu Electric Railway Co. Ltd.,Industrials,9007.T,EQ,
-Japan Steel Works Ltd.,Industrials,5631.T,EQ,
-NSK Ltd.,Industrials,6471.T,EQ,
-Taiyo Holdings Co. Ltd.,Industrials,4626.T,EQ,
-EXEO Group Inc.,Industrials,1951.T,EQ,
-Tobu Railway Co. Ltd.,Industrials,9001.T,EQ,
-Toyoda Gosei Co. Ltd.,Industrials,7282.T,EQ,
-ALSOK CO. LTD.,Industrials,2331.T,EQ,
-PERSOL HOLDINGS CO. LTD.,Industrials,2181.T,EQ,
-Musashi Seimitsu Industry Co. Ltd.,Industrials,7220.T,EQ,
-Mitsubishi Logistics Corporation,Industrials,9301.T,EQ,
-Keisei Electric Railway Co. Ltd.,Industrials,9009.T,EQ,
-Kyushu Railway Company,Industrials,9142.T,EQ,
-LIXIL Corporation,Industrials,5938.T,EQ,
-Nagase & Co. Ltd.,Industrials,8012.T,EQ,
-Rinnai Corporation,Industrials,5947.T,EQ,
-MEDIPAL HOLDINGS Corporation,Industrials,7459.T,EQ,
-Penta-Ocean Construction Co. Ltd.,Industrials,1893.T,EQ,
-DMG MORI CO. LTD.,Industrials,6141.T,EQ,
-Toda Corporation,Industrials,1860.T,EQ,
-IWATANI Corporation,Industrials,8088.T,EQ,
-Kamigumi Co. Ltd.,Industrials,9364.T,EQ,
-NOK Corporation,Industrials,7240.T,EQ,
-Stanley Electric Co. Ltd.,Industrials,6923.T,EQ,
-Meidensha Corporation,Industrials,6508.T,EQ,
-SWCC Corporation,Industrials,5805.T,EQ,
-Japan Airport Terminal Co. Ltd.,Industrials,9706.T,EQ,
-Sinfonia Technology Co. Ltd.,Industrials,6507.T,EQ,
-Mitsui ES Holdings Co. Ltd.,Industrials,7003.T,EQ,
-Keio Corporation,Industrials,9008.T,EQ,
-Hakuhodo Dy Holdings Incorporated,Industrials,2433.T,EQ,
-Alfresa Holdings Corporation,Industrials,2784.T,EQ,
-CKD Corporation,Industrials,6407.T,EQ,
-BIPROGY Inc.,Industrials,8056.T,EQ,
-ADEKA Corporation,Industrials,4401.T,EQ,
-Paltac Corporation,Industrials,8283.T,EQ,
-Tokai Carbon Co. Ltd.,Industrials,5301.T,EQ,
-Mabuchi Motor Co. Ltd.,Industrials,6592.T,EQ,
-Seino Holdings Co. Ltd.,Industrials,9076.T,EQ,
-Sankyu Inc.,Industrials,9065.T,EQ,
-Toyota Boshoku Corp.,Industrials,3116.T,EQ,
-Keikyu Corporation,Industrials,9006.T,EQ,
-Maruichi Steel Tube Ltd.,Industrials,5463.T,EQ,
-Union Tool Co.,Industrials,6278.T,EQ,
-Daiei Kankyo Co. Ltd.,Industrials,9336.T,EQ,
-Nisshinbo Holdings Inc.,Industrials,3105.T,EQ,
-Takeuchi Mfg.Co. Ltd.,Industrials,6432.T,EQ,
-Daihen Corporation,Industrials,6622.T,EQ,
-Hanwa Co. Ltd.,Industrials,8078.T,EQ,
-Nagoya Railroad Co. Ltd.,Industrials,9048.T,EQ,
-Miura Co. Ltd.,Industrials,6005.T,EQ,
-Sanki Engineering Co. Ltd.,Industrials,1961.T,EQ,
-Shibaura Mechatronics Corp.,Industrials,6590.T,EQ,
-Makino Milling Machine Co. Ltd.,Industrials,6135.T,EQ,
-Kokuyo Co. Ltd.,Industrials,7984.T,EQ,
-Ushio Inc.,Industrials,6925.T,EQ,
-DAI-DAN Co. Ltd.,Industrials,1980.T,EQ,
-Keihan Holdings Co. Ltd.,Industrials,9045.T,EQ,
-SENKO Group Holdings Co.Ltd.,Industrials,9069.T,EQ,
-Sankyo Co. Ltd.,Industrials,6417.T,EQ,
-MIRAIT ONE Corporation,Industrials,1417.T,EQ,
-Visional Inc.,Industrials,4194.T,EQ,
-OSG Corp,Industrials,6136.T,EQ,
-HAZAMA ANDO Corporation,Industrials,1719.T,EQ,
-Konica Minolta Inc.,Industrials,4902.T,EQ,
-Inaba Denkisangyo Co. Ltd.,Industrials,9934.T,EQ,
-Tsugami Corp.,Industrials,6101.T,EQ,
-Daiwabo Holdings Co. Ltd.,Industrials,3107.T,EQ,
-Max Co. Ltd.,Industrials,6454.T,EQ,
-MITSUI-SOKO HOLDINGS Co. Ltd.,Industrials,9302.T,EQ,
-BIC Cameras Inc.,Industrials,3048.T,EQ,
-Japan Elevator Service Holdings Co. Ltd.,Industrials,6544.T,EQ,
-Nankai Electric Railway Co Ltd,Industrials,9044.T,EQ,
-Sumitomo Warehouse Co. Ltd.,Industrials,9303.T,EQ,
-Suzuken Co. Ltd.,Industrials,9987.T,EQ,
-NIPRO Corporation,Industrials,8086.T,EQ,
-Taikisha Ltd.,Industrials,1979.T,EQ,
-Tsubakimoto Chain Co.,Industrials,6371.T,EQ,
-Fukuyama Transporting Co. Ltd.,Industrials,9075.T,EQ,
-Okuma Corporation,Industrials,6103.T,EQ,
-Nippon Densetsu Kogyo Co. Ltd.,Industrials,1950.T,EQ,
-TOHO HOLDINGS CO. LTD.,Industrials,8129.T,EQ,
-SHO BOND Holdings Co. Ltd.,Industrials,1414.T,EQ,
-CHUDENKO CORPORATION,Industrials,1941.T,EQ,
-ARE Holdings Inc.,Industrials,5857.T,EQ,
-Seikoh Giken Co. Ltd.,Industrials,6834.T,EQ,
-NTN Corporation,Industrials,6472.T,EQ,
-Namura Shipbuilding Co. Ltd.,Industrials,7014.T,EQ,
-Sanyo Denki Co. Ltd.,Industrials,6516.T,EQ,
-Takuma Co. Ltd.,Industrials,6013.T,EQ,
-TOKAI RIKA CO. LTD.,Industrials,6995.T,EQ,
-Towa Corporation,Industrials,6315.T,EQ,
-Kumagai Gumi Co. Ltd.,Industrials,1861.T,EQ,
-Sotetsu Holdings Inc.,Industrials,9003.T,EQ,
-MEITEC Group Holdings Inc.,Industrials,9744.T,EQ,
-Kanadevia Corporation,Industrials,7004.T,EQ,
-Noritake Co. Limited,Industrials,5331.T,EQ,
-PILLAR Corporation,Industrials,6490.T,EQ,
-Exedy Corporation,Industrials,7278.T,EQ,
-Nishi-Nippon Railroad Co. Ltd.,Industrials,9031.T,EQ,
-OKAMURA CORP,Industrials,7994.T,EQ,
-Mitani Corporation,Industrials,8066.T,EQ,
-RS Technologies Co. Ltd.,Industrials,3445.T,EQ,
-Nikkiso Co. Ltd.,Industrials,6376.T,EQ,
-KYB Corporation,Industrials,7242.T,EQ,
-Toenec Corporation,Industrials,1946.T,EQ,
-Kitz Corporation,Industrials,6498.T,EQ,
-FP Corporation,Industrials,7947.T,EQ,
-Nittetsu Mining Co. Ltd.,Industrials,1515.T,EQ,
-Inabata & Co. Ltd.,Industrials,8098.T,EQ,
-Chiyoda Corp.,Industrials,6366.T,EQ,
-Daiseki Co. Ltd.,Industrials,9793.T,EQ,
-Takara standard Co. Ltd.,Industrials,7981.T,EQ,
-Toa Corporation (Construction),Industrials,1885.T,EQ,
-Kato Sangyo Co. Ltd.,Industrials,9869.T,EQ,
-SBS Holdings Inc,Industrials,2384.T,EQ,
-ANYCOLOR Inc.,Industrials,5032.T,EQ,
-SMS Co. Ltd.,Industrials,2175.T,EQ,
-NITTO KOGYO Corporation,Industrials,6651.T,EQ,
-NS United Kaiun Kaisha Ltd.,Industrials,9110.T,EQ,
-Ship Healthcare Holdings Inc.,Industrials,3360.T,EQ,
-PILOT Corporation,Industrials,7846.T,EQ,
-Daiichikosho Co. Ltd.,Industrials,7458.T,EQ,
-TKC Corporation,Industrials,9746.T,EQ,
-Nomura Micro Science Co. Ltd.,Industrials,6254.T,EQ,
-Taihei Dengyo Kaisha Ltd.,Industrials,1968.T,EQ,
-F.C.C.Co. Ltd.,Industrials,7296.T,EQ,
-Sangetsu Corporation,Industrials,8130.T,EQ,
-Open Up Group Inc.,Industrials,2154.T,EQ,
-OPTORUN CO. LTD.,Industrials,6235.T,EQ,
-Yurtec Corporation,Industrials,1934.T,EQ,
-TADANO Ltd.,Industrials,6395.T,EQ,
-Shin Nippon Air Technologies Co. Ltd.,Industrials,1952.T,EQ,
-Iino Kaiun Kaisha Ltd.,Industrials,9119.T,EQ,
-Nippon Seiki Co. Ltd.,Industrials,7287.T,EQ,
-Totech Corporation,Industrials,9960.T,EQ,
-Maruzen Showa Unyu Co. Ltd.,Industrials,9068.T,EQ,
-Matsuda Sangyo Co. Ltd.,Industrials,7456.T,EQ,
-AS ONE Corporation,Industrials,7476.T,EQ,
-Yamabiko Corporation,Industrials,6250.T,EQ,
-Yamazen Corporation,Industrials,8051.T,EQ,
-Raito Kogyo Co. Ltd.,Industrials,1926.T,EQ,
-GMO internet Inc.,Industrials,4784.T,EQ,
-Trusco Nakayama Corporation,Industrials,9830.T,EQ,
-Valqua Ltd.,Industrials,7995.T,EQ,
-Eagle Industry Co. Ltd.,Industrials,6486.T,EQ,
-METAWATER Co.Ltd.,Industrials,9551.T,EQ,
-transcosmos Inc.,Industrials,9715.T,EQ,
-Topre Corporation,Industrials,5975.T,EQ,
-Konoike Transport Co. Ltd.,Industrials,9025.T,EQ,
-JAC Recruitment Co. Ltd.,Industrials,2124.T,EQ,
-Hamakyorex Co. Ltd.,Industrials,9037.T,EQ,
-GALILEI CO.LTD.,Industrials,6420.T,EQ,
-Totetsu Kogyo Co. Ltd.,Industrials,1835.T,EQ,
-Nachi-Fujikoshi Corp.,Industrials,6474.T,EQ,
-Nippon Thompson Co. Ltd.,Industrials,6480.T,EQ,
-TECHNOFLEX CORPORATION,Industrials,3449.T,EQ,
-Yellow Hat Ltd.,Industrials,9882.T,EQ,
-Nissei ASB Machine Co . Ltd.,Industrials,6284.T,EQ,
-Restar Corporation,Industrials,3156.T,EQ,
-Tokyo Electron Device Limited,Industrials,2760.T,EQ,
-Tri Chemical Laboratories Inc.,Industrials,4369.T,EQ,
-Shinnihon Corporation,Industrials,1879.T,EQ,
-ITOKI Corporation,Industrials,7972.T,EQ,
-ASAHI YUKIZAI CORPORATION,Industrials,4216.T,EQ,
-Hibiya Engineering Ltd.,Industrials,1982.T,EQ,
-Happinet Corporation,Industrials,7552.T,EQ,
-TAKAOKA TOKO CO. LTD.,Industrials,6617.T,EQ,
-SAN-AI OBBLI CO. LTD,Industrials,8097.T,EQ,
-Furukawa Co. Ltd.,Industrials,5715.T,EQ,
-YOKOREI CO. LTD.,Industrials,2874.T,EQ,
-Central Automotive Products Ltd.,Industrials,8117.T,EQ,
-Toyo Engineering Corporation,Industrials,6330.T,EQ,
-Aisan Industry Co. Ltd.,Industrials,7283.T,EQ,
-Sakai Moving Service Co. Ltd.,Industrials,9039.T,EQ,
-NOMURA Co. Ltd.,Industrials,9716.T,EQ,
-RIZAP GROUP Inc.,Industrials,2928.T,EQ,
-Techno Ryowa Ltd.,Industrials,1965.T,EQ,
-Shibuya Corporation,Industrials,6340.T,EQ,
-RAIZNEXT Corporation,Industrials,6379.T,EQ,
-Enplas Corporation,Industrials,6961.T,EQ,
-Autobacs Seven Co. Ltd.,Industrials,9832.T,EQ,
-Senshu Electric Co. Ltd.,Industrials,9824.T,EQ,
-YUASA CO. LTD.,Industrials,8074.T,EQ,
-Plus Alpha Consulting Co. LTD.,Industrials,4071.T,EQ,
-Nishikawa Rubber Co. Ltd.,Industrials,5161.T,EQ,
-Seika Corporation,Industrials,8061.T,EQ,
-Mitsuboshi Belting Ltd.,Industrials,5192.T,EQ,
-EIZO Corporation,Industrials,6737.T,EQ,
-Yokogawa Bridge Holdings Corp.,Industrials,5911.T,EQ,
-NPR-RIKEN CORPORATION,Industrials,6209.T,EQ,
-Septeni Holdings Co. Ltd.,Industrials,4293.T,EQ,
-Nippon Dry-Chemical Co. Ltd.,Industrials,1909.T,EQ,
-UT Group Co. Ltd.,Industrials,2146.T,EQ,
-Kamei Corporation,Industrials,8037.T,EQ,
-Solasto Corp.,Industrials,6197.T,EQ,
-Asahi Kogyosha Co. Ltd.,Industrials,1975.T,EQ,
-BELLSYSTEM24 Holdings Inc.,Industrials,6183.T,EQ,
-AZ-COM Maruwa Holdings Inc.,Industrials,9090.T,EQ,
-Ryoyo Ryosan Holdings Inc.,Industrials,167A.T,EQ,
-Kodensha Co. Ltd.,Industrials,1948.T,EQ,
-Funai Soken Holdings Incorporated,Industrials,9757.T,EQ,
-Uchida Yoko Co. Ltd.,Industrials,8057.T,EQ,
-Tsurumi Manufacturing Co. Ltd.,Industrials,6351.T,EQ,
-Mitsuuroko Group Holdings Co. Ltd.,Industrials,8131.T,EQ,
-Sodick Co. Ltd.,Industrials,6143.T,EQ,
-TSUKISHIMA HOLDINGS CO. LTD.,Industrials,6332.T,EQ,
-Tomen Devices Corp.,Industrials,2737.T,EQ,
-Weathernews Inc.,Industrials,4825.T,EQ,
-PS Construction Co. Ltd.,Industrials,1871.T,EQ,
-Noritz Corporation,Industrials,5943.T,EQ,
-Daiichi Jitsugyo Co. Ltd.,Industrials,8059.T,EQ,
-Obara Group Incorporated,Industrials,6877.T,EQ,
-Tera Probe Inc.,Industrials,6627.T,EQ,
-Chuo Spring Co. Ltd.,Industrials,5992.T,EQ,
-dip Corporation,Industrials,2379.T,EQ,
-TPR Co. Ltd.,Industrials,6463.T,EQ,
-Shibaura Machine Co. Ltd.,Industrials,6104.T,EQ,
-G-Tekt Corporation,Industrials,5970.T,EQ,
-Bando Chemical Industries Ltd.,Industrials,5195.T,EQ,
-Yondenko Corporation,Industrials,1939.T,EQ,
-Sinko Industries Ltd.,Industrials,6458.T,EQ,
-DAIWA INDUSTRIES LTD.,Industrials,6459.T,EQ,
-Arata Corporation,Industrials,2733.T,EQ,
-TSUBURAYA FIELDS HOLDINGS INC.,Industrials,2767.T,EQ,
-Aichi Corporation,Industrials,6345.T,EQ,
-Shibusawa Logistics Corp,Industrials,9304.T,EQ,
-Futaba Industrial Co. Ltd.,Industrials,7241.T,EQ,
-Hakuto Co. Ltd.,Industrials,7433.T,EQ,
-Wakita & Co. Ltd.,Industrials,8125.T,EQ,
-Teikoku Sen-I Co. Ltd.,Industrials,3302.T,EQ,
-Hi-Lex Corporation,Industrials,7279.T,EQ,
-Ryobi Limited,Industrials,5851.T,EQ,
-K.R.S.Corporation,Industrials,9369.T,EQ,
-Mitsubishi Kakoki Kaisha Ltd.,Industrials,6331.T,EQ,
-T.RAD Co. Ltd.,Industrials,7236.T,EQ,
-Aichi Electric Co. Ltd.,Industrials,6623.T,EQ,
-Prestige International Inc.,Industrials,4290.T,EQ,
-RYODEN CORPORATION,Industrials,8084.T,EQ,
-S Foods Inc.,Industrials,2292.T,EQ,
-Oiles Corporation,Industrials,6282.T,EQ,
-Daitron Co. Ltd.,Industrials,7609.T,EQ,
-Kyokuto Kaihatsu Kogyo Co. Ltd.,Industrials,7226.T,EQ,
-Tachibana Eletech Co. Ltd.,Industrials,8159.T,EQ,
-Meisei Industrial Co. Ltd.,Industrials,1976.T,EQ,
-Hosokawa Micron Corporation,Industrials,6277.T,EQ,
-Yahagi Construction Co. Ltd.,Industrials,1870.T,EQ,
-Nippon Parking Development Co. Ltd.,Industrials,2353.T,EQ,
-Premium Group Co. Ltd.,Industrials,7199.T,EQ,
-Gltechno Holdings Inc.,Industrials,255A.T,EQ,
-KOSAIDO Holdings Co.Ltd.,Industrials,7868.T,EQ,
-Soft99 Corporation,Industrials,4464.T,EQ,
-Maxell Ltd.,Industrials,6810.T,EQ,
-Arisawa Mfg.Co. Ltd.,Industrials,5208.T,EQ,
-Press Kogyo Co. Ltd.,Industrials,7246.T,EQ,
-TOA ROAD Corporation,Industrials,1882.T,EQ,
-Komori Corporation,Industrials,6349.T,EQ,
-CTI Engineering Co. Ltd.,Industrials,9621.T,EQ,
-Tachi-S Co. Ltd.,Industrials,7239.T,EQ,
-Osaki Electric Co. Ltd.,Industrials,6644.T,EQ,
-Mitsubishi Research Institute,Industrials,3636.T,EQ,
-eGuarantee Inc.,Industrials,8771.T,EQ,
-Nichiden Corporation,Industrials,9902.T,EQ,
-Murakami Corporation,Industrials,7292.T,EQ,
-Moriya Transportation Engineering and Manufacturing Co. Ltd.,Industrials,6226.T,EQ,
-Medley Inc.,Industrials,4480.T,EQ,
-Nissha Co.Ltd.,Industrials,7915.T,EQ,
-Tokyo Energy & Systems Inc.,Industrials,1945.T,EQ,
-ALCONIX Corporation,Industrials,3036.T,EQ,
-Meiko Trans Co. Ltd.,Industrials,9357.T,EQ,
-DaikyoNishikawa Corp.,Industrials,4246.T,EQ,
-Strike Group Co. Ltd.,Industrials,6196.T,EQ,
-Denyo Co. Ltd.,Industrials,6517.T,EQ,
-DAIHATSU INFINEARTH MFG.CO. LTD.,Industrials,6023.T,EQ,
-Torishima Pump Mfg.Co. Ltd.,Industrials,6363.T,EQ,
-SATO SHO-JI CORPORATION,Industrials,8065.T,EQ,
-Vital KSK Holdings Inc.,Industrials,3151.T,EQ,
-Japan Transcity Corporation,Industrials,9310.T,EQ,
-Siix Corporation,Industrials,7613.T,EQ,
-Iwaki Co. Ltd.,Industrials,6237.T,EQ,
-Japan Engine Corp,Industrials,6016.T,EQ,
-NIPPON RIETEC CO. LTD.,Industrials,1938.T,EQ,
-INTAGE HOLDINGS Inc.,Industrials,4326.T,EQ,
-Globe-Ing Inc.,Industrials,277A.T,EQ,
-Nippon Denko Co. Ltd.,Industrials,5563.T,EQ,
-Daiichi Kensetsu Corporation,Industrials,1799.T,EQ,
-VECTOR Inc.,Industrials,6058.T,EQ,
-Chofu Seisakusho Co. Ltd.,Industrials,5946.T,EQ,
-Daiho Corporation,Industrials,1822.T,EQ,
-Asahi Diamond Industrial Co. Ltd.,Industrials,6140.T,EQ,
-ANEST IWATA Corp.,Industrials,6381.T,EQ,
-Hirakawa Hewtech Corp.,Industrials,5821.T,EQ,
-Tekken Corporation,Industrials,1815.T,EQ,
-Sintokogio Ltd.,Industrials,6339.T,EQ,
-Yasuda Logistics Corporation,Industrials,9324.T,EQ,
-TKP Corporation,Industrials,3479.T,EQ,
-OYO Corporation,Industrials,9755.T,EQ,
-Kawada Technologies Inc.,Industrials,3443.T,EQ,
-TANSEISHA Co. Ltd.,Industrials,9743.T,EQ,
-Asanuma Corporation,Industrials,1852.T,EQ,
-Shinsho Corp.,Industrials,8075.T,EQ,
-Fukuda Corporation,Industrials,1899.T,EQ,
-Zero Co. Ltd.,Industrials,9028.T,EQ,
-NICHIREKI GROUP CO. LTD.,Industrials,5011.T,EQ,
-Sun-Wa Technos Corporation,Industrials,8137.T,EQ,
-Yashima Denki Co. Ltd.,Industrials,3153.T,EQ,
-Nittoku Co. Ltd.,Industrials,6145.T,EQ,
-KPP GROUP HOLDINGS CO. LTD.,Industrials,9274.T,EQ,
-Tomoe Corporation,Industrials,1921.T,EQ,
-Nichirin Co. Ltd.,Industrials,5184.T,EQ,
-Marumae Co. Ltd.,Industrials,6264.T,EQ,
-Pasona Group Inc.,Industrials,2168.T,EQ,
-Link and Motivation Inc.,Industrials,2170.T,EQ,
-Ebara Jitsugyo Co. Ltd.,Industrials,6328.T,EQ,
-Tazmo Co. Ltd.,Industrials,6266.T,EQ,
-MIDAC HOLDINGS CO. LTD.,Industrials,6564.T,EQ,
-Daido Metal Co. Ltd.,Industrials,7245.T,EQ,
-Aida Engineering Ltd.,Industrials,6118.T,EQ,
-en Inc.,Industrials,4849.T,EQ,
-SEC CARBON Limited,Industrials,5304.T,EQ,
-Mitsuba Corporation,Industrials,7280.T,EQ,
-Zenitaka Corporation,Industrials,1811.T,EQ,
-grems Inc,Industrials,3150.T,EQ,
-Mimaki Engineering Co. Ltd.,Industrials,6638.T,EQ,
-Fullcast Holdings Co. Ltd.,Industrials,4848.T,EQ,
-Maruzen Co. Ltd.,Industrials,5982.T,EQ,
-Avex Inc.,Industrials,7860.T,EQ,
-Mirai Industry Co. Ltd.,Industrials,7931.T,EQ,
-Nippon Air Conditioning Services Co. Ltd.,Industrials,4658.T,EQ,
-Universal Entertainment Corporation,Industrials,6425.T,EQ,
-Kanaden Corporation,Industrials,8081.T,EQ,
-Ichikoh Industries Ltd.,Industrials,7244.T,EQ,
-Bengo4.com Inc.,Industrials,6027.T,EQ,
-Unipres Corporation,Industrials,5949.T,EQ,
-Tsubakimoto Kogyo Co. Ltd.,Industrials,8052.T,EQ,
-SUNCALL CORPORATION,Industrials,5985.T,EQ,
-Seikitokyu Kogyo Co. Ltd.,Industrials,1898.T,EQ,
-AIT Corporation,Industrials,9381.T,EQ,
-Nagaileben Co. Ltd.,Industrials,7447.T,EQ,
-Insource Co. Ltd.,Industrials,6200.T,EQ,
-Nihon Tokushu Toryo Co. Ltd.,Industrials,4619.T,EQ,
-Seibu Giken Co. Ltd.,Industrials,6223.T,EQ,
-GMO Financial Gate Inc.,Industrials,4051.T,EQ,
-FUJIKURA COMPOSITES Inc.,Industrials,5121.T,EQ,
-Subaru Enterprise Co. Ltd.,Industrials,9632.T,EQ,
-Suzuki Co. Ltd.,Industrials,6785.T,EQ,
-Sansei Technologies Inc.,Industrials,6357.T,EQ,
-AIRMAN CORP,Industrials,6364.T,EQ,
-Ohmoto Gumi Co. Ltd.,Industrials,1793.T,EQ,
-UNISOL Holdings Corporation,Industrials,7128.T,EQ,
-Yamato Corporation,Industrials,1967.T,EQ,
-Shinko Shoji Co. Ltd.,Industrials,8141.T,EQ,
-Shin Nippon Biomedical Laboratories Ltd.,Industrials,2395.T,EQ,
-Zenrin Co. Ltd.,Industrials,9474.T,EQ,
-NJS Co. Ltd.,Industrials,2325.T,EQ,
-TOYO Corporation,Industrials,8151.T,EQ,
-Nippon Sharyo Ltd.,Industrials,7102.T,EQ,
-Giken Ltd.,Industrials,6289.T,EQ,
-Nittoc Construction Co. Ltd.,Industrials,1929.T,EQ,
-Inforich Inc.,Industrials,9338.T,EQ,
-Hokuriku Electrical Construction Co. Ltd.,Industrials,1930.T,EQ,
-SIGMAXYZ Holdings Inc,Industrials,6088.T,EQ,
-Yamatane Corporation,Industrials,9305.T,EQ,
-Marubun Corporation,Industrials,7537.T,EQ,
-Kuroda Group Co. Ltd.,Industrials,287A.T,EQ,
-H-One Co. Ltd.,Industrials,5989.T,EQ,
-Nippon Seisen Co. Ltd.,Industrials,5659.T,EQ,
-Yutaka Giken Co. Ltd.,Industrials,7229.T,EQ,
-Meiko Construction Co. Ltd.,Industrials,1869.T,EQ,
-Terasaki Electric Co. Ltd.,Industrials,6637.T,EQ,
-Hisaka Works Ltd.,Industrials,6247.T,EQ,
-Sanyo Trading Co. Ltd.,Industrials,3176.T,EQ,
-Oriental Shiraishi Corporation,Industrials,1786.T,EQ,
-S Crypto Energy Inc.,Industrials,5721.T,EQ,
-Komatsu Wall Industry Co. Ltd.,Industrials,7949.T,EQ,
-Wakachiku Construction Co. Ltd.,Industrials,1888.T,EQ,
-TEIKOKU Corp.,Industrials,6333.T,EQ,
-TENPOS HOLDINGS Co.Ltd.,Industrials,2751.T,EQ,
-WORLD HOLDINGS CO. LTD,Industrials,2429.T,EQ,
-TOHO Co. Ltd.,Industrials,8142.T,EQ,
-SERENDIP HOLDINGS Co. Ltd.,Industrials,7318.T,EQ,
-Kimura Kohki Co. Ltd.,Industrials,6231.T,EQ,
-JDC Corporation,Industrials,1887.T,EQ,
-Sanyo Electric Railway Co. Ltd.,Industrials,9052.T,EQ,
-MIYAJI ENGINEERING GROUP INC.,Industrials,3431.T,EQ,
-Fudo Tetra Corporation,Industrials,1813.T,EQ,
-Quick Co. Ltd.,Industrials,4318.T,EQ,
-Matsui Construction Co. Ltd.,Industrials,1810.T,EQ,
-Ishihara Chemical Co. Ltd.,Industrials,4462.T,EQ,
-Sanoh Industrial Co. Ltd.,Industrials,6584.T,EQ,
-Seibu Electric & Machinery Co. Ltd.,Industrials,6144.T,EQ,
-Kimura Unity Co. Ltd.,Industrials,9368.T,EQ,
-Nakano Corporation,Industrials,1827.T,EQ,
-CK San-Etsu Co. Ltd.,Industrials,5757.T,EQ,
-Altech Corporation,Industrials,4641.T,EQ,
-Central Security Patrols Co. Ltd.,Industrials,9740.T,EQ,
-Kyodo Printing Co. Ltd.,Industrials,7914.T,EQ,
-Iseki & Co. Ltd.,Industrials,6310.T,EQ,
-Mitani Sangyo Co. Ltd.,Industrials,8285.T,EQ,
-PIOLAX Inc.,Industrials,5988.T,EQ,
-Rheon Automatic Machinery Co. Ltd.,Industrials,6272.T,EQ,
-Shinwa Co. Ltd.,Industrials,7607.T,EQ,
-Inui Global Logistics Co. Ltd.,Industrials,9308.T,EQ,
-OTEC Corporation,Industrials,1736.T,EQ,
-Takachiho Koheki Co. Ltd.,Industrials,2676.T,EQ,
-TAKARA & COMPANY LTD,Industrials,7921.T,EQ,
-Takebishi Corporation,Industrials,7510.T,EQ,
-Okabe Co. Ltd.,Industrials,5959.T,EQ,
-JK Holdings Co. Ltd.,Industrials,9896.T,EQ,
-Neturen Co. Ltd.,Industrials,5976.T,EQ,
-Ichiken Co. Ltd.,Industrials,1847.T,EQ,
-Endo Lighting Corporation,Industrials,6932.T,EQ,
-AJIS Co. Ltd.,Industrials,4659.T,EQ,
-Yagi & Co. Ltd.,Industrials,7460.T,EQ,
-Yamashin-Filter Corp.,Industrials,6240.T,EQ,
-Architects Studio Japan Inc.,Industrials,6085.T,EQ,
-Tobishima Holdings Inc.,Industrials,256A.T,EQ,
-F&M Co. Ltd.,Industrials,4771.T,EQ,
-KONDOTEC INC.,Industrials,7438.T,EQ,
-Oriental Consultants Holdings Company Limited,Industrials,2498.T,EQ,
-Business Brain Showaota Inc.,Industrials,9658.T,EQ,
-Meiwa Corporation,Industrials,8103.T,EQ,
-Jibannet Holdings Co. Ltd.,Industrials,6072.T,EQ,
-Net Protections Holdings Inc.,Industrials,7383.T,EQ,
-Okamoto Machine Tool Works Ltd.,Industrials,6125.T,EQ,
-Nihon Trim Co. Ltd.,Industrials,6788.T,EQ,
-Kawaden Corporation,Industrials,6648.T,EQ,
-SPACE CO. LTD.,Industrials,9622.T,EQ,
-Toyo Kanetsu K.K,Industrials,6369.T,EQ,
-Sumiseki Holdings Inc.,Industrials,1514.T,EQ,
-Mutoh Holdings Co. Ltd.,Industrials,7999.T,EQ,
-WDB Holdings Co. Ltd.,Industrials,2475.T,EQ,
-WIN-Partners Co. Ltd.,Industrials,3183.T,EQ,
-Chuo Warehouse Co. Ltd.,Industrials,9319.T,EQ,
-Seiko Electric Co. Ltd.,Industrials,6653.T,EQ,
-Nishikawa Keisoku Co. Ltd.,Industrials,7500.T,EQ,
-DAISUE CONSTRUCTION CO. LTD.,Industrials,1814.T,EQ,
-Meiji Shipping Group Co. Ltd.,Industrials,9115.T,EQ,
-Nikko Co. Ltd.,Industrials,6306.T,EQ,
-Onoken Co. Ltd.,Industrials,7414.T,EQ,
-Koike Sanso Kogyo Co. Ltd.,Industrials,6137.T,EQ,
-Hirano Tecseed Co. Ltd.,Industrials,6245.T,EQ,
-TOKYO ROPE MFG. CO. LTD.,Industrials,5981.T,EQ,
-Akebono Brake Industry Co. Ltd.,Industrials,7238.T,EQ,
-Taiho Kogyo Co. Ltd.,Industrials,6470.T,EQ,
-Maruzen CHI Holdings Co. Ltd.,Industrials,3159.T,EQ,
-Densan System Holdings Co. Ltd.,Industrials,4072.T,EQ,
-Gamecard Holdings Inc.,Industrials,6249.T,EQ,
-Fujii Sangyo Corporation,Industrials,9906.T,EQ,
-Chugai Ro Co. Ltd.,Industrials,1964.T,EQ,
-Lacto Japan Co. Ltd.,Industrials,3139.T,EQ,
-Speee Inc.,Industrials,4499.T,EQ,
-YAMADA Consulting Group Co. Ltd.,Industrials,4792.T,EQ,
-Taisei Oncho Co. Ltd.,Industrials,1904.T,EQ,
-Kozo Keikaku Engineering Holdings Inc.,Industrials,208A.T,EQ,
-Sukegawa Electric Co. Ltd.,Industrials,7711.T,EQ,
-ERI Holdings Co. Ltd.,Industrials,6083.T,EQ,
-Kitagawa Seiki Co. Ltd.,Industrials,6327.T,EQ,
-KURIYAMA HOLDINGS CORPORATION,Industrials,3355.T,EQ,
-Nitto Kohki Co. Ltd.,Industrials,6151.T,EQ,
-Studio Alice Co. Ltd.,Industrials,2305.T,EQ,
-DKK Co. Ltd.,Industrials,6706.T,EQ,
-Shima Seiki Mfg. Ltd.,Industrials,6222.T,EQ,
-LEC INC,Industrials,7874.T,EQ,
-PR TIMES Corporation,Industrials,3922.T,EQ,
-Maezawa Kyuso Industries Co. Ltd.,Industrials,6485.T,EQ,
-TOYOKOH Inc.,Industrials,341A.T,EQ,
-COPRO-HOLDINGS Co. Ltd.,Industrials,7059.T,EQ,
-HOKKAIDENKO CORPORATION,Industrials,1832.T,EQ,
-Hoden Seimitsu Kako Kenkyusho Co. Ltd.,Industrials,6469.T,EQ,
-Yuasa Funashoku Co. Ltd.,Industrials,8006.T,EQ,
-Chiyoda Integre Co. Ltd.,Industrials,6915.T,EQ,
-Reiwa Accounting Holdings Co. Ltd.,Industrials,296A.T,EQ,
-E.J Holdings Inc.,Industrials,2153.T,EQ,
-Eole Inc.,Industrials,2334.T,EQ,
-Nitto Seiko Co. Ltd.,Industrials,5957.T,EQ,
-Japan Cash Machine Co. Ltd.,Industrials,6418.T,EQ,
-RIX Corporation,Industrials,7525.T,EQ,
-PORT INC.,Industrials,7047.T,EQ,
-Y.A.C.HOLDINGS CO. LTD.,Industrials,6298.T,EQ,
-HASHIMOTO SOGYO HOLDINGS CO. LTD.,Industrials,7570.T,EQ,
-CREEK & RIVER Co. Ltd.,Industrials,4763.T,EQ,
-FAN Communications. Inc.,Industrials,2461.T,EQ,
-Gakkyusha Co. Ltd.,Industrials,9769.T,EQ,
-ADVAN GROUP CO. LTD.,Industrials,7463.T,EQ,
-JAPAN Creative Platform Group Co. Ltd.,Industrials,7814.T,EQ,
-Suzuden Corporation,Industrials,7480.T,EQ,
-Futaba Corp.,Industrials,6986.T,EQ,
-Ohashi Technica Inc.,Industrials,7628.T,EQ,
-FUSO DENTSU CO. LTD.,Industrials,7505.T,EQ,
-LIKE Inc.,Industrials,2462.T,EQ,
-Universal Engeisha Co. Ltd.,Industrials,6061.T,EQ,
-Envipro Holdings Inc.,Industrials,5698.T,EQ,
-PRONEXUS Incorporated,Industrials,7893.T,EQ,
-Corona Corporation,Industrials,5909.T,EQ,
-INABA SEISAKUSHO Co. Ltd.,Industrials,3421.T,EQ,
-Hibino Corporation,Industrials,2469.T,EQ,
-Watahan & Co. Ltd.,Industrials,3199.T,EQ,
-Kawasaki Setsubi Kogyo Co. Ltd.,Industrials,1777.T,EQ,
-Nihon Suido Consultants Co. Ltd.,Industrials,261A.T,EQ,
-Forval Corporation,Industrials,8275.T,EQ,
-Yamaura Corporation,Industrials,1780.T,EQ,
-Danto Holdings Corporation,Industrials,5337.T,EQ,
-Careerlink Co. Ltd.,Industrials,6070.T,EQ,
-Central Forest Group Co. Ltd.,Industrials,7675.T,EQ,
-SPK Corporation,Industrials,7466.T,EQ,
-Meiji Electric Industries Co. Ltd.,Industrials,3388.T,EQ,
-Fukoku Co. Ltd.,Industrials,5185.T,EQ,
-Takashima & Co. Ltd.,Industrials,8007.T,EQ,
-HIGASHI HOLDINGS CO. LTD.,Industrials,9029.T,EQ,
-Sekisui Kasei Co. Ltd.,Industrials,4228.T,EQ,
-FALCO HOLDINGS Co. Ltd,Industrials,4671.T,EQ,
-Kitano Construction Corp.,Industrials,1866.T,EQ,
-Okano Valve Mfg. Co. Ltd.,Industrials,6492.T,EQ,
-Yagami Inc.,Industrials,7488.T,EQ,
-DAIICHIKOUTSU SANGYO Co. Ltd.,Industrials,9035.T,EQ,
-Sugimoto & Co. Ltd.,Industrials,9932.T,EQ,
-CUC Inc.,Industrials,9158.T,EQ,
-Togami Electric Mfg.Co. Ltd.,Industrials,6643.T,EQ,
-Kimura Chemical Plants Co. Ltd.,Industrials,6378.T,EQ,
-Entrust Inc.,Industrials,7191.T,EQ,
-Sanko Metal Industrial Co. Ltd.,Industrials,1972.T,EQ,
-Primo Global Holdings Co. Ltd.,Industrials,367A.T,EQ,
-TANABE CONSULTING GROUP CO. LTD,Industrials,9644.T,EQ,
-Tanabe Engineering Corporation,Industrials,1828.T,EQ,
-Bank of Japan,Industrials,8301.T,EQ,
-Sanko Gosei Ltd.,Industrials,7888.T,EQ,
-CMC Corporation,Industrials,2185.T,EQ,
-Soda Nikka Co. Ltd.,Industrials,8158.T,EQ,
-Skymark Airlines Inc.,Industrials,9204.T,EQ,
-OUG Holdings Inc.,Industrials,8041.T,EQ,
-EUCALIA Inc.,Industrials,286A.T,EQ,
-Enshu Truck Co. Ltd.,Industrials,9057.T,EQ,
-Matsuya R&D Co. Ltd.,Industrials,7317.T,EQ,
-Shinki Bus Co. Ltd.,Industrials,9083.T,EQ,
-Isewan Terminal Service Co. Ltd.,Industrials,9359.T,EQ,
-Zuiko Corporation,Industrials,6279.T,EQ,
-Matching Service Japan Co. Ltd.,Industrials,6539.T,EQ,
-Will Group Inc.,Industrials,6089.T,EQ,
-Takihyo Co. Ltd.,Industrials,9982.T,EQ,
-Metalart Corporation,Industrials,5644.T,EQ,
-King Jim Co. Ltd.,Industrials,7962.T,EQ,
-DMW Corporation,Industrials,6365.T,EQ,
-Yushin Company,Industrials,6482.T,EQ,
-Nippon Gear Co. Ltd.,Industrials,6356.T,EQ,
-Araya Industrial Co. Ltd.,Industrials,7305.T,EQ,
-Management Solutions Co. Ltd.,Industrials,7033.T,EQ,
-Idea Consultants Inc.,Industrials,9768.T,EQ,
-Howa Machinery Ltd.,Industrials,6203.T,EQ,
-Techno Smart Corp.,Industrials,6246.T,EQ,
-GAKUJO Co. Ltd.,Industrials,2301.T,EQ,
-Kuribayashi Steamship Co. Ltd.,Industrials,9171.T,EQ,
-Onamba Co. Ltd.,Industrials,5816.T,EQ,
-Sanyo Engineering & Construction Inc.,Industrials,1960.T,EQ,
-NS Tool Co. Ltd.,Industrials,6157.T,EQ,
-GreenEnergy & Company,Industrials,1436.T,EQ,
-NAC Co. Ltd.,Industrials,9788.T,EQ,
-Nice Corporation,Industrials,8089.T,EQ,
-Shin Maint Holdings Co.Ltd.,Industrials,6086.T,EQ,
-Tokyo Sangyo Co. Ltd.,Industrials,8070.T,EQ,
-Bewith Inc.,Industrials,9216.T,EQ,
-Kyowa Leather Cloth Co. Ltd.,Industrials,3553.T,EQ,
-OIE SANGYO Co. Ltd.,Industrials,7481.T,EQ,
-Ascentech KK,Industrials,3565.T,EQ,
-HOKUYAKU TAKEYAMA Holdings Inc.,Industrials,3055.T,EQ,
-CERES INC.,Industrials,3696.T,EQ,
-NASU DENKI-TEKKO CO. LTD.,Industrials,5922.T,EQ,
-Trinity Industrial Corporation,Industrials,6382.T,EQ,
-Kyokuto Boeki Kaisha Ltd.,Industrials,8093.T,EQ,
-Artner Co. Ltd.,Industrials,2163.T,EQ,
-Alinco Incorporated,Industrials,5933.T,EQ,
-MIC Co. Ltd.,Industrials,300A.T,EQ,
-Kamakura Shinsho Ltd.,Industrials,6184.T,EQ,
-SUNNY SIDE UP GROUP Inc.,Industrials,2180.T,EQ,
-Paraca Inc.,Industrials,4809.T,EQ,
-FDK Corporation,Industrials,6955.T,EQ,
-Kanda Holdings Co. Ltd.,Industrials,9059.T,EQ,
-Narasaki Sangyo Co. Ltd.,Industrials,8085.T,EQ,
-S-Pool Inc.,Industrials,2471.T,EQ,
-FUJI DIE Co. Ltd.,Industrials,6167.T,EQ,
-RAKUMACHI INC.,Industrials,6037.T,EQ,
-DMS INC.,Industrials,9782.T,EQ,
-Medius Holdings Co. Ltd.,Industrials,3154.T,EQ,
-KANAME KOGYO Co. Ltd.,Industrials,6566.T,EQ,
-Aval Data Corporation,Industrials,6918.T,EQ,
-Kobe Electric Railway Co. Ltd.,Industrials,9046.T,EQ,
-Nareru Group Inc.,Industrials,9163.T,EQ,
-Imasen Electric Industrial Co. Ltd.,Industrials,7266.T,EQ,
-f-code Inc.,Industrials,9211.T,EQ,
-NISSO HOLDINGS Co. Ltd,Industrials,9332.T,EQ,
-Hiroshima Electric Railway Co. Ltd.,Industrials,9033.T,EQ,
-Nanyo Corp.,Industrials,7417.T,EQ,
-KVK Corporation,Industrials,6484.T,EQ,
-Japan Oil Transportation Co. Ltd.,Industrials,9074.T,EQ,
-Ikuyo Co. Ltd.,Industrials,7273.T,EQ,
-Keihin Co. Ltd.,Industrials,9312.T,EQ,
-StemRIM Inc.,Industrials,4599.T,EQ,
-GEOLIVE Group Corporation,Industrials,3157.T,EQ,
-Hanshin Diesel Works Ltd.,Industrials,6018.T,EQ,
-Loginet Japan Co. Ltd.,Industrials,9027.T,EQ,
-Takano Co. Ltd.,Industrials,7885.T,EQ,
-Nihon Flush Co. Ltd.,Industrials,7820.T,EQ,
-FUJI OOZX Inc.,Industrials,7299.T,EQ,
-Ochi Holdings Co. Ltd.,Industrials,3166.T,EQ,
-Toell Co. Ltd.,Industrials,3361.T,EQ,
-Sakai Heavy Industries Ltd.,Industrials,6358.T,EQ,
-Ainavo Holdings Co. Ltd.,Industrials,7539.T,EQ,
-Ahresty Corporation,Industrials,5852.T,EQ,
-SANDEN CORPORATION,Industrials,6444.T,EQ,
-Toyo Tec Co. Ltd,Industrials,9686.T,EQ,
-Rasa Corporation,Industrials,3023.T,EQ,
-Yamada Corporation,Industrials,6392.T,EQ,
-Aidma Holdings Inc.,Industrials,7373.T,EQ,
-Beauty Garage Inc.,Industrials,3180.T,EQ,
-Omni-Plus System Ltd. JDR,Industrials,7699.T,EQ,
-Toyo Denki Seizo K.K.,Industrials,6505.T,EQ,
-Konoshima Chemical Co. Ltd.,Industrials,4026.T,EQ,
-Musashi Co. Ltd.,Industrials,7521.T,EQ,
-INTLOOP Inc.,Industrials,9556.T,EQ,
-JRC Co. Ltd.,Industrials,6224.T,EQ,
-Yorozu Corporation,Industrials,7294.T,EQ,
-YCP Holdings (Global) Ltd. Japanese Deposit Receipt Repr 1 Sh,Industrials,9257.T,EQ,
-NPC Incorporated,Industrials,6255.T,EQ,
-NCD Co. Ltd.,Industrials,4783.T,EQ,
-Suido Kiko Kaisha Ltd.,Industrials,6403.T,EQ,
-Achilles Corporation,Industrials,5142.T,EQ,
-Nakakita Seisakusho Co. Ltd.,Industrials,6496.T,EQ,
-Kawanishi Warehouse Co. Ltd.,Industrials,9322.T,EQ,
-Environment Friendly Holdings Corp.,Industrials,3777.T,EQ,
-CEL Corporation,Industrials,5078.T,EQ,
-Nakamoto Packs Co. Ltd.,Industrials,7811.T,EQ,
-Fujita Engineering Co. Ltd.,Industrials,1770.T,EQ,
-Marufuji Sheet Piling Co. Ltd.,Industrials,8046.T,EQ,
-Tsubaki Nakashima Co. Ltd,Industrials,6464.T,EQ,
-Semba Corp.,Industrials,6540.T,EQ,
-Naikai Zosen Corporation,Industrials,7018.T,EQ,
-Daiichi Cutter Kogyo K.K.,Industrials,1716.T,EQ,
-Muto Seiko Co.,Industrials,7927.T,EQ,
-Hokkaido Chuo Bus Co. Ltd.,Industrials,9085.T,EQ,
-Oval Corporation,Industrials,7727.T,EQ,
-Daito Koun Co. Ltd.,Industrials,9367.T,EQ,
-OHBA CO. LTD.,Industrials,9765.T,EQ,
-Nakanishi Mfg. Co. Ltd.,Industrials,5941.T,EQ,
-Kinki Sharyo Co. Ltd.,Industrials,7122.T,EQ,
-Punch Industry Co. Ltd.,Industrials,6165.T,EQ,
-Kitagawa Corporation,Industrials,6317.T,EQ,
-Kunimine Industries Co. Ltd,Industrials,5388.T,EQ,
-Meiko Network Japan Co. Ltd.,Industrials,4668.T,EQ,
-Okada Aiyon Corporation,Industrials,6294.T,EQ,
-Nanso Transport Co. Ltd.,Industrials,9034.T,EQ,
-Takigami Steel Construction Co. Ltd.,Industrials,5918.T,EQ,
-Juki Corporation,Industrials,6440.T,EQ,
-Human Holdings Co. Ltd.,Industrials,2415.T,EQ,
-DN HOLDINGS CO. LTD.,Industrials,7377.T,EQ,
-Tokura Corporation,Industrials,1892.T,EQ,
-GDEP ADVANCE Inc.,Industrials,5885.T,EQ,
-UEKI CORPORATION,Industrials,1867.T,EQ,
-Sugimura Warehouse Co. Ltd.,Industrials,9307.T,EQ,
-UNIVANCE Corporation,Industrials,7254.T,EQ,
-ValueCommerce Co. Ltd.,Industrials,2491.T,EQ,
-Dainichi Co. Ltd.,Industrials,5951.T,EQ,
-Fujimak Corporation,Industrials,5965.T,EQ,
-HITO-Communications Holdings Inc.,Industrials,4433.T,EQ,
-Lib Work Co. Ltd.,Industrials,1431.T,EQ,
-TWOSTONE&Sons Co.Ltd.,Industrials,7352.T,EQ,
-Ichikawa Co. Ltd.,Industrials,3513.T,EQ,
-AlphaPurchase Corporation,Industrials,7115.T,EQ,
-Alpico Holdings Co. Ltd.,Industrials,297A.T,EQ,
-Microwave Chemical Co. Ltd.,Industrials,9227.T,EQ,
-Boutiques Inc.,Industrials,9272.T,EQ,
-Nikkato Corporation,Industrials,5367.T,EQ,
-Toba Inc.,Industrials,7472.T,EQ,
-Hit Co. Ltd.,Industrials,378A.T,EQ,
-Iwabuchi Corporation,Industrials,5983.T,EQ,
-Mitachi Co. Ltd.,Industrials,3321.T,EQ,
-Japan Foundation Engineering Co. Ltd.,Industrials,1914.T,EQ,
-OZU Corporation,Industrials,7487.T,EQ,
-KIKUCHI SEISAKUSHO CO. LTD.,Industrials,3444.T,EQ,
-Direct Marketing MiX Inc.,Industrials,7354.T,EQ,
-Nakabayashi Co. Ltd.,Industrials,7987.T,EQ,
-KATO WORKS CO. LTD.,Industrials,6390.T,EQ,
-Seiyu Kogyo Co. Ltd.,Industrials,9170.T,EQ,
-Tokyo Radiator Manufacturing Co. Ltd.,Industrials,7235.T,EQ,
-Luckland Co. Ltd.,Industrials,9612.T,EQ,
-Kasai Kogyo Co. Ltd.,Industrials,7256.T,EQ,
-NITTAN Corporation,Industrials,6493.T,EQ,
-JESCO Holdings Inc.,Industrials,1434.T,EQ,
-Zaoh Company Ltd.,Industrials,9986.T,EQ,
-People Dreams & Technologies Group Co. Ltd.,Industrials,9248.T,EQ,
-Japan Ecosystem Co. Ltd.,Industrials,9249.T,EQ,
-Toyo Wharf & Warehouse Co. Ltd.,Industrials,9351.T,EQ,
-Being Holdings Co. Ltd.,Industrials,9145.T,EQ,
-Chuo Gyorui Co. Ltd.,Industrials,8030.T,EQ,
-DEMAE-CAN CO.LTD.,Industrials,2484.T,EQ,
-Abist Co. Ltd.,Industrials,6087.T,EQ,
-Yasunaga Corporation,Industrials,7271.T,EQ,
-Toyo Logistics Co. Ltd.,Industrials,9306.T,EQ,
-Daimaru Enawin Co. Ltd.,Industrials,9818.T,EQ,
-PEGASUS CO. LTD,Industrials,6262.T,EQ,
-Hakuyosha Company Ltd.,Industrials,9731.T,EQ,
-Sanno Co. Ltd.,Industrials,3441.T,EQ,
-DELICA FOODS HOLDINGS CO. LTD.,Industrials,3392.T,EQ,
-Asante Inc.,Industrials,6073.T,EQ,
-Kyowanissei Co. Ltd.,Industrials,1981.T,EQ,
-PHYZ Holdings Inc.,Industrials,9325.T,EQ,
-NexTone Inc,Industrials,7094.T,EQ,
-NOVAC CO. LTD.,Industrials,5079.T,EQ,
-IR Japan Holdings Ltd.,Industrials,6035.T,EQ,
-Nakabohtec Corrosion Protecting Co. Ltd.,Industrials,1787.T,EQ,
-Shinwa Co. Ltd.,Industrials,3447.T,EQ,
-Advanex Inc.,Industrials,5998.T,EQ,
-OLBA HEALTHCARE HOLDINGS Inc.,Industrials,2689.T,EQ,
-TECNISCO LTD.,Industrials,2962.T,EQ,
-WASEDA GAKUSHUKENKYUKAI CO. LTD.,Industrials,5869.T,EQ,
-SK Japan Co. Ltd.,Industrials,7608.T,EQ,
-CL Holdings Inc.,Industrials,4286.T,EQ,
-Daiken Medical Co. Ltd.,Industrials,7775.T,EQ,
-Ishikawa Seisakusho Ltd.,Industrials,6208.T,EQ,
-Odawara Engineering Co. Ltd.,Industrials,6149.T,EQ,
-FRONTIER INTERNATIONAL INC.,Industrials,7050.T,EQ,
-Takada Corporation,Industrials,1966.T,EQ,
-TAKEDA iP HOLDINGS CO. LTD.,Industrials,7875.T,EQ,
-Sata Construction Co. Ltd.,Industrials,1826.T,EQ,
-Sanshin Electronics Co. Ltd.,Industrials,8150.T,EQ,
-Canare Electric Co. Ltd.,Industrials,5819.T,EQ,
-TANAKEN,Industrials,1450.T,EQ,
-Sanyo Industries Ltd.,Industrials,5958.T,EQ,
-IX Knowledge Incorporated,Industrials,9753.T,EQ,
-Mikuni Corporation,Industrials,7247.T,EQ,
-Kawagishi Bridge Works Co. Ltd.,Industrials,5921.T,EQ,
-Micron Machinery Co. Ltd.,Industrials,6159.T,EQ,
-Suzumo Machinery Co. Ltd.,Industrials,6405.T,EQ,
-F-Tech Inc.,Industrials,7212.T,EQ,
-Green Cross Holdings Co. Ltd.,Industrials,272A.T,EQ,
-MK Seiko Co. Ltd.,Industrials,5906.T,EQ,
-Yuken Kogyo Co. Ltd.,Industrials,6393.T,EQ,
-Azuma Shipping Co. Ltd.,Industrials,9380.T,EQ,
-Alpha Corporation,Industrials,3434.T,EQ,
-SANIX HOLDINGS INCORPORATED,Industrials,4651.T,EQ,
-Moriya Corporation,Industrials,1798.T,EQ,
-Wellnet Corporation,Industrials,2428.T,EQ,
-Cross Marketing Group Inc.,Industrials,3675.T,EQ,
-HIRAYAMA HOLDINGS Co.Ltd.,Industrials,7781.T,EQ,
-Tacmina Corporation,Industrials,6322.T,EQ,
-Yoshitake Inc.,Industrials,6488.T,EQ,
-Nankai Tatsumura Construction Co. Ltd.,Industrials,1850.T,EQ,
-WISE HOLDINGS CO. LTD.,Industrials,5955.T,EQ,
-SANWAYUKA INDUSTRY CORPORATION,Industrials,4125.T,EQ,
-Maruyama Mfg.Co. Inc.,Industrials,6316.T,EQ,
-VIS Co. Ltd.,Industrials,5071.T,EQ,
-Ultrafabrics Holdings Co. Ltd.,Industrials,4235.T,EQ,
-yutori Inc.,Industrials,5892.T,EQ,
-KODAMA CHEMICAL INDUSTRY CO. LTD.,Industrials,4222.T,EQ,
-KFC Ltd.,Industrials,3420.T,EQ,
-Nippon Tungsten Co. Ltd.,Industrials,6998.T,EQ,
-Asagami Corporation,Industrials,9311.T,EQ,
-Rentracks Co. Ltd.,Industrials,6045.T,EQ,
-SHOWA SHINKU CO. LTD.,Industrials,6384.T,EQ,
-FreakOut Holdings Inc.,Industrials,6094.T,EQ,
-Hakuten Corporation,Industrials,2173.T,EQ,
-Takemoto Yohki Co.Ltd.,Industrials,4248.T,EQ,
-Kufu Company Holdings Inc.,Industrials,4376.T,EQ,
-Eidai Co. Ltd.,Industrials,7822.T,EQ,
-Watanabe Sato Co. Ltd.,Industrials,1807.T,EQ,
-Toda Kogyo Corp.,Industrials,4100.T,EQ,
-Kyoei Tanker Co. Ltd.,Industrials,9130.T,EQ,
-SANKO TECHNO CO. LTD.,Industrials,3435.T,EQ,
-Livero Inc.,Industrials,9245.T,EQ,
-KOBELCO WIRE COMPANY LTD.,Industrials,5660.T,EQ,
-Fuji P.S Corporation,Industrials,1848.T,EQ,
-Adways Inc.,Industrials,2489.T,EQ,
-Weds Co. Ltd.,Industrials,7551.T,EQ,
-Naigai Tec Corporation,Industrials,3374.T,EQ,
-Yokohama Maruuo Co. Ltd.,Industrials,8045.T,EQ,
-Harima-Kyowa Co. Ltd.,Industrials,7444.T,EQ,
-Noda Corporation,Industrials,7879.T,EQ,
-Aska Corporation,Industrials,7227.T,EQ,
-Mori-Gumi Co. Ltd.,Industrials,1853.T,EQ,
-Misumi Co. Ltd.,Industrials,7441.T,EQ,
-O-WELL CORPORATION,Industrials,7670.T,EQ,
-Meiho Facility Works Ltd.,Industrials,1717.T,EQ,
-UEX Ltd.,Industrials,9888.T,EQ,
-TBK Co. Ltd.,Industrials,7277.T,EQ,
-DVx Inc.,Industrials,3079.T,EQ,
-AViC Co. Ltd.,Industrials,9554.T,EQ,
-Orchestra Holdings Inc.,Industrials,6533.T,EQ,
-Komaihaltec Inc.,Industrials,5915.T,EQ,
-Rise Consulting Group Inc.,Industrials,9168.T,EQ,
-Kanefusa Corporation,Industrials,5984.T,EQ,
-No.1 Co. Ltd.,Industrials,3562.T,EQ,
-Sanso Electric Co. Ltd.,Industrials,6518.T,EQ,
-Mansei Corporation,Industrials,7565.T,EQ,
-Sanei Ltd.,Industrials,6230.T,EQ,
-SANKI SERVICE CORP.,Industrials,6044.T,EQ,
-KNC Laboratories Co. Ltd.,Industrials,6568.T,EQ,
-FCE Inc.,Industrials,9564.T,EQ,
-Ohmori Co. Ltd.,Industrials,1844.T,EQ,
-Nippon Kanryu Industry Co. Ltd.,Industrials,1771.T,EQ,
-Lion Office Products Corp.,Industrials,423A.T,EQ,
-S. ISHIMITSU&CO LTD,Industrials,2750.T,EQ,
-Fujipream Corporation,Industrials,4237.T,EQ,
-Iceco Inc.,Industrials,7698.T,EQ,
-Shinpo Co. Ltd.,Industrials,5903.T,EQ,
-CrowdWorks Inc.,Industrials,3900.T,EQ,
-Ono Sokki Co. Ltd.,Industrials,6858.T,EQ,
-Seiwa Electric Mfg. Co. Ltd.,Industrials,6748.T,EQ,
-NEXYZ.Group Corporation,Industrials,4346.T,EQ,
-KUWAZAWA Holdings Corp.,Industrials,8104.T,EQ,
-Besterra Co. Ltd,Industrials,1433.T,EQ,
-Chuo Malleable Iron Co. Ltd.,Industrials,5607.T,EQ,
-Kyowakogyosyo Co. Ltd.,Industrials,5971.T,EQ,
-Endo Manufacturing Co. Ltd.,Industrials,7841.T,EQ,
-Interworks Confidence Inc.,Industrials,7374.T,EQ,
-Tenox Corporation,Industrials,1905.T,EQ,
-Seiko Corporation,Industrials,6286.T,EQ,
-UP GARAGE GROUP Co. Ltd.,Industrials,7134.T,EQ,
-Tanaka Seimitsu Kogyo Co. Ltd.,Industrials,7218.T,EQ,
-NAGAOKA INTERNATIONAL CORP,Industrials,6239.T,EQ,
-Sanoyas Holdings Corporation,Industrials,7022.T,EQ,
-Hamai Industries Ltd.,Industrials,6497.T,EQ,
-Wesco Holdings Inc.,Industrials,6091.T,EQ,
-Tokyo Kisen Co. Ltd.,Industrials,9193.T,EQ,
-Nakayamafuku Co. Ltd.,Industrials,7442.T,EQ,
-Oriental Chain Mfg. Co. Ltd.,Industrials,6380.T,EQ,
-COOKPAD Inc.,Industrials,2193.T,EQ,
-Kyodo Public Relations Co. Ltd.,Industrials,2436.T,EQ,
-A-tie Co. Ltd.,Industrials,369A.T,EQ,
-Sanrin Co. Ltd.,Industrials,7486.T,EQ,
-Fujisash Co. Ltd.,Industrials,5940.T,EQ,
-Zenken Corporation,Industrials,7371.T,EQ,
-SUS Co. Ltd.,Industrials,6554.T,EQ,
-Daiki Axis Co. Ltd.,Industrials,4245.T,EQ,
-PROGRIT Inc.,Industrials,9560.T,EQ,
-WATT MANN CO. LTD.,Industrials,9927.T,EQ,
-Nihon Plast Co. Ltd.,Industrials,7291.T,EQ,
-Shinyei Kaisha,Industrials,3004.T,EQ,
-Harima B.Stem Corporation,Industrials,9780.T,EQ,
-Biken Techno Corporation,Industrials,9791.T,EQ,
-TMH Inc.,Industrials,280A.T,EQ,
-Tsukiji Uoichiba Company Limited,Industrials,8039.T,EQ,
-FUNLIFE HOLDINGS CO. LTD.,Industrials,1418.T,EQ,
-Interspace Co. Ltd.,Industrials,2122.T,EQ,
-Kyoritsu Co. Ltd.,Industrials,7795.T,EQ,
-TVE Co. Ltd.,Industrials,6466.T,EQ,
-Oomitsu Co. Ltd.,Industrials,3160.T,EQ,
-S E Corporation,Industrials,3423.T,EQ,
-KITAKEI CO. LTD.,Industrials,9872.T,EQ,
-IMURA & Co. Ltd.,Industrials,3955.T,EQ,
-Suzuyo Shinwart Corporation,Industrials,9360.T,EQ,
-Denkyo Group Holdings Co. Ltd,Industrials,8144.T,EQ,
-Kuroda Precision Industries Ltd.,Industrials,7726.T,EQ,
-Kuze Co. Ltd.,Industrials,2708.T,EQ,
-J Frontier Co. Ltd.,Industrials,2934.T,EQ,
-A-One Seimitsu Inc.,Industrials,6156.T,EQ,
-K Pharma Inc.,Industrials,4896.T,EQ,
-HYOJITO Co. Ltd.,Industrials,7368.T,EQ,
-A&A Material Corporation,Industrials,5391.T,EQ,
-Material Group Inc.,Industrials,156A.T,EQ,
-LTS Inc.,Industrials,6560.T,EQ,
-Okayamaken Freight Transportation Co. Ltd.,Industrials,9063.T,EQ,
-Original Engineering Consultants Co. Ltd.,Industrials,4642.T,EQ,
-Puequ CO. LTD.,Industrials,9264.T,EQ,
-YAMASHITA HEALTH CARE HOLDINGS INC.,Industrials,9265.T,EQ,
-Paycloud Holdings Inc.,Industrials,4015.T,EQ,
-Muro Corporation,Industrials,7264.T,EQ,
-Tanaka Co. Ltd.,Industrials,7619.T,EQ,
-Nikki Co. Ltd.,Industrials,6042.T,EQ,
-Advantage Risk Management Co. Ltd.,Industrials,8769.T,EQ,
-MIKIKOGYO CO. LTD.,Industrials,1718.T,EQ,
-Yashima & Co. Ltd.,Industrials,7677.T,EQ,
-Sanyei Corporation,Industrials,8119.T,EQ,
-GMO TECH Holdings Inc.,Industrials,415A.T,EQ,
-Niigata Kotsu Co. Ltd.,Industrials,9017.T,EQ,
-Sonec Corporation,Industrials,1768.T,EQ,
-HEPHAIST CO. LTD,Industrials,6433.T,EQ,
-Kaneso Co. Ltd.,Industrials,5979.T,EQ,
-SAAF Holdings Co.Ltd.,Industrials,1447.T,EQ,
-Akatsuki Eazima Co. Ltd.,Industrials,1997.T,EQ,
-Naito & Co. Ltd.,Industrials,7624.T,EQ,
-Miyairi Valve Mfg.Co. Ltd.,Industrials,6495.T,EQ,
-Lilycolor Co. Ltd.,Industrials,9827.T,EQ,
-GMO Product Platform INC.,Industrials,3695.T,EQ,
-Star Flyer Inc.,Industrials,9206.T,EQ,
-Tosnet Corporation,Industrials,4754.T,EQ,
-Takadakiko Co. Ltd.,Industrials,5923.T,EQ,
-Kaji Technology Corporation Ltd.,Industrials,6391.T,EQ,
-Cosmo Bio Co. Ltd.,Industrials,3386.T,EQ,
-Oizumi Corporation,Industrials,6428.T,EQ,
-Honyaku Center Inc.,Industrials,2483.T,EQ,
-Frontier Management Inc.,Industrials,7038.T,EQ,
-Kikukawa Enterprise Inc.,Industrials,6346.T,EQ,
-OKUMURA ENGINEERING Corp.,Industrials,6229.T,EQ,
-CELM Inc.,Industrials,7367.T,EQ,
-Sagami Rubber Industries Co. Ltd.,Industrials,5194.T,EQ,
-Tohbu Network Co. Ltd.,Industrials,9036.T,EQ,
-Otake Corporation,Industrials,7434.T,EQ,
-SOLIZE Holdings Corporation,Industrials,5871.T,EQ,
-TriIs Inc.,Industrials,4840.T,EQ,
-Kaneshita Construction Co. Ltd.,Industrials,1897.T,EQ,
-ETS Group Co. Ltd.,Industrials,253A.T,EQ,
-Amita Holdings Co. Ltd.,Industrials,2195.T,EQ,
-Ray Corporation,Industrials,4317.T,EQ,
-Origin Company Limited,Industrials,6513.T,EQ,
-Cominix Co. Ltd.,Industrials,3173.T,EQ,
-TSUDAKOMA Corp.,Industrials,6217.T,EQ,
-Kimura Co. Ltd.,Industrials,7461.T,EQ,
-Senkon Logistics Co. Ltd,Industrials,9051.T,EQ,
-Tokai Kisen Co. Ltd.,Industrials,9173.T,EQ,
-Hikari Business Form Co. Ltd.,Industrials,3948.T,EQ,
-LOGOS HOLDINGS INC.,Industrials,205A.T,EQ,
-Tomita Co. Ltd.,Industrials,8147.T,EQ,
-Soiken Holdings Inc.,Industrials,2385.T,EQ,
-LOIVE Co. Ltd.,Industrials,352A.T,EQ,
-Kitazawa Sangyo Co. Ltd.,Industrials,9930.T,EQ,
-General Packer Co. Ltd.,Industrials,6267.T,EQ,
-Billing System Corporation,Industrials,3623.T,EQ,
-Ogura Clutch Co. Ltd.,Industrials,6408.T,EQ,
-BRIDGE International Group Corp.,Industrials,7039.T,EQ,
-CRESTEC Inc.,Industrials,7812.T,EQ,
-Rikei Corporation,Industrials,8226.T,EQ,
-Waida Mfg. Co. Ltd.,Industrials,6158.T,EQ,
-geechs inc.,Industrials,7060.T,EQ,
-WDB coco Co. Ltd.,Industrials,7079.T,EQ,
-GMO Media Inc.,Industrials,6180.T,EQ,
-SHINTO Holdings Inc.,Industrials,2776.T,EQ,
-ZenmuTech Inc.,Industrials,338A.T,EQ,
-Tokyo Automatic Machinery Works Ltd.,Industrials,6360.T,EQ,
-Car Mate Mfg. Co Ltd,Industrials,7297.T,EQ,
-Sakura Rubber Co. Ltd.,Industrials,5189.T,EQ,
-Bleach Inc.,Industrials,9162.T,EQ,
-Power Solutions Ltd.,Industrials,4450.T,EQ,
-Almedio Inc.,Industrials,7859.T,EQ,
-Gifu landscape architect Co. Ltd.,Industrials,1438.T,EQ,
-Maruhachi Warehouse Company Limited,Industrials,9313.T,EQ,
-EnBio Holdings Inc.,Industrials,6092.T,EQ,
-CERESPO CO. LTD.,Industrials,9625.T,EQ,
-Taiheiyo Kouhatsu Incorporated,Industrials,8835.T,EQ,
-Sportsfield Co. Ltd.,Industrials,7080.T,EQ,
-Tsubota Laboratory Incorporated,Industrials,4890.T,EQ,
-Tokai Electronics Co. Ltd.,Industrials,8071.T,EQ,
-Fulltech Co. Ltd.,Industrials,6546.T,EQ,
-Rinko Corporation,Industrials,9355.T,EQ,
-Sun Messe Co. Ltd.,Industrials,7883.T,EQ,
-Recomm Co. Ltd.,Industrials,3323.T,EQ,
-Taiyo Kisokogyo Co. Ltd.,Industrials,1758.T,EQ,
-Kanemitsu Corporation,Industrials,7208.T,EQ,
-Justplanning Inc.,Industrials,4287.T,EQ,
-Kawata Mfg. Co. Ltd.,Industrials,6292.T,EQ,
-Fuji Electric Industry. Co. Ltd,Industrials,6654.T,EQ,
-SYS Holdings Co. Ltd.,Industrials,3988.T,EQ,
-J-MAX Co. Ltd.,Industrials,3422.T,EQ,
-Nakamura Choukou Co. Ltd.,Industrials,6166.T,EQ,
-toridori Inc.,Industrials,9337.T,EQ,
-Shinhokoku Material Corp.,Industrials,5542.T,EQ,
-Japan Logistic Systems Corp.,Industrials,9060.T,EQ,
-TMS Co. Ltd.,Industrials,4891.T,EQ,
-Hip Corporation,Industrials,2136.T,EQ,
-C.E.Management Integrated Laboratory Co. Ltd.,Industrials,6171.T,EQ,
-Chubu Suisan Co. Ltd.,Industrials,8145.T,EQ,
-Toyo Shutter Co. Ltd.,Industrials,5936.T,EQ,
-Diamond Electric Holdings Co. Ltd.,Industrials,6699.T,EQ,
-ZETA INC.,Industrials,6031.T,EQ,
-M-mart Inc.,Industrials,4380.T,EQ,
-NITCHO CORPORATION,Industrials,2961.T,EQ,
-Mitsumura Printing Co. Ltd.,Industrials,7916.T,EQ,
-ProjectHoldings.Inc.,Industrials,9246.T,EQ,
-JMACS Japan Co. Ltd.,Industrials,5817.T,EQ,
-Inspec Inc.,Industrials,6656.T,EQ,
-W TOKYO Inc.,Industrials,9159.T,EQ,
-NISSO GROUP Co.Ltd.,Industrials,3440.T,EQ,
-ItoKuro Inc.,Industrials,6049.T,EQ,
-NIKKO Co.,Industrials,5343.T,EQ,
-Sanritsu Corporation,Industrials,9366.T,EQ,
-Premier Anti-Aging Co. Ltd.,Industrials,4934.T,EQ,
-UPCON CORPORATION,Industrials,5075.T,EQ,
-cotta Co. Ltd.,Industrials,3359.T,EQ,
-Takizawa Ham Co. Ltd.,Industrials,2293.T,EQ,
-IBOKIN Co. Ltd.,Industrials,5699.T,EQ,
-Fushiki Kairiku Unso Co. Ltd.,Industrials,9361.T,EQ,
-Daiwa Motor Transportation Co. Ltd.,Industrials,9082.T,EQ,
-Enjin Co. Ltd.,Industrials,7370.T,EQ,
-Unite & Grow Inc.,Industrials,4486.T,EQ,
-CONVUM Ltd.,Industrials,6265.T,EQ,
-Apple International Co. Ltd.,Industrials,2788.T,EQ,
-Fuji Seiko Ltd.,Industrials,6142.T,EQ,
-Sanko Co. Ltd.,Industrials,6964.T,EQ,
-Molitec Steel Co. Ltd.,Industrials,5986.T,EQ,
-Tokyo Kikai Seisakusho Ltd.,Industrials,6335.T,EQ,
-BIKE-O & Co. Ltd.,Industrials,3377.T,EQ,
-Gendai Agency Inc.,Industrials,2411.T,EQ,
-Takamatsu Machinery Co. Ltd.,Industrials,6155.T,EQ,
-Dive Inc.,Industrials,151A.T,EQ,
-Meiji Machine Co. Ltd.,Industrials,6334.T,EQ,
-NOMURA CORPORATION,Industrials,7131.T,EQ,
-Takamisawa Co. Ltd.,Industrials,5283.T,EQ,
-B&P Co. Ltd.,Industrials,7804.T,EQ,
-Global Information Inc.,Industrials,4171.T,EQ,
-GMB Corporation,Industrials,7214.T,EQ,
-Tea Life Co. Ltd.,Industrials,3172.T,EQ,
-Booking Resort Co. Ltd.,Industrials,324A.T,EQ,
-Showa Manufacturing Co. Ltd.,Industrials,5953.T,EQ,
-Axis Consulting Corporation,Industrials,9344.T,EQ,
-Sanko Sangyo Co. Ltd.,Industrials,7922.T,EQ,
-Takahashi Curtain Wall Corporation,Industrials,1994.T,EQ,
-Linical Co. Ltd.,Industrials,2183.T,EQ,
-BCC Co. Ltd.,Industrials,7376.T,EQ,
-BALMUDA Inc.,Industrials,6612.T,EQ,
-miratap inc.,Industrials,3187.T,EQ,
-Daiken Co. Ltd.,Industrials,5900.T,EQ,
-Trenders Inc.,Industrials,6069.T,EQ,
-LEOCLAN Co. Ltd.,Industrials,7681.T,EQ,
-CSS Holdings Ltd.,Industrials,2304.T,EQ,
-TORQ Inc.,Industrials,8077.T,EQ,
-Daisui Co. Ltd.,Industrials,7538.T,EQ,
-NFK Holdings Co. Ltd,Industrials,6494.T,EQ,
-Tsunagu Group Holdings Inc.,Industrials,6551.T,EQ,
-Nissen Inc.,Industrials,6543.T,EQ,
-CyberBuzz Inc.,Industrials,7069.T,EQ,
-Takakita Co. Ltd.,Industrials,6325.T,EQ,
-Heiwa Paper Co. Ltd.,Industrials,9929.T,EQ,
-TAKAYOSHI Holdings INC.,Industrials,9259.T,EQ,
-Fine Sinter Co. Ltd.,Industrials,5994.T,EQ,
-Aoba-BBT. Inc.,Industrials,2464.T,EQ,
-Scinex Corporation,Industrials,2376.T,EQ,
-Tamai Steamship Co. Ltd.,Industrials,9127.T,EQ,
-Tohoku Chemical Co. Ltd.,Industrials,7446.T,EQ,
-YKT Corporation,Industrials,2693.T,EQ,
-GiG Works Inc.,Industrials,2375.T,EQ,
-Tensho Electric Industries Co. Ltd.,Industrials,6776.T,EQ,
-Takase Corporation,Industrials,9087.T,EQ,
-Kyoei Security Service Co. Ltd.,Industrials,7058.T,EQ,
-CUBE CO. LTD.,Industrials,7112.T,EQ,
-TSUKURUBA Inc.,Industrials,2978.T,EQ,
-Tokuden Co. Ltd.,Industrials,3437.T,EQ,
-Meiwa Industry Co. Ltd.,Industrials,7284.T,EQ,
-Ureru Net Advertising Group Co.Ltd.,Industrials,9235.T,EQ,
-Qualtec Co. Ltd.,Industrials,9165.T,EQ,
-OSG Corporation Co. Ltd.,Industrials,6757.T,EQ,
-Unozawa-Gumi Iron Works Limited,Industrials,6396.T,EQ,
-FALTEC Co. Ltd.,Industrials,7215.T,EQ,
-KANTSU HD CO. LTD.,Industrials,9326.T,EQ,
-Hyoki Kaiun Kaisha Ltd.,Industrials,9362.T,EQ,
-Nippon Chuzo K.K.,Industrials,5609.T,EQ,
-Prored Partners Co. Ltd.,Industrials,7034.T,EQ,
-Masaru Corporation,Industrials,1795.T,EQ,
-Peers Co. Ltd.,Industrials,7066.T,EQ,
-PRAP Japan Inc.,Industrials,2449.T,EQ,
-ktk Inc.,Industrials,3035.T,EQ,
-Sakurajima Futo Kaisha Ltd.,Industrials,9353.T,EQ,
-Riskmonster.Com,Industrials,3768.T,EQ,
-Kyowa Engineering Consultants Co. Ltd.,Industrials,9647.T,EQ,
-YAMADA SERVICER SYNTHETIC OFFICE,Industrials,4351.T,EQ,
-Tein Inc.,Industrials,7217.T,EQ,
-Mirairo Inc.,Industrials,335A.T,EQ,
-NKK SWITCHES CO. LTD.,Industrials,6943.T,EQ,
-Nansin Co. Ltd.,Industrials,7399.T,EQ,
-Kyoritsu Air Tech Inc.,Industrials,5997.T,EQ,
-Ota Floriculture Auction Co. Ltd.,Industrials,7555.T,EQ,
-NEO MARKETING Inc.,Industrials,4196.T,EQ,
-Create Corporation,Industrials,3024.T,EQ,
-TRUST Holdings Inc.,Industrials,3286.T,EQ,
-Yokohama Gyorui Co. Ltd.,Industrials,7443.T,EQ,
-Ecology and Combustion Inc.,Industrials,6225.T,EQ,
-Human Creation Holdings Inc.,Industrials,7361.T,EQ,
-Otani Kogyo Co. Ltd.,Industrials,5939.T,EQ,
-Kawasaki Geological Engineering Co. Ltd.,Industrials,4673.T,EQ,
-Taihei Machinery Works Ltd.,Industrials,6342.T,EQ,
-Enshu Limited,Industrials,6218.T,EQ,
-Giken Holdings Co. Ltd.,Industrials,1443.T,EQ,
-Medix Inc.,Industrials,331A.T,EQ,
-IMAGE MAGIC Inc.,Industrials,7793.T,EQ,
-NIC Autotec Inc.,Industrials,5742.T,EQ,
-Vitabrid Japan Inc.,Industrials,542A.T,EQ,
-MT Genex Corporation,Industrials,9820.T,EQ,
-Palma Co. Ltd.,Industrials,3461.T,EQ,
-Nitchitsu Co. Ltd.,Industrials,7021.T,EQ,
-SONOCOM Co. Ltd.,Industrials,7902.T,EQ,
-Eiken Industries Co. Ltd,Industrials,7265.T,EQ,
-INCLUSIVE Holdings Inc.,Industrials,7078.T,EQ,
-LIHIT LAB. INC.,Industrials,7975.T,EQ,
-Sansei Co. Ltd.,Industrials,6307.T,EQ,
-Reskill Corp.,Industrials,291A.T,EQ,
-G-FACTORY Co. Ltd.,Industrials,3474.T,EQ,
-Daisan Co. Ltd.,Industrials,4750.T,EQ,
-MRT Inc.,Industrials,6034.T,EQ,
-NPT Co. Ltd.,Industrials,311A.T,EQ,
-Kyogoku Unyu Shoji Co. Ltd.,Industrials,9073.T,EQ,
-Cados Corporation,Industrials,211A.T,EQ,
-Basis Corporation,Industrials,4068.T,EQ,
-SocialWire Co. Ltd.,Industrials,3929.T,EQ,
-Mitsuchi Corporation,Industrials,3439.T,EQ,
-Onex Corporation,Industrials,5987.T,EQ,
-INEST Inc.,Industrials,7111.T,EQ,
-Subaru Co. Ltd.,Industrials,9778.T,EQ,
-HKS Co. Ltd.,Industrials,7219.T,EQ,
-Akasaka Diesels Ltd.,Industrials,6022.T,EQ,
-Dijet Industrial Co. Ltd.,Industrials,6138.T,EQ,
-Chuco Co. Ltd.,Industrials,2139.T,EQ,
-Aubex Corporation,Industrials,3583.T,EQ,
-VLC SECURITY CO. LTD.,Industrials,2467.T,EQ,
-e-LogiT Co. Ltd.,Industrials,9327.T,EQ,
-Sasatoku Printing Co. Ltd.,Industrials,3958.T,EQ,
-Arbeit-Times Co. Ltd.,Industrials,2341.T,EQ,
-Taiho Transportation Co. Ltd.,Industrials,9040.T,EQ,
-Intertrade Co. Ltd.,Industrials,3747.T,EQ,
-Yokota Manufacturing Co. Ltd.,Industrials,6248.T,EQ,
-Daiun Co. Ltd.,Industrials,9363.T,EQ,
-NIHON ISK Co. Ltd.,Industrials,7986.T,EQ,
-Chichibu Railway Co. Ltd.,Industrials,9012.T,EQ,
-Saftec Co. Ltd.,Industrials,7464.T,EQ,
-TOKYO KOKI Co. Ltd.,Industrials,7719.T,EQ,
-Nichidai Corporation,Industrials,6467.T,EQ,
-Elevator Communications Co. Ltd,Industrials,353A.T,EQ,
-KYODO PAPER HOLDINGS,Industrials,9849.T,EQ,
-Integroup Inc.,Industrials,192A.T,EQ,
-Mitsuboshi Co. Ltd.,Industrials,5820.T,EQ,
-COACH A Co. Ltd.,Industrials,9339.T,EQ,
-Tsuruya Co. Ltd.,Industrials,5386.T,EQ,
-Sakae Electronics Corporation,Industrials,7567.T,EQ,
-Aidma Marketing Communication Corp.,Industrials,9466.T,EQ,
-Almetax Manufacturing Co. Ltd.,Industrials,5928.T,EQ,
-Allied Architects Inc.,Industrials,6081.T,EQ,
-Shanon Inc.,Industrials,3976.T,EQ,
-Birdman Inc.,Industrials,7063.T,EQ,
-Orvis Corporation,Industrials,7827.T,EQ,
-AVIX Inc.,Industrials,7836.T,EQ,
-ASUA Inc.,Industrials,246A.T,EQ,
-SANTO CORPORATION,Industrials,1788.T,EQ,
-Altech Co. Ltd.,Industrials,9972.T,EQ,
-Stream Co. Ltd.,Industrials,3071.T,EQ,
-KARADANOTE INC.,Industrials,4014.T,EQ,
-HIRAGA CO. LTD.,Industrials,7863.T,EQ,
-Japan Reliance Service Corporation,Industrials,4664.T,EQ,
-ASMARQ Co. Ltd.,Industrials,4197.T,EQ,
-Eidai Kako Co. Ltd.,Industrials,7877.T,EQ,
-Sougou Shouken Co. Ltd.,Industrials,7850.T,EQ,
-Cross E Holdings Corporation Limited,Industrials,231A.T,EQ,
-Mirai Works Inc.,Industrials,6563.T,EQ,
-Saita Corporation,Industrials,1999.T,EQ,
-Kyokuto Co. Ltd.,Industrials,2300.T,EQ,
-Muraki Corporation,Industrials,7477.T,EQ,
-Laxus Technologies Inc.,Industrials,288A.T,EQ,
-JAPAN SYSTEMBANK CORPORATION,Industrials,5530.T,EQ,
-ASULINA Co. Ltd.,Industrials,3647.T,EQ,
-Placo Co. Ltd.,Industrials,6347.T,EQ,
-eMnet Japan Co. Ltd.,Industrials,7036.T,EQ,
-Takeda Machinery Co. Ltd.,Industrials,6150.T,EQ,
-WASHHOUSE Co. Ltd.,Industrials,6537.T,EQ,
-Forval RealStraight Inc.,Industrials,9423.T,EQ,
-Nyle Inc.,Industrials,5618.T,EQ,
-Fuji Latex Co. Ltd.,Industrials,5199.T,EQ,
-Fundely Co.Ltd.,Industrials,3137.T,EQ,
-T. Kawabe & Co. Ltd.,Industrials,8123.T,EQ,
-JINJIB Co. Ltd.,Industrials,142A.T,EQ,
-ZUU Co. Ltd.,Industrials,4387.T,EQ,
-SDS HOLDINGS Co.Ltd.,Industrials,1711.T,EQ,
-Alue Co. Ltd.,Industrials,7043.T,EQ,
-NITTOH CORPORATION,Industrials,1738.T,EQ,
-ArtGreen Co. Ltd.,Industrials,3419.T,EQ,
-HYPER Inc.,Industrials,3054.T,EQ,
-Media Research Institute Inc.,Industrials,9242.T,EQ,
-Fukushima Printing Co. Ltd.,Industrials,7870.T,EQ,
-JMC Corporation,Industrials,5704.T,EQ,
-CONSEC CORPORATION,Industrials,9895.T,EQ,
-Amatei Incorporated,Industrials,5952.T,EQ,
-Meiho Holdings Inc.,Industrials,7369.T,EQ,
-Techno Alpha Co. Ltd.,Industrials,3089.T,EQ,
-Tradia Corporation,Industrials,9365.T,EQ,
-KLASS Corporation,Industrials,6233.T,EQ,
-Osaka Yuka Industry Ltd.,Industrials,4124.T,EQ,
-EduLab Inc.,Industrials,4427.T,EQ,
-Medical Net Inc.,Industrials,3645.T,EQ,
-Linkbal Inc.,Industrials,6046.T,EQ,
-Business Coach Inc.,Industrials,9562.T,EQ,
-Kensoh Co. Ltd.,Industrials,7939.T,EQ,
-Fuji Seiki Co. Ltd.,Industrials,6400.T,EQ,
-Delivery Consulting Inc.,Industrials,9240.T,EQ,
-Bridge Consulting Group Inc.,Industrials,9225.T,EQ,
-JAIC Co. Ltd.,Industrials,7073.T,EQ,
-SuRaLa Net Co. Ltd.,Industrials,3998.T,EQ,
-Environmental Control Center Co. Ltd.,Industrials,4657.T,EQ,
-Shingakukai Holdings Co. Ltd.,Industrials,9760.T,EQ,
-ALiNK Internet Inc.,Industrials,7077.T,EQ,
-Japan Power Fastening Co. Ltd.,Industrials,5950.T,EQ,
-ACCESS GROUP HOLDINGS CO. LTD.,Industrials,7042.T,EQ,
-Taiyo Bussan Kaisha Ltd.,Industrials,9941.T,EQ,
-Toho Lamac Co. Ltd.,Industrials,7422.T,EQ,
-PA Co. Ltd.,Industrials,4766.T,EQ,
-MS&Consulting Co. Ltd.,Industrials,6555.T,EQ,
-CAREER CO. LTD.,Industrials,6198.T,EQ,
-Slogan Inc.,Industrials,9253.T,EQ,
-Kyoritsu Computer & Communication Co. Ltd.,Industrials,3670.T,EQ,
-JSH Co. Ltd.,Industrials,150A.T,EQ,
-Asahi Kagaku Kogyo Co. Ltd.,Industrials,7928.T,EQ,
-CINC Corp.,Industrials,4378.T,EQ,
-Mie Corp. Co. Ltd.,Industrials,3442.T,EQ,
-Decollte Holdings Corporation,Industrials,7372.T,EQ,
-JTEC Corporation,Industrials,2479.T,EQ,
-Cacco Inc.,Industrials,4166.T,EQ,
-Cluster Technology Co. Ltd.,Industrials,4240.T,EQ,
-Cookbiz Co. Ltd.,Industrials,6558.T,EQ,
-Kitac Corporation,Industrials,4707.T,EQ,
-Lovable Marketing Group Inc.,Industrials,9254.T,EQ,
-ASAHI EITO HOLDINGS CO. LTD.,Industrials,5341.T,EQ,
-STORAGE-OH Co. Ltd.,Industrials,2997.T,EQ,
-Career Bank Co. Ltd.,Industrials,4834.T,EQ,
-Linkers Corporation,Industrials,5131.T,EQ,
-CaSy Co. Ltd.,Industrials,9215.T,EQ,
-itamiarts inc.,Industrials,168A.T,EQ,
-Uematsu Shokai Co. Ltd.,Industrials,9914.T,EQ,
-Kurogane Kosakusho Ltd.,Industrials,7997.T,EQ,
-Branding Technology Inc.,Industrials,7067.T,EQ,
-Caster Co. Ltd.,Industrials,9331.T,EQ,
-b-style Holdings Inc.,Industrials,302A.T,EQ,
-PhoenixBio Co. Ltd.,Industrials,6190.T,EQ,
-ECOMIC CO. LTD.,Industrials,3802.T,EQ,
-Nichiryoku Co. Ltd.,Industrials,7578.T,EQ,
-Koyosha Inc.,Industrials,7946.T,EQ,
-Inbound Tech Inc.,Industrials,7031.T,EQ,
-Lead Co. Inc.,Industrials,6982.T,EQ,
-T.O.Holdings CO. LTD.,Industrials,9812.T,EQ,
-CRG HOLDINGS CO. LTD.,Industrials,7041.T,EQ,
-Axel Mark Inc.,Industrials,3624.T,EQ,
-AUN Consulting Inc.,Industrials,2459.T,EQ,
-Seyfert Ltd.,Industrials,9213.T,EQ,
-SiriusVision Co. Ltd.,Industrials,6276.T,EQ,
-logly Inc.,Industrials,6579.T,EQ,
-CRAVIA Inc.,Industrials,6573.T,EQ,
-Alpha Co. Ltd.,Industrials,4760.T,EQ,
-visumo Inc.,Industrials,303A.T,EQ,
-Wilson Learning Worldwide Inc.,Industrials,9610.T,EQ,
-BARCOS Co. Ltd.,Industrials,7790.T,EQ,
-AGEHA Inc.,Industrials,9330.T,EQ,
-Toshin Holdings Co. Ltd.,Industrials,9444.T,EQ,
-ReYuu Japan Inc.,Industrials,9425.T,EQ,
-REPRIORITY CORPORATION,Industrials,242A.T,EQ,
-Value Creation Co. Ltd,Industrials,9238.T,EQ,
-Copa Corporation Inc.,Industrials,7689.T,EQ,
-Wellco Holdings Corp.,Industrials,7831.T,EQ,
-Global Communication Planning Co.Ltd.,Industrials,4073.T,EQ,
-Saylor Advertising Inc.,Industrials,2156.T,EQ,
-Future Link Network Co. Ltd.,Industrials,9241.T,EQ,
-Chuo Seisakusho Ltd.,Industrials,6846.T,EQ,
-Matsumoto Inc.,Industrials,7901.T,EQ,
-YUMEMITSUKETAI Co. Ltd.,Industrials,2673.T,EQ,
-Nakanippon Casting Co. Ltd.,Industrials,6439.T,EQ,
-Frontier Inc.,Industrials,4250.T,EQ,
-NEPON Inc.,Industrials,7985.T,EQ,
-Life Intelligent Enterprise Holdings Co. Ltd.,Industrials,5856.T,EQ,
-Yamazaki Co. Ltd.,Industrials,6147.T,EQ,
-Yamadai Corporation,Industrials,7426.T,EQ,
-Fusion Co. Ltd.,Industrials,3977.T,EQ,
-INSIGHT INC.,Industrials,2172.T,EQ,
-Tsuji Hongo IT Consulting Co. Ltd.,Industrials,476A.T,EQ,
-Batonz.Co. Ltd.,Industrials,554A.T,EQ,
-TECHNOSMILE INC.,Industrials,333A.T,EQ,
-Muninova Holdings Inc,Industrials,547A.T,EQ,
-PowerX Inc.,Industrials,485A.T,EQ,
-Movin' Strategic Career CO. LTD.,Industrials,421A.T,EQ,
-Geekly Inc.,Industrials,505A.T,EQ,
-GMS Group Co. Ltd.,Industrials,544A.T,EQ,
-Fuji United Holdings Co. Ltd.,Industrials,416A.T,EQ,
-SEIWA HOLDINGS Co. Ltd.,Industrials,523A.T,EQ,
-LASSIC Co. Ltd.,Industrials,574A.T,EQ,
-LiB Consulting Co. Ltd.,Industrials,480A.T,EQ,
-Agent IG Holdings Inc.,Industrials,377A.T,EQ,
-MAEZAWA Holdings Co. Ltd.,Industrials,575A.T,EQ,
-MIRAINI HOLDINGS CO. LTD,Industrials,546A.T,EQ,
+Hitachi Ltd.,Industrials,6501.T,EQ,JP3788600009
+Mitsubishi Corporation,Industrials,8058.T,EQ,JP3898400001
+Recruit Holdings Co. Ltd.,Industrials,6098.T,EQ,JP3970300004
+Itochu Corporation,Industrials,8001.T,EQ,JP3143600009
+Mitsui & Co. Ltd.,Industrials,8031.T,EQ,JP3893600001
+Mitsubishi Heavy Industries Ltd.,Industrials,7011.T,EQ,JP3900000005
+Mitsubishi Electric Corporation,Industrials,6503.T,EQ,JP3902400005
+Disco Corporation,Industrials,6146.T,EQ,JP3548600000
+Sumitomo Electric Industries Ltd.,Industrials,5802.T,EQ,JP3407400005
+Marubeni Corporation,Industrials,8002.T,EQ,JP3877600001
+Sumitomo Corporation,Industrials,8053.T,EQ,JP3404600003
+Fujikura Ltd.,Industrials,5803.T,EQ,JP3811000003
+Daikin Industries Ltd.,Industrials,6367.T,EQ,JP3481800005
+Toyota Tsusho Corporation,Industrials,8015.T,EQ,JP3635000007
+Fanuc Corporation,Industrials,6954.T,EQ,JP3802400006
+Komatsu Ltd.,Industrials,6301.T,EQ,JP3304200003
+SMC Corporation,Industrials,6273.T,EQ,JP3162600005
+East Japan Railway Company,Industrials,9020.T,EQ,JP3783600004
+Central Japan Railway Company,Industrials,9022.T,EQ,JP3566800003
+Kubota Corporation,Industrials,6326.T,EQ,JP3266400005
+Nidec Corporation,Industrials,6594.T,EQ,JP3734800000
+Furukawa Electric Co. Ltd.,Industrials,5801.T,EQ,JP3827200001
+Secom Co. Ltd.,Industrials,9735.T,EQ,JP3421800008
+Kajima Corporation,Industrials,1812.T,EQ,JP3210200006
+IHI Corporation,Industrials,7013.T,EQ,JP3134800006
+Ebara Corporation,Industrials,6361.T,EQ,JP3166000004
+Daifuku Co.  Ltd.,Industrials,6383.T,EQ,JP3497400006
+Kawasaki Heavy Industries Ltd.,Industrials,7012.T,EQ,JP3224200000
+Nippon Yusen Kabushiki Kaisha,Industrials,9101.T,EQ,JP3753000003
+Taisei Corporation,Industrials,1801.T,EQ,JP3443600006
+Obayashi Corporation,Industrials,1802.T,EQ,JP3190000004
+Kokusai Electric Corporation,Industrials,6525.T,EQ,JP3293330001
+Mitsui O.S.K. Lines Ltd.,Industrials,9104.T,EQ,JP3362700001
+Niterra Co. Ltd.,Industrials,5334.T,EQ,JP3738600000
+Fuji Electric Co. Ltd.,Industrials,6504.T,EQ,JP3820000002
+NGK Insulators Ltd.,Industrials,5333.T,EQ,JP3695200000
+Yaskawa Electric Corporation,Industrials,6506.T,EQ,JP3932000007
+Shimizu Corporation,Industrials,1803.T,EQ,JP3358800005
+Kawasaki Kisen Kaisha Ltd.,Industrials,9107.T,EQ,JP3223800008
+Makita Corporation,Industrials,6586.T,EQ,JP3862400003
+Kinden Corporation,Industrials,1944.T,EQ,JP3263000006
+ANA Holdings Inc.,Industrials,9202.T,EQ,JP3429800000
+SUMCO Corporation,Industrials,3436.T,EQ,JP3322930003
+Toppan Holdings Inc.,Industrials,7911.T,EQ,JP3629000005
+Nippon Express Holdings Inc.,Industrials,9147.T,EQ,JP3688370000
+TOTO Ltd.,Industrials,5332.T,EQ,JP3596200000
+Kandenko Co.  Ltd.,Industrials,1942.T,EQ,JP3230600003
+West Japan Railway Company,Industrials,9021.T,EQ,JP3659000008
+Japan Airlines Co. Ltd.,Industrials,9201.T,EQ,JP3705200008
+Japan Airlines Co.  Ltd. Bond-Type Cumulative Pfd Registered Shs Series 1,Industrials,92015.T,EQ,JP3705200107
+Hitachi Construction Machinery Co. Ltd.,Industrials,6305.T,EQ,JP3787000003
+Dai Nippon Printing Co. Ltd.,Industrials,7912.T,EQ,JP3493800001
+Hankyu Hanshin Holdings Inc.,Industrials,9042.T,EQ,JP3774200004
+Horiba  Ltd.,Industrials,6856.T,EQ,JP3853000002
+Tokyu Corporation,Industrials,9005.T,EQ,JP3574200006
+MISUMI Group Inc.,Industrials,9962.T,EQ,JP3885400006
+Sojitz Corporation,Industrials,2768.T,EQ,JP3663900003
+SG Holdings Co. Ltd.,Industrials,9143.T,EQ,JP3162770006
+Kurita Water Industries Ltd.,Industrials,6370.T,EQ,JP3270000007
+MonotaRO Co.  Ltd.,Industrials,3064.T,EQ,JP3922950005
+Amada Co. Ltd.,Industrials,6113.T,EQ,JP3122800000
+BayCurrent Inc.,Industrials,6532.T,EQ,JP3835250006
+MARUWA CO.  LTD.,Industrials,5344.T,EQ,JP3879250003
+THK Co.  Ltd.,Industrials,6481.T,EQ,JP3539250005
+Tokyo Metro Co. Ltd,Industrials,9023.T,EQ,JP3583900000
+Koito Manufacturing Co.  Ltd.,Industrials,7276.T,EQ,JP3284600008
+Tokyo Seimitsu Co.  Ltd,Industrials,7729.T,EQ,JP3580200008
+Sanwa Holdings Corporation,Industrials,5929.T,EQ,JP3344400001
+HOSHIZAKI Corp.,Industrials,6465.T,EQ,JP3845770001
+Canon Marketing Japan Incorporated,Industrials,8060.T,EQ,JP3243600008
+NHK Spring Co.  Ltd.,Industrials,5991.T,EQ,JP3742600004
+FUJI CORPORATION,Industrials,6134.T,EQ,JP3809200003
+NIKKON Holdings Co.  Ltd.,Industrials,9072.T,EQ,JP3709600005
+Archion Corporation,Industrials,543A.T,EQ,JP3100020001
+Haseko Corporation,Industrials,1808.T,EQ,JP3768600003
+Organo Corp.,Industrials,6368.T,EQ,JP3201600008
+Nichias Corporation,Industrials,5393.T,EQ,JP3660400007
+Kintetsu Group Holdings Co. Ltd,Industrials,9041.T,EQ,JP3260800002
+Modec  Inc.,Industrials,6269.T,EQ,JP3888250002
+INFRONEER Holdings Inc.,Industrials,5076.T,EQ,JP3153850007
+Takasago Thermal Engineering Co.  Ltd.,Industrials,1969.T,EQ,JP3455200000
+JTEKT Corporation,Industrials,6473.T,EQ,JP3292200007
+Harmonic Drive Systems Inc.,Industrials,6324.T,EQ,JP3765150002
+KRAFTIA CORPORATION,Industrials,1959.T,EQ,JP3247050002
+GS Yuasa Corporation,Industrials,6674.T,EQ,JP3385820000
+Sumitomo Heavy Industries Ltd.,Industrials,6302.T,EQ,JP3405400007
+COMSYS Holdings Corporation,Industrials,1721.T,EQ,JP3305530002
+Yamato Holdings Co. Ltd.,Industrials,9064.T,EQ,JP3940000007
+JGC Holdings Corporation,Industrials,1963.T,EQ,JP3667600005
+Taiyo Holdings Co.  Ltd.,Industrials,4626.T,EQ,JP3449100001
+Odakyu Electric Railway Co. Ltd.,Industrials,9007.T,EQ,JP3196000008
+Workman Co.  Ltd.,Industrials,7564.T,EQ,JP3990100004
+MACNICA HOLDINGS INC.,Industrials,3132.T,EQ,JP3862960006
+Nabtesco Corporation,Industrials,6268.T,EQ,JP3651210001
+Tobu Railway Co. Ltd.,Industrials,9001.T,EQ,JP3597800006
+Japan Steel Works Ltd.,Industrials,5631.T,EQ,JP3721400004
+Persol Holdings Co. Ltd,Industrials,2181.T,EQ,JP3547670004
+Keisei Electric Railway Co. Ltd.,Industrials,9009.T,EQ,JP3278600006
+ALSOK CO.  LTD.,Industrials,2331.T,EQ,JP3431900004
+Kyushu Railway Company,Industrials,9142.T,EQ,JP3247010006
+NSK Ltd.,Industrials,6471.T,EQ,JP3720800006
+EXEO Group  Inc.,Industrials,1951.T,EQ,JP3254200003
+Toyoda Gosei Co.  Ltd.,Industrials,7282.T,EQ,JP3634200004
+Mitsubishi Logistics Corporation,Industrials,9301.T,EQ,JP3902000003
+Nagase & Co.  Ltd.,Industrials,8012.T,EQ,JP3647800006
+LIXIL Corporation,Industrials,5938.T,EQ,JP3626800001
+DMG MORI CO.  LTD.,Industrials,6141.T,EQ,JP3924800000
+MEDIPAL HOLDINGS Corporation,Industrials,7459.T,EQ,JP3268950007
+Penta-Ocean Construction Co.  Ltd.,Industrials,1893.T,EQ,JP3309000002
+Toda Corporation,Industrials,1860.T,EQ,JP3627000007
+Kamigumi Co.  Ltd.,Industrials,9364.T,EQ,JP3219000001
+CKD Corporation,Industrials,6407.T,EQ,JP3346800000
+Stanley Electric Co.  Ltd.,Industrials,6923.T,EQ,JP3399400005
+Japan Airport Terminal Co.  Ltd.,Industrials,9706.T,EQ,JP3699400002
+NOK Corporation,Industrials,7240.T,EQ,JP3164800009
+IWATANI Corporation,Industrials,8088.T,EQ,JP3151600008
+Keio Corporation,Industrials,9008.T,EQ,JP3277800003
+Union Tool Co.,Industrials,6278.T,EQ,JP3950600001
+Alfresa Holdings Corporation,Industrials,2784.T,EQ,JP3126340003
+Mitsui ES Holdings Co.  Ltd.,Industrials,7003.T,EQ,JP3891600003
+Keikyu Corporation,Industrials,9006.T,EQ,JP3280200001
+ADEKA Corporation,Industrials,4401.T,EQ,JP3114800000
+Paltac Corporation,Industrials,8283.T,EQ,JP3782200004
+Seino Holdings Co. Ltd,Industrials,9076.T,EQ,JP3415400005
+Meidensha Corporation,Industrials,6508.T,EQ,JP3919800007
+Nifco Inc.,Industrials,7988.T,EQ,JP3756200006
+Sankyu Inc.,Industrials,9065.T,EQ,JP3326000001
+Mabuchi Motor Co.  Ltd.,Industrials,6592.T,EQ,JP3870000001
+BIPROGY Inc.,Industrials,8056.T,EQ,JP3754200008
+Maruichi Steel Tube Ltd.,Industrials,5463.T,EQ,JP3871200006
+Tokai Carbon Co. Ltd.,Industrials,5301.T,EQ,JP3560800009
+Toyota Boshoku Corp.,Industrials,3116.T,EQ,JP3635400009
+Daiei Kankyo Co.  Ltd.,Industrials,9336.T,EQ,JP3480470008
+Sinfonia Technology Co.  Ltd.,Industrials,6507.T,EQ,JP3375400003
+Sanki Engineering Co.  Ltd.,Industrials,1961.T,EQ,JP3325600009
+SWCC Corporation,Industrials,5805.T,EQ,JP3368400002
+Nagoya Railroad Co.  Ltd.,Industrials,9048.T,EQ,JP3649800004
+Hanwa Co.  Ltd.,Industrials,8078.T,EQ,JP3777800008
+Kokuyo Co.  Ltd.,Industrials,7984.T,EQ,JP3297000006
+Takeuchi Mfg.Co.  Ltd.,Industrials,6432.T,EQ,JP3462660006
+Miura Co.  Ltd.,Industrials,6005.T,EQ,JP3880800002
+Makino Milling Machine Co.  Ltd.,Industrials,6135.T,EQ,JP3862800004
+DAI-DAN Co.  Ltd.,Industrials,1980.T,EQ,JP3486000007
+Daihen Corporation,Industrials,6622.T,EQ,JP3497800007
+Nisshinbo Holdings Inc.,Industrials,3105.T,EQ,JP3678000005
+Ushio Inc.,Industrials,6925.T,EQ,JP3156400008
+SENKO Group Holdings Co.Ltd.,Industrials,9069.T,EQ,JP3423800006
+Keihan Holdings Co. Ltd.,Industrials,9045.T,EQ,JP3279400000
+Musashi Seimitsu Industry Co.  Ltd.,Industrials,7220.T,EQ,JP3912700006
+Sankyo Co.  Ltd.,Industrials,6417.T,EQ,JP3326410002
+Shibaura Mechatronics Corp.,Industrials,6590.T,EQ,JP3355000005
+HAZAMA ANDO Corporation,Industrials,1719.T,EQ,JP3767810009
+MIRAIT ONE Corporation,Industrials,1417.T,EQ,JP3910620008
+OSG Corporation,Industrials,6136.T,EQ,JP3170800001
+Tsugami Corp.,Industrials,6101.T,EQ,JP3531800005
+Max Co.  Ltd.,Industrials,6454.T,EQ,JP3864800002
+Inaba Denkisangyo Co.  Ltd.,Industrials,9934.T,EQ,JP3146200005
+MITSUI-SOKO HOLDINGS Co.  Ltd.,Industrials,9302.T,EQ,JP3891200002
+BIC Cameras Inc.,Industrials,3048.T,EQ,JP3800390001
+Nankai Electric Railway Co Ltd,Industrials,9044.T,EQ,JP3653000004
+Daiwabo Holdings Co.  Ltd.,Industrials,3107.T,EQ,JP3505400006
+Visional  Inc.,Industrials,4194.T,EQ,JP3800270005
+Sumitomo Warehouse Co.  Ltd.,Industrials,9303.T,EQ,JP3407000003
+Japan Elevator Service Holdings Co.  Ltd.,Industrials,6544.T,EQ,JP3389510003
+Konica Minolta Inc.,Industrials,4902.T,EQ,JP3300600008
+CHUDENKO CORPORATION,Industrials,1941.T,EQ,JP3524000001
+Taikisha Ltd.,Industrials,1979.T,EQ,JP3441200007
+NIPRO Corporation,Industrials,8086.T,EQ,JP3673600007
+SHO BOND Holdings Co.  Ltd.,Industrials,1414.T,EQ,JP3360250009
+Okuma Corporation,Industrials,6103.T,EQ,JP3172100004
+TOHO HOLDINGS CO.  LTD.,Industrials,8129.T,EQ,JP3602600003
+Tsubakimoto Chain Co.,Industrials,6371.T,EQ,JP3535400000
+Nippon Densetsu Kogyo Co.  Ltd.,Industrials,1950.T,EQ,JP3736200001
+Takuma Co.  Ltd.,Industrials,6013.T,EQ,JP3462600002
+ARE Holdings  Inc.,Industrials,5857.T,EQ,JP3116700000
+Fukuyama Transporting Co.  Ltd.,Industrials,9075.T,EQ,JP3806800003
+TOKAI RIKA CO.  LTD.,Industrials,6995.T,EQ,JP3566600007
+Namura Shipbuilding Co.  Ltd.,Industrials,7014.T,EQ,JP3651400008
+Amano Corporation,Industrials,6436.T,EQ,JP3124400007
+NTN Corporation,Industrials,6472.T,EQ,JP3165600002
+Sotetsu Holdings  Inc.,Industrials,9003.T,EQ,JP3316400005
+Sanyo Denki Co.  Ltd.,Industrials,6516.T,EQ,JP3340800006
+Kumagai Gumi Co.  Ltd.,Industrials,1861.T,EQ,JP3266800006
+MEITEC Group Holdings Inc.,Industrials,9744.T,EQ,JP3919200000
+Nishi-Nippon Railroad Co.  Ltd.,Industrials,9031.T,EQ,JP3658800002
+OKAMURA CORP,Industrials,7994.T,EQ,JP3192400004
+Seikoh Giken Co.  Ltd.,Industrials,6834.T,EQ,JP3414870000
+Towa Corporation,Industrials,6315.T,EQ,JP3555700008
+Nikkiso Co.  Ltd.,Industrials,6376.T,EQ,JP3668000007
+PILLAR Corporation,Industrials,6490.T,EQ,JP3747800005
+Exedy Corporation,Industrials,7278.T,EQ,JP3161160001
+Kanadevia Corporation,Industrials,7004.T,EQ,JP3789000001
+Noritake Co. Limited,Industrials,5331.T,EQ,JP3763000001
+Mitani Corporation,Industrials,8066.T,EQ,JP3886800006
+FP Corporation,Industrials,7947.T,EQ,JP3167000003
+Toenec Corporation,Industrials,1946.T,EQ,JP3552230009
+Kitz Corporation,Industrials,6498.T,EQ,JP3240700009
+KYB Corporation,Industrials,7242.T,EQ,JP3220200004
+Inabata & Co.  Ltd.,Industrials,8098.T,EQ,JP3146000009
+Kato Sangyo Co.  Ltd.,Industrials,9869.T,EQ,JP3213300001
+Nittetsu Mining Co.  Ltd.,Industrials,1515.T,EQ,JP3680800004
+Takara standard Co.  Ltd.,Industrials,7981.T,EQ,JP3460000007
+Ship Healthcare Holdings  Inc.,Industrials,3360.T,EQ,JP3274150006
+Daiseki Co.  Ltd.,Industrials,9793.T,EQ,JP3485600005
+Chiyoda Corp.,Industrials,6366.T,EQ,JP3528600004
+SBS Holdings Inc,Industrials,2384.T,EQ,JP3163500006
+Toa Corporation (Construction),Industrials,1885.T,EQ,JP3556000002
+SMS Co.  Ltd.,Industrials,2175.T,EQ,JP3162350007
+Daiichikosho Co.  Ltd.,Industrials,7458.T,EQ,JP3475200006
+RS Technologies Co. Ltd.,Industrials,3445.T,EQ,JP3100350002
+PILOT Corporation,Industrials,7846.T,EQ,JP3780610006
+Nomura Micro Science Co.  Ltd.,Industrials,6254.T,EQ,JP3762950008
+TKC Corporation,Industrials,9746.T,EQ,JP3539400006
+Open Up Group Inc.,Industrials,2154.T,EQ,JP3635580008
+Sangetsu Corporation,Industrials,8130.T,EQ,JP3330000005
+Taihei Dengyo Kaisha  Ltd.,Industrials,1968.T,EQ,JP3447200001
+NS United Kaiun Kaisha Ltd.,Industrials,9110.T,EQ,JP3385000009
+NITTO KOGYO Corporation,Industrials,6651.T,EQ,JP3682400001
+F.C.C.Co.  Ltd.,Industrials,7296.T,EQ,JP3166900005
+OPTORUN CO. LTD.,Industrials,6235.T,EQ,JP3197760006
+TADANO Ltd.,Industrials,6395.T,EQ,JP3465000002
+Yurtec Corporation,Industrials,1934.T,EQ,JP3946200007
+Totech Corporation,Industrials,9960.T,EQ,JP3595300009
+Yamazen Corporation,Industrials,8051.T,EQ,JP3936800006
+Shin Nippon Air Technologies Co.  Ltd.,Industrials,1952.T,EQ,JP3380250005
+AS ONE Corporation,Industrials,7476.T,EQ,JP3131300000
+Iino Kaiun Kaisha Ltd.,Industrials,9119.T,EQ,JP3131200002
+Yamabiko Corporation,Industrials,6250.T,EQ,JP3943000004
+Maruzen Showa Unyu Co.  Ltd.,Industrials,9068.T,EQ,JP3876000005
+Trusco Nakayama Corporation,Industrials,9830.T,EQ,JP3635500006
+Matsuda Sangyo Co.  Ltd.,Industrials,7456.T,EQ,JP3868500004
+Nippon Seiki Co.  Ltd.,Industrials,7287.T,EQ,JP3720600000
+Raito Kogyo Co.  Ltd.,Industrials,1926.T,EQ,JP3965800000
+GALILEI CO.LTD.,Industrials,6420.T,EQ,JP3805150004
+Yellow Hat Ltd.,Industrials,9882.T,EQ,JP3131350005
+Totetsu Kogyo Co.  Ltd.,Industrials,1835.T,EQ,JP3595400007
+transcosmos Inc.,Industrials,9715.T,EQ,JP3635700002
+JAC Recruitment Co.  Ltd.,Industrials,2124.T,EQ,JP3386130003
+Topre Corporation,Industrials,5975.T,EQ,JP3598200008
+Hamakyorex Co.  Ltd.,Industrials,9037.T,EQ,JP3771150004
+GMO internet Inc.,Industrials,4784.T,EQ,JP3863050005
+Konoike Transport Co.  Ltd.,Industrials,9025.T,EQ,JP3288970001
+Eagle Industry Co.  Ltd.,Industrials,6486.T,EQ,JP3130400009
+ANYCOLOR Inc.,Industrials,5032.T,EQ,JP3164780003
+Valqua Ltd.,Industrials,7995.T,EQ,JP3744200001
+METAWATER Co.Ltd.,Industrials,9551.T,EQ,JP3921260000
+ASAHI YUKIZAI CORPORATION,Industrials,4216.T,EQ,JP3117200000
+Restar Corporation,Industrials,3156.T,EQ,JP3944360001
+Nippon Thompson Co.  Ltd.,Industrials,6480.T,EQ,JP3739400004
+Nachi-Fujikoshi Corp.,Industrials,6474.T,EQ,JP3813200007
+Shinnihon Corporation,Industrials,1879.T,EQ,JP3380300008
+Nissei ASB Machine Co . Ltd.,Industrials,6284.T,EQ,JP3678200001
+ITOKI Corporation,Industrials,7972.T,EQ,JP3142700008
+Hibiya Engineering Ltd.,Industrials,1982.T,EQ,JP3793400007
+TECHNOFLEX CORPORATION,Industrials,3449.T,EQ,JP3545260006
+SAN-AI OBBLI CO. LTD,Industrials,8097.T,EQ,JP3323600001
+NOMURA Co.  Ltd.,Industrials,9716.T,EQ,JP3762400004
+RAIZNEXT Corporation,Industrials,6379.T,EQ,JP3331600001
+Furukawa Co.  Ltd.,Industrials,5715.T,EQ,JP3826800009
+Tokyo Electron Device Limited,Industrials,2760.T,EQ,JP3571600000
+Central Automotive Products Ltd.,Industrials,8117.T,EQ,JP3515400004
+Sakai Moving Service Co.  Ltd.,Industrials,9039.T,EQ,JP3314200001
+RIZAP GROUP  Inc.,Industrials,2928.T,EQ,JP3281880009
+Autobacs Seven Co.  Ltd.,Industrials,9832.T,EQ,JP3172500005
+Aisan Industry Co.  Ltd.,Industrials,7283.T,EQ,JP3101600009
+TAKAOKA TOKO CO.  LTD.,Industrials,6617.T,EQ,JP3591600006
+Tri Chemical Laboratories Inc.,Industrials,4369.T,EQ,JP3636000006
+Plus Alpha Consulting Co. LTD.,Industrials,4071.T,EQ,JP3832700003
+Nishikawa Rubber Co.  Ltd.,Industrials,5161.T,EQ,JP3657550004
+Toyo Engineering Corporation,Industrials,6330.T,EQ,JP3607800004
+YUASA CO. LTD.,Industrials,8074.T,EQ,JP3945200008
+Senshu Electric Co.  Ltd.,Industrials,9824.T,EQ,JP3424400004
+Techno Ryowa Ltd.,Industrials,1965.T,EQ,JP3545040002
+YOKOREI CO. LTD.,Industrials,2874.T,EQ,JP3957000007
+Mitsuboshi Belting Ltd.,Industrials,5192.T,EQ,JP3904000001
+Shibuya Corporation,Industrials,6340.T,EQ,JP3356000004
+Yokogawa Bridge Holdings Corp.,Industrials,5911.T,EQ,JP3955200005
+Nippon Dry-Chemical Co.  Ltd.,Industrials,1909.T,EQ,JP3740800002
+Enplas Corporation,Industrials,6961.T,EQ,JP3169800004
+Solasto Corp.,Industrials,6197.T,EQ,JP3436250009
+NPR-RIKEN CORPORATION,Industrials,6209.T,EQ,JP3970700005
+Kamei Corporation,Industrials,8037.T,EQ,JP3219400003
+Funai Soken Holdings Incorporated,Industrials,9757.T,EQ,JP3825800000
+UT Group Co. Ltd.,Industrials,2146.T,EQ,JP3949500007
+Asahi Kogyosha Co.  Ltd.,Industrials,1975.T,EQ,JP3112800002
+Seika Corporation,Industrials,8061.T,EQ,JP3414200000
+Mitsuuroko Group Holdings Co.  Ltd.,Industrials,8131.T,EQ,JP3894400005
+BELLSYSTEM24 Holdings  Inc.,Industrials,6183.T,EQ,JP3835760004
+Kodensha Co.  Ltd.,Industrials,1948.T,EQ,JP3288600004
+EIZO Corporation,Industrials,6737.T,EQ,JP3651080008
+Tsurumi Manufacturing Co.  Ltd.,Industrials,6351.T,EQ,JP3536200003
+AZ-COM Maruwa Holdings Inc.,Industrials,9090.T,EQ,JP3879170003
+Uchida Yoko Co.  Ltd.,Industrials,8057.T,EQ,JP3157200001
+PS Construction Co.  Ltd.,Industrials,1871.T,EQ,JP3801400007
+Septeni Holdings Co.  Ltd.,Industrials,4293.T,EQ,JP3423300007
+TSUKISHIMA HOLDINGS CO. LTD.,Industrials,6332.T,EQ,JP3532200007
+Ryoyo Ryosan Holdings Inc.,Industrials,167A.T,EQ,JP3975410006
+Tomen Devices Corp.,Industrials,2737.T,EQ,JP3553900006
+Noritz Corporation,Industrials,5943.T,EQ,JP3759400009
+Daiichi Jitsugyo Co.  Ltd.,Industrials,8059.T,EQ,JP3475800003
+Weathernews Inc.,Industrials,4825.T,EQ,JP3154500007
+Chuo Spring Co.  Ltd.,Industrials,5992.T,EQ,JP3517800003
+Sodick Co.  Ltd.,Industrials,6143.T,EQ,JP3434200006
+Obara Group Incorporated,Industrials,6877.T,EQ,JP3197650009
+dip Corporation,Industrials,2379.T,EQ,JP3548640006
+TPR Co.  Ltd.,Industrials,6463.T,EQ,JP3542400001
+Bando Chemical Industries Ltd.,Industrials,5195.T,EQ,JP3779000003
+Shibusawa Logistics Corp,Industrials,9304.T,EQ,JP3355600002
+Yondenko Corporation,Industrials,1939.T,EQ,JP3962600007
+G-Tekt Corporation,Industrials,5970.T,EQ,JP3236750000
+Tera Probe  Inc.,Industrials,6627.T,EQ,JP3546550009
+Sinko Industries Ltd.,Industrials,6458.T,EQ,JP3372800007
+Teikoku Sen-I Co.  Ltd.,Industrials,3302.T,EQ,JP3540800004
+Aichi Corporation,Industrials,6345.T,EQ,JP3103200006
+Arata Corporation,Industrials,2733.T,EQ,JP3125100002
+Wakita & Co.  Ltd.,Industrials,8125.T,EQ,JP3992000004
+DAIWA INDUSTRIES LTD.,Industrials,6459.T,EQ,JP3505800007
+TSUBURAYA FIELDS HOLDINGS INC.,Industrials,2767.T,EQ,JP3802680003
+Mitsubishi Kakoki Kaisha Ltd.,Industrials,6331.T,EQ,JP3896000001
+Futaba Industrial Co.  Ltd.,Industrials,7241.T,EQ,JP3824000008
+Shibaura Machine Co.  Ltd.,Industrials,6104.T,EQ,JP3592600005
+Hakuto Co.  Ltd.,Industrials,7433.T,EQ,JP3766400000
+Prestige International Inc.,Industrials,4290.T,EQ,JP3833620002
+Aichi Electric Co.  Ltd.,Industrials,6623.T,EQ,JP3104000009
+Ryobi Limited,Industrials,5851.T,EQ,JP3975800008
+S Foods Inc.,Industrials,2292.T,EQ,JP3399300007
+Oiles Corporation,Industrials,6282.T,EQ,JP3174200000
+T.RAD Co.  Ltd.,Industrials,7236.T,EQ,JP3620200000
+Nippon Parking Development Co.  Ltd.,Industrials,2353.T,EQ,JP3728000005
+RYODEN CORPORATION,Industrials,8084.T,EQ,JP3976200000
+Meisei Industrial Co.  Ltd.,Industrials,1976.T,EQ,JP3918200001
+Gltechno Holdings  Inc.,Industrials,255A.T,EQ,JP3386930006
+Maxell  Ltd.,Industrials,6810.T,EQ,JP3791800000
+Yahagi Construction Co.  Ltd.,Industrials,1870.T,EQ,JP3933200002
+Kyokuto Kaihatsu Kogyo Co.  Ltd.,Industrials,7226.T,EQ,JP3256900006
+Hi-Lex Corporation,Industrials,7279.T,EQ,JP3699600007
+eGuarantee  Inc.,Industrials,8771.T,EQ,JP3130300001
+K.R.S.Corporation,Industrials,9369.T,EQ,JP3244700005
+Arisawa Mfg.Co.  Ltd.,Industrials,5208.T,EQ,JP3126000003
+Premium Group Co.  Ltd.,Industrials,7199.T,EQ,JP3833710001
+Moriya Transportation Engineering and Manufacturing Co. Ltd.,Industrials,6226.T,EQ,JP3927420004
+TOA ROAD Corporation,Industrials,1882.T,EQ,JP3558000000
+Nichiden Corporation,Industrials,9902.T,EQ,JP3661950000
+Murakami Corporation,Industrials,7292.T,EQ,JP3914200005
+Soft99 Corporation,Industrials,4464.T,EQ,JP3436030005
+CTI Engineering Co.  Ltd.,Industrials,9621.T,EQ,JP3281900005
+Press Kogyo Co.  Ltd.,Industrials,7246.T,EQ,JP3833600004
+Hosokawa Micron Corporation,Industrials,6277.T,EQ,JP3846000002
+Komori Corporation,Industrials,6349.T,EQ,JP3305800009
+Tachibana Eletech Co.  Ltd.,Industrials,8159.T,EQ,JP3466600008
+Tachi-S Co.  Ltd.,Industrials,7239.T,EQ,JP3465400004
+Daitron Co.  Ltd.,Industrials,7609.T,EQ,JP3487600003
+Strike Group Co. Ltd.,Industrials,6196.T,EQ,JP3399780000
+TKP Corporation,Industrials,3479.T,EQ,JP3538710009
+Mitsubishi Research Institute,Industrials,3636.T,EQ,JP3902200009
+Denyo Co.  Ltd.,Industrials,6517.T,EQ,JP3551600004
+Meiko Trans Co.  Ltd.,Industrials,9357.T,EQ,JP3915400000
+KOSAIDO Holdings Co.Ltd.,Industrials,7868.T,EQ,JP3287700003
+ALCONIX Corporation,Industrials,3036.T,EQ,JP3126210008
+Vital KSK Holdings  Inc.,Industrials,3151.T,EQ,JP3778280002
+Tokyo Energy & Systems Inc.,Industrials,1945.T,EQ,JP3585400009
+Torishima Pump Mfg.Co.  Ltd.,Industrials,6363.T,EQ,JP3636600003
+Japan Transcity Corporation,Industrials,9310.T,EQ,JP3739600009
+VECTOR Inc.,Industrials,6058.T,EQ,JP3835500004
+DaikyoNishikawa Corp.,Industrials,4246.T,EQ,JP3481300006
+INTAGE HOLDINGS Inc.,Industrials,4326.T,EQ,JP3152790006
+Iwaki Co. Ltd.,Industrials,6237.T,EQ,JP3150100000
+Medley  Inc.,Industrials,4480.T,EQ,JP3921310003
+SATO SHO-JI CORPORATION,Industrials,8065.T,EQ,JP3322000005
+NIPPON RIETEC CO.  LTD.,Industrials,1938.T,EQ,JP3510600004
+Chofu Seisakusho Co.  Ltd.,Industrials,5946.T,EQ,JP3527800001
+Nissha Co.Ltd.,Industrials,7915.T,EQ,JP3713200008
+Osaki Electric Co.  Ltd.,Industrials,6644.T,EQ,JP3187600006
+DAIHATSU INFINEARTH MFG.CO. LTD.,Industrials,6023.T,EQ,JP3497000004
+Asanuma Corporation,Industrials,1852.T,EQ,JP3110000001
+Japan Engine Corp,Industrials,6016.T,EQ,JP3291000002
+Siix Corporation,Industrials,7613.T,EQ,JP3346700002
+Daiho Corporation,Industrials,1822.T,EQ,JP3498600000
+Yasuda Logistics Corporation,Industrials,9324.T,EQ,JP3932820008
+Marumae Co.  Ltd.,Industrials,6264.T,EQ,JP3878150006
+Tekken Corporation,Industrials,1815.T,EQ,JP3545600003
+ANEST IWATA Corp.,Industrials,6381.T,EQ,JP3122450004
+Shinsho Corp.,Industrials,8075.T,EQ,JP3374000002
+Daiichi Kensetsu Corporation,Industrials,1799.T,EQ,JP3474610007
+NICHIREKI GROUP CO. LTD.,Industrials,5011.T,EQ,JP3665600007
+Nippon Denko Co.  Ltd.,Industrials,5563.T,EQ,JP3734600004
+TANSEISHA Co.  Ltd.,Industrials,9743.T,EQ,JP3472200009
+Kawada Technologies  Inc.,Industrials,3443.T,EQ,JP3226300006
+OYO Corporation,Industrials,9755.T,EQ,JP3174600001
+Fukuda Corporation,Industrials,1899.T,EQ,JP3805600008
+Sintokogio Ltd.,Industrials,6339.T,EQ,JP3378200004
+Globe-Ing  Inc.,Industrials,277A.T,EQ,JP3274430002
+KPP GROUP HOLDINGS CO. LTD.,Industrials,9274.T,EQ,JP3293350009
+Maruzen Co.  Ltd.,Industrials,5982.T,EQ,JP3875610002
+Asahi Diamond Industrial Co.  Ltd.,Industrials,6140.T,EQ,JP3114400009
+Zero Co.  Ltd.,Industrials,9028.T,EQ,JP3428870004
+Ebara Jitsugyo Co.  Ltd.,Industrials,6328.T,EQ,JP3165950001
+Sun-Wa Technos Corporation,Industrials,8137.T,EQ,JP3345400000
+Yashima Denki Co.  Ltd.,Industrials,3153.T,EQ,JP3931700003
+Nichirin Co.  Ltd.,Industrials,5184.T,EQ,JP3665000000
+Hirakawa Hewtech Corp.,Industrials,5821.T,EQ,JP3795080005
+Link and Motivation Inc.,Industrials,2170.T,EQ,JP3977020001
+Daido Metal Co.  Ltd.,Industrials,7245.T,EQ,JP3491800003
+Pasona Group Inc.,Industrials,2168.T,EQ,JP3781490002
+Tomoe Corporation,Industrials,1921.T,EQ,JP3631400003
+grems Inc,Industrials,3150.T,EQ,JP3952860009
+Aida Engineering Ltd.,Industrials,6118.T,EQ,JP3102400003
+Avex Inc.,Industrials,7860.T,EQ,JP3160950006
+Nittoku Co.  Ltd.,Industrials,6145.T,EQ,JP3684700002
+Tazmo Co.  Ltd.,Industrials,6266.T,EQ,JP3468000009
+en Inc.,Industrials,4849.T,EQ,JP3168700007
+MIDAC HOLDINGS CO. LTD.,Industrials,6564.T,EQ,JP3887800005
+Fullcast Holdings Co.  Ltd.,Industrials,4848.T,EQ,JP3827800008
+Zenitaka Corporation,Industrials,1811.T,EQ,JP3427800002
+Universal Entertainment Corporation,Industrials,6425.T,EQ,JP3126130008
+Nippon Air Conditioning Services Co.  Ltd.,Industrials,4658.T,EQ,JP3699500009
+Mimaki Engineering Co.  Ltd.,Industrials,6638.T,EQ,JP3907150001
+AIT Corporation,Industrials,9381.T,EQ,JP3160050005
+Mirai Industry Co.  Ltd.,Industrials,7931.T,EQ,JP3910600000
+Seikitokyu Kogyo Co.  Ltd.,Industrials,1898.T,EQ,JP3414600001
+Tsubakimoto Kogyo Co.  Ltd.,Industrials,8052.T,EQ,JP3534600006
+Kanaden Corporation,Industrials,8081.T,EQ,JP3215000005
+SEC CARBON Limited,Industrials,5304.T,EQ,JP3161600006
+Unipres Corporation,Industrials,5949.T,EQ,JP3952550006
+Ichikoh Industries Ltd.,Industrials,7244.T,EQ,JP3141600001
+GMO Financial Gate  Inc.,Industrials,4051.T,EQ,JP3386710002
+Nagaileben Co.  Ltd.,Industrials,7447.T,EQ,JP3647000003
+Nihon Tokushu Toryo Co.  Ltd.,Industrials,4619.T,EQ,JP3739000002
+Insource Co. Ltd.,Industrials,6200.T,EQ,JP3152670000
+AIRMAN CORP,Industrials,6364.T,EQ,JP3841400009
+FUJIKURA COMPOSITES Inc.,Industrials,5121.T,EQ,JP3811600000
+Mitsuba Corporation,Industrials,7280.T,EQ,JP3895200008
+Bengo4.com  Inc.,Industrials,6027.T,EQ,JP3835870001
+Subaru Enterprise Co.  Ltd.,Industrials,9632.T,EQ,JP3399800006
+Ohmoto Gumi Co.  Ltd.,Industrials,1793.T,EQ,JP3190500003
+UNISOL Holdings Corporation,Industrials,7128.T,EQ,JP3828100002
+NJS Co.  Ltd.,Industrials,2325.T,EQ,JP3718600004
+Zenrin Co.  Ltd.,Industrials,9474.T,EQ,JP3430400006
+Shinko Shoji Co.  Ltd.,Industrials,8141.T,EQ,JP3374200008
+Terasaki Electric Co.  Ltd.,Industrials,6637.T,EQ,JP3546100003
+Ishihara Chemical Co. Ltd.,Industrials,4462.T,EQ,JP3136900002
+Giken Ltd.,Industrials,6289.T,EQ,JP3264200001
+Nittoc Construction Co.  Ltd.,Industrials,1929.T,EQ,JP3684800000
+Inforich  Inc.,Industrials,9338.T,EQ,JP3153830009
+Nippon Seisen Co.  Ltd.,Industrials,5659.T,EQ,JP3721800005
+Suzuki Co.  Ltd.,Industrials,6785.T,EQ,JP3397210000
+Hokuriku Electrical Construction Co.  Ltd.,Industrials,1930.T,EQ,JP3845000003
+Yamatane Corporation,Industrials,9305.T,EQ,JP3937600009
+Shin Nippon Biomedical Laboratories  Ltd.,Industrials,2395.T,EQ,JP3379950003
+Yamato Corporation,Industrials,1967.T,EQ,JP3940800000
+SIGMAXYZ Holdings Inc,Industrials,6088.T,EQ,JP3348950001
+Nippon Sharyo Ltd.,Industrials,7102.T,EQ,JP3713600009
+TENPOS HOLDINGS Co.Ltd.,Industrials,2751.T,EQ,JP3547700009
+Seibu Giken Co.  Ltd.,Industrials,6223.T,EQ,JP3415750003
+Sansei Technologies  Inc.,Industrials,6357.T,EQ,JP3334800004
+Sanyo Trading Co.  Ltd.,Industrials,3176.T,EQ,JP3342500000
+Oriental Shiraishi Corporation,Industrials,1786.T,EQ,JP3197950003
+TOYO Corporation,Industrials,8151.T,EQ,JP3616600007
+TEIKOKU Corp.,Industrials,6333.T,EQ,JP3541800003
+Komatsu Wall Industry Co.  Ltd.,Industrials,7949.T,EQ,JP3303200004
+Hisaka Works Ltd.,Industrials,6247.T,EQ,JP3784200002
+TOHO Co. Ltd.,Industrials,8142.T,EQ,JP3553200001
+Kuroda Group Co. Ltd.,Industrials,287A.T,EQ,JP3272790001
+Meiko Construction Co.  Ltd.,Industrials,1869.T,EQ,JP3915800001
+MIYAJI ENGINEERING GROUP  INC.,Industrials,3431.T,EQ,JP3908700002
+JK Holdings Co.  Ltd.,Industrials,9896.T,EQ,JP3389570007
+Sanyo Electric Railway Co.  Ltd.,Industrials,9052.T,EQ,JP3341600009
+WORLD HOLDINGS CO. LTD,Industrials,2429.T,EQ,JP3990220000
+S Crypto Energy Inc.,Industrials,5721.T,EQ,JP3359200007
+Kimura Kohki Co.  Ltd.,Industrials,6231.T,EQ,JP3242200008
+Marubun Corporation,Industrials,7537.T,EQ,JP3877500003
+H-One Co.  Ltd.,Industrials,5989.T,EQ,JP3795200009
+SUNCALL CORPORATION,Industrials,5985.T,EQ,JP3330600002
+Seibu Electric & Machinery Co.  Ltd.,Industrials,6144.T,EQ,JP3416600009
+JDC Corporation,Industrials,1887.T,EQ,JP3707200006
+Wakachiku Construction Co.  Ltd.,Industrials,1888.T,EQ,JP3990800009
+Quick Co.  Ltd.,Industrials,4318.T,EQ,JP3266000003
+Matsui Construction Co.  Ltd.,Industrials,1810.T,EQ,JP3863600007
+Fudo Tetra Corporation,Industrials,1813.T,EQ,JP3825600004
+Kimura Unity Co.  Ltd.,Industrials,9368.T,EQ,JP3242500001
+Altech Corporation,Industrials,4641.T,EQ,JP3126350002
+CK San-Etsu Co.  Ltd.,Industrials,5757.T,EQ,JP3325100000
+TAKARA & COMPANY LTD,Industrials,7921.T,EQ,JP3459000000
+Yagi & Co.  Ltd.,Industrials,7460.T,EQ,JP3930600006
+Kyodo Printing Co.  Ltd.,Industrials,7914.T,EQ,JP3252800002
+Shinwa Co.  Ltd.,Industrials,7607.T,EQ,JP3384710004
+Central Security Patrols Co.  Ltd.,Industrials,9740.T,EQ,JP3425400003
+Architects Studio Japan  Inc.,Industrials,6085.T,EQ,JP3100030000
+Takachiho Koheki Co.  Ltd.,Industrials,2676.T,EQ,JP3457710006
+Nakano Corporation,Industrials,1827.T,EQ,JP3643600004
+SERENDIP HOLDINGS Co. Ltd.,Industrials,7318.T,EQ,JP3423750003
+Iseki & Co.  Ltd.,Industrials,6310.T,EQ,JP3139600005
+OTEC Corporation,Industrials,1736.T,EQ,JP3172410007
+Mitani Sangyo Co.  Ltd.,Industrials,8285.T,EQ,JP3886600000
+PIOLAX  Inc.,Industrials,5988.T,EQ,JP3780400002
+Inui Global Logistics Co.  Ltd.,Industrials,9308.T,EQ,JP3146800002
+Rheon Automatic Machinery Co.  Ltd.,Industrials,6272.T,EQ,JP3979400003
+Okabe Co.  Ltd.,Industrials,5959.T,EQ,JP3192000002
+Ichiken Co.  Ltd.,Industrials,1847.T,EQ,JP3141400006
+Tobishima Holdings  Inc.,Industrials,256A.T,EQ,JP3629810007
+Neturen Co.  Ltd.,Industrials,5976.T,EQ,JP3288200003
+AJIS Co.  Ltd.,Industrials,4659.T,EQ,JP3160720003
+KONDOTEC INC.,Industrials,7438.T,EQ,JP3306050000
+Takebishi Corporation,Industrials,7510.T,EQ,JP3463100002
+Yamashin-Filter Corp.,Industrials,6240.T,EQ,JP3936600000
+F&M Co.  Ltd.,Industrials,4771.T,EQ,JP3166700009
+Meiwa Corporation,Industrials,8103.T,EQ,JP3920600008
+Net Protections Holdings  Inc.,Industrials,7383.T,EQ,JP3758270007
+Oriental Consultants Holdings Company Limited,Industrials,2498.T,EQ,JP3121120004
+SPACE CO.  LTD.,Industrials,9622.T,EQ,JP3400050005
+WIN-Partners Co.  Ltd.,Industrials,3183.T,EQ,JP3154390003
+Nihon Trim Co.  Ltd.,Industrials,6788.T,EQ,JP3739700007
+Business Brain Showaota Inc.,Industrials,9658.T,EQ,JP3800300000
+Gamecard Holdings Inc.,Industrials,6249.T,EQ,JP3282270002
+WDB Holdings Co.  Ltd.,Industrials,2475.T,EQ,JP3505940001
+Endo Lighting Corporation,Industrials,6932.T,EQ,JP3169600008
+Toyo Kanetsu K.K,Industrials,6369.T,EQ,JP3554400006
+DAISUE CONSTRUCTION CO.  LTD.,Industrials,1814.T,EQ,JP3485400000
+Sanoh Industrial Co.  Ltd.,Industrials,6584.T,EQ,JP3325200008
+TOKYO ROPE MFG. CO.  LTD.,Industrials,5981.T,EQ,JP3579400007
+Sumiseki Holdings  Inc.,Industrials,1514.T,EQ,JP3400750000
+Maruzen CHI Holdings Co.  Ltd.,Industrials,3159.T,EQ,JP3346330008
+Chuo Warehouse Co.  Ltd.,Industrials,9319.T,EQ,JP3516600008
+Onoken Co.  Ltd.,Industrials,7414.T,EQ,JP3196700003
+Nishikawa Keisoku Co.  Ltd.,Industrials,7500.T,EQ,JP3657530006
+Lacto Japan Co.  Ltd.,Industrials,3139.T,EQ,JP3967250006
+Okamoto Machine Tool Works Ltd.,Industrials,6125.T,EQ,JP3193200007
+LEC INC,Industrials,7874.T,EQ,JP3410800001
+Nikko Co.  Ltd.,Industrials,6306.T,EQ,JP3669200002
+Taiho Kogyo Co.  Ltd.,Industrials,6470.T,EQ,JP3449080005
+Kawaden Corporation,Industrials,6648.T,EQ,JP3225000003
+Koike Sanso Kogyo Co.  Ltd.,Industrials,6137.T,EQ,JP3284200007
+YAMADA Consulting Group Co.  Ltd.,Industrials,4792.T,EQ,JP3588100002
+Taisei Oncho Co.  Ltd.,Industrials,1904.T,EQ,JP3443000009
+Studio Alice Co.  Ltd.,Industrials,2305.T,EQ,JP3399240005
+Fujii Sangyo Corporation,Industrials,9906.T,EQ,JP3807650001
+ERI Holdings Co.  Ltd.,Industrials,6083.T,EQ,JP3130050002
+KURIYAMA HOLDINGS CORPORATION,Industrials,3355.T,EQ,JP3270810009
+Densan System Holdings Co. Ltd.,Industrials,4072.T,EQ,JP3551440005
+Kozo Keikaku Engineering Holdings  Inc.,Industrials,208A.T,EQ,JP3288940004
+Shima Seiki Mfg. Ltd.,Industrials,6222.T,EQ,JP3356500003
+Chugai Ro Co.  Ltd.,Industrials,1964.T,EQ,JP3519800001
+PR TIMES Corporation,Industrials,3922.T,EQ,JP3801050000
+Speee  Inc.,Industrials,4499.T,EQ,JP3400010009
+Akebono Brake Industry Co.  Ltd.,Industrials,7238.T,EQ,JP3108400007
+Seiko Electric Co.  Ltd.,Industrials,6653.T,EQ,JP3414900005
+Nitto Kohki Co.  Ltd.,Industrials,6151.T,EQ,JP3682300003
+Maezawa Kyuso Industries Co.  Ltd.,Industrials,6485.T,EQ,JP3860300007
+COPRO-HOLDINGS Co.  Ltd.,Industrials,7059.T,EQ,JP3302000009
+Chiyoda Integre Co.  Ltd.,Industrials,6915.T,EQ,JP3528450004
+Japan Cash Machine Co.  Ltd.,Industrials,6418.T,EQ,JP3697800005
+HASHIMOTO SOGYO HOLDINGS CO.  LTD.,Industrials,7570.T,EQ,JP3768000006
+Meiji Shipping Group Co. Ltd.,Industrials,9115.T,EQ,JP3916200003
+E.J Holdings Inc.,Industrials,2153.T,EQ,JP3130480001
+Yuasa Funashoku Co.  Ltd.,Industrials,8006.T,EQ,JP3946000001
+Reiwa Accounting Holdings Co.  Ltd.,Industrials,296A.T,EQ,JP3979290008
+Nitto Seiko Co.  Ltd.,Industrials,5957.T,EQ,JP3682800002
+CREEK & RIVER Co.  Ltd.,Industrials,4763.T,EQ,JP3269700005
+HOKKAIDENKO CORPORATION,Industrials,1832.T,EQ,JP3846800005
+DKK Co. Ltd.,Industrials,6706.T,EQ,JP3550000008
+PORT INC.,Industrials,7047.T,EQ,JP3855850008
+Gakkyusha Co.  Ltd.,Industrials,9769.T,EQ,JP3235400003
+Sukegawa Electric Co.  Ltd.,Industrials,7711.T,EQ,JP3397100003
+RIX Corporation,Industrials,7525.T,EQ,JP3974500005
+ADVAN GROUP CO. LTD.,Industrials,7463.T,EQ,JP3121950004
+FAN Communications. Inc.,Industrials,2461.T,EQ,JP3802840003
+TOYOKOH Inc.,Industrials,341A.T,EQ,JP3632670000
+Universal Engeisha Co.  Ltd.,Industrials,6061.T,EQ,JP3952300006
+Danto Holdings Corporation,Industrials,5337.T,EQ,JP3506600000
+INABA SEISAKUSHO Co.  Ltd.,Industrials,3421.T,EQ,JP3145800003
+Corona Corporation,Industrials,5909.T,EQ,JP3305950002
+LIKE  Inc.,Industrials,2462.T,EQ,JP3386120004
+Suzuden Corporation,Industrials,7480.T,EQ,JP3398400006
+Hirano Tecseed Co.  Ltd.,Industrials,6245.T,EQ,JP3795800006
+Ohashi Technica Inc.,Industrials,7628.T,EQ,JP3173100003
+Hibino Corporation,Industrials,2469.T,EQ,JP3793200001
+Watahan & Co.  Ltd.,Industrials,3199.T,EQ,JP3993830003
+PRONEXUS Incorporated,Industrials,7893.T,EQ,JP3119000002
+Yamaura Corporation,Industrials,1780.T,EQ,JP3934300009
+Kawasaki Setsubi Kogyo Co.  Ltd.,Industrials,1777.T,EQ,JP3224800007
+FUSO DENTSU CO.  LTD.,Industrials,7505.T,EQ,JP3823400001
+JAPAN Creative Platform Group Co.  Ltd.,Industrials,7814.T,EQ,JP3726500006
+Jibannet Holdings Co.  Ltd.,Industrials,6072.T,EQ,JP3387880002
+Hoden Seimitsu Kako Kenkyusho Co.  Ltd.,Industrials,6469.T,EQ,JP3839600008
+Careerlink Co.  Ltd.,Industrials,6070.T,EQ,JP3244520007
+Forval Corporation,Industrials,8275.T,EQ,JP3802750004
+Fukoku Co.  Ltd.,Industrials,5185.T,EQ,JP3807000009
+Takashima & Co.  Ltd.,Industrials,8007.T,EQ,JP3455600001
+FALCO HOLDINGS Co.  Ltd,Industrials,4671.T,EQ,JP3802650006
+Central Forest Group Co.  Ltd.,Industrials,7675.T,EQ,JP3425850009
+Y.A.C.HOLDINGS CO. LTD.,Industrials,6298.T,EQ,JP3990600003
+Sugimoto & Co.  Ltd.,Industrials,9932.T,EQ,JP3397050000
+SPK Corporation,Industrials,7466.T,EQ,JP3163800000
+Meiji Electric Industries Co.  Ltd.,Industrials,3388.T,EQ,JP3917600003
+Sekisui Kasei Co.  Ltd.,Industrials,4228.T,EQ,JP3419800002
+DAIICHIKOUTSU SANGYO Co. Ltd.,Industrials,9035.T,EQ,JP3475300004
+Tanabe Engineering Corporation,Industrials,1828.T,EQ,JP3468900000
+Futaba Corp.,Industrials,6986.T,EQ,JP3824400000
+Nihon Suido Consultants Co.  Ltd.,Industrials,261A.T,EQ,JP3678050000
+Envipro Holdings  Inc.,Industrials,5698.T,EQ,JP3169750001
+Yagami Inc.,Industrials,7488.T,EQ,JP3930500008
+TANABE CONSULTING GROUP CO. LTD,Industrials,9644.T,EQ,JP3468850007
+Okano Valve Mfg. Co.  Ltd.,Industrials,6492.T,EQ,JP3191600000
+Primo Global Holdings Co. Ltd.,Industrials,367A.T,EQ,JP3833220001
+CMC Corporation,Industrials,2185.T,EQ,JP3347170007
+Kitano Construction Corp.,Industrials,1866.T,EQ,JP3240000004
+DMW Corporation,Industrials,6365.T,EQ,JP3550800001
+Sanko Metal Industrial Co.  Ltd.,Industrials,1972.T,EQ,JP3330800008
+CUC Inc.,Industrials,9158.T,EQ,JP3347080008
+Kitagawa Seiki Co.  Ltd.,Industrials,6327.T,EQ,JP3237150002
+Entrust Inc.,Industrials,7191.T,EQ,JP3153160001
+Eole  Inc.,Industrials,2334.T,EQ,JP3131380002
+Soda Nikka Co.  Ltd.,Industrials,8158.T,EQ,JP3431400005
+HIGASHI HOLDINGS CO. LTD.,Industrials,9029.T,EQ,JP3783480001
+Matching Service Japan Co. Ltd.,Industrials,6539.T,EQ,JP3167330004
+Skymark Airlines Inc.,Industrials,9204.T,EQ,JP3396000006
+Isewan Terminal Service Co.  Ltd.,Industrials,9359.T,EQ,JP3140400007
+OUG Holdings Inc.,Industrials,8041.T,EQ,JP3180000006
+Matsuya R&D Co. Ltd.,Industrials,7317.T,EQ,JP3869400006
+Zuiko Corporation,Industrials,6279.T,EQ,JP3411900008
+Sanko Gosei Ltd.,Industrials,7888.T,EQ,JP3330900006
+Will Group  Inc.,Industrials,6089.T,EQ,JP3154160000
+Kimura Chemical Plants Co.  Ltd.,Industrials,6378.T,EQ,JP3242000002
+Enshu Truck Co.  Ltd.,Industrials,9057.T,EQ,JP3168600009
+King Jim Co.  Ltd.,Industrials,7962.T,EQ,JP3262000007
+OIE SANGYO Co.  Ltd.,Industrials,7481.T,EQ,JP3174150007
+Yushin Company,Industrials,6482.T,EQ,JP3944500002
+Metalart Corporation,Industrials,5644.T,EQ,JP3920900002
+Araya Industrial Co.  Ltd.,Industrials,7305.T,EQ,JP3125600001
+Shinki Bus Co.  Ltd.,Industrials,9083.T,EQ,JP3372000004
+Idea Consultants Inc.,Industrials,9768.T,EQ,JP3380200000
+Togami Electric Mfg.Co.  Ltd.,Industrials,6643.T,EQ,JP3623400003
+Management Solutions Co.  Ltd.,Industrials,7033.T,EQ,JP3869980007
+NAC Co.  Ltd.,Industrials,9788.T,EQ,JP3651020004
+Takihyo Co.  Ltd.,Industrials,9982.T,EQ,JP3462100003
+EUCALIA  Inc.,Industrials,286A.T,EQ,JP3946900002
+Kuribayashi Steamship Co.  Ltd.,Industrials,9171.T,EQ,JP3270400009
+GAKUJO Co.  Ltd.,Industrials,2301.T,EQ,JP3234400004
+Nice Corporation,Industrials,8089.T,EQ,JP3641300003
+Sanyo Engineering & Construction Inc.,Industrials,1960.T,EQ,JP3335400002
+Techno Smart Corp.,Industrials,6246.T,EQ,JP3147200004
+NS Tool Co.  Ltd.,Industrials,6157.T,EQ,JP3675320000
+Tokyo Sangyo Co.  Ltd.,Industrials,8070.T,EQ,JP3576600005
+Shin Maint Holdings Co.Ltd.,Industrials,6086.T,EQ,JP3383300005
+Kyowa Leather Cloth Co.  Ltd.,Industrials,3553.T,EQ,JP3256400007
+NASU DENKI-TEKKO CO.  LTD.,Industrials,5922.T,EQ,JP3651000006
+CERES INC.,Industrials,3696.T,EQ,JP3423570005
+Bewith Inc.,Industrials,9216.T,EQ,JP3799670009
+Kamakura Shinsho  Ltd.,Industrials,6184.T,EQ,JP3218950008
+MIC Co. Ltd.,Industrials,300A.T,EQ,JP3894500002
+Kyokuto Boeki Kaisha  Ltd.,Industrials,8093.T,EQ,JP3257000004
+HOKUYAKU TAKEYAMA Holdings  Inc.,Industrials,3055.T,EQ,JP3843360003
+Artner Co.  Ltd.,Industrials,2163.T,EQ,JP3126230006
+Trinity Industrial Corporation,Industrials,6382.T,EQ,JP3637000005
+Nippon Gear Co.  Ltd.,Industrials,6356.T,EQ,JP3698800004
+Paraca Inc.,Industrials,4809.T,EQ,JP3781700004
+SUNNY SIDE UP GROUP Inc.,Industrials,2180.T,EQ,JP3322500004
+Alinco Incorporated,Industrials,5933.T,EQ,JP3126100001
+Narasaki Sangyo Co.  Ltd.,Industrials,8085.T,EQ,JP3651800009
+Onamba Co.  Ltd.,Industrials,5816.T,EQ,JP3172800009
+RAKUMACHI INC.,Industrials,6037.T,EQ,JP3802340004
+Kanda Holdings Co.  Ltd.,Industrials,9059.T,EQ,JP3229980002
+DMS INC.,Industrials,9782.T,EQ,JP3548550007
+S-Pool  Inc.,Industrials,2471.T,EQ,JP3163900008
+Howa Machinery  Ltd.,Industrials,6203.T,EQ,JP3840600005
+Kobe Electric Railway Co.  Ltd.,Industrials,9046.T,EQ,JP3290600000
+Medius Holdings Co.  Ltd.,Industrials,3154.T,EQ,JP3254190006
+Nanyo Corp.,Industrials,7417.T,EQ,JP3653700009
+FUJI DIE Co.  Ltd.,Industrials,6167.T,EQ,JP3817400009
+NISSO HOLDINGS Co. Ltd,Industrials,9332.T,EQ,JP3679880009
+Nareru Group Inc.,Industrials,9163.T,EQ,JP3652120001
+KANAME KOGYO Co.  Ltd.,Industrials,6566.T,EQ,JP3215150008
+Hiroshima Electric Railway Co.  Ltd.,Industrials,9033.T,EQ,JP3798600007
+KVK Corporation,Industrials,6484.T,EQ,JP3277250001
+Ikuyo Co.  Ltd.,Industrials,7273.T,EQ,JP3131500005
+Keihin Co.  Ltd.,Industrials,9312.T,EQ,JP3279800001
+Imasen Electric Industrial Co.  Ltd.,Industrials,7266.T,EQ,JP3149100004
+GEOLIVE Group Corporation,Industrials,3157.T,EQ,JP3390360000
+Beauty Garage  Inc.,Industrials,3180.T,EQ,JP3800480000
+Yorozu Corporation,Industrials,7294.T,EQ,JP3961400003
+Rasa Corporation,Industrials,3023.T,EQ,JP3967450002
+Loginet Japan Co.  Ltd.,Industrials,9027.T,EQ,JP3984170005
+Aval Data Corporation,Industrials,6918.T,EQ,JP3122500006
+StemRIM Inc.,Industrials,4599.T,EQ,JP3399690001
+Ochi Holdings Co.  Ltd.,Industrials,3166.T,EQ,JP3196630002
+Ahresty Corporation,Industrials,5852.T,EQ,JP3100600000
+Toell Co.  Ltd.,Industrials,3361.T,EQ,JP3552240008
+Environment Friendly Holdings Corp.,Industrials,3777.T,EQ,JP3440200008
+Sakai Heavy Industries  Ltd.,Industrials,6358.T,EQ,JP3313200002
+Nihon Flush Co.  Ltd.,Industrials,7820.T,EQ,JP3756230003
+Musashi Co.  Ltd.,Industrials,7521.T,EQ,JP3912600008
+Ainavo Holdings Co.  Ltd.,Industrials,7539.T,EQ,JP3122570009
+Japan Oil Transportation Co.  Ltd.,Industrials,9074.T,EQ,JP3724600006
+Yamada Corporation,Industrials,6392.T,EQ,JP3938600008
+YCP Holdings (Global) Ltd. Japanese Deposit Receipt Repr 1 Sh,Industrials,9257.T,EQ,JP5702100008
+Omni-Plus System Ltd. JDR,Industrials,7699.T,EQ,JP5702090001
+Ascentech KK,Industrials,3565.T,EQ,JP3120110006
+Aidma Holdings Inc.,Industrials,7373.T,EQ,JP3105340008
+Toyo Denki Seizo K.K.,Industrials,6505.T,EQ,JP3617000009
+FUJI OOZX Inc.,Industrials,7299.T,EQ,JP3807750009
+FDK Corporation,Industrials,6955.T,EQ,JP3820400004
+Suido Kiko Kaisha  Ltd.,Industrials,6403.T,EQ,JP3395800000
+f-code Inc.,Industrials,9211.T,EQ,JP3166890008
+JRC Co. Ltd.,Industrials,6224.T,EQ,JP3386910008
+Kawanishi Warehouse Co.  Ltd.,Industrials,9322.T,EQ,JP3226800005
+NCD Co. Ltd.,Industrials,4783.T,EQ,JP3709100006
+Nakamoto Packs Co. Ltd.,Industrials,7811.T,EQ,JP3646100002
+CEL Corporation,Industrials,5078.T,EQ,JP3423610009
+SANDEN CORPORATION,Industrials,6444.T,EQ,JP3336400001
+Toyo Tec Co.  Ltd,Industrials,9686.T,EQ,JP3616800003
+Hokkaido Chuo Bus Co.  Ltd.,Industrials,9085.T,EQ,JP3849800002
+Achilles Corporation,Industrials,5142.T,EQ,JP3108000005
+Hanshin Diesel Works  Ltd.,Industrials,6018.T,EQ,JP3776600003
+Nakakita Seisakusho Co.  Ltd.,Industrials,6496.T,EQ,JP3642000008
+Fujita Engineering Co.  Ltd.,Industrials,1770.T,EQ,JP3816750008
+Human Holdings Co.  Ltd.,Industrials,2415.T,EQ,JP3794520001
+Marufuji Sheet Piling Co.  Ltd.,Industrials,8046.T,EQ,JP3877200000
+Semba Corp.,Industrials,6540.T,EQ,JP3426050005
+Nakanishi Mfg. Co.  Ltd.,Industrials,5941.T,EQ,JP3642600005
+NPC Incorporated,Industrials,6255.T,EQ,JP3165840004
+Kinki Sharyo Co.  Ltd.,Industrials,7122.T,EQ,JP3258800006
+Dainichi Co.  Ltd.,Industrials,5951.T,EQ,JP3492000009
+Nanso Transport Co.  Ltd.,Industrials,9034.T,EQ,JP3653350003
+Okada Aiyon Corporation,Industrials,6294.T,EQ,JP3191400005
+OHBA CO.  LTD.,Industrials,9765.T,EQ,JP3189600004
+Meiko Network Japan Co.  Ltd.,Industrials,4668.T,EQ,JP3916100005
+Daiichi Cutter Kogyo K.K.,Industrials,1716.T,EQ,JP3473700007
+UEKI CORPORATION,Industrials,1867.T,EQ,JP3154400000
+Kunimine Industries Co.  Ltd,Industrials,5388.T,EQ,JP3266200009
+Takigami Steel Construction Co.  Ltd.,Industrials,5918.T,EQ,JP3461400008
+Hit Co. Ltd.,Industrials,378A.T,EQ,JP3791960002
+Takano Co.  Ltd.,Industrials,7885.T,EQ,JP3457750002
+INTLOOP  Inc.,Industrials,9556.T,EQ,JP3153180009
+Daito Koun Co.  Ltd.,Industrials,9367.T,EQ,JP3486900008
+Muto Seiko Co.,Industrials,7927.T,EQ,JP3913400002
+Tokura Corporation,Industrials,1892.T,EQ,JP3625800002
+UNIVANCE Corporation,Industrials,7254.T,EQ,JP3821400003
+DN HOLDINGS CO. LTD.,Industrials,7377.T,EQ,JP3548840002
+Sugimura Warehouse Co.  Ltd.,Industrials,9307.T,EQ,JP3397000005
+HITO-Communications Holdings  Inc.,Industrials,4433.T,EQ,JP3791990009
+Lib Work Co. Ltd.,Industrials,1431.T,EQ,JP3162680007
+Alpico Holdings Co. Ltd.,Industrials,297A.T,EQ,JP3126430002
+Iwabuchi Corporation,Industrials,5983.T,EQ,JP3152600007
+Naikai Zosen Corporation,Industrials,7018.T,EQ,JP3640400002
+Kitagawa Corporation,Industrials,6317.T,EQ,JP3237200005
+ValueCommerce Co.  Ltd.,Industrials,2491.T,EQ,JP3778390009
+Juki Corporation,Industrials,6440.T,EQ,JP3390400004
+GreenEnergy & Company,Industrials,1436.T,EQ,JP3802980007
+Fujimak Corporation,Industrials,5965.T,EQ,JP3820850000
+Direct Marketing MiX Inc.,Industrials,7354.T,EQ,JP3500170000
+Oval Corporation,Industrials,7727.T,EQ,JP3173200001
+Ichikawa Co.  Ltd.,Industrials,3513.T,EQ,JP3141200000
+OZU Corporation,Industrials,7487.T,EQ,JP3196650000
+Nakabayashi Co.  Ltd.,Industrials,7987.T,EQ,JP3644400008
+Toba  Inc.,Industrials,7472.T,EQ,JP3629700000
+Zaoh Company  Ltd.,Industrials,9986.T,EQ,JP3345700003
+KATO WORKS CO.  LTD.,Industrials,6390.T,EQ,JP3213800000
+Seiyu Kogyo Co.  Ltd.,Industrials,9170.T,EQ,JP3417600008
+Japan Foundation Engineering Co.  Ltd.,Industrials,1914.T,EQ,JP3697400004
+Nikkato Corporation,Industrials,5367.T,EQ,JP3667000008
+TWOSTONE&Sons Co.Ltd.,Industrials,7352.T,EQ,JP3830720003
+Konoshima Chemical Co.  Ltd.,Industrials,4026.T,EQ,JP3289000006
+Punch Industry Co.  Ltd.,Industrials,6165.T,EQ,JP3782950004
+Japan Ecosystem Co. Ltd.,Industrials,9249.T,EQ,JP3688360001
+AlphaPurchase Corporation,Industrials,7115.T,EQ,JP3126420003
+Chuo Gyorui Co.  Ltd.,Industrials,8030.T,EQ,JP3514600000
+Toyo Wharf & Warehouse Co.  Ltd.,Industrials,9351.T,EQ,JP3619000007
+Microwave Chemical Co.  Ltd.,Industrials,9227.T,EQ,JP3860340003
+People  Dreams & Technologies Group Co.  Ltd.,Industrials,9248.T,EQ,JP3792010005
+Kasai Kogyo Co.  Ltd.,Industrials,7256.T,EQ,JP3208600001
+Mitachi Co.  Ltd.,Industrials,3321.T,EQ,JP3886200009
+Tokyo Radiator Manufacturing Co.  Ltd.,Industrials,7235.T,EQ,JP3590200006
+Hakuyosha Company Ltd.,Industrials,9731.T,EQ,JP3766600005
+NITTAN Corporation,Industrials,6493.T,EQ,JP3680000001
+Asante  Inc.,Industrials,6073.T,EQ,JP3117350003
+Toyo Logistics Co.  Ltd.,Industrials,9306.T,EQ,JP3615400003
+GDEP ADVANCE Inc.,Industrials,5885.T,EQ,JP3386880003
+DEMAE-CAN CO.LTD.,Industrials,2484.T,EQ,JP3952870008
+Abist Co.  Ltd.,Industrials,6087.T,EQ,JP3122480001
+Being Holdings Co.  Ltd.,Industrials,9145.T,EQ,JP3799660000
+NOVAC CO.  LTD.,Industrials,5079.T,EQ,JP3762050007
+Boutiques  Inc.,Industrials,9272.T,EQ,JP3829980006
+Kyowanissei Co.  Ltd.,Industrials,1981.T,EQ,JP3254800000
+Luckland Co.  Ltd.,Industrials,9612.T,EQ,JP3968000004
+DELICA FOODS HOLDINGS CO. LTD.,Industrials,3392.T,EQ,JP3549350001
+Daimaru Enawin Co.  Ltd.,Industrials,9818.T,EQ,JP3499200008
+JESCO Holdings  Inc.,Industrials,1434.T,EQ,JP3386570000
+Nakabohtec Corrosion Protecting Co.  Ltd.,Industrials,1787.T,EQ,JP3644600003
+PEGASUS CO. LTD,Industrials,6262.T,EQ,JP3836300008
+NexTone Inc,Industrials,7094.T,EQ,JP3758240000
+KIKUCHI SEISAKUSHO CO.  LTD.,Industrials,3444.T,EQ,JP3236730002
+TAKEDA iP HOLDINGS CO. LTD.,Industrials,7875.T,EQ,JP3462700000
+IR Japan Holdings Ltd.,Industrials,6035.T,EQ,JP3100640006
+WASEDA GAKUSHUKENKYUKAI CO. LTD.,Industrials,5869.T,EQ,JP3993770001
+PHYZ Holdings  Inc.,Industrials,9325.T,EQ,JP3802360002
+OLBA HEALTHCARE HOLDINGS  Inc.,Industrials,2689.T,EQ,JP3226700007
+Shinwa Co. Ltd.,Industrials,3447.T,EQ,JP3384730002
+SK Japan Co.  Ltd.,Industrials,7608.T,EQ,JP3162670008
+Odawara Engineering Co.  Ltd.,Industrials,6149.T,EQ,JP3196600005
+CL Holdings Inc.,Industrials,4286.T,EQ,JP3980300002
+Sanyo Industries  Ltd.,Industrials,5958.T,EQ,JP3338000007
+Daiken Medical Co.  Ltd.,Industrials,7775.T,EQ,JP3482500000
+Micron Machinery Co.  Ltd.,Industrials,6159.T,EQ,JP3883700001
+Sata Construction Co.  Ltd.,Industrials,1826.T,EQ,JP3319600007
+Canare Electric Co.  Ltd.,Industrials,5819.T,EQ,JP3215300009
+IX Knowledge Incorporated,Industrials,9753.T,EQ,JP3100720006
+Green Cross Holdings Co. Ltd.,Industrials,272A.T,EQ,JP3274190002
+Kawagishi Bridge Works Co.  Ltd.,Industrials,5921.T,EQ,JP3222200002
+F-Tech Inc.,Industrials,7212.T,EQ,JP3166950000
+FRONTIER INTERNATIONAL INC.,Industrials,7050.T,EQ,JP3829520000
+Yasunaga Corporation,Industrials,7271.T,EQ,JP3932850005
+Yuken Kogyo Co.  Ltd.,Industrials,6393.T,EQ,JP3948000009
+Takada Corporation,Industrials,1966.T,EQ,JP3457600009
+Mikuni Corporation,Industrials,7247.T,EQ,JP3882800000
+Wellnet Corporation,Industrials,2428.T,EQ,JP3155370004
+Alpha Corporation,Industrials,3434.T,EQ,JP3126360001
+Moriya Corporation,Industrials,1798.T,EQ,JP3927400006
+TANAKEN,Industrials,1450.T,EQ,JP3468860006
+VIS Co.  Ltd.,Industrials,5071.T,EQ,JP3159890007
+Suzumo Machinery Co.  Ltd.,Industrials,6405.T,EQ,JP3398700009
+Tacmina Corporation,Industrials,6322.T,EQ,JP3462620000
+HIRAYAMA HOLDINGS Co.Ltd.,Industrials,7781.T,EQ,JP3796100000
+Sanshin Electronics Co.  Ltd.,Industrials,8150.T,EQ,JP3333200008
+Maruyama Mfg.Co.  Inc.,Industrials,6316.T,EQ,JP3878800006
+SANWAYUKA INDUSTRY CORPORATION,Industrials,4125.T,EQ,JP3345520005
+Azuma Shipping Co.  Ltd.,Industrials,9380.T,EQ,JP3121190007
+KFC Ltd.,Industrials,3420.T,EQ,JP3277100008
+Ultrafabrics Holdings Co. Ltd.,Industrials,4235.T,EQ,JP3473600009
+Yoshitake Inc.,Industrials,6488.T,EQ,JP3957200003
+Nankai Tatsumura Construction Co.  Ltd.,Industrials,1850.T,EQ,JP3652600002
+Cross Marketing Group  Inc.,Industrials,3675.T,EQ,JP3272760004
+NEXYZ.Group Corporation,Industrials,4346.T,EQ,JP3758020006
+SANKO TECHNO CO.  LTD.,Industrials,3435.T,EQ,JP3330500004
+Sanno Co.  Ltd.,Industrials,3441.T,EQ,JP3336700004
+Weds Co.  Ltd.,Industrials,7551.T,EQ,JP3154900009
+Ishikawa Seisakusho Ltd.,Industrials,6208.T,EQ,JP3135200008
+MK Seiko Co.  Ltd.,Industrials,5906.T,EQ,JP3167450000
+Takemoto Yohki Co.Ltd.,Industrials,4248.T,EQ,JP3463300008
+KOBELCO WIRE COMPANY LTD.,Industrials,5660.T,EQ,JP3373200009
+Rentracks Co.  Ltd.,Industrials,6045.T,EQ,JP3981850005
+SANIX HOLDINGS INCORPORATED,Industrials,4651.T,EQ,JP3322600002
+Watanabe Sato Co.  Ltd.,Industrials,1807.T,EQ,JP3993800006
+Asagami Corporation,Industrials,9311.T,EQ,JP3109600001
+Livero Inc.,Industrials,9245.T,EQ,JP3974830006
+WISE HOLDINGS CO. LTD.,Industrials,5955.T,EQ,JP3936400005
+Eidai Co.  Ltd.,Industrials,7822.T,EQ,JP3160840009
+Fuji P.S Corporation,Industrials,1848.T,EQ,JP3820650004
+Yokohama Maruuo Co.  Ltd.,Industrials,8045.T,EQ,JP3956600005
+Hakuten Corporation,Industrials,2173.T,EQ,JP3766300002
+Komaihaltec Inc.,Industrials,5915.T,EQ,JP3302600006
+Harima-Kyowa Co.  Ltd.,Industrials,7444.T,EQ,JP3772800003
+Kufu Company Holdings Inc.,Industrials,4376.T,EQ,JP3266310006
+Noda Corporation,Industrials,7879.T,EQ,JP3761700008
+TBK Co.  Ltd.,Industrials,7277.T,EQ,JP3588200000
+Misumi Co.  Ltd.,Industrials,7441.T,EQ,JP3885410005
+Ono Sokki Co.  Ltd.,Industrials,6858.T,EQ,JP3196800001
+FCE Inc.,Industrials,9564.T,EQ,JP3166910004
+Besterra Co.  Ltd,Industrials,1433.T,EQ,JP3835550009
+Aska Corporation,Industrials,7227.T,EQ,JP3119650004
+Meiho Facility Works Ltd.,Industrials,1717.T,EQ,JP3920400003
+Mori-Gumi Co.  Ltd.,Industrials,1853.T,EQ,JP3923600005
+Adways  Inc.,Industrials,2489.T,EQ,JP3121970002
+KODAMA CHEMICAL INDUSTRY CO.  LTD.,Industrials,4222.T,EQ,JP3299000004
+Naigai Tec Corporation,Industrials,3374.T,EQ,JP3641220003
+Advanex Inc.,Industrials,5998.T,EQ,JP3213400009
+DVx Inc.,Industrials,3079.T,EQ,JP3548710007
+O-WELL CORPORATION,Industrials,7670.T,EQ,JP3170180008
+Kyoei Tanker Co.  Ltd.,Industrials,9130.T,EQ,JP3247600004
+No.1 Co.  Ltd.,Industrials,3562.T,EQ,JP3653590004
+Sanei Ltd.,Industrials,6230.T,EQ,JP3324650005
+Mansei Corporation,Industrials,7565.T,EQ,JP3879320004
+Nippon Kanryu Industry Co.  Ltd.,Industrials,1771.T,EQ,JP3695100002
+Kanefusa Corporation,Industrials,5984.T,EQ,JP3216800007
+SHOWA SHINKU CO.  LTD.,Industrials,6384.T,EQ,JP3366950008
+SANKI SERVICE CORP.,Industrials,6044.T,EQ,JP3325700007
+Lion Office Products Corp.,Industrials,423A.T,EQ,JP3965440005
+AViC Co. Ltd.,Industrials,9554.T,EQ,JP3160990002
+Rise Consulting Group Inc.,Industrials,9168.T,EQ,JP3965420007
+Iceco Inc.,Industrials,7698.T,EQ,JP3102330002
+Orchestra Holdings Inc.,Industrials,6533.T,EQ,JP3549040008
+Tenox Corporation,Industrials,1905.T,EQ,JP3545800009
+UEX  Ltd.,Industrials,9888.T,EQ,JP3154850006
+Shinpo Co.  Ltd.,Industrials,5903.T,EQ,JP3383600008
+KNC Laboratories Co. Ltd.,Industrials,6568.T,EQ,JP3290400005
+Sanrin Co.  Ltd.,Industrials,7486.T,EQ,JP3343800003
+Kyowakogyosyo Co.  Ltd.,Industrials,5971.T,EQ,JP3254850005
+CrowdWorks  Inc.,Industrials,3900.T,EQ,JP3267900003
+S. ISHIMITSU&CO LTD,Industrials,2750.T,EQ,JP3136950007
+Nakayamafuku Co.  Ltd.,Industrials,7442.T,EQ,JP3646600001
+FreakOut Holdings  Inc.,Industrials,6094.T,EQ,JP3826550000
+Nippon Tungsten Co.  Ltd.,Industrials,6998.T,EQ,JP3727000006
+Chuo Malleable Iron Co.  Ltd.,Industrials,5607.T,EQ,JP3514200009
+Endo Manufacturing Co.  Ltd.,Industrials,7841.T,EQ,JP3169700006
+yutori Inc.,Industrials,5892.T,EQ,JP3949300002
+Interworks Confidence Inc.,Industrials,7374.T,EQ,JP3306470000
+KUWAZAWA Holdings Corp.,Industrials,8104.T,EQ,JP3273200000
+Zenken Corporation,Industrials,7371.T,EQ,JP3428970002
+UP GARAGE GROUP Co. Ltd.,Industrials,7134.T,EQ,JP3270880002
+NAGAOKA INTERNATIONAL CORP,Industrials,6239.T,EQ,JP3647100001
+Seiko Corporation,Industrials,6286.T,EQ,JP3414800007
+Wesco Holdings Inc.,Industrials,6091.T,EQ,JP3154650000
+Tanaka Seimitsu Kogyo Co.  Ltd.,Industrials,7218.T,EQ,JP3468790005
+Fujipream Corporation,Industrials,4237.T,EQ,JP3820720005
+TECNISCO LTD.,Industrials,2962.T,EQ,JP3545300000
+Seiwa Electric Mfg. Co.  Ltd.,Industrials,6748.T,EQ,JP3418400002
+Toda Kogyo Corp.,Industrials,4100.T,EQ,JP3627400009
+Sanso Electric Co.  Ltd.,Industrials,6518.T,EQ,JP3335300004
+Hamai Industries Ltd.,Industrials,6497.T,EQ,JP3770400004
+Tokyo Kisen Co.  Ltd.,Industrials,9193.T,EQ,JP3573800004
+Daiki Axis Co.  Ltd.,Industrials,4245.T,EQ,JP3480590003
+WATT MANN CO.  LTD.,Industrials,9927.T,EQ,JP3994000002
+Kyodo Public Relations Co.  Ltd.,Industrials,2436.T,EQ,JP3253500007
+SUS Co.  Ltd.,Industrials,6554.T,EQ,JP3163970001
+Ohmori Co.  Ltd.,Industrials,1844.T,EQ,JP3190600001
+Harima B.Stem Corporation,Industrials,9780.T,EQ,JP3773200005
+PROGRIT  Inc.,Industrials,9560.T,EQ,JP3833860004
+Interspace Co.  Ltd.,Industrials,2122.T,EQ,JP3152830000
+Oriental Chain Mfg. Co.  Ltd.,Industrials,6380.T,EQ,JP3198800009
+Fujisash Co.  Ltd.,Industrials,5940.T,EQ,JP3813500000
+Nihon Plast Co.  Ltd.,Industrials,7291.T,EQ,JP3749200006
+Shinyei Kaisha,Industrials,3004.T,EQ,JP3370400008
+Biken Techno Corporation,Industrials,9791.T,EQ,JP3800000006
+Tsukiji Uoichiba Company  Limited,Industrials,8039.T,EQ,JP3532600008
+COOKPAD Inc.,Industrials,2193.T,EQ,JP3266170004
+A-tie Co. Ltd.,Industrials,369A.T,EQ,JP3160530006
+Sanoyas Holdings Corporation,Industrials,7022.T,EQ,JP3322810007
+FUNLIFE HOLDINGS CO. LTD.,Industrials,1418.T,EQ,JP3152860007
+Kyoritsu Co.  Ltd.,Industrials,7795.T,EQ,JP3253610004
+Oomitsu Co.  Ltd.,Industrials,3160.T,EQ,JP3190430003
+A-One Seimitsu  Inc.,Industrials,6156.T,EQ,JP3160660001
+KITAKEI CO.  LTD.,Industrials,9872.T,EQ,JP3237400001
+Denkyo Group Holdings Co.  Ltd,Industrials,8144.T,EQ,JP3550400000
+Kuze Co.  Ltd.,Industrials,2708.T,EQ,JP3266120009
+Suzuyo Shinwart Corporation,Industrials,9360.T,EQ,JP3398800007
+S E Corporation,Industrials,3423.T,EQ,JP3161570001
+IMURA & Co. Ltd.,Industrials,3955.T,EQ,JP3149150009
+Nikki Co.  Ltd.,Industrials,6042.T,EQ,JP3696800006
+Original Engineering Consultants Co.  Ltd.,Industrials,4642.T,EQ,JP3200200008
+HYOJITO Co. Ltd.,Industrials,7368.T,EQ,JP3795060007
+Okayamaken Freight Transportation Co.  Ltd.,Industrials,9063.T,EQ,JP3193800004
+YAMASHITA HEALTH CARE HOLDINGS  INC.,Industrials,9265.T,EQ,JP3936200009
+J Frontier Co.  Ltd.,Industrials,2934.T,EQ,JP3386650000
+A&A Material Corporation,Industrials,5391.T,EQ,JP3119800005
+Paycloud Holdings Inc.,Industrials,4015.T,EQ,JP3125700009
+Material Group  Inc.,Industrials,156A.T,EQ,JP3869850002
+TVE Co.  Ltd.,Industrials,6466.T,EQ,JP3558810002
+Sanyei Corporation,Industrials,8119.T,EQ,JP3324800006
+Niigata Kotsu Co.  Ltd.,Industrials,9017.T,EQ,JP3654400005
+Muro Corporation,Industrials,7264.T,EQ,JP3914700004
+LTS  Inc.,Industrials,6560.T,EQ,JP3167710007
+Puequ CO. LTD.,Industrials,9264.T,EQ,JP3856100007
+MIKIKOGYO CO.  LTD.,Industrials,1718.T,EQ,JP3882700002
+K Pharma Inc.,Industrials,4896.T,EQ,JP3280900006
+Sonec Corporation,Industrials,1768.T,EQ,JP3435700004
+Star Flyer Inc.,Industrials,9206.T,EQ,JP3399320005
+Advantage Risk Management Co.  Ltd.,Industrials,8769.T,EQ,JP3122410008
+GMO TECH Holdings  Inc.,Industrials,415A.T,EQ,JP3386980001
+Yashima & Co. Ltd.,Industrials,7677.T,EQ,JP3931650000
+Tanaka Co.  Ltd.,Industrials,7619.T,EQ,JP3468820000
+SOLIZE Holdings Corporation,Industrials,5871.T,EQ,JP3436230001
+Naito & Co.  Ltd.,Industrials,7624.T,EQ,JP3641350008
+Akatsuki Eazima Co.  Ltd.,Industrials,1997.T,EQ,JP3131000006
+Kaneso Co.  Ltd.,Industrials,5979.T,EQ,JP3216700009
+SAAF Holdings Co.Ltd.,Industrials,1447.T,EQ,JP3104860006
+Frontier Management  Inc.,Industrials,7038.T,EQ,JP3829550007
+Tosnet Corporation,Industrials,4754.T,EQ,JP3626950004
+Takadakiko Co.  Ltd.,Industrials,5923.T,EQ,JP3457200008
+Lilycolor Co.  Ltd.,Industrials,9827.T,EQ,JP3976800007
+Cosmo Bio Co.  Ltd.,Industrials,3386.T,EQ,JP3298700000
+TMH  Inc.,Industrials,280A.T,EQ,JP3538740006
+Kuroda Precision Industries Ltd.,Industrials,7726.T,EQ,JP3272800008
+Kikukawa Enterprise Inc.,Industrials,6346.T,EQ,JP3236400002
+GMO Product Platform INC.,Industrials,3695.T,EQ,JP3386530004
+Oizumi Corporation,Industrials,6428.T,EQ,JP3170100006
+Otake Corporation,Industrials,7434.T,EQ,JP3172300000
+CELM  Inc.,Industrials,7367.T,EQ,JP3423590003
+Miyairi Valve Mfg.Co.  Ltd.,Industrials,6495.T,EQ,JP3907600005
+Kimura Co.  Ltd.,Industrials,7461.T,EQ,JP3241900004
+Honyaku Center Inc.,Industrials,2483.T,EQ,JP3854900002
+Kitazawa Sangyo Co.  Ltd.,Industrials,9930.T,EQ,JP3237600006
+Sagami Rubber Industries Co.  Ltd.,Industrials,5194.T,EQ,JP3316000003
+Origin Company Limited,Industrials,6513.T,EQ,JP3200400004
+OKUMURA ENGINEERING Corp.,Industrials,6229.T,EQ,JP3172170007
+Cominix Co. Ltd.,Industrials,3173.T,EQ,JP3181400007
+Tokai Kisen Co.  Ltd.,Industrials,9173.T,EQ,JP3562000004
+Kaneshita Construction Co.  Ltd.,Industrials,1897.T,EQ,JP3216600001
+Ray Corporation,Industrials,4317.T,EQ,JP3979230004
+Senkon Logistics Co.  Ltd,Industrials,9051.T,EQ,JP3424100000
+Hikari Business Form Co.  Ltd.,Industrials,3948.T,EQ,JP3783450004
+ETS Group Co.  Ltd.,Industrials,253A.T,EQ,JP3130710001
+Nakamura Choukou Co.  Ltd.,Industrials,6166.T,EQ,JP3645800008
+Soiken Holdings Inc.,Industrials,2385.T,EQ,JP3431850001
+BRIDGE International Group Corp.,Industrials,7039.T,EQ,JP3831050004
+Tohbu Network Co.  Ltd.,Industrials,9036.T,EQ,JP3598000002
+Billing System Corporation,Industrials,3623.T,EQ,JP3800490009
+Tomita Co.  Ltd.,Industrials,8147.T,EQ,JP3630600009
+Kaji Technology Corporation Ltd.,Industrials,6391.T,EQ,JP3212200004
+CRESTEC Inc.,Industrials,7812.T,EQ,JP3271150009
+Amita Holdings Co.  Ltd.,Industrials,2195.T,EQ,JP3124440003
+LOIVE Co.  Ltd.,Industrials,352A.T,EQ,JP3966410007
+HEPHAIST CO. LTD,Industrials,6433.T,EQ,JP3783050002
+Ogura Clutch Co.  Ltd.,Industrials,6408.T,EQ,JP3195200005
+General Packer Co.  Ltd.,Industrials,6267.T,EQ,JP3428700003
+Maruhachi Warehouse Company Limited,Industrials,9313.T,EQ,JP3876800008
+WDB coco Co.  Ltd.,Industrials,7079.T,EQ,JP3506010002
+Tokyo Automatic Machinery Works  Ltd.,Industrials,6360.T,EQ,JP3578200002
+Bleach  Inc.,Industrials,9162.T,EQ,JP3830770008
+GMO Media  Inc.,Industrials,6180.T,EQ,JP3386580009
+TriIs Inc.,Industrials,4840.T,EQ,JP3639450000
+Waida Mfg. Co.  Ltd.,Industrials,6158.T,EQ,JP3990790002
+Taiyo Kisokogyo Co.  Ltd.,Industrials,1758.T,EQ,JP3450200005
+Car Mate Mfg. Co Ltd,Industrials,7297.T,EQ,JP3205300001
+Power Solutions Ltd.,Industrials,4450.T,EQ,JP3782930006
+Fulltech Co. Ltd.,Industrials,6546.T,EQ,JP3828350003
+CERESPO CO.  LTD.,Industrials,9625.T,EQ,JP3423600000
+Gifu landscape architect Co. Ltd.,Industrials,1438.T,EQ,JP3264850003
+Taiheiyo Kouhatsu Incorporated,Industrials,8835.T,EQ,JP3448800007
+Kanemitsu Corporation,Industrials,7208.T,EQ,JP3217950009
+Tokai Electronics Co.  Ltd.,Industrials,8071.T,EQ,JP3565800004
+Sun Messe Co.  Ltd.,Industrials,7883.T,EQ,JP3337150001
+EnBio Holdings  Inc.,Industrials,6092.T,EQ,JP3169730003
+Rinko Corporation,Industrials,9355.T,EQ,JP3977100001
+geechs inc.,Industrials,7060.T,EQ,JP3263700001
+Sportsfield Co.  Ltd.,Industrials,7080.T,EQ,JP3400030007
+TSUDAKOMA Corp.,Industrials,6217.T,EQ,JP3533000000
+Kawata Mfg. Co.  Ltd.,Industrials,6292.T,EQ,JP3225900004
+Daiwa Motor Transportation Co.  Ltd.,Industrials,9082.T,EQ,JP3503000006
+Fuji Electric Industry. Co. Ltd,Industrials,6654.T,EQ,JP3820500001
+SYS Holdings Co. Ltd.,Industrials,3988.T,EQ,JP3164200002
+Japan Logistic Systems Corp.,Industrials,9060.T,EQ,JP3756050005
+Sakura Rubber Co.  Ltd.,Industrials,5189.T,EQ,JP3317600009
+Chubu Suisan Co.  Ltd.,Industrials,8145.T,EQ,JP3525800003
+Tsubota Laboratory Incorporated,Industrials,4890.T,EQ,JP3535700003
+Recomm Co.  Ltd.,Industrials,3323.T,EQ,JP3979500000
+Rikei Corporation,Industrials,8226.T,EQ,JP3970400002
+Takizawa Ham Co.  Ltd.,Industrials,2293.T,EQ,JP3462000005
+Mitsumura Printing Co.  Ltd.,Industrials,7916.T,EQ,JP3904800004
+Shinhokoku Material Corp.,Industrials,5542.T,EQ,JP3383400003
+Toyo Shutter Co.  Ltd.,Industrials,5936.T,EQ,JP3611400007
+Hip Corporation,Industrials,2136.T,EQ,JP3791970001
+ItoKuro  Inc.,Industrials,6049.T,EQ,JP3144600008
+cotta Co.  Ltd.,Industrials,3359.T,EQ,JP3442910000
+Justplanning  Inc.,Industrials,4287.T,EQ,JP3388470001
+ZETA INC.,Industrials,6031.T,EQ,JP3310450006
+UPCON CORPORATION,Industrials,5075.T,EQ,JP3121210003
+Sanritsu Corporation,Industrials,9366.T,EQ,JP3343400002
+SHINTO Holdings Inc.,Industrials,2776.T,EQ,JP3270600004
+ProjectHoldings.Inc.,Industrials,9246.T,EQ,JP3833840006
+J-MAX Co. Ltd.,Industrials,3422.T,EQ,JP3875400008
+NITCHO CORPORATION,Industrials,2961.T,EQ,JP3729300008
+C.E.Management Integrated Laboratory Co.  Ltd.,Industrials,6171.T,EQ,JP3639200009
+ZenmuTech Inc.,Industrials,338A.T,EQ,JP3430200000
+M-mart  Inc.,Industrials,4380.T,EQ,JP3167490006
+Diamond Electric Holdings Co.  Ltd.,Industrials,6699.T,EQ,JP3499480006
+TMS Co.  Ltd.,Industrials,4891.T,EQ,JP3544960002
+Inspec Inc.,Industrials,6656.T,EQ,JP3152650002
+Gendai Agency Inc.,Industrials,2411.T,EQ,JP3282850001
+toridori Inc.,Industrials,9337.T,EQ,JP3636800009
+Premier Anti-Aging Co.  Ltd.,Industrials,4934.T,EQ,JP3833690005
+Enjin Co. Ltd.,Industrials,7370.T,EQ,JP3168750002
+B&P Co.  Ltd.,Industrials,7804.T,EQ,JP3799630003
+NISSO GROUP Co.Ltd.,Industrials,3440.T,EQ,JP3679830004
+LEOCLAN Co. Ltd.,Industrials,7681.T,EQ,JP3979320003
+CyberBuzz  Inc.,Industrials,7069.T,EQ,JP3311580009
+Sanko Co.  Ltd.,Industrials,6964.T,EQ,JP3330400007
+Takamatsu Machinery Co.  Ltd.,Industrials,6155.T,EQ,JP3457850000
+BIKE-O & Co.  Ltd.,Industrials,3377.T,EQ,JP3101150005
+NIKKO Co.,Industrials,5343.T,EQ,JP3669000006
+Fuji Seiko Ltd.,Industrials,6142.T,EQ,JP3815200005
+Fushiki Kairiku Unso Co.  Ltd.,Industrials,9361.T,EQ,JP3807200005
+Apple International Co.  Ltd.,Industrials,2788.T,EQ,JP3121170009
+CONVUM Ltd.,Industrials,6265.T,EQ,JP3910200009
+W TOKYO Inc.,Industrials,9159.T,EQ,JP3506020001
+Meiji Machine Co.  Ltd.,Industrials,6334.T,EQ,JP3916600004
+Almedio Inc.,Industrials,7859.T,EQ,JP3126520000
+Unite & Grow Inc.,Industrials,4486.T,EQ,JP3949550002
+Molitec Steel Co.  Ltd.,Industrials,5986.T,EQ,JP3925800009
+NOMURA CORPORATION,Industrials,7131.T,EQ,JP3762450009
+Global Information  Inc.,Industrials,4171.T,EQ,JP3274340003
+Dive Inc.,Industrials,151A.T,EQ,JP3497600001
+IBOKIN Co.  Ltd.,Industrials,5699.T,EQ,JP3148970001
+Takamisawa Co.  Ltd.,Industrials,5283.T,EQ,JP3458200007
+Tea Life Co.  Ltd.,Industrials,3172.T,EQ,JP3539050009
+Daiken Co.  Ltd.,Industrials,5900.T,EQ,JP3482400003
+GMB Corporation,Industrials,7214.T,EQ,JP3385860006
+BALMUDA  Inc.,Industrials,6612.T,EQ,JP3778510002
+Sanko Sangyo Co.  Ltd.,Industrials,7922.T,EQ,JP3331000004
+Axis Consulting Corporation,Industrials,9344.T,EQ,JP3108230008
+Showa Manufacturing Co.  Ltd.,Industrials,5953.T,EQ,JP3367800004
+Takahashi Curtain Wall Corporation,Industrials,1994.T,EQ,JP3457800005
+JMACS Japan Co.  Ltd.,Industrials,5817.T,EQ,JP3736400007
+Daisui Co.  Ltd.,Industrials,7538.T,EQ,JP3485200004
+Linical Co.  Ltd.,Industrials,2183.T,EQ,JP3974530002
+Nissen  Inc.,Industrials,6543.T,EQ,JP3679810006
+TORQ  Inc.,Industrials,8077.T,EQ,JP3301000000
+miratap inc.,Industrials,3187.T,EQ,JP3343950006
+Booking Resort Co. Ltd.,Industrials,324A.T,EQ,JP3829960008
+Scinex Corporation,Industrials,2376.T,EQ,JP3311350007
+CSS Holdings  Ltd.,Industrials,2304.T,EQ,JP3425500000
+Tsunagu Group Holdings  Inc.,Industrials,6551.T,EQ,JP3534100007
+Trenders  Inc.,Industrials,6069.T,EQ,JP3637290002
+Tokyo Kikai Seisakusho  Ltd.,Industrials,6335.T,EQ,JP3573400003
+Takakita Co.  Ltd.,Industrials,6325.T,EQ,JP3453200002
+Heiwa Paper Co.  Ltd.,Industrials,9929.T,EQ,JP3834300000
+Meiwa Industry Co.  Ltd.,Industrials,7284.T,EQ,JP3920800004
+BCC Co. Ltd.,Industrials,7376.T,EQ,JP3799790005
+Aoba-BBT. Inc.,Industrials,2464.T,EQ,JP3800290003
+TAKAYOSHI Holdings INC.,Industrials,9259.T,EQ,JP3458600008
+GiG Works  Inc.,Industrials,2375.T,EQ,JP3410750008
+Ureru Net Advertising Group Co.Ltd.,Industrials,9235.T,EQ,JP3159880008
+Tensho Electric Industries Co.  Ltd.,Industrials,6776.T,EQ,JP3547600001
+KANTSU HD CO. LTD.,Industrials,9326.T,EQ,JP3230300000
+CUBE CO. LTD.,Industrials,7112.T,EQ,JP3244930008
+Kyoei Security Service Co.  Ltd.,Industrials,7058.T,EQ,JP3247500006
+NFK Holdings Co. Ltd,Industrials,6494.T,EQ,JP3748200007
+Unozawa-Gumi Iron Works  Limited,Industrials,6396.T,EQ,JP3158000004
+OSG Corporation Co.  Ltd.,Industrials,6757.T,EQ,JP3171000007
+TSUKURUBA  Inc.,Industrials,2978.T,EQ,JP3532950007
+Tohoku Chemical Co.  Ltd.,Industrials,7446.T,EQ,JP3603600002
+Riskmonster.Com,Industrials,3768.T,EQ,JP3974180006
+Tamai Steamship Co.  Ltd.,Industrials,9127.T,EQ,JP3470600002
+Tokuden Co.  Ltd.,Industrials,3437.T,EQ,JP3624800003
+Masaru Corporation,Industrials,1795.T,EQ,JP3863100008
+Kyowa Engineering Consultants Co.  Ltd.,Industrials,9647.T,EQ,JP3254900008
+Nippon Chuzo K.K.,Industrials,5609.T,EQ,JP3728200001
+NEO MARKETING Inc.,Industrials,4196.T,EQ,JP3758260008
+ktk Inc.,Industrials,3035.T,EQ,JP3278700004
+Fine Sinter Co.  Ltd.,Industrials,5994.T,EQ,JP3577400009
+YAMADA SERVICER SYNTHETIC OFFICE,Industrials,4351.T,EQ,JP3938900002
+FALTEC Co.  Ltd.,Industrials,7215.T,EQ,JP3802660005
+PRAP Japan  Inc.,Industrials,2449.T,EQ,JP3833050002
+Hyoki Kaiun Kaisha Ltd.,Industrials,9362.T,EQ,JP3794600001
+Prored Partners Co.  Ltd.,Industrials,7034.T,EQ,JP3833830007
+Qualtec Co. Ltd.,Industrials,9165.T,EQ,JP3266010002
+Tein  Inc.,Industrials,7217.T,EQ,JP3544980000
+NKK SWITCHES CO.  LTD.,Industrials,6943.T,EQ,JP3691400000
+Sakurajima Futo Kaisha  Ltd.,Industrials,9353.T,EQ,JP3318000001
+Mirairo Inc.,Industrials,335A.T,EQ,JP3910640006
+Ecology and Combustion Inc.,Industrials,6225.T,EQ,JP3161340009
+Nansin Co.  Ltd.,Industrials,7399.T,EQ,JP3653300008
+Takase Corporation,Industrials,9087.T,EQ,JP3456600000
+Yokohama Gyorui Co.  Ltd.,Industrials,7443.T,EQ,JP3955300003
+Peers Co. Ltd.,Industrials,7066.T,EQ,JP3801660006
+Create Corporation,Industrials,3024.T,EQ,JP3269910000
+Kyoritsu Air Tech Inc.,Industrials,5997.T,EQ,JP3253800001
+Human Creation Holdings  Inc.,Industrials,7361.T,EQ,JP3794470009
+Ota Floriculture Auction Co.  Ltd.,Industrials,7555.T,EQ,JP3187650001
+MT Genex Corporation,Industrials,9820.T,EQ,JP3297300000
+Otani Kogyo Co.  Ltd.,Industrials,5939.T,EQ,JP3187800002
+Medix Inc.,Industrials,331A.T,EQ,JP3921370007
+TRUST Holdings Inc.,Industrials,3286.T,EQ,JP3635590007
+Palma Co. Ltd.,Industrials,3461.T,EQ,JP3782700003
+Kawasaki Geological Engineering Co.  Ltd.,Industrials,4673.T,EQ,JP3224900005
+NIC Autotec  Inc.,Industrials,5742.T,EQ,JP3164760005
+Eiken Industries Co.  Ltd,Industrials,7265.T,EQ,JP3160690008
+Nitchitsu Co.  Ltd.,Industrials,7021.T,EQ,JP3680400003
+Taihei Machinery Works  Ltd.,Industrials,6342.T,EQ,JP3446400008
+YKT Corporation,Industrials,2693.T,EQ,JP3990750006
+Enshu Limited,Industrials,6218.T,EQ,JP3168400004
+Giken Holdings Co.  Ltd.,Industrials,1443.T,EQ,JP3264300009
+IMAGE MAGIC Inc.,Industrials,7793.T,EQ,JP3149350005
+Vitabrid Japan Inc.,Industrials,542A.T,EQ,JP3800210001
+SONOCOM Co.  Ltd.,Industrials,7902.T,EQ,JP3435900000
+LIHIT LAB.  INC.,Industrials,7975.T,EQ,JP3974600003
+Daisan Co.  Ltd.,Industrials,4750.T,EQ,JP3483200006
+MRT Inc.,Industrials,6034.T,EQ,JP3167260003
+G-FACTORY Co.  Ltd.,Industrials,3474.T,EQ,JP3386610004
+Reskill Corp.,Industrials,291A.T,EQ,JP3974170007
+INCLUSIVE Holdings Inc.,Industrials,7078.T,EQ,JP3152620005
+Onex Corporation,Industrials,5987.T,EQ,JP3173000005
+Kyogoku Unyu Shoji Co.  Ltd.,Industrials,9073.T,EQ,JP3248400008
+KARADANOTE INC.,Industrials,4014.T,EQ,JP3220270007
+INEST Inc.,Industrials,7111.T,EQ,JP3104810001
+Chuco Co.  Ltd.,Industrials,2139.T,EQ,JP3520800008
+Akasaka Diesels Ltd.,Industrials,6022.T,EQ,JP3106800000
+Subaru Co.  Ltd.,Industrials,9778.T,EQ,JP3399750003
+Cados Corporation,Industrials,211A.T,EQ,JP3214370003
+Yokota Manufacturing Co.  Ltd.,Industrials,6248.T,EQ,JP3955250000
+Sansei Co.  Ltd.,Industrials,6307.T,EQ,JP3334500000
+Aubex Corporation,Industrials,3583.T,EQ,JP3173600002
+Basis Corporation,Industrials,4068.T,EQ,JP3835270004
+Dijet Industrial Co.  Ltd.,Industrials,6138.T,EQ,JP3485000008
+SocialWire Co.  Ltd.,Industrials,3929.T,EQ,JP3431100001
+Arbeit-Times Co.  Ltd.,Industrials,2341.T,EQ,JP3126180003
+Taiho Transportation Co.  Ltd.,Industrials,9040.T,EQ,JP3449060007
+HKS Co.  Ltd.,Industrials,7219.T,EQ,JP3164450003
+Sasatoku Printing Co. Ltd.,Industrials,3958.T,EQ,JP3319050005
+Mitsuchi Corporation,Industrials,3439.T,EQ,JP3895100000
+Daiun Co.  Ltd.,Industrials,9363.T,EQ,JP3479800009
+Chichibu Railway Co.  Ltd.,Industrials,9012.T,EQ,JP3509800003
+NIHON ISK Co.  Ltd.,Industrials,7986.T,EQ,JP3261600005
+Saftec Co.  Ltd.,Industrials,7464.T,EQ,JP3422900005
+e-LogiT Co.  Ltd.,Industrials,9327.T,EQ,JP3130850005
+Tsuruya Co.  Ltd.,Industrials,5386.T,EQ,JP3536800000
+KYODO PAPER HOLDINGS,Industrials,9849.T,EQ,JP3226400004
+COACH A Co.  Ltd.,Industrials,9339.T,EQ,JP3283720005
+Nichidai Corporation,Industrials,6467.T,EQ,JP3661940001
+ASUA  Inc.,Industrials,246A.T,EQ,JP3119640005
+Aidma Marketing Communication Corp.,Industrials,9466.T,EQ,JP3105110005
+Birdman Inc.,Industrials,7063.T,EQ,JP3160590000
+VLC SECURITY CO. LTD.,Industrials,2467.T,EQ,JP3778370001
+Integroup  Inc.,Industrials,192A.T,EQ,JP3152920009
+Orvis Corporation,Industrials,7827.T,EQ,JP3173300009
+Intertrade Co.  Ltd.,Industrials,3747.T,EQ,JP3152810002
+Almetax Manufacturing Co.  Ltd.,Industrials,5928.T,EQ,JP3126500002
+TOKYO KOKI Co. Ltd.,Industrials,7719.T,EQ,JP3575800002
+Shanon  Inc.,Industrials,3976.T,EQ,JP3359750001
+Altech Co.  Ltd.,Industrials,9972.T,EQ,JP3126150006
+Mitsuboshi Co.  Ltd.,Industrials,5820.T,EQ,JP3903800005
+HIRAGA CO.  LTD.,Industrials,7863.T,EQ,JP3795100001
+SANTO CORPORATION,Industrials,1788.T,EQ,JP3336500008
+AVIX  Inc.,Industrials,7836.T,EQ,JP3122530003
+Muraki Corporation,Industrials,7477.T,EQ,JP3914300003
+Stream Co.  Ltd.,Industrials,3071.T,EQ,JP3399760002
+Saita Corporation,Industrials,1999.T,EQ,JP3310600006
+Sakae Electronics Corporation,Industrials,7567.T,EQ,JP3314300009
+Elevator Communications Co.  Ltd,Industrials,353A.T,EQ,JP3168220006
+Eidai Kako Co.  Ltd.,Industrials,7877.T,EQ,JP3160760009
+Allied Architects  Inc.,Industrials,6081.T,EQ,JP3124850003
+ASMARQ Co. Ltd.,Industrials,4197.T,EQ,JP3119870008
+Cross E Holdings Corporation Limited,Industrials,231A.T,EQ,JP3272450002
+Mirai Works  Inc.,Industrials,6563.T,EQ,JP3910630007
+Kyokuto Co.  Ltd.,Industrials,2300.T,EQ,JP3256850003
+Sougou Shouken Co.  Ltd.,Industrials,7850.T,EQ,JP3432000002
+Fundely Co.Ltd.,Industrials,3137.T,EQ,JP3802970008
+JAPAN SYSTEMBANK CORPORATION,Industrials,5530.T,EQ,JP3712750003
+Laxus Technologies Inc.,Industrials,288A.T,EQ,JP3967160007
+Takeda Machinery Co.  Ltd.,Industrials,6150.T,EQ,JP3462800008
+Fuji Latex Co.  Ltd.,Industrials,5199.T,EQ,JP3821600008
+Forval RealStraight Inc.,Industrials,9423.T,EQ,JP3826700001
+WASHHOUSE Co.  Ltd.,Industrials,6537.T,EQ,JP3155550001
+Nyle Inc.,Industrials,5618.T,EQ,JP3641360007
+T. Kawabe & Co.  Ltd.,Industrials,8123.T,EQ,JP3227000001
+eMnet Japan Co.  Ltd.,Industrials,7036.T,EQ,JP3130210002
+Taiyo Bussan Kaisha  Ltd.,Industrials,9941.T,EQ,JP3451800001
+Placo Co.  Ltd.,Industrials,6347.T,EQ,JP3832400000
+Delivery Consulting  Inc.,Industrials,9240.T,EQ,JP3549360000
+ASULINA Co.  Ltd.,Industrials,3647.T,EQ,JP3300950007
+SDS HOLDINGS Co.Ltd.,Industrials,1711.T,EQ,JP3363000005
+ZUU Co.  Ltd.,Industrials,4387.T,EQ,JP3411810009
+Japan Reliance Service Corporation,Industrials,4664.T,EQ,JP3100300007
+Caster Co. Ltd.,Industrials,9331.T,EQ,JP3242650004
+NITTOH CORPORATION,Industrials,1738.T,EQ,JP3681170001
+Media Research Institute  Inc.,Industrials,9242.T,EQ,JP3921330001
+ArtGreen Co. Ltd.,Industrials,3419.T,EQ,JP3100270002
+JMC Corporation,Industrials,5704.T,EQ,JP3386620003
+HYPER Inc.,Industrials,3054.T,EQ,JP3765220003
+Alue Co.  Ltd.,Industrials,7043.T,EQ,JP3126050008
+CONSEC CORPORATION,Industrials,9895.T,EQ,JP3306000005
+Fukushima Printing Co.  Ltd.,Industrials,7870.T,EQ,JP3805050006
+Tradia Corporation,Industrials,9365.T,EQ,JP3637200001
+CINC Corp.,Industrials,4378.T,EQ,JP3372170005
+Business Coach Inc.,Industrials,9562.T,EQ,JP3800230009
+Amatei Incorporated,Industrials,5952.T,EQ,JP3124000005
+Osaka Yuka Industry Ltd.,Industrials,4124.T,EQ,JP3187100007
+Kensoh Co.  Ltd.,Industrials,7939.T,EQ,JP3282000003
+KLASS Corporation,Industrials,6233.T,EQ,JP3256960000
+CAREER CO.  LTD.,Industrials,6198.T,EQ,JP3244430009
+Environmental Control Center Co.  Ltd.,Industrials,4657.T,EQ,JP3227300005
+ALiNK Internet  Inc.,Industrials,7077.T,EQ,JP3126030000
+JINJIB Co. Ltd.,Industrials,142A.T,EQ,JP3394950004
+Fuji Seiki Co.  Ltd.,Industrials,6400.T,EQ,JP3815100007
+Medical Net Inc.,Industrials,3645.T,EQ,JP3752400006
+Shingakukai Holdings Co.  Ltd.,Industrials,9760.T,EQ,JP3371900006
+SuRaLa Net Co.  Ltd.,Industrials,3998.T,EQ,JP3410450005
+Bridge Consulting Group  Inc.,Industrials,9225.T,EQ,JP3831060003
+Toho Lamac Co.  Ltd.,Industrials,7422.T,EQ,JP3603200001
+Kyoritsu Computer & Communication Co.  Ltd.,Industrials,3670.T,EQ,JP3253820009
+Linkbal  Inc.,Industrials,6046.T,EQ,JP3977040009
+EduLab  Inc.,Industrials,4427.T,EQ,JP3164480000
+Japan Power Fastening Co.  Ltd.,Industrials,5950.T,EQ,JP3745200000
+Slogan  Inc.,Industrials,9253.T,EQ,JP3411600004
+Meiho Holdings Inc.,Industrials,7369.T,EQ,JP3920280009
+ACCESS GROUP HOLDINGS CO.  LTD.,Industrials,7042.T,EQ,JP3108190004
+JAIC Co.  Ltd.,Industrials,7073.T,EQ,JP3386680007
+Techno Alpha Co.  Ltd.,Industrials,3089.T,EQ,JP3545210001
+PA Co.  Ltd.,Industrials,4766.T,EQ,JP3801200001
+Asahi Kagaku Kogyo Co.  Ltd.,Industrials,7928.T,EQ,JP3111000000
+MS&Consulting Co. Ltd.,Industrials,6555.T,EQ,JP3167340003
+JSH Co. Ltd.,Industrials,150A.T,EQ,JP3386920007
+Mie Corp. Co.  Ltd.,Industrials,3442.T,EQ,JP3167270002
+Decollte Holdings Corporation,Industrials,7372.T,EQ,JP3548830003
+Cluster Technology Co.  Ltd.,Industrials,4240.T,EQ,JP3268810003
+Cookbiz Co.  Ltd.,Industrials,6558.T,EQ,JP3266210008
+Cacco  Inc.,Industrials,4166.T,EQ,JP3212250009
+JTEC Corporation,Industrials,2479.T,EQ,JP3386260008
+Kitac Corporation,Industrials,4707.T,EQ,JP3238100006
+Lovable Marketing Group  Inc.,Industrials,9254.T,EQ,JP3968070007
+ASAHI EITO HOLDINGS CO. LTD.,Industrials,5341.T,EQ,JP3110800004
+STORAGE-OH Co. Ltd.,Industrials,2997.T,EQ,JP3399790009
+Linkers Corporation,Industrials,5131.T,EQ,JP3976900005
+Career Bank Co.  Ltd.,Industrials,4834.T,EQ,JP3244500009
+itamiarts inc.,Industrials,168A.T,EQ,JP3140900006
+Kurogane Kosakusho Ltd.,Industrials,7997.T,EQ,JP3272000005
+Uematsu Shokai Co.  Ltd.,Industrials,9914.T,EQ,JP3155300001
+CaSy Co. Ltd.,Industrials,9215.T,EQ,JP3208800007
+Toshin Holdings Co.  Ltd.,Industrials,9444.T,EQ,JP3552420006
+Inbound Tech  Inc.,Industrials,7031.T,EQ,JP3153190008
+ECOMIC CO.  LTD.,Industrials,3802.T,EQ,JP3161220003
+Koyosha Inc.,Industrials,7946.T,EQ,JP3292000001
+Branding Technology  Inc.,Industrials,7067.T,EQ,JP3830750000
+PhoenixBio Co.  Ltd.,Industrials,6190.T,EQ,JP3803010002
+Lead Co.  Inc.,Industrials,6982.T,EQ,JP3969400005
+b-style Holdings  Inc.,Industrials,302A.T,EQ,JP3799830009
+Nichiryoku Co.  Ltd.,Industrials,7578.T,EQ,JP3664900002
+CRG HOLDINGS CO. LTD.,Industrials,7041.T,EQ,JP3346110004
+T.O.Holdings CO. LTD.,Industrials,9812.T,EQ,JP3538300009
+Seyfert Ltd.,Industrials,9213.T,EQ,JP3415700008
+visumo Inc.,Industrials,303A.T,EQ,JP3800260006
+logly  Inc.,Industrials,6579.T,EQ,JP3984110001
+BARCOS Co.  Ltd.,Industrials,7790.T,EQ,JP3778310007
+Axel Mark Inc.,Industrials,3624.T,EQ,JP3108130000
+Alpha Co.  Ltd.,Industrials,4760.T,EQ,JP3126320005
+AUN Consulting  Inc.,Industrials,2459.T,EQ,JP3105310001
+REPRIORITY CORPORATION,Industrials,242A.T,EQ,JP3974690004
+AGEHA Inc.,Industrials,9330.T,EQ,JP3108300009
+SiriusVision Co.  Ltd.,Industrials,6276.T,EQ,JP3651100004
+Wellco Holdings Corp.,Industrials,7831.T,EQ,JP3154170009
+CRAVIA Inc.,Industrials,6573.T,EQ,JP3119610008
+Saylor Advertising Inc.,Industrials,2156.T,EQ,JP3413200001
+Global Communication Planning Co.Ltd.,Industrials,4073.T,EQ,JP3386780005
+Copa Corporation Inc.,Industrials,7689.T,EQ,JP3301380006
+Wilson Learning Worldwide Inc.,Industrials,9610.T,EQ,JP3154200004
+Future Link Network Co. Ltd.,Industrials,9241.T,EQ,JP3826240008
+ReYuu Japan Inc.,Industrials,9425.T,EQ,JP3732400001
+Chuo Seisakusho  Ltd.,Industrials,6846.T,EQ,JP3516200007
+Value Creation Co.  Ltd,Industrials,9238.T,EQ,JP3778520001
+Matsumoto Inc.,Industrials,7901.T,EQ,JP3868900006
+Nakanippon Casting Co.  Ltd.,Industrials,6439.T,EQ,JP3643200003
+YUMEMITSUKETAI Co.  Ltd.,Industrials,2673.T,EQ,JP3952900003
+Frontier  Inc.,Industrials,4250.T,EQ,JP3829500002
+NEPON Inc.,Industrials,7985.T,EQ,JP3758400000
+Yamazaki Co.  Ltd.,Industrials,6147.T,EQ,JP3935400006
+Yamadai Corporation,Industrials,7426.T,EQ,JP3938200007
+Life Intelligent Enterprise Holdings Co.  Ltd.,Industrials,5856.T,EQ,JP3620800007
+Fusion Co. Ltd.,Industrials,3977.T,EQ,JP3826100004
+INSIGHT INC.,Industrials,2172.T,EQ,JP3152630004
+Movin' Strategic Career CO. LTD.,Industrials,421A.T,EQ,JP3912300005
+LiB Consulting Co. Ltd.,Industrials,480A.T,EQ,JP3974670006
+GMS Group Co.  Ltd.,Industrials,544A.T,EQ,JP3387040003
+Geekly Inc.,Industrials,505A.T,EQ,JP3263750006
+PowerX  Inc.,Industrials,485A.T,EQ,JP3782910008
+Batonz.Co. Ltd.,Industrials,554A.T,EQ,JP3778290001
+Tsuji Hongo IT Consulting Co. Ltd.,Industrials,476A.T,EQ,JP3532970005
+Fuji United Holdings Co. Ltd.,Industrials,416A.T,EQ,JP3821300005
+MIRAINI HOLDINGS CO. LTD,Industrials,546A.T,EQ,JP3910590003
+SEIWA HOLDINGS Co. Ltd.,Industrials,523A.T,EQ,JP3418500009

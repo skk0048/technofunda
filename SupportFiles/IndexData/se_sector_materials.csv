@@ -1,68 +1,54 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-Norsk Hydro ASA,Materials,NHYO.ST,EQ,
-Lundin Mining Corporation,Materials,LUMI.ST,EQ,
-Boliden AB,Materials,BOL.ST,EQ,
-Lundin Gold Inc.,Materials,LUG.ST,EQ,
-Yara International ASA,Materials,YARO.ST,EQ,
-SalMar ASA,Materials,SALMO.ST,EQ,
-Svenska Cellulosa AB SCA Class A,Materials,SCA-A.ST,EQ,
-Svenska Cellulosa AB SCA Class B,Materials,SCA-B.ST,EQ,
-Holmen AB Class A,Materials,HOLM-A.ST,EQ,
-Holmen AB Class B,Materials,HOLM-B.ST,EQ,
-Hexpol AB Class B,Materials,HPOL-B.ST,EQ,
-Alleima AB,Materials,ALLEI.ST,EQ,
-Granges AB,Materials,GRNG.ST,EQ,
-Billerud AB,Materials,BILL.ST,EQ,
-Borregaard ASA,Materials,BRGO.ST,EQ,
-Elkem ASA,Materials,ELKO.ST,EQ,
-Hanza AB,Materials,HANZA.ST,EQ,
-Elopak ASA,Materials,ELOO.ST,EQ,
-Aker BioMarine ASA,Materials,AKBMO.ST,EQ,
-Inwido AB,Materials,INWI.ST,EQ,
-Bewi ASA,Materials,BEWIO.ST,EQ,
-Goldsky Resources Corp Shs Swedish Depository Receipt Repr 1 Sh,Materials,GSKR-SDB.ST,EQ,
-Gruvaktiebolaget Viscaria,Materials,VISC.ST,EQ,
-Norske Skog ASA,Materials,NSKOGO.ST,EQ,
-Grieg Seafood ASA,Materials,GSFO.ST,EQ,
-Hexagon Composites ASA,Materials,HEXO.ST,EQ,
-Sotkamo Silver AB,Materials,SOSI.ST,EQ,
-Lucara Diamond Corp.,Materials,LUC.ST,EQ,
-Nordic Mining ASA,Materials,NOMO.ST,EQ,
-Arctic Paper S.A.,Materials,ARP.ST,EQ,
-Tekna Holding ASA,Materials,TEKNAO.ST,EQ,
-District Metals Corporation Shs Swedish Depository Receipt Repr 1 Sh,Materials,DMXSE-SDB.ST,EQ,
-Embellence Group AB,Materials,EMBELL.ST,EQ,
-I-Tech AB,Materials,ITECH.ST,EQ,
-ProfilGruppen AB Class B,Materials,PROF-B.ST,EQ,
-Duroc AB Class B,Materials,DURC-B.ST,EQ,
-Grangex AB,Materials,GRANGX.ST,EQ,
-Rottneros AB,Materials,RROS.ST,EQ,
-Skane-moellan AB,Materials,SKMO.ST,EQ,
-Botnia Gold AB,Materials,BOTX.ST,EQ,
-Agtira AB Class B,Materials,AGTIRA-B.ST,EQ,
-Nexam Chemical Holding AB,Materials,NEXAM.ST,EQ,
-Bluelake Mineral AB,Materials,BLUE.ST,EQ,
-Arctic Minerals AB,Materials,ARCT.ST,EQ,
-Scandinavian Enviro Systems AB,Materials,SES.ST,EQ,
-Latvian Forest Co. AB Class B,Materials,LATF.B.ST,EQ,
-Nordic Iron Ore AB,Materials,NIO.ST,EQ,
-Eurobattery Minerals AB,Materials,BAT.ST,EQ,
-Polygiene Group AB,Materials,POLYG.ST,EQ,
-Drillcon AB,Materials,DRIL.ST,EQ,
-Greater Than AB,Materials,GREAT.ST,EQ,
-Bong AB,Materials,BONG.ST,EQ,
-aXichem AB Class A,Materials,AXIC-A.ST,EQ,
-BEOWULF MINING PLC SHS SWEDISH DEPOSITORY RECEIPT,Materials,BEO.SDB.ST,EQ,
-Tribox Group AB Class B,Materials,TRIBO-B.ST,EQ,
-Mahvie Minerals AB,Materials,MAHVIE.ST,EQ,
-LOVISAGRUVAN AB,Materials,LOVI.ST,EQ,
-CirChem AB,Materials,CIRCHE.ST,EQ,
-OrganoClick AB,Materials,ORGC.ST,EQ,
-PHOTOCAT A/S,Materials,PCAT.ST,EQ,
-Polymer Factory Sweden AB,Materials,POLYMER.ST,EQ,
-NIDHOGG RESOURCES HOLDING AB,Materials,NIDHOG.ST,EQ,
-Africa Resources AB,Materials,AFRI.ST,EQ,
-CYCLEZYME AB,Materials,CYCLE.ST,EQ,
-XOMA AB CLASS B,Materials,XOM.B.ST,EQ,
-LAPPLAND GULDPROSPEKTERING AB CLASS B,Materials,LGOLD.B.ST,EQ,
-Crustal Resources AB Class B,Materials,CRUST.B.ST,EQ,
+Boliden,Materials,BOL.ST,EQ,SE0020050417
+Svenska Cellulosa AB SCA Class B,Materials,SCA_B.ST,EQ,SE0000112724
+Svenska Cellulosa AB SCA Class A,Materials,SCA_A.ST,EQ,SE0000171886
+Holmen AB Class A,Materials,HOLM_A.ST,EQ,SE0011090000
+Holmen AB Class B,Materials,HOLM_B.ST,EQ,SE0011090018
+Alleima AB,Materials,ALLEI.ST,EQ,SE0017615644
+Hexpol AB Class B,Materials,HPOL_B.ST,EQ,SE0007074281
+Granges AB,Materials,GRNG.ST,EQ,SE0006288015
+Billerud AB,Materials,BILL.ST,EQ,SE0000862997
+Hanza AB,Materials,HANZA.ST,EQ,SE0005878543
+Inwido AB,Materials,INWI.ST,EQ,SE0006220018
+Goldsky Resources Corp Shs Swedish Depository Receipt Repr 1 Sh,Materials,GSKR_SDB.ST,EQ,SE0027099318
+Gruvaktiebolaget Viscaria,Materials,VISC.ST,EQ,SE0021148160
+Sotkamo Silver AB,Materials,SOSI.ST,EQ,SE0001057910
+District Metals Corporation Shs Swedish Depository Receipt Repr 1 Sh,Materials,DMXSE_SDB.ST,EQ,SE0023112941
+I-Tech AB,Materials,ITECH.ST,EQ,SE0011167725
+Embellence Group AB,Materials,EMBELL.ST,EQ,SE0013888831
+Duroc AB Class B,Materials,DURC_B.ST,EQ,SE0000331266
+Grangex AB,Materials,GRANGX.ST,EQ,SE0018014243
+ProfilGruppen AB Class B,Materials,PROF_B.ST,EQ,SE0000393860
+Skane-moellan AB,Materials,SKMO.ST,EQ,SE0017885338
+Rottneros AB,Materials,RROS.ST,EQ,SE0000112252
+Botnia Gold AB,Materials,BOTX.ST,EQ,SE0010494708
+Nexam Chemical Holding AB,Materials,NEXAM.ST,EQ,SE0005101003
+Bluelake Mineral AB,Materials,BLUE.ST,EQ,SE0015382148
+Agtira AB Class B,Materials,AGTIRA_B.ST,EQ,SE0008588354
+Scandinavian Enviro Systems AB,Materials,SES.ST,EQ,SE0005877560
+Latvian Forest Co. AB Class B,Materials,LATF.B.ST,EQ,SE0003883008
+Nordic Iron Ore AB,Materials,NIO.ST,EQ,SE0011528017
+Arctic Minerals AB,Materials,ARCT.ST,EQ,SE0024172779
+Eurobattery Minerals AB,Materials,BAT.ST,EQ,SE0012481570
+Polygiene Group AB,Materials,POLYG.ST,EQ,SE0007692157
+Drillcon AB,Materials,DRIL.ST,EQ,SE0001770702
+Greater Than AB,Materials,GREAT.ST,EQ,SE0005881554
+Bong AB,Materials,BONG.ST,EQ,SE0000396061
+aXichem AB Class A,Materials,AXIC_A.ST,EQ,SE0005250719
+BEOWULF MINING PLC SHS SWEDISH DEPOSITORY RECEIPT,Materials,BEO.SDB.ST,EQ,SE0022240073
+Tribox Group AB Class B,Materials,TRIBO_B.ST,EQ,SE0010600429
+Mahvie Minerals AB,Materials,MAHVIE.ST,EQ,SE0018768210
+CirChem AB,Materials,CIRCHE.ST,EQ,SE0015193529
+LOVISAGRUVAN AB,Materials,LOVI.ST,EQ,SE0000418873
+OrganoClick AB,Materials,ORGC.ST,EQ,SE0006510335
+Polymer Factory Sweden AB,Materials,POLYMER.ST,EQ,SE0015244470
+NIDHOGG RESOURCES HOLDING AB,Materials,NIDHOG.ST,EQ,SE0023468624
+Africa Resources AB,Materials,AFRI.ST,EQ,SE0009496482
+XOMA AB CLASS B,Materials,XOM.B.ST,EQ,SE0019174194
+LAPPLAND GULDPROSPEKTERING AB CLASS B,Materials,LGOLD.B.ST,EQ,SE0022447207
+Crustal Resources AB Class B,Materials,CRUST.B.ST,EQ,SE0020355188
+CYCLEZYME AB,Materials,CYCLE.ST,EQ,SE0020975852
+SSAB,Materials,SSAB-A.ST,EQ,
+Hexpol,Materials,HPOL-B.ST,EQ,
+Trelleborg,Materials,TREL-B.ST,EQ,
+BillerudKorsnäs,Materials,BILD.ST,EQ,

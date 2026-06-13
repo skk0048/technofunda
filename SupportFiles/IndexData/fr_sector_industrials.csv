@@ -1,153 +1,105 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-Schneider Electric SE,Industrials,SU.PA,EQ,
-VINCI SA,Industrials,DG.PA,EQ,
-Compagnie de Saint-Gobain SA,Industrials,SGO.PA,EQ,
-Publicis Groupe SA,Industrials,PUB.PA,EQ,
-Bouygues SA,Industrials,EN.PA,EQ,
-Bollore SE,Industrials,BOL.PA,EQ,
-Eiffage SA,Industrials,FGRMC.PA,EQ,
-Eiffage SA,Industrials,FGR.PA,EQ,
-Eurofins Scientific SE,Industrials,ERF.PA,EQ,
-Bureau Veritas SA,Industrials,BVI.PA,EQ,
-Rexel SA,Industrials,RXL.PA,EQ,
-Aeroports de Paris,Industrials,ADP.PA,EQ,
-Getlink SE,Industrials,GET.PA,EQ,
-SPIE SA,Industrials,SPIE.PA,EQ,
-Alstom SA,Industrials,ALO.PA,EQ,
-Gaztransport & Technigaz SA,Industrials,GTT.PA,EQ,
-Nexans SA,Industrials,NEX.PA,EQ,
-Compagnie du Cambodge SA,Industrials,CBDG.PA,EQ,
-Technip Energies NV,Industrials,TE.PA,EQ,
-Compagnie de l'Odet SE,Industrials,ODET.PA,EQ,
-Elis SA,Industrials,ELIS.PA,EQ,
-Edenred SA,Industrials,EDEN.PA,EQ,
-JCDecaux SE,Industrials,DEC.PA,EQ,
-Valeo SE,Industrials,FR.PA,EQ,
-Rubis SCA,Industrials,RUI.PA,EQ,
-Teleperformance SE,Industrials,TEP.PA,EQ,
-Air France-KLM SA,Industrials,AF.PA,EQ,
-ID Logistics Group,Industrials,IDL.PA,EQ,
-PLUXEE N.V.,Industrials,PLX.PA,EQ,
-Alten SA,Industrials,ATE.PA,EQ,
-Societe BIC SA,Industrials,BB.PA,EQ,
-OPmobility,Industrials,OPM.PA,EQ,
-Forvia SE,Industrials,FRVIA.PA,EQ,
-Louis Hachette Group SA,Industrials,ALHG.PA,EQ,
-Ipsos SA,Industrials,IPS.PA,EQ,
-Derichebourg SA,Industrials,DBG.PA,EQ,
-STEF,Industrials,STF.PA,EQ,
-Wavestone SA,Industrials,WAVE.PA,EQ,
-Mersen SA,Industrials,MRN.PA,EQ,
-GL events SA,Industrials,GLO.PA,EQ,
-Neurones SA,Industrials,NRO.PA,EQ,
-Manitou BF SA,Industrials,MTU.PA,EQ,
-Viridien,Industrials,VIRI.PA,EQ,
-Burelle S.A.,Industrials,BUR.PA,EQ,
-Aubay SA,Industrials,AUB.PA,EQ,
-Synergie SA,Industrials,SDG.PA,EQ,
-Worldline SA,Industrials,WLN.PA,EQ,
-Assystem SA,Industrials,ASY.PA,EQ,
-Seche Environnement SA,Industrials,SCHP.PA,EQ,
-Thermador Groupe,Industrials,THEP.PA,EQ,
-Groupe Crit SA,Industrials,CEN.PA,EQ,
-Jacquet Metals SA,Industrials,JCQ.PA,EQ,
-Groupe Samse,Industrials,SAMS.PA,EQ,
-Bourrelier Group SA,Industrials,ALBOU.PA,EQ,
-STIF,Industrials,ALSTI.PA,EQ,
-FSDV,Industrials,FSDV.PA,EQ,
-Groupe Pizzorno Environnement SA,Industrials,GPE.PA,EQ,
-Groupe SFPI SA,Industrials,SFPI.PA,EQ,
-AKWEL SA,Industrials,AKW.PA,EQ,
-Exacompta Clairefontaine SA,Industrials,ALEXA.PA,EQ,
-Societe Marseillaise du Tunnel Prado Carenage SA,Industrials,ALTPC.PA,EQ,
-EXEL Industries SA,Industrials,EXE.PA,EQ,
-Freelance.com,Industrials,ALFRE.PA,EQ,
-Gevelot SA,Industrials,ALGEV.PA,EQ,
-Capital B,Industrials,ALCPB.PA,EQ,
-Precia SA,Industrials,ALPM.PA,EQ,
-Racing Force SpA,Industrials,ALRFG.PA,EQ,
-Dekuple,Industrials,DKUPL.PA,EQ,
-La Forestiere Equatoriale SA,Industrials,FORE.PA,EQ,
-Carbios SA,Industrials,ALCRB.PA,EQ,
-Alan Allman Associates SA,Industrials,AAA.PA,EQ,
-SergeFerrari Group SA,Industrials,SEFER.PA,EQ,
-Eurofins-Cerep SA,Industrials,ALECR.PA,EQ,
-Actia Group,Industrials,ALATI.PA,EQ,
-ST Dupont SA,Industrials,DPT.PA,EQ,
-Delfingen,Industrials,ALDEL.PA,EQ,
-MGI Digital Graphic Technology,Industrials,ALMDG.PA,EQ,
-Catana Group SA,Industrials,ALCAT.PA,EQ,
-HighCo SA,Industrials,HCO.PA,EQ,
-Making Science Group SA,Industrials,ALMKS.PA,EQ,
-Solocal Group,Industrials,LOCAL.PA,EQ,
-Haulotte Group SA,Industrials,PIG.PA,EQ,
-Andino Inversiones Global SA,Industrials,MLAIG.PA,EQ,
-Hopscotch Groupe SA,Industrials,ALHOP.PA,EQ,
-ICAPE HOLDING,Industrials,ALICA.PA,EQ,
-HERIGE SA,Industrials,ALHRG.PA,EQ,
-Poujoulat SA,Industrials,ALPJT.PA,EQ,
-Aurea SA,Industrials,AURE.PA,EQ,
-Enogia SAS,Industrials,ALENO.PA,EQ,
-Prodways Group SA,Industrials,ALPWG.PA,EQ,
-Grande Armee Investissement,Industrials,MLGAI.PA,EQ,
-Prologue SA,Industrials,ALPRG.PA,EQ,
-Hipay Group SA,Industrials,ALHYP.PA,EQ,
-Hydrogen Refueling Solutions SA,Industrials,ALHRS.PA,EQ,
-Forsee Power SA,Industrials,ALFOR.PA,EQ,
-Graines Voltz SA,Industrials,GRVO.PA,EQ,
-ISPD Network,Industrials,ALISP.PA,EQ,
-Compagnie de Chemins de Fer Departementaux,Industrials,MLCFD.PA,EQ,
-NSC Groupe SA,Industrials,ALNSC.PA,EQ,
-Media 6 SA,Industrials,EDI.PA,EQ,
-DLSI SA,Industrials,ALDLS.PA,EQ,
-Octopus Biosafety SA,Industrials,MLOCT.PA,EQ,
-Mon Courtier Energie Groupe,Industrials,ALMCE.PA,EQ,
-U10 Corp SA,Industrials,ALU10.PA,EQ,
-Watera,Industrials,ALWTR.PA,EQ,
-Nacon SASU,Industrials,NACON.PA,EQ,
-Bio-UV Group SA,Industrials,ALTUV.PA,EQ,
-Passat SA,Industrials,ALPAS.PA,EQ,
-Fill Up Media S.A.,Industrials,ALFUM.PA,EQ,
-Blue Shark Power System SA,Industrials,MLBSP.PA,EQ,
-FIPP SA,Industrials,FIPP.PA,EQ,
-RocTool SA,Industrials,ALROC.PA,EQ,
-Soditech SA,Industrials,ALSEC.PA,EQ,
-Orege SA,Industrials,OREGE.PA,EQ,
-Signaux Girod SA,Industrials,ALGIR.PA,EQ,
-Nextedia SA,Industrials,ALNXT.PA,EQ,
-Laboratoires Euromedis,Industrials,ALEMG.PA,EQ,
-BOA Concept SA,Industrials,ALBOA.PA,EQ,
-Prismaflex International SA,Industrials,ALPRI.PA,EQ,
-Innelec Multimedia SA,Industrials,ALINN.PA,EQ,
-Tractial,Industrials,ALTRA.PA,EQ,
-Qwamplify SA,Industrials,ALQWA.PA,EQ,
-Les Constructeurs du Bois SA,Industrials,MLLCB.PA,EQ,
-AdUX SA,Industrials,ALDUX.PA,EQ,
-Plasticos Compuestos SA,Industrials,ALKOM.PA,EQ,
-Finaxo Environnement,Industrials,MLFXO.PA,EQ,
-Winfarm SA,Industrials,ALWF.PA,EQ,
-UPERGY SA,Industrials,ALUPG.PA,EQ,
-ODIOT S.A.,Industrials,MLODT.PA,EQ,
-Groupe Airwell SAS,Industrials,ALAIR.PA,EQ,
-Neolife SAS,Industrials,ALNLF.PA,EQ,
-Ecoslops SA,Industrials,ALESA.PA,EQ,
-UV GERMI Societe Anonyme,Industrials,ALUVI.PA,EQ,
-Aquila SA,Industrials,ALAQU.PA,EQ,
-Parx Materials NV,Industrials,MLPRX.PA,EQ,
-Mare Nostrum SA (FR),Industrials,ALMAR.PA,EQ,
-Colipays reunion,Industrials,MLCLP.PA,EQ,
-Hopening SA,Industrials,MLHPE.PA,EQ,
-SOCIETE DE CONSEIL EN EXTERNALISATION ET EN MARKETING INTERNET,Industrials,MLCMI.PA,EQ,
-Invibes Advertising NV,Industrials,ALINV.PA,EQ,
-Dolfines SA,Industrials,ALDOL.PA,EQ,
-Netmedia Group,Industrials,ALNMG.PA,EQ,
-Klarsen SA,Industrials,ALKLA.PA,EQ,
-Sirius Media,Industrials,ALSRS.PA,EQ,
-Douaisienne de Basse Tension SAS,Industrials,ALDBT.PA,EQ,
-Weya SA,Industrials,MLWEY.PA,EQ,
-Imalliance SA,Industrials,MLIML.PA,EQ,
-Gentlemen's Equity SA,Industrials,MLGEQ.PA,EQ,
-Boostheat SAS,Industrials,ALBOO.PA,EQ,
-Streit Mecanique SA,Industrials,MLSTR.PA,EQ,
-Umalis Group,Industrials,MLUMG.PA,EQ,
-ALTAMIR Act porteur,Industrials,LTA.PA,EQ,
+Schneider Electric SE,Industrials,SU.PA,EQ,FR0000121972
+Safran SA,Industrials,SAF.PA,EQ,FR0000073272
+Vinci SA,Industrials,DG.PA,EQ,FR0000125486
+Thales SA,Industrials,HO.PA,EQ,FR0000121329
+Saint-Gobain SA,Industrials,SGO.PA,EQ,FR0000125007
+Legrand SA,Industrials,LR.PA,EQ,FR0010307819
+Dassault Aviation société anonyme,Industrials,AM.PA,EQ,FR0014004L86
+Bouygues SA,Industrials,EN.PA,EQ,FR0000120503
+Eiffage SA,Industrials,FGR.PA,EQ,FR0000130452
+Bureau Veritas SA,Industrials,BVI.PA,EQ,FR0006174348
+Rexel SA,Industrials,RXL.PA,EQ,FR0010451203
+Aeroportes de Paris SA,Industrials,ADP.PA,EQ,FR0010340141
+Getlink SE,Industrials,GET.PA,EQ,FR0010533075
+Ayvens,Industrials,AYV.PA,EQ,FR0013258662
+Spie SA,Industrials,SPIE.PA,EQ,FR0012757854
+GTT SA,Industrials,GTT.PA,EQ,FR0011726835
+Alstom SA,Industrials,ALO.PA,EQ,FR0010220475
+Sodexo SA,Industrials,SW.PA,EQ,FR0000121220
+Elis SA,Industrials,ELIS.PA,EQ,FR0012435121
+Teleperformance SE,Industrials,TEP.PA,EQ,FR0000051807
+Air France-KLM SA,Industrials,AF.PA,EQ,FR001400J770
+Exosens,Industrials,EXENS.PA,EQ,FR001400Q9V2
+Lisi S.A.,Industrials,FII.PA,EQ,FR0000050353
+ID Logistics Group SA,Industrials,IDL.PA,EQ,FR0010929125
+Louis Hachette Group S.A.,Industrials,ALHG.PA,EQ,FR001400TL40
+Exail Technologies,Industrials,EXA.PA,EQ,FR0000062671
+Ipsos SA,Industrials,IPS.PA,EQ,FR0000073298
+Derichebourg SA,Industrials,DBG.PA,EQ,FR0000053381
+STEF SA,Industrials,STF.PA,EQ,FR0000064271
+Mersen S.A.,Industrials,MRN.PA,EQ,FR0000039620
+GL Events SA,Industrials,GLO.PA,EQ,FR0000066672
+Manitou BF SA,Industrials,MTU.PA,EQ,FR0000038606
+Synergie SE,Industrials,SDG.PA,EQ,FR0000032658
+Séché Environnement SA,Industrials,SCHP.PA,EQ,FR0000039109
+Assystem SA,Industrials,ASY.PA,EQ,FR0000074148
+Thermador Groupe SA,Industrials,THEP.PA,EQ,FR0013333432
+Waga Energy SA,Industrials,WAGA.PA,EQ,FR0012532810
+Groupe CRIT SA,Industrials,CEN.PA,EQ,FR0000036675
+Figeac Aero Société Anonyme,Industrials,FGA.PA,EQ,FR0011665280
+Samse SA,Industrials,SAMS.PA,EQ,FR0000060071
+Gérard Perrier Industrie S.A.,Industrials,PERR.PA,EQ,FR0000061459
+STIF Société anonyme,Industrials,ALSTI.PA,EQ,FR001400MDW2
+Groupe Pizzorno Environnement,Industrials,GPE.PA,EQ,FR0010214064
+Compagnie Chargeurs Invest,Industrials,CRI.PA,EQ,FR0000130692
+Latécoère S.A.,Industrials,LAT.PA,EQ,FR001400JY13
+Exacompta Clairefontaine S.A.,Industrials,ALEXA.PA,EQ,FR0000064164
+Société Marseillaise du Tunnel Prado Carénage,Industrials,ALTPC.PA,EQ,FR0004016699
+EXEL Industries SA,Industrials,EXE.PA,EQ,FR0004527638
+Freelance.com SA,Industrials,ALFRE.PA,EQ,FR0004187367
+Gévelot SA,Industrials,ALGEV.PA,EQ,FR0000033888
+Precia S.A.,Industrials,ALPM.PA,EQ,FR0014004EC4
+Catering International & Services Société Anonyme,Industrials,ALCIS.PA,EQ,FR0000064446
+Grenobloise d'Electronique et d'Automatismes Société Anonyme,Industrials,GEA.PA,EQ,FR0000053035
+Sogeclair SA,Industrials,ALSOG.PA,EQ,FR0000065864
+SergeFerrari Group SA,Industrials,SEFER.PA,EQ,FR0011950682
+Alan Allman Associates,Industrials,AAA.PA,EQ,FR0000062465
+Haulotte Group SA,Industrials,PIG.PA,EQ,FR0000066755
+Fiducial Office Solutions,Industrials,SACI.PA,EQ,FR0000061418
+Poujoulat SA,Industrials,ALPJT.PA,EQ,FR0000066441
+Aurea SA,Industrials,AURE.PA,EQ,FR0000039232
+Grande Armee Investissement SA,Industrials,MLGAI.PA,EQ,FR0000053415
+Enogia SAS,Industrials,ALENO.PA,EQ,FR0014004974
+Financière Marjos SA,Industrials,FINM.PA,EQ,FR0000060824
+ODYSSEE TECHNOLOGIES,Industrials,ALODY.PA,EQ,FR001400U4P9
+Compagnie de Chemins de Fer Départementaux Société Anonyme,Industrials,MLCFD.PA,EQ,FR0000037871
+TOUAX,Industrials,ALTOU.PA,EQ,FR0000033003
+NSC Groupe SA,Industrials,ALNSC.PA,EQ,FR0000064529
+Media 6 SA,Industrials,EDI.PA,EQ,FR0000064404
+DLSI,Industrials,ALDLS.PA,EQ,FR0010404368
+Mon Courtier Energie Groupe S.A.,Industrials,ALMCE.PA,EQ,FR001400H3A0
+Watera,Industrials,ALWTR.PA,EQ,FR001400IUV6
+Tonner Drones S.A.,Industrials,ALTD.PA,EQ,FR001400H2X4
+Trilogiq S.A.,Industrials,ALTRI.PA,EQ,FR0010397901
+BIO-UV Group S.A.,Industrials,ALTUV.PA,EQ,FR0013345493
+SODITECH,Industrials,ALSEC.PA,EQ,FR0000078321
+Orege Société Anonyme,Industrials,OREGE.PA,EQ,FR0010609206
+Arcure S.A.,Industrials,ALCUR.PA,EQ,FR0013398997
+Signaux Girod S.A.,Industrials,ALGIR.PA,EQ,FR0000060790
+BOA Concept SAS,Industrials,ALBOA.PA,EQ,FR0011365907
+Hydro-Exploitations Societe Anonyme,Industrials,MLHYE.PA,EQ,FR0005843125
+MG International S.A.,Industrials,ALMGI.PA,EQ,FR0010204453
+i2S SA,Industrials,ALI2S.PA,EQ,FR0005854700
+Grolleau Société Anonyme,Industrials,ALGRO.PA,EQ,FR0014005ZM5
+WINFARM Société anonyme,Industrials,ALWF.PA,EQ,FR0014000P11
+Finaxo Environnement Societe Anonyme,Industrials,MLFXO.PA,EQ,FR0010487272
+Aquila SA,Industrials,ALAQU.PA,EQ,FR0010340711
+Altheora SA,Industrials,ALORA.PA,EQ,FR0000061244
+UV Germi SA,Industrials,ALUVI.PA,EQ,FR0011898584
+Mare Nostrum SA,Industrials,ALMAR.PA,EQ,FR0013400835
+Societe de Conseil en Externalisation et en Marketing Internet - SCEMI Société Anonyme,Industrials,MLCMI.PA,EQ,FR0010972091
+Hopening SA,Industrials,MLHPE.PA,EQ,FR0010312181
+Lucibel SA,Industrials,ALUCI.PA,EQ,FR0014013HG9
+DBT SA,Industrials,ALDBT.PA,EQ,FR001400LO86
+Streit Mecanique SA,Industrials,MLSTR.PA,EQ,FR0000063976
+Roth Mions SA,Industrials,MLROT.PA,EQ,FR001400EA65
+Umalis Group,Industrials,MLUMG.PA,EQ,FR0011776889
+Airbus SE,Industrials,AIR.PA,EQ,
+Pluxee N.V.,Industrials,PLX.PA,EQ,
+H&K AG,Industrials,MLHK.PA,EQ,
+La Forestière Equatoriale SA,Industrials,FORE.PA,EQ,
+Téléverbier SA,Industrials,TVRB.PA,EQ,
+CALIBRE,Industrials,ALIBR.PA,EQ,
+Europlasma S.A.,Industrials,ALEUP.PA,EQ,
+Toosla Société Anonyme,Industrials,ALTOO.PA,EQ,

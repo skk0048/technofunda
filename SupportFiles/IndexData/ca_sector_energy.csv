@@ -1,126 +1,156 @@
 Company Name,Industry,Symbol,Series,ISIN Code
+Exxon Mobil Corporation Shs -CAD hedged- Canadian Depositary Receipt Repr Shs Reg S,Energy,XOM.TO,EQ,CA30233X1033
+Exxon Mobil Corporation Shs Unsponsored Canadian Depository Receipt Hedged,Energy,ZXOM.NE,EQ,CA30191G1000
+Chevron Corporation Shs -CAD hedged- Sponsored Global Depositary Receipt Repr Shs Reg S,Energy,CHEV.TO,EQ,CA16677R1082
+Chevron Corporation Shs Unsponsored Canadian Depository Receipt Hedged,Energy,ZCVX.NE,EQ,CA1669151088
+TotalEnergies SE Shs Unsponsored Canadian Depository Receipt Hedged Reg S,Energy,TTE.NE,EQ,CA89157V1058
+TotalEnergies SE Shs Unsponsored Canadian Depository Receipt Hedged,Energy,TTES.TO,EQ,CA89158C1068
+ConocoPhillips Shs Canadian Depositary Receipt Repr Shs Reg S,Energy,ZCOP.NE,EQ,CA20826P1045
+Enbridge Inc.,Energy,ENB.TO,EQ,CA29250N1050
 Canadian Natural Resources Limited,Energy,CNQ.TO,EQ,CA1363851017
 Suncor Energy Inc.,Energy,SU.TO,EQ,CA8672241079
+TC Energy Corporation,Energy,TRP.TO,EQ,CA87807B1076
 Imperial Oil Limited,Energy,IMO.TO,EQ,CA4530384086
+Occidental Petroleum Corporation Shs Sponsored Canadian Depository Receipt Hedged Reg S,Energy,OXY.TO,EQ,CA6749151032
 Cenovus Energy Inc.,Energy,CVE.TO,EQ,CA15135U1093
+Cameco Corporation,Energy,CCO.TO,EQ,CA13321L1085
+Pembina Pipeline Corporation,Energy,PPL.TO,EQ,CA7063271034
 Tourmaline Oil Corp.,Energy,TOU.TO,EQ,CA89156V1067
 Whitecap Resources Inc.,Energy,WCP.TO,EQ,CA96467A2002
 ARC Resources Ltd.,Energy,ARX.TO,EQ,CA00208D4084
+AltaGas Ltd.,Energy,ALA.TO,EQ,CA0213611001
+Keyera Corp.,Energy,KEY.TO,EQ,CA4932711001
+South Bow Corporation,Energy,SOBO.TO,EQ,CA83671M1059
 Strathcona Resources Ltd.,Energy,SCR.TO,EQ,CA8629522076
+NexGen Energy Ltd.,Energy,NXE.TO,EQ,CA65340P1062
+PrairieSky Royalty Ltd.,Energy,PSK.TO,EQ,CA7397211086
 Tamarack Valley Energy Ltd.,Energy,TVE.TO,EQ,CA87505Y4094
+Northland Power Inc.,Energy,NPI.TO,EQ,CA6665111002
 Athabasca Oil Corporation,Energy,ATH.TO,EQ,CA04682R1073
+Energy Fuels Inc.,Energy,EFR.TO,EQ,CA2926717083
 Peyto Exploration & Development Corp.,Energy,PEY.TO,EQ,CA7170461064
-Topaz Energy Corp,Energy,TPZ.TO,EQ,CA89055A2039
+Gibson Energy Inc.,Energy,GEI.TO,EQ,CA3748252069
+Topaz Energy Corp.,Energy,TPZ.TO,EQ,CA89055A2039
 Baytex Energy Corp.,Energy,BTE.TO,EQ,CA07317Q1054
-Paramount Resources Ltd. Class A,Energy,POU.TO,EQ,CA6993202069
-International Petroleum Corp. (British Columbia),Energy,IPCO.TO,EQ,CA46016U1084
+Paramount Resources Ltd.,Energy,POU.TO,EQ,CA6993202069
+International Petroleum Corporation,Energy,IPCO.TO,EQ,CA46016U1084
+Denison Mines Corp.,Energy,DML.TO,EQ,CA2483561072
+Boralex Inc.,Energy,BLX.TO,EQ,CA09950M3003
+CES Energy Solutions Corp.,Energy,CEU.TO,EQ,CA15713J1049
 Headwater Exploration Inc.,Energy,HWX.TO,EQ,CA4220961078
+Freehold Royalties Ltd.,Energy,FRU.TO,EQ,CA3565001086
+TerraVest Industries Inc.,Energy,TVK.TO,EQ,CA88105G1037
 Parex Resources Inc.,Energy,PXT.TO,EQ,CA69946Q1046
-Vermilion Energy Inc.,Energy,VET.TO,EQ,CA9237251058
 Spartan Delta Corp,Energy,SDE.TO,EQ,CA84678A5089
+Vermilion Energy Inc.,Energy,VET.TO,EQ,CA9237251058
 Cardinal Energy Ltd.,Energy,CJ.TO,EQ,CA14150G4007
 Kelt Exploration Ltd.,Energy,KEL.TO,EQ,CA4882951060
 Birchcliff Energy Ltd.,Energy,BIR.TO,EQ,CA0906971035
-Advantage Energy Ltd,Energy,AAV.TO,EQ,CA00791P1071
+Advantage Energy Ltd.,Energy,AAV.TO,EQ,CA00791P1071
 Tenaz Energy Corp,Energy,TNZ.TO,EQ,CA88034V3048
 Meren Energy Inc.,Energy,MER.TO,EQ,CA5889141019
-Saturn Oil & Gas Inc.,Energy,SOIL.TO,EQ,CA80412L8832
 Valeura Energy Inc.,Energy,VLE.TO,EQ,CA9191444020
+Saturn Oil & Gas Inc.,Energy,SOIL.TO,EQ,CA80412L8832
 Frontera Energy Corporation,Energy,FEC.TO,EQ,CA35905B1076
 Obsidian Energy Ltd,Energy,OBE.TO,EQ,CA6744822033
-Surge Energy Inc.,Energy,SGY.TO,EQ,CA86880Y8779
 Greenfire Resources Ltd.,Energy,GFR.TO,EQ,CA39525U1075
-PetroTal Corp.,Energy,TAL.TO,EQ,CA71677J1012
-Coelacanth Energy Inc.,Energy,CEI.V,EQ,CA1920771054
+Surge Energy Inc.,Energy,SGY.TO,EQ,CA86880Y8779
 Logan Energy Corp,Energy,LGN.V,EQ,CA5408991019
 Cavvy Energy Ltd,Energy,CVVY.TO,EQ,CA14966L1067
-Colonial Coal International Corp.,Energy,CAD.V,EQ,CA1956151098
+PetroTal Corp.,Energy,TAL.TO,EQ,CA71677J1012
+Coelacanth Energy  Inc.,Energy,CEI.V,EQ,CA1920771054
 InPlay Oil Corp,Energy,IPO.TO,EQ,CA45780T4046
-NG Energy International Corp,Energy,GASX.TO,EQ,CA62931J1021
 Reconnaissance Energy Africa Ltd.,Energy,RECO.V,EQ,CA75624R1082
-Journey Energy Inc.,Energy,JOY.TO,EQ,CA48113W1023
-Eco (Atlantic) Oil & Gas Ltd.,Energy,EOG.V,EQ,CA27887W1005
+Colonial Coal International Corp.,Energy,CAD.V,EQ,CA1956151098
+NG Energy International Corp,Energy,GASX.TO,EQ,CA62931J1021
+Journey Energy  Inc.,Energy,JOY.TO,EQ,CA48113W1023
 Rubellite Energy Corp.,Energy,RBY.TO,EQ,CA7811131050
 Alvopetro Energy Ltd.,Energy,ALV.V,EQ,CA02255Q2099
-Hemisphere Energy Corp,Energy,HME.V,EQ,CA4236301020
+Eco (Atlantic) Oil & Gas Ltd.,Energy,EOG.V,EQ,CA27887W1005
 Kolibri Global Energy Inc,Energy,KEI.TO,EQ,CA50043K4063
-Pulsar Helium Inc.,Energy,PLSR.V,EQ,CA7459321039
+Pulsar Helium  Inc.,Energy,PLSR.V,EQ,CA7459321039
 Petrus Resources Ltd.,Energy,PRQ.TO,EQ,CA71678F1080
+Hemisphere Energy Corp,Energy,HME.V,EQ,CA4236301020
 Bonterra Energy Corp.,Energy,BNE.TO,EQ,CA0985461049
+Condor Energies Inc,Energy,CDR.TO,EQ,CA20676A1084
 Sintana Energy Inc.,Energy,SEI.V,EQ,CA82938H1073
 Pine Cliff Energy Ltd.,Energy,PNE.TO,EQ,CA7225241057
-Condor Energies Inc,Energy,CDR.TO,EQ,CA20676A1084
 Lycos Energy Inc,Energy,LCX.V,EQ,CA55082H2063
 Arrow Exploration Corp.,Energy,AXL.V,EQ,CA04274P1053
-Trident Resources Corp.,Energy,ROCK.V,EQ,CA8959801009
 Yangarra Resources Ltd.,Energy,YGR.TO,EQ,CA98474P5013
-Tethys Petroleum Limited.,Energy,TPL.V,EQ,KYG876361257
+Trident Resources Corp.,Energy,ROCK.V,EQ,CA8959801009
 Questerre Energy Corporation Class A,Energy,QEC.TO,EQ,CA74836K1003
-Africa Energy Corp.,Energy,AFE.V,EQ,CA00830W5019
-SouthGobi Resources Ltd.,Energy,SGQ.V,EQ,CA8443751059
-Orca Energy Group Inc. Class B,Energy,ORC-B.V,EQ,VGG6769T1158
 BLUENERGIES LTD.,Energy,BLU.V,EQ,CA0959221007
 New Stratus Energy Inc,Energy,NSE.V,EQ,CA6488301079
+Africa Energy Corp.,Energy,AFE.V,EQ,CA00830W5019
+SouthGobi Resources Ltd.,Energy,SGQ.V,EQ,CA8443751059
+Quebec Innovative Materials Corp,Energy,QIMC.NE,EQ,CA7480331072
+ROK Resources  Inc. Class B,Energy,ROK.V,EQ,CA77544C1041
 CGX Energy Inc.,Energy,OYL.V,EQ,CA1254055066
-ROK Resources Inc. Class B,Energy,ROK.V,EQ,CA77544C1041
 Avanti Helium Corp.,Energy,AVN.V,EQ,CA05351P1080
+Jericho Energy Ventures Inc,Energy,JEV.V,EQ,CA4763392053
 Touchstone Exploration Inc,Energy,TXP.TO,EQ,CA89156L1085
 Cancambria Energy Corp,Energy,CCEC.V,EQ,CA13740E1079
-Wilton Resources Inc.,Energy,WIL.V,EQ,CA97263A1057
 Pantera Silver Corp.,Energy,PNTR.V,EQ,CA69867T1030
-Jericho Energy Ventures Inc,Energy,JEV.V,EQ,CA4763392053
+Wilton Resources Inc.,Energy,WIL.V,EQ,CA97263A1057
 CanAsia Energy Corp,Energy,CEC.V,EQ,CA13722B1058
-Westbridge Renewable Energy Corp,Energy,WEB.V,EQ,CA95716A2011
-Canuc Resources Corporation,Energy,CDA.V,EQ,CA1389095029
+Hillcrest Energy Technologies Ltd.,Energy,HEAT.NE,EQ,CA4315022026
 Guardian Exploration Inc.,Energy,GX.V,EQ,CA40136T2083
+Canuc Resources Corporation,Energy,CDA.V,EQ,CA1389095029
+Westbridge Renewable Energy Corp,Energy,WEB.V,EQ,CA95716A2011
 TAG Oil Ltd,Energy,TAO.V,EQ,CA87377N2005
-Prospera Energy Inc.,Energy,PEI.V,EQ,CA74360U1021
-Desert Mountain Energy Corp.,Energy,DME.V,EQ,CA25043D1078
 Southern Energy Corp.,Energy,SOU.V,EQ,CA8428133059
 Westgate Energy Inc,Energy,WGT.V,EQ,CA96031U1049
-Prairie Provident Resources Inc.,Energy,PPR.TO,EQ,CA73965Q8882
+Desert Mountain Energy Corp.,Energy,DME.V,EQ,CA25043D1078
+Prospera Energy Inc.,Energy,PEI.V,EQ,CA74360U1021
+Prairie Provident Resources  Inc.,Energy,PPR.TO,EQ,CA73965Q8882
+Crown Point Energy  Inc.,Energy,CWV.V,EQ,CA2284622065
 New Zealand Energy Corp.,Energy,NZ.V,EQ,CA6501583067
-Altura Energy Corp,Energy,ALTU.V,EQ,CA02210E1016
 Criterium Energy Ltd,Energy,CEQ.V,EQ,CA2267472025
-Bengal Energy Ltd.,Energy,BNG.TO,EQ,CA08184N1006
-Petro-Victory Energy Corp Class A,Energy,VRY.V,EQ,VGG7041T1396
-Canaf Investments Inc.,Energy,CAF.V,EQ,CA13682P1027
-Crown Point Energy Inc.,Energy,CWV.V,EQ,CA2284622065
-Stamper Oil & Gas Corp,Energy,STMP.V,EQ,CA85284P3007
-Morien Resources Corp.,Energy,MOX.V,EQ,CA61763R2081
 VVT Med Inc.,Energy,VVTM.V,EQ,CA91841T1084
+Bengal Energy Ltd.,Energy,BNG.TO,EQ,CA08184N1006
+Canaf Investments Inc.,Energy,CAF.V,EQ,CA13682P1027
+Stamper Oil & Gas Corp,Energy,STMP.V,EQ,CA85284P3007
+Altura Energy Corp,Energy,ALTU.V,EQ,CA02210E1016
+Morien Resources Corp.,Energy,MOX.V,EQ,CA61763R2081
+Horizon Petroleum Ltd.,Energy,HPL.V,EQ,CA44053J4090
 Vital Energy Inc.,Energy,VUX.V,EQ,CA92847K1093
-Oracle Energy Corp.,Energy,OEC-H.V,EQ,CA68400T4063
 Sonoro Energy Ltd.,Energy,SNV.V,EQ,CA83569D6054
 Pulse Oil Corp.,Energy,PUL.V,EQ,CA74587Y1016
-Horizon Petroleum Ltd.,Energy,HPL.V,EQ,CA44053J4090
-Saba Energy Ltd.,Energy,SABA.V,EQ,CA78518R1010
+Oracle Energy Corp.,Energy,OEC.H.V,EQ,CA68400T4063
+Trillion Energy International Inc,Energy,TCF.NE,EQ,CA89624B5009
 First Helium Inc.,Energy,HELI.V,EQ,CA32050C1059
-MCF Energy Ltd,Energy,MCF.V,EQ,CA55401M1005
-Decimus Oil Corp.,Energy,WCSB.V,EQ,CA24344U1084
-WesCan Energy Corp.,Energy,WCE.V,EQ,CA9508121071
-Trans Canada Gold Corp,Energy,TTG.V,EQ,CA8931291063
-McChip Resources Inc.,Energy,MCS.V,EQ,CA5799031052
-Claren Energy Corp.,Energy,CEN-H.V,EQ,CA1802664054
-Olivier Ventures Inc,Energy,OVL-H.V,EQ,CA68111J1012
-Metalore Resources Limited,Energy,MET.V,EQ,CA5913071034
 Capitan Investment Ltd.,Energy,CAI.V,EQ,CA14058L1058
+MCF Energy Ltd,Energy,MCF.V,EQ,CA55401M1005
+Trans Canada Gold Corp,Energy,TTG.V,EQ,CA8931291063
+WesCan Energy Corp.,Energy,WCE.V,EQ,CA9508121071
+Claren Energy Corp.,Energy,CEN.H.V,EQ,CA1802664054
+Decimus Oil Corp.,Energy,WCSB.V,EQ,CA24344U1084
+McChip Resources Inc.,Energy,MCS.V,EQ,CA5799031052
+Squatex Energy and Ressources Inc,Energy,SQX.CN,EQ,CA85224X1087
 Canadian Spirit Resources Inc.,Energy,SPI.V,EQ,CA1366371054
-Osiris One Metals Ltd.,Energy,OSM.V,EQ,CA68827W1077
 Bocana Resources Corp,Energy,BOCA.V,EQ,CA09689F1053
-Jura Energy Corporation,Energy,JEC.V,EQ,CA4820723035
+Osiris One Metals Ltd.,Energy,OSM.V,EQ,CA68827W1077
+Saba Energy Ltd.,Energy,SABA.V,EQ,CA78518R1010
+Olivier Ventures Inc,Energy,OVL.H.V,EQ,CA68111J1012
 ProAm Explorations Corporation Class A,Energy,PMX.V,EQ,CA74266J3001
-Altai Resources Inc.,Energy,ATI-H.V,EQ,CA02136K1084
+Avila Energy Corporation,Energy,VIK.NE,EQ,CA0536985025
+Altai Resources Inc.,Energy,ATI.H.V,EQ,CA02136K1084
+Cypress Hills Resource Corp.,Energy,CHY.H.V,EQ,CA2327923090
+Jura Energy Corporation,Energy,JEC.V,EQ,CA4820723035
 Petrox Resources Corp.,Energy,PTC.V,EQ,CA7167663086
-Cypress Hills Resource Corp.,Energy,CHY-H.V,EQ,CA2327923090
 East West Minerals Ltd.,Energy,EW.V,EQ,CA27580W1005
 Infinitum Copper Corp,Energy,INFI.V,EQ,CA45675B3020
+BGX - Black Gold Exploration Corp.,Energy,BGX.CN,EQ,CA0886JL2045
+Running Fox Resource Corp.,Energy,RUN.H.V,EQ,CA7815861025
+Columbus Energy Limited,Energy,CEL.H.V,EQ,CA1990662001
 Marksmen Energy Inc.,Energy,MAH.V,EQ,CA57072P2061
-Columbus Energy Limited,Energy,CEL-H.V,EQ,CA1990662001
+Terrace Energy Corp.,Energy,TZR.H.V,EQ,CA88103M4092
+Waskahigan Oil & Gas Corp.,Energy,WOGC.CN,EQ,CA94103P2026
+Lotus Creek Exploration  Inc.,Energy,LTC.V,EQ,CA54571C1095
+Helium Evolution Incorporated,Energy,HEVI.V,EQ,CA42328K1021
+Source Rock Royalties Ltd.,Energy,SRR.V,EQ,CA83616J1003
 STRACON Group Holding Inc.,Energy,STG.TO,EQ,CA86254A1093
+Clinch Resources Ltd.,Energy,CLCH.TO,EQ,CA1872391083
 Latin Explore Inc.,Energy,LXE.V,EQ,CA51829B1076
 Fiddlehead Resources Corp.,Energy,FHR.V,EQ,CA31572D2032
-Clinch Resources Ltd.,Energy,CLCH.TO,EQ,CA1872391083
-Source Rock Royalties Ltd.,Energy,SRR.V,EQ,CA83616J1003
-Helium Evolution Incorporated,Energy,HEVI.V,EQ,CA42328K1021
-Lotus Creek Exploration Inc.,Energy,LTC.V,EQ,CA54571C1095

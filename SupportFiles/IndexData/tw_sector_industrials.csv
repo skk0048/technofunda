@@ -1,14 +1,502 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-Catcher Technology,Industrials,2474.TW,EQ,
-Yageo,Industrials,2327.TW,EQ,
-Wistron,Industrials,3231.TW,EQ,
-Acer,Industrials,2353.TW,EQ,
-ASUS (Asustek),Industrials,2357.TW,EQ,
-Evergreen Marine,Industrials,2603.TW,EQ,
-Yang Ming Marine,Industrials,2609.TW,EQ,
-Wan Hai Lines,Industrials,2615.TW,EQ,
-China Airlines,Industrials,2610.TW,EQ,
-EVA Airways,Industrials,2618.TW,EQ,
-Fortune Electric,Industrials,1519.TW,EQ,
-Taiwan High Speed Rail Corp,Industrials,2633.TW,EQ,
-Taoyuan International Airport,Industrials,2601.TW,EQ,
+Yageo,Industrials,2327.TW,EQ,TW0002327004
+ASUS (Asustek),Industrials,2357.TW,EQ,TW0002357001
+Evergreen Marine,Industrials,2603.TW,EQ,TW0002603008
+Wistron,Industrials,3231.TW,EQ,TW0003231007
+Fortune Electric,Industrials,1519.TW,EQ,TW0001519007
+United Integrated Services Co.  Ltd.,Industrials,2404.TW,EQ,TW0002404001
+Wan Hai Lines,Industrials,2615.TW,EQ,TW0002615002
+EVA Airways,Industrials,2618.TW,EQ,TW0002618006
+L&K Engineering Co.  Ltd.,Industrials,6139.TW,EQ,TW0006139009
+Yang Ming Marine,Industrials,2609.TW,EQ,TW0002609005
+TECO Electric & Machinery Co.  Ltd.,Industrials,1504.TW,EQ,TW0001504009
+Syntec Technology Co.  Ltd.,Industrials,7750.TW,EQ,TW0007750002
+Acter Group Corporation Limited,Industrials,5536.TWO,EQ,TW0005536007
+Taiwan High Speed Rail Corp,Industrials,2633.TW,EQ,TW0002633005
+China Airlines,Industrials,2610.TW,EQ,TW0002610003
+Catcher Technology,Industrials,2474.TW,EQ,TW0002474004
+Shihlin Electric & Engineering Corp.,Industrials,1503.TW,EQ,TW0001503001
+Hiwin Technologies Corporation,Industrials,2049.TW,EQ,TW0002049004
+Acer,Industrials,2353.TW,EQ,TW0002353000
+Kaori Heat Treatment Co.  Ltd.,Industrials,8996.TW,EQ,TW0008996000
+All Ring Tech Co.  Ltd.,Industrials,6187.TWO,EQ,TW0006187008
+Kinik Company,Industrials,1560.TW,EQ,TW0001560001
+C Sun Mfg Ltd.,Industrials,2467.TW,EQ,TW0002467008
+Solar Applied Materials Technology Corporation,Industrials,1785.TWO,EQ,TW0001785004
+Yankey Engineering Co.  Ltd.,Industrials,6691.TW,EQ,TW0006691009
+Chung-Hsin Electric and Machinery Manufacturing Corp.,Industrials,1513.TW,EQ,TW0001513000
+Voltronic Power Technology Corp.,Industrials,6409.TW,EQ,TW0006409006
+Simplo Technology Co.  Ltd.,Industrials,6121.TWO,EQ,TW0006121007
+Mega Union Technology Inc.,Industrials,6944.TW,EQ,TW0006944002
+Topoint Technology Co.  Ltd.,Industrials,8021.TW,EQ,TW0008021007
+Lien Hwa Industrial Holdings Corporation,Industrials,1229.TW,EQ,TW0001229003
+Ta Liang Technology Co.  Ltd.,Industrials,3167.TW,EQ,TW0003167003
+Dynapack International Technology Corporation,Industrials,3211.TWO,EQ,TW0003211009
+Evergreen Aviation Technologies Corporation,Industrials,2645.TW,EQ,TW0002645009
+STARLUX Airlines Co.  Ltd.,Industrials,2646.TW,EQ,TW0002646007
+Tatung Co.  Ltd.,Industrials,2371.TW,EQ,TW0002371002
+Taiwan Cogeneration Corporation,Industrials,8926.TW,EQ,TW0008926007
+Ruentex Engineering & Construction Co.  Ltd.,Industrials,2597.TW,EQ,TW0002597002
+U-Ming Marine Transport Corporation,Industrials,2606.TW,EQ,TW0002606001
+Taiwan Secom Co.  Ltd.,Industrials,9917.TW,EQ,TW0009917005
+Longwell Company,Industrials,6290.TWO,EQ,TW0006290000
+AcBel Polytech Inc.,Industrials,6282.TW,EQ,TW0006282007
+Apex Dynamics  Inc.,Industrials,4583.TW,EQ,TW0004583000
+Taiwan Microloops Corp.,Industrials,6831.TW,EQ,TW0006831001
+Aerospace Industrial Development Corporation,Industrials,2634.TW,EQ,TW0002634003
+Sunonwealth Electric Machine Industry Co.  Ltd.,Industrials,2421.TW,EQ,TW0002421005
+Cleanaway Company Limited,Industrials,8422.TW,EQ,TW0008422007
+Shin Zu Shing Co.  Ltd.,Industrials,3376.TW,EQ,TW0003376000
+CTCI Corporation,Industrials,9933.TW,EQ,TW0009933002
+Chicony Power Technology Co.  Ltd.,Industrials,6412.TW,EQ,TW0006412000
+Brighton-Best International (Taiwan) Inc.,Industrials,8415.TWO,EQ,TW0008415001
+Century Wind Power Co.  Ltd.,Industrials,2072.TW,EQ,TW0002072006
+Allis Electric Co. Ltd.,Industrials,1514.TW,EQ,TW0001514008
+Mirle Automation Corporation,Industrials,2464.TW,EQ,TW0002464005
+Ta Ya Electric Wire & Cable Co.  Ltd.,Industrials,1609.TW,EQ,TW0001609006
+Century Iron and Steel Industrial Co. Ltd.,Industrials,9958.TW,EQ,TW0009958009
+G-SHANK Enterprise Co.  Ltd.,Industrials,2476.TW,EQ,TW0002476009
+Evergreen International Storage & Transport Corporation,Industrials,2607.TW,EQ,TW0002607009
+Jiu Han System Technology Co.  Ltd.,Industrials,6903.TWO,EQ,TW0006903008
+Tigerair Taiwan Co.  Ltd.,Industrials,6757.TW,EQ,TW0006757008
+E&R Engineering Corporation,Industrials,8027.TWO,EQ,TW0008027004
+Hwang Chang General Contractor Co.  Ltd,Industrials,2543.TW,EQ,TW0002543006
+Nova Technology Corporation,Industrials,6613.TWO,EQ,TW0006613003
+Hiwin Mikrosystem Corporation,Industrials,4576.TW,EQ,TW0004576004
+Da-Cin Construction Co. Ltd.,Industrials,2535.TW,EQ,TW0002535002
+CSBC Corporation,Industrials,2208.TW,EQ,TW0002208006
+Group Up Industrial Co.  Ltd.,Industrials,6664.TWO,EQ,TW0006664006
+Kindom Development Co.  Ltd.,Industrials,2520.TW,EQ,TW0002520004
+GFC. LTD.,Industrials,4506.TWO,EQ,TW0004506001
+BES Engineering Corporation,Industrials,2515.TW,EQ,TW0002515004
+Cyber Power Systems  Inc.,Industrials,3617.TW,EQ,TW0003617007
+ECOVE Environment Corp.,Industrials,6803.TWO,EQ,TW0006803000
+Sporton International Inc.,Industrials,6146.TWO,EQ,TW0006146004
+Farglory Free Trade Zone Investment Holding Co.  Ltd.,Industrials,5607.TW,EQ,TW0005607006
+Sincere Navigation Corporation,Industrials,2605.TW,EQ,TW0002605003
+Continental Holdings Corporation,Industrials,3703.TW,EQ,TW0003703005
+TURVO International Co.  Ltd.,Industrials,2233.TW,EQ,TW0002233004
+Delpha Construction Co. Ltd.,Industrials,2530.TW,EQ,TW0002530003
+San Shing Fastech Corp.,Industrials,5007.TW,EQ,TW0005007009
+Brillian Network & Automation Integrated System Co. Ltd.,Industrials,6788.TWO,EQ,TW0006788003
+Posiflex Technology  Inc.,Industrials,8114.TW,EQ,TW0008114000
+Kenmec Mechanical Engineering Co.  Ltd.,Industrials,6125.TWO,EQ,TW0006125008
+Taiwan Shin Kong Security Co.  Ltd.,Industrials,9925.TW,EQ,TW0009925008
+STL Technology Co.  Ltd.,Industrials,4931.TWO,EQ,TW0004931001
+Hua Eng Wire & Cable Co.  Ltd.,Industrials,1608.TW,EQ,TW0001608008
+Kerry TJ Logistics Company Limited,Industrials,2608.TW,EQ,TW0002608007
+Lungteh Shipbuilding Co.  Ltd.,Industrials,6753.TW,EQ,TW0006753007
+Kuo Toong International Co.  Ltd.,Industrials,8936.TWO,EQ,TW0008936006
+Shuz Tung Machinery Industrial Co.  Ltd.,Industrials,4537.TWO,EQ,TW0004537006
+Digital China Holdings Limited,Industrials,910861.TW,EQ,TW0009108613
+Trade-Van Information Services Co.,Industrials,6183.TW,EQ,TW0006183007
+Key Ware Electronics Co.  Ltd.,Industrials,5498.TWO,EQ,TW0005498000
+Chieftek Precision Co.  Ltd.,Industrials,1597.TW,EQ,TW0001597003
+Trusval Technology Co.  Ltd.,Industrials,6667.TWO,EQ,TW0006667009
+Fittech Co.  Ltd.,Industrials,6706.TW,EQ,TW0006706005
+Aurora Corporation,Industrials,2373.TW,EQ,TW0002373008
+Phihong Technology Co.  Ltd.,Industrials,2457.TW,EQ,TW0002457009
+Kedge Construction Co.  Ltd.,Industrials,2546.TW,EQ,TW0002546009
+United Alloy-Tech Company,Industrials,3162.TWO,EQ,TW0003162004
+Taiwan Navigation Co.  Ltd.,Industrials,2617.TW,EQ,TW0002617008
+Channel Well Technology Co. Ltd.,Industrials,3078.TWO,EQ,TW0003078002
+Symtek Automation Asia Co.  Ltd.,Industrials,6438.TW,EQ,TW0006438005
+Taiwan Steel Union Co.  Ltd.,Industrials,6581.TW,EQ,TW0006581002
+Rechi Precision Co.  Ltd.,Industrials,4532.TW,EQ,TW0004532007
+Hong Tai Electric Industrial Co.  Ltd.,Industrials,1612.TW,EQ,TW0001612000
+Dimerco Express Corporation,Industrials,5609.TWO,EQ,TW0005609002
+HD Renewable Energy Co.  Ltd.,Industrials,6873.TW,EQ,TW0006873003
+Asia Neo Tech Industrial Co. Ltd.,Industrials,4542.TWO,EQ,TW0004542006
+Radium Life Tech. Co.  Ltd.,Industrials,2547.TW,EQ,TW0002547007
+FSP Technology Inc.,Industrials,3015.TW,EQ,TW0003015004
+Lumax International Corp.  Ltd.,Industrials,6192.TW,EQ,TW0006192008
+Chinese Maritime Transport Ltd.,Industrials,2612.TW,EQ,TW0002612009
+Asia Metal Industries  Inc.,Industrials,6727.TWO,EQ,TW0006727001
+Jiin Yeeh Ding Enterprises Corp.,Industrials,8390.TWO,EQ,TW0008390006
+Eclat Forever Machinery Co.  Ltd.,Industrials,3485.TWO,EQ,TW0003485009
+Sunny Friend Environmental Technology Co.  Ltd.,Industrials,8341.TW,EQ,TW0008341009
+Kung Long Batteries Industrial Co. Ltd,Industrials,1537.TW,EQ,TW0001537009
+Wholetech System Hitech Limited,Industrials,3402.TWO,EQ,TW0003402004
+Ace Pillar Co.  Ltd.,Industrials,8374.TW,EQ,TW0008374000
+K.S. Terminals Inc.,Industrials,3003.TW,EQ,TW0003003000
+China Metal Products Co.  Ltd.,Industrials,1532.TW,EQ,TW0001532000
+Tongtai Machine & Tool Co.  Ltd.,Industrials,4526.TW,EQ,TW0004526009
+T3EX Global Holdings Corp.,Industrials,2636.TW,EQ,TW0002636008
+P-Duke Technology Co. Ltd.,Industrials,8109.TWO,EQ,TW0008109000
+PSS Co. Ltd.,Industrials,6914.TW,EQ,TW0006914005
+Forest Water Environmental Engineering Co.  Ltd.,Industrials,8473.TW,EQ,TW0008473000
+Taiwan Taxi Co. Ltd.,Industrials,2640.TWO,EQ,TW0002640000
+I-Sheng Electric Wire & Cable Co.  Ltd.,Industrials,6115.TW,EQ,TW0006115009
+Desiccant Technology Corporation,Industrials,5292.TW,EQ,TW0005292007
+Zippy Technology Corp.,Industrials,2420.TW,EQ,TW0002420007
+Chien Kuo Construction Co.  Ltd.,Industrials,5515.TW,EQ,TW0005515001
+Aurotek Corporation,Industrials,6215.TW,EQ,TW0006215007
+Dah San Electric Wire & Cable Corp.,Industrials,1615.TW,EQ,TW0001615003
+Techzone Technology Materials Co.  Ltd.,Industrials,6947.TWO,EQ,TW0006947005
+QST International Corp.,Industrials,8349.TWO,EQ,TW0008349002
+Te Chang Construction Co.  Ltd.,Industrials,5511.TWO,EQ,TW0005511000
+National Aerospace Fasteners Corporation,Industrials,3004.TW,EQ,TW0003004008
+Young Optics Inc.,Industrials,3504.TW,EQ,TW0003504007
+Highlight Tech Corp.,Industrials,6208.TWO,EQ,TW0006208002
+Waffer Technology Corporation,Industrials,6235.TW,EQ,TW0006235005
+Air Asia Co.  Ltd.,Industrials,2630.TW,EQ,TW0002630001
+China Glaze Co. Ltd.,Industrials,1809.TW,EQ,TW0001809002
+Shining Building Business Co. Ltd.,Industrials,5531.TW,EQ,TW0005531008
+LongDa Construction & Development Corporation,Industrials,5519.TW,EQ,TW0005519003
+Gus Technology Co.  Ltd.,Industrials,6940.TWO,EQ,TW0006940000
+104 Corporation,Industrials,3130.TW,EQ,TW0003130001
+ThinTech Materials Technology Co.  Ltd.,Industrials,3663.TWO,EQ,TW0003663001
+Hong-Wei Electrical Industry & Co.  Ltd.,Industrials,4565.TWO,EQ,TW0004565007
+Usun Technology Co.  Ltd.,Industrials,3498.TWO,EQ,TW0003498002
+CHUNGTAI RESOURCE Technology CORP.,Industrials,6923.TW,EQ,TW0006923006
+Tbi Motion Technology Co.  Ltd.,Industrials,4540.TW,EQ,TW0004540000
+Tian Zheng International Precision Machinery Co.  Ltd.,Industrials,6654.TWO,EQ,TW0006654007
+Bin Chuan Enterprise Co.  Ltd.,Industrials,1569.TWO,EQ,TW0001569002
+GLOBAL TEK FABRICATION CO.  Ltd.,Industrials,4566.TW,EQ,TW0004566005
+Chen Full International Co.  Ltd.,Industrials,8383.TWO,EQ,TW0008383001
+Creative Sensor Inc.,Industrials,8249.TW,EQ,TW0008249004
+Huxen Corporation,Industrials,2433.TW,EQ,TW0002433000
+Eastern Media International Corporation,Industrials,2614.TW,EQ,TW0002614005
+China Ecotek Corporation,Industrials,1535.TW,EQ,TW0001535003
+Franbo Lines Corp.,Industrials,2641.TWO,EQ,TW0002641008
+Taiwan Fu Hsing Industrial Co. Ltd.,Industrials,9924.TW,EQ,TW0009924001
+Sinmag Equipment Corporation,Industrials,1580.TWO,EQ,TW0001580009
+Shih Wei Navigation Co.  Ltd.,Industrials,5608.TW,EQ,TW0005608004
+Drewloong Precision  Inc.,Industrials,4572.TW,EQ,TW0004572003
+INTAI Technology Corporation,Industrials,4163.TWO,EQ,TW0004163001
+Wave Power Technology Inc.,Industrials,6895.TWO,EQ,TW0006895006
+Donpon Precision Inc.,Industrials,3290.TWO,EQ,TW0003290003
+Goodway Machine Corp.,Industrials,1583.TW,EQ,TW0001583003
+Castles Technology Co.  Ltd.,Industrials,5258.TW,EQ,TW0005258008
+VSO Electronics Co.  Ltd.,Industrials,6913.TWO,EQ,TW0006913007
+Univacco Technology Inc.,Industrials,3303.TWO,EQ,TW0003303004
+Aethertek technology co.  Ltd.,Industrials,3219.TWO,EQ,TW0003219002
+Best Precision Industrial Co.  Ltd.,Industrials,6859.TWO,EQ,TW0006859002
+Kung Sing Engineering Corporation,Industrials,5521.TW,EQ,TW0005521009
+Well Shin Technology Co.  Ltd.,Industrials,3501.TW,EQ,TW0003501003
+Long Bon International Co. Ltd,Industrials,2514.TW,EQ,TW0002514007
+Shieh Yih Machinery Industry Co.  Ltd.,Industrials,4533.TWO,EQ,TW0004533005
+Kao Fong Machinery Co.  Ltd,Industrials,4510.TWO,EQ,TW0004510003
+Triocean Industrial Corporation Co.  Ltd.,Industrials,1472.TW,EQ,TW0001472009
+Taoyuan International Airport,Industrials,2601.TW,EQ,TW0002601002
+Cheng Fwa Industrial Co.  Ltd.,Industrials,5426.TWO,EQ,TW0005426001
+Anderson Industrial Corporation,Industrials,1528.TW,EQ,TW0001528008
+Basso Industry Corp.,Industrials,1527.TW,EQ,TW0001527000
+S-Tech Corp.,Industrials,1584.TWO,EQ,TW0001584001
+GeoVision Inc.,Industrials,3356.TW,EQ,TW0003356002
+Mercuries Data Systems Ltd.,Industrials,2427.TW,EQ,TW0002427002
+Honor Seiki Co. Ltd.,Industrials,7709.TWO,EQ,TW0007709008
+China Electric MFG Corp.,Industrials,1611.TW,EQ,TW0001611002
+Tera Autotech Corporation,Industrials,6234.TWO,EQ,TW0006234008
+Globe Union Industrial Corp.,Industrials,9934.TW,EQ,TW0009934000
+Podak Co.  Ltd,Industrials,3537.TWO,EQ,TW0003537007
+SciVision Biotech Inc.,Industrials,1786.TW,EQ,TW0001786002
+Evertop Wire Cable Corporation,Industrials,1616.TW,EQ,TW0001616001
+Leo Systems  Inc.,Industrials,5410.TWO,EQ,TW0005410005
+Quintain Steel Co.  Ltd,Industrials,2017.TW,EQ,TW0002017001
+Tsang Yow Industrial Co.  Ltd.,Industrials,1568.TW,EQ,TW0001568004
+Founding Construction Development Co.  Ltd.,Industrials,5533.TW,EQ,TW0005533004
+Senhwa Biosciences Inc,Industrials,6492.TWO,EQ,TW0006492002
+Chime Ball Technology Co. Ltd.,Industrials,1595.TWO,EQ,TW0001595007
+ATE Energy International Co.  Ltd.,Industrials,6179.TWO,EQ,TW0006179005
+Macauto Industrial Co.  Ltd,Industrials,9951.TWO,EQ,TW0009951004
+Loyalty Founder Enterprise Co.  Ltd.,Industrials,5465.TWO,EQ,TW0005465009
+Coplus Inc.,Industrials,2254.TW,EQ,TW0002254000
+Value Valves Co.  Ltd.,Industrials,4580.TWO,EQ,TW0004580006
+Mobiletron Electronics Co.  Ltd.,Industrials,1533.TW,EQ,TW0001533008
+Ubiqconn Technology  Inc.,Industrials,6928.TW,EQ,TW0006928005
+Silitech Technology Corporation,Industrials,3311.TW,EQ,TW0003311007
+TAIWAN LINE TEK ELECTRONIC CO.  LTD.,Industrials,2462.TW,EQ,TW0002462009
+Chien Shing Harbour Service Co. Ltd.,Industrials,8367.TW,EQ,TW0008367004
+New Best Wire Industrial Co.  Ltd.,Industrials,5013.TWO,EQ,TW0005013007
+Chin Hsin Environ Engineering Co. Ltd.,Industrials,6951.TW,EQ,TW0006951007
+Fu Chun Shin Machinery Manufacture Co.  Ltd.,Industrials,6603.TWO,EQ,TW0006603004
+UVAT Technology Co.  Ltd.,Industrials,3580.TWO,EQ,TW0003580007
+King Polytechnic Engineering Co.  Ltd.,Industrials,6122.TWO,EQ,TW0006122005
+Solteam Incorporation,Industrials,3484.TWO,EQ,TW0003484002
+Lily Textile Co. Ltd.,Industrials,1443.TW,EQ,TW0001443000
+JOCHU Technology Co. Ltd.,Industrials,3543.TW,EQ,TW0003543005
+BioGend Therapeutics Co.  Ltd.,Industrials,6733.TWO,EQ,TW0006733009
+Tait Marketing & Distribution Co.  Ltd.,Industrials,5902.TWO,EQ,TW0005902001
+Chung Lien Co.  Ltd,Industrials,5604.TWO,EQ,TW0005604003
+Y.C.C. Parts Mfg. Co.  Ltd.,Industrials,1339.TW,EQ,TW0001339000
+Up Young Cornerstone Corp.,Industrials,6728.TWO,EQ,TW0006728009
+Pacific Construction Co.  Ltd.,Industrials,2506.TW,EQ,TW0002506003
+Taiwan Environment Scientific Co.  Ltd.,Industrials,8476.TW,EQ,TW0008476003
+Ablerex Electronics Co.  Ltd.,Industrials,3628.TWO,EQ,TW0003628004
+Sunfon Construction Co.  Ltd.,Industrials,5514.TWO,EQ,TW0005514004
+Champion Building Materials Co.  Ltd.,Industrials,1806.TW,EQ,TW0001806008
+Taiwan Chelic Corp. Ltd.,Industrials,4555.TW,EQ,TW0004555008
+Kuen Ling Machinery Refrigerating Co. Ltd.,Industrials,4527.TWO,EQ,TW0004527007
+LFA Co Ltd,Industrials,3226.TWO,EQ,TW0003226007
+Ying Han Technology Co.  Ltd.,Industrials,4562.TW,EQ,TW0004562004
+Copartner Technology Corporation,Industrials,3550.TW,EQ,TW0003550000
+Right Way Industrial Co.  Ltd.,Industrials,1506.TW,EQ,TW0001506004
+Chainqui Construction Development Co.  Ltd.,Industrials,2509.TW,EQ,TW0002509007
+Hotron Precision Electronic Industrial Co. Ltd.,Industrials,3092.TW,EQ,TW0003092003
+New Asia Construction & Development Corp.,Industrials,2516.TW,EQ,TW0002516002
+I JANG INDUSTRIAL CO.  LTD.,Industrials,8342.TWO,EQ,TW0008342007
+Jason Co.  Ltd. (Taiwan),Industrials,4570.TWO,EQ,TW0004570007
+China Container Terminal Corp,Industrials,2613.TW,EQ,TW0002613007
+Tai Tung Communication Co.  Ltd.,Industrials,8011.TW,EQ,TW0008011008
+Gold Rain Enterprises Corp.,Industrials,4503.TWO,EQ,TW0004503008
+Rich Honour International Designs Co.  Ltd.,Industrials,6754.TW,EQ,TW0006754005
+Metatech (Ap) Inc.,Industrials,3224.TWO,EQ,TW0003224002
+Wanshih Electronic Co.  Ltd,Industrials,6134.TWO,EQ,TW0006134000
+Young Shine Electric Co.  Ltd.,Industrials,2249.TWO,EQ,TW0002249000
+Awea Mechantronic Co. Ltd.,Industrials,1530.TW,EQ,TW0001530004
+Kent Industrial Co.  Ltd.,Industrials,6606.TW,EQ,TW0006606007
+Sanitar Co.  Ltd.,Industrials,1817.TW,EQ,TW0001817005
+SYNergy ScienTech Corp.,Industrials,6558.TW,EQ,TW0006558000
+Tech-Top Engineering CO. LTD.,Industrials,6750.TWO,EQ,TW0006750003
+Bright Sheland International Co Ltd,Industrials,4556.TWO,EQ,TW0004556006
+Super Dragon Technology Co.  Ltd,Industrials,9955.TW,EQ,TW0009955005
+GrandTech C.G. Systems  Inc.,Industrials,6123.TWO,EQ,TW0006123003
+Transart Graphics Co.  Ltd. (Taiwan),Industrials,8481.TW,EQ,TW0008481003
+AEWIN Technologies Co.  Ltd.,Industrials,3564.TWO,EQ,TW0003564001
+Golden Bridge Electech Inc.,Industrials,6133.TW,EQ,TW0006133002
+Trinity Precision Technology Co.  Ltd.,Industrials,4534.TWO,EQ,TW0004534003
+Jung Shing Wire Co.  Ltd.,Industrials,1617.TW,EQ,TW0001617009
+Chernan Metal Industrial Corp.,Industrials,3631.TWO,EQ,TW0003631008
+Fortune Information System Corp.,Industrials,2468.TW,EQ,TW0002468006
+Uniforce Technology Corp.,Industrials,7714.TWO,EQ,TW0007714008
+Neo-Neon Holdings Ltd Units Taiwan Depositary Recepits,Industrials,911868.TW,EQ,TW0009118687
+Collins Co.  Ltd.,Industrials,2906.TW,EQ,TW0002906005
+ShareHope Medicine Co.  Ltd.,Industrials,8403.TWO,EQ,TW0008403007
+Min Aik Precision Industrial Co.  Ltd.,Industrials,4545.TW,EQ,TW0004545009
+Howteh Technology Co.  Ltd.,Industrials,3114.TWO,EQ,TW0003114005
+Sumeeko Industries Co.  Ltd.,Industrials,2066.TWO,EQ,TW0002066008
+Tycoons Group Enterprise Co.  Ltd.,Industrials,2022.TW,EQ,TW0002022001
+Ching Chan Optical Technology Co.  Ltd.,Industrials,2070.TWO,EQ,TW0002070000
+Tze Shin International Co.  Ltd.,Industrials,2611.TW,EQ,TW0002611001
+Formosa Electronic Industries Inc.,Industrials,8171.TWO,EQ,TW0008171000
+Changs Ascending Enterprise Co.  Ltd.,Industrials,8038.TWO,EQ,TW0008038001
+GENII IDEAS Co.  Ltd.,Industrials,7631.TW,EQ,TW0007631B19
+Wellpool Co.  Ltd,Industrials,8424.TWO,EQ,TW0008424003
+CX Technology Corporation,Industrials,2415.TW,EQ,TW0002415007
+Pontex Polyblend Co. Ltd.,Industrials,8935.TWO,EQ,TW0008935008
+Jiin Ming Industry Co.  Ltd.,Industrials,3230.TWO,EQ,TW0003230009
+Kenturn Nano Tec Co.  Ltd.,Industrials,4561.TWO,EQ,TW0004561006
+Tradetool Auto Co. Ltd.,Industrials,3685.TWO,EQ,TW0003685004
+Powertech Industrial Co.  Ltd.,Industrials,3296.TW,EQ,TW0003296000
+Space Shuttle Hi-Tech Co. Ltd.,Industrials,2440.TW,EQ,TW0002440005
+Walrus Pump Co Ltd,Industrials,6982.TWO,EQ,TW0006982002
+MacroWell OMG Digital Entertainment Co.  Ltd.,Industrials,3687.TWO,EQ,TW0003687000
+Superior Plating Technology Co.  Ltd.,Industrials,8431.TWO,EQ,TW0008431008
+Kaulin Manufacturing Co. Ltd.,Industrials,1531.TW,EQ,TW0001531002
+Ginar Technology Co.  Ltd.,Industrials,6151.TWO,EQ,TW0006151004
+Soonest Express Co Ltd,Industrials,2643.TWO,EQ,TW0002643004
+Quaser Machine Tools  Inc.,Industrials,4563.TWO,EQ,TW0004563002
+Sinkang Industries Co.  Ltd.,Industrials,2032.TW,EQ,TW0002032000
+Enrestec  Inc.,Industrials,7507.TWO,EQ,TW0007507B10
+King Shing Industrial Co Ltd,Industrials,7732.TW,EQ,TW0007732000
+MedFirst Healthcare Services  Inc. (TW),Industrials,4175.TWO,EQ,TW0004175005
+Falcon Machine Tools Co.  Ltd.,Industrials,4513.TWO,EQ,TW0004513007
+CKM Applied Materials Corp.,Industrials,8930.TWO,EQ,TW0008930009
+Cryomax Cooling System Corp.,Industrials,1587.TW,EQ,TW0001587004
+Sheh Fung Screws Co.  Ltd.,Industrials,2065.TWO,EQ,TW0002065000
+Apex Science & Engineering Corp.,Industrials,3052.TW,EQ,TW0003052007
+Man Zai Industrial Co.  Ltd.,Industrials,4543.TWO,EQ,TW0004543004
+China Fineblanking Technology Co.  Ltd.,Industrials,1586.TWO,EQ,TW0001586006
+Top High Image Corp.,Industrials,3284.TWO,EQ,TW0003284006
+Teco Image Systems Co.  Ltd.,Industrials,5438.TWO,EQ,TW0005438006
+Ecocera Optronics Co.  Ltd.,Industrials,6597.TWO,EQ,TW0006597008
+Taiwan Allied Container Terminal Corp.,Industrials,5601.TWO,EQ,TW0005601009
+Taiwan Pelican Express Co.  Ltd.,Industrials,2642.TW,EQ,TW0002642006
+Baso Precision Optics Ltd.,Industrials,6517.TWO,EQ,TW0006517006
+AFASTOR Corporation,Industrials,6707.TWO,EQ,TW0006707003
+WFE Technology Corp.,Industrials,6474.TWO,EQ,TW0006474000
+Li Hsuan Development & Construction Co.  Ltd.,Industrials,6222.TWO,EQ,TW0006222003
+Ta Yih Industrial Co.  Ltd.,Industrials,1521.TW,EQ,TW0001521003
+Forward Science Corp.,Industrials,7530.TWO,EQ,TW0007530B11
+Microcosm Technology Co.  Ltd.,Industrials,3354.TWO,EQ,TW0003354007
+Everbrite Technology Co.  Ltd.,Industrials,4523.TWO,EQ,TW0004523006
+UHT Unitech Co.  Ltd.,Industrials,6618.TWO,EQ,TW0006618002
+Anti-Microbial Savior BioteQ Co.  Ltd.,Industrials,6864.TWO,EQ,TW0006864002
+Roundtop Machinery Industries Co.  Ltd,Industrials,1540.TW,EQ,TW0001540003
+C.T.I. Traffic Industries Co.  Ltd.,Industrials,2230.TWO,EQ,TW0002230000
+Revivegen Environmental Technology Co.  Ltd.,Industrials,7578.TWO,EQ,TW0007578B14
+CUBTEK Inc.,Industrials,2252.TWO,EQ,TW0002252004
+OFCO Industrial Corporation,Industrials,5011.TWO,EQ,TW0005011001
+Argo Yachts Development Co. Ltd.,Industrials,7566.TWO,EQ,TW0007566B18
+Single Well Industrial Co. Ltd.,Industrials,3490.TWO,EQ,TW0003490009
+Medical Imaging Corp.,Industrials,6637.TWO,EQ,TW0006637002
+Martas Precision Slide Co. Ltd.,Industrials,6705.TWO,EQ,TW0006705007
+Aeontek Co Ltd,Industrials,1599.TWO,EQ,TW0001599009
+C-Tech United Corp.,Industrials,3625.TWO,EQ,TW0003625000
+CVC Technologies  Inc.,Industrials,4744.TWO,EQ,TW0004744008
+Chang Type Industrial Co.  Ltd.,Industrials,1541.TW,EQ,TW0001541001
+Sea & Land Integrated Corp.,Industrials,5603.TWO,EQ,TW0005603005
+Bai Sha Technology Co.  Ltd.,Industrials,8401.TWO,EQ,TW0008401001
+GOMAJI Corp Ltd,Industrials,8472.TWO,EQ,TW0008472002
+Xander International Corp.,Industrials,6118.TWO,EQ,TW0006118003
+Chander Electronics Corp.,Industrials,8068.TWO,EQ,TW0008068008
+Acmepoint Energy Services Co.  Ltd,Industrials,6692.TWO,EQ,TW0006692007
+ABICO NetCom Co.  Ltd.,Industrials,8071.TWO,EQ,TW0008071002
+ADO Optronic Corp.,Industrials,3516.TWO,EQ,TW0003516001
+Rodex Fasteners Corp.,Industrials,5015.TWO,EQ,TW0005015002
+Asec International Corporation,Industrials,6113.TWO,EQ,TW0006113004
+Chen Nan Iron Wire Co. Ltd.,Industrials,2071.TWO,EQ,TW0002071008
+Chih Lien Industrial Co.  Ltd.,Industrials,2024.TW,EQ,TW0002024007
+Sino Tactful Co.  Ltd.,Industrials,5481.TWO,EQ,TW0005481006
+Taiwan Benefit Co.,Industrials,3379.TWO,EQ,TW0003379004
+Ancang Construction Co.  Ltd,Industrials,5548.TWO,EQ,TW0005548002
+Arich Enterprise Co.  Ltd.,Industrials,4173.TWO,EQ,TW0004173000
+Chian Hsing Forging Industrial Co.  Ltd.,Industrials,4528.TWO,EQ,TW0004528005
+U-Neuron Biomedical Inc,Industrials,6973.TWO,EQ,TW0006973001
+Bio Preventive Medicine Corp.,Industrials,6810.TWO,EQ,TW0006810005
+Lung Pien Vacuum Industry Co.  Ltd.,Industrials,5267.TWO,EQ,TW0005267009
+Tidehold Development Co.  Ltd.,Industrials,9902.TW,EQ,TW0009902007
+Sincere Security Corp. Ltd.,Industrials,6721.TWO,EQ,TW0006721004
+Ping Ho Environmental.Technology Co. Ltd.,Industrials,6771.TW,EQ,TW0006771009
+Koge Micro Tech Co.  Ltd.,Industrials,4568.TWO,EQ,TW0004568001
+Chia Ta World Co.  Ltd.,Industrials,2033.TW,EQ,TW0002033008
+Ibase Solution Co.  Ltd,Industrials,6441.TWO,EQ,TW0006441009
+Bestec Power Electronics Co.  Ltd,Industrials,3308.TW,EQ,TW0003308003
+Success Prime Corporation,Industrials,2496.TW,EQ,TW0002496007
+Dimension Computer Technology Co.  Ltd.,Industrials,6140.TWO,EQ,TW0006140007
+Jufan Industrial Co.  Ltd.,Industrials,4584.TWO,EQ,TW0004584008
+Sheh Kai Precision Co.  Ltd.,Industrials,2063.TWO,EQ,TW0002063005
+Compal Broadband Networks  Inc.,Industrials,6674.TW,EQ,TW0006674005
+Forward Graphic Enterprise Co.  Ltd.,Industrials,8906.TWO,EQ,TW0008906009
+Power Win Taiwan Co.  Ltd.,Industrials,7761.TWO,EQ,TW0007761009
+Taihan Precision Technology Co.  Ltd.,Industrials,1336.TWO,EQ,TW0001336006
+JG Environmental Technology Co.  Ltd.,Industrials,6723.TWO,EQ,TW0006723000
+Rossmax International Ltd.,Industrials,4121.TWO,EQ,TW0004121009
+Sunfar Computer Co.  Ltd.,Industrials,6154.TWO,EQ,TW0006154008
+E&E Recycling  Inc.,Industrials,8440.TWO,EQ,TW0008440009
+Jet Optoelectronics Co.  Ltd.,Industrials,2255.TWO,EQ,TW0002255007
+Shinfox Energy Co.  Ltd.,Industrials,6806.TW,EQ,TW0006806003
+Sentronic International Corp.,Industrials,3232.TWO,EQ,TW0003232005
+Chumpower Machinery Corp.,Industrials,4575.TWO,EQ,TW0004575006
+Chiu Ting Machinery Co.  Ltd.,Industrials,1539.TW,EQ,TW0001539005
+Logah Technology Co.  Ltd.,Industrials,3593.TW,EQ,TW0003593000
+Level Biotechnology Inc.,Industrials,3118.TWO,EQ,TW0003118006
+Concord Medical Co Ltd,Industrials,6518.TWO,EQ,TW0006518004
+Ever-Clear Environmental Eng. Corp.,Industrials,6624.TWO,EQ,TW0006624000
+Chang Jia M&E Engineering Corp.,Industrials,4550.TWO,EQ,TW0004550009
+Ant Precision Industry Co.  Ltd,Industrials,3646.TWO,EQ,TW0003646006
+Tons Lightology Inc.,Industrials,4972.TWO,EQ,TW0004972005
+Etrend Hightech Corp.,Industrials,3567.TWO,EQ,TW0003567004
+Honyi Precision Industry Co.  Ltd.,Industrials,4530.TWO,EQ,TW0004530001
+Tayih Kenmos Auto Parts Co.  Ltd.,Industrials,8107.TWO,EQ,TW0008107004
+Nww Manufacturing Co. Ltd.,Industrials,2245.TWO,EQ,TW0002245008
+Yuh Shan Environmental Engineering Co.  Ltd.,Industrials,7715.TWO,EQ,TW0007715005
+Jian Sin Industrial Co.  Ltd.,Industrials,4502.TWO,EQ,TW0004502000
+Powercom Co.  Ltd.,Industrials,3043.TW,EQ,TW0003043006
+Chun Zu Machinery Industry Co.  Ltd.,Industrials,4544.TWO,EQ,TW0004544002
+Mustang Industrial Corp.,Industrials,5460.TWO,EQ,TW0005460000
+Newretail Co Ltd,Industrials,3085.TWO,EQ,TW0003085007
+Shen's Art Printing Co.  Ltd.,Industrials,8921.TWO,EQ,TW0008921008
+BioLASCO Taiwan Co. Ltd.,Industrials,6662.TWO,EQ,TW0006662000
+SHUI-MU International Co.  Ltd.,Industrials,8443.TW,EQ,TW0008443003
+Shanyuan Co.  Ltd.,Industrials,4416.TWO,EQ,TW0004416003
+O'Pay Electronic Payment Co Ltd,Industrials,6878.TWO,EQ,TW0006878002
+Mytrex Health Technologies  Inc.,Industrials,4431.TWO,EQ,TW0004431002
+Jui Li Enterprise Co.  Ltd.,Industrials,1512.TW,EQ,TW0001512002
+BH Global Corporation Ltd Shs Taiwan Depositary Receipts,Industrials,911608.TW,EQ,TW0009116087
+Sun-Sea Construction Corporation,Industrials,5516.TWO,EQ,TW0005516009
+ALFOT Technologies Co.  Ltd.,Industrials,4553.TWO,EQ,TW0004553003
+Antec Inc,Industrials,6276.TWO,EQ,TW0006276009
+Vectorite Biomedical  Inc.,Industrials,4170.TWO,EQ,TW0004170006
+PANCOLOUR INK CO.  LTD.,Industrials,4765.TWO,EQ,TW0004765003
+Unipharma Co.  Ltd.,Industrials,6621.TWO,EQ,TW0006621006
+Electric Power Technology Limited,Industrials,4529.TWO,EQ,TW0004529003
+Taiwan Chi Cheng Enterprise Co.  Ltd.,Industrials,3095.TWO,EQ,TW0003095006
+Tien Li Offshore Wind Technology Co.  Ltd.,Industrials,6793.TWO,EQ,TW0006793003
+Gish International Co.  Ltd.,Industrials,8067.TWO,EQ,TW0008067000
+Astro Corp.,Industrials,3064.TWO,EQ,TW0003064002
+Fluxtek International Corp.,Industrials,7443.TWO,EQ,TW0007443004
+Flashaim  Inc.,Industrials,7551.TWO,EQ,TW0007551B15
+RAYZHER,Industrials,7703.TWO,EQ,TW0007703001
+Jin Lian Cheng Resources Co.  Ltd.,Industrials,7865.TWO,EQ,TW0007865008
+BTL  Inc.,Industrials,6840.TWO,EQ,TW0006840002
+Chyunn Environment Corporation,Industrials,6911.TWO,EQ,TW0006911001
+Tan De Tech Co.  Ltd.,Industrials,6867.TWO,EQ,TW0006867005
+Test Rite Retail Co.  Ltd.,Industrials,7867.TWO,EQ,TW0007867004
+Certain Micro Application Technology Inc,Industrials,7899.TWO,EQ,TW0007899007
+ChenFull Precision Co.  Ltd.,Industrials,6829.TWO,EQ,TW0006829005
+Liying EPTech,Industrials,7820.TWO,EQ,TW0007820003
+Radbon Electronics Co.  Ltd.,Industrials,7893.TWO,EQ,TW0007893000
+ITI International Transportation  Inc.,Industrials,7716.TWO,EQ,TW0007716003
+LPST,Industrials,7907.TWO,EQ,TW0007907008
+Protrade Applied Materials Corp.,Industrials,6972.TWO,EQ,TW0006972003
+AsWater Advanced Envirotech Ltd,Industrials,7857.TWO,EQ,TW0007857005
+WeLeader Biomedical Co. Ltd.,Industrials,7713.TWO,EQ,TW0007713000
+HYP,Industrials,6983.TWO,EQ,TW0006983000
+Techman Robot Inc.,Industrials,4585.TW,EQ,TW0004585005
+RFD Micro Electricity Co.  Ltd,Industrials,6883.TWO,EQ,TW0006883002
+Ofuna Technology Co.  Ltd.,Industrials,4577.TWO,EQ,TW0004577002
+Eternal Precision Mechanics Co.  Ltd.,Industrials,7795.TW,EQ,TW0007795007
+BIONET Therapeutics Corp.,Industrials,7808.TWO,EQ,TW0007808008
+Fullhope Biomedical Co.  Ltd,Industrials,7773.TWO,EQ,TW0007773004
+Horng Yu Electric Co. Ltd.,Industrials,7869.TWO,EQ,TW0007869000
+RiTWIN Corporation,Industrials,7816.TWO,EQ,TW0007816001
+JDV Control Valves Co.  Ltd.,Industrials,6843.TWO,EQ,TW0006843006
+Norbel Baby Co.  Ltd.,Industrials,6844.TWO,EQ,TW0006844004
+Waste Recovery Technology Inc.,Industrials,6894.TWO,EQ,TW0006894009
+Hui Min Environmental Tech Corp.,Industrials,6971.TWO,EQ,TW0006971005
+Recharge Power Co.  Ltd.,Industrials,7921.TWO,EQ,TW0007921009
+Sun Own Industrial Co.  Ltd.,Industrials,2940.TWO,EQ,TW0002940004
+IOVTEC Co.  Ltd.,Industrials,7583.TWO,EQ,TW0007583B17
+Acer Synergy Manpower Corp.,Industrials,7706.TWO,EQ,TW0007706004
+Synbio Tech Inc,Industrials,1295.TWO,EQ,TW0001295004
+Spec Products Corp,Industrials,7718.TWO,EQ,TW0007718009
+AM POWER,Industrials,7792.TWO,EQ,TW0007792004
+Systex Fintech Corp.,Industrials,7819.TWO,EQ,TW0007819005
+Juoku Technology Co.  Ltd.,Industrials,6604.TWO,EQ,TW0006604002
+Microip  Inc.,Industrials,7796.TWO,EQ,TW0007796005
+CLIMAX,Industrials,7689.TWO,EQ,TW0007689B10
+Whetron Electronics Co.  Ltd.,Industrials,6722.TW,EQ,TW0006722002
+Flight International Co. Ltd.,Industrials,6798.TWO,EQ,TW0006798002
+Red Sunrise Co Ltd,Industrials,7745.TWO,EQ,TW0007745002
+Shine Passion Engineering Co.  Ltd.,Industrials,7849.TWO,EQ,TW0007849002
+Nada Holdings Corp,Industrials,7824.TWO,EQ,TW0007824005
+Ruentex Interior Design  Inc.,Industrials,6881.TWO,EQ,TW0006881006
+Teinco Technology Co. Ltd.,Industrials,7877.TWO,EQ,TW0007877003
+Formosa Saint Jose Corp.,Industrials,7764.TWO,EQ,TW0007764003
+Yi Chun Green Technology Co.  Ltd.,Industrials,6912.TWO,EQ,TW0006912009
+Motion Technology Electric & Machinery Co. Ltd.,Industrials,4589.TWO,EQ,TW0004589007
+YE SIANG,Industrials,7909.TWO,EQ,TW0007909004
+Giant,Industrials,7783.TWO,EQ,TW0007783003
+SunWay Biotech Co.  Ltd.,Industrials,1271.TWO,EQ,TW0001271005
+Central Taiwan Science Park Logistics Co. Ltd.,Industrials,7863.TWO,EQ,TW0007863003
+Great Novel Therapeutics Biotech & Medicals Corp.,Industrials,7427.TWO,EQ,TW0007427007
+Eyecare Tech  Inc.,Industrials,7881.TWO,EQ,TW0007881005
+Linkcom Manufacturing Co.  Ltd.,Industrials,6821.TWO,EQ,TW0006821002
+TA TUN ELECTRIC WIRE CABLE CO L,Industrials,1623.TW,EQ,TW0001623007
+Keelgoal Energy Co Ltd,Industrials,7758.TWO,EQ,TW0007758005
+Suregiant Technology Co. Ltd.,Industrials,7669.TWO,EQ,TW0007669B14
+SANTA PHOENIX TECHNOLOGY CO LTD,Industrials,7880.TWO,EQ,TW0007880007
+Syong Shun Metal CO.  Ltd.,Industrials,2073.TWO,EQ,TW0002073004
+WB,Industrials,7744.TWO,EQ,TW0007744005
+ZENITHTEK,Industrials,7912.TWO,EQ,TW0007912008
+Kojem International Co Ltd,Industrials,7886.TWO,EQ,TW0007886004
+Honlynn Co.  Ltd.,Industrials,7885.TWO,EQ,TW0007885006
+ChainSea Information Integrated Co Ltd,Industrials,6898.TWO,EQ,TW0006898000
+Advanced Wireless & Antenna Inc.,Industrials,6818.TWO,EQ,TW0006818008
+Fukuta Electric & Machinery Co. Ltd.,Industrials,4590.TW,EQ,TW0004590005
+NANO ELECTRONICS AND MICRO SYST,Industrials,7730.TW,EQ,TW0007730004
+Cica-Huntek Chemical Technology Taiwan Co.  Ltd.,Industrials,6725.TWO,EQ,TW0006725005
+Bausen Inc.,Industrials,2948.TWO,EQ,TW0002948007
+Chi Yi Hsin Technology Co.  Ltd.,Industrials,7848.TWO,EQ,TW0007848004
+META Green Cooling Technology Co.  Ltd.,Industrials,7892.TWO,EQ,TW0007892002
+Song Chuan Precision Co.  Ltd.,Industrials,7788.TW,EQ,TW0007788002
+Dong Fang Offshore Co.  Ltd.,Industrials,7786.TW,EQ,TW0007786006
+Chyi Ding Technologies Co. Ltd.,Industrials,6849.TWO,EQ,TW0006849003
+Innostar Service  Inc.,Industrials,7828.TWO,EQ,TW0007828006
+Jollify Creative Ltd.,Industrials,7748.TWO,EQ,TW0007748006
+AcerPure  Inc.,Industrials,7794.TWO,EQ,TW0007794000
+Advanced Material Systems Corp,Industrials,7879.TWO,EQ,TW0007879009
+Jong Shyn Shipbuilding Co.  Ltd.,Industrials,2644.TWO,EQ,TW0002644002
+DLI Memory  Inc.,Industrials,7866.TWO,EQ,TW0007866006
+CARILEX MEDICAL INC.,Industrials,7726.TWO,EQ,TW0007726002
+BizLink Holding Inc.,Industrials,3665.TW,EQ,
+Airtac International Group,Industrials,1590.TW,EQ,
+Advanced Energy Solution Holding Co.  Ltd.,Industrials,6781.TW,EQ,
+Wisdom Marine Lines Co.  Limited (Cayman),Industrials,2637.TW,EQ,
+Khgears International Limited,Industrials,4571.TW,EQ,
+Eurocharm Holdings Co.  Ltd.,Industrials,5288.TW,EQ,
+Patec Precision Industry Co.  Ltd.,Industrials,2236.TW,EQ,
+Lemtech Holdings Co.  Limited,Industrials,4912.TW,EQ,
+Sixxon Tech. Co.  Ltd.,Industrials,4569.TW,EQ,

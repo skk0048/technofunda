@@ -430,7 +430,7 @@ _SUFFIX_MAP = {
     # UK
     ".L":  "LSE",
     # Germany
-    ".DE": "XETRA",  ".F": "FWB",
+    ".DE": "XETR",  ".F": "FWB",      # TV uses XETR (not XETRA) for Xetra
     # France / Netherlands (Euronext)
     ".PA": "EURONEXT",  ".AS": "EURONEXT",
     # Spain
@@ -438,9 +438,9 @@ _SUFFIX_MAP = {
     # Italy
     ".MI": "MIL",
     # Sweden / Nordics
-    ".ST": "OMX",
+    ".ST": "OMXSTO",                   # TV uses OMXSTO (not OMX) for Stockholm
     # Switzerland
-    ".SW": "SWX",
+    ".SW": "SIX",                      # TV uses SIX (not SWX) for SIX Swiss Exchange
     # Canada
     ".TO": "TSX",  ".V": "TSXV",
     # Brazil
@@ -450,7 +450,7 @@ _SUFFIX_MAP = {
     # Thailand
     ".BK": "SET",
     # Malaysia
-    ".KL": "KLSE",
+    ".KL": "MYX",                      # TV uses MYX (not KLSE) for Bursa Malaysia
     # South Africa
     ".JO": "JSE",
     # Poland
@@ -501,7 +501,7 @@ _MARKET_EXCHANGE = {
     "USA":   "",            # US: bare symbol; TV resolves it natively
     "US":    "",            # market_usa_html passes "US" — same as USA
     "UK":    "LSE",
-    "DE":    "XETRA",
+    "DE":    "XETR",
     "JP":    "TSE",
     "CN":    "SSE",
     "HK":    "HKEX",
@@ -513,19 +513,19 @@ _MARKET_EXCHANGE = {
     "BR":    "BMFBOVESPA",
     "SG":    "SGX",
     "TH":    "SET",
-    "MY":    "KLSE",
+    "MY":    "MYX",
     "ZA":    "JSE",
     "PL":    "GPW",
     "TR":    "BIST",
     "AE":    "DFM",         # UAE default → Dubai Financial Market
     "ID":    "IDX",
     "MX":    "BMV",
-    "CH":    "SWX",
+    "CH":    "SIX",
     "FR":    "EURONEXT",
     "ES":    "BME",
     "IT":    "MIL",
     "NL":    "EURONEXT",
-    "SE":    "OMX",
+    "SE":    "OMXSTO",
 }
 
 
@@ -569,8 +569,17 @@ def _tv_link(sym, market=None):
 
     tv  = (exch + "%3A" + base) if exch else base
     url = "https://www.tradingview.com/chart/?symbol=" + tv
+
+    # Preview override: NSE symbols don't render in TradingView's free
+    # widgetembed (hover preview), but the SAME ticker on BSE does. So show the
+    # BSE listing in the hover preview while keeping NSE for the click-through
+    # chart (which is the better/primary chart). data-tv-preview is read by the
+    # hover JS; when absent the hover falls back to data-tv.
+    preview_attr = f' data-tv-preview="BSE%3A{base}"' if exch == "NSE" else ""
+
     return (f'<a href="{url}" target="_blank" rel="noopener" '
-            f'class="tv-link" data-tv="{tv}" title="Open {base} in TradingView">{base}</a>')
+            f'class="tv-link" data-tv="{tv}"{preview_attr} '
+            f'title="Open {base} in TradingView">{base}</a>')
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -582,12 +591,48 @@ _LEFT_COLS = {"symbol","company","name","sector","industry","country","region",
               "commodity","group","chart_pattern","setup_desc","strategy","notes",
               "signal_type","trend","signal_label","etf"}
 
+# Identity columns that stay visible across every mobile column-set toggle.
+_GRP_PIN = {"symbol","company","name","price","chg_1d%","signal_label",
+            "country","commodity","etf","rank"}
+
+
+def _auto_group_map(cols):
+    """Classify each column into pin / analysis / tech / fin by name, so the mobile
+       column-set toggle works on any table without per-table column lists.
+       Order matters: 'score' columns and fundamentals are claimed before the
+       generic technical/analysis keyword sweeps."""
+    gm = {}
+    for c in cols:
+        cl = c.lower().strip()
+        if cl in _GRP_PIN:
+            gm[cl] = "pin"
+        elif "score" in cl:                                            # *_Score → analysis
+            gm[cl] = "analysis"
+        elif any(k in cl for k in ("sales","pat_","roe","d/e","p/e","eps",
+                                   "mkt_cap","margin","dividend","book","p/b")):
+            gm[cl] = "fin"
+        elif any(k in cl for k in ("rsi","trend","sma","52w","rel_vol","sl_",
+                                   "supertrend","breakout","mst_signal","lst_signal",
+                                   "rs30","atr","abv_","pattern","macd","adx")):
+            gm[cl] = "tech"
+        elif any(k in cl for k in ("rs_","_rs","w_rs","rs%","sec_","sector","industry",
+                                   "region","group","enhanced","signal","1m%","3m%",
+                                   "6m%","12m%","1w%","mom","benchmark")):
+            gm[cl] = "analysis"
+        else:
+            gm[cl] = "pin"          # unknown → always visible (safe default)
+    return gm
+
 
 def _build_table(df, table_id, searchable=True, max_rows=2000, pct_mode=None, no_bg=False,
-                 link_cols=("symbol",), link_market=None):
+                 link_cols=("symbol",), link_market=None, groups=False,
+                 group_default="analysis"):
     """link_cols: header names (lowercase) whose cells become TradingView links.
        link_market: market code passed to _tv_link (e.g. 'US' for global ETF/commodity
-       tables so US-listed tickers aren't prefixed with the page's home exchange)."""
+       tables so US-listed tickers aren't prefixed with the page's home exchange).
+       groups: when True, enable the mobile column-set toggle (chips appear only
+       ≤640px; columns auto-classified by _auto_group_map). group_default: the group
+       shown first on phones."""
     if df is None or df.empty:
         return '<p class="empty">No data available.</p>'
     df = df.head(max_rows).copy()
@@ -606,34 +651,70 @@ def _build_table(df, table_id, searchable=True, max_rows=2000, pct_mode=None, no
             df[col] = df[col].map(lambda v: _remap_signal(v, _SUB_SIG_DISPLAY))
 
     cols = [c for c in df.columns if c.lower().strip() not in _SKIP_COLS]
+
+    # ── Column-group classes (mobile column-set toggle) ─────────────────────
+    # Active only when groups=True, so every other table renders byte-for-byte
+    # as before (no size cost across the 28 pages).
+    group_map = _auto_group_map(cols) if groups else None
+    freeze_col = None
+    if group_map:
+        freeze_col = next((c for c in cols
+                           if group_map.get(c.lower().strip()) == "pin"),
+                          cols[0] if cols else None)
+    def _grp_cls(c):
+        if not group_map:
+            return ""
+        extra = " col-sym" if c == freeze_col else ""
+        return f" gcol g-{group_map.get(c.lower().strip(), 'pin')}{extra}"
+    gcls = [_grp_cls(c) for c in cols]
+
+    def _cls_attr(base, gc):
+        full = (base + gc).strip()
+        return f' class="{full}"' if full else ""
+
     ths = "".join(
-        f'<th style="text-align:{"left" if c.lower() in _LEFT_COLS else "center"}"'
+        f'<th{_cls_attr("", gc)} style="text-align:{"left" if c.lower() in _LEFT_COLS else "center"}"'
         f'{_col_tip(c)} onclick="sortTable(this)">{c}</th>'
-        for c in cols
+        for c, gc in zip(cols, gcls)
     )
     rows_html = ""
     for _, row in df.iterrows():
         tds = ""
-        for c in cols:
+        for c, gc in zip(cols, gcls):
             val = row[c]; cls = _cell_class(c, val, pct_mode, no_bg=no_bg)
             display = (_tv_link(val, link_market) if c.lower().strip() in link_cols
                        else _fmt(val))
             align = "left" if c.lower() in _LEFT_COLS else "center"
-            ca = f' class="{cls}"' if cls else ""
+            ca = _cls_attr(cls, gc)
             tds += f'<td{ca} style="text-align:{align}">{display}</td>'
         rows_html += f"<tr>{tds}</tr>"
     col_filter = ""
     if searchable:
         cfs = "".join(
-            f'<th><input class="cf" data-col="{i}" '
+            f'<th{_cls_attr("", gcls[i])}><input class="cf" data-col="{i}" '
             f'title="Filter: &gt;15  &lt;40  &gt;=60  10-20  or text" '
             f'oninput="filterColumn(this,\'{table_id}\')" placeholder="🔍"></th>'
             for i in range(len(cols))
         )
         col_filter = f'<tr class="col-filter">{cfs}</tr>'
+    chips = ""
+    if group_map:
+        present = {group_map[c.lower().strip()] for c in cols}
+        if present - {"pin"}:          # at least one collapsible group exists
+            defs  = [("analysis", "Analysis"), ("tech", "Technical"), ("fin", "Finance")]
+            avail = [(g, lbl) for g, lbl in defs if g in present]
+            gd    = group_default if group_default in present else avail[0][0]
+            _chip = lambda g, lbl, act="": (
+                f'<button class="grp-chip {act}" data-grp="{g}" '
+                f'onclick="setGroup(\'{table_id}\',\'{g}\',this)">{lbl}</button>')
+            chips = (f'<div class="grp-chips" data-for="{table_id}" data-default="{gd}">'
+                     f'<span class="grp-chips-lbl">Columns:</span>'
+                     + _chip("all", "All", "active")
+                     + "".join(_chip(g, lbl) for g, lbl in avail)
+                     + '</div>')
     search = (f'<div class="tbl-search"><input type="text" placeholder="🔍 Filter all columns…  (per-column accepts &gt;15, &lt;40, 10-20)"'
               f' data-global-for="{table_id}" oninput="filterTable(this,\'{table_id}\')"></div>') if searchable else ""
-    return (f'{search}<div class="tbl-wrap"><table id="{table_id}" class="data-tbl">'
+    return (f'{search}{chips}<div class="tbl-wrap"><table id="{table_id}" class="data-tbl">'
             f'<thead><tr>{ths}</tr>{col_filter}</thead><tbody>{rows_html}</tbody></table></div>'
             f'<p class="row-count" id="{table_id}-count">{len(df)} rows</p>')
 
@@ -1434,6 +1515,15 @@ table.data-tbl{border-collapse:collapse;width:100%;font-size:12px;min-width:400p
 .copy-btn.sm{padding:3px 8px;font-size:11px;margin-top:6px;}
 .copy-btn.copied{background:#16a34a;border-color:var(--green);color:#fff;}
 .empty{color:var(--text3);font-size:13px;padding:20px 0;text-align:center;}
+/* ── Mobile column-set toggle (chips hidden on desktop) ─────────────────── */
+.grp-chips{display:none;align-items:center;gap:6px;margin-bottom:8px;flex-wrap:wrap;}
+.grp-chips-lbl{font-size:11px;color:var(--text3);text-transform:uppercase;letter-spacing:.04em;}
+.grp-chip{padding:5px 12px;border-radius:6px;font-size:12px;border:1px solid var(--border);
+  background:transparent;color:var(--text2);cursor:pointer;transition:all .15s;}
+.grp-chip.active{background:var(--accent);color:#fff;border-color:var(--accent);}
+table.data-tbl.gv-analysis .gcol:not(.g-pin):not(.g-analysis),
+table.data-tbl.gv-tech     .gcol:not(.g-pin):not(.g-tech),
+table.data-tbl.gv-fin      .gcol:not(.g-pin):not(.g-fin){display:none;}
 @media(max-width:640px){
   .sec-row{grid-template-columns:20px 1fr 44px 44px;}.sec-bar-wrap,.sec-rs55,.sec-rsi{display:none;}
   .opp-cards{grid-template-columns:1fr;}
@@ -1442,6 +1532,15 @@ table.data-tbl{border-collapse:collapse;width:100%;font-size:12px;min-width:400p
   .dash-row{grid-template-columns:1fr;}
   .hc-grid{grid-template-columns:repeat(4,1fr);}
   .sleeve-global-ctrl{flex-direction:column;align-items:flex-start;}
+  /* Column-set chips become visible only on phones; pin the Symbol column so it
+     stays on-screen while the remaining columns scroll. The frozen column must
+     look identical to its neighbours — no special colour, font or shadow. The
+     header keeps the thead styling it already has; body cells only get an opaque
+     fill matching the row stripe so scrolling content can't show through. */
+  .grp-chips{display:flex;}
+  table.data-tbl th.col-sym,table.data-tbl td.col-sym{position:sticky;left:0;z-index:3;}
+  .data-tbl tbody td.col-sym{background:var(--bg);}
+  .data-tbl tbody tr:nth-child(even) td.col-sym{background:var(--bg3);}
 }
 /* ── #8 Header controls: theme selector + font scaling ────────────────── */
 .hdr-controls{display:flex;align-items:center;gap:8px;flex-wrap:wrap;justify-content:flex-end;}
@@ -1853,6 +1952,28 @@ function toggleView(sid,mode){
   if(cv)cv.style.display=mode==='cards'?'':'none';
   if(tv)tv.style.display=mode==='table'?'':'none';
 }
+
+/* ── Mobile column-set toggle ──────────────────────────────────────────────
+   Adds/removes a gv-<group> class on the table; CSS hides columns not in the
+   active group. Pinned columns and column indices are untouched, so sort and
+   per-column filters keep working unchanged. */
+function setGroup(tid,grp,btn){
+  const t=document.getElementById(tid); if(!t)return;
+  t.classList.remove('gv-analysis','gv-tech','gv-fin');
+  if(grp!=='all') t.classList.add('gv-'+grp);
+  const bar=btn.closest('.grp-chips');
+  if(bar) bar.querySelectorAll('.grp-chip').forEach(b=>b.classList.toggle('active',b===btn));
+}
+function _initGroups(){
+  if(!window.matchMedia('(max-width:640px)').matches) return;  // desktop: show all
+  document.querySelectorAll('.grp-chips').forEach(bar=>{
+    const tid=bar.getAttribute('data-for');
+    const def=bar.getAttribute('data-default')||'analysis';
+    const btn=bar.querySelector('.grp-chip[data-grp="'+def+'"]');
+    if(btn) setGroup(tid,def,btn);
+  });
+}
+document.addEventListener('DOMContentLoaded',_initGroups);
 
 /* ── SLEEVE CALCULATOR ─────────────────────────────────────────────────────
    Formula:  Qty = floor( (Capital × Risk%) / (Price × effective_SL%) )
@@ -2367,7 +2488,7 @@ function _tvAttachHovers(){
     el.dataset.tvBound = '1';
     el.addEventListener('mouseenter', e => {
       clearTimeout(_tvHideTimer);
-      _tvShow(el.dataset.tv, el.textContent.trim(), e.clientX, e.clientY);
+      _tvShow(el.dataset.tvPreview || el.dataset.tv, el.textContent.trim(), e.clientX, e.clientY);
     });
     el.addEventListener('mousemove', e => _tvMove(e.clientX, e.clientY));
     el.addEventListener('mouseleave', _tvHide);
@@ -2926,8 +3047,8 @@ def build_html_report(
     _sec_rs_col = f"Sec_RS{primary_rs}d%"
     _opp_lead = ["Sec_Rank", "Sector", "Sec_Signal", "Rank", "Symbol", "Company",
                  "Price", "Chg_1D%", _sec_rs_col, "RS_22d_Idx%"]
-    opp_table  = _build_table(_reorder_leading(top_buy_df,  _opp_lead), "tbl-opp-table", no_bg=True)
-    sell_table = _build_table(_reorder_leading(top_sell_df, _opp_lead), "tbl-sell",      no_bg=True)
+    opp_table  = _build_table(_reorder_leading(top_buy_df,  _opp_lead), "tbl-opp-table", no_bg=True, groups=True)
+    sell_table = _build_table(_reorder_leading(top_sell_df, _opp_lead), "tbl-sell",      no_bg=True, groups=True)
     opp_content = (
         _toggle("vt-opp", "table") +
         _OPP_PANEL +
@@ -3043,7 +3164,8 @@ def build_html_report(
     <button class="copy-btn sm" onclick="exportTableCSV('tbl-stocks')" title="Download CSV" style="display:none">⬇ CSV</button>
   </div>
 </div>'''
-    stock_content = _STOCK_PANEL + _stock_toolbar + _build_table(stock_main, "tbl-stocks", max_rows=500, no_bg=True)
+    stock_content = _STOCK_PANEL + _stock_toolbar + _build_table(
+        stock_main, "tbl-stocks", max_rows=500, no_bg=True, groups=True)
 
     # ── Patterns: enforce a hard recency cap (request #8). Keep only setups
     #    whose Date is within the last PATTERN_RECENT_DAYS days. Rows without a
@@ -3067,11 +3189,11 @@ def build_html_report(
     # market="US" so they aren't prefixed with the page's home exchange (#5).
     global_content = (
         '<h2 class="sec-title">🌍 Country ETFs (RS vs SPY)</h2>' +
-        _build_table(country_etf_df, "tbl-etfs", no_bg=True,
-                     link_cols=("etf",), link_market="US") +
+        _build_table(_reorder_leading(country_etf_df, ["Country"]), "tbl-etfs", no_bg=True,
+                     link_cols=("etf",), link_market="US", groups=True) +
         '<h2 class="sec-title">🏅 Commodities (RS vs GLD)</h2>' +
-        _build_table(commodity_df, "tbl-commod", no_bg=True,
-                     link_cols=("etf",), link_market="US")
+        _build_table(_reorder_leading(commodity_df, ["Commodity"]), "tbl-commod", no_bg=True,
+                     link_cols=("etf",), link_market="US", groups=True)
     )
 
     sleeves_content = _build_sleeve_tables(sleeve_df, market)

@@ -1,34 +1,32 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-Kansai Electric Power Company Incorporated,Utilities,9503.T,EQ,
-Osaka Gas Co. Ltd.,Utilities,9532.T,EQ,
-Chubu Electric Power Company Incorporated,Utilities,9502.T,EQ,
-TOKYO GAS Co. Ltd.,Utilities,9531.T,EQ,
-Hikari Tsushin Inc.,Utilities,9435.T,EQ,
-YTL Corp Bhd.,Utilities,1773.T,EQ,
-Tokyo Electric Power Company Holdings Incorporated,Utilities,9501.T,EQ,
-Kyushu Electric Power Company Incorporated,Utilities,9508.T,EQ,
-Electric Power Development Co. Ltd.,Utilities,9513.T,EQ,
-Tohoku Electric Power Company Incorporated,Utilities,9506.T,EQ,
-TOHO GAS Co. Ltd.,Utilities,9533.T,EQ,
-Chugoku Electric Power Co. Inc.,Utilities,9504.T,EQ,
-NIPPON GAS Co. Ltd.,Utilities,8174.T,EQ,
-Shikoku Electric Power Company Incorporated,Utilities,9507.T,EQ,
-Hokkaido Electric Power Company Incorporated,Utilities,9509.T,EQ,
-Hokuriku Electric Power Company,Utilities,9505.T,EQ,
-Kasumigaseki Capital Co. Ltd.,Utilities,3498.T,EQ,
-Tokai Holdings Corporation,Utilities,3167.T,EQ,
-K&O Energy Group Inc.,Utilities,1663.T,EQ,
-West Holdings Corporation,Utilities,1407.T,EQ,
-RENOVA Inc.,Utilities,9519.T,EQ,
-SHIZUOKA GAS CO. LTD.,Utilities,9543.T,EQ,
-SAIBU GAS HOLDINGS CO. LTD.,Utilities,9536.T,EQ,
-TESS Holdings Co. Ltd.,Utilities,5074.T,EQ,
-Hokkaido Gas Co. Ltd.,Utilities,9534.T,EQ,
-Sala Corporation,Utilities,2734.T,EQ,
-eREX Co. Ltd.,Utilities,9517.T,EQ,
-Okinawa Electric Power Co. Inc.,Utilities,9511.T,EQ,
-Hiroshima Gas Co. Ltd.,Utilities,9535.T,EQ,
-FULUHASHI EPO CORPORATION,Utilities,9221.T,EQ,
-EF-ON Inc.,Utilities,9514.T,EQ,
-HOPE Inc. (Japan),Utilities,6195.T,EQ,
-ASTMAX Co. Ltd. (7162),Utilities,7162.T,EQ,
+Kansai Electric Power Co. Inc.,Utilities,9503.T,EQ,JP3228600007
+Osaka Gas Co. Ltd.,Utilities,9532.T,EQ,JP3180400008
+Chubu Electric Power Co. Inc.,Utilities,9502.T,EQ,JP3526600006
+Tokyo Gas Co. Ltd.,Utilities,9531.T,EQ,JP3573000001
+Tokyo Electric Power Company Holdings Inc.,Utilities,9501.T,EQ,JP3585800000
+Kyushu Electric Power Company Incorporated,Utilities,9508.T,EQ,JP3246400000
+Electric Power Development Co.  Ltd.,Utilities,9513.T,EQ,JP3551200003
+Tohoku Electric Power Company  Incorporated,Utilities,9506.T,EQ,JP3605400005
+TOHO GAS Co.  Ltd.,Utilities,9533.T,EQ,JP3600200004
+Chugoku Electric Power Co.  Inc.,Utilities,9504.T,EQ,JP3522200009
+NIPPON GAS Co.  Ltd.,Utilities,8174.T,EQ,JP3695600001
+Shikoku Electric Power Company  Incorporated,Utilities,9507.T,EQ,JP3350800003
+Hokkaido Electric Power Company Incorporated,Utilities,9509.T,EQ,JP3850200001
+Hokuriku Electric Power Company,Utilities,9505.T,EQ,JP3845400005
+Tokai Holdings Corporation,Utilities,3167.T,EQ,JP3552260006
+Kasumigaseki Capital Co.  Ltd.,Utilities,3498.T,EQ,JP3211050004
+K&O Energy Group  Inc.,Utilities,1663.T,EQ,JP3277020008
+SHIZUOKA GAS CO. LTD.,Utilities,9543.T,EQ,JP3351150002
+West Holdings Corporation,Utilities,1407.T,EQ,JP3154750008
+SAIBU GAS HOLDINGS CO. LTD.,Utilities,9536.T,EQ,JP3311600005
+RENOVA  Inc.,Utilities,9519.T,EQ,JP3981200003
+Hokkaido Gas Co.  Ltd.,Utilities,9534.T,EQ,JP3847000001
+Sala Corporation,Utilities,2734.T,EQ,JP3310350008
+eREX Co.  Ltd.,Utilities,9517.T,EQ,JP3130830007
+TESS Holdings Co.  Ltd.,Utilities,5074.T,EQ,JP3545270005
+Okinawa Electric Power Co.  Inc.,Utilities,9511.T,EQ,JP3194700005
+Hiroshima Gas Co.  Ltd.,Utilities,9535.T,EQ,JP3796200008
+FULUHASHI EPO CORPORATION,Utilities,9221.T,EQ,JP3828600001
+EF-ON  Inc.,Utilities,9514.T,EQ,JP3802140008
+ASTMAX Co.  Ltd. (7162),Utilities,7162.T,EQ,JP3120080001
+HOPE  Inc. (Japan),Utilities,6195.T,EQ,JP3837640006

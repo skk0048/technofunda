@@ -176,7 +176,8 @@ def load_uk_universe():
     df["Yahoo"]    = df["Symbol"] # + ".L"          # FTSE tickers need .L suffix
     df["Company"]  = df.get("Company Name", df["Symbol"])
     df["Industry"] = df.get("Industry", "").fillna("").str.strip()
-    df["Sector"]   = df["Industry"].map(UK_INDUSTRY_TO_SECTOR).fillna("Other")
+    df["Sector"]   = df["Industry"].map(UK_INDUSTRY_TO_SECTOR).fillna(df["Industry"])
+    df["Sector"]   = df["Sector"].replace("", "Other").fillna("Other")
 
     print(f"  ✅ UK Universe: {len(df)} stocks loaded")
     return df.reset_index(drop=True)

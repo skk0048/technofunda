@@ -1,32 +1,38 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-BCE Inc. Floating Rate Cum Red 1st Pfd Registered Series AH,Communication Services,BCE-PR-H.TO,EQ,CA05534B7299
-BCE Inc. Cum Red 1st Pfd Series R,Communication Services,BCE-PR-R.TO,EQ,CA05534B7034
-BCE Inc. Floating Rate Pfd Series AE,Communication Services,BCE-PR-E.TO,EQ,CA05534B7521
-BCE Inc. Cum Red Pfd Series Z,Communication Services,BCE-PR-Z.TO,EQ,CA05534B8289
-BCE Inc. Pfd Registered Series AF,Communication Services,BCE-PR-F.TO,EQ,CA05534B7455
-BCE Inc. Cum Red 1St Pfd Series Y Fltg Rt,Communication Services,BCE-PR-Y.TO,EQ,CA05534B8511
-BCE Inc. Cum Red 1st Pfd Shs Series AQ,Communication Services,BCE-PR-Q.TO,EQ,CA05534B5962
+Space Exploration Technologies Corp. Shs Sponsored Canadian Depository Receipt Hedged Reg S,Communication Services,SPCX.TO,EQ,CA8459291081
+SoftBank Group Corp. Sponsored Canadian Depository Receipt Hedged Reg S,Communication Services,SFTB.NE,EQ,CA83390C1077
+T-Mobile US  Inc. Shs Sponsored Canadian Depository Receipt Hedged Reg S,Communication Services,TMUS.TO,EQ,CA87269F1099
+Verizon Communications Inc. Shs -CAD hedged- Canadian Depositary Receipt Repr Shs Reg S,Communication Services,VZ.TO,EQ,CA92347P1036
+Deutsche Telekom AG Shs Sponsored Canadian Depository Receipt Hedged Reg S,Communication Services,DTEL.NE,EQ,CA2519341051
+BCE Inc. Cum Red 1st Pfd Registered Series AK,Communication Services,BCE.PR.K.TO,EQ,CA05534B6796
+BCE Inc. Floating Rate Cum Red 1st Pfd Registered Series AB,Communication Services,BCE.PR.B.TO,EQ,CA05534B6952
+BCE Inc. Floating Rate Pfd Series AE,Communication Services,BCE.PR.E.TO,EQ,CA05534B7521
+BCE Inc. Pfd Registered Series AF,Communication Services,BCE.PR.F.TO,EQ,CA05534B7455
+BCE Inc. Floating Rate Cum Red 1st Pfd Registered Series AH,Communication Services,BCE.PR.H.TO,EQ,CA05534B7299
+BCE Inc. 1St Pfd Series AA,Communication Services,BCE.PR.A.TO,EQ,CA05534B7943
+BCE Inc. Cum Conv Red Pfd Registered Series T,Communication Services,BCE.PR.T.TO,EQ,CA05534B8107
+BCE Inc. Pfd Registered Series AD,Communication Services,BCE.PR.D.TO,EQ,CA05534B6879
+BCE Inc. Cum Red Pfd Shs Series -AL- Fltg Rt,Communication Services,BCE.PR.L.TO,EQ,CA05534B6614
+BCE Inc. Cum Red 1st Pfd Shs Series AQ,Communication Services,BCE.PR.Q.TO,EQ,CA05534B5962
+BCE Inc. Cum Red Pfd Series AG,Communication Services,BCE.PR.G.TO,EQ,CA05534B7372
+BCE Inc. Cum Red 1St Pfd Series Y Fltg Rt,Communication Services,BCE.PR.Y.TO,EQ,CA05534B8511
+BCE Inc. Floating Rate Cum Red Pfd Registered Series AJ,Communication Services,BCE.PR.J.TO,EQ,CA05534B6531
 BCE Inc.,Communication Services,BCE.TO,EQ,CA05534B7604
-BCE Inc. Cum Red Pfd Shs Series -AL- Fltg Rt,Communication Services,BCE-PR-L.TO,EQ,CA05534B6614
-BCE Inc. Pfd Registered Series AD,Communication Services,BCE-PR-D.TO,EQ,CA05534B6879
-BCE Inc. Cum Red 1st Pfd Shs Series AM,Communication Services,BCE-PR-M.TO,EQ,CA05534B6465
-BCE Inc. Cum Red Pfd Series AG,Communication Services,BCE-PR-G.TO,EQ,CA05534B7372
-BCE Inc. Cum Conv Red Pfd Registered Series T,Communication Services,BCE-PR-T.TO,EQ,CA05534B8107
-BCE Inc. 1St Pfd Series AA,Communication Services,BCE-PR-A.TO,EQ,CA05534B7943
-BCE Inc. Cum Red 1st Pfd Registered Series AK,Communication Services,BCE-PR-K.TO,EQ,CA05534B6796
-BCE Inc. Floating Rate Cum Red Pfd Registered Series AJ,Communication Services,BCE-PR-J.TO,EQ,CA05534B6531
-BCE Inc. Floating Rate Cum Red 1st Pfd Registered Series AB,Communication Services,BCE-PR-B.TO,EQ,CA05534B6952
-BCE Inc. Cum Red Pfd Series AI,Communication Services,BCE-PR-I.TO,EQ,CA05534B7117
-BCE Inc. Cum Red 1st Pfd Series S,Communication Services,BCE-PR-S.TO,EQ,CA05534B8693
-BCE Inc. Cum Conv Red 1st Pfd Series AC,Communication Services,BCE-PR-C.TO,EQ,CA05534B7869
-Rogers Communications Inc. Class A,Communication Services,RCI-A.TO,EQ,CA7751091017
-Rogers Communications Inc. Class B,Communication Services,RCI-B.TO,EQ,CA7751092007
-TELUS Corporation,Communication Services,T.TO,EQ,CA87971M1032
-Quebecor Inc. Class A,Communication Services,QBR-A.TO,EQ,CA7481931094
-Quebecor Inc. Class B,Communication Services,QBR-B.TO,EQ,CA7481932084
+BCE Inc. Cum Red Pfd Series Z,Communication Services,BCE.PR.Z.TO,EQ,CA05534B8289
+BCE Inc. Cum Red 1st Pfd Series S,Communication Services,BCE.PR.S.TO,EQ,CA05534B8693
+BCE Inc. Cum Red Pfd Series AI,Communication Services,BCE.PR.I.TO,EQ,CA05534B7117
+BCE Inc. Cum Conv Red 1st Pfd Series AC,Communication Services,BCE.PR.C.TO,EQ,CA05534B7869
+BCE Inc. Cum Red 1st Pfd Shs Series AM,Communication Services,BCE.PR.M.TO,EQ,CA05534B6465
+BCE Inc. Cum Red 1st Pfd Series R,Communication Services,BCE.PR.R.TO,EQ,CA05534B7034
+Rogers Communications Inc. Class A,Communication Services,RCI.A.TO,EQ,CA7751091017
+Rogers Communications Inc. Class B,Communication Services,RCI.B.TO,EQ,CA7751092007
+Telus Corporation,Communication Services,T.TO,EQ,CA87971M1032
+Quebecor Inc. Class B,Communication Services,QBR.B.TO,EQ,CA7481932084
+Quebecor Inc. Class A,Communication Services,QBR.A.TO,EQ,CA7481931094
+Cogeco Communications Inc.,Communication Services,CCA.TO,EQ,CA19239C1068
 Telesat Corp.,Communication Services,TSAT.TO,EQ,CA8795123097
 Cogeco Inc.,Communication Services,CGO.TO,EQ,CA19238T1003
 TeraGo Inc.,Communication Services,TGO.TO,EQ,CA88079F1071
-Baylin Technologies Inc.,Communication Services,BYL.TO,EQ,CA0728191051
+Baylin Technologies  Inc.,Communication Services,BYL.TO,EQ,CA0728191051
 Uniserve Communications Corporation,Communication Services,USS.V,EQ,CA9091726039
-GINSMS Inc.,Communication Services,GOK.V,EQ,CA37611E1025
+GINSMS  Inc.,Communication Services,GOK.V,EQ,CA37611E1025

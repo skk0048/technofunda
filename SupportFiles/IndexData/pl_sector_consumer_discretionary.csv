@@ -1,7 +1,87 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-LPP,Consumer Discretionary,LPP.WA,EQ,
-Pepco Group,Consumer Discretionary,PCO.WA,EQ,
-Benefit Systems,Consumer Discretionary,BFT.WA,EQ,
-Auto Partner,Consumer Discretionary,APR.WA,EQ,
-Amica,Consumer Discretionary,AMC.WA,EQ,
-Inter Cars,Consumer Discretionary,CAR.WA,EQ,
+LPP,Consumer Discretionary,LPP.WA,EQ,PLLPP0000011
+Benefit Systems,Consumer Discretionary,BFT.WA,EQ,PLBNFTS00018
+Inter Cars,Consumer Discretionary,CAR.WA,EQ,PLINTCS00010
+Modivo S.A.,Consumer Discretionary,MDV.WA,EQ,PLCCC0000016
+Auto Partner,Consumer Discretionary,APR.WA,EQ,PLATPRT00018
+Rainbow Tours S.A.,Consumer Discretionary,RBW.WA,EQ,PLRNBWT00031
+Murapol S.A.,Consumer Discretionary,MUR.WA,EQ,PLMURPL00190
+Unimot S.A.,Consumer Discretionary,UNT.WA,EQ,PLUNMOT00013
+VRG S.A.,Consumer Discretionary,VRG.WA,EQ,PLVSTLA00011
+Tire Company Debica S.A.,Consumer Discretionary,DBC.WA,EQ,PLDEBCA00016
+Oponeo.pl S.A.,Consumer Discretionary,OPN.WA,EQ,PLOPNPL00013
+Dadelo S.A.,Consumer Discretionary,DAD.WA,EQ,PLDADEL00013
+Decora S.A.,Consumer Discretionary,DCR.WA,EQ,PLDECOR00013
+Sanok Rubber Company Spólka Akcyjna,Consumer Discretionary,SNK.WA,EQ,PLSTLSK00016
+Arlen S.A.,Consumer Discretionary,ARL.WA,EQ,PLARLEN00012
+Fabryki Mebli FORTE S.A.,Consumer Discretionary,FTE.WA,EQ,PLFORTE00012
+Amica,Consumer Discretionary,AMC.WA,EQ,PLAMICA00010
+Answear.com S.A.,Consumer Discretionary,ANR.WA,EQ,PLANSWR00019
+Novita S.A.,Consumer Discretionary,NVT.WA,EQ,PLNVITA00018
+Wittchen S.A.,Consumer Discretionary,WTN.WA,EQ,PLWTCHN00030
+AC Spólka Akcyjna,Consumer Discretionary,ACG.WA,EQ,PLACSA000014
+Monnari Trade S.A.,Consumer Discretionary,MON.WA,EQ,PLMNRTR00012
+Less S.A.,Consumer Discretionary,LES.WA,EQ,PLINTGR00013
+ED Invest Spólka Akcyjna,Consumer Discretionary,EDI.WA,EQ,PLEDINV00014
+3R Games S.A.,Consumer Discretionary,3RG.WA,EQ,PLGRNKT00019
+Intersport Polska S.A.,Consumer Discretionary,IPO.WA,EQ,PLINTSP00038
+CDRL S.A.,Consumer Discretionary,CDL.WA,EQ,PLCDRL000043
+ESOTIQ & Henderson S.A.,Consumer Discretionary,EAH.WA,EQ,PLESTHN00018
+IZOBLOK S.A.,Consumer Discretionary,IZB.WA,EQ,PLIZBLK00010
+Protektor S.A.,Consumer Discretionary,PRT.WA,EQ,PLLZPSK00019
+ERG Spólka Akcyjna,Consumer Discretionary,ERG.WA,EQ,PLERGZB00014
+Przedsiebiorstwo Hydrauliki Silowej HYDROTOR S.A.,Consumer Discretionary,HDR.WA,EQ,PLHDRTR00013
+Mex Polska S.A.,Consumer Discretionary,MEX.WA,EQ,PLMEXPL00010
+Sanwil Holding Spólka Akcyjna,Consumer Discretionary,SNW.WA,EQ,PLSANWL00012
+Triton Development S.A.,Consumer Discretionary,TRI.WA,EQ,PLASMOT00030
+Sfinks Polska S.A.,Consumer Discretionary,SFS.WA,EQ,PLSFNKS00011
+Prima Moda S.A.,Consumer Discretionary,PMA.WA,EQ,PLPRMMD00012
+SFD SA,Consumer Discretionary,SFD.WA,EQ,PLSFD0000013
+MILITARY GROUP S.A.,Consumer Discretionary,MIG.WA,EQ,PLRSYSA00014
+hiPower Energy spoyka akcyjna,Consumer Discretionary,HPE.WA,EQ,PLCRBON00018
+Gremi Media SA,Consumer Discretionary,GME.WA,EQ,PLGRMID00019
+DG-NET SA,Consumer Discretionary,DGN.WA,EQ,PLDGNET00012
+Mennica Skarbowa SA,Consumer Discretionary,MNS.WA,EQ,PLGRMNK00014
+Organic Farma Zdrowia S.A.,Consumer Discretionary,ORG.WA,EQ,PLORGNK00010
+Sygnis S.A.,Consumer Discretionary,SYG.WA,EQ,PLMODE000019
+7FIT Spolka Akcyjna,Consumer Discretionary,7FT.WA,EQ,PLTRCPS00016
+Gamivo SA,Consumer Discretionary,GMV.WA,EQ,PLGMV0000016
+Ruch Chorzow SA,Consumer Discretionary,RCW.WA,EQ,PLRCHZW00012
+Platige Image SA,Consumer Discretionary,PLI.WA,EQ,PLPTGMG00013
+ORZEL S.A,Consumer Discretionary,ORL.WA,EQ,PLORZL000019
+Farm 51 Group SA,Consumer Discretionary,F51.WA,EQ,PLFRMGR00015
+Triggo SA,Consumer Discretionary,TGG.WA,EQ,PLTRGG000014
+SAKANA S.A.,Consumer Discretionary,SKN.WA,EQ,PLSAKAN00010
+MaxiPizza S.A.,Consumer Discretionary,MXP.WA,EQ,PLMXPZZ00015
+Present24 Spolka Akcyjna,Consumer Discretionary,P24.WA,EQ,PLPRS2400012
+Astro S.A.,Consumer Discretionary,ASR.WA,EQ,PLASTRO00013
+Hurtimex Spolka Akcyjna,Consumer Discretionary,HRT.WA,EQ,PLHRTIM00013
+Mr Hamburger SA,Consumer Discretionary,MRH.WA,EQ,PLLSNRN00015
+BeLeaf Spolka Akcyjna,Consumer Discretionary,BLF.WA,EQ,PLBLTXG00010
+Mentzen Spolka Akcyjna,Consumer Discretionary,XDD.WA,EQ,PLMNTZN00014
+GKS GieKSa Katowice SA,Consumer Discretionary,GKS.WA,EQ,PLGKS0000016
+Do Rzeczy S.A.,Consumer Discretionary,DRZ.WA,EQ,PLDRZCZ00030
+Outdoorzy S.A.,Consumer Discretionary,OUT.WA,EQ,PLOUTDR00013
+Kolejkowo SA,Consumer Discretionary,KLK.WA,EQ,PLKLJKW00024
+Red Carpet Media Group SA,Consumer Discretionary,RCM.WA,EQ,PLRCMGR00012
+JRC Group Spolka Akcyjna,Consumer Discretionary,JRC.WA,EQ,PLPYLON00015
+PL Group Spolka Akcyjna,Consumer Discretionary,PLG.WA,EQ,PLRAJDY00015
+OLYMP Spolka Akcyjna,Consumer Discretionary,OLY.WA,EQ,PLOLMP000016
+APIS S.A.,Consumer Discretionary,ASA.WA,EQ,PLHMSG000019
+Garin AI SA,Consumer Discretionary,GAR.WA,EQ,PLABNET00019
+AMAZON,Consumer Discretionary,AMZN.WA,EQ,
+Tesla Inc.,Consumer Discretionary,TSLA.WA,EQ,
+Industria de Diseño Textil S.A.,Consumer Discretionary,ITX.WA,EQ,
+PROSUS,Consumer Discretionary,PRX.WA,EQ,
+NIKE,Consumer Discretionary,NIKE.WA,EQ,
+Mercedes-Benz Group AG,Consumer Discretionary,MBG.WA,EQ,
+Volkswagen AG,Consumer Discretionary,VOW.WA,EQ,
+Bayerische Motoren Werke Aktiengesellschaft,Consumer Discretionary,BMW.WA,EQ,
+adidas AG,Consumer Discretionary,ADS.WA,EQ,
+Porsche Automobil Holding SE,Consumer Discretionary,PSHE.WA,EQ,
+Zalando SE,Consumer Discretionary,ZAL.WA,EQ,
+AmRest Holdings SE,Consumer Discretionary,EAT.WA,EQ,
+Rex Concepts S.A.,Consumer Discretionary,REXA.WA,EQ,
+Tatry mountain resorts a.s.,Consumer Discretionary,TMR.WA,EQ,
+AS Silvano Fashion Group,Consumer Discretionary,SFG.WA,EQ,
+Novaturas AB,Consumer Discretionary,NTU.WA,EQ,

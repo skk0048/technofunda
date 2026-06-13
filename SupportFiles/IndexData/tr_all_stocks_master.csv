@@ -1,65 +1,610 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-Koc Holding,Industrials,KCHOL.IS,EQ,
-Turkiye Garanti Bankasi,Financials,GARAN.IS,EQ,
-Akbank,Financials,AKBNK.IS,EQ,
-Turkiye Is Bankasi,Financials,ISCTR.IS,EQ,
-Yapi ve Kredi Bankasi,Financials,YKBNK.IS,EQ,
-BIM Birlesik Magazalar,Consumer Staples,BIMAS.IS,EQ,
-Turkcell,Communication Services,TCELL.IS,EQ,
-Aselsan,Industrials,ASELS.IS,EQ,
-Sabanci Holding,Industrials,SAHOL.IS,EQ,
-Turk Hava Yollari (THY),Industrials,THYAO.IS,EQ,
-Ford Otosan,Consumer Discretionary,FROTO.IS,EQ,
-Tofas Turk Otomobil,Consumer Discretionary,TOASO.IS,EQ,
-Eregli Demir Celik,Materials,EREGL.IS,EQ,
-Turk Telekom,Communication Services,TTKOM.IS,EQ,
-Petkim,Materials,PETKM.IS,EQ,
-Tupras,Energy,TUPRS.IS,EQ,
-Sasa Polyester,Materials,SASA.IS,EQ,
-Kardemir,Materials,KRDMD.IS,EQ,
-Vakiflar Bankasi,Financials,VAKBN.IS,EQ,
-Halkbank,Financials,HALKB.IS,EQ,
-Pegasus Hava Tasimaciligi,Industrials,PGSUS.IS,EQ,
-Emlak Konut REIT,Real Estate,EKGYO.IS,EQ,
-Enka Insaat,Industrials,ENKAI.IS,EQ,
-Arcelik,Consumer Discretionary,ARCLK.IS,EQ,
-Sisecam,Materials,SISE.IS,EQ,
-Coca-Cola Icecek,Consumer Staples,CCOLA.IS,EQ,
-Anadolu Efes,Consumer Staples,AEFES.IS,EQ,
-Migros Ticaret,Consumer Staples,MGROS.IS,EQ,
-Aydem Yenilenebilir,Utilities,AYDEM.IS,EQ,
-Yapi Kredi Koray,Real Estate,YKGYO.IS,EQ,
-Gubre Fabrikalari,Materials,GUBRF.IS,EQ,
-Turkiye Sigorta,Financials,TURSG.IS,EQ,
-Aygaz,Energy,AYGAZ.IS,EQ,
-Dogan Holding,Industrials,DOHOL.IS,EQ,
-Vestel Elektronik,Consumer Discretionary,VESTL.IS,EQ,
-Sok Marketler,Consumer Staples,SOKM.IS,EQ,
-Ulker Biskuvi,Consumer Staples,ULKER.IS,EQ,
-Tav Havalimanlari,Industrials,TAVHL.IS,EQ,
-Turk Traktor,Consumer Discretionary,TTRAK.IS,EQ,
-Dogus Otomotiv,Consumer Discretionary,DOAS.IS,EQ,
-Tekfen Holding,Industrials,TKFEN.IS,EQ,
-Alarko Holding,Industrials,ALARK.IS,EQ,
-Mavi Giyim,Consumer Discretionary,MAVI.IS,EQ,
-Bizim Toptan,Consumer Staples,BIZIM.IS,EQ,
-Hektas,Materials,HEKTS.IS,EQ,
-Brisa Bridgestone,Consumer Discretionary,BRISA.IS,EQ,
-Goodyear Lastikleri,Consumer Discretionary,GOODY.IS,EQ,
-Otokar,Consumer Discretionary,OTKAR.IS,EQ,
-Karsan Otomotiv,Consumer Discretionary,KARSN.IS,EQ,
-Akcansa Cimento,Materials,AKCNS.IS,EQ,
-Cimsa Cimento,Materials,CIMSA.IS,EQ,
-Oyak Cimento,Materials,OYAKC.IS,EQ,
-Tureks Turizm,Industrials,TUREX.IS,EQ,
-Yatas,Consumer Discretionary,YATAS.IS,EQ,
-Logo Yazilim,Technology,LOGO.IS,EQ,
-Reeder Teknoloji,Technology,REEDR.IS,EQ,
-Astor Enerji,Industrials,ASTOR.IS,EQ,
-Smart Gunes Enerjisi,Energy,SMRTG.IS,EQ,
-Mia Teknoloji,Technology,MIATK.IS,EQ,
-Enerjisa Enerji,Utilities,ENJSA.IS,EQ,
-Aksa Enerji,Utilities,AKSEN.IS,EQ,
-Zorlu Enerji,Utilities,ZOREN.IS,EQ,
-Vestel Beyaz Esya,Consumer Discretionary,VESBE.IS,EQ,
-Turk Demir Dokum,Consumer Discretionary,DOKTA.IS,EQ,
+Aselsan,Industrials,ASELS.IS,EQ,TRAASELS91H2
+QNB Bank AS,Financials,QNBTR.IS,EQ,TRAFINBN91N3
+Destek Finans Faktoring A.S.,Financials,DSTKF.IS,EQ,TREDSTF00012
+Turkiye Garanti Bankasi,Financials,GARAN.IS,EQ,TRAGARAN91N1
+Enka Insaat,Industrials,ENKAI.IS,EQ,TREENKA00011
+Koc Holding,Industrials,KCHOL.IS,EQ,TRAKCHOL91Q8
+BIM Birlesik Magazalar,Consumer Staples,BIMAS.IS,EQ,TREBIMM00018
+Tupras,Energy,TUPRS.IS,EQ,TRATUPRS91E8
+Turk Hava Yollari (THY),Industrials,THYAO.IS,EQ,TRATHYAO91M5
+Turkiye Is Bankasi Anonim Sirketi,Financials,ISKUR.IS,EQ,TRAISKUR91N3
+Turkiye Is Bankasi Anonim Sirketi Class B,Financials,ISBTR.IS,EQ,TRAISBTR91N4
+Turkiye Is Bankasi,Financials,ISCTR.IS,EQ,TRAISCTR91N2
+Akbank,Financials,AKBNK.IS,EQ,TRAAKBNK91N6
+KATILIMEVIM TASARRUF FINANSMAN A.S.,Financials,KTLEV.IS,EQ,TREKTLV00019
+Hedef Holding AS,Financials,HEDEF.IS,EQ,TREHDEF00017
+Halkbank,Financials,HALKB.IS,EQ,TRETHAL00019
+Vakiflar Bankasi,Financials,VAKBN.IS,EQ,TREVKFB00019
+Yapi ve Kredi Bankasi,Financials,YKBNK.IS,EQ,TRAYKBNK91N6
+Ford Otosan,Consumer Discretionary,FROTO.IS,EQ,TRAOTOSN91H6
+Eregli Demir Celik,Materials,EREGL.IS,EQ,TRAEREGL91G3
+Astor Enerji,Industrials,ASTOR.IS,EQ,TREASTR00013
+Turkcell,Communication Services,TCELL.IS,EQ,TRATCELL91M1
+Coca-Cola Icecek,Consumer Staples,CCOLA.IS,EQ,TRECOLA00011
+Turk Telekom,Communication Services,TTKOM.IS,EQ,TRETTLK00013
+Sabanci Holding,Industrials,SAHOL.IS,EQ,TRASAHOL91Q5
+Odine Solutions Teknoloji Ticaret ve Sanayi AS,Technology,ODINE.IS,EQ,TREODNE00017
+Iskenderun Demir ve Celik AS,Materials,ISDMR.IS,EQ,TREISDC00020
+Gubre Fabrikalari,Materials,GUBRF.IS,EQ,TRAGUBRF91E2
+Tera Yatirim Menkul Degerler AS,Financials,TERA.IS,EQ,TRETERA00013
+KILER HOLDING A.S.,Consumer Staples,KLRHO.IS,EQ,TREKLRH00038
+Tofas Turk Otomobil,Consumer Discretionary,TOASO.IS,EQ,TRATOASO91H3
+Turk Altin Isletmeleri A.S.,Materials,TRALT.IS,EQ,TREKOAL00014
+Sisecam,Materials,SISE.IS,EQ,TRASISEW91Q3
+Turkiye Sigorta,Financials,TURSG.IS,EQ,TRAGUSGR91O3
+Enerjisa Enerji,Utilities,ENJSA.IS,EQ,TREENSA00014
+Kent Gida Maddeleri Sanayii ve Ticaret A.S.,Consumer Staples,KENT.IS,EQ,TRAKENTW91A2
+Investco Holding A.S.,Financials,INVES.IS,EQ,TREINVS00029
+Sasa Polyester,Materials,SASA.IS,EQ,TRASASAW91E4
+Anadolu Efes,Consumer Staples,AEFES.IS,EQ,TRAAEFES91A9
+Migros Ticaret,Consumer Staples,MGROS.IS,EQ,TREMGTI00012
+OZATA DENIZCILIK SANAYI VE TICARET AS,Industrials,OZATD.IS,EQ,TREOZAT00023
+Oyak Cimento,Materials,OYAKC.IS,EQ,TRAMRDIN91F2
+MARGUN ENERJI URETIM SANAYI VE TICARET A.S.,Utilities,MAGEN.IS,EQ,TREMARN00027
+Tav Havalimanlari,Industrials,TAVHL.IS,EQ,TRETAVH00018
+Torunlar Gayrimenkul Yatirim Ortakligi A.S.,Financials,TRGYO.IS,EQ,TRETRGY00018
+Aksa Enerji,Utilities,AKSEN.IS,EQ,TREAKSN00011
+Turkiye Kalkinma ve Yatirim Bankasi A.S.,Financials,KLNMA.IS,EQ,TRATKBNK91N6
+QNB Finansal Kiralama A.S.,Financials,QNBFK.IS,EQ,TRAFFKRL91P0
+LDR Turizm A.S.,Financials,LIDER.IS,EQ,TRELDRT00020
+BORUSAN BIRLESIK BORU FABRIKALARI SANAYI VE TICARET ANONIM SIRKETI,Materials,BRSAN.IS,EQ,TRABRSAN91G8
+Ahlatci Dogal Gaz Dagitim Enerji ve Yatirim AS,Utilities,AHGAZ.IS,EQ,TREAHLA00019
+Pegasus Hava Tasimaciligi,Industrials,PGSUS.IS,EQ,TREPEGS00016
+MLP Saglik Hizmetleri AS Class B,Health Care,MPARK.IS,EQ,TREMLPC00021
+Enerya Enerji A.S.,Utilities,ENERY.IS,EQ,TREENRY00016
+AG Anadolu Grubu Holding Anonim Sirketi,Consumer Staples,AGHOL.IS,EQ,TRAYAZIC91Q6
+Ziraat Gayrimenkul Yatirim Ortakligi AS,Financials,ZRGYO.IS,EQ,TREZRGY00023
+Pasifik Eurasia Lojistik dis Ticaret AS,Industrials,PASEU.IS,EQ,TREPASF00024
+Emlak Konut REIT,Real Estate,EKGYO.IS,EQ,TREEGYO00017
+Emlak Konut Gayrimenkul Yatirim Ortakligi A.S. 0 % Certificates 2025-31.12.2199,Financials,DMLKT.IS,EQ,TRNEGYO00018
+Ral Yatirim Holding A.S.,Industrials,RALYH.IS,EQ,TRABISAS91B7
+Selcuk Ecza Deposu Ticaret ve Sanayi A.S.,Industrials,SELEC.IS,EQ,TRESLEC00014
+Arcelik,Consumer Discretionary,ARCLK.IS,EQ,TRAARCLK91H5
+Ronesans Gayrimenkul Yatirim A.S.,Financials,RGYAS.IS,EQ,TRERSGY00036
+TAB Gida Sanayi ve Ticaret A.S.,Consumer Discretionary,TABGD.IS,EQ,TRETABG00020
+Reysas Gayrimenkul Yatirim Ortakligi A.S.,Financials,RYGYO.IS,EQ,TRERGYO00019
+Tera Yatirim Teknoloji Holding A.S.,Financials,TEHOL.IS,EQ,TRAGLOBL91Q0
+Peker Gayrimenkul Yatirim Ortakligi AS,Financials,PEKGY.IS,EQ,TREPEGY00022
+Lydia Holding A.S.,Industrials,LYDHO.IS,EQ,TRAMIPAZ91J8
+Europower Enerji ve Otomasyon Teknolojileri Sanayi Ticaret AS,Industrials,EUPWR.IS,EQ,TREEUPW00019
+Isiklar Enerji ve Yapi Holding Anonim Sirketi,Materials,IEYHO.IS,EQ,TRAMTEKS91B0
+Ufuk Yatirim Yonetim Ve Gayrimenkul A.S.,Financials,UFUK.IS,EQ,TREFNFK00017
+CVK MADEN ISLETMELERI SANAYI VE TICARET A.S,Materials,CVKMD.IS,EQ,TRECVKM00021
+Anadolu Anonim Turk Sigorta Sirketi A.S.,Financials,ANSGR.IS,EQ,TRAANSGR91O1
+EIS Eczacibasi Ilac  Sinai ve Finansal Yatirimlar Sanayi ve Ticaret A.S.,Health Care,ECILC.IS,EQ,TRAECILC91E0
+Borusan Yatirim ve Pazarlama AS,Financials,BRYAT.IS,EQ,TRABRYAT91Q2
+Gulermak Agir Sanayi Insaat Ve Taahhut A.S.,Industrials,GLRMK.IS,EQ,TREGLRM00010
+Is Yatirim Menkul Degerler AS,Financials,ISMEN.IS,EQ,TREISMD00011
+Batisoke Soke Cimento Sanayii T.A.S.,Materials,BSOKE.IS,EQ,TRABSOKE91F5
+Tekfen Holding,Industrials,TKFEN.IS,EQ,TRETKHO00012
+Yeni Gimat Gayrimenkul Yatirim Ortakligi AS,Financials,YGGYO.IS,EQ,TREYGMI00012
+Kardemir Karabiik Demir celik Sanayi ve Ticaret A.S. Class B,Materials,KRDMB.IS,EQ,TRAKRDMB91G1
+Kardemir,Materials,KRDMD.IS,EQ,TRAKRDMR91G7
+Kardemir Karabiik Demir celik Sanayi ve Ticaret A.S. Class A,Materials,KRDMA.IS,EQ,TRAKRDMA91G3
+Tera Financial Investments Holding A.S.,Financials,TRHOL.IS,EQ,TRATACYO91Q7
+Reysas Tasimacilik ve Lojistik Ticaret Anonim Sirketi,Industrials,RYSAS.IS,EQ,TREREYS00015
+Petkim,Materials,PETKM.IS,EQ,TRAPETKM91E0
+Aygaz,Energy,AYGAZ.IS,EQ,TRAAYGAZ91E0
+Cimsa Cimento,Materials,CIMSA.IS,EQ,TRACIMSA91F9
+Gundogdu Gida Sut Urunleri Sanayi Ve Dis Ticaret AS,Consumer Staples,GUNDG.IS,EQ,TREGUND00019
+AgeSA Hayat ve Emeklilik A.S.,Financials,AGESA.IS,EQ,TRECUHE00018
+Turk Traktor,Consumer Discretionary,TTRAK.IS,EQ,TRETTRK00010
+Alarko Holding,Industrials,ALARK.IS,EQ,TRAALARK91Q0
+Verusa Holding AS,Financials,VERUS.IS,EQ,TREVERS00011
+Anadolu Hayat Emeklilik A.S.,Financials,ANHYT.IS,EQ,TRAANHYT91O3
+Turk Tuborg Bira ve Malt Sanayii A.S.,Consumer Staples,TBORG.IS,EQ,TRATBORG91A4
+Aksa Akrilik Kimya Sanayii A.S.,Materials,AKSA.IS,EQ,TRAAKSAW91E1
+Ulker Biskuvi,Consumer Staples,ULKER.IS,EQ,TREULKR00015
+Otokar,Consumer Discretionary,OTKAR.IS,EQ,TRAOTKAR91H3
+Akfen insaat Turizm ve Ticaret AS,Industrials,AKFIS.IS,EQ,TREAKFI00018
+Akcansa Cimento,Materials,AKCNS.IS,EQ,TRAAKCNS91F3
+TR Anadolu Metal Madencilik Isletmeleri Anonim Sirketi,Materials,TRMET.IS,EQ,TREKOZA00014
+Celebi Hava Servisi A.S.,Industrials,CLEBI.IS,EQ,TRACLEBI91M5
+Dogus Otomotiv,Consumer Discretionary,DOAS.IS,EQ,TREDOTO00013
+GIRISIM ELEKTRIK SANAYI TAAHHUT VE TICARET A.S.,Technology,GESAN.IS,EQ,TREGESN00029
+CW ENERJI MUHENDISLIK TICARET VE SANAYI A.S.,Technology,CWENE.IS,EQ,TRECWEN00012
+Armada Gida Ticaret ve Sanayi Anonim Sirketi,Consumer Staples,ARMGD.IS,EQ,TREARDG00020
+Dogan Holding,Industrials,DOHOL.IS,EQ,TRADOHOL91Q8
+YEO Teknoloji Enerji ve Endustri A.S.,Utilities,YEOTK.IS,EQ,TREYEOT00010
+Altinkilic Gida ve Sut Sanayi Ticaret AS,Consumer Staples,ALKLC.IS,EQ,TREALTK00013
+Eczacibasi Yatirim Holding Ortakligi AS,Financials,ECZYT.IS,EQ,TRAECZYT91Q5
+Gen Ilac ve Saglik Urunleri Sanayi ve Ticaret A.S.,Health Care,GENIL.IS,EQ,TREGENL00024
+Sekerbank T.A.S.,Financials,SKBNK.IS,EQ,TRASKBNK91N8
+Baskent Dogalgaz Dagitim Gayrimenkul Yatirim Ortakligi AS,Utilities,BASGZ.IS,EQ,TREBSGZ00037
+Turkiye Sinai Kalkinma Bankasi A.S.,Financials,TSKB.IS,EQ,TRATSKBW91N0
+PASIFIK HOLDING A.S,Financials,PAHOL.IS,EQ,TREPSFH00011
+Mavi Giyim,Consumer Discretionary,MAVI.IS,EQ,TREMAVI00037
+Hektas,Materials,HEKTS.IS,EQ,TRAHEKTS91E4
+Nuh Cimento Sanayi A.S.,Materials,NUHCM.IS,EQ,TRANUHCM91F0
+Baticim Bati Anadolu Cimento Sanayii A.S.,Materials,BTCIM.IS,EQ,TRABTCIM91F5
+CEM ZEYTIN ANONIM SIRKETI,Consumer Staples,CEMZY.IS,EQ,TRECEMZ00017
+Ray Sigorta A.S.,Financials,RAYSG.IS,EQ,TRARAYSG91O8
+Mogan Enerji Yatirim Holding,Utilities,MOGAN.IS,EQ,TREMOGN00021
+Global Yatirim Holding A.S.,Financials,GLYHO.IS,EQ,TRAGLMDE91R3
+AKFEN YENILENEBILIR ENERJI A.S.,Utilities,AKFYE.IS,EQ,TREAKFY00015
+Birlesim Grup Enerji Yatirimlari AS,Utilities,BIGEN.IS,EQ,TREBYEN00010
+Gur-Sel Turizm Tasimacilik Ve Servis Ticaret A.S.,Consumer Discretionary,GRSEL.IS,EQ,TREGRSL00025
+Kocaer Celik Sanayi ve Ticaret AS,Materials,KCAER.IS,EQ,TREKCAE00030
+Efor Yatirim Sanayi Ticaret A.S.,Consumer Staples,EFOR.IS,EQ,TREEFOR00013
+Sok Marketler,Consumer Staples,SOKM.IS,EQ,TRESOKM00022
+Adra Gayrimenkul Yatirim Ortakligi A.S.,Financials,ADGYO.IS,EQ,TREADRA00023
+Grainturk Holding A.S.,Industrials,GRTHO.IS,EQ,TREGRNT00029
+Anel Elektrik Proje Taahhut ve Ticaret A.S.,Industrials,ANELE.IS,EQ,TREAEPT00017
+DAP GAYRIMENKUL GELISTIRME AS,Financials,DAPGM.IS,EQ,TREDAPG00032
+Dogu Aras Enerji Yatirimlari AS,Utilities,ARASE.IS,EQ,TREARAS00039
+Sarkuysan Elektrolitik Bakir Sanayi ve Ticaret A.S.,Industrials,SARKY.IS,EQ,TRASARKY91G6
+Brisa Bridgestone,Consumer Discretionary,BRISA.IS,EQ,TRABRISA91E3
+Kuyas Yatirim A.S.,Financials,KUYAS.IS,EQ,TREKYAS00018
+Lydia Yesil Enerji kaynaklari A.S.,Consumer Staples,LYDYE.IS,EQ,TRETKGD00017
+Cimentas Izmir Cimento Fabrikasi Turk A.S.,Materials,CMENT.IS,EQ,TRACMENT91F9
+Ulusoy Elektrik Imalat Taahhut ve Ticaret AS,Industrials,ULUSE.IS,EQ,TREULET00014
+Kirac Galvaniz Telekominikasyon Metal Makine Insaat Elektrik Sanayi Ve Ticaret AS,Industrials,TCKRC.IS,EQ,TREKIRC00019
+Kalyon Gunes Teknolojileri Uretim Anonim Sirketi,Industrials,KLYPV.IS,EQ,TREKLYN00024
+Halk Gayrimenkul Yatirim Ortakligi AS,Financials,HLGYO.IS,EQ,TREHLGY00016
+Izdemir Enerji Elektrik Uretim A.S.,Utilities,IZENR.IS,EQ,TREIZDM00016
+Escar Filo Kiralama Hizmetleri Anonim Sirketi,Financials,ESCAR.IS,EQ,TREESCR00029
+Avrupakent Gayrimenkul Yatirim Ortakligi SA,Financials,AVPGY.IS,EQ,TREAVRK00024
+Mega Metal Sanayi Ve Ticaret A.S.,Materials,MEGMT.IS,EQ,TREMEGM00024
+Mia Teknoloji,Technology,MIATK.IS,EQ,TREMIAT00015
+FUZUL GAYRIMENKUL YATIRIM ORTAKLIGI A.S.,Consumer Discretionary,FZLGY.IS,EQ,TREFUZL00026
+Pasifik Gayrimenkul Yatirim Ortakligi AS,Financials,PSGYO.IS,EQ,TREPSFK00023
+Akis Gayrimenkul Yatirim Ortakligi A.S.,Financials,AKSGY.IS,EQ,TREAIGY00017
+Smart Gunes Enerjisi,Energy,SMRTG.IS,EQ,TRESMAR00026
+Albaraka Turk Katilim Bankasi A.S.,Financials,ALBRK.IS,EQ,TREALBK00011
+TR Dogal Enerji Kaynaklari Arastirma ve Uretim Anonim Sirketi,Energy,TRENJ.IS,EQ,TRAIPMAT92D2
+Lila Kagit Sanayi Ve Ticaret Anonim Sirketi,Consumer Staples,LILAK.IS,EQ,TRELILA00022
+ALFA SOLAR ENERJI SANAYI VE TICARET A.S.,Utilities,ALFAS.IS,EQ,TREALFS00023
+BMS Birlesik Metal Sanayi ve Ticaret AS Class B,Industrials,BMSTL.IS,EQ,TREBMSM00017
+Ozak Gayrimenkul Yatirim Ortakligi AS,Financials,OZKGY.IS,EQ,TREOZAK00014
+Fenerbahce Futbol A.S.,Consumer Discretionary,FENER.IS,EQ,TREFBAH00019
+Ege Profil Ticaret ve Sanayi A.S.,Materials,EGPRO.IS,EQ,TRAEGPRO91E8
+Oba Makarnacilik Sanayi Ve Ticaret A. S.,Consumer Staples,OBAMS.IS,EQ,TREOBAM00011
+Bin Ulasim Ve Akilli Sehir Teknolojileri AS,Industrials,BINBN.IS,EQ,TREBINU00019
+IC Enterra Yenilenebilir Enerji AS,Utilities,ENTRA.IS,EQ,TREICNT00027
+Is Gayrimenkul Yatirim Ortakligi A.S.,Financials,ISGYO.IS,EQ,TRAISGYO91Q3
+Net Holding A.S.,Consumer Discretionary,NTHOL.IS,EQ,TRANTHOL91Q6
+Barem Ambalaj Sanayi ve Ticaret AS,Materials,BARMA.IS,EQ,TREBARM00014
+CarrefourSA Carrefour Sabanci Ticaret Merkezi A.S.,Consumer Discretionary,CRFSA.IS,EQ,TRECARF00032
+Politeknik Metal Sanayi ve Ticaret AS,Materials,POLTK.IS,EQ,TREPOLT00013
+ARD Grup Bilisim Teknolojileri AS,Technology,ARDYZ.IS,EQ,TREARDY00023
+Konya Cimento Sanayi A.S.,Materials,KONYA.IS,EQ,TRAKONYA91F6
+Aydem Yenilenebilir,Utilities,AYDEM.IS,EQ,TREAYDM00024
+ICBC Turkey Bank Anonim Sirketi,Financials,ICBCT.IS,EQ,TRATEKST91N0
+Ege Endustri ve Ticaret A.S.,Industrials,EGEEN.IS,EQ,TRAEGEEN91H5
+Bosch Fren Sistemleri Sanayi ve Ticaret A.S.,Industrials,BFREN.IS,EQ,TRABFREN91H5
+Marshall Boya ve Vernik Sanayi A.S.,Materials,MRSHL.IS,EQ,TRAMRSHL91E9
+Tatlipinar Enerji Uretim A.S.,Utilities,TATEN.IS,EQ,TRETATL00022
+DMR Unlu Mamuller Uretim Gida Toptan Perakende Ihracat A.S.,Consumer Staples,DMRGD.IS,EQ,TREDMRU00026
+Kordsa Teknik Tekstil A.S.,Materials,KORDS.IS,EQ,TRAKORDS91B2
+Altinay Savunma Teknolojileri A.S.,Technology,ALTNY.IS,EQ,TREALTA00014
+Ihlas Haber Ajansi SA,Industrials,IHAAS.IS,EQ,TREIHAS00025
+Polisan Holding AS,Materials,POLHO.IS,EQ,TREPOHO00012
+Sun Tekstil Sanayi ve Ticaret A.S.,Consumer Staples,SUNTK.IS,EQ,TRESUNT00010
+Anadolu Isuzu Otomotiv Sanayi ve Ticaret A.S. Class C,Consumer Discretionary,ASUZU.IS,EQ,TRAASUZU91H4
+Pasifik Teknoloji AS,Technology,PATEK.IS,EQ,TREPSFD00010
+Banvit Bandirma Vitaminli Yem Sanayii A.S.,Materials,BANVT.IS,EQ,TRABANVT92A9
+Altin Yunus Cesme Turistik Tesisler A.S.,Consumer Discretionary,AYCES.IS,EQ,TRAAYCES92K1
+Balsu Gida Sanayi ve Ticaret Anonim Sirketi,Consumer Staples,BALSU.IS,EQ,TREBALS00022
+Limak Dogu Anadolu Cimento Sanayi Ve Ticaret AS,Materials,LMKDC.IS,EQ,TRELIMK00029
+Gersan Elektrik Ticaret ve Sanayi A.S.,Industrials,GEREL.IS,EQ,TREGREL00017
+Kaleseramik Canakkale Kalebodur Seramik A.S.,Industrials,KLSER.IS,EQ,TREKALE00049
+CAN2 TERMIK A.S.,Utilities,CANTE.IS,EQ,TRECAN200011
+Zorlu Enerji,Utilities,ZOREN.IS,EQ,TRAZOREN91L8
+GALATA WIND ENERJI A.S.,Utilities,GWIND.IS,EQ,TREGWIN00014
+Mobitel Iletisim Nizmetleri Sanayi ve Ticaret A.S,Industrials,MOBTL.IS,EQ,TREMBTL00025
+SDT Uzay ve Savunma Teknolojileri A.S.,Technology,SDTTR.IS,EQ,TRESDTT00013
+Galatasaray Sportif Sinai Veticari Yatirimlar A.S.,Consumer Discretionary,GSRAY.IS,EQ,TRAGSRAY91X9
+Sinpas Gayrimenkul Yatirim Ortakligi A.S.,Financials,SNGYO.IS,EQ,TRESNGY00019
+Kuzey Boru A.S.,Industrials,KBORU.IS,EQ,TREKZYB00011
+Kalekim Kimyevi Maddeler Sanayi ve Ticaret AS,Materials,KLKIM.IS,EQ,TREKLKM00025
+Ahes Gayrimenkul Yatirim Ortakligi AS,Financials,AHSGY.IS,EQ,TREAHES00016
+Logo Yazilim,Technology,LOGO.IS,EQ,TRALOGOW91U2
+Is Finansal Kiralama A.S.,Financials,ISFIN.IS,EQ,TRAISGEN91P9
+EBEBEK MAGAZACILIK ANONIM SIRKETI,Consumer Discretionary,EBEBK.IS,EQ,TREEBEB00025
+Isik Plastik Sanayi VE Dis Ticaret Pazarlama AS,Industrials,ISKPL.IS,EQ,TREISKP00027
+Kayseri Seker Fabrikasi AS,Health Care,KAYSE.IS,EQ,TREKAYS00018
+Gimat Magazacilik Insaat Sanayi ve Ticaret A.S.,Consumer Discretionary,GMTAS.IS,EQ,TREGMAT00027
+Kaplamin Ambalaj Sanayi ve Ticaret A.S.,Materials,KAPLM.IS,EQ,TRAKAPLM91D7
+Deva Holding A.S.,Health Care,DEVA.IS,EQ,TRADEVAW91E2
+Hareket Proje Tasimaciligi ve Yuk Muhendisligi AS,Industrials,HRKET.IS,EQ,TREHRKT00015
+KIZILBUK GAYRIMENKUL YATIRIM ORTAKLIGI A.S.,Financials,KZBGY.IS,EQ,TREKZBG00026
+Vakko Tekstil ve Hazir Giyim Sanayi Isletmeleri A.S.,Consumer Staples,VAKKO.IS,EQ,TRAVAKKO91B7
+Oyak Yatirim Menkul Degerler A.S.,Financials,OYYAT.IS,EQ,TREOYMD00017
+Garanti Faktoring A.S.,Financials,GARFA.IS,EQ,TRAAKFIN91P6
+Sur Tatil Evleri Gayrimenkul Yatirim Ortakligi A.S.,Financials,SURGY.IS,EQ,TRESRTE00023
+Creditwest Faktoring A.S.,Financials,CRDFA.IS,EQ,TRATPFAC91P5
+Yayla Agro Gida Sanayi ve Nakliyat AS,Materials,YYLGD.IS,EQ,TREYYLA00014
+KORAY GAYRIMENKUL YATIRIM ORTAKLIGI A.S. Class B,Financials,KGYO.IS,EQ,TRAYKGYO91Q7
+Koton Magazacilik Tekstil Sanayi ve Ticaret A.S.,Consumer Staples,KOTON.IS,EQ,TREKOTN00028
+Hitit Bilgisayar Hizmetleri A.S.,Technology,HTTBT.IS,EQ,TREHTTB00036
+Kustur Kusadasi Turizm Endustrisi A.S.,Consumer Discretionary,KSTUR.IS,EQ,TREKUST00016
+Izmir Demir Celik Sanayi A.S.,Materials,IZMDC.IS,EQ,TRAIZMDC91G6
+Hat-San Gemi Insaa Bakim Onarim Deniz Nakliyat Sanayi ve Ticaret A.S.,Industrials,HATSN.IS,EQ,TREHTSN00017
+Alarko Gayrimenkul Yatirim Ortakligi A.S.,Financials,ALGYO.IS,EQ,TRAALGYO91Q5
+Jantsa Jant Sanayi ve Ticaret AS,Industrials,JANTS.IS,EQ,TREJANT00011
+Panora Gayrimenkul Yatirim Ortakligi A.S.,Financials,PAGYO.IS,EQ,TREPGYO00013
+1000 Yatirimlar Holding AS,Technology,BINHO.IS,EQ,TREBINH00024
+Aksigorta AS,Financials,AKGRT.IS,EQ,TRAAKGRT91O5
+Gedik Yatirim Menkul Degerler A.S.,Financials,GEDIK.IS,EQ,TREGDKM00012
+Bera Holding AS,Industrials,BERA.IS,EQ,TREKMBH00014
+Tarkim Bitki Koruma Sanayi ve Ticaret A.S.,Materials,TARKM.IS,EQ,TRETRKM00015
+Izmir Firca Sanayi ve Ticaret AS,Industrials,IZFAS.IS,EQ,TREIFIR00016
+Karsan Otomotiv,Consumer Discretionary,KARSN.IS,EQ,TRAKARSN91H7
+Akfen Gayrimenkul Yatirim Ortakligi A.S.,Financials,AKFGY.IS,EQ,TREAKFG00012
+Bulls Girisim Sermayesi Yatirim Ortakligi Anonim Sirketi,Financials,BULGS.IS,EQ,TREBULS00012
+Ege Gubre Sanayii A.S.,Materials,EGGUB.IS,EQ,TRAEGGUB91E8
+Ayen Enerji A.S.,Utilities,AYEN.IS,EQ,TRAAYENW91L0
+Tukas Gida Sanayi ve Ticaret Anonim Sirketi,Consumer Staples,TUKAS.IS,EQ,TRATUKAS91A3
+Turcas Holding A.S.,Utilities,TRCAS.IS,EQ,TRATRCAS92E6
+Bastas Baskent Cimento Sanayi ve Ticaret AS,Materials,BASCM.IS,EQ,TREBASC00013
+Qua Granite Hayal Yapi ve Urunleri Sanayi Ticaret AS,Materials,QUAGR.IS,EQ,TREQAGR00022
+Dogus Gayrimenkul Yatirim Ortakligi A.S.,Financials,DGGYO.IS,EQ,TRAOSGYO91Q1
+Tumosan Motor Ve Traktor Sanayi AS,Industrials,TMSN.IS,EQ,TRETUMO00011
+Kimteks Poliuretan Sanayi ve Ticaret AS,Industrials,KMPUR.IS,EQ,TREKMPU00017
+ODAS Elektrik Uretim Sanayi Ticaret A.S.,Utilities,ODAS.IS,EQ,TREODAS00014
+Vestel Beyaz Esya,Consumer Discretionary,VESBE.IS,EQ,TREVEST00017
+Servet Gayrimenkul Yatirim Ortakligi AS,Financials,SRVGY.IS,EQ,TRESRGY00010
+Visne Madencilik Uretim Sanayi ve Ticaret AS,Materials,VSNMD.IS,EQ,TREVISN00029
+Ingram Micro Bilisim Sistemleri A.S.,Industrials,INGRM.IS,EQ,TREARMD00010
+TAPDI OKSIJEN OZEL SAGLIK VE EGITIM HIZMETLERI SANAYI TICARET A.S.,Health Care,TNZTP.IS,EQ,TRETAPD00019
+Akmerkez Gayrimenkul Yatirim Ortakligi A.S.,Financials,AKMGY.IS,EQ,TREAKMG00018
+Europen Endustri Insaat Sanayi ve Ticaret A.S.,Industrials,EUREN.IS,EQ,TREEURN00030
+Mopas Marketcilik Gida Sanayi Ve Ticaret A.S.,Consumer Discretionary,MOPAS.IS,EQ,TREMPAS00012
+Akenerji Elektrik Uretim A.S.,Utilities,AKENR.IS,EQ,TRAAKENR91L9
+Marmaris Altinyunus Turistik Tesisler A.S,Consumer Discretionary,MAALT.IS,EQ,TRAMAALT91K5
+Vakif Gayrimenkul Yatirim Ortakligi Anonim Sirketi,Financials,VKGYO.IS,EQ,TRAVKGYO91Q3
+GOKNUR GIDA MADDELERI ENERJI IMALAT ITHALAT IHRACAT TICARET VE SANAYI A.S.,Consumer Staples,GOKNR.IS,EQ,TREGKNR00036
+Gipta Ofis Kirtasiye ve Promosyon Urunleri Imalat Sanayi A.S.,Industrials,GIPTA.IS,EQ,TREGPTA00038
+Nasmed Ozel Saglik Hizmetleri Ticaret A.S.,Health Care,EGEPO.IS,EQ,TRENSMD00029
+Segmen Kardesler Gida Uretim ve Ambalaj Sanayi AS,Consumer Staples,SEGMN.IS,EQ,TRESGMN00022
+Manas Enerji Yonetimi Sanayi ve Ticaret A.S.,Industrials,MANAS.IS,EQ,TREMANS00025
+Besler Gida Ve Kimya Sanayi Ve Ticaret AS,Consumer Staples,BESLR.IS,EQ,TRAKERVT91A5
+Sumer Varlik Yonetim A.S.,Industrials,SMRVA.IS,EQ,TRESUVY00013
+Karel Elektronik Sanayi ve Ticaret SA,Technology,KAREL.IS,EQ,TREKREL00019
+Kartonsan Karton Sanayi ve Ticaret Anonim Sirketi,Materials,KARTN.IS,EQ,TRAKARTN91D4
+Soenmez Filament Sentetik Iplik ve Elyaf Sanayi Anonim Sirketi,Materials,SONME.IS,EQ,TRASONME91B5
+Bursa Cimento Fabrikasi A.S.,Materials,BUCIM.IS,EQ,TRABUCIM91F3
+Orge Enerji Elektrik Taahhut AS,Industrials,ORGE.IS,EQ,TREORGE00011
+BIotrend Cevre ve EnerjI Yatirimlari AS,Utilities,BIOEN.IS,EQ,TREBION00012
+Tureks Turizm,Industrials,TUREX.IS,EQ,TRETURX00045
+Europap Tezol Paper Industry and Trade Inc.,Consumer Staples,TEZOL.IS,EQ,TRETEZL00021
+Enda Enerji Holding Anonim Sirketi,Financials,ENDAE.IS,EQ,TREENDA00016
+Naturelgaz Sanayi Ve Ticaret A.S.,Utilities,NTGAZ.IS,EQ,TRENTGZ00014
+Vakif Finansal Kiralama AS,Financials,VAKFN.IS,EQ,TRAVAKFN91P9
+Turk Prysmian Kablo ve Sistemleri A.S.,Industrials,PRKAB.IS,EQ,TRASMENS91H3
+Adel Kalemcilik Ticaret ve Sanayi A.S.,Consumer Discretionary,ADEL.IS,EQ,TRAADELW91T1
+Indeks Bilgisayar Sistemleri Muhendislik Sanayi ve Ticaret A.S,Industrials,INDES.IS,EQ,TREINDX00019
+Ofis Yem Gida Sanayi ve Ticaret A.S.,Materials,OFSYM.IS,EQ,TREOFSY00027
+Sonmez Pamuklu Sanayii A.S.,Materials,SNPAM.IS,EQ,TRASNPAM91B0
+Ekos Teknoloji ve Elektrik AS,Industrials,EKOS.IS,EQ,TREEKOS00011
+Turk Demir Dokum,Consumer Discretionary,DOKTA.IS,EQ,TRADOKTS91G7
+Bien Yapi Urunleri Sanayi Turizm Ve Ticaret Anonim Sirketi,Materials,BIENY.IS,EQ,TREBNYP00016
+Bossa Ticaret ve Sanayi Isletmeleri T.A.S.,Materials,BOSSA.IS,EQ,TRABOSSA91B5
+Vestel Elektronik,Consumer Discretionary,VESTL.IS,EQ,TRAVESTL91H6
+Inveo Yatirim Holding AS,Financials,INVEO.IS,EQ,TRAGDKYO91Q1
+KOZA POLYESTER SANAYI VE TICARET A.S.,Materials,KOPOL.IS,EQ,TREKOPL00012
+GELECEK VARLIK YONETIMI A.S,Financials,GLCVY.IS,EQ,TREGVYO00011
+Gozde Girisim Sermayesi Yatirim Ortakligi A.S.,Financials,GOZDE.IS,EQ,TREGZDF00014
+Kontrolmatik Teknoloji Enerji ve Muhendislik AS,Utilities,KONTR.IS,EQ,TREKNTR00013
+Alarko Carrier Sanayi ve Ticaret A.S.,Industrials,ALCAR.IS,EQ,TRAALRSA91H2
+Atakey Patates Gida Sanayi ve Ticaret AS,Consumer Staples,ATAKP.IS,EQ,TREATKY00016
+Cagdas Cam Sanayi ve Ticaret AS,Consumer Discretionary,CGCAM.IS,EQ,TRECGDC00010
+ASCE GAYRIMENKUL YATIRIM ORTAKLIGI A.S.,Financials,ASGYO.IS,EQ,TREASCE00033
+E-Data Teknoloji Pazarlama AS,Industrials,EDATA.IS,EQ,TREEDTA00021
+Reeder Teknoloji,Technology,REEDR.IS,EQ,TREREED00035
+Parsan Makina Parcalari Sanayii Anonim Sirketi,Industrials,PARSN.IS,EQ,TRAPARSN91H6
+Burcelik Vana Sanayi ve Ticaret A.S.,Industrials,BURVA.IS,EQ,TREBRVN00018
+Big Medya Teknoloji A.S.,Consumer Discretionary,BIGTK.IS,EQ,TRADOBUR91D3
+Ditas Dogan Yedek Parca Imalat ve Teknik A.S.,Industrials,DITAS.IS,EQ,TRADITAS91H8
+Yigit Aku Malzemeleri Nakliyat Turizm Insaat Sanayi Ve Ticaret,Industrials,YIGIT.IS,EQ,TREYIGT00025
+Bogazici Beton Sanayi ve Ticaret AS,Materials,BOBET.IS,EQ,TREBOBT00014
+Trabzonspor Sportif Yatirim ve Futbol Isletmeciligi Ticaret A.S.,Consumer Discretionary,TSPOR.IS,EQ,TRETRBZ00016
+Alkim Kagit Sanayi ve Ticaret A.S.,Materials,ALKA.IS,EQ,TRAALKAW91D8
+Besiktas Futbol Yatirimlari Sanayi ve Ticaret A.S.,Consumer Discretionary,BJKAS.IS,EQ,TRABJKAS91X6
+Kiler Gayrimenkul Yatirim Ortakligi A.S.,Financials,KLGYO.IS,EQ,TREKGYO00014
+Esenboga Elektrik Uretim AS,Utilities,ESEN.IS,EQ,TREESEN00024
+Agrotech Yuksek Teknoloji ve Yatirim AS,Technology,AGROT.IS,EQ,TREAGRT00018
+A1 Capital Yatitim Menkul Degerler A.S.,Financials,A1CAP.IS,EQ,TREA1CP00024
+Link Bilgisayar Sistemleri Yazilimi ve Donanimi Sanayi ve Ticaret A.S.,Technology,LINK.IS,EQ,TRALINKW91U8
+Cates Elektrik Uretim Anonim Sirketi,Utilities,CATES.IS,EQ,TRECATS00015
+Kervan Gida Sanayi ve Ticaret AS,Consumer Staples,KRVGD.IS,EQ,TREKRVG00013
+Bahadir Kimya Sanayi Ve Ticaret Anonim Sirketi,Materials,BAHKM.IS,EQ,TREBHDR00018
+Koleksiyon Mobilya Sanayi AS,Consumer Discretionary,KLSYN.IS,EQ,TREKLSN00026
+ONCOSEM ONKOLOJIK SISTEMLER SANAYI VE TICARET A.S.,Health Care,ONCSM.IS,EQ,TREONCO00026
+Ulusoy Un Sanayi ve Ticaret AS,Materials,ULUUN.IS,EQ,TREULSY00014
+ATP Yazilim ve Teknoloji AS,Technology,ATATP.IS,EQ,TREATTP00023
+Temapol Polimer Plastik Ve Insaat Sanayi Ticaret A..S,Materials,TMPOL.IS,EQ,TRETMPL00017
+Mondi Turkey Oluklu Mukavva Kagit ve Ambalaj Sanayi A.S.,Materials,MNDTR.IS,EQ,TRATIREW91D1
+FORTE BILGI ILETISIM TEKNOLOJILERI VE SAVUNMA SANAYI A.S.,Technology,FORTE.IS,EQ,TREFRTE00012
+Desa Deri Sanayi ve Ticaret A.S.,Consumer Staples,DESA.IS,EQ,TREDESA00015
+Koc Metalurji AS,Materials,KOCMT.IS,EQ,TREKOCM00018
+Penta Teknoloji Urunleri Dagitim Ticaret AS,Industrials,PENTA.IS,EQ,TREPNTA00042
+Alcatel Lucent Teletas Telekomunikasyon A.S.,Technology,ALCTL.IS,EQ,TRAALCTL91H9
+Soke Degirmencilik Sanayi ve Ticaret AS,Materials,SOKE.IS,EQ,TRESOKE00029
+Bor Seker A.S.,Materials,BORSK.IS,EQ,TREBRSK00010
+Katmerciler Arac Ustu Ekipman Sanayi ve Ticaret A.S.,Industrials,KATMR.IS,EQ,TREKTMR00015
+Goltas Goller Bolgesi Cimento Sanayi ve Ticaret A.S.,Materials,GOLTS.IS,EQ,TRAGOLTS91F0
+GSD Holding A.S.,Industrials,GSDHO.IS,EQ,TRAGSDHO91Q9
+Blume Metal Kimya Anonim Sirketi,Consumer Discretionary,BLUME.IS,EQ,TREMETU00012
+Celik Halat ve Tel Sanayii A.S.,Materials,CELHA.IS,EQ,TRACELHA91G1
+Arsan Holding A.S.,Materials,ARSAN.IS,EQ,TRAARSAN91B1
+Yatas,Consumer Discretionary,YATAS.IS,EQ,TRAYATAS91B4
+Horoz Lojistik Kargo Hizmetleri Ve Ticaret AS,Industrials,HOROZ.IS,EQ,TREHROZ00022
+Ensari Sinai Yatirimlar A.S.,Consumer Staples,ENSRI.IS,EQ,TREENSR00026
+Merit Turizm Yatirim ve Isletmeleri AS,Consumer Discretionary,MERIT.IS,EQ,TREMRTT00016
+Naturel Yenilenebilir Enerji Ticaret A.S.,Industrials,NATEN.IS,EQ,TRENATU00026
+PLATFORM TURIZM TASIMACILIK GIDA INSAAT TEMIZLIK HIZMETLERI SANAYI VE TICARET A.S.,Industrials,PLTUR.IS,EQ,TREPLTU00028
+Konya Kagit Sanayi ve Ticaret AS,Materials,KONKA.IS,EQ,TREKNKA00026
+Orma Orman Mahsulleri Integre Sanayi ve Ticaret AS,Materials,ORMA.IS,EQ,TREORMA00017
+Aztek Teknoloji Urunleri Ticaret A.S.,Industrials,AZTEK.IS,EQ,TREAZTK00021
+ARF Bio Yenilenebilir Enerji Uretim AS,Utilities,ARFYE.IS,EQ,TREARFB00018
+Egeyapi Avrupa Gayrimenkul Yatirim Ortakligi A.S.,Financials,EGEGY.IS,EQ,TREEGEY00018
+Alkim Alkali Kimya A.S.,Materials,ALKIM.IS,EQ,TRAALKIM91E0
+Birikim Varlik Yonetim A.S.,Financials,BRKVY.IS,EQ,TREBVYS00013
+Ayes Celik Hasir ve Cit Sanayi AS,Industrials,AYES.IS,EQ,TREAYES00011
+Cemtas Celik Makina Sanayi ve Ticaret A.S.,Materials,CEMTS.IS,EQ,TRACEMTS91G6
+Safkar Ege Cooling Air Conditioning Cold Air Tes.Ihr.Ith.A.S,Industrials,SAFKR.IS,EQ,TRESFEK00027
+Ozyasar Tel ve Galvanizleme Sanayi Anonim Sirketi,Industrials,OZYSR.IS,EQ,TREOZYS00025
+Afyon Cimento Sanayii T.A.S.,Materials,AFYON.IS,EQ,TRAAFYON91F6
+Gentas Dekoratif Yuzeyler Sanayi ve Ticaret A.S.,Industrials,GENTS.IS,EQ,TRAGENTS91C4
+Yunsa Yunlu Sanayi ve Ticaret A.S.,Materials,YUNSA.IS,EQ,TRAYUNSA91B5
+MHR Gayrimenkul Yatirim Ortakligi Anonim Sirketi,Financials,MHRGY.IS,EQ,TREMHRG00018
+Fonet Bilgi Teknolojileri AS,Technology,FONET.IS,EQ,TREFONT00010
+Intema Insaat ve Tesisat Malzemeleri Yatirim ve Pazarlama A.S.,Industrials,INTEM.IS,EQ,TRAINTEM91I0
+Adese Gayrimenkul Yatirim AS,Financials,ADESE.IS,EQ,TREADSE00015
+Dardanel Onentas Gida San. A.S.,Consumer Staples,DARDL.IS,EQ,TRADARDL91A3
+Elite Naturel Organik Gida Sanayi ve Ticaret AS,Consumer Staples,ELITE.IS,EQ,TREELIT00019
+Yibitas Yozgat Isci Birligi Insaat Malzemeleri Ticaret Ve San,Materials,YBTAS.IS,EQ,TREYBTS00017
+BULBULOGLU VINC SANAYI VE TICARET A.S.,Industrials,BVSAN.IS,EQ,TREBVSB00011
+Tat Gida Sanayi A.S.,Consumer Staples,TATGD.IS,EQ,TRATATKS91A5
+Metro Ticari ve Mali Yatirimlar Holding A.S.,Consumer Staples,METRO.IS,EQ,TRAVANET91A5
+Kuzugrup Gayrimenkul Yatirim Ortakligi AS,Financials,KZGYO.IS,EQ,TREKZGR00014
+DCT Trading Dis Ticaret Anonim Sirketi,Industrials,DCTTR.IS,EQ,TREDCTT00025
+Kuvva Gida Ticaret ve Sanayi Yatirimlari A.S.,Consumer Discretionary,KUVVA.IS,EQ,TRASERVE91T0
+Birlesim Muhendislik Isitma Sogutma Havalandirma Sanayi ve Ticaret A.S.,Materials,BRLSM.IS,EQ,TREBLSM00027
+Erciyas Celik Boru Sanayi A.S.,Materials,ERCB.IS,EQ,TREERCY00027
+Dyo Boya Fabrikalari Sanayi ve Ticaret A.S.,Materials,DYOBY.IS,EQ,TRAYASAS91E0
+Gezinomi Seyahat Turizm Ticaret A.S.,Consumer Discretionary,GZNMI.IS,EQ,TREGZNM00027
+TSKB Gayrimenkul Yatirim Ortakligi Anonim Sirketi,Financials,TSGYO.IS,EQ,TRETSGY00016
+Say Yenilenebilir Enerji Ekipmanlari Sanayi ve Ticaret A.S.,Industrials,SAYAS.IS,EQ,TRESAYR00013
+Eksun Gida Tarim Sanayi ve Ticaret,Materials,EKSUN.IS,EQ,TREEKSN00021
+MERCAN KIMYA SANAYI VE TICARET A.S.,Materials,MERCN.IS,EQ,TREMRCN00023
+Alves Kablo Sanayi ve Ticaret A. S.,Industrials,ALVES.IS,EQ,TREALVS00012
+Goodyear Lastikleri,Consumer Discretionary,GOODY.IS,EQ,TRAGOODY91E9
+Federal-Mogul Izmit Piston ve Pim Uretim Tesisleri A.S.,Industrials,FMIZP.IS,EQ,TRAISTMP91H7
+Netas Telekomunikasyon A.S.,Technology,NETAS.IS,EQ,TRANETAS91H6
+Hurriyet Gazetecilik ve Matbaacilik A.S.,Consumer Discretionary,HURGZ.IS,EQ,TRAHURGZ91D9
+Onur Yuksek Teknoloji AS,Technology,ONRYT.IS,EQ,TREONRY00015
+Kutahya Seker Fabrikasi AS,Materials,KTSKR.IS,EQ,TREKTSR00046
+Ersan Alisveris Hizmetleri ve Gida Sanayi Ticaret A.S.,Consumer Discretionary,KIMMR.IS,EQ,TREERSN00026
+Suwen Tekstil San. Paz. AS,Consumer Discretionary,SUWEN.IS,EQ,TRESUWN00022
+Escort Teknoloji Yatirim A.S.,Technology,ESCOM.IS,EQ,TRAESCOM91U8
+SANIFOAM ENDUSTRI VE TUKETIM URUNLERI SANAYI TICARET A.S.,Materials,SANFM.IS,EQ,TRESNFM00016
+Mackolik Internet Hizmetleri Ticaret AS,Industrials,MACKO.IS,EQ,TREMACK00017
+Teknosa Ic ve Dis Ticaret AS,Consumer Discretionary,TKNSA.IS,EQ,TRETKNO00010
+PC Iletisim ve Medya Hizmetleri Sanayi Ticaret AS,Industrials,PCILT.IS,EQ,TREPCIL00029
+Cemas Dokum Sanayi A.S.,Materials,CEMAS.IS,EQ,TRECMAS00010
+Dunya Holding Anonim Sirketi,Consumer Staples,DUNYH.IS,EQ,TRASELGD91A6
+SEKER GAYRIMENKUL YATIRIM ORTAKLIGI A.S.,Financials,SEGYO.IS,EQ,TRESKGY00015
+INFO YATIRIM MENKUL DEGERLER A.S,Financials,INFO.IS,EQ,TREINFM00017
+Dogusan Boru Sanayii ve Ticaret A.S.,Materials,DOGUB.IS,EQ,TRADOGUB92F9
+Yaprak Sut ve Besi Ciftikleri Sanayi Ve Ticaret AS,Materials,YAPRK.IS,EQ,TREYSBS00019
+Marti Gayrimenkul Yatirim Ortakligi A.S.,Financials,MRGYO.IS,EQ,TREMRGY00013
+Pinar Sut Mamulleri Sanayii A.S.,Consumer Staples,PNSUT.IS,EQ,TRAPNSUT91A5
+Seranit Granit Seramik Sanayi ve Ticaret A.S.,Industrials,SERNT.IS,EQ,TRESRNT00016
+Borlease Otomotiv AS,Financials,BORLS.IS,EQ,TREBORL00025
+VBT Yazilim AS,Technology,VBTYZ.IS,EQ,TREVBTY00029
+Hun Yenilenebilir Enerji Uretim AS,Utilities,HUNER.IS,EQ,TREHUNR00025
+Prizma Pres Matbaacilik Yayincilik Sanayi ve Ticaret AS,Industrials,PRZMA.IS,EQ,TREPRZM00011
+Usak Seramik Sanayii A.S.,Industrials,USAK.IS,EQ,TRAUSAKW91F6
+Erbosan Erciyas Boru Sanayii ve Ticaret A.S.,Materials,ERBOS.IS,EQ,TRAERBOS91G8
+Pinar Entegre Et ve Un Sanayii Anonim Sirketi,Consumer Staples,PETUN.IS,EQ,TRAPETUN91A5
+Konfrut Tarim A.S.,Consumer Staples,KNFRT.IS,EQ,TRAKNFRT91A9
+Petrokent Turizm A.S.,Consumer Discretionary,PKENT.IS,EQ,TRAPKENT91K5
+Ihlas Holding A.S.,Financials,IHLAS.IS,EQ,TRAIHLAS91D5
+Meditera Tibbi Malzeme Sanayi Ve Ticaret A.S.,Health Care,MEDTR.IS,EQ,TREMDTR00028
+TURKER PROJE GAYRIMENKUL VE YATIRIM GELISTIRME A.S.,Financials,TURGG.IS,EQ,TREMYPG00017
+Buyuk Sefler Gida Turizm Tekstil Danismanlik Organizasyon Egitim Sanayi ve Ticaret A.S.,Consumer Discretionary,BIGCH.IS,EQ,TREBIGC00011
+Kutahya Porselen Sanayi A.S.,Consumer Discretionary,KUTPO.IS,EQ,TRAKUTPO91F9
+Burcelik Bursa Celik Doekum Sanayii A.S.,Materials,BURCE.IS,EQ,TRABURCE91G9
+Bagfas Bandirma Gubre Fabrikalari A.S.,Materials,BAGFS.IS,EQ,TRABAGFS91E2
+Kron Teknoloji AS,Communication Services,KRONT.IS,EQ,TREKRON00014
+Datagate Bilgisayar Malzemeleri Ticaret A.S.,Industrials,DGATE.IS,EQ,TREDGTE00010
+Panelsan Cati Cephe Sistemleri Sanayi ve Ticaret AS,Materials,PNLSN.IS,EQ,TREPNLS00017
+Nurol Gayrimenkul Yatirim Ortakligi A.S.,Financials,NUGYO.IS,EQ,TRANUGYO91Q9
+Kervansaray Yatirim Holding A.S.,Consumer Discretionary,KERVN.IS,EQ,TRACEYLN91B0
+Deniz Gayrimenkul Yatirim Ortakligi A.S.,Financials,DZGYO.IS,EQ,TRADMRYO91Q4
+Bak Ambalaj Sanayi ve Ticaret A.S.,Materials,BAKAB.IS,EQ,TRABAKAB91D3
+Gate Group Teknoloji Medya Ve Siber Guvenlik Hizmetleri A.S.,Industrials,GATEG.IS,EQ,TRESNKR00023
+Lokman Hekim Engurusag Saglik  Turizm  Egitim Hizmetleri ve Insaat Taahhut A.S.,Health Care,LKMNH.IS,EQ,TRELKMH00013
+Bati Ege Gayrimenkul Yatirim Ortakligi A.S.,Financials,BEGYO.IS,EQ,TREBTEG00014
+Ozsu Balik Uretim A.S.,Materials,OZSUB.IS,EQ,TREOZSU00023
+Sanko Pazarlama Ithalat Ihracat Anonim Sirketi,Materials,SANKO.IS,EQ,TRASANKO91I2
+Baydoner Restoranlari A.S.,Consumer Discretionary,BYDNR.IS,EQ,TREBYDN00012
+Isbir Sentetik Dokuma Sanayi AS,Materials,ISSEN.IS,EQ,TREISBS00012
+Pinar Su ve Icecek Sanayi ve Ticaret A.S.,Consumer Staples,PINSU.IS,EQ,TRAPINSU91A8
+Menderes Tekstil Sanayi ve Ticaret Anonim Sirketi,Consumer Staples,MNDRS.IS,EQ,TRAMNDRS91B0
+Doganlar Mobilya Grubu Imalat Sanayi ve Ticaret A.S.,Consumer Discretionary,DGNMO.IS,EQ,TRAKLBMO91C0
+Emek Elektrik Endustrisi A.S.,Industrials,EMKEL.IS,EQ,TRAEMKEL91L6
+Lider Faktoring Anonim Sirketi,Financials,LIDFA.IS,EQ,TRELDFK00016
+Dagi Giyim Sanayi ve Ticaret A.S.,Consumer Staples,DAGI.IS,EQ,TREDAGI00011
+PAPILON SAVUNMA TEKNOLOJI VE TICARET A.S,Technology,PAPIL.IS,EQ,TREPAPL00010
+Tek-Art Insaat Ticaret Turizm Sanayi ve Yatirimlar Anonim Sirketi,Consumer Discretionary,TEKTU.IS,EQ,TRATEKTU91K2
+Skyalp Finansal Teknolojiler ve Danismanlik A.S,Industrials,SKYLP.IS,EQ,TREMCTD00012
+Osmanli Yatirim Menkul Degerler a.s.,Financials,OSMEN.IS,EQ,TREOSMK00022
+Matriks Finansal Teknolojiler A.S.,Technology,MTRKS.IS,EQ,TREMTRK00015
+Plastikkart Akilli Kart Iletisim Sistemleri Sanayi ve Ticaret A.S.,Industrials,PKART.IS,EQ,TREPKRT00018
+Luks Kadife Ticaret ve Sanayi A.S.,Materials,LUKSK.IS,EQ,TRALUKSK91B7
+Hedef Girisim Sermayesi Yatirim Ortakligi A.S.,Financials,HDFGS.IS,EQ,TREHEDF00017
+Tureks Turunc Madencilik Ic ve Dis Ticaret A.S.,Materials,MARBL.IS,EQ,TRETRKT00044
+Mistral Gayrimenkul Yatirim Ortakligi AS,Financials,MSGYO.IS,EQ,TREMIST00017
+Korfez Gayrimenkul Yatirim Ortakligi AS,Financials,KRGYO.IS,EQ,TREKRFZ00016
+Ruzy Madencilik Ve Enerji Yatirimlari Sanayi Ve Ticaret A.S.,Materials,RUZYE.IS,EQ,TRAALYAG91A8
+IMAS Makina Sanayi Anonim Sirketi,Industrials,IMASM.IS,EQ,TREIMAS00017
+Marti Otel Isletmeleri A.S.,Consumer Discretionary,MARTI.IS,EQ,TRAMMART91K7
+Artemis Hali A. S.,Consumer Discretionary,ARTMS.IS,EQ,TREATMS00014
+Arena Bilgisayar AS,Industrials,ARENA.IS,EQ,TRAARENA91U1
+Beyaz Filo Oto Kiralama AS,Consumer Discretionary,BEYAZ.IS,EQ,TREBFOK00014
+Cimbeton Hazir Beton ve Prefabrik Yapi Elemanlari Sanayi ve Ticaret A.S.,Materials,CMBTN.IS,EQ,TRACMBTN91F5
+Derluks Yatirim Holding AS,Consumer Staples,DERHL.IS,EQ,TREDDST00017
+Durukan Sekerleme Sanayi ve Ticaret AS,Consumer Staples,DURKN.IS,EQ,TREDRKN00025
+Duran Dogan Basim ve Ambalaj Sanayi A.S.,Materials,DURDO.IS,EQ,TRADUROF91D4
+FORMET METAL VE CAM SANAYI A.S.,Materials,FORMT.IS,EQ,TREFRMT00015
+Park Elektrik Uretim Madencilik Sanayi ve Ticaret A.S.,Materials,PRKME.IS,EQ,TRAPRKTE91B5
+Makina Takim Endustrisi A.S.,Industrials,MAKTK.IS,EQ,TRAMAKTK91H2
+Loras Holding Anonim Sirketi,Consumer Staples,LRSHO.IS,EQ,TREITFK00018
+Pamel Yenilenebilir Elektrik Uretim AS,Utilities,PAMEL.IS,EQ,TREBOMO00012
+TGS Dis Ticaret AS,Industrials,TGSAS.IS,EQ,TRETGSD00010
+Klimasan Klima Sanayi ve Ticaret A.S.,Industrials,KLMSN.IS,EQ,TRAKLMSN91H5
+Dinamik Isi Makina Yalitim Malzemeleri Sanayi ve Ticaret AS,Materials,DNISI.IS,EQ,TREDIMY00027
+Frigo-Pak Gida Maddeleri Sanayi ve Ticaret A.S.,Consumer Staples,FRIGO.IS,EQ,TRAFRIGO91A8
+Akin Tekstil A.S.,Materials,ATEKS.IS,EQ,TRAATEKS91B5
+Aksu Enerji ve Ticaret A.S.,Utilities,AKSUE.IS,EQ,TRAAKSUE91L2
+Anatolia Tani ve Biyoteknoloji Urunleri Arastirma Gelistirme Sanayi ve Ticaret AS,Health Care,ANGEN.IS,EQ,TREANGN00028
+Sanica Isi Sanayi A.S.,Industrials,SNICA.IS,EQ,TRESANK00011
+Edip Gayrimenkul Yatirim Sanayi ve Ticaret A.S.,Financials,EDIP.IS,EQ,TRAEDIPW91B3
+Ege Seramik Sanayi ve Ticaret A.S.,Industrials,EGSER.IS,EQ,TRAEGSER91F0
+Bilici Yatirim Sanayi ve Ticaret A.S.,Materials,BLCYT.IS,EQ,TREBLCY00018
+Derimod Konfeksiyon Ayakkabi Deri Sanayi ve Ticaret A.S.,Consumer Staples,DERIM.IS,EQ,TRADERIM91B0
+Atakule Gayrimenkul Yatirim Ortakligi A.S.,Financials,AGYO.IS,EQ,TRAAGYOW91Q2
+Rubenis Tekstil Sanayi Ticaret AS,Materials,RUBNS.IS,EQ,TRERBNS00014
+Ozerden Ambalaj Sanayi A.S.,Materials,OZRDN.IS,EQ,TREOZER00029
+Sumas Suni Tahta ve Mobilya Sanayii AS,Materials,SUMAS.IS,EQ,TRESMAS00016
+Unlu Yatirim Holding A.S.,Financials,UNLU.IS,EQ,TREUNCO00023
+SELVA GIDA SANAYI A.S.,Consumer Staples,SELVA.IS,EQ,TRESLVA00020
+Kafein Yazilim Hizmetleri Ticaret AS,Technology,KFEIN.IS,EQ,TREKFIN00037
+Bizim Toptan,Consumer Staples,BIZIM.IS,EQ,TREBZMT00017
+BREAK MOLA TURIZM YATIRIMLAR A.S.,Consumer Discretionary,MEPET.IS,EQ,TREMEPT00012
+Penguen Gida Sanayi A.S.,Consumer Staples,PENGD.IS,EQ,TRAPENGD91A8
+Consus Enerji Isletmeciligi ve Hizmetleri A.S.,Utilities,CONSE.IS,EQ,TRECONS00019
+Kristal Kola ve Mesrubat Sanayi Ticaret A.S.,Consumer Staples,KRSTL.IS,EQ,TRAKRSTL91A6
+Trabzon Liman Isletmeciligi AS,Industrials,TLMAN.IS,EQ,TRETLMN00020
+Seker Yatirim Menkul Degerler A.S.,Financials,SKYMD.IS,EQ,TRESKMD00017
+Vanet Gida Sanayi Ic ve Dis Ticaret AS,Industrials,VANGD.IS,EQ,TREVNGS00015
+Ozderici Gayrimenkul Yatirim Ortakligi A.S.,Financials,OZGYO.IS,EQ,TRAOZFIN91P5
+Ulusal Faktoring A.S.,Financials,ULUFA.IS,EQ,TREULFK00036
+GSD Denizcilik Gayrimenkul Insaat Sanayi ve Ticaret AS,Industrials,GSDDE.IS,EQ,TRARANTL91P6
+A1 Yenilenebilir Enerji Uretim AS,Utilities,A1YEN.IS,EQ,TREKARY00028
+MAKIM MAKINA TEKNOLOJILERI SANAYIVE TICARET A.S.,Technology,MAKIM.IS,EQ,TREMAKM00024
+Isbir Holding AS,Materials,ISBIR.IS,EQ,TREISBR00014
+Birko Birlesik Koyunlulular Mensucat ve Ticaret A.S.,Consumer Discretionary,BRKO.IS,EQ,TREBRKO00019
+Guler Yatirim Holding A.S.,Financials,GLRYH.IS,EQ,TREBSKY00016
+Dofer Yapi Maizemeleri Sanayi ve Ticaret A.S.,Materials,DOFER.IS,EQ,TREDOFR00023
+Obase Bilgisayar ve Danismanlik Hizmetleri Ticaret A.S.,Technology,OBASE.IS,EQ,TREOBAS00018
+Avrupa Yatirim Holding AS,Health Care,AVHOL.IS,EQ,TREBYTS00017
+Ihlas Gayrimenkul Proje Gelistirme ve Ticaret A.S.,Financials,IHLGM.IS,EQ,TRAOKANT91B5
+Innosa Teknoloji Anonim Sirketi,Materials,INTEK.IS,EQ,TREUZER00018
+ICU Girisim Sermayesi Yatirim Ortakligi A.S.,Financials,ICUGS.IS,EQ,TRAVKFRS91Q0
+Zedur Enerji ElekTrik Uretim A.S.,Consumer Discretionary,ZEDUR.IS,EQ,TREUTOP00014
+RTA Laboratuvarlari Biyolojik Urunler Ilac ve Makina Sanayi Ticaret A.S.,Health Care,RTALB.IS,EQ,TRERTAL00018
+Cuhadaroglu Metal Sanayi ve Pazarlama AS,Materials,CUSAN.IS,EQ,TRECUHA00016
+Demisas Dokum Emaye Mamulleri Sanayi A.S.,Industrials,DMSAS.IS,EQ,TRADMSAS91E9
+Soktas Tekstil Sanayi ve Ticaret A.S.,Materials,SKTAS.IS,EQ,TRASKTAS91B5
+EYG Gayrimenkul Yatirim Ortakligi AS,Financials,EYGYO.IS,EQ,TREEYGG00021
+Sekuro Plastik Ambalaj Sanayi A.S.,Materials,SEKUR.IS,EQ,TRESKPA00016
+Vera Konsept Gayrimenkul Yatirim Ortakligi A.S.,Financials,VRGYO.IS,EQ,TREVRKP00022
+OTTO HOLDING A.S,Materials,OTTO.IS,EQ,TRETTUR00019
+Yesil Yapi Endustrisi A.S.,Industrials,YYAPI.IS,EQ,TRABROVA91S5
+Avrasya Gayrimenkul Yatirim Ortakligi A.S.,Financials,AVGYO.IS,EQ,TRAAVRSY91Q2
+Ostim Endustriyel Yatirimlar ve Isletme AS,Financials,OSTIM.IS,EQ,TREOSTM00015
+Euro Yatirim Holding A.S.,Financials,EUHOL.IS,EQ,TREEUYM00012
+Yukselen Celik AS,Industrials,YKSLN.IS,EQ,TREYUKC00028
+Aciselsan Acipayam Seluloz Sanayi ve Ticaret AS,Materials,ACSEL.IS,EQ,TREACSS00017
+Bantas Bandirma Ambalaj Sanayi ve Ticaret A.S.,Materials,BNTAS.IS,EQ,TREBANT00026
+BMS Celik Hasir Sanayi Ve Ticaret A.S.,Industrials,BMSCH.IS,EQ,TREBMSC00018
+Koroplast Temizlik Ambalaj Urunleri Sanayi ve dis Ticaret AS,Consumer Staples,KRPLS.IS,EQ,TREKRPL00015
+Gediz Ambalaj Sanayi ve Ticaret AS,Materials,GEDZA.IS,EQ,TREGDZA00015
+Rainbow Polikarbonat Sanayi Ticaret Anonim Sirketi,Industrials,RNPOL.IS,EQ,TRERNPL00027
+Merko Gida Sanayi ve Ticaret A.S. Class A,Consumer Staples,MERKO.IS,EQ,TRAMERKO91A5
+Tugcelik Aluminyum ve Metal Mamulleri Sanayi ve Ticaret A.S.,Materials,TUCLK.IS,EQ,TRETUGC00018
+Marka Yatirim Holding A.S.,Industrials,MARKA.IS,EQ,TREIFTY00019
+PARDUS GIRISIM SERMAYESI YATIRIM ORTAKLIGI A.S.,Financials,PRDGS.IS,EQ,TREPRDS00023
+Global Menkul Degerler A.S.,Financials,GLBMD.IS,EQ,TREGLMK00015
+Nigbas Nigde Beton Sanayi ve Ticarte A.S.,Industrials,NIBAS.IS,EQ,TRENNBS00013
+Fade Gida Yatirim Sanayi Ticaret A.S.,Consumer Staples,FADE.IS,EQ,TREFADE00012
+HIDROPAR HAREKET KONTROL TEKNOLOJILERI MERKEZI SANAYI VE TICARET ANONIM SIRKETI,Industrials,HKTM.IS,EQ,TREHDRP00018
+Turk Ilac ve Serum Sanayi AS,Health Care,TRILC.IS,EQ,TRETRLC00022
+Denge Yatirim Holding AS,Financials,DENGE.IS,EQ,TREDNGH00016
+Arzum Elektrikli Ev Aletleri Sanayi ve Ticaret AS,Industrials,ARZUM.IS,EQ,TREAZEV00020
+BAYRAK EBT TABAN SANAYI VE TICARET A.S.,Consumer Staples,BAYRK.IS,EQ,TREBYRK00026
+Flap Kongre Toplanti Hizmetleri Otomotiv ve Turizm A.S.,Consumer Discretionary,FLAP.IS,EQ,TREFLAP00011
+Etiler Gida ve Ticari Yatirimlar Sanayi ve Ticaret A.S.,Consumer Discretionary,ETILR.IS,EQ,TREEIBG00017
+Egeplast Ege Plastik Ticaret ve Sanayi A.S.,Industrials,EPLAS.IS,EQ,TRAEPLAS91E5
+A.V.O.D. KURUTULMUS GIDA VE TARIM URUNLERI SANAYI TICARET A.S.,Consumer Staples,AVOD.IS,EQ,TREAVOD00018
+Yayla Enerji Uretim Turizm ve Insaat Ticaret AS,Industrials,YAYLA.IS,EQ,TREYAYL00014
+CEO Event Medya AS,Consumer Discretionary,CEOEM.IS,EQ,TRECEOM00011
+Sodas Sodyum Sanayii AS,Materials,SODSN.IS,EQ,TRESODS00016
+Iz Yatirim Holding AS,Consumer Staples,IZINV.IS,EQ,TREIZTA00017
+ORCAY ORTAKOY CAY SANAYI VE TICARET A.S.,Consumer Staples,ORCAY.IS,EQ,TREORCY00026
+Viking Kagit ve Seluloz A.S.,Consumer Staples,VKING.IS,EQ,TRAVKING91D6
+Ihlas Gazetecilik A.S.,Consumer Discretionary,IHGZT.IS,EQ,TREIHGZ00019
+Smartiks Yazilim AS,Technology,SMART.IS,EQ,TRESMRT00018
+Cosmos Yatirim Holding A.S.,Industrials,COSMO.IS,EQ,TRABUMYO91Q2
+Trend Gayrimenkul Yatirim Ortakligi AS,Financials,TDGYO.IS,EQ,TRETGYO00023
+Seker Finansal Kiralama A.S.,Financials,SEKFK.IS,EQ,TRESKFK00016
+Hateks Hatay Tekstil Isletmeleri A.S.,Materials,HATEK.IS,EQ,TREHTKS00013
+Ersu Meyve ve Gida Sanayi A.S.,Consumer Staples,ERSU.IS,EQ,TRAERSUW91A4
+Eminis Ambalaj Sanayi ve Ticaret A.S.,Materials,EMNIS.IS,EQ,TRAEMNIS91E1
+Despec Bilgisayar Pazarlama ve Ticaret A.S.,Industrials,DESPC.IS,EQ,TREDSPC00017
+Birlik Mensucat Ticaret ve Sanayi Isletmesi A.S.,Materials,BRMEN.IS,EQ,TRABRMEN91B4
+San-El Muhendislik Elektrik Taahhut Sanayi ve Ticaret A.S.,Industrials,SANEL.IS,EQ,TRESNEL00011
+Yonga Mobilya SANAYI ve TICARET AS,Consumer Discretionary,YONGA.IS,EQ,TREYONG00018
+Seyitler Kimya Sanayi AS,Health Care,SEYKM.IS,EQ,TRESEYT00011
+Oyak Yatirim Ortakligi Anonim Sirketi,Financials,OYAYO.IS,EQ,TREOYAY00018
+Yesil Yatirim Holding AS,Financials,YESIL.IS,EQ,TREINFO00013
+Silverline Endustri ve Ticaret A.S.,Industrials,SILVR.IS,EQ,TRESLVR00016
+Balatacilar Balatacilik Sanayi ve Ticaret AS,Industrials,BALAT.IS,EQ,TREBLTA00012
+Pergamon Status Dis Ticaret A.S.,Materials,PSDTC.IS,EQ,TREPERG00018
+Hub Girisim Sermayesi Yatirim Ortakligi A.S.,Financials,HUBVC.IS,EQ,TREMBYO00011
+Vakif Menkul Kiymet Yatirim Ortakligi A.S.,Financials,VKFYO.IS,EQ,TRAVKFYT91Q4
+Karsu Tekstil Sanayii ve Ticaret A.S.,Materials,KRTEK.IS,EQ,TRAKRTEK91B6
+Euro Trend Yatirim Ortakligi A.S.,Financials,ETYAT.IS,EQ,TREEUTY00017
+Ekiz Kimya Sanayi ve Ticaret A.S.,Materials,EKIZ.IS,EQ,TREEKIZ00018
+MMC Sanayi ve Ticari Yatirimlar A.S,Industrials,MMCAS.IS,EQ,TREGNTR00011
+Rodrigo Tekstil Sanayi ve Ticaret AS,Consumer Staples,RODRG.IS,EQ,TRERDRT00019
+Idealist Gayrimenkul Yatirim Ortakligi A.S.,Financials,IDGYO.IS,EQ,TREIDGY00011
+Berkosan Yalitim ve Tecrit Maddeleri Uretim ve Ticaret A.S.,Materials,BRKSN.IS,EQ,TREBERK00010
+Ihlas Yayin Holding A.S.,Consumer Discretionary,IHYAY.IS,EQ,TREIHYA00015
+Ihlas Ev Aletleri Imalat  Sanayi ve Ticaret A.S.,Consumer Discretionary,IHEVA.IS,EQ,TRAIHEVA91H5
+Saray Matbaacilik Kagitcilik Kirtasiyecilik Ticaret Ve Sanayi A.S.,Industrials,SAMAT.IS,EQ,TRESRAY00013
+Oylum Sinai Yatirimlar A.S.,Consumer Staples,OYLUM.IS,EQ,TREOYLS00017
+Garanti Yatirim Ortakligi A.S.,Financials,GRNYO.IS,EQ,TRAGRNYO91Q5
+Ulaslar Turizm Energi Tarim Gida ve Insaat Yatirimlari A.S.,Consumer Discretionary,ULAS.IS,EQ,TREULAS00014
+Atlantis Yatirim Holding A.S.,Financials,ATSYH.IS,EQ,TRAATSYO91Q3
+Mega Polietilen Kopuk Sanayi ve Ticaret AS,Materials,MEGAP.IS,EQ,TREMEGA00011
+Akdeniz Yatirim Holding A.S.,Industrials,AKYHO.IS,EQ,TREAKGH00018
+Mazhar Zorlu Holding Anonim Sirketi,Industrials,MZHLD.IS,EQ,TRAMZHLD94Q2
+Ata Gayrimenkul Yatirim Ortakligi A.S.,Financials,ATAGY.IS,EQ,TRAATAYO91Q1
+Euro Kapital Yatirim Ortakligi AS,Financials,EUKYO.IS,EQ,TREEKYO00019
+Atlas Menkul Kiymetler Yatirim Ortakligi A.S.,Financials,ATLAS.IS,EQ,TRAATLAS91Q9
+Metro Yatirim Ortakligi A.S.,Financials,MTRYO.IS,EQ,TRAECBYO91Q7
+Casa Emtia Petrol Kimyevi ve Turevleri Sanayi Ticaret AS,Industrials,CASA.IS,EQ,TREKRSS00014
+Euro Menkul Kiymet Yatirim Ortakligi A.S.,Financials,EUYO.IS,EQ,TREEURY00011
+Diriteks Dirilis Tekstil Sanayi ve Ticaret AS,Materials,DIRIT.IS,EQ,TREDRTK00014
+Marmara Holding AS,Financials,MARMR.IS,EQ,TREMRMH00016
+Zeray Gayrimenkul Yatirim Ortakligi AS,Financials,ZERGY.IS,EQ,TREZERY00028
+Enpara Bank A.S.,Financials,ENPRA.IS,EQ,TREENPR00014
+Empa Elektronik Sanayi ve Ticaret A.S.,Technology,EMPAE.IS,EQ,TREEMPA00012
+Avrasya Petrol ve Turistik Tesisler Yatirimlar AS,Financials,AVTUR.IS,EQ,TREMRYO00017
+Verusaturk Girisim Sermayesi Yatirim Ortakligi AS,Financials,VERTU.IS,EQ,TREVRSA00019
+Gentas Kimya Sanayi ve Ticaret Pazarlama,Materials,GENKM.IS,EQ,TREGNTK00016
+Savur Gayrimenkul Yatirim Ortakligi A.S,Financials,SVGYO.IS,EQ,TRESVRG00024
+Akhan Un Fabrikasi Ve Tarim Urunleri Gida Sanayi Ticaret Anonim Sirketi,Materials,AKHAN.IS,EQ,TREAKHN00014
+Is Yatirim Ortakligi A.S.,Financials,ISYAT.IS,EQ,TRAISYAT91Q5
+Meka Global Makine Imalat Sanayi Ve Ticaret A.S.,Industrials,MEKAG.IS,EQ,TREMEKA00013
+Agaoglu Avrasya Gayrimenkul Yatirim Ortakligi AS,Financials,AAGYO.IS,EQ,TREAGVR00014
+DOF Robotik Sanayi Anonim Sirketi,Industrials,DOFRB.IS,EQ,TREDFRB00020
+Luxera Gayrimenkul Yatirim Ortakligi A.S.,Financials,LXGYO.IS,EQ,TRELUXR00018
+Is Girisim Sermayesi Yatirim Ortakligi A.S.,Financials,ISGSY.IS,EQ,TREIGSY00019
+Best Brands Grup Enerji Yatirim as,Utilities,BESTE.IS,EQ,TREBSBR00019
+Meysu Gida Sanayi Ve Ticaret A.S.,Consumer Staples,MEYSU.IS,EQ,TREMYSU00020
+Z Gayrimenkul Yatirim Ortakligi A.S.,Financials,ZGYO.IS,EQ,TREZGYO00020
+Ata Turizm Isletmecilik Tasimacilik Madencilik Kuyumculu,Consumer Discretionary,ATATR.IS,EQ,TREATTR00011
+Ekinciler Demir ve Celik Sanayi AS,Materials,EKDMR.IS,EQ,TREEKNC00025
+Vakif Faktoring A.S.,Financials,VAKFA.IS,EQ,TREVFAS00022
+Ecogreen Enerji Holding A.S.,Utilities,ECOGR.IS,EQ,TREECGR00024
+Ucay Muhendislik Enerji ve Iklimlendirme Teknolojileri,Industrials,UCAYM.IS,EQ,TREUCYM00024
+Formul Plastik Ve Metal Sanayi AS,Industrials,FRMPL.IS,EQ,TREFRML00012
+Metropal Kurumsal Hizmetler A.S.,Industrials,MCARD.IS,EQ,TREMTRP00014
+Netcad Yazilim A.S.,Technology,NETCD.IS,EQ,TRENETC00026

@@ -1,9 +1,206 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-China Steel,Materials,2002.TW,EQ,
-Formosa Plastics,Materials,1301.TW,EQ,
-Formosa Chemicals,Materials,1326.TW,EQ,
-Nan Ya Plastics,Materials,1303.TW,EQ,
-Taiwan Cement,Materials,1101.TW,EQ,
-Asia Cement,Materials,1102.TW,EQ,
-Far Eastern New Century,Materials,1402.TW,EQ,
-Walsin Lihwa Corporation,Materials,1605.TW,EQ,
+Nan Ya Plastics,Materials,1303.TW,EQ,TW0001303006
+China Steel,Materials,2002.TW,EQ,TW0002002003
+China Steel Corporation,Materials,2002A.TW,EQ,TW0002002A04
+Formosa Plastics,Materials,1301.TW,EQ,TW0001301000
+Formosa Chemicals,Materials,1326.TW,EQ,TW0001326007
+Taiwan Glass Ind. Corp.,Materials,1802.TW,EQ,TW0001802007
+Taiwan Cement,Materials,1101.TW,EQ,TW0001101004
+Walsin Lihwa Corporation,Materials,1605.TW,EQ,TW0001605004
+Far Eastern New Century,Materials,1402.TW,EQ,TW0001402006
+Asia Cement,Materials,1102.TW,EQ,TW0001102002
+Ta Chen Stainless Pipe Co.  Ltd.,Materials,2027.TW,EQ,TW0002027000
+Eternal Materials Co.  Ltd.,Materials,1717.TW,EQ,TW0001717007
+Shiny Chemical Industrial Co.  Ltd.,Materials,1773.TW,EQ,TW0001773000
+Tung Ho Steel Enterprise Corporation,Materials,2006.TW,EQ,TW0002006004
+Taiwan Fertilizer Co.  Ltd.,Materials,1722.TW,EQ,TW0001722007
+Nan Pao Resins Chemical Co.  Ltd.,Materials,4766.TW,EQ,TW0004766001
+Goldsun Building Materials Co.  Ltd.,Materials,2504.TW,EQ,TW0002504008
+YFY Inc.,Materials,1907.TW,EQ,TW0001907004
+Taiwan Speciality Chemicals Corporation,Materials,4772.TWO,EQ,TW0004772009
+Daxin Materials Corporation,Materials,5234.TW,EQ,TW0005234009
+Evergreen Steel Corp.,Materials,2211.TW,EQ,TW0002211000
+Feng Hsin Steel Co.  Ltd.,Materials,2015.TW,EQ,TW0002015005
+China Petrochemical Development Corporation,Materials,1314.TW,EQ,TW0001314003
+Chung Hung Steel Corporation,Materials,2014.TW,EQ,TW0002014008
+Yieh Phui Enterprise Co.  Ltd.,Materials,2023.TW,EQ,TW0002023009
+Cheng Loong Corporation,Materials,1904.TW,EQ,TW0001904001
+Everlight Chemical Industrial Corporation,Materials,1711.TW,EQ,TW0001711000
+Qualipoly Chemical Corp.,Materials,4722.TW,EQ,TW0004722004
+Double Bond Chemical Ind. Co.  Ltd.,Materials,4764.TW,EQ,TW0004764006
+Gloria Material Technology Corp.,Materials,5009.TWO,EQ,TW0005009005
+China Steel Chemical Corporation,Materials,1723.TW,EQ,TW0001723005
+Universal Cement Corporation,Materials,1104.TW,EQ,TW0001104008
+Yieh United Steel Corp.,Materials,9957.TWO,EQ,TW0009957001
+Ingentec Corporation,Materials,4768.TWO,EQ,TW0004768007
+TSRC Corporation,Materials,2103.TW,EQ,TW0002103009
+CHC Resources Corporation,Materials,9930.TW,EQ,TW0009930008
+Allied Supreme Corp.,Materials,4770.TW,EQ,TW0004770003
+Sinon Corporation,Materials,1712.TW,EQ,TW0001712008
+Chun Yuan Steel Industry Co.  Ltd.,Materials,2010.TW,EQ,TW0002010006
+NANTEX Industry Co.  Ltd.,Materials,2108.TW,EQ,TW0002108008
+Ho Tung Chemical Corp.,Materials,1714.TW,EQ,TW0001714004
+Coremax Corporation,Materials,4739.TW,EQ,TW0004739008
+Liton Technology Corp.,Materials,6175.TWO,EQ,TW0006175003
+UPC Technology Corporation,Materials,1313.TW,EQ,TW0001313005
+First Copper Technology Co.  Ltd.,Materials,2009.TW,EQ,TW0002009008
+Grand Pacific Petrochemical Corporation,Materials,1312A.TW,EQ,TW0001312A01
+San Fu Chemical Co.  Ltd.,Materials,4755.TW,EQ,TW0004755004
+Chung Hwa Pulp Corporation,Materials,1905.TW,EQ,TW0001905008
+USI Corporation,Materials,1304.TW,EQ,TW0001304004
+Hsin Kuang Steel Company Limited,Materials,2031.TW,EQ,TW0002031002
+Longchen Paper & Packaging Co.  Ltd.,Materials,1909.TW,EQ,TW0001909000
+Yung Chi Paint & Varnish Mfg.Co. Ltd,Materials,1726.TW,EQ,TW0001726008
+Sesoda Corporation,Materials,1708.TW,EQ,TW0001708006
+Oriental Union Chemical Corporation,Materials,1710.TW,EQ,TW0001710002
+LCY Technology Corp.,Materials,4989.TW,EQ,TW0004989009
+Chung Hwa Chemical Industrial Works  Ltd.,Materials,1727.TW,EQ,TW0001727006
+YC Inox Co. Ltd,Materials,2034.TW,EQ,TW0002034006
+Swancor Holding Co.  LTD.,Materials,3708.TW,EQ,TW0003708004
+Yem Chio Co.  Ltd.,Materials,4306.TW,EQ,TW0004306006
+Formosan Union Chemical Corp.,Materials,1709.TW,EQ,TW0001709004
+International CSRC Investment Holdings Co.  Ltd.,Materials,2104.TW,EQ,TW0002104007
+DingZing Advanced Materials Inc.,Materials,6585.TW,EQ,TW0006585003
+Tang Eng Iron Works Co.  Ltd.,Materials,2035.TWO,EQ,TW0002035003
+Keding Enterprises Co.  Ltd.,Materials,6655.TW,EQ,TW0006655004
+Taiwan Hopax Chemicals Manufacturing Co.  Ltd.,Materials,6509.TWO,EQ,TW0006509003
+Chia Hsin Cement Corporation,Materials,1103.TW,EQ,TW0001103000
+Southeast Cement Co.  Ltd.,Materials,1110.TW,EQ,TW0001110005
+CH Biotech R&D Co.  Ltd.,Materials,6534.TW,EQ,TW0006534001
+China Steel Structure Co.  Ltd.,Materials,2013.TW,EQ,TW0002013000
+TacBright Optronics Corporation,Materials,6434.TWO,EQ,TW0006434004
+Thye Ming Industrial Co.  Ltd.,Materials,9927.TW,EQ,TW0009927004
+Xxentria Technology Materials Co.  Ltd.,Materials,8942.TWO,EQ,TW0008942004
+Asia Polymer Corporation,Materials,1308.TW,EQ,TW0001308005
+Pan Asia Chemical Co.,Materials,4707.TWO,EQ,TW0004707005
+Formosan Rubber Group Inc.,Materials,2107.TW,EQ,TW0002107000
+Cathay Chemical Works Inc.,Materials,1713.TW,EQ,TW0001713006
+China General Plastics Corporation,Materials,1305.TW,EQ,TW0001305001
+Ocean Plastics Co.  Ltd.,Materials,1321.TW,EQ,TW0001321008
+Topco Technologies Corp.,Materials,3388.TWO,EQ,TW0003388005
+Mechema Chemicals International Corp.,Materials,4721.TWO,EQ,TW0004721006
+Sheng Yu Steel Co.  Ltd.,Materials,2029.TW,EQ,TW0002029006
+Taita Chemical Company  Limited,Materials,1309.TW,EQ,TW0001309003
+Yuan Jen Enterprises Co. Ltd.,Materials,1725.TW,EQ,TW0001725000
+Kao Hsing Chang Iron & Steel Corp.,Materials,2008.TW,EQ,TW0002008000
+Mayer Steel Pipe Corporation,Materials,2020.TW,EQ,TW0002020005
+Lucky Cement Co.,Materials,1108.TW,EQ,TW0001108009
+Amia Co. Ltd,Materials,8438.TW,EQ,TW0008438003
+Wei Chih Steel Industrial Co.  Ltd.,Materials,2028.TW,EQ,TW0002028008
+Froch Enterprise Co.  Ltd.,Materials,2030.TW,EQ,TW0002030004
+Hsing Ta Cement Co. Ltd,Materials,1109.TW,EQ,TW0001109007
+Lih Tai Construction Enterprise Co.  Ltd.,Materials,5520.TWO,EQ,TW0005520001
+UNIC Technology Corp.,Materials,5452.TWO,EQ,TW0005452007
+Taiwan Styrene Monomer Corporation,Materials,1310.TW,EQ,TW0001310001
+Chitec Technology Co.  Ltd.,Materials,3430.TWO,EQ,TW0003430005
+Sunko Ink Co.  Ltd.,Materials,1721.TW,EQ,TW0001721009
+Hsin Ba Ba Corporation,Materials,9906.TW,EQ,TW0009906008
+Chun Yu Works & Co.  Ltd.,Materials,2012.TW,EQ,TW0002012002
+Yieh Hsing Enterprise Co.  Ltd.,Materials,2007.TW,EQ,TW0002007002
+King Chou Marine Technology Co.  Ltd,Materials,4417.TWO,EQ,TW0004417001
+Sun Yad Construction Co.  Ltd.,Materials,1316.TW,EQ,TW0001316008
+Sunspring Metal Corporation,Materials,2062.TW,EQ,TW0002062007
+Lan Fa Textile Co.  Ltd.,Materials,1459.TW,EQ,TW0001459006
+K LASER Technology  Inc.,Materials,2461.TW,EQ,TW0002461001
+Yi Jinn Industrial Co. Ltd,Materials,1457.TW,EQ,TW0001457000
+AimCore Technology Co.  Ltd.,Materials,3615.TWO,EQ,TW0003615001
+Ruentex Materials Co Ltd,Materials,8463.TW,EQ,TW0008463001
+Shin Foong Specialty & Applied Materials Co.  Ltd.,Materials,6582.TW,EQ,TW0006582000
+Tung Ho Textile Co.  Ltd.,Materials,1414.TW,EQ,TW0001414001
+Nien Hsing Textile Co.  Ltd.,Materials,1451.TW,EQ,TW0001451003
+Yuen Chang Stainless Steel Co.  Ltd.,Materials,2069.TW,EQ,TW0002069002
+CS Group Investment Holding Limited,Materials,1463.TW,EQ,TW0001463008
+Sirtec International Co.  Ltd.,Materials,5356.TWO,EQ,TW0005356000
+KNH Enterprise Co.  Ltd.,Materials,9919.TW,EQ,TW0009919001
+Munsin Garment Corporation,Materials,2916.TWO,EQ,TW0002916004
+Tex Year Industries  Inc.,Materials,4720.TW,EQ,TW0004720008
+Jetbest Corporation,Materials,4741.TWO,EQ,TW0004741004
+Hai Kwang Enterprise Corporation,Materials,2038.TW,EQ,TW0002038007
+Morn Sun Feed Mill Corp.,Materials,1240.TWO,EQ,TW0001240000
+Nan Liu Enterprise Co.  Ltd,Materials,6504.TW,EQ,TW0006504004
+Tah Kong Chemical Industrial Corp.,Materials,4706.TWO,EQ,TW0004706007
+Chien Shing Stainless Steel Co.  Ltd.,Materials,2025.TW,EQ,TW0002025004
+Dawushan Farm Technology Co Ltd,Materials,6952.TW,EQ,TW0006952005
+Shih-Kuen Plastics Co.  Ltd.,Materials,4305.TWO,EQ,TW0004305008
+Flavor Full Foods  Inc.,Materials,1260.TWO,EQ,TW0001260008
+Ascent Development Co Ltd,Materials,1439.TW,EQ,TW0001439008
+Long Time Technology Co.  Ltd.,Materials,6555.TWO,EQ,TW0006555006
+Hong Ho Precision Textile Co.  Ltd.,Materials,1446.TW,EQ,TW0001446003
+Evermore Chemical Industry Co.  Ltd.,Materials,1735.TW,EQ,TW0001735009
+Feng Ching Metal Corporation,Materials,2061.TWO,EQ,TW0002061009
+Tai Roun Products Co. Ltd.,Materials,1220.TW,EQ,TW0001220002
+Chain Chon Industrial Co.  Ltd.,Materials,5014.TWO,EQ,TW0005014005
+Huikwang Corporation,Materials,6508.TWO,EQ,TW0006508005
+Evertex Fabrinology Ltd.,Materials,1470.TW,EQ,TW0001470003
+Coxon Precise Industrial Co.  Ltd Class A,Materials,3607.TW,EQ,TW0003607008
+Chang-Ho Fibre Corp.,Materials,1468.TW,EQ,TW0001468007
+Ways Technical Corp.  Ltd,Materials,3508.TWO,EQ,TW0003508008
+Shinih Enterprise Co.  Ltd.,Materials,9944.TW,EQ,TW0009944009
+Tachia Yung Ho Machine Industry Co.  Ltd.,Materials,2221.TWO,EQ,TW0002221009
+Chia Her Industrial Co.  Ltd.,Materials,1449.TW,EQ,TW0001449007
+Yonyu Plastics Co.  Ltd,Materials,1323.TW,EQ,TW0001323004
+Big Sun Shine Co.  Ltd.,Materials,1475.TW,EQ,TW0001475002
+Tex-Ray Industrial Co.  Ltd.,Materials,1467.TW,EQ,TW0001467009
+Trans-Sun Materials Technology Co.  Ltd.,Materials,6967.TWO,EQ,TW0006967003
+Toung Loong Textile Mfg. Co.  Ltd.,Materials,4401.TWO,EQ,TW0004401005
+Baolong International Co.  Ltd.,Materials,1906.TW,EQ,TW0001906006
+Acelon Chemicals & Fiber Corporation.,Materials,1466.TW,EQ,TW0001466001
+Taiwan Taffeta Fabric Co.  Ltd,Materials,1454.TW,EQ,TW0001454007
+Sunvic Technology Co.  Ltd.,Materials,4304.TWO,EQ,TW0004304001
+Shuang-Bang Industrial Corp.,Materials,6506.TWO,EQ,TW0006506009
+Kwang Ming Silk Mill Co.  Ltd.,Materials,4420.TWO,EQ,TW0004420005
+Daily Polymer Corp.,Materials,4716.TWO,EQ,TW0004716006
+Luminescence Technology Corp.,Materials,6729.TWO,EQ,TW0006729007
+Hong Yi Fiber Industry Co.  Ltd.,Materials,1452.TW,EQ,TW0001452001
+Li-Cheng Enterprise Co.  Ltd,Materials,4426.TW,EQ,TW0004426002
+Honmyue Enterprise Co.  Ltd.,Materials,1474.TW,EQ,TW0001474005
+Koan Hao Technology Co.  Ltd.,Materials,8354.TWO,EQ,TW0008354002
+Wisher Industrial Co.  Ltd.,Materials,1465.TW,EQ,TW0001465003
+HUNG CHOU FIBER IND. CO.  LTD.,Materials,1413.TW,EQ,TW0001413003
+Singtex Industrial Co.  Ltd.,Materials,4433.TWO,EQ,TW0004433008
+Song Ho Industrial Co.  Ltd.,Materials,5016.TWO,EQ,TW0005016000
+Sentien Printing Factory Co.  Ltd.,Materials,8410.TWO,EQ,TW0008410002
+International Carbide Technology Co. Ltd.,Materials,4754.TWO,EQ,TW0004754007
+Yi Shin Textile Industrial Co.  Ltd.,Materials,4440.TW,EQ,TW0004440003
+Mao Bao Inc.,Materials,1732.TW,EQ,TW0001732006
+J.D Development Co. Ltd.,Materials,4402.TWO,EQ,TW0004402003
+WINSON Machinery Co.  Ltd.,Materials,4538.TWO,EQ,TW0004538004
+Headway Advanced Materials Inc.,Materials,1776.TW,EQ,TW0001776003
+Yong Shun Chemical Co. Ltd,Materials,4711.TWO,EQ,TW0004711007
+TongHwa Corporation,Materials,1418.TW,EQ,TW0001418002
+Yao I Fabric Co.  Ltd.,Materials,4430.TWO,EQ,TW0004430004
+Camellia Metal Co.  Ltd.,Materials,2064.TWO,EQ,TW0002064003
+Tycoons Worldwide Group (Thailand) Public Co Ltd Shs Taiwan Depositary Receipts,Materials,911622.TW,EQ,TW0009116228
+Alformer Industrial Co Ltd,Materials,4558.TWO,EQ,TW0004558002
+Yeou Yih Steel Co.  Ltd.,Materials,9962.TWO,EQ,TW0009962001
+Cherng Tay Technology Co.  Ltd.,Materials,4767.TWO,EQ,TW0004767009
+Globe Industries Corp. Ltd.,Materials,1324.TW,EQ,TW0001324002
+Allied Industrial Corp.  Ltd.,Materials,4702.TWO,EQ,TW0004702006
+Fu Burg Industrial Co.  Ltd.,Materials,8929.TWO,EQ,TW0008929001
+Xu Yuan Packaging Technology Co.  Ltd.,Materials,8421.TWO,EQ,TW0008421009
+Tah Tong Textile Co.  Ltd.,Materials,1441.TW,EQ,TW0001441004
+Tatung Fine Chemicals Co.  Ltd.,Materials,4738.TWO,EQ,TW0004738000
+Polylite Taiwan Co.  Ltd.,Materials,1813.TWO,EQ,TW0001813004
+EST GLOBAL APPAREL Co.  Ltd.,Materials,4413.TWO,EQ,TW0004413000
+Hsin Sin Textile Co.  Ltd.,Materials,4406.TWO,EQ,TW0004406004
+Chia Yi Steel Co.  Ltd.,Materials,2067.TWO,EQ,TW0002067006
+E-Chem Enterprise Corp,Materials,7858.TWO,EQ,TW0007858003
+Nice Garden Industrial Co.  Ltd.,Materials,7840.TWO,EQ,TW0007840001
+King's Metal Fiber Technologies Co.  Ltd.,Materials,6832.TWO,EQ,TW0006832009
+Pentapro Materials  Inc.,Materials,7887.TWO,EQ,TW0007887002
+Taiwan Lamination Industries Inc,Materials,8999.TWO,EQ,TW0008999004
+Tung Mung Development Co Ltd,Materials,1480.TWO,EQ,TW0001480002
+Htc & Solar Tech Service Limited,Materials,7846.TWO,EQ,TW0007846008
+Praise Victor Industrial Co.  Ltd.,Materials,7768.TW,EQ,TW0007768004
+Johnson Fine,Materials,7763.TWO,EQ,TW0007763005
+Ion Electronic Materials Co.  Ltd.,Materials,6959.TWO,EQ,TW0006959000
+LIANYOU METALS CO LTD,Materials,7610.TW,EQ,TW0007610B14
+AceGreen Eco-Material Technology Co Ltd,Materials,7862.TWO,EQ,TW0007862005
+Sil-More Industrial Ltd.,Materials,7896.TWO,EQ,TW0007896003
+Plum-Monix Industry Co Ltd,Materials,6990.TWO,EQ,TW0006990005
+APEX Wind Power Equipment Manufacturing Co.  Ltd.,Materials,7702.TWO,EQ,TW0007702003
+Super Qin Enterprise Co. Ltd.,Materials,8345.TWO,EQ,TW0008345000
+Uranus Chemicals Co.  LTD.,Materials,7742.TWO,EQ,TW0007742009
+Nytex Composites Co. Ltd.,Materials,8058.TWO,EQ,TW0008058009
+Jinan Acetate Chemical Co.  Ltd.,Materials,4763.TW,EQ,
+Tong Ming Enterprise Co.  Ltd.,Materials,5538.TW,EQ,

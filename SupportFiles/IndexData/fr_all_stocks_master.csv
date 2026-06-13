@@ -1,613 +1,615 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-LVMH Moet Hennessy Louis Vuitton SE,Consumer Staples,MC.PA,EQ,
-L'Oreal S.A.,Consumer Staples,OR.PA,EQ,
-TotalEnergies SE,Energy,TTE.PA,EQ,
-Hermes International SCA,Consumer Staples,RMS.PA,EQ,
-Schneider Electric SE,Industrials,SU.PA,EQ,
-Airbus SE,Technology,AIR.PA,EQ,
-Safran SA,Technology,SAF.PA,EQ,
-Air Liquide SA,Materials,AI.PA,EQ,
-BNP Paribas S.A. Class A,Financials,BNP.PA,EQ,
-Sanofi SA,Health Care,SAN.PA,EQ,
-AXA SA,Financials,CS.PA,EQ,
-Christian Dior SE,Consumer Staples,CDI.PA,EQ,
-EssilorLuxottica SA,Health Care,EL.PA,EQ,
-VINCI SA,Industrials,DG.PA,EQ,
-ENGIE S.A.,Utilities,ENGI.PA,EQ,
-STMicroelectronics NV,Technology,STMPA.PA,EQ,
-Credit Agricole SA,Financials,ACA.PA,EQ,
-Thales SA,Technology,HO.PA,EQ,
-Orange SA,Communication Services,ORA.PA,EQ,
-Societe Generale S.A. Class A,Financials,GLE.PA,EQ,
-Danone SA,Consumer Staples,BN.PA,EQ,
-Compagnie de Saint-Gobain SA,Industrials,SGO.PA,EQ,
-Legrand SA,Technology,LR.PA,EQ,
-Kering SA,Consumer Staples,KER.PA,EQ,
-Dassault Systemes SE,Technology,DSY.PA,EQ,
-Veolia Environnement SA,Utilities,VIE.PA,EQ,
+LVMH Moet Hennessy Louis Vuitton SE,Consumer Discretionary,MC.PA,EQ,FR0000121014
+L'Oreal SA,Consumer Staples,OR.PA,EQ,FR0000120321
+Hermes International SCA,Consumer Discretionary,RMS.PA,EQ,FR0000052292
+TotalEnergies SE,Energy,TTE.PA,EQ,FR0000120271
+Schneider Electric SE,Industrials,SU.PA,EQ,FR0000121972
+Safran SA,Industrials,SAF.PA,EQ,FR0000073272
+Air Liquide SA,Materials,AI.PA,EQ,FR0000120073
+BNP Paribas SA,Financials,BNP.PA,EQ,FR0000131104
+Sanofi SA,Health Care,SAN.PA,EQ,FR0000120578
+Christian Dior SE,Consumer Discretionary,CDI.PA,EQ,FR0000130403
+EssilorLuxottica SA,Health Care,EL.PA,EQ,FR0000121667
+AXA SA,Financials,CS.PA,EQ,FR0000120628
+Vinci SA,Industrials,DG.PA,EQ,FR0000125486
+Engie SA,Utilities,ENGI.PA,EQ,FR0010208488
+Credit Agricole SA,Financials,ACA.PA,EQ,FR0000045072
+Thales SA,Industrials,HO.PA,EQ,FR0000121329
+Orange SA,Communication Services,ORA.PA,EQ,FR0000133308
+Societe Generale SA,Financials,GLE.PA,EQ,FR0000130809
+Danone SA,Consumer Staples,BN.PA,EQ,FR0000120644
+Saint-Gobain SA,Industrials,SGO.PA,EQ,FR0000125007
+Legrand SA,Industrials,LR.PA,EQ,FR0010307819
+Kering SA,Consumer Discretionary,KER.PA,EQ,FR0000121485
+Veolia Environnement SA,Utilities,VIE.PA,EQ,FR0000124141
+Dassault Systemes SE,Technology,DSY.PA,EQ,FR0014003TT8
+Dassault Aviation société anonyme,Industrials,AM.PA,EQ,FR0014004L86
+Michelin SA,Consumer Discretionary,ML.PA,EQ,FR001400AJ45
+Publicis Groupe SA,Communication Services,PUB.PA,EQ,FR0000130577
+Bouygues SA,Industrials,EN.PA,EQ,FR0000120503
+Sartorius Stedim Biotech SA,Health Care,DIM.PA,EQ,FR0013154002
+Amundi SA,Financials,AMUN.PA,EQ,FR0004125920
+Capgemini SE,Technology,CAP.PA,EQ,FR0000125338
+Pernod Ricard SA,Consumer Staples,RI.PA,EQ,FR0000120693
+Bolloré SE,Communication Services,BOL.PA,EQ,FR0000039299
+Unibail-Rodamco-Westfield SE,Real Estate,URW.PA,EQ,FR0013326246
+Ipsen SA,Health Care,IPN.PA,EQ,FR0010259150
+Eiffage SA,Industrials,FGR.PA,EQ,FR0000130452
+Carrefour SA,Consumer Staples,CA.PA,EQ,FR0000120172
+Bureau Veritas SA,Industrials,BVI.PA,EQ,FR0006174348
+Eurofins Scientific SE,Health Care,ERF.PA,EQ,FR0014000MR3
+Accor SA,Consumer Discretionary,AC.PA,EQ,FR0000120404
+Rexel SA,Industrials,RXL.PA,EQ,FR0010451203
+Aeroportes de Paris SA,Industrials,ADP.PA,EQ,FR0010340141
+Klépierre SA,Real Estate,LI.PA,EQ,FR0000121964
+Getlink SE,Industrials,GET.PA,EQ,FR0010533075
+Ayvens,Industrials,AYV.PA,EQ,FR0013258662
+Spie SA,Industrials,SPIE.PA,EQ,FR0012757854
+Renault SA,Consumer Discretionary,RNO.PA,EQ,FR0000131906
+Biomerieux SA,Health Care,BIM.PA,EQ,FR0013280286
+GTT SA,Industrials,GTT.PA,EQ,FR0011726835
+Alstom SA,Industrials,ALO.PA,EQ,FR0010220475
+Sodexo SA,Industrials,SW.PA,EQ,FR0000121220
+ABIVAX Société Anonyme,Health Care,ABVX.PA,EQ,FR0012333284
+Nexans SA,Materials,NEX.PA,EQ,FR0000044448
+Compagnie du Cambodge,Financials,CBDG.PA,EQ,FR001400SUB7
+Elis SA,Industrials,ELIS.PA,EQ,FR0012435121
+Compagnie de l'Odet,Communication Services,ODET.PA,EQ,FR0000062234
+Covivio SA,Real Estate,COV.PA,EQ,FR0000064578
+Vallourec SA,Materials,VK.PA,EQ,FR0013506730
+SCOR SE,Financials,SCR.PA,EQ,FR0010411983
+Gecina,Real Estate,GFC.PA,EQ,FR0010040865
+Soitec SA,Technology,SOI.PA,EQ,FR0013227113
+Edenred SE,Technology,EDEN.PA,EQ,FR0010908533
+Arkema SA,Materials,AKE.PA,EQ,FR0010313833
+FDJ UNITED,Consumer Discretionary,FDJU.PA,EQ,FR0013451333
+L.D.C. S.A.,Consumer Staples,LOUP.PA,EQ,FR001400SF56
+JCDecaux SA,Communication Services,DEC.PA,EQ,FR0000077919
+Rubis SCA,Energy,RUI.PA,EQ,FR0013269123
+Covivio Hotels,Real Estate,COVH.PA,EQ,FR0000060303
+Valeo SE,Consumer Discretionary,FR.PA,EQ,FR0013176526
+Wendel SE,Financials,MF.PA,EQ,FR0000121204
+Eutelsat Communications SA,Communication Services,ETL.PA,EQ,FR0010221234
+Teleperformance SE,Industrials,TEP.PA,EQ,FR0000051807
+Air France-KLM SA,Industrials,AF.PA,EQ,FR001400J770
+Tikehau Capital SCA,Financials,TKO.PA,EQ,FR0013230612
+Exosens,Industrials,EXENS.PA,EQ,FR001400Q9V2
+SEB SA,Consumer Discretionary,SK.PA,EQ,FR0000121709
+Lisi S.A.,Industrials,FII.PA,EQ,FR0000050353
+Virbac SA,Health Care,VIRP.PA,EQ,FR0000031577
+Trigano SA,Consumer Discretionary,TRI.PA,EQ,FR0005691656
+Sopra Steria Group SA,Technology,SOP.PA,EQ,FR0000050809
+Eurazeo SE,Financials,RF.PA,EQ,FR0000121121
+Vicat SA,Materials,VCT.PA,EQ,FR0000031775
+Lagardere SA,Communication Services,MMB.PA,EQ,FR0000130213
+Verallia Société Anonyme,Consumer Discretionary,VRLA.PA,EQ,FR0013447729
+Société Industrielle et Financière de l'Artois Société anonyme,Technology,ARTO.PA,EQ,FR0000076952
+Financière Moncey Société anonyme,Financials,FMONC.PA,EQ,FR001400SU99
+Carmila SA,Real Estate,CARM.PA,EQ,FR0010828137
+OVH Groupe S.A.,Technology,OVH.PA,EQ,FR0014005HJ9
+ID Logistics Group SA,Industrials,IDL.PA,EQ,FR0010929125
+Remy Cointreau SA,Consumer Staples,RCO.PA,EQ,FR0000130395
+Société BIC SA,Consumer Staples,BB.PA,EQ,FR0000120966
+EMEIS,Health Care,EMEIS.PA,EQ,FR001400NLM4
+Altarea SCA,Real Estate,ALTA.PA,EQ,FR0000033219
+Interparfums SA,Consumer Staples,ITP.PA,EQ,FR0004024222
+Coface SA,Financials,COFA.PA,EQ,FR0010667147
+Vusion S.A.,Technology,VU.PA,EQ,FR0010282822
+OPmobility SE,Consumer Discretionary,OPM.PA,EQ,FR0000124570
+Alten SA,Technology,ATE.PA,EQ,FR0000071946
+Vivendi SE,Communication Services,VIV.PA,EQ,FR0000127771
+Forvia SE,Consumer Discretionary,FRVIA.PA,EQ,FR0000121147
+Imerys SA,Materials,NK.PA,EQ,FR0000120859
+Etablissements Maurel & Prom S.A.,Energy,MAU.PA,EQ,FR0000051070
+Louis Hachette Group S.A.,Industrials,ALHG.PA,EQ,FR001400TL40
+Antin Infrastructure Partners S.A.,Financials,ANTIN.PA,EQ,FR0014005AL0
+Exail Technologies,Industrials,EXA.PA,EQ,FR0000062671
+Ipsos SA,Industrials,IPS.PA,EQ,FR0000073298
+Robertet SA,Materials,CBE.PA,EQ,FR0000045601
+Robertet SA,Materials,RBT.PA,EQ,FR0000039091
+Derichebourg SA,Industrials,DBG.PA,EQ,FR0000053381
+Icade SA,Real Estate,ICAD.PA,EQ,FR0000035081
+ERAMET S.A.,Materials,ERA.PA,EQ,FR0000131757
+Metropole Television SA,Communication Services,MMT.PA,EQ,FR0000053225
+Nanobiotix S.A.,Health Care,NANO.PA,EQ,FR0011341205
+Argan SA,Real Estate,ARG.PA,EQ,FR0010481960
+Électricite de Strasbourg Société Anonyme,Utilities,ELEC.PA,EQ,FR0000031023
+STEF SA,Industrials,STF.PA,EQ,FR0000064271
+Peugeot Invest Société anonyme,Financials,PEUG.PA,EQ,FR0000064784
+Clariane SE,Health Care,CLARI.PA,EQ,FR0010386334
+TF1 SA,Communication Services,TFI.PA,EQ,FR0000054900
+PLANISWARE,Technology,PLNW.PA,EQ,FR001400PFU4
+Ramsay Générale de Santé SA,Health Care,GDS.PA,EQ,FR0000044471
+Compagnie des Alpes SA,Consumer Discretionary,CDA.PA,EQ,FR0000053324
+VIEL & Cie  société anonyme,Financials,VIL.PA,EQ,FR0000050049
+Frey SA,Real Estate,FREY.PA,EQ,FR0010588079
+2CRSI S.A.,Technology,AL2SI.PA,EQ,FR0013341781
+Mercialys SA,Real Estate,MERY.PA,EQ,FR0010241638
+74SOFTWARE,Technology,74SW.PA,EQ,FR0011040500
+Société de la Tour Eiffel,Real Estate,EIFF.PA,EQ,FR0000036816
+Mersen S.A.,Industrials,MRN.PA,EQ,FR0000039620
+Altareit SCA,Real Estate,AREIT.PA,EQ,FR0000039216
+Fnac Darty SA,Consumer Discretionary,FNAC.PA,EQ,FR0011476928
+Wavestone SA,Technology,WAVE.PA,EQ,FR0013357621
+MedinCell S.A.,Health Care,MEDCL.PA,EQ,FR0004065605
+Savencia SA,Consumer Staples,SAVE.PA,EQ,FR0000120107
+GL Events SA,Industrials,GLO.PA,EQ,FR0000066672
+Caisse Régionale de Crédit Agricole Mutuel de Paris et d'Ile-de-France,Financials,CAF.PA,EQ,FR0000045528
+Voltalia SA,Utilities,VLTSA.PA,EQ,FR0011995588
+DBV Technologies S.A.,Health Care,DBV.PA,EQ,FR0010417345
+Neurones S.A.,Technology,NRO.PA,EQ,FR0004050250
+Pierre et Vacances SA,Consumer Discretionary,VAC.PA,EQ,FR0000073041
+Vetoquinol SA,Health Care,VETO.PA,EQ,FR0004186856
+Inventiva S.A.,Health Care,IVA.PA,EQ,FR0013233012
+Manitou BF SA,Industrials,MTU.PA,EQ,FR0000038606
+Aubay SA,Technology,AUB.PA,EQ,FR0000063737
+BASSAC Société anonyme,Real Estate,BASS.PA,EQ,FR0004023208
+Viridien Société anonyme,Energy,VIRI.PA,EQ,FR001400PVN6
+Burelle SA,Consumer Discretionary,BUR.PA,EQ,FR0000061137
+Atos SE,Technology,ATO.PA,EQ,FR001400X2S4
+Synergie SE,Industrials,SDG.PA,EQ,FR0000032658
+Séché Environnement SA,Industrials,SCHP.PA,EQ,FR0000039109
+Ubisoft Entertainment SA,Technology,UBI.PA,EQ,FR0000054470
+North Atlantic Energies,Energy,NAE.PA,EQ,FR0000120669
+Worldline SA,Technology,WLN.PA,EQ,FR0011981968
+Assystem SA,Industrials,ASY.PA,EQ,FR0000074148
+Voyageurs du Monde SA,Consumer Discretionary,ALVDM.PA,EQ,FR0004045847
+Thermador Groupe SA,Industrials,THEP.PA,EQ,FR0013333432
+Waga Energy SA,Industrials,WAGA.PA,EQ,FR0012532810
+Lectra SA,Technology,LSS.PA,EQ,FR0000065484
+Groupe CRIT SA,Industrials,CEN.PA,EQ,FR0000036675
+EPC Groupe,Materials,EXPL.PA,EQ,FR0014003AQ4
+Caisse Régionale de Crédit Agricole Mutuel Brie Picardie Société coopérative,Financials,CRBP2.PA,EQ,FR0010483768
+Oeneo SA,Consumer Staples,SBT.PA,EQ,FR0000052680
+Equasens Société anonyme,Health Care,EQS.PA,EQ,FR0012882389
+NRJ Group SA,Communication Services,NRG.PA,EQ,FR0000121691
+Caisse Régionale de Crédit Agricole Mutuel Nord de France Société coopérative,Financials,CNDF.PA,EQ,FR0000185514
+Bénéteau S.A.,Consumer Discretionary,BEN.PA,EQ,FR0000035164
+SEMCO Technologies Société anonyme,Technology,ALSEM.PA,EQ,FR0014010H01
+Lumibird SA,Health Care,LBIRD.PA,EQ,FR0000038242
+Laurent-Perrier S.A.,Consumer Staples,LPE.PA,EQ,FR0006864484
+Elior Group SA,Consumer Discretionary,ELIOR.PA,EQ,FR0011950732
+IDI,Financials,IDIP.PA,EQ,FR0000051393
+Boiron SA,Health Care,BOI.PA,EQ,FR0000061129
+Jacquet Metals SA,Materials,JCQ.PA,EQ,FR0000033904
+Figeac Aero Société Anonyme,Industrials,FGA.PA,EQ,FR0011665280
+Kaufman & Broad S.A.,Consumer Discretionary,KOF.PA,EQ,FR0004007813
+Genfit S.A.,Health Care,GNFT.PA,EQ,FR0004163111
+Société Fermière du Casino Municipal de Cannes,Consumer Discretionary,FCMC.PA,EQ,FR0000062101
+Nexity SA,Real Estate,NXI.PA,EQ,FR0010112524
+Valneva SE,Health Care,VLA.PA,EQ,FR0004056851
+Quadient SA,Technology,QDT.PA,EQ,FR0000120560
+Samse SA,Industrials,SAMS.PA,EQ,FR0000060071
+Malteries Franco-Belges Société Anonyme,Consumer Staples,MALT.PA,EQ,FR0000030074
+Groupe Guillin S.A.,Consumer Discretionary,ALGIL.PA,EQ,FR0012819381
+Fiducial Real Estate SA,Real Estate,ORIA.PA,EQ,FR0000060535
+SMCP S.A.,Consumer Discretionary,SMCP.PA,EQ,FR0013214145
+Patrimoine et Commerce SA,Real Estate,PAT.PA,EQ,FR0011027135
+TFF Group,Consumer Discretionary,TFF.PA,EQ,FR0013295789
+Hotel Majestic Cannes,Consumer Discretionary,MLHMC.PA,EQ,FR0006226791
+Immobiliere Dassault SA,Real Estate,IMDA.PA,EQ,FR0000033243
+Fonciere Inea S.A.,Real Estate,INEA.PA,EQ,FR0010341032
+Selectirente,Real Estate,SELER.PA,EQ,FR0004175842
+LNA Santé SA,Health Care,LNA.PA,EQ,FR0004170017
+Eagle Football Group SA,Communication Services,EFG.PA,EQ,FR0010428771
+Gaumont SA,Communication Services,GAM.PA,EQ,FR0000034894
+ABC arbitrage SA,Financials,ABCA.PA,EQ,FR0004040608
+Parrot S.A.,Technology,PARRO.PA,EQ,FR0004038263
+Arverne Group S.A.,Utilities,ARVEN.PA,EQ,FR001400JWR8
+Gérard Perrier Industrie S.A.,Industrials,PERR.PA,EQ,FR0000061459
+Caisse régionale de Crédit Agricole Mutuel d'Ille-et-Vilaine Société coopérative,Financials,CIV.PA,EQ,FR0000045213
+Marie Brizard Wine & Spirits SA,Consumer Staples,MBWS.PA,EQ,FR0000060873
+Bourrelier Group SA,Consumer Discretionary,ALBOU.PA,EQ,FR0000054421
+Sword Group S.E.,Technology,SWP.PA,EQ,FR0004180578
+STIF Société anonyme,Industrials,ALSTI.PA,EQ,FR001400MDW2
+Riber S.A.,Technology,ALRIB.PA,EQ,FR0000075954
+Infotel SA,Technology,INF.PA,EQ,FR0000071797
+FSDV Société anonyme,Real Estate,FSDV.PA,EQ,FR0000031973
+Bonduelle SCA,Consumer Staples,BON.PA,EQ,FR0000063935
+Bourse Direct SA,Financials,BSD.PA,EQ,FR0000074254
+Roche Bobois S.A.,Consumer Discretionary,RBO.PA,EQ,FR0013344173
+Delta Plus Group,Consumer Discretionary,ALDLT.PA,EQ,FR0013283108
+Aramis Group SAS,Consumer Discretionary,ARAMI.PA,EQ,FR0014003U94
+Groupe Pizzorno Environnement,Industrials,GPE.PA,EQ,FR0010214064
+Sidetrade SA,Technology,ALBFR.PA,EQ,FR0010202606
+Median Technologies SA,Health Care,ALMDT.PA,EQ,FR0011049824
+Hexaom S.A.,Consumer Discretionary,ALHEX.PA,EQ,FR0004159473
+Eurobio Scientific Société anonyme,Health Care,ALERS.PA,EQ,FR0013240934
+Streamwide S.A.,Technology,ALSTW.PA,EQ,FR0010528059
+Caisse régionale de Crédit Agricole Mutuel Atlantique Vendée,Financials,CRAV.PA,EQ,FR0000185506
+Caisse Regionale de Credit Agricole Mutuel Toulouse 31,Financials,CAT31.PA,EQ,FR0000045544
+Transgene SA,Health Care,TNG.PA,EQ,FR0005175080
+La Française de l'Energie S.A.,Energy,FDE.PA,EQ,FR0013030152
+Caisse Régionale de Crédit Agricole du Morbihan,Financials,CMO.PA,EQ,FR0000045551
+SFPI SA,Financials,SFPI.PA,EQ,FR0004155000
+Compagnie Du Mont-Blanc,Consumer Discretionary,MLCMB.PA,EQ,FR0000060428
+Cellectis S.A.,Health Care,ALCLS.PA,EQ,FR0010425595
+Linedata Services S.A.,Technology,LIN.PA,EQ,FR0004156297
+Compagnie Chargeurs Invest,Industrials,CRI.PA,EQ,FR0000130692
+CARVOLIX,Health Care,CVX.PA,EQ,FR0013333077
+Lanson-BCC,Consumer Staples,ALLAN.PA,EQ,FR0004027068
+Caisse Régionale de Crédit Agricole Mutuel de Normandie-Seine Société coopérative,Financials,CCN.PA,EQ,FR0000044364
+Akwel SA,Consumer Discretionary,AKW.PA,EQ,FR0000053027
+Latécoère S.A.,Industrials,LAT.PA,EQ,FR001400JY13
+Exacompta Clairefontaine S.A.,Industrials,ALEXA.PA,EQ,FR0000064164
+Les Hôtels Baverez S.A.,Consumer Discretionary,ALLHB.PA,EQ,FR0007080254
+Caisse Régionale de Crédit Agricole Mutuel du Languedoc Société coopérative,Financials,CRLA.PA,EQ,FR0010461053
+Entech SA,Utilities,ALESE.PA,EQ,FR0014004362
+Bastide Le Confort Medical SA,Health Care,BLC.PA,EQ,FR0000035370
+Société Marseillaise du Tunnel Prado Carénage,Industrials,ALTPC.PA,EQ,FR0004016699
+Kalray S.A.,Technology,ALKAL.PA,EQ,FR0010722819
+Groupe Partouche SA,Consumer Discretionary,PARP.PA,EQ,FR0012612646
+Atland SAS,Real Estate,ATLD.PA,EQ,FR0013455482
+WALLIX GROUP SA,Technology,ALLIX.PA,EQ,FR0010131409
+Fountaine Pajot SA,Consumer Discretionary,ALFPC.PA,EQ,FR0010485268
+EXEL Industries SA,Industrials,EXE.PA,EQ,FR0004527638
+Freelance.com SA,Industrials,ALFRE.PA,EQ,FR0004187367
+Gévelot SA,Industrials,ALGEV.PA,EQ,FR0000033888
+Caisse Régionale de Crédit Agricole Mutuel Sud Rhône Alpes,Financials,CRSU.PA,EQ,FR0000045346
+Caisse Régionale de Crédit Agricole Mutuel de la Touraine et du Poitou Société Coopérative,Financials,CRTO.PA,EQ,FR0000045304
+CEGEDIM,Health Care,ALCGM.PA,EQ,FR0000053506
+NSE S.A.,Technology,ALNSE.PA,EQ,FR0004065639
+Ateme SA,Technology,ATEME.PA,EQ,FR0011992700
+Innate Pharma S.A.,Health Care,IPH.PA,EQ,FR0010331421
+CAPITAL B,Technology,ALCPB.PA,EQ,FR0011053636
+Precia S.A.,Industrials,ALPM.PA,EQ,FR0014004EC4
+Catering International & Services Société Anonyme,Industrials,ALCIS.PA,EQ,FR0000064446
+Vente-Unique.com SA,Consumer Discretionary,ALVU.PA,EQ,FR0010766667
+CBo Territoria SA,Real Estate,CBOT.PA,EQ,FR0010193979
+Deezer S.A.,Communication Services,DEEZR.PA,EQ,FR001400AYG6
+Installux S.A.,Materials,ALLUX.PA,EQ,FR0000060451
+Sensorion SA,Health Care,ALSEN.PA,EQ,FR0012596468
+Cheops Technology France Société anonyme,Technology,MLCHE.PA,EQ,FR0010447086
+Franklin ClearBridge US Smaller Companies UCITS ETF USD Acc,Real Estate,CBSM.PA,EQ,FR0006239109
+Bleecker Société Anonyme,Real Estate,BLEE.PA,EQ,FR0000062150
+Guerbet SA,Health Care,GBT.PA,EQ,FR0000032526
+Euroapi S.A.,Health Care,EAPI.PA,EQ,FR0014008VX5
+Caisse Régionale de Crédit Agricole Mutuel Loire Haute-Loire Société coopérative,Financials,CRLO.PA,EQ,FR0000045239
+Keyrus S.A.,Technology,ALKEY.PA,EQ,FR0004029411
+Crossject Société Anonyme,Health Care,ALCJ.PA,EQ,FR0011716265
+ABIONYX Pharma SA,Health Care,ABNX.PA,EQ,FR0012616852
+Crosswood SA,Real Estate,CROS.PA,EQ,FR0000050395
+Caisse Régionale de Crédit Agricole Mutuel Alpes Provence Société coopérative,Financials,CRAP.PA,EQ,FR0000044323
+CAFOM,Consumer Discretionary,ALCAF.PA,EQ,FR0010151589
+Compagnie Lebon,Financials,ALBON.PA,EQ,FR0000121295
+ADLPartner SA,Communication Services,DKUPL.PA,EQ,FR0000062978
+Fleury Michon SA,Consumer Staples,ALFLE.PA,EQ,FR0000074759
+Grenobloise d'Electronique et d'Automatismes Société Anonyme,Industrials,GEA.PA,EQ,FR0000053035
+Piscines Desjoyaux SA,Consumer Discretionary,ALPDX.PA,EQ,FR0000061608
+Sogeclair SA,Industrials,ALSOG.PA,EQ,FR0000065864
+Baikowski SA,Materials,ALBKK.PA,EQ,FR0013384369
+MAISON POMMERY & ASSOCIES,Consumer Staples,POMRY.PA,EQ,FR0000062796
+Lhyfe SA,Materials,LHYFE.PA,EQ,FR0014009YQ1
+SRP Groupe S.A.,Consumer Discretionary,SRP.PA,EQ,FR0013006558
+Valerio Therapeutics Société anonyme,Health Care,ALVIO.PA,EQ,FR0010095596
+Fonciere Volta SA,Financials,SPEL.PA,EQ,FR0000053944
+Reworld Media Société Anonyme,Communication Services,ALREW.PA,EQ,FR0010820274
+AFYREN SAS,Materials,ALAFY.PA,EQ,FR0014005AC9
+SergeFerrari Group SA,Industrials,SEFER.PA,EQ,FR0011950682
+Carbios SAS,Materials,ALCRB.PA,EQ,FR0011648716
+Foncière Vindi Société Anonyme,Real Estate,MLVIN.PA,EQ,FR0011605617
+Casino  Guichard-Perrachon S.A.,Consumer Staples,CO.PA,EQ,FR001400OKR3
+Les Docks des Pétroles d'Ambès -SA,Energy,DPAM.PA,EQ,FR0000065260
+Vaziva Société anonyme,Financials,ALVAZ.PA,EQ,FR0014007T10
+OSE Immunotherapeutics SA,Health Care,OSE.PA,EQ,FR0012127173
+Alan Allman Associates,Industrials,AAA.PA,EQ,FR0000062465
+Adocia SA,Health Care,ADOC.PA,EQ,FR0011184241
+LACROIX Group SA,Technology,LACR.PA,EQ,FR0000066607
+Delfingen Société Anonyme,Consumer Discretionary,ALDEL.PA,EQ,FR0000054132
+S.T. Dupont S.A.,Consumer Discretionary,DPT.PA,EQ,FR0000054199
+Abéo SA,Consumer Discretionary,ABEO.PA,EQ,FR0013185857
+Pullup Entertainment Société anonyme,Communication Services,ALPUL.PA,EQ,FR0012419307
+Gascogne SA,Consumer Discretionary,ALBI.PA,EQ,FR0000124414
+Eurofins-Cerep SA,Health Care,ALECR.PA,EQ,FR0013256518
+ACTIA Group S.A.,Consumer Discretionary,ALATI.PA,EQ,FR0000076655
+EKINOPS S.A.,Technology,EKI.PA,EQ,FR0011466069
+We.Connect SA,Technology,ALWEC.PA,EQ,FR0013079092
+Solutions 30 SE,Technology,S30.PA,EQ,FR0013379484
+Groupe LDLC société anonyme,Technology,ALLDL.PA,EQ,FR0000075442
+Moulinvest S.A.,Materials,ALMOU.PA,EQ,FR0011033083
+MGI Digital Technology Société Anonyme,Technology,ALMDG.PA,EQ,FR0010353888
+Omer-Decugis & Cie SA,Consumer Staples,ALODC.PA,EQ,FR0014003T71
+Bilendi SA,Communication Services,ALBLD.PA,EQ,FR0004174233
+Coheris SA,Technology,COH.PA,EQ,FR0004031763
+Saint Jean Groupe Société anonyme,Consumer Staples,SABE.PA,EQ,FR0000060121
+AdVini S.A.,Consumer Staples,ALAVI.PA,EQ,FR0000053043
+CATANA GROUP,Consumer Discretionary,ALCAT.PA,EQ,FR0010193052
+Hoffmann Green Cement Technologies Societe anonyme,Materials,ALHGR.PA,EQ,FR0013451044
+Vitura SA,Real Estate,VTR.PA,EQ,FR0010309096
+Guillemot Corporation S.A.,Technology,GUI.PA,EQ,FR0000066722
+High Co. SA,Communication Services,HCO.PA,EQ,FR0000054231
+Groupe Carnivor SA,Consumer Staples,MLGRC.PA,EQ,FR0000076960
+Haulotte Group SA,Industrials,PIG.PA,EQ,FR0000066755
+Solocal Group S.A.,Communication Services,LOCAL.PA,EQ,FR001400SA10
+AB Science SA,Health Care,AB.PA,EQ,FR0010557264
+Lexibook - Linguistic Electronic System Société anonyme,Consumer Discretionary,ALLEX.PA,EQ,FR0000033599
+Hopscotch Global PR Group,Communication Services,ALHOP.PA,EQ,FR0000065278
+Amoéba S.A.,Materials,ALMIB.PA,EQ,FR0011051598
+Atari SA,Communication Services,ALATA.PA,EQ,FR00140173Y6
+Fiducial Office Solutions,Industrials,SACI.PA,EQ,FR0000061418
+KLEA HOLDING,Health Care,ALKLH.PA,EQ,FR0013481835
+Icape Holding S.A.,Technology,ALICA.PA,EQ,FR001400A3Q3
+MaaT Pharma SA,Health Care,MAAT.PA,EQ,FR0012634822
+Theraclion SA,Health Care,ALTHE.PA,EQ,FR0010120402
+Herige,Materials,ALHRG.PA,EQ,FR0000066540
+Hotelim Société Anonyme,Consumer Discretionary,MLHOT.PA,EQ,FR0000053738
+FERMENTALG,Health Care,ALGAE.PA,EQ,FR0011271600
+Poujoulat SA,Industrials,ALPJT.PA,EQ,FR0000066441
+TBSO,Financials,TBSO.PA,EQ,FR0000063307
+Hydrogène de France Société anonyme,Utilities,HDF.PA,EQ,FR0014003VY4
+Vantiva S.A.,Communication Services,VANTI.PA,EQ,FR0013505062
+Aurea SA,Industrials,AURE.PA,EQ,FR0000039232
+S.M.A.I.O S.A.,Health Care,ALSMA.PA,EQ,FR0014005I80
+Haffner Energy S.A.,Utilities,ALHAF.PA,EQ,FR0014007ND6
+THX Pharma Société Anonyme,Health Care,ALTHX.PA,EQ,FR0013286259
+Poulaillon SA,Consumer Staples,ALPOU.PA,EQ,FR0013015583
+EuropaCorp,Communication Services,ALECP.PA,EQ,FR0010490920
+MEMSCAP  S.A.,Technology,MEMS.PA,EQ,FR0010298620
+ABL Diagnostics Société anonyme,Health Care,ABLD.PA,EQ,FR001400AHX6
+Mr.Bricolage S.A.,Consumer Discretionary,ALMRB.PA,EQ,FR0004034320
+Claranova SE,Technology,ALCLA.PA,EQ,FR0013426004
+PRODWAYS GROUP,Technology,ALPWG.PA,EQ,FR0012613610
+Grande Armee Investissement SA,Industrials,MLGAI.PA,EQ,FR0000053415
+Paref SA,Real Estate,PAR.PA,EQ,FR0010263202
+Enogia SAS,Industrials,ALENO.PA,EQ,FR0014004974
+Prologue S.A.,Technology,ALPRG.PA,EQ,FR0010380626
+Acanthe Développement,Real Estate,ACAN.PA,EQ,FR0000064602
+Jacques Bogart S.A.,Consumer Staples,JBOG.PA,EQ,FR0012872141
+HiPay Group SA,Technology,ALHYP.PA,EQ,FR0012821916
+Financière Marjos SA,Industrials,FINM.PA,EQ,FR0000060824
+Hydrogen-Refueling-Solutions SA,Consumer Discretionary,ALHRS.PA,EQ,FR0014001PM5
+Drone Volt SA,Technology,ALDRV.PA,EQ,FR001400SVN0
+Diagnostic Medical Systems S.A.,Health Care,ALDMS.PA,EQ,FR0012202497
+Mauna Kea Technologies SA,Health Care,ALMKT.PA,EQ,FR0010609263
+Nicox S.A.,Health Care,ALCOX.PA,EQ,FR0013018124
+DNXCorp SE,Communication Services,ALDNX.PA,EQ,FR0010436584
+Valbiotis SA,Consumer Staples,ALVAL.PA,EQ,FR0013254851
+Speed Rabbit Pizza SA,Consumer Discretionary,MLSRP.PA,EQ,FR0000054371
+ODYSSEE TECHNOLOGIES,Industrials,ALODY.PA,EQ,FR001400U4P9
+MINT Société anonyme,Utilities,ALMIN.PA,EQ,FR0004172450
+Novacyt S.A.,Health Care,ALNOV.PA,EQ,FR0010397232
+Uniti S.A,Consumer Discretionary,ALUNT.PA,EQ,FR0012709160
+Compagnie de Chemins de Fer Départementaux Société Anonyme,Industrials,MLCFD.PA,EQ,FR0000037871
+genOway Société anonyme,Health Care,ALGEN.PA,EQ,FR0004053510
+Audacia SA,Financials,ALAUD.PA,EQ,FR00140059B5
+Broadpeak Société anonyme,Technology,ALBPK.PA,EQ,FR001400AJZ7
+FORSEE POWER,Consumer Discretionary,ALFOR.PA,EQ,FR0014005SB3
+TOUAX,Industrials,ALTOU.PA,EQ,FR0000033003
+Sapmer SA,Consumer Staples,ALMER.PA,EQ,FR0010776617
+Implanet S.A.,Health Care,ALIMP.PA,EQ,FR0013470168
+IT Link SA,Technology,ALITL.PA,EQ,FR0000072597
+Netgem SA,Technology,ALNTG.PA,EQ,FR0004154060
+Graines Voltz S.A.,Materials,GRVO.PA,EQ,FR0000065971
+Hunyvers SA,Consumer Discretionary,ALHUN.PA,EQ,FR0014007LQ2
+NSC Groupe SA,Industrials,ALNSC.PA,EQ,FR0000064529
+Media 6 SA,Industrials,EDI.PA,EQ,FR0000064404
+Artea SA,Real Estate,ARTE.PA,EQ,FR0012185536
+Damartex,Consumer Discretionary,ALDAR.PA,EQ,FR0000185423
+XILAM ANIMATION,Communication Services,ALXIL.PA,EQ,FR0004034072
+Cogra 48 Société Anonyme,Materials,ALCOG.PA,EQ,FR0011071570
+DLSI,Industrials,ALDLS.PA,EQ,FR0010404368
+Crypto Blockchain Industries,Financials,ALCBI.PA,EQ,FR0014007LW0
+LightOn SA,Technology,ALTAI.PA,EQ,FR0013230950
+Octopus Biosafety SA,Technology,MLOCT.PA,EQ,FR0013310281
+Ikonisys S.A.,Health Care,ALIKO.PA,EQ,FR00140048X2
+U10 Corp,Consumer Discretionary,ALU10.PA,EQ,FR0000079147
+HITECHPROS Société anonyme,Technology,ALHIT.PA,EQ,FR0010396309
+Mon Courtier Energie Groupe S.A.,Industrials,ALMCE.PA,EQ,FR001400H3A0
+Egide S.A.,Technology,ALGID.PA,EQ,FR0000072373
+Watera,Industrials,ALWTR.PA,EQ,FR001400IUV6
+Logic Instrument S.A.,Technology,ALLOG.PA,EQ,FR0000044943
+Verimatrix SA,Technology,VMX.PA,EQ,FR0010291245
+Tonner Drones S.A.,Industrials,ALTD.PA,EQ,FR001400H2X4
+Charwood Energy SA,Utilities,ALCWE.PA,EQ,FR001400AJ60
+Trilogiq S.A.,Industrials,ALTRI.PA,EQ,FR0010397901
+Fill Up Media S.A.,Communication Services,ALFUM.PA,EQ,FR001400AEM6
+Blue Shark Power System,Utilities,MLBSP.PA,EQ,FR0013340973
+GenSight Biologics S.A.,Health Care,SIGHT.PA,EQ,FR0013183985
+BIO-UV Group S.A.,Industrials,ALTUV.PA,EQ,FR0013345493
+FIPP S.A.,Real Estate,FIPP.PA,EQ,FR0000038184
+Novatech Industries,Technology,MLNOV.PA,EQ,FR0000185464
+SODITECH,Industrials,ALSEC.PA,EQ,FR0000078321
+PASSAT,Consumer Discretionary,ALPAS.PA,EQ,FR0000038465
+Maisons du Monde S.A.,Consumer Discretionary,MDM.PA,EQ,FR0013153541
+Orege Société Anonyme,Industrials,OREGE.PA,EQ,FR0010609206
+Biosynex SA,Health Care,ALBIO.PA,EQ,FR0011005933
+Nacon S.A.,Communication Services,NACON.PA,EQ,FR0013482791
+Vinpai SAS,Materials,ALVIN.PA,EQ,FR001400AXT1
+Arcure S.A.,Industrials,ALCUR.PA,EQ,FR0013398997
+Emova Group SA,Consumer Discretionary,ALEMV.PA,EQ,FR0013356755
+Advicenne S.A.,Health Care,ALDVI.PA,EQ,FR0013296746
+RocTool S.A.,Technology,ALROC.PA,EQ,FR0010523167
+Artmarket.com,Communication Services,PRC.PA,EQ,FR0000074783
+MACOMPTA.FR,Technology,ALCPA.PA,EQ,FR001400NQB6
+Signaux Girod S.A.,Industrials,ALGIR.PA,EQ,FR0000060790
+Société Hôtelière et Immobilière de Nice S.A.,Consumer Discretionary,MLHIN.PA,EQ,FR0006563904
+Aelis Farma SA,Health Care,AELIS.PA,EQ,FR0014007ZB4
+Stradim Espace Finances SA,Real Estate,ALSAS.PA,EQ,FR0000074775
+KKO International SA,Consumer Staples,ALKKO.PA,EQ,FR0013374667
+Nextedia S.A.,Communication Services,ALNXT.PA,EQ,FR0004171346
+Gold By Gold SA,Materials,ALGLD.PA,EQ,FR0011208693
+Obiz S.A.,Communication Services,ALBIZ.PA,EQ,FR0014003711
+Agripower France Société Anonyme,Utilities,ALAGP.PA,EQ,FR0013452281
+HF Company SA,Technology,ALHF.PA,EQ,FR0000038531
+Les Hôtels de Paris SA,Consumer Discretionary,HDP.PA,EQ,FR0004165801
+Vogo SA,Technology,ALVGO.PA,EQ,FR0011532225
+Laboratoires Euromedis Société anonyme,Health Care,ALEMG.PA,EQ,FR0000075343
+BOA Concept SAS,Industrials,ALBOA.PA,EQ,FR0011365907
+Witbe S.A.,Communication Services,ALWIT.PA,EQ,FR0013143872
+Hydro-Exploitations Societe Anonyme,Industrials,MLHYE.PA,EQ,FR0005843125
+MG International S.A.,Industrials,ALMGI.PA,EQ,FR0010204453
+écomiam SA,Consumer Staples,ALECO.PA,EQ,FR0013534617
+Miliboo Société anonyme,Consumer Discretionary,ALMLB.PA,EQ,FR0013053535
+Intrasense S.A.,Health Care,ALINS.PA,EQ,FR0011179886
+Rougier S.A.,Materials,ALRGR.PA,EQ,FR0000037640
+ATON,Health Care,ALTAO.PA,EQ,FR0004153930
+Courbet Héritage société anonyme,Real Estate,MLCOU.PA,EQ,FR0004998318
+Electricité et Eaux de Madagascar Société Anonyme,Financials,EEM.PA,EQ,FR0000035719
+NFL Biosciences SA,Health Care,ALNFL.PA,EQ,FR0014003XT0
+Qwamplify,Communication Services,ALQWA.PA,EQ,FR0010889386
+Poxel S.A.,Health Care,POXEL.PA,EQ,FR0012432516
+Prismaflex International  S.A.,Communication Services,ALPRI.PA,EQ,FR0004044600
+Tractial S.A.,Technology,ALTRA.PA,EQ,FR0014014ZV8
+Archos S.A.,Technology,ALJXR.PA,EQ,FR001400KO61
+i2S SA,Industrials,ALI2S.PA,EQ,FR0005854700
+TXCOM Société Anonyme,Technology,ALTXC.PA,EQ,FR0010654087
+AgroGeneration SA,Consumer Staples,ALAGR.PA,EQ,FR0010641449
+Société Française de Casinos Société Anonyme,Consumer Discretionary,SFCA.PA,EQ,FR0010209809
+Cofidur S.A.,Technology,ALCOF.PA,EQ,FR0013257409
+ENENSYS Technologies SA,Technology,ALNN6.PA,EQ,FR0013330792
+Grolleau Société Anonyme,Industrials,ALGRO.PA,EQ,FR0014005ZM5
+Les Constructeurs du Bois S.A.,Real Estate,MLLCB.PA,EQ,FR00140007I9
+Predilife S.A.,Health Care,ALPRE.PA,EQ,FR0010169920
+ADUX,Communication Services,ALDUX.PA,EQ,FR0012821890
+Euroland Corporate Société anonyme,Financials,ALERO.PA,EQ,FR0010157115
+Innelec Multimédia SA,Technology,ALINN.PA,EQ,FR0000064297
+Kumulus Vape S.A.,Consumer Discretionary,ALVAP.PA,EQ,FR0013419876
+Kerlink SA,Technology,ALKLK.PA,EQ,FR0013156007
+Cibox Inter@ctive,Technology,ALCBX.PA,EQ,FR0000054322
+SpineGuard SA,Health Care,ALSGD.PA,EQ,FR0011464452
+Courtois SA,Financials,COUR.PA,EQ,FR0000065393
+Neolife SA,Consumer Discretionary,ALNLF.PA,EQ,FR0011636083
+Onlineformapro SA,Technology,MLONL.PA,EQ,FR0004174712
+Union Technologies Informatique Group S.A.,Technology,FPG.PA,EQ,FR0000074197
+WINFARM Société anonyme,Industrials,ALWF.PA,EQ,FR0014000P11
+UPERGY Société Anonyme,Consumer Discretionary,ALUPG.PA,EQ,FR0010337865
+Groupe Tera SA,Technology,ALGTR.PA,EQ,FR0013429404
+Groupe Airwell Société anonyme,Consumer Discretionary,ALAIR.PA,EQ,FR0014003V77
+Finaxo Environnement Societe Anonyme,Industrials,MLFXO.PA,EQ,FR0010487272
+Plant Advanced Technologies SA,Health Care,ALPAT.PA,EQ,FR0010785790
+Bluelinea Société Anonyme,Health Care,ALBLU.PA,EQ,FR0011041011
+Augros Cosmetic Packaging SA,Consumer Discretionary,AUGR.PA,EQ,FR0000061780
+Largo SA,Technology,ALLGO.PA,EQ,FR0013308582
+Avenir Telecom S.A.,Technology,AVT.PA,EQ,FR001400CFI7
+Odiot S.A.,Consumer Discretionary,MLODT.PA,EQ,FR0014010DV3
+Lombard & Medot,Consumer Staples,MLCAC.PA,EQ,FR0006205019
+PAULIC Meunerie SA,Consumer Staples,ALPAU.PA,EQ,FR0013479730
+E-Pango SA,Utilities,ALAGO.PA,EQ,FR0014004339
+Financiere Hoche Bains-Les-Bains SA,Financials,MLHBB.PA,EQ,FR0000051302
+Ecoslops S.A.,Energy,ALESA.PA,EQ,FR0011490648
+Eo2 Société Anonyme,Materials,ALEO2.PA,EQ,FR0010465534
+Encres Dubuit,Materials,ALDUB.PA,EQ,FR0004030708
+Don't Nod Entertainment S.A.,Communication Services,ALDNE.PA,EQ,FR0013331212
+Oncodesign Precision Medicine Société anonyme,Health Care,ALOPM.PA,EQ,FR001400CM63
+Bernard Loiseau S.A.,Consumer Discretionary,ALDBL.PA,EQ,FR0000066961
+BigBen Interactive,Technology,BIG.PA,EQ,FR0000074072
+Compagnie des Eaux de Royan,Utilities,MLEDR.PA,EQ,FR0007200100
+Aquila SA,Industrials,ALAQU.PA,EQ,FR0010340711
+Activium Group SAS,Technology,MLACT.PA,EQ,FR0010979377
+CMG Cleantech S.A.,Utilities,MLCMG.PA,EQ,FR0013406881
+Altheora SA,Industrials,ALORA.PA,EQ,FR0000061244
+UV Germi SA,Industrials,ALUVI.PA,EQ,FR0011898584
+Eduform'action Société Anonyme,Financials,MLEFA.PA,EQ,FR0010882886
+Proactis SA,Technology,PROAC.PA,EQ,FR0004052561
+Mare Nostrum SA,Industrials,ALMAR.PA,EQ,FR0013400835
+One Experience Société anonyme,Financials,ALEXP.PA,EQ,FR0013266772
+SAS Florentaise,Materials,ALFLO.PA,EQ,FR001400GO75
+Colipays Reunion Société anonyme,Consumer Discretionary,MLCLP.PA,EQ,FR0010959684
+Nicolas Miguet,Consumer Discretionary,MLNMA.PA,EQ,FR0010500363
+Spineway SA,Health Care,ALSPW.PA,EQ,FR001400N2P2
+Locasystem International SA,Technology,MLLOI.PA,EQ,FR0004155208
+WEACCESS GROUP SA,Communication Services,MLWEA.PA,EQ,FR0010688465
+Munic S.A.,Technology,ALMUN.PA,EQ,FR0013462231
+Spartoo SAS,Consumer Discretionary,ALSPT.PA,EQ,FR00140043Y1
+Societe de Conseil en Externalisation et en Marketing Internet - SCEMI Société Anonyme,Industrials,MLCMI.PA,EQ,FR0010972091
+Hopening SA,Industrials,MLHPE.PA,EQ,FR0010312181
+NR21 Société Anonyme,Consumer Discretionary,NR21.PA,EQ,FR0014001PV6
+Adeunis Société anonyme,Technology,ALARF.PA,EQ,FR0013284627
+Groupe JAJ,Consumer Discretionary,GJAJ.PA,EQ,FR0004010338
+France Tourisme Immobilier SA,Real Estate,MLFTI.PA,EQ,FR0010823724
+Body One SA,Consumer Discretionary,MLONE.PA,EQ,FR0010106039
+Transition Evergreen SA,Financials,EGR.PA,EQ,FR0000035784
+Réalités S.A.,Real Estate,ALREA.PA,EQ,FR0011858190
+Galeo Concept Société Anonyme,Consumer Staples,MLGAL.PA,EQ,FR0011100759
+Devernois SA,Consumer Staples,ALDEV.PA,EQ,FR0000060840
+Imprimerie Chirat Société Anonyme,Communication Services,MLIMP.PA,EQ,FR0000065773
+Ethero,Communication Services,ALENT.PA,EQ,FR0010424697
+Immersion SA,Technology,ALIMR.PA,EQ,FR0013060100
+Acteos SA,Technology,EOS.PA,EQ,FR0000076861
+Ordissimo SA,Technology,ALORD.PA,EQ,FR0013318052
+Sirius Media,Communication Services,ALSRS.PA,EQ,FR0014017FP5
+L Agence Automobiliere,Consumer Discretionary,MLAA.PA,EQ,FR0014005WE9
+Barbara Bui SA,Consumer Discretionary,BUI.PA,EQ,FR0000062788
+GECI International S.A.,Technology,ALGEC.PA,EQ,FR001400M1R1
+Dolfines SA,Energy,ALDOL.PA,EQ,FR001400SP13
+Groupe OKwind Société anonyme,Utilities,ALOKW.PA,EQ,FR0013439627
+NetMedia Group société anonyme,Communication Services,ALNMG.PA,EQ,FR001400RF99
+Biophytis S.A.,Health Care,ALBPS.PA,EQ,FR001400OLP5
+Lepermislibre Société anonyme,Consumer Discretionary,ALLPL.PA,EQ,FR001400F2Z1
+Klarsen,Communication Services,ALKLA.PA,EQ,FR0011038348
+CFI-Compagnie Foncière Internationale,Real Estate,CFI.PA,EQ,FR0000037475
+IntegraGen SA,Health Care,ALINT.PA,EQ,FR0010908723
+Lucibel SA,Industrials,ALUCI.PA,EQ,FR0014013HG9
+Weya SA,Utilities,MLWEY.PA,EQ,FR0010768770
+ImAlliance SA,Communication Services,MLIML.PA,EQ,FR0010086371
+DBT SA,Industrials,ALDBT.PA,EQ,FR001400LO86
+MyHotelMatch S.A.,Consumer Discretionary,MHM.PA,EQ,FR001400IE67
+Smalto Holding SA,Consumer Discretionary,MLSML.PA,EQ,FR0011131788
+Safe Orthopaedics SA,Health Care,ALSAF.PA,EQ,FR001400ZU25
+Boostheat SA,Technology,ALBOO.PA,EQ,FR00140153G5
+Adomos S.A.,Real Estate,ALADO.PA,EQ,FR00140153H3
+Méthanor SCA,Utilities,ALMET.PA,EQ,FR0011217710
+PREATONI GROUP,Consumer Discretionary,ALPG.PA,EQ,FR001400WXE7
+Rising Stone S.A.,Real Estate,ALRIS.PA,EQ,FR00140164Q1
+Streit Mecanique SA,Industrials,MLSTR.PA,EQ,FR0000063976
+Altamir Ord,Financials,LTA.PA,EQ,FR0000053837
+La Savonnerie De Nyons,Consumer Staples,MLSDN.PA,EQ,FR0013155975
+Maison Clio Blue SA,Consumer Discretionary,MLCLI.PA,EQ,FR0011092089
+IEVA Group S.A.,Consumer Staples,ALIEV.PA,EQ,FR0014015ND9
+Roth Mions SA,Industrials,MLROT.PA,EQ,FR001400EA65
+Umalis Group,Industrials,MLUMG.PA,EQ,FR0011776889
+Airbus SE,Industrials,AIR.PA,EQ,
+STMicroelectronics N.V.,Technology,STMPA.PA,EQ,
 Stellantis N.V.,Consumer Discretionary,STLAP.PA,EQ,
-Dassault Aviation SA,Technology,AM.PA,EQ,
-Publicis Groupe SA,Industrials,PUB.PA,EQ,
-Cie Generale des Etablissements Michelin SA,Consumer Discretionary,ML.PA,EQ,
-Bouygues SA,Industrials,EN.PA,EQ,
-Amundi SA,Financials,AMUN.PA,EQ,
-Sartorius Stedim Biotech SA,Health Care,DIM.PA,EQ,
-Capgemini SE,Technology,CAP.PA,EQ,
-Pernod Ricard SA,Consumer Staples,RI.PA,EQ,
-Bollore SE,Industrials,BOL.PA,EQ,
-Euronext NV,Financials,ENX.PA,EQ,
-Unibail-Rodamco-Westfield SE Stapled Secs Cons of 1 Sh Unibail Rodamco + 1 Sh WFD Unib Rod,Financials,URW.PA,EQ,
-Ipsen SA,Health Care,IPN.PA,EQ,
-Eiffage SA,Industrials,FGRMC.PA,EQ,
-Eiffage SA,Industrials,FGR.PA,EQ,
-Carrefour SA,Consumer Discretionary,CA.PA,EQ,
-Eurofins Scientific SE,Industrials,ERF.PA,EQ,
-Bureau Veritas SA,Industrials,BVI.PA,EQ,
-SEGRO plc,Financials,SGRO.PA,EQ,
-Rexel SA,Industrials,RXL.PA,EQ,
-Accor SA,Consumer Discretionary,ACMC.PA,EQ,
-Accor SA,Consumer Discretionary,AC.PA,EQ,
-Aeroports de Paris,Industrials,ADP.PA,EQ,
-Getlink SE,Industrials,GET.PA,EQ,
-Klepierre SA,Financials,LI.PA,EQ,
-Ayvens,Financials,AYV.PA,EQ,
-bioMerieux SA,Health Care,BIM.PA,EQ,
-SPIE SA,Industrials,SPIE.PA,EQ,
-Alstom SA,Industrials,ALO.PA,EQ,
-Renault SA,Consumer Discretionary,RNO.PA,EQ,
-Maroc Telecom SA,Communication Services,IAM.PA,EQ,
-Gaztransport & Technigaz SA,Industrials,GTT.PA,EQ,
-Sodexo SA,Consumer Discretionary,SW.PA,EQ,
-Abivax SA,Health Care,ABVX.PA,EQ,
-Nexans SA,Industrials,NEX.PA,EQ,
-Compagnie du Cambodge SA,Industrials,CBDG.PA,EQ,
-Technip Energies NV,Industrials,TE.PA,EQ,
-Compagnie de l'Odet SE,Industrials,ODET.PA,EQ,
-Elis SA,Industrials,ELIS.PA,EQ,
-Covivio SA,Financials,COV.PA,EQ,
-Vallourec SA,Materials,VK.PA,EQ,
-SCOR SE,Financials,SCR.PA,EQ,
-Gecina SA,Financials,GFC.PA,EQ,
-Soitec SA,Technology,SOI.PA,EQ,
-Edenred SA,Industrials,EDEN.PA,EQ,
-Arkema SA,Materials,AKE.PA,EQ,
-LDC SA,Materials,LOUP.PA,EQ,
-FDJ United,Consumer Discretionary,FDJU.PA,EQ,
-JCDecaux SE,Industrials,DEC.PA,EQ,
-Valeo SE,Industrials,FR.PA,EQ,
-Rubis SCA,Industrials,RUI.PA,EQ,
-Covivio Hotels SCA,Financials,COVH.PA,EQ,
-Eutelsat Communications SA,Communication Services,ETL.PA,EQ,
-Teleperformance SE,Industrials,TEP.PA,EQ,
-Wendel SE,Financials,MF.PA,EQ,
-SES SA FDR (Class A),Communication Services,SESG.PA,EQ,
-Monte-Carlo Societe des Bains de Mer SA,Consumer Discretionary,BAIN.PA,EQ,
-Exosens SA,Technology,EXENS.PA,EQ,
-Tikehau Capital SCA,Financials,TKO.PA,EQ,
-Air France-KLM SA,Industrials,AF.PA,EQ,
-Trigano SA,Consumer Discretionary,TRI.PA,EQ,
-Virbac SA,Health Care,VIRP.PA,EQ,
-LISI SA,Technology,FII.PA,EQ,
-Sopra Steria Group SA,Technology,SOP.PA,EQ,
-SEB SA,Consumer Discretionary,SK.PA,EQ,
-Eurazeo SE,Financials,RF.PA,EQ,
-Vicat SA,Materials,VCT.PA,EQ,
-Lagardere SA,Consumer Discretionary,MMB.PA,EQ,
-Verallia SAS,Materials,VRLA.PA,EQ,
-OVH Groupe S.A.,Technology,OVH.PA,EQ,
-Financiere Moncey,Financials,FMONC.PA,EQ,
-Altarea SCA,Financials,ALTA.PA,EQ,
-Societe Industrielle & Financiere de l'Artois SA,Technology,ARTO.PA,EQ,
-ID Logistics Group,Industrials,IDL.PA,EQ,
-VusionGroup S.A.,Technology,VU.PA,EQ,
-PLUXEE N.V.,Industrials,PLX.PA,EQ,
-Emeis,Health Care,EMEIS.PA,EQ,
-Alten SA,Industrials,ATE.PA,EQ,
-Carmila SA,Consumer Discretionary,CARM.PA,EQ,
-Societe BIC SA,Industrials,BB.PA,EQ,
-Exail Technologies SA,Technology,EXA.PA,EQ,
-OPmobility,Industrials,OPM.PA,EQ,
-Remy Cointreau SA,Consumer Staples,RCO.PA,EQ,
-Coface SA,Financials,COFA.PA,EQ,
-Vivendi SE,Consumer Discretionary,VIV.PA,EQ,
-Interparfums,Consumer Staples,ITP.PA,EQ,
-Forvia SE,Industrials,FRVIA.PA,EQ,
-Imerys SA,Materials,NK.PA,EQ,
-Etablissements Maurel & Prom SA,Energy,MAU.PA,EQ,
-Louis Hachette Group SA,Industrials,ALHG.PA,EQ,
-Antin Infrastructure Partners,Financials,ANTIN.PA,EQ,
-Ipsos SA,Industrials,IPS.PA,EQ,
-Derichebourg SA,Industrials,DBG.PA,EQ,
-Robertet SA Cert.d'Invest. Em.87,Consumer Staples,CBE.PA,EQ,
-Robertet SA,Consumer Staples,RBT.PA,EQ,
-Nanobiotix SA,Health Care,NANO.PA,EQ,
-Icade SA,Financials,ICAD.PA,EQ,
-Electricite de Strasbourg SA,Utilities,ELEC.PA,EQ,
-Argan,Financials,ARG.PA,EQ,
-Coty Inc. Class A,Consumer Staples,COTY.PA,EQ,
-Peugeot Invest SA,Financials,PEUG.PA,EQ,
-Eramet SA,Materials,ERA.PA,EQ,
-STEF,Industrials,STF.PA,EQ,
-Metropole Television SA,Consumer Discretionary,MMT.PA,EQ,
-Television Francaise 1 SA,Consumer Discretionary,TFI.PA,EQ,
-Clariane SE,Health Care,CLARI.PA,EQ,
-Planisware Societe anonyme,Technology,PLNW.PA,EQ,
+Euronext N.V.,Financials,ENX.PA,EQ,
+Itissalat Al-Maghrib (IAM) S.A.,Communication Services,IAM.PA,EQ,
+Technip Energies N.V.,Energy,TE.PA,EQ,
+SES S.A.,Communication Services,SESG.PA,EQ,
+Société Anonyme des Bains de Mer et du Cercle des Étrangers à Monaco,Consumer Discretionary,BAIN.PA,EQ,
+Pluxee N.V.,Industrials,PLX.PA,EQ,
+Coty Inc.,Consumer Staples,COTY.PA,EQ,
+H&K AG,Industrials,MLHK.PA,EQ,
 X-FAB Silicon Foundries SE,Technology,XFAB.PA,EQ,
-Ramsay Generale de Sante SA,Health Care,GDS.PA,EQ,
-H&K AG,Technology,MLHK.PA,EQ,
-Frey SA,Financials,FREY.PA,EQ,
-Viel & Cie SA,Financials,VIL.PA,EQ,
-Compagnie des Alpes SA,Consumer Discretionary,CDA.PA,EQ,
-2CRSI SA,Technology,AL2SI.PA,EQ,
-Societe de la Tour Eiffel SA,Financials,EIFF.PA,EQ,
-Wavestone SA,Industrials,WAVE.PA,EQ,
-Mercialys SA,Financials,MERY.PA,EQ,
-Voltalia SA,Utilities,VLTSA.PA,EQ,
-Mersen SA,Industrials,MRN.PA,EQ,
-Altareit,Financials,AREIT.PA,EQ,
-Fnac Darty SA,Consumer Discretionary,FNAC.PA,EQ,
-Totalenergies EP Gabon,Energy,EC.PA,EQ,
-Savencia SA,Consumer Staples,SAVE.PA,EQ,
-MedinCell SA,Health Care,MEDCL.PA,EQ,
-GL events SA,Industrials,GLO.PA,EQ,
-Caisse Regionale de Credit Agricole Mutuel de Paris et d'Ile-de-France Cert.Coop.d'Invest.,Financials,CAF.PA,EQ,
-Neurones SA,Industrials,NRO.PA,EQ,
-DBV Technologies SA,Health Care,DBV.PA,EQ,
-Montepino Logistica SOCIMI SA,Financials,MLMTP.PA,EQ,
-Inventiva SA,Health Care,IVA.PA,EQ,
-Vetoquinol SA,Health Care,VETO.PA,EQ,
-Manitou BF SA,Industrials,MTU.PA,EQ,
-Viridien,Industrials,VIRI.PA,EQ,
-Pierre et Vacances SA,Consumer Discretionary,VAC.PA,EQ,
-CFM Indosuez Wealth SA,Financials,MLCFM.PA,EQ,
-Atos SE,Technology,ATO.PA,EQ,
-Bassac SA,Financials,BASS.PA,EQ,
-Burelle S.A.,Industrials,BUR.PA,EQ,
-Aubay SA,Industrials,AUB.PA,EQ,
-Synergie SA,Industrials,SDG.PA,EQ,
-North Atlantic Energies,Energy,NAE.PA,EQ,
-UBISOFT Entertainment,Technology,UBI.PA,EQ,
-Worldline SA,Industrials,WLN.PA,EQ,
-Assystem SA,Industrials,ASY.PA,EQ,
-Voyageurs du Monde SA,Consumer Discretionary,ALVDM.PA,EQ,
-Seche Environnement SA,Industrials,SCHP.PA,EQ,
-Caisse Regionale de Credit Agricole Mutuel Brie Picardie Cert. Coop. d'invest.,Financials,CRBP2.PA,EQ,
-Lectra SA,Technology,LSS.PA,EQ,
-Thermador Groupe,Industrials,THEP.PA,EQ,
-Waga Energy SA,Materials,WAGA.PA,EQ,
-Groupe Crit SA,Industrials,CEN.PA,EQ,
-Societe Explosifs et Produits Chimiques SA,Materials,EXPL.PA,EQ,
-Caisse Regionale de Credit Agricole Mutuel Nord de France Cert.Coop.d'Inv.,Financials,CNDF.PA,EQ,
-Equasens SA,Technology,EQS.PA,EQ,
-Oeneo SA,Materials,SBT.PA,EQ,
-NRJ Group SA,Consumer Discretionary,NRG.PA,EQ,
-Lumibird SA,Technology,LBIRD.PA,EQ,
-Beneteau SA,Consumer Discretionary,BEN.PA,EQ,
-Laurent-Perrier SA,Consumer Staples,LPE.PA,EQ,
-SEMCO Technologies,Technology,ALSEM.PA,EQ,
-Institut de Developpement Industriel SCA,Financials,IDIP.PA,EQ,
-Boiron SA,Health Care,BOI.PA,EQ,
-Jacquet Metals SA,Industrials,JCQ.PA,EQ,
-Elior Group SA,Consumer Discretionary,ELIOR.PA,EQ,
-Figeac Aero SA,Technology,FGA.PA,EQ,
-Kaufman & Broad SA,Consumer Discretionary,KOF.PA,EQ,
-Valneva SE,Health Care,VLA.PA,EQ,
-Genfit SA,Health Care,GNFT.PA,EQ,
-Quadient SA,Technology,QDT.PA,EQ,
-Societe Fermiere du Casino Municipal de Cannes SA,Consumer Discretionary,FCMC.PA,EQ,
-Nexity SA,Financials,NXI.PA,EQ,
-Groupe Samse,Industrials,SAMS.PA,EQ,
-Groupe Guillin SA,Materials,ALGIL.PA,EQ,
-Malteries Franco-Belges,Consumer Staples,MALT.PA,EQ,
-Patrimoine et Commerce,Financials,PAT.PA,EQ,
-Fiducial Real Estate SA,Financials,ORIA.PA,EQ,
-SMCP SA,Consumer Discretionary,SMCP.PA,EQ,
-TFF Group,Materials,TFF.PA,EQ,
-Immobiliere Dassault SA,Financials,IMDA.PA,EQ,
-Selectirente SA,Financials,SELER.PA,EQ,
-Fonciere INEA,Financials,INEA.PA,EQ,
-LNA Sante SA,Health Care,LNA.PA,EQ,
-Eagle Football Group,Consumer Discretionary,EFG.PA,EQ,
-Gaumont SA,Consumer Discretionary,GAM.PA,EQ,
-Arverne Group Act,Utilities,ARVEN.PA,EQ,
-Parrot SA,Technology,PARRO.PA,EQ,
-ABC arbitrage SA,Financials,ABCA.PA,EQ,
-Marie Brizard Wine & Spirits SA,Consumer Staples,MBWS.PA,EQ,
-Caisse Regionale de Credit Agricole Mutuel d'Ille-et-Vilaine Cert.coop.d'invt.,Financials,CIV.PA,EQ,
-Gerard Perrier Industrie SA,Technology,PERR.PA,EQ,
-Sword Group SE,Technology,SWP.PA,EQ,
-Societe Immobiliere et d'Exploitation de l'Hotel Majestic,Consumer Discretionary,MLHMC.PA,EQ,
-Bourrelier Group SA,Industrials,ALBOU.PA,EQ,
-STIF,Industrials,ALSTI.PA,EQ,
-Riber SA,Technology,ALRIB.PA,EQ,
-Embention Sistemas Inteligentes SA,Technology,MLUAV.PA,EQ,
-Infotel SA,Technology,INF.PA,EQ,
-FSDV,Industrials,FSDV.PA,EQ,
-Bonduelle SCA,Consumer Staples,BON.PA,EQ,
-Delta Plus Group SA,Consumer Staples,ALDLT.PA,EQ,
-Roche Bobois SA,Consumer Discretionary,RBO.PA,EQ,
-Median Technologies,Health Care,ALMDT.PA,EQ,
-Bourse Direct SA,Financials,BSD.PA,EQ,
-Aramis Group SA,Consumer Discretionary,ARAMI.PA,EQ,
-Sidetrade SA,Technology,ALBFR.PA,EQ,
-Groupe Pizzorno Environnement SA,Industrials,GPE.PA,EQ,
-HEXAOM SA,Consumer Discretionary,ALHEX.PA,EQ,
-Eurobio-Scientific SA,Health Care,ALERS.PA,EQ,
-StreamWIDE,Communication Services,ALSTW.PA,EQ,
-Caisse Regionale de Credit Agricole Mutuel Atlantique Vendee Cert.Coop.d'Inv.,Financials,CRAV.PA,EQ,
-Transgene SA,Health Care,TNG.PA,EQ,
-La Francaise de l'Energie SA,Utilities,FDE.PA,EQ,
-CRCAM du Morbihan,Financials,CMO.PA,EQ,
-Caisse Regionale de Credit Agricole Mutuel Toulouse 31 Cert.Coop.d'Invest. Em.janv.88,Financials,CAT31.PA,EQ,
-Compagnie du Mont-Blanc SA,Consumer Discretionary,MLCMB.PA,EQ,
-Compagnie Chargeurs Invest,Materials,CRI.PA,EQ,
-Carvolix,Technology,CVX.PA,EQ,
-Linedata Services SA,Technology,LIN.PA,EQ,
-Sensorion SAS,Health Care,ALSEN.PA,EQ,
-Cellectis S.A.,Health Care,ALCLS.PA,EQ,
-Caisse Regionale de Credit Agricole Mutuel de Normandie Seine Cert.Coop.d'invt.,Financials,CCN.PA,EQ,
-Lanson-BCC,Consumer Staples,ALLAN.PA,EQ,
-Latecoere SA,Technology,LAT.PA,EQ,
-Groupe SFPI SA,Industrials,SFPI.PA,EQ,
-AKWEL SA,Industrials,AKW.PA,EQ,
-Kalray SA,Technology,ALKAL.PA,EQ,
-Exacompta Clairefontaine SA,Industrials,ALEXA.PA,EQ,
-Bastide Le Confort Medical SA,Health Care,BLC.PA,EQ,
-Les Hotels Baverez SA,Consumer Discretionary,ALLHB.PA,EQ,
-Caisse Regionale de Credit Agricole Mutuel du Languedoc Cert.Coop.d'invt.,Financials,CRLA.PA,EQ,
-Atland SA,Financials,ATLD.PA,EQ,
-Groupe Partouche SA,Consumer Discretionary,PARP.PA,EQ,
-Societe Marseillaise du Tunnel Prado Carenage SA,Industrials,ALTPC.PA,EQ,
-Wallix Group SA,Technology,ALLIX.PA,EQ,
-Fountaine Pajot SA,Consumer Discretionary,ALFPC.PA,EQ,
-EXEL Industries SA,Industrials,EXE.PA,EQ,
-CRCAM de Sud Rhone-Alpes,Financials,CRSU.PA,EQ,
-NSE SA,Technology,ALNSE.PA,EQ,
-Entech Smart Energies,Utilities,ALESE.PA,EQ,
-Cegedim SA,Technology,ALCGM.PA,EQ,
-Caisse Regionale de Credit Agricole Mutuel de la Touraine et du Poitou Cert.Coop.d'Invt.,Financials,CRTO.PA,EQ,
-Freelance.com,Industrials,ALFRE.PA,EQ,
-Gevelot SA,Industrials,ALGEV.PA,EQ,
-Catering International Services,Consumer Discretionary,ALCIS.PA,EQ,
-Ateme SA,Technology,ATEME.PA,EQ,
-Innate Pharma SA Class A,Health Care,IPH.PA,EQ,
-CBo Territoria SA,Financials,CBOT.PA,EQ,
-Capital B,Industrials,ALCPB.PA,EQ,
-Precia SA,Industrials,ALPM.PA,EQ,
-VENTE-UNIQUE.COM,Consumer Discretionary,ALVU.PA,EQ,
-Installux S.A.,Materials,ALLUX.PA,EQ,
-Racing Force SpA,Industrials,ALRFG.PA,EQ,
-Deezer SA,Technology,DEEZR.PA,EQ,
-Cheops Technology SA,Technology,MLCHE.PA,EQ,
-Societe Centrale des Bois et Scieries de la Manche,Financials,CBSM.PA,EQ,
-Caisse Regionale de Credit Agricole Mutuel Loire Haute-Loire Cert.coop.d'invest.,Financials,CRLO.PA,EQ,
-Guerbet SA,Health Care,GBT.PA,EQ,
-Bleecker S.A.,Financials,BLEE.PA,EQ,
-Euroapi SA,Health Care,EAPI.PA,EQ,
-FirstCaution SA,Financials,MLFIR.PA,EQ,
-Caisse Regionale De Credit Agricole Mutuel Alpes Provence CERT.COOP.D'INVEST.,Financials,CRAP.PA,EQ,
-ABIONYX Pharma SA,Health Care,ABNX.PA,EQ,
-Baikowski SA,Materials,ALBKK.PA,EQ,
-Crossject SA,Health Care,ALCJ.PA,EQ,
-Keyrus SA,Technology,ALKEY.PA,EQ,
-Compagnie Lebon SA,Financials,ALBON.PA,EQ,
-Dekuple,Industrials,DKUPL.PA,EQ,
-La Forestiere Equatoriale SA,Industrials,FORE.PA,EQ,
-Piscine Desjoyaux SA,Consumer Discretionary,ALPDX.PA,EQ,
-Fleury Michon SA,Consumer Staples,ALFLE.PA,EQ,
-CAFOM SA,Consumer Discretionary,ALCAF.PA,EQ,
-SOGECLAIR SA,Technology,ALSOG.PA,EQ,
-Lhyfe SA,Materials,LHYFE.PA,EQ,
-Grenobloise d'Electronique et d'Automatismes SA,Technology,GEA.PA,EQ,
-SRP Groupe SA,Consumer Discretionary,SRP.PA,EQ,
-Carbios SA,Industrials,ALCRB.PA,EQ,
-Maison Pommery & Associes,Consumer Staples,POMRY.PA,EQ,
-Valerio Therapeutics,Health Care,ALVIO.PA,EQ,
-Fonciere Volta SA,Financials,SPEL.PA,EQ,
-Reworld Media SA,Consumer Discretionary,ALREW.PA,EQ,
-Afyren SA,Health Care,ALAFY.PA,EQ,
-Crosswood SA,Financials,CROS.PA,EQ,
-Televerbier SA,Consumer Discretionary,TVRB.PA,EQ,
-Alan Allman Associates SA,Industrials,AAA.PA,EQ,
-Vaziva SA,Technology,ALVAZ.PA,EQ,
-Casino Guichard-Perrachon SA,Consumer Discretionary,CO.PA,EQ,
-Lacroix Group SA,Technology,LACR.PA,EQ,
-SergeFerrari Group SA,Industrials,SEFER.PA,EQ,
-Eurofins-Cerep SA,Industrials,ALECR.PA,EQ,
-Les Docks des Petroles d'Ambes SA,Utilities,DPAM.PA,EQ,
-Hoteles Bestprice SA,Consumer Discretionary,MLHBP.PA,EQ,
-Ekinops SA,Technology,EKI.PA,EQ,
-Adocia SA,Health Care,ADOC.PA,EQ,
-Actia Group,Industrials,ALATI.PA,EQ,
-Abeo SA,Consumer Discretionary,ABEO.PA,EQ,
-OSE Immunotherapeutics SA,Health Care,OSE.PA,EQ,
-Gascogne,Materials,ALBI.PA,EQ,
-ST Dupont SA,Industrials,DPT.PA,EQ,
-Solutions 30 SE,Technology,S30.PA,EQ,
-Delfingen,Industrials,ALDEL.PA,EQ,
-WE.CONNECT SA,Technology,ALWEC.PA,EQ,
-Pullup Entertainment,Technology,ALPUL.PA,EQ,
-MGI Digital Graphic Technology,Industrials,ALMDG.PA,EQ,
-Groupe LDLC SA,Consumer Discretionary,ALLDL.PA,EQ,
-Catana Group SA,Industrials,ALCAT.PA,EQ,
-Energy Solar Tech S.A.,Technology,ALETC.PA,EQ,
-Omer - Decugis & Cie SA,Materials,ALODC.PA,EQ,
-Bilendi SA,Technology,ALBLD.PA,EQ,
-Moulinvest SA,Materials,ALMOU.PA,EQ,
-Coheris SA,Technology,COH.PA,EQ,
-HighCo SA,Industrials,HCO.PA,EQ,
-AdVini SA,Consumer Staples,ALAVI.PA,EQ,
-Guillemot Corp. SA,Consumer Discretionary,GUI.PA,EQ,
-Hoffmann Green Cement Technologies SA,Materials,ALHGR.PA,EQ,
-Saint Jean Groupe SA,Consumer Staples,SABE.PA,EQ,
-Amoeba SA,Consumer Staples,ALMIB.PA,EQ,
-Vitura SA,Financials,VTR.PA,EQ,
-Making Science Group SA,Industrials,ALMKS.PA,EQ,
-Groupe Carnivor SA,Consumer Staples,MLGRC.PA,EQ,
-Solocal Group,Industrials,LOCAL.PA,EQ,
-Haulotte Group SA,Industrials,PIG.PA,EQ,
-AB Science SA,Health Care,AB.PA,EQ,
-Lexibook Linguistic Electronic System SA,Technology,ALLEX.PA,EQ,
-Atari SA,Technology,ALATA.PA,EQ,
-Facephi Biometria SA,Technology,ALPHI.PA,EQ,
-Fiducial Office Solutions SA,Consumer Discretionary,SACI.PA,EQ,
-Andino Inversiones Global SA,Industrials,MLAIG.PA,EQ,
-Klea Holding,Health Care,ALKLH.PA,EQ,
-Hopscotch Groupe SA,Industrials,ALHOP.PA,EQ,
-ICAPE HOLDING,Industrials,ALICA.PA,EQ,
-Plastiques du Val de Loire SA,Materials,PVL.PA,EQ,
-Fermentalg SA,Consumer Staples,ALGAE.PA,EQ,
-Rapid Nutrition PLC,Health Care,ALRPD.PA,EQ,
-HERIGE SA,Industrials,ALHRG.PA,EQ,
-Theraclion SA,Health Care,ALTHE.PA,EQ,
-MaaT Pharma,Health Care,MAAT.PA,EQ,
-Hydrogene de France,Utilities,HDF.PA,EQ,
-S.M.A.I.O S.A.,Health Care,ALSMA.PA,EQ,
-Poujoulat SA,Industrials,ALPJT.PA,EQ,
-Aurea SA,Industrials,AURE.PA,EQ,
-Vantiva SA,Technology,VANTI.PA,EQ,
-MEMSCAP SA,Technology,MEMS.PA,EQ,
-ZCCM Investments Holdings PLC Class B,Materials,MLZAM.PA,EQ,
-EuropaCorp SA,Consumer Discretionary,ALECP.PA,EQ,
-Poulaillon SA,Consumer Staples,ALPOU.PA,EQ,
-THX Pharma,Health Care,ALTHX.PA,EQ,
-ABL Diagnostics SA,Financials,ABLD.PA,EQ,
-Hotelim SA,Consumer Discretionary,MLHOT.PA,EQ,
-TBSO,Financials,TBSO.PA,EQ,
-Claranova SE,Technology,ALCLA.PA,EQ,
-Mr Bricolage SA,Consumer Discretionary,ALMRB.PA,EQ,
-Enogia SAS,Industrials,ALENO.PA,EQ,
-Prodways Group SA,Industrials,ALPWG.PA,EQ,
-Haffner Energy SAS,Utilities,ALHAF.PA,EQ,
-MEXEDIA S.P.A.,Technology,ALMEX.PA,EQ,
-Paref SA,Financials,PAR.PA,EQ,
-Jacques Bogart SA,Consumer Staples,JBOG.PA,EQ,
-Acanthe Developpement SA,Financials,ACAN.PA,EQ,
-Grande Armee Investissement,Industrials,MLGAI.PA,EQ,
-Prologue SA,Industrials,ALPRG.PA,EQ,
-Hipay Group SA,Industrials,ALHYP.PA,EQ,
-Hydrogen Refueling Solutions SA,Industrials,ALHRS.PA,EQ,
-Nicox SA,Health Care,ALCOX.PA,EQ,
-Drone Volt SA,Technology,ALDRV.PA,EQ,
-Rebirth S.P.A.,Financials,ALREB.PA,EQ,
-Odyssee Technologies,Financials,ALODY.PA,EQ,
-Uniti SA,Financials,ALUNT.PA,EQ,
-Novacyt S.A.,Health Care,ALNOV.PA,EQ,
-DNXCORP SE,Technology,ALDNX.PA,EQ,
-Mauna Kea Technologies SA Class O,Health Care,ALMKT.PA,EQ,
-Diagnostic Medical Systems,Health Care,ALDMS.PA,EQ,
-FINANCIERE MARJOS SA,Financials,FINM.PA,EQ,
-Speed Rabbit Pizza SA,Consumer Discretionary,MLSRP.PA,EQ,
-Forsee Power SA,Industrials,ALFOR.PA,EQ,
-genOway SA,Health Care,ALGEN.PA,EQ,
-Mint SA,Communication Services,ALMIN.PA,EQ,
-Broadpeak SA,Technology,ALBPK.PA,EQ,
-Audacia SA,Financials,ALAUD.PA,EQ,
-Graines Voltz SA,Industrials,GRVO.PA,EQ,
-ISPD Network,Industrials,ALISP.PA,EQ,
-LightOn S.A.,Technology,ALTAI.PA,EQ,
-Touax SA,Financials,ALTOU.PA,EQ,
-Artea SA,Financials,ARTE.PA,EQ,
+TotalEnergies EP Gabon Société Anonyme,Energy,EC.PA,EQ,
+Montepino Logística  SOCIMI  S.A.,Real Estate,MLMTP.PA,EQ,
+ZCCM Investments Holdings Plc,Materials,MLZAM.PA,EQ,
+YOUNITED FINANCIAL,Financials,YOUNI.PA,EQ,
+Embention Sistemas Inteligentes  S.A.,Technology,MLUAV.PA,EQ,
+Firstcaution SA,Financials,MLFIR.PA,EQ,
+Racing Force S.P.A.,Consumer Discretionary,ALRFG.PA,EQ,
+La Forestière Equatoriale SA,Industrials,FORE.PA,EQ,
+Téléverbier SA,Industrials,TVRB.PA,EQ,
+Making Science Group  S.A.,Communication Services,ALMKS.PA,EQ,
+ENERGY SOLAR TECH,Utilities,ALETC.PA,EQ,
+Facephi Biometria  S.A.,Technology,ALPHI.PA,EQ,
+KALEON,Consumer Discretionary,ALKLN.PA,EQ,
+Plastiques du Val de Loire,Consumer Discretionary,PVL.PA,EQ,
+Mexedia Società Per Azioni S.B.,Communication Services,ALMEX.PA,EQ,
+INMOLECULE NANOTECH  S.A.,Health Care,MLINA.PA,EQ,
+ISPD Network  S.A.,Communication Services,ALISP.PA,EQ,
 Hamilton Global Opportunities PLC,Financials,ALHGO.PA,EQ,
-Hunyvers,Financials,ALHUN.PA,EQ,
-Compagnie de Chemins de Fer Departementaux,Industrials,MLCFD.PA,EQ,
-Implanet SA,Health Care,ALIMP.PA,EQ,
-Netgem SA,Technology,ALNTG.PA,EQ,
-IT Link SA,Technology,ALITL.PA,EQ,
-NSC Groupe SA,Industrials,ALNSC.PA,EQ,
-Media 6 SA,Industrials,EDI.PA,EQ,
-EdiliziAcrobatica SpA,Consumer Discretionary,ALEAC.PA,EQ,
-DLSI SA,Industrials,ALDLS.PA,EQ,
-Virtualware 2007 SA,Technology,ALVIR.PA,EQ,
-Xilam Animation SA,Consumer Discretionary,ALXIL.PA,EQ,
-Damartex SA,Consumer Staples,ALDAR.PA,EQ,
-Cogra 48 SA,Materials,ALCOG.PA,EQ,
-Ikonisys SA,Health Care,ALIKO.PA,EQ,
-Sapmer SA,Materials,ALMER.PA,EQ,
-Octopus Biosafety SA,Industrials,MLOCT.PA,EQ,
-Valbiotis SA,Health Care,ALVAL.PA,EQ,
-Crypto Blockchain Industries SA,Technology,ALCBI.PA,EQ,
-Mon Courtier Energie Groupe,Industrials,ALMCE.PA,EQ,
-Egide SA,Technology,ALGID.PA,EQ,
-U10 Corp SA,Industrials,ALU10.PA,EQ,
-Verimatrix SA,Technology,VMX.PA,EQ,
-HiTechPros SA,Technology,ALHIT.PA,EQ,
-Innovative-RFK SpA,Financials,MLIRF.PA,EQ,
-Tonner Drones S.A.,Technology,ALTD.PA,EQ,
-Watera,Industrials,ALWTR.PA,EQ,
-Logic Instrument SA Class A,Technology,ALLOG.PA,EQ,
-Gensight Biologics SA,Health Care,SIGHT.PA,EQ,
-Nacon SASU,Industrials,NACON.PA,EQ,
-Bio-UV Group SA,Industrials,ALTUV.PA,EQ,
-Passat SA,Industrials,ALPAS.PA,EQ,
-Trilogiq SA,Materials,ALTRI.PA,EQ,
-Novatech Industries SA,Technology,MLNOV.PA,EQ,
-Fill Up Media S.A.,Industrials,ALFUM.PA,EQ,
-Blue Shark Power System SA,Industrials,MLBSP.PA,EQ,
-FIPP SA,Industrials,FIPP.PA,EQ,
-Gold by Gold SA,Materials,ALGLD.PA,EQ,
-Charwood Energy S.A,Utilities,ALCWE.PA,EQ,
-Artmarket.com SA,Consumer Discretionary,PRC.PA,EQ,
-RocTool SA,Industrials,ALROC.PA,EQ,
-Arcure SA,Technology,ALCUR.PA,EQ,
-Maisons du Monde SA,Consumer Discretionary,MDM.PA,EQ,
-LleidaNetworks Serveis Telematics SA,Communication Services,ALLLN.PA,EQ,
-Soditech SA,Industrials,ALSEC.PA,EQ,
-Biosynex SA,Health Care,ALBIO.PA,EQ,
-Advicenne SA,Health Care,ALDVI.PA,EQ,
-Vinpai S.A.,Health Care,ALVIN.PA,EQ,
-Aelis Farma SA,Health Care,AELIS.PA,EQ,
-Orege SA,Industrials,OREGE.PA,EQ,
-MACOMPTA.FR S.A.,Technology,ALCPA.PA,EQ,
-Signaux Girod SA,Industrials,ALGIR.PA,EQ,
-Stradim-Espace Finances SA,Financials,ALSAS.PA,EQ,
-Nextedia SA,Industrials,ALNXT.PA,EQ,
-Emova Group SA,Consumer Discretionary,ALEMV.PA,EQ,
-KKO International SA,Materials,ALKKO.PA,EQ,
-Hoteliere & Immobiliere de Nice SA,Consumer Discretionary,MLHIN.PA,EQ,
-Laboratoires Euromedis,Industrials,ALEMG.PA,EQ,
-Aton,Health Care,ALTAO.PA,EQ,
-HF Company,Technology,ALHF.PA,EQ,
-Obiz SA,Technology,ALBIZ.PA,EQ,
-Agripower France SASU,Utilities,ALAGP.PA,EQ,
-Hotels de Paris,Consumer Discretionary,HDP.PA,EQ,
-Electricite et Eaux de Madagascar SA,Financials,EEM.PA,EQ,
-Pet service Holding N.V,Materials,ALPET.PA,EQ,
-Societe Francaise de Casinos SA,Consumer Discretionary,SFCA.PA,EQ,
-BOA Concept SA,Industrials,ALBOA.PA,EQ,
-Witbe SA,Technology,ALWIT.PA,EQ,
-ECOMIAM SA,Consumer Discretionary,ALECO.PA,EQ,
-MG International,Technology,ALMGI.PA,EQ,
-Miliboo SA,Consumer Discretionary,ALMLB.PA,EQ,
-Rougier SA,Health Care,ALRGR.PA,EQ,
-Intrasense SA,Technology,ALINS.PA,EQ,
-NFL Biosciences SA,Health Care,ALNFL.PA,EQ,
-Poxel SA,Health Care,POXEL.PA,EQ,
-Archos SA,Technology,ALJXR.PA,EQ,
-Prismaflex International SA,Industrials,ALPRI.PA,EQ,
+VIRTUALWARE,Technology,ALVIR.PA,EQ,
+LleidaNetworks Serveis Telemàtics  S.A.,Communication Services,ALLLN.PA,EQ,
+SA Energisme,Technology,ALNRG.PA,EQ,
+CALIBRE,Industrials,ALIBR.PA,EQ,
+Pet Service Holding N.V.,Consumer Discretionary,ALPET.PA,EQ,
 Photonike Capital SA,Financials,MLPHO.PA,EQ,
-Courbet Heritage,Financials,MLCOU.PA,EQ,
-Innelec Multimedia SA,Industrials,ALINN.PA,EQ,
-AgroGeneration SA,Materials,ALAGR.PA,EQ,
-i2S SA,Technology,ALI2S.PA,EQ,
-Grolleau,Technology,ALGRO.PA,EQ,
-TXCom SA,Technology,ALTXC.PA,EQ,
-Cofidur SA,Technology,ALCOF.PA,EQ,
-Tractial,Industrials,ALTRA.PA,EQ,
-Qwamplify SA,Industrials,ALQWA.PA,EQ,
-WINAMP GROUP,Technology,ALWIN.PA,EQ,
-Vogo SA,Technology,ALVGO.PA,EQ,
-Les Constructeurs du Bois SA,Industrials,MLLCB.PA,EQ,
-The Azur Selection SA,Financials,MLAZR.PA,EQ,
-Predilife SA,Technology,ALPRE.PA,EQ,
-AdUX SA,Industrials,ALDUX.PA,EQ,
-Plasticos Compuestos SA,Industrials,ALKOM.PA,EQ,
-Kumulus Vape SA,Consumer Discretionary,ALVAP.PA,EQ,
-ENENSYS Technologies SA,Technology,ALNN6.PA,EQ,
-EuroLand Corporate SA,Financials,ALERO.PA,EQ,
-Cibox Inter@ctive SA,Technology,ALCBX.PA,EQ,
-Kerlink SA,Technology,ALKLK.PA,EQ,
-SpineGuard,Health Care,ALSGD.PA,EQ,
-Finaxo Environnement,Industrials,MLFXO.PA,EQ,
-Courtois SA,Financials,COUR.PA,EQ,
-Onlineformapro SA,Technology,MLONL.PA,EQ,
-E-Pango,Utilities,ALAGO.PA,EQ,
-Winfarm SA,Industrials,ALWF.PA,EQ,
-UPERGY SA,Industrials,ALUPG.PA,EQ,
-Union Technologies Informatique Group SA,Technology,FPG.PA,EQ,
-Financiere Hoche Bains-Les-Bains,Financials,MLHBB.PA,EQ,
-Groupe Tera SA,Technology,ALGTR.PA,EQ,
-ODIOT S.A.,Industrials,MLODT.PA,EQ,
-Bluelinea SA,Technology,ALBLU.PA,EQ,
+Plásticos Compuestos  S.A.,Materials,ALKOM.PA,EQ,
+WINAMP GROUP,Communication Services,ALWIN.PA,EQ,
 TME Pharma N.V.,Health Care,ALTME.PA,EQ,
-PAULIC Meunerie SA,Materials,ALPAU.PA,EQ,
-Avenir Telecom SA,Technology,AVT.PA,EQ,
-Plant Advanced Technologies SA,Materials,ALPAT.PA,EQ,
-Groupe Airwell SAS,Industrials,ALAIR.PA,EQ,
-LARGO SA,Utilities,ALLGO.PA,EQ,
-Lombard & Medot,Consumer Staples,MLCAC.PA,EQ,
-Neolife SAS,Industrials,ALNLF.PA,EQ,
-Augros Cosmetics Packaging SA,Materials,AUGR.PA,EQ,
-Bigben Interactive SA,Technology,BIG.PA,EQ,
-EO2,Materials,ALEO2.PA,EQ,
-Alliance Developpement Capital SIIC,Financials,ALDV.PA,EQ,
-Don't Nod Entertainment SA,Technology,ALDNE.PA,EQ,
-Bernard Loiseau SA,Consumer Discretionary,ALDBL.PA,EQ,
-Oncodesign Precision Medicine S.A.,Health Care,ALOPM.PA,EQ,
-Ecoslops SA,Industrials,ALESA.PA,EQ,
-Encres Dubuit SA,Materials,ALDUB.PA,EQ,
-Altheora SA,Materials,ALORA.PA,EQ,
-Eaux de Royan SA,Utilities,MLEDR.PA,EQ,
-UV GERMI Societe Anonyme,Industrials,ALUVI.PA,EQ,
-Aquila SA,Industrials,ALAQU.PA,EQ,
-EDUFORM'ACTION,Financials,MLEFA.PA,EQ,
-Parx Materials NV,Industrials,MLPRX.PA,EQ,
-AMA Corporation Plc,Technology,ALAMA.PA,EQ,
-Proactis SA,Technology,PROAC.PA,EQ,
-Florentaise SA,Materials,ALFLO.PA,EQ,
-Mare Nostrum SA (FR),Industrials,ALMAR.PA,EQ,
-Colipays reunion,Industrials,MLCLP.PA,EQ,
-One Experience,Consumer Discretionary,ALEXP.PA,EQ,
-Pacte Novation,Technology,MLPAC.PA,EQ,
-Locasystem International SA,Technology,MLLOI.PA,EQ,
-Spineway SA,Health Care,ALSPW.PA,EQ,
-Nicolas Miguet,Consumer Discretionary,MLNMA.PA,EQ,
-Munic SA,Technology,ALMUN.PA,EQ,
-Coil Naamloze vennootschap,Materials,ALCOI.PA,EQ,
-WEACCESS GROUP SA,Communication Services,MLWEA.PA,EQ,
-Spartoo SAS,Consumer Discretionary,ALSPT.PA,EQ,
-Hopening SA,Industrials,MLHPE.PA,EQ,
-SOCIETE DE CONSEIL EN EXTERNALISATION ET EN MARKETING INTERNET,Industrials,MLCMI.PA,EQ,
-Adeunis RF SA,Technology,ALARF.PA,EQ,
-Groupe JAJ,Consumer Staples,GJAJ.PA,EQ,
-NR21 SA,Financials,NR21.PA,EQ,
-Damaris SA,Technology,MLDAM.PA,EQ,
-Body One SA,Consumer Staples,MLONE.PA,EQ,
-La Chausseria SA,Consumer Staples,CHSR.PA,EQ,
-Realites SCA,Financials,ALREA.PA,EQ,
-Transition Evergreen,Consumer Discretionary,EGR.PA,EQ,
-ETHERO,Technology,ALENT.PA,EQ,
-Imprimerie Chirat SA,Consumer Discretionary,MLIMP.PA,EQ,
-Franck Deville,Consumer Staples,MLFDV.PA,EQ,
-Groupe OKwind SA,Utilities,ALOKW.PA,EQ,
-Acteos SA,Technology,EOS.PA,EQ,
-Ordissimo SA,Technology,ALORD.PA,EQ,
-Galeo Concept,Consumer Discretionary,MLGAL.PA,EQ,
-Devernois SA,Consumer Staples,ALDEV.PA,EQ,
-Immersion SA,Technology,ALIMR.PA,EQ,
-Invibes Advertising NV,Industrials,ALINV.PA,EQ,
-France Tourisme Immobilier SA,Consumer Discretionary,MLFTI.PA,EQ,
-L'Agence Automobiliere,Consumer Discretionary,MLAA.PA,EQ,
-bonyf NV,Health Care,MLBON.PA,EQ,
-Dolfines SA,Industrials,ALDOL.PA,EQ,
-GECI International SA,Technology,ALGEC.PA,EQ,
-Biophytis SA,Health Care,ALBPS.PA,EQ,
-Netmedia Group,Industrials,ALNMG.PA,EQ,
-Klarsen SA,Industrials,ALKLA.PA,EQ,
-Azorean-Aquatic Technologies SA,Technology,MLAAT.PA,EQ,
-Lepermislibre SA,Technology,ALLPL.PA,EQ,
-IntegraGen SA,Health Care,ALINT.PA,EQ,
-Sirius Media,Industrials,ALSRS.PA,EQ,
-Douaisienne de Basse Tension SAS,Industrials,ALDBT.PA,EQ,
-Lucibel S.A.,Technology,ALUCI.PA,EQ,
-Weya SA,Industrials,MLWEY.PA,EQ,
-Imalliance SA,Industrials,MLIML.PA,EQ,
-Gentlemen's Equity SA,Industrials,MLGEQ.PA,EQ,
-Smalto,Consumer Staples,MLSML.PA,EQ,
-MyHotelMatch S.A.,Financials,MHM.PA,EQ,
-Boostheat SAS,Industrials,ALBOO.PA,EQ,
-Safe SA,Health Care,ALSAF.PA,EQ,
-Adomos SA,Financials,ALADO.PA,EQ,
-PREATONI Group,Consumer Discretionary,ALPG.PA,EQ,
-Kaleon S.p.A.,Consumer Discretionary,ALKLN.PA,EQ,
-Rising Stone SA,Financials,ALRIS.PA,EQ,
-La Savonnerie De Nyons SA,Consumer Staples,MLSDN.PA,EQ,
-Inmolecule Nanotech SA,Health Care,MLINA.PA,EQ,
-IEVA Group,Consumer Staples,ALIEV.PA,EQ,
-Mutter Ventures SA,Technology,MLMUT.PA,EQ,
-Compagnie Financiere de l'Ouest Africain,Financials,FOAF.PA,EQ,
-Methanor SCA,Financials,ALMET.PA,EQ,
-Younited Financial S.A.,Financials,YOUNI.PA,EQ,
-Streit Mecanique SA,Industrials,MLSTR.PA,EQ,
-Umalis Group,Industrials,MLUMG.PA,EQ,
-ALTAMIR Act porteur,Industrials,LTA.PA,EQ,
+Media Lab S.p.A.,Health Care,MLLAB.PA,EQ,
+The Azur Selection S.A.,Consumer Discretionary,MLAZR.PA,EQ,
+Coil S.A./N.V.,Materials,ALCOI.PA,EQ,
+AMA Corporation Plc,Health Care,ALAMA.PA,EQ,
+Parx Materials N.V.,Materials,MLPRX.PA,EQ,
+Amatheon Agri Holding N.V.,Consumer Staples,MLAAH.PA,EQ,
+Rapid Nutrition PLC,Consumer Staples,ALRPD.PA,EQ,
+Hopium SA,Consumer Discretionary,ALHPI.PA,EQ,
+Invibes Advertising N.V.,Communication Services,ALINV.PA,EQ,
+Europlasma S.A.,Industrials,ALEUP.PA,EQ,
+Metavisio,Technology,ALTHO.PA,EQ,
+Gentlemen's Equity S.A.,Financials,MLGEQ.PA,EQ,
+Mastrad Société Anonyme,Consumer Staples,ALMAS.PA,EQ,
+Toosla Société Anonyme,Industrials,ALTOO.PA,EQ,
+Acheter-Louer.Fr SA,Communication Services,ALALO.PA,EQ,
+Neovacs S.A.,Health Care,ALNEV.PA,EQ,

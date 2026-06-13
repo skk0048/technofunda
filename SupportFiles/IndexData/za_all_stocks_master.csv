@@ -1,249 +1,195 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-BHP Group Ltd,Materials,BHG.JO,EQ,
-Anheuser-Busch InBev SA/NV,Consumer Staples,ANH.JO,EQ,
-British American Tobacco p.l.c.,Consumer Staples,BTI.JO,EQ,
-Compagnie Financiere Richemont SA,Consumer Discretionary,CFR.JO,EQ,
-Prosus N.V. Class N,Technology,PRX.JO,EQ,
-Glencore plc,Industrials,GLN.JO,EQ,
-Anglo American plc,Materials,AGL.JO,EQ,
-Anglogold Ashanti PLC,Materials,ANG.JO,EQ,
-Naspers Limited Class N,Technology,NPN.JO,EQ,
-Gold Fields Limited,Materials,GFI.JO,EQ,
-FirstRand Limited,Financials,FSR.JO,EQ,
-Capitec Bank Holdings Limited,Financials,CPI.JO,EQ,
-Standard Bank Group Limited,Financials,SBK.JO,EQ,
-MTN Group Limited,Communication Services,MTN.JO,EQ,
-Valterra Platinum Limited,Materials,VAL.JO,EQ,
-Vodacom Group Limited,Communication Services,VOD.JO,EQ,
-Investec Limited Non-Red.Non-Cum.Non-Ptg.Prf.Shs,Financials,INPR.JO,EQ,
-Investec Limited,Financials,INL.JO,EQ,
-South32 Ltd.,Materials,S32.JO,EQ,
-Absa Group Limited,Financials,ABG.JO,EQ,
-Impala Platinum Holdings Limited,Materials,IMP.JO,EQ,
-Discovery Limited,Financials,DSY.JO,EQ,
-Sanlam Limited,Financials,SLM.JO,EQ,
-Harmony Gold Mining Co. Ltd.,Materials,HAR.JO,EQ,
-Shoprite Holdings Limited,Consumer Discretionary,SHP.JO,EQ,
-Sasol Limited,Materials,SOL.JO,EQ,
-BEE - Sasol Limited,Materials,SOLBE1.JO,EQ,
-Bid Corporation Limited,Consumer Discretionary,BID.JO,EQ,
-Sibanye Stillwater Limited,Materials,SSW.JO,EQ,
-Nedbank Group,Financials,NED.JO,EQ,
-Investec plc,Financials,INP.JO,EQ,
-Northam Platinum Holdings Limited,Materials,NPH.JO,EQ,
-OUTsurance Group Limited,Financials,OUT.JO,EQ,
-Remgro Limited,Financials,REM.JO,EQ,
-NEPI Rockcastle N.V.,Financials,NRP.JO,EQ,
-Kumba Iron Ore Limited,Materials,KIO.JO,EQ,
-Ninety One Plc,Financials,N91.JO,EQ,
-Ninety One Ltd.,Financials,NY1.JO,EQ,
-Reinet Investments S.C.A.,Financials,RNI.JO,EQ,
-Pepkor Holdings Ltd.,Consumer Discretionary,PPH.JO,EQ,
-Bidvest Group Limited,Consumer Discretionary,BVT.JO,EQ,
-Mondi plc,Materials,MNP.JO,EQ,
-Aspen Pharmacare Holdings Limited,Health Care,APN.JO,EQ,
-Canal+ SA,Consumer Discretionary,CNP.JO,EQ,
-Old Mutual Ltd.,Financials,OMU.JO,EQ,
-Shaftesbury Capital PLC,Financials,SHC.JO,EQ,
-Quilter Plc,Financials,QLT.JO,EQ,
-Clicks Group Limited,Consumer Discretionary,CLS.JO,EQ,
-Growthpoint Properties Limited,Financials,GRT.JO,EQ,
-Exxaro Resources Limited,Energy,EXX.JO,EQ,
-Primary Health Properties PLC,Financials,PHP.JO,EQ,
-Pan African Resources PLC,Materials,PAN.JO,EQ,
-Momentum Group Limited,Financials,MTM.JO,EQ,
-Mr Price Group Limited,Consumer Discretionary,MRP.JO,EQ,
-Woolworths Holdings Limited,Consumer Discretionary,WHL.JO,EQ,
-Tiger Brands Limited,Consumer Staples,TBS.JO,EQ,
-Santam Limited,Financials,SNT.JO,EQ,
-Redefine Properties Limited,Financials,RDF.JO,EQ,
-Hammerson plc,Financials,HMN.JO,EQ,
-Boxer Retail Limited,Consumer Discretionary,BOX.JO,EQ,
-PSG Financial Services Limited,Financials,KST.JO,EQ,
-African Rainbow Minerals Limited,Materials,ARI.JO,EQ,
-Vukile Property Fund Limited,Financials,VKE.JO,EQ,
-DRDGOLD Ltd.,Materials,DRD.JO,EQ,
-Sirius Real Estate Limited,Financials,SRE.JO,EQ,
-AVI Limited Class Y,Consumer Staples,AVI.JO,EQ,
-Telkom SA SOC Ltd.,Communication Services,TKG.JO,EQ,
-Premier Group Limited,Industrials,PMR.JO,EQ,
-Dis-Chem Pharmacies Limited,Consumer Discretionary,DCP.JO,EQ,
-Resilient REIT Limited,Financials,RES.JO,EQ,
-Fortress Real Estate Investments Limited Class B,Financials,FFB.JO,EQ,
-Karooooo Ltd.,Technology,KRO.JO,EQ,
-ADvTECH Limited,Industrials,ADH.JO,EQ,
-Supermarket Income REIT Plc,Financials,SRI.JO,EQ,
-Hyprop Investments Limited,Financials,HYP.JO,EQ,
-Thungela Resources Limited,Utilities,TGA.JO,EQ,
-Alphamin Resources Corp.,Materials,APH.JO,EQ,
-Pick N Pay Stores Limited,Consumer Discretionary,PIK.JO,EQ,
-Netcare Limited,Health Care,NTC.JO,EQ,
-Bytes Technology Group Plc,Technology,BYI.JO,EQ,
-Truworths International Limited,Consumer Discretionary,TRU.JO,EQ,
-Foschini Group Limited,Consumer Discretionary,TFG.JO,EQ,
-Datatec Limited,Technology,DTC.JO,EQ,
-Grindrod Ltd Cum.Non-Red.Non-Ptg.Non-Cnv.Pref.Shs,Industrials,GNDP.JO,EQ,
-Grindrod Limited,Industrials,GND.JO,EQ,
-Motus Holdings Limited,Industrials,MTH.JO,EQ,
-Coronation Fund Managers Limited,Financials,CML.JO,EQ,
-Omnia Holdings Limited,Materials,OMN.JO,EQ,
-Fairvest Limited Class A,Financials,FTA.JO,EQ,
-Fairvest Limited Class B,Financials,FTB.JO,EQ,
-Greencoat Renewables Plc,Industrials,GCT.JO,EQ,
-Lighthouse Properties Plc,Financials,LTE.JO,EQ,
-Life Healthcare Group Holdings Limited,Health Care,LHC.JO,EQ,
-MAS P.L.C.,Financials,MSP.JO,EQ,
-We Buy Cars Holdings Ltd.,Consumer Discretionary,WBC.JO,EQ,
-Equites Property Fund Ltd ZAR,Financials,EQU.JO,EQ,
-ASP Isotopes Inc.,Health Care,ISO.JO,EQ,
-Hosken Consolidated Investments Limited,Consumer Discretionary,HCI.JO,EQ,
-Southern Sun Limited,Consumer Discretionary,SSU.JO,EQ,
-JSE Limited,Financials,JSE.JO,EQ,
-Sun International Limited,Consumer Discretionary,SUI.JO,EQ,
-Attacq Limited,Financials,ATT.JO,EQ,
-AECI Ltd,Materials,AFE.JO,EQ,
-Altron Limited Class A,Technology,AEL.JO,EQ,
-Wilson Bayly Holmes-Ovcon Limited,Industrials,WBO.JO,EQ,
-PPC Limited,Materials,PPC.JO,EQ,
-Italtile Limited,Consumer Discretionary,ITE.JO,EQ,
-Spar Group Limited,Industrials,SPP.JO,EQ,
-Stadio Holdings Pty Ltd.,Industrials,SDO.JO,EQ,
-Alexander Forbes Group Holdings Limited,Financials,AFH.JO,EQ,
-SA Corporate Real Estate Ltd.,Financials,SAC.JO,EQ,
-Reunert Limited,Consumer Discretionary,RLO.JO,EQ,
-Raubex Group Limited,Industrials,RBX.JO,EQ,
-Astral Foods Limited,Materials,ARL.JO,EQ,
-Clientele Limited,Industrials,CLI.JO,EQ,
-Brait PLC,Financials,BAT.JO,EQ,
-Stor-Age Property REIT Ltd.,Financials,SSS.JO,EQ,
-PowerFleet Inc.,Technology,PWR.JO,EQ,
-Tharisa Plc,Materials,THA.JO,EQ,
-Oando PLC,Energy,OAO.JO,EQ,
-Burstone Group Limited,Financials,BTN.JO,EQ,
-RCL Foods Limited,Consumer Staples,RCL.JO,EQ,
-Blu Label Unlimited Group Ltd,Industrials,BLU.JO,EQ,
-Sappi Limited,Materials,SAP.JO,EQ,
-Tsogo Sun Limited,Consumer Discretionary,TSG.JO,EQ,
-Dipula Properties Limited Class B,Financials,DIB.JO,EQ,
-Oceana Group Limited,Consumer Staples,OCE.JO,EQ,
-KAP Limited,Industrials,KAP.JO,EQ,
-Emira Property Fund Ltd.,Financials,EMI.JO,EQ,
-Lesaka Technologies Inc.,Technology,LSK.JO,EQ,
-CA Sales Holdings (Pty) Ltd.,Industrials,CAA.JO,EQ,
-Spear REIT Ltd.,Financials,SEA.JO,EQ,
-Weaver Fintech Ltd.,Financials,WVR.JO,EQ,
-Super Group Limited,Industrials,SPG.JO,EQ,
-Sabvest Capital Ltd.,Financials,SBP.JO,EQ,
-Hudaco Industries Limited,Industrials,HDC.JO,EQ,
-Famous Brands Limited,Consumer Discretionary,FBR.JO,EQ,
-Sygnia Ltd.,Financials,SYG.JO,EQ,
-Lewis Group Limited,Consumer Discretionary,LEW.JO,EQ,
-Afrimat Limited,Materials,AFT.JO,EQ,
-Octodec Investments Limited,Financials,OCT.JO,EQ,
-Caxton and CTP Publishers and Printers Limited,Consumer Discretionary,CAT.JO,EQ,
-Montauk Renewables Inc.,Materials,MKR.JO,EQ,
-Nampak Limited,Materials,NPK.JO,EQ,
-Acsion Limited,Financials,ACS.JO,EQ,
-Bell Equipment Limited,Industrials,BEL.JO,EQ,
-Collins Property Group Limited,Financials,CPP.JO,EQ,
-Spur Corporation Limited,Consumer Staples,SUR.JO,EQ,
-Choppies Enterprises Limited,Consumer Discretionary,CHP.JO,EQ,
-KAL Group Limited,Industrials,KAL.JO,EQ,
-Merafe Resources Limited,Materials,MRF.JO,EQ,
-Kore Potash PLC,Materials,KP2.JO,EQ,
-YeboYethu Limited,Financials,YYLBEE.JO,EQ,
-Mpact Limited,Materials,MPT.JO,EQ,
-Invicta Holdings Limited,Industrials,IVT.JO,EQ,
-MC Mining Ltd,Energy,MCZ.JO,EQ,
-Sea Harvest Group Ltd.,Materials,SHG.JO,EQ,
-Combined Motor Holdings Limited,Consumer Discretionary,CMH.JO,EQ,
-Zeda Limited,Financials,ZZD.JO,EQ,
-Master Drilling Group Ltd.,Materials,MDI.JO,EQ,
-iOCO Limited,Technology,IOC.JO,EQ,
-Libstar Holdings Ltd.,Consumer Staples,LBR.JO,EQ,
-Purple Group Limited,Financials,PPE.JO,EQ,
-Cashbuild Limited,Consumer Discretionary,CSB.JO,EQ,
-Araxi Limited,Financials,AXX.JO,EQ,
-Orion Minerals Limited,Materials,ORN.JO,EQ,
-City Lodge Hotels Limited,Consumer Discretionary,CLH.JO,EQ,
-Balwin Properties Ltd.,Industrials,BWN.JO,EQ,
-Jubilee Metals Group PLC,Materials,JBL.JO,EQ,
-Quantum Foods Holdings Ltd,Materials,QFH.JO,EQ,
-Argent Industrial Limited,Industrials,ART.JO,EQ,
-Southern Palladium Ltd.,Materials,SDL.JO,EQ,
-Frontier Transport Holdings Limited,Industrials,FTH.JO,EQ,
-Oasis Crescent Property Fund,Industrials,OAS.JO,EQ,
-Zeder Investments Limited,Financials,ZED.JO,EQ,
-Novus Holdings Ltd.,Industrials,NVS.JO,EQ,
-Schroder European Real Estate Investment Trust Plc,Financials,SCD.JO,EQ,
-Copper 360 Limited,Materials,CPR.JO,EQ,
-ArcelorMittal South Africa Limited,Materials,ACL.JO,EQ,
-Gemfields Group Limited,Materials,GML.JO,EQ,
-Universal Partners Ltd.,Financials,UPL.JO,EQ,
-Brimstone Investment Corporation Limited,Materials,BRT.JO,EQ,
-Brimstone Investment Corporation Limited Class N,Materials,BRN.JO,EQ,
-eMedia Holdings Limited,Industrials,EMH.JO,EQ,
-eMedia Holdings Limited Class N,Industrials,EMN.JO,EQ,
-Marshall Monteagle PLC,Industrials,MMP.JO,EQ,
-Texton Property Fund Limited,Financials,TEX.JO,EQ,
-Transpaco Limited,Materials,TPC.JO,EQ,
-Deneb Investments Limited,Industrials,DNB.JO,EQ,
-Stefanutti Stocks Holdings Limited,Industrials,SSK.JO,EQ,
-Accelerate Property Fund Ltd.,Financials,APF.JO,EQ,
-Santova Limited,Industrials,SNV.JO,EQ,
-Metair Investments Limited,Industrials,MTA.JO,EQ,
-York Timber Holdings Limited,Industrials,YRK.JO,EQ,
-Bowler Metcalf Limited,Industrials,BCF.JO,EQ,
-Mustek Limited,Technology,MST.JO,EQ,
-EPE Capital Partners Ltd. Class A,Financials,EPE.JO,EQ,
-AfroCentric Investment Corporation Limited,Consumer Discretionary,ACT.JO,EQ,
-Grand Parade Investments Limited,Consumer Discretionary,GPL.JO,EQ,
-Eastern Platinum Limited,Materials,EPS.JO,EQ,
-enX Group Limited,Industrials,ENX.JO,EQ,
-SAB Zenzele Kabili Holdings (RF) Limited,Industrials,SZK.JO,EQ,
-Nutun Limited,Industrials,NTU.JO,EQ,
-Adcorp Holdings Limited,Industrials,ADR.JO,EQ,
-RMB Holdings Limited,Financials,RMH.JO,EQ,
-PBT Holdings Limited,Technology,PBT.JO,EQ,
-Nu-World Holdings Limited,Industrials,NWL.JO,EQ,
-Hulamin Limited,Materials,HLM.JO,EQ,
-Aveng Limited,Industrials,AEG.JO,EQ,
-Finbond Group Limited,Financials,FGL.JO,EQ,
-Newpark REIT Ltd.,Financials,NRL.JO,EQ,
-Sephaku Holdings Limited,Materials,SEP.JO,EQ,
-Calgro M3 Holdings Limited,Financials,CGR.JO,EQ,
-Salungano Group Limited,Energy,SLG.JO,EQ,
-ISA Holdings Limited,Technology,ISA.JO,EQ,
-African Media Entertainment Limited,Consumer Discretionary,AME.JO,EQ,
-Rex Trueform Group Limited,Consumer Discretionary,RTO.JO,EQ,
-Rex Trueform Group Limited Class N,Consumer Discretionary,RTN.JO,EQ,
-Vunani Limited,Financials,VUN.JO,EQ,
-Goldrush Holdings Limited Non-Cum Pref Registered Shs,Financials,GRSP.JO,EQ,
-Crookes Brothers Limited,Materials,CKS.JO,EQ,
-Putprop Limited,Financials,PPR.JO,EQ,
-Trematon Capital Investments Limited,Financials,TMT.JO,EQ,
-Delta Property Fund Limited,Financials,DLT.JO,EQ,
-Primeserv Group Limited,Industrials,PMV.JO,EQ,
-Huge Group Limited,Communication Services,HUG.JO,EQ,
-Mahube Infrastructure Ltd.,Financials,MHB.JO,EQ,
-Insimbi Industrial Holdings Limited,Materials,ISB.JO,EQ,
-Nictus Ltd.,Industrials,NCS.JO,EQ,
-African and Overseas Enterprises Limited Class N,Consumer Discretionary,AON.JO,EQ,
-South Ocean Holdings Limited,Industrials,SOH.JO,EQ,
-Brikor Limited,Materials,BIK.JO,EQ,
-Trellidor Holdings Ltd.,Industrials,TRL.JO,EQ,
-RH Bophelo Ltd.,Financials,RHB.JO,EQ,
-Mantengu Limited,Financials,MTU.JO,EQ,
-Shuka Minerals PLC,Materials,SKA.JO,EQ,
-Randgold & Exploration Company Ltd,Materials,RNG.JO,EQ,
-Labat Africa Ltd,Industrials,LAB.JO,EQ,
-Numeral Limited,Health Care,XII.JO,EQ,
-Visual International Holdings Ltd.,Financials,VIS.JO,EQ,
-Europa Metals Limited,Materials,EUZ.JO,EQ,
-Africa Bitcoin Corporation Limited Pfd Registered Shs A,Technology,BACA.JO,EQ,
-Channel VAS Investments Limited,Financials,OPA.JO,EQ,
-Africa Bitcoin Corporation Limited,Technology,BAC.JO,EQ,
-Rainbow Chicken Limited,Materials,RBO.JO,EQ,
-Cilo Cybin Holdings Limited,Financials,CCC.JO,EQ,
-Cell C Holdings Ltd.,Industrials,CCD.JO,EQ,
-Afine Investments Limited,Financials,ANI.JO,EQ,
+Naspers,Technology,NPN.JO,EQ,ZAE000351946
+FirstRand,Financials,FSR.JO,EQ,ZAE000066304
+Gold Fields,Materials,GFI.JO,EQ,ZAE000018123
+Capitec Bank,Financials,CPI.JO,EQ,ZAE000035861
+Standard Bank Group,Financials,SBK.JO,EQ,ZAE000109815
+MTN Group,Communication Services,MTN.JO,EQ,ZAE000042164
+Valterra Platinum Limited,Materials,VAL.JO,EQ,ZAE000013181
+Vodacom Group,Communication Services,VOD.JO,EQ,ZAE000132577
+Investec,Financials,INL.JO,EQ,ZAE000081949
+Investec Limited Non-Red.Non-Cum.Non-Ptg.Prf.Shs,Financials,INPR.JO,EQ,ZAE000063814
+Absa Group,Financials,ABG.JO,EQ,ZAE000255915
+Discovery,Financials,DSY.JO,EQ,ZAE000022331
+Impala Platinum,Materials,IMP.JO,EQ,ZAE000083648
+Sanlam,Financials,SLM.JO,EQ,ZAE000070660
+Harmony Gold,Materials,HAR.JO,EQ,ZAE000015228
+Shoprite Holdings,Consumer Staples,SHP.JO,EQ,ZAE000012084
+Bid Corporation,Consumer Staples,BID.JO,EQ,ZAE000216537
+BEE - Sasol Limited,Materials,SOLBE1.JO,EQ,ZAE000151817
+Sasol,Energy,SOL.JO,EQ,ZAE000006896
+Nedbank Group,Financials,NED.JO,EQ,ZAE000004875
+OUTsurance Group Limited,Financials,OUT.JO,EQ,ZAE000314084
+Sibanye Stillwater,Materials,SSW.JO,EQ,ZAE000259701
+Remgro,Financials,REM.JO,EQ,ZAE000026480
+Northam Platinum,Materials,NPH.JO,EQ,ZAE000298253
+Kumba Iron Ore,Materials,KIO.JO,EQ,ZAE000085346
+Ninety One,Financials,NY1.JO,EQ,ZAE000282356
+Pepkor Holdings,Consumer Discretionary,PPH.JO,EQ,ZAE000259479
+Bidvest Group,Industrials,BVT.JO,EQ,ZAE000117321
+Aspen Pharmacare,Health Care,APN.JO,EQ,ZAE000066692
+Old Mutual,Financials,OMU.JO,EQ,ZAE000255360
+Growthpoint Properties,Real Estate,GRT.JO,EQ,ZAE000179420
+Clicks Group,Consumer Staples,CLS.JO,EQ,ZAE000134854
+Exxaro Resources,Energy,EXX.JO,EQ,ZAE000084992
+Momentum Metropolitan,Financials,MTM.JO,EQ,ZAE000269890
+Woolworths Holdings,Consumer Staples,WHL.JO,EQ,ZAE000063863
+Mr Price Group,Consumer Discretionary,MRP.JO,EQ,ZAE000200457
+Santam Limited,Financials,SNT.JO,EQ,ZAE000093779
+Tiger Brands,Consumer Staples,TBS.JO,EQ,ZAE000071080
+Redefine Properties,Real Estate,RDF.JO,EQ,ZAE000190252
+PSG Konsult,Financials,KST.JO,EQ,ZAE000191417
+Boxer Retail Limited,Consumer Discretionary,BOX.JO,EQ,ZAE000339891
+Vukile Property Fund,Real Estate,VKE.JO,EQ,ZAE000180865
+African Rainbow Minerals,Materials,ARI.JO,EQ,ZAE000054045
+DRDGold,Materials,DRD.JO,EQ,ZAE000058723
+AVI Limited,Consumer Staples,AVI.JO,EQ,ZAE000049433
+Telkom SA,Communication Services,TKG.JO,EQ,ZAE000044897
+Premier Group Limited,Industrials,PMR.JO,EQ,ZAE000320321
+Dis-Chem Pharmacies Limited,Consumer Discretionary,DCP.JO,EQ,ZAE000227831
+Resilient REIT,Real Estate,RES.JO,EQ,ZAE000209557
+Fortress Real Estate,Real Estate,FFB.JO,EQ,ZAE000248506
+ADvTECH Limited,Industrials,ADH.JO,EQ,ZAE000031035
+Hyprop Investments,Real Estate,HYP.JO,EQ,ZAE000190724
+Pick n Pay,Consumer Staples,PIK.JO,EQ,ZAE000005443
+Foschini Group,Consumer Discretionary,TFG.JO,EQ,ZAE000148466
+Netcare,Health Care,NTC.JO,EQ,ZAE000011953
+Truworths,Consumer Discretionary,TRU.JO,EQ,ZAE000028296
+Motus Holdings Limited,Industrials,MTH.JO,EQ,ZAE000261913
+Thungela Resources,Energy,TGA.JO,EQ,ZAE000296554
+Datatec,Technology,DTC.JO,EQ,ZAE000017745
+Omnia Holdings Limited,Materials,OMN.JO,EQ,ZAE000005153
+Grindrod,Industrials,GND.JO,EQ,ZAE000072328
+Grindrod Ltd Cum.Non-Red.Non-Ptg.Non-Cnv.Pref.Shs,Industrials,GNDP.JO,EQ,ZAE000071106
+Fairvest Limited Class A,Financials,FTA.JO,EQ,ZAE000304788
+Fairvest Limited Class B,Financials,FTB.JO,EQ,ZAE000304796
+Coronation Fund Managers,Financials,CML.JO,EQ,ZAE000047353
+Life Healthcare Group,Health Care,LHC.JO,EQ,ZAE000145892
+Equites Property Fund Ltd ZAR,Financials,EQU.JO,EQ,ZAE000188843
+We Buy Cars Holdings Ltd.,Consumer Discretionary,WBC.JO,EQ,ZAE000332789
+Hosken Consolidated Investments Limited,Consumer Discretionary,HCI.JO,EQ,ZAE000003257
+JSE Limited,Financials,JSE.JO,EQ,ZAE000079711
+Sun International Limited,Consumer Discretionary,SUI.JO,EQ,ZAE000097580
+Southern Sun Limited,Consumer Discretionary,SSU.JO,EQ,ZAE000272522
+PPC Limited,Materials,PPC.JO,EQ,ZAE000170049
+Attacq Limited,Financials,ATT.JO,EQ,ZAE000177218
+AECI Ltd,Materials,AFE.JO,EQ,ZAE000000220
+Altron Limited Class A,Technology,AEL.JO,EQ,ZAE000191342
+Wilson Bayly Holmes-Ovcon Limited,Industrials,WBO.JO,EQ,ZAE000009932
+Italtile,Consumer Discretionary,ITE.JO,EQ,ZAE000099123
+SPAR Group,Consumer Staples,SPP.JO,EQ,ZAE000058517
+Stadio Holdings Pty Ltd.,Industrials,SDO.JO,EQ,ZAE000248662
+SA Corporate Real Estate Ltd.,Financials,SAC.JO,EQ,ZAE000203238
+Reunert,Industrials,RLO.JO,EQ,ZAE000057428
+Raubex Group Limited,Industrials,RBX.JO,EQ,ZAE000093183
+Clientele Limited,Financials,CLI.JO,EQ,ZAE000117438
+Astral Foods,Consumer Staples,ARL.JO,EQ,ZAE000029757
+Stor-Age Property REIT Ltd.,Financials,SSS.JO,EQ,ZAE000208963
+Alexander Forbes Group Holdings Limited,Financials,AFH.JO,EQ,ZAE000191516
+Burstone Group Limited,Financials,BTN.JO,EQ,ZAE000180915
+Blu Label Unlimited Group Ltd,Industrials,BLU.JO,EQ,ZAE000109088
+Oceana Group Limited,Consumer Staples,OCE.JO,EQ,ZAE000025284
+Tsogo Sun Limited,Consumer Discretionary,TSG.JO,EQ,ZAE000273116
+Dipula Properties Limited Class B,Financials,DIB.JO,EQ,ZAE000203394
+RCL Foods,Consumer Staples,RCL.JO,EQ,ZAE000179438
+KAP Limited,Industrials,KAP.JO,EQ,ZAE000171963
+Emira Property Fund Ltd.,Financials,EMI.JO,EQ,ZAE000203063
+Sappi,Materials,SAP.JO,EQ,ZAE000006284
+Spear REIT Ltd.,Financials,SEA.JO,EQ,ZAE000228995
+CA Sales Holdings (Pty) Ltd.,Industrials,CAA.JO,EQ,ZAE400000036
+Super Group,Industrials,SPG.JO,EQ,ZAE000161832
+Exemplar REITail Ltd.,Financials,EXP.JO,EQ,ZAE000257549
+Sabvest Capital Ltd.,Financials,SBP.JO,EQ,ZAE000283511
+Famous Brands,Consumer Discretionary,FBR.JO,EQ,ZAE000053328
+Hudaco Industries Limited,Industrials,HDC.JO,EQ,ZAE000003273
+Sygnia Ltd.,Financials,SYG.JO,EQ,ZAE000208815
+Afrimat Limited,Materials,AFT.JO,EQ,ZAE000086302
+Lewis Group Limited,Consumer Discretionary,LEW.JO,EQ,ZAE000058236
+Octodec Investments Limited,Financials,OCT.JO,EQ,ZAE000192258
+Caxton and CTP Publishers and Printers Limited,Consumer Discretionary,CAT.JO,EQ,ZAE000043345
+Acsion Limited,Financials,ACS.JO,EQ,ZAE000198289
+Bell Equipment Limited,Industrials,BEL.JO,EQ,ZAE000028304
+Nampak Limited,Materials,NPK.JO,EQ,ZAE000322095
+Spur Corporation Limited,Consumer Staples,SUR.JO,EQ,ZAE000022653
+Collins Property Group Limited,Financials,CPP.JO,EQ,ZAE000152658
+KAL Group Limited,Industrials,KAL.JO,EQ,ZAE000244711
+Merafe Resources Limited,Materials,MRF.JO,EQ,ZAE000060000
+Mpact Limited,Materials,MPT.JO,EQ,ZAE000156501
+Invicta Holdings Limited,Industrials,IVT.JO,EQ,ZAE000029773
+YeboYethu Limited,Financials,YYLBEE.JO,EQ,ZAE000218483
+Sea Harvest Group Ltd.,Materials,SHG.JO,EQ,ZAE000240198
+Zeda Limited,Financials,ZZD.JO,EQ,ZAE000315768
+Combined Motor Holdings Limited,Consumer Discretionary,CMH.JO,EQ,ZAE000088050
+Master Drilling Group Ltd.,Materials,MDI.JO,EQ,ZAE000171948
+iOCO Limited,Technology,IOC.JO,EQ,ZAE000071072
+Cashbuild,Consumer Discretionary,CSB.JO,EQ,ZAE000028320
+Libstar Holdings Ltd.,Consumer Staples,LBR.JO,EQ,ZAE000250239
+Purple Group Limited,Financials,PPE.JO,EQ,ZAE000185526
+Araxi Limited,Financials,AXX.JO,EQ,ZAE000208245
+Quantum Foods Holdings Ltd,Materials,QFH.JO,EQ,ZAE000193686
+City Lodge Hotels Limited,Consumer Discretionary,CLH.JO,EQ,ZAE000117792
+Balwin Properties Ltd.,Industrials,BWN.JO,EQ,ZAE000209532
+Argent Industrial Limited,Industrials,ART.JO,EQ,ZAE000019188
+Oasis Crescent Property Fund,Financials,OAS.JO,EQ,ZAE000074332
+Frontier Transport Holdings Limited,Industrials,FTH.JO,EQ,ZAE000300505
+Novus Holdings Ltd.,Industrials,NVS.JO,EQ,ZAE000202149
+Zeder Investments Limited,Financials,ZED.JO,EQ,ZAE000088431
+ArcelorMittal South Africa Limited,Materials,ACL.JO,EQ,ZAE000134961
+eMedia Holdings Limited,Industrials,EMH.JO,EQ,ZAE000208898
+eMedia Holdings Limited Class N,Industrials,EMN.JO,EQ,ZAE000209524
+Brimstone Investment Corporation Limited Class N,Materials,BRN.JO,EQ,ZAE000015285
+Brimstone Investment Corporation Limited,Materials,BRT.JO,EQ,ZAE000015277
+Copper 360 Limited,Materials,CPR.JO,EQ,ZAE000318531
+Deneb Investments Limited,Industrials,DNB.JO,EQ,ZAE000197398
+Transpaco Limited,Materials,TPC.JO,EQ,ZAE000007480
+Stefanutti Stocks Holdings Limited,Industrials,SSK.JO,EQ,ZAE000123766
+Accelerate Property Fund Ltd.,Financials,APF.JO,EQ,ZAE000185815
+Wesizwe Platinum Limited,Materials,WEZ.JO,EQ,ZAE000075859
+Santova Limited,Industrials,SNV.JO,EQ,ZAE000159711
+Metair Investments Limited,Industrials,MTA.JO,EQ,ZAE000090692
+Texton Property Fund Limited,Financials,TEX.JO,EQ,ZAE000190542
+York Timber Holdings Limited,Industrials,YRK.JO,EQ,ZAE000133450
+Bowler Metcalf Limited,Industrials,BCF.JO,EQ,ZAE000030797
+Mustek Limited,Technology,MST.JO,EQ,ZAE000012373
+Grand Parade Investments Limited,Consumer Discretionary,GPL.JO,EQ,ZAE000119814
+enX Group Limited,Industrials,ENX.JO,EQ,ZAE000222253
+SAB Zenzele Kabili Holdings (RF) Limited,Industrials,SZK.JO,EQ,ZAE000284196
+Nutun Limited,Industrials,NTU.JO,EQ,ZAE000167391
+AfroCentric Investment Corporation Limited,Consumer Discretionary,ACT.JO,EQ,ZAE000078416
+Adcorp Holdings Limited,Industrials,ADR.JO,EQ,ZAE000000139
+RMB Holdings,Financials,RMH.JO,EQ,ZAE000024501
+Nu-World Holdings Limited,Industrials,NWL.JO,EQ,ZAE000005070
+PBT Holdings Limited,Technology,PBT.JO,EQ,ZAE000256319
+Hulamin Limited,Materials,HLM.JO,EQ,ZAE000096210
+Aveng Limited,Industrials,AEG.JO,EQ,ZAE000302618
+Finbond Group Limited,Financials,FGL.JO,EQ,ZAE000138095
+Newpark REIT Ltd.,Financials,NRL.JO,EQ,ZAE000212783
+Sephaku Holdings Limited,Materials,SEP.JO,EQ,ZAE000138459
+4Sight Holdings Limited,Industrials,4SI.JO,EQ,ZAE000324059
+Calgro M3 Holdings Limited,Financials,CGR.JO,EQ,ZAE000109203
+Salungano Group Limited,Energy,SLG.JO,EQ,ZAE000306890
+African Media Entertainment Limited,Consumer Discretionary,AME.JO,EQ,ZAE000055802
+ISA Holdings Limited,Technology,ISA.JO,EQ,ZAE000067344
+Delta Property Fund Limited,Financials,DLT.JO,EQ,ZAE000194049
+Vunani Limited,Financials,VUN.JO,EQ,ZAE000163382
+Goldrush Holdings Limited Non-Cum Pref Registered Shs,Financials,GRSP.JO,EQ,ZAE000145041
+Crookes Brothers Limited,Materials,CKS.JO,EQ,ZAE000001434
+Putprop Limited,Financials,PPR.JO,EQ,ZAE000072310
+Trematon Capital Investments Limited,Financials,TMT.JO,EQ,ZAE000013991
+Insimbi Industrial Holdings Limited,Materials,ISB.JO,EQ,ZAE000116828
+Mahube Infrastructure Ltd.,Financials,MHB.JO,EQ,ZAE000290763
+Huge Group Limited,Communication Services,HUG.JO,EQ,ZAE000102042
+Primeserv Group Limited,Industrials,PMV.JO,EQ,ZAE000039277
+South Ocean Holdings Limited,Industrials,SOH.JO,EQ,ZAE000092748
+Trellidor Holdings Ltd.,Industrials,TRL.JO,EQ,ZAE000209342
+Brikor Limited,Materials,BIK.JO,EQ,ZAE000101945
+RH Bophelo Ltd.,Financials,RHB.JO,EQ,ZAE000244737
+Mantengu Limited,Financials,MTU.JO,EQ,ZAE000320347
+Randgold & Exploration Company Ltd,Materials,RNG.JO,EQ,ZAE000008819
+Labat Africa Ltd,Industrials,LAB.JO,EQ,ZAE000018354
+Visual International Holdings Ltd.,Financials,VIS.JO,EQ,ZAE000187407
+Africa Bitcoin Corporation Limited,Technology,BAC.JO,EQ,ZAE000358925
+Cilo Cybin Holdings Limited,Financials,CCC.JO,EQ,ZAE000310397
+Afine Investments Limited,Financials,ANI.JO,EQ,ZAE000303947
+Cell C Holdings Ltd.,Financials,CCD.JO,EQ,ZAE000354007
+Rainbow Chicken Limited,Materials,RBO.JO,EQ,ZAE000334850

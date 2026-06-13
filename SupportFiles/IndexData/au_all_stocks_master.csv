@@ -1,1583 +1,1527 @@
 Company Name,Industry,Symbol,Series,ISIN Code
-BHP Group Ltd,Materials,BHP.AX,EQ,
-Commonwealth Bank of Australia,Financials,CBA.AX,EQ,
-Rio Tinto Limited,Materials,RIO.AX,EQ,
-Newmont Corporation Registered Chess Depositary Interests Repr 1 Sh,Materials,NEM.AX,EQ,
-Westpac Banking Corporation,Financials,WBC.AX,EQ,
-National Australia Bank Limited,Financials,NAB.AX,EQ,
-ANZ Group Holdings Limited,Financials,ANZ.AX,EQ,
-Wesfarmers Limited,Consumer Discretionary,WES.AX,EQ,
-Macquarie Group Ltd.,Financials,MQG.AX,EQ,
-Goodman Group,Financials,GMG.AX,EQ,
-Fortescue Ltd,Materials,FMG.AX,EQ,
-Woodside Energy Group Ltd,Energy,WDS.AX,EQ,
-Block Inc. Shs Chess Depository Interests Repr 1 Sh,Industrials,XYZ.AX,EQ,
-Telstra Group Limited,Communication Services,TLS.AX,EQ,
-Transurban Group Ltd.,Industrials,TCL.AX,EQ,
-CSL Limited,Health Care,CSL.AX,EQ,
-Woolworths Group Ltd,Consumer Discretionary,WOW.AX,EQ,
-ResMed Inc. CHESS Depositary Interests on a ratio of 10 CDIs per ord.sh,Health Care,RMD.AX,EQ,
-QBE Insurance Group Limited,Financials,QBE.AX,EQ,
-Sigma Healthcare Ltd,Health Care,SIG.AX,EQ,
-Aristocrat Leisure Limited,Consumer Discretionary,ALL.AX,EQ,
-Coles Group Ltd.,Consumer Discretionary,COL.AX,EQ,
-Northern Star Resources Ltd,Materials,NST.AX,EQ,
-Alcoa Corporation shs Chess Depository Interests Repr 1 Sh,Materials,AAI.AX,EQ,
-Santos Limited,Energy,STO.AX,EQ,
-Amcor PLC Shs Chess Depository Interests,Materials,AMC.AX,EQ,
-Evolution Mining Limited,Materials,EVN.AX,EQ,
-Brambles Limited,Industrials,BXB.AX,EQ,
-News Corporation Shs A Chess Depository Interests repr 1 Sh,Consumer Discretionary,NWSLV.AX,EQ,
-News Corporation Shs B Chess Depository Interests repr 1 Sh,Consumer Discretionary,NWS.AX,EQ,
-REA Group Ltd,Industrials,REA.AX,EQ,
-South32 Ltd.,Materials,S32.AX,EQ,
-Computershare Limited,Industrials,CPU.AX,EQ,
-Scentre Group,Financials,SCG.AX,EQ,
-PLS Group Limited,Materials,PLS.AX,EQ,
-Origin Energy Limited,Energy,ORG.AX,EQ,
-James Hardie Industries PLC Chess Units of Foreign Securities,Materials,JHX.AX,EQ,
-Suncorp Group Limited,Financials,SUN.AX,EQ,
-Lynas Rare Earths Limited,Materials,LYC.AX,EQ,
-Fisher & Paykel Healthcare Corporation Limited,Health Care,FPH.AX,EQ,
-Insurance Australia Group Ltd,Financials,IAG.AX,EQ,
-Pro Medicus Ltd.,Health Care,PME.AX,EQ,
-SGH Limited,Industrials,SGH.AX,EQ,
-Washington H. Soul Pattinson and Company Limited,Financials,SOL.AX,EQ,
-Bluescope Steel Limited,Industrials,BSL.AX,EQ,
-Qantas Airways Limited,Industrials,QAN.AX,EQ,
-APA Group,Utilities,APA.AX,EQ,
-Xero Limited,Technology,XRO.AX,EQ,
-Wisetech Global Ltd.,Technology,WTC.AX,EQ,
-Mineral Resources Limited,Materials,MIN.AX,EQ,
-Medibank Private Ltd.,Financials,MPL.AX,EQ,
-Meridian Energy Limited,Utilities,MEZ.AX,EQ,
-Infratil Limited,Financials,IFT.AX,EQ,
-Nextdc Limited,Technology,NXT.AX,EQ,
-ALS Ltd.,Industrials,ALQ.AX,EQ,
-Auckland International Airport Limited,Industrials,AIA.AX,EQ,
-Lottery Corporation Limited,Consumer Discretionary,TLC.AX,EQ,
-Vicinity Centres,Financials,VCX.AX,EQ,
-Orica Limited,Materials,ORI.AX,EQ,
-Technology One Limited,Technology,TNE.AX,EQ,
-Capstone Copper Corp. Shs Chess Depository Interests Repr 1 Sh,Materials,CSC.AX,EQ,
-CAR Group Limited,Technology,CAR.AX,EQ,
-DPM Metals Inc. Chess Depository Interests Repr 1 Sh,Materials,DPM.AX,EQ,
-NexGen Energy Ltd. Shs Chess Depository Interests repr 1 shs,Materials,NXG.AX,EQ,
-Charter Hall Group,Financials,CHC.AX,EQ,
-Sonic Healthcare Limited,Health Care,SHL.AX,EQ,
-ASX Limited,Financials,ASX.AX,EQ,
-Stockland,Financials,SGP.AX,EQ,
-Yancoal Australia Ltd.,Energy,YAL.AX,EQ,
-Light & Wonder Inc. Shs Chess Depository Interests Repr 1 Sh,Consumer Discretionary,LNW.AX,EQ,
-GPT Group,Financials,GPT.AX,EQ,
-Sandfire Resources Ltd,Materials,SFR.AX,EQ,
-Qube Holdings Ltd.,Industrials,QUB.AX,EQ,
-Ampol Limited,Energy,ALD.AX,EQ,
-Reece Limited,Industrials,REH.AX,EQ,
-Greatland Resources Limited,Materials,GGP.AX,EQ,
-Contact Energy Limited,Utilities,CEN.AX,EQ,
-Ramsay Health Care Limited,Health Care,RHC.AX,EQ,
-Mercury NZ Ltd.,Utilities,MCY.AX,EQ,
-Codan Limited,Consumer Discretionary,CDA.AX,EQ,
-JB Hi-Fi Limited,Consumer Discretionary,JBH.AX,EQ,
-Whitehaven Coal Limited,Energy,WHC.AX,EQ,
-Atlas Arteria,Industrials,ALX.AX,EQ,
-Aurizon Holdings Ltd.,Industrials,AZJ.AX,EQ,
-TPG Telecom Limited,Communication Services,TPG.AX,EQ,
-HUB24 Limited,Technology,HUB.AX,EQ,
-Liontown Limited,Materials,LTR.AX,EQ,
-IGO Limited,Materials,IGO.AX,EQ,
-Dyno Nobel Limited,Materials,DNL.AX,EQ,
-Perseus Mining Limited,Materials,PRU.AX,EQ,
-Mirvac Group,Financials,MGR.AX,EQ,
-Cochlear Limited,Health Care,COH.AX,EQ,
-Almonty Industries Inc. Shs Chess Depository Interests repr 1 shs,Materials,AII.AX,EQ,
-Worley Limited,Industrials,WOR.AX,EQ,
-Challenger Limited,Financials,CGF.AX,EQ,
-Genesis Minerals Limited,Materials,GMD.AX,EQ,
-Eagers Automotive Limited,Consumer Discretionary,APE.AX,EQ,
-Dexus,Financials,DXS.AX,EQ,
-Bendigo & Adelaide Bank Ltd.,Financials,BEN.AX,EQ,
-Capricorn Metals Ltd,Materials,CMM.AX,EQ,
-Ramelius Resources Limited,Materials,RMS.AX,EQ,
-AGL Energy Limited,Utilities,AGL.AX,EQ,
-Harvey Norman Holdings Ltd,Consumer Discretionary,HVN.AX,EQ,
-Endeavour Group Ltd,Consumer Discretionary,EDV.AX,EQ,
-Cleanaway Waste Management Ltd.,Industrials,CWY.AX,EQ,
-Sims Ltd.,Materials,SGM.AX,EQ,
-Netwealth Group Ltd.,Financials,NWL.AX,EQ,
-Downer EDI Limited,Industrials,DOW.AX,EQ,
-PT ANTAM (Persero) Tbk CHESS Units of Foreign Securities,Materials,ATM.AX,EQ,
-New Hope Corporation Limited,Energy,NHC.AX,EQ,
-Ventia Services Group Limited,Industrials,VNT.AX,EQ,
-Paladin Energy Ltd,Materials,PDN.AX,EQ,
-Westgold Resources Ltd,Materials,WGX.AX,EQ,
-Seek Limited,Technology,SEK.AX,EQ,
-Regis Resources Limited,Materials,RRL.AX,EQ,
-Telix Pharmaceuticals Limited,Health Care,TLX.AX,EQ,
-Nickel Industries Limited,Materials,NIC.AX,EQ,
-Steadfast Group Limited,Financials,SDF.AX,EQ,
-Megaport Ltd.,Technology,MP1.AX,EQ,
-Vault Minerals Limited,Materials,VAU.AX,EQ,
-Breville Group Limited,Consumer Discretionary,BRG.AX,EQ,
-GQG Partners Inc. Shs Chess Depository Interests Repr 1 Sh,Financials,GQG.AX,EQ,
-Bank of Queensland Limited,Financials,BOQ.AX,EQ,
-BSP Financial Group Ltd.,Financials,BFL.AX,EQ,
-Ansell Limited,Industrials,ANN.AX,EQ,
-Emerald Resources NL,Materials,EMR.AX,EQ,
-Predictive Discovery Limited,Materials,PDI.AX,EQ,
-Treasury Wine Estates Limited,Consumer Staples,TWE.AX,EQ,
-a2 Milk Company Limited,Consumer Staples,A2M.AX,EQ,
-AMP Limited,Financials,AMP.AX,EQ,
-Viva Energy Group Ltd.,Energy,VEA.AX,EQ,
-West African Resources Ltd,Materials,WAF.AX,EQ,
-Pinnacle Investment Management Group Limited,Financials,PNI.AX,EQ,
-EBOS Group Limited,Health Care,EBO.AX,EQ,
-Chorus Limited,Communication Services,CNU.AX,EQ,
-Metcash Limited,Industrials,MTS.AX,EQ,
-Iluka Resources Limited,Materials,ILU.AX,EQ,
-AUB Group Limited,Financials,AUB.AX,EQ,
-NRW Holdings Limited,Industrials,NWH.AX,EQ,
-NIB Holdings Ltd,Financials,NHF.AX,EQ,
-Monadelphous Group Limited,Industrials,MND.AX,EQ,
-MFF Capital Investments Ltd.,Industrials,MFF.AX,EQ,
-Zip Co Ltd.,Financials,ZIP.AX,EQ,
-BWP Trust,Financials,BWP.AX,EQ,
-Spark New Zealand Limited,Communication Services,SPK.AX,EQ,
-Genesis Energy Limited,Utilities,GNE.AX,EQ,
-Dalrymple Bay Infrastructure Ltd.,Industrials,DBI.AX,EQ,
-Fletcher Building Limited,Materials,FBU.AX,EQ,
-Mesoblast Limited,Health Care,MSB.AX,EQ,
-DroneShield Limited,Technology,DRO.AX,EQ,
-L1 Group Limited,Financials,L1G.AX,EQ,
-Stanmore Resources Ltd,Energy,SMR.AX,EQ,
-Region Group,Financials,RGN.AX,EQ,
-Super Retail Group Limited,Consumer Discretionary,SUL.AX,EQ,
-HomeCo Daily Needs REIT,Financials,HDN.AX,EQ,
-Beach Energy Limited,Energy,BPT.AX,EQ,
-Ora Banda Mining Ltd.,Materials,OBM.AX,EQ,
-Southern Cross Gold Consolidated Ltd. Chees Depository Interest Repr 1 shs,Materials,SX2.AX,EQ,
-Charter Hall Long WALE REIT,Financials,CLW.AX,EQ,
-Resolute Mining Limited,Materials,RSG.AX,EQ,
-SRG Global Limited,Industrials,SRG.AX,EQ,
-Champion Iron Ltd.,Materials,CIA.AX,EQ,
-Reliance Worldwide Corp. Ltd.,Industrials,RWC.AX,EQ,
-Deterra Royalties Ltd,Industrials,DRR.AX,EQ,
-Electro Optic Systems Holdings Limited,Technology,EOS.AX,EQ,
-Flight Centre Travel Group Limited,Consumer Discretionary,FLT.AX,EQ,
-Lovisa Holdings Ltd.,Consumer Discretionary,LOV.AX,EQ,
-Tasmea Limited,Industrials,TEA.AX,EQ,
-Charter Hall Retail REIT,Financials,CQR.AX,EQ,
-Elevra Lithium Limited,Materials,ELV.AX,EQ,
-Sunrise Energy Metals Limited,Industrials,SRL.AX,EQ,
-Develop Global Limited,Materials,DVP.AX,EQ,
-Bellevue Gold Limited,Materials,BGL.AX,EQ,
-Premier Investments Limited,Consumer Discretionary,PMV.AX,EQ,
-GenusPlus Group Ltd.,Industrials,GNP.AX,EQ,
-Imdex Ltd,Industrials,IMD.AX,EQ,
-Dicker Data Limited,Consumer Discretionary,DDR.AX,EQ,
-Perenti Limited,Materials,PRN.AX,EQ,
-Freightways Group Limited,Industrials,FRW.AX,EQ,
-Macquarie Technology Group Limited,Communication Services,MAQ.AX,EQ,
-Alkane Resources Ltd,Materials,ALK.AX,EQ,
-Virgin Australia Holdings Limited,Industrials,VGN.AX,EQ,
-EVT Limited,Consumer Discretionary,EVT.AX,EQ,
-Macmahon Holdings Limited,Energy,MAH.AX,EQ,
-MAAS Group Holdings Ltd.,Industrials,MGH.AX,EQ,
-Cobram Estate Olives Ltd.,Materials,CBO.AX,EQ,
-PEXA Group Limited,Financials,PXA.AX,EQ,
-Guzman y Gomez Ltd.,Consumer Discretionary,GYG.AX,EQ,
-Ryman Healthcare Ltd.,Health Care,RYM.AX,EQ,
-Regis Healthcare Ltd.,Health Care,REG.AX,EQ,
-Iperionx Ltd.,Materials,IPX.AX,EQ,
-Redox Limited,Industrials,RDX.AX,EQ,
-Superloop Ltd.,Industrials,SLC.AX,EQ,
-Gemlife Communities Group,Financials,GLF.AX,EQ,
-Tabcorp Holdings Limited,Consumer Discretionary,TAH.AX,EQ,
-Centuria Industrial REIT,Financials,CIP.AX,EQ,
-Perpetual Limited,Financials,PPT.AX,EQ,
-Abacus Storage King,Financials,ASK.AX,EQ,
-Weebit Nano Ltd.,Technology,WBT.AX,EQ,
-Tamboran Resources Corporation Chess Depository Interests,Energy,TBN.AX,EQ,
-Minerals 260 Limited,Materials,MI6.AX,EQ,
-Mader Group Ltd,Consumer Discretionary,MAD.AX,EQ,
-Neuren Pharmaceuticals Limited,Health Care,NEU.AX,EQ,
-EBR Systems Inc. Shs Chess Depository Interests Repr 1 Sh,Health Care,EBR.AX,EQ,
-Centuria Capital Group,Financials,CNI.AX,EQ,
-Zimplats Holdings Limited,Materials,ZIM.AX,EQ,
-Lendlease Group,Industrials,LLC.AX,EQ,
-Silex Systems Limited,Technology,SLX.AX,EQ,
-Elsight Ltd.,Technology,ELS.AX,EQ,
-Austal Limited,Industrials,ASB.AX,EQ,
-Bega Cheese Limited,Consumer Staples,BGA.AX,EQ,
-Aussie Broadband Ltd.,Communication Services,ABB.AX,EQ,
-Smartgroup Corporation Ltd,Industrials,SIQ.AX,EQ,
-Summerset Group Holdings Limited,Health Care,SNZ.AX,EQ,
-Growthpoint Properties Australia,Financials,GOZ.AX,EQ,
-Orezone Gold Corporation CDI,Materials,ORE.AX,EQ,
-Judo Capital Holdings Limited,Financials,JDO.AX,EQ,
-Magellan Financial Group Ltd,Financials,MFG.AX,EQ,
-Generation Development Group Limited,Financials,GDG.AX,EQ,
-Waypoint REIT Ltd.,Financials,WPR.AX,EQ,
-ARB Corporation Limited,Industrials,ARB.AX,EQ,
-Deep Yellow Limited,Materials,DYL.AX,EQ,
-Orora Limited,Materials,ORA.AX,EQ,
-FireFly Metals Ltd,Materials,FFM.AX,EQ,
-Ingenia Communities Group,Financials,INA.AX,EQ,
-Domino's Pizza Enterprises Limited,Consumer Discretionary,DMP.AX,EQ,
-Service Stream Limited,Industrials,SSM.AX,EQ,
-Vulcan Energy Resources Ltd.,Materials,VUL.AX,EQ,
-Data#3 Limited.,Technology,DTL.AX,EQ,
-Nine Entertainment Co. Holdings Limited,Consumer Discretionary,NEC.AX,EQ,
-Arafura Rare Earths Limited,Materials,ARU.AX,EQ,
-Lindian Resources Limited,Materials,LIN.AX,EQ,
-Brazilian Rare Earths Limited,Materials,BRE.AX,EQ,
-Karoon Energy Ltd,Energy,KAR.AX,EQ,
-Supply Network Limited,Industrials,SNL.AX,EQ,
-Tuas Ltd.,Communication Services,TUA.AX,EQ,
-Digico Infrastructure REIT,Financials,DGT.AX,EQ,
-Catalyst Metals Limited,Materials,CYL.AX,EQ,
-Metals X Limited,Materials,MLX.AX,EQ,
-Mcmillan Shakespeare Limited,Financials,MMS.AX,EQ,
-Kingsgate Consolidated Limited,Materials,KCN.AX,EQ,
-Anteris Technologies Global Corp.,Health Care,AVR.AX,EQ,
-Navigator Global Investments Ltd,Financials,NGI.AX,EQ,
-United Overseas Australia Ltd,Financials,UOS.AX,EQ,
-Helia Group Limited,Financials,HLI.AX,EQ,
-Arena REIT,Financials,ARF.AX,EQ,
-PYC Therapeutics Limited,Health Care,PYC.AX,EQ,
-PMET Resources Inc. Shs Chess Depository Interests Repr 0.1 Sh,Materials,PMT.AX,EQ,
-HMC Capital Limited,Financials,HMC.AX,EQ,
-Nick Scali Limited,Consumer Discretionary,NCK.AX,EQ,
-EQ Resources Limited,Materials,EQR.AX,EQ,
-Kelsian Group Limited,Consumer Discretionary,KLS.AX,EQ,
-Elders Limited,Materials,ELD.AX,EQ,
-Graincorp Limited Class A,Industrials,GNC.AX,EQ,
-IRESS Limited,Technology,IRE.AX,EQ,
-MA Financial Group Limited,Financials,MAF.AX,EQ,
-Air New Zealand Limited,Industrials,AIZ.AX,EQ,
-Cromwell Property Group,Financials,CMW.AX,EQ,
-Southern Cross Electrical Engineering Limited,Industrials,SXE.AX,EQ,
-Catapult Sports Ltd.,Technology,CAT.AX,EQ,
-SiteMinder Limited,Technology,SDR.AX,EQ,
-Objective Corporation Limited,Technology,OCL.AX,EQ,
-Nufarm Limited,Materials,NUF.AX,EQ,
-Alpha HPA Limited,Materials,A4N.AX,EQ,
-Aspen Group Limited,Financials,APZ.AX,EQ,
-Channel Infrastructure NZ Limited,Energy,CHI.AX,EQ,
-Ridley Corporation Limited,Materials,RIC.AX,EQ,
-Bravura Solutions Limited,Technology,BVS.AX,EQ,
-IPH Ltd.,Industrials,IPH.AX,EQ,
-Pantoro Gold Limited,Materials,PNR.AX,EQ,
-BCI Minerals Ltd,Materials,BCI.AX,EQ,
-SKS Technologies Group Limited,Technology,SKS.AX,EQ,
-GR Engineering Services Ltd,Industrials,GNG.AX,EQ,
-Cuscal Limited,Industrials,CCL.AX,EQ,
-WA1 Resources Ltd,Materials,WA1.AX,EQ,
-Marimaca Copper Corp Chess Depositary Interests,Materials,MC2.AX,EQ,
-Collins Foods Limited,Consumer Discretionary,CKF.AX,EQ,
-Qualitas Real Estate Income Fund Units,Financials,QRI.AX,EQ,
-Liberty Financial Group Ltd,Financials,LFG.AX,EQ,
-Heartland Group Holdings Ltd.,Financials,HGH.AX,EQ,
-Nanosonics Limited,Health Care,NAN.AX,EQ,
-Hansen Technologies Limited,Technology,HSN.AX,EQ,
-Latitude Group Holdings Ltd.,Financials,LFS.AX,EQ,
-Charter Hall Social Infrastructure REIT,Financials,CQE.AX,EQ,
-Regal Partners Limited,Financials,RPL.AX,EQ,
-Civmec Limited,Industrials,CVL.AX,EQ,
-PWR Holdings Ltd.,Industrials,PWH.AX,EQ,
-Ricegrowers Ltd. Class B,Industrials,SGLLV.AX,EQ,
-Core Lithium Ltd,Materials,CXO.AX,EQ,
-Wagners Holding Co. Ltd.,Materials,WGN.AX,EQ,
-Abacus Group,Financials,ABG.AX,EQ,
-EchoIQ Limited,Materials,EIQ.AX,EQ,
-Clarity Pharmaceuticals Ltd.,Health Care,CU6.AX,EQ,
-Briscoe Group Limited,Consumer Discretionary,BGP.AX,EQ,
-Amotiv Limited,Consumer Discretionary,AOV.AX,EQ,
-Black Cat Syndicate Ltd.,Materials,BC8.AX,EQ,
-FINEOS Corporation Holdings Plc Shs Chess Depositary Interests Repr 1 Sh,Technology,FCL.AX,EQ,
-Qualitas Limited,Financials,QAL.AX,EQ,
-Australian Agricultural Company Limited,Consumer Staples,AAC.AX,EQ,
-Credit Corp Group Limited,Industrials,CCP.AX,EQ,
-WIA Gold Limited,Materials,WIA.AX,EQ,
-WEB Travel Group limited,Consumer Discretionary,WEB.AX,EQ,
-Inghams Group Ltd.,Materials,ING.AX,EQ,
-Artrya Limited,Technology,AYA.AX,EQ,
-Integral Diagnostics Ltd,Health Care,IDX.AX,EQ,
-Peet Limited,Financials,PPC.AX,EQ,
-European Lithium Ltd.,Materials,EUR.AX,EQ,
-Rural Funds Group,Financials,RFF.AX,EQ,
-Bannerman Energy Ltd,Materials,BMN.AX,EQ,
-Pepper Money Ltd,Financials,PPM.AX,EQ,
-Mystate Limited,Financials,MYS.AX,EQ,
-Dexus Industria REIT,Financials,DXI.AX,EQ,
-Polynovo Limited,Health Care,PNV.AX,EQ,
-Vulcan Steel Ltd.,Industrials,VSL.AX,EQ,
-Duratec Limited,Industrials,DUR.AX,EQ,
-Chrysos Corp. Ltd.,Financials,C79.AX,EQ,
-Larvotto Resources Limited,Materials,LRV.AX,EQ,
-St. Barbara Ltd.,Materials,SBM.AX,EQ,
-Tivan Limited,Materials,TVN.AX,EQ,
-Forrestania Resources Limited,Materials,FRS.AX,EQ,
-Wildcat Resources Ltd.,Materials,WC8.AX,EQ,
-Servcorp Limited,Financials,SRV.AX,EQ,
-oOh media Ltd,Industrials,OML.AX,EQ,
-Star Entertainment Group Limited,Consumer Discretionary,SGR.AX,EQ,
-Symal Group Limited,Industrials,SYL.AX,EQ,
-Lycopodium Limited,Industrials,LYL.AX,EQ,
-Rox Resources Ltd,Materials,RXL.AX,EQ,
-IPD Group Ltd,Utilities,IPG.AX,EQ,
-Turners Automotive Group Ltd,Financials,TRA.AX,EQ,
-Lifestyle Communities Ltd,Consumer Discretionary,LIC.AX,EQ,
-Chalice Mining Limited,Materials,CHN.AX,EQ,
-Dateline Resources Limited,Materials,DTR.AX,EQ,
-Benz Mining Corp. Shs Chess Depository Interests Repr 1 sh,Materials,BNZ.AX,EQ,
-FleetPartners Group Limited,Financials,FPR.AX,EQ,
-Magnetic Resources NL,Materials,MAU.AX,EQ,
-Shape Australia Corporation Limited,Industrials,SHA.AX,EQ,
-Cedar Woods Properties Limited,Financials,CWP.AX,EQ,
-Temple & Webster Group Ltd,Consumer Discretionary,TPW.AX,EQ,
-Imricor Medical Systems Inc. Shs Chess Depository Interests Repr 1 Sh,Health Care,IMR.AX,EQ,
-IDP Education Ltd.,Consumer Discretionary,IEL.AX,EQ,
-Santana Minerals Ltd.,Materials,SMI.AX,EQ,
-MA Credit Income Trust,Industrials,MA1.AX,EQ,
-Focus Minerals Ltd,Materials,FML.AX,EQ,
-Select Harvests Limited,Materials,SHV.AX,EQ,
-Tower Limited,Financials,TWR.AX,EQ,
-Mirrabooka Investments Ltd,Industrials,MIR.AX,EQ,
-GWA Group Limited,Consumer Discretionary,GWA.AX,EQ,
-Emeco Holdings Limited,Financials,EHL.AX,EQ,
-Ainsworth Game Technology Limited,Consumer Discretionary,AGI.AX,EQ,
-Boss Energy Limited,Materials,BOE.AX,EQ,
-Centuria Office REIT,Financials,COF.AX,EQ,
-Racura Oncology Ltd,Health Care,RAC.AX,EQ,
-Turaco Gold Ltd,Materials,TCG.AX,EQ,
-Aurelia Metals Limited,Materials,AMI.AX,EQ,
-Jupiter Mines Limited,Materials,JMS.AX,EQ,
-Galan Lithium Limited,Materials,GLN.AX,EQ,
-AIC Mines Limited,Materials,A1M.AX,EQ,
-Coronado Global Resources Inc. Shs Chess Depository Interests Repr 10 Sh,Energy,CRN.AX,EQ,
-Nuix Ltd.,Technology,NXL.AX,EQ,
-Aeris Resources Limited,Materials,AIS.AX,EQ,
-Meteoric Resources NL,Materials,MEI.AX,EQ,
-Universal Store Holdings Ltd.,Consumer Discretionary,UNI.AX,EQ,
-New Murchison Gold Limited,Materials,NMG.AX,EQ,
-Australian Unity Ltd Pref.,Financials,AYUPA.AX,EQ,
-Vysarn Ltd,Industrials,VYS.AX,EQ,
-Omni Bridgeway Ltd,Industrials,OBL.AX,EQ,
-Australian Ethical Investment Ltd,Financials,AEF.AX,EQ,
-Metro Mining Limited,Materials,MMI.AX,EQ,
-Viridis Mining and Minerals Limited,Materials,VMM.AX,EQ,
-Amplitude Energy Limited,Energy,AEL.AX,EQ,
-ioneer Limited,Materials,INR.AX,EQ,
-Clinuvel Pharmaceuticals Limited,Health Care,CUV.AX,EQ,
-Ausgold Limited,Materials,AUC.AX,EQ,
-Jumbo Interactive Limited,Consumer Discretionary,JIN.AX,EQ,
-Tolu Minerals Limited,Materials,TOK.AX,EQ,
-St. George Mining Ltd.,Materials,SGQ.AX,EQ,
-SkyCity Entertainment Group Limited,Consumer Discretionary,SKC.AX,EQ,
-Oceania Healthcare Ltd.,Health Care,OCA.AX,EQ,
-Tourism Holdings Limited,Financials,THL.AX,EQ,
-Carindale Property Trust,Financials,CDP.AX,EQ,
-Propel Funeral Partners Ltd.,Consumer Discretionary,PFP.AX,EQ,
-Bell Financial Group Limited,Financials,BFG.AX,EQ,
-Tyro Payments Ltd.,Industrials,TYR.AX,EQ,
-K & S Corporation Limited,Industrials,KSC.AX,EQ,
-Australian Finance Group Ltd.,Financials,AFG.AX,EQ,
-Vista Group International Ltd,Technology,VGL.AX,EQ,
-Beetaloo Energy Australia Limited,Energy,BTL.AX,EQ,
-BrainChip Holdings Ltd.,Technology,BRN.AX,EQ,
-Li-Ft Power Ltd CHESS Depositary Interests,Materials,LFT.AX,EQ,
-Cogstate Ltd,Industrials,CGS.AX,EQ,
-EQT Holdings Ltd.,Financials,EQT.AX,EQ,
-Antipa Minerals Limited,Materials,AZY.AX,EQ,
-Myer Holdings Limited,Consumer Discretionary,MYR.AX,EQ,
-Strike Energy Limited,Energy,STX.AX,EQ,
-Andean Silver Limited,Materials,ASL.AX,EQ,
-MGX Resources Limited,Materials,MGX.AX,EQ,
-Hot Chili Limited,Materials,HCH.AX,EQ,
-Energy One Limited,Technology,EOL.AX,EQ,
-Unico Silver Limited,Materials,USL.AX,EQ,
-Kina Securities Ltd.,Financials,KSL.AX,EQ,
-Whitefield income limited,Financials,WHI.AX,EQ,
-Kogan.com Ltd.,Consumer Discretionary,KGN.AX,EQ,
-Australian Clinical Labs Ltd,Health Care,ACL.AX,EQ,
-Titomic Ltd,Industrials,TTT.AX,EQ,
-Australian Strategic Materials Ltd,Materials,ASM.AX,EQ,
-Sovereign Metals Limited,Materials,SVM.AX,EQ,
-Winton Land Limited,Financials,WTN.AX,EQ,
-IVE Group Ltd.,Industrials,IGL.AX,EQ,
-ClearView Wealth Limited,Financials,CVW.AX,EQ,
-HealthCo Healthcare & Wellness REIT,Financials,HCW.AX,EQ,
-Gentrack Group Ltd,Technology,GTK.AX,EQ,
-Qoria Limited,Technology,QOR.AX,EQ,
-Brightstar Resources Limited,Materials,BTR.AX,EQ,
-Autosports Group Ltd,Consumer Discretionary,ASG.AX,EQ,
-Horizon Oil Limited,Energy,HZN.AX,EQ,
-Praemium Ltd,Technology,PPS.AX,EQ,
-Terra Metals Limited,Materials,TM1.AX,EQ,
-Challenger Gold Limited,Materials,CEL.AX,EQ,
-Accent Group Ltd,Industrials,AX1.AX,EQ,
-PointsBet Holdings Ltd.,Consumer Discretionary,PBH.AX,EQ,
-Meeka Metals Limited,Materials,MEK.AX,EQ,
-SKY Network Television Ltd,Consumer Discretionary,SKT.AX,EQ,
-Mayfield Group Holdings Limited,Industrials,MYG.AX,EQ,
-Dexus Convenience Retail REIT,Financials,DXC.AX,EQ,
-Nova Minerals Limited,Materials,NVA.AX,EQ,
-Medallion Metal Ltd,Materials,MM8.AX,EQ,
-Steamships Trading Co. Ltd.,Industrials,SST.AX,EQ,
-Omega Oil & Gas Limited,Energy,OMA.AX,EQ,
-Metallium Limited,Materials,MTM.AX,EQ,
-Beacon Lighting Group Ltd,Industrials,BLX.AX,EQ,
-Dominion Income Trust 1,Industrials,DN1.AX,EQ,
-AFT Pharmaceuticals Ltd.,Health Care,AFP.AX,EQ,
-Smart Parking Limited,Consumer Discretionary,SPZ.AX,EQ,
-GDI Property Group,Financials,GDI.AX,EQ,
-Advanced Innergy Holdings Ltd.,Materials,AIH.AX,EQ,
-Resimac Group Limited,Financials,RMC.AX,EQ,
-Centaurus Metals Limited,Materials,CTM.AX,EQ,
-LGI LTD,Utilities,LGI.AX,EQ,
-COG Financial Services Limited,Industrials,COG.AX,EQ,
-Pacific Lime and Cement Limited,Materials,PLA.AX,EQ,
-Ballard Mining Limited,Materials,BM1.AX,EQ,
-Starpharma Holdings Limited,Health Care,SPL.AX,EQ,
-Pacific Current Group Ltd,Financials,PAC.AX,EQ,
-Tetratherix Limited,Health Care,TTX.AX,EQ,
-DUG Technology Ltd,Technology,DUG.AX,EQ,
-Saturn Metals Ltd.,Materials,STN.AX,EQ,
-Cobre Limited,Materials,CBE.AX,EQ,
-Metal Powder Works Limited,Industrials,MPW.AX,EQ,
-Tribune Resources Limited,Materials,TBR.AX,EQ,
-Tungsten Mining NL,Materials,TGN.AX,EQ,
-Pacific Edge Limited,Health Care,PEB.AX,EQ,
-Appen Ltd.,Technology,APX.AX,EQ,
-Acrow Limited,Industrials,ACF.AX,EQ,
-GreenX Metals Limited,Energy,GRX.AX,EQ,
-Red Hill Minerals Ltd,Materials,RHI.AX,EQ,
-Silver Mines Limited,Materials,SVL.AX,EQ,
-Asara Resources Limited,Materials,AS1.AX,EQ,
-Humm Group Limited,Financials,HUM.AX,EQ,
-Southern Cross Media Group Limited,Consumer Discretionary,SXL.AX,EQ,
-Fiducian Group Ltd,Financials,FID.AX,EQ,
-Bapcor Ltd,Industrials,BAP.AX,EQ,
-Alicanto Minerals Ltd,Materials,AQI.AX,EQ,
-Northern Minerals Limited,Materials,NTU.AX,EQ,
-Strickland Metals Ltd,Materials,STK.AX,EQ,
-Kore Potash PLC Shs Chess Deposit Interests Repr 1 Sh,Materials,KP2.AX,EQ,
-Paragon Care Limited,Industrials,PGC.AX,EQ,
-Koala Company Limited,Consumer Discretionary,KOA.AX,EQ,
-Monash IVF Group Ltd,Health Care,MVF.AX,EQ,
-Gorilla Gold Mines Ltd,Materials,GG8.AX,EQ,
-Solvar Limited,Financials,SVR.AX,EQ,
-Syrah Resources Limited,Materials,SYR.AX,EQ,
-Solstice Minerals Limited,Materials,SLS.AX,EQ,
-XRF Scientific Limited,Industrials,XRF.AX,EQ,
-Theta Gold Mines Ltd.,Materials,TGM.AX,EQ,
-Fortifai Limited,Technology,FTI.AX,EQ,
-Beacon Minerals Limited,Materials,BCN.AX,EQ,
-Waratah Minerals Limited,Materials,WTM.AX,EQ,
-MC Mining Ltd,Energy,MCM.AX,EQ,
-Eureka Group Holdings Limited,Financials,EGH.AX,EQ,
-Schaffer Corporation Limited,Consumer Staples,SFC.AX,EQ,
-Maritana Minerals Limited,Materials,MRT.AX,EQ,
-Atlantic Lithium Limited.,Materials,A11.AX,EQ,
-Canyon Resources Limited,Materials,CAY.AX,EQ,
-Korvest Ltd.,Industrials,KOV.AX,EQ,
-Bougainville Copper Limited,Materials,BOC.AX,EQ,
-Prospect Resources Ltd.,Materials,PSC.AX,EQ,
-Astron Limited,Materials,ATR.AX,EQ,
-Healius Limited,Health Care,HLS.AX,EQ,
-Havilah Resources Limited,Materials,HAV.AX,EQ,
-Aurum Resources Limited,Materials,AUE.AX,EQ,
-Astral Resources NL,Materials,AAR.AX,EQ,
-CVC Limited,Financials,CVC.AX,EQ,
-Polymetals Resources Ltd.,Materials,POL.AX,EQ,
-Advanced Energy Minerals Ltd,Materials,AEM.AX,EQ,
-Rivco Australia Limited,Utilities,RIV.AX,EQ,
-RAM Essential Services Property Fund,Financials,REP.AX,EQ,
-Adairs Ltd.,Consumer Discretionary,ADH.AX,EQ,
-Intelligent Monitoring Group Limited,Industrials,IMB.AX,EQ,
-Helloworld Travel Ltd,Consumer Discretionary,HLO.AX,EQ,
-Energy World Corporation Ltd,Utilities,EWC.AX,EQ,
-Sky Metals Limited,Materials,SKY.AX,EQ,
-Aroa Biosurgery Ltd,Health Care,ARX.AX,EQ,
-GARDA Property Group Stapled Secs Cons of 1 Ut GARDA Div Prop Fund + 1 Sh of GARDA Hldgs Ltd,Financials,GDF.AX,EQ,
-AMA Group Limited,Consumer Discretionary,AMA.AX,EQ,
-Bisalloy Steel Group Ltd,Materials,BIS.AX,EQ,
-KGL Resources Limited,Materials,KGL.AX,EQ,
-Midas Minerals Limited,Materials,MM1.AX,EQ,
-Broken Hill Mines Limited,Materials,BHM.AX,EQ,
-Austral Resources Australia Limited,Materials,AR1.AX,EQ,
-Count Limited,Industrials,CUP.AX,EQ,
-Altair Minerals limited,Materials,ALR.AX,EQ,
-West Wits Mining Limited,Materials,WWI.AX,EQ,
-Carnarvon Energy Limited,Energy,CVN.AX,EQ,
-Orthocell Ltd,Health Care,OCC.AX,EQ,
-American Rare Earths Ltd,Materials,ARR.AX,EQ,
-Cyprium Metals Limited,Materials,CYM.AX,EQ,
-Fenix Resources Limited,Materials,FEX.AX,EQ,
-Titan Minerals Ltd,Materials,TTM.AX,EQ,
-Vitrafy Life Sciences Ltd.,Health Care,VFY.AX,EQ,
-NOVONIX Ltd,Technology,NVX.AX,EQ,
-Synlait Milk Ltd.,Consumer Staples,SM1.AX,EQ,
-Elixir Energy Limited,Energy,EXR.AX,EQ,
-Emmerson Resources Limited,Materials,ERM.AX,EQ,
-Cash Converters International Limited,Consumer Discretionary,CCV.AX,EQ,
-Boab Metals Ltd,Materials,BML.AX,EQ,
-Lindsay Australia Limited,Industrials,LAU.AX,EQ,
-Acusensus Ltd,Technology,ACE.AX,EQ,
-Barton Gold Holdings Limited,Materials,BGD.AX,EQ,
-Victory Metals Limited,Materials,VTM.AX,EQ,
-Wrkr Ltd,Technology,WRK.AX,EQ,
-ReadyTech Holdings Ltd.,Technology,RDY.AX,EQ,
-Euroz Hartleys Group Limited,Financials,EZL.AX,EQ,
-Berkeley Energia Limited,Materials,BKY.AX,EQ,
-Baby Bunting Group Ltd.,Consumer Discretionary,BBN.AX,EQ,
-Bioxyne Limited,Industrials,BXN.AX,EQ,
-ikeGPS Group Ltd,Technology,IKE.AX,EQ,
-LDR Capital Property Fund,Financials,LED.AX,EQ,
-Decidr AI Industries Ltd,Consumer Staples,DAI.AX,EQ,
-Orion Minerals Limited,Materials,ORN.AX,EQ,
-Betmakers Technology Group Ltd.,Technology,BET.AX,EQ,
-Sun Silver Ltd.,Materials,SS1.AX,EQ,
-Finbar Group Limited,Financials,FRI.AX,EQ,
-Torque Metals Ltd.,Materials,TOR.AX,EQ,
-Finder Energy Holdings Limited,Energy,FDR.AX,EQ,
-Mayne Pharma Group Ltd.,Health Care,MYX.AX,EQ,
-Carnaby Resources Ltd.,Materials,CNB.AX,EQ,
-AVITA Medical Inc Shs Chess Depository Interests repr 0.2 shs,Health Care,AVH.AX,EQ,
-Adisyn Limited,Technology,AI1.AX,EQ,
-Laramide Resources Ltd. Shs Chess Depository Interests repr 1 sh,Materials,LAM.AX,EQ,
-Kelly Partners Group Holdings Ltd.,Industrials,KPG.AX,EQ,
-Horizon Gold Ltd.,Materials,HRN.AX,EQ,
-Peninsula Energy Limited,Materials,PEN.AX,EQ,
-Waterco Limited,Materials,WAT.AX,EQ,
-OM Holdings Ltd.,Industrials,OMH.AX,EQ,
-Grange Resources Limited,Materials,GRR.AX,EQ,
-Capral Limited,Materials,CAA.AX,EQ,
-Joyce Corporation Ltd,Consumer Discretionary,JYC.AX,EQ,
-NZME Limited,Consumer Discretionary,NZM.AX,EQ,
-Tesoro Gold Ltd,Materials,TSO.AX,EQ,
-Audinate Group Ltd.,Technology,AD8.AX,EQ,
-Reef Casino Trust,Consumer Discretionary,RCT.AX,EQ,
-Hillgrove Resources Limited,Materials,HGO.AX,EQ,
-Jade Gas Holdings Limited,Energy,JGH.AX,EQ,
-Motorcycle Holdings Ltd.,Consumer Discretionary,MTO.AX,EQ,
-Viva Leisure Ltd.,Consumer Discretionary,VVA.AX,EQ,
-Zeotech Limited,Materials,ZEO.AX,EQ,
-BETR Entertainment Limited,Consumer Discretionary,BBT.AX,EQ,
-Southern Palladium Ltd.,Materials,SPD.AX,EQ,
-EROAD Limited,Technology,ERD.AX,EQ,
-Coast Entertainment Holdings Ltd,Consumer Discretionary,CEH.AX,EQ,
-Shaver Shop Group Limited,Consumer Discretionary,SSG.AX,EQ,
-SDI Limited,Health Care,SDI.AX,EQ,
-Lotus Resources Limited,Materials,LOT.AX,EQ,
-Clover Corporation Limited,Health Care,CLV.AX,EQ,
-Alligator Energy Ltd,Materials,AGE.AX,EQ,
-EcoGraf Ltd.,Materials,EGR.AX,EQ,
-Cygnus Metals Limited,Materials,CY5.AX,EQ,
-FSA Group Limited,Financials,FSA.AX,EQ,
-Atomic Eagle Ltd,Materials,AEU.AX,EQ,
-Brisbane Broncos Limited,Consumer Discretionary,BBL.AX,EQ,
-G50 Corp Limited,Materials,G50.AX,EQ,
-Serko Ltd.,Technology,SKO.AX,EQ,
-Atturra Limited,Industrials,ATA.AX,EQ,
-Comet Ridge Ltd,Energy,COI.AX,EQ,
-Many Peaks Minerals Ltd,Materials,MPK.AX,EQ,
-Webjet Group Limited,Consumer Discretionary,WJL.AX,EQ,
-CTI Logistics Limited,Industrials,CLX.AX,EQ,
-EMvision Medical Devices Ltd.,Health Care,EMV.AX,EQ,
-Felix Gold Ltd.,Materials,FXG.AX,EQ,
-Caravel Minerals Limited,Materials,CVV.AX,EQ,
-Fleetwood Limited,Consumer Discretionary,FWD.AX,EQ,
-TerraCom Limited,Energy,TER.AX,EQ,
-Recce Pharmaceuticals Ltd.,Health Care,RCE.AX,EQ,
-Alcidion Group Limited,Technology,ALC.AX,EQ,
-Optiscan Imaging Limited,Health Care,OIL.AX,EQ,
-Plenti Group Ltd.,Financials,PLT.AX,EQ,
-EML Payments Ltd.,Industrials,EML.AX,EQ,
-Saunders International Limited,Industrials,SND.AX,EQ,
-PRL Global Ltd,Materials,PRG.AX,EQ,
-Manuka Resources Ltd,Materials,MKR.AX,EQ,
-Frontier Digital Ventures Ltd.,Technology,FDV.AX,EQ,
-Peter Warren Automotive Holdings Ltd,Consumer Discretionary,PWR.AX,EQ,
-AIMS Property Securities Fund,Industrials,APW.AX,EQ,
-Rand Mining Limited,Materials,RND.AX,EQ,
-Geopacific Resources Limited,Materials,GPR.AX,EQ,
-Lake Resources N.L.,Materials,LKE.AX,EQ,
-Renascor Resources Ltd,Materials,RNU.AX,EQ,
-Peel Mining Limited,Materials,PEX.AX,EQ,
-Vita Life Sciences Limited,Health Care,VLS.AX,EQ,
-Tanami Gold NL,Materials,TAM.AX,EQ,
-Global Lithium Resources Ltd.,Materials,GL1.AX,EQ,
-Stealth Group holdings Ltd.,Industrials,SGI.AX,EQ,
-Talga Group Ltd.,Materials,TLG.AX,EQ,
-Delta Lithium Limited,Materials,DLI.AX,EQ,
-Sea Forest Limited,Materials,SEA.AX,EQ,
-Kaiser Reef Ltd,Materials,KAU.AX,EQ,
-Elementos Limited,Materials,ELT.AX,EQ,
-Investigator Silver Limited,Materials,IVR.AX,EQ,
-DevEx Resources Ltd,Materials,DEV.AX,EQ,
-OFX Group Ltd.,Industrials,OFX.AX,EQ,
-Encounter Resources Limited,Materials,ENR.AX,EQ,
-SPC Global Holdings Ltd,Consumer Staples,SPG.AX,EQ,
-Quantum Graphite Ltd,Materials,QGL.AX,EQ,
-Actinogen Medical Limited,Health Care,ACW.AX,EQ,
-Somnomed Limited,Health Care,SOM.AX,EQ,
-Brockman Mining Ltd.,Industrials,BCK.AX,EQ,
-Oneview Healthcare PLC Chess Depository Interests repr 1,Technology,ONE.AX,EQ,
-Energy Transition Minerals Ltd.,Materials,ETM.AX,EQ,
-Trek Metals Ltd Registered Chess Depositary Interests repr 1,Materials,TKM.AX,EQ,
-Big River Industries Ltd.,Materials,BRI.AX,EQ,
-Michael Hill International Ltd.,Consumer Discretionary,MHJ.AX,EQ,
-Frontier Energy Limited,Industrials,FHE.AX,EQ,
-Pilbara Gold Limited,Materials,PGL.AX,EQ,
-Marmota Limited,Materials,MEU.AX,EQ,
-Bathurst Resources Ltd,Energy,BRL.AX,EQ,
-Aura Energy Ltd,Materials,AEE.AX,EQ,
-Elevate Uranium Ltd,Materials,EL8.AX,EQ,
-EDU Holdings Limited,Industrials,EDU.AX,EQ,
-Nyrada Inc. Shs Chess Depository Interests Repr 1 Shs,Health Care,NYR.AX,EQ,
-CuFe Ltd,Materials,CUF.AX,EQ,
-Stellar Resources Limited,Materials,SRZ.AX,EQ,
-Gateway Mining Limited,Materials,GML.AX,EQ,
-Invictus Energy Limited,Energy,IVZ.AX,EQ,
-Cauldron Energy Limited,Materials,CXU.AX,EQ,
-Shine Justice Ltd.,Consumer Discretionary,SHJ.AX,EQ,
-Aspire Mining Limited,Energy,AKM.AX,EQ,
-Maronan Metals Ltd,Materials,MMA.AX,EQ,
-MLG Oz Ltd,Industrials,MLG.AX,EQ,
-Ardea Resources Ltd.,Materials,ARL.AX,EQ,
-NobleOak Life Ltd,Financials,NOL.AX,EQ,
-Bhagwan Marine Ltd.,Industrials,BWN.AX,EQ,
-KMD Brands Limited,Consumer Discretionary,KMD.AX,EQ,
-Island Pharmaceuticals Ltd,Health Care,ILA.AX,EQ,
-Austin Engineering Limited,Industrials,ANG.AX,EQ,
-Falcon Metals Ltd,Materials,FAL.AX,EQ,
-Adrad Holdings Limited,Industrials,AHL.AX,EQ,
-Sunshine Metals Limited,Materials,SHN.AX,EQ,
-Fluence Corporation Limited,Industrials,FLC.AX,EQ,
-Great Boulder Resources Ltd,Materials,GBR.AX,EQ,
-New Zealand King Salmon Investments Ltd.,Consumer Staples,NZK.AX,EQ,
-Conrad Asia Energy Ltd. Shs Chess Depositary Interests Repr 1 Sh,Energy,CRD.AX,EQ,
-Ariana Resources PLC Shs CHESS DEPOSITARY INTERESTS 1:10,Materials,AA2.AX,EQ,
-Credit Clear Limited,Technology,CCR.AX,EQ,
-Resolution Minerals Ltd.,Materials,RML.AX,EQ,
-Dimerix Limited,Health Care,DXB.AX,EQ,
-Mitchell Services Limited,Industrials,MSV.AX,EQ,
-Eden Innovations Ltd,Industrials,EDE.AX,EQ,
-G8 Education Limited,Consumer Discretionary,GEM.AX,EQ,
-Cue Energy Resources Limited,Energy,CUE.AX,EQ,
-Oceana metals Limited,Materials,OCN.AX,EQ,
-US Masters Residential Property Fund,Financials,URF.AX,EQ,
-Yojee Ltd.,Technology,YOJ.AX,EQ,
-Globe International Limited,Consumer Staples,GLB.AX,EQ,
-Tamawood Limited,Consumer Discretionary,TWD.AX,EQ,
-GBM Resources Limited,Materials,GBM.AX,EQ,
-Lumos Diagnostics Holdings Ltd.,Health Care,LDX.AX,EQ,
-Dreadnought Resources Limited,Materials,DRE.AX,EQ,
-Schoolblazer Limited,Financials,SBZ.AX,EQ,
-Pioneer Credit Ltd,Financials,PNC.AX,EQ,
-WOTSO,Financials,WOT.AX,EQ,
-Carma Limited,Consumer Discretionary,CMA.AX,EQ,
-Infragreen Group Limited,Industrials,IFN.AX,EQ,
-hipages Group Holdings Ltd.,Technology,HPG.AX,EQ,
-Hazer Group Ltd.,Materials,HZR.AX,EQ,
-Archer Materials Limited,Technology,AXE.AX,EQ,
-DGL Group Limited,Materials,DGL.AX,EQ,
-360 Capital REIT,Financials,TOT.AX,EQ,
-Lark Distilling Co. Ltd.,Consumer Staples,LRK.AX,EQ,
-Golden Horse Minerals Limited Chess Depository,Materials,GHM.AX,EQ,
-Blinklab Limited,Technology,BB1.AX,EQ,
-Calix Ltd.,Industrials,CXL.AX,EQ,
-Black Bear Minerals Limited,Materials,BKB.AX,EQ,
-Emperor Energy Ltd,Energy,EMP.AX,EQ,
-Stakk Ltd,Technology,SKK.AX,EQ,
-Aldoro Resources Ltd.,Materials,ARN.AX,EQ,
-Cettire Ltd.,Consumer Discretionary,CTT.AX,EQ,
-PhosCo Ltd,Materials,PHO.AX,EQ,
-Hastings Technology Metals Limited,Materials,HAS.AX,EQ,
-Li-S Energy Ltd,Industrials,LIS.AX,EQ,
-Ariadne Australia Limited,Financials,ARA.AX,EQ,
-Lion Rock Minerals Limited,Materials,LRM.AX,EQ,
-Argosy Minerals Limited,Materials,AGY.AX,EQ,
-Alterity Therapeutics Ltd.,Health Care,ATH.AX,EQ,
-Alterity Therapeutics Ltd TEMP,Health Care,ATHDA.AX,EQ,
-AnteoTech Ltd,Health Care,ADO.AX,EQ,
-Pancontinental Energy NL,Energy,PCL.AX,EQ,
-Airtasker Ltd,Technology,ART.AX,EQ,
-Sports Entertainment Group Limited,Consumer Discretionary,SEG.AX,EQ,
-EVZ Limited,Industrials,EVZ.AX,EQ,
-IODM Ltd.,Technology,IOD.AX,EQ,
-Ionic Rare Earths Limited,Materials,IXR.AX,EQ,
-Matrix Composites & Engineering Ltd,Industrials,MCE.AX,EQ,
-Gold Hydrogen Ltd.,Utilities,GHY.AX,EQ,
-QPM Energy Limited,Industrials,QPM.AX,EQ,
-American Tungsten & Antimony Ltd,Materials,AT4.AX,EQ,
-White Energy Company Limited,Energy,WEC.AX,EQ,
-Vinyl Group Ltd.,Technology,VNL.AX,EQ,
-Alliance Aviation Services Limited,Industrials,AQZ.AX,EQ,
-LTR Pharma Limited,Health Care,LTP.AX,EQ,
-Austco Healthcare Ltd,Technology,AHC.AX,EQ,
-Nido Education Limited,Industrials,NDO.AX,EQ,
-Paradigm Biopharmaceuticals Ltd.,Health Care,PAR.AX,EQ,
-Embark Early Education Limited,Consumer Discretionary,EVO.AX,EQ,
-Arovella Therapeutics Limited,Health Care,ALA.AX,EQ,
-Harmoney Corp Ltd,Financials,HMY.AX,EQ,
-Anson Resources Limited,Materials,ASN.AX,EQ,
-PharmX Technologies Limited,Technology,PHX.AX,EQ,
-Bellavista Resources Ltd,Materials,BVR.AX,EQ,
-Brazillian Critical Minerals Limited,Materials,BCM.AX,EQ,
-Epiminder Ltd.,Technology,EPI.AX,EQ,
-AusQuest Limited,Materials,AQD.AX,EQ,
-MaxiPARTS Limited,Industrials,MXI.AX,EQ,
-AML3D Ltd,Industrials,AL3.AX,EQ,
-Lac Gold Limited,Materials,LAC.AX,EQ,
-Diatreme Resources Limited,Materials,DRX.AX,EQ,
-Cyclopharm Limited,Health Care,CYC.AX,EQ,
-Chilwa Minerals Ltd,Materials,CHW.AX,EQ,
-Apollo Minerals Limited,Materials,AON.AX,EQ,
-Echelon Resources Limited,Energy,ECH.AX,EQ,
-VHM Limited,Materials,VHM.AX,EQ,
-RTG Mining Inc Chess Depository Interests repr 1 Sh,Materials,RTG.AX,EQ,
-Bubs Australia Ltd.,Industrials,BUB.AX,EQ,
-Centrepoint Alliance Limited,Industrials,CAF.AX,EQ,
-Nordic Resources Limited.,Materials,NNL.AX,EQ,
-Yandal Resources Ltd.,Materials,YRL.AX,EQ,
-Blackstone Minerals Ltd,Materials,BSX.AX,EQ,
-Prescient Therapeutics Limited,Health Care,PTX.AX,EQ,
-Element 25 Limited,Materials,E25.AX,EQ,
-Resource Minerals International Ltd,Materials,RMI.AX,EQ,
-Mach7 Technologies Ltd.,Technology,M7T.AX,EQ,
-Lunnon Metals Limited,Materials,LM8.AX,EQ,
-Caprice Resources Ltd.,Materials,CRS.AX,EQ,
-Rent.com.au Ltd,Technology,RNT.AX,EQ,
-Adveritas Limited,Technology,AV1.AX,EQ,
-Patronus Resources Limited,Materials,PTN.AX,EQ,
-Austral Gold Limited,Materials,AGD.AX,EQ,
-Kingston Resources Ltd.,Materials,KSN.AX,EQ,
-Articore Group Limited,Consumer Discretionary,ATG.AX,EQ,
-Little Green Pharma Ltd.,Materials,LGP.AX,EQ,
-Sentinel Metals Limited,Materials,SNM.AX,EQ,
-Alfabs Australia Ltd.,Industrials,AAL.AX,EQ,
-Flagship Minerals limited,Materials,FLG.AX,EQ,
-Mastermyne Group Limited,Industrials,MYE.AX,EQ,
-Radiopharm Theranostics Limited,Health Care,RAD.AX,EQ,
-True North Copper Limited,Materials,TNC.AX,EQ,
-Etherstack Plc Shs Chess Depository Interests repr 1 sh,Technology,ESK.AX,EQ,
-Immutep Ltd,Health Care,IMM.AX,EQ,
-CLEO Diagnostics Ltd,Health Care,COV.AX,EQ,
-Peoplein Limited,Industrials,PPE.AX,EQ,
-Pengana Capital Group Ltd.,Industrials,PCG.AX,EQ,
-Po Valley Energy Limited,Energy,PVE.AX,EQ,
-Cynata Therapeutics Limited,Health Care,CYP.AX,EQ,
-Matsa Resources Ltd,Materials,MAT.AX,EQ,
-European Metals Holdings Ltd,Materials,EMH.AX,EQ,
-ARN Media Limited,Consumer Discretionary,A1N.AX,EQ,
-Toro Energy Limited,Materials,TOE.AX,EQ,
-Australian Vanadium Limited,Industrials,AVL.AX,EQ,
-Boom Logistics Ltd,Financials,BOL.AX,EQ,
-BluGlass Ltd,Technology,BLG.AX,EQ,
-Singular Health Group Ltd,Technology,SHG.AX,EQ,
-Rumble Resources Limited,Materials,RTR.AX,EQ,
-MoneyMe Ltd.,Technology,MME.AX,EQ,
-Biome Australia Ltd,Health Care,BIO.AX,EQ,
-Ore Resources Limited,Materials,OR3.AX,EQ,
-Canadian Phosphate Limited,Materials,CP8.AX,EQ,
-Structural Monitoring Systems Plc Chess Depository Interests,Technology,SMN.AX,EQ,
-Iron Bear Resources Ltd,Materials,IBR.AX,EQ,
-Veem Ltd.,Industrials,VEE.AX,EQ,
-Infotrust Ltd,Communication Services,ITS.AX,EQ,
-NH3 Clean Energy Limited,Materials,NH3.AX,EQ,
-Globe Metals & Mining Limited,Materials,GBE.AX,EQ,
-Loyal Metals Limited.,Materials,LLM.AX,EQ,
-Estrella Resources Limited,Materials,ESR.AX,EQ,
-EMC Gold Corporation Chess Depository Interests,Materials,EM3.AX,EQ,
-RocketBoots Ltd.,Technology,ROC.AX,EQ,
-Critica Limited,Materials,CRI.AX,EQ,
-Osmond Resources Limited,Materials,OSM.AX,EQ,
-Carnegie Clean Energy Ltd,Industrials,CCE.AX,EQ,
-MetalsTech Ltd,Materials,MTC.AX,EQ,
-Famien Resources Limited,Materials,FMN.AX,EQ,
-Kinetiko Energy Ltd.,Energy,KKO.AX,EQ,
-Black Canyon Limited,Materials,BCA.AX,EQ,
-Beforepay Group Limited,Technology,B4P.AX,EQ,
-SportsHero Limited,Technology,SHO.AX,EQ,
-Laserbond Limited,Materials,LBL.AX,EQ,
-Amplia Therapeutics Ltd.,Health Care,ATX.AX,EQ,
-Coda Minerals Ltd,Materials,COD.AX,EQ,
-Freelancer Ltd.,Technology,FLN.AX,EQ,
-Aland Equity Group Limited,Financials,AEG.AX,EQ,
-Experience Co Ltd,Consumer Discretionary,EXP.AX,EQ,
-Botanix Pharmaceuticals Limited,Health Care,BOT.AX,EQ,
-Australian Unity Office Fund,Financials,AOF.AX,EQ,
-F.F.I. Holdings Ltd.,Consumer Staples,FFI.AX,EQ,
-Playside Studios Ltd,Technology,PLY.AX,EQ,
-Far East Gold Ltd,Materials,FEG.AX,EQ,
-Pacgold Limited,Materials,PGO.AX,EQ,
-Haranga Resources Limited,Materials,HAR.AX,EQ,
-Ion Video Ltd,Materials,IOV.AX,EQ,
-Raiz Invest Ltd.,Financials,RZI.AX,EQ,
-Sunstone Metals Ltd,Materials,STM.AX,EQ,
-Anax Metals Limited,Materials,ANX.AX,EQ,
-Lachlan Star Limited,Materials,LSA.AX,EQ,
-Duxton Farms Limited,Materials,DBF.AX,EQ,
-Prime Financial Group Limited,Financials,PFG.AX,EQ,
-Kinatico Limited,Industrials,KYP.AX,EQ,
-NuEnergy Gas Limited,Energy,NGY.AX,EQ,
-Venus Metals Corporation Limited,Materials,VMC.AX,EQ,
-CZR Resources Ltd,Materials,CZR.AX,EQ,
-DXN Ltd.,Technology,DXN.AX,EQ,
-Zenith Minerals Limited,Materials,ZNC.AX,EQ,
-Vection Technologies Ltd.,Technology,VR1.AX,EQ,
-Entropy Neurodynamics Limited,Health Care,ENP.AX,EQ,
-Red Metal Limited,Materials,RDM.AX,EQ,
-First Graphene Ltd,Industrials,FGR.AX,EQ,
-D3 Energy Limited,Energy,D3E.AX,EQ,
-Microequities Asset Management Group Ltd.,Financials,MAM.AX,EQ,
-Wiseway Group Ltd.,Industrials,WWG.AX,EQ,
-Urbanise.com Ltd.,Technology,UBN.AX,EQ,
-Farm Pride Foods Limited,Materials,FRM.AX,EQ,
-Nanoveu Ltd.,Technology,NVU.AX,EQ,
-Aquirian Limited,Industrials,AQN.AX,EQ,
-xReality Group Limited,Consumer Discretionary,XRG.AX,EQ,
-Integrated Research Limited,Technology,IRI.AX,EQ,
-Odyssey Gold Limited,Materials,ODY.AX,EQ,
-Environmental Clean Technologies Limited,Industrials,ECT.AX,EQ,
-Kalamazoo Resources Ltd.,Materials,KZR.AX,EQ,
-Everlast Minerals Ltd,Materials,EV8.AX,EQ,
-Australian Mines Limited,Materials,AUZ.AX,EQ,
-Cryosite Limited,Industrials,CTE.AX,EQ,
-Mithril Silver and Gold Limited,Materials,MTH.AX,EQ,
-Auric Mining Ltd.,Materials,AWJ.AX,EQ,
-Senetas Corporation Limited,Technology,SEN.AX,EQ,
-Black Pearl Group Limited,Technology,BPG.AX,EQ,
-Compumedics Limited,Health Care,CMP.AX,EQ,
-ASF Group Limited,Financials,AFA.AX,EQ,
-Native Mineral Resources Holdings Ltd.,Materials,NMR.AX,EQ,
-Central Petroleum Limited,Energy,CTP.AX,EQ,
-Simonds Group Ltd.,Industrials,SIO.AX,EQ,
-American West Metals Ltd.,Materials,AW1.AX,EQ,
-Advance ZincTek Limited,Materials,ANO.AX,EQ,
-Avecho Biotechnology Limited,Health Care,AVE.AX,EQ,
-Change Financial Ltd,Technology,CCA.AX,EQ,
-Cokal Limited,Energy,CKA.AX,EQ,
-Clean TeQ Water Ltd,Industrials,CNQ.AX,EQ,
-Doctor Care Anywhere Group PLC Shs Chess Depository Interests Repr 1 sh,Health Care,DOC.AX,EQ,
-Power Minerals Limited,Materials,PNN.AX,EQ,
-ClearVue Technologies Ltd.,Technology,CPV.AX,EQ,
-Verbrec Ltd,Industrials,VBC.AX,EQ,
-VBX Limited,Materials,VBX.AX,EQ,
-Cannindah Resources Limited,Materials,CAE.AX,EQ,
-AuKing Mining Ltd,Materials,AKN.AX,EQ,
-HeraMED Ltd,Technology,HMD.AX,EQ,
-Shriro Holdings Ltd.,Consumer Discretionary,SHM.AX,EQ,
-Findi Limited,Industrials,FND.AX,EQ,
-Brookside Energy Limited,Energy,BRK.AX,EQ,
-Trajan Group Holdings Ltd,Industrials,TRJ.AX,EQ,
-Vmoto Limited,Consumer Discretionary,VMT.AX,EQ,
-Inoviq Ltd,Health Care,IIQ.AX,EQ,
-Terramin Australia Limited,Materials,TZN.AX,EQ,
-Salter Brothers Emerging Companies Ltd.,Financials,SB2.AX,EQ,
-Latrobe Magnesium Limited,Materials,LMG.AX,EQ,
-Syntara Limited,Health Care,SNT.AX,EQ,
-PolarX Ltd,Materials,PXX.AX,EQ,
-Besra Gold Inc Shs Chess Depository Interests Repr 1 Sh,Materials,BEZ.AX,EQ,
-Reckon Limited,Technology,RKN.AX,EQ,
-Advanced Braking Technology Limited,Industrials,ABV.AX,EQ,
-Santa Fe Minerals Ltd.,Materials,SFM.AX,EQ,
-Hammer Metals Limited,Materials,HMX.AX,EQ,
-Neurizon Therapeutics Limited,Health Care,NUZ.AX,EQ,
-West Coast Silver Limited,Materials,WCE.AX,EQ,
-AuMega Metals Ltd,Materials,AAM.AX,EQ,
-Ai-Media Technologies Limited,Technology,AIM.AX,EQ,
-Australian Wealth Advisors Group Ltd.,Financials,WAG.AX,EQ,
-Citigold Corporation Limited,Materials,CTO.AX,EQ,
-Odessa Minerals Limited,Materials,ODE.AX,EQ,
-Mindax Limited,Materials,MDX.AX,EQ,
-Podium Minerals Limited,Materials,POD.AX,EQ,
-Goldarc Resources Limited,Materials,GA8.AX,EQ,
-Dusk Group Ltd.,Consumer Discretionary,DSK.AX,EQ,
-Eclipse Metals Limited,Materials,EPM.AX,EQ,
-Jindalee Lithium Limited,Materials,JLL.AX,EQ,
-Environmental Group Limited,Industrials,EGL.AX,EQ,
-Clever Culture Systems Limited,Health Care,CC5.AX,EQ,
-dorsaVi Ltd.,Technology,DVL.AX,EQ,
-Cobalt Blue Holdings Ltd.,Materials,COB.AX,EQ,
-archTIS Ltd.,Technology,AR9.AX,EQ,
-Aguia Resources Limited,Materials,AGR.AX,EQ,
-Rapid Critical Metals Limited,Materials,RCM.AX,EQ,
-Medical Developments International Limited,Health Care,MVP.AX,EQ,
-WT Financial Group Ltd.,Financials,WTL.AX,EQ,
-Breakthrough Minerals Limited,Energy,BTM.AX,EQ,
-Argent Minerals Limited,Materials,ARD.AX,EQ,
-Mont Royal Resources Ltd.,Materials,MRZ.AX,EQ,
-Sprintex Limited,Industrials,SIX.AX,EQ,
-Pureprofile Ltd.,Industrials,PPL.AX,EQ,
-LE Minerals Limited,Materials,LEL.AX,EQ,
-Greenwing Resources Ltd,Materials,GW1.AX,EQ,
-Kincora Copper Limited Shs Chess Depository Interests Repr 1 Sh,Materials,KCC.AX,EQ,
-Ordell Minerals Ltd,Materials,ORD.AX,EQ,
-Australian Gold & Copper Ltd.,Materials,AGC.AX,EQ,
-Comms Group Ltd,Technology,CCG.AX,EQ,
-Hitech Group Australia Limited,Industrials,HIT.AX,EQ,
-Kalina Power Limited,Utilities,KPO.AX,EQ,
-Green360 Technologies Limited,Materials,GT3.AX,EQ,
-Atlas Pearls Ltd,Consumer Discretionary,ATP.AX,EQ,
-QMines Ltd.,Materials,QML.AX,EQ,
-TPC Consolidated Limited,Utilities,TPC.AX,EQ,
-GTN Ltd.,Industrials,GTN.AX,EQ,
-Cosol Limited,Technology,COS.AX,EQ,
-White Cliff Minerals Limited,Materials,WCN.AX,EQ,
-Foresta Group Holdings Limited,Materials,FGH.AX,EQ,
-Carnavale Resources Limited,Materials,CAV.AX,EQ,
-Coventry Group Limited,Industrials,CYG.AX,EQ,
-PTR Minerals Limited,Materials,PTR.AX,EQ,
-Retail Food Group Limited,Consumer Discretionary,RFG.AX,EQ,
-Hartshead Resources NL,Energy,HHR.AX,EQ,
-VRX Silica Limited,Materials,VRX.AX,EQ,
-G11 Resources Limited,Materials,G11.AX,EQ,
-DigitalX Limited,Technology,DCC.AX,EQ,
-Tali Resources Ltd.,Materials,TR2.AX,EQ,
-Murray Cod Australia Limited,Materials,MCA.AX,EQ,
-Microba Life Sciences Limited,Health Care,MAP.AX,EQ,
-King River Resources Limited,Materials,KRR.AX,EQ,
-Imugene Ltd,Health Care,IMU.AX,EQ,
-Rhythm Biosciences Limited,Health Care,RHY.AX,EQ,
-Fortuna Metals Limited,Materials,FUN.AX,EQ,
-Solis Minerals Ltd,Materials,SLM.AX,EQ,
-Pure Resources Limited,Materials,PR1.AX,EQ,
-Lefroy Exploration Ltd.,Materials,LEX.AX,EQ,
-Wisr Ltd.,Financials,WZR.AX,EQ,
-Nexus Minerals Ltd.,Materials,NXM.AX,EQ,
-Western Gold Resources Ltd.,Materials,WGR.AX,EQ,
-Heavy Minerals Ltd,Materials,HVY.AX,EQ,
-OD6 Metals Ltd.,Materials,OD6.AX,EQ,
-TMK Energy Limited,Energy,TMK.AX,EQ,
-Castile Resources Ltd,Materials,CST.AX,EQ,
-Antilles Gold Ltd,Materials,AAU.AX,EQ,
-GWR Group Limited,Materials,GWR.AX,EQ,
-Gumtree Australia Markets Limited,Technology,GUM.AX,EQ,
-Veris Limited,Technology,VRS.AX,EQ,
-Advance Metals Limited,Industrials,AVM.AX,EQ,
-Ovanti Ltd,Technology,OVT.AX,EQ,
-Transmetro Corp. Ltd.,Consumer Discretionary,TCO.AX,EQ,
-Emyria Ltd,Technology,EMD.AX,EQ,
-Yugo Metals Limited,Materials,YUG.AX,EQ,
-Mount Ridley Mines Limited,Materials,MRD.AX,EQ,
-Vertex Minerals Ltd.,Materials,VTX.AX,EQ,
-Great Dirt Resources Ltd,Materials,GR8.AX,EQ,
-MinRex Resources Limited,Materials,MRR.AX,EQ,
-Ashley Services Group Ltd.,Industrials,ASH.AX,EQ,
-Neuroscientific Biopharmaceuticals Ltd.,Health Care,NSB.AX,EQ,
-Firebird Metals Ltd.,Materials,FRB.AX,EQ,
-HyTerra Ltd,Energy,HYT.AX,EQ,
-NTAW Holdings Limited.,Industrials,NTD.AX,EQ,
-Alma Metals Limited Chess Depository Interests repr 1 Shs,Materials,ALM.AX,EQ,
-Nova Eye Medical Ltd,Health Care,EYE.AX,EQ,
-RocketDNA Ltd,Technology,RKT.AX,EQ,
-Sparc Technologies Ltd,Industrials,SPN.AX,EQ,
-Image Resources NL,Materials,IMA.AX,EQ,
-RAS Technology Holdings Limited,Technology,RTH.AX,EQ,
-Desane Group Holdings Ltd,Financials,DGH.AX,EQ,
-Skylark Minerals Limited,Materials,SKM.AX,EQ,
-Control Bionics Ltd.,Technology,CBL.AX,EQ,
-Jameson Resources Limited,Energy,JAL.AX,EQ,
-TrivarX Limited,Technology,TRI.AX,EQ,
-Jupiter Energy Limited,Energy,JPR.AX,EQ,
-EarlyPay Limited,Financials,EPY.AX,EQ,
-Novo Resources Corp. Shs Chess Depository Interests repr 1 shs,Materials,NVO.AX,EQ,
-WA Gold Limited,Materials,WAU.AX,EQ,
-Zuleika Gold Limited,Materials,ZAG.AX,EQ,
-Hawthorn Resources Limited,Materials,HAW.AX,EQ,
-S2 Resources Ltd.,Materials,S2R.AX,EQ,
-Maggie Beer Holdings Ltd.,Industrials,MBH.AX,EQ,
-Dotz Nano Limited,Materials,DTZ.AX,EQ,
-Resouro Strategic Metals Inc Shs Chess Depository Interests Repr 1 Sh,Materials,RAU.AX,EQ,
-Teaminvest Private Group Ltd,Financials,TIP.AX,EQ,
-Arika Resources Limited,Materials,ARI.AX,EQ,
-Micro-X Ltd.,Health Care,MX1.AX,EQ,
-Step One Clothing Limited,Consumer Discretionary,STP.AX,EQ,
-Locksley Resources Limited,Materials,LKY.AX,EQ,
-Carbonxt Group Ltd.,Materials,CG1.AX,EQ,
-Mammoth Minerals Limited,Materials,M79.AX,EQ,
-Black Rock Mining Limited,Materials,BKT.AX,EQ,
-PPK Group Limited,Consumer Discretionary,PPK.AX,EQ,
-Prodigy Gold NL,Materials,PRX.AX,EQ,
-Lincoln Minerals Limited,Materials,LML.AX,EQ,
-Swoop Holdings Limited,Technology,SWP.AX,EQ,
-Altech Batteries Limited,Materials,ATC.AX,EQ,
-Aurora Labs Ltd.,Industrials,A3D.AX,EQ,
-Caspin Resources Ltd.,Materials,CPN.AX,EQ,
-Desoto Resources Ltd.,Materials,DES.AX,EQ,
-Alliance Nickel Limited,Materials,AXN.AX,EQ,
-Lakes Blue Energy NL,Energy,LKO.AX,EQ,
-Koonenberry Gold Limited,Materials,KNB.AX,EQ,
-Richmond Vanadium Technology Pty Ltd.,Materials,RVT.AX,EQ,
-Evion Group NL,Materials,EVG.AX,EQ,
-BNK Banking Corporation Limited,Financials,BBC.AX,EQ,
-Vital Metals Ltd,Materials,VML.AX,EQ,
-Zoono Group Limited,Health Care,ZNO.AX,EQ,
-Cassius Mining Ltd,Materials,CMD.AX,EQ,
-Alara Resources Limited,Materials,AUQ.AX,EQ,
-Patrys Limited,Health Care,PAB.AX,EQ,
-NextEd Group Limited,Consumer Discretionary,NXD.AX,EQ,
-High-Tech Metals Limited,Materials,HTM.AX,EQ,
-Dynamic Metals Limited,Materials,DYM.AX,EQ,
-Nanollose Ltd,Health Care,NC6.AX,EQ,
-Ballymore Resources Limited,Materials,BMR.AX,EQ,
-Tasman Resources Ltd,Materials,TAS.AX,EQ,
-Kip McGrath Education Centres Limited,Consumer Discretionary,KME.AX,EQ,
-CleanSpace Holdings Ltd.,Health Care,CSX.AX,EQ,
-Riversgold Ltd.,Materials,RGL.AX,EQ,
-Raptor Metals Ltd,Materials,RAP.AX,EQ,
-FlexiRoam Ltd,Communication Services,FRX.AX,EQ,
-Activeport Group Limited,Technology,ATV.AX,EQ,
-BCAL Diagnostics Limited,Health Care,BDX.AX,EQ,
-Holista Colltech Limited,Health Care,HCT.AX,EQ,
-PainChek Ltd,Technology,PCK.AX,EQ,
-Beamtree Holdings Ltd,Technology,BMT.AX,EQ,
-Volt Group Ltd.,Utilities,VPR.AX,EQ,
-London City Equities Ltd,Financials,LCE.AX,EQ,
-Everest Metals Corporation Limited,Materials,EMC.AX,EQ,
-QuickFee Ltd.,Industrials,QFE.AX,EQ,
-Australian Rare Earths Limited,Materials,AR3.AX,EQ,
-Viking Mines Limited,Materials,VKA.AX,EQ,
-Cosmos Exploration Limited,Materials,C1X.AX,EQ,
-EZZ Life Science Holdings Ltd.,Industrials,EZZ.AX,EQ,
-Enero Group Limited,Industrials,EGG.AX,EQ,
-Adore Beauty Group Ltd.,Consumer Discretionary,ABY.AX,EQ,
-Asset Vision Co Ltd,Industrials,ASV.AX,EQ,
-Neometals Ltd,Materials,NMT.AX,EQ,
-Trade Window Holdings Ltd.,Technology,TWL.AX,EQ,
-DGR Global Limited,Materials,DGR.AX,EQ,
-Janison Education Group Ltd.,Technology,JAN.AX,EQ,
-Kali Metals Limited,Materials,KM1.AX,EQ,
-Noumi Limited,Consumer Staples,NOU.AX,EQ,
-Recharge Metals Limited,Materials,REC.AX,EQ,
-Auris Minerals Ltd.,Materials,AUR.AX,EQ,
-Sheffield Resources Limited,Materials,SFX.AX,EQ,
-Blackwall Limited,Financials,BWF.AX,EQ,
-Talius Group Limited,Technology,TAL.AX,EQ,
-Minbos Resources Limited,Materials,MNB.AX,EQ,
-Latitude 66 Limited,Materials,LAT.AX,EQ,
-FAR Ltd,Energy,FAR.AX,EQ,
-Aerometrex Ltd.,Industrials,AMX.AX,EQ,
-Orpheus Uranium Limited,Materials,ORP.AX,EQ,
-Pure One Corporation Limited,Energy,P1E.AX,EQ,
-OzAurum Resources Ltd.,Materials,OZM.AX,EQ,
-Orbital Corporation Ltd,Technology,OEC.AX,EQ,
-Excelsior Capital Ltd,Industrials,ECL.AX,EQ,
-Legacy Minerals Holdings Limited,Materials,LGM.AX,EQ,
-Leeuwin Metals Ltd,Materials,LM1.AX,EQ,
-Noxopharm Ltd.,Health Care,NOX.AX,EQ,
-Impact Minerals Limited,Materials,IPT.AX,EQ,
-Zicom Group Limited,Industrials,ZGL.AX,EQ,
-BPM Minerals Ltd.,Materials,BPM.AX,EQ,
-Clime Investment Management Ltd,Financials,CIW.AX,EQ,
-Greentech Metals Ltd.,Materials,GRE.AX,EQ,
-Iondrive Limited,Materials,ION.AX,EQ,
-Revolver Resources Holdings Ltd,Materials,RRR.AX,EQ,
-Accent Resources NL,Materials,ACS.AX,EQ,
-Curvebeam AI Ltd.,Health Care,CVB.AX,EQ,
-Metro Performance Glass Ltd,Materials,MPP.AX,EQ,
-Paterson Resources Limited,Materials,PSL.AX,EQ,
-SenSen Networks Ltd.,Technology,SNS.AX,EQ,
-ARK Mines Ltd,Materials,AHK.AX,EQ,
-Great Divide Mining Ltd,Materials,GDM.AX,EQ,
-Australis Oil & Gas Ltd.,Energy,ATS.AX,EQ,
-Delorean Corporation Ltd,Utilities,DEL.AX,EQ,
-TG Metals Ltd.,Materials,TG6.AX,EQ,
-Powerhouse Ventures Ltd.,Financials,PVL.AX,EQ,
-HighCom Limited,Technology,HCL.AX,EQ,
-ADX Energy Ltd,Energy,ADX.AX,EQ,
-Nico Resources Limited,Materials,NC1.AX,EQ,
-iCetana Ltd.,Technology,ICE.AX,EQ,
-Australian Vintage Ltd,Consumer Staples,AVG.AX,EQ,
-Janus Electric Holdings Limited,Utilities,JNS.AX,EQ,
-Pathkey.AI Limited,Technology,PKY.AX,EQ,
-Group One Capital Limited,Financials,G1C.AX,EQ,
-Patriot Resources limited,Materials,PAT.AX,EQ,
-Voltaic Strategic Resources Limited,Energy,VSR.AX,EQ,
-Western Mines Group Ltd,Materials,WMG.AX,EQ,
-Galileo Mining Ltd.,Materials,GAL.AX,EQ,
-SRJ Technologies Group PLC Shs Chess Depository Interests repr 1 Shs,Industrials,SRJ.AX,EQ,
-Gold Mountain Limited,Materials,GMN.AX,EQ,
-Gale Pacific Limited,Materials,GAP.AX,EQ,
-Agrimin Limited,Materials,AMN.AX,EQ,
-Proteomics International Laboratories Ltd.,Health Care,PIQ.AX,EQ,
-Lode Resources Ltd,Materials,LDR.AX,EQ,
-BSA Limited,Industrials,BSA.AX,EQ,
-Fitzroy River Corp. Ltd.,Industrials,FZR.AX,EQ,
-Great Southern Mining Limited,Materials,GSN.AX,EQ,
-Dalaroo Metals Ltd.,Materials,DAL.AX,EQ,
-Iris Metals Limited,Materials,IR1.AX,EQ,
-Botala Energy Ltd.,Energy,BTE.AX,EQ,
-Aspermont Limited,Consumer Discretionary,ASP.AX,EQ,
-Patagonia Lithium Limited,Materials,PL3.AX,EQ,
-Gratifii Ltd,Materials,GTI.AX,EQ,
-RLF AgTech Ltd,Materials,RLF.AX,EQ,
-Altamin Limited,Materials,AZI.AX,EQ,
-Noble Helium Ltd.,Materials,NHE.AX,EQ,
-Marvel Gold Ltd,Materials,MVL.AX,EQ,
-Cavalier Resources Limited,Materials,CVR.AX,EQ,
-RMA Global Ltd.,Technology,RMY.AX,EQ,
-De.mem Ltd.,Industrials,DEM.AX,EQ,
-Vitura Health Limited,Health Care,VIT.AX,EQ,
-Felix Group Holdings Ltd.,Technology,FLX.AX,EQ,
-Horseshoe Metals Limited,Materials,HOR.AX,EQ,
-Star Combo Pharma Ltd.,Health Care,S66.AX,EQ,
-Hamelin Gold Limited,Materials,HMG.AX,EQ,
-MOVe Logistics Group Limited,Industrials,MOV.AX,EQ,
-Harvest Technology Group Ltd.,Technology,HTG.AX,EQ,
-Opthea Limited,Health Care,OPT.AX,EQ,
-Income Asset Management Group Limited,Financials,IAM.AX,EQ,
-Connected Minerals Limited,Technology,CML.AX,EQ,
-Mayfield Childcare Ltd.,Consumer Discretionary,MFD.AX,EQ,
-Us1 Critical Minerals Limited,Materials,USC.AX,EQ,
-Australian Agricultural Projects Ltd.,Consumer Staples,AAP.AX,EQ,
-Javelin Minerals Limited,Materials,JAV.AX,EQ,
-Magmatic Resources Ltd.,Materials,MAG.AX,EQ,
-Pursuit Minerals Ltd,Materials,PUR.AX,EQ,
-Equatorial Resources Limited,Materials,EQX.AX,EQ,
-Nuchev Pty Ltd,Consumer Staples,NUC.AX,EQ,
-Greenvale Energy Limited,Energy,GRV.AX,EQ,
-Bass Oil Ltd,Energy,BAS.AX,EQ,
-FMR Resources Limited,Technology,FMR.AX,EQ,
-Atomos Ltd.,Consumer Discretionary,AMS.AX,EQ,
-I Synergy Group Ltd TEMP,Industrials,IS3DB.AX,EQ,
-I Synergy Group Ltd.,Industrials,IS3.AX,EQ,
-Resonance Health Ltd,Health Care,RHT.AX,EQ,
-ImExHS Ltd,Technology,IME.AX,EQ,
-Great Northern Minerals Limited,Materials,GNM.AX,EQ,
-Lodestar Minerals Limited,Materials,LSR.AX,EQ,
-Kingsrose Mining Ltd,Materials,KRM.AX,EQ,
-ABx Group Limited,Materials,ABX.AX,EQ,
-Green Technology Metals Limited,Materials,GT1.AX,EQ,
-Mcpherson's Limited,Consumer Staples,MCP.AX,EQ,
-Indiana Resources Limited,Materials,IDA.AX,EQ,
-Embelton Limited,Materials,EMB.AX,EQ,
-High Peak Royalties Limited,Energy,HPR.AX,EQ,
-Pivotal Metals Limited,Materials,PVT.AX,EQ,
-Strategic Elements Ltd,Financials,SOR.AX,EQ,
-Sarytogan Graphite Limited,Materials,SGA.AX,EQ,
-Close the Loop Ltd.,Industrials,CLG.AX,EQ,
-Highfield Resources Limited,Materials,HFR.AX,EQ,
-Buxton Resources Limited,Materials,BUX.AX,EQ,
-Acumentis Group Limited,Financials,ACU.AX,EQ,
-Genetic Signatures Ltd.,Industrials,GSS.AX,EQ,
-Nimy Resources Limited,Materials,NIM.AX,EQ,
-Gullewa Limited,Materials,GUL.AX,EQ,
-Southern Hemisphere Mining Limited,Materials,SUH.AX,EQ,
-Mustera Property Group Ltd.,Financials,MPX.AX,EQ,
-Buru Energy Ltd,Energy,BRU.AX,EQ,
-DataWorks Group Limited,Technology,DWG.AX,EQ,
-Peak Processing Limited,Health Care,PKP.AX,EQ,
-Conneqt Health Limited,Health Care,CQT.AX,EQ,
-EPX Limited,Technology,EPX.AX,EQ,
-Associate Global Partners Limited,Financials,APL.AX,EQ,
-InteliCare Holdings Limited,Technology,ICR.AX,EQ,
-WIN Metals Ltd,Materials,WIN.AX,EQ,
-WAY 2 VAT LTD,Technology,W2V.AX,EQ,
-Hawk Resources Limited.,Materials,HWK.AX,EQ,
-Hawsons Iron Ltd,Materials,HIO.AX,EQ,
-Xenora Minerals Limited,Materials,XRA.AX,EQ,
-RareX Limited,Materials,REE.AX,EQ,
-Godolphin Resources Limited,Materials,GRL.AX,EQ,
-Middle Island Resources Limited,Materials,MDI.AX,EQ,
-Boa Resources Limited,Materials,BOA.AX,EQ,
-Rubicon Water Limited,Industrials,RWL.AX,EQ,
-Energy Metals Ltd,Materials,EME.AX,EQ,
-Invert Graphite Limited,Materials,IVG.AX,EQ,
-Redcastle Resources Limited,Technology,RC1.AX,EQ,
-Connexion Mobility Ltd,Technology,CXZ.AX,EQ,
-Argenica Therapeutics Ltd,Health Care,AGN.AX,EQ,
-SPACETALK Limited,Industrials,SPA.AX,EQ,
-City Chic Collective Limited,Consumer Discretionary,CCX.AX,EQ,
-SciDev Ltd,Materials,SDV.AX,EQ,
-SSH Group Ltd.,Energy,SSH.AX,EQ,
-Sarama Resources Ltd. Shs Chess Depository Interests Repr 1 Sh,Materials,SRR.AX,EQ,
-Terragen Holdings Ltd,Health Care,TGH.AX,EQ,
-Tian An Australia Limited,Financials,TIA.AX,EQ,
-Asian Battery Metals PLC Chess Depository Interests Repr 0.1 Sh,Energy,AZ9.AX,EQ,
-Future Metals NL,Materials,FME.AX,EQ,
-Jatcorp ltd,Materials,JAT.AX,EQ,
-Complii Fintech Solutions Ltd,Technology,CF1.AX,EQ,
-Atomo Diagnostics Ltd.,Health Care,AT1.AX,EQ,
-Perpetual Resources Ltd.,Materials,PEC.AX,EQ,
-Lithium Plus Minerals Ltd.,Materials,LPM.AX,EQ,
-Red Mountain Mining Ltd,Materials,RMX.AX,EQ,
-Truscott Mining Corporation Ltd,Materials,TRM.AX,EQ,
-Sequoia Financial Group Ltd.,Financials,SEQ.AX,EQ,
-Reach Resources Limited,Materials,RR1.AX,EQ,
-Siren Gold Ltd,Materials,SNG.AX,EQ,
-Neurotech International Ltd.,Health Care,NTI.AX,EQ,
-OpenLearning Ltd.,Technology,OLL.AX,EQ,
-Carbine Resources Limited,Materials,CRB.AX,EQ,
-Stavely Minerals Ltd,Materials,SVY.AX,EQ,
-Belararox Ltd.,Materials,BRX.AX,EQ,
-Noviqtech Limited,Technology,NVQ.AX,EQ,
-Metals Australia Ltd,Materials,MLS.AX,EQ,
-Euro Manganese Inc. Shs Chess Depository Intersts Repr 1 Sh,Materials,EMN.AX,EQ,
-Taruga Minerals Limited,Materials,TAR.AX,EQ,
-Scorpion Minerals Limited,Materials,SCN.AX,EQ,
-Venari Minerals NL,Materials,VMS.AX,EQ,
-Industrial Minerals Limited,Materials,IND.AX,EQ,
-Xpedra Resources Limited,Materials,XPD.AX,EQ,
-Australian Dairy Nutritionals Limited,Consumer Staples,AHF.AX,EQ,
-Duketon Mining Ltd,Materials,DKM.AX,EQ,
-Aureka Limited,Materials,AKA.AX,EQ,
-Constellation Resources Ltd.,Materials,CR1.AX,EQ,
-Ava Risk Group Ltd.,Technology,AVA.AX,EQ,
-Resources & Energy Group Limited,Materials,REZ.AX,EQ,
-IDT Australia Limited,Health Care,IDT.AX,EQ,
-Straker Ltd,Industrials,STG.AX,EQ,
-Locality Planning Energy Holdings Limited,Utilities,LPE.AX,EQ,
-Energy Action Limited,Industrials,EAX.AX,EQ,
-Motio Limited,Industrials,MXO.AX,EQ,
-Energy Technologies Limited,Industrials,EGY.AX,EQ,
-Akora Resources Ltd.,Materials,AKO.AX,EQ,
-Manhattan Gold Corporation Limited,Materials,MHC.AX,EQ,
-Cadoux Limited,Materials,CCM.AX,EQ,
-Adavale Resources Limited,Materials,ADD.AX,EQ,
-MetalsGrove Mining Limited,Materials,MGA.AX,EQ,
-Magontec Limited,Materials,MGL.AX,EQ,
-Camplify Holdings Ltd.,Technology,CHL.AX,EQ,
-Academies Australasia Group Limited,Consumer Discretionary,AKG.AX,EQ,
-Castle Minerals Ltd,Materials,CDT.AX,EQ,
-Temas Resources Corp. Chess Depository Interest,Materials,TIO.AX,EQ,
-Immuron Limited,Health Care,IMC.AX,EQ,
-Agency Group Australia Ltd,Financials,AU1.AX,EQ,
-Condor Energy Limited,Energy,CND.AX,EQ,
-American Uranium Limited,Materials,AMU.AX,EQ,
-Infini Resources Ltd.,Materials,I88.AX,EQ,
-Synertec Corporation Limited,Industrials,SOP.AX,EQ,
-Metal Bank Ltd,Materials,MBK.AX,EQ,
-K2 Asset Management Holdings Ltd,Industrials,KAM.AX,EQ,
-AF Legal Group Limited,Industrials,AFL.AX,EQ,
-OncoSil Medical Ltd,Health Care,OSL.AX,EQ,
-Xref Ltd,Technology,XF1.AX,EQ,
-TruScreen Group Ltd.,Health Care,TRU.AX,EQ,
-Flynn Gold Ltd,Materials,FG1.AX,EQ,
-Myeco Group Ltd,Industrials,MCO.AX,EQ,
-Kalgoorlie Gold Mining Limited,Materials,KAL.AX,EQ,
-Ragnar Metals Limited,Materials,RAG.AX,EQ,
-Mandrake Resources Ltd,Materials,MAN.AX,EQ,
-Avada Group Limited,Industrials,AVD.AX,EQ,
-Megado Minerals Ltd.,Materials,MEG.AX,EQ,
-Platina Resources Limited,Materials,PGM.AX,EQ,
-Canterbury Resources Ltd.,Materials,CBY.AX,EQ,
-Battery Age Minerals Limited,Materials,BM8.AX,EQ,
-Tinybeans Group Ltd,Technology,TNY.AX,EQ,
-Talisman Mining Limited,Materials,TLM.AX,EQ,
-Vanadium Resources Ltd.,Materials,VR8.AX,EQ,
-Chariot Resources Ltd,Materials,CC9.AX,EQ,
-JCurve Solutions Limited,Technology,JCS.AX,EQ,
-Dome Gold Mines Ltd.,Materials,DME.AX,EQ,
-Adheris Health Limited,Technology,AHE.AX,EQ,
-Bulletin Resources Limited,Materials,BNR.AX,EQ,
-Iron Road Ltd,Materials,IRD.AX,EQ,
-Firebrick Pharma Limited,Health Care,FRE.AX,EQ,
-Kaili Resources Limited,Materials,KLR.AX,EQ,
-Dundas Minerals Limited,Materials,DUN.AX,EQ,
-Emu NL,Materials,EMU.AX,EQ,
-Bayan Mining And Minerals Limited,Materials,BMM.AX,EQ,
-Cambium Bio Ltd,Health Care,CMB.AX,EQ,
-Provaris Energy Ltd,Energy,PV1.AX,EQ,
-Underwood Capital Limited,Financials,UWC.AX,EQ,
-Cazaly Resources Limited,Materials,CAZ.AX,EQ,
-Alvo Minerals Limited,Materials,ALV.AX,EQ,
-Peregrine Gold Ltd.,Materials,PGD.AX,EQ,
-Ignite Limited,Industrials,IGN.AX,EQ,
-DTI Group Ltd,Technology,DTI.AX,EQ,
-International Graphite Limited,Industrials,IG6.AX,EQ,
-TZ Limited,Technology,TZL.AX,EQ,
-AdNeo Limited,Technology,AD1.AX,EQ,
-AUCyber Limited,Technology,CYB.AX,EQ,
-Zinc of Ireland NL,Materials,ZMI.AX,EQ,
-North Stawell Minerals Ltd.,Materials,NSM.AX,EQ,
-Bindi Metals Ltd.,Materials,BIM.AX,EQ,
-Great Western Exploration Limited,Materials,GTE.AX,EQ,
-Ambertech Limited,Industrials,AMO.AX,EQ,
-ReadCloud Ltd.,Technology,RCL.AX,EQ,
-Macarthur Minerals Limited,Materials,MIO.AX,EQ,
-Corazon Mining Limited,Materials,CZN.AX,EQ,
-Tambourah Metals Ltd,Materials,TMB.AX,EQ,
-Critical Minerals Group Ltd.,Industrials,CMG.AX,EQ,
-Koba Resources Limited,Materials,KOB.AX,EQ,
-FOS Capital Ltd,Industrials,FOS.AX,EQ,
-Novatti Group Ltd.,Technology,NOV.AX,EQ,
-Reward Minerals Ltd,Materials,RWD.AX,EQ,
-Helix Resources Limited,Materials,HLX.AX,EQ,
-Helix Resources Limited TEMP,Materials,HLXDA.AX,EQ,
-Aeris Environmental Ltd,Consumer Staples,AEI.AX,EQ,
-Golden Deeps Limited,Materials,GED.AX,EQ,
-HitIQ Limited,Consumer Discretionary,HIQ.AX,EQ,
-Kingfisher Mining Ltd.,Materials,KFM.AX,EQ,
-WestStar Industrial Ltd.,Materials,WSI.AX,EQ,
-Tartana Minerals Limited,Materials,TAT.AX,EQ,
-Evergold Minerals Limited,Materials,EG1.AX,EQ,
-Epsilon Healthcare Limited,Health Care,EPN.AX,EQ,
-Tarrina Resources Limited,Consumer Discretionary,TR8.AX,EQ,
-Rincon Resources Ltd.,Materials,RCR.AX,EQ,
-Merino & Co Limited,Materials,MNC.AX,EQ,
-Pantera Minerals Limited,Materials,PFE.AX,EQ,
-ITech Minerals LTD,Materials,ITM.AX,EQ,
-APC Minerals Limited,Materials,APC.AX,EQ,
-Careteq Ltd.,Industrials,CTQ.AX,EQ,
-Mamba Exploration Ltd.,Materials,M24.AX,EQ,
-Culpeo Minerals Limited,Materials,CPO.AX,EQ,
-Iceni Gold Ltd.,Materials,ICL.AX,EQ,
-Terra Critical Minerals Limited,Materials,T92.AX,EQ,
-Gibb River Diamonds Limited,Materials,GIB.AX,EQ,
-Far Northern Resources Limited,Materials,FNR.AX,EQ,
-Strike Resources Limited,Materials,SRK.AX,EQ,
-Strategic Energy Resources Limited,Materials,SER.AX,EQ,
-EVE Health Group Limited,Health Care,EVE.AX,EQ,
-Aruma Resources Limited,Materials,AAJ.AX,EQ,
-Eminence Minerals Limited,Materials,EMA.AX,EQ,
-Bio-Gene Technology Ltd.,Materials,BGT.AX,EQ,
-Scalare Partners Holdings Limited,Consumer Staples,SCP.AX,EQ,
-Invex Therapeutics Ltd.,Health Care,IXC.AX,EQ,
-Xstate Resources Limited,Energy,XST.AX,EQ,
-Catalina Resources Limited,Materials,CTN.AX,EQ,
-Orcoda Limited,Technology,ODA.AX,EQ,
-State Gas Ltd.,Energy,GAS.AX,EQ,
-Olympio Metals Limited,Materials,OLY.AX,EQ,
-Verity Resources Limited,Materials,VRL.AX,EQ,
-Wide Open Agriculture Ltd.,Materials,WOA.AX,EQ,
-Imagion Biosystems Ltd.,Health Care,IBX.AX,EQ,
-ActivEX Limited,Materials,AIV.AX,EQ,
-Beonic Limited,Technology,BEO.AX,EQ,
-Metal Hawk Ltd.,Materials,MHK.AX,EQ,
-Vectus Biosystems Limited,Health Care,VBS.AX,EQ,
-European Resources Limited,Materials,ERE.AX,EQ,
-Cosmo Metals Limited,Materials,CMO.AX,EQ,
-QEM Limited,Energy,QEM.AX,EQ,
-Stonehorse Energy Ltd,Energy,SHE.AX,EQ,
-Magnetite Mines Ltd.,Materials,MGT.AX,EQ,
-Prophecy International Holdings Ltd,Technology,PRO.AX,EQ,
-Audeara Ltd.,Consumer Discretionary,AUA.AX,EQ,
-Golden State Mining Ltd.,Materials,GSM.AX,EQ,
-Orbminco Limited,Materials,OB1.AX,EQ,
-West Cobar Metals Ltd.,Materials,WC1.AX,EQ,
-McLaren Minerals Limited,Materials,MML.AX,EQ,
-Taiton Resources Limited,Energy,T88.AX,EQ,
-Nutritional Growth Solutions Ltd.,Health Care,NGS.AX,EQ,
-Charger Metals NL,Materials,CHR.AX,EQ,
-Charger Metals NL TEMP,Materials,CHRCB.AX,EQ,
-Pure Foods Tasmania Ltd.,Consumer Staples,PFT.AX,EQ,
-Union Star Metals Ltd,Materials,USM.AX,EQ,
-Albion Resources Ltd.,Materials,ALB.AX,EQ,
-Strata Minerals Limited,Materials,SMX.AX,EQ,
-Techgen Metals Ltd.,Materials,TG1.AX,EQ,
-Kuniko Ltd.,Materials,KNI.AX,EQ,
-Cooper Metals Limited,Materials,CPM.AX,EQ,
-CGN Resources Ltd.,Materials,CGR.AX,EQ,
-Tissue Repair Ltd,Health Care,TRP.AX,EQ,
-Riedel Resources Limited,Materials,RIE.AX,EQ,
-Juno Minerals Ltd.,Materials,JNO.AX,EQ,
-Acrux Limited,Health Care,ACR.AX,EQ,
-M3 Mining Ltd.,Materials,M3M.AX,EQ,
-Spectur Ltd.,Technology,SP3.AX,EQ,
-RemSense Technologies Limited,Technology,REM.AX,EQ,
-Nex Metals Exploration Ltd,Materials,NME.AX,EQ,
-Bubalus Resources Ltd.,Materials,BUS.AX,EQ,
-Kingsland Minerals Ltd.,Materials,KNG.AX,EQ,
-C29 Metals Limited,Materials,C29.AX,EQ,
-Lion Energy Limited,Energy,LIO.AX,EQ,
-ACDC Metals Ltd,Materials,ADC.AX,EQ,
-Aeeris Ltd,Industrials,AER.AX,EQ,
-Halo Technologies Holdings Ltd,Technology,HAL.AX,EQ,
-Altitude Minerals Ltd,Materials,ATT.AX,EQ,
-Australasian Metals Limited,Materials,A8G.AX,EQ,
-Infinity Metals Limited,Materials,INF.AX,EQ,
-Hiremii Ltd.,Industrials,HMI.AX,EQ,
-Hubify Ltd.,Communication Services,HFY.AX,EQ,
-Australian Silica Quartz Group Limited,Materials,ASQ.AX,EQ,
-Prestal Holdings Limited,Consumer Staples,PTL.AX,EQ,
-Turnstone Resources Ltd,Materials,TSR.AX,EQ,
-Ragusa Minerals Ltd,Materials,RAS.AX,EQ,
-Lightning Minerals Limited,Materials,L1M.AX,EQ,
-Western Yilgarn NL,Materials,WYX.AX,EQ,
-Spenda Limited,Technology,SPX.AX,EQ,
-Bridge Saas Limited,Technology,BGE.AX,EQ,
-Heavy Rare Earths Limited,Materials,HRE.AX,EQ,
-Harris Technology Group Limited,Industrials,HT8.AX,EQ,
-Parkd Ltd.,Industrials,PKD.AX,EQ,
-RPM Automotive Group Ltd.,Industrials,RPM.AX,EQ,
-Dart Mining NL,Materials,DTM.AX,EQ,
-Diablo Resources Limited,Materials,DBO.AX,EQ,
-Invion Ltd.,Health Care,IVX.AX,EQ,
-333D Limited,Industrials,T3D.AX,EQ,
-Resource Base Limited,Materials,RBX.AX,EQ,
-Beam Communications Holdings Limited,Technology,BCC.AX,EQ,
-SQX Resources Limited,Materials,SQX.AX,EQ,
-Love Group Ltd,Industrials,LVE.AX,EQ,
-Chimeric Therapeutics Limited,Health Care,CHM.AX,EQ,
-Saferoads Holdings Limited,Industrials,SRH.AX,EQ,
-Knosys Ltd.,Technology,KNO.AX,EQ,
-Nexalis Therapeutics Limited,Industrials,NX1.AX,EQ,
-NewPeak Metals Ltd.,Materials,NPM.AX,EQ,
-Butn Limited,Technology,BTN.AX,EQ,
-Eastern Resources Limited,Materials,EFE.AX,EQ,
-Eneco Refresh Limited,Consumer Staples,ERG.AX,EQ,
-Wellnex Life Ltd,Consumer Staples,WNX.AX,EQ,
-Argent Biopharma Ltd,Health Care,RGT.AX,EQ,
-Visionflex Group Limited,Technology,VFX.AX,EQ,
-Discovery Alaska Limited,Materials,DAF.AX,EQ,
-Surefire Resources NL,Materials,SRN.AX,EQ,
-Global Health Limited,Health Care,GLH.AX,EQ,
-Range International Limited,Industrials,RAN.AX,EQ,
-Tali Digital Ltd,Technology,TD1.AX,EQ,
-Key Petroleum Limited,Energy,KEY.AX,EQ,
-Vita Resources NL,Materials,VTA.AX,EQ,
-Octava Minerals Ltd.,Materials,OCT.AX,EQ,
-RBR Group Ltd,Industrials,RBR.AX,EQ,
-Lord Resources Limited,Materials,LRD.AX,EQ,
-Australian Bond Exchange Holdings Ltd.,Financials,ABE.AX,EQ,
-Platformo Ltd,Industrials,PFM.AX,EQ,
-Sagalio Energy Limited,Energy,SAN.AX,EQ,
-Oakridge Internatinal Ltd,Health Care,OAK.AX,EQ,
-Bounty Oil & Gas NL,Energy,BUY.AX,EQ,
-Queste Communications Ltd,Financials,QUE.AX,EQ,
-Metgasco Ltd,Energy,MEL.AX,EQ,
-Bmc Minerals Ltd CHESS Depositary Interests,Materials,BMC.AX,EQ,
-Spheria Emerging Cos. Ltd.,Industrials,SEC.AX,EQ,
-Pioneer Minerals Limited,Materials,PMM.AX,EQ,
-E79 Gold Mines Limited,Materials,E79.AX,EQ,
-Narryer Metals Limited,Materials,NYM.AX,EQ,
-Piche Resources Limited,Materials,PR2.AX,EQ,
-Basin Energy Limited,Materials,BSN.AX,EQ,
-CD Private Equity Fund III Units,Financials,CD3.AX,EQ,
-CD Private Equity Fund I Units,Financials,CD1.AX,EQ,
-Minerals Exploration Limited,Materials,MEX.AX,EQ,
-Bison Resources Ltd.,Materials,BSR.AX,EQ,
-Argo Investments Limited,Industrials,ARG.AX,EQ,
-Klevo Rewards Limited,Technology,KLV.AX,EQ,
-WAM Active Ltd.,Industrials,WAA.AX,EQ,
-Cadence Capital Limited,Industrials,CDM.AX,EQ,
-Valiant Gold Limited,Materials,VAL.AX,EQ,
-Katana Capital Ltd.,Industrials,KAT.AX,EQ,
-StepChange Holdings Ltd.,Technology,STH.AX,EQ,
-Australian Foundation Investment Co. Ltd.,Industrials,AFI.AX,EQ,
-Augustus Minerals Limited,Materials,AUG.AX,EQ,
-Fat Prophets Global Contrarian Fund Ltd.,Industrials,FPC.AX,EQ,
-WAM Global Ltd.,Industrials,WGB.AX,EQ,
-Regener8 Resources NL,Materials,R8R.AX,EQ,
-Toubani Resources Limited Registered Shs,Materials,TRE.AX,EQ,
-Metrics Income Opportunities Trust Units,Industrials,MOT.AX,EQ,
-Lion Selection Group Ltd.,Financials,LSX.AX,EQ,
-Carlton Investments Ltd,Industrials,CIN.AX,EQ,
-Staude Capital Global Value Fund Ltd,Industrials,GVF.AX,EQ,
-Stelar Metals Limited,Materials,SLB.AX,EQ,
-Nexsen Limited,Health Care,NXN.AX,EQ,
-Barkly Rare Earths Ltd.,Materials,BAK.AX,EQ,
-Iltani Resources Ltd.,Materials,ILT.AX,EQ,
-Alternative Investment Trust Units,Industrials,AIQ.AX,EQ,
-Gryphon Capital Income Trust,Industrials,GCI.AX,EQ,
-Future Generation Australia Limited Stapled Security,Industrials,FGX.AX,EQ,
-WCM Global Growth Ltd.,Industrials,WQG.AX,EQ,
-NAOS Emerging Opportunities Co. Ltd.,Industrials,NCC.AX,EQ,
-Thorney Technologies Limited,Industrials,TEK.AX,EQ,
-Arcadia Minerals Limited Chess Depository Interests Repr 1 Sh,Materials,AM7.AX,EQ,
-Hearts and Minds Investments Ltd,Industrials,HM1.AX,EQ,
-Moonlight Resources Ltd,Materials,ML8.AX,EQ,
-Eastern Gas Corp Ltd,Energy,EGA.AX,EQ,
-PC Gold Ltd.,Materials,PC2.AX,EQ,
-ECP Emerging Growth Ltd.,Industrials,ECP.AX,EQ,
-Western Ridge Resources Limited,Industrials,WRX.AX,EQ,
-BKI Investment Co. Ltd.,Industrials,BKI.AX,EQ,
-Perpetual Equity Investment Co. Ltd.,Industrials,PIC.AX,EQ,
-L1 Gold Fund Limited,Financials,LGF.AX,EQ,
-Acorn Capital Investment Fund Ltd Registered,Industrials,ACQ.AX,EQ,
-Ironbark Balanced Income Limited Registered,Industrials,IBC.AX,EQ,
-Lowell Resources Funds Management Ltd Units,Industrials,LRT.AX,EQ,
-La Trobe Private Credit Fund,Financials,LF1.AX,EQ,
-Litchfield Minerals Ltd.,Materials,LMS.AX,EQ,
-Benjamin Hornigold Ltd.,Industrials,BHD.AX,EQ,
-Bentley Capital Ltd.,Industrials,BEL.AX,EQ,
-Metrics Master Income Trust,Industrials,MXT.AX,EQ,
-Morphic Ethical Equities Fund Ltd.,Industrials,MEC.AX,EQ,
-Skinkandy Limited,Consumer Discretionary,SK1.AX,EQ,
-WAM Alternative Assets Ltd,Industrials,WMA.AX,EQ,
-Renerve Limited,Health Care,RNV.AX,EQ,
-Codrus Minerals Ltd.,Materials,CDR.AX,EQ,
-Rubix Resources Limited,Materials,RB6.AX,EQ,
-Unity Metals Limited,Materials,UM1.AX,EQ,
-Solara Minerals Ltd.,Materials,SLA.AX,EQ,
-Djerriwarrh Investments Limited,Industrials,DJW.AX,EQ,
-Metrics Real Estate Multi-Strategy Fund,Financials,MRE.AX,EQ,
-Mount Hope Mining Limited,Materials,MHM.AX,EQ,
-Whitefield Industrials Limited,Industrials,WHF.AX,EQ,
-Sandon Capital Investments Limited,Industrials,SNC.AX,EQ,
-Australian United Investment Co. Ltd.,Industrials,AUI.AX,EQ,
-WAM Income Maximiser Limited,Industrials,WMX.AX,EQ,
-Argo Global Listed Infrastructure Ltd.,Industrials,ALI.AX,EQ,
-Ryder Capital Ltd.,Financials,RYD.AX,EQ,
-WAM Microcap Ltd.,Industrials,WMI.AX,EQ,
-Touch Ventures Ltd.,Industrials,TVL.AX,EQ,
-Kapstream Investment Trust,Industrials,KIT.AX,EQ,
-WAM Strategic Value Ltd,Industrials,WAR.AX,EQ,
-Linq Minerals Limited,Materials,LNQ.AX,EQ,
-Golden Dragon Mining Ltd,Materials,GDR.AX,EQ,
-WAM Capital Ltd.,Industrials,WAM.AX,EQ,
-L1 Long Short Fund Ltd.,Industrials,LSF.AX,EQ,
-Macallum New Energy Limited,Energy,MNE.AX,EQ,
-Star Minerals Ltd.,Materials,SMS.AX,EQ,
-Pengana International Equities Ltd Registered,Industrials,PIA.AX,EQ,
-Clime Capital Limited,Industrials,CAM.AX,EQ,
-Burley Minerals Ltd.,Materials,BUR.AX,EQ,
-Right Resources Limited,Materials,RRE.AX,EQ,
-Global Masters Fund Limited,Industrials,GFL.AX,EQ,
-BTC Health Ltd Registered,Financials,BTC.AX,EQ,
-Orange Minerals NL,Materials,OMX.AX,EQ,
-Regal Asian Investments Limited,Industrials,RG8.AX,EQ,
-Kaoko Metals Limited,Materials,KAO.AX,EQ,
-InvestSMART Group Limited,Financials,INV.AX,EQ,
-Pengana Global Private Credit Trust,Industrials,PCX.AX,EQ,
-Perpetual Credit Income Trust,Industrials,PCI.AX,EQ,
-WAM Research Ltd.,Industrials,WAX.AX,EQ,
-Orion Equities Limited,Financials,OEQ.AX,EQ,
-360 Capital Mortgage REIT,Industrials,TCF.AX,EQ,
-NAOS Small Cap Opportunities Company Ltd,Industrials,NSC.AX,EQ,
-Fulcrum Lithium Ltd.,Materials,FUL.AX,EQ,
-Pinnacle Minerals Limited,Materials,PIM.AX,EQ,
-Plato Income Maximiser Ltd.,Industrials,PL8.AX,EQ,
-PM Capital Global Opportunities Fund Ltd.,Industrials,PGF.AX,EQ,
-AMCIL Limited,Industrials,AMH.AX,EQ,
-Tribeca Global Natural Resources Ltd.,Industrials,TGF.AX,EQ,
-Future Generation Global Limited,Industrials,FGG.AX,EQ,
-ARC Funds Limited,Industrials,ARC.AX,EQ,
-KKR Credit Income fund Units,Industrials,KKC.AX,EQ,
-Glennon Small Companies Ltd,Industrials,GC1.AX,EQ,
-Pengana Private Equity Trust,Industrials,PE1.AX,EQ,
-KTEK Aerosystems Ltd.,Industrials,KTK.AX,EQ,
-Desert Minerals Ltd.,Materials,DSM.AX,EQ,
-Regal Partners Global Investments Limited,Industrials,RG1.AX,EQ,
-Thorney Opportunities Ltd.,Industrials,TOP.AX,EQ,
-Black Horse Mining Ltd.,Materials,BHL.AX,EQ,
-NGE Capital Ltd,Financials,NGE.AX,EQ,
-Cadence Opportunities Fund Ltd.,Industrials,CDO.AX,EQ,
-Sierra Nevada Gold Inc.. Shs Chess Depository Interests Repr 1 Sh,Materials,SNX.AX,EQ,
-NGX Limited,Materials,NGX.AX,EQ,
-Equus Energy Limited,Materials,EQU.AX,EQ,
-Omnia Metals Group Ltd,Materials,OM1.AX,EQ,
-Golden Globe Resources Ltd.,Materials,GGR.AX,EQ,
-Regal Investment Fund Units,Industrials,RF1.AX,EQ,
-Saluda Medical Inc CHESS Depository Interest,Health Care,SLD.AX,EQ,
-MB Gold Limited,Materials,MBG.AX,EQ,
-NAOS Ex-50 Opportunities Co. Ltd.,Industrials,NAC.AX,EQ,
-Ronin Resources Ltd,Energy,RON.AX,EQ,
-WAM Leaders Limited,Industrials,WLE.AX,EQ,
-CD Private Equity Fund II Units,Financials,CD2.AX,EQ,
-Australian Critical Minerals Ltd.,Materials,ACM.AX,EQ,
-Tusker Minerals Ltd,Materials,TSK.AX,EQ,
-Solaris Australian Equity Income Plus Ltd.,Financials,SET.AX,EQ,
-Bailador Technology Investments Ltd,Industrials,BTI.AX,EQ,
-L1 Global Long Short Fund Limited Registered,Industrials,GLS.AX,EQ,
-Flagship Investments Ltd.,Industrials,FSI.AX,EQ,
-Gowing Bros. Ltd.,Industrials,GOW.AX,EQ,
-Parabellum Resources Ltd.,Materials,PBL.AX,EQ,
-Green & Gold Minerals Limited,Materials,GG1.AX,EQ,
-Axel REE Ltd.,Materials,AXL.AX,EQ,
+BHP,Materials,BHP.AX,EQ,AU000000BHP4
+Commonwealth Bank,Financials,CBA.AX,EQ,AU000000CBA7
+Rio Tinto,Materials,RIO.AX,EQ,AU000000RIO1
+Newmont,Materials,NEM.AX,EQ,AU0000297962
+Westpac,Financials,WBC.AX,EQ,AU000000WBC1
+National Australia Bank,Financials,NAB.AX,EQ,AU000000NAB4
+Australia & New Zealand Banking Group,Financials,ANZ.AX,EQ,AU000000ANZ3
+Wesfarmers,Consumer Discretionary,WES.AX,EQ,AU000000WES1
+Macquarie Group,Financials,MQG.AX,EQ,AU000000MQG1
+Goodman Group,Real Estate,GMG.AX,EQ,AU000000GMG2
+Fortescue,Materials,FMG.AX,EQ,AU000000FMG4
+Woodside Energy Group,Energy,WDS.AX,EQ,AU0000224040
+Block,Financials,XYZ.AX,EQ,AU0000380420
+Telstra,Communication Services,TLS.AX,EQ,AU000000TLS2
+CSL,Health Care,CSL.AX,EQ,AU000000CSL8
+Transurban,Industrials,TCL.AX,EQ,AU000000TCL6
+Woolworths Group,Consumer Staples,WOW.AX,EQ,AU000000WOW2
+ResMed,Health Care,RMD.AX,EQ,AU000000RMD6
+QBE Insurance,Financials,QBE.AX,EQ,AU000000QBE9
+Aristocrat Leisure,Consumer Discretionary,ALL.AX,EQ,AU000000ALL7
+Coles Group,Consumer Staples,COL.AX,EQ,AU0000030678
+Sigma Healthcare,Health Care,SIG.AX,EQ,AU000000SIG5
+Northern Star Resources,Materials,NST.AX,EQ,AU000000NST8
+Amcor,Materials,AMC.AX,EQ,AU000000AMC4
+Santos,Energy,STO.AX,EQ,AU000000STO6
+Alcoa,Materials,AAI.AX,EQ,AU0000339426
+Brambles,Industrials,BXB.AX,EQ,AU000000BXB1
+Evolution Mining,Materials,EVN.AX,EQ,AU000000EVN4
+Computershare,Technology,CPU.AX,EQ,AU000000CPU5
+PLS Group,Materials,PLS.AX,EQ,AU000000PLS0
+News Corp Class B,Communication Services,NWS.AX,EQ,AU000000NWS2
+News Corporation Shs A Chess Depository Interests repr 1 Sh,Consumer Discretionary,NWSLV.AX,EQ,AU0000NWSLV3
+South32,Materials,S32.AX,EQ,AU000000S320
+Scentre Group,Real Estate,SCG.AX,EQ,AU000000SCG8
+James Hardie,Materials,JHX.AX,EQ,AU000000JHX1
+Suncorp,Financials,SUN.AX,EQ,AU000000SUN6
+Origin Energy,Utilities,ORG.AX,EQ,AU000000ORG5
+REA Group,Communication Services,REA.AX,EQ,AU000000REA9
+Insurance Australia Group,Financials,IAG.AX,EQ,AU000000IAG3
+Lynas Rare Earths,Materials,LYC.AX,EQ,AU000000LYC6
+Pro Medicus,Health Care,PME.AX,EQ,AU000000PME8
+SGH,Industrials,SGH.AX,EQ,AU0000364754
+Soul Patts,Financials,SOL.AX,EQ,AU000000SOL3
+BlueScope,Materials,BSL.AX,EQ,AU000000BSL0
+APA Group,Utilities,APA.AX,EQ,AU000000APA1
+Qantas,Industrials,QAN.AX,EQ,AU000000QAN2
+Medibank,Financials,MPL.AX,EQ,AU000000MPL3
+Mineral Resources,Materials,MIN.AX,EQ,AU000000MIN4
+The Lottery Corporation,Consumer Discretionary,TLC.AX,EQ,AU0000219529
+Wisetech Global,Technology,WTC.AX,EQ,AU000000WTC3
+Vicinity Centres,Real Estate,VCX.AX,EQ,AU000000VCX7
+ALS,Industrials,ALQ.AX,EQ,AU000000ALQ6
+Capstone Copper,Materials,CSC.AX,EQ,AU0000318552
+NextDC,Technology,NXT.AX,EQ,AU000000NXT8
+Charter Hall,Real Estate,CHC.AX,EQ,AU000000CHC0
+Orica,Materials,ORI.AX,EQ,AU000000ORI1
+Stockland,Real Estate,SGP.AX,EQ,AU000000SGP0
+TechnologyOne,Technology,TNE.AX,EQ,AU000000TNE8
+DPM Metals Inc. Chess Depository Interests Repr 1 Sh,Materials,DPM.AX,EQ,AU0000413890
+Light & Wonder,Consumer Discretionary,LNW.AX,EQ,AU0000278103
+CAR Group,Communication Services,CAR.AX,EQ,AU000000CAR3
+Sonic Healthcare,Health Care,SHL.AX,EQ,AU000000SHL7
+GPT Group,Real Estate,GPT.AX,EQ,AU000000GPT8
+Reece Group,Industrials,REH.AX,EQ,AU000000REH4
+ASX,Financials,ASX.AX,EQ,AU000000ASX7
+Sandfire Resources,Materials,SFR.AX,EQ,AU000000SFR8
+Nexgen Energy,Energy,NXG.AX,EQ,AU0000159329
+Qube Holdings,Industrials,QUB.AX,EQ,AU000000QUB5
+Ramsay Health Care,Health Care,RHC.AX,EQ,AU000000RHC8
+Ampol,Energy,ALD.AX,EQ,AU0000088338
+Yancoal Australia,Materials,YAL.AX,EQ,AU000000YAL0
+JB Hi-Fi,Consumer Discretionary,JBH.AX,EQ,AU000000JBH7
+Greatland Resources,Materials,GGP.AX,EQ,AU0000397705
+Codan,Technology,CDA.AX,EQ,AU000000CDA3
+Atlas Arteria,Industrials,ALX.AX,EQ,AU0000013559
+Aurizon,Industrials,AZJ.AX,EQ,AU000000AZJ1
+TPG Telecom,Communication Services,TPG.AX,EQ,AU0000090128
+Whitehaven Coal,Energy,WHC.AX,EQ,AU000000WHC8
+Almonty Industries Inc. Shs Chess Depository Interests repr 1 shs,Materials,AII.AX,EQ,AU0000157679
+Mirvac,Real Estate,MGR.AX,EQ,AU000000MGR9
+Liontown Resources,Materials,LTR.AX,EQ,AU000000LTR4
+Cochlear,Health Care,COH.AX,EQ,AU000000COH5
+Dyno Nobel,Materials,DNL.AX,EQ,AU0000390544
+IGO,Materials,IGO.AX,EQ,AU000000IGO4
+Challenger,Financials,CGF.AX,EQ,AU000000CGF5
+HUB24,Financials,HUB.AX,EQ,AU000000HUB4
+Perseus Mining,Materials,PRU.AX,EQ,AU000000PRU3
+Dexus,Real Estate,DXS.AX,EQ,AU000000DXS1
+Eagers Automotive,Consumer Discretionary,APE.AX,EQ,AU000000APE3
+Worley,Energy,WOR.AX,EQ,AU000000WOR2
+Genesis Minerals,Materials,GMD.AX,EQ,AU000000GMD9
+Bendigo & Adelaide Bank,Financials,BEN.AX,EQ,AU000000BEN6
+Harvey Norman,Consumer Discretionary,HVN.AX,EQ,AU000000HVN7
+AGL Energy,Utilities,AGL.AX,EQ,AU000000AGL7
+Endeavour Group,Consumer Staples,EDV.AX,EQ,AU0000154833
+Ramelius Resources,Materials,RMS.AX,EQ,AU000000RMS4
+Steadfast Group,Financials,SDF.AX,EQ,AU000000SDF8
+Sims Metal,Materials,SGM.AX,EQ,AU000000SGM7
+Capricorn Metals,Materials,CMM.AX,EQ,AU000000CMM9
+PT ANTAM (Persero) Tbk CHESS Units of Foreign Securities,Materials,ATM.AX,EQ,AU000000ATM8
+Cleanaway,Industrials,CWY.AX,EQ,AU000000CWY3
+Downer Group,Industrials,DOW.AX,EQ,AU000000DOW2
+Ventia Services Group,Industrials,VNT.AX,EQ,AU0000184459
+Netwealth Group,Financials,NWL.AX,EQ,AU000000NWL7
+Life360,Technology,360.AX,EQ,AU0000045098
+New Hope,Energy,NHC.AX,EQ,AU000000NHC7
+Seek,Communication Services,SEK.AX,EQ,AU000000SEK6
+Telix Pharmaceuticals,Health Care,TLX.AX,EQ,AU000000TLX2
+Westgold Resources,Materials,WGX.AX,EQ,AU000000WGX6
+Megaport,Technology,MP1.AX,EQ,AU000000MP15
+Regis Resources,Materials,RRL.AX,EQ,AU000000RRL8
+Paladin Energy,Energy,PDN.AX,EQ,AU000000PDN8
+GQG Partners,Financials,GQG.AX,EQ,AU0000180499
+Breville Group,Consumer Discretionary,BRG.AX,EQ,AU000000BRG2
+Vault Minerals,Materials,VAU.AX,EQ,AU0000355588
+Nickel Industries,Materials,NIC.AX,EQ,AU0000018236
+Bank of Queensland,Financials,BOQ.AX,EQ,AU000000BOQ8
+Ansell,Health Care,ANN.AX,EQ,AU000000ANN9
+Treasury Wine Estates,Consumer Staples,TWE.AX,EQ,AU000000TWE9
+Predictive Discovery,Materials,PDI.AX,EQ,AU000000PDI8
+AMP,Financials,AMP.AX,EQ,AU000000AMP6
+AUB Group,Financials,AUB.AX,EQ,AU000000AUB9
+Viva Energy,Energy,VEA.AX,EQ,AU0000016875
+Pinnacle Investment Management,Financials,PNI.AX,EQ,AU000000PNI7
+Emerald Resources,Materials,EMR.AX,EQ,AU000000EMR4
+Metcash,Consumer Staples,MTS.AX,EQ,AU000000MTS0
+West African Resources,Materials,WAF.AX,EQ,AU000000WAF6
+Nib,Financials,NHF.AX,EQ,AU000000NHF0
+Zip,Financials,ZIP.AX,EQ,AU0000218307
+NRW Holdings,Industrials,NWH.AX,EQ,AU000000NWH5
+Iluka Resources,Materials,ILU.AX,EQ,AU000000ILU1
+BWP Trust,Real Estate,BWP.AX,EQ,AU000000BWP3
+MFF Capital Investments,Financials,MFF.AX,EQ,AU000000MFF6
+Dalrymple Bay Infrastructure,Industrials,DBI.AX,EQ,AU0000120628
+Monadelphous Group,Industrials,MND.AX,EQ,AU000000MND5
+Super Retail Group,Consumer Discretionary,SUL.AX,EQ,AU000000SUL0
+Region Group,Real Estate,RGN.AX,EQ,AU0000253502
+Droneshield,Industrials,DRO.AX,EQ,AU000000DRO2
+HomeCo Daily Needs REIT,Real Estate,HDN.AX,EQ,AU0000113136
+Charter Hall Long WALE REIT,Real Estate,CLW.AX,EQ,AU000000CLW0
+Reliance Worldwide Corporation,Industrials,RWC.AX,EQ,AU000000RWC7
+L1 Group,Financials,L1G.AX,EQ,AU0000423501
+Mesoblast,Health Care,MSB.AX,EQ,AU000000MSB8
+Lovisa,Consumer Discretionary,LOV.AX,EQ,AU000000LOV7
+Beach Energy,Energy,BPT.AX,EQ,AU000000BPT9
+Stanmore Resources,Materials,SMR.AX,EQ,AU000000SMR4
+SRG Global Limited,Industrials,SRG.AX,EQ,AU0000032914
+Deterra Royalties,Materials,DRR.AX,EQ,AU0000107484
+Southern Cross Gold Consolidated Ltd. Chees Depository Interest Repr 1 shs,Materials,SX2.AX,EQ,AU0000367443
+Tasmea Limited,Industrials,TEA.AX,EQ,AU0000326191
+Elevra Lithium Limited,Materials,ELV.AX,EQ,AU0000421851
+Champion Iron,Materials,CIA.AX,EQ,AU000000CIA2
+Charter Hall Retail REIT,Real Estate,CQR.AX,EQ,AU000000CQR9
+Flight Centre Travel Group,Consumer Discretionary,FLT.AX,EQ,AU000000FLT9
+Premier Investments,Consumer Discretionary,PMV.AX,EQ,AU000000PMV2
+Develop Global Limited,Materials,DVP.AX,EQ,AU0000179707
+Resolute Mining,Materials,RSG.AX,EQ,AU000000RSG6
+4DMedical,Health Care,4DX.AX,EQ,AU0000095416
+Sunrise Energy Metals Limited,Industrials,SRL.AX,EQ,AU0000143729
+Ora Banda Mining,Materials,OBM.AX,EQ,AU0000050130
+GenusPlus Group Ltd.,Industrials,GNP.AX,EQ,AU0000117160
+Dicker Data Limited,Consumer Discretionary,DDR.AX,EQ,AU000000DDR5
+IMDEX,Materials,IMD.AX,EQ,AU000000IMD5
+EVT,Communication Services,EVT.AX,EQ,AU000000EVT1
+Bellevue Gold,Materials,BGL.AX,EQ,AU0000019374
+Tamboran Resources Corporation Chess Depository Interests,Energy,TBN.AX,EQ,AU0000154841
+Electro Optic Systems Holdings,Industrials,EOS.AX,EQ,AU000000EOS8
+Lendlease,Real Estate,LLC.AX,EQ,AU000000LLC3
+Minerals 260 Limited,Materials,MI6.AX,EQ,AU0000173486
+Guzman y Gomez Ltd.,Consumer Discretionary,GYG.AX,EQ,AU0000336679
+Redox,Industrials,RDX.AX,EQ,AU0000284895
+Perenti,Materials,PRN.AX,EQ,AU0000061897
+Alkane Resources,Materials,ALK.AX,EQ,AU000000ALK9
+Macquarie Technology Group Limited,Communication Services,MAQ.AX,EQ,AU000000MAQ4
+Macmahon Holdings Limited,Energy,MAH.AX,EQ,AU000000MAH3
+Virgin Australia Holdings,Industrials,VGN.AX,EQ,AU0000400616
+Tabcorp,Consumer Discretionary,TAH.AX,EQ,AU000000TAH8
+MAAS Group Holdings Ltd.,Industrials,MGH.AX,EQ,AU0000118564
+Centuria Industrial REIT,Real Estate,CIP.AX,EQ,AU000000CIP0
+Cobram Estate Olives Ltd.,Materials,CBO.AX,EQ,AU0000167066
+Superloop Ltd.,Industrials,SLC.AX,EQ,AU000000SLC8
+Pexa Group,Real Estate,PXA.AX,EQ,AU0000158594
+Elsight Ltd.,Technology,ELS.AX,EQ,AU000000ELS4
+Perpetual,Financials,PPT.AX,EQ,AU000000PPT9
+Abacus Storage King,Real Estate,ASK.AX,EQ,AU0000286213
+Centuria Capital Group,Financials,CNI.AX,EQ,AU000000CNI5
+Regis Healthcare,Health Care,REG.AX,EQ,AU000000REG6
+Magellan Financial Group,Financials,MFG.AX,EQ,AU000000MFG4
+Iperionx Ltd.,Materials,IPX.AX,EQ,AU0000208910
+Bega Cheese,Consumer Staples,BGA.AX,EQ,AU000000BGA8
+Austal,Industrials,ASB.AX,EQ,AU000000ASB3
+Growthpoint Properties Australia,Financials,GOZ.AX,EQ,AU000000GOZ8
+Gemlife Communities Group,Financials,GLF.AX,EQ,AU0000402562
+EBR Systems  Inc. Shs Chess Depository Interests Repr 1 Sh,Health Care,EBR.AX,EQ,AU0000182552
+Orora,Materials,ORA.AX,EQ,AU000000ORA8
+Smartgroup Corporation Ltd,Industrials,SIQ.AX,EQ,AU000000SIQ4
+Ingenia Communities,Real Estate,INA.AX,EQ,AU000000INA9
+Mader Group Ltd,Consumer Discretionary,MAD.AX,EQ,AU0000056269
+Lindian Resources Limited,Materials,LIN.AX,EQ,AU000000LIN6
+Aussie Broadband Ltd.,Communication Services,ABB.AX,EQ,AU0000106643
+Waypoint REIT Ltd.,Financials,WPR.AX,EQ,AU0000088064
+Judo Capital Holdings Limited,Financials,JDO.AX,EQ,AU0000182271
+Generation Development Group,Financials,GDG.AX,EQ,AU0000005126
+Service Stream Limited,Industrials,SSM.AX,EQ,AU000000SSM2
+ARB Corporation,Consumer Discretionary,ARB.AX,EQ,AU000000ARB5
+Orezone Gold Corporation CDI,Materials,ORE.AX,EQ,AU0000405797
+Weebit Nano Ltd.,Technology,WBT.AX,EQ,AU000000WBT5
+Domino's Pizza Enterprises,Consumer Discretionary,DMP.AX,EQ,AU000000DMP0
+Data#3 Limited.,Technology,DTL.AX,EQ,AU000000DTL4
+Brazilian Rare Earths Limited,Materials,BRE.AX,EQ,AU0000305815
+FireFly Metals Ltd,Materials,FFM.AX,EQ,AU0000313769
+Vulcan Energy Resources Ltd.,Materials,VUL.AX,EQ,AU0000066086
+Tuas,Communication Services,TUA.AX,EQ,AU0000089724
+Arafura Rare Earths Limited,Materials,ARU.AX,EQ,AU000000ARU5
+Karoon Energy,Energy,KAR.AX,EQ,AU000000KAR6
+Nine Entertainment,Communication Services,NEC.AX,EQ,AU000000NEC4
+Silex Systems Limited,Technology,SLX.AX,EQ,AU000000SLX4
+Supply Network Limited,Industrials,SNL.AX,EQ,AU000000SNL5
+Deep Yellow,Energy,DYL.AX,EQ,AU000000DYL4
+Mcmillan Shakespeare Limited,Financials,MMS.AX,EQ,AU000000MMS5
+Kingsgate Consolidated Limited,Materials,KCN.AX,EQ,AU000000KCN1
+Helia Group Limited,Financials,HLI.AX,EQ,AU0000251498
+Digico Infrastructure REIT,Financials,DGT.AX,EQ,AU0000367088
+Metals X Limited,Materials,MLX.AX,EQ,AU000000MLX7
+Nick Scali,Consumer Discretionary,NCK.AX,EQ,AU000000NCK1
+Arena REIT,Financials,ARF.AX,EQ,AU000000ARF6
+Catalyst Metals,Materials,CYL.AX,EQ,AU000000CYL6
+Navigator Global Investments Ltd,Financials,NGI.AX,EQ,AU000000NGI6
+Anteris Technologies Global Corp.,Health Care,AVR.AX,EQ,AU0000088841
+United Overseas Australia Ltd,Financials,UOS.AX,EQ,AU000000UOS4
+PYC Therapeutics Limited,Health Care,PYC.AX,EQ,AU000000PYC7
+EQ Resources Limited,Materials,EQR.AX,EQ,AU0000122749
+HMC Capital Limited,Financials,HMC.AX,EQ,AU0000058943
+Cromwell Property Group,Financials,CMW.AX,EQ,AU000000CMW8
+PMET Resources Inc. Shs Chess Depository Interests Repr 0.1 Sh,Materials,PMT.AX,EQ,AU0000251258
+Aspen Group Limited,Financials,APZ.AX,EQ,AU000000APZ8
+Graincorp Limited Class A,Industrials,GNC.AX,EQ,AU000000GNC9
+Kelsian Group Limited,Consumer Discretionary,KLS.AX,EQ,AU0000186678
+Elders Limited,Materials,ELD.AX,EQ,AU000000ELD6
+IRESS Limited,Technology,IRE.AX,EQ,AU000000IRE2
+Alpha HPA Limited,Materials,A4N.AX,EQ,AU0000033060
+MA Financial Group Limited,Financials,MAF.AX,EQ,AU0000156218
+Nufarm Limited,Materials,NUF.AX,EQ,AU000000NUF3
+Marimaca Copper Corp Chess Depositary Interests,Materials,MC2.AX,EQ,AU0000381535
+IPH Ltd.,Industrials,IPH.AX,EQ,AU000000IPH9
+Ridley Corporation Limited,Materials,RIC.AX,EQ,AU000000RIC6
+Southern Cross Electrical Engineering Limited,Industrials,SXE.AX,EQ,AU000000SXE9
+SiteMinder Limited,Technology,SDR.AX,EQ,AU0000183543
+Objective Corporation,Technology,OCL.AX,EQ,AU000000OCL7
+Collins Foods Limited,Consumer Discretionary,CKF.AX,EQ,AU000000CKF7
+Bravura Solutions Limited,Technology,BVS.AX,EQ,AU000000BVS9
+BCI Minerals Ltd,Materials,BCI.AX,EQ,AU000000BCI0
+Nanosonics Limited,Health Care,NAN.AX,EQ,AU000000NAN9
+Cuscal Limited,Industrials,CCL.AX,EQ,AU0000362105
+Pantoro Gold Limited,Materials,PNR.AX,EQ,AU000000PNR8
+Charter Hall Social Infrastructure REIT,Financials,CQE.AX,EQ,AU0000030645
+GR Engineering Services Ltd,Industrials,GNG.AX,EQ,AU000000GNG0
+Qualitas Real Estate Income Fund Units,Financials,QRI.AX,EQ,AU0000027310
+Latitude Group Holdings Ltd.,Financials,LFS.AX,EQ,AU0000143687
+Civmec Limited,Industrials,CVL.AX,EQ,AU0000012056
+WA1 Resources Ltd,Materials,WA1.AX,EQ,AU0000196594
+Liberty Financial Group Ltd,Financials,LFG.AX,EQ,AU0000121634
+Catapult Sports Ltd.,Technology,CAT.AX,EQ,AU000000CAT9
+Hansen Technologies Limited,Technology,HSN.AX,EQ,AU000000HSN3
+Regal Partners Limited,Financials,RPL.AX,EQ,AU0000226300
+SKS Technologies Group Limited,Technology,SKS.AX,EQ,AU0000124901
+Wagners Holding Co. Ltd.,Materials,WGN.AX,EQ,AU000000WGN7
+Core Lithium Ltd,Materials,CXO.AX,EQ,AU000000CXO2
+Abacus Group,Financials,ABG.AX,EQ,AU0000291882
+Ricegrowers Ltd. Class B,Industrials,SGLLV.AX,EQ,AU0000040982
+PWR Holdings Ltd.,Industrials,PWH.AX,EQ,AU000000PWH0
+Amotiv Limited,Consumer Discretionary,AOV.AX,EQ,AU0000340770
+Qualitas Limited,Financials,QAL.AX,EQ,AU0000195265
+Credit Corp Group Limited,Industrials,CCP.AX,EQ,AU000000CCP3
+Webjet,Consumer Discretionary,WEB.AX,EQ,AU000000WEB7
+Rural Funds Group,Financials,RFF.AX,EQ,AU000000RFF5
+Clarity Pharmaceuticals Ltd.,Health Care,CU6.AX,EQ,AU0000165375
+Australian Agricultural Company Limited,Consumer Staples,AAC.AX,EQ,AU000000AAC9
+Inghams Group Ltd.,Materials,ING.AX,EQ,AU000000ING6
+Dexus Industria REIT,Financials,DXI.AX,EQ,AU0000192833
+Peet Limited,Financials,PPC.AX,EQ,AU000000PPC5
+Mystate Limited,Financials,MYS.AX,EQ,AU000000MYS0
+Integral Diagnostics,Health Care,IDX.AX,EQ,AU000000IDX2
+EchoIQ Limited,Materials,EIQ.AX,EQ,AU0000195430
+Chrysos Corp. Ltd.,Financials,C79.AX,EQ,AU0000218190
+WIA Gold Limited,Materials,WIA.AX,EQ,AU0000193872
+Star Entertainment Group Limited,Consumer Discretionary,SGR.AX,EQ,AU000000SGR6
+oOh media Ltd,Industrials,OML.AX,EQ,AU000000OML6
+Pepper Money Ltd,Financials,PPM.AX,EQ,AU0000150898
+Artrya Limited,Technology,AYA.AX,EQ,AU0000182412
+FINEOS Corporation Holdings Plc Shs Chess Depositary Interests Repr 1 Sh,Technology,FCL.AX,EQ,AU0000054322
+European Lithium Ltd.,Materials,EUR.AX,EQ,AU000000EUR7
+Vulcan Steel Ltd.,Industrials,VSL.AX,EQ,AU0000181984
+Black Cat Syndicate Ltd.,Materials,BC8.AX,EQ,AU000000BC88
+Duratec Limited,Industrials,DUR.AX,EQ,AU0000109159
+Polynovo,Health Care,PNV.AX,EQ,AU000000PNV0
+Wildcat Resources Ltd.,Materials,WC8.AX,EQ,AU0000096828
+St. Barbara Ltd.,Materials,SBM.AX,EQ,AU000000SBM8
+Servcorp Limited,Financials,SRV.AX,EQ,AU000000SRV5
+Bannerman Energy Ltd,Materials,BMN.AX,EQ,AU000000BMN9
+Symal Group Limited,Industrials,SYL.AX,EQ,AU0000361883
+Larvotto Resources Limited,Materials,LRV.AX,EQ,AU0000183253
+Forrestania Resources Limited,Materials,FRS.AX,EQ,AU0000171621
+Temple & Webster Group Ltd,Consumer Discretionary,TPW.AX,EQ,AU000000TPW5
+IPD Group Ltd,Utilities,IPG.AX,EQ,AU0000189318
+Lycopodium Limited,Industrials,LYL.AX,EQ,AU000000LYL7
+Lifestyle Communities Ltd,Consumer Discretionary,LIC.AX,EQ,AU000000LIC9
+Tivan Limited,Materials,TVN.AX,EQ,AU0000265217
+Cedar Woods Properties Limited,Financials,CWP.AX,EQ,AU000000CWP1
+Rox Resources Ltd,Materials,RXL.AX,EQ,AU000000RXL6
+IDP Education Ltd.,Consumer Discretionary,IEL.AX,EQ,AU000000IEL5
+FleetPartners Group Limited,Financials,FPR.AX,EQ,AU0000272924
+GWA Group Limited,Consumer Discretionary,GWA.AX,EQ,AU000000GWA4
+Benz Mining Corp. Shs Chess Depository Interests Repr 1 sh,Materials,BNZ.AX,EQ,AU0000118796
+Imricor Medical Systems  Inc. Shs Chess Depository Interests Repr 1 Sh,Health Care,IMR.AX,EQ,AU0000054942
+Centuria Office REIT,Financials,COF.AX,EQ,AU0000077893
+Select Harvests Limited,Materials,SHV.AX,EQ,AU000000SHV6
+Santana Minerals Ltd.,Materials,SMI.AX,EQ,AU000000SMI3
+Magnetic Resources NL,Materials,MAU.AX,EQ,AU000000MAU6
+MA Credit Income Trust,Financials,MA1.AX,EQ,AU0000380917
+Vysarn Ltd,Industrials,VYS.AX,EQ,AU000000VYS1
+Shape Australia Corporation Limited,Industrials,SHA.AX,EQ,AU0000189292
+Mirrabooka Investments Ltd,Financials,MIR.AX,EQ,AU000000MIR5
+Chalice Mining Limited,Materials,CHN.AX,EQ,AU000000CHN7
+Jupiter Mines Limited,Materials,JMS.AX,EQ,AU0000005159
+Universal Store Holdings Ltd.,Consumer Discretionary,UNI.AX,EQ,AU0000113565
+Focus Minerals Ltd,Materials,FML.AX,EQ,AU000000FML4
+Ainsworth Game Technology Limited,Consumer Discretionary,AGI.AX,EQ,AU000000AGI3
+Emeco Holdings Limited,Financials,EHL.AX,EQ,AU000000EHL7
+Jumbo Interactive Limited,Consumer Discretionary,JIN.AX,EQ,AU000000JIN0
+AIC Mines Limited,Materials,A1M.AX,EQ,AU0000049033
+Meteoric Resources NL,Materials,MEI.AX,EQ,AU000000MEI3
+Galan Lithium Limited,Materials,GLN.AX,EQ,AU0000021461
+Aurelia Metals Limited,Materials,AMI.AX,EQ,AU000000AMI1
+Omni Bridgeway Ltd,Industrials,OBL.AX,EQ,AU0000082489
+Turaco Gold Ltd,Materials,TCG.AX,EQ,AU0000169039
+Australian Unity Ltd Pref.,Financials,AYUPA.AX,EQ,AU0000124349
+EQT Holdings Ltd.,Financials,EQT.AX,EQ,AU000000EQT1
+Australian Ethical Investment Ltd,Financials,AEF.AX,EQ,AU000000AEF4
+Racura Oncology Ltd,Health Care,RAC.AX,EQ,AU000000RAC3
+Nuix Ltd.,Technology,NXL.AX,EQ,AU0000119307
+Cogstate Ltd,Industrials,CGS.AX,EQ,AU000000CGS8
+Boss Energy Limited,Materials,BOE.AX,EQ,AU000000BOE4
+Viridis Mining and Minerals Limited,Materials,VMM.AX,EQ,AU0000190829
+Carindale Property Trust,Financials,CDP.AX,EQ,AU000000CDP1
+Metro Mining Limited,Materials,MMI.AX,EQ,AU000000MMI6
+Clinuvel Pharmaceuticals,Health Care,CUV.AX,EQ,AU000000CUV3
+Amplitude Energy Limited,Energy,AEL.AX,EQ,AU0000361909
+Ausgold Limited,Materials,AUC.AX,EQ,AU000000AUC7
+Aeris Resources Limited,Materials,AIS.AX,EQ,AU000000AIS8
+Australian Finance Group Ltd.,Financials,AFG.AX,EQ,AU000000AFG9
+29Metals,Materials,29M.AX,EQ,AU0000157067
+K & S Corporation Limited,Industrials,KSC.AX,EQ,AU000000KSC0
+Myer Holdings,Consumer Discretionary,MYR.AX,EQ,AU000000MYR2
+Dateline Resources Limited,Materials,DTR.AX,EQ,AU000000DTR1
+Coronado Global Resources,Materials,CRN.AX,EQ,AU0000026122
+St. George Mining Ltd.,Materials,SGQ.AX,EQ,AU000000SGQ8
+Bell Financial Group Limited,Financials,BFG.AX,EQ,AU000000BFG7
+ioneer Limited,Materials,INR.AX,EQ,AU0000028946
+Tyro Payments Ltd.,Industrials,TYR.AX,EQ,AU0000066508
+Propel Funeral Partners Ltd.,Consumer Discretionary,PFP.AX,EQ,AU000000PFP8
+Andean Silver Limited,Materials,ASL.AX,EQ,AU0000343253
+Antipa Minerals Limited,Materials,AZY.AX,EQ,AU000000AZY0
+New Murchison Gold Limited,Materials,NMG.AX,EQ,AU0000365348
+Beetaloo Energy Australia Limited,Energy,BTL.AX,EQ,AU0000401770
+Australian Clinical Labs,Health Care,ACL.AX,EQ,AU0000148496
+Unico Silver Limited,Materials,USL.AX,EQ,AU0000269821
+MGX Resources Limited,Materials,MGX.AX,EQ,AU000000MGX7
+BrainChip Holdings Ltd.,Technology,BRN.AX,EQ,AU000000BRN8
+Energy One Limited,Technology,EOL.AX,EQ,AU000000EOL3
+Whitefield income limited,Financials,WHI.AX,EQ,AU0000360018
+Accent Group Ltd,Industrials,AX1.AX,EQ,AU000000AX19
+HealthCo Healthcare & Wellness REIT,Financials,HCW.AX,EQ,AU0000169302
+Kogan.com,Consumer Discretionary,KGN.AX,EQ,AU000000KGN2
+Hot Chili Limited,Materials,HCH.AX,EQ,AU0000HCHAX9
+IVE Group Ltd.,Industrials,IGL.AX,EQ,AU000000IGL0
+Strike Energy Limited,Energy,STX.AX,EQ,AU000000STX7
+ClearView Wealth Limited,Financials,CVW.AX,EQ,AU000000CVW9
+Autosports Group Ltd,Consumer Discretionary,ASG.AX,EQ,AU000000ASG2
+Li-Ft Power Ltd CHESS Depositary Interests,Materials,LFT.AX,EQ,AU0000467110
+Sovereign Metals Limited,Materials,SVM.AX,EQ,AU000000SVM6
+Titomic Ltd,Industrials,TTT.AX,EQ,AU000000TTT3
+Beacon Lighting Group Ltd,Industrials,BLX.AX,EQ,AU000000BLX0
+Dexus Convenience Retail REIT,Financials,DXC.AX,EQ,AU0000179061
+Brightstar Resources Limited,Materials,BTR.AX,EQ,AU0000126633
+Metallium Limited,Materials,MTM.AX,EQ,AU0000155228
+Nova Minerals Limited,Materials,NVA.AX,EQ,AU000000NVA2
+Qoria Limited,Technology,QOR.AX,EQ,AU0000278491
+Horizon Oil Limited,Energy,HZN.AX,EQ,AU000000HZN8
+Australian Strategic Materials Ltd,Materials,ASM.AX,EQ,AU0000094153
+Challenger Gold Limited,Materials,CEL.AX,EQ,AU000000CEL8
+Praemium Ltd,Technology,PPS.AX,EQ,AU000000PPS1
+Advanced Innergy Holdings Ltd.,Materials,AIH.AX,EQ,AU0000423667
+Resimac Group Limited,Financials,RMC.AX,EQ,AU0000033094
+GDI Property Group,Financials,GDI.AX,EQ,AU000000GDI7
+Dominion Income Trust 1,Financials,DN1.AX,EQ,AU0000381113
+Smart Parking Limited,Consumer Discretionary,SPZ.AX,EQ,AU000000SPZ0
+PointsBet Holdings Ltd.,Consumer Discretionary,PBH.AX,EQ,AU0000047797
+Omega Oil & Gas Limited,Energy,OMA.AX,EQ,AU0000237729
+Mayfield Group Holdings Limited,Industrials,MYG.AX,EQ,AU0000119331
+Meeka Metals Limited,Materials,MEK.AX,EQ,AU0000192726
+Pacific Lime and Cement Limited,Materials,PLA.AX,EQ,AU0000411175
+LGI LTD,Utilities,LGI.AX,EQ,AU0000237638
+Medallion Metal Ltd,Materials,MM8.AX,EQ,AU0000138828
+WAM Income Maximiser Limited,Financials,WMX.AX,EQ,AU0000390387
+Tetratherix Limited,Health Care,TTX.AX,EQ,AU0000400574
+Centaurus Metals Limited,Materials,CTM.AX,EQ,AU000000CTM4
+COG Financial Services Limited,Financials,COG.AX,EQ,AU000000COG7
+Pacific Current Group Ltd,Financials,PAC.AX,EQ,AU000000PAC7
+Ballard Mining Limited,Materials,BM1.AX,EQ,AU0000400376
+Red Hill Minerals Ltd,Materials,RHI.AX,EQ,AU000000RHI5
+Bapcor Ltd,Industrials,BAP.AX,EQ,AU000000BAP9
+DUG Technology Ltd,Technology,DUG.AX,EQ,AU0000095721
+Tungsten Mining NL,Materials,TGN.AX,EQ,AU000000TGN3
+Appen,Technology,APX.AX,EQ,AU000000APX3
+Silver Mines Limited,Materials,SVL.AX,EQ,AU000000SVL8
+Amaero Ltd,Materials,3DA.AX,EQ,AU0000064578
+Amaero Ltd TEMP,Materials,3DADA.AX,EQ,AU0000469587
+Syrah Resources Limited,Materials,SYR.AX,EQ,AU000000SYR9
+GreenX Metals Limited,Energy,GRX.AX,EQ,AU0000198939
+Terra Metals Limited,Materials,TM1.AX,EQ,AU0000329302
+Acrow Limited,Industrials,ACF.AX,EQ,AU0000006124
+Starpharma Holdings Limited,Health Care,SPL.AX,EQ,AU000000SPL0
+Metrics Real Estate Multi-Strategy Fund,Financials,MRE.AX,EQ,AU0000352791
+Metal Powder Works Limited,Industrials,MPW.AX,EQ,AU0000384729
+Fiducian Group Ltd,Financials,FID.AX,EQ,AU000000FID9
+Kore Potash PLC Shs Chess Deposit Interests Repr 1 Sh,Materials,KP2.AX,EQ,AU000000KP25
+Humm Group Limited,Financials,HUM.AX,EQ,AU0000121337
+Solvar Limited,Financials,SVR.AX,EQ,AU0000258782
+Koala Company Limited,Consumer Discretionary,KOA.AX,EQ,AU0000459869
+Tribune Resources Limited,Materials,TBR.AX,EQ,AU000000TBR5
+Asara Resources Limited,Materials,AS1.AX,EQ,AU0000315624
+Cobre Limited,Materials,CBE.AX,EQ,AU0000072555
+Southern Cross Media Group Limited,Consumer Discretionary,SXL.AX,EQ,AU000000SXL4
+Maritana Minerals Limited,Materials,MRT.AX,EQ,AU0000464257
+Fortifai Limited,Technology,FTI.AX,EQ,AU0000408056
+Northern Minerals Limited,Materials,NTU.AX,EQ,AU000000NTU4
+Monash IVF Group,Health Care,MVF.AX,EQ,AU000000MVF3
+Saturn Metals Ltd.,Materials,STN.AX,EQ,AU000000STN8
+Healius Ltd,Health Care,HLS.AX,EQ,AU0000033359
+XRF Scientific Limited,Industrials,XRF.AX,EQ,AU000000XRF8
+Schaffer Corporation Limited,Consumer Staples,SFC.AX,EQ,AU000000SFC0
+Eureka Group Holdings Limited,Financials,EGH.AX,EQ,AU000000EGH7
+La Trobe Private Credit Fund,Financials,LF1.AX,EQ,AU0000398133
+Havilah Resources Limited,Materials,HAV.AX,EQ,AU000000HAV4
+Strickland Metals Ltd,Materials,STK.AX,EQ,AU0000100901
+Solstice Minerals Limited,Materials,SLS.AX,EQ,AU0000214157
+MC Mining Ltd,Energy,MCM.AX,EQ,AU000000MCM9
+Gorilla Gold Mines Ltd,Materials,GG8.AX,EQ,AU0000382079
+Paragon Care Limited,Industrials,PGC.AX,EQ,AU000000PGC4
+Theta Gold Mines Ltd.,Materials,TGM.AX,EQ,AU0000035701
+Atlantic Lithium Limited.,Materials,A11.AX,EQ,AU0000237554
+Astron Limited,Materials,ATR.AX,EQ,AU000000ATR7
+Prospect Resources Ltd.,Materials,PSC.AX,EQ,AU000000PSC9
+Intelligent Monitoring Group Limited,Industrials,IMB.AX,EQ,AU0000199713
+GARDA Property Group Stapled Secs Cons of 1 Ut GARDA Div Prop Fund + 1 Sh of GARDA Hldgs Ltd,Financials,GDF.AX,EQ,AU000000GDF3
+Advanced Energy Minerals Ltd,Materials,AEM.AX,EQ,AU0000433500
+Helloworld Travel Ltd,Consumer Discretionary,HLO.AX,EQ,AU000000HLO6
+Waratah Minerals Limited,Materials,WTM.AX,EQ,AU0000317471
+Alicanto Minerals Ltd,Materials,AQI.AX,EQ,AU000000AQI2
+Polymetals Resources Ltd.,Materials,POL.AX,EQ,AU0000148223
+Beacon Minerals Limited,Materials,BCN.AX,EQ,AU000000BCN0
+Adairs,Consumer Discretionary,ADH.AX,EQ,AU000000ADH2
+Energy World Corporation Ltd,Utilities,EWC.AX,EQ,AU000000EWC5
+Canyon Resources Limited,Materials,CAY.AX,EQ,AU000000CAY9
+Rivco Australia Limited,Utilities,RIV.AX,EQ,AU0000426512
+RAM Essential Services Property Fund,Financials,REP.AX,EQ,AU0000180317
+Aurum Resources Limited,Materials,AUE.AX,EQ,AU0000173478
+Astral Resources NL,Materials,AAR.AX,EQ,AU000000AAR7
+Pengana Global Private Credit Trust,Financials,PCX.AX,EQ,AU0000331795
+Baby Bunting Group Ltd.,Consumer Discretionary,BBN.AX,EQ,AU000000BBN2
+Vitrafy Life Sciences Ltd.,Health Care,VFY.AX,EQ,AU0000361297
+Barton Gold Holdings Limited,Materials,BGD.AX,EQ,AU0000153215
+AMA Group Limited,Consumer Discretionary,AMA.AX,EQ,AU000000AMA8
+Count Limited,Industrials,CUP.AX,EQ,AU000000CUP5
+Sky Metals Limited,Materials,SKY.AX,EQ,AU0000049637
+Korvest Ltd.,Industrials,KOV.AX,EQ,AU000000KOV9
+Midas Minerals Limited,Materials,MM1.AX,EQ,AU0000166142
+Cyprium Metals Limited,Materials,CYM.AX,EQ,AU0000050536
+CVC Limited,Financials,CVC.AX,EQ,AU000000CVC1
+Elixir Energy Limited,Energy,EXR.AX,EQ,AU000000EXR1
+Boab Metals Ltd,Materials,BML.AX,EQ,AU0000131849
+Broken Hill Mines Limited,Materials,BHM.AX,EQ,AU0000405987
+Lindsay Australia,Industrials,LAU.AX,EQ,AU000000LAU8
+Altair Minerals limited,Materials,ALR.AX,EQ,AU0000333676
+Cash Converters International Limited,Consumer Discretionary,CCV.AX,EQ,AU000000CCV1
+Bisalloy Steel Group Ltd,Materials,BIS.AX,EQ,AU000000BIS6
+Acusensus Ltd,Technology,ACE.AX,EQ,AU0000259582
+West Wits Mining Limited,Materials,WWI.AX,EQ,AU000000WWI4
+NOVONIX Ltd,Technology,NVX.AX,EQ,AU000000NVX4
+KGL Resources Limited,Materials,KGL.AX,EQ,AU000000KGL6
+Orthocell Ltd,Health Care,OCC.AX,EQ,AU000000OCC6
+Victory Metals Limited,Materials,VTM.AX,EQ,AU0000252645
+Austral Resources Australia Limited,Materials,AR1.AX,EQ,AU0000175838
+Wrkr Ltd,Technology,WRK.AX,EQ,AU0000192064
+Fenix Resources Limited,Materials,FEX.AX,EQ,AU0000025132
+Titan Minerals Ltd,Materials,TTM.AX,EQ,AU000000TTM8
+Berkeley Energia Limited,Materials,BKY.AX,EQ,AU000000BKY0
+Orion Minerals Limited,Materials,ORN.AX,EQ,AU000000ORN1
+Bioxyne Limited,Industrials,BXN.AX,EQ,AU000000BXN6
+Carnarvon Energy Limited,Energy,CVN.AX,EQ,AU000000CVN8
+Emmerson Resources Limited,Materials,ERM.AX,EQ,AU000000ERM4
+Mayne Pharma Group Ltd.,Health Care,MYX.AX,EQ,AU000000MYX0
+LDR Capital Property Fund,Financials,LED.AX,EQ,AU0000455305
+Peninsula Energy Limited,Materials,PEN.AX,EQ,AU000000PEN6
+Euroz Hartleys Group Limited,Financials,EZL.AX,EQ,AU000000EZL9
+Finder Energy Holdings Limited,Energy,FDR.AX,EQ,AU0000212078
+Betmakers Technology Group Ltd.,Technology,BET.AX,EQ,AU0000050585
+Finbar Group Limited,Financials,FRI.AX,EQ,AU000000FRI9
+Coast Entertainment Holdings Ltd,Consumer Discretionary,CEH.AX,EQ,AU0000314254
+Grange Resources Limited,Materials,GRR.AX,EQ,AU000000GRR8
+Horizon Gold Ltd.,Materials,HRN.AX,EQ,AU000000HRN5
+Capral Limited,Materials,CAA.AX,EQ,AU000000CAA9
+Adisyn Limited,Technology,AI1.AX,EQ,AU0000301400
+Sun Silver Ltd.,Materials,SS1.AX,EQ,AU0000330474
+Laramide Resources Ltd. Shs Chess Depository Interests repr 1 sh,Materials,LAM.AX,EQ,AU000000LAM5
+Hillgrove Resources Limited,Materials,HGO.AX,EQ,AU000000HGO6
+Waterco Limited,Materials,WAT.AX,EQ,AU000000WAT7
+ReadyTech Holdings Ltd.,Technology,RDY.AX,EQ,AU0000043002
+Reef Casino Trust,Consumer Discretionary,RCT.AX,EQ,AU000000RCT3
+Motorcycle Holdings Ltd.,Consumer Discretionary,MTO.AX,EQ,AU000000MTO9
+Joyce Corporation Ltd,Consumer Discretionary,JYC.AX,EQ,AU000000JYC0
+Torque Metals Ltd.,Materials,TOR.AX,EQ,AU0000147266
+BETR Entertainment Limited,Consumer Discretionary,BBT.AX,EQ,AU0000157075
+Carnaby Resources Ltd.,Materials,CNB.AX,EQ,AU0000046203
+Shaver Shop Group Limited,Consumer Discretionary,SSG.AX,EQ,AU000000SSG4
+Kelly Partners Group Holdings Ltd.,Industrials,KPG.AX,EQ,AU000000KPG7
+AVITA Medical Inc Shs Chess Depository Interests repr 0.2 shs,Health Care,AVH.AX,EQ,AU000000AVH4
+Atturra Limited,Industrials,ATA.AX,EQ,AU0000190308
+Zeotech Limited,Materials,ZEO.AX,EQ,AU0000122285
+Cygnus Metals Limited,Materials,CY5.AX,EQ,AU000000CY57
+Alligator Energy Ltd,Materials,AGE.AX,EQ,AU000000AGE2
+Audinate Group Ltd.,Technology,AD8.AX,EQ,AU000000AD88
+Tesoro Gold Ltd,Materials,TSO.AX,EQ,AU0000077208
+FSA Group Limited,Financials,FSA.AX,EQ,AU000000FSA4
+Decidr AI Industries Ltd,Consumer Staples,DAI.AX,EQ,AU0000386310
+SDI Limited,Health Care,SDI.AX,EQ,AU000000SDI2
+CTI Logistics Limited,Industrials,CLX.AX,EQ,AU000000CLX8
+Southern Palladium Ltd.,Materials,SPD.AX,EQ,AU0000220808
+AIMS Property Securities Fund,Financials,APW.AX,EQ,AU000000APW5
+Jade Gas Holdings Limited,Energy,JGH.AX,EQ,AU0000178477
+G50 Corp Limited,Materials,G50.AX,EQ,AU0000155889
+Comet Ridge Ltd,Energy,COI.AX,EQ,AU000000COI3
+Viva Leisure Ltd.,Consumer Discretionary,VVA.AX,EQ,AU0000046013
+Felix Gold Ltd.,Materials,FXG.AX,EQ,AU0000194433
+TerraCom Limited,Energy,TER.AX,EQ,AU000000TER9
+Peter Warren Automotive Holdings Ltd,Consumer Discretionary,PWR.AX,EQ,AU0000143711
+Klevo Rewards Limited,Technology,KLV.AX,EQ,AU0000428864
+Webjet Group Limited,Consumer Discretionary,WJL.AX,EQ,AU0000350118
+Fleetwood Limited,Consumer Discretionary,FWD.AX,EQ,AU000000FWD0
+Caravel Minerals Limited,Materials,CVV.AX,EQ,AU000000CVV1
+Brisbane Broncos Limited,Consumer Discretionary,BBL.AX,EQ,AU000000BBL6
+EMvision Medical Devices Ltd.,Health Care,EMV.AX,EQ,AU0000028375
+DevEx Resources Ltd,Materials,DEV.AX,EQ,AU000000DEV5
+Recce Pharmaceuticals Ltd.,Health Care,RCE.AX,EQ,AU000000RCE5
+PRL Global Ltd,Materials,PRG.AX,EQ,AU0000311680
+Saunders International Limited,Industrials,SND.AX,EQ,AU000000SND2
+Many Peaks Minerals Ltd,Materials,MPK.AX,EQ,AU0000307738
+EcoGraf Ltd.,Materials,EGR.AX,EQ,AU0000071482
+Stealth Group holdings Ltd.,Industrials,SGI.AX,EQ,AU0000022238
+Clover Corporation Limited,Health Care,CLV.AX,EQ,AU000000CLV2
+Lotus Resources Limited,Materials,LOT.AX,EQ,AU0000058737
+Energy Transition Minerals Ltd.,Materials,ETM.AX,EQ,AU0000250250
+Renascor Resources Ltd,Materials,RNU.AX,EQ,AU000000RNU8
+Peel Mining Limited,Materials,PEX.AX,EQ,AU000000PEX5
+Encounter Resources Limited,Materials,ENR.AX,EQ,AU000000ENR2
+Pilbara Gold Limited,Materials,PGL.AX,EQ,AU0000466062
+Tanami Gold NL,Materials,TAM.AX,EQ,AU000000TAM8
+Vita Life Sciences Limited,Health Care,VLS.AX,EQ,AU000000VLS8
+Plenti Group Ltd.,Financials,PLT.AX,EQ,AU0000102691
+Quantum Graphite Ltd,Materials,QGL.AX,EQ,AU000000QGL3
+Trek Metals Ltd Registered Chess Depositary Interests repr 1,Materials,TKM.AX,EQ,AU000000TKM7
+Elementos Limited,Materials,ELT.AX,EQ,AU000000ELT2
+Rand Mining Limited,Materials,RND.AX,EQ,AU000000RND4
+Alcidion Group Limited,Technology,ALC.AX,EQ,AU000000ALC6
+Atomic Eagle Ltd,Materials,AEU.AX,EQ,AU0000433096
+Global Lithium Resources Ltd.,Materials,GL1.AX,EQ,AU0000142929
+Investigator Silver Limited,Materials,IVR.AX,EQ,AU000000IVR6
+OFX Group Ltd.,Industrials,OFX.AX,EQ,AU000000OFX5
+Frontier Digital Ventures Ltd.,Technology,FDV.AX,EQ,AU000000FDV2
+Optiscan Imaging Limited,Health Care,OIL.AX,EQ,AU000000OIL4
+Oneview Healthcare PLC Chess Depository Interests repr 1,Technology,ONE.AX,EQ,AU000000ONE9
+Maronan Metals Ltd,Materials,MMA.AX,EQ,AU0000211609
+EML Payments Ltd.,Industrials,EML.AX,EQ,AU000000EML7
+Lake Resources N.L.,Materials,LKE.AX,EQ,AU000000LKE1
+Talga Group Ltd.,Materials,TLG.AX,EQ,AU000000TLG7
+EDU Holdings Limited,Industrials,EDU.AX,EQ,AU0000198483
+Aspire Mining Limited,Energy,AKM.AX,EQ,AU000000AKM7
+Frontier Energy Limited,Industrials,FHE.AX,EQ,AU0000207912
+Sea Forest Limited,Materials,SEA.AX,EQ,AU0000430126
+Manuka Resources Ltd,Materials,MKR.AX,EQ,AU0000090292
+Actinogen Medical Limited,Health Care,ACW.AX,EQ,AU000000ACW3
+Big River Industries Ltd.,Materials,BRI.AX,EQ,AU000000BRI8
+CuFe Ltd,Materials,CUF.AX,EQ,AU0000196891
+SPC Global Holdings Ltd,Consumer Staples,SPG.AX,EQ,AU0000372724
+Delta Lithium Limited,Materials,DLI.AX,EQ,AU0000276495
+Kaiser Reef Ltd,Materials,KAU.AX,EQ,AU0000072506
+Michael Hill International Ltd.,Consumer Discretionary,MHJ.AX,EQ,AU000000MHJ4
+Cauldron Energy Limited,Materials,CXU.AX,EQ,AU000000CXU9
+Geopacific Resources Limited,Materials,GPR.AX,EQ,AU000000GPR2
+G8 Education Limited,Consumer Discretionary,GEM.AX,EQ,AU000000GEM7
+Adrad Holdings Limited,Industrials,AHL.AX,EQ,AU0000237174
+Shine Justice Ltd.,Consumer Discretionary,SHJ.AX,EQ,AU000000SHJ1
+Somnomed Limited,Health Care,SOM.AX,EQ,AU000000SOM1
+Elevate Uranium Ltd,Materials,EL8.AX,EQ,AU0000156416
+MLG Oz Ltd,Industrials,MLG.AX,EQ,AU0000144610
+Marmota Limited,Materials,MEU.AX,EQ,AU000000MEU8
+Island Pharmaceuticals Ltd,Health Care,ILA.AX,EQ,AU0000138869
+Aura Energy Ltd,Materials,AEE.AX,EQ,AU000000AEE7
+Stellar Resources Limited,Materials,SRZ.AX,EQ,AU000000SRZ6
+Pioneer Credit Ltd,Financials,PNC.AX,EQ,AU000000PNC0
+Bhagwan Marine Ltd.,Industrials,BWN.AX,EQ,AU0000340663
+Gateway Mining Limited,Materials,GML.AX,EQ,AU000000GML2
+NobleOak Life Ltd,Financials,NOL.AX,EQ,AU0000161580
+Credit Clear Limited,Technology,CCR.AX,EQ,AU0000107526
+Alterity Therapeutics Ltd.,Health Care,ATH.AX,EQ,AU0000043945
+Nyrada  Inc. Shs Chess Depository Interests Repr 1 Shs,Health Care,NYR.AX,EQ,AU0000070195
+Carma Limited,Consumer Discretionary,CMA.AX,EQ,AU0000428088
+Falcon Metals Ltd,Materials,FAL.AX,EQ,AU0000187569
+Invictus Energy Limited,Energy,IVZ.AX,EQ,AU0000016560
+hipages Group Holdings Ltd.,Technology,HPG.AX,EQ,AU0000112104
+US Masters Residential Property Fund,Financials,URF.AX,EQ,AU000000URF4
+Ardea Resources Ltd.,Materials,ARL.AX,EQ,AU000000ARL4
+Austin Engineering Limited,Industrials,ANG.AX,EQ,AU000000ANG3
+Airtasker Ltd,Technology,ART.AX,EQ,AU0000135998
+Sunshine Metals Limited,Materials,SHN.AX,EQ,AU0000121808
+Tamawood Limited,Consumer Discretionary,TWD.AX,EQ,AU000000TWD1
+Eden Innovations Ltd,Industrials,EDE.AX,EQ,AU000000EDE1
+Mitchell Services Limited,Industrials,MSV.AX,EQ,AU000000MSV6
+Great Boulder Resources Ltd,Materials,GBR.AX,EQ,AU000000GBR2
+Yojee Ltd.,Technology,YOJ.AX,EQ,AU000000YOJ5
+Oceana metals Limited,Materials,OCN.AX,EQ,AU0000217648
+Dimerix Limited,Health Care,DXB.AX,EQ,AU000000DXB7
+Resolution Minerals Ltd.,Materials,RML.AX,EQ,AU0000067936
+LTR Pharma Limited,Health Care,LTP.AX,EQ,AU0000305294
+Infragreen Group Limited,Industrials,IFN.AX,EQ,AU0000398315
+Lumos Diagnostics Holdings Ltd.,Health Care,LDX.AX,EQ,AU0000157091
+Schoolblazer Limited,Financials,SBZ.AX,EQ,AU0000458531
+Blinklab Limited,Technology,BB1.AX,EQ,AU0000322851
+WOTSO,Financials,WOT.AX,EQ,AU0000136863
+Lion Rock Minerals Limited,Materials,LRM.AX,EQ,AU0000412231
+Ariana Resources PLC Shs CHESS DEPOSITARY INTERESTS 1:10,Materials,AA2.AX,EQ,AU0000410128
+360 Capital REIT,Financials,TOT.AX,EQ,AU000000TOT4
+Lark Distilling Co. Ltd.,Consumer Staples,LRK.AX,EQ,AU0000087264
+Archer Materials Limited,Technology,AXE.AX,EQ,AU000000AXE7
+Li-S Energy Ltd,Industrials,LIS.AX,EQ,AU0000166597
+Ariadne Australia Limited,Financials,ARA.AX,EQ,AU000000ARA7
+Golden Horse Minerals Limited Chess Depository,Materials,GHM.AX,EQ,AU0000360109
+Black Bear Minerals Limited,Materials,BKB.AX,EQ,AU0000433351
+Conrad Asia Energy Ltd. Shs Chess Depositary Interests Repr 1 Sh,Energy,CRD.AX,EQ,AU0000240970
+Cue Energy Resources Limited,Energy,CUE.AX,EQ,AU000000CUE9
+Pancontinental Energy NL,Energy,PCL.AX,EQ,AU000000PCL4
+Argosy Minerals Limited,Materials,AGY.AX,EQ,AU000000AGY0
+Globe International Limited,Consumer Staples,GLB.AX,EQ,AU000000GLB5
+Fluence Corporation Limited,Industrials,FLC.AX,EQ,AU000000FLC5
+Sports Entertainment Group Limited,Consumer Discretionary,SEG.AX,EQ,AU0000121907
+IODM Ltd.,Technology,IOD.AX,EQ,AU000000IOD1
+Calix Ltd.,Industrials,CXL.AX,EQ,AU0000017840
+GBM Resources Limited,Materials,GBM.AX,EQ,AU0000443905
+Matrix Composites & Engineering Ltd,Industrials,MCE.AX,EQ,AU000000MCE6
+Aldoro Resources Ltd.,Materials,ARN.AX,EQ,AU0000017733
+Stakk Ltd,Technology,SKK.AX,EQ,AU0000378291
+Hazer Group Ltd.,Materials,HZR.AX,EQ,AU000000HZR9
+DGL Group Limited,Materials,DGL.AX,EQ,AU0000149338
+Veem Ltd.,Industrials,VEE.AX,EQ,AU000000VEE3
+Paradigm Biopharmaceuticals Ltd.,Health Care,PAR.AX,EQ,AU000000PAR5
+PhosCo Ltd,Materials,PHO.AX,EQ,AU0000205999
+Resource Minerals International Ltd,Materials,RMI.AX,EQ,AU000000RMI5
+Emperor Energy Ltd,Energy,EMP.AX,EQ,AU000000EMP8
+Austco Healthcare Ltd,Technology,AHC.AX,EQ,AU0000120818
+Hastings Technology Metals Limited,Materials,HAS.AX,EQ,AU000000HAS0
+White Energy Company Limited,Energy,WEC.AX,EQ,AU000000WEC5
+Cettire Ltd.,Consumer Discretionary,CTT.AX,EQ,AU0000122210
+QPM Energy Limited,Industrials,QPM.AX,EQ,AU0000122251
+Anson Resources Limited,Materials,ASN.AX,EQ,AU000000ASN8
+Chilwa Minerals Ltd,Materials,CHW.AX,EQ,AU0000275752
+Vinyl Group Ltd.,Technology,VNL.AX,EQ,AU0000310781
+Lac Gold Limited,Materials,LAC.AX,EQ,AU0000471252
+AusQuest Limited,Materials,AQD.AX,EQ,AU000000AQD3
+Embark Early Education Limited,Consumer Discretionary,EVO.AX,EQ,AU0000289134
+Element 25 Limited,Materials,E25.AX,EQ,AU0000012098
+Arovella Therapeutics Limited,Health Care,ALA.AX,EQ,AU0000182784
+AML3D Ltd,Industrials,AL3.AX,EQ,AU0000079212
+Alliance Aviation Services Limited,Industrials,AQZ.AX,EQ,AU000000AQZ6
+Ionic Rare Earths Limited,Materials,IXR.AX,EQ,AU0000081341
+Epiminder Ltd.,Technology,EPI.AX,EQ,AU0000432239
+Dreadnought Resources Limited,Materials,DRE.AX,EQ,AU0000040297
+Nido Education Limited,Industrials,NDO.AX,EQ,AU0000297046
+PharmX Technologies Limited,Technology,PHX.AX,EQ,AU0000298762
+Brazillian Critical Minerals Limited,Materials,BCM.AX,EQ,AU0000315533
+AnteoTech Ltd,Health Care,ADO.AX,EQ,AU000000ADO8
+VHM Limited,Materials,VHM.AX,EQ,AU0000253189
+EVZ Limited,Industrials,EVZ.AX,EQ,AU000000EVZ8
+Gold Hydrogen Ltd.,Utilities,GHY.AX,EQ,AU0000253171
+Centrepoint Alliance Limited,Financials,CAF.AX,EQ,AU000000CAF8
+MaxiPARTS Limited,Industrials,MXI.AX,EQ,AU000000MXI3
+Osmond Resources Limited,Materials,OSM.AX,EQ,AU0000210734
+Apollo Minerals Limited,Materials,AON.AX,EQ,AU000000AON7
+Austral Gold Limited,Materials,AGD.AX,EQ,AU000000AGD4
+Bubs Australia Ltd.,Industrials,BUB.AX,EQ,AU000000BUB7
+Mastermyne Group Limited,Industrials,MYE.AX,EQ,AU000000MYE0
+Bellavista Resources Ltd,Materials,BVR.AX,EQ,AU0000216913
+Boom Logistics Ltd,Financials,BOL.AX,EQ,AU000000BOL9
+Alfabs Australia Ltd.,Industrials,AAL.AX,EQ,AU0000336463
+Yandal Resources Ltd.,Materials,YRL.AX,EQ,AU0000028409
+Rent.com.au Ltd,Technology,RNT.AX,EQ,AU000000RNT0
+Cyclopharm Limited,Health Care,CYC.AX,EQ,AU000000CYC5
+3P Learning Ltd.,Technology,3PL.AX,EQ,AU0000003PL9
+Carnegie Clean Energy Ltd,Industrials,CCE.AX,EQ,AU000000CCE7
+Nordic Resources Limited.,Materials,NNL.AX,EQ,AU0000221244
+Prescient Therapeutics Limited,Health Care,PTX.AX,EQ,AU000000PTX3
+American Tungsten & Antimony Ltd,Materials,AT4.AX,EQ,AU0000445603
+Peoplein Limited,Industrials,PPE.AX,EQ,AU000000PPE1
+Patronus Resources Limited,Materials,PTN.AX,EQ,AU0000348823
+Radiopharm Theranostics Limited,Health Care,RAD.AX,EQ,AU0000181851
+Etherstack Plc Shs Chess Depository Interests repr 1 sh,Technology,ESK.AX,EQ,AU000000ESK6
+Mach7 Technologies Ltd.,Technology,M7T.AX,EQ,AU000000M7T0
+Lunnon Metals Limited,Materials,LM8.AX,EQ,AU0000148975
+Caprice Resources Ltd.,Materials,CRS.AX,EQ,AU0000024275
+Diatreme Resources Limited,Materials,DRX.AX,EQ,AU000000DRX3
+Articore Group Limited,Consumer Discretionary,ATG.AX,EQ,AU0000303976
+CLEO Diagnostics Ltd,Health Care,COV.AX,EQ,AU0000288045
+Adveritas Limited,Technology,AV1.AX,EQ,AU0000033946
+Immutep Ltd,Health Care,IMM.AX,EQ,AU000000IMM6
+ARN Media Limited,Consumer Discretionary,A1N.AX,EQ,AU0000279853
+RTG Mining Inc Chess Depository Interests repr 1 Sh,Materials,RTG.AX,EQ,AU000000RTG4
+Pengana Capital Group Ltd.,Financials,PCG.AX,EQ,AU000000PCG4
+Little Green Pharma Ltd.,Materials,LGP.AX,EQ,AU0000074924
+Po Valley Energy Limited,Energy,PVE.AX,EQ,AU000000PVE9
+Ore Resources Limited,Materials,OR3.AX,EQ,AU0000436933
+MoneyMe Ltd.,Technology,MME.AX,EQ,AU0000066045
+RocketBoots Ltd.,Technology,ROC.AX,EQ,AU0000182545
+European Metals Holdings Ltd,Materials,EMH.AX,EQ,AU000000EMH5
+Sentinel Metals Limited,Materials,SNM.AX,EQ,AU0000421307
+Blackstone Minerals Ltd,Materials,BSX.AX,EQ,AU000000BSX5
+Loyal Metals Limited.,Materials,LLM.AX,EQ,AU0000399131
+Structural Monitoring Systems Plc Chess Depository Interests,Technology,SMN.AX,EQ,AU000000SMN3
+NH3 Clean Energy Limited,Materials,NH3.AX,EQ,AU0000369753
+True North Copper Limited,Materials,TNC.AX,EQ,AU0000282246
+Infotrust Ltd,Communication Services,ITS.AX,EQ,AU0000431462
+Cynata Therapeutics Limited,Health Care,CYP.AX,EQ,AU000000CYP7
+Freelancer Ltd.,Technology,FLN.AX,EQ,AU000000FLN2
+Iron Bear Resources Ltd,Materials,IBR.AX,EQ,AU0000453557
+Zenith Minerals Limited,Materials,ZNC.AX,EQ,AU000000ZNC9
+Beforepay Group Limited,Technology,B4P.AX,EQ,AU0000190803
+Botanix Pharmaceuticals Limited,Health Care,BOT.AX,EQ,AU000000BOT2
+Biome Australia Ltd,Health Care,BIO.AX,EQ,AU0000184137
+Experience Co Ltd,Consumer Discretionary,EXP.AX,EQ,AU000000EXP5
+Linq Minerals Limited,Materials,LNQ.AX,EQ,AU0000397960
+Black Canyon Limited,Materials,BCA.AX,EQ,AU0000141293
+EMC Gold Corporation Chess Depository Interests,Materials,EM3.AX,EQ,AU0000445173
+Singular Health Group Ltd,Technology,SHG.AX,EQ,AU0000129892
+Globe Metals & Mining Limited,Materials,GBE.AX,EQ,AU000000GBE0
+Laserbond Limited,Materials,LBL.AX,EQ,AU000000LBL5
+F.F.I. Holdings Ltd.,Consumer Staples,FFI.AX,EQ,AU000000FFI4
+Matsa Resources Ltd,Materials,MAT.AX,EQ,AU000000MAT8
+Australian Vanadium Limited,Industrials,AVL.AX,EQ,AU000000AVL6
+Flagship Minerals limited,Materials,FLG.AX,EQ,AU0000379323
+Rumble Resources Limited,Materials,RTR.AX,EQ,AU000000RTR1
+Raiz Invest Ltd.,Financials,RZI.AX,EQ,AU0000010761
+Estrella Resources Limited,Materials,ESR.AX,EQ,AU000000ESR1
+Critica Limited,Materials,CRI.AX,EQ,AU0000352627
+Anax Metals Limited,Materials,ANX.AX,EQ,AU0000111114
+Kinatico Limited,Industrials,KYP.AX,EQ,AU0000247082
+Kinetiko Energy Ltd.,Energy,KKO.AX,EQ,AU000000KKO2
+Sunstone Metals Ltd,Materials,STM.AX,EQ,AU000000STM0
+Ion Video Ltd,Materials,IOV.AX,EQ,AU0000440992
+Amplia Therapeutics Ltd.,Health Care,ATX.AX,EQ,AU0000023822
+Toro Energy Limited,Materials,TOE.AX,EQ,AU000000TOE6
+Prime Financial Group Limited,Financials,PFG.AX,EQ,AU000000PFG7
+Venus Metals Corporation Limited,Materials,VMC.AX,EQ,AU000000VMC0
+MetalsTech Ltd,Materials,MTC.AX,EQ,AU000000MTC4
+Pacgold Limited,Materials,PGO.AX,EQ,AU0000158636
+Playside Studios Ltd,Technology,PLY.AX,EQ,AU0000120636
+Mithril Silver and Gold Limited,Materials,MTH.AX,EQ,AU000000MTH3
+Microequities Asset Management Group Ltd.,Financials,MAM.AX,EQ,AU0000004517
+Aquirian Limited,Industrials,AQN.AX,EQ,AU0000158537
+Famien Resources Limited,Materials,FMN.AX,EQ,AU0000470262
+BluGlass Ltd,Technology,BLG.AX,EQ,AU000000BLG5
+Vection Technologies Ltd.,Technology,VR1.AX,EQ,AU0000067522
+SportsHero Limited,Technology,SHO.AX,EQ,AU000000SHO1
+Everlast Minerals Ltd,Materials,EV8.AX,EQ,AU0000403917
+NuEnergy Gas Limited,Energy,NGY.AX,EQ,AU000000NGY3
+Duxton Farms Limited,Materials,DBF.AX,EQ,AU000000DBF4
+Canadian Phosphate Limited,Materials,CP8.AX,EQ,AU0000384935
+Far East Gold Ltd,Materials,FEG.AX,EQ,AU0000191793
+First Graphene Ltd,Industrials,FGR.AX,EQ,AU000000FGR3
+Farm Pride Foods Limited,Materials,FRM.AX,EQ,AU000000FRM1
+Urbanise.com Ltd.,Technology,UBN.AX,EQ,AU000000UBN2
+Clever Culture Systems Limited,Health Care,CC5.AX,EQ,AU0000367153
+Simonds Group Ltd.,Industrials,SIO.AX,EQ,AU000000SIO9
+Aland Equity Group Limited,Financials,AEG.AX,EQ,AU0000449209
+Cokal Limited,Energy,CKA.AX,EQ,AU000000CKA8
+Cryosite Limited,Industrials,CTE.AX,EQ,AU000000CTE1
+American West Metals Ltd.,Materials,AW1.AX,EQ,AU0000187239
+Integrated Research Limited,Technology,IRI.AX,EQ,AU000000IRI3
+Senetas Corporation Limited,Technology,SEN.AX,EQ,AU000000SEN0
+Haranga Resources Limited,Materials,HAR.AX,EQ,AU0000187247
+AuMega Metals Ltd,Materials,AAM.AX,EQ,AU0000338311
+Nanoveu Ltd.,Technology,NVU.AX,EQ,AU0000024796
+D3 Energy Limited,Energy,D3E.AX,EQ,AU0000325003
+Entropy Neurodynamics Limited,Health Care,ENP.AX,EQ,AU0000433583
+Native Mineral Resources Holdings Ltd.,Materials,NMR.AX,EQ,AU0000108219
+Advance ZincTek Limited,Materials,ANO.AX,EQ,AU000000ANO7
+Wiseway Group Ltd.,Industrials,WWG.AX,EQ,AU0000027195
+Change Financial Ltd,Technology,CCA.AX,EQ,AU000000CCA5
+Central Petroleum Limited,Energy,CTP.AX,EQ,AU000000CTP7
+Trajan Group Holdings Ltd,Industrials,TRJ.AX,EQ,AU0000150526
+Reckon Limited,Technology,RKN.AX,EQ,AU000000RKN9
+White Cliff Minerals Limited,Materials,WCN.AX,EQ,AU000000WCN6
+Neurizon Therapeutics Limited,Health Care,NUZ.AX,EQ,AU0000357261
+Cannindah Resources Limited,Materials,CAE.AX,EQ,AU000000CAE1
+VBX Limited,Materials,VBX.AX,EQ,AU0000395808
+xReality Group Limited,Consumer Discretionary,XRG.AX,EQ,AU0000196065
+Red Metal Limited,Materials,RDM.AX,EQ,AU000000RDM6
+Compumedics Limited,Health Care,CMP.AX,EQ,AU000000CMP2
+Clean TeQ Water Ltd,Industrials,CNQ.AX,EQ,AU0000153280
+ASF Group Limited,Financials,AFA.AX,EQ,AU000000AFA2
+Hammer Metals Limited,Materials,HMX.AX,EQ,AU000000HMX5
+dorsaVi Ltd.,Technology,DVL.AX,EQ,AU000000DVL0
+Coda Minerals Ltd,Materials,COD.AX,EQ,AU0000105330
+Latrobe Magnesium Limited,Materials,LMG.AX,EQ,AU000000LMG2
+Auric Mining Ltd.,Materials,AWJ.AX,EQ,AU0000121113
+CZR Resources Ltd,Materials,CZR.AX,EQ,AU000000CZR0
+Shriro Holdings Ltd.,Consumer Discretionary,SHM.AX,EQ,AU000000SHM5
+AuKing Mining Ltd,Materials,AKN.AX,EQ,AU000000AKN5
+Lachlan Star Limited,Materials,LSA.AX,EQ,AU000000LSA2
+PolarX Ltd,Materials,PXX.AX,EQ,AU000000PXX5
+Eclipse Metals Limited,Materials,EPM.AX,EQ,AU000000EPM8
+Syntara Limited,Health Care,SNT.AX,EQ,AU0000312480
+Environmental Clean Technologies Limited,Industrials,ECT.AX,EQ,AU0000018137
+Dusk Group Ltd.,Consumer Discretionary,DSK.AX,EQ,AU0000109662
+Terramin Australia Limited,Materials,TZN.AX,EQ,AU000000TZN3
+Australian Mines Limited,Materials,AUZ.AX,EQ,AU000000AUZ8
+Odyssey Gold Limited,Materials,ODY.AX,EQ,AU000000ODY8
+Mindax Limited,Materials,MDX.AX,EQ,AU000000MDX4
+Brookside Energy Limited,Energy,BRK.AX,EQ,AU000000BRK4
+Salter Brothers Emerging Companies Ltd.,Financials,SB2.AX,EQ,AU0000149429
+Ai-Media Technologies Limited,Technology,AIM.AX,EQ,AU0000101636
+Goldarc Resources Limited,Materials,GA8.AX,EQ,AU0000419624
+Verbrec Ltd,Industrials,VBC.AX,EQ,AU0000125577
+Inoviq Ltd,Health Care,IIQ.AX,EQ,AU0000196149
+Vmoto Limited,Consumer Discretionary,VMT.AX,EQ,AU000000VMT4
+Power Minerals Limited,Materials,PNN.AX,EQ,AU000000PNN7
+Doctor Care Anywhere Group PLC Shs Chess Depository Interests Repr 1 sh,Health Care,DOC.AX,EQ,AU0000116238
+HeraMED Ltd,Technology,HMD.AX,EQ,AU0000028367
+Australian Wealth Advisors Group Ltd.,Financials,WAG.AX,EQ,AU0000307902
+Killi Resources Limited,Materials,KLI.AX,EQ,AU0000191058
+West Coast Silver Limited,Materials,WCE.AX,EQ,AU0000396905
+Cobalt Blue Holdings Ltd.,Materials,COB.AX,EQ,AU000000COB8
+Medical Developments International Limited,Health Care,MVP.AX,EQ,AU000000MVP2
+ClearVue Technologies Ltd.,Technology,CPV.AX,EQ,AU0000003816
+1414 Degrees Ltd.,Industrials,14D.AX,EQ,AU0000010696
+Coventry Group Limited,Industrials,CYG.AX,EQ,AU000000CYG6
+Solis Minerals Ltd,Materials,SLM.AX,EQ,AU0000189029
+Avecho Biotechnology Limited,Health Care,AVE.AX,EQ,AU0000047441
+Sprintex Limited,Industrials,SIX.AX,EQ,AU000000SIX0
+Citigold Corporation Limited,Materials,CTO.AX,EQ,AU000000CTO0
+Besra Gold Inc Shs Chess Depository Interests Repr 1 Sh,Materials,BEZ.AX,EQ,AU0000150351
+Advanced Braking Technology Limited,Industrials,ABV.AX,EQ,AU000000ABV7
+Kincora Copper Limited Shs Chess Depository Interests Repr 1 Sh,Materials,KCC.AX,EQ,AU0000138877
+Podium Minerals Limited,Materials,POD.AX,EQ,AU000000POD6
+archTIS Ltd.,Technology,AR9.AX,EQ,AU0000020877
+Jindalee Lithium Limited,Materials,JLL.AX,EQ,AU0000309577
+Odessa Minerals Limited,Materials,ODE.AX,EQ,AU0000203796
+Retail Food Group Limited,Consumer Discretionary,RFG.AX,EQ,AU000000RFG3
+WT Financial Group Ltd.,Financials,WTL.AX,EQ,AU0000065054
+Findi Limited,Industrials,FND.AX,EQ,AU0000241036
+Atlas Pearls Ltd,Consumer Discretionary,ATP.AX,EQ,AU000000ATP1
+DXN Ltd.,Technology,DXN.AX,EQ,AU0000003386
+Kalamazoo Resources Ltd.,Materials,KZR.AX,EQ,AU000000KZR3
+Santa Fe Minerals Ltd.,Materials,SFM.AX,EQ,AU000000SFM9
+G11 Resources Limited,Materials,G11.AX,EQ,AU0000309841
+Sparc Technologies Ltd,Industrials,SPN.AX,EQ,AU0000115750
+Rhythm Biosciences Limited,Health Care,RHY.AX,EQ,AU000000RHY2
+Cosol Limited,Technology,COS.AX,EQ,AU0000072498
+Foresta Group Holdings Limited,Materials,FGH.AX,EQ,AU0000292112
+Hitech Group Australia Limited,Industrials,HIT.AX,EQ,AU000000HIT1
+Greenwing Resources Ltd,Materials,GW1.AX,EQ,AU0000166613
+Hartshead Resources NL,Energy,HHR.AX,EQ,AU0000154148
+PTR Minerals Limited,Materials,PTR.AX,EQ,AU000000PTR5
+LE Minerals Limited,Materials,LEL.AX,EQ,AU0000143497
+QMines Ltd.,Materials,QML.AX,EQ,AU0000141533
+Green360 Technologies Limited,Materials,GT3.AX,EQ,AU0000387516
+Comms Group Ltd,Technology,CCG.AX,EQ,AU000000CCG2
+Ashley Services Group Ltd.,Industrials,ASH.AX,EQ,AU000000ASH0
+Imugene Ltd,Health Care,IMU.AX,EQ,AU000000IMU9
+Aguia Resources Limited,Materials,AGR.AX,EQ,AU000000AGR4
+Argent Minerals Limited,Materials,ARD.AX,EQ,AU000000ARD1
+VRX Silica Limited,Materials,VRX.AX,EQ,AU000000VRX5
+Pureprofile Ltd.,Industrials,PPL.AX,EQ,AU000000PPL6
+Environmental Group Limited,Industrials,EGL.AX,EQ,AU000000EGL9
+DigitalX Limited,Technology,DCC.AX,EQ,AU000000DCC9
+Murray Cod Australia Limited,Materials,MCA.AX,EQ,AU000000MCA4
+Carnavale Resources Limited,Materials,CAV.AX,EQ,AU000000CAV5
+Rapid Critical Metals Limited,Materials,RCM.AX,EQ,AU0000398364
+Control Bionics Ltd.,Technology,CBL.AX,EQ,AU0000114183
+Breakthrough Minerals Limited,Energy,BTM.AX,EQ,AU0000374274
+King River Resources Limited,Materials,KRR.AX,EQ,AU0000033102
+Western Gold Resources Ltd.,Materials,WGR.AX,EQ,AU0000153413
+TPC Consolidated Limited,Utilities,TPC.AX,EQ,AU000000TPC7
+GTN Ltd.,Industrials,GTN.AX,EQ,AU000000GTN3
+Antilles Gold Ltd,Materials,AAU.AX,EQ,AU0000115172
+Nexus Minerals Ltd.,Materials,NXM.AX,EQ,AU000000NXM3
+Iltani Resources Ltd.,Materials,ILT.AX,EQ,AU0000278095
+Ordell Minerals Ltd,Materials,ORD.AX,EQ,AU0000338121
+Tali Resources Ltd.,Materials,TR2.AX,EQ,AU0000402265
+Richmond Vanadium Technology Pty Ltd.,Materials,RVT.AX,EQ,AU0000248429
+NTAW Holdings Limited.,Industrials,NTD.AX,EQ,AU000000NTD0
+Kalina Power Limited,Utilities,KPO.AX,EQ,AU000000KPO1
+Heavy Minerals Ltd,Materials,HVY.AX,EQ,AU0000168668
+Transmetro Corp. Ltd.,Consumer Discretionary,TCO.AX,EQ,AU000000TCO0
+Noble Helium Ltd.,Materials,NHE.AX,EQ,AU0000210940
+Fortuna Metals Limited,Materials,FUN.AX,EQ,AU0000413254
+Wisr Ltd.,Financials,WZR.AX,EQ,AU0000004129
+Nova Eye Medical Ltd,Health Care,EYE.AX,EQ,AU0000094252
+Emyria Ltd,Technology,EMD.AX,EQ,AU0000073645
+Firebird Metals Ltd.,Materials,FRB.AX,EQ,AU0000134694
+Gumtree Australia Markets Limited,Technology,GUM.AX,EQ,AU0000381691
+Kingston Resources Ltd.,Materials,KSN.AX,EQ,AU000000KSN7
+TMK Energy Limited,Energy,TMK.AX,EQ,AU000000TMK7
+HyTerra Ltd,Energy,HYT.AX,EQ,AU0000232415
+Alma Metals Limited Chess Depository Interests repr 1 Shs,Materials,ALM.AX,EQ,AU0000195380
+OD6 Metals Ltd.,Materials,OD6.AX,EQ,AU0000222143
+Skylark Minerals Limited,Materials,SKM.AX,EQ,AU0000378226
+Jameson Resources Limited,Energy,JAL.AX,EQ,AU000000JAL1
+Mount Ridley Mines Limited,Materials,MRD.AX,EQ,AU000000MRD6
+Advance Metals Limited,Industrials,AVM.AX,EQ,AU0000227720
+Yugo Metals Limited,Materials,YUG.AX,EQ,AU0000404998
+Australian Gold & Copper Ltd.,Materials,AGC.AX,EQ,AU0000122194
+Pathkey.AI Limited,Technology,PKY.AX,EQ,AU0000415291
+Tasman Resources Ltd,Materials,TAS.AX,EQ,AU000000TAS5
+Castile Resources Ltd,Materials,CST.AX,EQ,AU0000070419
+Pure Resources Limited,Materials,PR1.AX,EQ,AU0000207805
+MinRex Resources Limited,Materials,MRR.AX,EQ,AU000000MRR6
+Jupiter Energy Limited,Energy,JPR.AX,EQ,AU000000JPR6
+Activeport Group Limited,Technology,ATV.AX,EQ,AU0000171910
+CleanSpace Holdings Ltd.,Health Care,CSX.AX,EQ,AU0000107831
+GWR Group Limited,Materials,GWR.AX,EQ,AU000000GWR8
+Zuleika Gold Limited,Materials,ZAG.AX,EQ,AU0000135220
+Great Dirt Resources Ltd,Materials,GR8.AX,EQ,AU0000297731
+Maggie Beer Holdings Ltd.,Industrials,MBH.AX,EQ,AU0000096554
+Dotz Nano Limited,Materials,DTZ.AX,EQ,AU000000DTZ4
+RocketDNA Ltd,Technology,RKT.AX,EQ,AU0000282717
+88 Energy Limited,Energy,88E.AX,EQ,AU00000088E2
+Rimfire Pacific Mining Limited,Materials,RIM.AX,EQ,AU000000RIM5
+Teaminvest Private Group Ltd,Financials,TIP.AX,EQ,AU0000041717
+Carbonxt Group Ltd.,Materials,CG1.AX,EQ,AU000000CG18
+Veris Limited,Technology,VRS.AX,EQ,AU000000VRS5
+Vertex Minerals Ltd.,Materials,VTX.AX,EQ,AU0000185910
+Alliance Nickel Limited,Materials,AXN.AX,EQ,AU0000265381
+Hawthorn Resources Limited,Materials,HAW.AX,EQ,AU000000HAW2
+Everest Metals Corporation Limited,Materials,EMC.AX,EQ,AU0000258170
+Step One Clothing Limited,Consumer Discretionary,STP.AX,EQ,AU0000181174
+Lincoln Minerals Limited,Materials,LML.AX,EQ,AU000000LML2
+Novo Resources Corp. Shs Chess Depository Interests repr 1 shs,Materials,NVO.AX,EQ,AU0000291643
+PPK Group Limited,Consumer Discretionary,PPK.AX,EQ,AU000000PPK8
+Locksley Resources Limited,Materials,LKY.AX,EQ,AU0000154015
+S2 Resources Ltd.,Materials,S2R.AX,EQ,AU000000S2R9
+5G Networks Limited,Technology,5GN.AX,EQ,AU0000317554
+Ballymore Resources Limited,Materials,BMR.AX,EQ,AU0000156796
+Image Resources NL,Materials,IMA.AX,EQ,AU000000IMA1
+Patrys Limited,Health Care,PAB.AX,EQ,AU000000PAB9
+BNK Banking Corporation Limited,Financials,BBC.AX,EQ,AU0000041857
+Microba Life Sciences Limited,Health Care,MAP.AX,EQ,AU0000209868
+Bounty Oil & Gas NL,Energy,BUY.AX,EQ,AU000000BUY9
+Alara Resources Limited,Materials,AUQ.AX,EQ,AU000000AUQ7
+Desoto Resources Ltd.,Materials,DES.AX,EQ,AU0000245763
+Beamtree Holdings Ltd,Technology,BMT.AX,EQ,AU0000170979
+Resouro Strategic Metals Inc Shs Chess Depository Interests Repr 1 Sh,Materials,RAU.AX,EQ,AU0000332553
+Leeuwin Metals Ltd,Materials,LM1.AX,EQ,AU0000268286
+Lakes Blue Energy NL,Energy,LKO.AX,EQ,AU000000LKO0
+RAS Technology Holdings Limited,Technology,RTH.AX,EQ,AU0000186496
+Holista Colltech Limited,Health Care,HCT.AX,EQ,AU000000HCT4
+Kip McGrath Education Centres Limited,Consumer Discretionary,KME.AX,EQ,AU000000KME9
+PainChek Ltd,Technology,PCK.AX,EQ,AU000000PCK6
+Vitasora Health Limited,Health Care,VHL.AX,EQ,AU0000392748
+Neometals Ltd,Materials,NMT.AX,EQ,AU000000NMT1
+Micro-X Ltd.,Health Care,MX1.AX,EQ,AU000000MX15
+Prodigy Gold NL,Materials,PRX.AX,EQ,AU0000012494
+EarlyPay Limited,Financials,EPY.AX,EQ,AU0000119570
+Mont Royal Resources Ltd.,Materials,MRZ.AX,EQ,AU0000041758
+Zicom Group Limited,Industrials,ZGL.AX,EQ,AU000000ZGL4
+Neuroscientific Biopharmaceuticals Ltd.,Health Care,NSB.AX,EQ,AU0000012973
+Cassius Mining Ltd,Materials,CMD.AX,EQ,AU000000CMD8
+QuickFee Ltd.,Industrials,QFE.AX,EQ,AU0000049025
+Enero Group Limited,Industrials,EGG.AX,EQ,AU000000EGG9
+Talius Group Limited,Technology,TAL.AX,EQ,AU0000281172
+Koonenberry Gold Limited,Materials,KNB.AX,EQ,AU0000165896
+Aurora Labs Ltd.,Industrials,A3D.AX,EQ,AU000000A3D7
+Viking Mines Limited,Materials,VKA.AX,EQ,AU000000VKA8
+Cosmos Exploration Limited,Materials,C1X.AX,EQ,AU0000178113
+Caspin Resources Ltd.,Materials,CPN.AX,EQ,AU0000110702
+TrivarX Limited,Technology,TRI.AX,EQ,AU0000300196
+WA Gold Limited,Materials,WAU.AX,EQ,AU0000466021
+Zoono Group Limited,Health Care,ZNO.AX,EQ,AU000000ZNO4
+Evion Group NL,Materials,EVG.AX,EQ,AU0000254690
+FAR Ltd,Energy,FAR.AX,EQ,AU000000FAR6
+Noumi Limited,Consumer Staples,NOU.AX,EQ,AU0000192346
+High-Tech Metals Limited,Materials,HTM.AX,EQ,AU0000250573
+Asset Vision Co Ltd,Industrials,ASV.AX,EQ,AU0000303216
+Excelsior Capital Ltd,Industrials,ECL.AX,EQ,AU0000037889
+Australian Rare Earths Limited,Materials,AR3.AX,EQ,AU0000154684
+Volt Group Ltd.,Utilities,VPR.AX,EQ,AU000000VPR1
+Arika Resources Limited,Materials,ARI.AX,EQ,AU0000355000
+BCAL Diagnostics Limited,Health Care,BDX.AX,EQ,AU0000160921
+FlexiRoam Ltd,Communication Services,FRX.AX,EQ,AU000000FRX8
+Black Rock Mining Limited,Materials,BKT.AX,EQ,AU000000BKT0
+Janison Education Group Ltd.,Technology,JAN.AX,EQ,AU000000JAN7
+Blackwall Limited,Financials,BWF.AX,EQ,AU000000BWF4
+EZZ Life Science Holdings Ltd.,Industrials,EZZ.AX,EQ,AU0000130569
+Adore Beauty Group Ltd.,Consumer Discretionary,ABY.AX,EQ,AU0000109506
+Riversgold Ltd.,Materials,RGL.AX,EQ,AU000000RGL1
+iCetana Ltd.,Technology,ICE.AX,EQ,AU0000067621
+Raptor Metals Ltd,Materials,RAP.AX,EQ,AU0000452450
+BSA Limited,Industrials,BSA.AX,EQ,AU000000BSA3
+Southern Hemisphere Mining Limited,Materials,SUH.AX,EQ,AU000000SUH8
+Legacy Minerals Holdings Limited,Materials,LGM.AX,EQ,AU0000165383
+Great Divide Mining Ltd,Materials,GDM.AX,EQ,AU0000284960
+Vital Metals Ltd,Materials,VML.AX,EQ,AU000000VML1
+Dynamic Metals Limited,Materials,DYM.AX,EQ,AU0000253379
+Orpheus Uranium Limited,Materials,ORP.AX,EQ,AU0000322448
+Iondrive Limited,Materials,ION.AX,EQ,AU0000305542
+Pointerra Ltd.,Technology,3DP.AX,EQ,AU0000003DP6
+Accent Resources NL,Materials,ACS.AX,EQ,AU000000ACS1
+Dalaroo Metals Ltd.,Materials,DAL.AX,EQ,AU0000172025
+Auris Minerals Ltd.,Materials,AUR.AX,EQ,AU000000AUR5
+Minbos Resources Limited,Materials,MNB.AX,EQ,AU000000MNB9
+OzAurum Resources Ltd.,Materials,OZM.AX,EQ,AU0000128357
+Aerometrex Ltd.,Industrials,AMX.AX,EQ,AU0000064560
+BPM Minerals Ltd.,Materials,BPM.AX,EQ,AU0000119810
+SenSen Networks Ltd.,Technology,SNS.AX,EQ,AU000000SNS0
+Mammoth Minerals Limited,Materials,M79.AX,EQ,AU0000411837
+DGR Global Limited,Materials,DGR.AX,EQ,AU000000DGR8
+Kali Metals Limited,Materials,KM1.AX,EQ,AU0000305468
+Galileo Mining Ltd.,Materials,GAL.AX,EQ,AU0000007510
+Noxopharm Ltd.,Health Care,NOX.AX,EQ,AU000000NOX9
+Australis Oil & Gas Ltd.,Energy,ATS.AX,EQ,AU000000ATS5
+Delorean Corporation Ltd,Utilities,DEL.AX,EQ,AU0000139974
+Revolver Resources Holdings Ltd,Materials,RRR.AX,EQ,AU0000169559
+Orbital Corporation Ltd,Technology,OEC.AX,EQ,AU000000OEC2
+Clime Investment Management Ltd,Financials,CIW.AX,EQ,AU000000CIW6
+Agrimin Limited,Materials,AMN.AX,EQ,AU000000AMN1
+TG Metals Ltd.,Materials,TG6.AX,EQ,AU0000217689
+ARK Mines Ltd,Materials,AHK.AX,EQ,AU000000AHK7
+Greentech Metals Ltd.,Materials,GRE.AX,EQ,AU0000189375
+Javelin Minerals Limited,Materials,JAV.AX,EQ,AU0000193757
+Gold Mountain Limited,Materials,GMN.AX,EQ,AU000000GMN8
+Gale Pacific Limited,Materials,GAP.AX,EQ,AU000000GAP8
+ADX Energy Ltd,Energy,ADX.AX,EQ,AU000000ADX9
+Janus Electric Holdings Limited,Utilities,JNS.AX,EQ,AU0000395626
+Swoop Holdings Limited,Technology,SWP.AX,EQ,AU0000153736
+Recharge Metals Limited,Materials,REC.AX,EQ,AU0000170946
+Algorae Pharmaceuticals Limited,Health Care,1AI.AX,EQ,AU0000296022
+Impact Minerals Limited,Materials,IPT.AX,EQ,AU000000IPT4
+Sheffield Resources Limited,Materials,SFX.AX,EQ,AU000000SFX6
+Pure One Corporation Limited,Energy,P1E.AX,EQ,AU0000442865
+Australian Vintage Ltd,Consumer Staples,AVG.AX,EQ,AU000000AVG6
+RMA Global Ltd.,Technology,RMY.AX,EQ,AU0000013906
+Australian Agricultural Projects Ltd.,Consumer Staples,AAP.AX,EQ,AU000000AAP1
+Nanollose Ltd,Health Care,NC6.AX,EQ,AU000000NC68
+Western Mines Group Ltd,Materials,WMG.AX,EQ,AU0000152969
+Botala Energy Ltd.,Energy,BTE.AX,EQ,AU0000224552
+Patriot Resources limited,Materials,PAT.AX,EQ,AU0000248726
+Cavalier Resources Limited,Materials,CVR.AX,EQ,AU0000217655
+HighCom Limited,Technology,HCL.AX,EQ,AU0000309015
+Lode Resources Ltd,Materials,LDR.AX,EQ,AU0000147258
+Voltaic Strategic Resources Limited,Energy,VSR.AX,EQ,AU0000234395
+Fitzroy River Corp. Ltd.,Financials,FZR.AX,EQ,AU000000FZR3
+Equatorial Resources Limited,Materials,EQX.AX,EQ,AU000000EQX3
+ImExHS Ltd,Technology,IME.AX,EQ,AU0000023053
+Hamelin Gold Limited,Materials,HMG.AX,EQ,AU0000178071
+Patagonia Lithium Limited,Materials,PL3.AX,EQ,AU0000252314
+Proteomics International Laboratories Ltd.,Health Care,PIQ.AX,EQ,AU000000PIQ0
+Harvest Technology Group Ltd.,Technology,HTG.AX,EQ,AU0000082422
+Sarama Resources Ltd. Shs Chess Depository Interests Repr 1 Sh,Materials,SRR.AX,EQ,AU0000213449
+Mayfield Childcare Ltd.,Consumer Discretionary,MFD.AX,EQ,AU000000MFD1
+NextEd Group Limited,Consumer Discretionary,NXD.AX,EQ,AU0000258865
+Aspermont Limited,Consumer Discretionary,ASP.AX,EQ,AU000000ASP3
+Group One Capital Limited,Financials,G1C.AX,EQ,AU0000423741
+Perpetual Resources Ltd.,Materials,PEC.AX,EQ,AU000000PEC9
+De.mem Ltd.,Industrials,DEM.AX,EQ,AU000000DEM4
+RLF AgTech Ltd,Materials,RLF.AX,EQ,AU0000210726
+Altamin Limited,Materials,AZI.AX,EQ,AU000000AZI3
+Great Southern Mining Limited,Materials,GSN.AX,EQ,AU0000017543
+Paterson Resources Limited,Materials,PSL.AX,EQ,AU0000072019
+Curvebeam AI Ltd.,Health Care,CVB.AX,EQ,AU0000289761
+Greenvale Energy Limited,Energy,GRV.AX,EQ,AU000000GRV0
+Great Northern Minerals Limited,Materials,GNM.AX,EQ,AU0000067092
+Atomos Ltd.,Consumer Discretionary,AMS.AX,EQ,AU0000033870
+Vitura Health Limited,Health Care,VIT.AX,EQ,AU0000266801
+I Synergy Group Ltd. TEMP,Industrials,IS3DB.AX,EQ,AU0000467904
+I Synergy Group Ltd.,Industrials,IS3.AX,EQ,AU000000IS34
+Opthea Limited,Health Care,OPT.AX,EQ,AU000000OPT2
+Latitude 66 Limited,Materials,LAT.AX,EQ,AU0000342032
+Resonance Health Ltd,Health Care,RHT.AX,EQ,AU000000RHT2
+Bass Oil Ltd,Energy,BAS.AX,EQ,AU000000BAS3
+High Peak Royalties Limited,Energy,HPR.AX,EQ,AU000000HPR0
+ABx Group Limited,Materials,ABX.AX,EQ,AU000000ABX3
+Horseshoe Metals Limited,Materials,HOR.AX,EQ,AU000000HOR3
+Highfield Resources Limited,Materials,HFR.AX,EQ,AU000000HFR1
+Marvel Gold Ltd,Materials,MVL.AX,EQ,AU0000102154
+Nico Resources Limited,Materials,NC1.AX,EQ,AU0000189284
+SRJ Technologies Group PLC Shs Chess Depository Interests repr 1 Shs,Industrials,SRJ.AX,EQ,AU0000100695
+Indiana Resources Limited,Materials,IDA.AX,EQ,AU000000IDA0
+WIN Metals Ltd,Materials,WIN.AX,EQ,AU0000172041
+Ovanti Ltd,Technology,OVT.AX,EQ,AU0000320459
+Iris Metals Limited,Materials,IR1.AX,EQ,AU0000166134
+Embelton Limited,Materials,EMB.AX,EQ,AU000000EMB8
+Felix Group Holdings Ltd.,Technology,FLX.AX,EQ,AU0000123879
+Connected Minerals Limited,Technology,CML.AX,EQ,AU0000358137
+Hawsons Iron Ltd,Materials,HIO.AX,EQ,AU0000171290
+Sarytogan Graphite Limited,Materials,SGA.AX,EQ,AU0000212136
+Buru Energy Ltd,Energy,BRU.AX,EQ,AU000000BRU3
+Mustera Property Group Ltd.,Financials,MPX.AX,EQ,AU000000MPX8
+Acumentis Group Limited,Financials,ACU.AX,EQ,AU0000077604
+FMR Resources Limited,Technology,FMR.AX,EQ,AU0000340432
+DataWorks Group Limited,Technology,DWG.AX,EQ,AU0000388712
+OncoSil Medical Ltd,Health Care,OSL.AX,EQ,AU000000OSL3
+Peak Processing Limited,Health Care,PKP.AX,EQ,AU0000442287
+SciDev Ltd,Materials,SDV.AX,EQ,AU000000SDV5
+Strategic Elements Ltd,Financials,SOR.AX,EQ,AU000000SOR0
+Kingsrose Mining Ltd,Materials,KRM.AX,EQ,AU000000KRM1
+Gratifii Ltd,Materials,GTI.AX,EQ,AU0000152183
+Terragen Holdings Ltd,Health Care,TGH.AX,EQ,AU0000062333
+Associate Global Partners Limited,Financials,APL.AX,EQ,AU0000251514
+SPACETALK Limited,Industrials,SPA.AX,EQ,AU0000117285
+Neurotech International Ltd.,Health Care,NTI.AX,EQ,AU000000NTI9
+Close the Loop Ltd.,Industrials,CLG.AX,EQ,AU0000186504
+Pursuit Minerals Ltd,Materials,PUR.AX,EQ,AU000000PUR3
+Gullewa Limited,Materials,GUL.AX,EQ,AU000000GUL5
+Energy Metals Ltd,Materials,EME.AX,EQ,AU000000EME2
+Nimy Resources Limited,Materials,NIM.AX,EQ,AU0000182263
+Boa Resources Limited,Materials,BOA.AX,EQ,AU000000BOA2
+Genetic Signatures Ltd.,Industrials,GSS.AX,EQ,AU000000GSS4
+Income Asset Management Group Limited,Financials,IAM.AX,EQ,AU0000200198
+Connexion Mobility Ltd,Technology,CXZ.AX,EQ,AU000000CXZ8
+Argenica Therapeutics Ltd,Health Care,AGN.AX,EQ,AU0000150328
+Mcpherson's Limited,Consumer Staples,MCP.AX,EQ,AU000000MCP2
+SSH Group Ltd.,Energy,SSH.AX,EQ,AU0000168627
+Stavely Minerals Ltd,Materials,SVY.AX,EQ,AU000000SVY1
+Nuchev Pty Ltd,Consumer Staples,NUC.AX,EQ,AU0000067001
+Tian An Australia Limited,Financials,TIA.AX,EQ,AU000000TIA6
+InteliCare Holdings Limited,Technology,ICR.AX,EQ,AU0000081788
+EPX Limited,Technology,EPX.AX,EQ,AU0000141525
+Azzuro Resources Plc Shs Chess Depository Interests Repr 0.1 Sh,Energy,AZ9.AX,EQ,AU0000340143
+Complii Fintech Solutions Ltd,Technology,CF1.AX,EQ,AU0000127011
+Buxton Resources Limited,Materials,BUX.AX,EQ,AU000000BUX1
+Sequoia Financial Group Ltd.,Financials,SEQ.AX,EQ,AU000000SEQ3
+Us1 Critical Minerals Limited,Materials,USC.AX,EQ,AU0000436891
+Taruga Minerals Limited,Materials,TAR.AX,EQ,AU000000TAR7
+Godolphin Resources Limited,Materials,GRL.AX,EQ,AU0000065195
+Magmatic Resources Ltd.,Materials,MAG.AX,EQ,AU000000MAG5
+Lodestar Minerals Limited,Materials,LSR.AX,EQ,AU000000LSR6
+Hawk Resources Limited.,Materials,HWK.AX,EQ,AU0000371999
+Noviqtech Limited,Technology,NVQ.AX,EQ,AU0000299174
+RareX Limited,Materials,REE.AX,EQ,AU0000068579
+Litchfield Minerals Ltd.,Materials,LMS.AX,EQ,AU0000321333
+Siren Gold Ltd,Materials,SNG.AX,EQ,AU0000104069
+Invert Graphite Limited,Materials,IVG.AX,EQ,AU0000378903
+Conneqt Health Limited,Health Care,CQT.AX,EQ,AU0000420739
+City Chic Collective Limited,Consumer Discretionary,CCX.AX,EQ,AU0000031767
+Metals Australia Ltd,Materials,MLS.AX,EQ,AU000000MLS7
+Future Metals NL,Materials,FME.AX,EQ,AU0000157745
+Green Technology Metals Limited,Materials,GT1.AX,EQ,AU0000177271
+Euro Manganese  Inc. Shs Chess Depository Intersts Repr 1 Sh,Materials,EMN.AX,EQ,AU0000022451
+Xenora Minerals Limited,Materials,XRA.AX,EQ,AU0000421117
+Manhattan Gold Corporation Limited,Materials,MHC.AX,EQ,AU000000MHC9
+Xpedra Resources Limited,Materials,XPD.AX,EQ,AU0000442931
+Motio Limited,Industrials,MXO.AX,EQ,AU0000116402
+Star Combo Pharma Ltd.,Health Care,S66.AX,EQ,AU0000004798
+Camplify Holdings Ltd.,Technology,CHL.AX,EQ,AU0000153991
+Infini Resources Ltd.,Materials,I88.AX,EQ,AU0000312670
+Akora Resources Ltd.,Materials,AKO.AX,EQ,AU0000113698
+Rubicon Water Limited,Industrials,RWL.AX,EQ,AU0000170391
+Pivotal Metals Limited,Materials,PVT.AX,EQ,AU0000253965
+Atomo Diagnostics Ltd.,Health Care,AT1.AX,EQ,AU0000080327
+Renerve Limited,Health Care,RNV.AX,EQ,AU0000358616
+Australian Dairy Nutritionals Limited,Consumer Staples,AHF.AX,EQ,AU000000AHF7
+OpenLearning Ltd.,Technology,OLL.AX,EQ,AU0000065401
+Redcastle Resources Limited,Technology,RC1.AX,EQ,AU0000199051
+Jatcorp ltd,Materials,JAT.AX,EQ,AU000000JAT4
+Venari Minerals NL,Materials,VMS.AX,EQ,AU0000424921
+IDT Australia Limited,Health Care,IDT.AX,EQ,AU000000IDT0
+Academies Australasia Group Limited,Consumer Discretionary,AKG.AX,EQ,AU000000AKG9
+Middle Island Resources Limited,Materials,MDI.AX,EQ,AU000000MDI5
+Resources & Energy Group Limited,Materials,REZ.AX,EQ,AU000000REZ6
+Lithium Plus Minerals Ltd.,Materials,LPM.AX,EQ,AU0000214082
+Castle Minerals Ltd,Materials,CDT.AX,EQ,AU000000CDT3
+Talisman Mining Limited,Materials,TLM.AX,EQ,AU000000TLM5
+Duketon Mining Ltd,Materials,DKM.AX,EQ,AU000000DKM1
+Energy Action Limited,Industrials,EAX.AX,EQ,AU000000EAX7
+Zinc of Ireland NL,Materials,ZMI.AX,EQ,AU000000ZMI8
+Aureka Limited,Materials,AKA.AX,EQ,AU0000369704
+Chariot Resources Ltd,Materials,CC9.AX,EQ,AU0000294498
+Red Mountain Mining Ltd,Materials,RMX.AX,EQ,AU000000RMX4
+Scorpion Minerals Limited,Materials,SCN.AX,EQ,AU0000033326
+Belararox Ltd.,Materials,BRX.AX,EQ,AU0000185852
+MetalsGrove Mining Limited,Materials,MGA.AX,EQ,AU0000223257
+Reach Resources Limited,Materials,RR1.AX,EQ,AU0000186249
+Energy Technologies Limited,Industrials,EGY.AX,EQ,AU000000EGY2
+Xref Ltd,Technology,XF1.AX,EQ,AU0000038531
+Mandrake Resources Ltd,Materials,MAN.AX,EQ,AU0000054587
+Carbine Resources Limited,Materials,CRB.AX,EQ,AU000000CRB1
+Industrial Minerals Limited,Materials,IND.AX,EQ,AU0000158578
+AF Legal Group Limited,Industrials,AFL.AX,EQ,AU0000048001
+Platina Resources Limited,Materials,PGM.AX,EQ,AU000000PGM3
+Tinybeans Group Ltd,Technology,TNY.AX,EQ,AU000000TNY6
+Flynn Gold Ltd,Materials,FG1.AX,EQ,AU0000143695
+Magontec Limited,Materials,MGL.AX,EQ,AU000000MGL2
+Condor Energy Limited,Energy,CND.AX,EQ,AU0000331142
+Adavale Resources Limited,Materials,ADD.AX,EQ,AU000000ADD1
+American Uranium Limited,Materials,AMU.AX,EQ,AU0000415879
+Metal Bank Ltd,Materials,MBK.AX,EQ,AU000000MBK5
+Dome Gold Mines Ltd.,Materials,DME.AX,EQ,AU000000DME4
+Iron Road Ltd,Materials,IRD.AX,EQ,AU000000IRD4
+TZ Limited,Technology,TZL.AX,EQ,AU000000TZL7
+Narryer Metals Limited,Materials,NYM.AX,EQ,AU0000212961
+Megado Minerals Ltd.,Materials,MEG.AX,EQ,AU0000105025
+Ragnar Metals Limited,Materials,RAG.AX,EQ,AU0000031304
+Adheris Health Limited,Technology,AHE.AX,EQ,AU0000437493
+Myeco Group Ltd,Industrials,MCO.AX,EQ,AU0000365637
+Constellation Resources Ltd.,Materials,CR1.AX,EQ,AU0000012023
+Locality Planning Energy Holdings Limited,Utilities,LPE.AX,EQ,AU000000LPE0
+Battery Age Minerals Limited,Materials,BM8.AX,EQ,AU0000262644
+Minerals Exploration Limited,Materials,MEX.AX,EQ,AU0000439838
+Kalgoorlie Gold Mining Limited,Materials,KAL.AX,EQ,AU0000180226
+Cambium Bio Ltd,Health Care,CMB.AX,EQ,AU0000327769
+Tusker Minerals Ltd,Materials,TSK.AX,EQ,AU0000437634
+Ava Risk Group Ltd.,Technology,AVA.AX,EQ,AU0000010845
+Ignite Limited,Industrials,IGN.AX,EQ,AU0000033763
+Temas Resources Corp. Chess Depository Interest,Materials,TIO.AX,EQ,AU0000417313
+Dundas Minerals Limited,Materials,DUN.AX,EQ,AU0000178139
+Bayan Mining And Minerals Limited,Materials,BMM.AX,EQ,AU0000157455
+Agency Group Australia Ltd,Financials,AU1.AX,EQ,AU000000AU12
+Star Minerals Ltd.,Materials,SMS.AX,EQ,AU0000168874
+Fulcrum Lithium Ltd.,Materials,FUL.AX,EQ,AU0000352098
+Vanadium Resources Ltd.,Materials,VR8.AX,EQ,AU0000053522
+Canterbury Resources Ltd.,Materials,CBY.AX,EQ,AU0000028102
+Emu NL,Materials,EMU.AX,EQ,AU000000EMU8
+Firebrick Pharma Limited,Health Care,FRE.AX,EQ,AU0000197352
+Immuron Limited,Health Care,IMC.AX,EQ,AU000000IMC7
+K2 Asset Management Holdings Ltd,Financials,KAM.AX,EQ,AU000000KAM7
+Morella Corporation Limited,Materials,1MC.AX,EQ,AU0000199929
+Avada Group Limited,Industrials,AVD.AX,EQ,AU0000187932
+Bulletin Resources Limited,Materials,BNR.AX,EQ,AU000000BNR8
+ReadCloud Ltd.,Technology,RCL.AX,EQ,AU000000RCL0
+AdNeo Limited,Technology,AD1.AX,EQ,AU000000AD13
+Cazaly Resources Limited,Materials,CAZ.AX,EQ,AU000000CAZ6
+AUCyber Limited,Technology,CYB.AX,EQ,AU0000359218
+Cadoux Limited,Materials,CCM.AX,EQ,AU0000310302
+Axel REE Ltd.,Materials,AXL.AX,EQ,AU0000336018
+Corazon Mining Limited,Materials,CZN.AX,EQ,AU000000CZN9
+Aruma Resources Limited,Materials,AAJ.AX,EQ,AU000000AAJ4
+Careteq Ltd.,Industrials,CTQ.AX,EQ,AU0000195240
+Underwood Capital Limited,Financials,UWC.AX,EQ,AU0000373201
+Great Western Exploration Limited,Materials,GTE.AX,EQ,AU000000GTE2
+QEM Limited,Energy,QEM.AX,EQ,AU0000022246
+Pioneer Minerals Limited,Materials,PMM.AX,EQ,AU0000439135
+Evergold Minerals Limited,Materials,EG1.AX,EQ,AU0000265324
+DTI Group Ltd,Technology,DTI.AX,EQ,AU000000DTI0
+Critical Minerals Group Ltd.,Industrials,CMG.AX,EQ,AU0000226326
+Peregrine Gold Ltd.,Materials,PGD.AX,EQ,AU0000134389
+International Graphite Limited,Industrials,IG6.AX,EQ,AU0000210957
+FOS Capital Ltd,Industrials,FOS.AX,EQ,AU0000149312
+Augustus Minerals Limited,Materials,AUG.AX,EQ,AU0000276453
+Ambertech Limited,Industrials,AMO.AX,EQ,AU000000AMO9
+Rubix Resources Limited,Materials,RB6.AX,EQ,AU0000189276
+Iceni Gold Ltd.,Materials,ICL.AX,EQ,AU0000140030
+Rincon Resources Ltd.,Materials,RCR.AX,EQ,AU0000116352
+Golden Deeps Limited,Materials,GED.AX,EQ,AU000000GED6
+Reward Minerals Ltd,Materials,RWD.AX,EQ,AU000000RWD5
+ITech Minerals LTD,Materials,ITM.AX,EQ,AU0000177172
+Aeris Environmental Ltd,Consumer Staples,AEI.AX,EQ,AU000000AEI8
+Stelar Metals Limited,Materials,SLB.AX,EQ,AU0000207268
+333D Limited,Industrials,T3D.AX,EQ,AU000000T3D6
+Invex Therapeutics Ltd.,Health Care,IXC.AX,EQ,AU0000048621
+Aurora Energy Metals Limited,Materials,1AE.AX,EQ,AU0000216889
+Epsilon Healthcare Limited,Health Care,EPN.AX,EQ,AU0000137598
+Bindi Metals Ltd.,Materials,BIM.AX,EQ,AU0000217580
+Stonehorse Energy Ltd,Energy,SHE.AX,EQ,AU0000054900
+Acrux Limited,Health Care,ACR.AX,EQ,AU000000ACR3
+Koba Resources Limited,Materials,KOB.AX,EQ,AU0000212375
+Kingfisher Mining Ltd.,Materials,KFM.AX,EQ,AU0000118473
+Macarthur Minerals Limited,Materials,MIO.AX,EQ,AU0000062440
+Regener8 Resources NL,Materials,R8R.AX,EQ,AU0000222887
+Novatti Group Ltd.,Technology,NOV.AX,EQ,AU000000NOV3
+Scalare Partners Holdings Limited,Consumer Staples,SCP.AX,EQ,AU0000361503
+Orange Minerals NL,Materials,OMX.AX,EQ,AU0000184293
+E79 Gold Mines Limited,Materials,E79.AX,EQ,AU0000171415
+Bio-Gene Technology Ltd.,Materials,BGT.AX,EQ,AU000000BGT8
+Pantera Minerals Limited,Materials,PFE.AX,EQ,AU0000158560
+Tambourah Metals Ltd,Materials,TMB.AX,EQ,AU0000161879
+Vectus Biosystems Limited,Health Care,VBS.AX,EQ,AU000000VBS9
+Basin Energy Limited,Materials,BSN.AX,EQ,AU0000238461
+North Stawell Minerals  Ltd.,Materials,NSM.AX,EQ,AU0000099715
+Tarrina Resources Limited,Consumer Discretionary,TR8.AX,EQ,AU0000427221
+Catalina Resources Limited,Materials,CTN.AX,EQ,AU0000255119
+Beonic Limited,Technology,BEO.AX,EQ,AU0000306292
+Alvo Minerals Limited,Materials,ALV.AX,EQ,AU0000168999
+Orcoda Limited,Technology,ODA.AX,EQ,AU0000022261
+Verity Resources Limited,Materials,VRL.AX,EQ,AU0000372054
+WestStar Industrial Ltd.,Materials,WSI.AX,EQ,AU000000WSI2
+Imagion Biosystems Ltd.,Health Care,IBX.AX,EQ,AU000000IBX6
+Helix Resources Limited,Materials,HLX.AX,EQ,AU000000HLX7
+Tartana Minerals Limited,Materials,TAT.AX,EQ,AU0000330250
+EVE Health Group Limited,Health Care,EVE.AX,EQ,AU000000EVE3
+Gibb River Diamonds Limited,Materials,GIB.AX,EQ,AU0000031411
+Albion Resources Ltd.,Materials,ALB.AX,EQ,AU0000142002
+Xstate Resources Limited,Energy,XST.AX,EQ,AU000000XST7
+State Gas Ltd.,Energy,GAS.AX,EQ,AU000000GAS2
+Strata Minerals Limited,Materials,SMX.AX,EQ,AU0000353658
+Terra Critical Minerals Limited,Materials,T92.AX,EQ,AU0000235004
+Metal Hawk Ltd.,Materials,MHK.AX,EQ,AU0000109597
+Techgen Metals Ltd.,Materials,TG1.AX,EQ,AU0000137440
+Prophecy International Holdings Ltd,Technology,PRO.AX,EQ,AU000000PRO6
+Merino & Co Limited,Materials,MNC.AX,EQ,AU0000348625
+Strike Resources Limited,Materials,SRK.AX,EQ,AU000000SRK8
+Strategic Energy Resources Limited,Materials,SER.AX,EQ,AU000000SER1
+Magnetite Mines Ltd.,Materials,MGT.AX,EQ,AU000000MGT5
+Mamba Exploration Ltd.,Materials,M24.AX,EQ,AU0000129348
+Elanor Investors Group,Consumer Discretionary,ENN.AX,EQ,AU000000ENN1
+Golden State Mining Ltd.,Materials,GSM.AX,EQ,AU0000023574
+ActivEX Limited,Materials,AIV.AX,EQ,AU000000AIV2
+Far Northern Resources Limited,Materials,FNR.AX,EQ,AU0000291585
+Taiton Resources Limited,Energy,T88.AX,EQ,AU0000243750
+Charger Metals NL TEMP,Materials,CHRCB.AX,EQ,AU0000446684
+Charger Metals NL,Materials,CHR.AX,EQ,AU0000156143
+Axtec Limited,Financials,AXI.AX,EQ,AU000000AXI8
+Orbminco Limited,Materials,OB1.AX,EQ,AU0000371049
+Olympio Metals Limited,Materials,OLY.AX,EQ,AU0000221632
+Eminence Minerals Limited,Materials,EMA.AX,EQ,AU0000439168
+Papyrus Australia Ltd,Materials,PPY.AX,EQ,AU000000PPY9
+Pentanet Ltd,Technology,5GG.AX,EQ,AU0000129496
+Union Star Metals Ltd,Materials,USM.AX,EQ,AU0000461881
+Soco Corporation Ltd,Industrials,SOC.AX,EQ,AU0000255747
+Tissue Repair Ltd,Health Care,TRP.AX,EQ,AU0000180887
+McLaren Minerals Limited,Materials,MML.AX,EQ,AU0000369662
+Pure Foods Tasmania Ltd.,Consumer Staples,PFT.AX,EQ,AU0000086530
+Butn Limited,Technology,BTN.AX,EQ,AU0000156317
+Omnia Metals Group Ltd,Materials,OM1.AX,EQ,AU0000206732
+West Cobar Metals Ltd.,Materials,WC1.AX,EQ,AU0000169963
+RemSense Technologies Limited,Technology,REM.AX,EQ,AU0000175820
+Australian Silica Quartz Group Limited,Materials,ASQ.AX,EQ,AU0000066169
+Juno Minerals Ltd.,Materials,JNO.AX,EQ,AU0000134173
+Lightning Minerals Limited,Materials,L1M.AX,EQ,AU0000247256
+Kuniko Ltd.,Materials,KNI.AX,EQ,AU0000159840
+Lion Energy Limited,Energy,LIO.AX,EQ,AU000000LIO4
+Cooper Metals Limited,Materials,CPM.AX,EQ,AU0000179137
+CGN Resources Ltd.,Materials,CGR.AX,EQ,AU0000294654
+Solara Minerals Ltd.,Materials,SLA.AX,EQ,AU0000385841
+Australasian Metals Limited,Materials,A8G.AX,EQ,AU0000141137
+Riedel Resources Limited,Materials,RIE.AX,EQ,AU000000RIE2
+Infinity Metals Limited,Materials,INF.AX,EQ,AU0000007627
+Hubify Ltd.,Communication Services,HFY.AX,EQ,AU0000114852
+C29 Metals Limited,Materials,C29.AX,EQ,AU0000174237
+ACDC Metals Ltd,Materials,ADC.AX,EQ,AU0000251811
+Nex Metals Exploration Ltd,Materials,NME.AX,EQ,AU000000NME3
+Audeara Ltd.,Consumer Discretionary,AUA.AX,EQ,AU0000145807
+Parkd Ltd.,Industrials,PKD.AX,EQ,AU000000PKD4
+Codrus Minerals Ltd.,Materials,CDR.AX,EQ,AU0000151136
+Bubalus Resources Ltd.,Materials,BUS.AX,EQ,AU0000238479
+Hiremii Ltd.,Industrials,HMI.AX,EQ,AU0000143471
+Western Yilgarn NL,Materials,WYX.AX,EQ,AU0000231680
+Ragusa Minerals Ltd,Materials,RAS.AX,EQ,AU0000107898
+Turnstone Resources Ltd,Materials,TSR.AX,EQ,AU0000460404
+Nexalis Therapeutics Limited,Industrials,NX1.AX,EQ,AU0000456733
+M3 Mining Ltd.,Materials,M3M.AX,EQ,AU0000157661
+Heavy Rare Earths Limited,Materials,HRE.AX,EQ,AU0000232035
+Saferoads Holdings Limited,Industrials,SRH.AX,EQ,AU000000SRH4
+Kingsland Minerals Ltd.,Materials,KNG.AX,EQ,AU0000218869
+Halo Technologies Holdings Ltd,Technology,HAL.AX,EQ,AU0000211971
+Harris Technology Group Limited,Industrials,HT8.AX,EQ,AU000000HT83
+RPM Automotive Group Ltd.,Industrials,RPM.AX,EQ,AU0000051708
+Bridge Saas Limited,Technology,BGE.AX,EQ,AU0000235418
+Pinnacle Minerals Limited,Materials,PIM.AX,EQ,AU0000208282
+Burley Minerals Ltd.,Materials,BUR.AX,EQ,AU0000155699
+Resource Base Limited,Materials,RBX.AX,EQ,AU0000152803
+Beam Communications Holdings Limited,Technology,BCC.AX,EQ,AU0000031395
+Spectur Ltd.,Technology,SP3.AX,EQ,AU000000SP35
+SQX Resources Limited,Materials,SQX.AX,EQ,AU0000262008
+Knosys Ltd.,Technology,KNO.AX,EQ,AU000000KNO6
+8Common Ltd,Technology,8CO.AX,EQ,AU0000008CO0
+Love Group Ltd,Industrials,LVE.AX,EQ,AU000000LVE8
+Dart Mining NL,Materials,DTM.AX,EQ,AU000000DTM2
+Diablo Resources Limited,Materials,DBO.AX,EQ,AU0000172009
+8I Holdings Ltd. Chess Depository Interests repr 1 shs,Financials,8IH.AX,EQ,AU0000008IH1
+Invion Ltd.,Health Care,IVX.AX,EQ,AU000000IVX4
+Prestal Holdings Limited,Consumer Staples,PTL.AX,EQ,AU000000PTL8
+Timah Resources Ltd,Utilities,TML.AX,EQ,AU000000TML5
+Piche Resources Limited,Materials,PR2.AX,EQ,AU0000333486
+Argent Biopharma Ltd,Health Care,RGT.AX,EQ,AU0000326647
+Chimeric Therapeutics Limited,Health Care,CHM.AX,EQ,AU0000121576
+Eneco Refresh Limited,Consumer Staples,ERG.AX,EQ,AU0000041881
+NewPeak Metals Ltd.,Materials,NPM.AX,EQ,AU0000104374
+Eastern Resources Limited,Materials,EFE.AX,EQ,AU000000EFE6
+Surefire Resources NL,Materials,SRN.AX,EQ,AU000000SRN2
+Discovery Alaska Limited,Materials,DAF.AX,EQ,AU000000DAF6
+Range International Limited,Industrials,RAN.AX,EQ,AU000000RAN0
+Tali Digital Ltd,Technology,TD1.AX,EQ,AU0000074221
+Visionflex Group Limited,Technology,VFX.AX,EQ,AU0000303158
+Wellnex Life Ltd,Consumer Staples,WNX.AX,EQ,AU0000162281
+Key Petroleum Limited,Energy,KEY.AX,EQ,AU000000KEY4
+Global Health Limited,Health Care,GLH.AX,EQ,AU000000GLH2
+Octava Minerals Ltd.,Materials,OCT.AX,EQ,AU0000229049
+Vita Resources NL,Materials,VTA.AX,EQ,AU0000453698
+Lord Resources Limited,Materials,LRD.AX,EQ,AU0000210098
+RBR Group Ltd,Industrials,RBR.AX,EQ,AU000000RBR9
+Platformo Ltd,Industrials,PFM.AX,EQ,AU0000400137
+Oakridge Internatinal Ltd,Health Care,OAK.AX,EQ,AU0000146961
+Australian Bond Exchange Holdings Ltd.,Financials,ABE.AX,EQ,AU0000187577
+Metgasco Ltd,Energy,MEL.AX,EQ,AU000000MEL7
+Katana Capital Ltd.,Financials,KAT.AX,EQ,AU000000KAT2
+Parabellum Resources Ltd.,Materials,PBL.AX,EQ,AU0000181109
+NAOS Emerging Opportunities Co. Ltd.,Financials,NCC.AX,EQ,AU000000NCC8
+Pengana International Equities Ltd Registered,Financials,PIA.AX,EQ,AU000000PIA4
+Argo Investments,Financials,ARG.AX,EQ,AU000000ARG4
+CD Private Equity Fund III Units,Financials,CD3.AX,EQ,AU000000CD37
+Valiant Gold Limited,Materials,VAL.AX,EQ,AU0000457384
+Staude Capital Global Value Fund Ltd,Financials,GVF.AX,EQ,AU000000GVF5
+Argo Global Listed Infrastructure Ltd.,Financials,ALI.AX,EQ,AU000000ALI3
+Djerriwarrh Investments Limited,Financials,DJW.AX,EQ,AU000000DJW2
+Thorney Opportunities Ltd.,Financials,TOP.AX,EQ,AU000000TOP2
+L1 Gold Fund Limited,Financials,LGF.AX,EQ,AU0000460305
+StepChange Holdings Ltd.,Technology,STH.AX,EQ,AU0000402125
+Arcadia Minerals Limited Chess Depository Interests Repr 1 Sh,Materials,AM7.AX,EQ,AU0000145815
+NGX Limited,Materials,NGX.AX,EQ,AU0000273088
+Plato Income Maximiser Ltd.,Financials,PL8.AX,EQ,AU000000PL81
+Bison Resources Ltd.,Materials,BSR.AX,EQ,AU0000459505
+Perpetual Equity Investment Co. Ltd.,Financials,PIC.AX,EQ,AU000000PIC0
+Acorn Capital Investment Fund Ltd Registered,Financials,ACQ.AX,EQ,AU000000ACQ5
+Bailador Technology Investments Ltd,Financials,BTI.AX,EQ,AU000000BTI4
+Regal Partners Global Investments Limited,Financials,RG1.AX,EQ,AU0000434920
+L1 Long Short Fund,Financials,LSF.AX,EQ,AU0000002339
+BTC Health Ltd Registered,Financials,BTC.AX,EQ,AU000000BTC7
+Cadence Opportunities Fund Ltd.,Financials,CDO.AX,EQ,AU0000186165
+Glennon Small Companies Ltd,Financials,GC1.AX,EQ,AU000000GC18
+Unity Metals Limited,Materials,UM1.AX,EQ,AU0000432536
+Sandon Capital Investments Limited,Financials,SNC.AX,EQ,AU000000SNC4
+Desert Minerals Ltd.,Materials,DSM.AX,EQ,AU0000420002
+Tribeca Global Natural Resources Ltd.,Financials,TGF.AX,EQ,AU0000023202
+WAM Strategic Value Ltd,Financials,WAR.AX,EQ,AU0000155707
+Golden Globe Resources Ltd.,Materials,GGR.AX,EQ,AU0000416778
+PC Gold Ltd.,Materials,PC2.AX,EQ,AU0000413726
+Australian Foundation Investment Company,Financials,AFI.AX,EQ,AU000000AFI5
+Regal Investment Fund Units,Financials,RF1.AX,EQ,AU0000045585
+Sierra Nevada Gold  Inc.. Shs Chess Depository Interests Repr 1 Sh,Materials,SNX.AX,EQ,AU0000211872
+Spheria Emerging Cos. Ltd.,Financials,SEC.AX,EQ,AU000000SEC3
+WAM Research Ltd.,Financials,WAX.AX,EQ,AU000000WAX9
+Morphic Ethical Equities Fund Ltd.,Financials,MEC.AX,EQ,AU000000MEC6
+Boresight Ltd.,Technology,BST.AX,EQ,AU0000467094
+L1 Global Long Short Fund Limited Registered,Financials,GLS.AX,EQ,AU0000440166
+Australian United Investment Co. Ltd.,Financials,AUI.AX,EQ,AU000000AUI4
+WAM Capital,Financials,WAM.AX,EQ,AU000000WAM2
+Bentley Capital Ltd.,Financials,BEL.AX,EQ,AU000000BEL0
+Orion Equities Limited,Financials,OEQ.AX,EQ,AU000000OEQ2
+Gryphon Capital Income Trust,Financials,GCI.AX,EQ,AU0000005209
+WAM Leaders,Financials,WLE.AX,EQ,AU000000WLE6
+Saluda Medical Inc CHESS Depository Interest,Health Care,SLD.AX,EQ,AU0000432114
+WAM Alternative Assets Ltd,Financials,WMA.AX,EQ,AU0000110827
+ARC Funds Limited,Financials,ARC.AX,EQ,AU000000ARC3
+Nexsen Limited,Health Care,NXN.AX,EQ,AU0000418782
+Green & Gold Minerals Limited,Materials,GG1.AX,EQ,AU0000408783
+360 Capital Mortgage REIT,Financials,TCF.AX,EQ,AU0000108771
+Solaris Australian Equity Income Plus Ltd.,Financials,SET.AX,EQ,AU0000461840
+PM Capital Global Opportunities Fund Ltd.,Financials,PGF.AX,EQ,AU000000PGF7
+WAM Global Ltd.,Financials,WGB.AX,EQ,AU0000009649
+Future Generation Global Limited,Financials,FGG.AX,EQ,AU000000FGG6
+Carlton Investments Ltd,Financials,CIN.AX,EQ,AU000000CIN5
+KTEK Aerosystems Ltd.,Industrials,KTK.AX,EQ,AU0000465338
+Fat Prophets Global Contrarian Fund Ltd.,Financials,FPC.AX,EQ,AU000000FPC6
+Eastern Gas Corp Ltd,Energy,EGA.AX,EQ,AU0000446429
+WAM Active Ltd.,Financials,WAA.AX,EQ,AU000000WAA7
+WAM Microcap Ltd.,Financials,WMI.AX,EQ,AU000000WMI5
+Perpetual Credit Income Trust,Financials,PCI.AX,EQ,AU0000041261
+CD Private Equity Fund II Units,Financials,CD2.AX,EQ,AU000000CD29
+Lion Selection Group Ltd.,Financials,LSX.AX,EQ,AU000000LSX4
+Hearts and Minds Investments Ltd,Financials,HM1.AX,EQ,AU0000026569
+Moonlight Resources Ltd,Materials,ML8.AX,EQ,AU0000430498
+Skinkandy Limited,Consumer Discretionary,SK1.AX,EQ,AU0000469470
+Ronin Resources Ltd,Energy,RON.AX,EQ,AU0000188849
+Right Resources Limited,Materials,RRE.AX,EQ,AU0000422495
+Cadence Capital Limited,Financials,CDM.AX,EQ,AU000000CDM8
+Whitefield Industrials Limited,Financials,WHF.AX,EQ,AU000000WHF1
+Kapstream Investment Trust,Financials,KIT.AX,EQ,AU0000457392
+Golden Dragon Mining Ltd,Materials,GDR.AX,EQ,AU0000420044
+Thorney Technologies Limited,Financials,TEK.AX,EQ,AU000000TEK4
+Touch Ventures Ltd.,Financials,TVL.AX,EQ,AU0000175424
+Barkly Rare Earths Ltd.,Materials,BAK.AX,EQ,AU0000446015
+Gowing Bros. Ltd.,Financials,GOW.AX,EQ,AU000000GOW5
+Equus Energy Limited,Materials,EQU.AX,EQ,AU0000427874
+Future Generation Australia Limited Stapled Security,Financials,FGX.AX,EQ,AU000000FGX1
+Metrics Income Opportunities Trust Units,Financials,MOT.AX,EQ,AU0000040776
+Clime Capital Limited,Financials,CAM.AX,EQ,AU000000CAM4
+MB Gold Limited,Materials,MBG.AX,EQ,AU0000452344
+InvestSMART Group Limited,Financials,INV.AX,EQ,AU000000INV5
+WCM Global Growth Ltd.,Financials,WQG.AX,EQ,AU0000017071
+Bmc Minerals Ltd CHESS Depositary Interests,Materials,BMC.AX,EQ,AU0000432627
+Alternative Investment Trust Units,Financials,AIQ.AX,EQ,AU000000AIQ2
+BKI Investment Co. Ltd.,Financials,BKI.AX,EQ,AU000000BKI3
+KKR Credit Income fund Units,Financials,KKC.AX,EQ,AU0000060014
+AMCIL Limited,Financials,AMH.AX,EQ,AU000000AMH3
+Lowell Resources Funds Management Ltd Units,Financials,LRT.AX,EQ,AU000000LRT4
+NAOS Small Cap Opportunities Company Ltd,Financials,NSC.AX,EQ,AU000000NSC4
+Flagship Investments Ltd.,Financials,FSI.AX,EQ,AU000000FSI7
+Global Masters Fund Limited,Financials,GFL.AX,EQ,AU000000GFL6
+Toubani Resources Limited Registered Shs,Materials,TRE.AX,EQ,AU0000241416
+Australian Critical Minerals Ltd.,Materials,ACM.AX,EQ,AU0000280646
+Ryder Capital Ltd.,Financials,RYD.AX,EQ,AU000000RYD1
+NAOS Ex-50 Opportunities Co. Ltd.,Financials,NAC.AX,EQ,AU000000NAC2
+Metrics Master Income Trust,Financials,MXT.AX,EQ,AU000000MXT0
+6K Additive  Inc. Shs Chess Depository Interest Repr 1 Sh,Materials,6KA.AX,EQ,AU0000432205
+Exultant Mining Ltd.,Materials,10X.AX,EQ,AU0000430449
+Kaoko Metals Limited,Materials,KAO.AX,EQ,AU0000459398
+Benjamin Hornigold Ltd.,Financials,BHD.AX,EQ,AU000000BHD0
+Mount Hope Mining Limited,Materials,MHM.AX,EQ,AU0000360505
+Pengana Private Equity Trust,Financials,PE1.AX,EQ,AU0000039521
+49 Metals Limited,Materials,49M.AX,EQ,AU0000455057
+NGE Capital Ltd,Financials,NGE.AX,EQ,AU000000NGE5
+Regal Asian Investments Limited,Financials,RG8.AX,EQ,AU0000253510
+Ironbark Balanced Income Limited Registered,Financials,IBC.AX,EQ,AU000000IBC0
+CD Private Equity Fund I Units,Financials,CD1.AX,EQ,AU000000CD11
+Macallum New Energy Limited,Energy,MNE.AX,EQ,AU0000446361
+Black Horse Mining Ltd.,Materials,BHL.AX,EQ,AU0000426348
+Western Ridge Resources Limited,Industrials,WRX.AX,EQ,AU0000458739
+ECP Emerging Growth Ltd.,Financials,ECP.AX,EQ,AU0000067514
