@@ -316,4 +316,93 @@ def main():
 
     patterns_by_sym={}; patterns_list=[]
     if ENABLE_PATTERNS:
-        prin
+        print("\n📐 Detecting chart patterns …")
+        pat_dict = {k: v for k, v in ohlcv_dict.items() if len(v) >= 60}
+        patterns_by_sym, patterns_list = run_pattern_detection(pat_dict)
+
+    tz_obj   = timezone(timedelta(hours=-3))
+    run_time = datetime.now(tz_obj).strftime(f"%d %B %Y %H:%M BRT")
+
+    print("\n📸 Market Snapshot …");   snap_df    = build_br_snapshot()
+    print("🏭 Sector Strength …");    sec_str_df = build_sector_strength(
+        universe, price_data, index_prices, sector_prices, primary_rs=PRIMARY_RS_PERIOD)
+    print("🔄 Sector Rotation …");    sec_rot_df = build_sector_rotation(
+        universe, price_data, index_prices, primary_rs=PRIMARY_RS_PERIOD)
+    print("🏭 Industry Rotation …");  ind_rot_df = build_industry_rotation(
+        universe, price_data, index_prices, primary_rs=PRIMARY_RS_PERIOD)
+    print("📊 Market Breadth …");     breadth_df = build_market_breadth(
+        price_data, index_prices, BR_BREADTH_INDICES, INDEX_DATA_DIR, market="br")
+    print("📈 Sector Performance …"); sec_perf_df= build_sector_performance(
+        sector_prices, index_prices)
+    print("📊 Stock Strength …")
+    stock_df = build_stock_strength(
+        universe, price_data, index_prices, sector_prices, patterns_by_sym,
+        market="br", fetch_financials=FETCH_FINANCIALS,
+        ohlcv_dict=ohlcv_dict if ENABLE_SIGNALS else {},
+        primary_rs=PRIMARY_RS_PERIOD)
+    print("🏆 Top Picks – Buy …");    top_buy_df  = build_top_picks_buy(
+        stock_df, sec_str_df, market="br", primary_rs=PRIMARY_RS_PERIOD)
+    print("🔴 Top Picks – Sell …");   top_sell_df = build_top_picks_sell(
+        stock_df, sec_str_df, market="br", primary_rs=PRIMARY_RS_PERIOD)
+    print("📐 Chart Patterns …");     chart_df    = build_chart_patterns_df(
+        patterns_list, stock_df, market="br")
+    print("🎯 Trade Setups …");       trade_df    = build_trade_setups(
+        stock_df, sec_str_df, market="br", primary_rs=PRIMARY_RS_PERIOD)
+    print("📋 RS Sleeve Lists …");    sleeve_df   = build_rs_sleeve_list(
+        stock_df, universe, INDEX_DATA_DIR, market="br", run_time=run_time,
+        index_prices=index_prices, price_data=price_data,
+        ohlcv_dict=ohlcv_dict, primary_rs=PRIMARY_RS_PERIOD)
+    print("🌍 Country ETF Strength …")
+    country_etf_df = build_country_etf_df(index_prices, period_days=PERIOD_DAYS,
+                                           primary_rs=PRIMARY_RS_PERIOD)
+    print("🏅 Commodity Strength …")
+    commodity_df   = build_commodity_df(period_days=PERIOD_DAYS, primary_rs=PRIMARY_RS_PERIOD)
+    dashboard_df   = build_dashboard_df(stock_df, sec_str_df, "br", run_time,
+                                        primary_rs=PRIMARY_RS_PERIOD)
+
+    # ── BUILD HTML ────────────────────────────────────────────────────────────
+    rrg_html = None
+    try:
+        from market_rrg import build_rrg_data, build_rrg_section, make_sector_colors as _rrg_colors
+        _rrg_d = build_rrg_data(sector_prices, index_prices)
+        _sl = list((_rrg_d.get("weekly") or _rrg_d.get("daily", {})))
+        rrg_html = build_rrg_section(_rrg_d, _sl, _rrg_colors(_sl), market_code="BR")
+    except Exception as _e:
+        print(f"  RRG skipped: {_e}")
+
+    print("\n🌐 Building Brazil HTML report …")
+    try:
+        from market_html import build_html_report
+        html_path = os.path.join(SCRIPT_DIR, "BR.html")
+        build_html_report(
+            market="br", snapshot_df=snap_df, sector_str_df=sec_str_df,
+            sector_rot_df=sec_rot_df, industry_rot_df=ind_rot_df,
+            breadth_df=breadth_df, sector_perf_df=sec_perf_df, stock_str_df=stock_df,
+            top_buy_df=top_buy_df, top_sell_df=top_sell_df,
+            chart_pat_df=chart_df, trade_df=trade_df,
+            dashboard_df=dashboard_df, sleeve_df=sleeve_df,
+            country_etf_df=country_etf_df, commodity_df=commodity_df,
+            output_path=html_path, run_time=run_time, primary_rs=PRIMARY_RS_PERIOD,
+            rrg_section=rrg_html)
+        print(f"  ✅ HTML: {html_path}")
+    except Exception as e:
+        print(f"  ❌ HTML generation failed: {e}")
+        import traceback; traceback.print_exc()
+
+    elapsed = time.time() - t0
+    print(f"\n{'='*68}")
+    print(f"  ✅  COMPLETE!  |  ⏱ {elapsed:.0f}s  |  📄 BR.html")
+    if not stock_df.empty:
+        sl_col = "Signal_Label" if "Signal_Label" in stock_df.columns else None
+        if sl_col:
+            prime = int(stock_df[sl_col].astype(str).str.startswith("🌟").sum())
+            conf  = int(stock_df[sl_col].astype(str).str.startswith("✅").sum())
+            rsbuy = int(stock_df[sl_col].astype(str).str.startswith("📈").sum())
+            watch = int(stock_df[sl_col].astype(str).str.startswith("👁").sum())
+            avoid = int(stock_df[sl_col].astype(str).str.startswith("🔴").sum())
+            print(f"  Prime:{prime} | Conf:{conf} | RS Buy:{rsbuy} | Watch:{watch} | Avoid:{avoid}")
+    print("="*68)
+
+
+if __name__ == "__main__":
+    main()

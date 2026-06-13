@@ -44,7 +44,7 @@ if os.path.exists(os.path.join(SCRIPT_DIR, "IndexData")):
 else:
     INDEX_DATA_DIR = r"C:\Users\sudhi\Documents\Trading\SectorRotation\IndexData" # Local
 
-STOCK_CSV = os.path.join(INDEX_DATA_DIR, "us_sp500list.csv")
+STOCK_CSV = os.path.join(INDEX_DATA_DIR, "us_all_stocks_master.csv")
 
 # ── Tunable constants ─────────────────────────────────────────────────────────
 MAX_STOCKS        = 1500
